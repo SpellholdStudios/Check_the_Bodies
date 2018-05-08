@@ -1,0 +1,18 @@
+IF
+	GlobalGT("CbWizardsAndHakesharPlot","GLOBAL",1)
+	AreaCheck("AR1002")
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
+	Global("CbWizardsAndHakesharPlot","GLOBAL",1)
+	!AreaCheck("AR1002")
+	See([GOODCUTOFF])
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(LastSeenBy(Myself))
+END
+
+

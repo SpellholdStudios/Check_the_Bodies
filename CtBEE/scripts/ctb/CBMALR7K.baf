@@ -1,0 +1,19 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("CBMALR1")
+		ActionOverride("CBMALR7",DestroyItem("CBMALR#E"))
+		ForceSpell("CBMALR7",WIZARD_MAGIC_MISSILE)
+		Wait(2)
+		ForceSpell("CBMALR7",WIZARD_MAGIC_MISSILE)
+		Wait(2)
+		ForceSpell("CBMALR7",WIZARD_MAGIC_MISSILE)
+		Wait(2)
+		ForceSpell("CBMALR7",WIZARD_DISINTEGRATE_IGNORE_RESISTANCE)
+		Wait(4)
+		SetGlobal("CbTweakToFixInsaneWizard","GLOBAL",1)
+		StartDialogueNoSet([PC])
+END
+
+

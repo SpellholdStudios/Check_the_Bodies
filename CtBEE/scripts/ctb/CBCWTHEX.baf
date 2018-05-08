@@ -1,0 +1,372 @@
+IF
+	Global("CBCWTHES","GLOBAL",1)
+	HasItem("SW1H01",LastSummonerOf(Myself)) // Bastard Sword
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHES","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("SW1H02","SW1H01",LastSummonerOf(Myself)) // Bastard Sword
+END
+
+IF
+	Global("CBCWTHES","GLOBAL",1)
+	HasItem("SW1H04",LastSummonerOf(Myself)) // Long Sword
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHES","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("SW1H05","SW1H04",LastSummonerOf(Myself)) // Long Sword
+END
+
+IF
+	Global("CBCWTHES","GLOBAL",1)
+	HasItem("SW1H07",LastSummonerOf(Myself)) // Short Sword
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHES","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("SW1H08","SW1H07",LastSummonerOf(Myself)) // Short Sword
+END
+
+IF
+	Global("CBCWTHES","GLOBAL",1)
+	HasItem("SW1H21",LastSummonerOf(Myself)) // Short Sword
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHES","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("SW1H08","SW1H21",LastSummonerOf(Myself)) // Short Sword
+END
+
+IF
+	Global("CBCWTHES","GLOBAL",1)
+	HasItem("SW1H20",LastSummonerOf(Myself)) // Scimitar
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHES","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("SW1H22","SW1H20",LastSummonerOf(Myself)) // Scimitar
+END
+
+IF
+	Global("CBCWTHES","GLOBAL",1)
+	HasItem("SW1H56",LastSummonerOf(Myself)) // Scimitar
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHES","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("SW1H22","SW1H56",LastSummonerOf(Myself)) // Scimitar
+END
+
+IF
+	Global("CBCWTHES","GLOBAL",1)
+	HasItem("SW1H43",LastSummonerOf(Myself)) // Katana
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHES","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("SW1H44","SW1H43",LastSummonerOf(Myself)) // Katana
+END
+
+IF
+	Global("CBCWTHES","GLOBAL",1)
+	HasItem("SW1H46",LastSummonerOf(Myself)) // Wakizashi
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHES","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("SW1H47","SW1H46",LastSummonerOf(Myself)) // Wakizashi
+END
+
+IF
+	Global("CBCWTHES","GLOBAL",1)
+	HasItem("SW1H48",LastSummonerOf(Myself)) // Ninja-To
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHES","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("SW1H49","SW1H48",LastSummonerOf(Myself)) // Ninja-To
+END
+
+IF
+	Global("CBCWTHES","GLOBAL",1)
+	HasItem("SW2H01",LastSummonerOf(Myself)) // Two Handed Sword
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHES","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("SW2H02","SW2H01",LastSummonerOf(Myself)) // Two Handed Sword
+END
+
+IF
+	Global("CBCWTHES","GLOBAL",1)
+	HasItem("SW2H01B",LastSummonerOf(Myself)) // Two Handed Sword
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHES","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("SW2H02","SW2H01B",LastSummonerOf(Myself)) // Two Handed Sword
+END
+
+IF
+	Global("CBCWTHES","GLOBAL",1)
+	HasItem("SW2H05",LastSummonerOf(Myself)) // Two Handed Sword
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHES","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("SW2H02","SW2H05",LastSummonerOf(Myself)) // Two Handed Sword
+END
+
+IF
+	Global("CBCWTHED","GLOBAL",1)
+	HasItem("DAGG01",LastSummonerOf(Myself)) // Dagger
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHED","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("DAGG02","DAGG01",LastSummonerOf(Myself)) // Dagger
+END
+
+IF
+	Global("CBCWTHEA","GLOBAL",1)
+	HasItem("AX1H01",LastSummonerOf(Myself)) // Battle Axe
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHEA","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("AX1H02","AX1H01",LastSummonerOf(Myself)) // Battle Axe
+END
+
+IF
+	Global("CBCWTHEH","GLOBAL",1)
+	HasItem("HALB01",LastSummonerOf(Myself)) // Halberd
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHEH","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("HALB02","HALB01",LastSummonerOf(Myself)) // Halberd
+END
+
+IF
+	Global("CBCWTHES","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHES","GLOBAL",0)
+		PlaySound("EFF_108")
+END
+
+IF
+	Global("CBCWTHED","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHED","GLOBAL",0)
+		PlaySound("EFF_108")
+END
+
+IF
+	Global("CBCWTHEA","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHEA","GLOBAL",0)
+		PlaySound("EFF_108")
+END
+
+IF
+	Global("CBCWTHEH","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHEH","GLOBAL",0)
+		PlaySound("EFF_108")
+END
+
+IF
+	Global("CBCWTHAS","GLOBAL",1)
+	HasItem("SW1H01",LastSummonerOf(Myself)) // Bastard Sword
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHAS","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("SW1H72","SW1H01",LastSummonerOf(Myself)) // Bastard Sword
+END
+
+IF
+	Global("CBCWTHAS","GLOBAL",1)
+	HasItem("SW1H04",LastSummonerOf(Myself)) // Long Sword
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHAS","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("SW1H73","SW1H04",LastSummonerOf(Myself)) // Long Sword
+END
+
+IF
+	Global("CBCWTHAS","GLOBAL",1)
+	HasItem("SW1H07",LastSummonerOf(Myself)) // Short Sword
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHAS","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("SW1H74","SW1H07",LastSummonerOf(Myself)) // Short Sword
+END
+
+IF
+	Global("CBCWTHAS","GLOBAL",1)
+	HasItem("SW1H21",LastSummonerOf(Myself)) // Short Sword
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHAS","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("SW1H74","SW1H21",LastSummonerOf(Myself)) // Short Sword
+END
+
+IF
+	Global("CBCWTHAS","GLOBAL",1)
+	HasItem("SW1H20",LastSummonerOf(Myself)) // Scimitar
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHAS","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("SW1H76","SW1H20",LastSummonerOf(Myself)) // Scimitar
+END
+
+IF
+	Global("CBCWTHAS","GLOBAL",1)
+	HasItem("SW1H56",LastSummonerOf(Myself)) // Scimitar
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHAS","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("SW1H76","SW1H56",LastSummonerOf(Myself)) // Scimitar
+END
+
+IF
+	Global("CBCWTHAS","GLOBAL",1)
+	HasItem("SW1H43",LastSummonerOf(Myself)) // Katana
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHAS","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("SW1H75","SW1H43",LastSummonerOf(Myself)) // Katana
+END
+
+IF
+	Global("CBCWTHAS","GLOBAL",1)
+	HasItem("SW1H46",LastSummonerOf(Myself)) // Wakizashi
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHAS","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("SW1H78","SW1H46",LastSummonerOf(Myself)) // Wakizashi
+END
+
+IF
+	Global("CBCWTHAS","GLOBAL",1)
+	HasItem("SW1H48",LastSummonerOf(Myself)) // Ninja-To
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHAS","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("SW1H79","SW1H48",LastSummonerOf(Myself)) // Ninja-To
+END
+
+IF
+	Global("CBCWTHAS","GLOBAL",1)
+	HasItem("SW2H01",LastSummonerOf(Myself)) // Two Handed Sword
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHAS","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("SW2H20","SW2H01",LastSummonerOf(Myself)) // Two Handed Sword
+END
+
+IF
+	Global("CBCWTHAS","GLOBAL",1)
+	HasItem("SW2H01B",LastSummonerOf(Myself)) // Two Handed Sword
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHAS","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("SW2H20","SW2H01B",LastSummonerOf(Myself)) // Two Handed Sword
+END
+
+IF
+	Global("CBCWTHAS","GLOBAL",1)
+	HasItem("SW2H05",LastSummonerOf(Myself)) // Two Handed Sword
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHAS","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("SW2H20","SW2H05",LastSummonerOf(Myself)) // Two Handed Sword
+END
+
+IF
+	Global("CBCWTHAD","GLOBAL",1)
+	HasItem("DAGG01",LastSummonerOf(Myself)) // Dagger
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHAD","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("DAGG24","DAGG01",LastSummonerOf(Myself)) // Dagger
+END
+
+IF
+	Global("CBCWTHAA","GLOBAL",1)
+	HasItem("AX1H01",LastSummonerOf(Myself)) // Battle Axe
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHAA","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("AX1H17","AX1H01",LastSummonerOf(Myself)) // Battle Axe
+END
+
+IF
+	Global("CBCWTHAH","GLOBAL",1)
+	HasItem("HALB01",LastSummonerOf(Myself)) // Halberd
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHAH","GLOBAL",0)
+		PlaySound("EFF_M18")
+		TakeItemReplace("HALB12","HALB01",LastSummonerOf(Myself)) // Halberd
+END
+
+IF
+	Global("CBCWTHAS","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHAS","GLOBAL",0)
+		PlaySound("EFF_108")
+END
+
+IF
+	Global("CBCWTHAD","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHAD","GLOBAL",0)
+		PlaySound("EFF_108")
+END
+
+IF
+	Global("CBCWTHAA","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHAA","GLOBAL",0)
+		PlaySound("EFF_108")
+END
+
+IF
+	Global("CBCWTHAH","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CBCWTHAH","GLOBAL",0)
+		PlaySound("EFF_108")
+END
+
+IF
+	ActionListEmpty()
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+

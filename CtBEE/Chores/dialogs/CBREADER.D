@@ -1,0 +1,36 @@
+BEGIN ~CBREADER~
+
+IF ~RandomNum(7,1)~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(7,2)~ THEN BEGIN 1
+  SAY @2
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(7,3)~ THEN BEGIN 2
+  SAY @3
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(7,4)~ THEN BEGIN 3
+  SAY @4
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(7,5)~ THEN BEGIN 4
+  SAY @5
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(7,6)~ THEN BEGIN 5
+  SAY @6
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(7,7)~ THEN BEGIN 6
+  SAY @7
+  IF ~~ THEN EXIT
+END

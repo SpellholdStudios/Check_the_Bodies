@@ -1,0 +1,184 @@
+IF
+	OnCreation()
+	Exists("CBBDAW01")
+	!Dead("CBBDAW01")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("DRAGONFEAR","AR3521",0)
+		SetGlobalTimer("Prepare2","AR3521",0)
+		SetGlobalTimer("TailSlap","AR3521",0)
+		SetGlobalTimer("SpellTrigger1","AR3521",0)
+		SetGlobalTimer("BLUEDRAGONBREATH","AR3521",0)
+		SetGlobalTimer("WINGBUFFET","AR3521",0)
+		SetGlobalTimer("WINGBUFFET","AR3521",0)
+		SetGlobalTimer("dbMalison","AR3521",0)
+		SetGlobalTimer("DragonStoneSkin","AR3521",0)
+		SetGlobalTimer("dbSilence","AR3521",0)
+		SetGlobalTimer("RegainMagic","AR3521",0)
+		SetGlobalTimer("Barrage","AR3521",0)
+		SetGlobalTimer("SpellTurn","AR3521",0)
+		SetGlobal("Prepare2","AR3521",0)
+		IncrementGlobal("CbHealPuff","AR3521",0)
+		SetGlobal("CbSpyDidThis1","AR3521",0)
+		SetGlobalTimer("TrueSight","AR3521",0)
+		SetGlobal("Summon","AR3521",0)
+		SetGlobalTimer("dbDispel","AR3521",0)
+		SetGlobal("CbSpyDidThis2","AR3521",0)
+		SetGlobalTimer("dbSecret","AR3521",0)
+		SetGlobal("CbSpyDidThis3","AR3521",0)
+		SetGlobal("Prepare","AR3521",0)
+		SetGlobal("CbSpyDidThis4","AR3521",0)
+		SetGlobal("SpellTrigger","AR3521",0)
+		SetGlobal("CbSpyDidThis5","AR3521",0)
+		SetGlobal("CbSpyDidThis6","AR3521",0)
+		SetGlobal("Prepare","AR3521",0)
+		SetGlobal("CbSpyDidThis7","AR3521",0)
+		SetGlobal("CbSpyDidThis8","AR3521",0)
+		SetGlobal("Prepare2","AR3521",0)
+		SetGlobal("CbSpyDidThis9","AR3521",0)
+		SetGlobal("Cb_DSACK_Maze","AR3521",0)
+		SetGlobal("CbSpyDidThisA","AR3521",0)
+		SetGlobal("CbSpyDidThisB","AR3521",0)
+		SetGlobal("CbSpyDidThisC","AR3521",0)
+		SetGlobal("CbSpyDidThisD","AR3521",0)
+		ActionOverride("CBBDAW01",Rest())
+		ActionOverride("CBBDAW01",ForceSpell("CBBDAW01",HEAL_NO_VISUAL))
+END
+
+IF
+	Dead("CBBDAW01")
+THEN
+	RESPONSE #100
+		ActionOverride("CBBDAW02",DestroySelf())
+END
+
+IF
+	Exists("CBBDAW01")
+THEN
+	RESPONSE #100
+		ActionOverride("CBBDSL01",DestroySelf())
+		ActionOverride("CBBDSL02",DestroySelf())
+END
+
+IF
+	Global("CbCreateHelpers","AR3521",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCreateHelpers","AR3521",1)
+		CreateCreature("SKELDED",[1345.1317],4)
+		CreateCreature("SKELDED",[1608.1521],12)
+		CreateCreature("SKELDED",[1675.1324],7)
+		CreateCreature("CBBDSLDS",[1886.1461],0)
+END
+
+IF
+	Global("CbBlueDragonAlerted","GLOBAL",1)
+	!Exists("CBBDAW01")
+THEN
+	RESPONSE #100
+		ActionOverride("CB521SLD",DestroySelf())
+		ActionOverride("CBBDSLDS",DestroySelf())
+		CreateCreature("CBBDAW01",[1847.1534],4)
+END
+
+IF
+	Global("CBDRAGONWANTSTREASURE","AR3521",2)
+	Global("CB_DSACKSFEINTSTART","AR3521",2)
+	Global("CB_DSACKSFEINTLOSE","AR3521",1)
+	Global("CbFixInventory","AR3521",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbFixInventory","AR3521",1)
+		ActionOverride(Player1,DestroyAllEquipment())
+		ActionOverride(Player2,DestroyAllEquipment())
+		ActionOverride(Player3,DestroyAllEquipment())
+		ActionOverride(Player4,DestroyAllEquipment())
+		ActionOverride(Player5,DestroyAllEquipment())
+		ActionOverride(Player6,DestroyAllEquipment())
+		TakePartyGold(2147483647)
+END
+
+IF
+	Global("CbBlueDragonStealth","AR3521",0)
+	!Global("Cb_DSACK_FeintAwards","AR3521",2)
+	OR(3)
+		!Contains("MISC07","BehindDoorOne")
+		!Contains("SW1H04","BehindDoorOne") 
+		!Contains("PLAT09","BehindDoorOne")
+THEN
+	RESPONSE #100
+		SetGlobal("CbBlueDragonAlerted","GLOBAL",1)
+		SetGlobal("CbBlueDragonStealth","AR3521",1)
+END
+
+IF
+	Global("CbBlueDragonStealth","AR3521",0)
+	!Global("Cb_DSACK_FeintAwards","AR3521",2)
+	OR(3)
+		!Contains("MISC07","BehindDoorTwo")
+		!Contains("SW2H19","BehindDoorTwo") 
+		!Contains("HELM07","BehindDoorTwo")
+THEN
+	RESPONSE #100
+		SetGlobal("CbBlueDragonAlerted","GLOBAL",1)
+		SetGlobal("CbBlueDragonStealth","AR3521",1)
+END
+
+IF
+	Global("CbBlueDragonStealth","AR3521",0)
+	!Global("Cb_DSACK_FeintAwards","AR3521",2)
+	OR(5)
+		!Contains("MISC07","BehindDoorThree")
+		!Contains("MISC3E","BehindDoorThree") 
+		!Contains("SHLD31","BehindDoorThree") 
+		!Contains("HALB11","BehindDoorThree") 
+		!Contains("AX1H15","BehindDoorThree")
+THEN
+	RESPONSE #100
+		SetGlobal("CbBlueDragonAlerted","GLOBAL",1)
+		SetGlobal("CbBlueDragonStealth","AR3521",1)
+END
+
+IF
+	!Global("CbBlueDragonStealth","AR3521",1)
+	Global("Cb_DSACK_FeintAwards","AR3521",2)
+	OR(3)
+		!Contains("MISC07","BehindDoorOne")
+		!Contains("SW1H04","BehindDoorOne") 
+		!Contains("PLAT09","BehindDoorOne") 
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_DSACK_Pissed","AR3521",1)
+		SetGlobal("CbEnteredDSACKsLair","AR3521",1)
+		ActionOverride("CBBDAW01",StartDialogueNoSet([GOODCUTOFF]))
+END
+
+IF
+	!Global("CbBlueDragonStealth","AR3521",1)
+	Global("Cb_DSACK_FeintAwards","AR3521",2)
+	OR(3)
+		!Contains("MISC07","BehindDoorTwo")
+		!Contains("SW2H19","BehindDoorTwo") 
+		!Contains("HELM07","BehindDoorTwo")
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_DSACK_Pissed","AR3521",1)
+		SetGlobal("CbEnteredDSACKsLair","AR3521",1)
+		ActionOverride("CBBDAW01",StartDialogueNoSet([GOODCUTOFF]))
+END
+
+IF
+	!Global("CbBlueDragonStealth","AR3521",1)
+	Global("Cb_DSACK_FeintAwards","AR3521",2)
+	OR(5)
+		!Contains("MISC07","BehindDoorThree") 
+		!Contains("MISC3E","BehindDoorThree") 
+		!Contains("SHLD31","BehindDoorThree") 
+		!Contains("HALB11","BehindDoorThree") 
+		!Contains("AX1H15","BehindDoorThree")
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_DSACK_Pissed","AR3521",1)
+		SetGlobal("CbEnteredDSACKsLair","AR3521",1)
+		ActionOverride("CBBDAW01",StartDialogueNoSet([GOODCUTOFF]))
+END

@@ -1,0 +1,27 @@
+IF
+	OR(2)
+		Entered([ANYONE])
+		Opened([ANYONE])
+	!HasItem("CBSHDWKY",LastTrigger)
+	Global("CbDoor03Opened","AR3566",0)
+THEN
+	RESPONSE #100
+		DisplayStringNoName(Myself,14645) // This portal requires a key of some sort. You cannot step through without this item.
+		CloseDoor("Door03")
+		Lock("Door03")
+END
+
+IF
+	OR(2)
+		Entered([ANYONE])
+		Opened([ANYONE])
+	HasItem("CBSHDWKY",LastTrigger)
+	Global("CbDoor03Opened","AR3566",0)
+THEN
+	RESPONSE #100
+		Unlock("Door03")
+		OpenDoor("Door03")
+		SetGlobal("CbDoor03Opened","AR3566",1)
+END
+
+

@@ -1,0 +1,343 @@
+IF
+	GlobalTimerExpired("CbStreetSceneTimer","AR3610")
+	AreaCheck("AR3610")
+	Exists(Myself)
+THEN
+	RESPONSE #100
+		EscapeArea()
+END
+
+IF
+	GlobalTimerExpired("CbStreetSceneTimer","AR3611")
+	AreaCheck("AR3611")
+	Exists(Myself)
+THEN
+	RESPONSE #100
+		EscapeArea()
+END
+
+IF
+	Global("CbDrunkRowdyGoesEnemy","AR3610",10)
+	AreaCheck("AR3610")
+	Global("CbIamA_DrunkenRowdy","LOCALS",1)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #33
+		SetGlobal("CbHlondethStreetScene","AR3610",5)
+		SetGlobalTimer("CbHlondethExtraDestroys","AR3610",100)
+		SetGlobalTimer("CbStreetSceneTimer","AR3610",20)
+		Enemy()
+	RESPONSE #33
+		SetGlobal("CbHlondethStreetScene","AR3610",5)
+		SetGlobalTimer("CbHlondethExtraDestroys","AR3610",100)
+		SetGlobalTimer("CbStreetSceneTimer","AR3610",20)
+		Enemy()
+	RESPONSE #34
+		SetGlobal("CbHlondethStreetScene","AR3610",5)
+		SetGlobalTimer("CbHlondethExtraDestroys","AR3610",100)
+		SetGlobalTimer("CbStreetSceneTimer","AR3610",20)
+		Enemy()
+END
+
+IF
+	Global("CbIamA_Lover","LOCALS",1)
+	Global("CbHlondethIsForLovers","AR3610",0)
+	AreaCheck("AR3610")
+	Gender(Myself,MALE)
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet("CBHLD0W1")
+END
+
+IF
+	Global("CbIamA_EscortwithCourtesan","LOCALS",1)
+	Global("CbHlondethCourtesanDialog","AR3610",0)
+	AreaCheck("AR3610")
+	Gender(Myself,MALE)
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet("CBHLD0W1")
+END
+
+IF
+	Global("CbDrunkRowdyGoesEnemy","AR3611",10)
+	AreaCheck("AR3611")
+	Global("CbIamA_DrunkenRowdy","LOCALS",1)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #33
+		SetGlobal("CbHlondethStreetScene","AR3611",5)
+		SetGlobalTimer("CbHlondethExtraDestroys","AR3611",100)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",20)
+		Enemy()
+	RESPONSE #33
+		SetGlobal("CbHlondethStreetScene","AR3611",5)
+		SetGlobalTimer("CbHlondethExtraDestroys","AR3611",100)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",20)
+		Enemy()
+	RESPONSE #34
+		SetGlobal("CbHlondethStreetScene","AR3611",5)
+		SetGlobalTimer("CbHlondethExtraDestroys","AR3611",100)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",20)
+		Enemy()
+END
+
+IF
+	Global("CbIamA_Lover","LOCALS",1)
+	Global("CbHlondethIsForLovers","AR3611",0)
+	Gender(Myself,MALE)
+	AreaCheck("AR3611")
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet("CBHLD0W1")
+END
+
+IF
+	Global("CbIamA_EscortwithCourtesan","LOCALS",1)
+	Global("CbHlondethCourtesanDialog","AR3611",0)
+	AreaCheck("AR3611")
+	Gender(Myself,MALE)
+	See([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet("CBHLD0W1")
+END
+
+IF
+	!Dead("CBHLD0W4")
+	Global("CbIamA_Ruffian_W5","LOCALS",1)
+THEN
+	RESPONSE #100
+		Attack("CBHLD0W4")
+END
+
+IF
+	!Dead("CBHLD0W5")
+	Global("CbIamA_Ruffian_W4","LOCALS",1)
+THEN
+	RESPONSE #100
+		Attack("CBHLD0W5")
+END
+
+IF
+	Global("HlondethShout","GLOBAL",1)
+	Allegiance(Myself,NEUTRAL)
+	!Global("CbIamA_DrunkenRowdy","LOCALS",1)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+	See([PC])
+	Global("HlondethShout","GLOBAL",0)
+	!Global("CbIamA_DrunkenRowdy","LOCALS",1)
+THEN
+	RESPONSE #100
+		SetGlobal("HlondethShout","GLOBAL",1)
+		Shout(99)
+		Enemy()
+END
+
+IF
+	HitBy([GOODCUTOFF],CRUSHING)
+	See([PC])
+	Allegiance(Myself,NEUTRAL)
+	!Global("CbIamA_DrunkenRowdy","LOCALS",1)
+THEN
+	RESPONSE #100
+		Shout(99)
+		Enemy()
+		Continue()
+END
+
+IF
+	Heard([ANYONE],99)
+	See([PC])
+	Allegiance(Myself,NEUTRAL)
+	!Class(Myself,INNOCENT)
+	!Global("CbIamA_DrunkenRowdy","LOCALS",1)
+THEN
+	RESPONSE #100
+		Shout(57)
+		Enemy()
+END
+
+IF
+	Heard([ANYONE],99)
+	See([PC])
+	Allegiance(Myself,NEUTRAL)
+	!Global("CbIamA_DrunkenRowdy","LOCALS",1)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	Heard([ANYONE],57)
+	See([PC])
+	Allegiance(Myself,NEUTRAL)
+	!Global("CbIamA_DrunkenRowdy","LOCALS",1)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	Global("HlondethShout","GLOBAL",1)
+	Allegiance(Myself,NEUTRAL)
+	Detect([PC])
+	!Global("CbIamA_DrunkenRowdy","LOCALS",1)
+THEN
+	RESPONSE #100
+		Shout(99)
+		Enemy()
+		Continue()
+END
+
+IF
+	Heard([ANYONE],99)
+	!Class(Myself,INNOCENT)
+	!See(NearestEnemyOf(Myself))
+	!Global("CbIamA_DrunkenRowdy","LOCALS",1)
+THEN
+	RESPONSE #100
+		MoveToObject(LastHeardBy(Myself))
+		Continue()
+END
+
+IF
+	Heard([ANYONE],57)
+	!Class(Myself,INNOCENT)
+	!See(NearestEnemyOf(Myself))
+	!Global("CbIamA_DrunkenRowdy","LOCALS",1)
+THEN
+	RESPONSE #100
+		MoveToObject(LastHeardBy(Myself))
+		Continue()
+END
+
+IF
+	See([PC])
+	Detect([PC])
+	Gender(Myself,MALE)
+	General(Myself,HUMANOID)
+	!Allegiance(Myself,NEUTRAL)
+	!Global("CbIamA_DrunkenRowdy","LOCALS",1)
+THEN
+	RESPONSE #50
+		PlaySound("BDHIGG03")
+		RunAwayFrom(LastSeenBy(Myself),30)
+	RESPONSE #50
+		RunAwayFrom(LastSeenBy(Myself),30)
+END
+
+IF
+	See([ENEMY])
+	Detect([PC])
+	Gender(Myself,MALE)
+	General(Myself,HUMANOID)
+	!Allegiance(Myself,NEUTRAL)
+	!Global("CbIamA_DrunkenRowdy","LOCALS",1)
+THEN
+	RESPONSE #50
+		PlaySound("BDHIGG03")
+		RunAwayFrom(LastSeenBy(Myself),30)
+	RESPONSE #50
+		RunAwayFrom(LastSeenBy(Myself),30)
+END
+
+IF
+	See([PC])
+	Detect([PC])
+	Gender(Myself,FEMALE)
+	General(Myself,HUMANOID)
+	!Allegiance(Myself,NEUTRAL)
+	!Global("CbIamA_DrunkenRowdy","LOCALS",1)
+THEN
+	RESPONSE #50
+		PlaySound("PEASF209")
+		RunAwayFrom(LastSeenBy(Myself),30)
+	RESPONSE #50
+		RunAwayFrom(LastSeenBy(Myself),30)
+END
+
+IF
+	See([ENEMY])
+	Detect([PC])
+	Gender(Myself,FEMALE)
+	General(Myself,HUMANOID)
+	!Allegiance(Myself,NEUTRAL)
+	!Global("CbIamA_DrunkenRowdy","LOCALS",1)
+THEN
+	RESPONSE #50
+		PlaySound("PEASF209")
+		RunAwayFrom(LastSeenBy(Myself),30)
+	RESPONSE #50
+		RunAwayFrom(LastSeenBy(Myself),30)
+END
+
+IF
+	See([ENEMY])
+	!Detect([PC])
+	Gender(Myself,MALE)
+	General(Myself,HUMANOID)
+	!Allegiance(Myself,NEUTRAL)
+	!Global("CbIamA_DrunkenRowdy","LOCALS",1)
+THEN
+	RESPONSE #100
+		RunAwayFrom(LastSeenBy(Myself),30)
+END
+
+IF
+	See([ENEMY])
+	!Detect([PC])
+	Gender(Myself,FEMALE)
+	General(Myself,HUMANOID)
+	!Allegiance(Myself,NEUTRAL)
+	!Global("CbIamA_DrunkenRowdy","LOCALS",1)
+THEN
+	RESPONSE #100
+		RunAwayFrom(LastSeenBy(Myself),30)
+END
+
+IF
+	Global("CbHlondethCivilWar","GLOBAL",1)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #50
+		ChangeEnemyAlly(Myself,GOODBUTRED)
+	RESPONSE #50
+		ChangeEnemyAlly(Myself,EVILBUTGREEN)
+END
+
+IF
+	Global("CbHlondethCivilWar","GLOBAL",1)
+	Allegiance(Myself,GOODBUTRED)
+	See([ANYONE])
+	Allegiance(LastSeenBy(Myself),EVILBUTGREEN)
+THEN
+	RESPONSE #100
+		Attack(LastSeenBy(Myself))
+END
+
+IF
+	Global("CbHlondethCivilWar","GLOBAL",1)
+	Allegiance(Myself,EVILBUTGREEN)
+	See([ANYONE])
+	Allegiance(LastSeenBy(Myself),GOODBUTRED)
+THEN
+	RESPONSE #100
+		Attack(LastSeenBy(Myself))
+END
+
+

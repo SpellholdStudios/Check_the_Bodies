@@ -1,0 +1,26 @@
+IF
+	Global("DrowCityHostile","GLOBAL",1)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	!AreaCheck("AR2200")
+	!AreaCheck("AR2201")
+	!AreaCheck("AR2202")
+	!AreaCheck("AR2203")
+	!AreaCheck("AR2204")
+	!AreaCheck("AR2205")
+	!AreaCheck("AR2206")
+	!AreaCheck("AR2207")
+	!AreaCheck("AR2208")
+	!AreaCheck("AR2209")
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+

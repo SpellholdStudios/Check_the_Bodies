@@ -1,0 +1,18 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		FadeToColor([20.0],0)
+		Wait(2)
+		ActionOverride("CBGORTCH",DestroySelf())
+		LeaveAreaLUAPanic("AR3501","",[1465.1000],12)
+		LeaveAreaLUA("AR3501","",[1465.1000],12)
+		MultiPlayerSync()
+		FadeFromColor([20.0],0)
+		Wait(1)
+		ActionOverride("CBGORCLD",Wait(1))
+		ActionOverride("CBGORCLD",StartDialogueNoSet(Player1))
+END
+
+

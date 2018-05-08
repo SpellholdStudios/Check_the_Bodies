@@ -1,0 +1,69 @@
+BEGIN ~CBNRT010~
+
+IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN REPLY @2 GOTO 1
+  IF ~~ THEN REPLY @3 GOTO 3
+  IF ~~ THEN REPLY @4 GOTO 5
+  IF ~~ THEN REPLY @5 GOTO 6
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @6
+  IF ~~ THEN REPLY @7 GOTO 10
+  IF ~~ THEN REPLY @3 GOTO 3
+  IF ~~ THEN REPLY @4 GOTO 5
+  IF ~~ THEN REPLY @5 GOTO 6
+  IF ~~ THEN GOTO 2
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @8
+  IF ~~ THEN REPLY @3 GOTO 3
+  IF ~~ THEN REPLY @4 GOTO 5
+  IF ~~ THEN REPLY @5 GOTO 6
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @9
+  IF ~~ THEN GOTO 8
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @10
+  IF ~~ THEN DO ~SetGlobal("CbBarbarianIntroGuy","GLOBAL",2)
+RevealAreaOnMap("AR3588")
+Enemy()~ EXIT
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @11
+  IF ~~ THEN GOTO 9
+END
+
+IF ~~ THEN BEGIN 6
+  SAY @12
+  IF ~~ THEN GOTO 7
+END
+
+IF ~~ THEN BEGIN 7
+  SAY @13
+  IF ~~ THEN GOTO 9
+END
+
+IF ~~ THEN BEGIN 8
+  SAY @14
+  IF ~~ THEN GOTO 4
+END
+
+IF ~~ THEN BEGIN 9
+  SAY @15
+  IF ~~ THEN DO ~SetGlobal("CbBarbarianIntroGuy","GLOBAL",2)
+RevealAreaOnMap("AR3588")
+EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN 10
+  SAY @16
+  IF ~~ THEN GOTO 2
+END

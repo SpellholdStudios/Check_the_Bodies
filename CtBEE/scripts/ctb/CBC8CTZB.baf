@@ -1,0 +1,10 @@
+IF
+	Global("CbZannasterFinallyChanging","AR3532",2)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		StartCutSceneMode()
+		StartCutScene("CBC8ZCHG")
+END
+
+

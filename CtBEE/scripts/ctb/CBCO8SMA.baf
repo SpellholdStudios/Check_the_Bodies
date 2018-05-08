@@ -1,0 +1,84 @@
+IF
+	Global("Cb_CompanyOfEight_Attacked","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		SetGlobal("Cb_MoondropsInteraction","AR2600",14)
+		DestroyItem("CBC8SMBW")
+		EquipItem("CBSMRLBW")
+		SetInterrupt(TRUE)
+		ClearActions(Myself)
+END
+
+IF
+	Global("Cb_MoondropStopsArchery","AR2600",1)
+THEN
+	RESPONSE #100
+		ClearActions(Myself)
+		Continue()
+END
+
+IF
+	!AreaCheck("AR2600")
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		DestroyItem("CBC8SMBW")
+		EquipItem("CBSMRLBW")
+		SetInterrupt(TRUE)
+END
+
+IF
+	!Allegiance(Myself,NEUTRAL)
+	HasItem("CBC8SMBW",Myself)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		DestroyItem("CBC8SMBW")
+		EquipItem("CBSMRLBW")
+		SetInterrupt(TRUE)
+END
+
+IF
+	AreaCheck("AR2600")
+	InMyArea([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Global("Cb_MoondropsInteraction","AR2600",2)
+	GlobalTimerExpired("Cb_MoondropsInteractionTimer","AR2600")
+	!GlobalGT("Cb_PartyAlliesWith_C_o_8","GLOBAL",1)
+	!Global("Cb_CompanyOfEight_Attacked","GLOBAL",1)
+	!Global("Cb_CompanyOfEight_MoondropStopsPractice","AR2600",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_MoondropsInteraction","AR2600",3)
+		SetGlobalTimer("Cb_MoondropsInteractionTimer","AR2600",4)
+		DisplayStringHead(Myself,@550043) // No such index
+END
+
+IF
+	Global("CbMoondropIsTheFifthBeatle","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbMoondropIsTheFifthBeatle","LOCALS",1)
+		ChangeAIScript("CBCO8SHT",CLASS)
+END
+
+IF
+	AreaCheck("AR2600")
+	InMyArea([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Global("Cb_MoondropStopsArchery","AR2600",0)
+	!Global("Cb_CompanyOfEight_MoondropStopsPractice","AR2600",1)
+	HasItem("CBC8SMBW",Myself)
+	!Global("Cb_CompanyOfEight_Attacked","GLOBAL",1)
+	!Global("Cb_MoondropsInteraction","AR2600",14)
+	!GlobalGT("MoondropsHorseStolenP1","AR2600",0)
+	!GlobalGT("MoondropsHorseStolenP2","AR2600",0)
+	!GlobalGT("MoondropsHorseKilled","AR2600",0)
+THEN
+	RESPONSE #100
+		EquipItem("CBC8SMBW")
+		AttackReevaluate("CBSMTRGT",6)
+END
+
+

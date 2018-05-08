@@ -1,0 +1,124 @@
+IF
+	Global("Cb_CompanyOfEight_Attacked","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_MoondropsInteraction","AR2600",14)
+		ClearActions(Myself)
+END
+
+IF
+	Global("Cb_MoondropStopsArchery","AR2600",1)
+THEN
+	RESPONSE #100
+		ClearActions(Myself)
+		Continue()
+END
+
+IF
+	AreaCheck("AR2600")
+	InMyArea([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Global("Cb_MoondropsInteraction","AR2600",4)
+	Global("Cb_MoondropStopsArchery","AR2600",0)
+	!GlobalGT("Cb_PartyAlliesWith_C_o_8","GLOBAL",1)
+	GlobalTimerExpired("Cb_MoondropSendsTardethHome","AR2600")
+	!Global("Cb_CompanyOfEight_Attacked","GLOBAL",1)
+	!Global("Cb_CompanyOfEight_MoondropStopsPractice","AR2600",1)
+THEN
+	RESPONSE #100
+		MoveToPoint([4254.2450])
+		Face(0)
+END
+
+IF
+	AreaCheck("AR2600")
+	InMyArea([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	RandomNum(2,1)
+	Global("Cb_MoondropsInteraction","AR2600",3)
+	Global("Cb_MoondropStopsArchery","AR2600",0)
+	GlobalTimerExpired("Cb_MoondropsInteractionTimer","AR2600")
+	!GlobalGT("Cb_PartyAlliesWith_C_o_8","GLOBAL",1)
+	!Global("Cb_CompanyOfEight_Attacked","GLOBAL",1)
+	!Global("Cb_CompanyOfEight_MoondropStopsPractice","AR2600",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_MoondropsInteraction","AR2600",4)
+		SetGlobalTimer("Cb_MoondropsInteractionTimer","AR2600",35)
+		SetGlobalTimer("Cb_MoondropSendsTardethHome","AR2600",35)
+		DisplayStringHead(Myself,@550044) // No such index
+		Wait(5)
+		DisplayStringHead(Myself,@550045) // No such index
+		Wait(3)
+		DisplayStringHead(Myself,@550046) // No such index
+		Wait(1)
+		MoveToPoint([4420.2557])
+		Face(11)
+		AttackOneRound("CBSMTRGT")
+		Wait(3)
+		DisplayStringHead(Myself,@550047) // No such index
+		Wait(5)
+		GiveItemCreate("AROW02",Myself,4,0,0) // Arrows +1
+		EquipItem("AROW02") // Arrows +1
+		MoveToPoint([4254.2450])
+		Face(0)
+END
+
+IF
+	AreaCheck("AR2600")
+	InMyArea([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	RandomNum(2,2)
+	Global("Cb_MoondropsInteraction","AR2600",3)
+	Global("Cb_MoondropStopsArchery","AR2600",0)
+	GlobalTimerExpired("Cb_MoondropsInteractionTimer","AR2600")
+	!GlobalGT("Cb_PartyAlliesWith_C_o_8","GLOBAL",1)
+	!Global("Cb_CompanyOfEight_Attacked","GLOBAL",1)
+	!Global("Cb_CompanyOfEight_MoondropStopsPractice","AR2600",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_MoondropsInteraction","AR2600",4)
+		SetGlobalTimer("Cb_MoondropsInteractionTimer","AR2600",35)
+		SetGlobalTimer("Cb_MoondropSendsTardethHome","AR2600",35)
+		DisplayStringHead(Myself,@550048) // No such index
+		Wait(5)
+		DisplayStringHead(Myself,@550049) // No such index
+		Wait(3)
+		DisplayStringHead(Myself,@550050) // No such index
+		Wait(1)
+		MoveToPoint([4420.2557])
+		Face(11)
+		AttackOneRound("CBSMTRGT")
+		Wait(3)
+		DisplayStringHead(Myself,@550051) // No such index
+		Wait(5)
+		GiveItemCreate("AROW02",Myself,4,0,0) // Arrows +1
+		EquipItem("AROW02") // Arrows +1
+		MoveToPoint([4254.2450])
+		Face(0)
+END
+
+IF
+	AreaCheck("AR2600")
+	InMyArea([GOODCUTOFF])
+	Allegiance(Myself,NEUTRAL)
+	Global("Cb_MoondropStopsArchery","AR2600",0)
+	!Global("Cb_CompanyOfEight_MoondropStopsPractice","AR2600",1)
+	!GlobalGT("Cb_PartyAlliesWith_C_o_8","GLOBAL",1)
+	!Global("Cb_CompanyOfEight_Attacked","GLOBAL",1)
+	Global("Cb_MoondropsInteraction","AR2600",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_MoondropsInteraction","AR2600",1)
+		SetGlobalTimer("Cb_MoondropsInteractionTimer","AR2600",40)
+		SetGlobalTimer("Cb_MoondropsFailsafeTimer","AR2600",350)
+		Wait(5)
+		DisplayStringHead(Myself,@550052) // No such index
+		Wait(5)
+		DisplayStringHead(Myself,@550053) // No such index
+		Wait(8)
+		DisplayStringHead(Myself,@550054) // No such index
+		Wait(15)
+END
+
+

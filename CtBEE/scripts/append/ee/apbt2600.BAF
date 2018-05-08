@@ -1,0 +1,74 @@
+IF
+        Global("C_Bissons_Famous_C_O_8_Expanded","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("C_Bissons_Famous_C_O_8_Expanded","GLOBAL",1)
+		TextScreen("CBCO8SCR")
+                Continue()
+END
+
+IF
+	PartyRested()
+	Global("Cb_PartyAlliesWith_C_o_8","GLOBAL",2)
+THEN
+	RESPONSE #100
+		ActionOverride("CBARKSLV",Rest())
+		ActionOverride("CBSTTFLW",Rest())
+		ActionOverride("CBLSLNDA",Rest())
+		ActionOverride("CBHREDWN",Rest())
+		ActionOverride("CBTARDTH",Rest())
+		ActionOverride("CBMANARB",Rest())
+		ActionOverride("CBMONDRP",Rest())
+END
+
+IF
+	Global("Cb_PartyAlliesWith_C_o_8","GLOBAL",3)
+	Exists("CBSMHRSE")
+THEN
+	RESPONSE #100
+		ActionOverride("CBSMHRSE",DestroySelf())
+END
+
+IF
+	Global("Cb_PartyAlliesWith_C_o_8","GLOBAL",3)
+	Exists("CBSMTRGT")
+THEN
+	RESPONSE #100
+		ActionOverride("CBSMTRGT",DestroySelf())
+END
+
+IF
+	GlobalGT("Cb_MoondropsInteraction","AR2600",0)
+	GlobalTimerExpired("Cb_MoondropsFailsafeTimer","AR2600")
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_MoondropsInteraction","AR2600",0)
+END
+
+IF
+	Global("Cb_MoondropStopsArchery","AR2600",1)
+	Global("Cb_ArcherTimerGlobal","AR2600",0)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("Cb_MoondropStopsArcheryTimer","AR2600",2500)
+		SetGlobal("Cb_ArcherTimerGlobal","AR2600",1)
+END
+
+IF
+	Global("Cb_MoondropStopsArchery","AR2600",1)
+	Global("Cb_ArcherTimerGlobal","AR2600",1)
+	GlobalTimerExpired("Cb_MoondropsStopArcheryTimer","AR2600")
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_MoondropStopsArchery","AR2600",0)
+		SetGlobal("Cb_ArcherTimerGlobal","AR2600",0)
+END
+
+IF
+	Global("CbOpen_AR3530","AR2600",1)
+THEN
+	RESPONSE #100
+		Unlock("Door02")
+		Continue()
+END
+

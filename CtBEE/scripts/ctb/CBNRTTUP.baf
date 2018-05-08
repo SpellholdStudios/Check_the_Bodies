@@ -1,0 +1,18 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("CBNRT025")
+		FadeToColor([20.0],0)
+		Wait(4)
+		SetGlobal("CbNorthmenCapitalWeapon","GLOBAL",3)
+		SetGlobal("CbNorthmenTaught","AR3591",3)
+		SetGlobal("CbNorthmenUseItemPass","AR3591",1)
+		DayNight(40)
+		ApplySpellRES("cbuaisp",LastTalkedToBy(Myself))
+		Wait(2)
+		FadeFromColor([20.0],0)
+		StartDialogueNoSet(LastTalkedToBy(Myself))
+END
+
+

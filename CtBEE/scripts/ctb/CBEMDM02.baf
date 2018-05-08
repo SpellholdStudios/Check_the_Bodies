@@ -1,0 +1,286 @@
+IF
+	OnCreation()
+THEN
+	RESPONSE #100
+		StartTimer(77,6)
+		SetGlobal("CbElvenSorceressDemon","GLOBAL",2)
+		SetGlobal("CbMasterBardDemon","GLOBAL",2)
+		SetGlobal("CbDruidTeachingDemon","GLOBAL",2)
+		SetGlobal("CbRangerDemon","GLOBAL",2)
+		SetGlobal("CbNorthmenTeachingDemon","GLOBAL",2)
+		ReallyForceSpell(Myself,HEAL_NO_VISUAL)
+		Continue()
+END
+
+IF
+	TimerExpired(77)
+THEN
+	RESPONSE #100
+		StartTimer(77,6)
+		Continue()
+END
+
+IF
+	HPLT(Myself,10)
+	!Global("CbElvenDemonDestroyed","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbElvenDemonDestroyed","GLOBAL",1)
+END
+
+IF
+	HPLT(Myself,40)
+	!HPLT(Myself,10)
+	Global("DemoEffects","LOCALS",0)
+	Delay(4)
+	TookDamage()
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		MoveViewObject(Myself,INSTANT)
+		StartTimer(77,6)
+		ClearAllActions()
+		StartCutSceneMode()
+		SetGlobal("DemoEffects","LOCALS",1)
+		DisplayStringHead(Myself,71009) // NO!  NOOOOO!!  THIS CANNOT BE!!
+		CreateVisualEffectObject("spflsrin",Myself)
+		Wait(1)
+		CreateVisualEffectObject("sppowrrd",Myself)
+		Wait(2)
+		CreateVisualEffectObject("spfirepi",Myself)
+		Wait(1)
+		CreateVisualEffectObject("spplanar",Myself)
+		Wait(2)
+		SetGlobal("CbElvenDemonBanished","GLOBAL",1)
+		EndCutSceneMode()
+		DestroySelf()
+END
+
+IF
+	Detect([GOODCUTOFF])
+	Allegiance(Myself,ENEMY)
+	Global("StoppedTime","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("StoppedTime","LOCALS",1)
+		ReallyForceSpell(Myself,WIZARD_TIME_STOP)
+END
+
+IF
+	Detect([GOODCUTOFF])
+	Allegiance(Myself,ENEMY)
+	Global("Contingency1","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Contingency1","LOCALS",1)
+		DisplayString(Myself,73139) // Contingency - Fired
+		ReallyForceSpellRES("melstone",Myself)
+		ReallyForceSpell(Myself,1730)
+		ReallyForceSpellRES("jwglobe",Myself)
+END
+
+IF
+	Detect(NearestEnemyOf(Myself))
+	Global("StoppedTime","LOCALS",1)
+THEN
+	RESPONSE #100
+		SetGlobal("StoppedTime","LOCALS",2)
+		SetGlobalTimer("SumReinf","LOCALS",3)
+		DisplayStringHead(Myself,70999) // Now you will pay, foolish mortals!
+		ForceSpell(NearestEnemyOf(Myself),3549)
+END
+
+IF
+	Detect([GOODCUTOFF.0.DEMONIC.TANARI])
+	!GlobalTimerNotExpired("CharmDemon","LOCALS")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CharmDemon","LOCALS",4)
+		DisplayStringHead(Myself,71008) // No!  You shall not use my own against me!!
+		ReallyForceSpellRES("demochm",[GOODCUTOFF.0.121.160])
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	CheckStatLT(Myself,1,STONESKINS)
+	!GlobalTimerNotExpired("DemoGorStone","LOCALS")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("DemoGorStone","LOCALS",10)
+		ForceSpellRES("melstone",Myself)
+END
+
+IF
+	Global("StoppedTime","LOCALS",2)
+	Detect(NearestEnemyOf(Myself))
+	!NumCreatureVsPartyGT([EVILCUTOFF.0.DEMONIC],0)
+	!GlobalTimerNotExpired("SumReinf","LOCALS")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("SumReinf","LOCALS",6)
+		DisplayStringHead(Myself,70998) // Come, my minions!
+		ForceSpell(Myself,3548)
+END
+
+IF
+	OR(6)
+		StateCheck(LastSeenBy(Myself),STATE_INVISIBLE)
+		StateCheck(LastSeenBy(Myself),STATE_IMPROVEDINVISIBILITY)
+		Gender(LastSeenBy(Myself),ILLUSIONARY)
+		SpellCast([PC],WIZARD_PROJECT_IMAGE)
+		SpellCast([PC],WIZARD_SIMULACRUM)
+		SpellCast([PC],WIZARD_MISLEAD)
+	!GlobalTimerNotExpired("TrueSight","LOCALS")
+	RandomNum(3,1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("TrueSight","LOCALS",30)
+		ForceSpell(Myself,WIZARD_TRUE_SIGHT)
+END
+
+IF
+	See(NearestEnemyOfType([0.0.0.0.0.SUMMONED]))
+	Range(LastSeenBy(Myself),15)
+	LevelLT(LastSeenBy(Myself),10)
+	!GlobalTimerNotExpired("DemiGorgonDeath","LOCALS")
+	RandomNum(2,1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("DemiGorgonDeath","LOCALS",12)
+		PlaySound("SHAEL_07")
+		ForceSpell(LastSeenBy(Myself),WIZARD_DEATH_SPELL)
+END
+
+IF
+	Global("StoppedTime","LOCALS",2)
+	See(NearestEnemyOf(Myself))
+	RandomNum(2,1)
+	!StateCheck(NearestEnemyOf(Myself),STATE_CHARMED)
+	!StateCheck(NearestEnemyOf(Myself),STATE_CONFUSED)
+	!GlobalTimerNotExpired("gaze","LOCALS")
+THEN
+	RESPONSE #50
+		SetGlobalTimer("gaze","LOCALS",12)
+		FaceObject(NearestEnemyOf(Myself))
+		DisplayStringHead(Myself,71004) // Feel my beguiling gaze!
+		ReallyForceSpellRES("beguile",NearestEnemyOf(Myself))
+	RESPONSE #50
+		SetGlobalTimer("gaze","LOCALS",12)
+		FaceObject(NearestEnemyOf(Myself))
+		DisplayStringHead(Myself,71005) // Suffer under my gaze of insanity!
+		ReallyForceSpellRES("insanity",NearestEnemyOf(Myself))
+END
+
+IF
+	Global("StoppedTime","LOCALS",2)
+	!GlobalTimerNotExpired("firestorm","LOCALS")
+	RandomNum(2,1)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobalTimer("firestorm","LOCALS",1000)
+		IncrementGlobal("demospell","LOCALS",1)
+		ForceSpell(NearestEnemyOf(Myself),1722)
+END
+
+IF
+	Global("StoppedTime","LOCALS",2)
+	!GlobalTimerNotExpired("breathspell","LOCALS")
+	RandomNum(2,2)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobalTimer("breathspell","LOCALS",1000)
+		IncrementGlobal("demospell","LOCALS",1)
+		ForceSpell(NearestEnemyOf(Myself),2922)
+END
+
+IF
+	Global("StoppedTime","LOCALS",2)
+	!GlobalTimerNotExpired("unholy","LOCALS")
+	RandomNum(2,1)
+	See(NearestEnemyOf(Myself))
+	!Alignment(NearestEnemyOf(Myself),MASK_EVIL)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("unholy","LOCALS",30)
+		IncrementGlobal("demospell","LOCALS",1)
+		ForceSpell(Myself,CLERIC_UNHOLY_WORD)
+END
+
+IF
+	Global("StoppedTime","LOCALS",2)
+	!GlobalTimerNotExpired("implosion","LOCALS")
+	RandomNum(4,1)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobalTimer("firestorm","LOCALS",100)
+		IncrementGlobal("demospell","LOCALS",1)
+		ForceSpell(NearestEnemyOf(Myself),1728)
+END
+
+IF
+	Global("StoppedTime","LOCALS",2)
+	!GlobalTimerNotExpired("finger","LOCALS")
+	RandomNum(4,2)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobalTimer("finger","LOCALS",15)
+		IncrementGlobal("demospell","LOCALS",1)
+		ForceSpell(NearestEnemyOf(Myself),CLERIC_FINGER_OF_DEATH)
+END
+
+IF
+	Global("StoppedTime","LOCALS",2)
+	!GlobalTimerNotExpired("quake","LOCALS")
+	RandomNum(4,3)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobalTimer("quake","LOCALS",60)
+		IncrementGlobal("demospell","LOCALS",1)
+		ForceSpell(Myself,CLERIC_EARTHQUAKE)
+END
+
+IF
+	Global("StoppedTime","LOCALS",2)
+	GlobalTimerNotExpired("harm","LOCALS")
+	RandomNum(4,4)
+	OR(2)
+		See(NearestEnemyOf(Myself))
+		See(LeastDamagedOf(Myself))
+	Range(LastSeenBy(Myself),10)
+	CheckStatLT(LastSeenBy(Myself),50,RESISTMAGIC)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("harm","LOCALS",20)
+		IncrementGlobal("demospell","LOCALS",1)
+		PlaySound("SHAEL_09")
+		ForceSpell(LastSeenBy(Myself),ENEMY_CLERIC_HARM)
+END
+
+IF
+	!NumCreatureVsPartyLT([ENEMY.0.DEMONIC],0)
+	Range(NearestEnemyOf(Myself),4)
+THEN
+	RESPONSE #100
+		RunAwayFrom(NearestEnemyOf(Myself),30)
+	RESPONSE #50
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	Global("StoppedTime","LOCALS",2)
+	Detect(NearestEnemyOf(Myself))
+	OR(3)
+		Range(NearestEnemyOf(Myself),10)
+		HPPercentLT(Myself,50)
+		GlobalGT("demospell","LOCALS",1)
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+

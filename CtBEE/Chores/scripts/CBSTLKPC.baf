@@ -1,0 +1,17 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("CBSTLKP2")
+		MoveToPoint([1068.640])
+		Wait(10)
+		FadeToColor([20.0],0)
+		Wait(20)
+		FadeFromColor([20.0],0)
+		Wait(50)
+//		Wait(900)
+		MoveToObject(Player1)
+		StartDialogueNoSet(Player1)
+END
+
+

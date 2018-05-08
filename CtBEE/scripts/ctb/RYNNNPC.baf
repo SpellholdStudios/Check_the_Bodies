@@ -1,0 +1,50 @@
+IF
+	Die()
+	!InPartyAllowDead(Myself)
+	!StateCheck(Myself,STATE_STONE_DEATH)
+	OR(2)
+		Allegiance(Myself,ENEMY)
+		Allegiance(Myself,NEUTRAL)
+	Global("t#RYNNbody","LOCALS",0)
+THEN
+	RESPONSE #100
+		CreateItem("cbrynn",0,0,0)
+		SetGlobal("t#RYNNbody","LOCALS",1)
+		DropInventory()
+END
+
+IF
+	Global("CbRynnsQuest","GLOBAL",6)
+	Global("CbTimeToGo","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetDialog("RYNN")
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("CbRynnsQuest","GLOBAL",7)
+	GlobalGT("SPRITE_IS_DEADCBYT4446","GLOBAL",27)
+	!AreaCheck("AR3644")
+	!AreaCheck("AR3645")
+	!AreaCheck("AR3646")
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetDialog("RYNN")
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	ActionListEmpty()
+THEN
+	RESPONSE #100
+		ChangeAIScript("RYNNNPC",CLASS)
+		ChangeAIScript("",OVERRIDE)
+		ChangeAIScript("",DEFAULT)
+		ChangeAIScript("",GENERAL)
+		ChangeAIScript("",RACE)
+		SetDialog("RYNN")
+END
+
+

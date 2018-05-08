@@ -1,0 +1,218 @@
+IF
+	Global("HlondethShout","GLOBAL",1)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+	See([PC])
+	Global("HlondethShout","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("HlondethShout","GLOBAL",1)
+		Shout(99)
+		Enemy()
+END
+
+IF
+	HitBy([GOODCUTOFF],CRUSHING)
+	See([PC])
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Shout(99)
+		Enemy()
+		Continue()
+END
+
+IF
+	Heard([ANYONE],99)
+	See([PC])
+	Allegiance(Myself,NEUTRAL)
+	!Class(Myself,INNOCENT)
+THEN
+	RESPONSE #100
+		Shout(57)
+		Enemy()
+END
+
+IF
+	Heard([ANYONE],99)
+	See([PC])
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	Heard([ANYONE],57)
+	See([PC])
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	Global("HlondethShout","GLOBAL",1)
+	Allegiance(Myself,NEUTRAL)
+	Detect([PC])
+THEN
+	RESPONSE #100
+		Shout(99)
+		Enemy()
+		Continue()
+END
+
+IF
+	Heard([ANYONE],99)
+	!Class(Myself,INNOCENT)
+	!See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		MoveToObject(LastHeardBy(Myself))
+		Continue()
+END
+
+IF
+	Heard([ANYONE],57)
+	!Class(Myself,INNOCENT)
+	!See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		MoveToObject(LastHeardBy(Myself))
+		Continue()
+END
+
+IF
+	See([PC])
+	Detect([PC])
+	Gender(Myself,MALE)
+	General(Myself,HUMANOID)
+	!Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #50
+		PlaySound("BDHIGG03")
+		RunAwayFrom(LastSeenBy(Myself),30)
+	RESPONSE #50
+		RunAwayFrom(LastSeenBy(Myself),30)
+END
+
+IF
+	See([ENEMY])
+	Detect([PC])
+	Gender(Myself,MALE)
+	General(Myself,HUMANOID)
+	!Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #50
+		PlaySound("BDHIGG03")
+		RunAwayFrom(LastSeenBy(Myself),30)
+	RESPONSE #50
+		RunAwayFrom(LastSeenBy(Myself),30)
+END
+
+IF
+	See([PC])
+	Detect([PC])
+	Gender(Myself,FEMALE)
+	General(Myself,HUMANOID)
+	!Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #50
+		PlaySound("PEASF209")
+		RunAwayFrom(LastSeenBy(Myself),30)
+	RESPONSE #50
+		RunAwayFrom(LastSeenBy(Myself),30)
+END
+
+IF
+	See([ENEMY])
+	Detect([PC])
+	Gender(Myself,FEMALE)
+	General(Myself,HUMANOID)
+	!Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #50
+		PlaySound("PEASF209")
+		RunAwayFrom(LastSeenBy(Myself),30)
+	RESPONSE #50
+		RunAwayFrom(LastSeenBy(Myself),30)
+END
+
+IF
+	See([ENEMY])
+	!Detect([PC])
+	Gender(Myself,MALE)
+	General(Myself,HUMANOID)
+	!Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		RunAwayFrom(LastSeenBy(Myself),30)
+END
+
+IF
+	See([ENEMY])
+	!Detect([PC])
+	Gender(Myself,FEMALE)
+	General(Myself,HUMANOID)
+	!Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		RunAwayFrom(LastSeenBy(Myself),30)
+END
+
+IF
+	Global("CbHlondethVillagerItem","LOCALS",3)
+	AreaType(OUTDOOR)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		RandomWalk()
+END
+
+IF
+	Global("CbHlondethVillagerItem","LOCALS",3)
+	!AreaType(OUTDOOR)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		RandomTurn()
+END
+
+IF
+	Global("CbHlondethCivilWar","GLOBAL",1)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #50
+		ChangeEnemyAlly(Myself,GOODBUTRED)
+	RESPONSE #50
+		ChangeEnemyAlly(Myself,EVILBUTGREEN)
+END
+
+IF
+	Global("CbHlondethCivilWar","GLOBAL",1)
+	Allegiance(Myself,GOODBUTRED)
+	See([ANYONE])
+	Allegiance(LastSeenBy(Myself),EVILBUTGREEN)
+THEN
+	RESPONSE #100
+		Attack(LastSeenBy(Myself))
+END
+
+IF
+	Global("CbHlondethCivilWar","GLOBAL",1)
+	Allegiance(Myself,EVILBUTGREEN)
+	See([ANYONE])
+	Allegiance(LastSeenBy(Myself),GOODBUTRED)
+THEN
+	RESPONSE #100
+		Attack(LastSeenBy(Myself))
+END
+
+

@@ -1,0 +1,18 @@
+IF
+	TookDamage()
+	Global("CbBlueDragonAlerted","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbBlueDragonAlerted","GLOBAL",1)
+		SetGlobal("CbBlueDragonAttacked","AR3521",1)
+END
+
+IF
+	Global("CbBlueDragonAlerted","GLOBAL",1)
+	!Exists("CBBDAW01")
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+

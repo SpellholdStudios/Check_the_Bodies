@@ -1,0 +1,71 @@
+IF
+	Allegiance(Myself,NEUTRAL)
+	OR(4)
+		SpellCast([GOODCUTOFF],0)
+		SpellCastPriest([GOODCUTOFF],0)
+		SpellCastInnate([GOODCUTOFF],0)
+		Detect([GOODCUTOFF.0.0.0.0.SUMMONED])
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		DisplayStringHead(Myself,@550536)
+		Wait(2)
+		DisplayStringHead(Myself,@550537)
+		Enemy()
+		SetInterrupt(TRUE)
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ActionOverride("CBMALR2",ChangeEnemyAlly(Myself,ENEMY))
+		Continue()
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ActionOverride("CBMALR3",ChangeEnemyAlly(Myself,ENEMY))
+		Continue()
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ActionOverride("CBMALR4",ChangeEnemyAlly(Myself,ENEMY))
+		Continue()
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ActionOverride("CBMALR5",ChangeEnemyAlly(Myself,ENEMY))
+		Continue()
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ActionOverride("CBMALR6",ChangeEnemyAlly(Myself,ENEMY))
+		Continue()
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ActionOverride("CBMALR7",ChangeEnemyAlly(Myself,ENEMY))
+		Continue()
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ActionOverride("CBMALR8",ChangeEnemyAlly(Myself,ENEMY))
+END

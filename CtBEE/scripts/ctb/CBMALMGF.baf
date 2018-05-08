@@ -1,0 +1,82 @@
+IF
+	Global("CbMalteseArtifact","GLOBAL",1)
+	Global("CbMalMgeP1","AR0500",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbMalteseArtifact","GLOBAL",2)
+		ClearAllActions()
+		SmallWait(5)
+		StartCutSceneMode()
+		StartCutScene("CBMALMG1")
+END
+
+IF
+	Global("CbMalteseArtifact","GLOBAL",1)
+	Global("CbMalMgeP2","AR0500",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbMalteseArtifact","GLOBAL",2)
+		ClearAllActions()
+		SmallWait(5)
+		StartCutSceneMode()
+		StartCutScene("CBMALMG2")
+END
+
+IF
+	Global("CbMalteseArtifact","GLOBAL",1)
+	Global("CbMalMgeP3","AR0500",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbMalteseArtifact","GLOBAL",2)
+		ClearAllActions()
+		SmallWait(5)
+		StartCutSceneMode()
+		StartCutScene("CBMALMG3")
+END
+
+IF
+	Global("CbMalteseArtifact","GLOBAL",1)
+	Global("CbMalMgeP4","AR0500",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbMalteseArtifact","GLOBAL",2)
+		ClearAllActions()
+		SmallWait(5)
+		StartCutSceneMode()
+		StartCutScene("CBMALMG4")
+END
+
+IF
+	Global("CbMalteseArtifact","GLOBAL",1)
+	Global("CbMalMgeP5","AR0500",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbMalteseArtifact","GLOBAL",2)
+		ClearAllActions()
+		SmallWait(5)
+		StartCutSceneMode()
+		StartCutScene("CBMALMG5")
+END
+
+IF
+	Global("CbMalteseArtifact","GLOBAL",1)
+	Global("CbMalMgeP6","AR0500",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbMalteseArtifact","GLOBAL",2)
+		ClearAllActions()
+		SmallWait(5)
+		StartCutSceneMode()
+		StartCutScene("CBMALMG6")
+END
+
+IF
+	Global("CbMalteseArtifact","GLOBAL",3)
+	AreaCheck("AR0500")
+	Exists(Myself)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+

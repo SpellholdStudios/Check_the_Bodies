@@ -1,0 +1,21 @@
+IF
+	Global("CbChangedYuanTi","LOCALS",0)
+	Class(Myself,CLERIC)
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ChangeAnimationNoEffect("CBMYSTP3")
+		SetGlobal("CbChangedYuanTi","LOCALS",1)
+END
+
+IF
+	Global("CbChangedYuanTi","LOCALS",0)
+	Class(Myself,MAGE)
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ChangeAnimationNoEffect("CBMYSTP4")
+		SetGlobal("CbChangedYuanTi","LOCALS",1)
+END
+
+

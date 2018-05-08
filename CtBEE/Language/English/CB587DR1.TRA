@@ -1,0 +1,87 @@
+@1   = ~Welcome, Brother Druid, to the Grove of Hanali Celanil, our patron goddess.  Here we have come for centuries to pay homage to Nature, Her majestic beauty, to all of Her miracles of life which surround us.~
+@2   = ~You know well that the fragile butterfly was once a larval worm, yet as it must, grows to become a thing of wonder, a thing of beauty, the cycle is and will remain eternal.~
+@3   = ~You also know well that with every complete revolution of Toril around the sun, at the same time, the salmon, against the great current, return to their own spawning ground to mate and die, the cycle is and will remain eternal.~
+@4   = ~By the same token, Brother, the swallow has always- will always- fly south as winter approaches, yet we know that the winds will carry them back to us, the cycle is and will remain eternal.~
+@5   = ~You must forgive me, I do not have time for this.~
+@6   = ~Tell me more, Archdruid.  What else is there to learn of Nature?~
+@7   = ~I don't understand.  You aren't making sense.~
+@8   = ~Brother, before you can learn and grow, before you can become one with Nature's greatness, like the butterfly, the salmon, or the sparrow, you must open your eyes and mind to that which surrounds you.  Until you do, until you are ready to learn, I cannot teach you or observe your growth.~
+@9   = ~Brother, it is simple.  Like the butterfly, the salmon, or the sparrow, you too must learn and grow to become one with Nature's greatness.  When you are with open eyes and open mind, then you will be ready to learn.~
+@10  = ~Brother, you lead the life of a druid, and that is good, but your eyes and mind are half closed to Nature and Her greatness.  All cannot be explained simply because you ask and wish it to be so.~
+@11  = ~The eternal cycle of life is complex, Brother.  If you wish to learn, open your eyes, your mind, fully to this cycle.  Come, I will teach you now that you are ready.  You will follow my instructions and requirements without question, my Son.  For this, you will be rewarded with knowledge and understanding.~
+@12  = ~Come, Apprentice, my Son.  Take these seeds.  I wish them brought to the Great Grove south of us.  Give the seeds to a Master Verthan, who should plant each to grow and thrive.  Be careful, my Son, as you know the seeds are fragile and can easily be destroyed by fire or cold.~
+@13  = ~Welcome, again, my Son.  I caution you, for your apprenticeship with me to continue, you must complete the tasks and duties I have assigned.  Tell me, Son, have the seeds been delivered to Master Verthan?~
+@14  = ~No, Mother, the seeds were destroyed when I was ambushed.~
+@15  = ~No, Mother, the seeds are still in my care.~
+@16  = ~I have brought the seeds to the Druid Grove, Mother, and each is being planted and tended to by Verthan.~
+@17  = ~I am sorry, Mother, but I cannot deliver the seeds to the Druid Grove.  I fear that some ill must have occurred there.~
+@18  = ~My Son, you have recklessly harmed a thing of Nature.  For that, I cannot, I will not, forgive you.  Go, you irresponsible boy, for I cannot bear the sight of you.  Leave me without earning my knowledge.~
+@19  = ~Then with all haste, my Son, bring the seeds to Master Verthan in the Druid Grove south of here.~
+@20  = ~Thank you, my Son.  You have performed will, and I truly believe that you are ready to gain an insight of Nature and Her works.  Please, my Son, speak with my other, more learned apprentice who will teach you and allow you to grow.~
+@21  = ~My Son.  You are always welcome here.  I observe a growth within you, an acceptance of Nature's majesty, of the ways in which Her miracles occur, since you first came to this Grove.  You have performed the tasks I have assigned with diligence, with care, and with patience.  For doing so, I wish you to advance further in your life's journey.  I will teach you one final thing, but you, my Son, you must choose.~
+@22  = ~What would you like me to teach you:  how to memorize a greater number of spells than a druid of your ability normally can, how to improve your spellcasting times in a way that would allow you to cast two spells nearly simultaneously, or would you like to learn how to call upon the winds and lightning's in a vengeful manner to smite your foes?~
+@23  = ~I'd like to know how to memorize an additional spell per level.~
+@24  = ~I would like to cast two spells at once.~
+@25  = ~I want you to teach me how to raise a Storm of Vengeance.~
+@26  = ~What would you like me to teach you:  how to memorize a greater number of spells than a druid of your ability normally can, how to improve your spellcasting times in a way that would allow you to cast two spells nearly simultaneously, would you like to learn how to call upon the winds and lightning's in a vengeful manner to smite your foes, or would you like me to teach you how to use nearly any item- even things druids are not trained to use?~
+@27  = ~I'd like you to teach me how to use any item.~
+@28  = ~As you wish, my Son.  I will try my best to teach you how to increase the number of spells you can memorize.~
+@29  = ~I have succeeded, Brother Druid.  Your mental capacity to memorize spells now exceeds the norm for a druid of your ability.~
+@30  = ~As you wish, my Son.  I will try my best to teach you how to double the number of spells you cast in a specific time frame.~
+@31  = ~I have succeeded, Brother Druid.  You may now cast double the number of spells than most other druids in a single minute.~
+@32  = ~As you wish, my Son.  I will try my best to teach you how to call up a Storm of Vengeance.~
+@33  = ~I have succeeded, Brother Druid.  You may now call a Storm of Vengeance to thwart your enemies.~
+@34  = ~Teaching a druid to use any item is a difficult process.  I will try my best, my Son, but cannot guarantee that you will succeed.~
+@35  = ~Brother Druid, you are indeed special.  Without a doubt, it has been my pleasure and honor to teach you how to use nearly any item you wish.  However, it may not be a good idea for you to use some types of weapons, since druids were not meant to use some edged weapons, the effect on Faerûn may be catastropic.~
+@36  = ~Brother Druid, you are indeed special.  However, not everyone has the ability to lean how to use any type of item.  I beg your forgiveness as I was unable to teach you that skill.~
+@37  = ~Brother, your own knowledge of Nature's ways, of her wonder and splendor, of druidic arts is comparable to my own.  There is nothing else that I can teach you.  If you wish to remain in the Grove for meditations, prayers, or to commune, I will leave you to your own devices.~
+@38  = ~I am the Archdruid of this Grove, a sacred place to Hanali Celanil, and can only help those who follow the path of a druid.~
+@39  = ~I am the Archdruid of this Grove, a sacred place to Hanali Celanil, and I desire the tranquility and peace in which to commune with Nature.  Please, leave me to my devices.~
+@40  = ~My Son, I do not know what has occurred in the Great Grove, but I do believe that you, you irresponsible boy, have wantonly and recklessly harmed a thing of Nature.  For that, I cannot- I will not- forgive you.  Go, you careless boy, for I cannot bear the sight of you.  Leave me without earning my knowledge.~
+@41  = ~Welcome, Sister Druid, to the Grove of Hanali Celanil, our patron goddess.  Here we have come for centuries to pay homage to Nature, Her majestic beauty, to all of Her miracles of life which surround us.~
+@42  = ~By the same token, Sister, the swallow has always- will always- fly south as winter approaches, yet we know that the winds will carry them back to us, the cycle is and will remain eternal.~
+@43  = ~Sister, before you can learn and grow, before you can become one with Nature's greatness, like the butterfly, the salmon, or the sparrow, you must open your eyes and mind to that which surrounds you.  Until you do, until you are ready to learn, I cannot teach you or observe your growth.~
+@44  = ~Sister, it is simple.  Like the butterfly, the salmon, or the sparrow, you too must learn and grow to become one with Nature's greatness.  When you are with open eyes and open mind, then you will be ready to learn.~
+@45  = ~Sister, you lead the life of a druid, and that is good, but your eyes and mind are half closed to Nature and Her greatness.  All cannot be explained simply because you ask and wish it to be so.~
+@46  = ~The eternal cycle of life is complex, Sister.  If you wish to learn, open your eyes, your mind, fully to this cycle.  Come, I will teach you now that you are ready.  You will follow my instructions and requirements without question, my Daughter.  For this, you will be rewarded with knowledge and understanding.~
+@47  = ~Come, Apprentice, my Daughter.  Take these seeds.  I wish them brought to the Great Grove south of us.  Give the seeds to a Master Verthan, who should plant each to grow and thrive.  Be careful, my Daughter, as you know the seeds are fragile and can easily be destroyed by fire or cold.~
+@48  = ~Welcome, again, my Daughter.  I caution you, for your apprenticeship with me to continue, you must complete the tasks and duties I have assigned.  Tell me, Daughter, have the seeds been delivered to Master Verthan?~
+@49  = ~My Daughter, you have recklessly harmed a thing of Nature.  For that, I cannot, I will not, forgive you.  Go, you irresponsible girl, for I cannot bear the sight of you.  Leave me without earning my knowledge.~
+@50  = ~Then with all haste, my Daughter, bring the seeds to Master Verthan in the Druid Grove south of here.~
+@51  = ~Thank you, my Daughter.  You have performed will, and I truly believe that you are ready to gain an insight of Nature and Her works.  Please, my Daughter, speak with my other, more learned apprentice who will teach you and allow you to grow.~
+@52  = ~My Daughter.  You are always welcome here.  I observe a growth within you, an acceptance of Nature's majesty, of the ways in which Her miracles occur, since you first came to this Grove.  You have performed the tasks I have assigned with diligence, with care, and with patience.  For doing so, I wish you to advance further in your life's journey.  I will teach you one final thing, but you, my Daughter, you must choose.~
+@53  = ~As you wish, my Daughter.  I will try my best to teach you how to increase the number of spells you can memorize.~
+@54  = ~I have succeeded, Sister Druid.  Your mental capacity to memorize spells now exceeds the norm for a druid of your ability.~
+@55  = ~As you wish, my Daughter.  I will try my best to teach you how to double the number of spells you cast in a specific time frame.~
+@56  = ~I have succeeded, Sister Druid.  You may now cast double the number of spells than most other druids in a single minute.~
+@57  = ~As you wish, my Daughter.  I will try my best to teach you how to call up a Storm of Vengeance.~
+@58  = ~I have succeeded, Sister Druid.  You may now call a Storm of Vengeance to thwart your enemies.~
+@59  = ~Teaching a druid to use any item is a difficult process.  I will try my best, my Daughter, but cannot guarantee that you will succeed.~
+@60  = ~Sister Druid, you are indeed special.  Without a doubt, it has been my pleasure and honor to teach you how to use nearly any item you wish.  However, it may not be a good idea for you to use some types of weapons, since druids were not meant to use some edged weapons, the effect on Faerûn may be catastropic.~
+@61  = ~Sister Druid, you are indeed special.  However, not everyone has the ability to lean how to use any type of item.  I beg your forgiveness as I was unable to teach you that skill.~
+@62  = ~Sister, your own knowledge of Nature's ways, of her wonder and splendor, of druidic arts is comparable to my own.  There is nothing else that I can teach you.  If you wish to remain in the Grove for meditations, prayers, or to commune, I will leave you to your own devices.~
+@63  = ~My Daughter, I do not know what has occurred in the Great Grove, but I do believe that you, you irresponsible girl, have wantonly and recklessly harmed a thing of Nature.  For that, I cannot- I will not- forgive you.  Go, you careless girl, for I cannot bear the sight of you.  Leave me without earning my knowledge.~
+@64 = ~The Great Druid: Delivery
+
+I've been asked by the Great Druid herself to deliver a few seeds to the Druid Grove near Trademeet.  She has asked me to give them to Verthan and return to her when he has the seeds planted.~
+@65 = ~The Great Druid: Delivery
+
+I was asked by the Great Druid herself to deliver a few seeds to the Druid Grove near Trademeet and I have given the seeds to Verthan who has planted them.~
+@66 = ~The Great Druid:  Teaching of the Way
+
+The Great Druid and her apprenctices have taught me how to memorize more spells.~
+@67 = ~The Great Druid:  Teaching of the Way
+
+The Great Druid and her apprenctices have taught me how to cast twice as many spells in the same time period as I could previously.~
+@68 = ~The Great Druid:  Teaching of the Way
+
+The Great Druid and her apprenctices have taught me how to call up a Storm of Vengeance.~
+@69 = ~The Great Druid:  Teaching of the Way
+
+The Great Druid and her apprenctices have taught me how to use any item that I want to.~
+@70 = ~The Great Druid:  Teaching of the Way
+
+The Great Druid and her apprenctices have tried to teach me how to use any item, but I could not figure out most of what they were saying.~
+@71 = ~The Great Druid: Delivery
+
+I've been asked by the Great Druid herself to deliver a few seeds to the Druid Grove near Trademeet.  She has asked me to give them to Verthan and return to her when he has the seeds planted.~

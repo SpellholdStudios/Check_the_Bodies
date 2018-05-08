@@ -1,0 +1,64 @@
+IF
+	Allegiance(Myself,ENEMY)
+	!StateCheck(Myself,STATE_CHARMED)
+	HasItem("IMOENHP1",Myself) // Imoen's Belt
+THEN
+	RESPONSE #100
+		DestroyItem("IMOENHP1") // Imoen's Belt
+END
+
+IF
+	CombatCounterGT(0)
+	AreaCheck("AR3531")
+	Global("Cb_MoondropWarns","AR3531",0)
+	!HasItem("CBCO8HP1",Myself)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	HasItem("CBC8SMBW",Myself)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		TakeItemReplace("CBC8RLBW","CBC8SMBW",Myself)
+		SetInterrupt(TRUE)
+END
+
+IF
+	HPLT(Myself,15)
+	!HasItem("CBCO8HP1",Myself)
+	HasItem("POTN52",Myself) // Potion of Extra Healing
+THEN
+	RESPONSE #100
+		UseItem("POTN52",Myself) // Potion of Extra Healing
+END
+
+IF
+	HPLT(LastTargetedBy(Myself),1)
+THEN
+	RESPONSE #100
+		ClearActions(Myself)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(LastSeenBy(Myself),12)
+THEN
+	RESPONSE #100
+		EquipItem("CBSMRLBW")
+		AttackReevaluate(LastSeenBy(Myself),20)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Range(LastSeenBy(Myself),12)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+

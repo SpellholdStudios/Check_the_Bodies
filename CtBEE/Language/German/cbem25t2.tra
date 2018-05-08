@@ -1,0 +1,55 @@
+@1  = ~Es tut mir Leid, aber zur Zeit kann ich nichts für Euch tun.~ 
+@2  = ~Ich danke Euch für Eure Hilfe, <GABBER>. Ihr habt geholfen, mich meiner Bestimmung hier auf Faerûn einen Schritt näher zu bringen. Lasst mich Euch nun helfen, Euer Schicksal zu erfüllen. Die Entscheidung liegt wie immer bei Euch. Ich kann Euch helfen, indem ich Euch eine Sache lehre.~
+@3  = ~Was, <GABBER>, würdet Ihr lieber lernen: Wie man sich zusätzliche Zaubersprüche einprägen kann? Wie man schneller zaubert? Oder, wie man eine normale Waffe in eine Magische verzaubert?~ 
+@4  = ~Ich möchte wissen, wie ich mir einen zusätzlichen Zauberspruch pro Level einprägen kann.~
+@5  = ~Ich denke, das es vorteilhafter für mich ist, schneller zaubern zu können.~ 
+@6  = ~Ich möchte lernen, wie ich eine Waffe verzaubern kann.~
+@7  = ~Also gut, <GABBER>. Es ist mir eine Ehre, Euch darin zu unterrichten, wie Ihr Eure mentalen Fähigkeiten erweitern könnt.~
+@8  = ~Wir sind dem Ziel einen Schritt näher gekommen unsere Arbeit zu vollenden, <GABBER>. Ihr lernt schnell und es ist uns eine Ehre, Euch zu helfen, Eure mentalen Fähigkeiten zu erweitern.~ 
+@9  = ~Also gut, <GABBER>. Es ist mir eine Ehre, Euch zu lehren, wie Ihr schneller und effizienter zaubern könnt.~
+@10 = ~Wir sind dem Ziel einen Schritt näher gekommen, unsere Arbeit zu vollenden, <GABBER>. Ihr lernt schnell und es ist uns eine Ehre, Euch zu helfen, schneller zaubern zu lernen.~ 
+@11 = ~Also gut, <GABBER>. Es ist mir eine Ehre, Euch zu lehren, wie Ihr eine Waffe magisch verzaubern könnt, sei es ein Schwert, ein Dolch, eine Axt oder eine Hellebarde.~
+@12 = ~Wir sind dem Ziel einen Schritt näher gekommen, unsere Arbeit zu vollenden, <GABBER>. Ihr lernt schnell und es ist uns eine Ehre, Euch geholfen zu haben, zu lernen, wie man Waffen verzaubert. Aber denkt daran, das Ihr den Gegenstand, den Ihr verzaubern wollt, bei Euch tragen müsst, sonst schlägt die Verzauberung fehl. Und denkt auch daran, das es nur mit Waffen funktioniert, die Ihr in der Hand haltet, während ihr angreift, keine, die geworfen werden können.~
+@13 = ~Das habt Ihr sehr gut gemacht, <GABBER> und wir Drei sind dankbar für Eure Hilfe. Aber nun ist es Zeit für weitere Aufgaben. Seid Ihr bereit?~ 
+@14 = ~Ja, verehrte Dame. Sagt mir, was es zu tun gibt.~
+@15 = ~Nein, verehrte Dame. Ich brauche mehr Zeit.~ 
+@16 = ~<GABBER>, wir können unsere Bestimmung hier auf Faerûn nicht erfüllen, bis Ihr bereit seid. Bereitet Euch gut darauf vor und kehrt zurück, wenn Ihr bereit seid.~
+@17 = ~Sehr gut, <GABBER>. Hört genau zu, ich muss Euch vieles erklären, bevor Ihr Euch Eurer nächsten Aufgabe stellen könnt.~
+@18 = ~Es gibt dort eine wachsende Präsenz, die ich in den letzten paar Monaten aus der Ferne gespürt habe. Ich kann Euch nicht genau sagen, was es ist, aber ich kann fühlen, dass es sich um ein großes Übel handelt.~
+@19 = ~<GABBER>, ich fürchte um diese Region, wenn die Präsenz zu stark wird. Sie ist nicht von unserer Welt und muss daran gehindert werdenn, verheerenden Schaden anzurichten.~ 
+@20 = ~Ich setze Euch darauf an <GABBER>, es mit allen Mitteln, die Euch zur Verfügung stehen, zu bekämpfen und zu töten. Ruft Eure Verbündeten herbei, mächtige Freunde, oder benutzt magische Gegenstände, um diese Bedrohung um jeden Preis zu beenden, wenn Ihr müsst. Die Sicherheit von Faerûn liegt erneut in Euren Händen.~
+@21 = ~Wo kann ich diese Präsenz finden?~ 
+@22 = ~Ich werde mein Bestes tun.~ 
+@23 = ~Ich bezweifle, das meine Fähigkeiten ausreichen werden, um eine solch schreckliche Bedrohung zu beenden.~
+@24 = ~Ich weiss nicht genau wo, aber die Präsenz ist nördlich von hier am Stärksten. In der menschlichen Stadt namens Athkatla.~ 
+@25 = ~Was immer nötig ist, <GABBER>, das Schicksal von uns allen könnte ich Euren Händen liegen. Wir drei vertrauen auf Euch, Ehlan vertraut auf Euch und auch all jene, die nicht mehr als nur ein paar Tavernengeschichten über Eure Taten gehört haben, vertrauen auf Euch, wenn sie von der Gefahr erfahren. Habt Vertrauen in Euch selbst, <LADYLORD>, und Ihr werdet Erfolg haben!~
+@26 = ~Ich weiss, Ihr werdet Euer Bestes tun. Das ist alles, was wir erbitten können. Viel Glück für Euch, <GABBER>. Kehrt zu mir zurück, wenn Ihr die Präsenz vernichtet habt. Möge Seldarine über Euch wachen und Ihre Hände über Euch halten.~
+@27 = ~Ich kann das grosse Böse in dieser Region immer noch spüren. Ich fühle, das Ihr Eure Aufgabe noch nicht komplett erfüllt habt.~
+@28 = ~Ich kann diese Präsenz nicht finden. Wisst Ihr, wo Sie zufinden ist?~
+@29 = ~Ich sagte Euch, das ich sie in Athkatla fühlen kann.~
+@30 = ~Ich kann es nicht genau sagen, aber die Präsenz ist im Westen der menschlichen Stadt am stärksten.~
+@31 = ~Ich spüre, das diese Präsenz irgendwo in der Nähe eines Gewässers zu finden ist. Vielleicht ein Fluss? Ich kann es nicht mit Sicherheit sagen.~
+@32 = ~Das Böse is unter der Oberfläche zu finden. Es macht den Eindruck, als ob es nach einem Mix aus Schwefel, Salz und Fäulnis riecht.~
+@33 = ~Ich kann es nicht noch genauer sagen, <GABBER>. Das Böse geht am Stärksten von der westlichen Seite von Athkatla aus, in der Nähe von Wasser, unter der Oberfläche.~
+@34 = ~Ich kann die wachsende böse Präsenz nicht länger spüren. Habt Ihr sie zerstört?~
+@35 = ~Nein, sie wurde verbannt, aber nicht zerstört.~
+@36 = ~Ja, verehrte Dame. Ich zerstörte sie, was immer es war.~
+@37 = ~Dann ist es getan, ungeachtet des Ergebnisses. Das habt Ihr sehr gut gemacht, <GABBER>. Ich danke Euch dafür, das Ihr mich meinem Ziel näher gebracht habt, alsbald Richtung Westen aufbrechen zu können.~
+@38 = ~Geht, <GABBER>. Bezwingt das Böse, wenn Ihr könnt.~
+@39 = ~Wir erwarten die Zeit, wenn wir uns endgültig auf den Weg von Faerûn nach Immerdar machen. Corellan Lotharian möge Euch leiten, <GABBER>.~
+@40 = ~Ältere Elfen: Magische Anweisungen 
+
+Die drei Zauberinnen, die ich an den westlichen Ausläufern des Tethyrwaldes, in der Nähe des Höhleneingangs zum Unterreich traf, waren so freundlich, mich zu unterrichten, wie ich mir mehr Zaubersprüche einprägen kann.~
+@41 = ~Ältere Elfen: Magische Anweisungen
+
+Die drei Zauberer, die ich an den westlichen Ausläufern des Tethyrwaldes, in der Nähe des Höhleneingangs zum Unterreich traf, waren so freundlich, mich zu unterrichten, wie man schneller Zauber wirken kann.~
+@42 = ~Ältere Elfen: Magische Anweisungen
+
+Die drei Zauberinnen, die ich an den westlichen Ausläufern des Tethyrwaldes, in der Nähe des Höhleneingangs zum Unterreich traf, waren so freundlich, mich zu unterrichten, wie man normale Waffen in geringe magische Waffen verzaubert.~
+@43 = ~Ältere Elfen: Böse Präsenz
+
+Die drei Zauberinnen bereiten ihren Rückzug vor und haben mich beauftragt, eine böse Präsenz zu bezwingen, die sie in dieser Region spüren können. Sie sind sich unsicher, von wo genau das Böse ausstrahlt, aber es soll sich irgendwo in der Stadt Athkatla befinden.
+ Wenn ich die böse Präsenz durch ihre Vernichtung oder Verbannung von Faerûn besiegt habe, soll ich den Elfen Bericht erstatten. Sie erwarten mich in der Nähe des Ausgangs von Untertief und versprachen mir mich in einer weiteren Fertigkeit zu unterrichten, die mein Leben bereichern wird.~
+@44 = ~Ältere Elfen: Böse Präsenz
+
+Ich habe den bösen Dämonen in den Docks von Athkatla bezwungen, den die Elfenzauberinnen gespürt hatten. Sie sagten mir, das sie bald nach Immerdar aufbrechen würden. Sie versprachen mir aber, mich vorher noch eine neue Fertigkeit zu lehren.~

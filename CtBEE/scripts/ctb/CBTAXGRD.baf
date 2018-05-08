@@ -1,0 +1,29 @@
+IF
+	OnCreation()
+	Range("CBTAXCOL",10)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		RunAwayFrom("CBTAXCOL",2)
+END
+
+IF
+	Allegiance("CBTAXCOL",ENEMY)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly(Myself,ENEMY)
+END
+
+IF
+	Global("CbTaxCollected","GLOBAL",2)
+	OR(3)
+		!Allegiance("CBTAXCOL",ENEMY)
+		!InMyArea("CBTAXCOL")
+		!See("CBTAXCOL")
+THEN
+	RESPONSE #100
+		EscapeArea()
+END
+
+

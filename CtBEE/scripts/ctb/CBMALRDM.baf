@@ -1,0 +1,27 @@
+IF
+	See([ANYONE])
+        HPGT(LastSeenBy(Myself),0)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),10)
+END
+
+IF
+	Detect([GOODCUTOFF])
+	!See(LastTrigger)
+THEN
+	RESPONSE #100
+		MoveToObject(LastTrigger)
+		AttackReevaluate(LastTrigger,10)
+END
+
+IF
+	Exists(NearestEnemyOf(Myself))
+	!See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		MoveToObject(NearestEnemyOf(Myself))
+		Continue()
+END
+
+

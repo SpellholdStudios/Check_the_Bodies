@@ -1,0 +1,19 @@
+IF
+	IsOverMe([GOODCUTOFF])
+	Global("CbSpawnParisa","GLOBAL",1)
+	Global("CbShadowThievesCapturePC","GLOBAL",6)
+	Global("CbBodhiJob","GLOBAL",6)
+	Global("CbWorkingForBodhi","GLOBAL",6)
+	Global("CbParisaHelpsNPCs","AR0300",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParisaHelpsNPCs","AR0300",1)
+		SetGlobal("CbSpawnParisa","GLOBAL",2)
+		CreateCreature("CBSHDWKY",[2182.550],0)
+		CreateCreature("VVMALE1",[2178.614],0) // Vampire
+		CreateCreature("VVMALE2",[2255.524],0) // Vampire
+		ActionOverride("VVMALE1",FaceObject("CBSHDWKY"))
+		ActionOverride("VVMALE2",FaceObject("CBSHDWKY"))
+END
+
+

@@ -1,0 +1,53 @@
+@1  = ~¿Intrusos en los dominios de Mekrath?  ¿Qué os trae aquí, estúpido hombre?   Hablad rápido, ¡no me gusta soportar a los bufones errantes!~
+~¿Intrusos en los dominios de Mekrath?  ¿Qué te trae aquí, estúpida mujer?   Hablad rápido, ¡no me gusta soportar a los bufones errantes!~ 
+@2  = ~Siento la intromisión... seguiré mi camino.~
+@3  = ~¡No me intimidáis, hechicero!... Voy a donde quiero.~ 
+@4  = ~Busco aventura y conocimiento. Pero si no poseéis ninguno de los dos, entonces sois de poca utilidad para mí.~
+@5  = ~¡Largaos entonces! ¡Habéis agotado mi paciencia, no pienso aguantaros por más tiempo!~ 
+@6  = ~¿Os atrevéis a atacarme? ¿En mi propio santuario? ¡Mequetrefe! ¡Disfrutaré arrancandoos los miembros uno por uno con mi magia!~
+@7  = ~Ja, ja... Vuestras palabras son audaces, muchacho. Conocimientos tengo para vos, si en verdad los buscáis. ¿En qué estáis interesado?~
+~Ja, ja... Vuestras palabras son audaces, muchacha.  Conocimientos tengo para vos, si en verdad lo buscáis. ¿En qué estáis interesada?~
+@8  = ~El conocimiento es en sí mismo es una recompensa... decidme lo que conocéis, y consideraré los costes.~ 
+@9  = ~Podría ser... ¿En qué tipo de aprendizaje habéis sido iniciado?~
+@10 = ~No, creo que no estoy interesado en nada de lo que podáis enseñarme.~
+~No, creo que no estoy interesada en nada de lo que podáis enseñarme.~ 
+@11 = ~Bueno, además de disculpar vuestra intrusión ante mi presencia, estoy seguro de que podemos encontrar algo adecuado para vuestra sencilla mente, muchacho.~
+~Bueno, además de disculpar vuestra intrusión ante mi presencia, estoy seguro de que podemos encontrar algo adecuado para vuesra sencilla mente, muchacha.~
+@12 = ~Sé mucho sobre el Velo, la caida de dicho Velo, y lo que está mas allá. ¿Necesitáis aprender tales ciencias?~
+@13 = ~No necesito vuestras lecciones, aunque debo aprender de esas cosas.~ 
+@14 = ~No, no quiero tener nada que ver con vos.~
+@15 = ~Soy uno de los mas grandes nigromantes que jamás ha visto esta ciudad. Sé mucho sobre el Velo, la caida de dicho Velo, y lo que está más allá. ¿Necesitáis aprender tales ciencias?~ 
+@16 = ~¿Lecciones?  No malgastaría mi tiempo.~
+@17 = ~No, pequeño, debéis aprender por vuestra cuenta. Sin embargo, os daré la oportunidad de avanzar en vuestros estudios sobre lo que hay mas allá de la muerte por un pequeño precio.~
+~No, pequeña, debéis aprender por vuestra cuenta. Sin embargo, os daré la oportunidad de avanzar en vuestros estudios sobre lo que hay mas allá de la muerte por un pequeño precio.~
+@18 = ~Os daré este libro, manuscrito por un nigromante recientemente fallecido, "A través de los Espíritus". Por un precio.~
+@19 = ~Decid vuestro precio entonces, mago.~ 
+@20 = ~No sé si podría permitirme vuestros precios.~
+@21 = ~No os pagaré nada.~ 
+@22 = ~Sólo quiero dos cosas. Traedme una Piedra pícara y unos espéculos, unas Gafas de Identificación para ser exactos, y os los cambiaré por el libro.~ 
+@23 = ~Tenéis suerte, mago. Lo tengo todo aquí. Negociemos y cerremos el trato.~
+@24 = ~Muy bien, mago. Os traeré los objetos que queréis.~ 
+@25 = ~No haré tratos con vos. El valor de una Piedra pícara sobrepasa por sí solo el de cualquier libro polvoriento.~
+@26 = ~También vos sois afortunado. Vamos, dadme los objetos y os entregaré el libro.~
+~También vos sois afortunada. Vamos, dadme los objetos y os entregaré el libro.~
+@27 = ~Nuestro trato está hecho, muchacho. Déjadme; no me molestéis más.~
+~Nuestro trato está hecho, muchacha. Déjadme; no me molestéis más.~
+@28 = ~No os retraséis, muchacho.~
+~No os retraséis, muchacha.~
+@29 = ~Si deseáis el tomo, me traeréis los objetos.  Si no, déjadme.~
+@30 = ~Quizás podáis. No busco mucho.~
+@31 = ~Entonces no tendremos más interacciones verbales.~
+@32 = ~¿Me molestaís de nuevo? ¿Habéis traido los objetos que os pedí?~
+@33 = ~No. No creo que os vaya a traer esos objetos.~
+@34 = ~Aún no. Sigo buscando.~
+@35 = ~Sólo pude encontrar una Piedra pícara.~
+@36 = ~Tengo las gafas, pero aún no he encontrado una Piedra pícara.~
+@37 = ~Tengo tanto la Piedra pícara como las gafas que queríais.~
+@38 = ~¡Entonces largáos! Traedme los objetos, y entonces cerraremos nuestro trato.~
+@39 = ~Encontrad ambos, muchacho. No me molestéis de nuevo hasta que los tengáis.~
+~Encontrad ambos, muchacha. No me molestéis de nuevo hasta que los tengáis.~
+@40 = ~Dadme los objetos, y os daré el libro.~
+@41 = ~No tengo nada mas que tratar con vos. ¡Largo! ¡Largáos de los dominio de Mekrath!~
+@42 = ~Encontrado "A través de los Espíritus"
+
+Encontré el libro que el mago Ceeb estaba buscando. Regresaré al Paseo para darle el libro.~

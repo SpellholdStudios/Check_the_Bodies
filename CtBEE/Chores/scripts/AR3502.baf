@@ -1,0 +1,519 @@
+//**************************************************************************
+//Alchemy skill using
+IF
+        Global("SPCL919","GLOBAL",1)
+        PartyHasItem("CBSCRB0J")
+        Global("CbScrollsScribedByAlchemy","GLOBAL",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,CreateItem("CBCOPY10",1,1,0))
+        ActionOverride(Player1,CreateItem("CBCOPY10",1,1,0))
+        SetGlobal("CbScrollsScribedByAlchemy","GLOBAL",1)
+        Continue()
+END
+
+IF
+        Global("SPCL919","GLOBAL",1)
+        PartyHasItem("CBSCRB0K")
+        Global("CbScrollsScribedByAlchemy","GLOBAL",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,CreateItem("CBCOPY11",1,1,0))
+        ActionOverride(Player1,CreateItem("CBCOPY11",1,1,0))
+        ActionOverride(Player1,CreateItem("CBCOPY11",1,1,0))
+        SetGlobal("CbScrollsScribedByAlchemy","GLOBAL",1)
+END
+
+IF
+        Global("SPCL919","GLOBAL",1)
+        PartyHasItem("CBSCRB0L")
+        Global("CbScrollsScribedByAlchemy","GLOBAL",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,CreateItem("CBCOPY12",1,1,0))
+        ActionOverride(Player1,CreateItem("CBCOPY12",1,1,0))
+        ActionOverride(Player1,CreateItem("CBCOPY12",1,1,0))
+        ActionOverride(Player1,CreateItem("CBCOPY12",1,1,0))
+        SetGlobal("CbScrollsScribedByAlchemy","GLOBAL",1)
+END
+
+IF
+        Global("CbScrollsScribedByAlchemy","GLOBAL",1)
+THEN
+    RESPONSE #100
+        DisplayStringHead(Player1,@550630)
+        SetGlobal("CbScrollsScribedByAlchemy","GLOBAL",2)
+END
+//**************************************************************************
+
+IF
+	Global("CbPlayerTookDayOneBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	Contains("CB502D1H","ContainerH")
+	Global("Cb_D1H_Correct","AR3502",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D1H_Correct","AR3502",1)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",1)
+END
+
+IF
+	Global("CbPlayerTookDayOneBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	Contains("CB502D1N","ContainerN")
+	Global("Cb_D1N_Correct","AR3502",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D1N_Correct","AR3502",1)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",1)
+END
+
+IF
+	Global("CbPlayerTookDayOneBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	Contains("CB502D1P","ContainerP")
+	Global("Cb_D1P_Correct","AR3502",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D1P_Correct","AR3502",1)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",1)
+END
+
+IF
+	Global("CbPlayerTookDayOneBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	Contains("CB502D1S","ContainerS")
+	Global("Cb_D1S_Correct","AR3502",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D1S_Correct","AR3502",1)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",1)
+END
+
+IF
+	Global("CbPlayerTookDayOneBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	!Contains("CB502D1H","ContainerH")
+	Global("Cb_D1H_Correct","AR3502",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D1H_Correct","AR3502",0)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",-1)
+END
+
+IF
+	Global("CbPlayerTookDayOneBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	!Contains("CB502D1N","ContainerN")
+	Global("Cb_D1N_Correct","AR3502",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D1N_Correct","AR3502",0)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",-1)
+END
+
+IF
+	Global("CbPlayerTookDayOneBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	!Contains("CB502D1P","ContainerP")
+	Global("Cb_D1P_Correct","AR3502",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D1P_Correct","AR3502",0)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",-1)
+END
+
+IF
+	Global("CbPlayerTookDayOneBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	!Contains("CB502D1S","ContainerS")
+	Global("Cb_D1S_Correct","AR3502",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D1S_Correct","AR3502",0)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",-1)
+END
+
+IF
+	Global("CbPlayerTookDayTwoBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	Contains("CB502D2D","ContainerD")
+	Global("Cb_D2D_Correct","AR3502",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D2D_Correct","AR3502",1)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",1)
+END
+
+IF
+	Global("CbPlayerTookDayTwoBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	Contains("CB502D2B","ContainerB")
+	Global("Cb_D2B_Correct","AR3502",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D2B_Correct","AR3502",1)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",1)
+END
+
+IF
+	Global("CbPlayerTookDayTwoBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	Contains("CB502D2N","ContainerN")
+	Global("Cb_D2N_Correct","AR3502",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D2N_Correct","AR3502",1)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",1)
+END
+
+IF
+	Global("CbPlayerTookDayTwoBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	Contains("CB502D2T","ContainerT")
+	Global("Cb_D2T_Correct","AR3502",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D2T_Correct","AR3502",1)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",1)
+END
+
+IF
+	Global("CbPlayerTookDayTwoBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	!Contains("CB502D2D","ContainerD")
+	Global("Cb_D2D_Correct","AR3502",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D2D_Correct","AR3502",0)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",-1)
+END
+
+IF
+	Global("CbPlayerTookDayTwoBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	!Contains("CB502D2B","ContainerB")
+	Global("Cb_D2B_Correct","AR3502",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D2B_Correct","AR3502",0)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",-1)
+END
+
+IF
+	Global("CbPlayerTookDayTwoBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	!Contains("CB502D2N","ContainerN")
+	Global("Cb_D2N_Correct","AR3502",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D2N_Correct","AR3502",0)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",-1)
+END
+
+IF
+	Global("CbPlayerTookDayTwoBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	!Contains("CB502D2T","ContainerT")
+	Global("Cb_D2T_Correct","AR3502",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D2T_Correct","AR3502",0)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",-1)
+END
+
+IF
+	Global("CbPlayerTookDayTwoBooks","AR3502",1)
+	Global("CbPlayerShelvedBookCorrectly","AR3502",4)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPlayerShelvedBookCorrectly","AR3502",5)
+END
+
+IF
+	Global("CbPlayerTookDayThreeBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	Contains("CB502D3D","ContainerD")
+	Global("Cb_D3D_Correct","AR3502",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D3D_Correct","AR3502",1)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",1)
+END
+
+IF
+	Global("CbPlayerTookDayThreeBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	Contains("CB502D3G","ContainerG")
+	Global("Cb_D3G_Correct","AR3502",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D3G_Correct","AR3502",1)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",1)
+END
+
+IF
+	Global("CbPlayerTookDayThreeBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	Contains("CB502D3N","ContainerN")
+	Global("Cb_D3N_Correct","AR3502",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D3N_Correct","AR3502",1)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",1)
+END
+
+IF
+	Global("CbPlayerTookDayThreeBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	Contains("CB502D3U","ContainerU")
+	Global("Cb_D3U_Correct","AR3502",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D3U_Correct","AR3502",1)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",1)
+END
+
+IF
+	Global("CbPlayerTookDayThreeBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	!Contains("CB502D3D","ContainerD")
+	Global("Cb_D3D_Correct","AR3502",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D3D_Correct","AR3502",0)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",-1)
+END
+
+IF
+	Global("CbPlayerTookDayThreeBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	!Contains("CB502D3G","ContainerG")
+	Global("Cb_D3G_Correct","AR3502",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D3G_Correct","AR3502",0)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",-1)
+END
+
+IF
+	Global("CbPlayerTookDayThreeBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	!Contains("CB502D3N","ContainerN")
+	Global("Cb_D3N_Correct","AR3502",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D3N_Correct","AR3502",0)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",-1)
+END
+
+IF
+	Global("CbPlayerTookDayThreeBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	!Contains("CB502D3U","ContainerU")
+	Global("Cb_D3U_Correct","AR3502",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D3U_Correct","AR3502",0)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",-1)
+END
+
+IF
+	Global("CbPlayerTookDayThreeBooks","AR3502",1)
+	Global("CbPlayerShelvedBookCorrectly","AR3502",4)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPlayerShelvedBookCorrectly","AR3502",5)
+END
+
+IF
+	Global("CbPlayerTookDayFourBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	Contains("CB502D4F","ContainerF")
+	Global("Cb_D4F_Correct","AR3502",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D4F_Correct","AR3502",1)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",1)
+END
+
+IF
+	Global("CbPlayerTookDayFourBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	Contains("CB502D4H","ContainerH")
+	Global("Cb_D4H_Correct","AR3502",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D4H_Correct","AR3502",1)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",1)
+END
+
+IF
+	Global("CbPlayerTookDayFourBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	Contains("CB502D4N","ContainerN")
+	Global("Cb_D4N_Correct","AR3502",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D4N_Correct","AR3502",1)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",1)
+END
+
+IF
+	Global("CbPlayerTookDayFourBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	Contains("CB502D4G","ContainerG")
+	Global("Cb_D4G_Correct","AR3502",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D4G_Correct","AR3502",1)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",1)
+END
+
+IF
+	Global("CbPlayerTookDayFourBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	!Contains("CB502D4F","ContainerF")
+	Global("Cb_D4F_Correct","AR3502",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D4F_Correct","AR3502",0)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",-1)
+END
+
+IF
+	Global("CbPlayerTookDayFourBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	!Contains("CB502D4H","ContainerH")
+	Global("Cb_D4H_Correct","AR3502",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D4H_Correct","AR3502",0)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",-1)
+END
+
+IF
+	Global("CbPlayerTookDayFourBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	!Contains("CB502D4N","ContainerN")
+	Global("Cb_D4N_Correct","AR3502",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D4N_Correct","AR3502",0)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",-1)
+END
+
+IF
+	Global("CbPlayerTookDayFourBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	!Contains("CB502D4G","ContainerG")
+	Global("Cb_D4G_Correct","AR3502",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D4G_Correct","AR3502",0)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",-1)
+END
+
+IF
+	Global("CbPlayerTookDayFourBooks","AR3502",1)
+	Global("CbPlayerShelvedBookCorrectly","AR3502",4)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPlayerShelvedBookCorrectly","AR3502",5)
+END
+
+IF
+	Global("CbPlayerTookDayFiveBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	Contains("CB502D5O","ContainerO")
+	Global("Cb_D5O_Correct","AR3502",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D5O_Correct","AR3502",1)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",1)
+END
+
+IF
+	Global("CbPlayerTookDayFiveBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	Contains("CB502D5P","ContainerP")
+	Global("Cb_D5P_Correct","AR3502",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D5P_Correct","AR3502",1)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",1)
+END
+
+IF
+	Global("CbPlayerTookDayFiveBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	Contains("CB502D5N","ContainerN")
+	Global("Cb_D5N_Correct","AR3502",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D5N_Correct","AR3502",1)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",1)
+END
+
+IF
+	Global("CbPlayerTookDayFiveBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	Contains("CB502D5B","ContainerB")
+	Global("Cb_D5B_Correct","AR3502",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D5B_Correct","AR3502",1)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",1)
+END
+
+IF
+	Global("CbPlayerTookDayFiveBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	!Contains("CB502D5O","ContainerO")
+	Global("Cb_D50_Correct","AR3502",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D5O_Correct","AR3502",0)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",-1)
+END
+
+IF
+	Global("CbPlayerTookDayFiveBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	!Contains("CB502D5P","ContainerP")
+	Global("Cb_D5P_Correct","AR3502",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D5P_Correct","AR3502",0)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",-1)
+END
+
+IF
+	Global("CbPlayerTookDayFiveBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	!Contains("CB502D5N","ContainerN")
+	Global("Cb_D5N_Correct","AR3502",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D5N_Correct","AR3502",0)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",-1)
+END
+
+IF
+	Global("CbPlayerTookDayFiveBooks","AR3502",1)
+	!Global("CbPlayerShelvedBookCorrectly","AR3502",5)
+	!Contains("CB502D5B","ContainerB")
+	Global("Cb_D5B_Correct","AR3502",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_D5B_Correct","AR3502",0)
+		IncrementGlobal("CbPlayerShelvedBookCorrectly","AR3502",-1)
+END
+
+IF
+	Global("CbPlayerTookDayFiveBooks","AR3502",1)
+	Global("CbPlayerShelvedBookCorrectly","AR3502",4)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPlayerShelvedBookCorrectly","AR3502",5)
+END

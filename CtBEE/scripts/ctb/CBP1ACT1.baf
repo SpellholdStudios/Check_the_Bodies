@@ -1,0 +1,11 @@
+IF
+	NumTimesTalkedTo(0)
+	See([PC])
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,MoveToPoint([777.787]))
+		SetGlobal("CbPeeWeePlayOne","AR0510",4)
+		StartDialogueNoSet("CBP1ACT2")
+END
+
+

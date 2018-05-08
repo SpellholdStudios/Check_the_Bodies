@@ -1,0 +1,177 @@
+IF
+	Global("CbMalteseArtifact","GLOBAL",8)
+	Global("CbPartyJoinsMalteseMage","GLOBAL",8)
+	Global("CbFakeMalteseRitual","GLOBAL",2)
+	Exists(Myself)
+THEN
+	RESPONSE #50
+		Wait(3)
+		DisplayStringHead(Myself,@550127)
+		Wait(1)
+		EscapeArea()
+	RESPONSE #50
+		Wait(10)
+		DisplayStringHead(Myself,@550128)
+		Wait(1)
+		EscapeArea()
+END
+
+IF
+	Global("CbSpawnMageProtectors","MYAREA",1)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	See([PC])
+	Allegiance(Myself,ENEMY)
+	Global("CbDruidBodyGuardSpawnedWyverns","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbDruidBodyGuardSpawnedWyverns","LOCALS",1)
+		CreateCreatureOffScreen("WYVERN01",8) // Wyvern
+		CreateCreatureOffScreen("WYVERN01",8) // Wyvern
+		CreateCreatureOffScreen("WYVERN01",8) // Wyvern
+END
+
+IF
+	See([0.0.WYVERN.MAGE])
+	!StateCheck([0.0.WYVERN.MAGE],STATE_DEAD)
+	HaveSpell(CLERIC_FLAME_BLADE)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_FLAME_BLADE)
+		AttackReevaluate(LastSeenBy(Myself),15)
+END
+
+IF
+	See(SecondNearestEnemyOf([0.0.WYVERN.MAGE]))
+	!StateCheck(SecondNearestEnemyOf([0.0.WYVERN.MAGE]),STATE_DEAD)
+	HaveSpell(CLERIC_FLAME_BLADE)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_FLAME_BLADE)
+		AttackReevaluate(LastSeenBy(Myself),15)
+END
+
+IF
+	See([0.0.WYVERN.MAGE])
+	Global("prep","LOCALS",0)
+THEN
+	RESPONSE #100
+		ApplySpell(Myself,CLERIC_BARKSKIN)
+		ApplySpell(Myself,CLERIC_IRONSKIN)
+		Spell("dgfig01",CLERIC_DEFENSIVE_HARMONY)
+		SetGlobal("prep","LOCALS",1)
+END
+
+IF
+	See([0.0.WYVERN.MAGE])
+	HPPercentLT(LastSeenBy(Myself),90)
+	HaveSpell(CLERIC_CURE_SERIOUS_WOUNDS)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_CURE_SERIOUS_WOUNDS)
+END
+
+IF
+	See([0.0.WYVERN.MAGE])
+	HPPercentLT(LastSeenBy(Myself),80)
+	HaveSpell(CLERIC_HEAL)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_HEAL)
+END
+
+IF
+	HPPercentLT(Myself,90)
+	HaveSpell(CLERIC_CURE_SERIOUS_WOUNDS)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_CURE_SERIOUS_WOUNDS)
+END
+
+IF
+	HPPercentLT(Myself,80)
+	HaveSpell(CLERIC_HEAL)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_HEAL)
+END
+
+IF
+	See([0.0.WYVERN.MAGE])
+	AreaType(OUTDOOR)
+	HaveSpell(CLERIC_CALL_LIGHTNING)
+	Global("didOnce","LOCALS",0)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(LastSeenBy(Myself)),CLERIC_CALL_LIGHTNING)
+		SetGlobal("didOnce","LOCALS",1)
+END
+
+IF
+	See([0.0.WYVERN.MAGE])
+	See(NearestMyGroupOfType)
+	HaveSpell(CLERIC_MASS_CURE)
+	Global("HealedOnce","LOCALS",0)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_MASS_CURE)
+		SetGlobal("HealedOnce","LOCALS",1)
+END
+
+IF
+	See([0.0.WYVERN.MAGE])
+	HaveSpell(CLERIC_ANIMAL_SUMMONING_2)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_ANIMAL_SUMMONING_2)
+END
+
+IF
+	See([0.0.WYVERN.MAGE])
+	HaveSpell(CLERIC_CALL_WOODLAND_BEINGS)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_CALL_WOODLAND_BEINGS)
+END
+
+IF
+	See([0.0.WYVERN.MAGE])
+	AreaType(OUTDOOR)
+	HaveSpell(CLERIC_CALL_LIGHTNING)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(LastSeenBy(Myself)),CLERIC_CALL_LIGHTNING)
+END
+
+IF
+	See([0.0.WYVERN.MAGE])
+	See(NearestMyGroupOfType)
+	HaveSpell(CLERIC_MASS_CURE)
+	Global("HealedOnce","LOCALS",1)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_MASS_CURE)
+		SetGlobal("HealedOnce","LOCALS",2)
+END
+
+IF
+	See([0.0.WYVERN.MAGE])
+	HaveSpell(CLERIC_FLAME_BLADE)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_FLAME_BLADE)
+END
+
+IF
+	See([0.0.WYVERN.MAGE])
+THEN
+	RESPONSE #100
+		Attack(NearestEnemyOf(LastSeenBy([0.0.WYVERN.MAGE])))
+END
+
+

@@ -1,0 +1,24 @@
+IF
+	Global("CbMalteseArtifact","GLOBAL",5)
+	Global("CbMalteseMageInTemple","GLOBAL",1)
+	!Exists("CBMALR1")
+THEN
+	RESPONSE #100
+		CreateCreature("CBMALR2",[1899.783],0)
+		CreateCreature("CBMALR3",[1659.866],0)
+		CreateCreature("CBMALR4",[1750.697],0)
+		CreateCreature("CBMALR5",[1743.643],0)
+		CreateCreature("CBMALR6",[1416.819],0)
+		CreateCreature("CBMALR7",[1591.779],0)
+		CreateCreature("CBMALR8",[1650.756],0)
+		CreateCreature("CBMALR1",[1573.719],13)
+		ActionOverride("CBMALR2",FaceObject("CBMALR1"))
+		ActionOverride("CBMALR3",FaceObject("CBMALR1"))
+		ActionOverride("CBMALR4",FaceObject("CBMALR1"))
+		ActionOverride("CBMALR5",FaceObject("CBMALR1"))
+		ActionOverride("CBMALR6",FaceObject("CBMALR1"))
+		ActionOverride("CBMALR7",FaceObject("CBMALR1"))
+		ActionOverride("CBMALR8",FaceObject("CBMALR1"))
+		ActionOverride("CBMALR1",ChangeAIScript("CBMALINS",RACE))
+END
+

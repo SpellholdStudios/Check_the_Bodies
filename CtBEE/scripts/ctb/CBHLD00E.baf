@@ -1,0 +1,135 @@
+IF
+	Global("CbHlondethVillagerName","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+END
+
+IF
+	Global("CbHlondethVillagerName","LOCALS",1)
+	Global("CbHlondethVillagerItem","LOCALS",0)
+THEN
+	RESPONSE #10
+		SetGlobal("CbHlondethVillagerItem","LOCALS",3)
+		GiveItemCreate("RNDTRE06",Myself,1,0,0)
+	RESPONSE #10
+		SetGlobal("CbHlondethVillagerItem","LOCALS",3)
+		GiveItemCreate("RNDTRE07",Myself,1,0,0)
+		GiveItemCreate("RNDTRE08",Myself,1,0,0)
+	RESPONSE #10
+		SetGlobal("CbHlondethVillagerItem","LOCALS",3)
+		GiveItemCreate("RNDTRE09",Myself,1,0,0)
+		GiveItemCreate("RNDTRE10",Myself,1,0,0)
+		GiveItemCreate("RNDTRE11",Myself,1,0,0)
+	RESPONSE #10
+		SetGlobal("CbHlondethVillagerItem","LOCALS",3)
+		GiveItemCreate("RNDTRE12",Myself,1,0,0)
+		GiveItemCreate("RNDTRE13",Myself,1,0,0)
+		GiveItemCreate("RNDTRE14",Myself,1,0,0)
+		GiveItemCreate("RNDTRE06",Myself,1,0,0)
+	RESPONSE #10
+		SetGlobal("CbHlondethVillagerItem","LOCALS",3)
+		GiveItemCreate("RNDTRE07",Myself,1,0,0)
+		GiveItemCreate("RNDTRE08",Myself,1,0,0)
+		GiveItemCreate("RNDTRE09",Myself,1,0,0)
+		GiveItemCreate("RNDTRE10",Myself,1,0,0)
+		GiveItemCreate("RNDTRE11",Myself,1,0,0)
+	RESPONSE #50
+		SetGlobal("CbHlondethVillagerItem","LOCALS",1)
+END
+
+IF
+	Global("CbHlondethVillagerName","LOCALS",1)
+	Global("CbHlondethVillagerItem","LOCALS",1)
+THEN
+	RESPONSE #17
+		SetGlobal("CbHlondethVillagerItem","LOCALS",3)
+		GiveItemCreate("RNDTRE12",Myself,2,0,0)
+                ApplySpellRES("CBHLDGSS",Myself)
+	RESPONSE #17
+		SetGlobal("CbHlondethVillagerItem","LOCALS",3)
+		GiveItemCreate("RNDTRE13",Myself,2,0,0)
+		GiveItemCreate("RNDTRE14",Myself,1,0,0)
+                ApplySpellRES("CBHLDGSS",Myself)
+	RESPONSE #17
+		SetGlobal("CbHlondethVillagerItem","LOCALS",3)
+		GiveItemCreate("RNDTRE06",Myself,2,0,0)
+		GiveItemCreate("RNDTRE07",Myself,2,0,0)
+		GiveItemCreate("RNDTRE08",Myself,1,0,0)
+                ApplySpellRES("CBHLDGSS",Myself)
+	RESPONSE #17
+		SetGlobal("CbHlondethVillagerItem","LOCALS",3)
+		GiveItemCreate("RNDTRE09",Myself,2,0,0)
+		GiveItemCreate("RNDTRE10",Myself,2,0,0)
+		GiveItemCreate("RNDTRE11",Myself,2,0,0)
+		GiveItemCreate("RNDTRE12",Myself,1,0,0)
+                ApplySpellRES("CBHLDGSS",Myself)
+	RESPONSE #17
+		SetGlobal("CbHlondethVillagerItem","LOCALS",3)
+		GiveItemCreate("RNDTRE13",Myself,2,0,0)
+		GiveItemCreate("RNDTRE14",Myself,2,0,0)
+		GiveItemCreate("RNDTRE06",Myself,2,0,0)
+		GiveItemCreate("RNDTRE07",Myself,2,0,0)
+		GiveItemCreate("RNDTRE08",Myself,1,0,0)
+                ApplySpellRES("CBHLDGSS",Myself)
+	RESPONSE #4
+		SetGlobal("CbHlondethVillagerItem","LOCALS",2)
+		GiveItemCreate("DAGG22",Myself,1,0,0) // Dagger of the Star +5
+	RESPONSE #4
+		SetGlobal("CbHlondethVillagerItem","LOCALS",2)
+		GiveItemCreate("COMPON03",Myself,1,0,0) // Fflar's Scabbard
+	RESPONSE #3
+		SetGlobal("CbHlondethVillagerItem","LOCALS",2)
+		GiveItemCreate("CBWT700",Myself,1,0,0)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerItem","LOCALS",2)
+		GiveItemCreate("CBBK7560",Myself,1,0,0)
+		GiveItemCreate("CBBK7559",Myself,1,0,0)
+		GiveItemCreate("CBBK7521",Myself,1,0,0)
+		GiveItemCreate("CBBK7533",Myself,1,0,0)
+		GiveItemCreate("CBBK7536",Myself,1,0,0)
+	RESPONSE #1
+		SetGlobal("CbHlondethVillagerItem","LOCALS",2)
+		GiveItemCreate("CBWTNI5A",Myself,1,0,0)
+END
+
+IF
+	Global("CbHlondethVillagerName","LOCALS",1)
+	Global("CbHlondethVillagerItem","LOCALS",2)
+THEN
+	RESPONSE #100
+		SetGlobal("CbHlondethVillagerItem","LOCALS",3)
+                ApplySpellRES("CBHLDGSS",Myself)
+END
+
+IF
+	Global("CbHlondethCivilWar","GLOBAL",1)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #50
+		ChangeEnemyAlly(Myself,GOODBUTRED)
+	RESPONSE #50
+		ChangeEnemyAlly(Myself,EVILBUTGREEN)
+END
+
+IF
+	Global("CbHlondethCivilWar","GLOBAL",1)
+	Allegiance(Myself,GOODBUTRED)
+	See([ANYONE])
+	Allegiance(LastSeenBy(Myself),EVILBUTGREEN)
+THEN
+	RESPONSE #100
+		Attack(LastSeenBy(Myself))
+END
+
+IF
+	Global("CbHlondethCivilWar","GLOBAL",1)
+	Allegiance(Myself,EVILBUTGREEN)
+	See([ANYONE])
+	Allegiance(LastSeenBy(Myself),GOODBUTRED)
+THEN
+	RESPONSE #100
+		Attack(LastSeenBy(Myself))
+END
+
+

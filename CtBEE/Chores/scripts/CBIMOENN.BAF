@@ -1,0 +1,13 @@
+IF
+    True()
+THEN
+    RESPONSE #100
+        CutSceneId(Player1)
+        DisplayStringHead(Player1,@550400)
+        Wait(1)
+        MoveViewPoint([3762.1580],VERY_FAST)
+        ActionOverride("CBIMOENL",Wait(2))
+        ActionOverride("CBIMOENL",MoveToPointNoInterrupt([3697.1585]))
+        MoveToPoint([3692.1590])
+        Wait(100)
+END

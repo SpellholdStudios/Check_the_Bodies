@@ -1,0 +1,55 @@
+IF
+//	OnCreation()
+	Global("CbVampireSubQuestStart","GLOBAL",4)
+	Global("CbVampireSubQuestFailed","GLOBAL",0)
+	Global("CbPartyReturnedAfterWarn","AR0809",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPartyReturnedAfterWarn","AR0809",1)
+		Continue()
+END
+
+IF
+        Global("CbVampireSubQuestStart","GLOBAL",0)
+        PartyHasItem("CB3597ST")
+THEN
+        RESPONSE #100
+                 SetGlobal("CbVampireSubQuestStart","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("CbVampireSubQuestStart","GLOBAL",3)
+	Global("CbVampireFamilyMoved","AR0809",0)
+	PartyHasItem("CBVMPDR1")
+	PartyHasItem("CBVMPDR2")
+	PartyHasItem("CBVMPDR3")
+	PartyHasItem("CBVMPCF1")
+	PartyHasItem("CBVMPCF2")
+	PartyHasItem("CBVMPCF3")
+	PartyHasItem("CBVMPCF4")
+	!GlobalTimerExpired("CbMovingVampires","GLOBAL")
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		FadeToColor([30.0],0)
+		CreateCreature("CBRNCMVP",[1497.367],2)
+		CreateCreature("CBRNCWVP",[1471.294],0)
+		CreateCreature("CBRNCGVP",[1547.337],3)
+		CreateCreature("CBRNCBVP",[1512.450],5)
+		TakePartyItem("CBVMPDR1")
+		TakePartyItem("CBVMPDR2")
+		TakePartyItem("CBVMPDR3")
+		TakePartyItem("CBVMPCF1")
+		TakePartyItem("CBVMPCF2")
+		TakePartyItem("CBVMPCF3")
+		TakePartyItem("CBVMPCF4")
+		ActionOverride(Player1,JumpToPoint([1447.403]))
+		ActionOverride(Player1,Face(8))
+		Wait(2)
+		FadeFromColor([30.0],0)
+		SetGlobal("CbVampireFamilyMoved","AR0809",1)
+		EndCutSceneMode()
+		ActionOverride("CBRNCMVP",StartDialogueNoSet(Player1))
+		Continue()
+END

@@ -1,0 +1,18 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("CBEM25T3")
+		FadeToColor([20.0],0)
+		Wait(4)
+		SetGlobal("CbElvenSorceressDemon","GLOBAL",4)
+		SetGlobal("CbElvenSorceressTeach","AR2500",2)
+		SetGlobal("CbElvenSorceressImprovedCasting","LOCALS",1)
+		DayNight(NOON)
+		ApplySpellRES("CBCWTHs2",LastTalkedToBy(Myself))
+		Wait(2)
+		FadeFromColor([20.0],0)
+		StartDialogueNoSet(LastTalkedToBy(Myself))
+END
+
+

@@ -1,0 +1,19 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		Wait(1)
+		ActionOverride("CBOWEN03",DisplayStringHead(Myself,29559)) // Right, boss.
+		ActionOverride("CBOWEN03",Wait(1))
+		ActionOverride("CBOWEN03",MoveToObject(Player1))
+		ActionOverride("CBOWEN03",ForceSpellRES("CBOWEN0A",Player1))
+		ActionOverride("CBOWEN03",SmallWait(5))
+		ActionOverride("CBOWEN03",DisplayStringHead(Myself,@550172)) // No such index
+		ActionOverride("CBOWEN03",Wait(1))
+		ActionOverride("CBOWEN03",MoveToObject(Player2))
+		ActionOverride("CBOWEN03",SmallWait(5))
+		ActionOverride("CBOWEN03",StartDialogueNoSet("CBBYRN03"))
+END
+
+

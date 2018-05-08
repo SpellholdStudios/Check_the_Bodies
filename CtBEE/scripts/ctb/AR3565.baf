@@ -1,0 +1,113 @@
+IF
+	OR(5)
+		HasItem("CBSTKS66",Player2)
+		HasItem("CBSTKS66",Player3)
+		HasItem("CBSTKS66",Player4)
+		HasItem("CBSTKS66",Player5)
+		HasItem("CBSTKS66",Player6)
+	Global("CbShadowThievesCapturePC","GLOBAL",6)
+	Global("CbBodhiJob","GLOBAL",7)
+	Global("CbWorkingForBodhi","GLOBAL",7)
+THEN
+	RESPONSE #100
+		SetGlobal("CbShadowThievesCapturePC","GLOBAL",7)
+		SetGlobal("CbBodhiJob","GLOBAL",8)
+		SetGlobal("CbWorkingForBodhi","GLOBAL",8)
+END
+
+IF
+	LevelLT(Player2,10)
+	Global("CbThievesCreatedHere","AR3565",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbThievesCreatedHere","AR3565",1)
+		CreateCreature("CBST0166",[939.785],0)
+		CreateCreature("CBST0166",[1207.439],14)
+		CreateCreature("CBST0166",[876.925],10)
+		CreateCreature("CBST0166",[724.662],0)
+		CreateCreature("CBST0166",[398.527],14)
+		CreateCreature("CBST0166",[1045.650],12)
+		CreateCreature("CBST0166",[569.436],0)
+		CreateCreature("CBST0166",[398.662],10)
+		CreateCreatureOffScreen("CBSTKS66",0)
+END
+
+IF
+	OR(3)
+		Level(Player2,10)
+		Level(Player2,11)
+		Level(Player2,12)
+	Global("CbThievesCreatedHere","AR3565",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbThievesCreatedHere","AR3565",1)
+		CreateCreature("CBST0266",[939.785],0)
+		CreateCreature("CBST0266",[1207.439],14)
+		CreateCreature("CBST0266",[876.925],10)
+		CreateCreature("CBST0266",[724.662],0)
+		CreateCreature("CBST0266",[398.527],14)
+		CreateCreature("CBST0266",[1045.650],12)
+		CreateCreature("CBST0266",[569.436],0)
+		CreateCreature("CBST0266",[398.662],10)
+		CreateCreatureOffScreen("CBSTKS66",0)
+END
+
+IF
+	OR(4)
+		Level(Player2,13)
+		Level(Player2,14)
+		Level(Player2,15)
+		Level(Player2,16)
+	Global("CbThievesCreatedHere","AR3565",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbThievesCreatedHere","AR3565",1)
+		CreateCreature("CBST0366",[939.785],0)
+		CreateCreature("CBST0366",[1207.439],14)
+		CreateCreature("CBST0366",[876.925],10)
+		CreateCreature("CBST0366",[724.662],0)
+		CreateCreature("CBST0366",[398.527],14)
+		CreateCreature("CBST0366",[1045.650],12)
+		CreateCreature("CBST0366",[569.436],0)
+		CreateCreature("CBST0366",[398.662],10)
+		CreateCreatureOffScreen("CBSTKS66",0)
+END
+
+IF
+	OR(3)
+		Level(Player2,17)
+		Level(Player2,18)
+		Level(Player2,19)
+	Global("CbThievesCreatedHere","AR3565",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbThievesCreatedHere","AR3565",1)
+		CreateCreature("CBST0466",[939.785],0)
+		CreateCreature("CBST0466",[1207.439],14)
+		CreateCreature("CBST0466",[876.925],10)
+		CreateCreature("CBST0466",[724.662],0)
+		CreateCreature("CBST0466",[398.527],14)
+		CreateCreature("CBST0466",[1045.650],12)
+		CreateCreature("CBST0466",[569.436],0)
+		CreateCreature("CBST0466",[398.662],10)
+		CreateCreatureOffScreen("CBSTKS66",0)
+END
+
+IF
+	LevelGT(Player2,19)
+	Global("CbThievesCreatedHere","AR3565",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbThievesCreatedHere","AR3565",1)
+		CreateCreature("CBST0566",[939.785],0)
+		CreateCreature("CBST0566",[1207.439],14)
+		CreateCreature("CBST0566",[876.925],10)
+		CreateCreature("CBST0566",[724.662],0)
+		CreateCreature("CBST0566",[398.527],14)
+		CreateCreature("CBST0566",[1045.650],12)
+		CreateCreature("CBST0566",[569.436],0)
+		CreateCreature("CBST0566",[398.662],10)
+		CreateCreatureOffScreen("CBSTKS66",0)
+END
+
+

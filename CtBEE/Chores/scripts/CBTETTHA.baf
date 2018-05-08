@@ -1,0 +1,14 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		Wait(1)
+		ActionOverride("CBGORTCH",EscapeArea())
+		ActionOverride("CBPHYTCH",EscapeArea())
+		Wait(4)
+		ActionOverride("CBTETTCH",FaceObject(Player1))
+		ActionOverride("CBTETTCH",StartDialogueNoSet(Player1))
+END
+
+

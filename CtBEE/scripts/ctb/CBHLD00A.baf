@@ -1,0 +1,268 @@
+IF
+	Global("CbHlondethVillagerName","LOCALS",0)
+THEN
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550189)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550190)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550191)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550192)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550193)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550194)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550195)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550196)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550197)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550198)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550199)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550200)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550201)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550202)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550203)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550204)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550205)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550206)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550207)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550208)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550209)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550210)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550211)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550212)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550213)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550214)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550215)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550216)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550217)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550218)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550219)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550220)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550221)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550222)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550223)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550224)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550225)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550226)
+	RESPONSE #3
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550227)
+	RESPONSE #3
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550228)
+	RESPONSE #3
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550229)
+	RESPONSE #3
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550230)
+	RESPONSE #4
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550231)
+	RESPONSE #4
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550232)
+	RESPONSE #4
+		SetGlobal("CbHlondethVillagerName","LOCALS",1)
+		SetName(@550233)
+END
+
+IF
+	Global("CbHlondethVillagerName","LOCALS",1)
+	Global("CbHlondethVillagerItem","LOCALS",0)
+THEN
+	RESPONSE #10
+		SetGlobal("CbHlondethVillagerItem","LOCALS",3)
+		GiveItemCreate("RNDTRE06",Myself,1,0,0)
+	RESPONSE #10
+		SetGlobal("CbHlondethVillagerItem","LOCALS",3)
+		GiveItemCreate("RNDTRE07",Myself,1,0,0)
+		GiveItemCreate("RNDTRE08",Myself,1,0,0)
+	RESPONSE #10
+		SetGlobal("CbHlondethVillagerItem","LOCALS",3)
+		GiveItemCreate("RNDTRE09",Myself,1,0,0)
+		GiveItemCreate("RNDTRE10",Myself,1,0,0)
+		GiveItemCreate("RNDTRE11",Myself,1,0,0)
+	RESPONSE #10
+		SetGlobal("CbHlondethVillagerItem","LOCALS",3)
+		GiveItemCreate("RNDTRE12",Myself,1,0,0)
+		GiveItemCreate("RNDTRE13",Myself,1,0,0)
+		GiveItemCreate("RNDTRE14",Myself,1,0,0)
+		GiveItemCreate("RNDTRE06",Myself,1,0,0)
+	RESPONSE #10
+		SetGlobal("CbHlondethVillagerItem","LOCALS",3)
+		GiveItemCreate("RNDTRE07",Myself,1,0,0)
+		GiveItemCreate("RNDTRE08",Myself,1,0,0)
+		GiveItemCreate("RNDTRE09",Myself,1,0,0)
+		GiveItemCreate("RNDTRE10",Myself,1,0,0)
+		GiveItemCreate("RNDTRE11",Myself,1,0,0)
+	RESPONSE #50
+		SetGlobal("CbHlondethVillagerItem","LOCALS",1)
+END
+
+IF
+	Global("CbHlondethVillagerName","LOCALS",1)
+	Global("CbHlondethVillagerItem","LOCALS",1)
+THEN
+	RESPONSE #17
+		SetGlobal("CbHlondethVillagerItem","LOCALS",3)
+		GiveItemCreate("RNDTRE12",Myself,2,0,0)
+                ApplySpellRES("CBHLDGSS",Myself)
+	RESPONSE #17
+		SetGlobal("CbHlondethVillagerItem","LOCALS",3)
+		GiveItemCreate("RNDTRE13",Myself,2,0,0)
+		GiveItemCreate("RNDTRE14",Myself,1,0,0)
+                ApplySpellRES("CBHLDGSS",Myself)
+	RESPONSE #17
+		SetGlobal("CbHlondethVillagerItem","LOCALS",3)
+		GiveItemCreate("RNDTRE06",Myself,2,0,0)
+		GiveItemCreate("RNDTRE07",Myself,2,0,0)
+		GiveItemCreate("RNDTRE08",Myself,1,0,0)
+                ApplySpellRES("CBHLDGSS",Myself)
+	RESPONSE #17
+		SetGlobal("CbHlondethVillagerItem","LOCALS",3)
+		GiveItemCreate("RNDTRE09",Myself,2,0,0)
+		GiveItemCreate("RNDTRE10",Myself,2,0,0)
+		GiveItemCreate("RNDTRE11",Myself,2,0,0)
+		GiveItemCreate("RNDTRE12",Myself,1,0,0)
+                ApplySpellRES("CBHLDGSS",Myself)
+	RESPONSE #17
+		SetGlobal("CbHlondethVillagerItem","LOCALS",3)
+		GiveItemCreate("RNDTRE13",Myself,2,0,0)
+		GiveItemCreate("RNDTRE14",Myself,2,0,0)
+		GiveItemCreate("RNDTRE06",Myself,2,0,0)
+		GiveItemCreate("RNDTRE07",Myself,2,0,0)
+		GiveItemCreate("RNDTRE08",Myself,1,0,0)
+                ApplySpellRES("CBHLDGSS",Myself)
+	RESPONSE #4
+		SetGlobal("CbHlondethVillagerItem","LOCALS",2)
+		GiveItemCreate("DAGG22",Myself,1,0,0) // Dagger of the Star +5
+	RESPONSE #4
+		SetGlobal("CbHlondethVillagerItem","LOCALS",2)
+		GiveItemCreate("COMPON03",Myself,1,0,0) // Fflar's Scabbard
+	RESPONSE #3
+		SetGlobal("CbHlondethVillagerItem","LOCALS",2)
+		GiveItemCreate("CBWT700",Myself,1,0,0)
+	RESPONSE #2
+		SetGlobal("CbHlondethVillagerItem","LOCALS",2)
+		GiveItemCreate("CBBK7560",Myself,1,0,0)
+		GiveItemCreate("CBBK7559",Myself,1,0,0)
+		GiveItemCreate("CBBK7521",Myself,1,0,0)
+		GiveItemCreate("CBBK7533",Myself,1,0,0)
+		GiveItemCreate("CBBK7536",Myself,1,0,0)
+	RESPONSE #1
+		SetGlobal("CbHlondethVillagerItem","LOCALS",2)
+		GiveItemCreate("CBWTNI5A",Myself,1,0,0)
+END
+
+IF
+	Global("CbHlondethVillagerName","LOCALS",1)
+	Global("CbHlondethVillagerItem","LOCALS",2)
+THEN
+	RESPONSE #100
+		SetGlobal("CbHlondethVillagerItem","LOCALS",3)
+                ApplySpellRES("CBHLDGSS",Myself)
+END
+
+IF
+	Global("CbHlondethCivilWar","GLOBAL",1)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #50
+		ChangeEnemyAlly(Myself,GOODBUTRED)
+	RESPONSE #50
+		ChangeEnemyAlly(Myself,EVILBUTGREEN)
+END
+
+IF
+	Global("CbHlondethCivilWar","GLOBAL",1)
+	Allegiance(Myself,GOODBUTRED)
+	See([ANYONE])
+	Allegiance(LastSeenBy(Myself),EVILBUTGREEN)
+THEN
+	RESPONSE #100
+		Attack(LastSeenBy(Myself))
+END
+
+IF
+	Global("CbHlondethCivilWar","GLOBAL",1)
+	Allegiance(Myself,EVILBUTGREEN)
+	See([ANYONE])
+	Allegiance(LastSeenBy(Myself),GOODBUTRED)
+THEN
+	RESPONSE #100
+		Attack(LastSeenBy(Myself))
+END
+
+

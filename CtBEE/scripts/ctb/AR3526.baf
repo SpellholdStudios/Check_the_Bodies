@@ -1,0 +1,21 @@
+IF
+	Global("CbEverybodyLovesCake","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbEverybodyLovesCake","GLOBAL",1)
+		CreateCreature("CBAMGIRL",[386.286],3)
+		CreateCreature("CBAMLADY",[409.200],4)
+END
+
+IF
+	Global("CbPopulateArea","AR3526",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPopulateArea","AR3526",1)
+		CreateCreature("AMNG2",[794.179],0)
+		CreateCreature("TOWNC01",[775.472],0) 
+		CreateCreature("BMTOWN1",[561.399],0) 
+		CreateCreature("BMTOWN4",[311.501],0)
+END
+
+

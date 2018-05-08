@@ -1,0 +1,27 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		DisplayStringWait("suelle2",55257)
+		FadeToColor([30.0],0)
+		Wait(2)
+		StartMovie("END15FPS")
+		SmallWait(1)
+		StartMovie("INTRO")
+		Wait(1)
+		MultiPlayerSync()
+		Wait(1)
+		ActionOverride(Player1,LeaveAreaLUAPanic("AR4000","",[1175.1843],6))
+		ActionOverride(Player1,LeaveAreaLUA("AR4000","",[1175.1843],6))
+		ActionOverride(Player2,LeaveAreaLUA("AR4000","",[1206.1806],6))
+		ActionOverride(Player3,LeaveAreaLUA("AR4000","",[1226.1878],6))
+		ActionOverride(Player4,LeaveAreaLUA("AR4000","",[1254.1842],6))
+		ActionOverride(Player5,LeaveAreaLUA("AR4000","",[1257.1901],6))
+		ActionOverride(Player6,LeaveAreaLUA("AR4000","",[1286.1867],6))
+		ActionOverride(Player1,MultiPlayerSync())
+		MoveViewObject(Player1,-1)
+		EndCutSceneMode()
+END
+
+

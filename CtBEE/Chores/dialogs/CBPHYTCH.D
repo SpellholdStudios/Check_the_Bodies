@@ -1,0 +1,329 @@
+BEGIN ~CBPHYTCH~
+
+IF ~Global("CbGorionsLessonThree","AR3504",1)
+Global("CbPhlydiaTeaches","AR3504",0)~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN REPLY @2 GOTO 1
+  IF ~~ THEN REPLY @3 GOTO 3
+  IF ~~ THEN REPLY @4 GOTO 6
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @5
+  IF ~~ THEN REPLY @6 GOTO 2
+  IF ~~ THEN REPLY @7 GOTO 8
+  IF ~~ THEN REPLY @8 GOTO 9
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @9
+  IF ~~ THEN REPLY @10 GOTO 1
+  IF ~~ THEN REPLY @11 GOTO 3
+  IF ~~ THEN REPLY @12 GOTO 6
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @13
+  IF ~~ THEN REPLY @14 GOTO 4
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @15
+  IF ~~ THEN GOTO 5
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @16
+  IF ~~ THEN GOTO 12
+END
+
+IF ~~ THEN BEGIN 6
+  SAY @17
+  IF ~~ THEN GOTO 7
+END
+
+IF ~~ THEN BEGIN 7
+  SAY @18
+  IF ~~ THEN REPLY @19 GOTO 3
+  IF ~~ THEN REPLY @20 GOTO 1
+END
+
+IF ~~ THEN BEGIN 8
+  SAY @21
+  IF ~~ THEN REPLY @22 GOTO 1
+  IF ~~ THEN REPLY @23 GOTO 3
+  IF ~~ THEN REPLY @24 GOTO 6
+END
+
+IF ~~ THEN BEGIN 9
+  SAY @25
+  IF ~~ THEN REPLY @26 GOTO 10
+  IF ~~ THEN REPLY @27 GOTO 11
+END
+
+IF ~~ THEN BEGIN 10
+  SAY @28
+  IF ~~ THEN REPLY @29 GOTO 1
+  IF ~~ THEN REPLY @30 GOTO 3
+  IF ~~ THEN REPLY @31 GOTO 6
+END
+
+IF ~~ THEN BEGIN 11
+  SAY @32
+  IF ~~ THEN REPLY @33 GOTO 1
+  IF ~~ THEN REPLY @34 GOTO 3
+  IF ~~ THEN REPLY @35 GOTO 6
+END
+
+IF ~~ THEN BEGIN 12
+  SAY @36
+  IF ~~ THEN REPLY @37 GOTO 13
+  IF ~~ THEN REPLY @38 GOTO 22
+END
+
+IF ~~ THEN BEGIN 13
+  SAY @39
+  IF ~~ THEN GOTO 14
+END
+
+IF ~~ THEN BEGIN 14
+  SAY @40
+  IF ~~ THEN REPLY @41 GOTO 15
+  IF ~~ THEN REPLY @42 GOTO 20
+  IF ~~ THEN REPLY @43 GOTO 21
+END
+
+IF ~~ THEN BEGIN 15
+  SAY @44
+  IF ~~ THEN REPLY @45 GOTO 16
+END
+
+IF ~~ THEN BEGIN 16
+  SAY @46
+  IF ~~ THEN REPLY @47 GOTO 17
+  IF ~~ THEN REPLY @48 GOTO 18
+  IF ~~ THEN REPLY @49 GOTO 19
+END
+
+IF ~~ THEN BEGIN 17
+  SAY @50
+  IF ~~ THEN DO ~SetGlobal("CbPhlydiaTeaches","AR3504",1)
+SetGlobal("CbGaveRealName","LOCALS",1)
+GiveItemCreate("CBPHYSC1",Player1,1,0,0)
+GiveItemCreate("CBPHYSC2",Player1,1,0,0)
+GiveItemCreate("CBPHYSC3",Player1,1,0,0)
+GiveItemCreate("CBPHYSC4",Player1,1,0,0)
+GiveItemCreate("CBPHYSC5",Player1,1,0,0)~ EXIT
+END
+
+IF ~~ THEN BEGIN 18
+  SAY @51
+  IF ~~ THEN DO ~SetGlobal("CbPhlydiaTeaches","AR3504",1)
+SetGlobal("CbGaveElminsterName","LOCALS",1)
+GiveItemCreate("CBPHYSC1",Player1,1,0,0)
+GiveItemCreate("CBPHYSC2",Player1,1,0,0)
+GiveItemCreate("CBPHYSC3",Player1,1,0,0)
+GiveItemCreate("CBPHYSC4",Player1,1,0,0)
+GiveItemCreate("CBPHYSC5",Player1,1,0,0)~ EXIT
+END
+
+IF ~~ THEN BEGIN 19
+  SAY @52
+  IF ~~ THEN DO ~SetGlobal("CbPhlydiaTeaches","AR3504",1)
+SetGlobal("CbGaveDrizztName","LOCALS",1)
+GiveItemCreate("CBPHYSC1",Player1,1,0,0)
+GiveItemCreate("CBPHYSC2",Player1,1,0,0)
+GiveItemCreate("CBPHYSC3",Player1,1,0,0)
+GiveItemCreate("CBPHYSC4",Player1,1,0,0)
+GiveItemCreate("CBPHYSC5",Player1,1,0,0)~ EXIT
+END
+
+IF ~~ THEN BEGIN 20
+  SAY @53
+  IF ~~ THEN REPLY @45 GOTO 16
+END
+
+IF ~~ THEN BEGIN 21
+  SAY @54
+  IF ~~ THEN REPLY @41 GOTO 15
+  IF ~~ THEN REPLY @42 GOTO 20
+END
+
+IF ~~ THEN BEGIN 22
+  SAY @55
+  IF ~~ THEN GOTO 23
+END
+
+IF ~~ THEN BEGIN 23
+  SAY @56
+  IF ~~ THEN REPLY @57 GOTO 13
+END
+
+IF ~GlobalGT("CbPhlydiaTeaches","AR3504",0)~ THEN BEGIN 24
+  SAY @58
+  IF ~Global("CbGaveRealName","LOCALS",1)~ THEN REPLY @59 GOTO 25
+  IF ~Global("CbGaveElminsterName","LOCALS",1)~ THEN REPLY @59 GOTO 26
+  IF ~Global("CbGaveDrizztName","LOCALS",1)~ THEN REPLY @59 GOTO 27
+  IF ~PartyHasItemIdentified("CBPHYSC1")
+PartyHasItemIdentified("CBPHYSC2")
+PartyHasItemIdentified("CBPHYSC3")
+PartyHasItemIdentified("CBPHYSC4")
+PartyHasItemIdentified("CBPHYSC5")
+~ THEN REPLY @60 DO ~SetGlobal("CbPhlydiaTeaches","AR3504",2)~ GOTO 28
+END
+
+IF ~~ THEN BEGIN 25
+  SAY @61
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 26
+  SAY @62
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 27
+  SAY @63
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 28
+  SAY @64
+  IF ~~ THEN REPLY @65 GOTO 29
+  IF ~~ THEN REPLY @66 GOTO 46
+END
+
+IF ~~ THEN BEGIN 29
+  SAY @67
+  IF ~~ THEN REPLY @65 GOTO 30
+  IF ~~ THEN REPLY @66 GOTO 45
+END
+
+IF ~~ THEN BEGIN 30
+  SAY @68
+  IF ~~ THEN REPLY @65 GOTO 31
+  IF ~~ THEN REPLY @66 GOTO 44
+END
+
+IF ~~ THEN BEGIN 31
+  SAY @69
+  IF ~~ THEN GOTO 32
+END
+
+IF ~~ THEN BEGIN 32
+  SAY @70
+  IF ~~ THEN GOTO 33
+END
+
+IF ~~ THEN BEGIN 33
+  SAY @71
+  IF ~~ THEN REPLY @72 DO ~IncrementGlobal("CbPhlydiaWrongAnswer","LOCALS",1)~ GOTO 34
+  IF ~~ THEN REPLY @73 GOTO 34
+  IF ~CheckStatGT(Player1,11,INT)~ THEN REPLY @74 DO ~IncrementGlobal("CbPhlydiaQuestionCorrect","LOCALS",1)~ GOTO 43
+  IF ~CheckStatLT(Player1,12,INT)~ THEN REPLY @75 GOTO 34
+  IF ~~ THEN REPLY @76 GOTO 34
+END
+
+IF ~~ THEN BEGIN 34
+  SAY @77
+  IF ~~ THEN GOTO 35
+END
+
+IF ~~ THEN BEGIN 35
+  SAY @78
+  IF ~~ THEN REPLY @79 DO ~IncrementGlobal("CbPhlydiaWrongAnswer","LOCALS",1)~ GOTO 36
+  IF ~CheckStatGT(Player1,12,INT)~ THEN REPLY @80 DO ~IncrementGlobal("CbPhlydiaQuestionCorrect","LOCALS",1)~ GOTO 42
+  IF ~CheckStatLT(Player1,13,INT)~ THEN REPLY @81 GOTO 36
+  IF ~~ THEN REPLY @82 GOTO 36
+  IF ~~ THEN REPLY @83 GOTO 36
+END
+
+IF ~~ THEN BEGIN 36
+  SAY @84
+  IF ~~ THEN GOTO 37
+END
+
+IF ~~ THEN BEGIN 37
+  SAY @85
+  IF ~CheckStatLT(Player1,15,INT)~ THEN REPLY @86 GOTO 38
+  IF ~~ THEN REPLY @87 GOTO 38
+  IF ~~ THEN REPLY @88 GOTO 38
+  IF ~CheckStatGT(Player1,14,INT)~ THEN REPLY @89 DO ~IncrementGlobal("CbPhlydiaQuestionCorrect","LOCALS",1)~ GOTO 41
+  IF ~~ THEN REPLY @90 GOTO 38
+END
+
+IF ~~ THEN BEGIN 38
+  SAY @91
+  IF ~GlobalGT("CbPhlydiaQuestionCorrect","LOCALS",1)~ THEN GOTO 39
+  IF ~GlobalLT("CbPhlydiaQuestionCorrect","LOCALS",2)~ THEN GOTO 40
+END
+
+IF ~~ THEN BEGIN 39
+  SAY @92
+  IF ~~ THEN GOTO 47
+END
+
+IF ~~ THEN BEGIN 40
+  SAY @93
+  IF ~~ THEN GOTO 48
+END
+
+IF ~~ THEN BEGIN 41
+  SAY @94
+  IF ~GlobalGT("CbPhlydiaQuestionCorrect","LOCALS",1)~ THEN GOTO 39
+  IF ~GlobalLT("CbPhlydiaQuestionCorrect","LOCALS",2)~ THEN GOTO 40
+END
+
+IF ~~ THEN BEGIN 42
+  SAY @95
+  IF ~~ THEN GOTO 37
+END
+
+IF ~~ THEN BEGIN 43
+  SAY @96
+  IF ~~ THEN GOTO 35
+END
+
+IF ~~ THEN BEGIN 44
+  SAY @97
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 45
+  SAY @97
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 46
+  SAY @97
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 47
+  SAY @98
+  IF ~~ THEN DO ~AddXPObject(Player1,1000)
+ForceSpellRES("CBPHYTCH",Player1)
+SetGlobal("CbPhlydiaTeaches","AR3504",3)
+TakePartyItem("CBPHYSC1")
+TakePartyItem("CBPHYSC2")
+TakePartyItem("CBPHYSC3")
+TakePartyItem("CBPHYSC4")
+TakePartyItem("CBPHYSC5")
+DayNight(MIDNIGHT)
+StartCutSceneMode()
+StartCutScene("CBREST3")~ EXIT
+END
+
+IF ~~ THEN BEGIN 48
+  SAY @99
+  IF ~~ THEN DO ~AddXPObject(Player1,1000)
+SetGlobal("CbPhlydiaTeaches","AR3504",3)
+TakePartyItem("CBPHYSC1")
+TakePartyItem("CBPHYSC2")
+TakePartyItem("CBPHYSC3")
+TakePartyItem("CBPHYSC4")
+TakePartyItem("CBPHYSC5")
+DayNight(MIDNIGHT)
+StartCutSceneMode()
+StartCutScene("CBREST3")~ EXIT
+END

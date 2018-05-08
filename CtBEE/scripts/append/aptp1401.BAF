@@ -1,0 +1,7 @@
+IF
+	Global("CbRelatesToElvesAndArtifacts1401","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbRelatesToElvesAndArtifacts1401","GLOBAL",1)
+		Continue()
+END

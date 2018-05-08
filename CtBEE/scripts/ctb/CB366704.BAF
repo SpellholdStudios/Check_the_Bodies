@@ -1,0 +1,13 @@
+IF
+	IsOverMe([ANYONE])
+	OpenState("DOOR02",FALSE)
+	OpenState("DOOR03",TRUE)
+THEN
+	RESPONSE #100
+		OpenDoor("DOOR02")
+		CloseDoor("DOOR03")
+		OpenDoor("DOOR01")
+		OpenDoor("DOOR19")
+END
+
+

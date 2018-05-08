@@ -1,0 +1,18 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("CBCWLTCH")
+		FadeToColor([20.0],0)
+		Wait(4)
+		SetGlobal("CbTumblingWizardTaught","AR0709",2)
+		SetGlobal("CbTumblingWizardWantsStaff","GLOBAL",4)
+		SetGlobal("CbTumblingWizardAdvancedAlchemy","LOCALS",1)
+		DayNight(8)
+		ApplySpellRES("cbcwtha1",LastTalkedToBy(Myself))
+		Wait(2)
+		FadeFromColor([20.0],0)
+		StartDialogueNoSet(LastTalkedToBy(Myself))
+END
+
+

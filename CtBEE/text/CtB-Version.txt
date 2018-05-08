@@ -1,0 +1,504 @@
+Installation of Check The Bodies ©2003, ©2004 Charles Bisson now complete.  Thanks for playing!
+
+------------------
+VERSION HISTORY
+
+Forum:
+
+http://www.shsforums.net/forum/196-check-the-bodies/
+
+*******************************************************************************
+*** Version 1.13 (by Hoppy)  - WeiDU v220
+*******************************************************************************
+1)  Tooltip.2da patching fix.
+
+2)  .bat typo fixed  AM1700.*WAV >>> AM1700*.WAV
+
+3)  Re-fixed the fix exiting the Underdark and the Chapter change.  Old bug was where the Chapter increased
+    twice.     ~AR2500.bcs~ ~CtB/scripts/append/aptp2500.BAF~
+
+4)  TP2 typo fixed (ACTION_IF FILE_EXISTS ~data/CTB_CHRS.bif~)>>>>>CTB-CHRS.BIF
+
+5)  Crash in the Hlondeth area (AR3611) due to faulty night light maps.  All night maps have been redone for Hlondeth areas.
+
+6)  Spanish translation added and credit goes to:
+    Ancalagon el Negro
+    Artemis
+    Chrono66
+    Lisandro
+    Melkor
+    Riojano2002
+    Serpol
+    ¿Quién si no?
+
+7) SHOUT.IDS patching fix to be synonymous with BG2 Fixpak.  APPEND ~SHOUTIDS.IDS~ ~2 LEAVE2~ UNLESS ~LEAVE2~
+
+8)  Massive Great Axe of Flame +5 now has been changed from CBHLTYA+ to CBHLYTA2 for better patching by other mods.
+    Also changed dialog CBHLVLNT.D to account for the item code change.
+
+ Extra thanks go out to Miloch, Galactygon and Lollorian.
+*******************************************************************************
+*** Version 1.12 (by King Diamond) *Hoppy was here :)* - WeiDU v212
+*******************************************************************************
+1) added Italian translation.
+   credits go to: Ilot (in collaboration with Arcangelo and Andrea C.).
+
+2) Revised French translation: Les D'Oghmatiques
+
+3) added German translation.
+   credits go to:  Leonardo Watson
+
+4) Fixed 3 search maps (AR3534, AR3551 and AR3575) which now allow for better movement or fixes CTD's.
+
+5) Attempted to fix the Academy of Kuldin scripts (AR3541-AR3560 cumulatively) with appropriate change of enemies
+   depending on party levels and allowing other script blocks to fire.  Level checks were previously too high.
+
+6) Creature fixes for Yuanti in Hlondeth  relative to Rynn's quest.  Changed death variable to YUANTI to match her
+   dialog checks (SPRITE_IS_DEADYUANTI) and does not affect the Yuanti of the main quest,
+   Hlondeth Secession or Black Adder stew.
+   -CBHLDYT1, CBHLDYT2, CBHLDYT3, CBHLDYT4 all have YUANTI dv's.
+
+7) Missing characters (CBPISSMN=AR1100, CBSEACAPT=AR0300, CB3650DW=AR3650) that are present in the area file but never
+   get created.  Not a timing issue or incompatibility, they never worked in versions 150-1.11 either.
+   Possible patching botched? Just added some script blocks in the areas to spawn them when relevent.
+
+8) Fixed the dragring.itm  crashing due to no creature files present to summon.  Added 4 dragons that it can summon
+   with generic summoned Nishru scripts for now so they won't go hostile by spells cast.  Will improve on this later.
+
+9) Fixed the item CBDRSTF3.ITM causing a crash on "hit" because it was set as 2 handed and inventory icon mace.  Also changed BAM.
+
+10) Generated a script to spawn the item (CBDRSWOD) needed to upgrade/fix the item above.
+   PREY.BCS was appended to and will create the item in a forest area.  
+   This item could not be previously found by me or testers in any files.
+
+11) Fixed Crowley's cutscene to give Use Any Item as the normal spell casts on self.  Added my own CBUAISP for the spell
+    and changed other class quest scripts that teach Use Any Item to work better with the new spell.
+
+12)  Fixed Tardeth's dialog from Company of Eight to not give the quest in chapter 7 only.
+
+13)  Fixed CBCLKSCP to correctly decrease reputation permanently each time donned.  I based similar coding to what Aurora's
+     Shoes mod uses.
+     
+14)  Many creature changes done by ScuD to reorder items in slots that may not be immediate bugs, but can make other installations 
+     fail or create corrupt resources.  Some of these I had to alter further for fixes.
+
+15) Attempted to fix Alchemy test that worked in early versions.  I made the changes to area script AR3504 and CBTETTCH.BCS so this
+    hopefully will work better compatibility-wise.  Not sure why this was broken honestly.
+    
+16) Attempted  to fix Zannaster the mage/lich scripts to work better.  Seems to work with the resored cutscene.
+
+17)  Attempted to fix a bug in Angry Villagers revolt (AR1000.BCS).
+
+18)  Added a proper journal entry for the Master Vampire quest.  Originally pointed to a spell name in the dialog.tlk.
+     I could not find any references in old versions so I made my own entry and it is translated in all current languages.
+
+19)  Reordered scripts for CBDRIFAL (driders not hostile in ancient library) and CB901SCK (Holly the elf changed script to override).  These will hopefully allow the driders to be hostile where
+       appropriate and Holly to have stronger checks for the herbs that she needs.
+
+20)  Fixed CBHOLLY2.ITM where the save throws were disappearing on character level up.  With this change, the modifier still shows after level up.  This is an attempt to make the effects permanent.
+
+21)  For the Captured quest, I removed one global check from AR0300.BCS to account for the two different scenarios.  In one scenarion Mook would never be created so player would have to CLUA 
+       the item that Bodhi wants.
+
+22)  Tried to fix Ryberg (CBRYBERG) to not spawn instantly again if the player refuses to help.  Added SetGlobalTimer("#HCbRybSpwn","GLOBAL",ONE_DAY)
+     to his dialog and a GlobalTimerExpired in his BCS so he can spawn again in one day in relevant areas.  May not be perfected so I will improve on this.
+
+
+****Thanks go out to ilot, prowler, Leonardo Watson, Leomar, Fouinto, JustGans, 10th, Graoumf, Chevalier and K'aeloree.****
+*******************************************************************************
+*** Version 1.11 (by King Diamond) - WeiDU v206
+*******************************************************************************
+1) French translation.
+   All credits goes to: Morkhan, La Voix 2 la Sagesse and Asa (of the d'Oghmatiques).
+   
+
+*******************************************************************************
+*** Version 1.10 (by King Diamond) - WeiDU v206
+*******************************************************************************
+1) NeJ2 compatibility. SPIN518.SPL renamed to SPIN518T (CBCWTHE4.2DA entry changed, SPELL.IDS patching altered).
+
+2) Bonus merchant WMART1 spawning script (AR0406.bcs) is being added only if similar TDD or TS-BP section is not detected.
+
+3) Russian translation by aerie-ru.info team.
+
+4) Wrongfully traified (and lost) CBKHELCK.D transition omitted.
+5) Possible Tag game cutscene hang-up fixed (? - never saw it even with old version).
+6) An attempt to fix forging of Moonblade and Spellsung Blade (Cromwell Forge).
+7) An attempt to fix endless cutscene during Playhouse's Act 3.
+8) RYNN.D: Rynn doesn't give her own dead body to PC upon leaving party anymore... :)
+9) Stronger fix for SPRITE_IS_DEADYUANTI issue (Rynn's dialogue, AR3636.BAF).
+10) CBHLVLNT.D: default response state added.
+11) Fix for CB585RNG.D:
+     - several messed up responces;
+     - fixed "I've got a bug at the end of the ranger's quest. When I try to give the axe to Crowley,
+       I have a "NO VALID REPLIES OR LINKS" at the beginning of the dialog."
+
+12) BODHI.D fix: there's missing reply for JAN that could end entire conversation with "NO VALID REPLIES OR LINKS".
+13) An attempt to fix "Unkillable Zannaster".
+14) BINNKEEP.D: "NO VALID REPLIES OR LINKS" bug fix (after Cold Ice quest completion) .
+15) RYNN.D: broken links for other NPC dialogues' appending states fixed (must point to RYNN.DLG instead of their own states).
+
+
+*******************************************************************************
+*** Version 1.9 (by King Diamond) - WeiDU v199
+*******************************************************************************
+1) BPv177 compatibility (IDS).
+
+2) 3 dialogues compilation time warnings cleared.
+
+3) Chores. CBGORCLD.D. Bug that made a dialog with Gorion (right before the finishing cutscenes)
+   terminated without valid replies if PC is a Cleric - fixed.
+
+4) Chores. Being caught in stealing won't destroy all equipment breaking the chores.
+   AR3504.BAF, AR3505.BAF, CBSTLKEP.BAF, CBSTLKP2.D, AR3504.ARE
+
+5) Chores. Having incorrect number of scrolls scribed won't break the day's chores.
+   CBTHALAN.D
+
+6) NeJ2 compatibility. SPIN517.SPL renamed to SPIN517T (CBCWTHE4.2DA entry changed, SPELL.IDS patching altered).
+
+7) NeJ2 compatibility. AR3636.BAF. Need to reset SPRITE_IS_DEADYUANTI Global to 0 after possible NeJ2 game part 
+to allow Rynn's quest to work properly.
+
+8) CBCO8SHT.BAF - EXP penalty for allowing C8 member death restored.
+9) CBSCHOOK.D - Melinda's 'silence' fixed.
+10) Ryberg - Uncle conversation fixed (CBRYBREL.D)
+11) Compressed ambients (AM1700*) for AR3675 extracted to allow non-CTD access.
+
+12) AR3595 uses the same TIS/WED as original AR6400 (.ARE updated). This solves CTD caused by using AM6400* WAVs
+    from compressed original BIFF too.
+
+    AR3521 = AR1203 (TIS/WED)
+    CB_3521.WAV = AM1203N.WAV
+    
+    AR3532 = AR3022 (TIS/WED)
+    
+    AR3576 = AR0705 (TIS/WED)
+    CBAM0705.WAV = AM0705.WAV
+
+    AR3596 = AR1002 (TIS/WED) + fixes possible usage of compressed BIFFed WAVs
+
+    AR3631 = AR0313 (TIS/WED) + fixes possible usage of compressed BIFFed WAVs
+
+13) AR3610.ARE. "Hidden" tavern entry unblocked.
+14) AR3620. Broken fireplace cinematics fixed.
+15) AR3642. Fireplace animation appearance fixed (now perfectly blended).
+    AR3611 - Fountain animation appearance fixed (now perfectly blended);
+             search map updated;
+             1 actor's position changed.
+
+    AR3635, AR3636, AR3652 - light map fixed.
+    AR3636, AR3652 - walls fixed.
+
+16) AR3613.ARE. There were several animations that caused CTD (didn't fit into area background image). Fixed.
+
+17) Missing AR3565.MOS added.
+
+18) AR3586, 3589, 3593 use the same tileset.
+    AR3586.MOS updated.
+
+    AR3536 uses the same tileset as AR3615.
+
+19) Many TISes re-imported from BGT/BG1 to regain decent graphics quality.
+
+20) Worldmap entries and links revised to introduce more reasonable travel times.
+
+    Cross-link tables for SoS, TDD and RoT added.
+
+    Now Worldmap v6 > is a mandatory component to access CtB areas in any configuration of mods.
+
+21) Attempt to fix wedding quest: aptp0300, aptp0400, aptp0500, aptp0700, aptp0900, aptp2BLD - messed and duplicate
+    wedding quest triggers removed.
+
+22) Worldmap v6.6 requirement (new Hlondeth's areas position).
+
+
+*******************************************************************************
+*** Version 1.8
+*******************************************************************************
+1) Worldmap v6 > support.
+2) Sounds mastered and OGGed.
+
+
+*******************************************************************************
+*** Version 1.7  (by King Diamond) - WeiDU v190
+*******************************************************************************
+1) All dialogues and TP2 traified (for multilingual support).
+2) WeiDU v190, GUI Switcher v2.0.
+3) Candlekeep Chores (CC), v2.0:
+	- moved to a separate component that can be installed/uninstalled at any time;
+	- numerous bugfixes/updates;
+	- newly implemented features make CC more reasonable and, if properly chosen, can quicken its
+	  completion dramatically (but still keeping all original components active).
+
+
+
+*******************************************
+*** Patch #2 for v1.6 (incl. in v1.7)
+*******************************************
+1) AR3534, AR3535 - wallgroups fixed, ambients fixed.
+2) 2 mapnote strings fixed.
+@660301 = ~Hike to lower altitudes of the Snowflakes~
+@660302 = ~Hike to higher altitudes of the Snowflakes~
+3) Holy The Elf spawning fixed (AR0901.BAF).
+4) Holy race fixed (was a human).
+5) Cowled Wizards/Melinda quest fixed.
+
+
+*******************************************
+*** Patch #1 for v1.6 (incl. in v1.7)
+*******************************************
+1) AR0404.ARE info trigger string fixed (was just "test" :)) )
+2) AR3611 night WED fixed.
+3) AR3637 altar fixed (ARE); scripts optimized/fixed (BAFs); wallgroups updated (WED).
+4) Several item descriptions fixed.
+5) AR3615 broken fireplace tiles fixed (TIS, WED).
+6) AR3675 "no main ambients in TIS's BIFF" bug addressed.
+
+
+*****************************************************************************
+***  Version 1.6  (by King Diamond)
+*****************************************************************************
+So, the mod is receiving its new life since now.... ;P
+
+ -- Uses WEIDU version 185;
+
+ -- 100% WeiDU installation, no more files overwriting;
+
+ -- compatibility to SoS v1.05, TDD v1.05, TS-BP v6.04, BGT-WeiDU (starting from Beta 99) and forthcoming BP v1.7 fully addressed
+    (including all issues with animation slots;
+     taking in account a possibility to use it with NEJ2 as well, but that wasn't
+     checked yet - it will require some slight modifications of CtB's installation script);
+
+ -- full compatibility with any mod that adds some new stuff to TOOLTIP.2DA, SONGLIST.2DA and RNDTREAS.2DA;
+
+ -- TONNNNNNS(!!!!!) of broken scripts, screwed area graphics (TISes, walls, SR/LM/HT BMPs), items, creatures fixed/improved;
+
+ -- many missed sounds added;
+
+ -- original (v150) Candlekeep chores "Annoyance of the Century"-award winning adventure fixed and slightly improved
+    (with some ideas how to make it more reasonable to implement for the next version, after some general bughunting);
+
+ -- many unused resources removed from the installation package (including incomplete part of Ascension mod);
+
+ -- all bugfixes (some of them are bugfixed themself ;) ) from the latest Absalom's fixpack (16 Oct 2005) included;
+
+
+Please notice that the mod DOES have many bugs definitely and has never been run through in its current configuration
+and in a combination with SoS/TDD/TS-BP/BGT that could reveal more non-obvious problems there. But nevertheless, 
+it IS MUCH MORE stable and non-conflicting than all its previous versions.
+
+
+
+
+
+
+*****************************************************************************
+*** old stuff.....   
+*****************************************************************************
+----------
+v.150
+*Uses WEIDU version 162
+* Corrected the .tp2 error where CtB attempts to alter the Bridge District but causes a fatal game crash.
+* A possible crash to the Druid Grove (AR1900) has been investigated and resolved.  This was secondary to the "weidu'ifing" of the original areas with Version 148 as above.
+* The monsters that are found within the Academy of Kuldin are now varied to be more appropriate to the party which explores the Academy.  Higher level parties will encounter more difficult monsters; inexperienced adventurers must defeat weaker and less skilled opponents.
+* Selected items that were found in the Academy of Kuldin that were previously only available in specific points throughout an original BG SOA/TOB game have been replaced with the winner of the Check the Bodies Item Creation Contest.  Grats to our winners!
+* Selected stores or creatures have been altered to include the remainder of the items that won the Check the Bodies Item Creation Contest.
+*The Dungeons of Hlondeth are REALLY REALLY restored.  Accessable from below the House Extaminos, I wish you all good luck in completing it.  Oh, and the music there is pretty cool- composed by Chris Field- if you install that component.
+*Rynn's (the Serpent Secession's contact found in Hlondeth) dialog improved with the use of NPC banter.
+*Parissa's dialog while at Neng's Horse Ranch improved with Party Banter.
+
+----------
+v.148
+	*Many of the areas "weidu'ified".  This is the biggest change, and allows CtB to become much more compatible with other mods that alter area files.  I am certain that the changes will not cause the game to crash and I have tested a great majority- not all- of the alterations with respect to thier scripts or containers on a basic SoA/ToB + CtB install, HOWEVER, I am not sure if installing other mods will or will not cause game issues.
+	*D.S.A.C.K will no longer allow you to heal before attempting a feint.  If your party is injured, DON'T accept the Feint of Honor or you *will* lose automatically.
+	*The Feint of Honor can no longer be exploited by first blood.  I won't tell you the removed exploiting method, but now if you want to use this method, it'll be by chance rather than automatic win.
+	*The Cowled Wizards who demand you find and Silence Or Save the Madame will not attempt to reinitiate the quest if you refuse them and kill their guards.	*The Animated Swords found within the Academy of Kuldin can no longer be "pushed" from the area, causing the area door scripts to fail.
+
+----------
+v.147
+	*Holly the Elf's quest and reward items are now actually in the game.  You can pick them up in the correct containers, and she will actually give you something for solving the quest.
+	*The pool in the Umar Hills cave now leads to the underground river.  It was a broken script, and now will allow mages AND sorcerer's to access the Ancient Library.
+	*The number of Hlondeth soldiers at the Brimstone Bridge has been decreased.  This allows slower machines to run a bit smoother as well as make the war "move" a bit faster for higher level parties.
+	*The requirements to be able to help Rynn have been lowered.  Apparently, there was not enough area creatures in the game- only random scripted ones- to be able to meet her needs.
+	*Rynn's dialog is now more specific on what you'll need to do in order to get her to talk with you.
+	*A small typo in the weidu.TP2 file has been corrected, though I don't think it had any affect on installations.
+	*The spawns in a Hlondeth warehouse have been altered slightly.  Only one set of the scripted creatures will spawn each time the area is entered instead of two at a time.
+	*The Map-Notes in the Snowflake Mountains have been correctly weidu'd.
+	*One of the containers in the Slithering Serpent Inn could not be opened.  The search map has been altered to access it properly.
+	*The travel trigger leading to one of Hlondeth's inn's (Ezekeial's place) has been fixed.  Previously, it would cause the character to "hang" while trying to get in.
+	*Ezekeial's dialog has been corrected. (Even though no one reported this, I noticed it while fixing the travel trigger.)
+	*Valiant's dialog upon completing the Close To Home quest has been fixed.  He'll now congratulate and reward characters correctly.
+	*Tethoril has been altered slightly to allow for Smarter Mage scripting.  The lesson can be completed with or without the Smarter Mage mod, but whether it works with other mods remains to be seen.
+	*The descriptions of the items that are needed to help Melynda have been altered, hopefully making it much clearer what these items are for.
+	*Galoomp the Bookkeep's store is now Weidu'd (as well as a slight change in the order of installations.)  With that change, I do believe that all the original stores that CtB alters are completely weidu'd.
+	*Bugbears and Harpies made slightly more harder than v.146c when using "Insane", "Hard", or "Core" Rules.
+	*I rechecked a bunch of the text strings that appear in the Academy of Khuldin.  I am quite sure now that I've weidu'd them all, but if you notice something funky, let us know.
+	*A few typos fixed in the Actor's dialogs.
+	*Fixed the Five Flagon Receptionist's dialog conditions so that when a new play is supposed to start, she'll talk with you.  I believe that is what was causing the plays not to trigger.
+	*Also, take note, Barlot's [the man you can meet in the Umar Hills- "Fifty Gold Fine For Littering"] quest seems to have gone missing somehow.  It was a pretty crummy quest, just to bring him something, but I didn't bother to rework it.  Maybe I will at some point, but there's no 'game issue' right now so I'm going to leave it as is.
+	*I've rechecked the "Melynda" quest.  It works as it's intended to.  Remember, I wrote on the Features page "As of version 145, there is only a "good" version of this quest."  There is no way you can do this quest unless you speak with Melynda FIRST.  That means, if the Cowls tell you to find the woman, she'll run away and you'll never meet her.
+	*I've fixed the global that Teos set in the Planar Sphere which was causing the Unsanctioned Use of Magical Energy quest to delay in starting.
+	*Fixed a small error where a CtB script did not properly append to an original script, but in such a way that it wasn't noticable in game.
+	*Created the script for the Den of Seven Vales.  I'm not quite sure what happened to it in the first place, but for some reason the .BAF was blank, which caused the Teaching Cowl to never appear, nor would the Nightly Brawls work.
+	*I've tried again to stop D.S.A.C.K. from initiating the end of the Feint, and I think it's set now.  However, there may be a case or two in which even after the Feint is officially over where a party member may try to attack D.S.A.C.K. causing the dragon to turn to an enemy.  Be careful and watch your characters!
+	*Numerous updates to .D files and .BAF files that allowed Weidu v154 to work better.
+
+
+----------
+v.146c
+	*CtB now uses weidu build 153.
+	*Fixed the typo in one of the scripts I altered for the Star Lock in the Temple of Mystra that was causing CtB scripts not to install.
+	*Weidu'd a bunch of text strings that were omitted from the Academy of Khuldin.
+	*Corrected the spawn point of Kangaxx the Lich as he was appearing in the "old" place, not the point near the crypt in the extended area.
+	*The Pirate who introduces Velvetfoot no longer instantly disappears, instead now simply walks away after speaking with you.
+	*I've restructured Velvetfoot's scripts and helpers.  There should be no more "continuation" of the Feint after a winner has been declared, which was causing the dragon to go into enemy mode.  If Velvetfoot is attacked- outside of a feint- she will now become an enemy.  Rewards are given by force, penalties are taken by force.  Overall, it's much more streamlined, but there may be a situation that I have not anticipated.
+	*Really Really fixed the loop in Eleanor Ybgir's dialog.  Sorry Shards!
+	*I have not actually fixed the problem, but I removed the "ability" to crash the game in the Candlekeep area if one were to walk behind a certain wallgroup.  I couldn't change the wall's attributes without seriously screwing things up, so I just made it so that one can't walk behind the wall.  Sometime I'll have to go through the area and redo it completely, but that's a lot of work and I don't really think it's needed.
+	*Fixed a small issue where the Amulet of the Archwizard could still be used in Critical Path (ie., The Asylum or Underdark) areas, contradictory to an earlier fixpack.
+	*Correctly weidu'd Journal entries regarding Of Elves And Artifacts.
+	*Bugbears and Harpies made slightly more difficult to help balance out the Academy of Kuldin.
+	*Academy of Kuldin's traps made much more deadly and more difficult to detect/disarm.
+	*A couple of search maps: particularly the ones in Hlondeth (new areas) were altered.  You won't actually 'see' these changes, but they're there.
+
+----------
+v.146b
+	*Tethoril's Potion Powders now have 0 Lore to identify:  anyone can complete the lesson without having lore.
+	*Fixed the install breaker regarding item 'CBXTGCdd'.  Sorry.
+	*The unlock message for the gate to House Extaminos' grounds is now weidu'd.
+	*The unlock message for the door in Ezekeial's Inn in Hlondeth is now weidu'd.
+	*The Yuan-Ti spawns in one of Hlondeth's warehouses corrected:  no more multiple spawns over and over while in the area.
+	*The Civil Servant which starts the Death And Taxes sequence now only spawns once in the area instead of multiple times.
+	*The Town Crier who announces the Death And Taxes meeting now only spawns once per area.
+	*Corrections made to the Captured! quest:
+		-Journal Entry additions weidu'd and will now be erased upon completion.
+		-Shadow Thieves (including Gaelan) will now become hostile if the Captured quest is in progress (per the original game's intentions)
+		-The spawning of Mook will not take place if the Captured quest is in progress.
+	*The driders that are found in the Drow City of Ust Natha are no longer automatically hostile.  They will only turn hostile towards the party at the appropriate times (as if or when other drow become hostile).
+	*The Star Lock in the Temple of Mystra no longer gives double (or more) experience for 'solving' it.  You'll only get the xp for each star once.
+	*Again, I've fixed the Random Treasure Table so I'm fairly certain no one will get a blank, undroppable, non-equipable item.
+	*"Weidu'd" the Yuan-Ti of House Extaminos' combat script with a forgotten text string.
+	*Fixed a problem with the installation of the worldmap if TBP is installed.
+	*Tolgerias' script for the Death and Taxes quest weidu'd.
+	*The Hlondeth Officers (For the Close To Home quest) cannot be killed by the Zombies.  I changed this because they weren't running their scripts if the party was weak and the Legion overpowered the Hlondeth forces, killing the Officers.
+	*I've always had it so that if Hlondeth wins the war against the Legion, the party would be rewarded with experience.  I've added a penalty now, where the party loses experience if Hlondeth's forces are defeated.
+	*Athkatla's areas on the worldmap lined up better.
+	*A loop in Eleanor Ybgir's dialog caused infinite repeating.  It's been fixed.
+
+
+----------
+v.146a
+	*Worldmap changes for keyed mods.
+	*TP2 alterations:  Now, if you don't install the optional music, CtB will once again decompress and biff files.
+	*The rewards for the Concoct Potion and Scribe Scrolls lessons are actually given.
+	*Horton's Journal Entry Adding/Erasing altered.  Now, when Horton actually takes the money the journal will be updated instead of prior to taking money.
+	*The Reputation changes that are made during the Civil Unrest quest have been altered.  Apparently the action _ReputationInc(#)_ does not work when using negative numbers.
+	*The containers for Hortons sub-quests now activate properly:  sorry folks, this was another screw up with going from normal files to weidu and my typing up the TP2 file.
+	*The items in the Graveyard and the Slaver's House for Horton's subquests have been altered:  it's now easier to find out which items Horton may want than just some random items.
+	*Bodhi's dialog appended for the Captured! quest as she wasn't saying anything if you spoke to her then.
+	*Tethtoril's and Phlydia's rewards now work properly (the appropriate skills are actually given.)
+	*The Worldmap links update now when you finish the SoA quest and move to ToB.
+	*Horton's target areas changed so that the original containers cannot be opened until the sub-quest for that particular area is completely done. (same problem as above)
+	*Zannister's duplicate Ring of Protection +2 removed.
+	*Better Company of Eight dialog initating sequencing if Zannaster is dead.
+	*Zannister's dialog strings now correct.
+	*"Weidu'ed" the Lockpicking Strings in the Cult of the Dragon's Inner Sanctum.
+	*Bodhi's Letter changed from category "Misc" to category "Scroll"
+	*The Amulet of the Archwizard now works properly, and will no longer cause a 		Critical Path game break if you use it while in Brynnlaw, for example.
+	*The "window" of opportunity to arrive at Surayah's Debutante Ball has been increased.  Previously, you had to arrive there exactly- that is- at the exact hour the timer expired- on time.  Now, there are two 4 hour blocks (20:00-23:59 on the second or third day) to arrive for the party, but between those times the other quests in Farrahd's home will not occur, so you shouldn't have to worry about breaking them.
+	*Calbor's dialog correctly linked up so you can actually get the quest (sorry, another silly weidu'ifing error.)
+
+----------
+v.146
+	*Includes v145, Fixpack A, Fixpack B, and Fixpack C in respective order.
+	*Changes to the Worldmap .MOS
+	*Hlondeth Dungeons restored
+	*CtB music is now an option to install or not.
+	*Text issues resolved.
+	*In-game quests provide more information on what to do.
+	*More Playhouse plays.
+	*There is now only one REAL Crown of Horns.
+	*A bigger "window" to arrive at Surayah's wedding.
+	*Candlekeep Scribes now tell you the correct length of time it takes to copy scrolls.
+	*Imoen can now be played with more than once.
+	*More failsafes added to remove Irenicus' Dungeon from the Worldmap.
+	*More intuitive and slightly more specific dialog for Parissa at the Horse Ranch.
+	*Valiant now gives more specific directions on traveling to Brimstone Bridge.
+	*The Brimstone Bridge area is no longer visible unless you get the quest.
+	*Minor timing issues with Gorion's teachings made.
+	*Minor textual errors corrected.
+	*CtB no longer "Biff's" Game files which was causing uninstall problems.
+	*Creation of two download files:
+		-Core Files (tilesets, sounds, added comps, etc.)
+		-Game Files (areas, creatures, dialogs, etc.)
+
+----------
+v.145 FixPack C
+	*Attempted changes to the Playhouse.  I'm not sure if this will actually work for the fixpack, but does work in the full build of v.146
+	*A huge number of text changes, including the addition of more information give through dialogs for quests.
+	*Restores Gorion to scripted activation/deactivation rather than through the area file that FixPackA and Fixpack B attempted.
+	*Cromwell's dialog now completely "weidu'ified"
+
+	*I did test out the Play with Imoen files a number of times.  Reports have been made of a 'lock-up'.  I personally have not experienced this.  If you have this problem after installing the fixpacks *and* starting a new game, please report it to the forums.
+
+	*The biggest changes to this Fixpack are the text changes and the Playhouse changes.  I'm not sure how the Playhouse remodeling will go in the fixpack, and a number of you won't even notice the text changes, but in future builds, these changes will be for the best and will be quite noticable.
+	
+	
+
+----------
+v.145 FixPack B
+	*D.S.A.C.K.'s Feint of Honor and Combat script alterations.  Now she's harder.
+	*Correction regarding a CTD while in the Academy of Kuldin.
+	*Gorion is now a 'full-time' creature: he won't go to bed, but his dialog will reflect the time of day better.
+	*Melynda's undroppable item flag removed.
+	*Location of two containers in the Academy of Kuldin.
+	*Another try at correcting the playhouse scripts (this is still due to my weidu'ing stuff and not knowing the proper way to recode it.)
+	*The text strings in the Academy of Kuldin (resting and lockpicking) fixed.
+	*"Nerfing" of the Ring of Lecris.
+	*Alteration (again) of the scribes in Candlekeep:  should fix their activation sequences.
+	*Alteration of Brother Dewey's Sorting Book chore and how he gives out books.
+	*The Random Treasure Chart:  future full builds will no longer have an "invisible" item in containers.  If you get an invisible item in a container, don't pick it up-- you won't be able to drop it.
+
+Take note that some of these fixes won't have any effect on your game if you've already visited the area in your save.
+
+----------
+v.145 FixPack A
+	*Now, Play With Imoen in Candlekeep for those of you who complained about 'waiting'.
+	*Restored Tarnor the Hatchetman in the Temple Sewers and altered the Statue Scripts for the class-specific quests.
+	*Altered the Candlekeep Scrivans Chore:  No longer can you use 'scribed scrolls' to finish this chore.
+	*Corrected the Stealing While in Candlekeep Exploit.
+	*Corrected the Sorcerer's Starting Spells (though since this is a fix, you'll still have the issue until a Re-Build version.
+	*Altered Gorion's 'schedule'.  No longer is he scripted to go to bed.
+	*Includes the Promenande and the Copper Corenet Fix (With this fixpack, a ToB-CtB install works correctly from the beginning of the game to the time you speak with Gaelan.  I still have to check on some possible animation conflicts regarding crashing with other mods installed while fighting Skeletal Warriors or Frost Giants, but have not yet had the chance.
+	*A ToB-CtB install:  Illych works fine (no crash).
+	*A ToB-CtB install:  Skeletal Warriors work fine (no crash).
+	*Import Items, such as Protector of the Second +2, Helm of Balduran, or Bala's Axe, now fixed.
+	*Includes a bigger and more visually appealing battle versus Sarevok.
+	*Fixed Area Rest Flags in Candlekeep:  No longer must you sleep in a cold dungeon or under wet trees.
+	*No more losing imported character items that may have disappeared due to decay while left in Irenicus' Dungeon.
+
+
+----------
+v.145
+	*Complete Re-build combines version 140 and version 145 as well as a few minor fixes with the Candlekeep chores.
+
+----------
+v.141
+	*Adjustments for TBP compatiblity.  Still have minor dialog issues.
+	*Should now compile all scripts which was causing issues with the very first quest 		(OMG that was bad)
+	*Be sure to "COPY" the contents of each folder that is extracted into the appropriate folders in %Black Isle\BG 2 - SoA\checkbod% if you alter the path of this installation.
+	*Also, for better compatibility with TBP, prior to installing, delete your "%Black Isle\BG 2 - SoA\checkbod\cbcrean#% folders.
+
+----------
+v.140
+	*Initial Release
+	
+	
+
+
+
+
+Contact information:
+
+CBisson can be reached at c.bisson@verizon.net
+CtB website:  http://www.teambg.net/~checkbod

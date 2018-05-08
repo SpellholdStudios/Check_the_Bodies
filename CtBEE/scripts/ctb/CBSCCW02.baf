@@ -1,0 +1,14 @@
+IF
+	Global("CbHelpingMelinda","GLOBAL",5)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
+	Global("Cb_CowlsKillPC","AR1000",1)
+	InActiveArea("CBSCCWEN")
+THEN
+	RESPONSE #100
+		EscapeArea()
+END

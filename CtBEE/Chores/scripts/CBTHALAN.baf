@@ -1,0 +1,265 @@
+IF
+	Global("CbThalantyrScribes","GLOBAL",0)
+	Global("CbThalantyrScribes","LOCALS",0)
+	!HasItem("CBSCRB0A",Myself) // Dispel Magic
+THEN
+	RESPONSE #100
+		GiveItemCreate("CBSCRB0A",Myself,1,1,1) // Dispel Magic
+		GiveItemCreate("CBSCRB0B",Myself,1,1,1) // Protection From Evil
+		GiveItemCreate("CBSCRB0C",Myself,1,1,1) // Armor
+END
+
+IF
+	GlobalGT("CbThalantyrScribes","LOCALS",1)
+	HasItem("CBSCRB0C",Myself) // Armor
+THEN
+	RESPONSE #100
+		DestroyItem("CBSCRB0C") // Armor
+END
+
+IF
+	GlobalGT("CbThalantyrScribes","LOCALS",1)
+	HasItem("CBSCRB0B",Myself) // Protection From Evil
+THEN
+	RESPONSE #100
+		DestroyItem("CBSCRB0B") // Protection From Evil
+END
+
+IF
+	GlobalGT("CbThalantyrScribes","LOCALS",1)
+	HasItem("CBSCRB0A",Myself) // Dispel Magic
+THEN
+	RESPONSE #100
+		DestroyItem("CBSCRB0A") // Dispel Magic
+END
+
+IF
+	Global("CbThalantyrScribes","GLOBAL",0)
+	Global("CbThalantyrScribes","LOCALS",1)
+	!HasItem("CBSCRB0D",Myself) // Protection From Normal Weapons
+THEN
+	RESPONSE #100
+		GiveItemCreate("CBSCRB0D",Myself,1,1,1) // Protection From Normal Weapons
+END
+
+IF
+	GlobalGT("CbThalantyrScribes","LOCALS",2)
+	HasItem("CBSCRB0D",Myself) // Protection From Normal Weapons
+THEN
+	RESPONSE #100
+		DestroyItem("CBSCRB0D") // Protection From Normal Weapons
+END
+
+IF
+	Global("CbThalantyrScribes","GLOBAL",0)
+	Global("CbThalantyrScribes","LOCALS",2)
+	!HasItem("CBSCRB0E",Myself) // Fireball
+THEN
+	RESPONSE #100
+		GiveItemCreate("CBSCRB0E",Myself,1,1,1) // Fireball
+		GiveItemCreate("CBSCRB0F",Myself,1,1,1) // Protection from Electricity
+		GiveItemCreate("CBSCRB0G",Myself,1,1,1) // Protection from Undead
+		GiveItemCreate("CBSCRB0H",Myself,1,1,1) // Haste
+		GiveItemCreate("CBSCRB0I",Myself,1,1,1) // Minor Globe of Invulnerability
+END
+
+IF
+	GlobalGT("CbThalantyrScribes","LOCALS",3)
+	HasItem("CBSCRB0I",Myself) // Minor Globe of Invulnerability
+THEN
+	RESPONSE #100
+		DestroyItem("CBSCRB0I") // Minor Globe of Invulnerability
+END
+
+IF
+	GlobalGT("CbThalantyrScribes","LOCALS",3)
+	HasItem("CBSCRB0H",Myself) // Haste
+THEN
+	RESPONSE #100
+		DestroyItem("CBSCRB0H") // Haste
+END
+
+IF
+	GlobalGT("CbThalantyrScribes","LOCALS",3)
+	HasItem("CBSCRB0G",Myself) // Protection from Undead
+THEN
+	RESPONSE #100
+		DestroyItem("CBSCRB0G") // Protection from Undead
+END
+
+IF
+	GlobalGT("CbThalantyrScribes","LOCALS",3)
+	HasItem("CBSCRB0F",Myself) // Protection from Electricity
+THEN
+	RESPONSE #100
+		DestroyItem("CBSCRB0F") // Protection from Electricity
+END
+
+IF
+	GlobalGT("CbThalantyrScribes","LOCALS",3)
+	HasItem("CBSCRB0E",Myself) // Fireball
+THEN
+	RESPONSE #100
+		DestroyItem("CBSCRB0E") // Fireball
+END
+
+IF
+	Global("CbThalantyrScribes","GLOBAL",0)
+	Global("CbThalantyrScribes","LOCALS",3)
+	!HasItem("CBSCRB0J",Myself) // Protection from Magic
+THEN
+	RESPONSE #100
+		GiveItemCreate("CBSCRB0J",Myself,1,1,1) // Protection from Magic
+		GiveItemCreate("CBSCRB0K",Myself,1,1,1) // Monster Summoning II
+END
+
+IF
+	GlobalGT("CbThalantyrScribes","LOCALS",4)
+	HasItem("CBSCRB0K",Myself) // Monster Summoning II
+THEN
+	RESPONSE #100
+		DestroyItem("CBSCRB0K") // Monster Summoning II
+END
+
+IF
+	GlobalGT("CbThalantyrScribes","LOCALS",4)
+	HasItem("CBSCRB0J",Myself) // Protection from Magic
+THEN
+	RESPONSE #100
+		DestroyItem("CBSCRB0J") // Protection from Magic
+END
+
+IF
+	Global("CbThalantyrScribes","GLOBAL",0)
+	Global("CbThalantyrScribes","LOCALS",4)
+	!HasItem("CBSCRB0L",Myself) // Free Action
+THEN
+	RESPONSE #100
+		GiveItemCreate("CBSCRB0L",Myself,1,1,1) // Free Action
+END
+
+IF
+	GlobalGT("CbThalantyrScribes","LOCALS",5)
+	HasItem("CBSCRB0L",Myself) // Free Action
+THEN
+	RESPONSE #100
+		DestroyItem("CBSCRB0L") // Free Action
+END
+
+IF
+	HasItem("CBCOPY01",Myself)
+THEN
+	RESPONSE #100
+		DestroyItem("CBCOPY01")
+		Continue()
+END
+
+IF
+	HasItem("CBCOPY02",Myself)
+THEN
+	RESPONSE #100
+		DestroyItem("CBCOPY02")
+		Continue()
+END
+
+IF
+	HasItem("CBCOPY03",Myself)
+THEN
+	RESPONSE #100
+		DestroyItem("CBCOPY03")
+		Continue()
+END
+
+IF
+	HasItem("CBCOPY04",Myself)
+THEN
+	RESPONSE #100
+		DestroyItem("CBCOPY04")
+		Continue()
+END
+
+IF
+	HasItem("CBCOPY05",Myself)
+THEN
+	RESPONSE #100
+		DestroyItem("CBCOPY05")
+		Continue()
+END
+
+IF
+	HasItem("CBCOPY06",Myself)
+THEN
+	RESPONSE #100
+		DestroyItem("CBCOPY06")
+		Continue()
+END
+
+IF
+	HasItem("CBCOPY07",Myself)
+THEN
+	RESPONSE #100
+		DestroyItem("CBCOPY07")
+		Continue()
+END
+
+IF
+	HasItem("CBCOPY08",Myself)
+THEN
+	RESPONSE #100
+		DestroyItem("CBCOPY08")
+		Continue()
+END
+
+IF
+	HasItem("CBCOPY09",Myself)
+THEN
+	RESPONSE #100
+		DestroyItem("CBCOPY09")
+		Continue()
+END
+
+IF
+	HasItem("CBCOPY10",Myself)
+THEN
+	RESPONSE #100
+		DestroyItem("CBCOPY10")
+		Continue()
+END
+
+IF
+	HasItem("CBCOPY11",Myself)
+THEN
+	RESPONSE #100
+		DestroyItem("CBCOPY11")
+		Continue()
+END
+
+IF
+	HasItem("CBCOPY12",Myself)
+THEN
+	RESPONSE #100
+		DestroyItem("CBCOPY12")
+		Continue()
+END
+
+IF
+	TimeGT(20)
+	IsActive(Myself)
+	Global("CbThalantyrScribes","AR3503",2)
+THEN
+	RESPONSE #100
+		SetGlobal("CbThalantyrScribes","AR3503",3)
+		Deactivate(Myself)
+END
+
+IF
+	TimeGT(DAWN_END)
+	!IsActive(Myself)
+	Global("CbThalantyrScribes","AR3503",3)
+THEN
+	RESPONSE #100
+		Activate(Myself)
+		SetGlobal("CbThalantyrScribes","AR3503",0)
+END
+
+

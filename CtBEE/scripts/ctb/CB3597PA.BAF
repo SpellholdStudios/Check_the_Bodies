@@ -1,0 +1,8 @@
+IF
+	Global("CbParissaSpawned","AR3597",0)
+	IsOverMe([GOODCUTOFF])
+THEN
+	RESPONSE #100
+		SetGlobal("CbParissaSpawned","AR3597",01)
+		CreateCreature("CB3597PA",[2218.1164],0)
+END

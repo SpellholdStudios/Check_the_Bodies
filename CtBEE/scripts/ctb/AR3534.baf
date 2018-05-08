@@ -1,0 +1,19 @@
+IF
+	GlobalGT("Cb_PartyBoughtCabin","GLOBAL",0)
+	Global("Cb_WinterCabinOpen","AR3534",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_WinterCabinOpen","AR3534",1)
+		TriggerActivation("Trans3535",TRUE)
+END
+
+IF
+	!Contains("CBICEBLK","CBBLKICE")
+	Global("CbSomeoneTookIce","AR3534",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSomeoneTookIce","AR3534",1)
+		SetGlobalTimer("CbDeliverIceMelting","GLOBAL",EIGHT_DAYS)
+END
+
+

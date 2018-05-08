@@ -1,0 +1,61 @@
+IF
+	See(NearestEnemyOf(Myself))
+	Exists(Player1)
+	!Exists("CB3579P1")
+THEN
+	RESPONSE #100
+		CreateCreatureObjectCopy("CB3579P1",Player1,1,0,0)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Exists(Player2)
+	!Exists("CB3579P2")
+THEN
+	RESPONSE #100
+		CreateCreatureObjectCopy("CB3579P2",Player2,1,0,0)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Exists(Player3)
+	!Exists("CB3579P3")
+THEN
+	RESPONSE #100
+		CreateCreatureObjectCopy("CB3579P3",Player3,1,0,0)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Exists(Player4)
+	!Exists("CB3579P4")
+THEN
+	RESPONSE #100
+		CreateCreatureObjectCopy("CB3579P4",Player4,1,0,0)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Exists(Player5)
+	!Exists("CB3579P5")
+THEN
+	RESPONSE #100
+		CreateCreatureObjectCopy("CB3579P5",Player5,1,0,0)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Exists(Player6)
+	!Exists("CB3579P6")
+THEN
+	RESPONSE #100
+		CreateCreatureObjectCopy("CB3579P6",Player6,1,0,0)
+		Continue()
+END
+
+

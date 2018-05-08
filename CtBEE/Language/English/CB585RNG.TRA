@@ -1,0 +1,147 @@
+@1   = ~I declare.  Ain't nobody gots ta git hurt.  I reckon y'all shud jus' puts down yer weapons.~
+@2   = ~Anyhows, if'n yud gots a mind ta hurt me, I's gots me a few gud friends, but y'all don't need to werry yerselfs 'bout them.  They won't be hurtin' y'all unless yous hurts me.~
+@3   = ~Is thinks Is jus' be gettin' lazy, but the deer'n seem a bit skittish round strangas, don't be pay'n them any heed, y'hear?~
+@4   = ~Anyhows, where are my mannas?  I's Crowley, a ranga livin' alls the way up'n here in this forest.  Wot shud Is call y'all?~
+@5   = ~You don't need to know my name.~
+@6   = ~I'm <GABBER>, and it's nice to meet you.~
+@7   = ~How long have you lived here.~
+@8   = ~I reckon Is be meanin' y'all no disrespect, friends, but if'n you doesn't wont ta be friendlie, y'all mite as well keep on hikin'.~
+@9   = ~I reckon its bin nearly a decade now.  I's nose these wuds like the back of my hand.  Anyhows, lots of game trails, views.  So, fellers, wot did y'all say yer names was?~
+@10  = ~I reckon so, I reckon.  Listen, <GABBER>, I nose a feller ranga when I's sees one.  I also nose these wuds like the back of my hand.  It took me many years to lurn a lot of tricks of the wuds.~
+@11  = ~Seein' hows yer a ranga too, 'haps yud like me to lurn you wot I've lurned?  I'd be more than happy to, but you'd have to help me out as well.~
+@12  = ~Sure, I can help.  I'd like to learn some new tricks.~
+@13  = ~I don't have time to help you right now.  Maybe I'll come back later.~
+@14  = ~I reckon it'd not take tu much of yer time.  I's tells y'all wut I be needin'.  Jus' to the nort o' here, there be a riva emptin' into a pul at the bottom of the wata falls.  Anyhows, my animal friends are jus gettin' dumber cause they drank from the watta.  I's wants y'all ta fine out wut the problem is and sees why my animals gettin' sick.~
+@15  = ~Shuren if'n it ain't my friend ranga <GABBER>!  Gud ta sees y'all agan.  Didja happen ta fine out wy my animals are gettin' sic?~
+@16  = ~No, Crowley, I haven't figured it out yet.~
+@17  = ~Yes, Crowley.  I think I've found the source; a dead deer's carcass was polluting the river.  I've removed the carcass, and the water should clean itself soon.~
+@18  = ~What was I supposed to do for you again?~
+@19  = ~I reckon y'all are smart enou ta figar it out.  Be shuren ta let me nose.~
+@20  = ~I shure be startin' ta tink y'alls are gittin' dumber.  Jus' foller the riva upstrem 'till y'all fine why my an'mals gettin' sic.  Be shuren ta let me nose wut y'all fine out.~
+@21  = ~I reckon that that's the way of thins, eh?  Shure am sorry ta hear it, tho.  I reckon it ware hard ta get the carcass outta the wata, huh?~
+@22  = ~I sed I'd wud lurn ya somethin if y'all wanta practuce wuts I's got ta shows ya.~
+@23  = ~Wut wud y'all liken ta lurn?  Hows ta trak creaturas betta, hows ta sets some bonny sners, or hows ta fine and removes  nastie traps?~
+@24  = ~I think I'd like to know how to track more accurately.~
+@25  = ~I'd really like to learn how to set snares.~
+@26  = ~I want to know how to find and remove traps.~
+@27  = ~Shure, friend.  Foller me, ands I's shows y'all some thins.~
+@28  = ~I reckon you shud be able ta figura out wut kines of thins have been ins the arear y'alls are lookin' ins.~
+@29  = ~I reckon you shud be able ta sets some bonny sners ot in the wil' ta catch some thins.~
+@30  = ~I reckon you shud be able ta fine an' remove any traps that mighten hurt y'all now.~
+@31  = ~Yud be shure ta let me nose wuts y'all fine.  I's be 'round these parts here.~
+@32  = ~<GABBER>!  My fren!  Gud ta see y'all agin.  I reckon it's bin a whiles since I's seen so many folk'l round here.  Anyhows, think y'all can help me out?  I's can lurn ya somethin if'n yud help me.~
+@33  = ~Sure, Crowley.  What do you need?~
+@34  = ~Actually, I've got to run.  I'll come back.~
+@35  = ~Shure.  Teke yur time, <GABBER>.  I ain't goin' nowheres.~
+@36  = ~I reckon it's shure ta be a might bit tough'n fer y'all, 'though I's tells ya, bein' out here in the wuds, ya get ta nose wuts goin' on.~
+@37  = ~I's cudn't rightly say, but there's bin a presence somewheres nearby.  Somethin awful evil.  I's nose it ain't nothin' natural.~
+@38  = ~Alls I's nose is that it's somethin' near Athkatla.  I reckon I ain't noing wut it is, an' I ain't gonna waga were ta fine it, but shure as the sun, it's a treat to the region.~
+@39  = ~Y'all thin ya can fine it an' maybe take care of it fer me?~
+@40  = ~Where can I find this presence, Crowley?~
+@41  = ~Crowley, I'll try my best.~
+@42  = ~Crowley, I really don't think I'll be able to end such a dire threat.~
+@43  = ~Alls I's nose, liken I sed, is that evil is comin' from Athkatla.  You might'n want ta check there furst.  Be shure ta let me nose if y'all come up wit anythin.~
+@44  = ~<GABBER>, like I said, shure as a 'coon is a pest, I think this evil, it's a treat to the region.  If'n y'all have such little faith in your 'bility, gud luck, but I's shure y'all be able to take care of it.~
+@45  = ~I know you will try your best, <GABBER>.  Let me know if you come up with anything.~
+@46  = ~Friend <GABBER>!  I know in my bones that you haven't been able to remove the evil presence.  Anything I can do for you?~
+@47  = ~I cannot find this presence.  Do you know where it is?~
+@48  = ~I's already tole ya, <GABBER>, all I's nose is that I's can feel it in Athkatla.~
+@49  = ~Sorry frien', but I's cudn't be moren specific then tellin' y'all the presence is strongest on the west side of the city.~
+@50  = ~I's tell y'all this, the presense somewheres near a body of wata.  'Haps a river?  I ain't noin' with certa'ntie.~
+@51  = ~The evil bein' is beneath the surface, <GABBER>.  For some reason, it's been given me a sensation of sulpher, salt, and decay.~
+@52  = ~Friend, I shure wish I's cud be moren specific.  All I's nose is that the evil is mighty strong on the west side of Athkatla, near water, beneath the surface.~
+@53  = ~Friend!  Gud to see y'all.  I'll tell you wot, I cudn't detect anie evil in Athkatla.  Wot happened?~
+@54  = ~There was a demon there and I banished it, but it wasn't destroyed.~
+@55  = ~There was a demon there and I destroyed it.  No more need to worry.~
+@56  = ~That's shure is great, friend!  Y'all did gud.  Come on, let me teach ya somethin abot bein' a ranga.~
+@57  = ~Go on, <GABBER>, sees if'n y'all can defeat whateva is there.~
+@58  = ~Shure enough, I ain't gonna welch on my promise, so's tells me wut yu'd like ta lurn.~
+@59  = ~Wud ya like me to teach y'all to set sners, how to survive in the wuds, or wud y'all like to lurn how to use yer ranged weapons betta?~
+@60  = ~I want to know how to set a trap.  Can you teach me that, Crowley?~
+@61  = ~Survival.  Can you teach me that, Crowley?~
+@62  = ~How to use my ranged weapons?  Like with called shots?  Yes, Crowley, I want to learn that.~
+@63  = ~Course I's can do that fer ya.  Here, comen fer a walk in the wuds and I's shows ya wut I nose.~
+@64  = ~I reckon y'all will haveta practuce wut's I's shown ya, but yer sud be able ta set sum sners easy now.~
+@65  = ~I reckon y'all will haveta practuce wut's I's shown ya, but yer sud be able ta survive in the wuds betta.~
+@66  = ~I reckon y'all will haveta practuce wut's I's shown ya, but yer sud be able ta use a bo, ax, dagga, crossbow, or any other range weapon betta.~
+@67  = ~If'n it ain't my frien'.  How y'all been?  Find anythin' new or interestin' in yer travels?  Wait, don't be tellin' me that.  We'll sit by the ca'pfire and share stories sometime.  Right now, I's be needin' some help.  Y'all got a few days to sper?~
+@68  = ~Not now, Crowley.  I need to take care of some things.~
+@69  = ~Shure, friend.  Y'all let me nose if ya can help me.~
+@70  = ~Look it here, frien', this is my ole ax.  I ain't used it for many years, and it's a gud ax but it seems to be dullin'.  Ain't nothin' that can't be fixed, but y'all wud need the right tools.~
+@71  = ~I sed that it cud be fixed, but y'all will haveta fine an ole dwar' frien' o' mine, Cromwell by name, to fix it up fer me.  Y'all mightn haveta brin' him rew or ta fix it, but shure I's reward ya if the ax gits sharpened.~
+@72  = ~I will try, Crowley.~
+@73  = ~I reckon y'all will haveta let me nose wuts ya can do.~
+@74  = ~Shut.  Ain't expecting ta sees y'alls agin.  Was ya ables ta sharpen my ax?~
+@75  = ~Yes, Crowley.  I have it.~
+@76  = ~Sorry, Crowley.  I haven't been able to get to it yet.~
+@77  = ~Let's me nose if y'all get it fixed up.~
+@78  = ~Ain't that gran!  I's tells ya wut though. I ain't gonna be needin' it on any of my hikes.  I'm shure yud cud use it moren than me.  Here, let me shos y'all how to use it betta.~
+@79  = ~There's ya goes.  Shure, a gif' from Crowley.  Yud can use the ax as a gif'.  I reckon I did tells ya I'd be shure ta lurn y'all somethin, and I ain't goin' back on my word.~
+@80  = ~Wut is it yu'd like me ta lurn y'all:  how ta snek 'round betta, how ta set a bunch o' caltrops, y'all know wut I mean, to drop on the grund, or wud like like to lurn how ta survive in the wuds?~
+@81  = ~Actually, can you help me increase my stealth skill?  I'd like to know that more.~
+@82  = ~You can show me how to set caltrops?  Yes, I'd like to know that, Crowley.~
+@83  = ~Can you teach me how to survive in the wild more?~
+@84  = ~I reckon yud haveta practuce that a bit, so come on.  Ain't no time like the presnt.~
+@85  = ~Anyhows, now, y'all can snek about through the brush, grass, or even in those thar uppity cities.  Jus' be careful not to give yourself away too much.~
+@86  = ~Now y'all nose hows to spread caltrops on the grund so you can slow up and maybe hurt any enemies approaching y'all.~
+@87  = ~Anyhows, nows y'all nose how ta survive in the wuds.  Shudn't fine yourself lost in the wuds without a good jug o' moonshin' agin.~
+@88  = ~Seems like I got's a prollem.  I got's ta go up on a hike in the wuds, and I ain't got no time ta be jawin' around here wit' y'all.  Y'all come back and see us if ya ever decide ta live in the wuds.~
+@89  = ~Seems like I got's a prollem.  I got's ta go up on a hike in the wuds, and I ain't got no time ta be jawin' around here wit' y'all.~
+@90  = ~Wut is it yu'd like me ta lurn y'all:  how ta snek 'round betta, how ta set a bunch o' caltrops, y'all know wut I mean, to drop on the grund, wud like like to lurn how ta survive in the wuds, or wud y'all like me to lurn ya how to use any types of items?~
+@91  = ~I'd really like to learn how to use any item.  Can you teach me that?~
+@92  = ~I reckon I can try, frien, but I ain't gonna sey if y'all have the lurnin'.  Come on, let's try it.~
+@93  = ~I reckon ya got it.  Now, like a lot of us, ya can use any type of item that y'all want.  Jus' remember, like usual, castin' magic while y'all are wearin' armor ain't gonna work.~
+@94  = ~I reckon y'all ain't gonna be able ta lurn how to use any item.  Yu'd jus haveta keep practucin', ya nose wut I mean?~
+@95  = ~Sorry, frien', but I ain't too keen on strangers in my wud.  The animals don't like it none, y'all nose wut I mean?~
+@96 = ~Backwoods Ranger's Cabin:  River Poisoning
+
+The reason some of my new friend's animals were becoming ill was because there had been a deer tha passed and was rotting in the river.  I was able to remove the carcass, and the water should return to normal in a few days.~
+@97 = ~Backwoods Ranger's Cabin
+
+The ranger Crowley has taught me how to track creatures in the wild with greater accuracy, but assures me that the same methods can be used in most other types of terrain, such as cities or underground caverns.~
+@98 = ~Backwoods Ranger's Cabin
+
+The ranger Crowley has taught me how to set snares in order to catch small or medium animals while in the wild, but assures me that I can use the same methods to cause harm to my enemies.~
+@99 = ~Backwoods Ranger's Cabin
+
+The ranger Crowley has taught me how to find and remove traps that may have been set in the wild, but assures me that the methods used for searching can also be used while in other landscapes, such as caves or dungeons.~
+@100 = ~Backwoods Ranger's Cabin:  River Poisoning
+
+I met a ranger up north in the hills who lives with a bunch of animals at the base of a mountain.  He told me he's been a ranger for many years, and would be willing to show me a few tricks he's learned, if I help him out.  I told him I would, and he explained that his animal friends were taking ill.  He asked me to find out why the stream near his cabin was polluted.~
+@101 = ~Backwoods Ranger's Cabin:  Evil Presence
+
+The isolated ranger Crowley has asked me to find and defeat an evil presence that he can sense in the region.  He is unsure of where precisely this evil is emanating from, but told me it is somewhere within the city of Athkatla.
+  When I have defeated the evil presence- either by destroying it or by banishing it from Faerûn- I am to report back Crowley south of Baldur's Gate where he has promised to teach me a skill which will enrich my life.~
+@102 = ~Backwoods Ranger's Cabin:  Evil Presence
+
+Crowley asked me to defeat an evil presence that he had sensed in the region, which I found below the docks of Athkatla.  It was a hard fought battle, but I was victorious and the backwoods ranger has promised to teach me a valuable skill.~
+@103 = ~Backwoods Ranger's Cabin
+
+The ranger Crowley has taught me how to survive in the wild, by steeling myself to the elements, and has assured me that I would be less likely to freeze to death on a snow-capped mountaintop or dehydrate in the desert.~
+@104 = ~Backwoods Ranger's Cabin
+
+The ranger Crowley has taught me how to aim for a specific part of a target, and by concentrating on that particular spot, aim more accurately for the target, potentially doing greater damage to whatever I shoot an arrow, a bolt, a dagger, or any other missile weapon at.~
+@105 = ~Backwoods Ranger's Cabin:  Sharpening an Axe
+
+Crowley, the ranger that has been sharing some of his old ranger tricks, has asked me to sharpen his axe.  Seems he doesn't like to travel to cities very much, and asked me to bring the dull axe to Cromwell to be repaired.  Since it was a magical axe, Crowley thinks that the dwarven smith may need some special metal to reforge the blade so that it is once again sharp.  When I have the axe repaired, Crowley asked me to bring it back to him, where he promised to teach me another skill.~
+@106 = ~Backwoods Ranger's Cabin:  Sharpening an Axe
+
+I had the dwarven smith Cromwell sharpen up Crowley's axe blade, and delivered the repaired axe to my ranger friend.  Crowley was nice enough to give me the magical axe as a gift, which I think was quite nice of him.  Crowley, like he promised, has taught me some new ranger tricks he's picked up while living out in the woods.~
+@107 = ~Backwoods Ranger's Cabin
+
+The ranger Crowley has taught me how to sneak about the woods and forest with out leaving any traces of being there, and has assured me that the skill can be used in a variety of terrain types, even on hard stone of caverns or on paved or cobbled city streets.~
+@108 = ~Backwoods Ranger's Cabin
+
+The ranger Crowley has taught me how to spread a bunch of caltrops upon the ground so as to slow up and cause slight harm to any approaching enemies.~
+@109 = ~Backwoods Ranger's Cabin
+
+The ranger Crowley has taught me how to survive in the wild, by steeling myself to the elements, and has assured me that I would be less likely to freeze to death on a snow-capped mountaintop or dehydrate in the desert.~
+@110 = ~Backwoods Ranger's Cabin
+
+The ranger Crowley has taught me how to use nearly any type of item, including magical scrolls, wands, or anything else that I may not have been able to figure out how to use previously.~
+@111 = ~Backwoods Ranger's Cabin
+
+The ranger Crowley has tried to teach me how to use nearly any type of item, but I just couldn't grasp his instruction.~
+@112 = ~Backwoods Ranger's Cabin:  River Poisoning
+
+I met a ranger up north in the hills who lives with a bunch of animals at the base of a mountain.  He told me he's been a ranger for many years, and would be willing to show me a few tricks he's learned, if I help him out.  I told him I would, and he explained that his animal friends were taking ill.  He asked me to find out why the stream near his cabin was polluted.~

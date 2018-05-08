@@ -1,0 +1,85 @@
+@1   = ~No parece que os hayáis posicionado en un lado en nuestra lucha. Matad algunas serpientes, y posiblemente llamaréis la atención de la Secesión.~
+@2   = ~Ya que, o estáis con la Casa Extaminos, o estáis con la Secesión. Cuando hayáis escogido y comencéis a exterminar a esas sanguinarias serpientes, hacedmelo saber.~
+@3   = ~Si decidís uniros a la Secesión, las serpientes pondrán una recompensar de 500 piezas de oro por cada miembro. Vigilad vuestras espaldas en ese caso.~
+@4   = ~No venderé a ninguno de mis compatriotas a la Casa sin saber a favor de qué lado luchan. Ayudad a los Yuan-ti y os llamaré enemigos. Escogednos a nosotros y quizás podamos conversar.~
+@5   = ~Entonces, ¿pensáis que tenéis lo que se necesita para unirse a la Secesión?~
+@6   = ~Tengo lo que se necesita para hacer cualquier cosa. ¿Qué es lo que estáis intentado hacer?~
+@7   = ~¿Qué es esa Secesión de la que habláis?~
+@8   = ~¿Así que sois una miembro de la Secesión de la Serpiente?~
+@9   = ~Bien, antes de que la Secesión pueda confiar plenamente en vosotros, tendréis que demostrar lo que valéis.~
+@10  = ~La Secesión de la Serpiente. Guerreros libres que se afanan por liberar Hlondeth de los yuan-ti. Quizás hayáis presenciado alguna de las escaramuzas con las tropas de Hlondeth.~
+@11  = ~Hasta ahora sólo hemos logrado que pongan precio a nuestras cabezas, así que si pensáis que tenéis lo que se necesita para atacar a Extaminos, tendréis que guardar vuestras espaldas en cada esquina.~
+@12  = ~Por supuesto, lo admito, pero nunca obtendréis ninguna más información acerca de mis compatriotas para utilizar en su contra por mi parte.~
+@13  = ~Así que, como dije, tenéis que mostrarnos lo que podéis hacer antes de que podamos siquiera confiar un poco en vosotros. Demostradnos que sóis dignos de nuestra confianza, y os dejaremos tener una oportunidad de golpear en el corazón de las diabólicas serpientes.~
+@14  = ~Aquí tenéis vuestro primer encargo. ¿Conocéis el templo de Mystra al otro extremo de la ciudad? Quiero que vayáis allí y me traigáis un cofre. Estará cerrado, pero deberíais ser capaz de cargar con él sin ninguna dificultad. Reconoceréis el cofre del que hablo en cuanto lo veáis. Tiene un emblema de serpiente en el oropel. Id y volved conmigo cuando lo tengáis.~
+@15  = ~Sin el cofre, nunca os daremos nuestra confianza. Traedme el cofre, y tal vez os pondré en contacto con el líder de la Secesión de la Serpiente.~
+@16  = ~Así que habéis sido capaz de traer el cofre. Bien hecho. Entregadmelo.~
+@17  = ~De acuerdo, escuchad. El cometido que habéis hecho fue simple, pero mis compatriotas están contentos con los resultados. Este cofre ayudará un poco con la financiación del movimiento.~
+@18  = ~Alguien está complacido con vuestro trabajo, y quiere conoceros. Él está oculto en la ciudad, los Extaminos han puesto un precio a su cabeza de 10.000 piezas. Es el líder de la Secesión de la Serpiente, y es bien conocido por las serpientes de la Casa. Os será complicado el encontrarle, pero no os preocupéis. Él os encontrará cuando sea seguro.~
+@19  = ~Tiene una llave de la Casa donde están los yuan-ti, y tenéis que conseguir esa llave con el fin de entrar dentro de los terrenos si queréis tomar la Casa.~
+@20  = ~No os preocupéis. El líder del movimiento os encontrará en su momento. Estoy segura de que tiene razones para estar oculto, pero sigue controlando la ciudad. Irá a buscaros cuando sea seguro.~
+@21  = ~¿Qué? ¿No tenéis una llave?~
+@22  = ~No, pero encontramos a Astinar. Quiere que vengáis con nosotros, obviamente para "tener un ojo sobre nosotros", cuando expulsemos a las serpientes. ¿Nos acompañaréis?~
+@23  = ~Daré mi vida por liberar Hlondeth de esas viles serpientes. Si Gonthril me quiere como niñera, lo haré. Vayamos a buscarle y consigamos la llave. Tenemos que expulsar a Extaminos tan pronto como podamos.~
+@24  = ~<CHARNAME>, ya habéis hecho vuestra elección, mas dáos cuenta de que estamos haciendo historia. Nosotros tomaremos la responsabilidad de gobernar la Cámara de Hlondeth, de futuro incierto. Creo, lo creo sinceramente, que marcaremos una diferencia en las vidas de todos. Basta, ya es la hora. Debemos expulsar a las serpientes por un Hlondeth libre.~
+@25  = ~Está hecho, <CHARNAME>. Hlondeth está más cerca de la libertad. Espero que lo hayamos hecho bien. Gonthril debería oir las noticias rápidamente, así que debo buscarlo ahora. Gracias por vuestra ayuda, <CHARNAME>.~
+@26 = ~Estofado de culebra
+
+   Se supone que Rynn contactó con el líder de la Secesión, quien se encontrará conmigo en la ciudad. Por culpa de una gran recompensa por su cabeza, Astinar debe permanecer en la clandestinidad. Estoy seguro de que me encontrará, pero tengo que tener los ojos abierto. Cuando lo encuentre, conseguiré una llave que se supone abre la puerta cerrada hacia los terrenos de Casa Extaminos.~
+~Estofado de culebra
+
+   Se supone que Rynn contactó con el líder de la Secesión, quien se encontrará conmigo en la ciudad. Por culpa de una gran recompensa por su cabeza, Astinar debe permanecer en la clandestinidad. Estoy segura de que me encontrará, pero tengo que tener los ojos abierto. Cuando lo encuentre, conseguiré una llave que se supone abre la puerta cerrada hacia los terrenos de Casa Extaminos.~
+@27 = ~Estofado de culebra
+
+   Tratar de tomar la Casa Extaminos será mucho más que bailar un vals y causar estragos en las serpientes. Tengo a Rynn a mi lado, y me asegura que Astinar nos encontrará siempre y cuando nos mantengamos en movimiento. Espero no tener nunca una recompensa sobre mí~
+@28 = ~Estofado de culebra
+
+   Astinar nos ha entregado la llave de los terrenos de la Casa Extaminos. Atacaremos allí hoy, y Hlondeth estará libre de los yuan-ti.~
+@29 = ~Estofado de culebra
+
+   Rynn, aparentemente una de los miembros de la resistencia en Hlondeth, piensa que puedo ayudarla, y a la Secesión de la Serpiente, con la Casa Extaminos. No estoy seguro de si es un buen plan, entrometiendome con la casa gobernante de la ciudad, pero la gente de aquí no está particularmente feliz con la forma en que los yuan-ti están gobernando la ciudad. No obstante, si quiero ayudar a la Secesión, Rynn me envió en una misión para conseguir un cofre cerrado que se supone que está guardado en el Templo de Mystra en el lado oriental de la ciudad. No sé donde está, pero ir al templo sería un buen punto para empezar a buscar.~
+~Estofado de culebra
+
+   Rynn, aparentemente una de los miembros de la resistencia en Hlondeth, piensa que puedo ayudarla, y a la Secesión de la Serpiente, con la Casa Extaminos. No estoy segura de si es un buen plan, entrometiendome con la casa gobernante de la ciudad, pero la gente de aquí no está particularmente feliz con la forma en que los yuan-ti están gobernando la ciudad. No obstante, si quiero ayudar a la Secesión, Rynn me envió en una misión para conseguir un cofre cerrado que se supone que está guardado en el Templo de Mystra en el lado oriental de la ciudad. No sé donde está, pero ir al templo sería un buen punto para empezar a buscar.~
+@30 = ~Estofado de culebra
+
+   Al fin encontré en Hlondeth a Gonthril Astinar. Hablé brevemente con él, y expuse que ayudaré a la Secesión contra la Casa Extaminos. Estuvo de acuerdo en proporcionarme una llave del bastión, tan pronto como me reuna con uno de los miembros de la Secesión de la Serpiente, estoy seguro que como un espía es para asegurarse de que hago lo que digo y no le traiciono, así que supongo que buscaré de nuevo a la mujer llamada Rynn en la tienda de armas. Astinar me dijo que una vez me haya encontrado con ella, él volverá a ponerse en contacto conmmigo en la ciudad.~
+~Estofado de culebra
+
+   Al fin encontré en Hlondeth a Gonthril Astinar. Hablé brevemente con él, y expuse que ayudaré a la Secesión contra la Casa Extaminos. Estuvo de acuerdo en proporcionarme una llave del bastión, tan pronto como me reuna con uno de los miembros de la Secesión de la Serpiente, estoy segura que como un espía es para asegurarse de que hago lo que digo y no le traiciono, así que supongo que buscaré de nuevo a la mujer llamada Rynn en la tienda de armas. Astinar me dijo que una vez me haya encontrado con ella, él volverá a ponerse en contacto conmmigo en la ciudad.~
+@31 = ~Estofado de culebra
+
+   Los yuan-ti de Casa Extaminos están muertos. Lo que esto hará a la ciudad, no lo puedo conjeturar. Sin embargo, la política de la región se verá afectada, y estoy seguro que no quiero quedarme atrapado en una guerra civil. Rynn se ha marchado para encontrar a Astinar, y ya es hora de dejar la ciudad.~
+~Estofado de culebra
+
+   Los yuan-ti de Casa Extaminos están muertos. Lo que esto hará a la ciudad, no lo puedo conjeturar. Sin embargo, la política de la región se verá afectada, y estoy segura que no quiero quedarme atrapada en una guerra civil. Rynn se ha marchado para encontrar a Astinar, y ya es hora de dejar la ciudad.~
+@32 = ~<CHARNAME>, me temo que podemos estar metiendonos en algo en lo que no querríamos inmiscuirnos si decidís tomar parte por la Casa Extaminos. La política es mi campo, <CHARNAME>, y deberíamos dejarlos estar. Nuestra lucha no es ayudar a la Secesión de la Serpiente, pero sin embargo, es una causa justa.~
+@33 = ~Esas escurridizas serpientes, dejan un mal sabor en la boca de Bubú y también en la de Minsc.~
+@34 = ~Los luchadores por la libertad necesitan de la poderosa espada de un explorador y algunas cervezas ale enanas para limpiar el hedor de esas serpientes, ¿no estoy en lo cierto mi fornido amigo?~
+@35 = ~Los luchadores por la libertad necesitan de la poderosa espada de un explorador para limpiar el hedor de esas serpientes, diría yo.~
+@36 = ~Siempre hay tiempo para una cerveza enana, explorador. Y si me llamáis fornido de nuevo, jugaré a un juego de palos con vuestra rata y mi martillo.~
+@37 = ~Yo digo que matemos a los yuan-ti incluso si no conseguimos cerveza enana.~
+@38 = ~Hagamos lo que hagamos, <CHARNAME>, esta cuestión requiere algo de reflexión. ¿De verdad queréis involucraros en los asuntos políticos locales que muy bien podrían tener consecuencias hasta en Cormyr, independientemente de los resultados?~
+@39 = ~Os lo ruego, <CHARNAME>, pensad un tiempo en ello.~
+@40 = ~Una tarea sencilla, amiga mia. Pero contadme, Rynn, ¿qué haríais con ese cofre?~
+@41 = ~Os estáis volviendo ciego, paladín. Vuestro corazón ha crecido inocente en su honor. Si ese cofre que debemos procurar es tán elaborado como dice la mujer, debo creer que es un arca para oro u objetos valiosos. Fondos para ayudar a su causa. ¿Estoy en lo correcto?~
+@42 = ~¿Así que Rynn quiere usar el dinero de los yuan-ti contra ellos? ¡Eso es! ¡En marcha <CHARNAME>!~
+@43 = ~¿A quién le importa, Kel? ¡Vayamos a por el cofre y miremos qué es lo que hay dentro!~
+@44 = ~¿Queréis que os demostremos nuestra valía? ¡Tonta abbil! Intentáis salvar a los pobres de Hlondeth de su condición de pobres, pero os preocupáis con esconderos y probar a aquellos que os ayudarían. Parece que tenéis una cierta idea de, o mejor dicho... sobre cómo derrocar a una Casa.~
+@45 = ~¡Estúpida drow! Mataríais a toda la gente de Hlondeth si vuestro dejo estuviera libre de nosotros. El cofre puede contener dinero, <CHARNAME>. Dinero que la gente necesita.~
+@46 = ~De acuerdo, <CHARNAME>. Vamos a buscar el cofre de ella, y ver qué podemos hacer para ayudar a Hlondeth.~
+@47 = ~Como si no fuera obvio. El cofre y su contenido se dividiría entre aquellos que más lo necesitan, el pueblo oprimido de Hlondeth, así como también para avituallar las actividades de la Secesión de la Serpiente contra los yuan-ti.~
+@48 = ~No son sólo mis ideas las que nos conducirán al derrocamiento de la Casa Extaminos, sino también las de los demás. Ahora, si ya habéis terminado de insultarme a mí y a la Secesión, id y encontrad el cofre.~
+@49 = ~Por supuesto que estáis en lo correcto, elfa oscura. En su mayor parte, el dinero que creemos que tienen será empleado en ayudar a las gentes de Hlondeth, pero una parte también finaciará nuestra causa.~
+@50 = ~Tenéis espíritu, halfling. Volved conmigo cuando tengáis el cofre.~
+@51 = ~Halfling, confío en que ni una sola pieza de oro desaparecerá del cofre. Volved conmigo cuando lo tengáis, y espero no tener que poneros del revés para ver si cae algo de vuestros bolsillos, mi pequeña amiga.~
+@52 = ~La elfa oscura está en lo cierto sobre mis defectos. Pero no todo lo que hacemos será para nosotros. De veras espero que los fondos que encontremos en el cofre puedan usarse tanto para ayudar a nuestra causa como a las gentes de Hlondeth.~
+@53 = ~Yo... yo creo que es mejor si empezásemos a buscar a ese hombre del que habla Rynn. Podría resultar peligroso para nosotros... eh, quiero decir, podríamos terminar con una recompensa sobre nuestras cabezas si la Casa supiera que estamos ayudando a la Secesión.~
+@54 = ~Vaya, la Dama de la Fortuna sonríe; qué sonido tan familiar. Creo que sería aconsejable por nuestra parte el volver a nuestros asuntos como si nada hubiera pasado, <CHARNAME>, pues seguramente el hombre del que habla Rynn nos encontrará en su momento.~
+@55 = ~No tiene sentido. Nada de ésto. Si estáis tan empeñados en liberar a la ciudad de su grupo gobernante, bien entonces. Nosotros les haremos salir por la fuerza, y dejad estas intrigas y reuniones de amantes a escondidas.~
+@56 = ~Lo siento, <CHARNAME>. He guardado silencio sobre este asunto demasiado tiempo. Sólo lo diré una vez, así que escuchad bien. Si no ayudáis a la Secesión en su intento de librar Hlondeth de la Casa Extaminos, mujeres y niños terminarán muriendo de hambre en las calles y los hombres no lo pasarán mejor, mientras los yuan-ti se preocuparán por adquirir más poder y riquezas. Oponéos a la injusticia, <CHARNAME>, pero hacedlo con prudencia y cuidado.~
+@57 = ~<CHARNAME>, conocéis mi pasado. Una arpista que siempre ha tratado de mantenerse a cierta distancia de la política interna de una nación o ciudad estado, ahora sin embargo, de alguna manera, sé en mi corazón que debemos librar Hlondeth de Extaminos. Pero, encontrar a alguien a quien han puesto precio a su cabeza, bastante alto de hecho, no será fácil si no desea ser visto. Vamos, basta de charlas. Hay trabajo por hacer.~
+@58 = ~Fue un noble acto éste al que nos liderásteis, <CHARNAME>. Rezo por que hayamos hecho lo correcto.~
+@59 = ~Bubú está totalmente de acuerdo con <CHARNAME>. ¡Mirad! Sonríe y chilla con aprobación.~
+@60 = ~No importa qué acontecimientos surjan de esto, <CHARNAME>, recordad que todo alcanzará el equilibrio.~
+@61 = ~Os dejo con un últmo pensamiento, <CHARNAME>. Puede que os hayáis dado cuenta de que en el primer piso de esta villa hay una escalera que desciente. Abajo hay unas antiguas ruinas, guardadas por los yuan-ti. Explorad la mazmorra bajo vuestro propio riesgo, pues yo no os acompañaré allí. Buena suerte, <CHARNAME>.~

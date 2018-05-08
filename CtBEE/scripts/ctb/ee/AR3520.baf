@@ -1,0 +1,23 @@
+IF
+	OnCreation()
+THEN
+	RESPONSE #100
+		Weather(SNOW)
+		Continue()
+END
+
+IF
+	Global("Cb_StopDSACK_Loading","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_StopDSACK_Loading","GLOBAL",2)
+END
+
+IF
+	Global("CbBlueDragonAlerted","GLOBAL",1)
+	Global("CbMountainsTurnedOffDragon","AR3520",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbMountainsTurnedOffDragon","AR3520",1)
+		AmbientActivate("CBBDSL01",FALSE)
+END

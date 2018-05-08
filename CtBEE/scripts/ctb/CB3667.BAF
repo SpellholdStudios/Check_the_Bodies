@@ -1,0 +1,291 @@
+IF
+	Global("CbAreaCB3668NotCompleted","GLOBAL",0)
+THEN
+	RESPONSE #100
+		TriggerActivation("Tran3665",FALSE)
+		TriggerActivation("Exit3665",TRUE)
+		Continue()
+END
+
+IF
+	Global("CbAreaCB3668NotCompleted","GLOBAL",1)
+THEN
+	RESPONSE #100
+		TriggerActivation("Tran3665",TRUE)
+		TriggerActivation("Exit3665",FALSE)
+		Continue()
+END
+
+IF
+	Global("CbAreaCB3668NotCompleted","GLOBAL",1)
+THEN
+	RESPONSE #100
+		OpenDoor("DOOR01")
+		CloseDoor("DOOR02")
+		OpenDoor("DOOR03")
+		OpenDoor("DOOR04")
+		OpenDoor("DOOR05")
+		OpenDoor("DOOR06")
+		OpenDoor("DOOR07")
+		OpenDoor("DOOR08")
+		OpenDoor("DOOR09")
+		OpenDoor("DOOR10")
+		OpenDoor("DOOR11")
+		OpenDoor("DOOR12")
+		OpenDoor("DOOR13")
+		OpenDoor("DOOR14")
+		OpenDoor("DOOR15")
+		OpenDoor("DOOR16")
+		OpenDoor("DOOR17")
+		OpenDoor("DOOR18")
+		OpenDoor("DOOR19")
+		OpenDoor("DOOR20")
+		OpenDoor("DOOR21")
+		TriggerActivation("Trigger02",FALSE)
+		TriggerActivation("Trigger03",FALSE)
+		TriggerActivation("Trigger04",FALSE)
+		TriggerActivation("Trigger05",FALSE)
+		TriggerActivation("Trigger06",FALSE)
+		TriggerActivation("Trigger07",FALSE)
+		TriggerActivation("Trigger08",FALSE)
+		TriggerActivation("Trigger09",FALSE)
+		TriggerActivation("Trigger10",FALSE)
+		TriggerActivation("Trigger11",FALSE)
+		TriggerActivation("Trigger12",FALSE)
+		TriggerActivation("Trigger13",FALSE)
+		TriggerActivation("Trigger14",FALSE)
+		TriggerActivation("Trigger15",FALSE)
+		TriggerActivation("Trigger16",FALSE)
+		TriggerActivation("Trigger17",FALSE)
+		TriggerActivation("TriggerTrap1",FALSE)
+		TriggerActivation("TriggerTrap2",FALSE)
+		TriggerActivation("TriggerTrap3",FALSE)
+		TriggerActivation("TriggerTrap4",FALSE)
+		TriggerActivation("TriggerTrap5",FALSE)
+		Continue()
+END
+
+IF
+	OnCreation()
+THEN
+	RESPONSE #100
+		OpenDoor("DOOR02")
+		CloseDoor("DOOR01")
+		CloseDoor("DOOR03")
+		CloseDoor("DOOR04")
+		CloseDoor("DOOR05")
+		CloseDoor("DOOR06")
+		CloseDoor("DOOR07")
+		CloseDoor("DOOR08")
+		CloseDoor("DOOR09")
+		CloseDoor("DOOR10")
+		CloseDoor("DOOR11")
+		CloseDoor("DOOR12")
+		CloseDoor("DOOR13")
+		CloseDoor("DOOR14")
+		CloseDoor("DOOR15")
+		CloseDoor("DOOR16")
+		CloseDoor("DOOR17")
+		CloseDoor("DOOR18")
+		CloseDoor("DOOR19")
+		CloseDoor("DOOR20")
+		CloseDoor("DOOR21")
+END
+
+IF
+	Global("P1","CB3667",0)
+	AreaCheckObject("CB3667",Player1)
+THEN
+	RESPONSE #100
+		SetGlobal("P1","CB3667",1)
+END
+
+IF
+	Global("P1","CB3667",1)
+	!AreaCheckObject("CB3667",Player1)
+THEN
+	RESPONSE #100
+		SetGlobal("P1","CB3667",0)
+END
+
+IF
+	Global("P2","CB3667",0)
+	AreaCheckObject("CB3667",Player2)
+THEN
+	RESPONSE #100
+		SetGlobal("P2","CB3667",1)
+END
+
+IF
+	Global("P2","CB3667",1)
+	!AreaCheckObject("CB3667",Player2)
+THEN
+	RESPONSE #100
+		SetGlobal("P2","CB3667",0)
+END
+
+IF
+	Global("P3","CB3667",0)
+	AreaCheckObject("CB3667",Player3)
+THEN
+	RESPONSE #100
+		SetGlobal("P3","CB3667",1)
+END
+
+IF
+	Global("P3","CB3667",1)
+	!AreaCheckObject("CB3667",Player3)
+THEN
+	RESPONSE #100
+		SetGlobal("P3","CB3667",0)
+END
+
+IF
+	Global("P4","CB3667",0)
+	AreaCheckObject("CB3667",Player4)
+THEN
+	RESPONSE #100
+		SetGlobal("P4","CB3667",1)
+END
+
+IF
+	Global("P4","CB3667",1)
+	!AreaCheckObject("CB3667",Player4)
+THEN
+	RESPONSE #100
+		SetGlobal("P4","CB3667",0)
+END
+
+IF
+	Global("P5","CB3667",0)
+	AreaCheckObject("CB3667",Player5)
+THEN
+	RESPONSE #100
+		SetGlobal("P5","CB3667",1)
+END
+
+IF
+	Global("P5","CB3667",1)
+	!AreaCheckObject("CB3667",Player5)
+THEN
+	RESPONSE #100
+		SetGlobal("P5","CB3667",0)
+END
+
+IF
+	Global("P6","CB3667",0)
+	AreaCheckObject("CB3667",Player6)
+THEN
+	RESPONSE #100
+		SetGlobal("P6","CB3667",1)
+END
+
+IF
+	Global("P6","CB3667",1)
+	!AreaCheckObject("CB3667",Player6)
+THEN
+	RESPONSE #100
+		SetGlobal("P6","CB3667",0)
+END
+
+IF
+	!InParty(Player2)
+	Global("P1","CB3667",1)
+	!Global("CbAreaCB3668NotCompleted","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayStringNoName(Player1,@550625) 
+		ActionOverride(Player1,LeaveAreaLUAPanic("CB3665","",[295.2105],13))
+		ActionOverride(Player1,LeaveAreaLUA("CB3665","",[295.2105],13))
+END
+
+IF
+	InParty(Player2)
+	!InParty(Player3)
+	Global("P1","CB3667",1)
+	Global("P2","CB3667",1)
+	!Global("CbAreaCB3668NotCompleted","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayStringNoName(Player1,@550625) 
+		ActionOverride(Player1,LeaveAreaLUAPanic("CB3665","",[295.2105],13))
+		ActionOverride(Player1,LeaveAreaLUA("CB3665","",[295.2105],13))
+		ActionOverride(Player2,LeaveAreaLUA("CB3665","",[295.2105],13))
+END
+
+IF
+	InParty(Player3)
+	!InParty(Player4)
+	Global("P1","CB3667",1)
+	Global("P2","CB3667",1)
+	Global("P3","CB3667",1)
+	!Global("CbAreaCB3668NotCompleted","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayStringNoName(Player1,@550625) 
+		ActionOverride(Player1,LeaveAreaLUAPanic("CB3665","",[295.2105],13))
+		ActionOverride(Player1,LeaveAreaLUA("CB3665","",[295.2105],13))
+		ActionOverride(Player2,LeaveAreaLUA("CB3665","",[295.2105],13))
+		ActionOverride(Player3,LeaveAreaLUA("CB3665","",[295.2105],13))
+END
+
+IF
+	InParty(Player4)
+	!InParty(Player5)
+	Global("P1","CB3667",1)
+	Global("P2","CB3667",1)
+	Global("P3","CB3667",1)
+	Global("P4","CB3667",1)
+	!Global("CbAreaCB3668NotCompleted","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayStringNoName(Player1,@550625)
+		ActionOverride(Player1,LeaveAreaLUAPanic("CB3665","",[295.2105],13))
+		ActionOverride(Player1,LeaveAreaLUA("CB3665","",[295.2105],13))
+		ActionOverride(Player2,LeaveAreaLUA("CB3665","",[295.2105],13))
+		ActionOverride(Player3,LeaveAreaLUA("CB3665","",[295.2105],13))
+		ActionOverride(Player4,LeaveAreaLUA("CB3665","",[295.2105],13))
+END
+
+IF
+	InParty(Player5)
+	!InParty(Player6)
+	Global("P1","CB3667",1)
+	Global("P2","CB3667",1)
+	Global("P3","CB3667",1)
+	Global("P4","CB3667",1)
+	Global("P5","CB3667",1)
+	!Global("CbAreaCB3668NotCompleted","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayStringNoName(Player1,@550625)
+		ActionOverride(Player1,LeaveAreaLUAPanic("CB3665","",[295.2105],13))
+		ActionOverride(Player1,LeaveAreaLUA("CB3665","",[295.2105],13))
+		ActionOverride(Player2,LeaveAreaLUA("CB3665","",[295.2105],13))
+		ActionOverride(Player3,LeaveAreaLUA("CB3665","",[295.2105],13))
+		ActionOverride(Player4,LeaveAreaLUA("CB3665","",[295.2105],13))
+		ActionOverride(Player5,LeaveAreaLUA("CB3665","",[295.2105],13))
+END
+
+IF
+	InParty(Player6)
+	Global("P1","CB3667",1)
+	Global("P2","CB3667",1)
+	Global("P3","CB3667",1)
+	Global("P4","CB3667",1)
+	Global("P5","CB3667",1)
+	Global("P6","CB3667",1)
+	!Global("CbAreaCB3668NotCompleted","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayStringNoName(Player1,@550625) 
+		ActionOverride(Player1,LeaveAreaLUAPanic("CB3665","",[295.2105],13))
+		ActionOverride(Player1,LeaveAreaLUA("CB3665","",[295.2105],13))
+		ActionOverride(Player2,LeaveAreaLUA("CB3665","",[295.2105],13))
+		ActionOverride(Player3,LeaveAreaLUA("CB3665","",[295.2105],13))
+		ActionOverride(Player4,LeaveAreaLUA("CB3665","",[295.2105],13))
+		ActionOverride(Player5,LeaveAreaLUA("CB3665","",[295.2105],13))
+		ActionOverride(Player6,LeaveAreaLUA("CB3665","",[295.2105],13))
+END
+
+

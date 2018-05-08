@@ -1,0 +1,31 @@
+BEGIN ~CBP3ACT3~ 1
+
+IF ~~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN EXTERN ~CBP3ACT2~ 3
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @2
+  IF ~~ THEN EXTERN ~CBP3ACT1~ 4
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @3
+  IF ~~ THEN EXTERN ~CBP3ACT1~ 5
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @4
+  IF ~~ THEN EXTERN ~CBP3ACT1~ 6
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @5
+  IF ~~ THEN DO ~ActionOverride("CBP3ACT4",MoveToObjectNoInterrupt("CBP3ACT2"))
+Recoil()
+SmallWait(5)
+Recoil()
+Kill(Myself)
+~ EXTERN ~CBP3ACT1~ 7
+END

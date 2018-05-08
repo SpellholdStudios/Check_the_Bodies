@@ -1,0 +1,148 @@
+IF
+	Global("CbCromwellForgesHammer","AR0334",1)
+	Global("ForgeStuff","GLOBAL",1)
+	Global("ForgeItem","GLOBAL",46)
+	PartyHasItem("CBNRTHM1")
+	PartyHasItem("CBNRTHM2")
+THEN
+	RESPONSE #100
+		SetGlobal("ForgeStuff","GLOBAL",0)
+		TakePartyItem("CBNRTHM1")
+		TakePartyItem("CBNRTHM2")
+		GiveItemCreate("CBNRTHMM",Player1,1,0,0)
+		ActionOverride("WSMITH01",StartDialogueNoSet([PC]))
+		Continue()
+END
+
+IF
+	Global("CbCromwellForgesAxe","AR0334",1)
+	Global("ForgeStuff","GLOBAL",1)
+	Global("ForgeItem","GLOBAL",45)
+	PartyHasItem("CBRNGax1")
+	PartyHasItem("CBRNGmtl")
+THEN
+	RESPONSE #100
+		SetGlobal("ForgeStuff","GLOBAL",0)
+		TakePartyItem("CBRNGax1")
+		TakePartyItem("CBRNGmtl")
+		GiveItemCreate("CBRNGax2",Player1,1,0,0)
+		ActionOverride("WSMITH01",StartDialogueNoSet([PC]))
+		Continue()
+END
+
+IF
+	Global("CbCromwellForgesStaff","AR0334",1)
+	Global("ForgeStuff","GLOBAL",1)
+	Global("ForgeItem","GLOBAL",44)
+	PartyHasItem("CBDRSTF1")
+	PartyHasItem("CBDRSwod")
+THEN
+	RESPONSE #100
+		SetGlobal("ForgeStuff","GLOBAL",0)
+		TakePartyItem("CBDRSTF1")
+		TakePartyItem("CBDRSwod")
+		GiveItemCreate("CBDRSTF2",Player1,1,0,0)
+		ActionOverride("WSMITH01",StartDialogueNoSet([PC]))
+		Continue()
+END
+
+IF
+	Global("ForgeStuff","GLOBAL",1)
+	Global("CbCromwellForgesCrown","AR0334",1)
+	PartyHasItem("POTN34")
+	PartyHasItem("AMUL17")
+THEN
+	RESPONSE #25
+		SetGlobal("ForgeStuff","GLOBAL",0)
+		TakePartyItem("MISC42")
+		TakePartyItem("SCRL6M")
+		TakePartyItem("POTN34")
+		TakePartyItem("AMUL17")
+		GiveItemCreate("CBMALDUP",Player1,1,0,0)
+		ActionOverride("WSMITH01",StartDialogueNoSet([PC]))
+		Continue()
+	RESPONSE #75
+		SetGlobal("ForgeStuff","GLOBAL",0)
+		TakePartyItem("MISC42")
+		TakePartyItem("SCRL6M")
+		TakePartyItem("POTN34")
+		TakePartyItem("AMUL17")
+		ActionOverride("WSMITH01",StartDialogueNoSet([PC]))
+		Continue()
+END
+
+IF
+	Global("ForgeStuff","GLOBAL",1)
+	Global("CbCromwellForgesCrown","AR0334",1)
+	PartyHasItem("POTN34")
+	PartyHasItem("CHALCY3")
+THEN
+	RESPONSE #25
+		SetGlobal("ForgeStuff","GLOBAL",0)
+		TakePartyItem("MISC42")
+		TakePartyItem("SCRL6M")
+		TakePartyItem("POTN34")
+		TakePartyItem("CHALCY3")
+		GiveItemCreate("CBMALDUP",Player1,1,0,0)
+		ActionOverride("WSMITH01",StartDialogueNoSet([PC]))
+		Continue()
+	RESPONSE #75
+		SetGlobal("ForgeStuff","GLOBAL",0)
+		TakePartyItem("MISC42")
+		TakePartyItem("SCRL6M")
+		TakePartyItem("POTN34")
+		TakePartyItem("CHALCY3")
+		ActionOverride("WSMITH01",StartDialogueNoSet([PC]))
+		Continue()
+END
+
+IF
+	Global("ForgeStuff","GLOBAL",1)
+	Global("CbCromwellForgesCrown","AR0334",1)
+	PartyHasItem("POTN34")
+	PartyHasItem("IPSION")
+THEN
+	RESPONSE #25
+		SetGlobal("ForgeStuff","GLOBAL",0)
+		TakePartyItem("MISC42")
+		TakePartyItem("SCRL6M")
+		TakePartyItem("POTN34")
+		TakePartyItem("IPSION")
+		GiveItemCreate("CBMALDUP",Player1,1,0,0)
+		ActionOverride("WSMITH01",StartDialogueNoSet([PC]))
+		Continue()
+	RESPONSE #75
+		SetGlobal("ForgeStuff","GLOBAL",0)
+		TakePartyItem("MISC42")
+		TakePartyItem("SCRL6M")
+		TakePartyItem("POTN34")
+		TakePartyItem("IPSION")
+		ActionOverride("WSMITH01",StartDialogueNoSet([PC]))
+		Continue()
+END
+
+IF
+	Global("ForgeStuff","GLOBAL",1)
+	Global("CbCromwellForgesCrown","AR0334",1)
+	PartyHasItem("POTN34")
+	PartyHasItem("RING14")
+THEN
+	RESPONSE #25
+		SetGlobal("ForgeStuff","GLOBAL",0)
+		TakePartyItem("MISC42")
+		TakePartyItem("SCRL6M")
+		TakePartyItem("POTN34")
+		TakePartyItem("RING14")
+		GiveItemCreate("CBMALDUP",Player1,1,0,0)
+		ActionOverride("WSMITH01",StartDialogueNoSet([PC]))
+		Continue()
+	RESPONSE #75
+		SetGlobal("ForgeStuff","GLOBAL",0)
+		TakePartyItem("MISC42")
+		TakePartyItem("SCRL6M")
+		TakePartyItem("POTN34")
+		TakePartyItem("RING14")
+		ActionOverride("WSMITH01",StartDialogueNoSet([PC]))
+		Continue()
+END
+

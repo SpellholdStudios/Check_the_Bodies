@@ -1,0 +1,44 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		Wait(1)
+		ActionOverride("CBOWEN03",DisplayStringHead(Myself,29559)) // Right, boss.
+		Wait(2)
+		ActionOverride("CBOWEN03",MoveToObject(Player1))
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ForceSpellRES("CBAR3566",Player1)
+		StorePartyLocations()
+		DropInventory()
+		Wait(3)
+		SetGlobal("CbBodhiJob","GLOBAL",4)
+		SetGlobal("CbWorkingForBodhi","GLOBAL",4)
+		SetGlobal("CbShadowThievesCapturePC","GLOBAL",3)
+		ActionOverride("CBOWEN03",DestroySelf())
+		ActionOverride("CBBYRN03",DestroySelf())
+		LeaveAreaLUAPanic("AR3566","",[1180.2485],13)
+		LeaveAreaLUA("AR3566","",[1180.2485],13)
+		CreateCreatureObjectCopy("CB3566P1",Player1,0,0,0)
+		ActionOverride("CB3566P1",Face(13))
+		ApplySpellRES("CBPLAYR1",Player1)
+		JumpToPoint([3504.927])
+		MoveViewPoint([1323.2433],INSTANT)
+		SetGlobal("CbShadowThievesCapturePC","GLOBAL",4)
+		CreateCreature("CBBYRN66",[1200.2500],5)
+		CreateCreature("CBOWEN66",[1300.2550],5)
+		CreateCreature("CB566SPY",[1293.2334],0)
+		CreateCreature("CB566SPY",[1288.2658],0)
+		ActionOverride("CB3566P1",ChangeAIScript("",CLASS)) //CB3566P1
+		Wait(2)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		HideGUI()
+		ActionOverride(Player1,MakeUnselectable(10))
+		ActionOverride("CBBYRN66",Wait(3))
+		ActionOverride("CBBYRN66",StartDialogueNoSet("CBOWEN66"))
+END
+
+

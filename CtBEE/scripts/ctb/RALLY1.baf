@@ -1,0 +1,67 @@
+IF
+	Global("CbInitialStandDone","AR3675",2)
+	GlobalGT("CbHlondethRetreatStage","AR3675",4)
+	Global("CbOfficerTwoCreatesMOB","AR3675",0)
+	!IsOverMe(Player1)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,MoveToObjectNoInterrupt("RALLY1"))
+		ActionOverride(Player1,Face(6))
+END
+
+IF
+	Global("CbInitialStandDone","AR3675",2)
+	GlobalGT("CbHlondethRetreatStage","AR3675",4)
+	Global("CbOfficerTwoCreatesMOB","AR3675",0)
+	!IsOverMe(Player2)
+THEN
+	RESPONSE #100
+		ActionOverride(Player2,MoveToObjectNoInterrupt("RALLY1"))
+		ActionOverride(Player2,Face(6))
+END
+
+IF
+	Global("CbInitialStandDone","AR3675",2)
+	GlobalGT("CbHlondethRetreatStage","AR3675",4)
+	Global("CbOfficerTwoCreatesMOB","AR3675",0)
+	!IsOverMe(Player3)
+THEN
+	RESPONSE #100
+		ActionOverride(Player3,MoveToObjectNoInterrupt("RALLY1"))
+		ActionOverride(Player3,Face(6))
+END
+
+IF
+	Global("CbInitialStandDone","AR3675",2)
+	GlobalGT("CbHlondethRetreatStage","AR3675",4)
+	Global("CbOfficerTwoCreatesMOB","AR3675",0)
+	!IsOverMe(Player4)
+THEN
+	RESPONSE #100
+		ActionOverride(Player4,MoveToObjectNoInterrupt("RALLY1"))
+		ActionOverride(Player4,Face(6))
+END
+
+IF
+	Global("CbInitialStandDone","AR3675",2)
+	GlobalGT("CbHlondethRetreatStage","AR3675",4)
+	Global("CbOfficerTwoCreatesMOB","AR3675",0)
+	!IsOverMe(Player5)
+THEN
+	RESPONSE #100
+		ActionOverride(Player5,MoveToObjectNoInterrupt("RALLY1"))
+		ActionOverride(Player5,Face(6))
+END
+
+IF
+	Global("CbInitialStandDone","AR3675",2)
+	GlobalGT("CbHlondethRetreatStage","AR3675",4)
+	Global("CbOfficerTwoCreatesMOB","AR3675",0)
+	!IsOverMe(Player6)
+THEN
+	RESPONSE #100
+		ActionOverride(Player6,MoveToObjectNoInterrupt("RALLY1"))
+		ActionOverride(Player6,Face(6))
+END
+
+

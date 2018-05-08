@@ -1,0 +1,19 @@
+IF
+	Global("CbMalteseArtifact","GLOBAL",3)
+	AreaCheck("AR0500")
+	Exists(Myself)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
+	Global("CbKillOffYbgir","GLOBAL",2)
+	AreaCheck("AR2000")
+	Exists(Myself)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+

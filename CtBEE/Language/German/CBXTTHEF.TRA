@@ -1,0 +1,193 @@
+@1   = ~He, Kump'l? Was willst'e?~ 
+@2   = ~Nee, i brauch' net Hilfe. Verpiss'di, bevor'de Ärger kriegst.~
+@3   = ~Schaut aus, als ob'de das tust. Sag, Kump'l, denkst'e, dass'me wie Partner ausseh'n könnt'n?~ 
+@4   = ~I denk', du schaust so aus, aba red's'te auch so?~
+@5   = ~Du deckst mein'n Rück'n, i deck' dein'n.~ 
+@6   = ~I deck' deinen Rück'n, aba du denkst nur an di.~
+@7   = ~I denk' nicht, dass'de mir'n Rück'n deckst. I trau' de net, wenn'de mi net deckst.~
+@8   = ~Tut mir Leid. Ich verstehe kein Wort davon, was Ihr gerade sagtet.~ 
+@9   = ~Das sagst'e jetzt, Kump'l, aba i weiß net, was uns erwartet. Un' woher soll ich wiss'n, dass i de trau'n kann?~
+@10  = ~Kump'l, i bin da Dieb'sgild'n-Führa in Athkatla.~ 
+@11  = ~Kump'l, du weisst nich viel. I bin die, die'd Dieb'sgild'n in Athkatla b'siegt.~
+@12  = ~I muss nix b'weis'n. Lass de das g'sagt sein.~
+@13  = ~I hab Ab'nteurers Allerlei z'am'kratzt, Kump'l, un'  hab'n'nen Ries'nreibach dabei g'macht.~ 
+@14  = ~Auf keinen Fall, Kump'l. Du wirst's net pack'n. Verpiss'di, bevor de Ärger kriegst.~
+@15  = ~Auf keinen Fall, Kump'l. Du wirst's net pack'n. Verpiss'di, bevor'de was machst, von dem de red'n kannst.~ 
+@16  = ~Du? Du warst'es? He, das ist ganz prima, Kump'l. Also, Du sagt, dass de Linval umg'legt hast. Wie soll i wiss'n, ob d'es bei mir net g'nauso machst? He?~
+@17  = ~I geb de mein Wort. I töt' di net.~
+@18  = ~I zieh' nur geg'n di, wenn ich net 'ne and're Wahl hab'.~
+@19  = ~Das kannst'e net wiss'n. Mein Dolch wird di davon abhalt'n, was geg'n mi zu untanehm'n.~ 
+@20  = ~He, Kump'l. Ganz prima. Das zählt was. Also, sags'te, dass de der Diebesgild'n-Führer bist. Wie soll ich wiss'n, dass de mi net b'scheisst? He?~
+@21  = ~I geb mein Wort. I b'scheiss di net.~ 
+@22  = ~I b'scheiss di nur, wenn i denk', dass de mi b'scheisst.~ 
+@23  = ~Das kannst'e net wissen. Es is' das, was di davon abhält, mi zu b'scheiss'n.~
+@24  = ~He, i denk', mi mit de z'samm'z'schließ'n könnt' schwierig sein. Kump'l, i riskier's.~ 
+@25  = ~He, i denk', mi mit de z'samm'z'schließ'n könnt' bedeut'n, g'tötet zu werd'n. Kump'l, i riskier's.~
+@26  = ~He, i denk', mi mit de z'samm'z'schließ'n könnt' gut für mi sein. Kump'l, i riskier's.~
+@27  = ~He, i denk', mi mit de z'samm'zuschließ'n wird'me nix bringen. Oda mi reich mach'n. Kump'l, i riskier's.~
+@28  = ~Das sags'te jetzt, aba wer weiß, hä? Kannst net imme'nen Mann beim Wort nehmen. Kump'l, i riskier's.~ ~Das sags'te jetzt, aba wer weiß, hä? Kannst net imme'ne Frau beim Wort nehmen. Kump'l, i riskier's.~
+@29  = ~Wills't wiss'n, was i rauskriegt hab', gell, Kump'l? I werds de g'rad'raus sag'n, dass i 'n paar Objekte hab'. Leichte ob'ndrein.~
+@30  = ~Es is Dei Sach' Kump'l. Willst'e mitmach'n? Mir bei den Objekt'n helf'n? 'n paar Sach'n wegschaff'n?~
+@31  = ~Du hast 'n G'schäft g'macht. I werd' de helf'n.~
+@32  = ~Auf kein'n Fall werd' i' de helf'n, deine Objekte zu klau'n. Such'de 'nen and'ren Lakai'n.~
+@33  = ~I weiß, dass i de net trau'n kann. I wett, Du würd'st mi g'rad'wegs ausliefern, stimmt's? Zeit für mi, d' G'meinschaft zu lös'n. Bis dann, Kump'l.~
+@34  = ~Is' das net riesig, Kump'l? Wie g'sagt, i hab' 'n paar Objekte ausg'macht. Üba welcha wills'te was wiss'n? Dem Temp'l von Lathanda, dem Sklav'nhaus, dem Regierungsg'bäude oder der Harfna-Hochburg?~
+@35  = ~I kann'de jetzt net helf'n. V'leicht späta.~
+@36  = ~Erzähl'me vom Temp'l von Lathanda.~
+@37  = ~Was is das für'ne G'schicht' mit'n Sklav'n?~
+@38  = ~Glaub'ste wirklich, wir könnt'n ins Regierungsg'bäude einsteig'n?~
+@39  = ~I wollt' schon imma zu den Harfnan z'rückge'n. Lass'e uns vorknöpf'n.~
+@40  = ~Die Objekte sin' gut, aba hast'e noch and're?~
+@41  = ~He Kump'l. Das is'ses Objekt. Da Temp'l von Lathanda. Is' wirklich leicht, sobal'de drin bist, ausse' d'weckst d' Wach'n.~
+@42  = ~I weiß, wann'se schlaf'n. Du kansst rein geh'n, drei Sach'n schnapp'n un damit drauß'n sein, b'vor 's eina mitkriegt.~
+@43  = ~Willst'e imma noch den Temp'l probier'n?~
+@44  = ~'türlich mach i's. Wir könn'se heut' nacht b'stehl'n.~
+@45  = ~Gut, Kump'l. Wir plündern den Temp'l. I werd' di da treff'n. Komm in'er Nacht. Wir werd'n 'ne Menge Sach'n krieg'n.~
+@46  = ~'türlich, Kump'l. Wir könn'n die Sklav'n frei lass'n. Weißt'e, wo das G'bäude is, he? Sicha weißt'es.~
+@47  = ~I b'obacht' se schon 'ne Weil' un' kenn' ihr Musta. Wir könn'n beide reinkomm'n, i kann Schmiere steh'n un' du kannst 'was von ihr'n Sachn schnapp'n, dann hau'n wir ab, b'vor se überhaupt merk'n, dass wir dort war'n.~
+@48  = ~I weiß, dass'e viel Gold un Waff'n un all's Möglich' hab'n. Wir könnt'n viel Geld mach'n, wenn wir net g'schnappt werd'n.~
+@49  = ~Wills'te imma noch rein?~
+@50  = ~Stimmt. Wir werd'n jetzt d'Sklav'n ausnehm'n.~
+@51  = ~Du hast's. Treff mi in'er Nacht in'er Haustür. I schleich' rein und mach 'se auf. Bis dann, Kump'l.~
+@52  = ~Könnt' hart werd'n, das Regierungsg'bäude. Mach de jetzt net Sorg'n, Kump'l, wie'd rein komm'st. Wenn de drin bist, sin' da zwei Statu'n, die 'ne Menge Gold wert sin'. I kann Schmiere steh'n.~
+@53  = ~Könnt'n hart's Objekt sein, aba se werd'n in'er Nacht schlaf'n. Wills'te immer noch das Objekt probier'n?~
+@54  = ~Ja. Se müss'n ausg'nomm'n werd'n.~
+@55  = ~'s liegt an Dir, Kump'l. Tun wir's. I treff'di da, und wir werd'n den' zeig'n, was auf se zukommt, he, Kump'l?~
+@56  = ~'s klingt so, als hätt'ste was geg'n d' Harfna. Kannst ihnen zeig'n, was auf se z'kommt.~
+@57  = ~Wenn de mi in'er Nacht in'er Nähe von ihrer Hochburg triffst, kann i de zeig'n, wie de reinkommst. Sie ergeb'n 'ne gute Beute. Wills'te se immer noch b'stehl'n?~
+@58  = ~I hab g'sagt, dass i' s war, stimmt 's? Was is, bis'te jetzt taub?~
+@59  = ~Deshalb brauchs'te jetzt nicht wüt'nd zu werd'n. Ich fragte nur, ob de sicher bist. Nun gut, Kump'l, wir könn'n d'Harfna ausnehm'n. I wart' da heut' Nacht bei den Docks auf di.~
+@60  = ~Was? Verirrt? Der Temp'l ist g'nau da. I halt'n Auge off'n. Geh rein, pack, was de kannst, und hau ab.~
+@61  = ~Gut g'macht, Kump'l. Komm jetz' raus, bevor de g'seh'n wirst. Geh me net nach, aba i werd in'ne Slums geh'n.~
+@62  = ~Geh, Kump'l! Wir hab'n net d' ganz' Nacht. Pack, was de kannst un' verschwend net Zeit.~
+@63  = ~Kump'l, da hast 'nen gut'n Fang g'macht. Hier, i wasch's Gold für di. Lös'n wir d' G'meinschaft und triff mi' späta in'ne Slums.~
+@64  = ~Jetzt oda nie, Kump'l. Geh in'en Palast, pack die Statu'n und schau zu, wie de wieda rauskommst. I steh' für di Schmiere. Beeil'di jetzt.~
+@65  = ~Schaut aus, als ob de 'nen gut'n Fang g'macht hast. Hau'n wir jetzt ab. I treff' di wieda in'ne Slums.~
+@66  = ~Kump'l, schaut das für di wie'd Harfna-Hochburg aus? I hab's Schloss scho' auf'broch'n. Hol 'n paar Sach'n, b'vor wir g'se'n werd'n.~
+@67  = ~Gut g'macht, Kump'l. 'ne Wache ging vorbei, aba mi hat keina g'seh'n. Lass uns abhau'n, b'vor se z'rückkommt. Triff' mi wieda in'ne Slums.~
+@68  = ~'türlich mach i's, Kump'l. I hab' drei and're Objekte im Auge. Hab'n Strahl'nd'n Herz'n Ord'n ausg'späht, 's Gut vom Maurer beim G'fängnis - i wett', dass'd weisst, wo's is' - oda, wenn's di int'ressiert, könnt'n wir probier'n, Gräber z'plündern.~
+@69  = ~Wo sags'te, sind all die Objekte?~
+@70  = ~Wir nehm's Ord'ns-G'bäude aus.~
+@71  = ~Gräber ausnehm'n is' am einfachst'n.~
+@72  = ~Diesa Adlige hat Gold zu verbrenn'n. Solang' i keine Steine schlepp'n muss, könn'n wir se ausnehm'n.~
+@73  = ~Was? Bist'e auf'n Kopf g'fall'n? Hör zu, Kump'l. I werd' mi net wiederhol'n. Es gibt'n Temp'l von Lathanda, das Sklav'nhaus, das Regierungsg'bäude, d' Harfna-Hochburg, den vertrau'nsvoll'n Paladin-Ord'n, Grabräuberei, oder 's Haus vom Maurer.~
+@74  = ~Also gut, Kump'l. Geh'n wir zum Ord'n. Die sin' so vertrau'nsvoll und schließ'n nie die Tür.~
+@75  = ~I weiß net, was de find'n kannst, aba i kann für di Wache schieb'n. Bis'te dabei?~
+@76  = ~Ja, i denk', 's is'n gut's Objekt.~
+@77  = ~Wir könn'ns tun. Pass nur auf, dass de dunkle Sach'n anhast. Und bring net 'ne laute Rüstung mit.~
+@78  = ~D' Nacht is' b'reit. Geh in'en Temp'l, pack, was de kannst und komm wieda raus.~
+@79  = ~Die Gut's tund'en Paladine verdien'n, das z' verlier'n. Los, komm da raus. I treff' di wieda in'ne Slums~
+@80  = ~Gräber plündern is'ne heikle Sach', Kump'l. Kannst nie wiss'n, was de find'st. Deine Wahl, s'lang i 'nen Anteil krieg.~
+@81  = ~Ja, lass es uns mach'n.~
+@82  = ~Wenn de sicha bist, treff i di dort. Magst' v'lleicht 'n paar Waff'n habe'n, b'vor de gehst. Kannst nie wiss'n, welche Bestien de find'st.~
+@83  = ~Da sin' noch 'n paar Gräba ausz'räum'n. Beeil di, Kump'l. I will net d' ganz' Nacht hier bleib'n.~
+@84  = ~Hast 'n gut'n Fang g'macht, Kump'l. Los, lass uns tei'n. I bin in'en Slums.~
+@85  = ~Stimmt, Kump'l. Sicha wie Selune, dass d' Adligen dort 'n paar wertvolle Sach'n rumlieg'n hab'n. Wir könn'n einsteig'n, die Beute schnapp'n, rauskomm'n und uns mit'n Sach'n d'vonmach'n.~
+@86  = ~Bis'te sicha, dass de'se b'stehl'n willst?~
+@87  = ~Ja, wir werd'n d' Adlig'n ausnehm'n.~
+@88  = ~Da has'tes, Kump'l. I werd'di dort treff'n. Sei b'reit.~
+@89  = ~B'eil di, Kump'l. Jysstev un' d' Alte werd'n net lang schlaf'n. Jed'nfalls net, bis'de ihn'n den Hals aufg'schlitzt hast.~
+@90  = ~Stimmt. Schaut aus, als ob Jysstev un' seine Alte am Morg'n 'n paar Münz'n vermiss'n werd'n. Komm, Kump'l, Hau'n wir jetzt ab. Triff' mi wieda in'ne Slums.~
+@91  = ~Net schlecht für d' Arbeit von 'ner Nacht, he, Kump'l? Kanns'de Sach'n b'halt'n, aber i nehm mein'n Anteil - vierz'g Prozent vom G'winn.~
+@92  = ~Dies wird 'n paar Wach'n b'stech'n, oda mir ein oda zwei halbe Bier einbring'n, hä, Kump'l? Auf jed'n Fall, wills'te, dass i hier rumhäng' oda z'rück nach Brynnlaw geh', bis wir was and'res ausnehm'n?~
+@93  = ~Wiso wart'ste net hier.~
+@94  = ~Wenn de willst, könna wir jetzt was and'res ausnehm'n.~
+@95  = ~Gehst bessa z'rück nach Brynnlaw. Willst sicha net, dass di wer hier find't.~
+@96  = ~Gute Idee, Kump'l. I werd' hier auf di wart'n.~
+@97  = ~Bis'te b'reit für'n and'ren Job, Kump'l?~
+@98  = ~Wenn de willst, Kump'l.~
+@99  = ~Da is mehr als g'nug Beute zu hol'n, wenn de b'reit bist.~
+@100 = ~Wir werd'n das G'bäude vom Paladin Ord'n ausnehm'n.~
+@101 = ~Gute Idee, Kump'l. I wart auf di in Brynnlaw, wenn de Objekte ausnehm'n willst.~
+@102 = ~He, Kump'l. Tut mir Leid, aba i hab' jetzt keine Objekte. Hast alle Plätze g'fund'n, die i kenn un i denk' net, dass wir n'en ander'n probier'n sollt'n. 's gibt G'rücht', dass d'Wachen ihre Patro'll'n verstärk'n und i selbst will net in irg'nd'n G'fängniss g'worf'n werd'n.~
+@103 = ~I bin sicha, dass de mit allem Zeug, das de g'stohl'n hast, was anfang'n kannst. I selbst hau aus Amn ab. Irg'ndwann treff'n wir uns wieda, Kump'l.~
+@104 = ~'türlich, Kump'l. I wart hier, bis de b'reit bist, nochma' Beute zu mach'n.~
+@105 = ~Schaut aus, als ob de noch net g'nug Gold hast, um mein'n Anteil zu zahl'n. Mach de net Sorg'n, kannst mi auszahl'n, wenn de kannst. Je'nfalls, wills'te, dass i hier rumhäng' oda nach Brynnlaw z'rückgeh', bis wir was and'es ausnehm'n?~
+@106 = ~Bist'e auf'n Kopf g'fall'n? Bist dümma als 'n Hauf'n Scheiß'. I sagt', i denk', du schaust so aus, aba red's'te auch so?~
+@107 = ~Beute machen
+
+Ich habe eine als Wyrbrin bekannte Halbling-Frau getroffen, die eine vollendete Einbrecherin ist - welcher Halbling ist kein Dieb? - und mich mit ihr zusammengetan. Von dem Moment an, als ich sie traf, vertraute ich ihren Instinkten. Tatsächlich denke ich, dass ihre Fähigkeiten als Einbrecherin gut sind, und sie sagte mir, dass sie "Objekte" ausgemacht hat, das heißt, etwas bessere und lukrativere Geschäfte oder Häuser in Athkatla. Von den Örtlichkeiten, die sie ausspioniert hat, haben wir uns dafür entschieden, zu versuchen, in den Tempel von Lathander einzubrechen. Wyrbrin erwartet, dass er heute leer sein wird, und sie sagte mir, dass sie annimmt, das zumindestens drei Gegenstände von Wert zu finden sind. Sie ist nicht ganz sicher, was dies für Gegenstände sind, aber sie erwartet, dass wir eine schöne Stange Geld machen könnten, wenn wir damit hehlen.~
+@108 = ~Beute machen
+
+Ich habe eine als Wyrbrin bekannte Halbling-Frau getroffen, die eine vollendete Einbrecherin ist - welcher Halbling ist kein Dieb? - und mich mit ihr zusammengetan. Von dem Moment an, als ich sie traf, vertraute ich ihren Instinkten. Tatsächlich denke ich, dass ihre Fähigkeiten als Einbrecherin gut sind, und sie sagte mir, dass sie "Objekte" ausgemacht hat, das heißt, etwas bessere und lukrativere Geschäfte oder Häuser in Athkatla. Von den Örtlichkeiten, die sie ausspioniert hat, haben wir uns dafür entschieden, zu versuchen, in das Sklavenhaus einzubrechen. Wyrbrin erwartet, dass es heute nacht leer sein wird, und sie sagte mir, dass sie annimmt, das zumindestens fünf wertvolle Beutestücke zu finden sind. Sie ist nicht ganz sicher, was dies für Gegenstände sind, aber sie erwartet, dass wir eine schöne Stange Geld machen könnten, wenn wir damit hehlen.~
+@109 = ~Beute machen
+
+Ich habe eine als Wyrbrin bekannte Halbling-Frau getroffen, die eine vollendete Einbrecherin ist - welcher Halbling ist kein Dieb? - und mich mit ihr zusammengetan. Von dem Moment an, als ich sie traf, vertraute ich ihren Instinkten. Tatsächlich denke ich, dass ihre Fähigkeiten als Einbrecherin gut sind, und sie sagte mir, dass sie "Objekte" ausgemacht hat, das heißt, etwas bessere und lukrativere Geschäfte oder Häuser in Athkatla. Von den Örtlichkeiten, die sie ausspioniert hat, haben wir uns dafür entschieden, zu versuchen, in das Regierungsgebäude einzubrechen. Wyrbrin denkt, dass heute nacht niemand da sein wird, aber sie sagte, ich solle darauf zu achten, niemanden zu alarmieren und sie nimmt an, dass zumindestens zwei seltene Kunstgegenstände zu finden sind.~
+@110 = ~Beute machen
+
+Ich habe eine als Wyrbrin bekannte Halbling-Frau getroffen, die eine vollendete Einbrecherin ist - welcher Halbling ist kein Dieb? - und mich mit ihr zusammengetan. Von dem Moment an, als ich sie traf, vertraute ich ihren Instinkten. Tatsächlich denke ich, dass ihre Fähigkeiten als Einbrecherin gut sind, und sie sagte mir, dass sie "Objekte" ausgemacht hat, das heißt, etwas bessere und lukrativere Geschäfte oder Häuser in Athkatla. Von den Örtlichkeiten, die sie ausspioniert hat, haben wir uns dafür entschieden, zu versuchen, in die Hochburg der Harfner in der Nähe der Docks einzubrechen. Horton sagte mir, dass ich sie heute treffen solle und denkt, das ich vier Objekte finde, mit denen wir hehlen können. Sie ist nicht ganz sicher, was dies für Gegenstände sind, aber erwartet, dass wir eine schöne Stange Geld machen könnten, wenn wir damit hehlen.~
+@111 = ~Beute machen
+
+Während die Halbling-Diebin Schmiere stand, brach ich in den Tempel von Lathander ein, ohne irgendjemanden zu alarmieren. Es gelang mir, ein Heiliges Symbol von Lathander zu stehlen, eine große Statue von Lathander und ein Paar heiliger Armbänder. Wyrbrin nahm einen Anteil im Wert von 10.000 Gold und ich behielt die Gegenstände für mich selbst. Vielleicht können wir ein anderes ihrer Objekte durchsuchen, wenn wir uns wieder treffen. Sie sagte, sie würde mich in den Slums von Athkatla treffen.~
+@112 = ~Beute machen
+
+Während die Halbling-Diebin Schmiere stand, brach ich in das Haus des Sklavenhändlers ein, ohne irgendjemandem zu alarmieren. Es gelang mir, fünf Gegenstände zu stehlen, ein ganz schöner Fund, darunter ein Silberdolch, einen Helm des Stehlens und viel Gold. Wyrbrin bekam natürlich einen Anteil, 21.600 Goldstücke, und ich behielt die Beutestücke für mich selbst.~
+@113 = ~Beute machen
+
+Ich habe erfolgreich das Regierungsgebäude von Athkatla ausgeraubt, und mit Hilfe der Halbling-Diebin Horton stahl ich eine Statue der Mystra und eine Drachenstatue. Die Kunstgegenstände sind wertvoll, und Wyrbrin nahm ihren Anteil von 320.000 Goldstücken.~
+@114 = ~Beute machen
+
+Ich brach in die Hochburg der Harfner ein und kam mit vier gestohlenen Gegenständen heraus: einer Harfe, einem Stundenglas, einer Mondklinge und einem Morgenstern. Horton bekam ihren Anteil, 136.000 Goldstücke, und ich habe mich nicht entschieden, was ich mit den Gegenständen tun soll.~
+@115 = ~Beute machen
+
+Ich habe eine als Wyrbrin bekannte Halbling-Frau getroffen, die eine vollendete Einbrecherin ist - welcher Halbling ist kein Dieb? - und mich mit ihr zusammengetan. Von dem Moment an, als ich sie traf, vertraute ich ihren Instinkten. Tatsächlich denke ich, dass ihre Fähigkeiten als Einbrecherin gut sind, und sie sagte mir, dass sie "Objekte" ausgemacht hat, das heißt, etwas bessere und lukrativere Geschäfte oder Häuser in Athkatla. Von den Örtlichkeiten, die sie ausspioniert hat, haben wir uns dafür entschieden, zu versuchen, in den Tempels des Ordens des Leuchtenden Herzens einzubrechen. Wyrbrin denkt, dass keiner dort sein wird und sagte, dass ich mich wahrscheinlich mit etwas von Wert davonmachen könnte. Sie hat keine Ahnung, was ich finden könnte, aber denkt, dass alles, was ich stehle, für Gold gehehlt werden könnte.~
+@116 = ~Beute machen
+
+Ich brach in das Gebäudes des Ordens des Leuchtenden Herzens ein und war nur im Stande, ein Weinglas zu stehlen, ohne gefasst zu werden. Ich teilte etwas von seinem Wert mit dem Halbling Wyrbrin, 4.800 Goldstücke.~
+@117 = ~Beute machen
+
+Ich habe eine als Wyrbrin bekannte Halbling-Frau getroffen, die eine vollendete Einbrecherin ist - welcher Halbling ist kein Dieb? - und mich mit ihr zusammengetan. Von dem Moment an, als ich sie traf, vertraute ich ihren Instinkten. Tatsächlich denke ich, dass ihre Fähigkeiten als Einbrecherin gut sind, und sie sagte mir, dass sie "Objekte" ausgemacht hat, das heißt, etwas bessere und lukrativere Geschäfte oder Häuser in Athkatla. Von den Örtlichkeiten, die sie ausspioniert hat, haben wir uns dafür entschieden, zu versuchen, in einige der Grüfte im Kirchhof einzubrechen. Sie weiß nicht, was ich finden könnte, und erwartet, dass es vielleicht Schwierigkeiten in manchen oder allen Grüften gibt, und ermahnte mich daher, gut bewaffnet hineinzugehen.~
+@118 = ~Beute machen
+
+Ich plünderte mehrere Grüfte während meiner Grabräuberei und war nur im Stande, einige Waffen und Rüstungen zu stehlen. Es war nicht so lukrativ, wie wir hofften, aber ich gab Wyrbrin 3.200 Goldstücke als ihren Anteil.~
+@119 = ~Beute machen
+
+Ich habe eine als Wyrbrin bekannte Halbling-Frau getroffen, die eine vollendete Einbrecherin ist - welcher Halbling ist kein Dieb? - und mich mit ihr zusammengetan. Von dem Moment an, als ich sie traf, vertraute ich ihren Instinkten. Tatsächlich denke ich, dass ihre Fähigkeiten als Einbrecherin gut sind, und sie sagte mir, dass sie "Objekte" ausgemacht hat, das heißt, etwas bessere und lukrativere Geschäfte oder Häuser in Athkatla. Von den Örtlichkeiten, die sie ausspioniert hat, haben wir uns dafür entschieden, zu versuchen, in ein Haus eines Adligen in Athkatla einzubrechen, einem Maurer von Beruf mit dem Namen Jysstev. Wyrbrin sagte mir, dass der Adlige und seine Frau schlafen würden, so dass ich darauf achten sollte, sie nicht aufzuwecken, und denkt, dass ich einige Gegenstände stehlen kann, die wir hehlen können.~
+@120 = ~Beute machen
+
+Jysstev und seine Frau, zwei Adlige aus Amn, werden einige Dinge vermissen, wenn sie aufwachen. Während Wyrbrin Horton Schmiere stand, stahl ich eine Robe der Verhüllten Magier und eine Statuette aus ihrer Villa. Wyrbrin bekam einen Anteil, 30000 Goldstücke.~
+@121 = ~Beute machen
+
+Ich habe eine als Wyrbrin bekannte Halbling-Frau getroffen, die eine vollendete Einbrecherin ist - welcher Halbling ist kein Dieb? - und mich mit ihr zusammengetan. Von dem Moment an, als ich sie traf, vertraute ich ihren Instinkten. Tatsächlich denke ich, dass ihre Fähigkeiten als Einbrecherin gut sind, und sie sagte mir, dass sie "Objekte" ausgemacht hat, das heißt, etwas bessere und lukrativere Geschäfte oder Häuser in Athkatla. Von den Örtlichkeiten, die sie ausspioniert hat, haben wir uns dafür entschieden, zu versuchen, in den Tempel von Lathander einzubrechen. Wyrbrin erwartet, dass er heute leer sein wird, und sie sagte mir, dass sie annimmt, dass zumindestens drei Gegenstände von Wert zu finden sind. Sie ist nicht ganz sicher, was dies für Gegenstände sind, aber erwartet, dass wir eine schöne Stange Geld machen könnten, wenn wir damit hehlen.~
+@122 = ~Beute machen
+
+Ich habe eine als Wyrbrin bekannte Halbling-Frau getroffen, die eine vollendete Einbrecherin ist - welcher Halbling ist kein Dieb? - und mich mit ihr zusammengetan. Von dem Moment an, als ich sie traf, vertraute ich ihren Instinkten. Tatsächlich denke ich, dass ihre Fähigkeiten als Einbrecherin gut sind, und sie sagte mir, dass sie "Objekte" ausgemacht hat, das heißt, etwas bessere und lukrativere Geschäfte oder Häuser in Athkatla. Von den Örtlichkeiten, die sie ausspioniert hat, haben wir uns dafür entschieden, zu versuchen, in das Sklavenhaus einzubrechen. Wyrbrin erwartet, dass es heute nacht leer sein wird, und sie sagte mir, dass sie annimmt, dass zumindestens fünf wertvolle Beutestücke zu finden sind. Sie ist nicht ganz sicher, was dies für Gegenstände sind, aber sie erwartet, dass wir eine schöne Stange Geld machen könnten, wenn wir damit hehlen.~
+@123 = ~Beute machen
+
+Ich habe eine als Wyrbrin bekannte Halbling-Frau getroffen, die eine vollendete Einbrecherin ist - welcher Halbling ist kein Dieb? - und mich mit ihr zusammengetan. Von dem Moment an, als ich sie traf, vertraute ich ihren Instinkten. Tatsächlich denke ich, dass ihre Fähigkeiten als Einbrecherin gut sind, und sie sagte mir, dass sie "Objekte" ausgemacht hat, das heißt, etwas bessere und lukrativere Geschäfte oder Häuser in Athkatla. Von den Örtlichkeiten, die sie ausspioniert hat, haben wir uns dafür entschieden, zu versuchen, in das Regierungsgebäude einzubrechen. Wyrbrin denkt, dass heute nacht niemand da sein wird, aber sie sagte, ich solle darauf zu achten, niemanden zu alarmieren und sie nimmt an, dass zumindestens zwei seltene Kunstgegenstände zu finden sind.~
+@124 = ~Beute machen
+
+Ich habe eine als Wyrbrin bekannte Halbling-Frau getroffen, die eine vollendete Einbrecherin ist - welcher Halbling ist kein Dieb? - und mich mit ihr zusammengetan. Von dem Moment an, als ich sie traf, vertraute ich ihren Instinkten. Tatsächlich denke ich, dass ihre Fähigkeiten als Einbrecherin gut sind, und sie sagte mir, dass sie "Objekte" ausgemacht hat, das heißt, etwas bessere und lukrativere Geschäfte oder Häuser in Athkatla. Von den Örtlichkeiten, die sie ausspioniert hat, haben wir uns dafür entschieden, zu versuchen, in die Hochburg der Harfner in der Nähe der Docks einzubrechen. Horton sagte mir, dass ich sie heute treffen solle und denkt, dass ich vier Objekte finde, mit denen wir hehlen können. Sie ist nicht ganz sicher, was dies für Gegenstände sind, aber erwartet, dass wir eine schöne Stange Geld machen könnten, wenn wir damit hehlen.~
+@125 = ~Beute machen
+
+Ich habe eine als Wyrbrin bekannte Halbling-Frau getroffen, die eine vollendete Einbrecherin ist - welcher Halbling ist kein Dieb? - und mich mit ihr zusammengetan. Von dem Moment an, als ich sie traf, vertraute ich ihren Instinkten. Tatsächlich denke ich, dass ihre Fähigkeiten als Einbrecherin gut sind, und sie sagte mir, dass sie "Objekte" ausgemacht hat, das heißt, etwas bessere und lukrativere Geschäfte oder Häuser in Athkatla. Von den Örtlichkeiten, die sie ausspioniert hat, haben wir uns dafür entschieden, zu versuchen, in den Tempel des Ordens des Leuchtenden Herzens einzubrechen. Wyrbrin denkt, dass keiner dort sein wird und sagte, dass ich mich wahrscheinlich mit etwas von Wert davonmachen könnte. Sie hat keine Ahnung, was ich finden könnte, aber denkt, dass wir mit allem, was ich stehle, für Gold hehlen könnten.~
+@127 = ~Beute machen
+
+Ich habe eine als Wyrbrin bekannte Halbling-Frau getroffen, die eine vollendete Einbrecherin ist - welcher Halbling ist kein Dieb? - und mich mit ihr zusammengetan. Von dem Moment an, als ich sie traf, vertraute ich ihren Instinkten. Tatsächlich denke ich, dass ihre Fähigkeiten als Einbrecherin gut sind, und sie sagte mir, dass sie "Objekte" ausgemacht hat, das heißt, etwas bessere und lukrativere Geschäfte oder Häuser in Athkatla. Von den Örtlichkeiten, die sie ausspioniert hat, haben wir uns dafür entschieden, zu versuchen, in einige der Grüfte im Kirchhof einzubrechen. Sie weiß nicht, was ich finden könnte, und erwartet, dass es vielleicht Schwierigkeiten in manchen oder allen Grüften gibt, und ermahnte mich daher, gut bewaffnet hineinzugehen.~
+@128 = ~Beute machen
+
+Ich habe eine als Wyrbrin bekannte Halbling-Frau getroffen, die eine vollendete Einbrecherin ist - welcher Halbling ist kein Dieb? - und mich mit ihr zusammengetan. Von dem Moment an, als ich sie traf, vertraute ich ihren Instinkten. Tatsächlich denke ich, dass ihre Fähigkeiten als Einbrecherin gut sind, und sie sagte mir, dass sie "Objekte" ausgemacht hat, das heißt, etwas bessere und lukrativere Geschäfte oder Häuser in Athkatla. Von den Örtlichkeiten, die sie ausspioniert hat, haben wir uns dafür entschieden, zu versuchen, in ein Haus eines Adligen in Athkatla, einem Maurer von Beruf mit dem Namen Jysstev, einzubrechen. Wyrbrin sagte mir, dass der Adlige und seine Frau schlafen würden, so dass ich darauf achten sollte, sie nicht aufzuwecken, und denkt, dass ich einige Gegenstände stehlen kann, mit denen wir hehlen können.~
+@129 = ~Beute machen
+
+Während die Halbling-Diebin Schmiere stand, brach ich in den Tempel von Lathander ein, ohne irgendjemandem zu alarmieren. Es gelang mir, ein Heiliges Symbol von Lathander zu stehlen, eine große Statue von Lathander, und ein Paar heiliger Armbänder. Wyrbrin wird ihren Anteil im Wert von 10.000 Gold bekommen, sobald ich genug Münzen zu entbehren habe, und ich behielt die Gegenstände für mich selbst. Vielleicht können wir ein anderes ihrer Objekte durchsuchen, wenn wir uns wieder treffen.~
+@130 = ~Beute machen
+
+Während die Halbling-Diebin Schmiere stand, brach ich in das Haus des Sklavenhändlers ein, ohne irgendjemandem zu alarmieren. Es gelang mir, fünf Gegenstände zu stehlen, ein ganz schöner Fund, darunter ein Silberdolch, ein Helm des Stehlens und viel Gold. Sobald ich genug Münzen habe, bekommt Wyrbrin natürlich einen Anteil, 21.600 Goldstücke, und ich behalte die Beutestücke für mich selbst.~
+@131 = ~Beute machen
+
+Ich habe erfolgreich das Regierungsgebäude von Athkatla ausgeraubt, und mit der Hilfe der Halbling-Diebin Horton stahl ich eine Statue von Mystra und eine Drachenstatue. Die Kunstgegenstände sind wertvoll und Wyrbrin wird bald ihren Anteil von 320.000 Goldstücken bekommen.~
+@132 = ~Beute machen
+
+Ich brach in das Gebäudes des Ordens des Leuchtenden Herzens ein und war nur im Stande, ein Weinglas zu stehlen, ohne gefasst zu werden. Ich werde etwas von seinem Wert mit dem Halbleng Wyrbrin teilen müssen, wenn ich damit hehle, 4.800 Goldstücke.~
+@133 = ~Beute machen
+
+Ich brach in die Hochburg der Harfner ein und kam mit vier gestohlenen Gegenständen heraus: einer Harfe, einem Stundenglas, einer Mondklinge und einem Morgenstern. Horton wird ihren Anteil bekommen, wenn ich die Gegenstände auf dem Schwarzmarkt verkaufe, 136.000 Goldstücke.~
+@134 = ~Beute machen
+
+Ich plünderte mehrere Grüfte während meiner Grabräuberei und war nur im Stande, einige Waffen und Rüstungen zu stehlen. Es war nicht so lukrativ, wie wir hofften, aber ich werde Wyrbrin 3.200 Goldstücke als ihren Anteil geben müssen.~
+@135 = ~Beute machen
+
+Jysstev und seine Frau, zwei Adlige aus Amn, werden einige Dinge vermissen, wenn sie aufwachen. Während Wyrbrin Horton Schmiere stand, stahl ich eine Robe der Verhüllten Magier und eine Statuette aus ihrer Villa. Wyrbrin bekommt ihren  Anteil später, 30.000 Goldstücke.~
+@136 = ~Beute machen
+
+Ich fand eines von Wyrbrings Objekten, die sie erkundete, und wir ergriffen einige Beute. Wyrbrin machte sich davon, direkt, nachdem wir damit fertig waren, sie auszunehmen. Sie wird auf mich in den Slums warten, also sollte ich außer Sicht der Wachen bleiben und sie dort treffen.~

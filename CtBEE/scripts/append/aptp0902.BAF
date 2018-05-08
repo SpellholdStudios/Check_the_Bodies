@@ -1,0 +1,14 @@
+IF
+	Global("CbXTThiefStealsFromTemple","GLOBAL",0)
+	OnCreation()
+THEN
+	RESPONSE #100
+		ContainerEnable("CbCont01",FALSE)
+		ContainerEnable("CbCont02",FALSE)
+		AmbientActivate("AM0902L2",TRUE)
+		AmbientActivate("AM0902L4",TRUE)
+		AmbientActivate("AM0902L1",TRUE)
+		AmbientActivate("AM0902L3",TRUE)
+		Continue()
+END
+

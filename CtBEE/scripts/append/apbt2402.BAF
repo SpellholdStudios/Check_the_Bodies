@@ -1,0 +1,10 @@
+IF
+	Global("CbCreatedDriders","AR2402",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCreatedDriders","AR2402",1)
+		CreateCreature("CBDRIFSL",[1245.1114],0)
+		CreateCreature("CBDRIMML",[1469.1014],10)
+		CreateCreature("CBDRIFAL",[1018.1570],3)
+		Continue()
+END

@@ -1,0 +1,13 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		PlaySound("EFF_M18a")
+		ScreenShake([20.20],3)
+		CreateCreature("CBRYBREL",[-1.-1],0)
+		Wait(1)
+		EndCutSceneMode()
+END
+
+

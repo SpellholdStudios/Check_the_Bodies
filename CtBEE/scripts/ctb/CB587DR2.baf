@@ -1,0 +1,44 @@
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	OR(2)
+		Allegiance(Myself,NEUTRAL)
+		Allegiance(Myself,ENEMY)
+	HasItem("PLAT01",Myself)
+	Global("CbDruidArmor","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbDruidArmor","LOCALS",1)
+		EquipItem("PLAT01")
+END
+
+IF
+	Heard([ANYONE],199)
+	HasItem("PLAT01",Myself)
+	Global("CbDruidArmor","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbDruidArmor","LOCALS",1)
+		EquipItem("PLAT01")
+END
+
+IF
+	!Class(Myself,INNOCENT)
+	HasItem("PLAT01",Myself)
+	Global("CbDruidArmor","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbDruidArmor","LOCALS",1)
+		EquipItem("PLAT01")
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HasItem("PLAT01",Myself)
+	Global("CbDruidArmor","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbDruidArmor","LOCALS",1)
+		EquipItem("PLAT01") 
+END
+
+

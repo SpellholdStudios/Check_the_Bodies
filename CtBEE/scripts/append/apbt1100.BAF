@@ -1,0 +1,11 @@
+IF
+	!Exists("CBPISSMN")
+	Global("#HCBPISSMANFX","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("#HCBPISSMANFX","GLOBAL",1)
+		CreateCreature("CBPISSMN",[535.2045],3) // Barlot
+		Continue()
+END
+
+

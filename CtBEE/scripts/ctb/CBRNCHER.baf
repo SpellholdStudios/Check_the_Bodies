@@ -1,0 +1,32 @@
+IF
+	GlobalGT("CbVampireSubQuestStart","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		ChangeAIScript("",CLASS)
+		ChangeAIScript("",GENERAL)
+		EscapeAreaNoSee()
+END
+
+IF
+	Delay(20)
+	Range("FarmCenterObject",100)
+	!Global("CbAnimalGotAway","LOCALS",0)
+	AreaCheck("AR3597")
+THEN
+	RESPONSE #100
+		SetGlobal("CbAnimalGotAway","LOCALS",0)
+		ClearActions(Myself)
+END
+
+IF
+	!Range("FarmCenterObject",500)
+	Global("CbAnimalGotAway","LOCALS",0)
+	AreaCheck("AR3597")
+THEN
+	RESPONSE #100
+		SetGlobal("CbAnimalGotAway","LOCALS",1)
+		MoveToObject("FarmCenterObject")
+END
+
+

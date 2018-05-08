@@ -1,0 +1,41 @@
+IF
+	GlobalLT("CbNorthmenTeachingDemon","GLOBAL",4)
+	Global("CbLuskanitesAttack","AR3594",1)
+	OR(2)
+		Dead("CBNRTLU1")
+		!Exists("CBNRTLU1")
+THEN
+	RESPONSE #100
+		SetGlobal("CbNorthmenTeachingDemon","GLOBAL",4)
+END
+
+IF
+	Global("CbNorthmenTeachingDemon","GLOBAL",3)
+	Global("CbLuskanitesAttack","AR3594",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbLuskanitesAttack","AR3594",1)
+		CreateCreature("CBNRTLU1",[1922.780],0)
+		CreateCreature("CBNRTLUS",[1868.720],0)
+		CreateCreature("CBNRTLUS",[1975.720],0)
+		CreateCreature("CBNRTLUS",[2043.672],0)
+		CreateCreature("CBNRTLUS",[2005.626],0)
+		CreateCreature("CBNRTLUS",[1924.590],0)
+		CreateCreature("CBNRTLUS",[1857.589],0)
+		CreateCreature("CBNRTLUS",[1785.625],0)
+		CreateCreature("CBNRTLUS",[1778.696],0)
+		CreateCreature("CBNRTLUS",[1784.752],0)
+		CreateCreature("CBNRTLUS",[2077.776],0)
+		CreateCreature("CBNRTLUS",[2047.827],0)
+END
+
+IF
+	NumCreatureLT("SEAGUL",6)
+	AreaCheck("AR3594")
+	Delay(10)
+THEN
+	RESPONSE #100
+		CreateCreatureOffScreen("SEAGUL",0) // No such index - Seagull
+END
+
+

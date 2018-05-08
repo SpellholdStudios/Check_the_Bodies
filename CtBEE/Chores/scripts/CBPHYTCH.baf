@@ -1,0 +1,23 @@
+IF
+	Global("CbGorionTeachesLesson","GLOBAL",3)
+	Global("CbGorionsLessonThree","AR3504",1)
+	Global("CbPhlydiaTeaches","AR3504",2)
+	Global("CbPhlydiaTimer","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPhlydiaTimer","LOCALS",1)
+		SetGlobalTimer("CbPhlydiaTired","GLOBAL",900)
+END
+
+IF
+	Global("CbPhlydiaTimer","LOCALS",1)
+	GlobalTimerExpired("CbPhlydiaTired","GLOBAL")
+	!Global("CbPhlydiaTeaches","AR3504",3)
+THEN
+	RESPONSE #100
+		TriggerActivation("Door3503",TRUE)
+		TriggerActivation("Door3505",TRUE)
+		EscapeAreaDestroy(90)
+END
+
+

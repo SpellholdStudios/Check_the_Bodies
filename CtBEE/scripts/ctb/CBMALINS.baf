@@ -1,0 +1,133 @@
+IF
+	RandomNum(3,1)
+	!GlobalTimerNotExpired("CbKhaddyrInstructs","LOCALS")
+	GlobalGT("CbMalteseArtifact","GLOBAL",4)
+	!Global("CbPartyJoinsMalteseMage","GLOBAL",2)
+	Allegiance(Myself,NEUTRAL)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		DisplayStringHead("CBMALR1",@550175)
+		Wait(6)
+		DisplayStringHead("CBMALR1",@550176)
+		Wait(8)
+		DisplayStringHead("CBMALR1",@550177)
+		Wait(10)
+		DisplayStringHead("CBMALR1",@550178)
+		Wait(3)
+		ForceSpellRES("CBMALIN1","CBMALR1")
+		Wait(1)
+		ActionOverride("CBMALR7",ForceSpellRES("CBMALIN1","CBMALR7"))
+		ActionOverride("CBMALR8",ForceSpellRES("CBMALIN2","CBMALR8"))
+		Wait(5)
+		DisplayStringHead("CBMALR1",@550179)
+		Wait(5)
+		DisplayStringHead("CBMALR1",@550180)
+		SetGlobalTimer("CbKhaddyrInstructs","LOCALS",45)
+		SetInterrupt(TRUE)
+END
+
+IF
+	RandomNum(3,2)
+	!GlobalTimerNotExpired("CbKhaddyrInstructs","LOCALS")
+	GlobalGT("CbMalteseArtifact","GLOBAL",4)
+	!Global("CbPartyJoinsMalteseMage","GLOBAL",2)
+	Allegiance(Myself,NEUTRAL)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		DisplayStringHead("CBMALR1",@550181)
+		Wait(7)
+		DisplayStringHead("CBMALR1",@550182)
+		Wait(9)
+		ActionOverride("CBMALR8",DisplayStringHead("CBMALR8",@550183))
+		Wait(4)
+		ForceSpellRES("CBMALIN3","CBMALR1")
+		ActionOverride("CBMALR8",ForceSpellRES("CBMALIN3","CBMALR8"))
+		ActionOverride("CBMALR7",ForceSpellRES("CBMALIN3","CBMALR7"))
+		Wait(5)
+		DisplayStringHead("CBMALR1",@550184)
+		Wait(6)
+		DisplayStringHead("CBMALR1",@550185)
+		SetGlobalTimer("CbKhaddyrInstructs","LOCALS",45)
+		SetInterrupt(TRUE)
+END
+
+IF
+	RandomNum(3,3)
+	!GlobalTimerNotExpired("CbKhaddyrInstructs","LOCALS")
+	GlobalGT("CbMalteseArtifact","GLOBAL",4)
+	!Global("CbPartyJoinsMalteseMage","GLOBAL",2)
+	Allegiance(Myself,NEUTRAL)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		DisplayStringHead("CBMALR1",@550186)
+		Wait(7)
+		DisplayStringHead("CBMALR1",@550187)
+		Wait(10)
+		ApplySpellRES("CBMALIN4","CBMALR1")
+		ActionOverride("CBMALR8",ApplySpellRES("CBMALIN4","CBMALR8"))
+		ActionOverride("CBMALR7",ApplySpellRES("CBMALIN4","CBMALR7"))
+		Wait(3)
+		ForceSpellRES("CBMALIN6","CBMALR8")
+		ActionOverride("CBMALR8",ForceSpellRES("CBMALIN6","CBMALR7"))
+		ActionOverride("CBMALR7",ForceSpellRES("CBMALIN6","CBMALR1"))
+		Wait(6)
+		ForceSpellRES("CBMALIN6","CBMALR8")
+		ActionOverride("CBMALR8",ForceSpellRES("CBMALIN6","CBMALR7"))
+		ActionOverride("CBMALR7",ForceSpellRES("CBMALIN6","CBMALR1"))
+		Wait(5)
+		ReallyForceSpellRES("CBMALIN8","CBMALR1")
+		ReallyForceSpellRES("CBMALIN9","CBMALR1")
+		ReallyForceSpellRES("CBMALIN0","CBMALR1")
+		ReallyForceSpellRES("CBMALINA","CBMALR1")
+		ReallyForceSpellRES("CBMALINB","CBMALR1")
+		ReallyForceSpellRES("CBMALINC","CBMALR1")
+		ReallyForceSpellRES("CBMALIND","CBMALR1")
+		Wait(2)
+		DisplayStringHead("CBMALR1",@550188)
+		Wait(6)
+		SetGlobalTimer("CbKhaddyrInstructs","LOCALS",45)
+		SetInterrupt(TRUE)
+END
+
+IF
+	Global("CbMalteseArtifact","GLOBAL",7)
+	Global("CbPartyJoinsMalteseMage","GLOBAL",2)
+	Global("CbFakeMalteseRitual","GLOBAL",0)
+	HasItem("CBMALR6a",Myself)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		StartCutSceneMode()
+		StartCutScene("CBMALRTR")
+END
+
+IF
+	Global("CbMalteseArtifact","GLOBAL",7)
+	Global("CbPartyJoinsMalteseMage","GLOBAL",2)
+	Global("CbFakeMalteseRitual","GLOBAL",0)
+	!HasItem("CBMALR6a",Myself)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		StartCutSceneMode()
+		StartCutScene("CBMALRTF")
+END
+
+IF
+	Global("CbMalteseArtifact","GLOBAL",7)
+	Global("CbPartyJoinsMalteseMage","GLOBAL",2)
+	Global("CbFakeMalteseRitual","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		StartCutSceneMode()
+		StartCutScene("CBMALRTF")
+END
+
+

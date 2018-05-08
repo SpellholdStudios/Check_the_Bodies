@@ -1,0 +1,17 @@
+IF
+	Die()
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		ReallyForceSpellDead(Myself,JELLY_SPLIT)
+END
+
+IF
+	HitBy([ANYONE],FIRE)
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		SetNumTimesTalkedTo(1)
+END
+
+

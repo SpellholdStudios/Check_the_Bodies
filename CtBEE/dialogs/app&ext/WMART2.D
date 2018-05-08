@@ -1,0 +1,115 @@
+EXTEND_BOTTOM WMART2 1
+  IF ~Global("CbDierdreHasStaff","GLOBAL",1)~ THEN REPLY @4 GOTO CB_2
+  IF ~Global("CbDierdreHasShaman","GLOBAL",1)~ THEN REPLY @5 GOTO CB_10
+END
+
+APPEND WMART2
+IF ~~ THEN BEGIN CB_2
+  SAY @7
+  IF ~~ THEN REPLY @8 GOTO CB_3
+END
+END
+
+APPEND WMART2
+IF ~~ THEN BEGIN CB_3
+  SAY @9
+  IF ~~ THEN GOTO CB_4
+END
+END
+
+APPEND WMART2
+IF ~~ THEN BEGIN CB_4
+  SAY @10
+  IF ~PartyGoldGT(7999)~ THEN REPLY @11 GOTO CB_5
+  IF ~PartyGoldGT(4999)~ THEN REPLY @12 GOTO CB_6
+  IF ~PartyGoldGT(999)~ THEN REPLY @13 GOTO CB_7
+  IF ~~ THEN REPLY @14 GOTO CB_8
+END
+END
+
+APPEND WMART2
+IF ~~ THEN BEGIN CB_5
+  SAY @15
+  IF ~~ THEN DO ~TakePartyGold(8000)
+DestroyGold(8000)
+GiveItemCreate("CBCWSTFF",LastTalkedToBy(Myself),1,0,0)
+SetGlobal("CbDierdreHasStaff","GLOBAL",2)~ GOTO CB_9
+END
+END
+
+APPEND WMART2
+IF ~~ THEN BEGIN CB_6
+  SAY @16
+  IF ~~ THEN DO ~TakePartyGold(5000)
+DestroyGold(5000)
+GiveItemCreate("CBCWSTFF",LastTalkedToBy(Myself),1,0,0)
+SetGlobal("CbDierdreHasStaff","GLOBAL",2)~ GOTO CB_9
+END
+END
+
+APPEND WMART2
+IF ~~ THEN BEGIN CB_7
+  SAY @17
+  IF ~~ THEN REPLY @3 DO ~StartStore("wmart2",LastTalkedToBy)~ EXIT
+  IF ~Global("CbDierdreHasStaff","GLOBAL",1)~ THEN REPLY @4 GOTO CB_2
+  IF ~Global("CbDierdreHasShaman","GLOBAL",1)~ THEN REPLY @5 GOTO CB_10
+  IF ~~ THEN REPLY @6 EXIT
+END
+END
+
+APPEND WMART2
+IF ~~ THEN BEGIN CB_8
+  SAY @18
+  IF ~~ THEN REPLY @3 DO ~StartStore("wmart2",LastTalkedToBy)~ EXIT
+  IF ~Global("CbDierdreHasStaff","GLOBAL",1)~ THEN REPLY @4 GOTO CB_2
+  IF ~Global("CbDierdreHasShaman","GLOBAL",1)~ THEN REPLY @5 GOTO CB_10
+  IF ~~ THEN REPLY @6 EXIT
+END
+END
+
+APPEND WMART2
+IF ~~ THEN BEGIN CB_9
+  SAY @19
+  IF ~~ THEN REPLY @3 DO ~StartStore("wmart2",LastTalkedToBy)~ EXIT
+  IF ~Global("CbDierdreHasStaff","GLOBAL",1)~ THEN REPLY @4 GOTO CB_2
+  IF ~Global("CbDierdreHasShaman","GLOBAL",1)~ THEN REPLY @5 GOTO CB_10
+  IF ~~ THEN REPLY @6 EXIT
+END
+END
+
+APPEND WMART2
+IF ~~ THEN BEGIN CB_10
+  SAY @20
+  IF ~~ THEN GOTO CB_11
+END
+END
+
+APPEND WMART2
+IF ~~ THEN BEGIN CB_11
+  SAY @21
+  IF ~PartyGoldGT(9999)~ THEN REPLY @22 GOTO CB_12
+  IF ~PartyGoldGT(7999)~ THEN REPLY @23 GOTO CB_13
+  IF ~PartyGoldGT(999)~ THEN REPLY @13 GOTO CB_7
+  IF ~~ THEN REPLY @14 GOTO CB_8
+END
+END
+
+APPEND WMART2
+IF ~~ THEN BEGIN CB_12
+  SAY @24
+  IF ~~ THEN DO ~TakePartyGold(10000)
+DestroyGold(10000)
+GiveItemCreate("CBNRTSTF",LastTalkedToBy(Myself),1,0,0)
+SetGlobal("CbDierdreHasShaman","GLOBAL",2)~ GOTO CB_9
+END
+END
+
+APPEND WMART2
+IF ~~ THEN BEGIN CB_13
+  SAY @25
+  IF ~~ THEN DO ~TakePartyGold(8000)
+DestroyGold(8000)
+GiveItemCreate("CBNRTSTF",LastTalkedToBy(Myself),1,0,0)
+SetGlobal("CbDierdreHasShaman","GLOBAL",2)~ GOTO CB_9
+END
+END

@@ -1,0 +1,38 @@
+IF
+	Global("CbInformedAboutRoots","GLOBAL",1)
+	!Contains("CB901CMS","ClubMossCont")
+	Global("CbClubMossInfoClicked","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbClubMossInfoClicked","GLOBAL",2)
+END
+
+IF
+	Global("CbInformedAboutRoots","GLOBAL",1)
+	Contains("CB901CMS","ClubMossCont")
+	Global("CbClubMossInfoClicked","GLOBAL",2)
+THEN
+	RESPONSE #100
+		ContainerEnable("ClubMossCont",FALSE)
+		TriggerActivation("ClubMossInfo",FALSE)
+		Continue()
+END
+
+IF
+	Global("CbClubMossInfoClicked","GLOBAL",0)
+THEN
+	RESPONSE #100
+		TriggerActivation("ClubMossInfo",TRUE)
+		ContainerEnable("ClubMossCont",FALSE)
+		Continue()
+END
+
+IF
+	Global("CbClubMossInfoClicked","GLOBAL",1)
+THEN
+	RESPONSE #100
+		TriggerActivation("ClubMossInfo",FALSE)
+		ContainerEnable("ClubMossCont",TRUE)
+		Continue()
+END
+

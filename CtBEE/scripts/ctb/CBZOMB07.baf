@@ -1,0 +1,78 @@
+IF
+	Global("CbUtterDestruction","AR3675",1)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		RunAwayFrom(NearestEnemyOf(Myself),30)
+END
+
+IF
+	Global("CbCloseToHome","GLOBAL",5)
+THEN
+	RESPONSE #20
+		EscapeAreaDestroy(20)
+	RESPONSE #20
+		EscapeAreaDestroy(30)
+	RESPONSE #20
+		EscapeAreaDestroy(40)
+	RESPONSE #20
+		EscapeAreaDestroy(50)
+	RESPONSE #20
+		EscapeAreaDestroy(60)
+END
+
+IF
+	Global("CbEveryoneDies","AR3675",1)
+	Global("CbDefenderGotEquipment","LOCALS",1)
+THEN
+	RESPONSE #20
+		Face(6)
+		CreateCreature("CBZOMBD2",[-1.-1],4)
+		ChangeAnimationNoEffect("DEADB01") // Adventurer
+	RESPONSE #20
+		Face(10)
+		CreateCreature("CBZOMBD1",[-1.-1],0)
+		ChangeAnimationNoEffect("DEADB06")
+	RESPONSE #20
+		Face(7)
+		CreateCreature("CBZOMBD2",[-1.-1],4)
+		ChangeAnimationNoEffect("DEADB03") // Adventurer
+	RESPONSE #20
+		Face(4)
+		CreateCreature("CBZOMBD1",[-1.-1],0)
+		ChangeAnimationNoEffect("DEADB04")
+	RESPONSE #20
+		Face(12)
+		CreateCreature("CBZOMBD1",[-1.-1],0)
+		ChangeAnimationNoEffect("DEADB05")
+END
+
+IF
+	Global("CbDefenderGotEquipment","LOCALS",0)
+THEN
+	RESPONSE #100
+		Face(5)
+		GiveItemCreate("RNDTRE09",Myself,1,0,0)
+		GiveItemCreate("RNDTRE12",Myself,1,0,0)
+		EquipRanged()
+		SetGlobal("CbDefenderGotEquipment","LOCALS",1)
+END
+
+IF
+	Global("CbHlondethMustRetreat","AR3675",11)
+	Global("CbOfficerThreeCreatesMOB","AR3675",3)
+	GlobalLT("CbThirdStandDone","AR3675",5)
+	!Range("EASTBRDG",10)
+THEN
+	RESPONSE #100
+		MoveToObject("EASTBRDG")
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),10)
+END
+
+

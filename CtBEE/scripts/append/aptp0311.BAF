@@ -1,0 +1,25 @@
+IF
+	OnCreation()
+	InActiveArea(Player1)
+THEN
+	RESPONSE #100
+		SetMasterArea("AR0311")
+		Continue()
+END
+
+IF
+	Exists("CBTAXCVA")
+THEN
+	RESPONSE #100
+		ActionOverride("CBTAXCVA",DestroySelf())
+		Continue()
+END
+
+IF
+	Global("CbHideArea602","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbHideArea602","GLOBAL",1)
+		HideAreaOnMap("AR0602")
+		Continue()
+END

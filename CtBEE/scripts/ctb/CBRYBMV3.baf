@@ -1,0 +1,30 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("CBRYBERG",MoveBetweenAreas("AR1200",[4361.782],0))
+		LeaveAreaLUAPanic("AR1200","",[4223.720],0)
+		LeaveAreaLUA("AR1200","",[4223.720],0)
+		ActionOverride(Player2,LeaveAreaLUA("AR1200","",[4184.738],0))
+		ActionOverride(Player3,LeaveAreaLUA("AR1200","",[4264.701],0))
+		ActionOverride(Player4,LeaveAreaLUA("AR1200","",[4264.657],0))
+		ActionOverride(Player5,LeaveAreaLUA("AR1200","",[4207.673],0))
+		ActionOverride(Player6,LeaveAreaLUA("AR1200","",[4151.691],0))
+		Wait(1)
+		MoveViewPoint([4264.750],INSTANT)
+		ActionOverride("CBRYBERG",FaceObject(Player1))
+		FaceObject("CBRYBERG")
+		ActionOverride(Player2,FaceObject("CBRYBERG"))
+		ActionOverride(Player3,FaceObject("CBRYBERG"))
+		ActionOverride(Player4,FaceObject("CBRYBERG"))
+		ActionOverride(Player5,FaceObject("CBRYBERG"))
+		ActionOverride(Player6,FaceObject("CBRYBERG"))
+		Wait(1)
+		FadeFromColor([20.0],0)
+		EndCutSceneMode()
+END
+
+

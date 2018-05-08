@@ -1,0 +1,11 @@
+IF
+	GlobalGT("CbVampireSubQuestStart","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		ChangeAIScript("",CLASS)
+		ChangeAIScript("",GENERAL)
+		DestroySelf()
+END
+
+

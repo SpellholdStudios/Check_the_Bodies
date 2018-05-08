@@ -1,0 +1,20 @@
+IF
+	!GlobalTimerNotExpired("CbCowMoo'dAndTurned","LOCALS")
+	Range([GOODCUTOFF],100)
+	HPGT(Myself,0)
+THEN
+	RESPONSE #33
+		PlaySound("CB3597E1")
+		SetGlobalTimer("CbCowMoo'dAndTurned","LOCALS",20)
+		RandomTurn()
+	RESPONSE #33
+		PlaySound("CB3597E2")
+		SetGlobalTimer("CbCowMoo'dAndTurned","LOCALS",20)
+		RandomTurn()
+	RESPONSE #34
+		PlaySound("CB3597E3")
+		SetGlobalTimer("CbCowMoo'dAndTurned","LOCALS",20)
+		RandomTurn()
+END
+
+

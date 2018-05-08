@@ -1,0 +1,15 @@
+IF
+	HasItem("CBCWRSCH",Myself)
+THEN
+	RESPONSE #100
+		DestroyItem("CBCWRSCH")
+END
+
+IF
+	HasItem("CBCWUMST",Myself)
+THEN
+	RESPONSE #100
+		DestroyItem("CBCWUMST")
+END
+
+

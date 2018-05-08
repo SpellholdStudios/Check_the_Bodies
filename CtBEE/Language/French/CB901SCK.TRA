@@ -1,0 +1,45 @@
+@1   = ~Zzz... hein... Qui ? Qu’est-ce que vous voulez ?~
+@2   = ~Vous allez bien ?~
+@3   = ~Non, je ne vais pas bien du tout. Je suis malade.~
+@4   = ~Les prêtres ne peuvent-ils pas vous aider ?~
+@5   = ~Les prêtres ? Ces humains incompétents ? Non, ils ne peuvent pas m’aider. Ils ne savent pas comment soigner une elfe.~
+@6   = ~Leur pitoyable magie dénature la Toile et ne peut rien pour moi.~
+@7   = ~Puis-je faire quelque-chose pour vous aider ?~
+@8   = ~Ces prêtres ne peuvent me fournir ce dont j’ai besoin. Il me faut un remède d'origine naturelle, or tout ce qu’ils sont capables de faire, c’est d’user de leurs potions chimiques et des pouvoirs de guérison donnés par leurs dieux.~
+@9   = ~Mais peut-être pouvez-vous m’aider, si vous le voulez bien. J’ai besoin de certaines herbes qu’on trouve dans les terres sauvages. Elles pourront m’aider, mais à la condition que vous les trouviez toutes.~
+@10  = ~Je suis navré, mais je ne pense pas que de chercher des herbes soit dans mes cordes. Vous devrez demander à quelqu’un d’autre de les dénicher pour vous.~ ~Je suis navrée, mais je ne pense pas que de chercher des herbes soit dans mes cordes. Vous devrez demander à quelqu’un d’autre de les dénicher pour vous.~
+@11  = ~Je pense que je peux essayer de chercher des herbes pour vous. Quelles sont celles dont vous avez besoin ?~
+@12  = ~Je n’en attendais pas moins d’un aventurier égoïste de votre espèce.~ ~Je n’en attendais pas moins d’une aventurière égoïste de votre espèce.~
+@13  = ~J’ai besoin d’herbes et de racines très spéciales. D’abord, de façon à faire le cataplasme, j’ai besoin de Sambucus Nigra, du sureau noir en elfique. Je ne sais pas où vous pouvez en trouver dans la région, mais les buissons de sureau poussent dans les grands espaces sauvages où de larges bosquets peuvent croître.~
+@14  = ~Il me faut aussi des feuilles de pêcher que je pourrai réduire en poudre. Nous autres, Elfes, l’appelons Prunus Persica et ses feuilles servent surtout de sédatif et d’expectorant.~
+@15  = ~De la mousse écrasée serait également utile ; vous en trouverez dans les bruyères et les marécages. N’en prenez pas qui soit humide car la mousse de Lycopodium Clavatum doit être aussi sèche que possible.~
+@16  = ~L’ Artermisia Absinthium, plus connue sous l’appellation d’absinthe, facilitera la digestion des autres herbes. Rapportez m’en un peu.~
+@17  = ~Enfin, les racines de chiendent rampant sont un autre type de plante diurétique que les Elfes appellent Agropyron Repens. Si vous pouvez en arracher en quantité, elles seront à la base de la potion qui me guérira.~
+@18  = ~Si vous me rapportez ces cinq ingrédients, vous me serez d’une aide inestimable.~
+@19  = ~Je vais tâcher de vous apporter tout ceci aussi vite que possible.~
+@20  = ~Je ne sais pas où trouver toutes ces choses, mais j’essaierai de vous les apporter.~
+@21  = ~Merci de votre aide.~
+@22  = ~Ce serait vraiment très serviable de votre part. Je vous remercie de votre aide.~
+@23  = ~Avez-vous pu trouver les racines et les herbes médicinales dont j’ai besoin ?~
+@24  = ~Pas encore. Je n’ai pu trouver aucune des plantes que vous avez citées.~
+@25  = ~Je n’ai pu trouver qu’une seule des plantes dont vous m’avez parlé.~
+@26  = ~Je n’ai trouvé que deux des plantes dont vous avez besoin.~
+@27  = ~J’ai trouvé trois des plantes qu'il vous fallait. Je ne parviens pas à dénicher les autres.~
+@28  = ~Pas encore. Il ne me manque qu'une seule des herbes dont vous m'avez parlé. Je ne la trouve pas.~
+@29  = ~Oui, Holly, j’ai trouvé tout ce dont vous m’avez dit avoir besoin pour vous guérir.~
+@30  = ~Vous devez chercher avec encore plus d’attention. Je vous en prie, je ne sais pas encore combien de temps je pourrai supporter la douleur.~
+@31  = ~C'est vrai ?~
+@32  = ~Je ne sais pas encore combien de temps je pourrai rester ainsi étendue.~
+@33  = ~Vite, donnez-moi les ingrédients. Je vais dire au prêtre de concocter la potion suivant mes instructions.~
+@34  = ~Je vous remercie pour avoir apporté les racines et les herbes. Revenez demain ; je me sentirai bien mieux.~
+@35  = ~Je vous remercie pour votre aide. Sans ces herbes, je crois bien que je n'y aurais pas survécu.~
+@36  = ~Prenez ceci. C’est ce qu’il reste de la potion que j'ai fabriqué avec les ingrédients que vous m'avez trouvés. Faites attention, car elle est puissante et vous guérira complètement, quelles que soient vos blessures. Il n’y en a qu’une dose alors utilisez-la avec sagesse.~
+@37  = ~En gage de ma gratitude, je voudrais également que vous preniez ceci. C’est une potion elfique que j’avais gardée pour quand j’aurais eu mon premier-né. Mais sans vous, je n’en aurais jamais eu l’espoir.~
+@38  = ~Je me sens bien mieux désormais. Je serai bientôt totalement rétablie.~
+@39 = ~Constipation Elfique
+
+J’ai rencontré dans le temple de Heaume, à Athkatla, une elfe affligée d’un mal terrible. Elle semblait assez sympathique ; j’ai donc accepté de l’aider à trouver des plantes pour mettre au point une potion qui, d’après elle, pourrait la guérir, ce dont les prêtres de Heaume semblent incapables.
+L’elfe Holly m’a demandé de lui rapporter des baies de sureau noir, des feuilles de pêcher, de la mousse écrasée, de l’absinthe et des racines de chiendent rampant. Elle ne sait pas exactement où ces plantes peuvent se trouver, je devrai donc les chercher dans les endroits que je pourrai visiter.~
+@40 = ~Holly est guérie
+
+L’elfe constipée que j’ai rencontrée dans le temple de Heaume, à Athkatla, semble se sentir beaucoup mieux. Elle s’est levée et m’a remercié pour avoir trouvé les herbes et les racines. Elle m’a donné les restes de la potion qu’elle a concoctée, ainsi qu’un surprenant artéfact elfique. Il ne me reste plus qu'à estimer cette chose pour la vendre au meilleur prix.~

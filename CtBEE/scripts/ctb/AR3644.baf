@@ -1,0 +1,9 @@
+IF
+	Global("CbIntroHouseExtaminos","AR3644",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbIntroHouseExtaminos","AR3644",1)
+		TextScreen("CBHEXSCR")
+END
+
+

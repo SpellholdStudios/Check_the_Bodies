@@ -1,0 +1,11 @@
+IF
+	Allegiance(Myself,ENEMY)
+	Global("CbEzekeialEquips","LOCALS",0)
+THEN
+	RESPONSE #100
+		ApplySpellRES("CBHLZEKE",Myself)
+		EquipMostDamagingMelee()
+		SetGlobal("CbEzekeialEquips","LOCALS",1)
+END
+
+

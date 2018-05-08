@@ -1,0 +1,37 @@
+IF
+	NumCreatureLT("SQUIRL",4)
+	Delay(10)
+	OR(3)
+		!Dead("CB587DR1")
+		!Dead("CB587DR2")
+		!Dead("CB587DR3")
+THEN
+	RESPONSE #100
+		CreateCreatureOffScreen("SQUIRL",0) 
+END
+
+IF
+	NumCreatureLT("DEER01",3)
+	Delay(10)
+	OR(3)
+		!Dead("CB587DR1")
+		!Dead("CB587DR2")
+		!Dead("CB587DR3")
+THEN
+	RESPONSE #100
+		CreateCreatureOffScreen("DEER01",0) 
+END
+
+IF
+	NumCreatureLT("BEARBR",1)
+	Delay(10)
+	OR(3)
+		!Dead("CB587DR1")
+		!Dead("CB587DR2")
+		!Dead("CB587DR3")
+THEN
+	RESPONSE #100
+		CreateCreatureOffScreen("BEARBR",0)
+END
+
+

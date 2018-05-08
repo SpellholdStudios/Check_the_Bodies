@@ -1,0 +1,155 @@
+@1   = ~¡Deteneos! ¡Hay suficientes flechas y conjuros apuntándoos a la cabeza como para derribar a un gigante!~
+@2   = ~¡Deteneos! ¡Hay suficientes flechas y conjuros apuntándoos a vos y a vuestros compañeros como para derribar a un gigante!~
+@3   = ~El mas mínimo gesto amenazador por vuestra parte, y estaréis muerto antes de que coloquemos la tercera flecha en el arco.~
+~El mas mínimo gesto amenazador por vuestra parte, y estaréis muerta antes de que coloquemos la tercera flecha en el arco.~
+@4   = ~Hablad: ¿cuál es vuestra propósito? ¿Qué hacéis en este Bosque?~
+@5   = ~No os preocupéis, amigo. No voy a haceros daño.~
+@6   = ~He sido enviado en una misión por Elhan. Estamos intantando echar a los enemigos de los elfos de Suldanessellar.~
+@7   = ~Mi nombre es <CHARNAME> y mis asuntos son cosa mía.~
+@8   = ~Mi nombre es <CHARNAME>, y estoy buscando aventuras.~
+@9   = ~¿Quién demonios os creéis que sois para amenazarme?~
+@10  = ~No me importan vuestras ridículas amenazas. No sabéis con quién estáis hablando.~
+@11  = ~¡Compañía! ¡Coged las armas! ¡Tenemos visitantes inesperados!~
+@12  = ~¡Vos! ¡Quieto donde estáis!~
+~¡Vos! ¡Quieta donde estáis!~
+@13  = ~En este momento, hay suficientes flechas apuntándoos como para derribar a un gigante.~
+@14  = ~Claro que no. Debéis perdonar nuestra cautela. Son tiempos difíciles, y somos los guardianes de la región.~
+@15  = ~Ahora, contestad a la pregunta. ¿Qué pretendéis hacer aquí en el Bosque?~
+@16  = ~¿Elhan? ¿Conocéis al Guardián de Suldanessellar? ¿Cómo podríais conocerlo?~
+@17  = ~Ha pedido mi ayuda para recuperar la ciudad élfica.~
+@18  = ~Le he dado los medios para entrar en Suldanessellar.~
+@19  = ~¿Habéis tenido éxito? La ciudad elfa es de importancia capital. Si sabéis cómo entrar, Amigo de los Elfos, debéis hacerlo.~
+~¿Habéis tenido éxito? La ciudad Elfa es de importancia capital. Si sabéis cómo entrar, Amiga de los Elfos, debéis hacerlo.~
+@20  = ~Por ahora nos encargaremos de nuestros asuntos aquí, pero si podéis ayudarnos más adelante, regresad con nosotros.~
+@21  = ~Id entonces, Amigo de los Elfos, y liberad Suldanessellar.~
+~Id entonces, Amiga de los Elfos, y liberad Suldanessellar.~
+@22  = ~¡Si habéis hallado Suldanessellar, Amigo de los Elfos, entonces id! ¡Ayudad a Elhan!~
+~¡Si habéis hallado Suldanessellar, Amiga de los Elfos, entonces id! ¡Ayudad a Elhan!~
+@23  = ~Si la ciudad puede ser liberada y Ellesime rescatada, no hay nada más importante para la región.~
+@24  = ~Nos encargaremos de nuestros asuntos por aquí. Si podéis regresar para ayudarnos, os daremos la bienvenida, pero la ciudad élfica debe ser liberada.~
+@25  = ~Cierto. Muy cierto.~
+@26  = ~Muy bien entonces, <CHARNAME>. Respeto vuestra privacidad.~
+@27  = ~Bien, dejad que me presente. Soy Tardeth Llanistaph, el líder oficioso de la Compañía de los Ocho, un explorador dedicado a proteger la flora y la fauna de nuestras grandes tierras, y éstos son mis compañeros.~
+@28  = ~Tenéis razón, mi buen rashemaar. Como decía, ésta es mi compañera, Marilyn Velloliebre.~
+@29  = ~Ésta es mi compañera, Marilyn Velloliebre.~
+@30  = ~Atrás, Marilyn. Ahora, todo está bien. Este joven elfo practicando con su arco es mi buen amigo Sylvanus Gotadeluna. Sylvanus, ¿tenéis un momento?~
+@31  = ~Sylvanus no pasa mucho tiempo sin un arco en su mano. Y es muy protector con su caballo, asi que no le habléis de él.~
+@32  = ~A continuación está nuestro diminuto amigo, aunque no por ello menos útil, Paddy Cervezafirme. Vigilad vuestros bolsillos cuando estéis cerca de él, u os daréis cuenta de que os han desaparecido los pantalones.~
+@33  = ~Sí, si, Paddy. Nos enfrentaremos otro día. Dejadme terminar de hablar con esta buena gente.~
+@34  = ~La única maga auténtica del grupo, y probablemente la que más sabe sobre botánica de nosotros, Lawantha Silendia es la única de nosotros que no es originaria de Tethyr.~
+@35  = ~Lo siento, Lawantha, sólo estaba presentándoos a nuestros invitados. No importa.~
+@36  = ~Es bastante buena conversadora, una vez la conocéis. Y para terminar tenemos a nuestros dos druidas, Arkaneus Melenaplateada y Manny Arbustle.~
+@37  = ~Y esta es nuestra pequeña Compañía de los Ocho.~
+@38  = ~Y ahora, mi nuevo amigo, ¿qué os trae al Bosque de Tethyr?~
+~Y ahora, mi nueva amiga, ¿qué os trae al Bosque de Tethyr?~
+@39  = ~¿Aventura, eh? En cambio nosotros, la Compañía de los Ocho, luchamos por el bien y la estabilidad en Tethyr. Tal vez no busquéis los mismos objetivos, no lo sé, pero eso vamos a dejarlo pasar por ahora.~
+@40  = ~Ultimamente, esta tarea se ha vuelto dificil para nosotros.~
+@41  = ~A los elfos de Suldanessellar los han echado; los rumores de guerra han llegado a nuestros oídos.~
+@42  = ~Y además de todo eso, nos hemos tropezado con esa barrera que no estaba aquí durante nuestra última visita al Bosque.~
+@43  = ~La hemos estudiado, y nos hemos dado cuenta de que forzar nuestro paso a su través está mas allá de nuestras habilidades.~
+@44  = ~¿Qué? ¿Qué es lo que habéis encontrado?~
+@45  = ~Aparentemente el Culto del Dragón se ha asentado en la caverna y la mazmorra inferior.~
+@46  = ~Han resucitado un dragón, pero más allá de eso, no conozco sus planes.~
+@47  = ~¿Qué planeáis hacer sobre ello, Tardeth?~
+@48  = ~Vamos a intentar detenerlos.~
+@49  = ~No tenemos ninguna otra elección.~
+@50  = ~Pero me temo que no tendremos éxito.~
+@51  = ~¿Puedo ayudar? Juntos podríamos derrotarlos.~
+@52  = ~Entonces, os deseo buena suerte.~
+@53  = ~Soy Tardeth, líder de la Compañía de los Ocho. Y vos estáis penetrando en el Bosque de Tethyr.~
+@54  = ~Mis compañeros y yo cuidamos de este bosque.~
+@55  = ~Si no tenéis asuntos honrados aquí, os pido que os vayáis antes de que hagamos que os marchéis.~
+@56  = ~Siento molestaros a vos y a vuestro bosque.~
+@57  = ~Parece que no hemos empezado muy bien. Mi nombre es <CHARNAME> y viajo en busca de aventuras.~
+@58  = ~Eso está mejor.~
+@59  = ~Quien seáis no supone ninguna diferencia para mí. Lo que pretendáis sí.~
+@60  = ~Lo que busco es que dejéis de acosarme. Por la fuerza, si es necesario.~
+@61  = ~Como deseéis. ¡Amigos!~
+@62  = ~¡Nos asaltan bandidos! ¡Coged vuestras armas!~
+@63  = ~Nos esforzaremos para echar al Culto de las ruinas, y si queréis ayudar, vuestra asistencia será bienvenida.~
+@64  = ~Por otro lado, debéis disculparnos. Tenemos preparativos que hacer.~
+@65  = ~Habíamos planeado echar solos al Culto, pero vuestra ayuda sería una buena baza a nuestro favor.~
+@66  = ~Ya basta. Si <CHARNAME> quiere ayudarnos, deberíamos ser agradecidos.~
+@67  = ~Muy bien. Aún tenemos que hacer preparativos, y éstoy seguro de que os gustaría hacer lo mismo.~
+@68  = ~Permitidnos descansar antes de que tengamos que pasar al ataque.~
+@69  = ~Hablad conmigo cuando estéis preparado, y atacaremos juntos la fortaleza del Culto.~
+~Hablad conmigo cuando estéis preparada, y atacaremos juntos la fortaleza del Culto.~
+@70  = ~Así que, mi nuevo amigo, habéis regresado. ¿Tenéis algo de tiempo libre?~
+~Así que, mi nueva amiga, habéis regresado. ¿Tenéis algo de tiempo libre?~
+@71  = ~Quizás si no tenéis otros asuntos apremiantes, ¿podríais ayudarnos en nuestro asalto a la fortaleza del Culto?~
+@72  = ~Claro. No tengo nada mejor que hacer. ¿Qué necesitáis?~
+@73  = ~No. Creo que ahora mismo no tengo tiempo.~
+@74  = ~Si cambiáis de idea, o tenéis la ocasión de ayudarnos, vuestra ayuda sería bien recibida.~
+@75  = ~¿Habéis regresado?~
+@76  = ~Espero que aún tengáis intenciones honradas.~
+@77  = ~Como os dije, no tenéis porqué preocuparos, amigo. No os haré daño.~
+@78  = ~Me ha sido encomendada una misión por Elhan. Estamos intentando desalojar a los enemigos de los elfos de Suldanessellar, lo que es bastante honrado.~
+@79  = ~Os lo dije, mis asuntos son cosa mía.~
+@80  = ~Como ya mencioné, simplemente estoy buscando aventuras.~
+@81  = ~¡Amigo de los elfos! ¡Es bueno volveros a ver!~
+~¡Amiga de los elfos! ¡Es bueno volveros a ver!~
+@82  = ~Debéis regresar con Elhan y ayudarle. Liberad Suldanessellar y liberad a la Reina. ¡Id, marchad <CHARNAME>!~
+@83  = ~Hemos recibido mensajes de los elfos del bosque diciendo que Suldanessellar y su Gente está a salvo. ¡Sois realmente un héroe!~
+~Hemos recibido mensajes de los elfos del bosque diciendo que Suldanessellar y su Gente está a salvo. ¡Sois realmente una heroína!~
+@84  = ~Tendremos que haceros miembro honorífico de la Compañía de los Ocho.~
+@85  = ~Mejor que estén con nosotros que contra nosotros, Marilyn. <CHARNAME>, contad con nuestro agradecimiento y nuestra compañía cuando queráis uniros a nosotros a compartir el pan o contar historias de pasadas aventuras.~
+@86  = ~Todos nosotros os llamaremos amigo de ahora en adelante. Independientemente de si nos ayudáis ahora o no.~
+~Todos nosotros os llamaremos amiga de ahora en adelante. Independientemente de si nos ayudáis ahora o no.~
+@87  = ~¿A que os refieres con "ayudaros"?  ¿Qué ocurre, Tardeth?~
+@88  = ~Para seros sincero, normalmente las cosas son bastante tranquilas en el Bosque de Tethyr.~
+@89  = ~Hasta hace poco.~
+@90  = ~Cuando los elfos de Suldanessellar fueron expulsados, otros grupos de poder intentaron rellenar el vacío. También hemos oído rumores de guerra.~
+@91  = ~Ahora que el Pueblo está a salvo en sus casas, y que habéis asestado un golpe terrible al mal y al caos en la región, ahora, si queréis, podéis ayudarnos a darle al mal otro golpe.~
+@92  = ~Como véis, esta puerta bloqueada asegura el refugio del Culto del Dragón en la región.~
+@93  = ~Entonces, ¿estáis preparado para entrar en la fortaleza del Culto?~
+~Entonces, ¿estáis preparada para entrar en la fortaleza del Culto?~
+@94  = ~No, aún no, Tardeth.~
+@95  = ~Sí, estamos listos. Vamos.~
+@96  = ~Hacedme saber cuándo estéis preparado.~
+~Hacedme saber cuándo estéis preparada.~
+@97  = ~¿Todo el mundo listo?~
+@98  = ~Muy bien, <CHARNAME>, esto es lo que haremos. Derribaré la puerta con una ayuda mágica de Lawantha e irrumpiremos en el complejo. Yo iré primero, con Marilyn a mi lado. Sylvanus vendrá después con Paddy dándonos con fuego de cobertura. Los demás, Lawantha, Arkanus, y Manny, nos seguirán.~
+@99  = ~Vos vienes detrás de ellos, y os colocaréis como prefiráis.~
+@100 = ~Vos y vuestros compañeros entraréis después de que hayamos asegurado la entrada.~
+@101 = ~Lucharemos a vuestro lado, y confiaremos en vuestras tácticas estratégicas, pero no esperéis que actuemos como leña para los seguidores del Culto.~
+@102 = ~Haremos esto juntos, y nuestras pérdidas serán vuestras pérdidas, como vuestras pérdidas serán nuestras pérdidas.~
+@103 = ~No pensemos en ello.~
+@104 = ~Lo haremos lo mejor posible para derrotar al Culto y compartiremos la recompensa.~
+@105 = ~Así que, ¿estáis seguro de que estáis preparado?~
+~Así que, ¿estáis segura de que estáis preparada?~
+@106 = ~No.~
+@107 = ~Sí.~
+@108 = ~Creo que sería mejor si me dejárais entrar primero, y que todos vosotros esperéis aquí.~
+@109 = ~Entonces daos prisa. Estamos esperandoos.~
+@110 = ~De acuerdo pues. Hagámoslo.~
+@111 = ~Ni hablar, <CHARNAME>. No vamos a dejar que os llevéis toda la gloria.~
+@112 = ~Iréis con nosotros, o iremos solos.~
+@113 = ~Asi que, ¿qué decís?~
+@114 = ~Sí, supongo que estará bien.~
+@115 = ~Ahora no. Esperad que os ayude.~
+@116 = ~Ni hablar, Lawantha. Nunca podría ser tan bueno como Sylvanus. ¿Cuántas veces os ha cubierto con unos cuantos disparos rápidos mientras estabais lanzando un conjuro?~
+@117 = ~¿Qué? ¿Qué habéis visto, Marilyn?~
+@118 = ~Mierda. Muy bien, gente, cuidado dónde ponéis los pies. Hay algun tipo de trampa por aquí. Nada que os hiera, pero no dejéis ninguna marca de más en el suelo.~
+@119 = ~Mirad esto, <CHARNAME>, el suelo está limpio. El polvo ha sido retirado, y cualquiera que se moleste en fijarse puede ver si alguien ha pasado borrando sus huellas.~
+@120 = ~Ando algo ocupado por aquí, Sylvanus. ¡Sacadlo de aquí!~
+@121 = ~Bien hecho. Cojamos nuestras cosas y salgamos de aquí. <CHARNAME>, nos encontraremos fuera en el bosque.~
+@122 = ~Cuando os conocí por primera vez, no estaba seguro de que hacer con vos. Pero ahora estoy contento de no haber ordenado a Marilyn y a Sylvanus que os ensartaran con todas aquellas flechas.~
+@123 = ~Faerûn no sería lo que es sin vos, y el Bosque de Tethyr es más seguro ahora que el Culto del Dragón ha sido expulsado.~
+@124 = ~Habéis sido de gran ayuda para nosotros, y me temo que no hubieramos tenido éxito si no hubiera sido por vos. Tened, por favor, coged esta espada, que siempre me ha servido muy bien.~
+@125 = ~Usadla con orgullo, <CHARNAME>. Es un arma formidable para corregir las maldades. Quizás nos encontremos de nuevo alguna vez.~
+@126 = ~Vamos, Compañía de los Ocho, debemos ir a ver a los elfos.~
+@127 = ~La famosa Compañía de los Ocho
+
+  He pasado mi última aventura luchando al lado de la Compañía de los Ocho, que intentaban neutralizar una célula del Culto del Dragón que se había asentado en una mazmorra abandonada bajo el Bosque de Tethyr. Toda la Compañía, Marilyn, Paddy, el elfo Gotadeluna, Lawantha, los dos druidas Manny y Arkanus, y Tardeth, eran guerreros experimentados, y tuvimos éxito al derrotar al Culto. Debo admitir que luchar junto a una banda de aventureros tan experimentados fue un placer, y espero tener la oportunidad de volver hacerlo en el futuro.~
+@128 = ~La famosa Compañía de los Ocho
+
+  Finalmente he conocido a la Compañía de los Ocho de la que tanto había oído hablar. Este legendario grupo de aventureros de Tethyr ha tropezado con una fortaleza que esta siendo usada por el Culto del Dragón. Me invitaron a echar al Culto, y cuando estemos preparados para encargarme de esa misión, el lider de la Compañía, Tardeth, me ha pedido que se lo haga saber.
+  Espero que cuando estemos listos, buscar aventuras y combates con al Compañia de los Ocho sea algo que esté dentro de mis capacidades.~
+@274 = ~¡A Minsc siempre le agrada conocer a un compañero explorador! ¡Cuantos más exploradores tenga Faerûn, con mayor fuerza será pateado el trasero del mal!~
+@275 = ~¡<CHARNAME>! Esto no está bien. Los compañeros bienhechores necesitan ayuda para darle al mal una buena tunda, ¿y les rechazáis?  No, <CHARNAME>, debemos ayudarles, así que cambiad rápido de opinión.~
+@448 = ~<CHARNAME>, después de todo lo que hemos pasado, ¿os quedaréis aquí viendo al malvado Culto haciendo lo que quieran? Os equivocáis al no ayudar a la Compañía.~
+@450 = ~Debo insistir, <CHARNAME>, en que ofrezcamos nuestros servicios a la Compañía. Es algo a lo que podemos dedicar tiempo, y es una misión productiva.~
+@451 = ~Estoy de acuerdo con los demás. Debo insistir, <CHARNAME>, en que ofrezcamos nuestros servicios a la Compañía. Es algo a lo que podemos dedicar tiempo, y es una misión productiva.~
+@668 = ~Nuestro amigo marcado tiene razón, <CHARNAME>.~
+@669 = ~Esto no es algo que pueda, en conciencia, ignorar. Debemos ayudar a la Compañía.~
+

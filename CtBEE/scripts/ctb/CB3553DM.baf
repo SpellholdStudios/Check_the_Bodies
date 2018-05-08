@@ -1,0 +1,43 @@
+IF
+	Global("Cb_DoorMagicOpen","AR3553",1)
+	!Range([GOODCUTOFF],10)
+THEN
+	RESPONSE #100
+		CloseDoor("DoorMagic")
+		Lock("DoorMagic")
+		SetGlobal("Cb_DoorMagicOpen","AR3553",0)
+END
+
+IF
+	IsOverMe([GOODCUTOFF])
+	!GlobalTimerNotExpired("Cb_DoorMagic","AR3553")
+	Global("Cb_DoorMagicOpen","AR3553",0)
+	OR(4)
+		Race(LastTrigger,HUMAN)
+		Race(LastTrigger,DWARF)
+		Race(LastTrigger,GNOME)
+		Race(LastTrigger,HALFORC)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("Cb_DoorMagic","AR3553",10)
+		DisplayString(LastTrigger,@550600)
+END
+
+IF
+	IsOverMe([GOODCUTOFF])
+	!GlobalTimerNotExpired("Cb_DoorMagic","AR3553")
+	Global("Cb_DoorMagicOpen","AR3553",0)
+	!Race(LastTrigger,HUMAN)
+	!Race(LastTrigger,DWARF)
+	!Race(LastTrigger,GNOME)
+	!Race(LastTrigger,HALFORC)
+THEN
+	RESPONSE #100
+		Unlock("DoorMagic")
+		OpenDoor("DoorMagic")
+		DisplayString(LastTrigger,@550601)
+		SetGlobalTimer("Cb_DoorMagic","AR3553",20)
+		SetGlobal("Cb_DoorMagicOpen","AR3553",1)
+END
+
+

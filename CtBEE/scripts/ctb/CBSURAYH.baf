@@ -1,0 +1,29 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		SmallWait(5)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("CBSURAYW",MoveBetweenAreas("AR0902",[1579.723],14))
+		LeaveAreaLUAPanic("AR0902","",[1505.721],4)
+		LeaveAreaLUA("AR0902","",[1505.721],4)
+		ActionOverride(Player2,LeaveAreaLUA("AR0902","",[1551.754],4))
+		ActionOverride(Player3,LeaveAreaLUA("AR0902","",[1604.767],4))
+		ActionOverride(Player4,LeaveAreaLUA("AR0902","",[1488.771],2))
+		ActionOverride(Player5,LeaveAreaLUA("AR0902","",[1519.801],0))
+		ActionOverride(Player6,LeaveAreaLUA("AR0902","",[1461.809],0))
+		ActionOverride("CBSURAYW",FaceObject(Player1))
+		FaceObject("CBSURAYW")
+		ActionOverride(Player2,FaceObject("CBSURAYW"))
+		ActionOverride(Player3,FaceObject("CBSURAYW"))
+		ActionOverride(Player4,FaceObject("CBSURAYW"))
+		ActionOverride(Player5,FaceObject("CBSURAYW"))
+		ActionOverride(Player6,FaceObject("CBSURAYW"))
+		Wait(1)
+		FadeFromColor([20.0],0)
+		EndCutSceneMode()
+END
+
+

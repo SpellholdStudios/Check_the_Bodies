@@ -1,0 +1,10 @@
+IF
+	IsOverMe([GOODCUTOFF])
+	Global("CbCeilingCollapses","AR3543",0)
+THEN
+	RESPONSE #100
+		Wait(1)
+		SetGlobal("CbCeilingCollapses","AR3543",1)
+END
+
+

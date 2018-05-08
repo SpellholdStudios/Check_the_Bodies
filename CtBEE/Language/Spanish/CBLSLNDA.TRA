@@ -1,0 +1,72 @@
+@1   = ~¿Qué? ¿He oído mi nombre? ¿Qué ocurre, Tardeth?~
+@2   = ~Sí, sí. Hola a vos también.~
+@3   = ~Sí, sí, Tardeth. Acabemos con esto.~
+@4   = ~Es fácil de explicar, Arkanus. La razón por la que ciertas especies de plantas no pueden ser alteradas por métodos antinaturales, como el conjuro de Crecimiento de Plantas, se debe a la región de la que sea originaria una planta concreta.~
+@5   = ~Por ejemplo, los árboles de bambú de Calimshan, o incluso del sur de Tethyr, requieren poca agua pero mucho sol. En el desierto, no hay bastante agua para mantener un árbol grande de bambú, así que el árbol crece hasta un tamaño en el que pueda seguir consiguiendo suficiente agua como para seguir viviendo. Si alteráis la planta de forma artificial, y no hay disponible el agua necesaria, el árbol morirá.~
+@6   = ~Así que la razón de que muchas especies vivientes no puedan ser alteradas mágicamente se debe a una resistencia genética, o una capacidad de supervivencia, si lo preferís, de la planta.~
+@7   = ~Nunca podré pensar que Sylvanus es mejor con el arco que vos, Tardeth.~
+@8   = ~Demasiadas veces. Casi me arrancó la cabeza una vez, ¿recordáis?~
+@9   = ~No dejéis que Sylvanus os engañe. Puede hablar con el caballo, y le dice al noble bruto que no me deje montarlo.~
+@10  = ~*risitas* Pobre Manny. Los hombres enfurecidos sólo quieren una cosa, ¿no creéis, Manny?~
+@11  = ~Habla por vos, druida. Lo veo como un chiquillo enamorado, no mejor que los niños y niñas que nos persiguen cuando pasamos por sus pueblos.~
+@12  = ~Bueno, bueno, bueno. Me suena como si fuera una oferta.~
+@13  = ~Tendría que asumirlo asi, mi gran amigo. Quizás podáis hacer que el pequeño Manny se sienta mas envidioso que lo que podría sentirse un hombre de verdad.~
+@14  = ~Incluso conozco unos cuantos conjuros que pueden haceros crecer, ganar resistencia, e incluso hacer la experiencia más agradable.~
+@15  = ~Puedo decir que no habéis sido iniciado en las artes místicas. No tenéis nada que enseñarme.~
+~Puedo decir que no habéis sido iniciada en las artes místicas. No tenéis nada que enseñarme.~
+@16  = ~Ahh, un compañero mago. Venid, hablaré con vos si tenéis tiempo.~
+~Ahh, una compañera maga. Venid, hablaré con vos si tenéis tiempo.~
+@17  = ~Me encantaría oir vuestra disertación. Por favor, continuad.~
+@18  = ~Debéis disculpadme. Ahora no tengo tiempo de oir vuestra disertación.~
+@19  = ~Entonces hablaremos luego, cuando tengáis ocasión.~
+@20  = ~Quizás podáis tener ocasión de hablar de botánica, la flora y fauna de Amn, Tethyr y Calimsham, alguna vez.~
+@21  = ~Quizás podáis visitarme en mi tienda esta tarde y podamos estudiar botánica, biología y física.~
+@22  = ~Intentaré haceros una visita.~
+@23  = ~Creo que estaré muy ocupado. ¿Quizás en otra ocasión?~
+@24  = ~No es una buena idea, Lawantha. Además, le dije a Manny que hablaría bien de él.~
+@25  = ~En realidad, Lawantha, me acabo de dar cuenta de que ahora no tengo nada más que hacer.~
+@26  = ~¿Manny? Vamos, <CHARNAME>, no podéis pensar en serio que yo me entregaría a ese chico.~
+@27  = ~Disfrutaría enormemente estudiandoos... quiero decir, me encantaría estudiar con vos.~
+@28  = ~Sí, estoy seguro que era eso lo que queríais decir.~
+@29  = ~Me encantaría estudiar ciencias con vos.~
+@30  = ~Espero que podáis introducirmela al menos... er, quiero decir introducirme en ello.~
+@31  = ~Entonces, ¿querríais discutir algunos asuntos científicos conmigo?~
+@32  = ~Quizás podríais decirme más sobre qué es lo que queréis estudiar.~
+@33  = ~Podríamos hablar sobre el efecto de cierto tipo de plantas en la mente y el cuerpo de una persona, podríamos hablar sobre las diferencias biológicas de las especies de semihumanos, o podríamos hablar de física, como los efectos de la fricción cuando un cuerpo se frota contra otro.~
+@34  = ~¡SÍ! ¡ME ENCANTARÍA HABLAR DE ELLO CON VOS, LAWANTHA!~
+@35  = ~No tengo ni idea de lo que acabáis de decir.~
+@36  = ~De acuerdo, Lawantha. Vayamos a vuestra tienda.~
+@37  = ~Sentemonos en este tocón mientras os hablo de los estudios que he llevado a cabo. Tenéis tiempo, ¿verdad?~
+@38  = ~Muy bien. Os diré que soy una herbolaria. He estudiado a lo largo y ancho del continente, pero sobre todo en Calimshan, mi hogar natal.~
+@39  = ~He investigado sobre las plantas y los hongos únicos en esa región de Faerûn.~
+@40  = ~De particular importancia es el helecho Elliskian Ubik. Puede usarse para producir una variedad de efectos en cualquiera que ingiera las hojas, incluyendo algunas sucias alucinaciones y delirios paranoides.~
+@41  = ~También tenemos los Tréboles de Morgan, que sólo puede encontrarse en la península de Velen. Sus verdes hojas en forma de pala pueden ser usadas por los arcanistas para aumentar su conocimiento y mejorar su memoria.~
+@42  = ~Pero mi planta favorita de los tres imperios del sur es ésta. Miradla. Los botánicos se refieren a ella como "Astragalus Kentrophyta Gris" pero aquellos que desconocen el término la llaman simplemente kentrophyta.~
+@43  = ~Es una planta espinosa útil para los alquimistas, para crear pociones específicas para conferir vitalidad a los que las beben.~
+@44  = ~Así que, esta ha sido una pequeña introducción a las variadas especies de plantas que se encuentran en el Bosque de Tethyr.~
+@45  = ~¿Hay algo más que os gustaría saber?~
+@46  = ~Ahora no. Esta disertación fue muy aburrida.~
+@47  = ~Si lo deseáis, más tarde puedo hablaros de otros temas.~
+@48  = ~Eh, no os excitéis aún... oh, creo que lo dije demasiado tarde.~
+@49  = ~Ya no me sois de utilidad. ¡Manny! ¿Os importaría venir aquí, por favor?~
+@50  = ~Creo que no podría haber sido maá clara y a la vez mantener un nivel apropiado de decoro para los jóvenes que están presentes.~
+@51  = ~Os lo diré de otra forma. ¿Q-u-e-r-r-í-a-i-s v-e-n-i-r c-o-n-m-i-g-o a m-i t-i-e-n-d-a y h-a-b-l-a-r d-e d-r-o-g-a-s y s-e-x-o?~
+@52  = ~Tened, cogedme del brazo. Tardeth, no os marchéis a ningún lado sin nosotros. Volveré pronto con <GABBER>.~
+@53  = ~Ahora estoy cansada. Tengo que descansar un poco antes de nuestra nueva charla.~
+@54  = ~Así que vos y Tardeth os habéis hecho buenos amigos. Es bueno conoceros. Me gustaría hablar con vos si tenéis tiempo.~
+@55  = ~Ahora estoy exhausta. Además, tengo que recogerme y recuperar fuerzas antes de que intentemos atacar la fortaleza del Culto.~
+@56  = ~Dejadme descansar un poco antes de nuestra próxima disertación, <CHARNAME>.~
+@57  = ~¡Chicos! ¡Tenemos un problema! ¡Ese no es un viejo liche cualquiera! ¡Si tenéis alguna protección, será mejor que la uséis ya!~
+@58  = ~Mi querido <CHARNAME>. Voy a echar de menos el ir de aventuras con vos.~
+~Mi querida <CHARNAME>. Voy a echar de menos el ir de aventuras con vos.~
+@59  = ~Pero todas las cosas deben cambiar, y esta pequeña alianza entre vuestro grupo y la Compañía de los Ocho ha llegado a su fin. Ha sido muy divertido.~
+@60  = ~Estoy segura de que a los otros les encantaría expresaros su aprecio, pero yo lo haré por ellos.~
+@61  = ~Mirad, <CHARNAME>, coged esto. Consideradlo un regalo.~
+@62  = ~Vamos, Compañía de los Ocho, debemos irnos y encontrar la aventura allí donde nos espere.~
+@63 = ~La famosa Compañía de los Ocho
+
+  He pasado mi última aventura luchando al lado de la Compañía de los Ocho, que intentaban neutralizar una célula del Culto del Dragón que se había asentado en una mazmorra abandonada bajo el Bosque de Tethyr. Toda la Compañía, Marilyn, Paddy, el elfo Gotadeluna, Lawantha, los dos druidas Manny y Arkanus, y Tardeth, eran guerreros experimentados, y tuvimos éxito al derrotar al Culto. Debo admitir que luchar junto a una banda de aventureros tan experimentados fue un placer, y espero tener la oportunidad de volver hacerlo en el futuro.~
+@64 = ~La famosa Compañía de los Ocho
+
+  Finalmente he conocido a la Compañía de los Ocho de la que tanto había oído hablar. Este legendario grupo de aventureros de Tethyr ha tropezado con una fortaleza que esta siendo usada por el Culto del Dragón. Me invitaron a echar al Culto, y cuando estemos preparados para encargarme de esa misión, el lider de la Compañía, Tardeth, me ha pedido que se lo haga saber.
+  Espero que cuando estemos listos, buscar aventuras y combates con al Compañia de los Ocho sea algo que esté dentro de mis capacidades.~

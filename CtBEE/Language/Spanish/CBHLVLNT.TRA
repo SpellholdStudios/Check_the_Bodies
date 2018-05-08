@@ -1,0 +1,87 @@
+@1   = ~¡Ladrón! ¡¿Cómo osáis robarme?!~
+@2   = ~Os doy la bienvenida a Valiente.  Me alegra que encontrárais el lugar. Tengo grandes ofertas en armas de muy alta calidad. ¿Queréis echar un vistazo a los objetos que tengo a la venta?~
+@3   = ~Sí, sería de gran ayuda.~
+@4   = ~Tenéis objetos muy interesantes. ¿Cómo los conseguisteis?~
+@5   = ~Ahora no. No tengo dinero.~
+@6   = ~Parecéis un experto aventurero. ¿Tenéis algún buen relato de taberna que compartir?~
+@7   = ~Siento oir eso, amigo. No os preocupéis por ello, rondando por Hlondeth pronto encontraréis algo de dinero. Estan pasando suficientes cosas como para que un aventurero con experiencia se gane algunas monedas.~
+~Siento oir eso, amiga. No os preocupéis por ello, rondando por Hlondeth pronto encontraréis algo de dinero. Estan pasando suficientes cosas como para que una aventurera con experiencia se gane algunas monedas.~
+@8   = ~Claro, sin problema. Simplemente decidme lo que necesitáis, y veré que puedo hacer al respecto.~
+@9   = ~He visto algunas cosas por ahí fuera, en los Reinos. Historias que aterrarían a jóvenes y viejos, harían sonrojar a las sirvientas, o darme un trabajo como bardo de alguna corte.~
+@10  = ~Os hablaré del tiempo en que mi viejo grupo de aventureros fue emboscado a un demonio nacido en el infierno, si queréis oirlo, o quizás de cuando yo y unos pocos de mis amigos de la niñez matamos a un poderoso dragón rojo en su guarida.~
+@11  = ~Creo que preferiría ver lo que tenéis a la venta.~
+@12  = ~Habladme de vuestro encuentro con el lagarto.~
+@13  = ~¿Me contaríais la historia del demonio? Parece interesante.~
+@14  = ~Creo que estoy servido, gracias.~
+~Creo que estoy servida, gracias.~
+@15  = ~Bueno, os lo contaré. La caverna donde encontramos al rojo estaba casi completamente a oscuras. Todo lo que teníamos eran nuestras pequeñas linternas, por supuesto encapuchadas, y lo que mi amigo enano nos iba contando. Era un lugar húmedo, e incluso antes de que viéramos al dragón, todo lo que podíamos oir eran silbidos y ronquidos.~
+@16  = ~El ladrón de nuestro grupo nos indicó a todos que nos ocultáramos tras un saliente rocoso de la cueva. Él se deslizó derecho al lugar donde el dragón estaba durmiendo. Colocó un par de trampas desagradables, ese chico lo hizo.~
+@17  = ~Tras colocarlas, nuestro estirado mago nos lanzó algunos conjuros a los luchadores, y tomó el camino mas fácil, haciéndose invisible. El sacerdote de Helm que siempre venía con nosotros hizo lo mismo, pero luego desenfundó su maza y se unió a nosotros en el frente. Estábamos preparados para cargar.~
+@18  = ~Y entonces atacamos. Directos a los flancos derecho e izquierdo del dragón; yo golpeando con mi espada bastarda, nuestro ladrón lanzando flecha tras flecha parapetado tras las rocas.~
+@19  = ~En un par de segundos, ese dragón estaba despierto. Sangrando de como una docena de heridas, se encabritó y casi convirtió a mis amigos en cenizas. Pero estábamos dispersos, y siguió imprudentemente al sacerdote, derecho a las trampas que Belm había colocado antes. El dragón fue atravesado por cientos de diminutas agujas envenenadas de la trampa, y rugió tan alto que nos quedamos sordos una semana.~
+@20  = ~Lo teníamos acorralado. Pero no iba a caer sin luchar. Con un poderoso zarpazo, sus garras alcanzaron a Sard -nuestro helmita- y lo partió en dos. No hubo nada que pudiéramos hacer por él, salvo asegurarnos de que no muriera en vano. Belm siguió disparando, aunque ahora el dragón lo estaba mirando como si fuera un pincho moruno, y yo y los demás guerreros lo atacamos por ambos lados. Cortamos y clavamos durante horas, evitando sus dientes y garras, luchando por nuestras vidas.~
+@21  = ~Y al final, el dragón fue derrotado. Dolorosamente, le alcanzamos una última vez y cayó. Cayó de costado, muerto. Sólo perdimos a Sard, que Helm lo tenga en su gloria, y sufrimos cortes y heridas leves. Aunque tuve que comprarme una nueva armadura completa, en serio. Fue masticada y destrozada en una docena de sitios, y me llevó tiempo quitármela mientras sangraba, cómo lo recuerdo, pero con el botín que sacamos, gané monedas más que suficientes como para comprarme una buena y completamente nueva.~
+@22  = ~Así fue. Uno de los combates mas duros en los que he estado. Aunque al menos no fue tan malo como esas sangrientas batallas en las que luchamos todos los años cuando Thay nos invade.~
+@23  = ~¿Thay?  ¿Por qué querría Thay invadir Hlondeth?~
+@24  = ~Bueno, para ser honesto con vos, no recuerdo mucho de eso. Todo lo que sé es que nos enfrentamos a algún demonio del infierno, algo sobre un mago sanguinario que lo invocó, y el maldito hecho de que nos estaba esperando. Sabía que íbamos. Y nos tendió una trampa.~
+@25  = ~El engendro infernal mató a ocho de nuestra compañía sin ni siquiera parpadear. Y luego vino lo peor. Abrió una puerta directamente al infierno, y cuatro asquerosas criaturas más vinieron por ella. Os diría que intenté enfrentarme a las bestias, pero no fue así. Me golpeé la cabeza en una rama baja cuando estaba huyendo de ellas. Lo más afortunado que me ha pasado en la vida.~
+@26  = ~Podría haber sido también la cosa más estúpida, porque lo siguiente que supe es que había más de veinte magos a mi alrededor lanzándoles conjuros a los demonios, clérigos de todos los credos intentando expulsarlos, y soldados bien armados por todas partes.~
+@27  = ~Costó más de cien hombres encargarse de esas bestias, pero lo hicieron. No sé cómo, pero lo hicieron. Y nunca tuve que levantar un dedo contra las bestias, por suerte. Si lo hubiera hecho, seguramente no estaría aquí contándolo.~
+@28  = ~Oh, cada año lo intentan un par de veces. Cada una o dos estaciones, envían sus ejércitos de muertos vivientes desde Thay, cruzando el mar en barcos podridos con velas echas jirones. Los zombis que envían siempre son dirigidos por esqueletos guerreros.~
+@29  = ~Los monstruos intentan atacar a todas las tierras del Este, pero dado que abren el frente tanto, son débiles y siempre son derrotados con bastante facilidad. Y esta vez sabemos dónde se dirigen.~
+@30  = ~¿Esta vez? ¿Queréis decir que están viniendo hacia aquí ahora?~
+@31  = ~Por supuesto. Oí que Szass Tam va junto a la Legión de Myrkul y quiere probarla contra nosotros. Los rumores dicen que hay dos compañías que vienen a Hlondeth, pero yo ya soy viejo. Me encantaría salir y luchar contra ellos, pero mi pierna no me lo permite. Hlondeth ya ha enviado una cohorte de guardias, pero sé que aún están reclutando gente.~
+@32  = ~Estoy pensado, dado que ya estáis escudados y armados, probablemente podríais salir y ganar la paga de los mercenarios y algo de botín. ¿Por qué no? Tengo suficientes armas por aquí para que os ocupéis adecuadamente. ¿Queréis echar un vistazo?~
+@33  = ~Creo que ya estoy listo. Si quisiera dirigirme a luchar contra esos zombis, ¿dónde debería ir?~
+~Creo que ya estoy lista. Si quisiera dirigirme a luchar contra esos zombis, ¿dónde debería ir?~
+@34  = ~Sí, necesitaría algunas cosas más si voy a luchar contra los zombis de Thay.~
+@35  = ~No voy a luchar contra ningún zombi por Hlondeth.~
+@36  = ~Sé a lo qué os referís, pero no querréis que os conozcan como un cobarde. Mirad, os indicaré dónde creemos hacia dónde van los zombis, y si vos queréis ir, es cosa vuestra. Pero sólo seréis capaces de llegar a la llanura si tomáis por la puerta norte de la ciudad, así que cuando dejéis mi tienda, id directamente hacia el norte y llegaréis al Puente Azufre.~
+~Sé a lo que os referís, pero no querréis que os conozcan como una cobarde. Mirad, os indicaré dónde creemos hacia dónde van los zombis, y si vos queréis ir, es cosa vuestra. Pero sólo seréis capaces de llegar a la llanura si tomáis por la puerta norte de la ciudad, así que cuando dejéis mi tienda, id directamente hacia el norte y llegaréis al Puente Azufre.~
+@37  = ~Puedo ofreceros algo de equipo, pero mirad, dejadme mostraros dónde creemos que van los zombis. Deberíais daros prisa, no sé cuándo llegarán al barranco. Sólo seréis capaces de llegar a la llanura si tomáis por la puerta norte de la ciudad, así que cuando dejéis mi tienda, id directamente hacia el norte y llegaréis al Puente Azufre.~
+@38  = ~Si pensáis que estáis preparado, os mostraré dónde creemos que van los zombis. Deberíais daros prisa, no sé cuándo llegarán al barranco. Sólo seréis capaces de llegar a la llanura si tomáis por la puerta norte de la ciudad, así que cuando dejéis mi tienda, id directamente hacia el norte y llegaréis al Puente Azufre.~
+~Si pensáis que estáis preparada, os mostraré dónde creemos que van los zombis. Deberíais daros prisa, no sé cuándo llegarán al barranco. Sólo seréis capaces de llegar a la llanura si tomáis por la puerta norte de la ciudad, así que cuando dejéis mi tienda, id directamente hacia el norte y llegaréis al Puente Azufre.~
+@39  = ~¡<CHARNAME>! Sois digno de cualquiera de las armas que tengo aquí. He oído que la batalla en el Puente Azufre fue una completa derrota para la Legión.~
+~¡<CHARNAME>! Sois digna de cualquiera de las armas que tengo aquí. He oído que la batalla en el Puente Azufre fue una completa derrota para la Legión.~
+@40  = ~~
+@41  = ~Estoy seguro que fue vuestra ayuda la que inclinó la balanza a nuestro lado. Escuchad, tengo un regalo para vos. Es mi vieja espada, y estoy convencido de que va a seros muy útil. Llevadla con orgullo, <CHARNAME>. Sé que lo haréis.~
+@42  = ~¿Hay algo más en lo que pueda ayudaros?~
+@43  = ~Sí, me gustaría ver lo que tenéis a la venta.~
+@44  = ~Ahora no. Sólo quería saber si habíais oído las noticias.~
+@45  = ~Sí, las escuché. Y os lo agradezco. Si no hay nada más, hablaré con vos más tarde.~
+@46  = ~Tengo un acuerdo comercial con los enanos de la Gran Brecha, a unos ochocientos kilómetros al sur de nosotros, y una o dos veces al año, me envían sus mercancías.~
+@47  = ~Incluso a veces hacen algunas cosas especiales para mí. Es parte del contrato. Tengo que distribuir sus armas y equipo por todos los Reinos, incluso hasta Aguasprofundas, y ellos me suministran con mercancías de mayor calidad que cualquier otra arma, o que pueda fabricar un herrero.~
+@48  = ~Eso es fantástico. ¿Puedo volver a ver alguna de las armas que tenéis?~
+@49  = ~Creo que me iré ya. Gracias.~
+@50  = ~Está bien, si no hay nada más, hablaré con vos más tarde.~
+@51  = ~Es una buena hacha la que tenéis ahí. ¿Os importa que le eche un vistazo?~
+@52  = ~Sí, sí, desde luego, está bien forjada. Manufactura enana, la reconozco. Yo podría enviar este arma a mis contactos de la Gran Brecha, que podrían reforjarla para hacerla más poderosa.~
+@53  = ~El asunto es si tenéis bastante dinero para cubrir el envío, y además los enanos siempre exigen una gema o un artefacto por su trabajo. Estoy bastante seguro de que querrían algo caro por un trabajo así, algo como una Lágrima de Rey.~
+@54  = ~La tengo. Aquí, tomadla. Confío en que los enanos de la Brecha le den un buen uso.~
+@55  = ~No tengo ninguna. ¿Dónde podría encontrar algo así?~
+@56  = ~Tengo una de esas, pero creo que conservaré el hacha tal y como está.~
+@57  = ~Lo haré. Permitidme redactar la orden y preparar el paquete para el envío. Aguardad sólo un segundo.~
+@58  = ~Listo pues. Lo añadiré al próximo envío que atraviese Sespekh, y lo tendremos de regreso en una semana. Venid entonces. ¿Algo más?~
+@59  = ~Me gustaría ver lo que tenéis a la venta.~
+@60  = ~Estoy seguro de que encontraréis una en cualquier mazmorra, cueva o cripta común. Sólo mantened un ojo atento. ¿Algo más?~
+@61  = ~Como prefiráis. Sólo era un ofrecimiento. ¿Puedo hacer algo más por vos?~
+@62  = ~Bienvenido otra vez, mi bien adiestrado guerrero. Estoy seguro de que cualquier día llegará vuestra nueva hacha. ¿Qué puedo hacer por vos mientras tanto?~
+~Bienvenida otra vez, mi bien adiestrada guerrera. Estoy seguro de que cualquier día llegará vuestra nueva hacha. ¿Qué puedo hacer por vos mientras tanto?~
+@63  = ~Bienvenido otra vez, mi bien adiestrado guerrero. ¡Adivinad qué he recibido! ¡Vuestra nueva hacha! Es un arma realmente bella, y estaría encantado de tenerla en la batalla. Aquí está, echadle un vistazo.~
+~Bienvenida otra vez, mi bien adiestrada guerrera. ¡Adivinad qué he recibido! ¡Vuestra nueva hacha! Es un arma realmente bella, y estaría encantado de tenerla en la batalla. Aquí está, echadle un vistazo.~
+@64  = ~Bienvenido a Valiente, señor. Espero que el hacha sea de vuestro agrado. Así que, decidme, ¿qué os trae de nuevo a mi pequeña tienda?~ ~Bienvenido a Valiente, señora. Espero que el hacha sea de vuestro agrado. Así que, decidme, ¿qué os trae de nuevo a mi pequeña tienda?~
+@65 = ~Cerca de Casa
+
+Uno de los tenderos de Hlondeth me ha señalado el hecho de que Thay ha enviado la Legión de Myrkul, una compañía de infantería pesada de zombis con poco entrenamiento a la ciudad libre. Me indicó dónde los soldados de Hlondeth van a enfrentarse en batalla contra los zombis, y me deseó suerte. Supongo que si llego a tiempo, los oficiales de Hlondeth puedan ofrecerme una posición para defender.~
+@66 = ~He traído la gema.~
+@67 = ~¿Conocéis un metal llamado persephonium?~
+@68 = ~Conozco tal metal, pero nunca he trabajado con él. Es demasiado precioso y escaso como para dárselo a los herreros humanos, dicen.~
+@69 = ~Tampoco he tenido nunca tal necesidad. Sería un desperdicio de metal dárselo a un herrero normal. Los maestros enanos de las runas, y los armeros elfos trabajan metales así, y sólo para su uso propio.~
+@70 = ~Pero es un asunto de gran importancia. ¿Sabéis dónde puedo encontrarlo?~
+@71 = ~Los enanos están de acuerdo con el trato. Aquí está vuestro persephonium.~
+@72 = ~Bueno, supongo que los enanos de la Brecha tendrán algo. Pero no os lo darán sin más.~
+@73 = ~Pero estoy seguro de que podemos negociarlo. Supongo que una Piedra Pícara podría ser suficiente.~
+@74 = ~Sí, eso es. Traedme una Piedra Pícara y os conseguiré un trato.~
+@75 = ~Gracias, lo haré.~
+@76 = ~Pero las serpientes tienen en un puño a esta ciudad.~
+@77 = ~Excelente. Os conseguiré el trato. Volved en unos días.~

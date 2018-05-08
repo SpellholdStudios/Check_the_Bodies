@@ -1,0 +1,20 @@
+IF
+	HitBy([ANYONE],FIRE)
+THEN
+	RESPONSE #100
+		IncrementGlobal("CbDeerDamage","LOCALS",1)
+		Continue()
+END
+
+IF
+	GlobalGT("CbDeerDamage","LOCALS",18)
+	Global("CbRangerDeadDear","GLOBAL",1)
+	Exists(Myself)
+THEN
+	RESPONSE #100
+		SetGlobal("CbRangerDeadDear","GLOBAL",2)
+		SetGlobal("CbDearStoppedPoisoningRiver","AR3595",1)
+		DestroySelf()
+END
+
+

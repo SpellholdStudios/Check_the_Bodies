@@ -1,0 +1,49 @@
+IF
+	!GlobalTimerNotExpired("CbSelimWails","LOCALS")
+	See(NearestEnemyOf(Myself))
+	Allegiance(Myself,ENEMY)
+	GlobalLT("CbSelimWailsLoudly","LOCALS",5)
+THEN
+	RESPONSE #100
+		IncrementGlobal("CbSelimWailsLoudly","LOCALS",1)
+		SetGlobalTimer("CbSelimWails","LOCALS",40)
+		ReallyForceSpell(LastSeenBy(Myself),WIZARD_WAIL_OF_THE_BANSHEE)
+END
+
+IF
+	HaveSpell(WIZARD_INVISIBLE_STALKER)
+	See(NearestEnemyOf(Myself))
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_INVISIBLE_STALKER)
+END
+
+IF
+	HaveSpell(WIZARD_FLESH_TO_STONE)
+	See(NearestEnemyOf(Myself))
+	!StateCheck(LastSeenBy(Myself),STATE_STONE_DEATH)
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_FLESH_TO_STONE)
+END
+
+IF
+	HaveSpell(WIZARD_CHAOS)
+	See(NearestEnemyOf(Myself))
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_CHAOS)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),6)
+END
+
+

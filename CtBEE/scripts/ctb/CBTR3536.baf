@@ -1,0 +1,44 @@
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("CbDoorOpen","AR3535",1)
+	CheckStatGT(LastTrigger,16,STR)
+THEN
+	RESPONSE #100
+		SetGlobal("CbDoorOpen","AR3535",2)
+		DisplayString(Myself,@550142)
+		Wait(1)
+		TriggerActivation("DoorStuck",FALSE)
+		TriggerActivation("Tran3536",TRUE)
+		SetGlobal("CbDoorOpen","AR3535",2)
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("CbDoorOpen","AR3535",1)
+	CheckStatLT(LastTrigger,17,STR)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@550143)
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("CbDoorOpen","AR3535",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbDoorOpen","AR3535",1)
+		DisplayString(Myself,@550144)
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14702) // You are too far away to use that.
+END
+
+

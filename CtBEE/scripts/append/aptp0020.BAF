@@ -1,0 +1,53 @@
+IF
+	Global("CbPartyGotThisFar","AR0020",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPartyGotThisFar","AR0020",1)
+		RevealAreaOnMap("AR3610")
+		RevealAreaOnMap("AR3611")
+		RevealAreaOnMap("AR3613")
+		RevealAreaOnMap("AR3540")
+		RevealAreaOnMap("AR3597")
+		RevealAreaOnMap("AR3000")
+		Continue()
+END
+
+IF
+	OR(2)
+		GlobalGT("BodhiJob","GLOBAL",3)
+		GlobalGT("TalkedLinvail","GLOBAL",0)
+	Global("CbTaxAnnouncement","GLOBAL",0)
+	AreaType(OUTDOOR)
+THEN
+	RESPONSE #100
+		SetGlobal("CbTaxAnnouncement","GLOBAL",1)
+		CreateCreatureOffScreen("CBTAXCVA",0)
+		Continue()
+END
+
+IF
+	Global("CbSpawnDSACK_Starter","AR0020",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpawnDSACK_Starter","AR0020",1)
+		CreateCreatureOffScreen("CBBDSTRT",0)
+		Continue()
+END
+
+IF
+	OR(7)
+		Class(Player1,MAGE)
+		Class(Player1,FIGHTER_MAGE)
+		Class(Player1,CLERIC_MAGE)
+		Class(Player1,MAGE_THIEF)
+		Class(Player1,SORCERER)
+		Class(Player1,FIGHTER_MAGE_THIEF)
+		Class(Player1,FIGHTER_MAGE_CLERIC)
+	LevelGT(Player1,9)
+	Global("CbDearPrudence","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbDearPrudence","GLOBAL",1)
+		CreateCreatureOffScreen("CBRYBERG",6)
+		Continue()
+END

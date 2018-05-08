@@ -1,0 +1,59 @@
+IF
+	Global("CbCult_O_D_Items","LOCALS",0)
+THEN
+	RESPONSE #20
+		SetGlobal("CbCult_O_D_Items","LOCALS",1)
+		GiveItemCreate("POTN05",Myself,1,1,0) // Potion of Fire Giant Strength
+		EquipItem("POTN05") // Potion of Fire Giant Strength
+	RESPONSE #20
+		SetGlobal("CbCult_O_D_Items","LOCALS",1)
+		GiveItemCreate("POTN08",Myself,2,1,0) // Potion of Healing
+		EquipItem("POTN08") // Potion of Healing
+	RESPONSE #20
+		SetGlobal("CbCult_O_D_Items","LOCALS",1)
+		GiveItemCreate("POTN14",Myself,1,1,0) // Oil of Speed
+		EquipItem("POTN14") // Oil of Speed
+	RESPONSE #20
+		SetGlobal("CbCult_O_D_Items","LOCALS",1)
+		GiveItemCreate("POTN34",Myself,1,1,0) // Potion of Magic Protection
+		EquipItem("POTN34") // Potion of Magic Protection
+	RESPONSE #20
+		SetGlobal("CbCult_O_D_Items","LOCALS",1)
+		GiveItemCreate("POTN52",Myself,1,1,0) // Potion of Extra Healing
+		EquipItem("POTN52") // Potion of Extra Healing
+END
+
+IF
+	!GlobalTimerNotExpired("Cb_COD_Taunts","LOCALS")
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #10
+		SetGlobalTimer("Cb_COD_Taunts","LOCALS",18)
+		DisplayStringHead(Myself,@550307) // No such index
+	RESPONSE #10
+		SetGlobalTimer("Cb_COD_Taunts","LOCALS",24)
+		DisplayStringHead(Myself,@550308) // No such index
+	RESPONSE #10
+		SetGlobalTimer("Cb_COD_Taunts","LOCALS",36)
+		DisplayStringHead(Myself,@550309) // No such index
+	RESPONSE #10
+		SetGlobalTimer("Cb_COD_Taunts","LOCALS",30)
+		DisplayStringHead(Myself,@550310) // No such index
+	RESPONSE #10
+		SetGlobalTimer("Cb_COD_Taunts","LOCALS",6)
+		DisplayStringHead(Myself,@550311) // No such index
+	RESPONSE #10
+		SetGlobalTimer("Cb_COD_Taunts","LOCALS",60)
+		DisplayStringHead(Myself,@550312) // No such index
+	RESPONSE #10
+		SetGlobalTimer("Cb_COD_Taunts","LOCALS",45)
+		DisplayStringHead(Myself,@550313) // No such index
+	RESPONSE #10
+		SetGlobalTimer("Cb_COD_Taunts","LOCALS",38)
+		DisplayStringHead(Myself,@550314) // No such index
+	RESPONSE #20
+		SetGlobalTimer("Cb_COD_Taunts","LOCALS",52)
+		DisplayStringHead(Myself,@550315) // No such index
+END
+
+

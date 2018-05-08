@@ -1,0 +1,21 @@
+IF
+        Global("CbWeddingQuestStarts","GLOBAL",7)
+        Global("CbSurayahGetsMarried","GLOBAL",6)
+        Global("CbCanDoWedding","GLOBAL",1)
+        Global("CbSaerkIntiateGetTheHellOut","AR0504",1)
+THEN
+        RESPONSE #100
+                 DestroySelf()
+                 SetGlobal("t#spawninvi","AR0504",2)
+END
+
+IF
+        Global("CbSurayahRunsAway","GLOBAL",3)
+        Global("CbSurayahDoesntGoToStronghold","AR0505",2)
+        Global("CbWeddingQuestStarts","GLOBAL",8)
+        Global("CbCanDoWedding","GLOBAL",1)
+THEN
+        RESPONSE #100
+                 DestroySelf()
+                 SetGlobal("t#spawninvi","AR0504",2)
+END

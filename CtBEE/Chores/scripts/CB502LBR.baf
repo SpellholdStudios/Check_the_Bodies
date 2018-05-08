@@ -1,0 +1,56 @@
+IF
+	Global("CbPlayerTookDayOneBooks","AR3502",0)
+	Global("CbPlayerHasBooksForDay","LOCALS",0)
+	!HasItem("CB502D2D",Myself)
+THEN
+	RESPONSE #100
+		GiveItemCreate("CB502D2D",Myself,1,0,0)
+		GiveItemCreate("CB502D2B",Myself,1,0,0)
+		GiveItemCreate("CB502D2N",Myself,1,0,0)
+		GiveItemCreate("CB502D2T",Myself,1,0,0)
+		SetGlobal("CbPlayerShelvedBookCorrectly","AR3502",0)
+END
+
+IF
+	Global("CbPlayerTookDayOneBooks","AR3502",1)
+	Global("CbPlayerTookDayTwoBooks","AR3502",0)
+	Global("CbPlayerHasBooksForDay","LOCALS",1)
+	!HasItem("CB502D3D",Myself)
+THEN
+	RESPONSE #100
+		GiveItemCreate("CB502D3D",Myself,1,0,0)
+		GiveItemCreate("CB502D3G",Myself,1,0,0)
+		GiveItemCreate("CB502D3N",Myself,1,0,0)
+		GiveItemCreate("CB502D3U",Myself,1,0,0)
+		SetGlobal("CbPlayerShelvedBookCorrectly","AR3502",0)
+END
+
+IF
+	Global("CbPlayerTookDayTwoBooks","AR3502",1)
+	Global("CbPlayerTookDayThreeBooks","AR3502",0)
+	Global("CbPlayerHasBooksForDay","LOCALS",2)
+	!HasItem("CB502D4F",Myself)
+THEN
+	RESPONSE #100
+		GiveItemCreate("CB502D4F",Myself,1,0,0)
+		GiveItemCreate("CB502D4H",Myself,1,0,0)
+		GiveItemCreate("CB502D4N",Myself,1,0,0)
+		GiveItemCreate("CB502D4G",Myself,1,0,0)
+		SetGlobal("CbPlayerShelvedBookCorrectly","AR3502",0)
+END
+
+IF
+	Global("CbPlayerTookDayThreeBooks","AR3502",1)
+	Global("CbPlayerTookDayFourBooks","AR3502",0)
+	Global("CbPlayerHasBooksForDay","LOCALS",3)
+	!HasItem("CB502D5O",Myself)
+THEN
+	RESPONSE #100
+		GiveItemCreate("CB502D5O",Myself,1,0,0)
+		GiveItemCreate("CB502D5P",Myself,1,0,0)
+		GiveItemCreate("CB502D5N",Myself,1,0,0)
+		GiveItemCreate("CB502D5B",Myself,1,0,0)
+		SetGlobal("CbPlayerShelvedBookCorrectly","AR3502",0)
+END
+
+

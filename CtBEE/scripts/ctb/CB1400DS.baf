@@ -1,0 +1,22 @@
+IF
+	Clicked([ANYONE])
+	GlobalLT("CbInformedAboutRoots","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayStringNoName(Myself,@550023)
+END
+
+IF
+	Clicked([ANYONE])
+	Global("CbInformedAboutRoots","GLOBAL",1)
+	Global("CbClubMossInfoClicked","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbClubMossInfoClicked","GLOBAL",1)
+		DisplayStringNoName(Myself,@550023)
+		TriggerActivation("ClubMossInfo",FALSE)
+		Wait(2)
+		ContainerEnable("ClubMossCont",TRUE)
+END
+
+

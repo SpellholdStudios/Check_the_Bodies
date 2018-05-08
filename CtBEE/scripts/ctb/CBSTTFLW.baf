@@ -1,0 +1,77 @@
+IF
+	Global("Cb_TardethDied","GLOBAL",1)
+	Global("CbCompanyAnnouncedTardeth","GLOBAL",0)
+	!HasItem("CBCO8HP1",Myself)
+THEN
+	RESPONSE #100
+		StartDialogOverride("CBCO8DIE",Player1)
+END
+
+IF
+	Global("Cb_SylvanusDied","GLOBAL",1)
+	Global("CbCompanyAnnouncedSylvanus","GLOBAL",0)
+	!HasItem("CBCO8HP1",Myself)
+THEN
+	RESPONSE #100
+		StartDialogOverride("CBCO8DIE",Player1)
+END
+
+IF
+	Global("Cb_LawanthaDied","GLOBAL",1)
+	Global("CbCompanyAnnouncedLawantha","GLOBAL",0)
+	!HasItem("CBCO8HP1",Myself)
+THEN
+	RESPONSE #100
+		StartDialogOverride("CBCO8DIE",Player1)
+END
+
+IF
+	Global("Cb_MarilynDied","GLOBAL",1)
+	Global("CbCompanyAnnouncedMarilyn","GLOBAL",0)
+	!HasItem("CBCO8HP1",Myself)
+THEN
+	RESPONSE #100
+		StartDialogOverride("CBCO8DIE",Player1)
+END
+
+IF
+	Global("Cb_TardethDied","GLOBAL",0)
+	Global("CbCompanyAnnouncedTardeth","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCompanyAnnouncedTardeth","GLOBAL",0)
+END
+
+IF
+	Global("Cb_SylvanusDied","GLOBAL",0)
+	Global("CbCompanyAnnouncedSylvanus","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCompanyAnnouncedSylvanus","GLOBAL",0)
+END
+
+IF
+	Global("Cb_LawanthaDied","GLOBAL",0)
+	Global("CbCompanyAnnouncedLawantha","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCompanyAnnouncedLawantha","GLOBAL",0)
+END
+
+IF
+	Global("Cb_MarilynDied","GLOBAL",0)
+	Global("CbCompanyAnnouncedMarilyn","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCompanyAnnouncedMarilyn","GLOBAL",0)
+END
+
+IF
+	Global("CbZannasterFinallyChanging","AR3532",2)
+	CombatCounter(0)
+	Dead("CBC8CTZL")
+	!AreaCheck("AR2600")
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Nearest([GOODCUTOFF]))
+END

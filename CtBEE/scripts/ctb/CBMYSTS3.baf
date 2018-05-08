@@ -1,0 +1,47 @@
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("Star1","AR3637",1)
+	Global("Star2","AR3637",1)
+	Global("Star3","AR3637",0)
+	Global("Star4","AR3637",1)
+	Global("Star5","AR3637",1)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@550133) // When you touch this golden star, the air around the altar of Mystra shimmers briefly, then fades.
+		SetGlobal("Star3","AR3637",1)
+		AddexperienceParty(52490)
+		PlaySound("EFF_M62")
+		Unlock("Altar")
+		ContainerEnable("Altar",TRUE)
+		TriggerActivation("Star3",FALSE)
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@550132) // When you touch this golden star, it begins to glow.  You have the sinking feeling that you have done something wrong.
+		SetGlobal("Star1","AR3637",0)
+		SetGlobal("Star2","AR3637",0)
+		SetGlobal("Star3","AR3637",0)
+		SetGlobal("Star4","AR3637",0)
+		SetGlobal("Star5","AR3637",0)
+		TriggerActivation("Star1",TRUE)
+		TriggerActivation("Star2",TRUE)
+		TriggerActivation("Star3",TRUE)
+		TriggerActivation("Star4",TRUE)
+		TriggerActivation("Star5",TRUE)
+		ForceSpell(LastTrigger,TRAP_LIGHTNING_BOLT)
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14702) // You are too far away to use that.
+END
+
+

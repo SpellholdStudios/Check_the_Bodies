@@ -1,0 +1,621 @@
+IF
+        Global("t#asti_timer1","GLOBAL",0)
+        Global("CbRynnsQuest","GLOBAL",3)
+THEN
+        RESPONSE #100
+                 SetGlobalTimer("CbCanSpawnAstinarNow","GLOBAL",15)
+                 SetGlobal("t#asti_timer1","GLOBAL",1)
+END
+
+IF
+        Global("t#asti_timer2","GLOBAL",0)
+        Global("CbRynnsQuest","GLOBAL",5)
+THEN
+        RESPONSE #100
+                 SetGlobalTimer("CbCanSpawnAstinarAgain","GLOBAL",15)
+                 SetGlobal("t#asti_timer2","GLOBAL",1)
+END
+
+IF
+	InParty("RYNNPC06")
+	Global("CbRynnsQuest","GLOBAL",7)
+	GlobalGT("SPRITE_IS_DEADCBYT4446","GLOBAL",27)
+	!AreaCheck("AR3644")
+	!AreaCheck("AR3645")
+	!AreaCheck("AR3646")
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		ActionOverride("RYNNPC06",SetDialog("RYNN"))
+		ActionOverride("RYNNPC06",StartDialogueNoSet(Player1))
+END
+
+IF
+	InParty("RYNNPC11")
+	Global("CbRynnsQuest","GLOBAL",7)
+	GlobalGT("SPRITE_IS_DEADCBYT4446","GLOBAL",27)
+	!AreaCheck("AR3644")
+	!AreaCheck("AR3645")
+	!AreaCheck("AR3646")
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		ActionOverride("RYNNPC11",SetDialog("RYNN"))
+		ActionOverride("RYNNPC11",StartDialogueNoSet(Player1))
+END
+
+IF
+	InParty("RYNNPC15")
+	Global("CbRynnsQuest","GLOBAL",7)
+	GlobalGT("SPRITE_IS_DEADCBYT4446","GLOBAL",27)
+	!AreaCheck("AR3644")
+	!AreaCheck("AR3645")
+	!AreaCheck("AR3646")
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		ActionOverride("RYNNPC15",SetDialog("RYNN"))
+		ActionOverride("RYNNPC15",StartDialogueNoSet(Player1))
+END
+
+IF
+	InParty("RYNNPC19")
+	Global("CbRynnsQuest","GLOBAL",7)
+	GlobalGT("SPRITE_IS_DEADCBYT4446","GLOBAL",27)
+	!AreaCheck("AR3644")
+	!AreaCheck("AR3645")
+	!AreaCheck("AR3646")
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		ActionOverride("RYNNPC19",SetDialog("RYNN"))
+		ActionOverride("RYNNPC19",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("CbRynnsQuest","GLOBAL",3)
+	Global("CbAstinarSpawnOne","GLOBAL",0)
+	GlobalTimerExpired("CbCanSpawnAstinarNow","GLOBAL")
+	RandomNum(33,1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbAstinarSpawnOne","GLOBAL",1)
+		CreateCreatureOffScreen("CBGONAST",0)
+END
+
+IF
+	Global("CbRynnsQuest","GLOBAL",5)
+	Global("CbAstinarSpawnTwo","GLOBAL",0)
+	GlobalTimerExpired("CbCanSpawnAstinarAgain","GLOBAL")
+	RandomNum(33,1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbAstinarSpawnTwo","GLOBAL",1)
+		CreateCreatureOffScreen("CBGONAST",0)
+END
+
+IF
+	OpenState("Door04",TRUE)
+	Global("CbOpenedExtaminosGate","AR3611",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbOpenedExtaminosGate","AR3611",1)
+END
+
+IF
+	Global("CbHlondethStreetScene","AR3611",0)
+	RandomNum(3,1)
+THEN
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0W1",[1093.774],0)
+		CreateCreature("CBHLD0W2",[1063.813],0)
+		CreateCreature("CBHLD0W3",[1097.837],0)
+		ActionOverride("CBHLD0W1",SetName(@550234))
+		ActionOverride("CBHLD0W2",SetName(@550234))
+		ActionOverride("CBHLD0W3",SetName(@550234))
+		ActionOverride("CBHLD0W1",SetGlobal("CbIamA_HardCurrencyGirl","LOCALS",1))
+		ActionOverride("CBHLD0W2",SetGlobal("CbIamA_HardCurrencyGirl","LOCALS",1))
+		ActionOverride("CBHLD0W3",SetGlobal("CbIamA_HardCurrencyGirl","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M2",[1093.774],0)
+		ActionOverride("CBHLD0M2",SetName(@550235))
+		ActionOverride("CBHLD0M2",SetGlobal("CbIamA_WarVeteran","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M1",[1093.774],0)
+		CreateCreature("CBHLD0W1",[1063.813],0)
+		ActionOverride("CBHLD0M1",SetName(@550236))
+		ActionOverride("CBHLD0W1",SetName(@550236))
+		ActionOverride("CBHLD0M1",SetGlobal("CbIamA_Tourist","LOCALS",1))
+		ActionOverride("CBHLD0W1",SetGlobal("CbIamA_Tourist","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0W1",[1093.774],0)
+		ActionOverride("CBHLD0W1",SetName(@550237))
+		ActionOverride("CBHLD0W1",SetGlobal("CbIamA_Minstrel","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M2",[1093.774],0)
+		ActionOverride("CBHLD0M2",SetName(@550238))
+		ActionOverride("CBHLD0M2",SetGlobal("CbIamA_Lamplighter","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		SetGlobal("CbDrunkRowdyGoesEnemy","AR3611",0)
+		CreateCreature("CBHLD0M3",[1093.774],0)
+		ActionOverride("CBHLD0M3",SetName(@550239))
+		ActionOverride("CBHLD0M3",SetGlobal("CbIamA_DrunkenRowdy","LOCALS",1))
+		CreateCreature("CBHLD0M4",[1063.813],0)
+		ActionOverride("CBHLD0M4",SetName(@550239))
+		ActionOverride("CBHLD0M4",SetGlobal("CbIamA_DrunkenRowdy","LOCALS",1))
+		CreateCreature("CBHLD0M5",[1097.837],0)
+		ActionOverride("CBHLD0M5",SetName(@550239))
+		ActionOverride("CBHLD0M5",SetGlobal("CbIamA_DrunkenRowdy","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		SetGlobal("CbHlondethIsForLovers","AR3611",0)
+		CreateCreature("CBHLD0M1",[1093.774],0)
+		ActionOverride("CBHLD0M1",SetName(@550240))
+		ActionOverride("CBHLD0M1",SetGlobal("CbIamA_Lover","LOCALS",1))
+		CreateCreature("CBHLD0W1",[1063.813],0)
+		ActionOverride("CBHLD0W1",SetName(@550240))
+		ActionOverride("CBHLD0W1",SetGlobal("CbIamA_Lover","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M6",[1093.774],0)
+		ActionOverride("CBHLD0M6",SetName(@550241))
+		ActionOverride("CBHLD0M6",SetGlobal("CbIamA_Horse","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0W4",[1093.774],0)
+		ActionOverride("CBHLD0W4",SetName(@550242))
+		ActionOverride("CBHLD0W4",SetGlobal("CbIamA_Ruffian","LOCALS",1))
+		CreateCreature("CBHLD0W5",[1063.813],0)
+		ActionOverride("CBHLD0W5",SetName(@550242))
+		ActionOverride("CBHLD0W5",SetGlobal("CbIamA_Ruffian","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M7",[1093.774],0)
+		ActionOverride("CBHLD0M7",SetName(@550243))
+		ActionOverride("CBHLD0M7",SetGlobal("CbIamA_Merc","LOCALS",1))
+		CreateCreature("CBHLD0M8",[1063.813],0)
+		ActionOverride("CBHLD0M8",SetName(@550243))
+		ActionOverride("CBHLD0M8",SetGlobal("CbIamA_Merc","LOCALS",1))
+		CreateCreature("CBHLD0M9",[1097.837],0)
+		ActionOverride("CBHLD0M9",SetName(@550243))
+		ActionOverride("CBHLD0M9",SetGlobal("CbIamA_Merc","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M3",[1093.774],0)
+		ActionOverride("CBHLD0M3",SetName(@550244))
+		ActionOverride("CBHLD0M3",SetGlobal("CbIamA_DrunkenForeigner","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0W1",[1093.774],0)
+		ActionOverride("CBHLD0W1",SetName(@550245))
+		ActionOverride("CBHLD0W1",SetGlobal("CbIamA_ShoppingWoman","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M3",[1093.774],0)
+		ActionOverride("CBHLD0M3",SetName(@550246))
+		ActionOverride("CBHLD0M3",SetGlobal("CbIamA_WagonLoader","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0W6",[1093.774],0)
+		ActionOverride("CBHLD0W6",SetName(@550247))
+		ActionOverride("CBHLD0W6",SetGlobal("CbIamA_InsanePriest","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		SetGlobal("CbHlondethCourtesanDialog","AR3611",0)
+		CreateCreature("CBHLD0W1",[1093.774],0)
+		ActionOverride("CBHLD0W1",SetName(@550248))
+		ActionOverride("CBHLD0W1",SetGlobal("CbIamA_CourtesanwithEscort","LOCALS",1))
+		CreateCreature("CBHLD0M1",[1063.813],0)
+		ActionOverride("CBHLD0M1",SetName(@550249))
+		ActionOverride("CBHLD0M1",SetGlobal("CbIamA_EscortwithCourtesan","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M3",[1093.774],0)
+		ActionOverride("CBHLD0M3",SetName(@550250))
+		ActionOverride("CBHLD0M3",SetGlobal("CbIamA_CrierForValiants","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0Ma",[1093.774],0)
+		ActionOverride("CBHLD0Ma",SetName(@550251))
+		ActionOverride("CBHLD0Ma",SetGlobal("CbIamA_Beggar","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0W7",[1093.774],0)
+		ActionOverride("CBHLD0W7",SetName(@550252))
+		ActionOverride("CBHLD0W7",SetGlobal("CbIamA_Noblewoman","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M3",[1093.774],0)
+		ActionOverride("CBHLD0M3",SetName(@550253))
+		ActionOverride("CBHLD0M3",SetGlobal("CbIamA_Restauranteur","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M2",[1093.774],0)
+		ActionOverride("CBHLD0M2",SetName(@550254))
+		ActionOverride("CBHLD0M2",SetGlobal("CbIamA_Messanger","LOCALS",1))
+END
+
+IF
+	Global("CbHlondethStreetScene","AR3611",0)
+	RandomNum(3,2)
+THEN
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0W1",[328.401],0)
+		CreateCreature("CBHLD0W2",[289.384],0)
+		CreateCreature("CBHLD0W3",[264.419],0)
+		ActionOverride("CBHLD0W1",SetName(@550234))
+		ActionOverride("CBHLD0W2",SetName(@550234))
+		ActionOverride("CBHLD0W3",SetName(@550234))
+		ActionOverride("CBHLD0W1",SetGlobal("CbIamA_HardCurrencyGirl","LOCALS",1))
+		ActionOverride("CBHLD0W2",SetGlobal("CbIamA_HardCurrencyGirl","LOCALS",1))
+		ActionOverride("CBHLD0W3",SetGlobal("CbIamA_HardCurrencyGirl","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M2",[328.401],0)
+		ActionOverride("CBHLD0M2",SetName(@550235))
+		ActionOverride("CBHLD0M2",SetGlobal("CbIamA_WarVeteran","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M1",[328.401],0)
+		CreateCreature("CBHLD0W1",[289.384],0)
+		ActionOverride("CBHLD0M1",SetName(@550236))
+		ActionOverride("CBHLD0W1",SetName(@550236))
+		ActionOverride("CBHLD0M1",SetGlobal("CbIamA_Tourist","LOCALS",1))
+		ActionOverride("CBHLD0W1",SetGlobal("CbIamA_Tourist","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0W1",[328.401],0)
+		ActionOverride("CBHLD0W1",SetName(@550237))
+		ActionOverride("CBHLD0W1",SetGlobal("CbIamA_Minstrel","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M2",[328.401],0)
+		ActionOverride("CBHLD0M2",SetName(@550238))
+		ActionOverride("CBHLD0M2",SetGlobal("CbIamA_Lamplighter","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		SetGlobal("CbDrunkRowdyGoesEnemy","AR3611",0)
+		CreateCreature("CBHLD0M3",[328.401],0)
+		ActionOverride("CBHLD0M3",SetName(@550239))
+		ActionOverride("CBHLD0M3",SetGlobal("CbIamA_DrunkenRowdy","LOCALS",1))
+		CreateCreature("CBHLD0M4",[289.384],0)
+		ActionOverride("CBHLD0M4",SetName(@550239))
+		ActionOverride("CBHLD0M4",SetGlobal("CbIamA_DrunkenRowdy","LOCALS",1))
+		CreateCreature("CBHLD0M5",[264.419],0)
+		ActionOverride("CBHLD0M5",SetName(@550239))
+		ActionOverride("CBHLD0M5",SetGlobal("CbIamA_DrunkenRowdy","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		SetGlobal("CbHlondethIsForLovers","AR3611",0)
+		CreateCreature("CBHLD0M1",[328.401],0)
+		ActionOverride("CBHLD0M1",SetName(@550240))
+		ActionOverride("CBHLD0M1",SetGlobal("CbIamA_Lover","LOCALS",1))
+		CreateCreature("CBHLD0W1",[289.384],0)
+		ActionOverride("CBHLD0W1",SetName(@550240))
+		ActionOverride("CBHLD0W1",SetGlobal("CbIamA_Lover","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M6",[328.401],0)
+		ActionOverride("CBHLD0M6",SetName(@550241))
+		ActionOverride("CBHLD0M6",SetGlobal("CbIamA_Horse","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0W4",[328.401],0)
+		ActionOverride("CBHLD0W4",SetName(@550242))
+		ActionOverride("CBHLD0W4",SetGlobal("CbIamA_Ruffian","LOCALS",1))
+		CreateCreature("CBHLD0W5",[289.384],0)
+		ActionOverride("CBHLD0W5",SetName(@550242))
+		ActionOverride("CBHLD0W5",SetGlobal("CbIamA_Ruffian","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M7",[328.401],0)
+		ActionOverride("CBHLD0M7",SetName(@550243))
+		ActionOverride("CBHLD0M7",SetGlobal("CbIamA_Merc","LOCALS",1))
+		CreateCreature("CBHLD0M8",[289.384],0)
+		ActionOverride("CBHLD0M8",SetName(@550243))
+		ActionOverride("CBHLD0M8",SetGlobal("CbIamA_Merc","LOCALS",1))
+		CreateCreature("CBHLD0M9",[264.419],0)
+		ActionOverride("CBHLD0M9",SetName(@550243))
+		ActionOverride("CBHLD0M9",SetGlobal("CbIamA_Merc","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M3",[328.401],0)
+		ActionOverride("CBHLD0M3",SetName(@550244))
+		ActionOverride("CBHLD0M3",SetGlobal("CbIamA_DrunkenForeigner","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0W1",[328.401],0)
+		ActionOverride("CBHLD0W1",SetName(@550245))
+		ActionOverride("CBHLD0W1",SetGlobal("CbIamA_ShoppingWoman","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M3",[328.401],0)
+		ActionOverride("CBHLD0M3",SetName(@550246))
+		ActionOverride("CBHLD0M3",SetGlobal("CbIamA_WagonLoader","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0W6",[328.401],0)
+		ActionOverride("CBHLD0W6",SetName(@550247))
+		ActionOverride("CBHLD0W6",SetGlobal("CbIamA_InsanePriest","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		SetGlobal("CbHlondethCourtesanDialog","AR3611",0)
+		CreateCreature("CBHLD0W1",[328.401],0)
+		ActionOverride("CBHLD0W1",SetName(@550248))
+		ActionOverride("CBHLD0W1",SetGlobal("CbIamA_CourtesanwithEscort","LOCALS",1))
+		CreateCreature("CBHLD0M1",[289.384],0)
+		ActionOverride("CBHLD0M1",SetName(@550249))
+		ActionOverride("CBHLD0M1",SetGlobal("CbIamA_EscortwithCourtesan","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M3",[328.401],0)
+		ActionOverride("CBHLD0M3",SetName(@550250))
+		ActionOverride("CBHLD0M3",SetGlobal("CbIamA_CrierForValiants","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0Ma",[328.401],0)
+		ActionOverride("CBHLD0Ma",SetName(@550251))
+		ActionOverride("CBHLD0Ma",SetGlobal("CbIamA_Beggar","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0W7",[328.401],0)
+		ActionOverride("CBHLD0W7",SetName(@550252))
+		ActionOverride("CBHLD0W7",SetGlobal("CbIamA_Noblewoman","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M3",[328.401],0)
+		ActionOverride("CBHLD0M3",SetName(@550253))
+		ActionOverride("CBHLD0M3",SetGlobal("CbIamA_Restauranteur","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M2",[328.401],0)
+		ActionOverride("CBHLD0M2",SetName(@550254))
+		ActionOverride("CBHLD0M2",SetGlobal("CbIamA_Messanger","LOCALS",1))
+END
+
+IF
+	Global("CbHlondethStreetScene","AR3611",0)
+	RandomNum(3,3)
+THEN
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0W1",[601.1232],0)
+		CreateCreature("CBHLD0W2",[648.1228],0)
+		CreateCreature("CBHLD0W3",[574.1272],0)
+		ActionOverride("CBHLD0W1",SetName(@550234))
+		ActionOverride("CBHLD0W2",SetName(@550234)) 
+		ActionOverride("CBHLD0W3",SetName(@550234))
+		ActionOverride("CBHLD0W1",SetGlobal("CbIamA_HardCurrencyGirl","LOCALS",1))
+		ActionOverride("CBHLD0W2",SetGlobal("CbIamA_HardCurrencyGirl","LOCALS",1))
+		ActionOverride("CBHLD0W3",SetGlobal("CbIamA_HardCurrencyGirl","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M2",[601.1232],0)
+		ActionOverride("CBHLD0M2",SetName(@550235))
+		ActionOverride("CBHLD0M2",SetGlobal("CbIamA_WarVeteran","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M1",[601.1232],0)
+		CreateCreature("CBHLD0W1",[648.1228],0)
+		ActionOverride("CBHLD0M1",SetName(@550236))
+		ActionOverride("CBHLD0W1",SetName(@550236))
+		ActionOverride("CBHLD0M1",SetGlobal("CbIamA_Tourist","LOCALS",1))
+		ActionOverride("CBHLD0W1",SetGlobal("CbIamA_Tourist","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0W1",[601.1232],0)
+		ActionOverride("CBHLD0W1",SetName(@550237))
+		ActionOverride("CBHLD0W1",SetGlobal("CbIamA_Minstrel","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M2",[601.1232],0)
+		ActionOverride("CBHLD0M2",SetName(@550238))
+		ActionOverride("CBHLD0M2",SetGlobal("CbIamA_Lamplighter","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		SetGlobal("CbDrunkRowdyGoesEnemy","AR3611",0)
+		CreateCreature("CBHLD0M3",[601.1232],0)
+		ActionOverride("CBHLD0M3",SetName(@550239))
+		ActionOverride("CBHLD0M3",SetGlobal("CbIamA_DrunkenRowdy","LOCALS",1))
+		CreateCreature("CBHLD0M4",[648.1228],0)
+		ActionOverride("CBHLD0M4",SetName(@550239))
+		ActionOverride("CBHLD0M4",SetGlobal("CbIamA_DrunkenRowdy","LOCALS",1))
+		CreateCreature("CBHLD0M5",[574.1272],0)
+		ActionOverride("CBHLD0M5",SetName(@550239))
+		ActionOverride("CBHLD0M5",SetGlobal("CbIamA_DrunkenRowdy","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		SetGlobal("CbHlondethIsForLovers","AR3611",0)
+		CreateCreature("CBHLD0M1",[601.1232],0)
+		ActionOverride("CBHLD0M1",SetName(@550240))
+		ActionOverride("CBHLD0M1",SetGlobal("CbIamA_Lover","LOCALS",1))
+		CreateCreature("CBHLD0W1",[648.1228],0)
+		ActionOverride("CBHLD0W1",SetName(@550240))
+		ActionOverride("CBHLD0W1",SetGlobal("CbIamA_Lover","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M6",[601.1232],0)
+		ActionOverride("CBHLD0M6",SetName(@550241))
+		ActionOverride("CBHLD0M6",SetGlobal("CbIamA_Horse","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0W4",[601.1232],0)
+		ActionOverride("CBHLD0W4",SetName(@550242))
+		ActionOverride("CBHLD0W4",SetGlobal("CbIamA_Ruffian","LOCALS",1))
+		CreateCreature("CBHLD0W5",[648.1228],0)
+		ActionOverride("CBHLD0W5",SetName(@550242))
+		ActionOverride("CBHLD0W5",SetGlobal("CbIamA_Ruffian","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M7",[601.1232],0)
+		ActionOverride("CBHLD0M7",SetName(@550243))
+		ActionOverride("CBHLD0M7",SetGlobal("CbIamA_Merc","LOCALS",1))
+		CreateCreature("CBHLD0M8",[648.1228],0)
+		ActionOverride("CBHLD0M8",SetName(@550243))
+		ActionOverride("CBHLD0M8",SetGlobal("CbIamA_Merc","LOCALS",1))
+		CreateCreature("CBHLD0M9",[574.1272],0)
+		ActionOverride("CBHLD0M9",SetName(@550243))
+		ActionOverride("CBHLD0M9",SetGlobal("CbIamA_Merc","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M3",[601.1232],0)
+		ActionOverride("CBHLD0M3",SetName(@550244))
+		ActionOverride("CBHLD0M3",SetGlobal("CbIamA_DrunkenForeigner","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0W1",[601.1232],0)
+		ActionOverride("CBHLD0W1",SetName(@550245))
+		ActionOverride("CBHLD0W1",SetGlobal("CbIamA_ShoppingWoman","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M3",[601.1232],0)
+		ActionOverride("CBHLD0M3",SetName(@550246))
+		ActionOverride("CBHLD0M3",SetGlobal("CbIamA_WagonLoader","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0W6",[601.1232],0)
+		ActionOverride("CBHLD0W6",SetName(@550247))
+		ActionOverride("CBHLD0W6",SetGlobal("CbIamA_InsanePriest","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		SetGlobal("CbHlondethCourtesanDialog","AR3611",0)
+		CreateCreature("CBHLD0W1",[601.1232],0)
+		ActionOverride("CBHLD0W1",SetName(@550248))
+		ActionOverride("CBHLD0W1",SetGlobal("CbIamA_CourtesanwithEscort","LOCALS",1))
+		CreateCreature("CBHLD0M1",[648.1228],0)
+		ActionOverride("CBHLD0M1",SetName(@550249))
+		ActionOverride("CBHLD0M1",SetGlobal("CbIamA_EscortwithCourtesan","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M3",[601.1232],0)
+		ActionOverride("CBHLD0M3",SetName(@550250))
+		ActionOverride("CBHLD0M3",SetGlobal("CbIamA_CrierForValiants","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0Ma",[601.1232],0)
+		ActionOverride("CBHLD0Ma",SetName(@550251))
+		ActionOverride("CBHLD0Ma",SetGlobal("CbIamA_Beggar","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0W7",[601.1232],0)
+		ActionOverride("CBHLD0W7",SetName(@550252))
+		ActionOverride("CBHLD0W7",SetGlobal("CbIamA_Noblewoman","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M3",[601.1232],0)
+		ActionOverride("CBHLD0M3",SetName(@550253))
+		ActionOverride("CBHLD0M3",SetGlobal("CbIamA_Restauranteur","LOCALS",1))
+	RESPONSE #5
+		SetGlobal("CbHlondethStreetScene","AR3611",1)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",600)
+		CreateCreature("CBHLD0M2",[601.1232],0)
+		ActionOverride("CBHLD0M2",SetName(@550254)) 
+		ActionOverride("CBHLD0M2",SetGlobal("CbIamA_Messanger","LOCALS",1))
+END
+
+IF
+	GlobalTimerExpired("CbHlondethExtraDestroys","AR3611")
+	Global("CbHlondethStreetScene","AR3611",5)
+THEN
+	RESPONSE #100
+		SetGlobal("CbHlondethStreetScene","AR3611",0)
+END
+
+IF
+	GlobalTimerExpired("CbStreetSceneTimer","AR3611")
+	OR(4)
+		Global("CbHlondethStreetScene","AR3611",1)
+		Global("CbHlondethStreetScene","AR3611",2)
+		Global("CbHlondethStreetScene","AR3611",3)
+		Global("CbHlondethStreetScene","AR3611",4)
+	!Exists("CBHLD0M1")
+	!Exists("CBHLD0M2")
+	!Exists("CBHLD0M3")
+	!Exists("CBHLD0M4")
+	!Exists("CBHLD0M5")
+	!Exists("CBHLD0M6")
+	!Exists("CBHLD0M7")
+	!Exists("CBHLD0M8")
+	!Exists("CBHLD0M9")
+	!Exists("CBHLD0MA")
+	!Exists("CBHLD0W1")
+	!Exists("CBHLD0W2")
+	!Exists("CBHLD0W3")
+	!Exists("CBHLD0W4")
+	!Exists("CBHLD0W5")
+	!Exists("CBHLD0W6")
+	!Exists("CBHLD0W7")
+THEN
+	RESPONSE #100
+		SetGlobal("CbHlondethStreetScene","AR3611",5)
+		SetGlobalTimer("CbHlondethExtraDestroys","AR3611",100)
+		SetGlobalTimer("CbStreetSceneTimer","AR3611",20)
+END
+
+

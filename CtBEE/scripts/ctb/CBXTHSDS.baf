@@ -1,0 +1,87 @@
+IF
+	Heard([ANYONE],402)
+	!IsActive(Myself)
+THEN
+	RESPONSE #100
+		Activate(Myself)
+		DisplayStringHead(Myself,71560) // Thief!  How dare you!!
+		ChangeClass(Myself,INNOCENT)
+		Shout(402)
+		ChangeEnemyAlly(Myself,ENEMY)
+END
+
+IF
+	!IsActive(Myself)
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Activate(Myself)
+		DisplayStringHead(Myself,71560) // Thief!  How dare you!!
+		ChangeClass(Myself,INNOCENT)
+		Shout(402)
+		ChangeEnemyAlly(Myself,ENEMY)
+END
+
+IF
+	!IsActive(Myself)
+	See([GOODCUTOFF])
+	Range(LastTrigger,15)
+THEN
+	RESPONSE #50
+		Activate(Myself)
+		DisplayStringHead(Myself,71560) // Thief!  How dare you!!
+		ChangeClass(Myself,INNOCENT)
+		Shout(402)
+		ChangeEnemyAlly(Myself,ENEMY)
+	RESPONSE #50
+		Activate(Myself)
+		DisplayStringHead(Myself,58585) // Thief!
+		ChangeClass(Myself,INNOCENT)
+		Shout(402)
+		ChangeEnemyAlly(Myself,ENEMY)
+END
+
+IF
+	OR(2)
+		Global("CbXTTHiefStealsFromHarpers","GLOBAL",1)
+		Global("CbXTTHiefStealsFromHarpers","GLOBAL",2)
+	IsActive(Myself)
+	OR(2)
+		AreaCheck("AR0308")
+		AreaCheck("AR0309")
+	OR(2)
+		TimeGT(20)
+		TimeLT(5)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Deactivate(Myself)
+END
+
+IF
+	OR(2)
+		Global("CbXTTHiefStealsFromHarpers","GLOBAL",1)
+		Global("CbXTTHiefStealsFromHarpers","GLOBAL",2)
+	!IsActive(Myself)
+	OR(2)
+		AreaCheck("AR0308")
+		AreaCheck("AR0309")
+	TimeLT(DUSK_START)
+	TimeGT(4)
+THEN
+	RESPONSE #100
+		Activate(Myself)
+END
+
+IF
+	GlobalGT("CbXTTHiefStealsFromHarpers","GLOBAL",2)
+	OR(2)
+		AreaCheck("AR0308")
+		AreaCheck("AR0309")
+	!IsActive(Myself)
+THEN
+	RESPONSE #100
+		Activate(Myself)
+END
+
+

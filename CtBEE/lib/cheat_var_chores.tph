@@ -1,0 +1,24 @@
+ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
+	COPY_EXISTING ~bgee.lua~ ~override/bgee.lua~
+	REPLACE_TEXTUALLY
+~{"BD0010", "Test"},~
+~--CtB Chores Areas
+
+	{"AR3500", "Candlekeep"},
+	{"AR3501", "Candlekeep: Library L1"},
+	{"AR3502", "Candlekeep: Library L2"},
+	{"AR3503", "Candlekeep: Library L3"},
+	{"AR3504", "Candlekeep: Library L4"},
+	{"AR3505", "Candlekeep: Library L5"},
+	{"AR3506", "Candlekeep: Barracks"},
+	{"AR3507", "Candlekeep: Study"},
+	{"AR3508", "Candlekeep: Sleeping Room"},
+	{"AR3510", "Cutscene: Gorion"},
+	{"AR3511", "Cutscene: Jaheira"},
+	{"AR3512", "Cutscene: Minsk"},
+	{"AR3513", "Cutscene: Sarevok"},
+		
+	{"BD0010", "Test"},
+~
+
+END

@@ -1,0 +1,154 @@
+@1 = ~En vérité, c’est l’un des plus beaux endroits où il m’ait été donné de me produire dans la Cité des Splendeurs. Je suis presque certain que la quasi-totalité des bardes diplômés de l'Académie de Lunargent – dont quelques-uns uns furent mes élèves - seraient envieux d’un tel lieu pour leurs représentations.~
+@2 = ~Il y a un petit quelque chose ici de particulièrement exaltant, vous ne trouvez pas ? La légère odeur de sciure, les décors fraîchement peints, les discussions sans fin des Gentilhommes et des Dames venus assister au spectacle et les notes exquises de la harpe et du luth font bouillonner mon âme.~
+@3 = ~Si j’avais continué à enseigner au Collège Bardique de Lunargent, je pense que j’aurais fini par me lasser de toujours enseigner les mêmes choses à des aspirants musiciens ou acteurs. J’ai voulu retourner à mon premier et véritable amour : les représentations, le public et ce lien magique qui se crée entre les deux.~
+@4 = ~Je peux voir à la façon dont vous vous tenez, la coupe de vos vêtements et la manière impeccable dont vous prenez soin de votre apparence que vous êtes vous aussi un barde. Dites-moi, où avez-vous étudié ?~ ~Je peux voir à la façon dont vous vous tenez, la coupe de vos vêtements et la manière impeccable dont vous prenez soin de votre apparence que vous êtes vous aussi une barde. Dites-moi, où avez-vous étudié ?~
+@5 = ~Je commencerai mon apprentissage officiel de barde dans le courant de l’année.~
+@6 = ~J’ai passé quelques saisons aux côtés de l'Académie de Corbentre.~ 
+@7 = ~J’ai reçu les honneurs au Collège Bardique de Sembie.~
+@8 = ~Après avoir travaillé pendant des années, je suis retourné à l’Université des Arts du Cormyr à Suzail.~
+@9 = ~J’ai entamé mes études au Collège Bardique d’Eauprofonde, mais j'ai fini par en être expulsé parce que j’allais aux tavernes chaque nuit, négligeant de ce fait mes études.~ ~J’ai entamé mes études au Collège Bardique d’Eauprofonde, mais j'ai fini par en être expulsée parce que j’allais aux tavernes chaque nuit, négligeant de ce fait mes études.~
+@10 = ~Bonne chance à vous dans ce cas, <GABBER>. Mais je peux d'ores et déjà vous dire que je n’ai aucune inquiétude quant à votre réussite. Je juge plutôt bien les gens, et vous, vous avez ce qu'il faut pour devenir un excellent Maître Barde, comme moi.~ ~Bonne chance à vous dans ce cas, <GABBER>. Mais je peux d'ores et déjà vous dire que je n’ai aucune inquiétude quant à votre réussite. Je juge plutôt bien les gens, et vous, vous avez ce qu'il faut pour devenir une excellente Maîtresse Barde, comme moi.~
+@11 = ~Ce sont des choses qui arrivent. De nombreuses personnes qui quittent leur domicile pour de grands centres culturels tels que Lunargent, Eauprofonde, Suzail ou même Corbentre, n’arrivent jamais à se faire un nom. Ca doit être particulièrement difficile à supporter. Pensez-vous reprendre votre profession de barde un jour ?~
+@12 = ~J’aimerais reprendre mes études dans le courant de l’année.~
+@13 = ~J’aurais aimé passer quelques temps auprès de l'Académie de Corbentre.~
+@14 = ~Je veux décrocher les honneurs du Collège Bardique de Sembie.~
+@15 = ~Je pense que je vais rejoindre l’Université des Arts du Cormyr à Suzail.~
+@16 = ~Dame Tymora vous sourit, <GABBER> ! C’est précisément là que j’ai reçu ma licence. Il faut admettre que c'est un bon établissement, mais il y a certaines choses que vous ne pourrez apprendre qu’à l’Académie de Lunargent.~
+@17 = ~Vous me plaisez, <GABBER>. Vous vous ferez vite un nom dans le métier. Je pense être bon juge concernant les gens, et je crois être capable de vous aider. Je pourrais, comme j’en avais l’habitude à l’Académie Bardique de Lunargent, vous enseigner quelques petites compétences qui devraient vous être fort utiles tout au long de votre carrière, si vous voulez bien me rendre quelques services en contrepartie. Alors, qu’en pensez-vous <GABBER>, voulez-vous travailler avec moi ?~
+@18 = ~Bien sûr, je serai ravi d’apprendre de nouvelles capacités. Que vous faut-il ?~ ~Bien sûr, je serai ravie d’apprendre de nouvelles capacités. Que vous faut-il ?~
+@19 = ~Je n’ai pas le temps de vous aider pour le moment. Plus tard, peut-être.~
+@20 = ~Je vous assure, <GABBER>, si vous désirez réellement devenir un barde renommé, que ce que je peux vous enseigner vous sera fort utile. Je suis certain que vos compétences actuelles vous assureront la réussite dans les tâches que j’ai à vous confier, qui ne devrait pas vous prendre trop de temps. Mais laissez-moi d’abord vous expliquer de quoi il en retourne.~ ~Je vous assure, <GABBER>, si vous désirez réellement devenir une barde renommée, que ce que je peux vous enseigner vous sera fort utile. Je suis certain que vos compétences actuelles vous assureront la réussite dans les tâches que j’ai à vous confier, qui ne devrait pas vous prendre trop de temps. Mais laissez-moi d’abord vous expliquer de quoi il en retourne.~
+@21 = ~Noble <LADYLORD> ! C’est agréable de vous parler à nouveau. Toutefois, je vous prie de m'excuser, car je dois me produire très prochainement, et je dois encore préparer mes instruments. Avez-vous retrouvé la Harpe de Myth Drannor ?~
+@22 = ~Non, Maître Barde, je n’ai pas trouvé cette harpe à ce jour. Savez-vous où je pourrais la trouver ?~
+@23 = ~Oui, Maître Barde, j’ai trouvé une Harpe de Myth Drannor. Je vous la donnerai si vous m’enseignez quelque chose.~
+@24 = ~Oui, Maître Barde, je l’ai bien trouvée, mais je ne vous la donnerai pas. Je préfère la garder pour moi.~
+@25 = ~Par tous les saints, je n’en ai pas la moindre idée <GABBER>. Je ne connais rien de ces régions barbares. Je pense que vous devriez vous renseigner auprès des marchands locaux. S’ils ne pouvaient rien pour vous, il serait judicieux de fouiller quelque ancienne crypte, donjon ou repaire d’un quelconque monstre.~
+@26 = ~Ce serait un véritable rêve pour moi que d’acquérir une telle harpe, je comprends donc parfaitement que vous vouliez la garder. Néanmoins vous devez comprendre que si vous ne me la donnez pas, je ne prendrai pas le temps de vous faire profiter de mon savoir.~
+@27 = ~Quelle merveilleuse nouvelle, <GABBER> ! Je suis vraiment touché par votre générosité. Avec cette harpe je peux devenir aussi reconnu que les plus grands bardes contemporains de Féérune !~
+@28 = ~Vous m’avez rendu un immense service, <GABBER>, et je vais vous prouver combien je vous suis reconnaissant. Je vous ai promis de vous enseigner quelque chose si vous me veniez en aide, et je tiendrais ma promesse. Je peux vous apprendre trois choses différentes, je vous laisse le choix quant à laquelle vous choisirez.~
+@29 = ~Ce serait un plaisir et un honneur que d’enseigner à un aspirant tel que vous, un aspirant qui, je le sens, sera réputé dans tous les royaumes un jour. Dites-moi, <GABBER>, seriez-vous intéressé par la possibilité de mémoriser plus de sorts que les bardes de votre expérience, d'apprendre à esquiver les attaques de vos adversaires ou encore, si vous savez poser des pièges, d'apprendre à confectionner un nouveau type de dispositif qui relâchera des chausse-trappes à terre pour ralentir et blesser vos ennemis ?~ ~Ce serait un plaisir et un honneur que d’enseigner à un aspirant tel que vous, un aspirant qui, je le sens, sera réputé dans tous les royaumes un jour. Dites-moi, <GABBER>, seriez-vous intéressée par la possibilité de mémoriser plus de sorts que les bardes de votre expérience, d'apprendre à esquiver les attaques de vos adversaires ou encore, si vous savez poser des pièges, d'apprendre à confectionner un nouveau type de dispositif qui relâchera des chausse-trappes à terre pour ralentir et blesser vos ennemis ?~
+@30 = ~J’aimerais apprendre à mémoriser un sort supplémentaire par niveau.~
+@31 = ~Je pense que l’esquive serait une capacité intéressante. Pouvez-vous me l’enseigner ?~
+@32 = ~Apprendre à poser de nouveaux pièges semble être parfaitement en accord avec ma façon de travailler.~
+@33 = ~J’ai eu de nombreux élèves qui avaient des prédispositions pour la magie à qui j'ai appris à pousser leur esprit au-delà de ses limites. Je suis convaincu qu’avec vos connaissances il me sera aisé de vous apprendre la même chose.~
+@34 = ~Vous ferez un excellent barde, <GABBER>. Vous êtes d’ailleurs déjà parfaitement formé au métier, mais avec les sorts supplémentaires que vous pouvez maintenant mémoriser vous pourriez devenir un illusionniste particulièrement renommé.~ ~Vous ferez une excellente barde, <GABBER>. Vous êtes d’ailleurs déjà parfaitement formée au métier, mais avec les sorts supplémentaires que vous pouvez maintenant mémoriser vous pourriez devenir une illusionniste particulièrement renommée.~
+@35 = ~J’ai eu de nombreux élèves qui avaient des disposition pour le combat à qui j'ai appris à esquiver les coups. Je suis certain qu’avec vos capacités actuelles, vous pourrez apprendre la même chose aisément.~
+@36 = ~Vous ferez un excellent barde, <GABBER>. En fait vous êtes déjà parfaitement formé au métier, mais esquiver les attaques vous permettra peut-être de vivre assez longtemps pour devenir un grand conteur.~ ~Vous ferez une excellente barde, <GABBER>. En fait vous êtes déjà parfaitement formée au métier, mais esquiver les attaques vous permettra peut-être de vivre assez longtemps pour devenir une grande conteuse.~
+@37 = ~J’ai eu de nombreux élèves qui avaient des disposition pour poser des pièges à qui j'ai appris l'art et la manière de poser des chausse-trappes, et je suis sûr que grâce à vos connaissances dans ce domaine, je saurai vous enseigner la même chose.~
+@38 = ~Vous ferez un excellent barde, <GABBER>. En fait vous êtes déjà parfaitement formé au métier, mais ralentir, voir arrêter vos ennemis vous permettra peut-être de vivre assez longtemps pour devenir un conteur de talent.~ ~Vous ferez une excellente barde, <GABBER>. En fait vous êtes déjà parfaitement formée au métier, mais ralentir, voir arrêter vos ennemis vous permettra peut-être de vivre assez longtemps pour devenir une conteuse de talent.~
+@39 = ~Comme je l’ai déjà dit, je vous apprécie, <GABBER>. Je pense que vous êtes tout à fait capable de devenir l'un des meilleurs et des plus respectés bardes de tout Féérune. Si vous ne voulez pas m’aider, soit, mais je crois que cela pourrait vous être particulièrent bénéfique pour les années à venir. Je vais rester quelques temps à Athkatla, et peut-être donner un ou deux spectacles. Si vous changez d’avis, faites-le moi savoir.~ ~Comme je l’ai déjà dit, je vous apprécie, <GABBER>. Je pense que vous êtes tout à fait capable de devenir l'une des meilleures et des plus respectées bardes de tout Féérune. Si vous ne voulez pas m’aider, soit, mais je crois que cela pourrait vous être particulièrent bénéfique pour les années à venir. Je vais rester quelques temps à Athkatla, et peut-être donner un ou deux spectacles. Si vous changez d’avis, faites-le moi savoir.~
+@40 = ~Fait inhabituel pour un barde, je vais abréger ce qui est une histoire longue et épique. Alors que je voyageais le long de la Côte des Epées, m’arrêtant dans nombre de tavernes, salles de spectacles et autres lieux de fêtes comme celui-ci, j’ai perdu l'une de mes plus précieuses possessions. Une Harpe de Myth Drannor pour être précis. Je peux voir à votre visage que vous avez conscience de la valeur d’un tel objet. Je suis certain que je ne retrouverai pas ma harpe, néanmoins j’aimerais en posséder une à nouveau. Si vous veniez à en trouver une et à me la rapporter, soyez assuré que je vous récompenserai en vous enseignant une discipline bardique que l’on ne peut apprendre que dans l’Académie de Lunargent.~ ~Fait inhabituel pour un barde, je vais abréger ce qui est une histoire longue et épique. Alors que je voyageais le long de la Côte des Epées, m’arrêtant dans nombre de tavernes, salles de spectacles et autres lieux de fêtes comme celui-ci, j’ai perdu l'une de mes plus précieuses possessions. Une Harpe de Myth Drannor pour être précis. Je peux voir à votre visage que vous avez conscience de la valeur d’un tel objet. Je suis certain que je ne retrouverai pas ma harpe, néanmoins j’aimerais en posséder une à nouveau. Si vous veniez à en trouver une et à me la rapporter, soyez assurée que je vous récompenserai en vous enseignant une discipline bardique que l’on ne peut apprendre que dans l’Académie de Lunargent.~
+@41 = ~Je n’ai de cesse de vous le répéter, <GABBER>, et cela doit sans doute vous ennuyer, mais je suis sincèrement convaincu que vous pouvez devenir l’un des plus grands bardes de Féérune. Je serais honoré de vous simplifier la tâche en vous enseignant diverses compétences, mais il faudra faire quelque chose pour moi en retour. Êtes-vous prêt à m’aider ?~ ~Je n’ai de cesse de vous le répéter, <GABBER>, et cela doit sans doute vous ennuyer, mais je suis sincèrement convaincu que vous pouvez devenir l’une des plus grandes bardes de Féérune. Je serais honoré de vous simplifier la tâche en vous enseignant diverses compétences, mais il faudra faire quelque chose pour moi en retour. Êtes-vous prête à m’aider ?~
+@42 = ~Oui, Maître Barde, dites-moi ce que je peux faire pour vous.~
+@43 = ~Non, Maître Barde, j’ai besoin de plus de temps.~
+@44 = ~Comme je l’ai dit, <GABBER>, ce serait pour moi un honneur et un privilège de vous aider dans votre ascension, mais je ne peux pas vous aider si vous n’êtes pas prêt à faire de même pour moi. Revenez me voir quand vous serez prêt. Pendant ce temps je préparerai ma prochaine représentation.~ ~Comme je l’ai dit, <GABBER>, ce serait pour moi un honneur et un privilège de vous aider dans votre ascension, mais je ne peux pas vous aider si vous n’êtes pas prête à faire de même pour moi. Revenez me voir quand vous serez prête. Pendant ce temps je préparerai ma prochaine représentation.~
+@45 = ~Je le ferai, <GABBER>, mais vous devez écouter attentivement ce que j’ai à vous dire, il y a beaucoup à expliquer.~
+@46 = ~En tant que barde, j’entends bien des choses, et suis au courant de bien des rumeurs. J’ai quelques amis Ménestrels ici, à Athkatla, qui m’ont parlé d’une menace grandissante. Je n’ai pas tous les détails, et ce n’est peut-être qu’une rumeur, mais mes associés m’ont affirmés qu’il s’agissait là d’un immense Mal.~
+@47 = ~C’est une présence maléfique dont mes amis n’arrivent pas à déterminer l’origine ou les intentions. Quoi qu’il en soit, ils sont certains qu’elle ne vient pas de ce monde, et craignent pour l’avenir de la région si elle venait à trop se renforcer. <GABBER>, on ne peut pas laisser ce mal répandre l’apocalypse sur Féérune.~
+@48 = ~Je vous demande, <GABBER>, en tant que barde expérimenté d’user de tous les moyens à votre disposition pour éliminer cette entité. Faites appel à vos alliés, à de puissants amis, ou recourez à des objets magiques puissants pour venir à bout de cette chose, par la force s’il le faut.~
+@49 = ~Et où puis-je trouver cette entité, Maître Barde ?~
+@50 = ~Je ferai de mon mieux, Maître Barde.~
+@51 = ~Maître Barde, je doute que mes compétences soient suffisantes pour venir à bout d’une telle menace.~
+@52 = ~Mes associés, ces amis Ménestrels dont je vous ai parlé, ne m’ont pas dit exactement où dans la ville on pouvait la trouver, et je ne pense pas qu’ils le sachent réellement. Quoi qu’il en soit, ils sont néanmoins persuadés qu’elle est proche, à coup sûr à l’intérieur de nos murs.~
+@53 = ~Quel qu’en soit le coût, <GABBER>, notre destin à tous est entre vos mains. Ayez confiance en vous, mon bon ami, et vous réussirez.~ ~Quel qu’en soit le coût, <GABBER>, notre destin à tous est entre vos mains. Ayez confiance en vous, ma chère amie, et vous réussirez.~
+@54 = ~Je sais que vous ferez de votre mieux. Je vous souhaite bonne chance dans votre quête, <GABBER>. Revenez quand vous aurez trouvé et vaincu cette présence maléfique.~
+@55 = ~<GABBER>, c’est bon de vous revoir. Pardonnez-moi mais je suis sur le point de me produire. Quoi qu’il en soit, mes amis Ménestrels m’auraient informé si la présence n’était plus, et ils ne l’ont pas fait. Quelque chose ne va pas ?~
+@56 = ~Je n’arrive pas à trouver l'entité. Savez-vous où elle se terre ?~
+@57 = ~Je vais vous dire tout ce que je sais et ce que l’on m’a dit. Elle est présente quelque part dans Athkatla.~
+@58 = ~Mes associés n’ont pas pu m’en dire davantage, mais la présence est plus forte dans la partie ouest de la ville.~
+@59 = ~Les harpistes ont réussi à mieux localiser la créature. Il semblerait qu’elle soit proche de l’eau, peut-être la rivière ? Ni eux ni moi n’en sommes sûrs...~
+@60 = ~Pour autant qu’ils aient pu me dire, elle se trouve sous la surface. Apparemment il y a du soufre, du sel et de la pourriture à proximité.~
+@61 = ~Je suis navré, <GABBER>. Je ne peux pas vous donner plus d’informations, mes associés m’ont seulement dit que le mal émanait de sous la surface près de l’eau quelque part à l’ouest d’Athkatla.~
+@62 = ~<GABBER>, C’est bon de vous revoir ! J’ai eu des nouvelles, d’excellentes nouvelles. Les Ménestrels m’ont dit ne plus ressentir la présence de cette entité maléfique, et sont particulièrement intéressés par ce qui a pu se passer. J’ai cru comprendre que vous aviez vaincu cette chose, mais comment ?~
+@63 = ~Le démon a été banni de Féérune. Je ne l'ai pas détruit.~
+@64 = ~J’ai réussi à anéantir le démon, il ne devrait plus y avoir de problème aux alentours des docks.~
+@65 = ~Ne tenons pas compte de la finalité ou des moyens, <GABBER>, vous l’avez vaincu, et tout se termine bien. Les Ménestrels sont particulièrement contents de votre travail, tout comme moi.~
+@66 = ~Allez, <GABBER>. Trouvez ce monstre, et faites ce qui doit être fait pour l’arrêter.~
+@67 = ~En vérité, je suis très impressionné par ce que vous avez fait. Je sais que je n’aurais jamais pu faire de même. Vous méritez amplement votre récompense, <GABBER>, et j’honorerai ma parole en vous enseignant une compétence. Encore une fois, à vous de décider laquelle.~
+@68 = ~Je vais vous aider à devenir un meilleur barde en vous enseignant quelque chose. Quelque chose que vous ne pourriez apprendre nulle part ailleurs que dans les meilleures académies de bardes. Que voulez-vous apprendre cette fois : de nouvelles chansons qui vous permettront de captiver entièrement votre auditoire, mémoriser plus de sorts ou encore apprendre à poser des chausse-trappes au sol pour ralentir et blesser vos ennemis ?~ ~Je vais vous aider à devenir une meilleure barde en vous enseignant quelque chose. Quelque chose que vous ne pourriez apprendre nulle part ailleurs que dans les meilleures académies de bardes. Que voulez-vous apprendre cette fois : de nouvelles chansons qui vous permettront de captiver entièrement votre auditoire, mémoriser plus de sorts ou encore apprendre à poser des chausse-trappes au sol pour ralentir et blesser vos ennemis ?~
+@69 = ~J’aimerais apprendre à captiver mon auditoire.~
+@70 = ~Je vous serais très reconnaissant de m’apprendre à mémoriser plus de sorts.~
+@71 = ~S’il vous plaît, Maître Barde, apprenez-moi à poser des pièges à chausse-trappes.~
+@72 = ~Ce sera un plaisir, <GABBER> de vous apprendre de nouveaux chants.~
+@73 = ~Voila, <GABBER>. Vous pouvez maintenant captiver totalement vos auditeurs le temps d’une chanson, et même un peu après qu'elle soit finie.~
+@74 = ~Ce sera un plaisir, <GABBER>, de vous montrer comment mémoriser plus de sorts.~
+@75 = ~Voilà, <GABBER>. Vous pouvez maintenant mémoriser plus de sorts que ce que vous ne pouviez normalement.~
+@76 = ~Ce sera un plaisir, <GABBER>, de vous montrer comment poser des chausse-trappes.~
+@77 = ~Voilà, <GABBER>. Vous pouvez maintenant couvrir une petite surface de pièges qui pourront ralentir et blesser vos ennemis avant qu’ils ne s’approchent de trop.~
+@78 = ~Je suis heureux que vous m’ayez aidé, <GABBER>, Et je suis ravi d’avoir pu vous aider en retour. Je peux vous aider à encore vous améliorer, <GABBER>, si vous m’aidez encore une fois. Le ferez-vous ?~
+@79 = ~Oui, Maître Barde, que dois-je faire ?~
+@80 = ~Non, Maître Barde. J’ai besoin de temps.~
+@81 = ~Alors en attendant que vous le soyez, je resterai ici. Peut-être me produirai-je encore une ou deux fois.~
+@82 = ~<GABBER>, je réalise que je vous ai confié une tache ardue – me trouver une Harpe de Myth Drannor -, et une encore plus difficile et dangereuse en vous envoyant affronter ce démon. Mais cette fois, la tâche que je vais vous confier sera bien plus facile, pour la seule raison que vous n’aurez pas à risquer votre vie ou à vous mettre en danger. <GABBER>, je vais vous donner ce pommeau. Il faisait partie d’une puissante lame, une Lame de Chantesort. Elle était réputée pour être une arme magique particulièrement puissante et indestructible, ce qui était visiblement faux.~
+@83 = ~La lame en elle-même a été égarée, mais avec les bons métaux, elle peut être reforgée, et les bonnes incantations lui rendront sa puissance d’antan. Il vous faudra trouver les métaux nécessaires à sa restauration. Et je connais une personne qui devrait pouvoir vous aider : il s'agit du nain du nom de Cromwell, <GABBER>. Ensuite, une fois la lame reforgée, revenez me voir.~
+@84 = ~Je vais essayer, Maître Barde.~
+@85 = ~Vous ne m’avez jamais failli jusqu’ici, et je n’attends pas moins de vous que cela continue. Bonne chance, <GABBER>.~
+@86 = ~Ah, <GABBER>. Vous venez juste de rater ma représentation. C’était un bon spectacle, oui vraiment bon. Vous avez des nouvelles concernant l'épée de Chantesort ? Avez-vous réussi à la restaurer ?~
+@87 = ~Oui, Maître Barde, je l’ai. ~
+@88 = ~Non, Maître Barde, je n’ai pas encore réussi à restaurer la Chantesort pour l’instant.~
+@89 = ~J’espérais sincèrement que vous auriez réussi. Enfin, j’ai toujours foi en vos capacités. Si vous arrivez à aider Cromwell à la réparer, revenez me voir.~
+@90 = ~<GABBER>, vous avez rendu vie à cette puissante lame. Vous la méritez bien plus que moi. Mais je vous en prie, laissez-moi rajouter quelques enchantements à l'épée avant de vous la donner. La Lame de Chantesort est une arme formidable pour un barde ; vous devriez être honoré de l'avoir avec vous.~ ~<GABBER>, vous avez rendu vie à cette puissante lame. Vous la méritez bien plus que moi. Mais je vous en prie, laissez-moi rajouter quelques enchantements à l'épée avant de vous la donner. La Lame de Chantesort est une arme formidable pour un barde ; vous devriez être honorée de l'avoir avec vous.~
+@91 = ~C’est vraiment un honneur pour moi de vous avoir connu, <GABBER>, et ce serait me mentir comme à vous si je ne vous disais pas une fois de plus que vous avez le potentiel pour devenir le plus grand barde de Féérune, tout particulièrement si vous me laissez vous enseigner une dernière capacité. Quelque chose qui vous sera utile pour vos voyages de par le monde.~ ~C’est vraiment un honneur pour moi de vous avoir connu, <GABBER>, et ce serait me mentir comme à vous si je ne vous disais pas une fois de plus que vous avez le potentiel pour devenir la plus grande barde de Féérune, tout particulièrement si vous me laissez vous enseigner une dernière capacité. Quelque chose qui vous sera utile pour vos voyages de par le monde.~
+@92 = ~Je vais vous enseigner quelque chose – quelque chose que la plupart des bardes ne pourrait même pas apprendre - si vous voulez bien me dire ce que vous voudriez savoir. Voulez-vous apprendre à esquiver les coups de vos adversaires, à poser un nouveau type de piège en lâchant des chausse-trappes sur le sol, ou l’enseignement nécessaire au maniement de n’importe quel objet ?~
+@93 = ~Je pense que pouvoir utiliser n’importe quel objet me sera très utile, pouvez-vous m’apprendre cela ?~
+@94 = ~Selon vos désirs, <GABBER>. Je vais vous apprendre comment poser des pièges qui ralentiront vos ennemis avant qu’ils ne soient trop proches de vous.~
+@95 = ~Nous avons réussi, <GABBER>, et vous avez appris comment poser des chausse-trappes.~
+@96 = ~Comme vous voudrez, <GABBER>. Je vais vous enseigner comment esquiver les coups pendant les combats.~
+@97 = ~Une totale réussite, <GABBER>, vous pouvez désormais esquiver les attaques, ce qui vous rend plus difficile à toucher.~
+@98 = ~Apprendre à un barde à utiliser tous les objets est particulièrement complexe. Je ferai de mon mieux, <GABBER>, mais je ne peux garantir votre succès.~
+@99 = ~<GABBER>, vous êtes vraiment une personne d'exception, aucun doute là-dessus. Ca a vraiment été un plaisir et un honneur de vous apprendre à utiliser n’importe quel objet. N’oubliez pas que certains de ceux que vous pourriez utiliser, comme les armures, pourraient vous empêcher de lancer des sorts.~
+@100 = ~Bienvenue dans la salle de représentations des Cinq Chopes. Êtes-vous venu pour assister à un spectacle ? Je vais peut-être me produire prochainement, ainsi si vous voulez revenir quand tout sera prêt, je suis certain que cela devrait vous divertir.~ ~Bienvenue dans la salle de représentations des Cinq Chopes. Êtes-vous venue pour assister à un spectacle ? Je vais peut-être me produire prochainement, ainsi si vous voulez revenir quand tout sera prêt, je suis certain que cela devrait vous divertir.~
+@101 = ~<GABBER> ! C’est bon de vous revoir. Je vais certainement me produire dans un spectacle de mon cru très prochainement. Pourquoi ne reviendriez-vous pas quand il commencera ? Je suis persuadé que cela vous distraira.~
+@102 = ~Académie d’Etudes Bardiques
+
+  J’ai trouvé la harpe de Myth Drannor et l’ai donnée au Maître Barde que j’ai rencontré aux Cinq Chopes. Il a été très reconnaissant et m’a enseigné une compétence que l’on ne peut normalement apprendre qu’à l’Académie de Lunargent.~
+@103 = ~Académie d’Etudes Bardiques : Présence Maléfique
+
+  Le Maître Barde des Cinq Chopes m’a envoyé combattre une présence maléfique qui rôderait dans la region. Il ne connaît pas son emplacement exact, mais il est certain qu’elle se terre dans Athkatla.
+  Quand j’en aurai fini avec cette entité (que ce soit en la détruisant ou en la bannissant), je devrai retourner faire mon rapport au Maître qui m’a promis un enseignement pour améliorer mes capacités de barde.~
+@104 = ~Académie d’Etudes Bardiques : Reforger la Lame de Chantesort
+
+  Le Maître Barde qui m’a enseigné quelques compétences des plus utiles m’a confié une autre tache. Cette fois, il s’agit de restaurer une Lame de Chantesort dont il m’a donné le pommeau. Lame réputée indestructible, il semblerait néanmoins qu’une force grandiose ait réussi à la briser.
+  Je dois trouver le métal adéquat pour la reforger. Je ne sais pas où chercher, mais le barde m’a dit de m’adresser à un nain du nom de Cromwell sur les Docks.~
+@105 = ~Académie d’Etudes Bardiques
+
+  J’ai trouvé une harpe de Myth Drannor et l’ai donné au barde des Cinq Chopes. Il a été très reconnaissant et m’a enseigné une compétence que l’on ne peut normalement apprendre qu’à l’Académie de Lunargent.~
+@106 = ~Académie d’Etudes Bardiques
+
+  Le Maître Barde des Cinq Chopes m’a appris à mémoriser plus de sorts que les autres bardes.~
+@107 = ~Académie d’Etudes Bardiques
+
+  Le Maître Barde des Cinq Chopes m’a appris à esquiver les coups lors des combats.~
+@108 = ~Académie d’Etudes Bardiques
+
+  Le Maître Barde des Cinq Chopes m’a appris à fabriquer des pièges à chausse-trappes capables de ralentir, voir blesser mes ennemis.~
+@109 = ~Académie d’Etudes Bardiques : la Harpe de Myth Drannor
+
+  J’ai la chance d’avoir reçu la proposition de recevoir des cours d’un ancien professeur du Collège Bardique de Lunargent, même si, comme tout le monde dans cette satanée cité, il veut me confier une quête en guise de paiement.
+  Il semble s’être fait voler son instrument alors qu’il voyageait en Amn et voudrait que je lui en trouve un similaire. Il veut une Harpe de Myth Drannor. Où en trouver une, je n’en n’ai pas la moindre idée, mais ceci fait, je pourrai le retrouver à l’auberge des Cinq Chopes.~
+@110 = ~Académie d’Etudes Bardiques : Présence Maléfique
+
+  Le Maître Barde des Cinq Chopes m’a envoyé combattre une présence maléfique qui rôderait dans la region. Il ne connaît pas son emplacement exact, mais il est certain qu’elle se terre dans Athkatla.
+  Quand j’en aurai fini avec cette entité (que ce soit en la détruisant ou en la bannissant), je devrai retourner faire mon rapport au Maître qui m’a promis un enseignement pour améliorer mes capacités de barde.~
+@111 = ~Académie d’Etudes Bardiques : Présence Maléfique
+
+  J’ai vaincu un démon dans le district des Docks. Le Maître Barde parle d’écrire une ballade sur mes faits d’armes et m’a promis de m’enseigner de nouvelles capacités.~
+@112 = ~Académie d’Etudes Bardiques
+
+  J’ai appris des chants capables de captiver mon auditoire.~
+@113 = ~Académie d’Etudes Bardiques
+
+  J’ai appris à mémoriser plus de sorts que les autres bardes.~
+@114 = ~Académie d’Etudes Bardiques
+
+  J’ai appris à poser des pièges à chausse-trappes qui permettent de ralentir, voire blesser mes ennemis.~
+@115 = ~Académie d’Etudes Bardiques : Reforger la Lame de Chantesort
+
+  Le Maître Barde des Cinq Chopes qui m’a enseigné de nombreuses capacités m’a confié une dernière tâche. Il m’a donné le pommeau d’une épée qu’il me faut reforger. Pour cela, je dois trouver le métal adéquat.
+  Je dois trouver l’alliage qui permettra de restaurer la Lame de Chantesort. Je n’ai pas la moindre idée d’où je peux le trouver, mais il semblerait qu’un nain du nom de Cromwell sur les Docks serait en mesure de m’aider.~
+@116 = ~Académie d’Etudes Bardiques : Reforger la Lame de Chantesort
+
+  Avec l’aide de Cromwell, j’ai réussi à restaurer la Lame de Chantesort. Lorsque je l’ai apportée au Maître Barde, il m’a récompensé en enchantant l’épée avant de me la donner. C'est un honneur immense pour un barde ou un poète.~
+@117 = ~Académie d’Etudes Bardiques
+
+  Le Maître Barde des Cinq Chopes m’a appris à utiliser tous les objets que je pourrai acquérir au cours de mes aventures.~

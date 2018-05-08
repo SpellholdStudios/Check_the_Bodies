@@ -1,0 +1,121 @@
+@1 = ~<GABBER> ! Je suis heureuse que vous m'ayez sortie de là. Vite, nous n'avons pas beaucoup de temps.~
+@2 = ~Je ne peux pas rester longtemps, car on m'a peut-être vu entrer ici, juste avant vous.~
+@3 = ~Bien. Je suis là. Que voulez-vous ?~
+@4 = ~Je suis seulement venu pour vous redonner votre statue. Je n'en ai plus besoin, et je n'ai pas besoin de vous non plus, d'ailleurs.~ ~Je suis seulement venue pour vous redonner votre statue. Je n'en ai plus besoin, et je n'ai pas besoin de vous non plus, d'ailleurs.~
+@5 = ~Ecoutez, je n'aime pas risquer ma vie, ou celle d'un autre, pour quelque chose dont je ne sais rien.~ 
+@6 = ~Non, <GABBER>. Vous n'êtes pas obligé de le faire. Mais s'il-vous plaît, j'ai besoin de votre aide. N'allez-vous même pas écouter ce que j'ai à dire ?~ ~Non, <GABBER>. Vous n'êtes pas obligée de le faire. Mais s'il-vous plaît, j'ai besoin de votre aide. N'allez-vous même pas écouter ce que j'ai à dire ?~ 
+@7 = ~Je suis bien trop occupé pour vous aider. Vous allez devoir trouver quelqu'un d'autre pour vous sortir de ce mauvais pas.~ ~Je suis bien trop occupée pour vous aider. Vous aller devoir trouver quelqu'un d'autre pour vous sortir de ce mauvais pas.~
+@8 = ~Je vais vous accorder quelques instants, mais je n'ai pas encore décidé si j'allais vous aider ou non. Pourquoi ne me dites-vous pas de quoi il s'agit ?~
+@9 = ~Bien. Je vais vous aider. De quoi avez-vous besoin ?~
+@10 = ~Je ne sais pas si j'en serai capable. Mais si vous ne pouvez pas m'aider, alors je n'aurai d'autre choix que de trouver un autre aventurier. Excusez-moi pour le dérangement.~
+@11 = ~Moi non plus, <GABBER>, moi non plus. Mais les circonstances m'ont poussée à passer à l'action, et je ne peux pas triompher sans aide. C'est pourquoi je suis venue à votre rencontre.~
+@12 = ~C'est en partie de ma faute, mais uniquement parce que j'ai placé à tort ma confiance entre les mains d'une personne que je pensais emplie de bonnes intentions.~
+@13 = ~J'ai eu vraiment tort, et maintenant je ne sais pas quoi faire.~
+@14 = ~Nous faisons tous des erreurs. Pourquoi ne me dites-vous pas simplement d'où vient le problème et en quoi je pourrais aider à le résoudre ?~
+@15 = ~On dirait que vous vous êtes mise dans ce mauvais pas toute seule. Je ne sais pas si j'ai vraiment envie de vous aider.~
+@16 = ~Non, <GABBER>. Vous n'êtes pas obligé de le faire. Mais s'il vous plaît, j'ai besoin d'aide. N'allez-vous même pas écouter ce que j'ai à dire ?~ ~Non, <GABBER>. Vous n'êtes pas obligée de le faire. Mais s'il vous plaît, j'ai besoin d'aide. N'allez-vous même pas écouter ce que j'ai à dire ?~
+@17 = ~Merci, <GABBER>. J'espère que vous m'aiderez lorsque je vous aurai parlé de mon problème.~
+@18 = ~Très bien, <GABBER>, Je vais tâcher d'être brève. Je vais commencer depuis le début.~
+@19 = ~Comme je l'ai déjà dit, je suis une mage. Je ne pratique pas la magie aussi souvent que la plupart des autres mages, mais je poursuis une recherche plus scolaire sur les sujets magiques : objets, traités, ou artéfacts. J'ai appris ce genre de chose avec une certaine distance pour pouvoir garder un regard professionnel sur la question. Je partageais mes connaissances avec ceux qui me posaient des questions ou ceux qui avaient besoin de ces informations. Il y a encore quelques mois, je n'avais jamais douté de mes capacités en tant que disciple, et je n'avais jamais remis en cause l'éthique dont je faisais preuve. C'est à peu près à ce moment qu'un autre mage du nom de Khaddyr est venu me voir pour me demander des informations très spécifiques sur un sort très rare, et en tant que professionnelle, je l'ai assisté dans son travail du mieux que je l'ai pu.~
+@20 = ~Je ne savais pas pourquoi Khaddyr voulait des informations sur ce genre de sort, ni pourquoi je me suis mise en tête de le seconder. Je conduis des recherches pour Khaddyr depuis quelques mois maintenant et j'ai découvert récemment ce que je pense être le raison de sa volonté de connaître les sorts et les artéfacts qui amplifient ce style de sorts.~
+@21 = ~<GABBER>, avez-vous déjà entendu parler de Permatration ou d'une éventuelle théorie magique liée à la Permatration ?~
+@22 = ~Non, Je ne peux pas dire que c'est le cas. Qu'est ce que cela signifie ?~
+@23 = ~Je pense que j'en ai entendu parler, mais je ne m'en souviens pas vraiment. Expliquez-moi tout.~
+@24 = ~Oui, je connais le processus de Permatration sur le bout des doigts. Poursuivez.~ 
+@25 = ~La permatration est une théorie relativement ancienne, selon laquelle un mage puissant peut, avec assez de compétence magique et d'énergie, extraire la force vive d'un grand nombre de personnes pour l'ajouter à la sienne. En faisant cela, ce qu'une seule personne a réussi jusqu'ici, le mage peut devenir quasiment l'équivalent d'un Dieu.~
+@26 = ~Karsus a tenté la Permatration avant la chute de Néthéril. Il a tenté de recourir à un sort sur lequel il faisait des recherches, l'Avatar de Karsus, mais échoua et les résultats furent dramatiques. Non seulement la Toile s'est déchirée pour toujours, mais des milliers de personnes sont mortes pendant l'incantation et après, lorsque la cité flottante de Karsus tomba du ciel sur la terre. La mort de Mystryl, la première incarnation de Mystra, était encore bien plus à craindre car elle plaça la plus grande partie de son pouvoir entre les mains d'un mortel pour éviter la vraie destruction, puis elle utilisa ce qu'il restait pour reconstruire la Toile. Les pouvoirs de Mystryl ont été incarnés en Mystra. Ceci était le premier essai de permatration, les prémisses des écoles modernes de magie de sorts des arcanes. La seconde tentative a eu lieu mille ans plus tard, juste un an après votre naissance. Mystra elle-même tenta la permatration, et elle fut massacrée par Helm dans les terres de pierres de Cormyr. La zone dévastée qui en résulte peut toujours être observée de nos jours, même après le passage des années.~
+@27 = ~Vous pouvez donc constater les dangers de la Permatration.~
+@28 = ~Vous pouvez mesurer les dangers encourus lorsque quelqu'un tente une Permatration.~
+@29 = ~Je ne savais pas que de telles choses étaient possibles lorsque j'ai commencé mes recherches pour le mage, mais maintenant que j'ai exploré d'un peu plus près les textes anciens, le but de mes recherches est devenu évident.~
+@30 = ~Je crois que ce mage va tenter de conduire son propre sort de permatration.~
+@31 = ~Qu'est-ce qui vous fait croire cela ?~
+@32 = ~Quels sortes de sorts pourrait utiliser ce mage pour faire une telle chose ?~
+@33 = ~Dans toutes les tentatives de permatration dont j'ai eu connaissance, les conséquences n'ont jamais été heureuses pour ceux qui étaient impliqués. Pourquoi ne pas le laisser conduire ce sort, et laisser le destin faire son oeuvre ?~
+@34 = ~Je ne peux permettre à personne de tenter un quelconque rituel de permatration. Que puis-je faire ?~
+@35 = ~<GABBER>, Il y a beaucoup d'indices, mais surtout le fait que Khaddyr m'ait demandé de rechercher des informations *très* spécifiques : l'une d'entre elles correspond à l'utilisation de magie lourde cumulée à un artéfact qui a été découvert récemment: la Couronne de Cornes. Rien que cela aurait dû me mettre la puce à l'oreille, mais il y a autre chose.~ 
+@36 = ~<GABBER>, Khaddyr a récupéré cet artéfact qu'il m'a demandé de rechercher. Je n'ai pas été autorisée à le toucher, ni à lancer des sorts pour tester ses propriétés. Cependant, j'ai découvert ce qu'est cet artéfact. Je n'ai trouvé qu'une seule référence dessus dans tous mes textes, et même cette unique référence était vague. Je me souviens très bien des mots - ils sont imprimés à vie dans ma mémoire - et je pense ne jamais les oublier :
+
+	Tendo fio posterus, nex vadum reign ;
+	dum viscus est demented, phasmatis subsisto sanus.
+	Temerarius dico quod permissum vox exsisto emanio ;
+	a novus universitas fio, ut verto est fed.~
+@37 = ~Qu'est ce que cela veut dire ?~
+@38 = ~<GABBER>, voici la traduction en langage commun :
+
+        "Le présent devient le futur, la mort règnera ;
+         Pendant que la chair dégénère, l'esprit reste saint.
+         Observez l'appel et laissez le mot se propager ;
+         un nouveau monde naîtra, lorsque celui en transformation sera nourri."~
+@39 = ~Il n'y a pas vraiment de sorts spécifiques, <GABBER>. C'est lié à un artéfact qui a été retrouvé récemment : la Couronne de Cornes, et aussi de l'utilisation de la magie lourde. Vous voyez, Khaddyr m'a demandé de chercher des informations très spécifiques : particulièrement l'utilisation de la magie lourde couplée à un artéfact fraîchement découvert : la Couronne de Cornes. Rien que cela aurait dû me faire stopper mes recherches, mais il y a autre chose.~
+@40 = ~J'aurais du en savoir d'avantage, mais Khaddyr m'a apportée quelque chose récemment. Un artéfact d'une grande puissance qu'il a trouvé et que je suppose être cette couronne. Il m'a demandé de faire des recherches dessus, sans pour autant m'autoriser à la toucher, ni à utiliser des sorts pour tester ses propriétés. J'ai été capable de découvrir ce qu'était cet artéfact. Je n'ai pu retrouver qu'une seule référence dans l'ensemble de mes textes, et même cette unique référence était vague. Je me souviens très bien des mots - ils sont imprimés à vie dans mon esprit - et je pense ne jamais les oublier :
+
+	Tendo fio posterus, nex vadum reign ;
+	dum viscus est demented, phasmatis subsisto sanus.
+	Temerarius dico quod permissum vox exsisto emanio ;
+	a novus universitas fio, ut verto est fed.~
+@41 = ~<GABBER>, vous savez aussi bien que moi que lorsque l'on a affaire à la magie, il ne faut rien laisser au hasard. A chaque essai de permatration, la dévastation a suivi. Devons-nous nous attendre à quelque chose de différent cette fois-ci ? Je ne pense pas, mais je ne veux pas penser aux conséquences surtout si ce mage réussit. J'ai des raisons de penser que dans ce cas, Khaddyr aura une très grande chance d'accomplir tout ce qu'il désirera.~ 
+@42 = ~Récemment, j'ai trouvé quelque chose qui pourrait augmenter considérablement les chances de succès de Khaddyr dans sa tentative de Permatration par rapport aux autres qui ont tenté le rituel. J'aurais dû m'en rendre compte à temps, mais je suppose que j'étais trop naïve. Le mage m'a apporté un objet il y a quelques semaines, un artéfact qu'il avait découvert, mais dont il ignorait l'histoire et les propriétés. Cet artéfact dégageait une grande puissance, et je ne fus pas autorisée à le toucher, ni à lancer des sorts dessus. Il m'a demandé de mener des recherches dessus, et je n'ai été capable de trouver qu'une unique référence à l'objet dans mes textes comme dans les ouvrages que j'ai parcouru à Château-Suif et Lunargent, et même là, c'était très vague. Je pense que l'artéfact que Khaddyr a retrouvé est la Couronne de Cornes. Je n'oublierai jamais les mots que j'ai trouvé et qui décrivent cet artéfact, ils sont marqués au fer rouge à vie dans mon esprit :
+
+	Tendo fio posterus, nex vadum reign;
+	dum viscus est demented, phasmatis subsisto sanus.
+	Temerarius dico quod permissum vox exsisto emanio;
+	a novus universitas fio, ut verto est fed.~
+@43 = ~C'est facile à comprendre, lorsque l'on réalise que ces mots décrivent le processus entier de permatration : la mort d'une grande quantité d'âmes, nourrissant celui qui tente la permatration pour le faire devenir un esprit puissant.~
+@44 = ~Voila, <GABBER>, ça fait beaucoup de choses à assimiler. Je sais que vous ne pouvez pas prendre de décision dans l'immédiat, mais j'ai besoin de votre aide. Nous avons tous besoin de votre aide. Khaddyr ne peut pas réussir, non, il ne peut pas tenter la Permatration. Nous... vous <GABBER>, vous ne pouvez pas permettre que cela arrive.~
+@45 = ~Je ne sais pas. Ce que vous demandez n'est pas une mince affaire. J'ai bien peur de ne pas être capable de réussir.~
+@46 = ~Je voudrais vous aider, Eleanor, mais j'aimerai également une récompense pour le dérangement.~
+@47 = ~Je ne peux pas. Je ne peux pas faire cela. Vous allez devoir trouver quelqu'un d'autre.~
+@48 = ~D'accord. Quelqu'un doit s'occuper de ce mage. Où puis-je trouver ce Khaddyr ?~
+@49 = ~<GABBER>, si vous entreprenez ce combat contre le mage, vous devez avoir confiance en vos compétences. Je ne vous aurais pas demandé cela si je n'étais pas sûre que vous ayez une chance de le battre. S'il vous plait, allez-vous m'aider ?~
+@50 = ~<GABBER>, je ne suis qu'une simple disciple. Je ne possède rien de plus que la cape que j'ai sur le dos et les bottes que j'ai aux pieds. Je ne pourrai pas vous offrir de possessions matérielles, mais vous ne ferez pas ce travail pour rien.~
+@51 = ~Bien sûr, battre Khaddyr vous fera gagner des objets et des sorts puissants, mais la fierté que vous allez tirer d'avoir à nouveau oeuvré pour le bien sur Féérune est plus importante que tout ce que je pourrais vous donner.~
+@52 = ~Bien sûr, battre Khaddyr pourrait vous rapporter à vous et à vos amis des objets et des sorts puissants, mais la fierté pour votre groupe d'avoir oeuvré pour le bien sur Fééerune est plus importante que tout autre chose que je pourrais vous donner.~
+@53 = ~Je ne demande pas votre aide parce que je cherche un employé ou un mercenaire, mais plutôt en faisant appel à votre sens de l'honneur et à votre bonté. Ce n'est pas seulement quelque chose à faire pour moi, mais pour tous les habitants de Féérune.~
+@54 = ~Si vous ne pouvez pas m'aider, alors je n'ai pas d'autre choix que de chercher quelqu'un d'autre. Je vous remercie de m'avoir au moins écoutée, et je prie pour que vous surviviez au cataclysme qui aura lieu si jamais le mage réussit.~ 
+@55 = ~C'est la question la plus simple à laquelle je puisse répondre. Lorsque Khaddyr m'a embauchée pour mener ses recherches, il m'a parlé du lieu où je pourrai le contacter. <GABBER>, Khaddyr garde un laboratoire secret dans un donjon près des collines de Lancevent.~
+@56 = ~Vous savez déjà où se trouvent ces collines, vous n'aurez donc aucun mal à aller là-bas.~
+@57 = ~Voila, je vais vous indiquer l'endroit où se trouvent ces collines sur votre carte. Vous ne devriez avoir aucun mal à y aller, maintenant.~
+@58 = ~C'est la question la plus simple à laquelle je puisse répondre. Lorsque Khaddyr m'a embauchée pour mener ses recherches, il m'a parlé du lieu où je pourrai le contacter. <GABBER>, Khaddyr garde un laboratoire secret dans un donjon au nord d'un petit village appelé Imnesvale, niché dans les collines d'Umar.~
+@59 = ~Voila, je vais vous indiquer l'endroit où se trouvent ces ruines sur votre carte. Vous n'aurez donc aucun mal à y aller, maintenant.~
+@60 = ~C'est la question la plus simple à laquelle je puisse répondre. Lorsque Khaddyr m'a embauchée pour mener ses recherches, il m'a parlé du lieu où je pourrai le contacter. <GABBER>, Khaddyr garde un laboratoire secret enfoui sous un large pré au nord-est de Brost, un petit village près de la forêt de Téthyr.~
+@61 = ~Voila, je vais vous indiquer l'endroit où se trouve ce pré sur votre carte. Vous ne devriez pas avoir de mal à y aller, maintenant.~
+@62 = ~Bien, <GABBER>, je suis contente que vous tentiez au moins le coup. Maintenant, laissez-moi essayer de vous aider du mieux que je le puisse. Vous devez savoir que Khaddyr est très puissant, et je n'ai jamais vu moins de six gardes du corps autour de lui. Ce ne sera pas une mince affaire, mais la meilleure chose que vous ayez à faire est de le piéger.~
+@63 = ~Je peux vous aider pour cela. J'ai un plan. Vous pouvez faire les choses à ma façon, ou alors à votre guise, mais je suggère de dupliquer l'artéfact, le remplacer par une copie inoffensive, de prendre possession de la couronne et de la détruire, plutôt que de laisser une chance à Khaddyr de tenter une permatration avant que vous ne puissiez l'arrêter.~
+@64 = ~Le problème se résume donc à une duplication de la Couronne de Cornes, et je n'aurai besoin que de quelques composants et un sort spécial. Je peux vous dire ce dont j'ai besoin, et si vous me les amenez, je fabriquerai la contrefaçon et vous pourrez faire l'échange. Lorsque vous me ramènerez la couronne, il me suffira de la détruire.~
+@65 = ~Ca a l'air d'être un bon plan Eleanor. Essayons ça. Que voulez-vous que je cherche ?~
+@66 = ~Non, Eleanor, ça a l'air trop risqué. Laissez-moi essayer de prendre la couronne des mains de Khaddyr par la force. Je serai capable de vous la ramener pour que vous puissiez la détruire.~
+@67 = ~Je n'aime pas cela, <GABBER>, mais comme vous voulez. Cependant, laissez-moi au moins vous expliquer ce dont vous avez besoin pour construire une copie au cas où vous viendriez à échouer.~
+@68 = ~Il n'y a que quelques objets différents dont vous aurez besoin pour fabriquer une contrefaçon de la Couronne de Cornes. Chacun d'entre eux est très commun, mais je ne sais pas où les trouver. D'abord, vous aurez besoin d'un diamant de n'importe quelle taille et n'importe quelle qualité. Avec le diamant, vous aurez également besoin d'une potion de protection magique pour empêcher le mage de découvrir la vérité sur la copie. Troisièmement, de nombreux objets contiennent du néphrite, c'est un autre composant dont nous aurons besoin pour fabriquer la contrefaçon. Enfin, j'aurai besoin d'un parchemin de sort d'Arme enchantée, que je pourrai modifier pour enchanter des objets.~ 
+@69 = ~Si vous voulez bien collecter ces objets et me les ramener, cela ne me prendra que quelques heures pour fabriquer la copie de la Couronne de Cornes.~
+@70 = ~Je pense que je vous ai tout dit, <GABBER>. Avez-vous des questions ?~
+@71 = ~Je n'en ai pas, Eleanor. Je vais essayer de faire vite. Nous n'avons pas besoin que Khaddyr tente un rituel de Permatration.~
+@72 = ~Bien. <GABBER>, cela fait bien trop longtemps que je suis ici. Je dois partir. Nous nous reverrons à Athkatla. Je vous retrouverai là-bas.~
+@73 = ~Bonne chance, <GABBER>. Nous en aurons tous besoin.~
+@74 = ~Des Elfes et des Artéfacts
+
+J'ai eu une longue discussion avec Eleanor, une mage elfe qui s'est spécialisée dans la recherche d'anciens artéfacts et objets magiques. Elle est très liée à l'ambition d'un mage qui l'a employée pour conduire des recherches sur la théorie de la permatration (que je pensais restée au stade de mythe). Apparemment ce mage est entré en possession d'un artéfact qui lui permettrait de tenter un rituel de permatration, et bien sûr ce processus inclut un fort potentiel de destruction. Eleanor a sollicité mon aide, et a proposé un plan pour contrecarrer le sorcier maléfique.
+
+Elle pense que la meilleure solution est de créer une copie inoffensive de l'artéfact. Je ne sais pas si c'est une bonne idée, mais au cas où je voudrais fabriquer une telle copie, elle m'a indiqué les objets dont j'aurai besoin pour sa réalisation. Les objets sont courants : j'aurai besoin d'un diamant, d'une potion de protection contre la magie, d'un parchemin du sort 'Arme enchantée', et n'importe quel objet contenant une pierre de couleur verte. Si je trouve ces objets et que je souhaite qu'Eleanor fabrique une contrefaçon, je devrai la contacter quelque part à Athkatla.
+
+En plus de la duplication de l'objet, Eleanor m'a indiqué où je pouvais trouver le mage. On lui a dit qu'elle pourrait le contacter dans un donjon en dessous des collines de Lancevent, où il aurait un laboratoire souterrain pour mener ses expériences. Si tout le reste rate, je pourrai probablement le retrouver là-bas afin de le faire échouer dans sa tentative de voler la force vive des autres êtres pour devenir l'équivalent d'un Dieu.~
+
+@75 = ~Des Elfes et des Artéfacts
+
+J'ai eu une longue discussion avec Eleanor, une mage elfe qui s'est spécialisée dans la recherche d'anciens artéfacts et objets magiques. Elle est très liée à l'ambition d'un mage qui l'a employée pour conduire des recherches sur la théorie de la permatration (que je pensais restée au stade de mythe). Apparemment ce mage est entré en possession d'un artéfact qui lui permettrait de tenter un rituel de permatration, et bien sûr ce processus inclut un fort potentiel de destruction. Eleanor a sollicité mon aide, et a proposé un plan pour contrecarrer le sorcier maléfique.
+
+Elle pense que la meilleure solution est de créer une copie inoffensive de l'artéfact. Je ne sais pas si c'est une bonne idée, mais au cas où je voudrais fabriquer une telle copie, elle m'a indiqué les objets dont j'aurai besoin pour sa réalisation. Les objets sont courants : j'aurai besoin d'un diamant, d'une potion de protection contre la magie, d'un parchemin du sort 'Arme enchantée', et n'importe quel objet contenant une pierre de couleur verte. Si je trouve ces objets et que je souhaite qu'Eleanor fabrique une contrefaçon, je devrai la contacter quelque part à Athkatla.
+
+En plus de la duplication de l'objet, Eleanor m'a indiqué où je pouvais trouver le mage. On lui a dit qu'elle pourrait le contacter dans un donjon près des collines d'Umar, où il aurait un laboratoire souterrain pour mener ses expériences. Si tout le reste rate, je pourrai probablement le retrouver là-bas afin de le faire échouer dans sa tentative de voler la force vive des autres êtres pour devenir l'équivalent d'un Dieu.~
+@76 = ~Des Elfes et des Artéfacts
+
+J'ai eu une longue discussion avec Eleanor, une mage elfe qui s'est spécialisée dans la recherche d'anciens artéfacts et objets magiques. Elle est très liée à l'ambition d'un mage qui l'a employée pour conduire des recherches sur la théorie de la permatration (que je pensais restée au stade de mythe). Apparemment ce mage est entré en possession d'un artéfact qui lui permettrait de tenter un rituel de permatration, et bien sûr ce processus inclut un fort potentiel de destruction. Eleanor a sollicité mon aide, et a proposé un plan pour contrecarrer le sorcier maléfique.
+
+Elle pense que la meilleure solution est de créer une copie inoffensive de l'artéfact. Je ne sais pas si c'est une bonne idée, mais au cas où je voudrais fabriquer une telle copie, elle m'a indiqué les objets dont j'aurai besoin pour sa réalisation. Les objets sont courants : j'aurai besoin d'un diamant, d'une potion de protection contre la magie, d'un parchemin du sort 'Arme enchantée', et n'importe quel objet contenant une pierre de couleur verte. Si je trouve ces objets et que je souhaite qu'Eleanor fabrique une contrefaçon, je devrai la contacter quelque part à Athkatla.
+
+En plus de la duplication de l'objet, Eleanor m'a indiqué où je pouvais trouver le mage. On lui a dit qu'elle pourrait le contacter dans un donjon près de la forêt de Téthyr, où il aurait un laboratoire souterrain pour mener ses expériences. Si tout le reste rate, je pourrai probablement le retrouver là-bas afin de le faire échouer dans sa tentative de voler la force vive des autres êtres pour devenir l'équivalent d'un Dieu.~
+@77 = ~Des Elfes et des Artéfacts
+
+Alors que je me promenais dans le district du Pont d'Athkatla, une elfe inconnue s'est approché de moi avec nervosité. Sans mot dire et sans explication aucune, elle a subrepticement glissé une statuette dans mon sac. Je ne sais pas pourquoi elle m'a donné cet objet, ni à quoi il pourrait me servir. Je vais devoir enquêter la-dessus ; peut-être que cette elfe va me conduire vers de nouvelles aventures...~
+@78 = ~Des Elfes et des Artéfacts
+
+J'ai identifié et lu le message enregistré magiquement dans la statuette qui m'a été donnée par une elfe dans le district du Pont. La voix, celle de l'elfe semble-t'il, exprimait la terreur, mais ne m'a pas donné beaucoup d'informations sur l'aventure à venir. Tout ce que je sais, c'est que cette elfe (ainsi que la Côte des Epées d'après ses dires) est en grand danger. Je dois la retrouver au temple de Waukyne de Franc-Marché pour en savoir plus. J'irai peut-être là-bas, mais il faudrait d'abord que je me renseigne un peu plus sur elle.~

@@ -1,0 +1,23 @@
+IF
+	Global("CbRynnsQuest","GLOBAL",3)
+	Global("CbAstinarSpawnOne","GLOBAL",0)
+	GlobalTimerExpired("CbCanSpawnAstinarNow","GLOBAL")
+	RandomNum(33,1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbAstinarSpawnOne","GLOBAL",1)
+		CreateCreatureOffScreen("CBGONAST",0)
+END
+
+IF
+	Global("CbRynnsQuest","GLOBAL",5)
+	Global("CbAstinarSpawnTwo","GLOBAL",0)
+	GlobalTimerExpired("CbCanSpawnAstinarAgain","GLOBAL")
+	RandomNum(33,1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbAstinarSpawnTwo","GLOBAL",1)
+		CreateCreatureOffScreen("CBGONAST",0)
+END
+
+

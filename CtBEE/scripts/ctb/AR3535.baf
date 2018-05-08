@@ -1,0 +1,109 @@
+IF
+	Global("CbTimesEntered","AR3535",5)
+	Exists("CB35ASSN")
+	OnCreation()
+THEN
+	RESPONSE #100
+		DisplayStringNoName(Myself,@550008)
+		Continue()
+END
+
+IF
+	OnCreation()
+	!GlobalGT("CbTimesEntered","AR3535",4)
+THEN
+	RESPONSE #100
+		IncrementGlobal("CbTimesEntered","AR3535",1)
+END
+
+IF
+	HasItem("CB513REL","CB35ASSN")
+	Global("CbAssassinGotTheDeed","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbAssassinGotTheDeed","GLOBAL",1)
+END
+
+IF
+	Global("CbAssassinGotTheDeed","GLOBAL",1)
+	OR(6)
+		HasItem("CB513REL",Player1)
+		HasItem("CB513REL",Player2)
+		HasItem("CB513REL",Player3)
+		HasItem("CB513REL",Player4)
+		HasItem("CB513REL",Player5)
+		HasItem("CB513REL",Player6)
+THEN
+	RESPONSE #100
+		SetGlobal("CbAssassinGotTheDeed","GLOBAL",0)
+END
+
+IF
+	Global("CbTimesEntered","AR3535",1)
+	Global("CbDoOnceOne","AR3535",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbDoOnceOne","AR3535",1)
+		DisplayStringNoName(Myself,@550009) 
+END
+
+IF
+	Global("CbTimesEntered","AR3535",2)
+	Global("CbDoOnceTwo","AR3535",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbDoOnceTwo","AR3535",1)
+		DisplayStringNoName(Myself,@550010) 
+END
+
+IF
+	Global("CbTimesEntered","AR3535",3)
+	Global("CbDoOnceThree","AR3535",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbDoOnceThree","AR3535",1)
+		DisplayStringNoName(Myself,@550010)
+END
+
+IF
+	GlobalLT("CbTimesEntered","AR3535",4)
+	SpellCast([ANYONE],4922)
+THEN
+	RESPONSE #100
+		DisplayStringNoName(Myself,@550011)
+		SetGlobal("CbTimesEntered","AR3535",5)
+END
+
+IF
+	Global("CbTimesEntered","AR3535",4)
+THEN
+	RESPONSE #100
+		DisplayStringNoName(Myself,@550011)
+		SetGlobal("CbTimesEntered","AR3535",5)
+END
+
+IF
+	Global("CbTimesEntered","AR3535",5)
+	Global("CbAssasinCreated","AR3535",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbAssasinCreated","AR3535",1)
+		CreateCreature("CB35ASSN",[493.489],1)
+END
+
+IF
+        Global("EagleCreated","AR3535",0)
+THEN
+	RESPONSE #100
+                SetGlobal("EagleCreated","AR3535",1)
+		CreateCreatureOffScreen("EAGLE",0)
+END
+
+IF
+	!Exists("RABBIT01")
+THEN
+	RESPONSE #100
+		CreateCreatureOffScreen("RABBIT01",0)
+END
+
+

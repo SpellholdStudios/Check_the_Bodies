@@ -1,0 +1,15 @@
+@1   = ~"I heard you call, <GABBER>.  I came as quickly as I could."~
+@2   = ~"As we agreed, <GABBER>, you have three times that you may call upon my assistance.  This is your first, and you have two remaining calls.  I will not answer after that."~
+@3   = ~"As we agreed, <GABBER>, you have three times that you may call upon my assistance.  This is your second, and you have one remaining call.  I will not answer after that."~
+@4   = ~"As we agreed, <GABBER>, you had three times that you may call upon my assistance.  This is your third and final summoning.  I will not answer after that."~
+@5   = ~"You wouldn't have been so naive to have summoned me without cause.  What is it that you need this time, <GABBER>?"~
+@6   = ~Nothing, mighty Darammareth S'ooloun Crommadar Ammanth Kuleera.  You may go.~
+@7   = ~I'm about to enter a battle that I don't know if I'll survive.  Can you help me?~
+@8   = ~Kill my enemies, mighty Darammareth S'ooloun Crommadar Ammanth Kuleera!~
+@9   = ~I want your treasure, Darammareth S'ooloun Crommadar Ammanth Kuleera.  Will you give it to me?~
+@10  = ~"You are pathetic.  That was not part of our bargain, and I refuse.  You have foolishly wasted a summons.  Do not waste my time and energy like this again, mortal."~
+@11  = ~"You are pathetic.  You have foolishly wasted a summons.  Do not waste my time and energy like this again, mortal."~
+@12  = ~"Very well, <GABBER>.  I will do what I can to assist you, but take note that if you leave me here and go adventuring as you are wont to do, I will leave and you will have wasted a summons."~
+@13  = ~"I will do what I can to help you, <GABBER>.  Do not expect me to take injury for you, a mortal."~
+@14  = ~"You should be well off now, <GABBER>.  I have kept my part of our deal, and come to your aid.  I am leaving now, and you may call on me again if you need to."~
+@15  = ~"You should be well off now, <GABBER>.  I have kept my part of our deal, and come to your aid three times as promised.  I am free of our deal, and the debt was paid.  Do not think to call on me again, or I will kill you, mortal."~

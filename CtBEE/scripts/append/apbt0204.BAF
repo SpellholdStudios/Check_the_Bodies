@@ -1,0 +1,16 @@
+IF
+	GlobalLT("CbHelpRyberg","GLOBAL",3)
+THEN
+	RESPONSE #100
+		ContainerEnable("Container3",FALSE)
+		Continue()
+END
+
+IF
+        Global("CbHelpRyberg","GLOBAL",3)
+THEN
+        RESPONSE #100
+                ContainerEnable("Container3",TRUE)
+		Continue()
+END
+

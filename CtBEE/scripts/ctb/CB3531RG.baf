@@ -1,0 +1,57 @@
+IF
+	XPLT(Player1,400000)
+	Entered([ANYONE])
+THEN
+	RESPONSE #100
+		CreateCreature("CBC8CTF1",[-1.-1],0)
+		CreateCreature("CBC8CTF1",[-1.-1],0)
+		CreateCreature("CBC8CTF1",[-1.-1],0)
+		CreateCreature("CBC8CTF1",[-1.-1],0)
+		CreateCreature("CBC8CTM1",[-1.-1],0)
+END
+
+IF
+	XPGT(Player1,399999)
+	XPLT(Player1,1000000)
+	Entered([ANYONE])
+THEN
+	RESPONSE #100
+		CreateCreature("CBC8CTF1",[-1.-1],0)
+		CreateCreature("CBC8CTF1",[-1.-1],0)
+		CreateCreature("CBC8CTF1",[-1.-1],0)
+		CreateCreature("CBC8CTF1",[-1.-1],0)
+		CreateCreature("CBC8CTM1",[-1.-1],0)
+END
+
+IF
+	XPGT(Player1,999999)
+	XPLT(Player1,2000000)
+	Entered([ANYONE])
+THEN
+	RESPONSE #100
+		CreateCreature("CBC8CTF2",[-1.-1],0)
+		CreateCreature("CBC8CTF2",[-1.-1],0)
+		CreateCreature("CBC8CTF2",[-1.-1],0)
+		CreateCreature("CBC8CTF2",[-1.-1],0)
+		CreateCreature("CBC8CTM2",[-1.-1],0)
+		CreateCreature("CBC8CTL2",[-1.-1],0)
+END
+
+IF
+	XPGT(Player1,1999999)
+	Entered([ANYONE])
+THEN
+	RESPONSE #100
+		CreateCreature("CBC8CTF3",[-1.-1],0)
+		CreateCreature("CBC8CTF3",[-1.-1],0)
+		CreateCreature("CBC8CTF3",[-1.-1],0)
+		CreateCreature("CBC8CTF3",[-1.-1],0)
+		CreateCreature("CBC8CTM3",[-1.-1],0)
+		CreateCreature("CBC8CTL3",[-1.-1],0)
+		CreateCreature("CBC8CTU3",[-1.-1],0)
+		CreateCreature("CBC8CTU3",[-1.-1],0)
+		CreateCreature("CBC8CTC2",[-1.-1],0)
+		CreateCreature("CBC8CTC2",[-1.-1],0)
+END
+
+

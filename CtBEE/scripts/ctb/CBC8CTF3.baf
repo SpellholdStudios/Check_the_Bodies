@@ -1,0 +1,124 @@
+IF
+	HPLT(Myself,1)
+	Global("Cb_DeadCultMemberGivesXP","LOCALS",0)
+	NumInParty(1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_DeadCultMemberGivesXP","LOCALS",1)
+		AddXPObject(LastAttackerOf(Myself),480)
+		AddXPObject(Player1,560)
+		AddXPObject("CBTARDTH",80)
+		AddXPObject("CBHREDWN",80)
+		AddXPObject("CBMONDRP",80)
+		AddXPObject("CBLSLNDA",80)
+		AddXPObject("CBMANARB",80)
+		AddXPObject("CBARKSLV",80)
+		AddXPObject("CBSTTFLW",80)
+END
+
+IF
+	HPLT(Myself,1)
+	Global("Cb_DeadCultMemberGivesXP","LOCALS",0)
+	NumInParty(2)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_DeadCultMemberGivesXP","LOCALS",1)
+		AddXPObject(LastAttackerOf(Myself),480)
+		AddXPObject(Player1,280)
+		AddXPObject(Player2,280)
+		AddXPObject("CBTARDTH",80)
+		AddXPObject("CBHREDWN",80)
+		AddXPObject("CBMONDRP",80)
+		AddXPObject("CBLSLNDA",80)
+		AddXPObject("CBMANARB",80)
+		AddXPObject("CBARKSLV",80)
+		AddXPObject("CBSTTFLW",80)
+END
+
+IF
+	HPLT(Myself,1)
+	Global("Cb_DeadCultMemberGivesXP","LOCALS",0)
+	NumInParty(3)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_DeadCultMemberGivesXP","LOCALS",1)
+		AddXPObject(LastAttackerOf(Myself),480)
+		AddXPObject(Player1,187)
+		AddXPObject(Player2,187)
+		AddXPObject(Player3,187)
+		AddXPObject("CBTARDTH",80)
+		AddXPObject("CBHREDWN",80)
+		AddXPObject("CBMONDRP",80)
+		AddXPObject("CBLSLNDA",80)
+		AddXPObject("CBMANARB",80)
+		AddXPObject("CBARKSLV",80)
+		AddXPObject("CBSTTFLW",80)
+END
+
+IF
+	HPLT(Myself,1)
+	Global("Cb_DeadCultMemberGivesXP","LOCALS",0)
+	NumInParty(4)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_DeadCultMemberGivesXP","LOCALS",1)
+		AddXPObject(LastAttackerOf(Myself),480)
+		AddXPObject(Player1,140)
+		AddXPObject(Player2,140)
+		AddXPObject(Player3,140)
+		AddXPObject(Player4,140)
+		AddXPObject("CBTARDTH",80)
+		AddXPObject("CBHREDWN",80)
+		AddXPObject("CBMONDRP",80)
+		AddXPObject("CBLSLNDA",80)
+		AddXPObject("CBMANARB",80)
+		AddXPObject("CBARKSLV",80)
+		AddXPObject("CBSTTFLW",80)
+END
+
+IF
+	HPLT(Myself,1)
+	Global("Cb_DeadCultMemberGivesXP","LOCALS",0)
+	NumInParty(5)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_DeadCultMemberGivesXP","LOCALS",1)
+		AddXPObject(LastAttackerOf(Myself),480)
+		AddXPObject(Player1,112)
+		AddXPObject(Player2,112)
+		AddXPObject(Player3,112)
+		AddXPObject(Player4,112)
+		AddXPObject(Player5,112)
+		AddXPObject("CBTARDTH",80)
+		AddXPObject("CBHREDWN",80)
+		AddXPObject("CBMONDRP",80)
+		AddXPObject("CBLSLNDA",80)
+		AddXPObject("CBMANARB",80)
+		AddXPObject("CBARKSLV",80)
+		AddXPObject("CBSTTFLW",80)
+END
+
+IF
+	HPLT(Myself,1)
+	Global("Cb_DeadCultMemberGivesXP","LOCALS",0)
+	NumInParty(6)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_DeadCultMemberGivesXP","LOCALS",1)
+		AddXPObject(LastAttackerOf(Myself),480)
+		AddXPObject(Player1,94)
+		AddXPObject(Player2,94)
+		AddXPObject(Player3,94)
+		AddXPObject(Player4,94)
+		AddXPObject(Player5,94)
+		AddXPObject(Player6,94)
+		AddXPObject("CBTARDTH",80)
+		AddXPObject("CBHREDWN",80)
+		AddXPObject("CBMONDRP",80)
+		AddXPObject("CBLSLNDA",80)
+		AddXPObject("CBMANARB",80)
+		AddXPObject("CBARKSLV",80)
+		AddXPObject("CBSTTFLW",80)
+END
+
+

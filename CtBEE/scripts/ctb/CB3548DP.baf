@@ -1,0 +1,32 @@
+IF
+	OnCreation()
+	OR(4)
+		!HasItem("CBWTNI1a",Myself)
+		!HasItem("CBWTNI1b",Myself)
+		!HasItem("CBWTNI1c",Myself)
+		!HasItem("CBWTNI1d",Myself)
+THEN
+	RESPONSE #25
+		GiveItemCreate("CBWTNI1a",Myself,1,7,0)
+	RESPONSE #25
+		GiveItemCreate("CBWTNI1b",Myself,1,6,0)
+	RESPONSE #25
+		GiveItemCreate("CBWTNI1c",Myself,1,5,0)
+	RESPONSE #25
+		GiveItemCreate("CBWTNI1d",Myself,1,4,0)
+END
+
+IF
+	OR(4)
+		HasItem("CBWTNI1a",Myself)
+		HasItem("CBWTNI1b",Myself)
+		HasItem("CBWTNI1c",Myself)
+		HasItem("CBWTNI1d",Myself)
+THEN
+	RESPONSE #100
+		DropInventory()
+		Wait(1)
+		DestroySelf()
+END
+
+

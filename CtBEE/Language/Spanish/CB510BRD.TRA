@@ -1,0 +1,175 @@
+@1   = ~Efectivamente, este es uno de los salones de música más refinados en el que he tenido el placer de actuar al sur de la Ciudad de los Esplendores. Estoy bastante seguro de que casi todos los bardos que se hayan graduado en la Academia de Luna Plateada, algunos de ellos fueron alumnos mios, tendrían envídia de actuar en un lugar así.~
+@2   = ~Solo hay unas pocas cosas en una sala de teatro que exciten el alma de uno, ¿no lo creéis? El olor a serrín en el suelo, los paisajes recién pintados, el charloteo sin aliento de las damas y caballeros que vienen para una función, y las exquisitas notas orquestales de las arpas y laúdes que hacen volar mi alma.~
+@3   = ~Hubiera continuado con mi cargo en la Academia de Bardos de Luna Plateada, sin embargo habría llegado a aburrirme el enseñar lo mismo a los aspirantes a músicos o actores. Quería volver a mi verdadero amor, el escenario, y el público, y el lazo especial creado entre ambos.~
+@4   = ~Puedo decir por vuestra presencia: vuestro porte, el corte de vuestra capa y pantalones, y la impecable forma en la que estáis aseado, que vos también os habéis formado como bardo. Contadme, ¿dónde estudiasteis?~
+~Puedo decir por vuestra presencia: vuestro porte, el corte de vuestra capa y pantalones, y la impecable forma en la que estáis aseada, que vos también os habéis formada como bardo. Contadme, ¿dónde estudiasteis?~
+@5   = ~En realidad, he inicio mi formación bárdica de forma oficial este año.~
+@6   = ~Pasé unas temporadas con la Gremio de Actores del Risco de los Cuervos.~
+@7   = ~Obtuve todos los honores en la Academia de Estudios Bárdicos de Sembia.~
+@8   = ~Tras trabajar durante varios años, regresé a la Comunidad Cormyriana de la Escuela de Artes, en Suzail.~
+@9   = ~Empecé mis estudios en la Escuela de Bardos de Aguasprofundas, en Los Cantineros, y en Los Conductores de Carros, pero lo abandoné porque terminaba yendo cada noche a las tabernas y descuidando mis estudios.~
+@10  = ~Buena suerte para vos entonces, <GABBER>. Puedo decir ya, que pienso que lo haréis muy bien por vos mismo. Soy bueno juzgando el temperamento, y vos tenéis lo necesario para lograr con éxito el ser un Maestro Bardo como yo mismo.~
+~Buena suerte para vos entonces, <GABBER>. Puedo decir ya, que pienso que lo haréis muy bien por vos misma. Soy bueno juzgando el temperamento, y vos tenéis lo necesario para lograr con éxito el ser un Maestro Bardo como yo mismo.~
+@11  = ~Esto siempre es una realidad de la vida. Algunas personas que van desde sus casas a centros culturales como Luna Plateada, Aguasprofundas, Suzail, o incluso a Risco de los Cuervos, no pueden hacerse un nombre por ellos mismos. Esto lo tiene que sentir directamente el indivíduo. ¿Pensáis que alguna vez intentaréis convertiros en bardo?~
+@12  = ~Me gustaría empezar mis estudios este año.~
+@13  = ~Me gustaría pasar unas temporadas en el Gremio de Actores del Risco de los Cuervos.~
+@14  = ~Me gustaría conseguir todos los honores en la Academia de Estudios Bárdicos de Sembia.~
+@15  = ~Pienso asistir a la Comunidad Cormyriana de la Escuela de Artes, concretamente al campus de Suzail.~
+@16  = ~¡Que la Señora Tymora os sonría, <GABBER>! Ahí es precisamente donde recibí mi licencia de bardo. Es una buena escuela, tenéis que admitirlo, pero hay algunas cosas que no podréis aprender allí que si podríais como un estudiante en las Academias de Luna Plateada.~
+@17  = ~Me gustáis, <GABBER>. Os labraréis un buen nombre como bardo. Soy bueno juzgando el temperamento, y soy capaz de ayudaros. Yo podría, como solía hacer en la facultad de la Academia para Bardos de Luna Plateada, enseñaros algunas habilidades que pueden ayudaros a lo largo de vuestra carrera como bardo, es decir, si estáis dispuesto a ayudarme a mí. ¿Qué decís, <GABBER>, debemos trabajar juntos?~
+@18  = ~Seguro, querría aprender algunas habilidades nuevas. ¿Qué necesitáis?~
+@19  = ~No tengo tiempo ahora para ayudaros. Quizás más tarde.~
+@20  = ~Ciertamente, <GABBER>, si de verdad deseáis llegar a ser un bardo de renombre, estas lecciones en las que os puedo instruir os serían muy beneficiosas. Estoy seguro que las habilidades que ahora tenéis serían de gran valor para las tareas que tengo, y ninguna os tomaría demasiado tiempo. Os diré que es lo primero que necesito.~
+@21  = ~¡Noble Señor! Es bueno volver hablar con vos una vez más. Sin embargo, deberéis excusarme, en breve estaré en escena y aún tengo que atender alguna instrumentación. ¿Habéis sido capaz de encontrar un Arpa de Myth Drannor para mí?~
+~¡Noble Señora! Es bueno volver hablar con vos una vez más. Sin embargo, deberéis excusarme, en breve estaré en escena y aún tengo que atender alguna instrumentación. ¿Habéis sido capaz de encontrar un Arpa de Myth Drannor para mí?~
+@22  = ~No, Maestro Bardo, aún no he encontrado un arpa. ¿Sabéis donde podría encontrar una?~
+@23  = ~Sí, mi buen Maestro Bardo, he encontrado un Arpa de Myth Drannor. Aquí está, os la daré si me enseñáis algo.~
+@24  = ~Sí, mi buen Maestro Bardo, he encontrado un Arpa de Myth Drannor, sin embargo no puedo darosla a vos dado que pienso que debería guardarmela para mí.~
+@25  = ~Por la buena gracia, no sé, <GABBER>. No conozco las zonas bárbaras del lejano sur, por lo que si tuviera que especular, sugeriría consultar a los comerciantes de equipo o artefactos locales. Si esto fallara, amigo mio, pudiera ser sabio el buscar en antiguas criptas, mazmorras, o guaridas.~
+~Por la buena gracia, no sé, <GABBER>. No conozco las zonas bárbaras del lejano sur, por lo que si tuviera que especular, sugeriría consultar a los comerciantes de equipo o artefactos locales. Si esto fallara, amiga mia, pudiera ser sabio el buscar en antiguas criptas, mazmorras, o guaridas.~
+@26  = ~Sería un sueño hecho realidad si pudiera poseer un Arpa de Myth Drannor, y no os envidiaría por querarla para vos mismo. Tendréis que decidir, amigo mio, a menos que comerciemos, no emplearé tiempo alguno en compartir mis conocimientos bárdicos con vos.~
+~Sería un sueño hecho realidad si pudiera poseer un Arpa de Myth Drannor, y no os envidiaría por querarla para vos misma. Tendréis que decidir, amiga mia, a menos que comerciemos, no emplearé tiempo alguno en compartir mis conocimientos bárdicos con vos.~
+@27  = ~¡Maravillosas noticias, <GABBER>! De verdad que el agradecimiento me inunda por vuestra generosidad. Pues con esta Arpa de Myth Drannor, podré llegar a ser tan grande que se me conocerán como el más famoso de los bardos de la historia de Faerûn y de nuestra era.~
+@28  = ~Habéis hecho un gran servicio para mí, <GABBER>, y quiero mostraros cuanto aprecio lo que habéis hecho. Os prometí enseñaros algo si me ayudabais, y haré honor a mi palabra. Os enseñaré una cosa de tres, pero os dejo a vos el escoger la lección.~
+@29  = ~Será un placer y un honor para mí instruir ahora a otro aspirante a bardo, uno que sé que algun día se volverá el más famoso en todos los Reinos. Contadme, <GABBER>, ¿estaríais interesado en saber cómo memorizar un mayor número de conjuros de los que normalmente puede un bardo de vuestra habilidad?, ¿cómo evadir a vuestros enemigos?, ó ya que tenéis la habilidad de colocar trampas, ¿os gustaría aprender cómo colocar un nuevo tipo de trampas para vuestros enemigos, esparciendo abrojos por el suelo para hacer tropezar y dañar a vuestros enemigos?~
+~Será un placer y un honor para mí instruir ahora a otra aspirante a bardo, una que sé que algun día se volverá la más famosa en todos los Reinos. Contadme, <GABBER>, ¿estaríais interesada en saber cómo memorizar un mayor número de conjuros de los que puede normalmente un bardo de vuestra habilidad?, ¿cómo evadir a vuestros enemigos?, ó ya que tenéis la habilidad de colocar trampas, ¿os gustaría aprender cómo colocar un nuevo tipo de trampas para vuestros enemigos, esparciendo abrojos por el suelo para hacer tropezar y dañar a vuestros enemigos?~
+@30  = ~Me gustaría conocer cómo memorizar un conjuro adicional por nivel.~
+@31  = ~Pienso que la evasión sería una habilidad útil para conocer. ¿Podéis enseñarmela?~
+@32  = ~Aprender cómo esparcir abrojos sobre el suelo como estos sería algo realmente útil dado mi forma de trabajar.~
+@33  = ~He enseñado a muchos estudiantes que se inclinan por las artes mágicas como camino para mejorar sus mentes, en concreto, en cómo aumentar sus capacidades mentales. Estoy seguro que con vuestra formación de bardo puedo enseñaros lo mismo.~
+@34  = ~Vais a ser un excelente bardo, <GABBER>. De hecho, ya estáis bien versado en la vida de un juglar, pero con los conjuros adicionales que podréis memorizar ahora, podéis llegar a ser un reconocido ilusionista o embaucador.~
+~Vais a ser un excelente bardo, <GABBER>. De hecho, ya estáis bien versada en la vida de un juglar, pero con los conjuros adicionales que podréis memorizar ahora, podéis llegar a ser una reconocida ilusionista o embaucadora.~
+@35  = ~He enseñado a muchos estudiantes que se inclinaban por la formación en combate como forma de mejorar sus habilidades de combate, en concreto, en cómo evadir a sus enemigos. Estoy seguro que con vuestra formación de bardo puedo enseñaros lo mismo.~
+@36  = ~Vais a ser un excelente bardo, <GABBER>. De hecho, ya estáis bien versado en la vida de un juglar, pero evadiendo a vuestros enemigos en combate podréis vivir el tiempo sufuciente para llegar a ser un reconocido cuentacuentos.~
+~Vais a ser un excelente bardo, <GABBER>. De hecho, ya estáis bien versada en la vida de un juglar, pero evadiendo a vuestros enemigos en combate podréis vivir el tiempo sufuciente para llegar a ser una reconocida cuentacuentos.~
+@37  = ~He enseñado a muchos estudiantes que se entrenaban en métodos de trampas y engaños la forma correcta de arrojar los abrojos, y estoy seguro de que con vuestros conocimientos en trampas, podré enseñaros lo mismo.~
+@38  = ~Vais a ser un excelente bardo, <GABBER>. De hecho, ya estáis bien versado en la vida de un juglar, pero deteniendo o ralentizando la aproximación de un enemigo armado, podréis vivir lo suficiente para ser un reconocido cuentacuentos.~
+~Vais a ser un excelente bardo, <GABBER>. De hecho, ya estáis bien versada en la vida de un juglar, pero deteniendo o ralentizando la aproximación de un enemigo armado, podréis vivir lo suficiente para ser una reconocida cuentacuentos.~
+@39  = ~Como dije, <GABBER>, me gustáis. Creo que podéis haceros un nombre por vos mismo como uno de los mayores y más respetados bardos de Faerûn. Si no deseáis ayudarme ahora, es vuestra elección, pero pienso que os beneficiaría enormemente en los años venideros. Estaré en Athkatla durante un tiempo, quizás haga una función o dos aquí, y si cambiáis de pensamiento, no dudéis en hacermelo saber.~
+~Como dije, <GABBER>, me gustáis. Creo que podéis haceros un nombre por vos misma como una de los mayores y más respetadas bardos de Faerûn. Si no deseáis ayudarme ahora, es vuestra elección, pero pienso que os beneficiaría enormemente en los años venideros. Estaré en Athkatla durante un tiempo, quizás haga una función o dos aquí, y si cambiáis de pensamiento, no dudéis en hacermelo saber.~
+@40  = ~Para hacer una extensa epopeya breve, algo ciertamente inusual para un bardo, mientras estaba viajando a lo largo de Costa de la Espada y me detenía en muchos salones de fiestas, tabernas, y teatros como este, perdí una valiosa posesión. Un Arpa de Myth Drannor, para ser exactos. Sí, veo por vuestra expresión que sois conocedor de su valor. Estoy seguro de que nunca encontraré la misma Arpa, pero sin embargo, me gustaría tener una. Si pudierais encontrar y traerme una, podéis estar seguro que os recompensaré y enseñaré una habilidad de bardo que sólo podríais aprender en la Academia de Luna Plateada.~
+~Para hacer una extensa epopeya breve, algo ciertamente inusual para un bardo, mientras estaba viajando a lo largo de Costa de la Espada y me detenía en muchos salones de fiestas, tabernas, y teatros como este, perdí una valiosa posesión. Un Arpa de Myth Drannor, para ser exactos. Sí, veo por vuestra expresión que sois conocedora de su valor. Estoy seguro de que nunca encontraré la misma Arpa, pero sin embargo, me gustaría tener una. Si pudierais encontrar y traerme una, podéis estar seguro que os recompensaré y enseñaré una habilidad de bardo que sólo podríais aprender en la Academia de Luna Plateada.~
+@41  = ~Estoy hastiado de deciros esto, <GABBER>, y en verdad vos debéis estar aburrido, pero verdaderamente creo que os convertiréis en uno de los mayores bardos de Faerûn. Me honraría haceros el camino más sencillo de nuevo, enseñandoos algunas cosas, pero necesitaréis hacer algo por mí. ¿Estéis preparado para ayudar?~
+~Estoy hastiado de deciros esto, <GABBER>, y en verdad vos debéis estar aburrida, pero verdaderamente creo que os convertiéeis en una de las mayores bardos de Faerûn. Me honraría haceros el camino más sencillo de nuevo, enseñandoos algunas cosas, pero necesitaréis hacer algo por mí. ¿Estéis preparada para ayudar?~
+@42  = ~Sí, Maestro Bardo. Contadme lo que necesitáis que sea hecho.~
+@43  = ~No, Maestro Bardo, necesito más tiempo.~
+@44  = ~Como dije, <GABBER>, sería un honor y un privilegio el ayudaros a convertiros en un bardo de renombre mundial, pero no puedo ayudaros hasta que no me hayáis ayudado a mí. Regresad cuando seáis capaz, mientras, tengo que acudir a mi próxima actuación.~
+@45  = ~Lo haré, <GABBER>, pero vos debéis escuchar muy bien lo que hay que hacer. Tengo mucho que explicar.~
+@46  = ~Como bardo que soy, escucho muchos de los acontecimientos en todo el mundo, y muy a menudo, los problemas locales son planteados en mi presencia. Tengo algunos amigos arpistas aquí en Athkatla, y me han confiado un peligro creciente. No tengo todos los detalles, y algo de este rumor puede estar exagerado, pero he oido por mis asociados que este peligro es de una gran maldad.~
+@47  = ~Es una presencia maligna, de la cuál mis asociados no pueden discernir un origen o intención. Sin embargo, están seguro que no es de este mundo, y temen por la región si esta presencia se hiciera demasiado fuerte. <GABBER>, a esta presencia maligna no puede permitirsele causar estragos en Faerûn.~
+@48  = ~Os ruego a vos, <GABBER>, como bardo cualificado, uséis cualquier método que tengáis a vuestra disposición para eliminar este ser. Recabad la ayuda de aliados si así lo decidís, amigos poderosos, o acopiar objetos arcanos para poner fin a la fuerza a la amenaza si así debéis.~
+@49  = ~¿Dónde puedo encontrar esta presencia, mi buen Señor Bardo?~
+@50  = ~Haré todo lo posible, mi buen Señor Bardo.~
+@51  = ~Maestro Bardo, dudo que mis habilidades sean suficientes para poner fin a esta terrible amenaza.~
+@52  = ~Mis asociados, estos amigos arpistas que he mencionado, no me dijeron exactamente desde donde de la ciudad emana la presencia, y no creo que lo sepan. Sin embargo, están seguros de haberla "sentido" en algún lugar cercano, más concretamente dentro de los muros de la ciudad.~
+@53  = ~Independientemente del coste, <GABBER>, el destino de todos nosotros puede descansar en vuestras manos. Tened confianza en vos mismo, mi buen amigo, y éxito tendréis.~
+~Independientemente del coste, <GABBER>, el destino de todos nosotros puede descansar en vuestras manos. Tened confianza en vos misma, mi buena amiga, y éxito tendréis.~
+@54  = ~Sé que trataréis de hacer todo lo que podáis. Os deseo suerte en vuestra tarea, <GABBER>. Regresad a mí cuando hayáis encontrado y eliminado esa presencia maligna.~
+@55  = ~<GABBER>, es bueno veros una vez más. Debéis perdonadme, pero estoy apunto de empezar una función. Por cierto, mis amigos arpistas me habrían informado si la presencia maligna no estuviera. No lo han hecho así que, ¿está todo bien?~
+@56  = ~No puedo encontrar esa presencia. ¿Sabéis donde está?~
+@57  = ~Os diré que todo lo que sé y me contaron. La presencia está en algún lugar en Athkatla.~
+@58  = ~Mis asociados no pueden ser más precisos respecto a la localización del mal, pero me dijeron que la presencia es más fuerte en la parte oeste de Athkatla.~
+@59  = ~Mis compañeros arpistas han sido capaces de reducir el área de ese mal. Me dijeron que está en algún lugar cercano a una masa de agua. ¿Posiblemente el río? Ni ellos ni yo mismo lo podemos decir con certeza.~
+@60  = ~En lo que respecta a lo que me pueden decir mis amigos, el ser maligno está debajo de la superfície. Hay una sensación de azufre, sal, y putrefacción cerca de allí.~
+@61  = ~Lo siento, <GABBER>. No puedo daros más información. Mis compañeros sólo me han dicho que la emanación malvada es más fuerte en la zona oeste de Athkatla, cerca del agua, bajo el nivel de las calles.~
+@62  = ~¡<GABBER>, es bueno veros de nuevo! He oido algunas buenas noticias. Muy buenas noticias de hecho. Mis amigos arpistas ya no perciben la presencia maligna, y sería bastante interesante conocer qué sucedió. Entiendo que habéis eliminado al ser, pero ¿qué ocurrió?~
+@63  = ~El demonio fue desterrado de Faerûn. No pude destruirlo.~
+@64  = ~Fui capaz de destruir al demonio y no deberían preocuparse más por el subsuelo de los muelles.~
+@65  = ~Independientemente de las consecuencias, <GABBER>, está hecho. Lo habéis hecho bien, y aquellos que tocan el arpa están complacidos por vuestras hazañas. Como yo.~
+@66  = ~Vamos, <GABBER>. Encontrad ese mal y haced lo que debáis hacer para detenerlo.~
+@67  = ~De hecho, estoy muy complacido con vuestra habilidad al eliminar al malvado demonio. Sé que yo nunca podría haberlo hecho, y probablemente ni hubiera intentado tal hazaña. Debéis ser elogiado, <GABBER>, y deseo hacerle honor a mi promesa de enseñaros algo. De nuevo, debéis escoger por vos mismo.~
+~De hecho, estoy muy complacido con vuestra habilidad al eliminar al malvado demonio. Sé que yo nunca podría haberlo hecho, y probablemente ni hubiera intentado tal hazaña. Debéis ser elogiada, <GABBER>, y deseo hacerle honor a mi promesa de enseñaros algo. De nuevo, debéis escoger por vos misma.~
+@68  = ~Os ayudaré a ser mejor bardo por medio de la enseñanza de alguna cosa ahora, algo que no podríais aprender en ninguna de las academias bárdicas más refinadas. ¿Qué es lo que queréis aprender?, ¿preferiríais aprender maneras avanzadas de evolucionar las canciones que toquéis, esto es, la habilidad de abrumar a vuestra audiciencia con una atención completa a vuestra canción? ó ¿preferiríais aprender cómo memorizar más conjuros, ó aprender cómo colocar un nuevo tipo de trampa para vuestros enemigos, por medio del arrojo de abrojos sobre el suelo para hacerles tropezar y dañarlos?~
+@69  = ~Creo que me gustaría aprender el cómo captar la atención de mi audiencia.~
+@70  = ~Sería bastante gratificante si me enseñarais cómo memorizar más conjuros.~
+@71  = ~Por favor, Maestro Bardo, enseñadme cómo colocar una trampa de abrojos.~
+@72  = ~Sería para mí un placer, <GABBER>, el mostraros cómo modificar vuestro cantar de bardo.~
+@73  = ~¡Ahí tenéis, <GABBER>! Ahora podéis aturdir a vuestra audiencia durante unos momentos mientras tocáis, e incluso durante un breve periodo después de ello.~
+@74  = ~Sería para mí un placer, <GABBER>, el mostraros cómo podéis momorizar más conjuros.~
+@75  = ~¡Ahí tenéis, <GABBER>! Ahora podéis memorizar unos cuantos conjuros más de los que un bardo de vuestro nivel de habilidad y entrenamiento normal podría.~
+@76  = ~Sería para mí un placer, <GABBER>, el mostraros cómo se esparcen unos abrojos sobre el suelo.~
+@77  = ~¡Ahí tenéis, <GABBER>! Ahora podéis cubrir apropiadamente una pequeña zona del suelo con abrojos. Esto podrá dañar y ralentizar a vuestros enemigos antes de que se acerquen demasiado a vos.~
+@78  = ~Me alegro de que me hayáis ayudado, <GABBER>, y estoy complacido de que fuera capaz de ayudaros de alguna pequeña forma. Puedo ayudaros a llegar a ser mejor bardo una vez más, <GABBER>, si me ayudáis de nuevo. ¿Lo haréis?~
+@79  = ~Sí, Maestro Bardo. ¿Qué debo hacer?~
+@80  = ~Ahora no, Maestro Bardo. Neceisto algo de tiempo.~
+@81  = ~Hasta que estéis listo, aquí estaré esperando. Tal vez incluso pueda montar uno o dos de mis espectáculos.~
+~Hasta que estéis lista, aquí estaré esperando. Tal vez incluso pueda montar uno o dos de mis espectáculos.~
+@82  = ~<GABBER>, me doy cuenta de que os pedí hacer una tarea bastante simple, encontrarme un Arpa de Myth Drannor, y la tarea mucho más difícil y mortal de eliminar a un demonio, pero esta última tarea es sencilla, no deberíais correr ningún riesgo o encontraros en ningún peligro.  <GABBER>, os daré esta empuñadura, una empuñadura que una vez fue parte de una poderosa espada, la Hoja Entonaconjuro. Se creía que era un arma mágica indestructible, pero, evidentemente, eso resultó falso.~
+@83  = ~La hoja en sí misma está perdida para nosotros, pero con los metales correctos, puede ser reforjada y con las indicaciones correctas, el arma puede ser hechizada de nuevo. Deberéis encontrar los metales apropiados para restaurar la Hoja Entonaconjuro, y encontrar quién pueda reforjarla. Hablad con el enano llamado Cromwell, <GABBER>, y cuando la Hoja Entonaconjuro haya sido restaurada, regresad a mí.~
+@84  = ~Lo intentaré, buen Bardo.~
+@85  = ~A pesar de todo nunca me habéis fallado, y no espero que lo hagais en este momento.  Buena suerte, <GABBER>.~
+@86  = ~Ah, <GABBER>. Os acabáis de perder mi actuación. Fue una buena obra, un gran obra de hecho. ¿Tenéis alguna noticia? ¿Sobre la Hoja Entonaconjuro? ¿Habéis sido capaz de restaurarla?~
+@87  = ~Sí, Maestro Bardo. Aquí la tengo.~
+@88  = ~No, Maestro Bardo. Aún no he restaurado la Hoja Entonaconjuro.~
+@89  = ~De verdad que tenía esperanzas de que pudierais haber restaurado la hoja ya. Aún tengo fé en que lo lograréis. Si sois capaz de ayudar a Cromwell a reconstruir la Hoja Entonaconjuro, volved a mí.~
+@90  = ~<GABBER>, habéis conseguido esta poderosa arma. Sois más digno de ella que yo. Por favor, permitidme mejorar aún más las habilidades mágias de la hoja, y os la obsequiaré. La Hoja Entonaconjuro es una gran arma bárdica, y deberéis ser honorable para tenerla de vuestro lado.~
+~<GABBER>, habéis conseguido esta poderosa arma. Sois más digna de ella que yo. Por favor, permitidme mejorar aún más las habilidades mágias de la hoja, y os la obsequiaré. La Hoja Entonaconjuro es una gran arma bárdica, y deberéis ser honorable para tenerla de vuestro lado.~
+@91  = ~Es un verdadero honor el haberos conocido, <GABBER>, y estaría mintiendome a mí mismo, y a vos, si no os dijera de nuevo que podríais ser el bardo más grande de Faerûn, especialmente si me permitís enseñaros una última habilidad. Algo para ayudaros en vuestro viaje por el mundo.~
+~Es un verdadero honor el haberos conocido, <GABBER>, y estaría mintiendome a mí mismo, y a vos, si no os dijera de nuevo que podríais ser la bardo más grande de Faerûn, especialmente si me permitís enseñaros una última habilidad. Algo para ayudaros en vuestro viaje por el mundo.~
+@92  = ~Por supuesto que os enseñaré algo, algo que la mayoría de los bardos nunca podrían aprender, si fuerais tan amables de decidme qué es lo que preferiríais saber. ¿Os gustaría aprender a evadir a vuestros enemigos?, o ya que tenéis la habilidad de colocar algunas trampas, ¿os gustaría aprender cómo colocar un nuevo tipo de trampas para vuestros enemigos, por medio de esparcir abrojos por el suelo para entorpecerles y dañarles?, o ¿querríais aprender cómo usar cualquier objeto?~
+@93  = ~Creo que ser capaz de usar cualquier objeto sería lo más beneficioso. ¿Podéis enseñarmelo?~
+@94  = ~Como deseéis, <GABBER>. Os enseñaré cómo esparcir abrojos por el suelo para dañar a vuestros enemigos antes de que se acerquen a vos.~
+@95  = ~Estoy satisfecho, <GABBER>, ahora habéis aprendido cómo colocar apropiadamente una trampa de abrojos.~
+@96  = ~Como deseéis, <GABBER>. Os enseñaré cómo evadir a vuestros enemigos durante el combate.~
+@97  = ~Estoy satisfecho, <GABBER>, ahora podéis evadir a vuestros enemigos durante el combate para hacerle más difícil el golpearos.~
+@98  = ~Enseñar a un bardo la habilidad de usar cualquier objeto es un proceso difícil. Trataré de hacerlo lo mejor que pueda, <GABBER>, pero no puedo garantizaros el que lo logréis.~
+@99  = ~¡GABBER>, de veras sois un bardo especial! Sin ninguna duda, ha sido un placer y un horno el enseñaros cómo usar casi cualquier objeto que deseéis. Recordad, algunos objetos que uséis, como armaduras, os impedirán el lanzamiento de conjuros.~
+@100 = ~Bienvenido al Teatro de las Cinco Jarras, mi buen hombre. ¿Estáis aquí para ver el espectaculo? Podría actuar dentro de poco, así que si queréis, venid de nuevo cuando el espectaculo esté apunto de empezar, os aseguro que os entretendréis.~
+~Bienvenido al Teatro de las Cinco Jarras, mi buena mujer.  ¿Estáis aquí para ver el espectaculo? Podría actuar dentro de poco, así que si queréis, venid de nuevo cuando el espectaculo esté apunto de empezar, os aseguro que os entretendreis.~
+@101 = ~¡<GABBER>!  Es bueno veros de nuevo. Probablemente saldré a escena dentro de poco, así que por qué no venís cuando la actuación esté apunto de empezar. Os aseguro que os entretendréis.~
+@102 = ~Academia de Estudios Bárdicos
+
+  Encontré un Arpa de Myth Drannor y se la entregué al Maestro Bardo que conocí en el teatro de las Cinco Jarras. Estaba muy agradecido, y me aseguró con la más pretenciosa prosa que me enseñaría una habilidad que normalmente es enseñada a los estudiantes de la Academia Bárdica de Luna Plateada.~
+@103 = ~Academia de Estudios Bárdicos:  Presencia maligna
+
+  El Maestro Bardo del teatro de las Cinco Jarras me ha encargado eliminar una presencia maligna de la que le habían hablando en esta región. No está seguro desde donde exactamente está emanando este mal, pero es de algún lugar dentro de la ciudad de Athkatla.
+  Cuando haya eliminado la presencia maligna, ya sea destruyendola o desterrandola de Faerûn, tengo que informar al poeta pues me ha prometido enseñarme una habilidad que está más allá de mi conocimiento como bardo.~
+@104 = ~Academia de Estudios Bárdicos:  Reforjar la Hoja Entonaconjuro
+
+  El Maestro Bardo que me enseñó unas valiosas habilidades me ha pedido completar otra tarea. Esta vez, me ha dado la empuñadura destrozada de una espada cantarina, que se pensaba era un arma indestructible. Por cierto, lo que fuera que causara que la hoja se quebrara debía tener una fuerza inmensa.
+  Tengo que encontrar el metal con el cuál se puede reforjar esta empuñadura para que vuelva a servir. No sé donde conseguir ese metal, pero el antiguo maestro de la Academia Bárdica de Luna Plateada que conocí en el teatro de las Cinco Jarras me dijo que el enano llamado Cromwell puede ayudarme a reforjar el arma mágica.~
+@105 = ~Academia de Estudios Bárdicos
+
+  Encontré un Arpa de Myth Drannor y se la entregué al Maestro Bardo que conocí en el teatro de las Cinco Jarras. Estaba muy agradecido, y me aseguró con la más pretenciosa prosa que me enseñaría una habilidad que normalmente es enseñada a los estudiantes de la Academia Bárdica de Luna Plateada.~
+@106 = ~Academia de Estudios Bárdicos
+
+  El Maestro Bardo que conocí en el teatro de las Cinco Jarras me enseñó cómo memorizar más conjuros que la mayoría de los demás bardos.~
+@107 = ~Academia de Estudios Bárdicos
+
+  El Maestro Bardo que conocí en el teatro de las Cinco Jarras me enseñó cómo evadir a mis enemigos por medio de movimientos falsos para evitar ser herido durante el combate.~
+~Academia de Estudios Bárdicos
+
+  El Maestro Bardo que conocí en el teatro de las Cinco Jarras me enseñó cómo evadir a mis enemigos por medio de movimientos falsos para evitar ser herida durante el combate.~
+@108 = ~Academia de Estudios Bárdicos
+
+  El Maestro Bardo que conocí en el teatro de las Cinco Jarras me enseñó cómo colocar una trampa de abrojos sobre el terreno, los cuales pueden ralentizar e incluso dañar a los enemigos que se aproximen.~
+@109 = ~Academia de Estudios Bárdicos: El Arpa de Myth Drannor
+
+   Se me ha presentado la oportunidad de ser enseñado por un antiguo instructor de la Academia Bárdica de Luna Plateada, sin embargo, como todo el mundo que me encuentro en esta decadente ciudad, este Maestro Bardo me quiere para hacerle una tarea.
+   Al parecer, rompió sus instrumentos mientras viajaba hacia Amn y le gustaría que le encontrara uno. Concretamente me pidió algo mágico, y tengo que regresar a él cuando encuentre un Arpa de Myth Drannor. Dónde tendría posibilidad de encontrar una relíquia como esa está más allá de mí, pero a pesar de todo se la traeré. Puedo encontrar al Maestro Bardo en el teatro de las Cinco Jarras.~
+@110 = ~Academia de Estudios Bárdicos:  Presencia maligna
+
+  El Maestro Bardo en el teatro de las Cinco Jarras me ha pedido que elimine una presencia maligna de la que le han hablado en esta región. No está seguro desde donde está emanando exactamente este mal, pero es de algún lugar dentro de la ciudad de Athkatla.
+  Cuando haya eliminado la presencia maligna, ya sea destruyendola o desterrandola de Faerûn, tengo que informar al poeta pues me ha prometido enseñarme una habilidad que está más allá de mi conocimiento como bardo.~
+@111 = ~Academia de Estudios Bárdicos:  Presencia maligna
+
+  He eliminado un demonio malvado, que se encontranba debajo del Distrito del Puerto de Athkatla, del que me había hablado el Maestro Bardo.  Me informó de que está esperando el momento en que pueda representar una balada sobre mis hechos heroicos y me ha prometido el enseñarme una nueva habilidad.~
+@112 = ~Academia de Estudios Bárdicos
+
+  El Maestro Bardo que conocí en el teatro de las Cinco Jarras me ha enseñado cómo tocar algunas canciones y melodías para hipnotizar a todo aquél que las escuche.~
+@113 = ~Academia de Estudios Bárdicos
+
+  El Maestro Bardo que conocí en el teatro de las Cinco Jarras me ha enseñado cómo memorizar más conjuros que la mayoría de los demás bardos.~
+@114 = ~Academia de Estudios Bárdicos
+
+  El Maestro Bardo que conocí en el teatro de las Cinco Jarras me ha enseñado cómo colocar una trampa de abrojos sobre el terreno, la cuál ralentizará e incluso dañará a los enemigos que se aproximen.~
+@115 = ~Academia de Estudios Bárdicos:  Reforjar la Hoja Entonaconjuro
+
+  El Maestro Bardo que me enseñó unas valiosas habilidades me ha pedido completar otra tarea.  Esta vez, me ha dado la empuñadura de una espada cantarina que está destrozada, aún cuando se pensaba era un arma indestructible.  Que por cierto, lo que fuera que causara que la hoja se quebrara debió tener una fuerza inmensa.
+  Tengo que encontrar el metal con el cuál se puede reforjar esta empuñadura para que vuelva a servir.  No sé donde conseguir ese metal, pero el antiguo maestro de la Academia Bárdica de Luna Plateada que conocí en el teatro de las Cinco Jarras me dijo que el enano llamado Cromwell puede ayudarme a reforjar el arma mágica.~
+@116 = ~Academia de Estudios Bárdicos:  Reforjar la Hoja Entonaconjuro
+
+  Fuí capaz, con la ayuda de Cromwell, de restaurar la antígua Hoja Entonaconjuro. Cuando se la llevé al Maestro Bardo en el teatro de las Cinco Jarras, me recompensó encantando aún más la hoja y obsequiandomela, lo que es al parecer un gran honor entre bardos y poetas por igual.~
+@117 = ~Academia de Estudios Bárdicos
+
+  El Maestro Bardo que conocí en el teatro de las Cinco Jarras me ha enseñado cómo usar cualquier objeto que pueda encontrar o comprar.~

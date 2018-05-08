@@ -1,0 +1,164 @@
+IF
+	Allegiance(Myself,ENEMY)
+	!StateCheck(Myself,STATE_CHARMED)
+	HasItem("IMOENHP1",Myself) // Imoen's Belt
+THEN
+	RESPONSE #100
+		DestroyItem("IMOENHP1") // Imoen's Belt
+END
+
+IF
+	HPLT(Myself,15)
+	!HasItem("CBCO8HP1",Myself)
+	HasItem("POTN52",Myself) // Potion of Extra Healing
+THEN
+	RESPONSE #100
+		UseItem("POTN52",Myself) // Potion of Extra Healing
+END
+
+IF
+	HPLT(Myself,25)
+	!HasItem("CBCO8HP1",Myself)
+	!HasItem("POTN52",Myself) // Potion of Extra Healing
+	HaveSpell(CLERIC_HEAL)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_HEAL)
+END
+
+IF
+	HPLT(Myself,25)
+	!HasItem("CBCO8HP1",Myself)
+	!HasItem("POTN52",Myself) // Potion of Extra Healing
+	!HaveSpell(CLERIC_HEAL)
+	HaveSpell(CLERIC_CURE_SERIOUS_WOUNDS)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_CURE_SERIOUS_WOUNDS)
+END
+
+IF
+	HPLT(Myself,25)
+	!HasItem("CBCO8HP1",Myself)
+	!HasItem("POTN52",Myself) // Potion of Extra Healing
+	!HaveSpell(CLERIC_CURE_SERIOUS_WOUNDS)
+	!HaveSpell(CLERIC_HEAL)
+	HaveSpell(CLERIC_CURE_LIGHT_WOUNDS)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_CURE_LIGHT_WOUNDS)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_BLESS)
+	Range([ANYONE],15)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_BLESS)
+END
+
+IF
+	HaveSpell(CLERIC_BARKSKIN)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_BARKSKIN)
+END
+
+IF
+	HaveSpell(CLERIC_CHARM_PERSON)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_CHARM_PERSON)
+END
+
+IF
+	HaveSpell(CLERIC_FLAME_BLADE)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_FLAME_BLADE)
+END
+
+IF
+	AreaType(OUTDOOR)
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_CALL_LIGHTNING)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_CALL_LIGHTNING)
+END
+
+IF
+	Detect(NearestEnemyOf(Myself))
+	!See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_INVISIBILITY_PURGE)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_INVISIBILITY_PURGE)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	OR(6)
+		Gender(LastSeenBy(Myself),ILLUSIONARY)
+		SpellCast(LastSeenBy(Myself),WIZARD_PROJECT_IMAGE)
+		SpellCast(LastSeenBy(Myself),WIZARD_SIMULACRUM)
+		SpellCast(LastSeenBy(Myself),WIZARD_MISLEAD)
+		StateCheck(LastSeenBy(Myself),STATE_BLUR)
+		StateCheck(LastSeenBy(Myself),STATE_MIRRORIMAGE)
+	HaveSpell(CLERIC_INVISIBILITY_PURGE)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_INVISIBILITY_PURGE)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_CALL_WOODLAND_BEINGS)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_CALL_WOODLAND_BEINGS)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_ANIMAL_SUMMONING_2)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_ANIMAL_SUMMONING_2)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(NearestEnemyOf(Myself),5)
+	HasItem("DAGG05",Myself) // Throwing Dagger
+THEN
+	RESPONSE #100
+		EquipItem("DAGG05") // Throwing Dagger
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(NearestEnemyOf(Myself),5)
+	!HasItem("DAGG05",Myself) // Throwing Dagger
+	HasItem("STAF16",Myself) // Staff of Earth +2
+THEN
+	RESPONSE #100
+		MoveToObject(NearestEnemyOf(Myself))
+		EquipItem("STAF16") // Staff of Earth +2
+		Attack(NearestEnemyOf(Myself))
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+

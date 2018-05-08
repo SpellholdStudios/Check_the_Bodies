@@ -1,0 +1,75 @@
+IF
+	!HasItemEquiped("CBMALR6C",Myself)
+	!HasItemEquiped("CBMALR6A",Myself)
+THEN
+	RESPONSE #100
+		ChangeAIScript("",RACE)
+END
+
+IF
+	OR(2)
+		HasItemEquiped("CBMALR6A",Myself)
+		HasItemEquiped("CBMALR6C",Myself)
+	!GlobalTimerNotExpired("CbWillMyrkulTakeTheCrown","GLOBAL")
+THEN
+	RESPONSE #1
+		DisplayString(Myself,@550129)
+		ApplySpell(Myself,WIZARD_CONFUSION)
+		DestroyItem("CBMALR6A")
+	RESPONSE #100
+		SetGlobalTimer("CbWillMyrkulTakeTheCrown","GLOBAL",TWO_DAYS)
+END
+
+IF
+	OR(2)
+		HasItemEquiped("CBMALR6A",Myself)
+		HasItemEquiped("CBMALR6C",Myself)
+	!GlobalTimerNotExpired("CbMalr6aAuraOfFear","GLOBAL")
+	See([ANYONE])
+	Range(LastSeenBy(Myself),15)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbMalr6aAuraOfFear","GLOBAL",24)
+		ActionOverride(LastSeenBy(Myself),ChangeAIScript("CBMALR6B",RACE))
+END
+
+IF
+	OR(2)
+		HasItemEquiped("CBMALR6A",Myself)
+		HasItemEquiped("CBMALR6C",Myself)
+	!GlobalTimerNotExpired("CbMalr6aAuraOfFear","GLOBAL")
+	See([ANYONE])
+	Range(LastSeenBy(Myself),15)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbMalr6aAuraOfFear","GLOBAL",24)
+		ActionOverride(LastSeenBy(Myself),ChangeAIScript("CBMALR6B",RACE))
+END
+
+IF
+	OR(2)
+		HasItemEquiped("CBMALR6A",Myself)
+		HasItemEquiped("CBMALR6C",Myself)
+	!GlobalTimerNotExpired("CbMalr6aAuraOfFear","GLOBAL")
+	See([ANYONE])
+	Range(LastSeenBy(Myself),15)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbMalr6aAuraOfFear","GLOBAL",24)
+		ActionOverride(LastSeenBy(Myself),ChangeAIScript("CBMALR6B",RACE))
+END
+
+IF
+	OR(2)
+		HasItemEquiped("CBMALR6A",Myself)
+		HasItemEquiped("CBMALR6C",Myself)
+	!GlobalTimerNotExpired("CbMalr6aAuraOfFear","GLOBAL")
+	See([ANYONE])
+	Range(LastSeenBy(Myself),15)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbMalr6aAuraOfFear","GLOBAL",24)
+		ActionOverride(LastSeenBy(Myself),ChangeAIScript("CBMALR6B",RACE))
+END
+
+

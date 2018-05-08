@@ -1,0 +1,9 @@
+IF
+	OnCreation()
+THEN
+	RESPONSE #100
+		GiveItemCreate("CBOVRSPR","Container 6",1,0,0)
+		DestroySelf()
+END
+
+

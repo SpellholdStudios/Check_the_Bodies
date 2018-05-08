@@ -1,0 +1,46 @@
+BEGIN ~CBWATCHR~
+
+IF ~RandomNum(9,1)~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(9,2)~ THEN BEGIN 1
+  SAY @2
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(9,3)~ THEN BEGIN 2
+  SAY @3
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(9,4)~ THEN BEGIN 3
+  SAY @4
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(9,5)~ THEN BEGIN 4
+  SAY @5
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(9,6)~ THEN BEGIN 5
+  SAY @6
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(9,7)~ THEN BEGIN 6
+  SAY @7
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(9,8)~ THEN BEGIN 7
+  SAY @8
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(9,9)~ THEN BEGIN 8
+  SAY @9
+  IF ~~ THEN EXIT
+END

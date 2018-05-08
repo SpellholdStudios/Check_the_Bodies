@@ -1,0 +1,38 @@
+IF
+	Die()
+THEN
+	RESPONSE #100
+		SmallWait(0)
+END
+
+IF
+	Global("CbHlondethCivilWar","GLOBAL",1)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #50
+		ChangeEnemyAlly(Myself,GOODBUTRED)
+	RESPONSE #50
+		ChangeEnemyAlly(Myself,EVILBUTGREEN)
+END
+
+IF
+	Global("CbHlondethCivilWar","GLOBAL",1)
+	Allegiance(Myself,GOODBUTRED)
+	See([ANYONE])
+	Allegiance(LastSeenBy(Myself),EVILBUTGREEN)
+THEN
+	RESPONSE #100
+		Attack(LastSeenBy(Myself))
+END
+
+IF
+	Global("CbHlondethCivilWar","GLOBAL",1)
+	Allegiance(Myself,EVILBUTGREEN)
+	See([ANYONE])
+	Allegiance(LastSeenBy(Myself),GOODBUTRED)
+THEN
+	RESPONSE #100
+		Attack(LastSeenBy(Myself))
+END
+
+

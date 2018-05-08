@@ -1,0 +1,18 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("CB510BRD")
+		FadeToColor([20.0],0)
+		Wait(4)
+		SetGlobal("CbMasterBardDemon","GLOBAL",3)
+		SetGlobal("CbMasterBardTaught","AR0510",2)
+		SetGlobal("CbMasterBardMedCaltrops","LOCALS",1)
+		DayNight(8)
+		ApplySpellRES("CBBARDCS",LastTalkedToBy(Myself))
+		Wait(2)
+		FadeFromColor([20.0],0)
+		StartDialogueNoSet(LastTalkedToBy(Myself))
+END
+
+

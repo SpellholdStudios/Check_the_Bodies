@@ -1,0 +1,8 @@
+IF
+	Global("CbPeeWeePlayTwo","AR0510",10)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+

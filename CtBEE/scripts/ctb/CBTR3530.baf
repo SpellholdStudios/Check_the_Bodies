@@ -1,0 +1,95 @@
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("Cb_PartyAlliesWith_C_o_8","GLOBAL",2)
+	AreaCheck("AR3531")
+THEN
+	RESPONSE #100
+		ActionOverride("CBTARDTH",MoveBetweenAreas("AR3530",[2288.977],2))
+		ActionOverride("CBHREDWN",MoveBetweenAreas("AR3530",[2242.956],2))
+		ActionOverride("CBMONDRP",MoveBetweenAreas("AR3530",[2245.900],2))
+		ActionOverride("CBSTTFLW",MoveBetweenAreas("AR3530",[2341.983],2))
+		ActionOverride("CBARKSLV",MoveBetweenAreas("AR3530",[2344.938],2))
+		ActionOverride("CBMANARB",MoveBetweenAreas("AR3530",[2325.919],2))
+		ActionOverride("CBLSLNDA",MoveBetweenAreas("AR3530",[2294.919],2))
+		SaveGame(0)
+		ActionOverride(Player1,LeaveAreaLUAPanic("AR3530","",[2159.1072],2))
+		ActionOverride(Player1,LeaveAreaLUA("AR3530","",[2159.1072],2))
+		ActionOverride(Player2,LeaveAreaLUA("AR3530","",[2124.1046],2))
+		ActionOverride(Player3,LeaveAreaLUA("AR3530","",[2188.1060],2))
+		ActionOverride(Player4,LeaveAreaLUA("AR3530","",[2157.1031],2))
+		ActionOverride(Player5,LeaveAreaLUA("AR3530","",[2217.1051],2))
+		ActionOverride(Player6,LeaveAreaLUA("AR3530","",[2189.1017],2))
+		MultiPlayerSync()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	!Global("Cb_PartyAlliesWith_C_o_8","GLOBAL",2)
+	AreaCheck("AR3531")
+THEN
+	RESPONSE #100
+		SaveGame(0)
+		ActionOverride(Player1,LeaveAreaLUAPanic("AR3530","",[2159.1072],2))
+		ActionOverride(Player1,LeaveAreaLUA("AR3530","",[2159.1072],2))
+		ActionOverride(Player2,LeaveAreaLUA("AR3530","",[2124.1046],2))
+		ActionOverride(Player3,LeaveAreaLUA("AR3530","",[2188.1060],2))
+		ActionOverride(Player4,LeaveAreaLUA("AR3530","",[2157.1031],2))
+		ActionOverride(Player5,LeaveAreaLUA("AR3530","",[2217.1051],2))
+		ActionOverride(Player6,LeaveAreaLUA("AR3530","",[2189.1017],2))
+		MultiPlayerSync()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("Cb_PartyAlliesWith_C_o_8","GLOBAL",2)
+	AreaCheck("AR2600")
+THEN
+	RESPONSE #100
+		ActionOverride("CBTARDTH",MoveBetweenAreas("AR3530",[1738.1895],8))
+		ActionOverride("CBHREDWN",MoveBetweenAreas("AR3530",[1757.1945],8))
+		ActionOverride("CBMONDRP",MoveBetweenAreas("AR3530",[1625.1931],8))
+		ActionOverride("CBSTTFLW",MoveBetweenAreas("AR3530",[1606.1981],8))
+		ActionOverride("CBLSLNDA",MoveBetweenAreas("AR3530",[1623.2069],8))
+		ActionOverride("CBMANARB",MoveBetweenAreas("AR3530",[1583.2096],8))
+		ActionOverride("CBARKSLV",MoveBetweenAreas("AR3530",[1441.2067],8))
+		SaveGame(0)
+		ActionOverride(Player1,LeaveAreaLUAPanic("AR3530","",[1613.2044],8))
+		ActionOverride(Player1,LeaveAreaLUA("AR3530","",[1613.2044],8))
+		ActionOverride(Player2,LeaveAreaLUA("AR3530","",[1579.2018],8))
+		ActionOverride(Player3,LeaveAreaLUA("AR3530","",[1569.2077],8))
+		ActionOverride(Player4,LeaveAreaLUA("AR3530","",[1534.2045],8))
+		ActionOverride(Player5,LeaveAreaLUA("AR3530","",[1536.2100],8))
+		ActionOverride(Player6,LeaveAreaLUA("AR3530","",[1503.2065],8))
+		MultiPlayerSync()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	!Global("Cb_PartyAlliesWith_C_o_8","GLOBAL",2)
+	AreaCheck("AR2600")
+THEN
+	RESPONSE #100
+		SaveGame(0)
+		ActionOverride(Player1,LeaveAreaLUAPanic("AR3530","",[1613.2044],8))
+		ActionOverride(Player1,LeaveAreaLUA("AR3530","",[1613.2044],8))
+		ActionOverride(Player2,LeaveAreaLUA("AR3530","",[1579.2018],8))
+		ActionOverride(Player3,LeaveAreaLUA("AR3530","",[1569.2077],8))
+		ActionOverride(Player4,LeaveAreaLUA("AR3530","",[1534.2045],8))
+		ActionOverride(Player5,LeaveAreaLUA("AR3530","",[1536.2100],8))
+		ActionOverride(Player6,LeaveAreaLUA("AR3530","",[1503.2065],8))
+		MultiPlayerSync()
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,16484) // You must gather your party before venturing forth.
+END
+
+

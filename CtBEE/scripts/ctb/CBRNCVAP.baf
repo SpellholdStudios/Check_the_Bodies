@@ -1,0 +1,81 @@
+IF
+	Global("CbVampireSubQuestStart","GLOBAL",4)
+	Global("CbVampireSubQuestFailed","GLOBAL",0)
+	Global("CbPartyReturnedAfterWarn","AR0809",1)
+	AreaCheck("AR0809")
+	Detect([PC])
+	Range([PC],30)
+THEN
+	RESPONSE #100
+		ActionOverride("CBRNCMVP",StartDialogueNoSet([PC]))
+END
+
+IF
+	AreaCheck("AR3598")
+	Allegiance(Myself,NEUTRAL)
+	Global("CbVampireSubQuestStart","GLOBAL",3)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
+	Global("CbVampireSubQuestFailed","GLOBAL",1)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly(Myself,ENEMY)
+END
+
+IF
+	Die()
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ReallyForceSpellDead(Myself,VAMPIRE_GAS_FORM_CHANGE)
+END
+
+IF
+	HPLT(Myself,10)
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ReallyForceSpellDead(Myself,VAMPIRE_BAT_FORM_CHANGE)
+END
+
+IF
+	TimeGT(5)
+	TimeLT(DUSK_END)
+	AreaType(OUTDOOR)
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ReallyForceSpellDead(Myself,VAMPIRE_BAT_FORM_CHANGE)
+END
+
+IF
+	See([PC])
+	Delay(12)
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ReallyForceSpellDead([PC],VAMPIRE_DOMINATION)
+		ReallyForceSpellDead([PC],VAMPIRE_FEAR)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Class(NearestEnemyOf(Myself),MAGE)
+THEN
+	RESPONSE #100
+		Attack(NearestEnemyOf(Myself))
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+

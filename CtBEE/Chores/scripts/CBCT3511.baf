@@ -1,0 +1,20 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		FadeToColor([20.0],0)
+		PlaySound("PORTAL2")
+		Wait(2)
+		LeaveAreaLUAPanic("AR3511","",[564.608],6)
+		LeaveAreaLUA("AR3511","",[564.608],6)
+		Wait(1)
+		CreateCreature("CBJAHDED",[479.539],15)
+		CreateCreature("CBKAHDED",[443.580],12)
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(3)
+		ActionOverride("CBJAHDED",StartDialogueNoSet(Player1))
+END
+
+

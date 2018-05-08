@@ -1,0 +1,120 @@
+IF
+	Allegiance(Myself,ENEMY)
+	Global("CbDSACKChangedScript","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbDSACKChangedScript","LOCALS",1)
+		ChangeAIScript("CBBDAWEN",CLASS)
+END
+
+IF
+	Global("CbBlueDragonAttacked","AR3521",2)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly(Myself,ENEMY)	
+		ChangeAIScript("CBBDAWEN",CLASS)
+		SetGlobal("CbDSACKChangedScript","LOCALS",1)
+END
+
+IF
+	Global("Cb_DSACKsFeintStart","AR3521",1)
+THEN
+	RESPONSE #100
+		ChangeAIScript("CBBDAWFT",CLASS)
+END
+
+IF
+	Global("Cb_DSACK_WeaponChoice","AR3521",1)
+	Global("Cb_DSACKsFeintStart","AR3521",1)
+	OR(2)
+		HitBy([GOODCUTOFF],MISSILE)
+		HitBy([GOODCUTOFF],SLASHING)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_DSACKsFeintStart","AR3521",2)
+		SetGlobal("Cb_DSACKsFeintLose","AR3521",1)
+		StartDialogueNoSet(LastAttackerOf(Myself))
+END
+
+IF
+	Global("Cb_DSACK_WeaponChoice","AR3521",2)
+	Global("Cb_DSACKsFeintStart","AR3521",1)
+	HitBy([GOODCUTOFF],MISSILE)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_DSACKsFeintStart","AR3521",2)
+		SetGlobal("Cb_DSACKsFeintLose","AR3521",1)
+		StartDialogueNoSet(LastAttackerOf(Myself))
+END
+
+IF
+	Global("Cb_DSACK_WeaponChoice","AR3521",3)
+	Global("Cb_DSACKsFeintStart","AR3521",1)
+	OR(2)
+		HitBy([GOODCUTOFF],PIERCING)
+		HitBy([GOODCUTOFF],MISSILE)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_DSACKsFeintStart","AR3521",2)
+		SetGlobal("Cb_DSACKsFeintLose","AR3521",1)
+		StartDialogueNoSet(LastAttackerOf(Myself))
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	HasItemEquiped("CBBDCLAW",Myself)
+THEN
+	RESPONSE #100
+		TakeItemReplace("DRAGBLUE","CBBDCLAW",Myself)
+		EquipItem("DRAGBLUE") // Abazigal
+END
+
+IF
+	Global("Cb_DSACKsFeintStart","AR3521",1)
+	!Exists("CBBDFHJD")
+THEN
+	RESPONSE #100
+		CreateCreature("CBBDFHJD",[-1.-1],0)
+END
+
+IF
+	Global("Cb_DSACKsFeintStart","AR3521",1)
+	!Exists("CBBDFHJE")
+THEN
+	RESPONSE #100
+		CreateCreature("CBBDFHJE",[-1.-1],0)
+END
+
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(NearestEnemyOf(Myself),5)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate(NearestEnemyOf(Myself),12)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Range(NearestEnemyOf(Myself),5)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(NearestEnemyOf(Myself),12)
+END
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastAttackerOf(Myself),12)
+END

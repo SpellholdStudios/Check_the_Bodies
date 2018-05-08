@@ -1,0 +1,22 @@
+IF
+	Clicked([ANYONE])
+	GlobalLT("CbInformedAboutRoots","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayStringNoName(Myself,@550022)
+END
+
+IF
+	Clicked([ANYONE])
+	Global("CbInformedAboutRoots","GLOBAL",1)
+	Global("CbElderberryInfoClicked","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbElderberryInfoClicked","GLOBAL",1)
+		DisplayStringNoName(Myself,@550022)
+		TriggerActivation("ElderberryInfo",FALSE)
+		Wait(2)
+		ContainerEnable("ElderberryCont",TRUE)
+END
+
+

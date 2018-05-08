@@ -1,0 +1,12 @@
+IF
+	SpellCastOnMe([ANYONE],WIZARD_KNOCK)
+	OpenState(Myself,FALSE)
+THEN
+	RESPONSE #100
+		Unlock("DoorMagic")
+		OpenDoor("DoorMagic")
+		AddexperienceParty(1000)
+		DisplayString(LastTrigger,@550027)
+END
+
+

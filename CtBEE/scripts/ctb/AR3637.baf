@@ -1,0 +1,28 @@
+IF
+	OpenState("Secret01",FALSE)
+	Global("CbSecretDoorClosed","AR3637",0)
+THEN
+	RESPONSE #100
+		TriggerActivation("StairTrap",FALSE)
+		AmbientActivate("Door_Lamp_1",FALSE)
+		AmbientActivate("Door_Lamp_2",FALSE)
+		AmbientActivate("Door_Lamp_3",FALSE)
+		AmbientActivate("Door_Lamp_4",FALSE)
+		ContainerEnable("Altar",FALSE)
+		SetGlobal("CbSecretDoorClosed","AR3637",1)
+END
+
+IF
+	OpenState("Secret01",TRUE)
+	Global("CbSecretDoorOpen","AR3637",0)
+THEN
+	RESPONSE #100
+		TriggerActivation("StairTrap",TRUE)
+		AmbientActivate("Door_Lamp_1",TRUE)
+		AmbientActivate("Door_Lamp_2",TRUE)
+		AmbientActivate("Door_Lamp_3",TRUE)
+		AmbientActivate("Door_Lamp_4",TRUE)
+		SetGlobal("CbSecretDoorOpen","AR3637",1)
+END
+
+

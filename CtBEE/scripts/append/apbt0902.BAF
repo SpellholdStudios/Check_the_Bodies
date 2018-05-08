@@ -1,0 +1,80 @@
+IF
+	Unlocked("Shelf7")
+	!Unlocked("CbCont01")
+THEN
+	RESPONSE #100
+		Unlock("CbCont01")
+		Continue()
+END
+
+IF
+	Unlocked("Chest2")
+	!Unlocked("CbCont02")
+THEN
+	RESPONSE #100
+		Unlock("CbCont02")
+		Continue()
+END
+
+IF
+	!Unlocked("Shelf7")
+	Unlocked("CbCont01")
+THEN
+	RESPONSE #100
+		Unlock("Shelf7")
+		Continue()
+END
+
+IF
+	!Unlocked("Chest2")
+	Unlocked("CbCont02")
+THEN
+	RESPONSE #100
+		Unlock("Chest2")
+		Continue()
+END
+
+IF
+	GlobalGT("CbXTThiefStealsFromTemple","GLOBAL",0)
+	Contains("CBXTLTaa","CbCont01")
+	Contains("CBXTLTcc","CbCont01")
+THEN
+	RESPONSE #100
+		ContainerEnable("CbCont01",TRUE)
+		ContainerEnable("Shelf7",FALSE)
+		Continue()
+END
+
+IF
+	GlobalGT("CbXTThiefStealsFromTemple","GLOBAL",1)
+	!Contains("CBXTLTaa","CbCont01")
+	!Contains("CBXTLTcc","CbCont01")
+	Global("CbResetContainer7","AR0902",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbResetContainer7","AR0902",1)
+		ContainerEnable("CbCont01",FALSE)
+		ContainerEnable("Shelf7",TRUE)
+END
+
+IF
+	GlobalGT("CbXTThiefStealsFromTemple","GLOBAL",0)
+	Contains("CBXTLTbb","CbCont02")
+THEN
+	RESPONSE #100
+		ContainerEnable("CbCont02",TRUE)
+		ContainerEnable("Chest2",FALSE)
+		Continue()
+END
+
+IF
+	GlobalGT("CbXTThiefStealsFromTemple","GLOBAL",1)
+	!Contains("CBXTLTbb","CbCont02")
+	Global("CbResetContainer2","AR0902",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbResetContainer2","AR0902",1)   //was CbResetContainer7
+		ContainerEnable("CbCont02",FALSE)
+		ContainerEnable("Chest2",TRUE)
+END
+

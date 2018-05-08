@@ -1,0 +1,63 @@
+@1  = ~Der Zeitpunkt nähert sich. Ich muss mich für meine Abreise zum Elfenhof auf Immerdar vorbereiten.~ 
+@2  = ~Die Tel'Quessir wissen in ihrem tiefsten Herzen, wann sie nach Westen gehen müsssen, aber ich habe meine Aufgabe in Faerûn noch nicht beendet.~
+@3  = ~Als ich Euch sah, <GABBER>, wusste ich, was das für mich, für uns drei, bedeutet. Wir alle haben eine Aufgabe und Euer Erscheinen brachte uns die Erleuchtung.~ 
+@4  = ~Wir haben den Tag des Rückzugs verabscheut und wissen nun warum. Ihr wurdet zu uns geschickt, um eine Etappe Eures Lebens zu vollenden, sodass wir unsere beenden können.~
+@5  = ~Bitte, ich habe keine Zeit dafür.~ 
+@6  = ~Sagt mir, Schwester, was ist es, das uns verbindet?~
+@7  = ~Ich verstehe nicht. Es ergibt für mich keien Sinn.~
+@8  = ~<GABBER>, wir werden Faerûn nicht verlassen, bevor wir nicht unsere Pflicht erfüllt haben. Kehrt zu uns zurück, wenn Ihr bereit dafür seid.~ 
+@9  = ~<GABBER>, es ist einfach. Ihr müsst verstehen, dass wir drei Euch helfen müssen, während Ihr eine persönliche, körperliche und geistige Erfahrung auf Euch nehmt. Wir leiten Euch so gut wir können. Seid Ihr jetzt bereit, uns unseren Zweck erfüllen zu lassen?~
+@10 = ~Es ist gut für alle Betroffenen, dass Ihr unvoreingenommen darauf schaut, was getan werden soll.~ 
+@11 = ~Ihr müsst unsere Voraussetzungen und Befehle ohne Fragen erfüllen, <GABBER>. Unser Lebensfaden ist gespannt, und wenn Ihr die Aufgaben nicht vollendet, die wir Euch darlegten, können wir vor unserer Zeit nach Westen reisen.~
+@12 = ~Hier, <GABBER>, nehmt diese Sämlinge. Bringt sie zu Vaelasa, einer Nymphe in den Windspeer-Hügeln. Sie wird sich um die Sprosse kümmern, nachdem wir gegangen sind. Aber seid vorsichtig, <GABBER>, die Sämlinge sind anfällig und können durch Feuer oder Kälte zerstört werden.~
+@13 = ~Ich habe Euch Eure Aufgabe gegeben, <GABBER>. Sagt mir, sind die Sämlinge sicher? ~ 
+@14 = ~Nein, meine Dame, die Sprosse wurden zerstört.~
+@15 = ~Ja, meine Dame, sie sind noch in meiner Obhut.~ 
+@16 = ~Ich brachte die Samen zu Vaelasa, Schwester, und sie sendet ihre Grüße, sowie ihr Bedauern über Euren drohenden Rückzug.~
+@17 = ~Es tut mir Leid, Schwester Elfe, aber ich kann die Schößlinge nicht an die Baumnymphe Vaelasa liefern. Sie ist nicht in den Windspeer Hügeln, und ich fürchte, dass sie vielleicht tot ist.~
+@18 = ~Schrecklich! Katastrophal! Unsere Leben, vergeudet. Wir werden nach Westen gehen, <GABBER>, ohne unseren sterblichen Zweck zu erfüllen. Lebt wohl!...~
+@19 = ~Dann bringt sie in aller Eile zu den Windspeer-Hügeln.~ 
+@20 = ~Danke, <GABBER>. Ihre Worte und Eure Taten heben meine Stimmung.~
+@21 = ~Ihr habt uns mehr geholfen, als Ihr Euch vorstellen könnt, <GABBER>. Für Eure Hilfe wollen wir Euch belohnen, sowie Ihr wachst. Wir werden Euch eine letzte Sache lehren, aber Ihr müsst wählen.~ 
+@22 = ~Was möchtet Ihr, das wir Euch lehren: möchtet Ihr lieber wissen, wie man sich eine größere Zahl von Zaubern einprägt, als ein Magier normalerweise kann, möchtet Ihr lernen, wie Ihr Eure Zeiten beim Wirken von Zaubern verbessert in einer Art, die Euch erlaubt, zwei Zauber beinahe gleichzeitig zu wirken, oder möchtet Ihr lernen, wie man sich an einen Zauber erinnert, ohne ihn sich wieder einzuprägen?~ 
+@23 = ~Ich möchte wissen, wie man sich einen zusätzlichen Zauber pro Stufe einprägt.~
+@24 = ~Ich denke, dass eine vergrößerte Geschwindigkeit beim Wirken von Zaubern vorteilhafter sein wird.~ 
+@25 = ~Ich will, dass Ihr mich unterrichtet, wie man sich an einen Zauber erinnert.~
+@26 = ~Was möchtet Ihr, das wir Euch lehren: möchtet Ihr lieber wissen, wie man sich eine größere Zahl von Zaubern einprägt, als ein Magier normalerweise kann, möchtet Ihr lernen, wie Ihr Eure Zeiten beim Wirken von Zaubern verbessert in einer Art, die Euch erlaubt, zwei Zauber beinahe gleichzeitig zu wirken, oder möchtet Ihr lernen, wie man sich an einen Zauber erinnert, ohne ihn sich wieder einzuprägen, oder möchtet Ihr, dass ich Euch lehre, wie man fast jeden Gegenstand verwendet - sogar Dinge, bei denen Magier nicht geübt sind, sie zu verwenden - obwohl einige Störungen bei Eurer Fähigkeit, Zauber zu wirken, verursachen können?~
+@27 = ~Ich hätte gerne, dass Ihr mich lehrt, wie man jeden Gegenstand verwendet.~
+@28 = ~Wie Ihr wünscht, <GABBER>. Ich werde mein Bestes tun, Euch zu unterrichten, wie man die Zahl von Zaubern vergrößert, die Ihr Euch einprägen könnt.~
+@29 = ~Es ist mir gelungen, <GABBER>. Eure geistige Kapazität, sich Zauber einzuprägen, überschreitet jetzt die Norm für Magier Eurer Intelligenz.~
+@30 = ~Wie Ihr wünscht, <GABBER>. Ich werde mein Bestes tun, Euch zu unterrichten, wie man die Anzahl von Zaubern verdoppelt, die Ihr in einem bestimmten Zeitrahmen wirkt.~
+@31 = ~Es ist mir gelungen, <GABBER>. Ihr könnt jetzt in einer einzigen Minute doppelt so viele Zauber wirken wie die meisten anderen Zauberer.~
+@32 = ~Wie Ihr wünscht, <GABBER>. Ich werde mein Bestes tun, Euch zu unterrichten, wie man sich an Zauber erinnert, die Ihr gewirkt habt, seit Ihr sie das letzte Mal studiert hat.~
+@33 = ~Es ist mir gelungen, <GABBER>. Ihr habt gelernt, wie man sich aneinen Zauber erinnert, den Ihr gewirkt habt, ohne ihn sich wieder einzuprägen.~
+@34 = ~Einen Magier die Fähigkeit zu lehren, jeden Gegenstand zu verwenden, ist ein schwieriger Prozess. Ich werde mein Bestes tun, <GABBER>, aber ich kann Euch nicht versichern, dass Ihr erfolgreich sein werdet.~
+@35 = ~<GABBER>, Ihr seid tatsächlich ein besonderer <RASSE>. Bestimmt war es mir ein Vergnügen und eine Ehre, Euch zu unterrichten, wie man beinahe jeden Gegenstand verwendet, den Ihr wollt. Denkt daran, einige Gegestände wie Rüstungen, die Ihr verwendet, werden Euch davon abhalten, Zauber zu wirken. Außerdem wird es keine gute Idee sein, irgendwelche zweihändigen Waffen zu verwenden, weil es nicht vorgesehen ist, dass Magier einige Gegenstände verwenden; die Wirkung auf Faerûn könnte katastrophal sein.~
+@36 = ~<GABBER>, Ihr seid ein besonderer <RASSE>. Jedoch hat nicht jeder die Eigenschaft, zu lernen, wie man jede Art von Gegenständen verwendet. Ich bitte Euch um Vergebung, weil ich außer Stande war, Euch diese Fähigkeit zu unterrichten.~
+@37 = ~<GABBER>, unsere Zeit hier in Faerûn ist abgelaufen. Wir drei von werden zu der Insel der Elfen abreisen. Unser Zweck ist abgeschlossen. Lebt wohl, <GABBER>, und möge Seldarine Euch schützen und führen.~
+@38 = ~Wir erwarten die Zeit, wenn wir die letzte Reise von Faerûn nach Immerdar machen werden. Corellan Lotharian führt Euch, <GABBER>.~
+@39 = ~Schrecklich! Katastrophal! Es gibt nichts, das wir von uns selbst hier auf Faerûn zurücklassen können. Unsere Leben, vergeudet. Wir werden gehen, <GABBER>, ohne unseren sterblichen Zweck zu erfüllen. Lebt wohl!...~
+@40 = ~Ältere Elfen: Übergabe
+
+Ich wurde von einem Trio von Elfen Zauberinnen gebeten, heilige Schößlinge vom Wald von Tethyr zu einer Gruppe von Waldnymphen in den Windspeer Hügeln zu überbringen. Ich soll aufpassen, solange die Schößlinge in meiner Obhut sind, weil sie empfindlilch gegen Feuer und Kälte sind. Als die Nymphen die Schößlinge erhielten, baten mich die Elfen, sie zu 	verständigen; ich kann sie dort antreffen, wo ich die Tiefen des Unterreichs verließ, und sie versprachen, mich zu belohnen.~
+@41 = ~Ältere Elfen: Übergabe
+
+Ich habe heilige Schößlinge an die Nymphen für ein Trio von Elfen Zauberinnen geliefert, die sich auf ihren Rückzug vorbereiten. Sie haben versprochen, mich eine neue Fähigkeit zu lehren.~
+@42 = ~Elfen-Älteste: Magische Instruktion
+
+Das Trio von Zauberinnen, das ich am Westrand des Waldes von Tethyr in der Nähe des höhlenartigen Eingangs zum Unterreich traf, war so nett, mich zu lehren, wie man die Zahl der Zauber vergrößert, die ich mir einprägen kann.~
+@43 = ~Elfen-Älteste: Magische Instruktion
+
+Das Trio von Zauberinnen, das ich am Westrand des Waldes von Tethyr in der Nähe des höhlenartigen Eingangs zum Unterreich traf, war so nett, mich zu lehren, wie man Zauber beinahe gleichzeitig in derselben Runde wirft.~
+@44 = ~Elfen-Älteste: Magische Instruktion
+
+Das Trio von Zauberinnen, das ich am Westrand des Waldes von Tethyr in der Nähe des höhlenartigen Eingangs zum Unterreich traf, war so nett, mich zu lehren, wie ich mich an einen Zauber erinnern kann, den ich bereits gewirkt habe, ohne ihn mir wieder einzuprägen.~
+@45 = ~Elfen-Älteste: Magische Instruktion
+
+Das Trio von Zauberinnen, das ich am Westrand des Waldes von Tethyr in der Nähe des höhlenartigen Eingangs zum Unterreich traf, war so nett, mich zu lehren, wie man viele verschiedene Arten von Ausrüstungen verwendet, die die meisten Magier nicht verwenden können.~
+@46 = ~Elfen-Älteste: Magische Instruktion
+
+Das Trio von Zauberinnen, das ich am Westrand des Waldes von Tethyr in der Nähe des höhlenartigen Eingangs zum Unterreich traf, war so nett, zu versuchen, mich zu lehren, wie man jeden Gegenstand verwendet, obwohl ich außer Stande war, ihre Anweisungen zu begreifen.~
+@47 = ~Ältere Elfen: Endrückzug
+
+Das Trio von Elfen Zauberinnen hat ihre Aufgaben erfüllt und hat sich aus Faerûn zurückgezogen. Sie verschwanden nach immerdar, und ist es unser Verlust. Ohne Frage ist Faerûn und ich selbst besser dran, diese drei Elfen Seelen zu kennen. Ich verzweifle, weil sie vom Festland fort sind, freue mich aber, zu wissen, dass sie im alten Heimatland der Elfen willkommen sind.~

@@ -1,0 +1,57 @@
+IF
+	Global("CbParisaHelpsNPCs","AR0300",1)
+	Global("CbSpawnParisa","GLOBAL",2)
+	See([GOODCUTOFF])
+THEN
+	RESPONSE #100
+		Wait(2)
+		MoveToObject(LastSeenBy(Myself))
+		StartDialogueNoSet(LastSeenBy(Myself))
+END
+
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	Die()
+THEN
+	RESPONSE #100
+		ReallyForceSpellDead(Myself,VAMPIRE_GAS_FORM_CHANGE)
+END
+
+IF
+	HPLT(Myself,10)
+THEN
+	RESPONSE #100
+		ReallyForceSpellDead(Myself,VAMPIRE_BAT_FORM_CHANGE)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		Attack(LastAttackerOf(Myself))
+END
+
+IF
+	See([PC])
+	Delay(12)
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ForceSpell([PC],VAMPIRE_DOMINATION)
+END
+
+

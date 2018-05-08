@@ -1,0 +1,67 @@
+IF
+	See(Player1)
+	CheckStatLT(Player1,19,STR)
+	!GlobalTimerNotExpired("CbPlayer1GotBJ","LOCALS")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbPlayer1GotBJ","LOCALS",24)
+		ReallyForceSpell(Player1,DRAGON_WING_BUFFET)
+		DisplayString(Player1,@550603)
+END
+
+IF
+	See(Player2)
+	CheckStatLT(Player2,19,STR)
+	!GlobalTimerNotExpired("CbPlayer2GotBJ","LOCALS")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbPlayer2GotBJ","LOCALS",24)
+		ReallyForceSpell(Player2,DRAGON_WING_BUFFET)
+		DisplayString(Player2,@550603)
+END
+
+IF
+	See(Player3)
+	CheckStatLT(Player3,19,STR)
+	!GlobalTimerNotExpired("CbPlayer3GotBJ","LOCALS")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbPlayer3GotBJ","LOCALS",24)
+		ReallyForceSpell(Player3,DRAGON_WING_BUFFET)
+		DisplayString(Player3,@550603)
+END
+
+IF
+	See(Player4)
+	CheckStatLT(Player4,19,STR)
+	!GlobalTimerNotExpired("CbPlayer4GotBJ","LOCALS")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbPlayer4GotBJ","LOCALS",24)
+		ReallyForceSpell(Player4,DRAGON_WING_BUFFET)
+		DisplayString(Player4,@550603)
+END
+
+IF
+	See(Player5)
+	CheckStatLT(Player5,19,STR)
+	!GlobalTimerNotExpired("CbPlayer5GotBJ","LOCALS")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbPlayer5GotBJ","LOCALS",24)
+		ReallyForceSpell(Player5,DRAGON_WING_BUFFET)
+		DisplayString(Player5,@550603)
+END
+
+IF
+	See(Player6)
+	CheckStatLT(Player6,19,STR)
+	!GlobalTimerNotExpired("CbPlayer6GotBJ","LOCALS")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbPlayer6GotBJ","LOCALS",24)
+		ReallyForceSpell(Player6,DRAGON_WING_BUFFET)
+		DisplayString(Player6,@550603) 
+END
+
+

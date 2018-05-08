@@ -1,0 +1,157 @@
+IF
+	See([GOODCUTOFF])
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(LastSeenBy(Myself))
+END
+
+IF
+	HP(Myself,1)
+	See(NearestEnemyOf(Myself))
+	Global("CbDemonChanging","LOCALS",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbDemonChanging","LOCALS",2)
+		StartDialogueNoSet(LastSeenBy(Myself))
+END
+
+IF
+	Global("CbDemonChanging","LOCALS",3)
+	Global("CbElvenSorceressDemon","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		SetGlobal("CbDemonChanging","LOCALS",4)
+		ReallyForceSpell(Myself,HEAL_NO_VISUAL)
+		SetGlobal("CbElvenSorceressDemon","GLOBAL",2)
+		ChangeAnimation("CBEMDM02")
+		SetInterrupt(TRUE)
+END
+
+IF
+	Global("CbDemonChanging","LOCALS",3)
+	Global("CbMasterBardDemon","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		SetGlobal("CbDemonChanging","LOCALS",4)
+		ReallyForceSpell(Myself,HEAL_NO_VISUAL)
+		SetGlobal("CbMasterBardDemon","GLOBAL",2)
+		ChangeAnimation("CBEMDM02")
+		SetInterrupt(TRUE)
+END
+
+IF
+	Global("CbDemonChanging","LOCALS",3)
+	Global("CbDruidTeachingDemon","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		SetGlobal("CbDemonChanging","LOCALS",4)
+		ReallyForceSpell(Myself,HEAL_NO_VISUAL)
+		SetGlobal("CbDruidTeachingDemon","GLOBAL",2)
+		ChangeAnimation("CBEMDM02")
+		SetInterrupt(TRUE)
+END
+
+IF
+	Global("CbDemonChanging","LOCALS",3)
+	Global("CbRangerDemon","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		SetGlobal("CbDemonChanging","LOCALS",4)
+		ReallyForceSpell(Myself,HEAL_NO_VISUAL)
+		SetGlobal("CbRangerDemon","GLOBAL",2)
+		ChangeAnimation("CBEMDM02")
+		SetInterrupt(TRUE)
+END
+
+IF
+	Global("CbDemonChanging","LOCALS",3)
+	Global("CbNorthmenTeachingDemon","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		SetGlobal("CbDemonChanging","LOCALS",4)
+		ReallyForceSpell(Myself,HEAL_NO_VISUAL)
+		SetGlobal("CbNorthmenTeachingDemon","GLOBAL",2)
+		ChangeAnimation("CBEMDM02")
+		SetInterrupt(TRUE)
+END
+
+IF
+	Global("CbDemonChanging","LOCALS",1)
+	See(NearestEnemyOf(Myself))
+	Exists(Player1)
+	!Exists("CB3579P1")
+THEN
+	RESPONSE #100
+		CreateCreatureObjectCopy("CB3579P1",Player1,1,0,0)
+		Continue()
+END
+
+IF
+	Global("CbDemonChanging","LOCALS",1)
+	See(NearestEnemyOf(Myself))
+	Exists(Player2)
+	!Exists("CB3579P2")
+THEN
+	RESPONSE #100
+		CreateCreatureObjectCopy("CB3579P2",Player2,1,0,0)
+		Continue()
+END
+
+IF
+	Global("CbDemonChanging","LOCALS",1)
+	See(NearestEnemyOf(Myself))
+	Exists(Player3)
+	!Exists("CB3579P3")
+THEN
+	RESPONSE #100
+		CreateCreatureObjectCopy("CB3579P3",Player3,1,0,0)
+		Continue()
+END
+
+IF
+	Global("CbDemonChanging","LOCALS",1)
+	See(NearestEnemyOf(Myself))
+	Exists(Player4)
+	!Exists("CB3579P4")
+THEN
+	RESPONSE #100
+		CreateCreatureObjectCopy("CB3579P4",Player4,1,0,0)
+		Continue()
+END
+
+IF
+	Global("CbDemonChanging","LOCALS",1)
+	See(NearestEnemyOf(Myself))
+	Exists(Player5)
+	!Exists("CB3579P5")
+THEN
+	RESPONSE #100
+		CreateCreatureObjectCopy("CB3579P5",Player5,1,0,0)
+		Continue()
+END
+
+IF
+	Global("CbDemonChanging","LOCALS",1)
+	See(NearestEnemyOf(Myself))
+	Exists(Player6)
+	!Exists("CB3579P6")
+THEN
+	RESPONSE #100
+		CreateCreatureObjectCopy("CB3579P6",Player6,1,0,0)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),20)
+END
+
+

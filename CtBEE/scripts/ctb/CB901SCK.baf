@@ -1,0 +1,62 @@
+IF
+	GlobalTimerExpired("CbHollyGetsWell","AR0901")
+	GlobalLT("CbHelpHolly","AR0901",3)
+THEN
+	RESPONSE #100
+		JumpToPoint([1263.879])
+		Polymorph(FIGHTER_FEMALE_ELF)
+		Face(4)
+		SetGlobal("CbHelpHolly","AR0901",3)
+END
+
+IF
+	Global("CbInformedAboutRoots","GLOBAL",1)
+	PartyHasItem("CB901CHG")
+	Global("CbCheckedCouchGrass","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCheckedCouchGrass","LOCALS",1)
+		IncrementGlobal("CbPartyHasMedicineForHolly","LOCALS",1)
+END
+
+IF
+	Global("CbInformedAboutRoots","GLOBAL",1)
+	PartyHasItem("CB901CMS")
+	Global("CbCheckedClubMoss","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCheckedClubMoss","LOCALS",1)
+		IncrementGlobal("CbPartyHasMedicineForHolly","LOCALS",1)
+END
+
+IF
+	Global("CbInformedAboutRoots","GLOBAL",1)
+	PartyHasItem("CB901ELD")
+	Global("CbCheckedElderberry","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCheckedElderberry","LOCALS",1)
+		IncrementGlobal("CbPartyHasMedicineForHolly","LOCALS",1)
+END
+
+IF
+	Global("CbInformedAboutRoots","GLOBAL",1)
+	PartyHasItem("CB901PCH")
+	Global("CbCheckedPeachLeaf","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCheckedPeachLeaf","LOCALS",1)
+		IncrementGlobal("CbPartyHasMedicineForHolly","LOCALS",1)
+END
+
+IF
+	Global("CbInformedAboutRoots","GLOBAL",1)
+	PartyHasItem("CB901WRM")
+	Global("CbCheckedWormwood","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCheckedWormwood","LOCALS",1)
+		IncrementGlobal("CbPartyHasMedicineForHolly","LOCALS",1)
+END
+
+

@@ -1,0 +1,87 @@
+IF
+	Global("CbVampireSubQuestStart","GLOBAL",2)
+THEN
+	RESPONSE #100
+		EscapeAreaDestroy(0)
+END
+
+IF
+	Global("CbVernonDoesOnce","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbVernonDoesOnce","LOCALS",1)
+		SetGlobalTimer("CbVernonRoamsTheFarm","GLOBAL",250)
+END
+
+IF
+	AreaCheck("AR3597")
+	RandomNum(2,1)
+	GlobalTimerExpired("CbVernonRoamsTheFarm","GLOBAL")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbVernonRoamsTheFarm","GLOBAL",250)
+		MoveToObject("Tran3598")
+		MoveBetweenAreas("AR3598",[962.1211],0)
+END
+
+IF
+	AreaCheck("AR3597")
+	RandomNum(2,2)
+	GlobalTimerExpired("CbVernonRoamsTheFarm","GLOBAL")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbVernonRoamsTheFarm","GLOBAL",250)
+		MoveToObject("Tran3599")
+		MoveBetweenAreas("AR3599",[442.723],0)
+END
+
+IF
+	AreaCheck("AR3598")
+	GlobalTimerExpired("CbVernonRoamsTheFarm","GLOBAL")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbVernonRoamsTheFarm","GLOBAL",250)
+		MoveToObject("Tran3597")
+		MoveBetweenAreas("AR3597",[652.385],0)
+END
+
+IF
+	AreaCheck("AR3599")
+	GlobalTimerExpired("CbVernonRoamsTheFarm","GLOBAL")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbVernonRoamsTheFarm","GLOBAL",250)
+		MoveToObject("Tran3597")
+		MoveBetweenAreas("AR3597",[1686.675],0)
+END
+
+IF
+	AreaCheck("AR3597")
+	Range("FarmCenterObject",60)
+	Global("CbVernonTooFar","LOCALS",1)
+	!GlobalTimerExpired("CbVernonRoamsTheFarm","GLOBAL")
+THEN
+	RESPONSE #100
+		SetGlobal("CbVernonTooFar","LOCALS",0)
+		ClearActions(Myself)
+END
+
+IF
+	AreaCheck("AR3597")
+	!Range("FarmCenterObject",350)
+	!Global("CbVernonTooFar","LOCALS",1)
+	!GlobalTimerExpired("CbVernonRoamsTheFarm","GLOBAL")
+THEN
+	RESPONSE #100
+		SetGlobal("CbVernonTooFar","LOCALS",1)
+		MoveToObject("FarmCenterObject")
+END
+
+IF
+	ActionListEmpty()
+THEN
+	RESPONSE #100
+		RandomWalk()
+END
+
+

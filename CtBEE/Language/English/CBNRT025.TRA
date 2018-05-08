@@ -1,0 +1,94 @@
+@1   = ~Too long have you neglected your honor.  Welcome you into the tribe, we would.~
+@2   = ~Learn for yourself what it means to be part of our people, you must.~
+@3   = ~Time for you to remember, it is.  Earn your place in the tribe, you shall begin a quest.~
+@4   = ~Lost to us, a staff of great power.  Lazy and soft our tribe has become.  Recover it for us, you will.  A simple Shaman's staff, it is.  It back, we want.~
+@5   = ~Know where the Staff is or who possesses it, we do not know.  Find it, you will.~
+@6   = ~Council with us, it is good for you.~
+@7   = ~Council with us, the young one wishes.  What you have discovered, tell us.~
+@8   = ~Yes, I have the staff you wanted me to recover.~
+@9   = ~I have not yet found the staff.~
+@10  = ~What was I supposed to do for you again?~
+@11  = ~Recovering the Shaman's Staff, we thank you for.  Begin your education of our ways you will.~
+@12  = ~Something of our customs and skills, to learn, we teach you.  Meditate and practice, you will go to the wilds.~
+@13  = ~Our customs, you learned some of.  For the tribe, again you will train~
+@14  = ~Our customs, you learned some of.  For the tribe, again you will train.~
+@15  = ~Done well, <GABBER>, you have.  Tested further, you are to be.  Ready, are you?~
+@16  = ~Yes.  Tell me what needs to be done.~
+@17  = ~No, I need more time.~
+@18  = ~Ways of a Northman, you must learn.  Limited your worth as a tribal member is.  Yourself, prepare.  To us, return when ready you are.~
+@19  = ~Your next task, you begin.  To explain, we have much.~
+@20  = ~You, <GABBER>, we are charging.  Threat to our tribe, this must be eliminated.  On you, our people depend.~
+@21  = ~Where can I find this presence, Wise One?~
+@22  = ~I will do my best, Wise One.~
+@23  = ~Wise One, I doubt my skills will be sufficient to end such a dire threat.~
+@24  = ~In the region, sense evil we still can.  Completed your task, you have not, we know.~
+@25  = ~I cannot find this presence.  Do you know where it is?~
+@26  = ~If you can, go, <GABBER>, to defeat the evil.~
+@27  = ~<GABBER>!  War to our homes the Luskanites have brought.  Into the ocean, push them you must.~
+@28  = ~Our island, push the Luskanites from!~
+@29  = ~Much to talk about, we have.  The evil presence, sense it I do not.  Destroyed it, you did?~
+@30  = ~No, Wise One, it was banished but not destroyed.~
+@31  = ~Yes, Wise One, I destroyed whatever it was.~
+@32  = ~Our homes, what of?  The Luskanites, are we safe from?~
+@33  = ~Yes, Wise One.  I have defeated the attackers and removed the threat from Rauthym.~
+@34  = ~Finished, it is.  Well, you have done, <GABBER>.  To our tribe, closer you are.~
+@35  = ~Tell us, <GABBER>, before you go.  Your meditations, you hope to get out of what?~
+@36  = ~I want to learn how to survive in the wild.~
+@37  = ~I want to learn how to frighten my enemies with a terrible War Cry.~
+@38  = ~I want to learn how to slay a man in a single Deathblow.~
+@39  = ~On your dream quest, we wish you well.  The knowledge you seek, come back to us with.~
+@40  = ~Like a true Northman barbarian, as you learn customs and traditions, you become.  Before you are taught something else of our ways, a final quest we have.~
+@41  = ~<GABBER>, you will, we know.~
+@42  = ~Again, well you have done.  Worked and fought for our people you have.  The hammer, I will take.  Bestow on you, a better one I do.  In your adventurers, serve you well it will.~
+@43  = ~Always expected your best, we have.  Always given your best, you have.  Learn a final skill, our custom, you must.~
+@44  = ~Then to the wilderness and discover yourself, you go, <GABBER>.  Learn blind-fighting.~
+@45  = ~Then to the wilderness and discover yourself, you go, <GABBER>. Learn the berserk state.~
+@46  = ~Then to the wilderness and discover yourself, you go, <GABBER>.  Learn hardiness.~
+@47  = ~Then to the wilderness and discover yourself, you go, <GABBER>.  Learn any item using.~
+@48  = ~Any item, you have learned to use.~
+@49  = ~Any item, you have learned to use not.~
+@50  = ~The enraged state, you have learned to enter.~
+@51  = ~Hardy like steel, you have learned to become.~
+@52  = ~Darkness fighting, you have learned to do.~
+@53  = ~A tribe member, you shall be known.  To this house with open arms, we welcome you.  Always honor the lessons you learned when you leave this house.~
+@54  = ~A member of our people you are not.  Leave our house, I ask you to.~
+@55  = ~One of our brother warriors you may be, you honor already our customs and traditions.  By doing so, you please me.~
+@56 = ~Tribal Relations
+
+The Council of Northmen Elders, of whom I am working for in an attempt to gain acceptance within this tribe of barbarians and fighters, have given me another task to complete.  I am to journey overseas again, back to the city of Athkatla, where I am to attempt to locate, and remove, a threat which the Elders have sensed.  They are unsure of the exact location of this unknown threat, but know that it must be met before it can strike back at the people of good on Toril.~
+@57 = ~Tribal Relations
+
+I have encountered a tribe of Northmen:  semi-civilized people who inhabit the isolated island of Rauthym, hundreds of miles from Waterdeep and the Sword Coast.  They have told me if I wish to be accepted into their warrior society, I would have to perform a number of tasks.  The first task they have assigned me is to recover a Shaman's Staff, an object of minor magical ability, and return it to the Council of Elders as quickly as I can.~
+@58 = ~Tribal Teachings
+
+The Council of Elders on Rauthym have assisted me in becoming one of their tribe, this time by teaching me how to set a variety of traps and snares to capture or harm my enemies.~
+@59 = ~Tribal Teachings
+
+The Council of Elders on Rauthym have assisted me in becoming one of their tribe, this time by teaching me how to Power Attack a foe.~
+@60 = ~Tribal Teachings
+
+The Council of Elders on Rauthym have assisted me in becoming one of their tribe, this time by teaching me how to enter the berserk and enraged state.~
+@61 = ~Tribal Relations
+
+As the Council of Northmen requested, I returned to the mainland where I was forced to face- and defeat- a powerful demon that had somehow found it's way from the ethereal planes to Faerûn.  When I returned to the island of Rauthym, I found that warmongering forces out of the northern Sword Coast city of Luskan, as they have for years, were once again making an attempt to conquer the island.  I was able to repel the invaders, and was rewarded by the Council of Elders after the Luskanite threat was defeated.~
+@62 = ~Tribal Relations
+
+I have been given yet another task by the Northmen Elders, this time I am to find the material to reforge a mighty warhammer.  When I have found the appropriate components, I am to bring them to the dwarf Cromwell in Athkatla to be reforged.~
+@63 = ~Tribal Relations
+
+After I was able to have Cromwell reforge the magical Hammer of Lokin, I returned it to the Council of Elders on Rauthym.  They rewarded me by bestowing additional magical properties upon the weapon and giving me the enchanted warhammer as a gift for my assistance to the Northmen tribe.  The Elders instructed me to use the hammer with honor.~
+@64 = ~Tribal Teachings
+
+For my assistance in completing the tasks the Northmen council assigned, they have taught me how to use any item I wish.~
+@65 = ~Tribal Teachings
+
+For my assistance in completing the tasks the Northmen council assigned, they have attempted to teach me how to use any item, but I was unable to comprehend the instructions they gave.~
+@66 = ~Tribal Teachings
+
+The Council of Elders on Rauthym have assisted me in becoming one of their tribe, this time by teaching me how to enter the berserk and enraged state.~
+@67 = ~Tribal Teachings
+
+For my assistance in completing the tasks the Northmen council assigned, they have taught me the Hardiness skill.~
+@68 = ~Tribal Teachings
+
+For my assistance in completing the tasks the Northmen council assigned, they have taught me the art of blind-fighting, that is, how to fight in darkness or low light.~

@@ -1,0 +1,38 @@
+IF
+	OpenState("DOOR12",FALSE)
+	Global("CbTempGlobal","AR0800",1)
+THEN
+	RESPONSE #100
+		Unlock("Door12")
+		OpenDoor("Door12")
+		TriggerActivation("Tran0808",TRUE)
+		TriggerActivation("Tran0801c",FALSE)
+		Continue()
+END
+
+IF
+	OR(2)
+		GlobalGT("BodhiJob","GLOBAL",3)
+		GlobalGT("CbTalkedGaelan","GLOBAL",1)
+	Global("CbTaxAnnouncement","GLOBAL",0)
+	!Exists("CBTAXCVA")
+THEN
+	RESPONSE #100
+		SetGlobal("CbTaxAnnouncement","GLOBAL",1)
+		CreateCreatureOffScreen("CBTAXCVA",0)
+		Continue()
+END
+
+IF
+	Global("CbSpokeWithHareishan","AR0800",0)
+	Global("CbSpawnParisa","GLOBAL",0)
+	Global("CbShadowThievesCapturePC","GLOBAL",6)
+	Global("CbBodhiJob","GLOBAL",6)
+	Global("CbWorkingForBodhi","GLOBAL",6)
+	!Exists("CBVAMGRY")
+THEN
+	RESPONSE #100
+		CreateCreatureOffScreen("CBVAMGRY",0)
+		Continue()
+END
+

@@ -1,0 +1,125 @@
+IF
+	Global("CBBDHELP","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CBBDHELP","GLOBAL",0)
+END
+
+IF
+	NumTimesTalkedTo(0)
+	See([GOODCUTOFF])
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(LastSeenBy(Myself))
+END
+
+IF
+	OnCreation()
+	!Global("Cb_DSACK_follows","LOCALS",1)
+THEN
+	RESPONSE #100
+		SetNumTimesTalkedTo(0)
+END
+
+IF
+	Global("Cb_DSACK_follows","LOCALS",1)
+	!See([GOODCUTOFF])
+	OnCreation()
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
+	Global("Cb_DSACK_follows","LOCALS",1)
+	!See([GOODCUTOFF])
+	InActiveArea(LastTalkedToBy(Myself))
+	!See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		MoveToObject(LastTalkedToBy(Myself))
+END
+
+IF
+	Global("Cb_DSACK_Helps","LOCALS",1)
+	!See(NearestEnemyOf(Myself))
+	See([GOODCUTOFF])
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_DSACK_Helps","LOCALS",2)
+		StartDialogueNoSet(LastTalkedToBy(Myself))
+END
+
+IF
+	Global("Cb_DSACK_Helps","LOCALS",1)
+	!See(NearestEnemyOf(LastTalkedToBy(Myself)))
+	!CombatCounter(0)
+THEN
+	RESPONSE #100
+		MoveToObject(LastTalkedToBy(Myself))
+END
+
+IF
+	Global("Cb_DSACK_follows","LOCALS",1)
+	See(NearestEnemyOf(LastTalkedToBy(Myself)))
+THEN
+	RESPONSE #10
+		Spell(NearestEnemyOf(LastTalkedToBy(Myself)),WIZARD_FIREBALL)
+	RESPONSE #10
+		Spell(NearestEnemyOf(LastTalkedToBy(Myself)),WIZARD_MAZE)
+	RESPONSE #10
+		Spell(NearestEnemyOf(LastTalkedToBy(Myself)),WIZARD_DISINTEGRATE)
+	RESPONSE #10
+		Spell(NearestEnemyOf(LastTalkedToBy(Myself)),WIZARD_DOMINATION)
+	RESPONSE #10
+		Spell(NearestEnemyOf(LastTalkedToBy(Myself)),WIZARD_MELF_ACID_ARROW)
+	RESPONSE #10
+		Spell(NearestEnemyOf(LastTalkedToBy(Myself)),WIZARD_ABI_DALZIMS_HORRID_WILTING)
+	RESPONSE #10
+		Spell(NearestEnemyOf(LastTalkedToBy(Myself)),WIZARD_CHAOS)
+	RESPONSE #10
+		Spell(NearestEnemyOf(LastTalkedToBy(Myself)),WIZARD_POWER_WORD_BLIND)
+	RESPONSE #5
+		Spell(LastTalkedToBy(Myself),CLERIC_HEAL)
+	RESPONSE #5
+		PlaySound("ABAZIG02")
+		ReallyForceSpell(NearestEnemyOf(LastTalkedToBy(Myself)),DRAGON_FEAR)
+		ReallyForceSpell(NearestEnemyOf(LastTalkedToBy(Myself)),3532)
+		ForceSpell(NearestEnemyOf(LastTalkedToBy(Myself)),DRAGON_WING_BUFFET)
+	RESPONSE #10
+		AttackReevaluate(NearestEnemyOf(LastTalkedToBy(Myself)),12)
+END
+
+IF
+	Global("Cb_DSACK_Helps","LOCALS",1)
+	See(NearestEnemyOf(LastTalkedToBy(Myself)))
+THEN
+	RESPONSE #10
+		Spell(NearestEnemyOf(LastTalkedToBy(Myself)),WIZARD_FIREBALL)
+	RESPONSE #10
+		Spell(NearestEnemyOf(LastTalkedToBy(Myself)),WIZARD_MAZE)
+	RESPONSE #10
+		Spell(NearestEnemyOf(LastTalkedToBy(Myself)),WIZARD_DISINTEGRATE)
+	RESPONSE #10
+		Spell(NearestEnemyOf(LastTalkedToBy(Myself)),WIZARD_DOMINATION)
+	RESPONSE #10
+		Spell(NearestEnemyOf(LastTalkedToBy(Myself)),WIZARD_MELF_ACID_ARROW)
+	RESPONSE #10
+		Spell(NearestEnemyOf(LastTalkedToBy(Myself)),WIZARD_ABI_DALZIMS_HORRID_WILTING)
+	RESPONSE #10
+		Spell(NearestEnemyOf(LastTalkedToBy(Myself)),WIZARD_CHAOS)
+	RESPONSE #10
+		Spell(NearestEnemyOf(LastTalkedToBy(Myself)),WIZARD_POWER_WORD_BLIND)
+	RESPONSE #5
+		Spell(LastTalkedToBy(Myself),CLERIC_HEAL)
+	RESPONSE #5
+		PlaySound("ABAZIG02")
+		ReallyForceSpell(NearestEnemyOf(LastTalkedToBy(Myself)),DRAGON_FEAR)
+		ReallyForceSpell(NearestEnemyOf(LastTalkedToBy(Myself)),3532)
+		ForceSpell(NearestEnemyOf(LastTalkedToBy(Myself)),DRAGON_WING_BUFFET)
+	RESPONSE #10
+		AttackReevaluate(NearestEnemyOf(LastTalkedToBy(Myself)),12)
+END
+
+

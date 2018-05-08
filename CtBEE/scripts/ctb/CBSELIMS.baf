@@ -1,0 +1,57 @@
+IF
+	Global("CbSelimCreated","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSelimCreated","GLOBAL",0)
+END
+
+IF
+	Global("CbSelimTakesKnowledge","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSelimTakesKnowledge","GLOBAL",2)
+		TakePartyItemAll("CBWT700")
+		TakePartyItemAll("CBWT7a10")
+		TakePartyItemAll("CBWT7b10")
+		TakePartyItemAll("CBWT7c10")
+		TakePartyItemAll("CBWT7d10")
+		TakePartyItemAll("CBWT7e10")
+		TakePartyItemAll("CBWT7f10")
+		TakePartyItemAll("CBWT7g10")
+		TakePartyItemAll("CBWT7h10")
+		TakePartyItemAll("CBWT7i10")
+		TakePartyItemAll("CBWT7j10")
+		TakePartyItemAll("CBWT7k10")
+		TakePartyItemAll("CBWT7l10")
+		SetGlobal("CbSelimLeaves","GLOBAL",6)
+END
+
+IF
+	Global("CbSelimTakesKnowledge","GLOBAL",2)
+	Global("CbSelimLeaves","GLOBAL",6)
+THEN
+	RESPONSE #100
+		UseItem("CBSELIMT",Myself)
+		Wait(7)
+		SetGlobal("CbSelimLeaves","GLOBAL",0)
+		SetGlobal("CbSelimTakesKnowledge","GLOBAL",0)
+		DestroySelf()
+END
+
+IF
+	!Range([GOODCUTOFF],10)
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		MoveToObject([GOODCUTOFF])
+END
+
+IF
+	Range([GOODCUTOFF],10)
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet([GOODCUTOFF])
+END
+
+

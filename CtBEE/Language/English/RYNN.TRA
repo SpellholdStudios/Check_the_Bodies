@@ -1,0 +1,73 @@
+@1   = ~Doesn't seem like you've taken a side in our struggle.  Kill some serpents, and maybe you'll be worth the Secession's attention.~
+@2   = ~So, either you're with House Extaminos, or you're with the Secession.  When you make a choice and start killing off the bloody serpents, let me know.~
+@3   = ~If you ever decide to join with the Secession, the serpents put out a bounty of 500 gold for each member.  Watch your back in that case.~
+@4   = ~I will not betray any of my patriots to the House without knowing what side you fight for.  Help the Yuan-ti and I call you enemy.  Choose us and maybe we can talk.~
+@5   = ~So, you think you have what it takes to join up with the Secession?~
+@6   = ~I have what it takes to do anything.  What is it you're trying to do?~
+@7   = ~What is this Secession that you speak of?~
+@8   = ~You are one of the members of the Serpent Secession then?~
+@9   = ~Well, before the Secession can fully trust you, you'll have to prove yourself.~
+@10  = ~The Serpent Secession.  Freedom fighters who strive to free Hlondeth from the yuan-ti.  Perhaps you've seen some of the skirmishes with the Hlondeth troops?~
+@11  = ~So far, we've only managed to get a price on our heads, so if you think you've got what it takes to strike at Extaminos, you'll have to watch your back at every corner.~
+@12  = ~Of course, I admit to that, but you'll never get any more information about my compatriots to use against me.~
+@13  = ~So, like I said, you've got to show us what you can do before we can trust you even a little.  Prove yourself worthy of our trust, and we'll let you have a chance at striking at the very heart of the evil serpents.~
+@14  = ~Here's your first task.  You know the temple of Mystra across town?  Get in there, and I want you to bring me a chest.  It'll be locked, but you should be able to carry it here without any difficulty.  You'll know the chest I mean when you see it.  There's a serpent emblem on the gilt.  Go and return to me when you have it.~
+@15  = ~Without the chest, we won't take you into our confidence.  Bring me the chest, and maybe I'll have the leader of the Serpent's Secession contact you.~
+@16  = ~So, you've been able to bring the chest.  Well done.  Here, give it to me.~
+@17  = ~Ok, listen.  It was a simple task you've done, but my compatriots are happy with the results.  This chest will help out quite a bit with financing the movement.~
+@18  = ~Someone is pleased with your work, and wants to meet you.  He's hiding out in the city- Extaminos has put a price on his head of 10,000 gold.  He's the leader of the Serpent's Secession, and is well known by the serpents of the House.  It'll be tough for you to find him, but don't worry.  He'll find you when it's safe.~
+@19  = ~He's got a key to the House where the yuan-ti are, and you've got to get that key in order to get into the grounds if you want to take on the House.~
+@20  = ~Don't worry.  The leader of the movement will find you in time.  I'm sure he's got a reason to stay out of sight, but just keep checking the city.  He'll find you when it's safe.~
+@21  = ~What?  You didn't get a key?~
+@22  = ~No, but we did find Astinar.  He wants you to come along with us- obviously to 'keep an eye on us'- when we take out the Serpents.  Will you come with us?~
+@23  = ~I'll give my life to rid Hlondeth of the vile serpents.  If Gonthril wants me to babysit, I'll do it.  Let's find him and get the key.  We need to take out Extaminos as quickly as we can.~
+@24  = ~<CHARNAME>, you've already made your choices, but you do realize that we're about to make history.  We will be taking on the ruling House of Hlondeth, uncertain of the future.  I believe- I truly believe- that we will make a difference in the lives of all.  Enough, it is time.  We must take out the serpents for a free Hlondeth.~
+@25  = ~It is done, <CHARNAME>.  Hlondeth is closer to freedom.  I hope we have done good.  Gonthril must hear the news quickly, so I must seek him out now.  Thank you for your help, <CHARNAME>.~
+@26 = ~Black Addar Stew
+
+   Rynn is supposed to be contacting the leader of the Secession, who will meet with me in the city.  Because of a high price on his head, Astinar must remain underground.  I'm sure he'll find me, but I'll have to keep an eye out.  When I do find him, I'm to get a key that is supposed to open the locked gate of the grounds for House Extaminos.~
+@27 = ~Black Addar Stew
+
+   Trying to take on House Extaminos is much more than just waltzing in and wreaking havoc on the serpents.  I've got Rynn along with me, and she assures me that Astinar will find us as long as we keep moving.  Hope I never find a bounty on my head.~
+@28 = ~Black Addar Stew
+
+   Astinar has given us the key to House Extaminos' grounds.  We attack it today, and Hlondeth will be free of the yuan-ti.~
+@29 = ~Black Addar Stew
+
+   Rynn, apparently one of the members of the underground in Hlondeth, thinks that I can help her and the Serpent's Secession out by taking on House Extaminos.  I'm not sure if it's a good plan, meddling with the ruling house of a city, but the people here aren't particularly happy with the way that the Yuan-Ti have been ruling the city.  Regardless, if I want to help out the Secession, Rynn ask sent me on an errand to retrieve a locked chest which is supposed to be kept in the Temple of Mystra on the eastern side of the city.  I don't know where it is, but going to the temple would be a good place to start looking.~
+@30 = ~Black Addar Stew
+
+   I finally found Gonthril Astinar in Hlondeth.  I spoke to him quickly, and explained that I'll help out the Secession against House Extaminos.  He agreed to provide a key to the stronghold, as long as I take one of the members of the Serpent's Secession with me- I'm sure as a spy to make sure I do as I say and not betray him- so I suppose I'll find the callous woman Rynn back at the weapon shop.  Astinar told me once I've met up with her, he'll contact me again in the city.~
+@31 = ~Black Addar Stew
+
+   The yuan-ti of House Extaminos are dead.  What this will do to the city, I cannot make a guess.   However the politics of the region are affected, I'm sure I don't want to get caught in a civil war.  Rynn has departed to find Astinar, and it is high time for me to leave the city.~
+@32 = ~<CHARNAME>, I fear that we may be getting into something that we don't want to meddle with here if you decide to take on House Extaminos.  Politics are my game, <CHARNAME>, and we must let them be.  Our fight is not to help the Serpent Secession, but it is a worthy cause nevertheless.~
+@33 = ~Slithery serpents leave Boo's and Minsc's mouth tasting bad.~
+@34 = ~The freedom fighters need a strong ranger's blade and some strong dwarven ale to wash clean the stench of the serpents, isn't that right, my stout friend?~
+@35 = ~The freedom fighters need a strong ranger's blade to wash clean the stench of the serpents, I should think.~
+@36 = ~'Tis always time for dwarven ale, ranger.  And if ye call me stout again, I'll be playin' a game of wickets with yer rat and me hammer.~
+@37 = ~I say kill the yuan-ti even if we don't get dwarven stout.~
+@38 = ~Whatever we do, <CHARNAME>, this matter requires some thought.  Do you really want to involve yourself in the local political workings that could very well have ramifications as far a Cormyr regardless of the outcome?~
+@39 = ~I beg you, <CHARNAME>, think some time on that.~
+@40 = ~An easy task, my friend.  But tell me, Rynn, what would you use this chest for?~
+@41 = ~You have become blind, paladin.  Your heart has grown soft in its honor.  If this chest we must procure is as elaborate as the woman says, then I am to believe it to be a strongbox for gold or valuables.  Funds to help their cause.  Am I right?~
+@42 = ~So Rynn here wants to use the Yuan-ti's money against them?  I'm in!  Let's get going, <CHARNAME>!~
+@43 = ~Who cares, Kelly?  Let's just go get the chest and see what's inside!~
+@44 = ~You want us to prove our worth to you?  Silly abbil!  You attempt to save the Hlondeth poor from their impoverished status, yet you concern yourself with hiding and testing those who would help you.  You seem to have little insight into, or rather.... about how to overthrow a House.~
+@45 = ~Foolish drow!  You would slay the folk of Hlondeth if your taint was free of us.  The chest might have money in it, <CHARNAME>.  Money the people need.~
+@46 = ~Ok, <CHARNAME>.  Let's go find this chest of hers, and see what we can do to help Hlondeth.~
+@47 = ~As if it were not obvious.  The chest and it's contents would be divided among those who need it most: the repressed folk of Hlondeth, as well as to provide for the Serpent's Secession activities against the yuan-ti.~
+@48 = ~It is not just my ideas that will lead us to the overthrowing of House Extaminos, but also that of others.  Now, if you are done insulting me and the Secession, go and find the chest.~
+@49 = ~Of course you are right, dark elf.  Mostly, the coin we believe it holds will be used to help support the folk of Hlondeth, but a portion will also finance our cause.~
+@50 = ~You have spirit, halfling.  Return to me when you have the chest.~
+@51 = ~Halfling, I trust that not a single piece of gold will be missing from that chest.  Return to me when you have it, and I shall hope I do not have to tip you upside down to see what comes from your pockets, my small friend.~
+@52 = ~The dark elf is right to point out my shortcomings.  But not all that we do will be for us.  I truly hope that the funds we find in the chest can be used to support both our cause and the folk of Hlondeth.~
+@53 = ~I... I think we better get started if we're going to find this man Rynn is talking about.  Could prove dangerous to our... er, that is, we may end up with a bounty on our heads if the House knows we're helping the Secession.~
+@54 = ~Well, Dame Fortune smile; ring my bell.  I believe that it would be wise for us to go about our business as if nothing had happened, <CHARNAME>, for surely the man Rynn speaks of will find us all in his own good time.~
+@55 = ~Nonsense.  All of this.  If you are so intent on ridding the city of it's ruling party, then fine.  We shall take them out by force, and leave these plots and secret rendezvous to lovers in the night.~
+@56 = ~I am sorry, <CHARNAME>.  I have kept silent about this matter long enough.  I will say this only once, and listen well.  If you do not help the Secession in their attempt to rid Hlondeth of House Extaminos, women and children will eventually lie starving in the street and the men will fare no better, all the while the yuan-ti will concern themselves with acquiring more power and wealth.  Oppose injustice, <CHARNAME>, but do so wisely and with care.~
+@57 = ~<CHARNAME>, you know my background.  We who harp have always tried to maintain a certain distance from the internal politics of a nation or city-state, and yet, somehow, I know in my heart that we must rid Hlondeth of Extaminos.  But, to find one who has a bounty on his head- a pricey one at that- is not going to be easy if he does not wish to be seen.  Come, enough talk.  There is work to be done.~
+@58 = ~It was a noble deed you lead us to, <CHARNAME>.  I just pray that we did the right thing.~
+@59 = ~Boo agrees wholeheartedly with <CHARNAME>.  Look!  He smiles and squeaks with approval.~
+@60 = ~No matter what events come from this, <CHARNAME>, remember that all will come to balance.~
+@61 = ~I leave you with one final thought, <CHARNAME>.  Your may have noticed that on the first floor of this villa there is a stair leading down.  Below are ancient ruins, kept by the yuan-ti.  Explore the dungeon at your own risk, but I will not join you there.  Good luck, <CHARNAME>.~

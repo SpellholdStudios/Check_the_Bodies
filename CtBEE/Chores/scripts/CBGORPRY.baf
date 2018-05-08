@@ -1,0 +1,18 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		Wait(1)
+		ApplySpell(Player1,DO_SOME_EFFECTS)
+		Wait(2)
+		ApplySpell(Player1,LONG_VISUAL2)
+		Wait(3)
+		ApplySpell(Player1,LONG_VISUAL)
+		Wait(3)
+		AddSpecialAbility("SPCL741") // Boon of Lathander
+		Wait(2)
+		ActionOverride("CBGORTCH",StartDialogueNoSet(Player1))
+END
+
+

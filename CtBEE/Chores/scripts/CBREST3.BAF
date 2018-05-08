@@ -1,0 +1,39 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		TriggerActivation("Door3503",TRUE)
+		TriggerActivation("Door3505",TRUE)
+		Wait(3)
+		MoveViewPoint([1368.1044],SLOW)
+		MoveToPoint([1368.1044])
+		FadeToColor([20.0],0)
+		Wait(3)
+		LeaveAreaLUAPanic("AR3505","",[1621.800],2)
+		LeaveAreaLUA("AR3505","",[1621.800],2)
+		MultiPlayerSync()
+		RestParty()
+		FadeFromColor([20.0],0)
+  		DestroyItem("CBPLANT")
+  		DestroyItem("CBPLANT")
+  		DestroyItem("CBPLANT")
+  		DestroyItem("CBPLANT")
+  		DestroyItem("CBPLANT")
+  		DestroyItem("CBPLANT")
+		EndCutSceneMode()
+                SetGlobal("CbScribesActivate","GLOBAL",1)
+                SetGlobal("JustRested","AR3505",1)
+                SetGlobal("CbScrollsScribedByAlchemy","GLOBAL",0)
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("CBPHYTCH")
+		Wait(1)
+		EscapeArea()
+END
+
+

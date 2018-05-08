@@ -1,0 +1,45 @@
+@1   = ~zzz... uhh...  Chi é? Cosa vuoi?~
+@2   = ~E' tutto a posto?~
+@3   = ~No, non é tutto a posto. Sono malata.~
+@4   = ~Non possono aiutarti i sacerdoti che sono qui?~
+@5   = ~I sacerdoti? Quegli umani incompetenti? Non possono aiutarmi. Loro non sanno come guarire un elfo.~
+@6   = ~La loro inutile magia distorce la Trama della magia e non mi serve a nulla.~
+@7   = ~C'è qualcosa che posso fare per aiutarti?~
+@8   = ~Si, questi sacerdoti non mi possono dare ciò che mi serve per guarire. Ho bisogno di un rimedio di origine naturale, e loro tutto quello che sono capaci di fare é utilizzare le loro magie sacerdotali e pozioni.~
+@9   = ~Ma forse tu mi puoi aiutare. Ho bisogno di alcune erbe specifiche che si trovano nelle terre selvagge. Quelle erbe e radici mi aiuterebbero, ma solo se riesci a trovarle tutte.~
+@10  = ~Mi dispiace ma non credo che sarei in grado di trovare simili erbe. Dovrai trovarti un'altra persona che te le trovi per te.~
+@11  = ~Potrei provare a portarti delle radici e delle erbe. Quali sono quelle di cui hai bisogno?~
+@12  = ~Non mi aspettavo qualcosa in più da un avventuriero egoista come te.~
+@13  = ~Devo avere alcune specifiche erbe e radici. Prima di tutto, per fare la poltiglia, ho bisogno della Sambucus Nigra - conosciuta agli Elfi come Bacca di Sambuco. Non so dove puoi trovarla qui nella regione, ma normalmente le Bacche di Sambuco si trovano nei cespugli dove ci sono degli ampi spazi e dove crescono dei larghi arbusti.~
+@14  = ~Ho anche bisogno di alcune foglie di Pesco per fare una polvere. Gli elfi la conoscono come Prunus Persica, la sua funzione principale é quella di un sedativo e di un espettorante.~
+@15  = ~Sarà utile anche un pò di Licopodio, che di solito si trova nei terreni torbidi e nelle paludi. Non prendere quello umido o bagnato, poiché il Lycopodium Clavatum moss deve essere più asciutto possibile.~
+@16  = ~Portami anche un po' di Artermisia Absintuium per favore - conosciuta più comunemente come Assenzio, che agevolerà la digestione delle altre erbe.~
+@17  = ~Infine, delle radici di Gramigna officinale che é un altro tipo di pianta diuretica che gli Elfi chiamano Agropyron Repens. Se me ne potrai portare una certa quantità, sarà la base per creare una pozione che mi aiuterà.~
+@18  = ~Se riuscirai a portarmi questi cinque ingredienti, mi sarai di grande aiuto.~
+@19  = ~Proverò a portarti tutto il più rapidamente possibile.~
+@20  = ~Non so dove potrò trovare questi ingredienti, ma ci proverò.~
+@21  = ~Grazie per il tuo aiuto.~
+@22  = ~Mi sarebbero davvero di grande aiuto. Ti ringrazio per la tua disponibilità.~
+@23  = ~Sei stato in grado di trovare le erbe medicinali di cui ho bisogno?~
+@24  = ~Non ancora. Non ho trovato nessuna delle erbe che mi hai chiesto.~
+@25  = ~Ne ho trovata solo una delle erbe che mi hai chiesto.~
+@26  = ~Ne ho trovate solo due delle erbe che mi hai chiesto.~
+@27  = ~Ho trovato tre delle erbe che mi avevi chiesto. Non riesco a trovare le altre.~
+@28  = ~Ancora no. Ma mi manca solo una delle erbe che mi avevo chiesto. Non riesco a trovarla.~
+@29  = ~Si, Holly, ho trovato tutte le erbe che mi avevi chiesto.~
+@30  = ~Dovrai cercare con po' più di attenzione allora. Ti prego, non so per quanto tempo ancora riuscirò a sopportare il dolore.~
+@31  = ~Veramente?~
+@32  = ~Non so ancora per quanto tempo riuscirò a sopportare tutto ciò.~
+@33  = ~Dai, dammi gli ingredienti. Dovrò dire ad un sacerdote di mescolare il tutto e fare la pozione seguendo le mie istruzioni.~
+@34  = ~Grazie per avermi portato le erbe e le radici che ti ho chiesto. Ritorna domani, e sicuramente mi sentirò molto meglio.~
+@35  = ~Grazie per avermi aiutato. Senza quelle erbe, sarei sicuramente morta.~
+@36  = ~Ecco, prendi questo. E' quello che resta della pozione che ho creato grazie agli ingredienti che mi hai portato. Fai molta attenzione, perché é molto potente, e ti guarirà completamente a prescindere dalla gravità delle ferite che avrai. Non è rimasta che una dose, usala con saggezza.~
+@37  = ~Come segno della mia gratitudine, vorrei che prendessi anche questo. E' una pozione Elfica che avevo conservato per quando avrei avuto il mio primogenito, ma senza di te io non avrei avuto la possibilità di avere un primogenito.~
+@38  = ~Mi sento molto meglio adesso, e presto avrò recuperato completamente le forze.~
+@39 = ~L'Elfa Malata
+
+     Ho incontrato un'elfa con una terribile malattia nel Tempio di Helm qui ad Athkatla. Sembra abbastanza gentile, e così mi sono messo d'accordo per aiutarla a cercare delle erbe naturali per creare una pozione con la quale lei dice di poter guarire, poiché i sacerdoti di Helm non possono farlo.
+     Holly, l'elfa, mi ha chiesto di portargli delle Bacche di Sambuco, delle Foglie di Pesco, del Licopodio, dell'Assenzio e delle Radici di Gramigna Officinale. Lei non sa dove possono essere trovati esattamente questi ingredienti, ma dovrei riuscire a trovarli in giro.~
+@40 = ~Holly Sta Meglio
+
+L'elfa malata che ho incontrato al Tempio di Helm ad Athkatla sembra stare molto meglio adesso. Ora lei è di nuovo in piedi, e mi ha ringraziato per avergli procurato le piante, le radici e le erbe. Mi ha dato quello che è rimasto della pozione che è stata mescolata, ed anche un elegante artefatto Elfico. Forse dovrei vedere quanto vale per venderla al miglior offerente.~

@@ -1,0 +1,195 @@
+@1   = ~Eh, chum?  Wot choo want?~
+@2   = ~Choo ain't gonna be helpin' me none.  Bugga off, 'fore choo git inta trouble.~
+@3   = ~Choo got the look, 'at choo do.  Sai, chum, choo tink wes could be likin' ta be padners?~
+@4   = ~I be tinkin' choo might look right, but choo talk right?~
+@5   = ~Choo got my back, Is be gettin' yours.~
+@6   = ~Is got choo back, but choos got ta be tinkin' for chooself.~
+@7   = ~Is don't tink choo got my back.  Is won't be trustin' if choos ain't got it.~
+@8   = ~I'm sorry.  I didn't catch a word of what you just said.~
+@9   = ~Choos sai so nows, chum, but Is ain't knowin' wots a comin'.  Wots choo be doin' ta be provin' chooself ta me?~
+@10  = ~Chum, I be masta of the T'e'ves guild en Athkatla.~
+@11  = ~Chum, choos don't be knowin' much.  Is be the one that beats out the T'e'ves guild en Athkatla.~
+@12  = ~Is ain't be doin' nothin' tas provin' it.  Lest aways bes tellin' choos aboot it.~
+@13  = ~Is be rakin' up en the Adventurer's Mart, chum, an' wes made a killin' offa that job.~
+@14  = ~No ways, chum.  Ain't gonna cut it.  Now, bugga off, 'fore choo gits inta trouble.~
+@15  = ~No ways, chum.  Ain't gonna cut it.  Bugga off tills choo be doin' sometin' choo can bes talkin' aboot.~
+@16  = ~Choo?  Choo was the one?  Eh, that be mighty good, chum.  So, choo sai choos knocked off Linval.  Hows be I knowin' choo won't bes doin' the same ta me?  Eh?~
+@17  = ~Is be givin' my word.  Is won't be killin' choo.~
+@18  = ~Is only be drawin' 'gainst choo if Is forced ta.~
+@19  = ~Choo ain't be knowin' that.  Mys dagga be keepin' choo from goin' 'gainst me.~
+@20  = ~Eh, chum.  Mighty good.  That be countin' for sometin.  So, choo sai choos be masta of a t'e'ves din.  Hows be I knowin' choos won't bes cheatin' me?  Eh?~
+@21  = ~Is be givin' my word.  Is ain't be cheatin' choo.~
+@22  = ~Is only be cheatin' choo if Is tink choos be cheatin' me.~
+@23  = ~Choo ain't be knowin' that.  Its wot be keepin' choo from cheatin' me.~
+@24  = ~Eh, I bes tinkin' teamin' wits choo might bes messy.  Chum, Is be takin' my chances.~
+@25  = ~Eh, Is be tinkin' teamin' wits choo might bes gettin' me kilt.  Chum, Is be takin' my chances.~
+@26  = ~Eh, Is be tinkin' teamin wits choo might'n bes good fo' me.  Chum, Is be takin' my chances.~
+@27  = ~Eh, Is be tinkin' teamin' wits choo ain't gonna gets me nothin'.  Ors be gittin' me rich.  Chum, Is be takin' my chances.~
+@28  = ~Choo bes sain' that nows, but who knows, eh?  Can't always be takin' a <MANWOMAN> at <HISHER> word.  Chum, Is be takin' my chances.~
+@29  = ~Choo bes wantin' ta know wots I got, right chum?  I'lls be tellin' choo, straight outs, Is be havin' a few marks.  Easy ones, too.~
+@30  = ~Its up ta choo, chum.  Choo want en?  Helpin' me wit the marks?  Workin' them outtas some merchandise?~
+@31  = ~Choos gots a deal.  I'lls be helpin' choo.~
+@32  = ~Ain't no ways Is be helpin' choo steal yor marks.  Fin' some otta lackey.~
+@33  = ~Is been knowin' I couldn't be trustin' choo.  Is bit choo headin' straight ta turn me in, arn't choo?  Times for me ta be splittin' this joint.  See choo, chum.~
+@34  = ~Ain't that gran', chum?  Like Is was tellin' choo, Is got some marks Is been eyein'.  Which one choos be wantin' ta know aboot?  The temple of Lathanda, the slavas house, the gov'ment buildin', or the Harpa stron'hole?~
+@35  = ~Is can't be helpin' choos right now.  Maybe lata.~
+@36  = ~Choo tell me aboot this Temple of Lathanda.~
+@37  = ~Wot be the story wit the slavas?~
+@38  = ~Choo really tink wes could be knockin' off the gov'ment buildin'?~
+@39  = ~Is always been wantin' ta git back at those Harpas.  Let's take 'em.~
+@40  = ~Those be marks all right, but choos be havin' any ottas?~
+@41  = ~Eh chum.  That be the mark.  The Temple of Lathanda.  Bes real easy once choo en, s'long as choos don't be wakin' any guards.~
+@42  = ~Is be knowin' the times they be asleep.  Choo could be en, grab t'ree tings, and bes out wit 'em 'fore anyone knows.~
+@43  = ~Choo still wants ta try the Temple?~
+@44  = ~Course Is do.  Wes can rob 'em tanight.~
+@45  = ~Right, chum.  Wes be robbin' the Temple.  I'lls be meetin' choo there.  Be comin' at night.  Wes be gittin lots o' stuff.~
+@46  = ~Course, chum.  Wes can take out the slavas.  Choos muct know where that buildin' is, eh?  Shures choo do.~
+@47  = ~Is been watchin' them fors a while, and Is know their pattan.  Wes can both gits en, Is can keep a lookout, choos cans be grabbin' some of their stuff, then wes git out 'fore they even knows wes was there.~
+@48  = ~Is know theys got lots of gold and weapons and stuff.  Wes could make a lots of money if wes don't git caught.~
+@49  = ~Choo still wants ta do 'em en?~
+@50  = ~Right.  Wes gonna hit the slavas now.~
+@51  = ~Choo got it.  Meet me inside the front door at night.  Is be sneakin' in and openin' it up for choo.  See choo there, chum.~
+@52  = ~Mighty tough, the gov'ment buildin'.  Con't choo worry aboot it none, chum, choo can git en.  Once choo en, there be two statues worth lots o' gold.  Is can be keepin' a lookout.~
+@53  = ~Gonna be a tough mark, but they'll be sleepin' at night.  Choo still wants ta try that mark?~
+@54  = ~Yeah.  They gots ta be hit.~
+@55  = ~Its choor call, chum.  Wes do it.  Is be meetin' choo there and we'll show 'em wots comin' ta 'em, eh, chum?~
+@56  = ~Choo sounds likes choo got sometin' 'gainst the Harpas.  Choos can show 'em wots comin' ta 'em.~
+@57  = ~Ifs choo meet me near their stron'hole at night, Is can be showin' choo how ta get in.  Theys got ta have some good loot.  Choo still wants ta steal from 'em?~
+@58  = ~Is said Is did, didn't I?  Wot, choo deaf now?~
+@59  = ~There be no needin' ta git mad.  Jus' askin' if choo shure.  Okay, chum, wes can hit the Harpas.  Is be waitin' there tanight on the docks for choo.~
+@60  = ~Wot?  Choo lost?  The Temples right there.  Is be keepin' an eye out.  Git in, grab wot choo can, and git back out.~
+@61  = ~Right good work, chum.  Now, git out of here 'fore you're seen.  Don't be followin' me, but Is be headed ta the slums.~
+@62  = ~Go, chum!  Wes ain't got all night.  Find wot choo can, and stop wastin' time.~
+@63  = ~Chum, choos got a good find.  Heres, Is be laund'rin' the gold for choo.  Let's git outta this joint, and choo can meet me at the slums lata.~
+@64  = ~It's now or neva, chum.  Git in the palace, grab the statues, and git your sorry self out again.  Is be your lookout.  Now, hurry up.~
+@65  = ~Looks like choos hit a good mark.  Now, let's git outta here.  I'lls be meetin' choo back at the slums.~
+@66  = ~Chum, does this look like the Harpas stron'hole ta choo?  Is already busted the lack.  Go git some loot, 'fore we're seen.~
+@67  = ~Good work, chum.  A guard walked by, but Is wasn't spotted.  Let's git outta here, 'fore he comes back.  Meet me at the slums.~
+@68  = ~Course Is do, chum.  Is got t'ree ottar marks Is be keepin tabs on.  Been eyein' the Orda of Radiant Heart's buildin', the mason's estate near the prison- bet choo knows where that is- or, if choo i'terested, wes could try a little bit o' grave robbin'.~
+@69  = ~Wot choo say were all the marks?~
+@70  = ~Wes gonna hit the Orda's buildin'.~
+@71  = ~Grave robbin' be the easiest.~
+@72  = ~That noble got gold ta burn.  S'long as I ain't got ta carry out rocks, wes can hit 'em.~
+@73  = ~Wot?  Choo got hit en the head?  Listen up, chum.  I ain't gonna be repeatin' myself anymore.  There's the Temple of Lathanda, the slavas house, the gov'ment buildin', the Harpas stron'hole, the trustin' Orda o' Paladin's, grave robbin, or the mason's house.~
+@74  = ~All right, chum.  Wes go afta the Orda.  They be too trustin', and ain't neva locked their door.~
+@75  = ~Is don't be knowin' wot choo can be findin', but Is can keep lookout for choo.  Choo en?~
+@76  = ~Yea, Is t'ink its a good mark.~
+@77  = ~Wes can do it.  Just be shure choos wear dark clothes.  And don't be bringin' any noisy arma.~
+@78  = ~Night's a'wastin'.  Git in that temple, grab wot choo can, and git back out.~
+@79  = ~Do-goodin' paladins deserve ta loose that.  Come on, git outta here.  I'll meet choo at the slums.~
+@80  = ~Grave robbin' be a tricky t'ing, chum.  Neva know wot choo gonna find.  Your choice, s'long as I git a cut.~
+@81  = ~Yea, let's do it.~
+@82  = ~If choo shure, I'lls be meetin' choo there.  Choo might want ta git some gear 'fore choo go.  Neva know wot beasties choo'll find.~
+@83  = ~There still be some graves ta be picked.  Hurry up, chum.  I ain't wantin' ta be here all night.~
+@84  = ~Choo got some nice loot, chum.  Come on, let's split.  I'll be in the slums.~
+@85  = ~Right, chum.  Shure as Selune, that there noble's got ta have some valuable merchandise lyin' around.  Wes can break en, grab the loot, and git out, makin' off wit the goods.~
+@86  = ~Choo shure choo want ta steal from 'em?~
+@87  = ~Yea, we'll hit the noble.~
+@88  = ~Choo got it, chum.  I'll meet choo there.  Come prepared.~
+@89  = ~Hurry it up, chum.  Jysstev and the missus won't be sleepin' foreva.  Least aways s'long as choo haven't slit their throat.~
+@90  = ~Right.  Looks like Jysstev and his missus gonna be missin' a few coins in the mornin'.  Come on, chum, let's git outta here.  Meet me at the slums.~
+@91  = ~Not bad for the night's work, eh, chum?  Choo can be keepin the goods, but Is be takin' my share- forty pacent- of the profits.~
+@92  = ~This'll be buyin' off'o a couple of guards, or be gittin me a pint or two, eh chum?  Anyways, choo want me ta hang 'round here, or go back ta Brynnlaw 'fore we hit somethin' else.~
+@93  = ~Why don't choo wait here.~
+@94  = ~If choo want, wes can be hittin' somethin' else nows.~
+@95  = ~Choos betta head back ta Brynnlaw.  Choo don't want anybody findin' choo here.~
+@96  = ~Right smart thinkin', chum.  I'lls be waitin' for choo here.~
+@97  = ~Choo ready for anottar job, chum?~
+@98  = ~If that bes wot choo want, chum.~
+@99  = ~There be more than 'nough marks ta hit if choo ready.~
+@100 = ~Wes gonna hit the Orda of Paladin's buildin'.~
+@101 = ~Right smart thinkin' chum.  I'lls be waitin' for choo in Brynnlaw if choo want ta hit some marks.~
+@102 = ~Eh, chum.  Sorry aboot this, but Is be outta marks right nows.  Choo hit all the places Is know of, and Is don't be thinkin' wes should try anythin' else on.  Rumors be sayin' guards increasin' their patrols, and Is for one don't be wantin' to bes put in any prisons.~
+@103 = ~Is be shure choo can do somethin' wit all that stuff choo stole.  For me, Is high-tailin' it outta Amn.  Catch choo around, chum.~
+@104 = ~Course, chum.  Is wait here till choo ready ta hit anottar mark.~
+@105 = ~Looks like choo ain't got enough gold right now ta cova my share.  Don't choo worry, I'lls let choo pay me whens choo can.  Anyways, choo wants me ta hang 'round here, or go back ta Brynnlaw 'fore we hit somethin' else?~
+@106 = ~Wot choo git hit en the head?  Choo be dummer than a pile o' shet.  Is said, I be tinkin' choo might look right, but choo talk right?~
+@107 = ~Picking The Marks
+
+I have met- and teamed up with a halfling who is an accomplished burglar- what halfling is not a thief?- known as Wyrbrin.  From the moment I met her, I trusted her instincts.  In fact, I think that her abilities as a burglar are good, and she has told me that she has been finding 'marks', that is, some of the better and more lucrative businesses or homes in Athkatla.  Of the locations she has had her eye on, we have decided to attempt to break into the Temple of Lathander.  Wyrbrin expects that it will be empty today, and she has told me to expect to find at least three objects of value.  She isn't quite sure what these items are, but expects that we could make quite a bit of money fencing them.~
+@108 = ~Picking The Marks
+
+I have met- and teamed up with a halfling who is an accomplished burglar- what halfling is not a thief?- known as Wyrbrin.  From the moment I met her, I trusted her instincts.  In fact, I think that her abilities as a burglar are good, and she has told me that she has been finding 'marks', that is, some of the better and more lucrative businesses or homes in Athkatla.  Of the locations she has had her eye on, we have decided to attempt to break into the slaver's house.  Wyrbrin expects that it will be empty tonight, and she said to expect to find five valuable pieces of loot.  She isn't quite sure what these items are, but expects that we could make quite a bit of money fencing them.~
+@109 = ~Picking The Marks
+
+I have met- and teamed up with a halfling who is an accomplished burglar- what halfling is not a thief?- known as Wyrbrin.  From the moment I met her, I trusted her instincts.  In fact, I think that her abilities as a burglar are good, and she has told me that she has been finding 'marks', that is, some of the better and more lucrative businesses or homes in Athkatla.  Of the locations she has had her eye on, we have decided to attempt to break into the government building.  Wyrbrin thinks that there will be no one there tonight, but she said to take care not to alert anyone, and expects that I can find two rare pieces of art.~
+@110 = ~Picking The Marks
+
+I have met- and teamed up with a halfling who is an accomplished burglar- what halfling is not a thief?- known as Wyrbrin.  From the moment I met her, I trusted her instincts.  In fact, I think that her abilities as a burglar are good, and she has told me that she has been finding 'marks', that is, some of the better and more lucrative businesses or homes in Athkatla.  Of the locations she has had her eye on, we have decided to attempt to break into the Harper Stronghold down near the docks of Athkatla.  Horton told me to meet her there and thinks I can find four objects which we can fence.  She isn't quite sure what these items are, but expects that we could make quite a bit of money fencing them.~
+@111 = ~Picking The Marks
+
+With the halfling thief keeping look-out, I broke into the Temple of Lathander without alerting anyone.  I was able to pilfer a Blessed Symbol of Lathander, a large statue of Lathander, and a pair of blessed bracers.  Wyrbrin took a cut of the value, 10,000 gold, and I kept the items for myself.  Perhaps we can ransack another of her marks when we meet up again.  She said she would meet me in Athkatla's slum district.~
+@112 = ~Picking The Marks
+
+With the halfling thief keeping look-out, I broke into the slaver's house without alerting anyone.  I was able to steal five objects, quite a find, including a silver dagger, a helm of thieving, and much gold.  Wyrbrin got a cut, of course, 21,600 gold pieces, and I kept the loot for myself.~
+@113 = ~Picking The Marks
+
+I have successfully robbed Athkatla's government building, with the halfling thief Horton's help, and stole a Statue of Mystra and a Dragon statue.  The art pieces are valuable, and Wyrbrin took her cut of 320,000 gold pieces.~
+@114 = ~Picking The Marks
+
+I broke into the Harper's Stronghold, and walked out with four stolen items:  a harp, a hourglass, a moonblade, and a morning star.  Horton got her cut, 136,000 gold pieces, and I haven't decided what to do with the items.~
+@115 = ~Picking The Marks
+
+I have met- and teamed up with a halfling who is an accomplished burglar- what halfling is not a thief?- known as Wyrbrin.  From the moment I met her, I trusted her instincts.  In fact, I think that her abilities as a burglar are good, and she has told me that she has been finding 'marks', that is, some of the better and more lucrative businesses or homes in Athkatla.  Of the locations she has had her eye on, we have decided to attempt to break into the Order of the Radiant Heart's temple.  Wyrbrin thinks that no one will be there, and said I could probably make off with something of value.  She doesn't have any idea of what I may find, but thinks anything I steal could be fenced for gold.~
+@116 = ~Picking The Marks
+
+I broke into the Order of the Radiant Heart's building, and was only able to steal a goblet without being caught.  I shared some of it's value with the halfling Wyrbrin, 4,800 gold pieces.~
+@117 = ~Picking The Marks
+
+I have met- and teamed up with a halfling who is an accomplished burglar- what halfling is not a thief?- known as Wyrbrin.  From the moment I met her, I trusted her instincts.  In fact, I think that her abilities as a burglar are good, and she has told me that she has been finding 'marks', that is, some of the better and more lucrative businesses or homes in Athkatla.  Of the locations she has had her eye on, we have decided to attempt to break into some of the crypts in the graveyard.  She doesn't know what I may find, and expects that there may be trouble in any or all of the crypts, so warned me to enter well-armed.~
+@118 = ~Picking The Marks
+
+I looted a number of the crypts during my grave-robbing, and only was able to steal a few weapons and armor.  It wasn't as lucrative as we hoped, but I gave Wyrbrin 3,200 gold pieces as her share.~
+@119 = ~Picking The Marks
+
+I have met- and teamed up with a halfling who is an accomplished burglar- what halfling is not a thief?- known as Wyrbrin.  From the moment I met her, I trusted her instincts.  In fact, I think that her abilities as a burglar are good, and she has told me that she has been finding 'marks', that is, some of the better and more lucrative businesses or homes in Athkatla.  Of the locations she has had her eye on, we have decided to attempt to break into a noble's house in Athkatla, a mason by trade, by the name of Jysstev.  Wyrbrin told me that the nobleman and his wife would be sleeping, so I should take care not to wake them, and thinks I can steal a couple of items which can be fenced.~
+@120 = ~Picking The Marks
+
+Jysstev and his wife, two nobles of Amn, are going to be missing a few things when they wake.  With Wyrbrin Horton keeping look-out, I stole a Cowled Wizard Robe and an Idol from their villa.  Wyrbrin took a share, 30,000 gold pieces.~
+@121 = ~Picking The Marks
+
+I have met- and teamed up with a halfling who is an accomplished burglar- what halfling is not a thief?- known as Wyrbrin.  From the moment I met her, I trusted her instincts.  In fact, I think that her abilities as a burglar are good, and she has told me that she has been finding 'marks', that is, some of the better and more lucrative businesses or homes in Athkatla.  Of the locations she has had her eye on, we have decided to attempt to break into the Temple of Lathander.  Wyrbrin expects that it will be empty today, and she has told me to expect to find at least three objects of value.  She isn't quite sure what these items are, but expects that we could make quite a bit of money fencing them.~
+@122 = ~Picking The Marks
+
+I have met- and teamed up with a halfling who is an accomplished burglar- what halfling is not a thief?- known as Wyrbrin.  From the moment I met her, I trusted her instincts.  In fact, I think that her abilities as a burglar are good, and she has told me that she has been finding 'marks', that is, some of the better and more lucrative businesses or homes in Athkatla.  Of the locations she has had her eye on, we have decided to attempt to break into the slaver's house.  Wyrbrin expects that it will be empty tonight, and she said to expect to find five valuable pieces of loot.  She isn't quite sure what these items are, but expects that we could make quite a bit of money fencing them.~
+@123 = ~Picking The Marks
+
+I have met- and teamed up with a halfling who is an accomplished burglar- what halfling is not a thief?- known as Wyrbrin.  From the moment I met her, I trusted her instincts.  In fact, I think that her abilities as a burglar are good, and she has told me that she has been finding 'marks', that is, some of the better and more lucrative businesses or homes in Athkatla.  Of the locations she has had her eye on, we have decided to attempt to break into the government building.  Wyrbrin thinks that there will be no one there tonight, but she said to take care not to alert anyone, and expects that I can find two rare pieces of art.~
+@124 = ~Picking The Marks
+
+I have met- and teamed up with a halfling who is an accomplished burglar- what halfling is not a thief?- known as Wyrbrin.  From the moment I met her, I trusted her instincts.  In fact, I think that her abilities as a burglar are good, and she has told me that she has been finding 'marks', that is, some of the better and more lucrative businesses or homes in Athkatla.  Of the locations she has had her eye on, we have decided to attempt to break into the Harper Stronghold down near the docks of Athkatla.  Horton told me to meet her there and thinks I can find four objects which we can fence.  She isn't quite sure what these items are, but expects that we could make quite a bit of money fencing them.~
+@125 = ~Picking The Marks
+
+I have met- and teamed up with a halfling who is an accomplished burglar- what halfling is not a thief?- known as Wyrbrin.  From the moment I met her, I trusted her instincts.  In fact, I think that her abilities as a burglar are good, and she has told me that she has been finding 'marks', that is, some of the better and more lucrative businesses or homes in Athkatla.  Of the locations she has had her eye on, we have decided to attempt to break into the Order of the Radiant Heart's temple.  Wyrbrin thinks that no one will be there, and said I could probably make off with something of value.  She doesn't have any idea of what I may find, but thinks anything I steal could be fenced for gold.~
+@127 = ~Picking The Marks
+
+I have met- and teamed up with a halfling who is an accomplished burglar- what halfling is not a thief?- known as Wyrbrin.  From the moment I met her, I trusted her instincts.  In fact, I think that her abilities as a burglar are good, and she has told me that she has been finding 'marks', that is, some of the better and more lucrative businesses or homes in Athkatla.  Of the locations she has had her eye on, we have decided to attempt to break into some of the crypts in the graveyard.  She doesn't know what I may find, and expects that there may be trouble in any or all of the crypts, so warned me to enter well-armed.~
+@128 = ~Picking The Marks
+
+I have met- and teamed up with a halfling who is an accomplished burglar- what halfling is not a thief?- known as Wyrbrin.  From the moment I met her, I trusted her instincts.  In fact, I think that her abilities as a burglar are good, and she has told me that she has been finding 'marks', that is, some of the better and more lucrative businesses or homes in Athkatla.  Of the locations she has had her eye on, we have decided to attempt to break into a noble's house in Athkatla, a mason by trade, by the name of Jysstev.  Wyrbrin told me that the nobleman and his wife would be sleeping, so I should take care not to wake them, and thinks I can steal a couple of items which can be fenced.~
+@129 = ~Picking The Marks
+
+With the halfling thief keeping look-out, I broke into the Temple of Lathander without alerting anyone.  I was able to pilfer a Blessed Symbol of Lathander, a large statue of Lathander, and a pair of blessed bracers.  Wyrbrin will take her cut of the value, 10,000 gold, once I have enough coin to spare, and I kept the items for myself.  Perhaps we can ransack another of her marks when we meet up again.~
+@130 = ~Picking The Marks
+
+With the halfling thief keeping look-out, I broke into the slaver's house without alerting anyone.  I was able to steal five objects, quite a find, including a silver dagger, a helm of thieving, and much gold.  Once I have enough coin, Wyrbrin will get a cut, of course, 21,600 gold pieces, and I kept the loot for myself.~
+@131 = ~Picking The Marks
+
+I have successfully robbed Athkatla's government building, with the halfling thief Horton's help, and stole a Statue of Mystra and a Dragon statue.  The art pieces are valuable, and Wyrbrin will soon take her cut of 320,000 gold pieces.~
+@132 = ~Picking The Marks
+
+I broke into the Order of the Radiant Heart's building, and was only able to steal a goblet without being caught.  I'll have to share some of it's value with the halfling Wyrbrin when I fence it, 4,800 gold pieces.~
+@133 = ~Picking The Marks
+
+I broke into the Harper's Stronghold, and walked out with four stolen items:  a harp, a hourglass, a moonblade, and a morning star.  Horton will get her cut once I sell the items on the black market, 136,000 gold pieces.~
+@134 = ~Picking The Marks
+
+I looted a number of the crypts during my grave-robbing, and only was able to steal a few weapons and armor.  It wasn't as lucrative as we hoped, but I'll have to give Wyrbrin 3,200 gold pieces as her share.~
+@135 = ~Picking The Marks
+
+Jysstev and his wife, two nobles of Amn, are going to be missing a few things when they wake.  With Wyrbrin Horton keeping look-out, I stole a Cowled Wizard Robe and an Idol from their villa.  Wyrbrin'll take her share later, 30,000 gold pieces.~
+@136 = ~Picking The Marks
+
+I hit one of Wyrbrin's targets she scouted, and we grabbed some loot.  Wyrbrin took off right after we were done hitting it.  She'll be waiting for me in the slums, so I should stay out of sight of the guards and meet her there.~
+
+

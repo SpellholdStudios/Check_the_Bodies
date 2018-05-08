@@ -1,0 +1,71 @@
+IF
+	Global("CbCowlTeacherSpawned","AR0709",0)
+	Global("CbRumplerInSevenVales","GLOBAL",1)
+THEN
+	RESPONSE #100
+		CreateCreature("CBCWLTCH",[1050.298],0)
+		SetGlobal("CbCowlTeacherSpawned","AR0709",1)
+		Continue()
+END
+
+IF
+	TimeGT(DUSK_END)
+	TimeLT(MIDNIGHT)
+	Global("CbFirstTimeBrawl","AR0709",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CB0709D1",[402.600],0)
+		CreateCreature("CB0709D2",[411.681],0)
+		CreateCreature("CB0709D3",[497.650],0)
+		CreateCreature("CB0709D4",[531.714],0)
+		SetGlobal("CbFirstTimeBrawl","AR0709",1)
+		SetGlobalTimer("CbNightlyBrawls","AR0709",ONE_DAY)
+		Continue()
+END
+
+IF
+	TimeGT(DUSK_END)
+	TimeLT(MIDNIGHT)
+	Global("CbFirstTimeBrawl","AR0709",1)
+	GlobalTimerExpired("CbNightlyBrawls","AR0709")
+THEN
+	RESPONSE #100
+		CreateCreature("CB0709D1",[402.600],0)
+		CreateCreature("CB0709D2",[411.681],0)
+		CreateCreature("CB0709D3",[497.650],0)
+		CreateCreature("CB0709D4",[531.714],0)
+		SetGlobal("CbFirstTimeBrawl","AR0709",1)
+		SetGlobalTimer("CbNightlyBrawls","AR0709",ONE_DAY)
+		Continue()
+END
+
+IF
+	TimeGT(MIDNIGHT)
+	TimeLT(4)
+	Global("CbFirstTimeBrawl","AR0709",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CB0709D1",[402.600],0)
+		CreateCreature("CB0709D2",[411.681],0)
+		CreateCreature("CB0709D3",[497.650],0)
+		CreateCreature("CB0709D4",[531.714],0)
+		SetGlobal("CbFirstTimeBrawl","AR0709",1)
+		SetGlobalTimer("CbNightlyBrawls","AR0709",ONE_DAY)
+		Continue()
+END
+
+IF
+	TimeGT(MIDNIGHT)
+	TimeLT(4)
+	Global("CbFirstTimeBrawl","AR0709",1)
+	GlobalTimerExpired("CbNightlyBrawls","AR0709")
+THEN
+	RESPONSE #100
+		CreateCreature("CB0709D1",[402.600],0)
+		CreateCreature("CB0709D2",[411.681],0)
+		CreateCreature("CB0709D3",[497.650],0)
+		CreateCreature("CB0709D4",[531.714],0)
+		SetGlobal("CbFirstTimeBrawl","AR0709",1)
+		SetGlobalTimer("CbNightlyBrawls","AR0709",ONE_DAY)
+		Continue()
+END

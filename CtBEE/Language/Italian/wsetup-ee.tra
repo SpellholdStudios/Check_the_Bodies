@@ -1,0 +1,1847 @@
+@650006 = ~Questa potente arma è composta da un'asta lunga quasi due metri sormontata da una possente lama. L'ascia può essere bipenne, e montare una lama da ogni lato dell'asta, oppure può essere dotata di una lama singola. È  un'arma difficile da impugnare, ma un guerriero abile è in grado di sferrare colpi di grande potenza se la usa come si deve. Per potenziare ulteriormente l'arma, la testa dell'ascia è stata decorata con rune naniche.
+
+STATISTICHE:
+
+Damage: 1d10 + 3
+THAC0: +3
+Bonus di equipaggiamento:
+  +10% di resistenza alla Magia
+  +10% di resistenza ai danni Taglienti
+  +10% di resistenza ai danni Perforanti
+  +10% di resistenza ai danni da Schiacciamento
+  +10% di resistenza ai Proiettili
+  +2 di Bonus a tutti i tiri salvezza
+Tipo di danno: Tagliente
+Peso: 10
+Fattore Velocità: 9
+Tipo di competenza: Ascia
+Tipo: a due mani
+Richiede: 10 alla Forza~
+@650008 = ~Questa spada a due mani vale davvero molto. E' un'arma incantata, ha un bonus di +3 al tiro per colpire e al danno. Oltre alla precisione e al bilanciamento dell'arma, la spada conferisce dei bonus magici a chi la utilizza. A chiunque maneggia Furcolo gli viene assegnato un bonus di 35% alla resistenza magica, e diventa anche completamente immune alle creature Non Morte. La spada è un'entità intelligente, e può lanciare Immunità Assoluta sul suo utilizzatore una volta al giorno.
+
+STATISTICHE:
+
+Danno: 1D10 + 3
+Speciale:
+   Può lanciare Immunità Assoluta una volta al giorno
+   Bonus del 35% alla resistenza alla magia
+   Immunità ai Non Morti
+Tipo di danno: tagliente
+Peso: 15
+Fattore Velocità: 10
+Tipo di competenza: Spada a due mani
+Tipo: a due mani
+Richiede: 14 alla Forza~
+@650014 = ~La borragine è un ristoratore di adrenalina. Quando le radici della pianta selvatica vengono masticate, le proprietà della pianta assegnano alla persona che le mastica un bonus +2 al tiro per colpire, un bonus al danno di +2, ed un -2 al bonus della CA. Durante l'effetto attivo dell'adrenalina, che normalmente é di circa 60 secondi, l'individuo che ha masticato la pianta é immune allo Charme, al Blocco, alla Paura, al Labirinto e all'Imprigionamento, allo Stordimento e al Sonno. La persona che prende l'erba guadagna anche temporaneamente un bonus di 15 ai punti ferita, che potrebbero uccidere il personaggio al termine dell'effetto dell'adrenalina. Quando l'effetto è terminato, per un breve periodo, la persona diventa leggermente affaticata con una penalizzazione di -2 ai tiri per colpire, una penalità ai danni di -2, ed un +2 di penalità alla CA.
+
+STATISTICHE:
+
+Peso: 0,4 Kg~
+@650016 = ~L'Echinacea é un rimedio contro il veleno. Se si inghiottiscono queste erbe, esse rimuoveranno tutte le tossine dal corpo, sia di tipo naturale che di tipo magico. Quando sono ingerite da un individuo avvelenato, queste piante neutralizzano immediatamente qualsiasi tipo di veleno ristorando la persona di 10 punti ferita.
+
+STATISTICHE:
+
+Peso: 0,4 Kg~
+@650018 = ~Il Chaparral è un arbusto, una pianta sempreverde che aiuta ad alleviare l'artrite. Ingerendo quest'erba ricostituente, si avrà un effetto simile all'incantesimo Libertà d'azione. L'erba permette al consumatore di diventare completamente immune a qualsiasi effetto che impedisce l'azione o il movimento che sia di origine magica o no. La durata dell'effetto dell'erba è di 10 turni.
+
+STATISTICHE:
+
+Peso: 0,4 Kg~
+@650020 = ~Il Millefoglio aiuta a fermare il sanguinamento. Posando i fiori dell'erba sulla ferita, il sangue coagulerà più rapidamente bloccando quindi in modo rapido qualsiasi abrasione, lacerazione, o tagli profondi che possono causare e favorire perdite di sangue. Il Millefoglio, tuttavia, non permetterà a colui che ne fa uso una rigenerazione o una guarigione più veloce del normale. Non permetterà nemmeno a colui che ne fa uso di essere protetto da futuri danni dovuti a ferite simili.
+
+STATISTICHE:
+
+Peso: 0,4 Kg~
+@650022 = ~La Calendola allevia il dolore delle scottature. Schiacciando le bacche della calendola e mescolandole con un pò d'acqua si crea una specie di pasta densa che si può applicare sulla pelle, fornendone una discreta protezione dal fuoco. Queste bacche forniranno temporaneamente, per un'ora circa - un bonus di protezione dai danni del 25% a colui che le usa.
+
+STATISTICHE:
+
+Peso: 0,4 Kg~
+@650024 = ~La Stillingia aiuta a guarire le laringiti. Quest'erba cresce soltanto nei pendii a nord della Sembia, é molto rara ma può donare ad un lanciatore di incantesimi un vantaggio enorme poiché ogni pianta permette la vocalizzazione, come l'incantesimo Vocalizzazione, una volta la giorno.
+
+STATISTICHE:
+
+Peso: 0,4 Kg~
+@650026 = ~L'Erba Medica é un'eccellente fonte di molte vitamine nutrizionali. Prendendone regolarmente delle dosi, quest'erba può fornire al corpo le sostanze nutrienti necessarie per essere sempre fisicamente attivo. L'Erba medica incrementa la forza, la costituzione, e la destrezza di un punto al giorno quando é utilizzata.
+
+STATISTICHE:
+
+Peso: 0,4 Kg~
+@650028 = ~La Verga d'Oro é utile per pulire e guarire le ferite. Mescolando i funghi con altre erbe naturali in una pasta - tipo crema, insieme alle foglie della pianta della Verga d'Oro e dei suoi fiori, il tutto può essere utilizzato per incrementare i punti ferita di 12 punti a colui che ne fa uso, ma non ne impedisce ulteriori ferite.
+
+STATISTICHE:
+
+Peso: 0,4 Kg~
+@650030 = ~L'Ortica può essere utilizzata per migliorare la vista. Masticando la pianta, la visione difettosa - dovuta sia dalla nebbia - o dalla Polvere Luccicante - può essere risanata grazie alle naturali proprietà di quest'erba.
+
+STATISTICHE:
+
+Peso: 0,4 Kg~
+@650032 = ~Il Lampone Rosso può essere utilizzato per aumentare i battiti cardiaci e per stimolare il corpo. Fornisce un temporaneo aumento del livello energetico. Cibandosi di un certo numero di queste bacche, la velocità di chi ne fa uso può essere leggermente incrementata, come anche potranno essere raddoppiati il numero dei suoi attacchi.
+
+STATISTICHE:
+
+Peso: 0,4 Kg~
+@650034 = ~L'alcool naturale contenuto nel Lycopus ha un semplice effetto: intossica una persona per un periodo di circa otto ore.
+
+STATISTICHE:
+
+Peso: 0,4 Kg~
+@650036 = ~Le bacche di ginepro, come anche le sue foglie, possono essere raccolte in natura per causare allucinazioni alla persona che ne fa uso, rendendola particolarmente paurosa e facendole percepire dei pericoli che in realtà non esistono.
+
+STATISTICHE:
+
+Peso: 0,4 Kg~
+@650040 = ~I Licheni dalla radice Rossa sono utili per i problemi di respirazione. Utilizzando quest'erba selvaggia, il naso di una persona può essere purificato da qualsiasi tossina dannosa o da sgradevoli odori naturali o particolari.
+
+STATISTICHE:
+
+Peso: 0,4 Kg~
+@650042 = ~L'estratto del Luppolo può curare la stanchezza. La proprietà energetica dell'erba annulla il bisogno di dormire a colui che ne fa uso. Tuttavia, l'energia è solamente temporanea, e non si dovrebbe fare uso di questo estratto se non con l'apposito consulto di uno specialista di erbe.
+
+STATISTICHE:
+
+Peso: 0,4 Kg~
+@650044 = ~La Centella Asiatica incrementa la prontezza mentale e fisica. I benefici che procura ad una persona quest'erba a fiori violacea valgono bene il prezzo di una così rara erba. Quando presa nel modo appropriato, la Centella Asiatica fa diminuire a chi l'utilizza la sua CA di 6, quindi migliorerà la sua classe armatura ed aggiungerà 3 a tutti i tiri salvezza. La Centella Asiatica permette alla persona che fa uso di quest'erba anche di muoversi alquanto rapidamente evitando in questo modo i proiettili normali.
+
+STATISTICHE:
+
+Peso: 0,4 Kg~
+@650046 = ~La Farfara è un'erba molto comune che si può trovare in molti terreni temperati ed erbosi delle zone di Faerûn. Produce anche molti semi velenosi, ricercati da molti ladri ed assassini. I semi di Farfara possono causare 2 danni di punti ferita da veleno a chiunque ingerisca quest'erba, la quale è praticamente insapore, e ciò la rende facilmente utile per avvelenare i cibi.
+
+STATISTICHE:
+
+Peso: 0,4 Kg~
+@650112 = ~Le leggere ma resistenti scaglie di Drago Blu forniscono una notevole protezione contro le armi e tutte le forme di elettricità.
+
+STATISTICHE:
+
+Classe Armatura: -1
+  +90% di resistenza a tutti gli attacchi con elettricità e fulmini 
+Peso: 20
+Richiede: 15 alla Forza~
+@650113 = ~Le leggere ma resistenti scaglie di Darammareth S'ooloun Crommadar Ammanth Kuleera, conosciuta come Velvetfoot, fornisce una migliore protezione contro le armi e tutte le forme di elettricità di una normale Corazza di Piastre di Drago Blu.
+
+STATISTICHE:
+
+Classe Armatura: -2
+  100% di resistenza a tutti gli attacchi con elettricità e fulmini
+Peso: 17
+Richiede: 12 alla Forza~
+
+@650248 = ~Questo paio di guanti sono stati molto probabilmente creati nella vecchia Netheril per aiutare i maestri delle arti magiche. Le leggende narrano che simili maestri del passato erano in grado di lanciare incantesimi in rapida successione, anche se non si conoscono altri dettagli a riguardo.
+
+STATISTICHE:
+
+Velocità di lancio degli incantesimi ridotta di 2
+
+Peso: 2~
+@650251 = ~Lo spadone combina i vantaggi di una spada lunga con la forza e l'efficacia di una spada a due mani. Nell'ambito dei costanti tentativi dei fabbricanti di migliorare gli equipaggiamenti dei guerrieri, la lama della spada lunga è stata allungata e quindi è stato necessario allungare l'impugnatura per poter brandire l'arma agevolmente.
+
+STATISTICHE:
+
+Danno: 1D12
+Tipo di danno: tagliente
+Peso: 12
+Fattore Velocità: 8
+Tipo di competenza: Spada a due mani
+Tipo: a due mani
+Richiede: 9 alla Forza~
+@650252 = ~Lo spadone combina i vantaggi di una spada lunga con la forza e l'efficacia di una spada a due mani. Nell'ambito dei costanti tentativi dei fabbricanti di migliorare gli equipaggiamenti dei guerrieri, la lama della spada lunga è stata allungata e quindi è stato necessario allungare l'impugnatura per poter brandire l'arma agevolmente.
+
+STATISTICHE:
+
+Danno: 1D12 + 2, doppio danno contro i draghi
+THAC0: Bonus +2
+Tipo di danno: tagliente
+Peso: 12
+Fattore Velocità: 8
+Tipo di competenza: Spada Lunga
+Tipo: a due mani
+Richiede: 9 alla Forza~
+@650256 = ~Una corazza di maglia è fatta di anelli connessi fra di loro. Viene sempre indossata su uno strato di cuoio o di stoffa per prevenire ferite da sfregamento e per ridurre gli impatti dei colpi. Questa armatura fornisce una ulteriore protezione tramite gli incantamenti magici che sono stati posti su di essa.
+
+STATISTICHE:
+
+Classe Armatura: 1
+Peso: 10
+Richiede: 8 alla Forza~
+@650260 = ~Mantello di protezione +3: 'Lo Scudo dello Spirito'
+
+Si dice che questo mantello concentri le energie dello spirito di un essere in una forza che lo protegge. Si continua a dire che nell'oggetto magico sia stato imprigionato un vampiro, ma è impossibile dimostrarlo senza distruggere il mantello.
+
+STATISTICHE:
+
+Classe Armatura: bonus +3
+Tiro Salvezza:  bonus +3
+Peso: 3~
+@650262 = ~Questa raccapricciante collezione si scalpi umani e semi-umani cuciti sul pesante tessuto conferisce ad ogni guerriero, ogni ladro, o a qualsiasi altra classe una forma imponente. Mentre lo si indossa, questo mantello non farà guadagnare bonus speciali, e renderà la persona che lo indossa meno piacente agli altri, lasciandogli un'impressione duratura nel tempo.
+
+STATISTICHE:
+
+Ogni qualvolta lo si indossa si avrà una penalità alla Reputazione di -1
+Mentre lo si indossa si avrà una penalità al Carisma di -1
+Peso: 4
+Richiede: 3 alla Forza~
+@650264 = ~L'Anello dei Draghi é un potente e antico artefatto, con una storia ricca e dettagliata. I saggi e gli studiosi dei Reami hanno passato centinaia di ore a scrivere le vicende di questo Anello, eppure, ancora non se ne conosce l'intera storia.
+
+Tuttavia il potere singolare di questo anello é ben conosciuto a molti. Permette infatti di controllare i draghi.
+
+Attivando il potere di questo Anello, il possessore é in grado di evocare un drago in suo aiuto. La specie del drago varia, ma probabilmente saranno evocate specie di draghi cromatici (leggasi "malvagi"). L'anello può essere utilizzato un numero limitato di volte, ma non si ha modo di sapere quante cariche rimangono in questo Anello.
+
+STATISTICHE:
+
+  Evoca un drago (Rosso, Nero, Verde, o Giallo) in aiuto di chi possiede l'anello~
+@650272 = ~Il bastone rinforzato è la più semplice e umile delle armi lunghe ed è costituito da un pezzo di legno lungo da 1,8 a 2,7 m. I bastoni rinforzati di alta qualità vengono fatti in duro legno di quercia e sono ricoperti di metallo a entrambe le estremità. Quest'arma deve essere brandita con entrambe le mani.
+
+Benché a prima vista sembra essere un normale bastone rinforzato, questo bastone ha delle piccole proprietà magiche. La prima è un bonus aggiuntivo di 1d4 di danno da schiacciamento per ogni colpo riuscito contro il bersaglio. La seconda, è che con questo bastone rinforzato l'utilizzatore diventa automaticamente sfocato al punto che i suoi nemici, ma anche i suoi alleati, avranno un po' di difficoltà a vedere colui che detiene questo bastone. La terza è che il bastone ha la possibilità di rendere colui che lo possiede invisibile tre volte al giorno. Il bastone si ricarica automaticamente dopo un po' di tempo.
+
+STATISTICHE:
+
+Danno: 1D6 + 1d4
+Speciale:
+  Sfocatura su chi lo utilizza mentre lo si possiede
+  Lancia Invisibilità su chi lo possiede tre volte al giorno
+Tipo di danno: schiacciamento
+Peso: 4
+Fattore Velocità: 4
+Tipo di competenza: Bastone
+Tipo: a due mani
+Richiede: 5 alla Forza~
+@650276 = ~Questo tipico pugnale da lancio ha una lama a doppio filo appuntita, a differenza di un coltello, che è affilato solo da un lato ed è più corto di un pugnale. A differenza di un normale pugnale, questo ha un'impugnatura più piccola ed è perfettamente equilibrato. Una sottile patina di veleno è stata stesa su ogni pugnale da lancio, rendendola mortale nelle mani di un assassino addestrato.
+
+STATISTICHE:
+
+Danno: 1D4
+Speciale:
+  Dissolve la protezione magica subito dopo un colpo andato a buon fine
+Tipo di danno: proiettile (perforante)
+Peso: 1
+Fattore Velocità: 2
+Tipo di competenza: Pugnale
+Tipo: ad una mano
+Richiede: 3 alla Forza~
+
+@650277 = ~Questo pugnale vale davvero molto. E' un'arma incantata, ha un bonus di +3 al tiro per colpire e al danno. Oltre alla precisione e al bilanciamento dell'arma, la spada conferisce dei bonus magici a chi la utilizza. A chiunque maneggia Furcolo gli viene assegnato un bonus di 35% alla resistenza magica, e diventa anche completamente immune alle creature Non Morte. La spada è un'entità intelligente, e può lanciare Immunità Assoluta sul suo utilizzatore una volta al giorno.
+
+STATISTICHE:
+
+Danno: 1D4 + 3
+THAC0: +3
+Tipo di danno: perforante
+Speciale:
+  Può lanciare Immunità Assoluta una volta al giorno
+  Bonus del 35% alla resistenza alla magia
+  Immunità ai Non Morti
+Peso: 1
+Fattore Velocità: 0
+Tipo di competenza: Pugnale
+Tipo: ad una mano
+Richiede: 3 alla Forza~
+@650279 = ~Mentre si usa questo pugnale si è protetti da proiettili normali, non magici. Il pugnale ha un bonus di +1 al THAC0 e può essere utilizzato da chiunque abbia la competenza per utilizzare un pugnale.
+
+STATISTICHE:
+
+Danno: 1D4 + 1
+THAC0: +1
+Speciale:
+  Protezione dai proiettili normali mentre lo si utilizza
+Tipo di danno: perforante
+Peso: 1
+Fattore Velocità: 1
+Tipo di competenza: Pugnale
+Tipo: ad una mano
+Richiede: 3 alla Forza~
+@650285 = ~Spada Lunga Danzante +3: La maggior parte dei druidi non sono in grado di utilizzare le armi affilate. Questa spada è un'eccezione. Questa spada magica non solo conferisce bonus per colpire e danneggiare, ma può anche lanciare Guarigione, Dissolvi magie, e Individuare Trappole tramite gli Incantesimi da Sacerdote come se il possessore fosse un Druido di terzo livello.
+
+Questa spada senziente è anche dotata di intelligenza. Il suo allineamento è Neutrale Buono, e possiede un ego di 8. E' dotata di un valore intellettivo (INT 15) e parla sia il linguaggio comune che il linguaggio del suo allineamento.
+
+STATISTICHE:
+
+Danno: 1D8 + 3
+THAC0: bonus +3
+Speciale:
+  Può lanciare Individuare Trappole, Dissolvi magie, Guarigione 3 volte al giorno
+Danzante:
+  Se si "libera" la spada, la si può maneggiare telepaticamente mezz'ora al giorno. Farà gli stessi danni ED inoltre il suo proprietario sarà in grado sia di tenere fisicamente in mano un'altra spada sia di guidare nello stesso momento, telepaticamente, la spada danzante.
+
+Tipo di danno: tagliente
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Spada lunga
+Tipo: ad una mano
+Richiede: 
+  17 alla Forza
+  16 alla Saggezza~
+@650289 = ~La storia di quest'arma è sconosciuta. Questo bastone ti é stato dato da un trio di Guerriere-Druide che hai incontrato in un piccolo boschetto a sud di Baldur's Gate. Le druide desideravano che lo riparavi. Ed ora che lo hai riparato devi riuscire a riportargli il bastone nel boschetto a nord di Amn. Questo bastone conferisce a chi lo usa un bonus alla sua classe armatura, permette a chi lo usa di ottenere la competenza della maestria per i bastoni rinforzati, inoltre conferisce una serie di resistenze ai danni da: Veleno, Fuoco, Freddo, Acido ed Elettricità.
+
+STATISTICHE:
+
+Danno: 2D8 + 5
+THAC0:  +5
+Speciale:
+  +2 bonus alla Classe Armatura
+  +4 stelle alla competenza dell'uso del Bastone rinforzato
+  25% di resistenza al Fuoco
+  25% di resistenza al Freddo
+  25% di resistenza all'Acido
+  25% di resistenza al Veleno
+  25% di resistenza all'Elettricità
+Tipo di danno: schiacciamento
+Peso: 7
+Fattore Velocità: 3
+Tipo di competenza: Bastone rinforzato
+Tipo: a due mani
+Richiede: 5 alla Forza~
+
+@650290 = ~La storia di quest'arma non si conosce. Questo bastone ti é stato dato da un trio di Guerriere-Druide che hai incontrato in un piccolo boschetto a sud di Baldur's Gate. Le druide desideravano che lo riparavi. Tu lo hai riparato e in seguito te lo hanno offerto in dono notevolmente migliorato rispetto a come era prima. Questo bastone conferisce a chi lo usa un bonus alla sua classe armatura, permette a chi lo usa di ottenere la competenza della maestria per i bastoni rinforzati, inoltre conferisce una serie di resistenze ai danni da: Veleno, Fuoco, Freddo, Acido ed Elettricità.
+
+STATISTICHE:
+
+Danno: 2D8 + 5
+THAC0: +5
+Speciale:
+  +4 bonus alla Classe Armatura
+  +5 stelle alla competenza dell'uso del Bastone rinforzato
+  50% di resistenza al Fuoco
+  50% di resistenza al Freddo
+  50% di resistenza all'Acido
+  50% di resistenza al Veleno
+  50% di resistenza all'Elettricità
+Tipo di danno: schiacciamento
+Peso: 7
+Fattore Velocità: 3
+Tipo di competenza: Bastone rinforzato
+Tipo: a due mani
+Richiede: 5 alla Forza~
+@650300 = ~Questa potente arma è stata creata dai fabbri dell'antica Myth Drannor. Le Lame di Luna vengono usate nel lungo processo di selezione del capo dell'isola di Evermeet. Una Lama di Luna sceglie il suo proprietario. Solamente un elfo può utilizzare questo tipo di lama; chiunque altro provi a sfoderarla si troverà orrendamente bruciato, e probabilmente morirà. Questa Lama di Luna conferisce a chi la usa un bonus alla sua classe armatura, permette a chi lo usa di ottenere la competenza della maestria per le spade, inoltre conferisce una serie di resistenze ai danni da: Veleno, Fuoco, Freddo, Acido ed Elettricità.
+
+STATISTICHE:
+
+Danno: 1D10 + 4
+THAC0: +4
+Speciale:
+  +2 bonus alla Classe Armatura
+  +4 stelle alla competenza dell'uso della Spada Lunga
+  25% di resistenza al Fuoco
+  25% di resistenza al Freddo
+  25% di resistenza al Acido
+  25% di resistenza al Veleno
+  25% di resistenza all'Elettricità
+Tipo di danno: tagliente
+Peso: 3
+Fattore Velocità: 4
+Tipo di competenza: Spada Lunga
+Tipo: ad una mano~
+@650304 = ~Questa pietra Magica risplende di un colore blu scuro, ricordando un po' il colore delle onde dell'oceano. Questa pietra magica marina blu garantirà al suo possessore l'abilità di dissipare Immagine Riflessa, Invisibilità, Immagini Illusorie, Anti-individuazione, Invisibilità potenziata, Porta d'Ombra, Ingannare, Proiettare Immagine, e Simulacro.
+
+Abilitià: Visione del Vero a volontà 
+Bonus alla Classe Armatura: Nessuno 
+Peso: 2~
+@650308 = ~Le abilità conferite da questo mantello magico  provano che esistono molte forme di protezione, incluso lo sfuggire alla vista dei nemici per fuggire.
+
+STATISTICHE:
+
+Classe Armatura: bonus +2
+Tiro Salvezza: bonus +2
+Speciale:
+ Lancia Velocità Potenziata una volta al giorno 
+ Lancia Invisibilità Potenziata una volta al giorno 
+Peso: 3~
+@650343 = ~Questa potente arma è composta da un'asta lunga quasi due metri sormontata da una possente lama. L'ascia può essere bipenne, e montare una lama da ogni lato dell'asta, oppure può essere dotata di una lama singola. È  un'arma difficile da impugnare, ma un guerriero abile è in grado di sferrare colpi di grande potenza se la usa come si deve. Per potenziare ulteriormente l'arma, la testa dell'ascia è stata decorata con rune naniche.
+
+STATISTICHE:
+
+Danno: 2D12 + 5
+THAC0 Bonus: +5
+Incantamento: +5
+Speciale:
+  Getto Infuocato: +2d6 di danno da fuoco e 25% di possibilità di un +2d10 di danno supplementare da fuoco
+Tipo di danno: tagliente
+Peso: 30
+Fattore Velocità: 9
+Tipo di competenza: Ascia
+Tipo: a due mani
+Richiede: 17 alla Forza~
+@650345 = ~Questa potente arma è composta da un'asta lunga quasi due metri sormontata da una possente lama. L'ascia può essere bipenne, e montare una lama da ogni lato dell'asta, oppure può essere dotata di una lama singola. È  un'arma difficile da impugnare, ma un guerriero abile è in grado di sferrare colpi di grande potenza se la usa come si deve. Per potenziare ulteriormente l'arma, la testa dell'ascia è stata decorata con rune naniche.
+
+STATISTICHE:
+
+Danno: 2D12 +4
+THAC0 Bonus: +4
+Incantamento: +4
+Speciale:
+  Esplosione Infuocata: +1d6 danni da fuoco e possibilità del 10% di infliggere un +1d10 extra di danni da fuoco 
+Tipo di danno: tagliente
+Peso: 25
+Fattore Velocità: 9
+Tipo di competenza: Ascia
+Tipo: a due mani
+Richiede: 16 alla Forza~
+@650354 = ~Questa spada lunga vale davvero molto. E' un'arma incantata, ha un bonus di +3 al tiro per colpire e al danno. Oltre alla precisione e al bilanciamento dell'arma, la spada conferisce dei bonus magici a chi la utilizza. A chiunque maneggia Furcolo gli viene assegnato un bonus di 35% alla resistenza magica, e diventa anche completamente immune alle creature Non Morte. La spada è un'entità intelligente, e può lanciare Immunità Assoluta sul suo utilizzatore una volta al giorno.
+
+STATISTICHE:
+
+Danno: 1D10 + 3
+Tipo di danno: tagliente
+Speciale:
+  Può lanciare Immunità Assoluta una volta al giorno
+  Bonus del 35% alla resistenza alla magia
+  Immunità ai Non Morti 
+Peso: 4
+Fattore Velocità: 5
+Tipo di competenza: Spada lunga
+Tipo: ad una mano
+Richiede: 6 alla Forza~
+@650364 = ~Questo bastone è a forma di spirale, intarsiato d'argento e sormontato da un grande pezzo d'ambra, il Bastone degli Occhi permette al suo possessore di lanciare i seguenti incantesimi una volta al giorno:
+ Occhio dello Stregone
+ Cura Malattie
+ Vera Vista
+
+STATISTICHE:
+
+Danno: 1D6 + 1
+Tipo di danno: schiacciamento
+Peso: 4
+Fattore Velocità: 4
+Tipo di competenza: Bastone Rinforzato
+Tipo: a due mani
+Richiede: 5 alla Forza
+
+Richiede:
+  Il livello 10
+  5 alla Forza~
+@650366 = ~Diverse di queste collane di ghiaccio magicamente temprate e preservate furono create da un mago mezzo folle che vagabondava tra le tribù Ulutiun del Grande Ghiacciaio. Due di questi cristalli di ghiaccio che hanno la dimensione di una ghianda sono opachi, quattro sono trasparenti.  
+
+Il possessore può staccare un cristallo e scagliarlo fino ad una distanza di circa 25 metri prima che si fonda tra le sue  mani dopo un 1 turno. Quando il cristallo raggiunge la fine della sua traiettoria, esplode in una Tempesta di Ghiaccio.
+
+Per utilizzare correttamente questa collana il possessore deve avere la competenza nell'uso delle Fionde ed avere uno slot per le munizioni libero.
+
+STATISTICHE:
+
+Ha 6 cristalli di ghiaccio~
+@650369 = ~Questo genere di oggetti sono stati creati a Netheril. All'atto della sua creazione uno Scettro della Distruzione possiede 50 cariche, ma molti sono vecchi di centinaia di anni e di solito hanno solo da 1 a 10 cariche quando vengono trovati.  
+
+Uno Scettro della Distruzione si auto-identifica e possiede i seguenti poteri:
+ - il possessore è immune al fuoco e ai fulmini mentre tiene lo scettro
+ - il possessore non può essere buttato a terra o spostato da un'esplosione o una detonazione mentre tiene lo scettro. Il possessore subisce metà del danno per ogni esplosione, come un Corno della Distruzione, o come la polvere del fumo di una detonazione, oppure come il potere di un'esplosione causato dall'utilizzo di un altro Scettro della Distruzione (i danni sono ridotti di un quarto con un tiro salvezza riuscito)
+ - il possessore può stordire un bersaglio con un colpo dello scettro in un attacco da mischia. La creatura può evitare di essere stordita con un tiro salvezza riuscito contro le bacchette, ma rimane stordito per 1d4 round se il tiro salvezza fallisce (questo potere consuma 1 carica)
+ - il possessore può far esplodere i suoi nemici con un'onda di forza silenziosa formando un cono di 9 metri di lunghezza. I bersagli subiscono automaticamente 2d6 di punti di danno e devono fare con successo un tiro salvezza contro le bacchette o essere atterrati (questo potere consuma 2 cariche)
+ - il possessore può provocare un Colpo Potente a qualsiasi creatura o oggetto con un attacco in mischia. Il colpo provoca 10d6 punti di danno, un tiro salvezza riuscito contro le bacchette riduce di metà il danno (questo potere consuma 4 cariche)
+
+STATISTICHE:
+
+Abilità Speciali:
+  Immunità al Fuoco e ai Fulmini
+  Protezione dal Colpo d'Ala
+  Onda dell'Esplosione
+  Colpo Potente
+Peso: 6
+Tipo di competenza: Clava~
+@650380 = ~La origini di questo scudo magico sono sconosciute. E' stato costruito con ottimi materiali e gli incantamenti che possiede fanno di questo scudo un semplice ma efficace oggetto di difesa.
+
+STATISTICHE:
+
+Bonus di Classe Armatura: 4
+Speciale: +2 contro Armi da Lancio
+Peso: 10
+Richiede: 10 alla Forza~
+@650387 = ~L'Amuleto della Luna è una creazione degli Elfi. E' un'aggiunta alla stato naturale degli Elfi al fantasticare, abilitando un Elfo a resistere agli effetti del sonno. La Fantasticheria è tipica degli Elfi, è un ciclo quotidiano, simile al sonno per umani o per gli altri animali, sebbene la Fantasticheria degli Elfi è un qualcosa di diverso di un semplice stato di sonno o meditazione di qualche ora che rigenera il corpo e l'anima, ma durante questo stato sono pienamente consapevoli di ciò che li circonda e sta succedendo intorno a loro.
+
+Questo amuleto, se indossato da un elfo o un non-elfo, può ritardare gli effetti della fatica e delle alterazioni magiche della mente come lo charme o il controllo mentale. L'amuleto, tuttavia, non permetterà di memorizzare incantesimi senza riposare per coloro che devono riposare per memorizzarli. Anche per le ferite è necessario un periodo di riposo per guarirle, la Fantasticheria produce solo effetti minimi per la rigenerazione fisica del corpo.
+
+STATISTICHE:
+
+Speciale:  
+  Protezione dallo stato di Incoscienza
+  Protezione dallo Charme
+  Ritarda la Fatica (cambia in base alla Costituzione)
+  Rigenera 1 Punto ferita ogni ora~
+@650389 = ~Questa potente arma è stata creata dai fabbri dell'antica Myth Drannor. Le Lame di Luna vengono usate nel lungo processo di selezione del capo dell'isola di Evermeet. Questa Lama di Luna è stata data a <CHARNAME> da tre Anziane Maghe Elfe nel profondo della Foresta di Tethyr, ed ha accettato <CHARNAME> come suo proprietario. Solo il prescelto dalla Lama di Luna la può utilizzare; chiunque altro provi a sfoderarla si troverà orrendamente bruciato, e probabilmente morirà. Questa Lama di Luna conferisce a chi la usa un bonus alla sua classe armatura, permette a chi la usa di ottenere la competenza della maestria per le spade, inoltre conferisce una serie di resistenze ai danni da: Veleno, Fuoco, Freddo, Acido ed Elettricità.
+
+STATISTICHE:
+
+Danno: 2D8 + 5
+Bonus per colpire: 5
+Speciale:
+  +4 bonus alla Classe Armatura
+  +5 stelle alla competenza dell'uso della spada lunga
+  50% di resistenza al Fuoco
+  50% di resistenza al Freddo
+  50% di resistenza all'Acido
+  50% di resistenza al Veleno
+  50% di resistenza all'Elettricità
+Tipo di danno: tagliente
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Spada Lunga
+Tipo: ad una mano~
+
+@650390 = ~Questa potente arma è stata creata dai fabbri dell'antica Myth Drannor. Le Lame di Luna vengono usate nel lungo processo di selezione del capo dell'isola di Evermeet. Questa Lama di Luna è stata data a <PLAYER2> da un trio di Anziane Elfe nel profondo della Foresta di Tethyr, ed ha accettato <PLAYER2> come suo proprietario. Solo il prescelto dalla Lama di Luna la può utilizzare; chiunque altro provi a sfoderarla si troverà orrendamente bruciato, e probabilmente morirà. Questa Lama di Luna conferisce a chi la usa un bonus alla sua classe armatura, permette a chi lo usa di ottenere la competenza della maestria per le spade, inoltre conferisce una serie di resistenze ai danni da: Veleno, Fuoco, Freddo, Acido ed Elettricità.
+
+STATISTICHE:
+
+Danno: 2D8 + 5
+Bonus per colpire: 5
+Speciale:
+  +4 bonus alla Classe Armatura
+  +5 stelle alla competenza dell'uso della spada lunga
+  50% di resistenza al Fuoco
+  50% di resistenza al Freddo
+  50% di resistenza all'Acido
+  50% di resistenza al Veleno
+  50% di resistenza all'Elettricità
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Spada Lunga
+Tipo: ad una mano
+Tipo di danno: tagliente~
+
+@650391 = ~Questa potente arma è stata creata dai fabbri dell'antica Myth Drannor. Le Lame di Luna vengono usate nel lungo processo di selezione del capo dell'isola di Evermeet. Questa Lama di Luna è stata data a <PLAYER3> da un trio di Anziane Elfe nel profondo della Foresta di Tethyr, ed ha accettato <PLAYER3> come suo proprietario. Solo il prescelto dalla Lama di Luna la può utilizzare; chiunque altro provi a sfoderarla si troverà orrendamente bruciato, e probabilmente morirà. Questa Lama di Luna conferisce a chi la usa un bonus alla sua classe armatura, permette a chi lo usa di ottenere la competenza della maestria per le spade, inoltre conferisce una serie di resistenze ai danni da: Veleno, Fuoco, Freddo, Acido ed Elettricità.
+
+STATISTICHE:
+
+Danno: 2D8 + 5
+Bonus per colpire: 5
+Speciale:
+  +4 bonus alla Classe Armatura
+  +5 stelle alla competenza dell'uso della spada lunga
+  50% di resistenza al Fuoco
+  50% di resistenza al Freddo
+  50% di resistenza all'Acido
+  50% di resistenza al Veleno
+  50% di resistenza all'Elettricità
+Tipo di danno: tagliente
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Spada Lunga
+Tipo: ad una mano~
+
+@650392 = ~Questa potente arma è stata creata dai fabbri dell'antica Myth Drannor. Le Lame di Luna vengono usate nel lungo processo di selezione del capo dell'isola di Evermeet. Questa Lama di Luna è stata data a <PLAYER4> da un trio di Anziane Elfe nel profondo della Foresta di Tethyr, ed ha accettato <PLAYER4> come suo proprietario. Solo il prescelto dalla Lama di Luna la può utilizzare; chiunque altro provi a sfoderarla si troverà orrendamente bruciato, e probabilmente morirà. Questa Lama di Luna conferisce a chi la usa un bonus alla sua classe armatura, permette a chi lo usa di ottenere la competenza della maestria per le spade, inoltre conferisce una serie di resistenze ai danni da: Veleno, Fuoco, Freddo, Acido ed Elettricità.
+
+STATISTICHE:
+
+Danno: 2D8 + 5
+Bonus per colpire: 5
+Speciale:
+  +4 bonus alla Classe Armatura
+  +5 stelle alla competenza dell'uso della spada lunga
+  50% di resistenza al Fuoco
+  50% di resistenza al Freddo
+  50% di resistenza all'Acido
+  50% di resistenza al Veleno
+  50% di resistenza all'Elettricità
+Tipo di danno: tagliente
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Spada Lunga
+Tipo: ad una mano~
+
+@650393 = ~Questa potente arma è stata creata dai fabbri dell'antica Myth Drannor. Le Lame di Luna vengono usate nel lungo processo di selezione del capo dell'isola di Evermeet. Questa Lama di Luna è stata data a <PLAYER5> da un trio di Anziane Elfe nel profondo della Foresta di Tethyr, ed ha accettato <PLAYER5> come suo proprietario. Solo il prescelto dalla Lama di Luna la può utilizzare; chiunque altro provi a sfoderarla si troverà orrendamente bruciato, e probabilmente morirà. Questa Lama di Luna conferisce a chi la usa un bonus alla sua classe armatura, permette a chi lo usa di ottenere la competenza della maestria per le spade, inoltre conferisce una serie di resistenze ai danni da: Veleno, Fuoco, Freddo, Acido ed Elettricità.
+
+STATISTICHE:
+
+Danno: 2D8 + 5
+Bonus per colpire: 5
+Speciale:
+  +4 bonus alla Classe Armatura
+  +5 stelle alla competenza dell'uso della spada lunga
+  50% di resistenza al Fuoco
+  50% di resistenza al Freddo
+  50% di resistenza all'Acido
+  50% di resistenza al Veleno
+  50% di resistenza all'Elettricità
+Tipo di danno: tagliente
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Spada Lunga
+Tipo: ad una mano~
+
+@650394 = ~Questa potente arma è stata creata dai fabbri dell'antica Myth Drannor. Le Lame di Luna vengono usate nel lungo processo di selezione del capo dell'isola di Evermeet. Questa Lama di Luna è stata data a <PLAYER6> da un trio di Anziane Elfe nel profondo della Foresta di Tethyr, ed ha accettato <PLAYER6> come suo proprietario. Solo il prescelto dalla Lama di Luna la può utilizzare; chiunque altro provi a sfoderarla si troverà orrendamente bruciato, e probabilmente morirà. Questa Lama di Luna conferisce a chi la usa un bonus alla sua classe armatura, permette a chi lo usa di ottenere la competenza della maestria per le spade, inoltre conferisce una serie di resistenze ai danni da: Veleno, Fuoco, Freddo, Acido ed Elettricità.
+
+STATISTICHE:
+
+Danno: 2D8 + 5
+Bonus per colpire: 5
+Speciale:
+  +4 bonus alla Classe Armatura
+  +5 stelle alla competenza dell'uso della spada lunga
+  50% di resistenza al Fuoco
+  50% di resistenza al Freddo
+  50% di resistenza all'Acido
+  50% di resistenza al Veleno
+  50% di resistenza all'Elettricità
+Tipo di danno: tagliente
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Spada Lunga
+Tipo: ad una mano~
+
+@650395 = ~Questa morningstar vale davvero molto. E' un'arma incantata, ha un bonus di +3 al tiro per colpire e al danno. Oltre alla precisione e al bilanciamento dell'arma, la spada conferisce dei bonus magici a chi la utilizza. A chiunque maneggia Furcolo gli viene assegnato un bonus di 35% alla resistenza magica, e diventa anche completamente immune alle creature Non Morte. La spada è un'entità intelligente, e può lanciare Immunità Assoluta sul suo utilizzatore una volta al giorno.
+
+STATISTICHE:
+
+Danno: 2D4 + 3
+Speciale:
+  Può lanciare Immunità Assoluta una volta al giorno
+  Bonus del 35% alla resistenza alla magia
+  Immunità ai Non Morti 
+Tipo di danno: schiacciamento
+Peso: 8
+Fattore Velocità: 4
+Tipo di competenza: Mazzafrusto/Morningstar
+Tipo: ad una mano
+Richiede: 11 alla Forza~
+@7650398 = ~La versione più comune dell'ascia da battaglia è un'asta robusta lunga circa 1,20 m con una lama imbutiforme affilata da una sola parte applicata su una delle due estremità. Le asce da battaglia vengono anche chiamate asce larghe.
+
+STATISTICHE:
+
+Danno: 1D8
+THAC0: bonus +1
+Tipo di danno: tagliente
+Peso: 7
+Fattore Velocità: 7
+Tipo di competenza: Ascia
+Tipo: ad una mano
+Richiede: 10 alla Forza~
+@7650399 = ~Gli archi compositi possono essere archi corti o archi lunghi i cui bastoni provengono da più di un tipo di materiale. In questo modo si ottiene più flessibilità e le frecce lanciate con questo tipo di arco fanno più danno. Il possessore di questo tipo di potenti archi deve avere una forza di almeno 18.
+
+STATISTICHE:
+
+THAC0: bonus +2
+Danno: +1
+Peso: 10
+Fattore Velocità: 7
+Tipo di competenza: Arco Lungo
+Tipo: a due mani
+Richiede: 18 alla Forza~
+@7650400 = ~L'arco lungo è simile a quello corto, ma il sostegno è alto quasi quanto l'arciere, di solito da 1,8 a 2 m. Presenta due vantaggi rispetto all'arco corto: migliore gittata e maggiore precisione.  
+
+STATISTICHE:
+
+THAC0: bonus +2
+Peso: 3
+Fattore Velocità: 7
+Tipo di competenza: Arco lungo
+Tipo: a due mani
+Richiede: 6 alla Forza~
+@7650401 = ~Gli archi corti furono i primi ad apparire, anche se non con questo nome. Più che altro questo è un termine generico che si riferisce a ogni arma di questo tipo che non è un arco lungo. Le aste degli archi corti hanno lunghezza media di 1,5 m. Con il trascorrere degli anni si è cercato di aumentare la gittata degli archi costruendoli con aste più lunghe, oppure con maggiore flessibilità senza modificarne la lunghezza giungendo, nel primo caso, alla creazione dell'arco lungo.  
+
+STATISTICHE:
+
+THAC0: bonus +1
+Peso: 2
+Fattore Velocità: 6
+Tipo di competenza: Arco corto
+Tipo: a due mani
+Richiede: 3 alla Forza~
+@650403 = ~Drakkas Ranul era un Elfo della Luna rinnegato, che portava un grosso peso sulle spalle. Quando era ancora molto giovane, fu rapito durante una razzia dei Drow e portato presso di loro per combattere nella Fossa. All'inizio fu costretto a combattere quelli che erano stati rapiti con lui. Però con il tempo i suoi compagni morirono a causa delle ferite e delle misere condizioni di vita, lasciando Drakkas da solo a combattere mostri scelti dai drow. Drakkas  teneva duro, alimentato dal suo crescente odio per i suoi rapitori, nella speranza di riuscire prima o poi a fuggire e a vendicarsi di loro.
+
+Un giorno Drakkas vide esaudito il proprio desiderio: riuscì a scappare rubando la chiave della sua cella  alla guardia, e fuggì nel Sottosuolo non visto. Riuscì anche a rubare un paio di scimitarre, che gli tornarono utili mentre percorreva i contorti corridoi del Sottosuolo. Quando poi arrivò in superficie, si mise immediatamente alla ricerca dei suoi fratelli, gli Elfi della Luna.
+
+Sfortunatamente, quando li raggiunse venne ripudiato anche da loro a causa delle terribili cicatrici che aveva accumulato in battaglia. Amareggiato, decise che avrebbe dedicato la sua vita a vendicarsi nel modo più terribile sui suoi rapitori. Drakkas apprese con grande diligenza le arti magiche e continuò anche a perfezionare il suo già formidabile addestramento nell'uso delle armi. Quando si sentì pronto, cominciò a vendere i suoi servizi come mercenario per guadagnare denaro con cui comprare dell'equipaggiamento migliore.  Una cosa che desiderava particolarmente era una cotta di maglia leggera che non interferisse con il lancio dei suoi incantesimi.  Fortunatamente riuscì a trovare un fabbro nano che era in grado di soddisfare le sue richieste. Una volta portata a termine l'armatura, Drakkas era finalmente pronto per la sua missione di vendetta.
+
+Drakkas si allontanò da tutti quelli che lo conoscevano e che si erano serviti di lui come mercenario, si avventurò nelle profondità del Sottosuolo, e da quel giorno non si sentì più parlare di lui. Comunque, la sua armatura speciale riuscì in qualche modo ad uscire dal Sottosuolo. Nessuno può dirlo con certezza, ma alcuni dicono che il ritorno della sua armatura dal Sottosuolo può essere anche interpretato come un sottile messaggio dei drow. Il significato del messaggio, ovviamente, può essere interpretato in molti modi.
+
+STATISTICHE:
+
+Bonus alla Classe Armatura: +8
+Bonus di Destrezza massimo: +1
+Bonus al Fallimento dell'Incantesimo: 10%
+Speciale:
+  Il lancio degli incantesimi e le abilità dei ladri non subiscono alcuna penalità mentre è indossata la Catena della Furia di Drakkas.
+THAC0 Bonus: +3
+Velocità: 1 attacco aggiuntivo per round
+Peso: 13 Kg.
+Richiede: 8 alla Forza~
+@7650404 = ~Le clave sono in genere bastoni di legno stretti all'impugnatura e più larghi all'altra estremità. Queste armi dalla struttura molto semplice sono state tra le prime utilizzate dagli uomini. E facile trovare un buon pezzo di legno con cui colpire ed è per questo che la clava si è diffusa molto.
+
+STATISTICHE:
+
+Danno: 1D6
+THAC0: bonus +1
+Tipo di danno: schiacciamento
+Peso: 3
+Fattore Velocità: 4
+Tipo di competenza: Clava
+Tipo: ad una mano
+Richiede: 5 alla Forza~
+@7650405 = ~Il pugnale ha in genere una lama appuntita e a doppio taglio, al contrario del coltello, che ha la lama affilata solo da un lato ed è più corto del pugnale.
+
+STATISTICHE:
+
+Danno: 1D4
+THAC0: bonus +1
+Tipo di danno: perforante
+Peso: 1
+Fattore Velocità: 2
+Tipo di competenza: Pugnale
+Tipo: ad una mano
+Richiede: 3 alla Forza~
+@7650406 = ~Il dardo è una piccola arma da lancio, facile da nascondere, che viene lanciata piuttosto che scagliata da un arco o da un altro dispositivo.
+
+STATISTICHE:
+
+Danno: 1D3
+THAC0: bonus +1
+Tipo di danno: proiettile (perforante)
+Peso: 0
+Fattore Velocità: 2
+Tipo di competenza: Dardo
+Tipo: ad una mano~
+@650408 = ~Il pugnale ha in genere una lama appuntita e a doppio taglio, al contrario del coltello, che ha la lama affilata solo da un lato ed è più corto del pugnale.
+
+STATISTICHE:
+
+Danno: 1D4 + 4
+THAC0 Bonus: +4
+Incantamento: +4
+Speciale:
+  Può lanciare Sfocatura 2 volte al giorno
+
+Tipo di danno: perforante
+Peso: 0,4 Kg.
+Fattore Velocità: 2
+Tipo di competenza: Pugnale
+Tipo: ad una mano
+Richiede: 3 alla Forza~
+@7650409 = ~Il mazzafrusto è composto da una solida impugnatura di legno collegata a una verga di ferro o di legno, oppure a una palla, provvista di spine. Tra l'impugnatura e il resto si trova un perno o un anello. L'arma deriva da uno strumento usato originariamente per trebbiare il grano.  
+
+STATISTICHE:
+
+Danno: 1D6 + 1
+THAC0: +1 bonus
+Tipo di danno: schiacciamento
+Peso: 15
+Fattore Velocità: 7
+Tipo di competenza: Mazzafrusto/Morning star
+Tipo: ad una mano
+Richiede: 13 alla Forza~
+@7650410 = ~Questa potente arma è composta da un'asta lunga quasi due metri sormontata da una possente lama. L'ascia può essere bipenne, e montare una lama da ogni lato dell'asta, oppure può essere dotata di una lama singola. È  un'arma difficile da impugnare, ma un guerriero abile è in grado di sferrare colpi di grande potenza se la usa come si deve.
+
+STATISTICHE:
+
+Danno: 1D12
+THAC0: bonus +1
+Tipo di danno: tagliente
+Peso: 5
+Fattore Velocità: 9
+Tipo di competenza: Ascia
+Tipo: a due mani
+Richiede: 10 alla Forza~
+@650413 = ~Questa potente arma è composta da un'asta lunga quasi due metri sormontata da una possente lama. L'ascia può essere bipenne, e montare una lama da ogni lato dell'asta, oppure può essere dotata di una lama singola. È  un'arma difficile da impugnare, ma un guerriero abile è in grado di sferrare colpi di grande potenza se la usa come si deve. Per potenziare ulteriormente l'arma, la testa dell'ascia è stata decorata con rune naniche.
+
+STATISTICHE:
+
+Danno: 1d12 + 5
+THAC0 Bonus: +5
+Incantamento: +5
+Speciale:
+  Il bersaglio è sotto l'effetto dell'incantesimo Cecità (salvo se riesce un Tiro salvezza contro gli Incantesimi)
+  +2d6 di danno contro le creature malvagie
+Tipo di danno: Tagliente
+Peso: 9 Kg.
+Tipo di competenza: Ascia
+Tipo: a due mani~
+@7650414 = ~Di sicuro l'arma in asta più vecchia e più diffusa, l'alabarda è composta da un'ascia simile a una mannaia montata in cima a un'asta lunga circa 6 piedi. L'ascia è bilanciata da un alettone posteriore e sormontata da una picca acuminata, di solito di forma quadrangolare. L'alettone a volte è sostituito da un gancio studiato per disarcionare i nemici a cavallo. L'alabarda può essere considerata un incrocio tra un'ascia e una lancia.  
+
+STATISTICHE:
+
+Danno: 1D10
+THAC0: bonus +1
+Tipo di danno: perforante
+Peso: 15
+Fattore Velocità: 9
+Tipo di competenza: Alabarda
+Tipo: a due mani
+Richiede: 13 alla Forza~
+@7650415 = ~I cavalieri non possono usare con efficacia armi in asta quando sono a cavallo, e come risultato molte armi sono state adattate su aste più corte in modo da poter essere impugnate con una sola mano. Le mazze e i mazzafrusti sono due esempi in merito, il martello da guerra è un altro. Il martello da guerra del cavaliere è il discendente del martello di Lucerna. E' fatto interamente in acciaio, con rondelle che proteggono e rinforzano l'impugnatura. Le rondelle sono piccoli dischi di metallo spesso ornati con motivi decorativi. L'asta è lunga circa 54 cm.
+
+STATISTICHE:
+
+Danno: 1D4 + 1
+THAC0: bonus +1
+Tipo di danno: schiacciamento
+Peso: 6
+Fattore Velocità: 4
+Tipo di competenza: Martello da Guerra
+Tipo: ad una mano
+Richiede: 9 alla Forza~
+@7650416 = ~La versione più comune dell'ascia da battaglia è un grosso bastone lungo circa 1,20 m con una lama affilata da una parte montata su un lato. Le asce da battaglia vengono chiamate anche asce larghe.
+
+STATISTICHE:
+
+Danno: 1D6
+THAC0: bonus +1
+Tipo di danno: tagliente
+Peso: 7
+Fattore Velocità: 7
+Tipo di competenza: Ascia
+Tipo: ad una mano
+Richiede: 10 alla Forza~
+
+@650418 = ~Come altre di questo tipo, questa alabarda è costituita da un'ascia simile a una mannaia montata su un'asta lunga circa 1,8 mt.. Le sono state conferite anche piccole proprietà magiche per renderla più efficace in combattimento. La sua lama affilata, ad esempio, si fa strada nella carne dell'avversario in cerca dell'osso, mentre la sua punta aguzza cerca un varco tra le protezioni delle armature.
+
+STATISTICHE:
+
+Danno: 1d10
+Incantamento: +2
+Speciale:
+   Empia: +2d6 di danno contro le creature Buone
+   Caotica: +2d6 di danno contro le creature Legali
+   Sventurata: +2 ai bonus d'attacco contro gli Elfi e danno +2d6+2 contro gli Elfi
+   Vampirica: 1d4 di punti ferita risucchiati al bersaglio che sono aggiunti al possessore dell'alabarda (Tiro salvezza riuscito contro gli Incantesimi per negarne gli effetti)
+Tipo di danno: Perforante
+Tipo di competenza: Alabarda
+Tipo: a due mani
+Peso: 6,3 Kg.
+Richiede: 13 alla Forza~
+@650420 = ~Le antiche leggende naniche narrano di un tempo in cui il più nobile dei metalli non era l'acciaio nanico, o il ferro meteorico, o il mithril, bensì il dykhast - una lega talmente forte che le lame con essa costruite non si smussavano mai in battaglia e non perdevano mai la loro affilatura; la loro superficie era talmente perfetta e splendente che la sua luce scintillante poteva essere vista a distanza di volo di un drago. I nani più vecchi hanno lacrime di nostalgia agli occhi quando parlano delle lame di dykhast, e sputano disgustati a sentir parlare degli "sporchi e fragili metalli" con cui si fanno le armi e le armature al giorno d'oggi.
+
+Circolano voci, tuttavia, di un antico tempio segreto chiamato Chogoh Kyn - laggiù, si narra, le lame di dykhast  vengono ancora costruite secondo le usanze di tempi che furono. Il loro costo forse è alto, ma per i veri intenditori, la gloria, la perfezione e il piacere del dykhast... non hanno prezzo.
+
+STATISTICHE:
+
+Danno: 1d8 + 6
+THAC0 Bonus: +3
+Incantamento: +3
+Speciale:
+  5% di possibilità di accecare il bersaglio (Tiro salvezza riuscito contro il Veleno per negarne gli effetti)
+Tipo di danno: Tagliente
+Tipo di competenza: Spada Lunga
+Tipo: ad una mano~
+@7650421 = ~La mazza è un diretto discendente della clava, non essendo altro che una sbarra di legno sulla cui estremità è montata una punta di pietra o ferro. La forma della punta varia: alcune sono appuntite, altre stondate e altre ancora provviste di punte piramidale.
+
+STATISTICHE:
+
+Danno: 1D6 + 1
+THAC0: bonus +1
+Tipo di danno: schiacciamento
+Peso: 8
+Fattore Velocità: 7
+Tipo di competenza: Mazza
+Tipo: ad una mano
+Richiede: 10 alla Forza~
+@7650422 = ~La morning star è una lancia di legno che termina con una punta di metallo realizzata con una guaina di ferro chiodata. La lunghezza totale della morning star è di circa 1,2 m. Alcune di queste armi hanno punta rotonda, ovale o cilindrica coperta di chiodi. Dalla maggior parte delle punte di morning star si estende una lunga punta per trafiggere, indipendentemente dal modello dell'arma.  
+
+STATISTICHE:
+
+Danno: 2D4
+THAC0: bonus +1
+Tipo di danno: schiacciamento
+Peso: 12
+Fattore Velocità: 7
+Tipo di competenza: Mazzafrusto/Morningstar
+Tipo: ad una mano
+Richiede: 11 alla Forza~
+@650424 = ~Gli archi corti furono i primi ad apparire, anche se non con questo nome. Più che altro questo è un termine generico che si riferisce a ogni arma di questo tipo che non è un arco lungo. Le aste degli archi corti hanno lunghezza media di 1,5 m. Con il trascorrere degli anni si è cercato di aumentare la gittata degli archi costruendoli con aste più lunghe, oppure con maggiore flessibilità senza modificarne la lunghezza giungendo, nel primo caso, alla creazione dell'arco lungo.
+
+STATISTICHE:
+
+Danno: +1 da Proiettile
+THAC0 Bonus: +1
+Speciale:
+  Punti Ferita: +15 ai punti ferita massimi quando maneggiato
+  Bonus alla CA: +1
+Peso: 0,9 Kg.
+Tipo di competenza: Arco Corto
+Tipo: a due mani~
+@7650425 = ~Questa lunga lama ricurva con un solo filo riunisce le principali caratteristiche della scimitarra e della sciabola, anche se queste armi provengono da luoghi estremamente distanti su Faerun. La sciabola, a causa della sua versatilità, è principalmente stata creata per il combattimento a cavallo, mentre la scimitarra presenta maggiori influenze orientali. Il "shamshir", come veniva un tempo chiamata quest'arma, è più largo e ricurvo, e presenta una punta lunga ed acuminata. Per questa ragione è leggermente più lenta, ma tende ad essere più efficace e letale in combattimento.
+
+STATISTICHE:
+
+Danno: 1D8
+THAC0: bonus +1
+Tipo di danno: tagliente
+Peso: 4
+Fattore Velocità: 5
+Tipo di competenza: Scimitarra/Wakizashi/Ninja-To
+Tipo: ad una mano
+Richiede: 10 alla Forza~
+@7650426 = ~La fionda esiste dagli albori dell'umanità. La fionda semplice è fatta di un nastro di pelle o stoffa con una sacca per contenere il proiettile. Questa è comunque impregnata di un piccolo incantamento magico. L'arma viene sostenuta da entrambe le estremità del nastro e roteata intorno alla testa di colui che la impugna. Quando si è raggiunta la massima velocità, il proiettile viene lanciato lasciando una delle estremità del nastro.
+
+STATISTICHE:
+
+THAC0: bonus +1
+Peso: 0
+Fattore Velocità: 6
+Tipo di competenza: Fionda
+Tipo: ad una mano
+Richiede: 3 alla Forza~
+@7650427 = ~Le prime lance, tra le armi più primitive usate dall'uomo e risalenti a tempi antichissimi, erano semplici aste di legno o pali appuntiti a una estremità. Quando l'uomo imparò a lavorare i metalli, le punte delle lance divennero di ferro e di acciaio. A questo punto i costruttori di armi iniziarono a sperimentare con nuovi tipi di punte di lance, sviluppando alcuni tipi di arma lunga.
+
+STATISTICHE:
+
+Danno: 1D6
+THAC0: bonus +1
+Tipo di danno: perforante
+Peso: 5
+Fattore Velocità: 6
+Tipo di competenza: Lancia
+Tipo: a due mani
+Richiede: 5 alla Forza~
+@7650428 = ~Il bastone rinforzato è la più semplice e umile delle armi lunghe ed è costituito da un pezzo di legno lungo da 1,8 a 2,7 m. I bastoni rinforzati di alta qualità vengono fatti in duro legno di quercia e sono ricoperti di metallo a entrambe le estremità. Quest'arma deve essere brandita con entrambe le mani.
+
+STATISTICHE:
+
+Danno: 1D6
+THAC0: bonus +1
+Tipo di danno: schiacciamento
+Peso: 4
+Fattore Velocità: 4
+Tipo di competenza: Bastone
+Tipo: a due mani
+Richiede: 5 alla Forza~
+@7650429 = ~Conosciuta anche come spada a una mano e mezza, la spada bastarda deve il suo nome al fatto che è una via di mezzo tra la spada a due mani e quella lunga. La spada bastarda ha una lama a doppio taglio e una lunga impugnatura, sufficientemente grande da accogliere entrambe le mani. La lunghezza complessiva della spada bastarda varia all'incirca da 1,20 a 1,40 m.
+
+STATISTICHE:
+
+Danno: 2D4
+THAC0: bonus +1
+Tipo di danno: tagliente
+Peso: 10
+Fattore Velocità: 8
+Tipo di competenza: Spada Bastarda
+Tipo: ad una mano
+Richiede: 11 alla Forza~
+@7650430 = ~La spada a due mani deriva dalla spada lunga. Nell'ambito dei costanti tentativi dei fabbricanti di migliorare gli equipaggiamenti dei guerrieri, la lama della spada lunga è stata allungata e quindi è stato necessario allungare l'impugnatura per poter brandire l'arma agevolmente. La funzione principale di una spada a due mani è quella di disarcionare i cavalieri in sella e spezzare le formazioni armate di picche.
+
+STATISTICHE:
+
+Danno: 1D10
+THAC0: bonus +1
+Tipo di danno: tagliente
+Peso: 15
+Fattore Velocità: 10
+Tipo di competenza: Spada a due mani
+Tipo: a due mani
+Richiede: 14 alla Forza~
+@7650431 = ~La katana è una spada leggermente curva, ad un filo, che termina con una parte appuntita. La katana è forse una delle migliore spade mai fatte, le tappe per la sua creazione sono un lungo e segreto processo, più una forma di arte che altro. Questa spada è un'importante sfaccettatura della cultura Kara-Tur. Toccare o maneggiare la katana di un samurai vuol dire insultarlo o stimolare la sua collera. Per un gaijin, o straniero, avere questa spada è un raro evento. Il gaijin può essere un grande ed onorato amico di un importante ministro oppure ha ucciso un samurai.
+
+STATISTICHE:
+
+Danno: 1D10
+THAC0: bonus +1
+Tipo di danno: tagliente
+Peso:  6
+Fattore Velocità: 4
+Tipo di competenza: Katana
+Tipo: ad una mano
+Richiede: 6 alla Forza~
+@7650432 = ~Queste spade vengono solitamente chiamate spade a doppio filo, spade da guerra o spade militari. In molti casi la spada lunga ha solo una lama affilata. Non esiste un'unica versione della spada lunga: la linea, la forma e la lunghezza variano da cultura a cultura a seconda del periodo. Tra le caratteristiche più diffuse delle spade lunghe va menzionata la lunghezza dell'arma, che può variare dai 90 ai 120 cm. In questo caso la lama da sola arriva fino a 100 cm. della lunghezza totale. Alcune spade lunghe hanno una lama a doppio filo e una cima appuntita. Nonostante la punta, tuttavia, la spada lunga è progettata per tagliare, non per perforare.
+
+STATISTICHE:
+
+Danno: 1D8
+THAC0: bonus +1
+Tipo di danno: tagliente
+Peso: 4
+Fattore Velocità: 5
+Tipo di competenza: Spada Lunga
+Tipo: ad una mano
+Richiede: 6 alla Forza~
+@7650433 = ~La spada del ninja, la ninja-to, è di qualità inferiore rispetto alle altre spade Kara-Tur come la katana. la ninja-to è corta e ha una lama dritta, l'ideale per i sotterfugi dei ninja. Essa è più adatta ai luoghi chiusi e a volte avvantaggia il ninja rispetto alle spade più lunghe usate dal samurai.
+
+STATISTICHE
+
+Danno: 1D8
+THAC0: bonus +1
+Tipo di danno: tagliente
+Peso:  5
+Fattore Velocità: 4
+Tipo di competenza: Scimitarra/Wakizashi/Ninja-To
+Tipo: ad una mano
+Richiede: 6 alla Forza~
+@7650434 = ~La spada corta fu la prima spada prodotta. Per dare un'idea approssimativa della forma, la spada corta può essere assimilata a una sorta di pugnale con lama così lunga da non poter più essere considerata tale. Il termine spada corta non esiste nella classificazione delle spade. Tuttavia, definisce una lama a doppio taglio di circa 60 cm. Solitamente l'estremità è appuntita, l'ideale per trafiggere.
+
+STATISTICHE:
+
+Danno: 1D6
+THAC0: bonus +1
+Tipo di danno: perforante
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Spada corta
+Tipo: ad una mano
+Richiede: 5 alla Forza~
+@7650435 = ~La wakizashi, o spada compagna, è estremamente importante per il samurai. Viene portata sempre, anche all'interno di un edificio, e si trova accanto al samurai quando dorme la notte. Costruita altrettanto accuratamente quanto una katana, la wakizashi è una spada più corta, lunga tra i 30 ed i 60 cm., ed è un'arma pericolosa in mano a chi sa usarla.
+
+STATISTICHE
+
+Danno: 1D8
+THAC0: bonus +1
+Tipo di danno: perforante
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Scimitarra/Wakizashi/Ninja-To
+Tipo: ad una mano
+Richiede: 5 alla Forza~
+@7650436 = ~I cavalieri non possono usare con efficacia armi in asta quando sono a cavallo, e come risultato molte armi sono state adattate su aste più corte in modo da poter essere impugnate con una sola mano. Le mazze e i mazzafrusti sono due esempi in merito, il martello da guerra è un altro. Il martello da guerra del cavaliere è il discendente del martello di Lucerna. E' fatto interamente in acciaio, con rondelle che proteggono e rinforzano l'impugnatura. Le rondelle sono piccoli dischi di metallo spesso ornati con motivi decorativi. L'asta è lunga circa 54 cm.
+
+STATISTICHE:
+
+Danno: 1D4 + 1
+THAC0: bonus +1
+Tipo di danno: schiacciamento
+Peso: 6
+Fattore Velocità: 4
+Tipo di competenza: Martello da guerra
+Tipo: ad una mano
+Richiede: 9 alla Forza~
+@7650437 = ~L'accetta è conosciuta anche con il nome di scure. La lama dell'accetta è molto affilata controbilanciata da un gancio appuntito. L'impugnatura è corta e termina con una punta e talvolta in cima c'è anche una sorta di spunzone.
+
+STATISTICHE:
+
+Danno: 1D6 + 1
+THAC0: bonus +1
+Tipo di danno: proiettile (perforante)
+Peso: 5
+Fattore Velocità: 4
+Tipo di competenza: Ascia
+Tipo: ad una mano
+Richiede: 4 alla Forza~
+@7650438 = ~La balestra è un arco montato trasversalmente su un fusto in legno o metallo e in quest'ultimo caso viene chiamata tiller. L'arco è di solito in legno di frassino o di tasso. La balestra lancia un quadrello (detto anche dardo).
+
+STATISTICHE:
+
+Danno: +2 (proiettile)
+THAC0: bonus +1
+Peso: 14
+Fattore Velocità: 10
+Tipo di competenza: Balestra
+Tipo: a due mani
+Richiede: 12 alla Forza~
+@7650439 = ~La balestra è un arco montato trasversalmente su un fusto in legno o metallo e in quest'ultimo caso viene chiamata tiller. L'arco è di solito in legno di frassino o di tasso. La balestra lancia un quadrello (detto anche dardo) Le balestre leggere oltre a pesare meno rispetto a quello normali, sparano anche più velocemente.
+
+STATISTICHE:
+
+THAC0: bonus +1
+Peso: 7
+Fattore Velocità: 5
+Tipo di competenza: Balestra
+Tipo: a due mani
+Richiede: 8 alla Forza~
+
+@650445 = ~Questa potente arma è stata costruita dai devoti fabbri dei piani. E' stata forgiata per gli Uomini del Nord che credono nella battaglia di Ragnarok, il Martello da Guerra di Lokin ha una sua parte nella lotta per evitare che la battaglia di Ragnarok si verifichi prima del tempo. Questo martello da Guerra conferisce a chi la usa un bonus alla sua classe armatura, permette a chi lo usa di ottenere la competenza della maestria per i martelli, inoltre conferisce una serie di resistenze ai danni da: Veleno, Fuoco, Freddo, Acido ed Elettricità.
+
+STATISTICHE:
+
+Danno:  2D8 + 5
+THAC0 bonus: +5
+Speciale:
+  +4 bonus alla Classe Armatura
+  +5 stelle alla competenza dell'uso del Martello da Guerra
+  50% di resistenza al Fuoco
+  50% di resistenza al Freddo
+  50% di resistenza all'Acido
+  50% di resistenza al Veleno
+  50% di resistenza all'Elettricità
+Tipo di danno: schiacciamento
+Peso: 6
+Fattore Velocità: 4
+Tipo di competenza: Martello da Guerra
+Tipo: ad una mano~
+
+@650449 = ~Si tratta semplicemente di un pezzo di titanio forgiato, della lunghezza di settanta centimetri. Il titanio è un metallo pesante molto prezioso. Questa barra di metallo può essere utilizzata anche come arma se necessario, tuttavia se gli si può applicare la testa di una mazza o di un altro congegno, potrebbe facilmente trasformarsi in un'arma formidabile, nelle mani di un portatore esperto.
+
+STATISTICHE:
+
+Danno: 1D8
+Tipo di danno: schiacciamento
+Peso: 3
+Fattore Velocità: 4
+Tipo di competenza: Clava
+Tipo: ad una mano
+Richiede: 5 alla Forza~
+
+@650450 = ~Questa potente arma è stata costruita dai devoti fabbri dei piani. E' stata forgiata per gli Uomini del Nord che credono nella battaglia di Ragnarok, il Martello da Guerra di Lokin ha una sua parte nella lotta per evitare che la battaglia di Ragnarok si verifichi prima del tempo. Questo martello da Guerra conferisce a chi la usa un bonus alla sua classe armatura, permette a chi lo usa di ottenere la competenza della maestria per i martelli, inoltre conferisce una serie di resistenze ai danni da: Veleno, Fuoco, Freddo, Acido ed Elettricità.
+
+STATISTICHE:
+
+Danno: 1D10 + 4
+Bonus per colpire: 4
+Speciale:
+  +2 bonus alla Classe Armatura
+  +4 stelle alla competenza dell'uso del Martello da Guerra
+  25% di resistenza al Fuoco
+  25% di resistenza al Freddo
+  25% di resistenza all'Acido
+  25% di resistenza al Veleno
+  25% di resistenza all'Elettricità
+Tipo di danno: schiacciamento
+Peso: 6
+Fattore Velocità: 4
+Tipo di competenza: Martello da Guerra
+Tipo: ad una mano~
+@650452 = ~A prima vista, questo bastone rinforzato, sembra un bastone come un altro. Tuttavia vi sono incisi diversi simboli, delle specie di rune, in cui è stato infuso uno strato di colore argento. Questo bastone, malgrado le sue decorazioni, sembra essere estremamente importante. Forse sarebbe saggio trovare il suo proprietario - o la tribù a cui appartiene - per poter magari averne una ricompensa restituendo un simile bene.
+
+Benché a prima vista sembra essere un normale bastone rinforzato, ha delle minori proprietà magiche. La prima è un bonus aggiuntivo di 1d4 di danno da schiacciamento per ogni colpo riuscito contro il bersaglio. La seconda, è che con questo bastone rinforzato l'utilizzatore otterrà automaticamente un THAC0 bonus di 2. La terza è che il bastone possiede l'abilità di benedire il suo possessore e i suoi compagni una volta al giorno. Il bastone si ricarica automaticamente dopo un po' di tempo.
+
+STATISTICHE:
+
+Danno: 1D6 +1d4
+Speciale:
+  +2 THAC0 bonus mentre equipaggiato
+  Lancia Benedizione sull'utilizzatore una volta al giorno
+Tipo di danno: schiacciamento
+Peso: 4
+Fattore Velocità: 4
+Tipo di competenza: Bastone
+Tipo: a due mani
+Richiede: 5 alla Forza~
+@650458 = ~La caccia alle Gorgoni è uno sport drow estremamente pericoloso.  Spesso, dopo il buon esito di una caccia, il sangue della Gorgone viene preso ed utilizzato nella creazione di una nuova armatura a piastre. Questo speciale tipo di corazza di piastre drow è effettivamente in grado di resistere alla luce del mondo in superficie.
+
+STATISTICHE:
+
+Classe Armatura: -2
+Bonus: 30% di resistenza al fuoco e all'acido
+Peso: 20
+Richiede: 12 alla Forza~
+
+@650479 = ~Lo spadone combina i vantaggi di una spada lunga con la forza e l'efficacia di una spada a due mani. Nell'ambito dei costanti tentativi dei fabbricanti di migliorare gli equipaggiamenti dei guerrieri, la lama della spada lunga è stata allungata e quindi è stato necessario allungare l'impugnatura per poter brandire l'arma agevolmente.
+
+STATISTICHE:
+
+Danno: 1D12
+Tipo di danno: tagliente
+Peso: 12
+Fattore Velocità: 8
+Tipo di competenza: Spada Lunga
+Tipo: a due mani
+Richiede: 9 alla Forza~
+@650480 = ~Questa è l'arma di Paddy Stoutfellows. E' un pesante spadone, specialmente per un halfling, ma i suo incantamenti magici gli sono stati molto utili nella Foresta di Tethyr.
+
+STATISTICHE:
+
+Danno: 1D12 + 2
+THACO: bonus +2
+Tipo di danno: tagliente
+Peso: 5
+Fattore Velocità: 5
+Tipo di competenza: Spada Lunga
+Tipo: ad una mano
+Richiede: 6 alla Forza~
+@650488 = ~Anello di protezione +3: 'L'Anello della Guardia'
+La Guardia era una sentinella immortale assegnata alla protezione di una tomba che conservava il corpo di una principessa di Akanal. Nel corso dei secoli il rispetto per la tomba andò scemando così come i ricordi della famiglia reale e gli avventurieri cominciarono a tentare di vincere la Guardia. Era inevitabile che prima o poi avrebbero avuto la meglio e quando accadde, l'anello che indossava fu uno dei tanti tesori rubati dalla tomba.
+
+STATISTICHE:
+
+Classe Armatura: bonus +3
+Tiri Salvezza: bonus +3~
+@650492 = ~La storia di quest'arma è sconosciuta. Ti è stata data da Crowley, un ranger, che desidera fosse riparata e affilata. Tu lo hai fatto e la stai riportando al ranger nei boschi a nord di Amn. Quest'ascia conferisce a chi la usa un bonus alla sua classe armatura, permette a chi la usa di ottenere la competenza della maestria per le asce, inoltre conferisce una serie di resistenze ai danni da: Veleno, Fuoco, Freddo, Acido ed Elettricità.
+
+STATISTICHE:
+
+Danno: 2D8 + 5
+THAC0: +5
+Speciale:
+  +2 bonus alla Classe Armatura
+  +4 stelle alla competenza dell'uso dell'Ascia
+  25% di resistenza al Fuoco
+  25% di resistenza al Freddo
+  25% di resistenza all'Acido
+  25% di resistenza al Veleno
+  25% di resistenza all'Elettricità
+Tipo di danno: tagliente
+Peso: 7
+Fattore Velocità: 3
+Tipo di competenza: Ascia~
+@650513 = ~Molti di questi scudi possono essere trovati nei templi dedicati a Waukeen di tutto il Faerun. La chiesa crea questi scudi e li rivende agli avventurieri più intraprendenti. In cambio dei poteri di quest'oggetto al portatore viene richiesto di tenere il lato frontale dello scudo scoperto e nel suo stato originale. Se il proprietario non fa quanto richiesto, il potere dello scudo non funziona. In questo modo, dozzine di avventurieri circolano per i Reami portando il volto dorato di Waukeen al braccio.
+
+STATISTICHE:
+
+Bonus alla Classe Armatura: +3
+Bonus al Tiro Salvezza: +2
+Resistenza alla Magia: +10%
+Peso: 4~
+@650515 = ~Le sole parti materiali di quest'arma gelida sono l'elsa, l'impugnatura e il pomolo, intarsiati in ferro e in argento splendente. Venne creata nel 1099 CV dall'Eletta di Auril, Ihanora la Misericordiosa. Ihanora vagava per il nord, guidando attacchi spietati contro chiunque cercasse di trovare riparo dal gelo o di contrastarne gli effetti. Viaggiava in compagnia di uno strano assortimento di yeti, vermi polari, giganti e con un dragone bianco, e congelava tutto ciò che si lasciava alle spalle. Ihanora venne sconfitta nel 1108 CV dalla famosa Brigata della Maschera Rossa, guidata dallo spietato assassino noto come Harley il Cupo.
+
+STATISTICHE:
+
+Danno: 2d4 + 2
+THAC0: +2
+Speciale:  
+  2% di possibilità di trasformare il bersaglio in ghiaccio solido
+Tipo di danno: Freddo
+Peso: 10
+Fattore Velocità: 6
+Tipo di competenza: Spada bastarda
+Tipo: ad una mano
+Richiede: 9 alla Forza~
+@650518 = ~Una delle prime armi usate dall'uomo, che risale ai tempi più primitivi, le prime lance erano semplicemente paletti di legno o bastoni taglienti ad una estremità. Quando l'uomo conobbe il metallo, le punte della lancia furono costruite in ferro ed acciaio. In seguito, gli armaioli iniziarono a sperimentare diversi tipi di punte di lancia, portando così allo sviluppo di alcuni tipi di armi in asta. Questa lancia tuttavia è leggermente differente in quanto ha dei miglioramenti. La testa ha alcune piccole punte per migliorare il danno quando viene poi rimossa dalla vittima, inoltre la lunghezza dell'asta è stata rinforzata con degli anelli d'acciaio per impedire al legno di rompersi. Gli anelli possiedono delle piccole lame che sporgono in vari angoli. La parte finale dell'impugnatura è ricoperta d'acciaio in modo tale che la lancia può essere utilizzata anche come arma spuntata.
+
+STATISTICHE:
+
+Danno: 1D6 + 1 (perforante)
+        1d4 + 1 (schiacciamento)
+        1d4 + 1 (tagliente)
+THAC0: bonus +1
+Tipo di danno: perforante
+Raggio d'Azione: 70
+Peso: 5
+Fattore Velocità: 5
+Tipo di competenza: Lancia
+Tipo: a due mani
+Richiede: 5 alla Forza~
+@650525 = ~Questa potente arma fu creata da alcuni fabbri per i bardi al fine di poter utilizzare una lama con diverse resistenze. Questa Spellsung Blade è stata data a <Player1> da un Maestro Bardo, un ex insegnante del Collegio Bardico di Silverymoon, ed ha accettato <Player1> come suo proprietario. Solo il prescelto dalla Spellsung Blade la può utilizzare; chiunque altro provi a sfoderarla si troverà orrendamente bruciato, e probabilmente morirà. Questa Spellsung Blade conferisce a chi la usa un bonus alla sua classe armatura, permette a chi lo usa di ottenere la competenza della maestria per le spade lunghe, inoltre conferisce una serie di resistenze ai danni da: Veleno, Fuoco, Freddo, Acido ed Elettricità.
+
+STATISTICHE:
+
+Danno: 2D8 + 5
+Bonus per colpire: 5
+Speciale:
+  +4 bonus alla Classe Armatura
+  +5 stelle alla competenza dell'uso della Spada Lunga
+  50% di resistenza al Fuoco
+  50% di resistenza al Freddo
+  50% di resistenza all'Acido
+  50% di resistenza al Veleno
+  50% di resistenza all'Elettricità
+Tipo di danno: tagliente
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Spada Lunga
+Tipo: ad una mano~
+@650526 = ~Questa potente arma fu creata da alcuni fabbri per i bardi al fine di poter utilizzare una lama con diverse resistenze. Questa Spellsung Blade è stata data a <Player2> da un Maestro Bardo, un ex insegnante del Collegio Bardico di Silverymoon, ed ha accettato <Player2> come suo proprietario. Solo il prescelto dalla Spellsung Blade la può utilizzare; chiunque altro provi a sfoderarla si troverà orrendamente bruciato, e probabilmente morirà. Questa Spellsung Blade conferisce a chi la usa un bonus alla sua classe armatura, permette a chi lo usa di ottenere la competenza della maestria per le spade lunghe, inoltre conferisce una serie di resistenze ai danni da: Veleno, Fuoco, Freddo, Acido ed Elettricità.
+
+STATISTICHE:
+
+Danno: 2D8 + 5
+Bonus per colpire: 5
+Speciale:
+  +4 bonus alla Classe Armatura
+  +5 stelle alla competenza dell'uso della Spada Lunga
+  50% di resistenza al Fuoco
+  50% di resistenza al Freddo
+  50% di resistenza all'Acido
+  50% di resistenza al Veleno
+  50% di resistenza all'Elettricità
+Tipo di danno: tagliente
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Spada Lunga
+Tipo: ad una mano~
+@650527 = ~Questa potente arma fu creata da alcuni fabbri per i bardi al fine di poter utilizzare una lama con diverse resistenze. Questa Spellsung Blade è stata data a <Player3> da un Maestro Bardo, un ex insegnante del Collegio Bardico di Silverymoon, ed ha accettato <Player3> come suo proprietario. Solo il prescelto dalla Spellsung Blade la può utilizzare; chiunque altro provi a sfoderarla si troverà orrendamente bruciato, e probabilmente morirà. Questa Spellsung Blade conferisce a chi la usa un bonus alla sua classe armatura, permette a chi lo usa di ottenere la competenza della maestria per le spade lunghe, inoltre conferisce una serie di resistenze ai danni da: Veleno, Fuoco, Freddo, Acido ed Elettricità.
+
+STATISTICHE:
+
+Danno: 2D8 + 5
+Bonus per colpire: 5
+Speciale:
+  +4 bonus alla Classe Armatura
+  +5 stelle alla competenza dell'uso della Spada Lunga
+  50% di resistenza al Fuoco
+  50% di resistenza al Freddo
+  50% di resistenza all'Acido
+  50% di resistenza al Veleno
+  50% di resistenza all'Elettricità
+Tipo di danno: tagliente
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Spada Lunga
+Tipo: ad una mano~
+@650528 = ~Questa potente arma fu creata da alcuni fabbri per i bardi al fine di poter utilizzare una lama con diverse resistenze. Questa Spellsung Blade è stata data a <Player4> da un Maestro Bardo, un ex insegnante del Collegio Bardico di Silverymoon, ed ha accettato <Player4> come suo proprietario. Solo il prescelto dalla Spellsung Blade la può utilizzare; chiunque altro provi a sfoderarla si troverà orrendamente bruciato, e probabilmente morirà. Questa Spellsung Blade conferisce a chi la usa un bonus alla sua classe armatura, permette a chi lo usa di ottenere la competenza della maestria per le spade lunghe, inoltre conferisce una serie di resistenze ai danni da: Veleno, Fuoco, Freddo, Acido ed Elettricità.
+
+STATISTICHE:
+
+Danno: 2D8 + 5
+Bonus per colpire: 5
+Speciale:
+  +4 bonus alla Classe Armatura
+  +5 stelle alla competenza dell'uso della Spada Lunga
+  50% di resistenza al Fuoco
+  50% di resistenza al Freddo
+  50% di resistenza all'Acido
+  50% di resistenza al Veleno
+  50% di resistenza all'Elettricità
+Tipo di danno: tagliente
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Spada Lunga
+Tipo: ad una mano~
+@650529 = ~Questa potente arma fu creata da alcuni fabbri per i bardi al fine di poter utilizzare una lama con diverse resistenze. Questa Spellsung Blade è stata data a <Player5> da un Maestro Bardo, un ex insegnante del Collegio Bardico di Silverymoon, ed ha accettato <Player5> come suo proprietario. Solo il prescelto dalla Spellsung Blade la può utilizzare; chiunque altro provi a sfoderarla si troverà orrendamente bruciato, e probabilmente morirà. Questa Spellsung Blade conferisce a chi la usa un bonus alla sua classe armatura, permette a chi lo usa di ottenere la competenza della maestria per le spade lunghe, inoltre conferisce una serie di resistenze ai danni da: Veleno, Fuoco, Freddo, Acido ed Elettricità.
+
+STATISTICHE:
+
+Danno: 2D8 + 5
+Bonus per colpire: 5
+Speciale:
+  +4 bonus alla Classe Armatura
+  +5 stelle alla competenza dell'uso della Spada Lunga
+  50% di resistenza al Fuoco
+  50% di resistenza al Freddo
+  50% di resistenza all'Acido
+  50% di resistenza al Veleno
+  50% di resistenza all'Elettricità
+Tipo di danno: tagliente
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Spada Lunga
+Tipo: ad una mano~
+@650530 = ~Questa potente arma fu creata da alcuni fabbri per i bardi al fine di poter utilizzare una lama con diverse resistenze. Questa Spellsung Blade è stata data a <Player6> da un Maestro Bardo, un ex insegnante del Collegio Bardico di Silverymoon, ed ha accettato <Player6> come suo proprietario. Solo il prescelto dalla Spellsung Blade la può utilizzare; chiunque altro provi a sfoderarla si troverà orrendamente bruciato, e probabilmente morirà. Questa Spellsung Blade conferisce a chi la usa un bonus alla sua classe armatura, permette a chi lo usa di ottenere la competenza della maestria per le spade lunghe, inoltre conferisce una serie di resistenze ai danni da: Veleno, Fuoco, Freddo, Acido ed Elettricità.
+
+STATISTICHE:
+
+Danno: 2D8 + 5
+Bonus per colpire: 5
+Speciale:
+  +4 bonus alla Classe Armatura
+  +5 stelle alla competenza dell'uso della Spada Lunga
+  50% di resistenza al Fuoco
+  50% di resistenza al Freddo
+  50% di resistenza all'Acido
+  50% di resistenza al Veleno
+  50% di resistenza all'Elettricità
+Tipo di danno: tagliente
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Spada Lunga
+Tipo: ad una mano~
+@650532 = ~Questa potente arma fu creata da alcuni fabbri per i bardi al fine di poter utilizzare una lama con diverse resistenze. Solo un bardo può utilizzare questa lama; chiunque altro provi a sfoderarla si troverà orrendamente bruciato, e probabilmente morirà. Questa Spellsung Blade conferisce a chi la usa un bonus alla sua classe armatura, permette a chi lo usa di ottenere la competenza della maestria per le spade corte, inoltre conferisce una serie di resistenze ai danni da: Veleno, Fuoco, Freddo, Acido ed Elettricità.
+
+STATISTICHE:
+
+Danno: 1D10 + 4
+THAC0:  +4
+Special:
+  +2 bonus alla Classe Armatura
+  +4 stelle alla competenza dell'uso della Spada Corta
+  25% di resistenza al Fuoco
+  25% di resistenza al Freddo
+  25% di resistenza all'Acido
+  25% di resistenza al Veleno
+  25% di resistenza all'Elettricità
+Tipo di danno: tagliente
+Peso: 3
+Fattore Velocità: 4
+Tipo di competenza: Spada Corta
+Tipo: ad una mano~
+
+@650544 = ~I Mantelli dell'Elusione sono indossati da molti spadaccini che si divertono a impigliare l'arma dell'avversario all'interno delle voluminose pieghe dell'abito. Questo mantello fornisce un po' di protezione contro le armi taglienti e perforanti che hanno la possibilità di "impigliarsi" nel grande mantello.
+
+STATISTICHE:
+
+Classe Armatura: +2 contro le armi Perforanti e Taglienti.
+Speciale: Una volta al giorno può dare una protezione aggiuntiva simile a quella della Pelle di Pietra del mago: annullando i primi 5 attacchi successivi all'invocazione della protezione aggiuntiva.
+Tiro Salvezza: bonus +2
+Peso: 6~
+
+@650548 = ~Bilancia della Giustizia: Questa spada corta era di Tardeth Llanistaph della Compagnia degli Otto. E' curioso che ne sei venuto in possesso. Forse l'hai acquistata illegalmente al mercato nero; o forse Tardeth è stato ucciso e la spada è stata raccolta dai resti del suo cadavere; oppure sei riuscito a strisciare furtivamente all'interno del campo della Compagnia ed hai frugato nella loro roba senza che loro sapessero o si accorgessero che stavi cercando nelle loro cose.
+
+O forse non è per nulla in tuo possesso ma tu lo pensi poiché lo stai leggendo attraverso un tremolio magico di uno schermo di circa 1280 per 1024.
+
+STATISTICHE:
+
+Danno: 1D6 + 3
+THAC0: bonus +3
+Speciale: Concede al suo possessore degli attacchi supplementari che rallentano il bersaglio, inoltre chiunque la maneggia diventa automaticamente esperto nell'uso della Bilancia della Giustizia.
+Tipo di danno: perforante
+Peso: 2
+Fattore Velocità: 0
+Tipo di competenza: Spada Corta
+Tipo: ad una mano
+Richiede: 5 alla Forza~
+@7650549 = ~La versione più comune dell'ascia da battaglia è un'asta robusta lunga circa 1,20 m con una lama imbutiforme affilata da una sola parte e applicata su una delle due estremità. Le asce da battaglia vengono anche chiamate asce larghe.
+
+STATISTICHE:
+
+Danno: 1D8 + 3
+THAC0: bonus +3
+Tipo di danno: tagliente
+Peso: 6
+Fattore Velocità: 7
+Tipo di competenza: Ascia
+Tipo: ad una mano
+Richiede: 10 alla Forza~
+@650551 = ~Una corazza di maglia è fatta di anelli connessi fra di loro. Viene sempre indossata su uno strato di cuoio o di stoffa per prevenire ferite da sfregamento e per ridurre gli impatti dei colpi. Questa armatura fornisce una ulteriore protezione tramite gli incantamenti magici che sono stati posti su di essa. Questa armatura +5 é stata forgiata da Throm Sturman di Hlondeth.
+
+STATISTICHE:
+
+Classe Armatura: 0
+Peso: 10
+Richiede: 8 alla Forza~
+@7650552 = ~Il pugnale ha in genere una lama appuntita e a doppio taglio, al contrario del coltello, che ha la lama affilata solo da un lato ed è più corto del pugnale. 
+
+STATISTICHE:
+
+Danno: 1D8 + 2
+THAC0: +4
+Tipo di danno: perforante
+Peso: 1
+Fattore Velocità: 1
+Tipo di competenza: Pugnale
+Tipo: ad una mano
+Richiede: 3 alla Forza~
+@7650553 = ~Il mazzafrusto è una impugnatura di legno robusto applicata a una mazza di ferro, a una mazza di legno con dei chiodi oppure una palla di ferro chiodata. Tra l'impugnatura e il suo strumento c'è una cerniera oppure un anello. L'arma veniva originariamente usata per trebbiare il grano.
+
+STATISTICHE:
+
+Danno: 1D8 + 5
+THAC0: +4
+Tipo di danno: schiacciamento
+Peso: 12
+Fattore Velocità: 7
+Tipo di competenza: Mazzafrusto/Morningstar
+Tipo: ad una mano
+Richiede: 13 alla Forza~
+@7650554 = ~Sicuramente la lancia più antica e sfruttata, l'alabarda, è composta da una lama simile a un macete montata all'estremità di una staffa lunga circa 1,80 m. La lama dell'ascia è bilanciata dall'altro lato da un gancio appuntito e sormontata da uno spunzone affilato, generalmente quadrato. Talvolta il gancio viene sostituito da un uncino utilizzato per smontare la cavalleria. Un'alabarda potrebbe essere considerata come una via di mezzo tra una lancia e un'ascia.
+
+STATISTICHE:
+
+Danno: 1D12 + 1
+THAC0: +2
+Tipo di danno: perforante
+Peso: 13
+Fattore Velocità: 8
+Tipo di competenza: Alabarda
+Tipo: a due mani
+Richiede: 13 alla Forza~
+@650556 = ~L'armatura completa è la migliore che un guerriero possa comprare, sia in aspetto che in termini di protezione. Le piastre si interconnettono perfettamente e sono angolate in modo da deviare frecce e colpi, e l'intera corazza è meticolosamente ornata con fregi e dettagli. Questa corazza +5 è stata forgiata da Throm Sturman di Hlondeth.
+
+STATISTICHE:
+
+Classe Armatura: -4
+Peso: 20
+Richiede: 15 alla Forza~
+@650558 = ~Questo scudo è stato fabbricato con materiali di ottima qualità ed è stato forgiato da Throm Sturman di Hlondeth.
+
+STATISTICHE:
+
+Classe Armatura Bonus: 6
+Speciale: +2 contro le Armi da lancio
+Peso: 10
+Richiede: 10 alla Forza~
+@7650559 = ~Le prime lance, tra le armi più primitive usate dall'uomo e risalenti a tempi antichissimi, erano semplici aste di legno o pali appuntiti a una estremità. Quando l'uomo imparò a lavorare i metalli, le punte delle lance divennero di ferro e di acciaio. A questo punto i costruttori di armi iniziarono a sperimentare nuovi tipi di punte di lance, sviluppando alcuni tipi di arma lunga.
+
+STATISTICHE:
+
+Danno: 1D10
+THAC0: +4
+Tipo di danno: perforazione
+Peso: 4
+Fattore Velocità: 4
+Tipo di competenza: Lancia 
+Tipo: a due mani
+Richiede: 5 alla Forza~
+@650561 = ~La corazza a strisce è una variante della corazza a bande nella quale le strisce di metallo vengono applicate verticalmente su un sopporto di maglia, cuoio o tessuto invece che orizzontalmente come nella corazza a bande. Dato che il corpo umano all'altezza del mezzo busto tende più a flettersi che a ruotare, la corazza a strisce limita molto i movimenti in battaglia. Questa corazza è stata forgiata da Throm Sturman di Hlondeth, e garantisce a coloro la indossano un bonus di +4 alla loro classe armatura.
+
+STATISTICHE:
+
+Classe Armatura: 1
+Peso: 10
+Richiede: 8 alla Forza~
+@7650562 = ~Queste spade sono spesso chiamate spade a doppia lama, spade da guerra o spade militari. In molti casi la spada lunga ha una lama affilata solo da un lato. Non esiste una versione unica della spada lunga: l'aspetto e la lunghezza variano da cultura a cultura e addirittura possono essere diverse anche nell'ambito di una stessa cultura in epoche diverse. Una tra le caratteristiche più comuni delle spade lunghe è, appunto, la loro lunghezza che va dagli 87 ai 117 cm. In quest'ultimo caso, la lama occupa un metro della lunghezza totale. La maggior parte delle spade lunghe ha lama a doppio taglio e punta affilata. Nonostante la punta, la spada lunga è stata pensata per tagliare, non per infilzare. 
+
+STATISTICHE:
+
+Danno: 1D8 + 3
+THAC0: +3
+Tipo di danno: tagliente
+Peso: 3
+Fattore Velocità: 5
+Tipo di competenza: Spada Lunga
+Tipo: ad una mano
+Richiede: 6 alla Forza~
+@7650563 = ~I cavalieri non possono usare con efficacia armi in asta quando sono a cavallo, e come risultato molte armi sono state adattate su aste più corte in modo da poter essere impugnate con una sola mano. Le mazze e i mazzafrusti sono due esempi in merito, il martello da guerra è un altro. Il martello da guerra del cavaliere è il discendente del martello di Lucerna. E' fatto interamente in acciaio, con rondelle che proteggono e rinforzano l'impugnatura. Le rondelle sono piccoli dischi di metallo spesso ornati con motivi decorativi. L'asta è lunga circa 54 cm.
+
+STATISTICHE:
+
+Danno: 2D6 + 3
+THAC0: +4
+Tipo di danno: schiacciamento
+Peso: 5
+Fattore Velocità: 3
+Tipo di competenza: Martello da guerra
+Tipo: ad una mano
+Richiede: 9 alla Forza~
+@650566 = ~Questa cassetta degli attrezzi contiene piccole sonde, delle chiavi universali, dei tagliafili, delle lime, degli strumenti a punta, delle forbici, un assortimento di piccoli cacciaviti, delle pinze e molti altri utili oggetti per un ladro. Può essere utile quando si cerca di rimuovere delle trappole, scassinare delle serrature, o svuotare le tasche a bersagli particolarmente scaltri.
+
+STATISTICHE:
+  Bonus allo Scassinare Serrature: 30%
+  Bonus allo Scoprire Trappole: 15%
+  Bonus allo Svuotare Tasche: 15%
+
+Mattere l'oggetto al posto dello slot dello scudo per guadagnare i bonus.~
+
+@650568 = ~Stocco di Valiant
+
+Creata appositamente per utilizzarla al servizio di Torm o di Tyr, Valiant, un avventuriero ormai a riposo che ora gestisce un negozio di armi e armature nella città di Hlondeth, ha fatto un buon uso di questa spada nelle sue battaglie contro gli avversari. Attraverso al magia o la benedizione la sottile e liscia lama è stata potenziata con l'abilità del suo proprietario nel colpire con una velocità e una delicatezza tale che la lama sembra danzare invece di combattere..
+
+STATISTICHE:
+
+Danno: 1D8 + 4
+THAC0 Bonus: +4
+Speciale:  
+  Il possessore è sotto l'effetto Turbine mentre ne è equipaggiato, inclusa la penalità di -4 alla THAC0 e la penalità di -4 al Danno
+Tipo di danno: perforante
+Peso: 1
+Fattore Velocità: 1
+Tipo di competenza: Spada lunga
+Tipo: ad una mano
+Richiede: 6 alla Forza~
+
+@650602 = ~Al culmine del suo splendore di breve durata Myth Drannor, la Città Elfica del Canto era conosciuta per la sua musica artistica, le sue arti teatrali e il suo incantevole fascino. Gli Elfi di Cormanthor crearono artefatti potenti e bellissimi, che sono tuttora ricercati da cacciatori di tesori e avventurieri.
+
+Quest'arpa di palissandro perfettamente scolpita e decorata con una lamina di filigrana d'oro, è uno di quegli artefatti che dimostrano la supremazia nelle capacità artistiche degli artigiani Elfi. Non tenendo conto degli incantamenti, quest'arpa fatta a mano è un esempio di perfezione nel campo dell'intaglio del legno. La struttura di cristallo levigata, la quasi totale assenza di cuciture, le complesse e dettagliate incisioni e la lucentezza satinata - anche dopo più di cinque secoli dalla sua creazione - prova inconfutabilmente la superiorità dell'artigianato elfico. La doratura che orna l'arpa non ha perso molto della sua originale lucentezza e le sue corde dorate brillano nella luce.
+
+Oltre alla qualità artigianale, quest'Arpa è stata incantata da alcuni potentissimi anziani arcimaghi Elfi di Myth Drannor. Le corde d'oro, sette in tutto, vibrano tutte in risonanza con la Trama. Le particolari proprietà di queste corde non possono essere rivelate fino a quando l'Arpa non viene suonata, ci sono numerose Arpe di Myth Drannor disseminate per Faerûn, tutte con proprietà simili. Alcune della proprietà conosciute delle Arpe che sono state trovate includono un incremento del numero di incantesimi lanciati ad ogni round e inoltre in base all'allineamento di colui che ascolta, si ottiene la possibilità di rendere permanentemente sordi, aumentare il numero di attacchi per round, oppure di incrementare in modo permanente il carisma.
+
+Ogni volta che una corda dell'Arpa di Myth Drannor viene pizzicata, causerà a colui o a coloro che ascoltano i summenzionati effetti - o un altro effetto sconosciuto, scelto casualmente - positivi o negativi che siano. Il rilascio di questi effetti magici distruggono la corda durante il processo. Quando le corde d'oro sono state tutte utilizzate, l'Arpa di Myth Drannor perde le sue proprietà magiche.
+
+*In concorso al premio 2002 CIMS (Concorso sulla creazione di oggetti di CBisson)~
+@650603 = ~Al culmine del suo splendore di breve durata Myth Drannor, la Città Elfica del Canto era conosciuta per la sua musica artistica, le sue arti teatrali e il suo incantevole fascino. Gli Elfi di Cormanthor crearono artefatti potenti e bellissimi, che sono tuttora ricercati da cacciatori di tesori e avventurieri.
+
+Quest'arpa di palissandro perfettamente scolpita e decorata con una lamina di filigrana d'oro, è uno di quegli artefatti che dimostrano la supremazia nelle capacità artistiche degli artigiani Elfi. Non tenendo conto degli incantamenti, quest'arpa fatta a mano è un esempio di perfezione nel campo dell'intaglio del legno. La struttura di cristallo levigata, la quasi totale assenza di cuciture, le complesse e dettagliate incisioni e la lucentezza satinata - anche dopo più di cinque secoli dalla sua creazione - prova inconfutabilmente la superiorità dell'artigianato elfico. La doratura che orna l'arpa non ha perso molto della sua originale lucentezza e le sue corde dorate brillano nella luce.
+
+Oltre alla qualità artigianale, quest'Arpa è stata incantata da alcuni potentissimi anziani arcimaghi Elfi di Myth Drannor. Le corde d'oro, sei in tutto, vibrano tutte in risonanza con la Trama. Le particolari proprietà di queste corde non possono essere rivelate fino a quando l'Arpa non viene suonata, ci sono numerose Arpe di Myth Drannor disseminate per Faerûn, tutte con proprietà simili. Alcune della proprietà conosciute delle Arpe che sono state trovate includono un incremento del numero di incantesimi lanciati ad ogni round e inoltre in base all'allineamento di colui che ascolta, si ottiene la possibilità di rendere permanentemente sordi, aumentare il numero di attacchi per round, oppure di incrementare in modo permanente il carisma.
+
+Ogni volta che una corda dell'Arpa di Myth Drannor viene pizzicata, causerà a colui o a coloro che ascoltano i summenzionati effetti - o un altro effetto sconosciuto, scelto casualmente - positivi o negativi che siano. Il rilascio di questi effetti magici distruggono la corda durante il processo. Quando le corde d'oro sono state tutte utilizzate, l'Arpa di Myth Drannor perde le sue proprietà magiche.~
+@650604 = ~Al culmine del suo splendore di breve durata Myth Drannor, la Città Elfica del Canto era conosciuta per la sua musica artistica, le sue arti teatrali e il suo incantevole fascino. Gli Elfi di Cormanthor crearono artefatti potenti e bellissimi, che sono tuttora ricercati da cacciatori di tesori e avventurieri.
+
+Quest'arpa di palissandro perfettamente scolpita e decorata con una lamina di filigrana d'oro, è uno di quegli artefatti che dimostrano la supremazia nelle capacità artistiche degli artigiani Elfi. Non tenendo conto degli incantamenti, quest'arpa fatta a mano è un esempio di perfezione nel campo dell'intaglio del legno. La struttura di cristallo levigata, la quasi totale assenza di cuciture, le complesse e dettagliate incisioni e la lucentezza satinata - anche dopo più di cinque secoli dalla sua creazione - prova inconfutabilmente la superiorità dell'artigianato elfico. La doratura che orna l'arpa non ha perso molto della sua originale lucentezza e le sue corde dorate brillano nella luce.
+
+Oltre alla qualità artigianale, quest'Arpa è stata incantata da alcuni potentissimi anziani arcimaghi Elfi di Myth Drannor. Le corde d'oro, cinque in tutto, vibrano tutte in risonanza con la Trama. Le particolari proprietà di queste corde non possono essere rivelate fino a quando l'Arpa non viene suonata, ci sono numerose Arpe di Myth Drannor disseminate per Faerûn, tutte con proprietà simili. Alcune della proprietà conosciute delle Arpe che sono state trovate includono un incremento del numero di incantesimi lanciati ad ogni round e inoltre in base all'allineamento di colui che ascolta, si ottiene la possibilità di rendere permanentemente sordi, aumentare il numero di attacchi per round, oppure di incrementare in modo permanente il carisma.
+
+Ogni volta che una corda dell'Arpa di Myth Drannor viene pizzicata, causerà a colui o a coloro che ascoltano i summenzionati effetti - o un altro effetto sconosciuto, scelto casualmente - positivi o negativi che siano. Il rilascio di questi effetti magici distruggono la corda durante il processo. Quando le corde d'oro sono state tutte utilizzate, l'Arpa di Myth Drannor perde le sue proprietà magiche.
+
+*In concorso al premio 2002 CIMS (Concorso sulla creazione di oggetti di CBisson)~
+@650605 = ~Al culmine del suo splendore di breve durata Myth Drannor, la Città Elfica del Canto era conosciuta per la sua musica artistica, le sue arti teatrali e il suo incantevole fascino. Gli Elfi di Cormanthor crearono artefatti potenti e bellissimi, che sono tuttora ricercati da cacciatori di tesori e avventurieri.
+
+Quest'arpa di palissandro perfettamente scolpita e decorata con una lamina di filigrana d'oro, è uno di quegli artefatti che dimostrano la supremazia nelle capacità artistiche degli artigiani Elfi. Non tenendo conto degli incantamenti, quest'arpa fatta a mano è un esempio di perfezione nel campo dell'intaglio del legno. La struttura di cristallo levigata, la quasi totale assenza di cuciture, le complesse e dettagliate incisioni e la lucentezza satinata - anche dopo più di cinque secoli dalla sua creazione - prova inconfutabilmente la superiorità dell'artigianato elfico. La doratura che orna l'arpa non ha perso molto della sua originale lucentezza e le sue corde dorate brillano nella luce.
+
+Oltre alla qualità artigianale, quest'Arpa è stata incantata da alcuni potentissimi anziani arcimaghi Elfi di Myth Drannor. Le corde d'oro, quattro in tutto, vibrano tutte in risonanza con la Trama. Le particolari proprietà di queste corde non possono essere rivelate fino a quando l'Arpa non viene suonata, ci sono numerose Arpe di Myth Drannor disseminate per Faerûn, tutte con proprietà simili. Alcune della proprietà conosciute delle Arpe che sono state trovate includono un incremento del numero di incantesimi lanciati ad ogni round e inoltre in base all'allineamento di colui che ascolta, si ottiene la possibilità di rendere permanentemente sordi, aumentare il numero di attacchi per round, oppure di incrementare in modo permanente il carisma.
+
+Ogni volta che una corda dell'Arpa di Myth Drannor viene pizzicata, causerà a colui o a coloro che ascoltano i summenzionati effetti - o un altro effetto sconosciuto, scelto casualmente - positivi o negativi che siano. Il rilascio di questi effetti magici distruggono la corda durante il processo. Quando le corde d'oro sono state tutte utilizzate, l'Arpa di Myth Drannor perde le sue proprietà magiche.
+
+*In concorso al premio 2002 CIMS (Concorso sulla creazione di oggetti di CBisson)~
+
+@650607 = ~I potenti incantamenti su questa Pietra Magica ne fanno un tesoro avidamente ricercato da parte di stregoni e maghi.
+
+STATISTICHE:
+
+Permette all'utilizzatore di sapere istintivamente dove attaccare una creatura nascosta senza l'utilizzo di Visione del Vero o dissipazioni della magia quando indossato.~
+@650609 = ~Questo è un pesante, quadrato e fitto tomo riempito di pergamene di colore beige rilegate su una tavola di acero coperte da una pelle di cuoio. Il libro sembra essere stato molto utilizzato ma non è ridotto in cattivo stato. Non possiede trappole o difese conosciute, ma la fibbia di ottone e i cerchi decorati provano che si tratta del perduto libro di incantesimi di Desmondal.
+
+Desmondal era un solenne mago di Athkatla che morì una settantina di anni fa per una febbre invernale. I suoi beni personali furono venduti da un mercante di Amn, Oristel - quasi certamente dopo che diversi maghi ebbero avuto il permesso di copiare gli incantesimi dal Libram sotto pagamento di un onorario elevato. L'acquirente del Libram ed il luogo in cui si trova è sconosciuto.
+
+All'interno del Libram di Desmondal ci sono dieci incantesimi, che sono elencati sotto e possono essere memorizzati nel modo consueto. Quando ogni incantesimo viene memorizzato può essere poi lanciato normalmente, sebbene l'incantesimo rimarrà all'interno del tomo, diversamente da una normale pergamena che viene distrutta durante il processo magico.
+
+Nonostante il fatto che l'incantesimo può essere memorizzato da un personaggio, deve essere comunque letto dal Libram per essere lanciato. Per fare tutto ciò inserisci il libro degli incantesimi nello slot dello scudo, ed avrai accesso agli incantesimi tramite il pulsante della capacità degli Oggetti.
+
+STATISTICHE:
+
+Ciascuno dei seguenti incantesimi può essere lanciato ad ogni ciclo di riposo:
+  Fortuna
+  Trappola a teschio
+  Globo minore di invulnerabilità
+  Protezione dall'Elettricità
+  Perforare Magia
+  Pietra in carne
+  Spruzzo Prismatico
+  Proietta Immagine
+  Parola del Potere: Accecare
+  Risucchio d'Energia
+E' da notare che gli incantesimi non utilizzati sono 'persi', ma non rimossi dal libro degli incantesimi durante un particolare ciclo di riposo; gli incantesimi non si possono accumulare. Gli incantesimi del Libro degli Incantesimi di Desmondal sono lanciati come se l'utilizzatore fosse un mago di livello 9.
+
+*Secondo posto del premio 2002 CIMS (Concorso sulla creazione di oggetti di CBisson)~
+@650611 = ~Questo anello, forgiato con l'acciaio, si adatterà a qualsiasi dito lo indossi. Ciascuna delle pietre d'ambra collocate sull'anello rimangono fredde al tocco, a prescindere dal calore dell'anello. L'anello possiede delle semplici proprietà magiche e permetterà al possessore di diventare etereo. Sebbene l'anello rimane nel Primo Piano Materiale, causerà a chiunque lo indossi di spostarsi tra i piani, garantendogli un'immunità dalle creature naturali come gli orsi, i leoni, i lupi, e simili.
+
+STATISTICHE:
+
+Protegge colui che lo indossa dagli animali.~
+@650613 = ~Questo grande scudo, insieme con la sua compagna arma dallo stesso nome, la Spada di Blevin, ha una lunga ed illustre storia.
+
+Durante l'Anno of the Spreading Spring, drastici ed improvvisi cambiamenti climatici cambiarono rapidamente i luoghi delle Terre Centrali Occidentali di Faerûn. Una corta stagione di piogge ed una spiacevole estate calda portò una siccità di vaste proporzioni. Il livello dell'acqua della Palude Marlontano scese fino a raggiungere il suo fondo paludoso e acquitrinoso, infestato di canne. Il grande deserto Anauroch estese i suoi confini a sud.
+
+Più di trecento anni fa, il deserto avanzò quindi verso sud, e così fecero i goblin. Durante l'inverno del 1089, Izac Uthor radunò un esercito di goblin nei pressi del villaggio abbandonato di Thandril, a nordovest delle Marche dei Goblin. L'esercito era composto da non meno di 200,000 goblin, decine di migliaia di affiliati orchi e coboldi, ed un migliaio di hobgoblin che comandavano dei distaccamenti di goblin o orchi. Naturalmente anche una forza di un quarto di milioni di combattenti avrebbe potuto difficilmente sperare di conquistare, ed ancora meno occupare, interamente i Reami Occidentali a nord dei Campi dei Morti. Molte tese discussioni ebbero luogo nel Cormyr, Hill's Edge, Tilverton, Soubar, Shadowdale, e gli altri luoghi che si trovavano sulla strada del grande esercito minaccioso.
+
+Truppe regolari e milizie locali furono inviate a Hill's Edge per formare una coalizione nella battaglia contro l'orda dei goblin. Vennero da Beregost, Bladur's Gate, Berdusk, Iriaebor, Elturel, Scornubel, Soubar, e dai dintorni dell'Alta Brughiera. Appena tutte le forze furono arrivate si trovò subito un capo: Artur Blevin, comandante delle forze provenienti da Soubar. Blevin aveva con se questo scudo mentre le truppe di entrambe le schiere si radunavano sulla pianura, poco prima dell'alba; appena ebbe inizio la battaglia tutti combatterono dovunque trovavano i loro nemici. Blevin trucidò più di sessanta goblin, anche se non servì a nulla. Tra le truppe di Artur Blevin, nessuno ne uscì indenne.
+
+Dopo la Battaglia delle Ossa, lo scudo andò perduto e inoltre il registro degli oggetti e dei suoi proprietari fu compilato in modo approssimativo e incompleto. Tuttavia, secoli dopo lo scudo ricomparve, questa volta nelle mani di una banda di orchi predatori. Lo scudo fu poi recuperato dalle guardie di una carovana proveniente da Waterdeep e diretta a Scornubel, ma la carovana subì un'imboscata prima di completare le sue attività commerciali da un gruppo di banditi orchi e mezz'orchi numerosi e ben equipaggiati, e divenne di proprietà di un crudele mezz'orco chiamato Sureblade. Come lo scudo sia finito in questa vecchia Torre dei Maghi non si sa.
+
+Questo oggetto è da considerarsi davvero un tesoro, poiché molto probabilmente ha salvato la vita a più di un avventuriero che lo portava con se attraverso tutta Faerûn. Questo scudo decresce la Classe Armatura di 6 e aggiunge 3 a tutti i tiri salvezza. Inoltre lo scudi di Blevin permette di muoversi talmente rapidamente che la velocità di colui che lo indossa aumenta di 2 ed i normali proiettili non hanno la possibilità di colpirlo.
+
+STATISTICHE:
+
+Bonus alla Classe Armatura: 6
+Speciale:
+  Armi da Lancio inefficaci
+  Incrementa la velocità di movimento
+Peso: 10
+Richiede: 16 alla Forza~
+@650615 = ~Questa grande spada da guerra, insieme con il suo compagno scudo, lo Scudo di Blevin, ha una lunga ed illustre storia.
+
+Durante l'Anno of the Spreading Spring, drastici ed improvvisi cambiamenti climatici cambiarono rapidamente i luoghi delle Terre Centrali Occidentali di Faerûn. Una corta stagione di piogge ed una spiacevole estate calda portò una siccità di vaste proporzioni. Il livello dell'acqua della Palude Marlontano scese fino a raggiungere il suo fondo paludoso e acquitrinoso, infestato di canne. Il grande deserto Anauroch estese i suoi confini a sud.
+
+Più di trecento anni fa, il deserto avanzo quindi verso sud, e così fecero i goblin. Durante l'inverno del 1089, Izac Uthor radunò un esercito di goblin nei pressi del villaggio abbandonato di Thandril, a nordovest delle Marche dei Goblin. L'esercito era composto da non meno di 200,000 goblin, decine di migliaia di affiliati orchi e coboldi, ed un migliaio di hobgoblin che comandavano dei distaccamenti di goblin o orchi. Naturalmente anche una forza di un quarto di milioni di combattenti avrebbe potuto difficilmente sperare di conquistare, ed ancora meno occupare, interamente i Reami Occidentali a nord dei Campi dei Morti. Molte tese discussioni ebbero luogo nel Cormyr, Hill's Edge, Tilverton, Soubar, Shadowdale, e gli altri luoghi che si trovavano sulla strada del grande esercito minaccioso.
+
+Truppe regolari e milizie locali furono inviate a Hill's Edge per formare una coalizione nella battaglia contro l'orda dei goblin. Vennero da Beregost, Bladur's Gate, Berdusk, Iriaebor, Elturel, Scornubel, Soubar, e dai dintorni dell'Alta Brughiera. Appena tutte le forze furono arrivate si trovò subito un capo: Artur Blevin, comandante delle forze provenienti da Soubar. Blevin aveva con se questa grande spada da guerra, mentre le truppe di entrambe le schiere si radunavano sulla pianura, poco prima dell'alba; appena ebbe inizio la battaglia tutti combatterono dovunque trovavano i loro nemici. Blevin trucidò più di sessanta goblin, anche se non servì a nulla. Tra le truppe di Artur Blevin, nessuno ne uscì indenne.
+
+Dopo la Battaglia delle Ossa, la spada andò perduta e inoltre il registro degli oggetti e dei suoi proprietari fu compilato in modo approssimativo e incompleto. Tuttavia, secoli dopo la spada ricomparve, questa volta nelle mani di una banda di orchi predatori. La spada fu poi recuperata dalle guardie di una carovana proveniente da Waterdeep e diretta a Scornubel, ma la carovana subì un'imboscata prima di completare le sue attività commerciali da un gruppo di banditi orchi e mezz'orchi numerosi e ben equipaggiati, e divenne di proprietà di un crudele mezz'orco chiamato Sureblade. Come la spada sia finita in questa vecchia Torre dei Maghi non si sa.
+
+Questa spada è veramente un'arma degna dei più abili combattenti, in quanto permette al colui che la impugna di trapassare le difese della maggior parte delle creature. Subito dopo un colpo riuscito contro un bersaglio di livello 18 o inferiore, la creatura colpita viene uccisa istantaneamente, un'abilità che può essere molto utile quando ci si trova davanti a potenti nemici.
+
+
+STATISTICHE:
+
+Danno: 2D6 + 3
+THAC0: bonus +3
+Speciale:
+  Uccide in nemici di livello 18 o inferiore con un colpo andato a buon fine (il bersaglio riceve un tiro salvezza contro morte con una penalità di -2)
+Tipo di danno: tagliente
+Peso:  6
+Fattore Velocità: 4
+Tipo di competenza: Spada Bastarda
+Tipo: ad una mano
+Richiede: 15 alla Forza~
+@650621 = ~Il pugnale tipico ha una lama appuntita a doppio filo, a differenza del coltello, che ha un solo filo tagliente ed è più corto. Questo pugnale in particolare è magico, e ha dei bonus speciali per la velocità, la precisione e il danno che infligge. Inoltre, dal momento che è magico, è in grado di colpire avversari solitamente immuni alle armi normali, come i vampiri, gli elementali e le mummie.
+
+STATISTICHE:
+
+Danno: 1D4 + 3
+THAC0: bonus +3
+Tipo di danno: perforante
+Peso: 0
+Fattore Velocità: 0
+Tipo di competenza: Pugnale
+Tipo: ad una mano
+Require: 3 alla Forza~
+@650625 = ~Questo raffinato strumento musicale, quest'arpa, è stata trovata all'interno della Roccaforte degli Arpisti ad Athkatla. La sua musica è rilassante, tuttavia quando le sue corde sono pizzicate in un ordine particolare, l'arpa permette ad un bardo di instillare per i suoi compagni l'abilità di aumentare il loro auto controllo e privacy, difendendoli dalla maggior parte degli effetti mentali - Charme, Comando, Dominio, Paura, Regressione Mentale e a qualsiasi tipo di scrutamento utilizzando la sfera di cristallo o altri metodi di divinazione.
+
+STATISTICHE:
+
+Speciale: Mente Libera su tutti i membri del gruppo una volta al giorno~
+@650627 = ~Tra tutti i comuni dispositivi per segnare il tempo che si possono trovare nei Reami, questo oggetto ad un rapido controllo è composto da due globi di vetro collegati da uno stretto passaggio, il quale segna il tempo con un granello di sabbia che cade tra i due globi, si tratta di una Clessidra. Tuttavia, esaminando le incisioni sulla base, questa Clessidra ha l'abilità di sospendere il tempo per un breve istante a favore di colui che la utilizza, permettendogli di intraprendere delle azioni in questo lasso di tempo.
+
+STATISTICHE:
+
+Speciale: Può lanciare Fermare il Tempo una volta al giorno~
+
+@650628 = ~Questa potente arma è stata creata dai fabbri dell'antica Myth Drannor. Le Lame di Luna vengono usate nel lungo processo di selezione del capo dell'isola di Evermeet. Una Lama di Luna sceglie il suo proprietario, ed in questo caso la spada ha scelto l'Arpista Ranger, Julian Nonnel. Solo Julian può usare questa lama, chiunque altro provi ad utilizzarla si troverà incapace a sollevarla. Questa Lama di Luna attribuisce resistenza al fuoco e dona al suo proprietario un bonus alla classe armatura.
+
+STATISTICHE:
+
+Danno: 1D12 + 4
+THAC0:  +4
+Speciale:
+  +12 ai Punti ferita quando equipaggiata
+  Massimo Danno con un Attacco andato a buon fine
+Tipo di danno: tagliente
+Peso: 6
+Fattore Velocità: 4
+Tipo di competenza: Spada a due mani
+Tipo: a due mani~
+
+@650629 = ~Questa è la morningstar di Kiel il Devasta-Legioni, il primogenito di Durlag l'Ammazzatroll e il principe di clan della sventurata torre di suo padre. Impugnava quest'arma nell'ora in cui si precipitò da suo padre per avvertirlo che dei doppelganger si erano infiltrati nella loro dimora. Si dice che l'intensità della sua collera rimase impressa sull'arma in quegli ultimi, drammatici momenti. Tutti coloro che la impugnano vengono sopraffatti dalla stessa rabbia non appena un nemico viene avvistato.
+
+Sembrerebbe che questa morningstar sia stata recuperata dalla Torre di Durlag e portata alla Roccaforte degli Arpisti ad Athkatla per custodirla. Da quando quest'arma è stata ritrovata, il suo valore è notevolmente aumentato.
+
+STATISTICHE:
+
+Danno: 2D4 + 3
+THAC0: +3
+Speciale:  
+  Quest'arma è maledetta e instilla una furia berserker in colui che la impugna
+Tipo di danno: schiacciamento
+Peso: 10
+Fattore Velocità: 4
+Tipo di competenza: Armi Chiodate
+Tipo: ad una mano
+Richiede: 10 alla Forza~
+@650631 = ~Questa tunica, solitamente indossata degli Stregoni Incappucciati, conferisce diversi incantesimi a colui che la indossa. Oltre ad abbassare la classe armatura a 4, concede un bonus del 25% ai seguenti tipi di danni: da Fuoco, da Freddo, da Acido, dall'Elettricità e dalla Magia. Molti giovani Stregoni Incappucciati la ricevono come un dono da parte dei loro istruttori per aver completato con successo i loro primi cinque anni di apprendistato. Come con le altre tuniche simili, possono essere utilizzate solamente da chi professa il mestiere del mago.
+
+STATISTICHE:
+
+Bonus alla Classe Armatura: 4 (Base)
+Resistenza all'Acido: +25% di bonus
+Resistenza al Freddo: +25% di bonus
+Resistenza al Fuoco: +25% di bonus
+Resistenza all'Elettricità: +25% di bonus
+Resistenza alla Magia: +25% di bonus
+Peso: 3~
+@650634 = ~Solo i sommi e devoti adoratori di Lathander il Sacerdote dell'Alba guadagnano i poteri concessi da questi sacri simboli benedetti, gli anelli con sigillo.
+
+STATISTICHE:
+
+Concede due incantesimi addizionali di livello 5, 6 e 7
+20% di bonus alla resistenza Magica quando è indossato
++1 alla Forza quando indossato
++2 alla Saggezza quando indossato~
+@650640 = ~Il sacrificio di una forte somma in oro, combinato con l'osservanza di una cerimonia di benedizione, ha convinto Lathander a trasformare questi già potenti bracciali in uno strumento di potere sacro ancora più incredibile.
+
+STATISTICHE:
+
+Lancia Cura Ferite Critiche due volte al giorno 
++15 ai Punti Ferita massimi quando indossati
+
+Peso: 3~
+@650642 = ~Questo pugnale agisce come un pugnale +5 contro i Licantropi.
+
+STATISTICHE:
+
+Danno: 1D4 + 2 (+4 contro i Licantropi)
+THAC0: +1
+Tipo di danno: perforante
+Peso: 1
+Fattore Velocità: 2
+Tipo di competenza: Spada Corta
+Tipo: ad una mano~
+@650644 = ~Elmo del Ladro
+Mat Savasta, uno dei più abili scassinatori della Costa della Spada, indossava quest'elmo in molti dei suoi colpi. L'elmo, un semplice copricapo di cuoio, migliorava le già ottime abilità di scassinatore di Mat. Nelle città di Waterdeep, Luskan, Neverwinter, Baldur's Gate, Athkatla, o Calimport, non c'è porta che non poteva essere aperta da Mat. Per attivare l'elmo, si deve conoscere l'esatta parola d'ordine e a quel punto un getto di energia magica si trasforma in una chiave che si adatterà alla serratura da aprire.
+
+STATISTICS
+
+Abilità Speciali:  
+  +20% a Scassinare 
+  +20% a Individuare trappole
+  +20% a Svuotare Tasche 
+  +20% a Nascondersi nelle ombre 
+  Conferisce l'Infravisione a colui che lo indossa~
+@650646 = ~L'accetta è un oggetto semplice che può, in uno stato di necessità, essere utilizzata come arma. L'ascia ha una lama affilata d'acciaio, in grado di tagliare il legno o la carne. La corta impugnatura termina a punta e la testa talvolta può avere una punta sulla cima.
+
+STATISTICHE:
+
+Danno: 1D4
+Tipo di danno: proiettile (perforante)
+Peso: 5
+Fattore Velocità: 5
+Tipo di competenza: Ascia
+Tipo: ad una mano
+Richiede: 4 alla Forza~
+@650648 = ~La corazza di cuoio borchiata ha poco in comune con una semplice corazza di cuoio. Mentre quella di cuoio è un guscio indurito, quella di cuoio borchiata è morbida e flessibile grazie alle centinaia di chiodi di metallo che vi sono applicati. I chiodi sono così vicini l'uno all'altro da formare un rivestimento flessibile di metallo duro che è in grado di respingere attacchi sferzanti e taglienti. La protezione di cuoio morbido è poco più di un mezzo per tenere al loro posto i chiodi.
+
+STATISTICHE:
+
+Classe Armatura: 3
+Peso: 25
+Richiede: 6 alla Forza~
+@650659 = ~La wakizashi, o spada compagna, è estremamente importante per il samurai. Viene portata sempre, anche all'interno di un edificio, e si trova accanto al samurai quando dorme la notte. Costruita altrettanto accuratamente quanto una katana, la wakizashi è una spada più corta, lunga tra i 30 ed i 60 cm., ed è un'arma pericolosa in mano a chi sa usarla.
+
+STATISTICHE:
+
+Danno: 1D8 + 3
+THAC0 Bonus: +3
+Tipo di danno: perforante
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Scimitarra/Wakizashi/Ninja-To
+Tipo: ad una mano
+Richiede: 5 alla Forza~
+@650661 = ~La spada del ninja, la ninja-to, è di qualità inferiore rispetto alle altre spade Kara-Tur come la katana. la ninja-to è corta e ha una lama dritta, l'ideale per i sotterfugi dei ninja. Essa è più adatta ai luoghi chiusi e a volte avvantaggia il ninja rispetto alle spade più lunghe usate dal samurai.
+
+STATISTICHE:
+
+Danno: 1D8 + 3
+THAC0 Bonus: +3
+Tipo di danno: tagliente
+Peso: 5
+Fattore Velocità: 4
+Tipo di competenza: Scimitarra/Wakizashi/Ninja-To
+Tipo: ad una mano
+Richiede: 6 alla Forza~
+
+@660202 = ~Il bastone rinforzato è la più semplice e umile delle armi lunghe ed è costituito da un pezzo di legno lungo da 1,8 a 2,7 m. I bastoni rinforzati di alta qualità vengono fatti in duro legno di quercia e sono ricoperti di metallo a entrambe le estremità. Quest'arma deve essere brandita con entrambe le mani.
+
+STATISTICHE:
+
+Danno: 1D6 + 9
+THAC0: bonus +3
+Tipo di danno: schiacciamento
+Peso: 4
+Fattore Velocità: 2
+Tipo di competenza: Bastone
+Tipo: a due mani
+Richiede: 5 alla Forza~
+
+@660204 = ~La spada a due mani deriva dalla spada lunga. Nell'ambito dei costanti tentativi dei fabbricanti di migliorare gli equipaggiamenti dei guerrieri, la lama della spada lunga è stata allungata e quindi è stato necessario allungare l'impugnatura per poter brandire l'arma agevolmente. La funzione principale di una spada a due mani è quella di disarcionare i cavalieri in sella e spezzare le formazioni armate di picche.
+
+STATISTICHE:
+
+Danno: 1D10 + 1
+THAC0: bonus +1
+Tipo di danno: tagliente
+Peso: 12
+Fattore Velocità: 9
+Tipo di competenza: Spada a due mani
+Tipo: a due mani
+Richiede: 14 alla Forza~
+@660206 = ~Una corazza di maglia è fatta di anelli connessi fra di loro. Viene sempre indossata su uno strato di cuoio o di stoffa per prevenire ferite da sfregamento e per ridurre gli impatti dei colpi. Questa armatura fornisce una ulteriore protezione tramite gli incantamenti magici che sono stati posti su di essa.
+
+STATISTICHE:
+
+Classe Armatura: 3
+Peso: 10
+Richiede: 8 alla Forza~
+
+@661012 = ~Chauntea è una divinità di allineamento buono, la dea degli agricoltori e patrona dei coltivatori, attira molti adoratori nelle terre dove c'è la campagna. E' un'avversaria inesorabile degli dei della distruzione naturale, come Talos ed Auril.
+
+STATISTICHE:
+
+Abilità durante l'uso: Colui che lo indossa rigenera 1 punto ferita ogni 3 secondi
+Uso Speciale: Rigenera un bersaglio di 5 punti ferita al secondo per sessanta secondi
+
+*Vincitore del premio 2004 CtBIMS (Concorso sulla creazione di oggetti di Check The Bodies ) come parte di un gruppo di oggetti simili.~
+@661014 = ~Il Principe delle Menzogne, ovvero Cyric, è un dio relativamente nuovo, avendo rubato i poteri di tre anziani dei. Calcolatore e cospiratore, Cyric, per il momento, ha cercato di consolidare i suoi poteri solo tramite fazioni e scismi, sebbene si sia rivelato molto popolare tre gli Stregoni Rossi di Thay.
+
+STATISTICHE:
+
+Lancia Penalità Maggiore, Trappola del teschio o Simbolo di Morte una volta al giorno
+
+*Vincitore del premio 2004 CtBIMS (Concorso sulla creazione di oggetti di Check The Bodies) come parte di un gruppo di oggetti simili.~
+
+@661016 = ~Invocato da coloro che soffrono, Ilmater è un dio pacifico che incoraggia gli altri a resistere alle sofferenze e agli abusi, poiché solo a coloro che hanno pazienza saranno ricompensati. E' un dio popolare tra i poveri delle città.
+
+STATISTICHE:
+
+Concede +25 Punti Ferita a colui che li indossa.
+
+*Vincitore del premio 2004 CtBIMS (Concorso sulla creazione di oggetti di Check The Bodies) come parte di un gruppo di oggetti simili.~
+
+@661018 = ~La Signora della Foresta è una potente alleata sia di Eldath che di Silvanus. I suoi più fervidi seguaci sono per la maggior parte rangers, così come le creature delle foresta come le driadi che non hanno altre divinità. I poteri di questo medaglione si sono esauriti, e ormai il simbolo non è niente più che un omaggio alla Signora delle Foreste.
+
+*Vincitore del premio 2004 CtBIMS (Concorso sulla creazione di oggetti di Check The Bodies) come parte di un gruppo di oggetti simili.~
+@661020 = ~Mystra, la Signora dei Misteri, è la dea della magia, ed è tra le più potenti entità dei Reami. I seguaci di Mystra durante il decennio passato sono diventati più loquaci ed estroversi, seguendo i cambiamenti che sono avvenuti alla stessa dea.
+
+STATISTICHE:
+
+Concede un +2 di bonus ai tiri salvezza contro incantesimo mentre è indossato.
+Colloca la resistenza magica al 60% mentre è indossato.
+
+*Vincitore del premio 2004 CtBIMS (Concorso sulla creazione di oggetti di Check The Bodies ) come parte di un gruppo di oggetti simili.~
+@661022 = ~Tempus, conosciuto anche come il Signore delle Battaglie, è il dio guerriero, può concedere i suoi favori ad un gruppo di guerrieri e poi ad un altro gruppo in base a come procede la guerra. Ricompensa gli intrepidi ed i valorosi, e molti guerrieri prestano giuramento a lui. Questo scudo largo è stato decorato con il simbolo sacro di: una spada fiammante su uno sfondo rosso sangue. Concede a chiunque usa questo pesante scudo d'acciaio vari bonus utili in battaglia.
+
+STATISTICHE:
+
+Bonus alla Classe Armatura: 2
+Speciale:  
+  +1 contro le Armi da Lancio
+  +50% di resistenza ai Proiettili Magici (gli attacchi con proiettili faranno la metà del danno pieno)
+  Concede un +1 alla Forza quando lo si utilizza.
+Peso: 15
+Richiede: 15 alla Forza
+
+*Vincitore del premio 2004 CtBIMS (Concorso sulla creazione di oggetti di Check The Bodies) come parte di un gruppo di oggetti simili.~
+
+@661024 = ~La dea Waukeen scomparve durante il Periodo dei Disordini, e per diversi anni i suoi sacerdoti si sono trovati incapaci al lanciare incantesimi poiché non ne ricevettero alcuno. Ma ora sono di nuovo in grado di lanciare incantesimi, anche se per ora, visto che la dea è scomparsa, la maggior parte dei seguaci di Waukeen sono diventati seguaci di Lliira, e la Dea del Commercio sta diminuendo i suoi fedeli.
+
+STATISTICHE:
+
+Concede un +1 al Carisma mentre indossata.
+Crea 10 monete d'oro una volta al giorno.
+
+*Vincitore del premio 2004 CtBIMS (Concorso sulla creazione di oggetti di Check The Bodies) come parte di un gruppo di oggetti simili.~
+
+@661027 = ~La missione dell'esercito del Re Azoun è semplice: difendere Cormyr. Realizzare questo scopo, tuttavia, è una cosa complessa. Bisogna mantenere la parola data e Cormyr ha un grande esercito permanente, che è andato aumentando notevolmente nell'ultima decade. Ci sono più di 12,000 Draghi Purpurei (chiamati così per il loro vessillo) a presidio delle maggiori città e fortificazioni, una forza montata di 500 guerrieri specializzati in spada e arco, condotti da 30 cavalieri della Corte Reale. La maggior parte di queste unità d'élite sono veterani della Crociata contro l'Orda e sono membri dell'Ordine della Via Dorata, un premio militare che commemora queste battaglie.
+
+La funzione più importante dei Draghi Purpurei è quella di assicurare la pace in tutto il regno di Cormyr. Ciò vuol dire garantire la sicurezza e difendere i mercanti dai saccheggi o garantire ai contadini di viaggiare tranquilli e poter ritornare a casa sani e salvi con il guadagno giornaliero. In questo i Draghi Purpurei assolvono i loro doveri con successo. Indubbiamente i Draghi Purpurei non possono arrivare subito ovunque, con la costante minaccia di essere attaccati da qualche bandito in qualche parte del Cormyr, ma il regno, in generale, ha la buona reputazione di offrire sicurezza ai viaggiatori.
+
+I Draghi Purpurei sono anche incaricati di prevenire insurrezioni interne. Tuttavia c'è stato solo un caso in cui i Draghi Purpurei hanno dovuto reprimere un'insurrezione, durante la rivolta di Gondegal ma senza spargimento di sangue.
+
+STATISTICHE:
+
+Bonus alla Classe Armatura: 2
+Speciale: +1 contro Armi Taglienti
+Peso: 7
+Richiede: 12 alla Forza
+
+*Secondo posto del premio 2004 CtBIMS (Concorso sulla creazione di oggetti di Check The Bodies).~

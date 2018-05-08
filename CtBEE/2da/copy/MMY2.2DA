@@ -1,0 +1,42 @@
+MMY2 /Armored Bugbear/
+***
+						SOUND
+ATTACK          		BUGBR01A BUGBR02A BUGBR03A
+ATTACK          		2 0 0
+AWAKE           		***
+AWAKE           		0
+CAST            		***
+CAST            		0
+CONJURE         		***
+CONJURE         		0
+DAMAGE          		BUGBR07A BUGBR08A nosound
+DAMAGE          		0 0 0
+DIE             		BUGBR09A BUGBR10A
+DIE             		0 0
+HEAD_TURN       		***
+HEAD_TURN       		0
+READY           		***
+READY           		0
+SHOOT           		***
+SHOOT           		0
+TWITCH          		***
+TWITCH          		0
+WALK            		***
+WALK            		0
+ATTACK_SLASH    		BUGBR01A BUGBR03A nosound
+ATTACK_SLASH    		2 0 0
+ATTACK_BACKSLASH		BUGBR02A BUGBR04A nosound
+ATTACK_BACKSLASH		2 0 0
+ATTACK_JAB      		BUGBR03A BUGBR04A nosound
+ATTACK_JAB      		2 0 0
+EMERGE          		***
+EMERGE          		0
+HIDE            		***
+HIDE            		0
+SLEEP          			***
+SLEEP          			0
+Battle_Cry			BUGBR02A BUGBR01A
+Battle_Cry			0 0
+Selection                       BUGBR02A
+Selection                       0
+

@@ -1,0 +1,100 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("CBELEDI1")
+		CreateCreature("CBELEDI2",[1918.2036],6)
+		CreateCreature("CBELEDI3",[1831.2086],7)
+		CreateCreature("CBELEDI4",[1902.2129],6)
+		CreateCreature("CBELEDI5",[1978.2105],5)
+		CreateCreature("CBMALSPY",[1934.1710],0)
+		CreateCreature("CBMALSPY",[1913.2118],0)
+		ActionOverride("CBELEDI2",FaceObject("CBELEDI1"))
+		ActionOverride("CBELEDI3",FaceObject("CBELEDI1"))
+		ActionOverride("CBELEDI4",FaceObject("CBELEDI1"))
+		ActionOverride("CBELEDI5",FaceObject("CBELEDI1"))
+		ActionOverride("CBELEDI3",EquipItem("BOW01")) // Composite Long Bow
+		MoveViewObject("CBELEDI1",INSTANT)
+		Wait(1)
+		ActionOverride("CBELEDI2",DisplayStringHead("CBELEDI2",@550071)) // No such index
+		Wait(4)
+		ActionOverride("CBELEDI2",DisplayStringHead("CBELEDI2",@550072)) // No such index
+		ActionOverride("CBELEDI2",Wait(4))
+		Wait(4)
+		DisplayStringHead(Myself,@550073) // No such index
+		Wait(4)
+		ActionOverride("CBELEDI2",DisplayStringHead("CBELEDI2",@550074)) // No such index
+		ActionOverride("CBELEDI2",Wait(4))
+		Wait(4)
+		ActionOverride("CBELEDI2",DisplayStringHead("CBELEDI2",@550075)) // No such index
+		ActionOverride("CBELEDI2",Wait(3))
+		Wait(3)
+		DisplayStringHead(Myself,@550076) // No such index
+		Wait(3)
+		ActionOverride("CBELEDI2",DisplayStringHead("CBELEDI2",@550077)) // No such index
+		ActionOverride("CBELEDI2",Wait(3))
+		Wait(2)
+		ActionOverride("CBELEDI3",EquipItem("BOW01")) // Composite Long Bow
+		ActionOverride("CBELEDI3",Attack("CBELEDI1"))
+		ActionOverride("CBELEDI4",Attack("CBELEDI1"))
+		ActionOverride("CBELEDI5",Attack("CBELEDI1"))
+		Spell("CBELEDI2",WIZARD_ABI_DALZIMS_HORRID_WILTING)
+		ActionOverride("CBELEDI2",ForceSpell("CBELEDI1",2918))
+		ActionOverride("CBELEDI3",EquipItem("BOW01")) // Composite Long Bow
+		ActionOverride("CBELEDI3",Attack("CBELEDI1"))
+		ActionOverride("CBELEDI4",Attack("CBELEDI1"))
+		ActionOverride("CBELEDI5",Attack("CBELEDI1"))
+		Wait(3)
+		DisplayStringHead(Myself,39969) // Spell Sequencer - Fired
+		ApplySpell(Myself,WIZARD_STONE_SKIN)
+		ApplySpell(Myself,WIZARD_SHIELD)
+		ApplySpell(Myself,WIZARD_MIRROR_IMAGE)
+		ActionOverride("CBELEDI2",ForceSpell(Myself,WIZARD_FIRE_SHIELD_RED))
+		ActionOverride("CBELEDI3",EquipItem("BOW01")) // Composite Long Bow
+		ActionOverride("CBELEDI3",Attack("CBELEDI1"))
+		ActionOverride("CBELEDI4",Attack("CBELEDI1"))
+		ActionOverride("CBELEDI5",Attack("CBELEDI1"))
+		Wait(4)
+		Spell("CBELEDI4",WIZARD_FINGER_OF_DEATH)
+		ActionOverride("CBELEDI2",ForceSpell("CBELEDI1",WIZARD_CONE_OF_COLD))
+		ActionOverride("CBELEDI3",EquipItem("BOW01")) // Composite Long Bow
+		ActionOverride("CBELEDI3",Attack("CBELEDI1"))
+		ActionOverride("CBELEDI4",Attack("CBELEDI1"))
+		ActionOverride("CBELEDI5",Attack("CBELEDI1"))
+		Wait(4)
+		Spell(Myself,WIZARD_GLOBE_OF_INVULNERABILITY)
+		ActionOverride("CBELEDI2",ForceSpell("CBELEDI1",WIZARD_INCENDIARY_CLOUD))
+		ActionOverride("CBELEDI3",EquipItem("BOW01")) // Composite Long Bow
+		ActionOverride("CBELEDI3",Attack("CBELEDI1"))
+		ActionOverride("CBELEDI4",Attack("CBELEDI1"))
+		ActionOverride("CBELEDI5",Attack("CBELEDI1"))
+		Wait(4)
+		Spell("CBELEDI2",WIZARD_MELF_ACID_ARROW)
+		ActionOverride("CBELEDI2",ForceSpell("CBELEDI1",WIZARD_METEOR_SWARM))
+		ActionOverride("CBELEDI3",EquipItem("BOW01")) // Composite Long Bow
+		ActionOverride("CBELEDI3",Attack("CBELEDI1"))
+		ActionOverride("CBELEDI4",Attack("CBELEDI1"))
+		ActionOverride("CBELEDI5",Attack("CBELEDI1"))
+		Wait(4)
+		ForceSpell("CBELEDI2",WIZARD_MAGIC_MISSILE)
+		ForceSpell("CBELEDI4",WIZARD_MAGIC_MISSILE)
+		ForceSpell("CBELEDI5",WIZARD_MAGIC_MISSILE)
+		ActionOverride("CBELEDI4",DestroyItem("MINHP1")) // No such index
+		Kill("CBELEDI4")
+		ForceSpell("CBELEDI3",WIZARD_FLESH_TO_STONE_IGNORE_RESISTANCE)
+		ActionOverride("CBELEDI2",DisplayStringHead(Myself,@550078)) // No such index
+		ActionOverride("CBELEDI2",Wait(2))
+		ActionOverride("CBELEDI2",ForceSpell("CBELEDI1",WIZARD_FIREBALL))
+		ActionOverride("CBELEDI2",Wait(2))
+		ActionOverride("CBELEDI2",ForceSpell("CBELEDI1",WIZARD_FIREBALL))
+		ActionOverride("CBELEDI2",Wait(2))
+		ActionOverride("CBELEDI2",ForceSpell("CBELEDI1",WIZARD_FIREBALL))
+		ActionOverride("CBELEDI3",DestroyItem("MINHP1")) // No such index
+		ActionOverride("CBELEDI5",DestroyItem("MINHP1")) // No such index
+		ActionOverride("CBELEDI2",Kill("CBELEDI3"))
+		ActionOverride("CBELEDI2",Kill("CBELEDI5"))
+		Spell("CBELEDI2",WIZARD_MAGIC_MISSILE)
+		StartCutScene("CBELEDIF")
+END
+
+

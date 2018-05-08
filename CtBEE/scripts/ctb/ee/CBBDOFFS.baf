@@ -1,0 +1,1111 @@
+IF
+	Dead("CBBDAW01")
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
+	Global("Cb_DSACKsFeintStart","AR3521",2)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
+	!GlobalTimerNotExpired("DRAGONFEAR","LOCALS")
+	Allegiance("CBBDAW01",ENEMY)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("DRAGONFEAR","LOCALS",100)
+		PlaySound("ABAZIG02")
+		ReallyForceSpell(LastSeenBy("CBBDAW01"),DRAGON_FEAR)
+		ReallyForceSpell(LastSeenBy("CBBDAW01"),3532)
+END
+
+IF
+	!GlobalTimerNotExpired("DRAGONFEAR","LOCALS")
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("DRAGONFEAR","LOCALS",100)
+		PlaySound("ABAZIG02")
+END
+
+IF
+	!GlobalTimerNotExpired("DRAGONFEAR","LOCALS")
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",2)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("DRAGONFEAR","LOCALS",100)
+		PlaySound("ABAZIG02")
+		ReallyForceSpell(LastSeenBy("CBBDAW01"),DRAGON_FEAR)
+		ReallyForceSpell(LastSeenBy("CBBDAW01"),3532)
+END
+
+IF
+	!GlobalTimerNotExpired("DRAGONFEAR","LOCALS")
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",3)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("DRAGONFEAR","LOCALS",100)
+		PlaySound("ABAZIG02")
+		ReallyForceSpell(LastSeenBy("CBBDAW01"),DRAGON_FEAR)
+		ReallyForceSpell(LastSeenBy("CBBDAW01"),3532)
+END
+
+IF
+	!GlobalTimerNotExpired("TailSlap","AR3521")
+	Range(LastSeenBy("CBBDAW01"),20)
+	!StateCheck(LastSeenBy("CBBDAW01"),STATE_SLEEPING)
+	Allegiance("CBBDAW01",ENEMY)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("TailSlap","AR3521",30)
+		ActionOverride("CBBDAW01",SwingOnce())
+		DisplayString("CBBDAW01",74022) // Tail Slap
+		ReallyForceSpell(LastSeenBy("CBBDAW01"),CLERIC_EARTHQUAKE)
+END
+
+IF
+	!GlobalTimerNotExpired("TailSlap","AR3521")
+	Range(LastSeenBy("CBBDAW01"),20)
+	!StateCheck(LastSeenBy("CBBDAW01"),STATE_SLEEPING)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("TailSlap","AR3521",30)
+		ActionOverride("CBBDAW01",SwingOnce())
+END
+
+IF
+	!GlobalTimerNotExpired("TailSlap","AR3521")
+	Range(LastSeenBy("CBBDAW01"),20)
+	!StateCheck(LastSeenBy("CBBDAW01"),STATE_SLEEPING)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("TailSlap","AR3521",30)
+		ActionOverride("CBBDAW01",SwingOnce())
+END
+
+IF
+	!GlobalTimerNotExpired("TailSlap","AR3521")
+	Range(LastSeenBy("CBBDAW01"),20)
+	!StateCheck(LastSeenBy("CBBDAW01"),STATE_SLEEPING)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("TailSlap","AR3521",30)
+		ActionOverride("CBBDAW01",SwingOnce())
+END
+
+IF
+	Range(LastSeenBy("CBBDAW01"),30)
+	CheckStatLT(LastSeenBy("CBBDAW01"),100,RESISTELECTRICITY)
+	!GlobalTimerNotExpired("BLUEDRAGONBREATH","LOCALS")
+	Allegiance("CBBDAW01",ENEMY)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("BLUEDRAGONBREATH","LOCALS",12)
+		ForceSpell(LastSeenBy("CBBDAW01"),3597)
+END
+
+IF
+	Range(LastSeenBy("CBBDAW01"),30)
+	CheckStatLT(LastSeenBy("CBBDAW01"),100,RESISTELECTRICITY)
+	!GlobalTimerNotExpired("BLUEDRAGONBREATH","LOCALS")
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("BLUEDRAGONBREATH","LOCALS",12)
+		ForceSpell(LastSeenBy("CBBDAW01"),3597)
+END
+
+IF
+	Range(LastSeenBy("CBBDAW01"),30)
+	CheckStatLT(LastSeenBy("CBBDAW01"),100,RESISTELECTRICITY)
+	!GlobalTimerNotExpired("BLUEDRAGONBREATH","LOCALS")
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",2)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("BLUEDRAGONBREATH","LOCALS",12)
+		ForceSpell(LastSeenBy("CBBDAW01"),3597)
+END
+
+IF
+	Range(LastSeenBy("CBBDAW01"),30)
+	CheckStatLT(LastSeenBy("CBBDAW01"),100,RESISTELECTRICITY)
+	!GlobalTimerNotExpired("BLUEDRAGONBREATH","LOCALS")
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",3)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("BLUEDRAGONBREATH","LOCALS",12)
+		ForceSpell(LastSeenBy("CBBDAW01"),3597)
+END
+
+IF
+	RandomNum(3,1)
+	!GlobalTimerNotExpired("dbMalison","LOCALS")
+	Allegiance("CBBDAW01",ENEMY)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("dbMalison","LOCALS",1000)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_GREATER_MALISON)
+END
+
+IF
+	RandomNum(3,1)
+	!GlobalTimerNotExpired("dbMalison","LOCALS")
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("dbMalison","LOCALS",1000)
+END
+
+IF
+	RandomNum(3,1)
+	!GlobalTimerNotExpired("dbMalison","LOCALS")
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",2)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("dbMalison","LOCALS",1000)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_GREATER_MALISON)
+END
+
+IF
+	RandomNum(3,1)
+	!GlobalTimerNotExpired("dbMalison","LOCALS")
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",3)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("dbMalison","LOCALS",1000)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_GREATER_MALISON)
+END
+
+IF
+	OR(6)
+		Class(LastSeenBy("CBBDAW01"),RANGER_ALL)
+		Class(LastSeenBy("CBBDAW01"),THIEF_ALL)
+		Class(LastSeenBy("CBBDAW01"),DRUID_ALL)
+		Class(LastSeenBy("CBBDAW01"),PALADIN_ALL)
+		Class(LastSeenBy("CBBDAW01"),BARD_ALL)
+		Class(LastSeenBy("CBBDAW01"),19)
+	!StateCheck(LastSeenBy("CBBDAW01"),STATE_SILENCED)
+	RandomNum(3,1)
+	!HasBounceEffects(LastSeenBy("CBBDAW01"))
+	!GlobalTimerNotExpired("dbSilence","LOCALS")
+	Allegiance("CBBDAW01",ENEMY)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("dbSilence","LOCALS",15)
+		ForceSpell(LastSeenBy("CBBDAW01"),DRAGON_SILENCE)
+END
+
+IF
+	OR(6)
+		Class(LastSeenBy("CBBDAW01"),RANGER_ALL)
+		Class(LastSeenBy("CBBDAW01"),THIEF_ALL)
+		Class(LastSeenBy("CBBDAW01"),DRUID_ALL)
+		Class(LastSeenBy("CBBDAW01"),PALADIN_ALL)
+		Class(LastSeenBy("CBBDAW01"),BARD_ALL)
+		Class(LastSeenBy("CBBDAW01"),19)
+	!StateCheck(LastSeenBy("CBBDAW01"),STATE_SILENCED)
+	RandomNum(3,1)
+	!HasBounceEffects(LastSeenBy("CBBDAW01"))
+	!GlobalTimerNotExpired("dbSilence","LOCALS")
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("dbSilence","LOCALS",15)
+END
+
+IF
+	OR(6)
+		Class(LastSeenBy("CBBDAW01"),RANGER_ALL)
+		Class(LastSeenBy("CBBDAW01"),THIEF_ALL)
+		Class(LastSeenBy("CBBDAW01"),DRUID_ALL)
+		Class(LastSeenBy("CBBDAW01"),PALADIN_ALL)
+		Class(LastSeenBy("CBBDAW01"),BARD_ALL)
+		Class(LastSeenBy("CBBDAW01"),19)
+	!StateCheck(LastSeenBy("CBBDAW01"),STATE_SILENCED)
+	RandomNum(3,1)
+	!HasBounceEffects(LastSeenBy("CBBDAW01"))
+	!GlobalTimerNotExpired("dbSilence","LOCALS")
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",2)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("dbSilence","LOCALS",15)
+		ForceSpell(LastSeenBy("CBBDAW01"),DRAGON_SILENCE)
+END
+
+IF
+	OR(6)
+		Class(LastSeenBy("CBBDAW01"),RANGER_ALL)
+		Class(LastSeenBy("CBBDAW01"),THIEF_ALL)
+		Class(LastSeenBy("CBBDAW01"),DRUID_ALL)
+		Class(LastSeenBy("CBBDAW01"),PALADIN_ALL)
+		Class(LastSeenBy("CBBDAW01"),BARD_ALL)
+		Class(LastSeenBy("CBBDAW01"),19)
+	!StateCheck(LastSeenBy("CBBDAW01"),STATE_SILENCED)
+	RandomNum(3,1)
+	!HasBounceEffects(LastSeenBy("CBBDAW01"))
+	!GlobalTimerNotExpired("dbSilence","LOCALS")
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",3)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("dbSilence","LOCALS",15)
+		ForceSpell(LastSeenBy("CBBDAW01"),DRAGON_SILENCE)
+END
+
+IF
+	!CheckStatGT(LastSeenBy("CBBDAW01"),50,RESISTMAGIC)
+	!GlobalTimerNotExpired("Barrage","LOCALS")
+	RandomNum(3,1)
+	Allegiance("CBBDAW01",ENEMY)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("Barrage","LOCALS",6)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_CHAOS)
+	RESPONSE #100
+		SetGlobalTimer("Barrage","LOCALS",12)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_MAZE)
+	RESPONSE #100
+		SetGlobalTimer("Barrage","LOCALS",6)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_FINGER_OF_DEATH)
+	RESPONSE #100
+		SetGlobalTimer("Barrage","LOCALS",6)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_SLOW)
+	RESPONSE #100
+		SetGlobalTimer("Barrage","LOCALS",12)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_POWER_WORD_BLIND)
+	RESPONSE #100
+		SetGlobalTimer("Barrage","LOCALS",12)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_PRISMATIC_SPRAY)
+	RESPONSE #100
+		SetGlobalTimer("Barrage","LOCALS",12)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_FEEBLEMIND)
+END
+
+IF
+	!CheckStatGT(LastSeenBy("CBBDAW01"),50,RESISTMAGIC)
+	!GlobalTimerNotExpired("Barrage","LOCALS")
+	RandomNum(3,1)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("Barrage","LOCALS",6)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_SLOW)
+	RESPONSE #100
+		SetGlobalTimer("Barrage","LOCALS",12)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_FEEBLEMIND)
+END
+
+IF
+	!CheckStatGT(LastSeenBy("CBBDAW01"),50,RESISTMAGIC)
+	!GlobalTimerNotExpired("Barrage","LOCALS")
+	RandomNum(3,1)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",2)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("Barrage","LOCALS",6)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_CHAOS)
+	RESPONSE #100
+		SetGlobalTimer("Barrage","LOCALS",6)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_SLOW)
+	RESPONSE #100
+		SetGlobalTimer("Barrage","LOCALS",12)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_POWER_WORD_BLIND)
+	RESPONSE #100
+		SetGlobalTimer("Barrage","LOCALS",12)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_PRISMATIC_SPRAY)
+	RESPONSE #100
+		SetGlobalTimer("Barrage","LOCALS",12)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_FEEBLEMIND)
+END
+
+IF
+	!CheckStatGT(LastSeenBy("CBBDAW01"),50,RESISTMAGIC)
+	!GlobalTimerNotExpired("Barrage","LOCALS")
+	RandomNum(3,1)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",3)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("Barrage","LOCALS",6)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_CHAOS)
+	RESPONSE #100
+		SetGlobalTimer("Barrage","LOCALS",12)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_MAZE)
+	RESPONSE #100
+		SetGlobalTimer("Barrage","LOCALS",6)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_FINGER_OF_DEATH)
+	RESPONSE #100
+		SetGlobalTimer("Barrage","LOCALS",6)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_SLOW)
+	RESPONSE #100
+		SetGlobalTimer("Barrage","LOCALS",12)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_POWER_WORD_BLIND)
+	RESPONSE #100
+		SetGlobalTimer("Barrage","LOCALS",12)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_PRISMATIC_SPRAY)
+	RESPONSE #100
+		SetGlobalTimer("Barrage","LOCALS",12)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_FEEBLEMIND)
+END
+
+IF
+	Global("Prepare2","LOCALS",0)
+	Allegiance("CBBDAW01",ENEMY)
+THEN
+	RESPONSE #100
+		DisplayString("CBBDAW01",73139) // Contingency - Fired
+		ReallyForceSpell(LastSeenBy("CBBDAW01"),WIZARD_ABI_DALZIMS_HORRID_WILTING)
+		ReallyForceSpell("CBBDAW01",WIZARD_IMPROVED_MANTLE)
+		ReallyForceSpell(LastSeenBy("CBBDAW01"),WIZARD_SYMBOL_FEAR)
+		SetGlobal("Prepare2","LOCALS",1)
+END
+
+IF
+	Global("Prepare2","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",1)
+THEN
+	RESPONSE #100
+		DisplayString("CBBDAW01",73139) // Contingency - Fired
+		SetGlobal("Prepare2","LOCALS",1)
+END
+
+IF
+	Global("Prepare2","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",2)
+THEN
+	RESPONSE #100
+		DisplayString("CBBDAW01",73139) // Contingency - Fired
+		ReallyForceSpell(LastSeenBy("CBBDAW01"),WIZARD_SYMBOL_FEAR)
+		SetGlobal("Prepare2","LOCALS",1)
+END
+
+IF
+	Global("Prepare2","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",3)
+THEN
+	RESPONSE #100
+		DisplayString("CBBDAW01",73139) // Contingency - Fired
+		ReallyForceSpell(LastSeenBy("CBBDAW01"),WIZARD_ABI_DALZIMS_HORRID_WILTING)
+		ReallyForceSpell("CBBDAW01",WIZARD_IMPROVED_MANTLE)
+		ReallyForceSpell(LastSeenBy("CBBDAW01"),WIZARD_SYMBOL_FEAR)
+		SetGlobal("Prepare2","LOCALS",1)
+END
+
+IF
+	Global("CbSpyDidThis1","LOCALS",0)
+	Allegiance("CBBDAW01",ENEMY)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis1","LOCALS",1)
+		Spell("CBBDAW01",WIZARD_TRUE_SIGHT)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_MELF_ACID_ARROW)
+END
+
+IF
+	Global("CbSpyDidThis1","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis1","LOCALS",1)
+		Spell("CBBDAW01",WIZARD_TRUE_SIGHT)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_MELF_ACID_ARROW)
+END
+
+IF
+	Global("CbSpyDidThis1","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",2)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis1","LOCALS",1)
+		Spell("CBBDAW01",WIZARD_TRUE_SIGHT)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_MELF_ACID_ARROW)
+END
+
+IF
+	Global("CbSpyDidThis1","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",3)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis1","LOCALS",1)
+		Spell("CBBDAW01",WIZARD_TRUE_SIGHT)
+		ForceSpell(LastSeenBy("CBBDAW01"),WIZARD_MELF_ACID_ARROW)
+END
+
+IF
+	See([GOODCUTOFF.0.0.0.0.6])
+	Global("Summon","LOCALS",0)
+	Allegiance("CBBDAW01",ENEMY)
+THEN
+	RESPONSE #100
+		ReallyForceSpell(LastSeenBy(Myself),WIZARD_DEATH_SPELL)
+		SetGlobal("Summon","LOCALS",1)
+END
+
+IF
+	See([GOODCUTOFF.0.0.0.0.6])
+	Global("Summon","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Summon","LOCALS",1)
+END
+
+IF
+	See([GOODCUTOFF.0.0.0.0.6])
+	Global("Summon","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",2)
+THEN
+	RESPONSE #100
+		SetGlobal("Summon","LOCALS",1)
+END
+
+IF
+	See([GOODCUTOFF.0.0.0.0.6])
+	Global("Summon","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",3)
+THEN
+	RESPONSE #100
+		ReallyForceSpell(LastSeenBy(Myself),WIZARD_DEATH_SPELL)
+		SetGlobal("Summon","LOCALS",1)
+END
+
+IF
+	Global("CbSpyDidThis2","LOCALS",0)
+	Allegiance("CBBDAW01",ENEMY)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis2","LOCALS",1)
+		Spell("CBBDAW01",WIZARD_TIME_STOP)
+		Continue()
+END
+
+IF
+	Global("CbSpyDidThis2","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis2","LOCALS",1)
+		Continue()
+END
+
+IF
+	Global("CbSpyDidThis2","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",2)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis2","LOCALS",1)
+		Continue()
+END
+
+IF
+	Global("CbSpyDidThis2","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",3)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis2","LOCALS",1)
+		Spell("CBBDAW01",WIZARD_TIME_STOP)
+		Continue()
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis3","LOCALS",0)
+	Allegiance("CBBDAW01",ENEMY)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis3","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_NPC_SYMBOL_STUN)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis3","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis3","LOCALS",1)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis3","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",2)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis3","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_NPC_SYMBOL_STUN)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis3","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",3)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis3","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_NPC_SYMBOL_STUN)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis4","LOCALS",0)
+	Allegiance("CBBDAW01",ENEMY)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis4","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_NPC_SYMBOL_FEAR)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis4","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis4","LOCALS",1)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis4","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",2)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis4","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_NPC_SYMBOL_FEAR)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis4","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",3)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis4","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_NPC_SYMBOL_FEAR)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis5","LOCALS",0)
+	Allegiance("CBBDAW01",ENEMY)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis5","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_WAIL_OF_THE_BANSHEE)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis5","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis5","LOCALS",1)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis5","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",2)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis5","LOCALS",1)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis5","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",3)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis5","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_WAIL_OF_THE_BANSHEE)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis6","LOCALS",0)
+	Allegiance("CBBDAW01",ENEMY)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis6","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_SUN_FIRE)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis6","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis6","LOCALS",1)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis6","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",2)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis6","LOCALS",1)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis6","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",3)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis6","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_SUN_FIRE)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis7","LOCALS",0)
+	Allegiance("CBBDAW01",ENEMY)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis7","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_ABI_DALZIMS_HORRID_WILTING)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis7","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis7","LOCALS",1)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis7","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",2)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis7","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_ABI_DALZIMS_HORRID_WILTING)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis7","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis7","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_ABI_DALZIMS_HORRID_WILTING)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis8","LOCALS",0)
+	Allegiance("CBBDAW01",ENEMY)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis8","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_FINGER_OF_DEATH)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis8","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis8","LOCALS",1)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis8","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",2)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis8","LOCALS",1)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis8","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",3)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis8","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_FINGER_OF_DEATH)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis9","LOCALS",0)
+	Allegiance("CBBDAW01",ENEMY)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis9","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_PRISMATIC_SPRAY)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis9","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis9","LOCALS",1)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis9","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",2)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis9","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_PRISMATIC_SPRAY)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThis9","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",3)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThis9","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_PRISMATIC_SPRAY)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThisA","LOCALS",0)
+	Allegiance("CBBDAW01",ENEMY)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThisA","LOCALS",1)
+		Spell("CBBDAW01",WIZARD_SUMMON_EFREET)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThisA","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThisA","LOCALS",1)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThisA","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",2)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThisA","LOCALS",1)
+		Spell("CBBDAW01",WIZARD_SUMMON_EFREET)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThisA","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",3)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThisA","LOCALS",1)
+		Spell("CBBDAW01",WIZARD_SUMMON_EFREET)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThisB","LOCALS",0)
+	Allegiance("CBBDAW01",ENEMY)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThisB","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_FLESH_TO_STONE)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThisB","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThisB","LOCALS",1)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThisB","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",2)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThisB","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_FLESH_TO_STONE)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThisB","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",3)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThisB","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_FLESH_TO_STONE)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThisC","LOCALS",0)
+	Allegiance("CBBDAW01",ENEMY)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThisC","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_DISINTEGRATE)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThisC","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThisC","LOCALS",1)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThisC","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",2)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThisC","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_DISINTEGRATE)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThisC","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",3)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThisC","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_DISINTEGRATE)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThisD","LOCALS",0)
+	Allegiance("CBBDAW01",ENEMY)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThisD","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_DOMINATION)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThisD","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThisD","LOCALS",1)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThisD","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",2)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThisD","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_DOMINATION)
+END
+
+IF
+	RandomNum(3,1)
+	Global("CbSpyDidThisD","LOCALS",0)
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",3)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpyDidThisD","LOCALS",1)
+		Spell(LastSeenBy("CBBDAW01"),WIZARD_DOMINATION)
+END
+
+IF
+	Detect([GOODCUTOFF])
+	!See([GOODCUTOFF])
+	Allegiance("CBBDAW01",ENEMY)
+THEN
+	RESPONSE #100
+		SpellNoDec("CBBDAW01",WIZARD_INVISIBLE_STALKER)
+	RESPONSE #100
+		SpellNoDec("CBBDAW01",WIZARD_SUMMON_EFREET)
+END
+
+IF
+	Detect([GOODCUTOFF])
+	!See([GOODCUTOFF])
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",1)
+THEN
+	RESPONSE #100
+		Continue()
+END
+
+IF
+	Detect([GOODCUTOFF])
+	!See([GOODCUTOFF])
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",2)
+THEN
+	RESPONSE #100
+		SpellNoDec("CBBDAW01",WIZARD_SUMMON_EFREET)
+END
+
+IF
+	Detect([GOODCUTOFF])
+	!See([GOODCUTOFF])
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",0)
+	!Allegiance("CBBDAW01",ENEMY)
+	Global("Cb_DSACK_SpellLevel","AR3521",3)
+THEN
+	RESPONSE #100
+		SpellNoDec("CBBDAW01",WIZARD_INVISIBLE_STALKER)
+	RESPONSE #100
+		SpellNoDec("CBBDAW01",WIZARD_SUMMON_EFREET)
+END

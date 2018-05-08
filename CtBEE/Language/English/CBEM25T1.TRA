@@ -1,0 +1,63 @@
+@1   = ~The time approaches when I must begin preparing for my journey to the Elven Court on Evermeet.~
+@2   = ~Tel'Quessir know in their heart of hearts when they must pass west, yet I have not completed my purpose here in Faerûn.~
+@3   = ~When I saw you, <GABBER>, I knew what remains for me, for the three of us.  We all have a purpose, and your appearance has been epiphanic for us.~
+@4   = ~We have been loathe to Retreat, and now know why.  You have been sent to us to complete part of your own life's journey, so that we may complete ours.~
+@5   = ~Please, I don't have time for this.~
+@6   = ~Tell me, Sister, what is it that connects us?~
+@7   = ~I don't understand.  You aren't making sense.~
+@8   = ~<GABBER>, we will not pass beyond Faerûn until we have completed our duties.  Return to us when you are ready.~
+@9   = ~<GABBER>, it is simple.  You must understand that we three must help you as you undertake a personal- physical and spiritual- experience.  We will guide you the best that we can.  Now, are you ready to let us perform our purpose?~
+@10  = ~It is well for all concerned that you look at what is to be done with an open mind.~
+@11  = ~You must fufill our requirements and commands without questions, <GABBER>.  The thread of our lives is becoming frayed, and if you do not complete the tasks we set forth, we may pass west before our time.~
+@12  = ~Here, <GABBER>, take these seedlings.  Bring them to Vaelasa, a nymph within the hills of Windspear.  She will care for the sprouts after we have passed.  But be careful, <GABBER>, the seedlings are fragile and can be destroyed by fire or cold.~
+@13  = ~I have given you your task, <GABBER>.  Tell me, are the seedlings safe?~
+@14  = ~No, Lady, the sprouts have been destroyed.~
+@15  = ~Yes, Lady, they are still in my care.~
+@16  = ~I have brought the seeds to Vaelasa, Sister, and she sends her greetings, as well as her regret at your impending Retreat.~
+@17  = ~I am sorry, Sister Elf, but I cannot deliver the saplings to the dryad Vaelasa.  She is not in the Windspear Hills, and I fear that she may be dead.~
+@18  = ~Disastrous!  Catastrophic!  Our lives, wasted.  We will pass west, <GABBER>, without fulfilling our mortal purpose.  Farewell...~
+@19  = ~Then with all haste, bring them to the hills of Windspear.~
+@20  = ~Thank you, <GABBER>.  Her words, and your deeds, lift my spirits.~
+@21  = ~You have assisted us more than you can imagine, <GABBER>.  For your aid, we wish to reward you as you grow.  We will teach you one final thing, but you must choose.~
+@22  = ~What would you like us to teach you: would you rather know how to memorize a greater number of spells than a mage normally can, would you like to learn how to improve your spellcasting times in a way that will allow you to cast two spells nearly simultaneously, or would you like to learn how to cause the recollection of a spell without re-memorizing it?~
+@23  = ~I'd like to know how to memorize an additional spell per level.~
+@24  = ~I would think an increased spellcasting speed will be more beneficial.~
+@25  = ~I want you to teach me how to recall a spell.~
+@26  = ~What would you like us to teach you: would you rather know how to memorize a greater number of spells than a mage normally can, would you like to learn how to improve your spellcasting times in a way that will allow you to cast two spells nearly simultaneously, would you like to learn how to cause the recollection of a spell without re-memorizing it, or would you like me to teach you how to use nearly any item- even things mages are not trained to use- though some may cause disturbances to your spellcasting ability?~
+@27  = ~I'd like you to teach me how to use any item.~
+@28  = ~As you wish, <GABBER>.  I will try my best to teach you how to increase the number of spells you can memorize.~
+@29  = ~I have succeeded, <GABBER>.  Your mental capacity to memorize spells now exceeds the norm for mage your intellect.~
+@30  = ~As you wish, <GABBER>.  I will try my best to teach you how to double the number of spells you cast in a specific time frame.~
+@31  = ~I have succeeded, <GABBER>.  You may now cast double the number of spells than most other wizards in a single minute.~
+@32  = ~As you wish, <GABBER>.  I will try my best to teach you how to recall a spell that you have cast since the last time you studied.~
+@33  = ~I have succeeded, <GABBER>.  You have learned how to recall a spell you have already cast without rememorizing it.~
+@34  = ~Teaching a mage the ability to use any item is a difficult process.  I will try my best, <GABBER>, but cannot guarantee that you will succeed.~
+@35  = ~<GABBER>, you are indeed a special <RACE>.  Without a doubt, it has been my pleasure and honor to teach you how to use nearly any item you wish.  Remember, some items that you use like armor will prevent you from casting spells.  Also, it may not be a good idea to use any two handed weapons, since mages were not meant to use some items, the effect on Faerûn may be catastrophic.~
+@36  = ~<GABBER>, you are a special <RACE>.  However, not everyone has the capacity to learn how to use any type of item.  I beg your forgiveness as I was unable to teach you that skill.~
+@37  = ~<GABBER>, our time here in Faerûn has come to an end.  The three of us will leave for the Isle of Elves.  Our purpose is complete.  Farewell, <GABBER>, and may the Seldarine shelter and guide you.~
+@38  = ~We await the time when we will make the final journey from Faerûn to Evermeet.  Corellan Lotharian guide you, <GABBER>.~
+@39  = ~Disastrous!  Catastrophic!  There is nothing that we can leave of ourselves here on Faerûn then.  Our lives, wasted.  We will pass, <GABBER>, without fulfilling our mortal purpose.  Farewell...~
+@40 = ~Elder Elves:  Delivery
+
+I have been bid by a trio of elven sorceresses to deliver sacred saplings from the Forest of Tethyr to a group of woodland nymphs in the Windspear Hills.  I am to take care while the saplings are in my care, for they are susceptible to fire and cold.  When the nymphs have received the saplings, the Elves have asked me to notify them; I can meet with them where I exited the depths of the Underdark, and they have promised to reward me.~
+@41 = ~Elder Elves:  Delivery
+
+I have delivered sacred saplings to the nymphs for a trio of Elven sorceresses who are preparing to make their Retreat.  They have promised to teach me a new skill.~
+@42 = ~Elven Elders:  Magical Instruction
+
+The trio of sorceresses I meet on the western edge of the Forest of Tethyr, near the cavernous entrance to the Underdark, have been kind enough to teach me how to increase the number of spells I can memorize.~
+@43 = ~Elven Elders:  Magical Instruction
+
+The trio of sorceresses I meet on the western edge of the Forest of Tethyr, near the cavernous entrance to the Underdark, have been kind enough to teach me how to cast spells nearly simultaneously within the same round.~
+@44 = ~Elven Elders:  Magical Instruction
+
+The trio of sorceresses I meet on the western edge of the Forest of Tethyr, near the cavernous entrance to the Underdark, have been kind enough to teach me how to recall to memory a spell I have already cast without studying.~
+@45 = ~Elven Elders:  Magical Instruction
+
+The trio of sorceresses I meet on the western edge of the Forest of Tethyr, near the cavernous entrance to the Underdark, have been kind enough to teach me how to use many different types of gear that most mages cannot use.~
+@46 = ~Elven Elders:  Magical Instruction
+
+The trio of sorceresses I meet on the western edge of the Forest of Tethyr, near the cavernous entrance to the Underdark, have been kind enough to try to teach me how use any item, though I was unable to comprehend their instruction.~
+@47 = ~Elder Elves:  Final Retreat
+
+The trio of Elven sorceresses have fulfilled their duties and have retreated from Faerûn.  They Faded to Evermeet, and it is our loss.  Without question, Faerûn, and myself, is better off for knowing these three Elven souls.  I despair that they are gone from the mainland, but rejoice knowing that they have been welcomed to the ancient Elven homeland.~

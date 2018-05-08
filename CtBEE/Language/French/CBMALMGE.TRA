@@ -1,0 +1,12 @@
+@1   = ~Vous devez identifier cet objet avant d'accéder au message qu'il détient.~
+@2   = ~Le message magiquement enregistré commence : "<CHARNAME>, veuillez me pardonner de la manière dont je vous ai contacté. Comprenez que le simple fait de vous parler directement constitue pour moi un danger de mort."~
+@3   = ~"Je ne peux enregistrer qu'un nombre limité de mots dans ce message, je serai donc brève. Je m'appelle Eleanor Ybgir, magicienne. Malgré toute ma magie, la Côte des Epées et moi-même sommes en grand danger."~
+@4   = ~"Je vous en prie, <CHARNAME>, j'ai besoin de votre aide. Si vous pouvez me porter assistance, veuillez me retrouver au temple de Waukyne, à Franc-Marché."~
+@5   = ~"Lorsque vous viendrez, je le sentirai grâce à la statuette. Elle est rare et contient une puissante magie. J'aimerais que vous me la rameniez en l'état."~
+@6   = ~Le message de la statuette a déjà été lu. La magie qu'elle contient ne peut maintenant être utilisée que pour enregistrer un autre message.~
+@7 = ~Des Elfes et des Artéfacts
+
+J'ai identifié et lu le message enregistré magiquement dans la statuette qui m'a été donnée par une elfe dans le district du Pont. La voix, celle de l'elfe semble-t'il, exprimait la terreur, mais ne m'a pas donné beaucoup d'informations sur l'aventure à venir. Tout ce que je sais, c'est que cette elfe (ainsi que la Côte des Epées d'après ses dires) est en grand danger. Je dois la retrouver au temple de Waukyne de Franc-Marché pour en savoir plus. J'irai peut-être là-bas, mais il faudrait d'abord que je me renseigne un peu plus sur elle.~
+@8 = ~Des Elfes et des Artéfacts
+
+Alors que je me promenais dans le district du Pont d'Athkatla, une elfe inconnue m'a approché nerveusement. Sans mot dire et sans explication aucune, elle a subrepticement glissé une statuette dans mon sac. Je ne sais pas pourquoi elle m'a donné cet objet, ni à quoi il pourrait me servir. Je vais devoir enquêter la-dessus ; peut-être que cette elfe va me conduire vers de nouvelles aventures...~

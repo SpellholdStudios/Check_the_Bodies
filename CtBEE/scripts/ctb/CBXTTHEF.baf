@@ -1,0 +1,93 @@
+IF
+	!AreaCheck("AR1600")
+	Global("CbXTThiefReturnsToBrynn","LOCALS",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbXTThiefReturnsToBrynn","LOCALS",0)
+END
+
+IF
+	Global("CbXTThiefTakesGoldTemp","LOCALS",10000)
+	PartyGoldGT(10000)
+	Range([GOODCUTOFF],15)
+THEN
+	RESPONSE #100
+		SetGlobal("CbXTThiefTakesGoldTemp","LOCALS",0)
+		DisplayString(Myself,8827) // My gold!
+		TakePartyGold(10000)
+		DestroyGold(10000)
+END
+
+IF
+	Global("CbXTThiefTakesGoldSlave","LOCALS",21600)
+	PartyGoldGT(21600)
+	Range([GOODCUTOFF],15)
+THEN
+	RESPONSE #100
+		SetGlobal("CbXTThiefTakesGoldSlave","LOCALS",0)
+		DisplayString(Myself,8827) // My gold!
+		TakePartyGold(21600)
+		DestroyGold(21600)
+END
+
+IF
+	Global("CbXTThiefTakesGoldGov","LOCALS",320000)
+	PartyGoldGT(320000)
+	Range([GOODCUTOFF],15)
+THEN
+	RESPONSE #100
+		SetGlobal("CbXTThiefTakesGoldGov","LOCALS",0)
+		DisplayString(Myself,8827) // My gold!
+		TakePartyGold(320000)
+		DestroyGold(320000)
+END
+
+IF
+	Global("CbXTThiefTakesGoldPal","LOCALS",4800)
+	PartyGoldGT(4800)
+	Range([GOODCUTOFF],15)
+THEN
+	RESPONSE #100
+		SetGlobal("CbXTThiefTakesGoldPal","LOCALS",0)
+		DisplayString(Myself,8827) // My gold!
+		TakePartyGold(4800)
+		DestroyGold(4800)
+END
+
+IF
+	Global("CbXTThiefTakesGoldHarp","LOCALS",136000)
+	PartyGoldGT(136000)
+	Range([GOODCUTOFF],15)
+THEN
+	RESPONSE #100
+		SetGlobal("CbXTThiefTakesGoldHarp","LOCALS",0)
+		DisplayString(Myself,8827) // My gold!
+		TakePartyGold(136000)
+		DestroyGold(136000)
+END
+
+IF
+	Global("CbXTThiefTakesGoldDead","LOCALS",3200)
+	PartyGoldGT(3200)
+	Range([GOODCUTOFF],15)
+THEN
+	RESPONSE #100
+		SetGlobal("CbXTThiefTakesGoldDead","LOCALS",0)
+		DisplayString(Myself,8827) // My gold!
+		TakePartyGold(3200)
+		DestroyGold(3200)
+END
+
+IF
+	Global("CbXTThiefTakesGoldNoble","LOCALS",30100)
+	PartyGoldGT(30100)
+	Range([GOODCUTOFF],15)
+THEN
+	RESPONSE #100
+		SetGlobal("CbXTThiefTakesGoldNoble","LOCALS",0)
+		DisplayString(Myself,8827) // My gold!
+		TakePartyGold(30100)
+		DestroyGold(30100)
+END
+
+

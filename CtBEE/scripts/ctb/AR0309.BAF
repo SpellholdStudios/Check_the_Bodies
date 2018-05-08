@@ -1,0 +1,66 @@
+IF
+	Unlocked("Table2")
+	!Unlocked("CbCont01")
+THEN
+	RESPONSE #100
+		Unlock("CbCont01")
+		Continue()
+END
+
+IF
+	Unlocked("Container1")
+	!Unlocked("CbCont02")
+THEN
+	RESPONSE #100
+		Unlock("CbCont02")
+		Continue()
+END
+
+IF
+	!Unlocked("Table2")
+	Unlocked("CbCont01")
+THEN
+	RESPONSE #100
+		Unlock("Table2")
+		Continue()
+END
+
+IF
+	!Unlocked("Container1")
+	Unlocked("CbCont02")
+THEN
+	RESPONSE #100
+		Unlock("Container1")
+		Continue()
+END
+
+IF
+	Global("CbXTThiefStealsFromHarpers","GLOBAL",0)
+THEN
+	RESPONSE #100
+		ContainerEnable("CbCont01",FALSE)
+		ContainerEnable("CbCont02",FALSE)
+		Continue()
+END
+
+IF
+	Global("CbXTThiefStealsFromHarpers","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ContainerEnable("CbCont01",TRUE)
+		ContainerEnable("CbCont02",TRUE)
+		ContainerEnable("Table1",FALSE)
+		ContainerEnable("Table2",FALSE)
+		Continue()
+END
+
+IF
+	GlobalGT("CbXTThiefStealsFromHarpers","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ContainerEnable("CbCont01",FALSE)
+		ContainerEnable("CbCont02",FALSE)
+		ContainerEnable("Table1",TRUE)
+		ContainerEnable("Table2",TRUE)
+		Continue()
+END

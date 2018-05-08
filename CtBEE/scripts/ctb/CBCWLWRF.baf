@@ -1,0 +1,14 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		RestorePartyLocations()
+		FadeFromColor([20.0],0)
+		SetGlobal("CbCowlsWorry","GLOBAL",4)
+		EndCutSceneMode()
+END
+
+

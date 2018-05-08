@@ -1,0 +1,32 @@
+IF
+	See("CB0709D2")
+	!Dead("CB0709D2")
+THEN
+	RESPONSE #100
+		Attack("CB0709D2")
+END
+
+IF
+	See("CB0709D3")
+	!Dead("CB0709D3")
+THEN
+	RESPONSE #100
+		Attack("CB0709D3")
+END
+
+IF
+	See("CB0709D4")
+	!Dead("CB0709D4")
+THEN
+	RESPONSE #100
+		Attack("CB0709D4")
+END
+
+IF
+	ActionListEmpty()
+THEN
+	RESPONSE #100
+		EscapeAreaNoSee()
+END
+
+

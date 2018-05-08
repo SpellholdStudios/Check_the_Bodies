@@ -1,0 +1,15 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		FadeToColor([1.0],0)
+		Wait(4)
+		ActionOverride("CBSTLKP1",DestroySelf())
+		ActionOverride("CBSTLKP2",MoveBetweenAreas("AR3505",[1553.795],10))
+		LeaveAreaLUAPanic("AR3505","",[1644.795],4)
+		LeaveAreaLUA("AR3505","",[1644.795],4)
+		Wait(2)
+		FadeFromColor([1.0],0)
+		ActionOverride("CBSTLKP2",StartDialogueNoSet(Player1))
+END

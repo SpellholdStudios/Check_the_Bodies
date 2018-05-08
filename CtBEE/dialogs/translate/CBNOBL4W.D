@@ -1,0 +1,11 @@
+BEGIN ~CBNOBL4W~
+
+IF ~~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN DO ~SetGlobal("CbWeddingDialogPartOne","AR0504",9)~ EXTERN ~CBSURAYW~ 3
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @2
+  IF ~~ THEN EXTERN ~CBYUSEFW~ 5
+END

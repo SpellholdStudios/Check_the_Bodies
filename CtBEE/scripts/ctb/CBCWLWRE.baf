@@ -1,0 +1,63 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("cuwiz6")
+		Wait(1)
+		MoveToPointNoInterrupt([446.808])
+		MoveToPointNoInterrupt([427.1006])
+		DestroySelf()
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("cuwiz3")
+		Wait(1)
+		MoveToPointNoInterrupt([768.768])
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("cuwiz5")
+		Wait(8)
+		MoveToPointNoInterrupt([717.619])
+		MoveToPointNoInterrupt([537.739])
+		MoveToPointNoInterrupt([446.808])
+		MoveToPointNoInterrupt([427.1106])
+		DestroySelf()
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("cuwizc")
+		Wait(4)
+		DisplayStringWait("cuwiz3",@550062) // No such index
+		SmallWait(6)
+		DisplayStringWait("cuwizsu",@550063) // No such index
+		SmallWait(4)
+		DisplayStringWait("cuwiz3",@550064) // No such index
+		DisplayStringWait("cuwizsu",@550065) // No such index
+		SmallWait(6)
+		DisplayStringWait("cuwiz3",@550066) // No such index
+		SmallWait(6)
+		DisplayStringWait(Myself,@550067) // No such index
+		SmallWait(6)
+		DisplayStringWait("cuwiz3",@550068) // No such index
+		SmallWait(6)
+		DisplayStringWait("cuwizsu",@550069) // No such index
+		SmallWait(6)
+		DisplayStringWait("cuwiz3",@550070) // No such index
+		SmallWait(6)
+		Wait(2)
+		MoveToPointNoInterrupt([1137.635])
+		Face(2)
+		StartCutScene("CBCWLWRF")
+END
+
+

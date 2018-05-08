@@ -1,0 +1,225 @@
+IF
+	Global("InnateRemoved","AR3501",0)
+THEN
+	RESPONSE #100
+		ActionOverride(Protagonist,RemoveSpell(3101)) //BGT
+		ActionOverride(Protagonist,RemoveSpell(3101))
+		ActionOverride(Protagonist,RemoveSpell(3102))
+		ActionOverride(Protagonist,RemoveSpell(3102))
+		ActionOverride(Protagonist,RemoveSpell(3103))
+		ActionOverride(Protagonist,RemoveSpell(3103))
+		ActionOverride(Protagonist,RemoveSpell(3104))
+		ActionOverride(Protagonist,RemoveSpell(3104))
+		ActionOverride(Protagonist,RemoveSpell(3105))
+		ActionOverride(Protagonist,RemoveSpell(3105))
+		ActionOverride(Protagonist,RemoveSpell(3106))
+		ActionOverride(Protagonist,RemoveSpell(3106)) //BGT
+
+		ActionOverride(Protagonist,RemoveSpell(4521)) //CLABBA02
+		ActionOverride(Protagonist,RemoveSpell(4521))
+		ActionOverride(Protagonist,RemoveSpell(4522))
+		ActionOverride(Protagonist,RemoveSpell(4522))
+
+		ActionOverride(Protagonist,RemoveSpell(4152)) //CLABBA05
+
+		ActionOverride(Protagonist,RemoveSpell(4441)) //CLABBA09
+
+		ActionOverride(Protagonist,RemoveSpell(4621)) //CLABDR02
+		ActionOverride(Protagonist,RemoveSpell(4621))
+		ActionOverride(Protagonist,RemoveSpell(4621))
+
+		ActionOverride(Protagonist,RemoveSpell(4643)) //CLABDR03
+		ActionOverride(Protagonist,RemoveSpell(4643))
+		ActionOverride(Protagonist,RemoveSpell(4643))
+		ActionOverride(Protagonist,RemoveSpell(4643))
+		ActionOverride(Protagonist,RemoveSpell(4643))
+		ActionOverride(Protagonist,RemoveSpell(4643))
+
+		ActionOverride(Protagonist,RemoveSpell(4611)) //CLABDR04
+		ActionOverride(Protagonist,RemoveSpell(4612))
+		ActionOverride(Protagonist,RemoveSpell(4613))
+		ActionOverride(Protagonist,RemoveSpell(4632))
+		ActionOverride(Protagonist,RemoveSpell(4633))
+		ActionOverride(Protagonist,RemoveSpell(4634))
+
+		ActionOverride(Protagonist,RemoveSpell(3101)) //CLABDR05
+		ActionOverride(Protagonist,RemoveSpell(3101))
+		ActionOverride(Protagonist,RemoveSpell(3101))
+
+		ActionOverride(Protagonist,RemoveSpell(4321)) //CLABFI02
+		ActionOverride(Protagonist,RemoveSpell(4321))
+
+		ActionOverride(Protagonist,RemoveSpell(4131)) //CLABFI03
+		ActionOverride(Protagonist,RemoveSpell(4131))
+		ActionOverride(Protagonist,RemoveSpell(4131))
+		ActionOverride(Protagonist,RemoveSpell(4131))
+		ActionOverride(Protagonist,RemoveSpell(4131))
+		ActionOverride(Protagonist,RemoveSpell(4131))
+		ActionOverride(Protagonist,RemoveSpell(4131))
+		ActionOverride(Protagonist,RemoveSpell(4131))
+		ActionOverride(Protagonist,RemoveSpell(4131))
+		ActionOverride(Protagonist,RemoveSpell(4131))
+		ActionOverride(Protagonist,RemoveSpell(4133))
+
+		ActionOverride(Protagonist,RemoveSpell(4144)) //CLABFI04
+		ActionOverride(Protagonist,RemoveSpell(4144))
+		ActionOverride(Protagonist,RemoveSpell(4144))
+
+		ActionOverride(Protagonist,RemoveSpell(4152)) //CLABFI05
+		ActionOverride(Protagonist,RemoveSpell(4152))
+		ActionOverride(Protagonist,RemoveSpell(4152))
+
+		ActionOverride(Protagonist,RemoveSpell(4922)) //CLABFNCE
+
+		ActionOverride(Protagonist,RemoveSpell(4811)) //CLABMO01
+		ActionOverride(Protagonist,RemoveSpell(4811))
+		ActionOverride(Protagonist,RemoveSpell(4811))
+		ActionOverride(Protagonist,RemoveSpell(4815))
+
+		ActionOverride(Protagonist,RemoveSpell(4211)) //CLABPA01
+		ActionOverride(Protagonist,RemoveSpell(4212))
+		ActionOverride(Protagonist,RemoveSpell(4212))
+		ActionOverride(Protagonist,RemoveSpell(4212))
+		ActionOverride(Protagonist,RemoveSpell(4212))
+		ActionOverride(Protagonist,RemoveSpell(4212))
+		ActionOverride(Protagonist,RemoveSpell(4212))
+		ActionOverride(Protagonist,RemoveSpell(4212))
+		ActionOverride(Protagonist,RemoveSpell(4212))
+		ActionOverride(Protagonist,RemoveSpell(4212))
+		ActionOverride(Protagonist,RemoveSpell(4212))
+		ActionOverride(Protagonist,RemoveSpell(4212))
+		ActionOverride(Protagonist,RemoveSpell(4212))
+		ActionOverride(Protagonist,RemoveSpell(4212))
+		ActionOverride(Protagonist,RemoveSpell(4212))
+		ActionOverride(Protagonist,RemoveSpell(4213))
+		ActionOverride(Protagonist,RemoveSpell(4213))
+		ActionOverride(Protagonist,RemoveSpell(4213))
+		ActionOverride(Protagonist,RemoveSpell(4213))
+		ActionOverride(Protagonist,RemoveSpell(4213))
+		ActionOverride(Protagonist,RemoveSpell(4213))
+		ActionOverride(Protagonist,RemoveSpell(4213))
+		ActionOverride(Protagonist,RemoveSpell(4213))
+		ActionOverride(Protagonist,RemoveSpell(4213))
+		ActionOverride(Protagonist,RemoveSpell(4213))
+		ActionOverride(Protagonist,RemoveSpell(4213))
+
+		ActionOverride(Protagonist,RemoveSpell(4222)) //CLABPA02
+		ActionOverride(Protagonist,RemoveSpell(4222))
+		ActionOverride(Protagonist,RemoveSpell(4222))
+		ActionOverride(Protagonist,RemoveSpell(4222))
+		ActionOverride(Protagonist,RemoveSpell(4222))
+		ActionOverride(Protagonist,RemoveSpell(4222))
+		ActionOverride(Protagonist,RemoveSpell(4222))
+		ActionOverride(Protagonist,RemoveSpell(4222))
+		ActionOverride(Protagonist,RemoveSpell(4222))
+		ActionOverride(Protagonist,RemoveSpell(4222))
+		ActionOverride(Protagonist,RemoveSpell(4222))
+
+		ActionOverride(Protagonist,RemoveSpell(4231))
+		ActionOverride(Protagonist,RemoveSpell(4231))
+		ActionOverride(Protagonist,RemoveSpell(4231))
+		ActionOverride(Protagonist,RemoveSpell(4232))
+		ActionOverride(Protagonist,RemoveSpell(4232))
+		ActionOverride(Protagonist,RemoveSpell(4232))
+
+		ActionOverride(Protagonist,RemoveSpell(3120)) //CLABPA12
+		ActionOverride(Protagonist,RemoveSpell(3120))
+		ActionOverride(Protagonist,RemoveSpell(3120))
+		ActionOverride(Protagonist,RemoveSpell(3120))
+		ActionOverride(Protagonist,RemoveSpell(3120))
+
+		ActionOverride(Protagonist,RemoveSpell(4721)) //CLABPR02
+		ActionOverride(Protagonist,RemoveSpell(4721))
+		ActionOverride(Protagonist,RemoveSpell(4722))
+		ActionOverride(Protagonist,RemoveSpell(4722))
+		ActionOverride(Protagonist,RemoveSpell(4722))
+
+		ActionOverride(Protagonist,RemoveSpell(4731)) //CLABPR03
+		ActionOverride(Protagonist,RemoveSpell(4731))
+		ActionOverride(Protagonist,RemoveSpell(4732))
+		ActionOverride(Protagonist,RemoveSpell(4732))
+		ActionOverride(Protagonist,RemoveSpell(4732))
+
+		ActionOverride(Protagonist,RemoveSpell(4741)) //CLABPR04
+		ActionOverride(Protagonist,RemoveSpell(4741))
+		ActionOverride(Protagonist,RemoveSpell(4742))
+		ActionOverride(Protagonist,RemoveSpell(4742))
+		ActionOverride(Protagonist,RemoveSpell(4742))
+
+		ActionOverride(Protagonist,RemoveSpell(3201)) //CLABPR05
+
+		ActionOverride(Protagonist,RemoveSpell(4311)) //CLABRN01
+		ActionOverride(Protagonist,RemoveSpell(4311))
+		ActionOverride(Protagonist,RemoveSpell(4311))
+		ActionOverride(Protagonist,RemoveSpell(4311))
+		ActionOverride(Protagonist,RemoveSpell(4311))
+		ActionOverride(Protagonist,RemoveSpell(4311))
+
+		ActionOverride(Protagonist,RemoveSpell(4121)) //CLABRN02
+		ActionOverride(Protagonist,RemoveSpell(4121))
+
+		ActionOverride(Protagonist,RemoveSpell(4342)) //CLABRN04
+
+		ActionOverride(Protagonist,RemoveSpell(4412)) //CLABTH01
+		ActionOverride(Protagonist,RemoveSpell(4412))
+		ActionOverride(Protagonist,RemoveSpell(4412))
+
+		ActionOverride(Protagonist,RemoveSpell(4423)) //CLABTH02
+		ActionOverride(Protagonist,RemoveSpell(4423))
+		ActionOverride(Protagonist,RemoveSpell(4423))
+
+		ActionOverride(Protagonist,RemoveSpell(4414)) //CLABTH03
+		ActionOverride(Protagonist,RemoveSpell(4414))
+		ActionOverride(Protagonist,RemoveSpell(4414))
+  	        SetGlobal("InnateRemoved","AR3501",1)
+  	        Continue()
+END
+
+//**************************************************************************
+//Alchemy skill using
+IF
+        Global("SPCL919","GLOBAL",1)
+        PartyHasItem("CBSCRB0J")
+        Global("CbScrollsScribedByAlchemy","GLOBAL",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,CreateItem("CBCOPY10",1,1,0))
+        ActionOverride(Player1,CreateItem("CBCOPY10",1,1,0))
+        SetGlobal("CbScrollsScribedByAlchemy","GLOBAL",1)
+        Continue()
+END
+
+IF
+        Global("SPCL919","GLOBAL",1)
+        PartyHasItem("CBSCRB0K")
+        Global("CbScrollsScribedByAlchemy","GLOBAL",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,CreateItem("CBCOPY11",1,1,0))
+        ActionOverride(Player1,CreateItem("CBCOPY11",1,1,0))
+        ActionOverride(Player1,CreateItem("CBCOPY11",1,1,0))
+        SetGlobal("CbScrollsScribedByAlchemy","GLOBAL",1)
+END
+
+IF
+        Global("SPCL919","GLOBAL",1)
+        PartyHasItem("CBSCRB0L")
+        Global("CbScrollsScribedByAlchemy","GLOBAL",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,CreateItem("CBCOPY12",1,1,0))
+        ActionOverride(Player1,CreateItem("CBCOPY12",1,1,0))
+        ActionOverride(Player1,CreateItem("CBCOPY12",1,1,0))
+        ActionOverride(Player1,CreateItem("CBCOPY12",1,1,0))
+        SetGlobal("CbScrollsScribedByAlchemy","GLOBAL",1)
+END
+
+IF
+        Global("CbScrollsScribedByAlchemy","GLOBAL",1)
+THEN
+    RESPONSE #100
+        DisplayStringHead(Player1,@550630)
+        SetGlobal("CbScrollsScribedByAlchemy","GLOBAL",2)
+END
+//**************************************************************************
+

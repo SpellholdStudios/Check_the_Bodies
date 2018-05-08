@@ -1,0 +1,119 @@
+IF
+	Range("PaddyPT1",5)
+	Global("CbLetsMovePaddy","AR2600",0)
+	See([GOODCUTOFF])
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		SetGlobal("CbLetsMovePaddy","AR2600",1)
+		DisplayStringHead(Myself,@550145)
+		MoveToObject("PaddyPT2")
+		Face(12)
+		SetInterrupt(TRUE)
+END
+
+IF
+	Global("CbLetsMovePaddy","AR2600",1)
+	!Range("PaddyPT2",5)
+THEN
+	RESPONSE #100
+		MoveToObject("PaddyPT2")
+		Face(12)
+END
+
+IF
+	Range("PaddyPT2",5)
+	Global("CbLetsMovePaddy","AR2600",1)
+	See([GOODCUTOFF])
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		SetGlobal("CbLetsMovePaddy","AR2600",2)
+		DisplayStringHead(Myself,@550146)
+		MoveToObject("PaddyPT3")
+		Face(12)
+		SetInterrupt(TRUE)
+END
+
+IF
+	Global("CbLetsMovePaddy","AR2600",2)
+	!Range("PaddyPT3",5)
+THEN
+	RESPONSE #100
+		MoveToObject("PaddyPT3")
+		Face(12)
+END
+
+IF
+	Range("PaddyPT3",5)
+	Global("CbLetsMovePaddy","AR2600",2)
+	See([GOODCUTOFF])
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		SetGlobal("CbLetsMovePaddy","AR2600",3)
+		DisplayStringHead(Myself,@550147)
+		MoveToObject("PaddyPT4")
+		Face(12)
+		SetInterrupt(TRUE)
+END
+
+IF
+	Global("CbLetsMovePaddy","AR2600",3)
+	!Range("PaddyPT4",5)
+THEN
+	RESPONSE #100
+		MoveToObject("PaddyPT4")
+		Face(12)
+END
+
+IF
+	Range("PaddyPT4",5)
+	Global("CbLetsMovePaddy","AR2600",3)
+	See([GOODCUTOFF])
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		SetGlobal("CbLetsMovePaddy","AR2600",4)
+		DisplayStringHead(Myself,@550148)
+		MoveToObject("PaddyPT5")
+		Face(12)
+		SetInterrupt(TRUE)
+END
+
+IF
+	Global("CbLetsMovePaddy","AR2600",4)
+	!Range("PaddyPT5",5)
+THEN
+	RESPONSE #100
+		MoveToObject("PaddyPT5")
+		Face(12)
+END
+
+IF
+	Range("PaddyPT5",5)
+	Global("CbLetsMovePaddy","AR2600",4)
+	See([GOODCUTOFF])
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		SetGlobal("CbLetsMovePaddy","AR2600",5)
+		SetGlobal("CbPaddyWasFollowed","AR2600",1)
+		DisplayStringHead(Myself,@550149) // No such index
+		SmallWait(5)
+		DisplayString(Myself,19944) // Hide In Shadows Succeeded
+		MoveBetweenAreas("AR2600",[4226.2347],0)
+		SetInterrupt(TRUE)
+END
+
+IF
+	GlobalGT("CbLetsMovePaddy","AR2600",4)
+	!Range("PaddyPT6",5)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		MoveToObject("PaddyPT6")
+		Face(14)
+END
+
+

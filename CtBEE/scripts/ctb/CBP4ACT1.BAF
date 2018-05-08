@@ -1,0 +1,12 @@
+IF
+	See([PC])
+	!See([ENEMY])
+	CombatCounter(0)
+	Global("CbScreening_Pirates","AR0510",2)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		StartCutSceneMode()
+		StartCutScene("CBP4PLYa")
+END

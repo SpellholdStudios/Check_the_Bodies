@@ -1,0 +1,17 @@
+IF
+	Global("CbWormwoodInfoClicked","AR1700",0)
+THEN
+	RESPONSE #100
+		TriggerActivation("WormwoodInfo",TRUE)
+		ContainerEnable("WormwoodCont",FALSE)
+		Continue()
+END
+
+IF
+	Global("CbWormwoodInfoClicked","AR1700",1)
+THEN
+	RESPONSE #100
+		TriggerActivation("WormwoodInfo",FALSE)
+		ContainerEnable("WormwoodCont",TRUE)
+		Continue()
+END

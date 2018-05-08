@@ -1,0 +1,54 @@
+@1   = ~Frère, avant de pouvoir t’assister en quoi que ce soit, je dois achever mon propre apprentissage auprès de l’Archidruidesse. Tu devrais parler avec elle.~
+@2   = ~Frère, l’Archidruidesse m’a parlé de toi comme d’un être méritant pleinement notre assistance. Elle m’a demandé de passer quelques temps à tes côtés pour te prodiguer notre enseignement.~
+@3   = ~Une fois encore, mon Frère, tu dois faire un choix : nous t’aiderons à progresser, mais la décision de l'enseignement t’appartient. Veux-tu apprendre comment prendre la forme d’un dragon, préfères-tu améliorer tes techniques de guérison, ou souhaites-tu pouvoir lancer des sorts avec une plus grande célérité ? Réfléchis bien, mon Frère, car ton choix sera définitif.~
+@4   = ~Ma Soeur, je pense que j’aimerais apprendre à me métamorphoser.~
+@5   = ~Ma Soeur, j’aimerais pouvoir soigner les autres avec plus d’efficacité.~
+@6   = ~S’il te plaît, ma Soeur, apprends-moi à jeter des sorts plus rapidement.~
+@7   = ~Je serai plus qu’heureuse de te l’apprendre, mon Frère.~
+@8   = ~Merci à toi, mon Frère, de m’avoir donné l'opportunité de t’enseigner comment prendre la forme d’un dragon.~
+@9   = ~Merci à toi, mon Frère, de m’avoir donné l’opportunité de t’enseigner comment soigner ton prochain.~
+@10  = ~Merci à toi, mon Frère, de m’avoir donné l’opportunité de t’enseigner comment lancer des sorts avec célérité.~
+@11  = ~Je suis heureuse de t’avoir aidé, mon Frère, à être plus sensible aux choses de la nature. Et je suis encore plus heureuse de voir que tu nous aides. Il reste maintenant une dernière tâche que tu dois accomplir avant que l’Archidruidesse ne t’enseigne un nouveau savoir. Es-tu prêt ?~
+@12  = ~Oui, ma Soeur. Que dois-je faire ?~
+@13  = ~Pas maintenant, ma Soeur. J’ai besoin de temps.~
+@14  = ~J’attendrai donc en prévision de notre prochaine rencontre, mon Frère.~
+@15  = ~Alors que ta première mission était simple, la deuxième fut plus difficile. Cette dernière tâche sera aisée, au sens où tu n’auras pas à risquer ta vie. Prends ce bâton, mon Frère. Il est magique et fut construit pour être une arme indestructible.~
+@16  = ~Le bois de ce bâton est désormais abîmé. Avec le bon bois, il peut être rénové et regagner ses propriétés magiques. Il n’existe qu’un être dans cette région qui ait assez de savoir pour la réparer, un nain du nom de Cromwell. Trouve le bois et apporte-le lui avec le bâton. Lorsqu’il sera réparé, reviens me voir.~
+@17  = ~Je ferai de mon mieux, ma Soeur.~
+@18  = ~Je sais, mon Frère.~
+@19  = ~As-tu rempli ta mission concernant le bâton, mon Frère ?~
+@20  = ~Oui, ma Soeur. Le voici.~
+@21  = ~Non, ma Soeur. Je n’ai pas encore pu le faire réparer.~
+@22  = ~Reviens me voir, mon Frère, quand ce sera fait.~
+@23  = ~Tu as donc réussi. Viens, Frère, je vais régénérer l’enchantement de ce bâton et te l’offrir en cadeau.~
+@24  = ~Je n’ai pas encore achevé mon apprentissage auprès de l’Archidruidesse, <GABBER>, et je suis bien trop occupée pour interrompre mes méditations.~
+@25  = ~Ma Soeur, avant de pouvoir t’assister, je dois achever mon propre apprentissage auprès de l’Archidruidesse. Tu devrais parler avec elle.~
+@26  = ~Ma Soeur, l’Archidruidesse m’a parlé de toi comme d’un être méritant pleinement notre assistance. Elle m’a demandé de passer quelques temps à tes côtés pour te prodiguer notre enseignement.~
+@27  = ~Une fois encore, ma Soeur, tu dois faire un choix : nous t’aiderons à progresser, mais la décision de l'enseignement t’appartient. Veux-tu apprendre comment prendre la forme d’un dragon, préfères-tu améliorer tes techniques de guérison, ou souhaites-tu pouvoir lancer des sorts avec une plus grande célérité ? Réfléchis bien, ma Soeur, car ton choix sera définitif.~
+@28  = ~Je serai plus qu’heureuse de te l’apprendre, ma Soeur.~
+@29  = ~Merci à toi, ma Soeur, de m’avoir donné l'opportunité de t’enseigner comment prendre la forme d’un dragon.~
+@30  = ~Merci à toi, ma Soeur, de m’avoir donné l'opportunité de t’enseigner comment soigner ton prochain.~
+@31  = ~Merci à toi, ma Soeur, de m’avoir donné l'opportunité de t’enseigner comment lancer des sorts avec célérité.~
+@32  = ~Je suis heureuse de t’avoir aidée, ma Soeur, à être plus sensible aux choses de la nature. Et je suis encore plus heureuse de voir que tu nous aides. Il reste maintenant une dernière tâche que tu dois accomplir avant que l’Archidruidesse ne t’enseigne un nouveau savoir. Es-tu prête ?~
+@33  = ~J’attendrai donc en prévision de notre prochaine rencontre, ma Soeur.~
+@34  = ~Alors que ta première mission était simple, la deuxième fut plus difficile. Cette dernière tâche sera aisée, au sens où tu n’auras pas à risquer ta vie. Prends ce bâton, ma Soeur. Il est magique et fut construit pour être une arme indestructible.~
+@35  = ~Je sais, ma Soeur.~
+@36  = ~As-tu rempli ta mission concernant le bâton, ma Soeur ?~
+@37  = ~Reviens me voir, ma Soeur, quand ce sera fait.~
+@38  = ~Tu as donc réussi. Viens, ma Soeur, je vais régénérer l’enchantement de ce bâton et te l’offrir en cadeau.~
+@39 = ~L'Archidruidesse : La Voie de la Nature
+
+L'Archidruidesse et ses apprenties m’ont appris à me métamorphoser en dragon, ce qui représente la forme suprême du métamorphe.~
+@40 = ~L'Archidruidesse : La Voie de la Nature
+
+L'Archidruidesse et ses apprenties m’ont appris à soigner mon prochain plus rapidement et avec une plus grande efficacité.~
+@41 = ~L'Archidruidesse : La Voie de la Nature
+
+L'Archidruidesse et ses apprenties m’ont appris à lancer des sorts avec une plus grande célérité.~
+@42 = ~L'Archidruidesse : Renaissance
+
+Le trio de druidesses prenant soin du bosquet nord m’a demandé de l’aider à réparer un bâton magique endommagé. Il semblerait que je doive trouver une espèce rare de bois et l’apporter au nain d’Athkatla nommé Cromwell, qui serait capable de réparer l'arme.
+Une fois que j’aurai achevé ma mission, je devrais retourner voir les druidesses vivant dans le bosquet situé au sud de la Porte de Baldur, où elles m’ont promis de me transmettre un nouveau savoir.~
+@43 = ~L'Archidruidesse : Renaissance
+
+Avec l’aide du nain Cromwell, j’ai pu réparer le bâton magique que le trio de druidesses m’avait demandé de restaurer. L'arme avait été endommagée mais, depuis sa réparation, elle semble encore plus puissante.~

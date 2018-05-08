@@ -1,0 +1,28 @@
+IF
+	Global("CbTethtorilTeaches","LOCALS",2)
+	Global("CbTethtorilTeaches","AR3504",2)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("CbGorionTeachesLesson","GLOBAL",3)
+	Global("CbTethtorilTeaches","LOCALS",2)
+	Global("CbTethtorilTimer","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbTethtorilTimer","LOCALS",1)
+		SetGlobalTimer("CbTethtorilTired","LOCALS",THREE_HOURS)
+END
+
+IF
+	Global("CbTethtorilTimer","LOCALS",1)
+	GlobalTimerExpired("CbTethtorilTired","LOCALS")
+THEN
+	RESPONSE #100
+		TriggerActivation("Door3503",TRUE)
+		TriggerActivation("Door3505",TRUE)
+		EscapeAreaDestroy(90)
+END
+

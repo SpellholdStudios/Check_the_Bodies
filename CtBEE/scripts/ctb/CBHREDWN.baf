@@ -1,0 +1,12 @@
+IF
+	AreaCheck("AR3530")
+	CombatCounter(0)
+	Global("CbMarilynSpeaksHere","AR3530",0)
+	!HasItem("CBCO8HP1",Myself)
+	GlobalGT("SPRITE_IS_DEADCBC8CTM1","GLOBAL",1)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+END
+
+

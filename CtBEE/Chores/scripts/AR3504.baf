@@ -1,0 +1,387 @@
+IF
+        Global("CbChoresTheft","GLOBAL",1)
+        OR(2)
+             PartyHasItem("CLCK01")
+             PartyHasItem("SCRL3H")
+THEN
+    RESPONSE #100
+        CreateCreature("CBSTLKP1",[-1.-1],0)
+END
+
+//**************************************************************************
+//Alchemy skill using
+IF
+        Global("SPCL919","GLOBAL",1)
+        PartyHasItem("CBSCRB0J")
+        Global("CbScrollsScribedByAlchemy","GLOBAL",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,CreateItem("CBCOPY10",1,1,0))
+        ActionOverride(Player1,CreateItem("CBCOPY10",1,1,0))
+        SetGlobal("CbScrollsScribedByAlchemy","GLOBAL",1)
+        Continue()
+END
+
+IF
+        Global("SPCL919","GLOBAL",1)
+        PartyHasItem("CBSCRB0K")
+        Global("CbScrollsScribedByAlchemy","GLOBAL",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,CreateItem("CBCOPY11",1,1,0))
+        ActionOverride(Player1,CreateItem("CBCOPY11",1,1,0))
+        ActionOverride(Player1,CreateItem("CBCOPY11",1,1,0))
+        SetGlobal("CbScrollsScribedByAlchemy","GLOBAL",1)
+END
+
+IF
+        Global("SPCL919","GLOBAL",1)
+        PartyHasItem("CBSCRB0L")
+        Global("CbScrollsScribedByAlchemy","GLOBAL",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,CreateItem("CBCOPY12",1,1,0))
+        ActionOverride(Player1,CreateItem("CBCOPY12",1,1,0))
+        ActionOverride(Player1,CreateItem("CBCOPY12",1,1,0))
+        ActionOverride(Player1,CreateItem("CBCOPY12",1,1,0))
+        SetGlobal("CbScrollsScribedByAlchemy","GLOBAL",1)
+END
+
+IF
+        Global("CbScrollsScribedByAlchemy","GLOBAL",1)
+THEN
+    RESPONSE #100
+        DisplayStringHead(Player1,@550630)
+        SetGlobal("CbScrollsScribedByAlchemy","GLOBAL",2)
+END
+//**************************************************************************
+
+IF
+	Global("CbScribesActivate","GLOBAL",1)
+        AreaCheckObject("AR3504",Player1)
+THEN
+	RESPONSE #100
+	        Activate("CBSCRB01")
+	        ActionOverride("CBSCRB01",SetGlobal("CbThisGuyScribes","LOCALS",0))
+	        Activate("CBSCRB02")
+	        ActionOverride("CBSCRB02",SetGlobal("CbThisGuyScribes","LOCALS",0))
+	        Activate("CBSCRB03")
+	        ActionOverride("CBSCRB03",SetGlobal("CbThisGuyScribes","LOCALS",0))
+	        Activate("CBSCRB04")
+	        ActionOverride("CBSCRB04",SetGlobal("CbThisGuyScribes","LOCALS",0))
+	        IncrementGlobal("ActCnt","AR3504",1)
+	        Wait(1)
+	        Continue()
+END
+
+IF
+	Global("CbScribesActivate","GLOBAL",1)
+        AreaCheckObject("AR3504",Player1)
+        GlobalGT("ActCnt","AR3504",3)
+THEN
+	RESPONSE #100
+		SetGlobal("CbScribesActivate","GLOBAL",0)
+                SetGlobal("ActCnt","AR3504",0)
+END
+
+IF
+	Global("CbTethtorilTeaches","AR3504",0)
+	Global("CbDisableTriggs","AR3504",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbDisableTriggs","AR3504",1)
+		TriggerActivation("FireResistance",FALSE)
+		TriggerActivation("MindFocusing",FALSE)
+		ContainerEnable("CBTCHPN1",FALSE)
+		ContainerEnable("CBTCHPN2",FALSE)
+END
+
+IF
+	Global("CbTethtorilTeaches","AR3504",1)
+	Global("CbDisableTriggs","AR3504",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbDisableTriggs","AR3504",2)
+		TriggerActivation("FireResistance",TRUE)
+		TriggerActivation("MindFocusing",TRUE)
+		ContainerEnable("CBTCHPN1",TRUE)
+		ContainerEnable("CBTCHPN2",TRUE)
+END
+
+IF
+	GlobalGT("CbTethtorilTeaches","AR3504",2)
+	Global("CbDisableTriggs","AR3504",2)
+THEN
+	RESPONSE #100
+		SetGlobal("CbDisableTriggs","AR3504",3)
+		TriggerActivation("FireResistance",FALSE)
+		TriggerActivation("MindFocusing",FALSE)
+		ContainerEnable("CBTCHPN1",FALSE)
+		ContainerEnable("CBTCHPN2",FALSE)
+END
+
+IF
+	Global("CbTethtorilTeaches","AR3504",1)
+	Contains("CBPOWDR1","CBTCHPN1")
+	Global("CbCheckDustOne","AR3504",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCheckDustOne","AR3504",1)
+		IncrementGlobal("CbPotionBeingCreated","AR3504",1)
+		Continue()
+END
+
+IF
+	Global("CbTethtorilTeaches","AR3504",1)
+	!Contains("CBPOWDR1","CBTCHPN1")
+	Global("CbCheckDustOne","AR3504",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCheckDustOne","AR3504",0)
+		IncrementGlobal("CbPotionBeingCreated","AR3504",-1)
+		Continue()
+END
+
+IF
+	Global("CbTethtorilTeaches","AR3504",1)
+	Contains("CBPOWDR2","CBTCHPN1")
+	Global("CbCheckDustTwo","AR3504",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCheckDustTwo","AR3504",1)
+		IncrementGlobal("CbPotionBeingCreated","AR3504",1)
+		Continue()
+END
+
+IF
+	Global("CbTethtorilTeaches","AR3504",1)
+	Contains("CBPOWDR2","CBTCHPN1")
+	Global("CbCheckDustTwo","AR3504",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCheckDustTwo","AR3504",0)
+		IncrementGlobal("CbPotionBeingCreated","AR3504",-1)
+		Continue()
+END
+
+IF
+	Global("CbTethtorilTeaches","AR3504",1)
+	Contains("CBPOWDR5","CBTCHPN1")
+	Global("CbCheckDustFive","AR3504",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCheckDustFive","AR3504",1)
+		IncrementGlobal("CbPotionBeingCreated","AR3504",1)
+		Continue()
+END
+
+IF
+	Global("CbTethtorilTeaches","AR3504",1)
+	!Contains("CBPOWDR5","CBTCHPN1")
+	Global("CbCheckDustFive","AR3504",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCheckDustFive","AR3504",0)
+		IncrementGlobal("CbPotionBeingCreated","AR3504",-1)
+		Continue()
+END
+
+IF
+	Global("CbTethtorilTeaches","AR3504",1)
+	Contains("CBPOWDR6","CBTCHPN1")
+	Global("CbCheckDustSix","AR3504",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCheckDustSix","AR3504",1)
+		IncrementGlobal("CbPotionBeingCreated","AR3504",1)
+		Continue()
+END
+
+IF
+	Global("CbTethtorilTeaches","AR3504",1)
+	!Contains("CBPOWDR6","CBTCHPN1")
+	Global("CbCheckDustSix","AR3504",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCheckDustSix","AR3504",0)
+		IncrementGlobal("CbPotionBeingCreated","AR3504",-1)
+		Continue()
+END
+
+IF
+	Global("CbTethtorilTeaches","AR3504",1)
+	Contains("CBPOWDR3","CBTCHPN2")
+	Global("CbCheckDustThree","AR3504",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCheckDustThree","AR3504",1)
+		IncrementGlobal("CbPotionBeingCreated","AR3504",1)
+		Continue()
+END
+
+IF
+	Global("CbTethtorilTeaches","AR3504",1)
+	!Contains("CBPOWDR3","CBTCHPN2")
+	Global("CbCheckDustThree","AR3504",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCheckDustThree","AR3504",0)
+		IncrementGlobal("CbPotionBeingCreated","AR3504",-1)
+		Continue()
+END
+
+IF
+	Global("CbTethtorilTeaches","AR3504",1)
+	Contains("CBPOWDR4","CBTCHPN2")
+	Global("CbCheckDustFour","AR3504",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCheckDustFour","AR3504",1)
+		IncrementGlobal("CbPotionBeingCreated","AR3504",1)
+		Continue()
+END
+
+IF
+	Global("CbTethtorilTeaches","AR3504",1)
+	!Contains("CBPOWDR4","CBTCHPN2")
+	Global("CbCheckDustFour","AR3504",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCheckDustFour","AR3504",0)
+		IncrementGlobal("CbPotionBeingCreated","AR3504",-1)
+		Continue()
+END
+
+IF
+	Global("#HCbAlcTst","GLOBAL",0)
+	Global("CbTethtorilTeaches","AR3504",1)
+	Global("CbPotionBeingCreated","AR3504",6)
+THEN
+	RESPONSE #100
+		SetGlobal("#HCbAlcTst","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("#HCbAlcTst","GLOBAL",1)
+THEN
+	RESPONSE #100
+		TriggerActivation("FireResistance",FALSE)
+		TriggerActivation("MindFocusing",FALSE)
+		ContainerEnable("CBTCHPN1",FALSE)
+		ContainerEnable("CBTCHPN2",FALSE)
+		Wait(1)
+		PlaySound("EFF_M04")
+		TakePartyItem("CBTETPN1") // Potion of Fire Resistance
+		TakePartyItem("CBTETPN2") // Potion of Magic Protection
+		TakePartyItem("CBTETPN3") // Potion of Absorption
+		GiveItemCreate("POTN02",Player1,1,1,0) // Potion of Fire Resistance
+		GiveItemCreate("POTN37",Player1,1,1,0) // Potion of Mind Focusing
+		SetGlobal("#HCbAlcTst","GLOBAL",2)
+		SetGlobal("CbTethtorilTeaches","AR3504",2)
+		Continue()
+END
+
+IF
+	Global("CbDoingMaidsChores","GLOBAL",2)
+	Global("CbActivateTriggers_3504","GLOBAL",1)
+THEN
+	RESPONSE #100
+		TriggerActivation("PrivateBedOne",TRUE)
+		TriggerActivation("PrivateBedTwo",TRUE)
+		TriggerActivation("PrivateBedThree",TRUE)
+		TriggerActivation("PrivateBedFour",TRUE)
+		TriggerActivation("PrivateBedFive",TRUE)
+		TriggerActivation("PrivateBedSix",TRUE)
+		TriggerActivation("PrivateBedSeven",TRUE)
+		TriggerActivation("PrivateBedEight",TRUE)
+		SetGlobal("CbPrivateBedOne","AR3504",0)
+		SetGlobal("CbPrivateBedTwo","AR3504",0)
+		SetGlobal("CbPrivateBedThree","AR3504",0)
+		SetGlobal("CbPrivateBedFour","AR3504",0)
+		SetGlobal("CbPrivateBedFive","AR3504",0)
+		SetGlobal("CbPrivateBedSix","AR3504",0)
+		SetGlobal("CbPrivateBedSeven","AR3504",0)
+		SetGlobal("CbPrivateBedEight","AR3504",0)
+		SetGlobal("CbActivateTriggers_3504","GLOBAL",2)
+END
+
+IF
+	GlobalGT("CbPrivateBedOne","AR3504",0)
+	GlobalGT("CbPrivateBedTwo","AR3504",0)
+	GlobalGT("CbPrivateBedThree","AR3504",0)
+	GlobalGT("CbPrivateBedFour","AR3504",0)
+	GlobalGT("CbPrivateBedFive","AR3504",0)
+	GlobalGT("CbPrivateBedSix","AR3504",0)
+	GlobalGT("CbPrivateBedSeven","AR3504",0)
+	GlobalGT("CbPrivateBedEight","AR3504",0)
+	Global("CbActivateTriggers_3504","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("CbActivateTriggers_3504","GLOBAL",3)
+		IncrementGlobal("CbKeepBedsMade","GLOBAL",1)
+END
+
+IF
+	Global("CbPrivateBedOne","AR3504",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPrivateBedOne","AR3504",2)
+		TriggerActivation("PrivateBedOne",FALSE)
+END
+
+IF
+	Global("CbPrivateBedTwo","AR3504",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPrivateBedTwo","AR3504",2)
+		TriggerActivation("PrivateBedTwo",FALSE)
+END
+
+IF
+	Global("CbPrivateBedThree","AR3504",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPrivateBedThree","AR3504",2)
+		TriggerActivation("PrivateBedThree",FALSE)
+END
+
+IF
+	Global("CbPrivateBedFour","AR3504",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPrivateBedFour","AR3504",2)
+		TriggerActivation("PrivateBedFour",FALSE)
+END
+
+IF
+	Global("CbPrivateBedFive","AR3504",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPrivateBedFive","AR3504",2)
+		TriggerActivation("PrivateBedFive",FALSE)
+END
+
+IF
+	Global("CbPrivateBedSix","AR3504",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPrivateBedSix","AR3504",2)
+		TriggerActivation("PrivateBedSix",FALSE)
+END
+
+IF
+	Global("CbPrivateBedSeven","AR3504",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPrivateBedSeven","AR3504",2)
+		TriggerActivation("PrivateBedSeven",FALSE)
+END
+
+IF
+	Global("CbPrivateBedEight","AR3504",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPrivateBedEight","AR3504",2)
+		TriggerActivation("PrivateBedEight",FALSE)
+END

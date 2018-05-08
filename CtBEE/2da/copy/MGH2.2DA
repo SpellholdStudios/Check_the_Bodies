@@ -1,0 +1,41 @@
+MGH2/ Brown Barbarian
+***
+						SOUND
+ATTACK          		BARB01A BARB01B BARB01C
+ATTACK          		2 0 0
+AWAKE           		***
+AWAKE           		0
+CAST            		***
+CAST            		0
+CONJURE         		***
+CONJURE         		0
+DAMAGE          		BARB07A BARB07B BARB07C
+DAMAGE          		0
+DIE             		BARB09A BARB09B BARB09C
+DIE             		0
+HEAD_TURN       		***
+HEAD_TURN       		0
+READY           		***
+READY           		0
+SHOOT           		***
+SHOOT           		0
+TWITCH          		***
+TWITCH          		0
+WALK            		***
+WALK            		0
+ATTACK_SLASH    		BARB03A BARB03B BARB03C
+ATTACK_SLASH    		2 0 0
+ATTACK_BACKSLASH		BARB04A BARB04B BARB04C
+ATTACK_BACKSLASH		2 0 0
+ATTACK_JAB      		BARB04C BARB04A BARB04B 
+ATTACK_JAB      		2 0 0
+EMERGE          		***
+EMERGE          		0
+HIDE            		***
+HIDE            		0
+SLEEP          			***
+SLEEP          			0
+Battle_Cry			BARB01A BARB01B 
+Battle_Cry			0 0
+Selection               	BARB01A
+Selection               	0

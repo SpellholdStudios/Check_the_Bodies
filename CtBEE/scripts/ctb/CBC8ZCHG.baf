@@ -1,0 +1,26 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("CBC8CTZL")
+		MoveViewObject("CBC8CTZL",INSTANT)
+		Wait(1)
+		DisplayStringHead(Myself,30061) // You will fail. You cannot help but fail. We know this. We expect nothing other.
+		Wait(1)
+		ReallyForceSpell(Myself,CLERIC_HEAL)
+		Wait(6)
+		DisplayStringHead(Myself,904) // Have you any idea why we are here?
+		Wait(1)
+		ReallyForceSpell(Myself,WIZARD_GLOBE_OF_INVULNERABILITY)
+		Wait(6)
+		DisplayStringHead(Myself,61751) //  You should not have come to this place!
+		Wait(1)
+		ReallyForceSpell(Myself,WIZARD_STONE_SKIN)
+		Wait(6)
+		DisplayStringHead(Myself,61752) //  You'll suffer before you die, I promise.
+		Wait(4)
+		ReallyForceSpell(Myself,WIZARD_ABSOLUTE_IMMUNITY)
+		EndCutSceneMode()
+END
+
+

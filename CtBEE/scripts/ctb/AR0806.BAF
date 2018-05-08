@@ -1,0 +1,43 @@
+IF
+	Unlocked("Container1")
+	!Unlocked("CbCont01")
+THEN
+	RESPONSE #100
+		Unlock("CbCont01")
+		Continue()
+END
+
+IF
+	!Unlocked("Container1")
+	Unlocked("CbCont01")
+THEN
+	RESPONSE #100
+		Unlock("Container1")
+		Continue()
+END
+
+IF
+	Global("CbXTThiefStealsFromDead","GLOBAL",0)
+THEN
+	RESPONSE #100
+		ContainerEnable("CbCont01",FALSE)
+		Continue()
+END
+
+IF
+	Global("CbXTThiefStealsFromDead","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ContainerEnable("CbCont01",TRUE)
+		ContainerEnable("Container1",FALSE)
+		Continue()
+END
+
+IF
+	GlobalGT("CbXTThiefStealsFromDead","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ContainerEnable("CbCont01",FALSE)
+		ContainerEnable("Container1",TRUE)
+		Continue()
+END

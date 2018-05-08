@@ -1,0 +1,56 @@
+@1   = ~Non c'é niente che posso fare per te ora nel mio viaggio attraverso Faerûn~
+@2   = ~Grazie, <GABBER>, per averci aiutato a fare un ulteriore passo per completare il nostro incarico qui su Faerûn. Noi ora dobbiamo aiutarti a completare il tuo destino, ma come tutto quello che fai, la scelta dipende da te. Noi ti aiuteremo insegnandoti qualcosa.~
+@3   = ~Cosa preferiresti imparare, <GABBER>: come memorizzare ulteriori incantesimi, come lanciare incantesimi più velocemente, oppure come incantare magicamente una normale arma provvista di lama?~
+@4   = ~Mi piacerebbe saper memorizzare un incantesimo addizionale per livello.~
+@5   = ~Vorrei incrementare la velocità di lancio degli incantesimi, ne avrei un gran beneficio.~
+@6   = ~Vorrei sapere come si fa ad incantare un'arma.~
+@7   = ~Molto bene, <GABBER>. E' un onore insegnarti come incrementare le tue capacità mentali.~
+@8   = ~Ho fatto un ulteriore passo verso il completamento del mio lavoro, <GABBER>. Tu capisci in fretta, ed io sono onorata di averti aiutato ad incrementare le tue capacità mentali.~
+@9   = ~Molto bene, <GABBER>. E' davvero un onore insegnarti come lanciare gli incantesimi in modo più rapido ed efficace.~
+@10  = ~Ho fatto un ulteriore passo verso il completamento del mio lavoro, <GABBER>. Tu capisci in fretta, ed io sono onorata di averti insegnato ad incrementare il lancio degli incantesimi.~
+@11  = ~Molto bene, <GABBER>. E' un onore per me insegnarti come incantare magicamente un'arma provvista di lama, che sia una spada, un pugnale, un'ascia o un'alabarda.~
+@12  = ~Ho fatto un ulteriore passo verso il completamento del mio lavoro, <GABBER>. Tu impari facilmente, e dio sono onorata di averti aiutato a comprendere come incantare un'arma. Devi ricordarti che l'oggetto che vuoi incantare lo devi possedere altrimenti l'incantamento fallirà. E ricordati, che potrai incantare solo le armi che si utilizzano per attacchi corpo a corpo, non su quelle da lancio.~
+@13  = ~Fino ad ora hai agito bene, <GABBER>, e noi tre ti siamo grate per il tuo aiuto.  Ma ora, dovrai essere esaminato ulteriormente. Sei pronto per arricchire la tua esperienza?~
+@14  = ~Si, Reverenda Signora. Dimmi cosa c'é bisogno di fare.~
+@15  = ~No, Reverenda Signora, ho bisogno di altro tempo.~
+@16  = ~<GABBER>, noi non possiamo terminare il nostro destino qui su Faerûn finché tu non sarai pronto. Preparati al meglio che puoi, e ritorna quando sarai pronto.~
+@17  = ~Bene, <GABBER>. Ascolta attentamente, perché ti devo spiegare alcune cose prima di assegnarti il prossimo incarico.~
+@18  = ~C'é una presenza crescente che sentiamo da qualche mese. Non so cosa sia, ma posso sentire che si tratta di una presenza malefica.~
+@19  = ~<GABBER>, temo per la regione se questa presenza diventerà molto potente. Non appartiene al nostro mondo, e dobbiamo impedirgli di causare distruzione e devastazione.~
+@20  = ~Ti do l'incarico, <GABBER>, di eliminare questa presenza con qualsiasi mezzo a tua disposizione. Puoi utilizzare alleati, amici potenti, o raccogliere oggetti arcani per mettere fine a questa minaccia. Ancora una volta la sicurezza di Faerûn dipende da te.~
+@21  = ~Dove credi che posso trovare questa presenza, Signora?~
+@22  = ~Farò del mio meglio, Signora.~
+@23  = ~Signora, dubito che le mie capacità siano sufficienti per porre fine ad una simile minaccia.~
+@24  = ~Non so esattamente dove si trovi, ma sento che la presenza é a nord di una città, un'insediamento umano conosciuto come Athkatla.~
+@25  = ~Costi quel che costi, <GABBER>, il destino di noi tutti é nelle tue mani. Noi tre crediamo in te, Elhan crede in te, e coloro che ti conoscono solo dalle storie delle tue gesta che sentono nelle taverne crederebbero in te se fossero a conoscenza del pericolo. Credi in te stesso, buon <LADYLORD>, e vedrai che ce la farai.~
+@26  = ~So che farai del tuo meglio. E tutte noi pregheremo per te. Buona fortuna, <GABBER>. Ritorna quando avraicacciato o distrutto la presenza e ti insegneremo qualcos'altro. Possa Seldarine vegliare su di te e proteggerti.~
+@27  = ~Posso sentire ancora la presenza malvagia nella regione. Sento che non hai completato il tuo incarico.~
+@28  = ~Non riesco a trovare questa presenza. Sai dove si trovi con precisione?~
+@29  = ~Te l'ho detto sento che si trova ad Athkatla.~
+@30  = ~Non posso essere molto precisa, ma sento che la presenza è più forte nella parte ovest della città.~
+@31  = ~Sento che questa presenza si trova nei pressi di uno specchio d'acqua. Forse un fiume? Non posso dirtelo con esattezza.~
+@32  = ~La presenza malvagia credo si trovi sotto la superficie. Mi sembra di sentire un odore misto a zolfo, sale, e marciume.~
+@33  = ~Non posso essere più precisa, <GABBER>. La presenza malvagia è presente fortemente nella parte ovest di Athkatla, vicino all'acqua, sotto la superficie.~
+@34  = ~Non sento più la presenza malefica. L'hai distrutta?~
+@35  = ~No, l'ho scacciata ma non distrutta.~
+@36  = ~Si, insigne Signora, l'ho distrutta qualsiasi cosa fosse.~
+@37  = ~Allora é fatta, quali che siano le conseguenze. Tu hai agito bene, <GABBER>. Ti ringrazio per averci fatto avvicinare al passaggio ad ovest, verso Evermeet, ora ti possiamo insegnare una nuova abilità, se vuoi.~
+@38  = ~Vai, <GABBER>. Distruggi il malvagio se puoi.~
+@39  = ~Aspettiamo il momento in cui avverrà il nostro viaggio finale da Faerûn ad Evermeet. Possa Corellan Lotharian guidarti, <GABBER>.~
+@40 = ~Le Anziane Elfe: Insegnamenti Magici
+
+Il trio di maghe che ho incontrato nella parte ovest della Foresta di Tethyr, vicino alla caverna dell'entrata del Sottosuolo, sono state alquanto gentili ad insegnarmi come incrementare il numero di incantesimi che posso memorizzare.~
+@41 = ~Le Anziane Elfe: Insegnamenti Magici
+
+Il trio di maghe che ho incontrato nella parte ovest della Foresta di Tethyr, vicino alla caverna dell'entrata del Sottosuolo, sono state alquanto gentili ad insegnarmi come lanciare gli incantesimi più velocemente.~
+@42 = ~Le Anziane Elfe: Insegnamenti Magici
+
+Il trio di maghe che ho incontrato nella parte ovest della Foresta di Tethyr, vicino alla caverna dell'entrata del Sottosuolo, sono state alquanto gentili ad insegnarmi come incantare le armi dotate di lama in armi minori incantate.~
+@43 = ~Le Anziane Elfe: La Presenza Malvagia
+
+Il trio di maghe che si stanno preparando al Ritiro mi hanno ordinato di sconfiggere una presenza malvagia che sentono nella regione. Non sanno dove si trovi esattamente questa presenza malefica, ma é da qualche parte all'interno della città di Athkatla.
+  Quando avrò sconfitto la presenza malvagia - sia che la distruggo e sia che la caccio da Faerûn - dovrò ritornare dalle Elfe vicino all'uscita del Sottosuolo dove mi hanno promesso di insegnarmi un'abilità che arricchirà la mia esperienza di vita.~
+@44 = ~Le Anziane Elfe: La Presenza Malvagia
+
+Ho sconfitto un demone malvagio sotto il Quartiere dei Moli di Athkatla du cui le sagge elfe avevano sentore. Mi hanno detto che si avvicina il tempo del loro passaggio verso Evermeet e mi hanno promesso di insegnarmi una nuova abilità.~
+

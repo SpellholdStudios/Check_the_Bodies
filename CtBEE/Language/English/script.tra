@@ -1,0 +1,497 @@
+//this is the file that will have all script STRREFs
+@550000 = ~You'll make all your suitors very jealous, Surayah.~
+@550001 = ~They make a lovely couple.~
+@550002 = ~What a lovely woman she is!~
+@550003 = ~Congratulations, my dears.~
+@550004 = ~There will be no mistaking such a graceful and exquisite speciman like yourself for anything but a fine Lady.~
+@550005 = ~My, my, what a wife you will make for some lucky gentlemen.~
+@550006 = ~Hooray for the newlyweds.~
+@550007 = ~You pull the sconce slightly out of the wall.  A grating noise comes from the floor beside you and the light goes out, but there is no other visible or audible effect.~
+@550008 = ~You are sure that there are minor disturbances in the area.  You can't quite tell, but it seems as if some creature, or creatures, probably bi-pedal, has been around your cabin.~
+@550009 = ~You climb the trail up to this small area, and at once are immediately impressed with the view.  The mountains here are majestic, and you could not imagine a more remote locale.  All around, the only sounds you can hear are of wildlife, and you cannot believe that any of those who hunt you could ever find you here.  You feel safe from all but the wild animals.~
+@550010 = ~Everything here appears as you left it.  There are no signs that any intelligent life has found a way up the mountainside trail.~
+@550011 = ~You are sure that there are minor disturbances in the area.  You can't quite tell, but it seems as if some creature, or creatures, probably bi-pedal, has been around your cabin.~
+@550012 = ~The structure of this ancient Wizard's Tower has weakened over time and the ceiling collapses, nearly crushing you.~
+@550013 = ~You grab the dust covered symbol from its place on the altar.~
+@550014 = ~A loud echoing noise reverberates throughout the tower, and you can feel it more than hear the sound.  Something has moved within the Tower, something heavy and solid.~
+@550015 = ~Forest friends!  I am in danger!  Assist me now!~
+@550016 = ~Animals of the forest!  I need your help! Come!~
+@550017 = ~HERE THEY COME AGAIN!!!~
+@550018 = ~PREPARE FOR THE CHARGE!!!~
+@550019 = ~HOLD THE LINE!!  WE CANNOT LET THEM THROUGH!!!~
+@550020 = ~The water is murky and deep.  You cannot see the bottom of the pool, and your instincts tell you that the stagnant water may connect to and underground river that leads someplace.  If you wish, you probably could swim through to see where it leads.~
+@550021 = ~Peach Tree    This tree has not flowered yet, so there are no peaches to eat, however, it has numerous small leaves which can be picked all over its supple and fragile limbs.~
+@550022 = ~Elderberry Bush    This bush has fresh elderberries hanging from its branches.~
+@550023 = ~The base of this tree has clumps of rare Club Moss growing on the north side of its trunk.~
+@550024 = ~These trees are Wormwood.  The bark of wormwood trees is commonly used by healers or medicine men to promote digestion in patients.~
+@550025 = ~Along the edge of this path grows couch grass, or Agropyron Repens, along with a variety of other ferns.~
+@550026 = ~As you step onto one of the porcelain floor tiles, you feel a slight shift as it is depressed into the ground.~
+@550027 = ~The spell-sung ward here has weakened enough that your Knock spell has dispelled the ancient magical barrier.~
+@550028 = ~As you move towards the barrier, the energy which prevents you from passing through increases and there is a loud humming sound from your backpack.~
+@550029 = ~Since you emptied your pack of particular items, the barrier lets you pass by with ease.~
+@550030 = ~The arcane and protective magic of the Wizard's Tower suddenly teleports you to another floor, confusing you for a few moments.~
+@550031 = ~"That's how we all know you're no good with a bow, Tardeth."~
+@550032 = ~"I could even do better than you."~
+@550033 = ~"Watch how it's done."~
+@550034 = ~"There you have it, Tardeth.  Simpler done than said."~
+@550035 = ~"I want in on this."~
+@550036 = ~"Pay attention, Sylvanus and Tardeth."~
+@550037 = ~"I'll show you how it's done."~
+@550038 = ~"There you have it, Tardeth.  Simpler done than said."~
+@550039 = ~"Look, everybody.  The Elf is still trying to be an archer."~
+@550040 = ~"I thought Elves were supposed to be good with a bow."~
+@550041 = ~"Sylvanus, you couldn't hit the broadside of a barn with that bow."~
+@550042 = ~"Let's move it, Company of Eight!  Go!"~
+@550043 = ~"I'd love to see you do better, Haresdown."~
+@550044 = ~"Don't pay any attention to her, Sylvanus."~
+@550045 = ~"I'll practice with you a bit."~
+@550046 = ~"Damn, can't take a shot from here."~
+@550047 = ~"Three of four.  Not bad."~
+@550048 = ~"Don't pay any attention to her, Sylvanus."~
+@550049 = ~"I'll practice with you a bit."~
+@550050 = ~"Damn, can't take a shot from here."~
+@550051 = ~"Damn.  Only hit once."~
+@550052 = ~"Nice."~
+@550053 = ~"Nice shot!"~
+@550054 = ~"You nailed that one."~
+
+@550058 = ~I will uncover the secret!~
+@550059 = ~Interesting.  This will require more study.~
+@550060 = ~These results do not corroborate my previous experiments.  I shall have to attempt one more experiment.~
+@550061 = ~Hmmmm....  Very unusual.  This requires more research.~
+@550062 = ~Sir, the source cannot be discerned.~
+@550063 = ~Have you not scryed the city?  Perhaps one of the noble villas?~
+@550064 = ~Of course we did, sir, yet our magic cannot locate a definate source.  The spells point to various places in the city, and seem to change at random.~
+@550065 = ~There must be an explaination, Adept.  Magic just does not cast itself.~
+@550066 = ~Ahhh, yes sir.  I understand that, but regardless, we canno..~
+@550067 = ~Perhaps it may be best to have someone who cannot be traced to us search out this deviant?~
+@550068 = ~How would someone else be able to find what we have fai...~
+@550069 = ~ENOUGH!  There will be no such talk of failure.  You will find this deviant and bring the offender to justice.  Do not give me anymore excuses.~
+@550070 = ~Ye... yes, sir.  Without delay, sir.~
+@550071 = ~Eleanor.  Seems you are doing some research that I am not paying you for.~
+@550072 = ~Do you want to explain why you are in this backwater town?  I am sure there are no important texts here.  What knowledge could you possible find here that may be something I need to know?~
+@550073 = ~I... I heard a rumor.  That's all.  J... just a rumor about the artifact.  I.. I thought it may be important, b.. but it was a false reference.~
+@550074 = ~Did I not tell you to inform me of your activities?  I know I have been quite clear in my instructions.  Hmmm.  No.  I do not believe you heard a rumor at all.~
+@550075 = ~Now, tell me the truth.  What did you do here in Trademeet?~
+@550076 = ~I will not betray those who are your enemies!  You cannot possibly hope to succeed with the ritual!~
+@550077 = ~But you are wrong, dear Eleanor.  I will succeed.  I will, and it is a pity you shall not witness my triumph.  I shall enjoy slaying you!  Take her, men.!~
+@550078 = ~This takes too long!  You die now, foolish elf!~
+@550079 = ~The magical protections of House Extaminos teleports you violently away from the main door.  You will have to find another way in or someway to bypass the protective spells.~
+
+@550080 = ~Now, you try.~
+@550081 = ~No.  Watch me closely, <CHARNAME>.~
+@550082 = ~<CHARNAME>, not like that, like this.  Watch.~
+@550083 = ~Close!  Nice job.  Just enunciate the words more.~
+@550084 = ~By Gond, my <PRO_GIRLBOY>!  That's it!  Do it again!~
+@550085 = ~Not like that.  Try again.~
+@550086 = ~Concentrate, child.~
+@550087 = ~Good Gond, <CHARNAME>!  Be careful!~
+
+//Hull teaches "Defensive Spin" cutscene
+@550088 = ~So, kiddo, in order to properly protect yourself in the heat of battle, for a few moments it is common for a fighter to enter a trance-like state.~
+@550089 = ~This trance is commonly known by fighters as Defensive Spin.  With it, all you do is concentrate on an opponents attacks against you.~
+@550090 = ~By concentrating on the movements of your opponent, you can guard against almost any attack, and as you learn more about enemies' fighting styles, you will be able to guard against a greater number of different types of attacks.~
+@550091 = ~So let's try it.  I'm going to use this padded sword to attack you, and all I want you to do is try to block my attacks with your arms, hands, or anything else you may have.  Just keep trying to block my attacks.~
+@550092 = ~As we keep fighting, you'll find that your concentration grows, and you will be blocking more and more of my attacks.~
+
+//Hull teaches "Harden" cutscene
+@550093 = ~You need to learn how to recognize when your physical body is in danger.~
+@550094 = ~You also need to know that the body has ways of protecting itself.~
+@550095 = ~In order to learn this, you need to experience what pain is.~
+@550096 = ~I know that it is going to hurt you, but it is the only way I know how to get you to understand.~
+@550097 = ~Don't worry, kiddo.  I know what I'm doing and won't hurt you badly, but you'll feel a lot of pain.~
+@550098 = ~Prepare yourself.~
+@550099 = ~That really hurt, Hull.~
+@550100 = ~I know it did, but look at yourself, kiddo.  You've no bruises or cuts.~
+@550101 = ~That's what I meant by your body has ways of taking care of itself.  You didn't do anything, and I beat on you pretty hard.  But you're not really hurt, you just feel the pain.~
+@550102 = ~Now that you know what I mean, I'm going to hit you harder, but remember, kiddo, you won't even feel the pain this time.~
+
+//Hull teaches "Offensive Spin" cutscene
+@550103 = ~So, kiddo, when you're in melee and you want to hurt your opponent badly very quickly, many fighters use a technique commonly known as Offensive Spin.~
+@550104 = ~This is a trance-like state where the attacker will move quickly, increasing the ability to strike, and strike with near-lighting speed, as well as becoming more accurate and maximizing the damage done by a particular weapon.~
+@550105 = ~During the heat of battle, this technique, or trance, will only last a few moments, but it can be deadly to a weakened opponent, or a mage attempting to cast spells.~
+@550106 = ~In order to try this fighting technique, I'll give you this sword to use against me, and I want you to begin to fight me.  I won't fight back, but I want you to concentrate on where I am, where your sword is going, how you are going to slash or thrust, and most importantly, you need to plan your next attack long before you actually strike.~
+@550107 = ~That's the key to Offensive Spin, kiddo, planning where to strike even before you make the attack.  So let's try it now.~
+
+//Hull teaches "Tracking" cutscene
+@550108 = ~In order to search out your enemies, kiddo, you've got to know your enviroment.~
+@550109 = ~For example, you won't find a yeti in a dark cavern in the underdark.  Unless the Council of Mystra is following you, ya know?~
+@550110 = ~Nor are you likely to find mummies in the forest.~
+@550111 = ~That's the most important thing to tracking- knowing what to look for.  I'd be able to better demonstrate this if we were deep in the forest, but use your imagination here in the barracks.~
+@550112 = ~Pretend that you can see two sets of footprints here on the floor.  Ask yourself what kind of clues about who made the prints each can give you.~
+@550113 = ~If you were to find deep impressions, you could guess that they were made by someone heavy, wearing cobbled boots.~
+@550114 = ~If another set of prints appear more dainty, what would it tell you?  Imagine that you can see these tracks here in the Keep.~
+@550115 = ~Combine the clues with the environment, and you can figure out that the footprints were probably made by humans or demihumans- there aren't a whole lot of elephants around- and that more than likely they were made by a Watcher- the heavy bootprints- and a priest- light slippers- of the Keep.~
+@550116 = ~Right kiddo?~
+@550117 = ~Sounds reasonable, Mr. Hull.~
+@550118 = ~Good.  Now, the second part of tracking is to figure out where the creatures went, and how long ago.~
+@550119 = ~Look for the direction that the tracks go.  Also, keep in mind the past few days weather conditions.~
+@550120 = ~What I mean is, pay close attention to whether the prints are worn away by wind or rain.~
+@550121 = ~If the tracks are still well-defined and it rained two days ago, you can probably guess that that the set of prints was made since that rainfall.~
+@550122 = ~You can then guess whether one of the makers of these prints is still in the area or not.~
+@550123 = ~That's basically what tracking is, kiddo.~
+
+@550124 = ~You need to have clean bedsheets to make this bed.~
+@550125 = ~You place the linens and blankets on the wide bed and fluff the pillows.  The bed is now ready for use by one of the Keep's residents.~
+@550126 = ~You need to move closer to the bed to make it.~
+@550127 = ~Stupid wizards.  Always playing with forces they don't understand.~
+@550128 = ~Serves the fool right for messing with magic.~
+@550129 = ~Myrkul, or some other higher power, has deemed you unworthy to wear the Crown of Horns.  It has been taken from your possession, and you are temporarily disoriented as the power of the item is torn from you.~
+@550130 = ~Nearly a decade ago, when you were much younger and inexperienced...~
+@550131 = ~When you touch the golden star, you get the feeling you have done something right.~
+@550132 = ~When you touch this golden star, it begins to glow.  You have the sinking feeling that you have done something wrong.~
+@550133 = ~When you touch this golden star, the air around the altar of Mystra shimmers briefly, then fades.~
+@550134 = ~We cannot conquer the island this day!~
+@550135 = ~Retreat now!  We will return!~
+@550136 = ~<CHARNAME>'s friends!  Trying to rescue <PRO_HIMHER>!~
+@550137 = ~I have to tell Byron!  We can't let the prisoner escape!~
+@550138 = ~Byron!  <CHARNAME>'s allies are trying to rescue <PRO_HIMHER>!  Quick, don't let <PRO_HIMHER> escape!~
+@550139 = ~Public meeting!  All should attend!~
+@550140 = ~Council of Six makes a decree!  Hear about it in the Government Building!~
+@550141 = ~Lady Lanulin will be speaking in the Government Building!  Come one, come all!~
+@550142 = ~You begin pulling on the door as hard as you can, and you can feel the wood giving way under your tugs.  Finally, the wood gives way and the door is open.~
+@550143 = ~You pull on the door as hard as you can, but the wood has expanded within the frame.  You will have to find someone stronger to open the door.~
+@550144 = ~You pull on the door, but it is stuck fast.  Perhaps you could open the door after a few tries.~
+@550145 = ~Uh oh!  Others are in the Forest.  Tardeth needs to know about this!~
+@550146 = ~They are following me!  I've got to outrun them!~
+@550147 = ~Bullocks!  Haven't lost them yet.  Flee!  Flee to get Tardeth!~
+@550148 = ~Shhhh, Paddy, shhhh..~
+@550149 = ~Hide!  Hide and run!  That's what I always say!~
+@550150 = ~Come with me, child.~
+@550151 = ~Follow me, my <SONDAUGHTER>.  We are going someplace very special and private.~
+
+
+//Gorion's death cutscene (Chores): Gorion
+@550152 = ~Let's hurry child!  The night can only get worse so we must find shelter soon.  Don't worry, I will explain everything as soon as there is time.~[GORIN11]
+@550153 = ~Wait!  There is something wrong.  We are in an ambush.  Prepare yourself!~[GORIN03]
+@550155 = ~You're a fool if you believe I would trust your benevolence.  Step aside and you and your lackeys will be unhurt.~[GORIN12]
+@550157 = ~Run child, get out of here!~[GORIN02]
+
+//Gorion's death cutscene (Chores): Sarevok
+@550154 = ~You're perceptive for an old man.  You know why I'm here.  Hand over your ward and no one will be hurt.  If you resist it shall be a waste of your life.~[SAREV10]
+@550156 = ~I'm sorry that you feel that way old man.~[SAREV11]
+
+//Final BG1  battle cutscene (Chores): Sarevok
+@550055 = ~You are indeed family.  No other could have lived to oppose me in person.  Of course, it will not matter in the end.  Ultimately I will prevail, and a new era will be born unto the Realms.~[SAREV01]
+@550056 = ~Bring your rage to bear, and we shall end this in a manner befitting our heritage!  Face me!  Face the new LORD OF MURDER!  Angelo! Tazok!  Reveal yourselves and let's finish this now!~[SAREV12]
+
+//Final BG1  battle cutscene (Chores): PC
+@550057 = ~Your evil ways end here tonight!  This god stays dead and you will join him!~
+
+
+
+@550158 = ~Of Elves and Artifacts
+
+After leaving the Temple of Waukeen in Trademeet, Eleanor was attacked by the mage she told me about.  He had a few bodyguards with him, but did not need them.  His magic was strong, much to strong for Eleanor, who was killed by the mage in an earnest spell battle for her very life.  I shall honor her sacrifice, and not let it be in vain.~
+@550159 = ~Thou hast forced your fate!  Extaminos will survive!~
+@550160 = ~Extaminos shall not fall!~
+@550161 = ~Pray that thee leaveth this House with thy life!~
+@550162 = ~Doth thee think to free Hlondeth?  Extaminos remains.~
+@550163 = ~Of Elves and Artifacts
+
+I have brought the Crown of Horns to my friend Cromwell.  He was able to successfully destroy the ancient evil that made up the crown, something that the great mage Khelben was unable to do years ago.  Khaddyr the mage who wanted to attempt Permatration is no longer a threat, and poor Eleanor, the elfwoman I met before this all started can rest easy.  Once again, I do believe I have saved Faerûn from certain destruction.~
+@550164 = ~Of Elves and Artifacts
+
+While walking through the Bridge District of Athkatla, an elf, whom I do not know, approached me with much trepidation.  She did not say anything, but surreptisiously dropped a small statuette into my pack.  I do not know why, yet I do not know what the properties of the statuette are yet.  I shall have to investigate it, and perhaps the elf may lead me to yet another adventure.~
+@550165 = ~Captured!
+
+While attempting to perform Bodhi's task, we were ambushed by Shadow Thieves.  They gave us very little choice, and <CHARNAME> was taken prisoner.  We know not what these thieves are doing to <PRO_HIMHER>, but all of us think that it would be best if we rescued <PRO_HIMHER> as soon as possible.  We've briefly tried to figure out what to do next, but without <CHARNAME> to make decisons for us, the best course of action that we have must be to find our employer, Bodhi, in the graveyard to see if she knows anything about how we could rescue <CHARNAME> from the Shadow Thieves.~
+@550166 = ~You know what to do.  Begin the ceremony now!~
+@550167 = ~Good!  Good!  Initiate the protections!~
+@550168 = ~Continue!  No distractions!  We cannot allow the magic to grow wild!~
+@550169 = ~Something... wait!  No!  This is not right!  Something is wrong!~
+@550170 = ~It is working!  Keep casting!  I can feel the Power!~
+@550171 = ~Of Elves and Artifacts
+
+I have found a way to stop the mage Khaddyr from completing his permatration ritual.  What began as an elusive quest with a scared elfwoman is almost complete.  I have recovered the real Crown of Horns, but have not yet decided what should be done with it.  I could keep it, but it's evil would still exist in Faerûn.  Perhaps it would be best if the Crown were destroyed.~
+@550172 = ~She's clean.~
+@550173 = ~He's clean.~
+@550174 = ~Captured!
+
+While attempting to perform Bodhi's task, we were ambushed by Shadow Thieves.  They gave us very little choice, and <CHARNAME> was taken prisoner.  We know not what these thieves are doing to <PRO_HIMHER>, but all of us think that it would be best if we rescued <PRO_HIMHER> as soon as possible.  We've briefly tried to figure out what to do next, but without <CHARNAME> to make decisons for us, the best course of action that we have must be to find our employer, Bodhi, in the graveyard to see if she knows anything about how we could rescue <CHARNAME> from the Shadow Thieves.~
+@550175 = ~During the ritual, you will need to concentrate on the tasks you must do.  Failure on either of your parts will cost you your lives.~
+@550176 = ~During the first stage, we will be casting spells to protect ourselves from the onslaught of magical energy that the tree of us channel from the Weave and keep it within our control.  Maintain control.  That is the key.~
+@550177 = ~I will begin the ritual by casting a protective spell on myself.  As soon as I have completed, both of you will need to protect yourselves against the energy.  (points to an apprentice) You will cast the same spell as I, a Minor Globe, while you (points to the other apprentice) will cast an Immunity against Divination magics.~
+@550178 = ~There can be no mistakes.  We will rehearse now.  Prepare yourselves.~
+@550179 = ~Good.  During the ritual, do exactly as you just have.  Do not loose control over the magical energies.~
+@550180 = ~Rest now.  We will continue rehearsing later.~
+@550181 = ~It will be very important during the ritual that you do not let anything disturb your spellcasting, including any forces which I unleash.~
+@550182 = ~You will both need to cast simple Protection From Evil spells upon your person.  Do this, and the energy which I gater to me will not cause you harm or disrupt your spellcasting.  Do you understand?~
+@550183 = ~Yes, Master Khaddyr.  You may continue with the rehearsal.~
+@550184 = ~Good.  During the ritual, do exactly as you just have.  You must not allow the power I gather to distract you.~
+@550185 = ~Rest now.  We will continue rehearsing later.~
+@550186 = ~The amount of magical energy that the three of us conjure and force to our wills is going to exceed what you normally have experienced.~
+@550187 = ~You must be protected from the combined and harnessed energies.  The magic of the ritual will cause this energy to pass between the conduits, in this case us.  Experience the might of Permatration now.~
+@550188 = ~What you have just experienced is only a fraction of the forces we will channel during the ritual.  There can be no mistake, you must not fail.~
+@550189 = ~Taxidermist~
+@550190 = ~Soap Maker~
+@550191 = ~Butcher~
+@550192 = ~Wheelwright~
+@550193 = ~Fishmonger~
+@550194 = ~Perfumer~
+@550195 = ~Accountant~
+@550196 = ~Apothecary~
+@550197 = ~Baker~
+@550198 = ~Barber~
+@550199 = ~Brewer~
+@550200 = ~Chandler~
+@550201 = ~Cobbler~
+@550202 = ~Florist~
+@550203 = ~Goldsmith~
+@550204 = ~Healer~
+@550205 = ~Lapidary~
+@550206 = ~Lumber Dealer~
+@550207 = ~Mason~
+@550208 = ~Money Changer~
+@550209 = ~Potter~
+@550210 = ~Sage~
+@550211 = ~Tailor~
+@550212 = ~Toolmaker~
+@550213 = ~Undertaker~
+@550214 = ~Woodcarver~
+@550215 = ~Weaver~
+@550216 = ~Blacksmith~
+@550217 = ~Armorer~
+@550218 = ~Fletcher~
+@550219 = ~Farmer~
+@550220 = ~Cook~
+@550221 = ~Fisher~
+@550222 = ~Constable~
+@550223 = ~Page~
+@550224 = ~Alchemist~
+@550225 = ~Shepard~
+@550226 = ~Clergy~
+@550227 = ~Courtier~
+@550228 = ~Artisan~
+@550229 = ~Scribe~
+@550230 = ~Envoy~
+@550231 = ~Ambassador~
+@550232 = ~Magistrate~
+@550233 = ~Miller~
+@550234 = ~Hard Currency Girl~
+@550235 = ~War Veteran~
+@550236 = ~Tourist~
+@550237 = ~Minstrel~
+@550238 = ~Lamplighter~
+@550239 = ~Drunken Rowdy~
+@550240 = ~Courting Lover~
+@550241 = ~Horse~
+@550242 = ~Ruffian~
+@550243 = ~Mercenary~
+@550244 = ~Drunken Foreigner~
+@550245 = ~Shopper~
+@550246 = ~Wagon Loader~
+@550247 = ~Insane Priest~
+@550248 = ~Courtesan~
+@550249 = ~Escort~
+@550250 = ~Cryer Advertising Valiant's~
+@550251 = ~Begger~
+@550252 = ~Hlondeth Noblewoman~
+@550253 = ~Restauranteur~
+@550254 = ~Messenger~
+@550255 = ~Apparently, you have waited to long to finish moving the family of vampires.  They have been destroyed in the sunlight.~
+@550256 = ~The block of ice you have been carrying has melted.  Perhaps you should have delivered it more quickly.~
+@550257 = ~The Spellsung Blade has not chosen you as its rightful owner.  It lashes out in rebellion.~
+@550258 = ~The Moonblade has not chosen you as its rightful owner.  It lashes out in rebellion.~
+@550259 = ~ElfSapate has not chosen you as its rightful owner.  The Moonblade rebels against you, and you should stop using the blade as quickly as you can.~
+@550260 = ~ElfSapate has chosen you as a valorous and honorable weilder, and one of the Moonblade's dormant powers is released.~
+@550261 = ~The seasons change as we stand about.~[CB_77725]
+@550262 = ~I will do my best to keep you out of harm's way.~[CB_77726]
+@550263 = ~May Corellan Lotharian grace our path.~[CB_77727]
+@550264 = ~Take care where you point me.~[CB_77728]
+@550265 = ~The Seldarine judge us all by our actions.~[CB_77729]
+@550266 = ~We are prepared for our task.  Onward we go on behalf of The People.~[CB_77730]
+@550267 = ~I've always thought of you in a special way.~[CB_77731]
+@550268 = ~Don't put your unicorn before the horn.~[CB_77732]
+@550269 = ~It is an honor to be one with you.~[CB_77733]
+@550270 = ~I will not take my duties lightly.~[CB_77734]
+@550271 = ~Point the way and we shall do the Seldarine's work here on Faerûn.~[CB_77735]
+@550272 = ~Stand ready and we will not falter in our tasks.~[CB_77736]
+@550273 = ~Without honoring the Seldarine, we cannot hope to accomplish much.~[CB_77737]
+@550274 = ~Sing the praises of the Forest and the Weave, and we shall do no wrong.~[CB_77738]
+@550275 = ~You are the best of any of my previous wielders.~[CB_77739]
+@550276 = ~Time to trim this one down to size.~[CB_77740]
+@550277 = ~You're about one click away from feeling my blade.~[CB_77741]
+@550278 = ~Rest easy, for death is about to take you.~[CB_77742]
+@550279 = ~Another one soon to be in a grave.~[CB_77743]
+@550280 = ~May the Seldarine have mercy on you.~[CB_77744]
+@550281 = ~May your final journey be a peaceful one.~[CB_77745]
+@550282 = ~Feel my blade!~[CB_77746]
+@550283 = ~For The People!~[CB_77747]
+@550284 = ~We shall not die this day.~[CB_77748]
+@550285 = ~Farewell and may your spirit find peace in the afterlife.~[CB_77749]
+@550286 = ~Of Elves and Artifacts
+
+I have found a way to stop the mage Khaddyr from completing his permatration ritual.  What began as an elusive quest with a scared elfwoman is almost complete.  I have recovered the real Crown of Horns, but have not yet decided what should be done with it.  I could keep it, but it's evil would still exist in Faerûn.  Perhaps it would be best if the Crown were destroyed.~
+@550287 = ~Of Elves and Artifacts
+
+I found the items that Eleanor had told me about and brought them to my dwarf friend Cromwell.  He was able to create nearly an exact copy of the true Crown of Horns, and I will have to meet up with this mage.  Hopefully he will fall for the ruse.~
+@550288 = ~Of Elves and Artifacts
+
+I found the parts that Eleanor told me to collect in order to create a counterfeit Crown of Horns.  I brought them to my friend Cromwell, a master craftsman, but he was unable to create a duplicate.  I shall either have to have him try again, or find some other way of preventing the mage from attempting Permatration.~
+@550289 = ~Of Elves and Artifacts
+
+After leaving the Temple of Waukeen in Trademeet, Eleanor was attacked by the mage she told me about.  He had a few bodyguards with him, but did not need them.  His magic was strong, much to strong for Eleanor, who was killed by the mage in an earnest spell battle for her very life.  I shall honor her sacrifice, and not let it be in vain.~
+@550290 = ~Of Elves and Artifacts
+
+  I had a lengthy discussion with Eleanor, an elven mage who specializes in scholarly pursuits of ancient artifacts and magical items.  She is quite concerned with the ambitions of a mage who has employed her to research a theory known as permatration; which I had believed was just a myth.  Apparently this mage has come into an artifact which may allow him to perform a permatration ritual, and of course in the process causing widespread destruction.  Eleanor beseeched my aid, and has come up with a plan to foil the evil mage.
+  She thinks it best to create a duplicate copy of the artifact, one which is harmless.  I do not know if this is a good idea, but if I wish to construct such a counterfeit artifact, she has told me what items I would need to create such a fake.  The items are commonly found, and I would need a diamond, a Potion of Magic Protection, a scroll with the spell Enchanted Weapon, and any item containing greenstone.  If I find these items and want to have Eleanor create a counterfeit, she said she would contact me someplace in Athkatla.
+  Aside from duplicating the object, Eleanor told me where I could find the mage.  She was told that she could contact him in a meadow near the Forest of Tethyr, where he keeps an underground laboratory to conduct his experiements.  If all else fails, I could probably find him there to defeat his attempts to steal the life force of others to earn himself a god-hood.~
+@550291 = ~Of Elves and Artifacts
+
+  I had a lengthy discussion with Eleanor, an elven mage who specializes in scholarly pursuits of ancient artifacts and magical items.  She is quite concerned with the ambitions of a mage who has employed her to research a theory known as permatration; which I had believed was just a myth.  Apparently this mage has come into an artifact which may allow him to perform a permatration ritual, and of course in the process causing widespread destruction.  Eleanor beseeched my aid, and has come up with a plan to foil the evil mage.
+  She thinks it best to create a duplicate copy of the artifact, one which is harmless.  I do not know if this is a good idea, but if I wish to construct such a counterfeit artifact, she has told me what items I would need to create such a fake.  The items are commonly found, and I would need a diamond, a Potion of Magic Protection, a scroll with the spell Enchanted Weapon, and any item containing greenstone.  If I find these items and want to have Eleanor create a counterfeit, she said she would contact me someplace in Athkatla.
+  Aside from duplicating the object, Eleanor told me where I could find the mage.  She was told that she could contact him in a dungeon near the Umar Hills, where he has a laboratory where he conducts his experiements.  If all else fails, I could probably find him there to defeat his attempts to steal the life force of others to earn himself a god-hood.~
+@550292 = ~Of Elves and Artifacts
+
+  I had a lengthy discussion with Eleanor, an elven mage who specializes in scholarly pursuits of ancient artifacts and magical items.  She is quite concerned with the ambitions of a mage who has employed her to research a theory known as permatration; which I had believed was just a myth.  Apparently this mage has come into an artifact which may allow him to perform a permatration ritual, and of course in the process causing widespread destruction.  Eleanor beseeched my aid, and has come up with a plan to foil the evil mage.
+  She thinks it best to create a duplicate copy of the artifact, one which is harmless.  I do not know if this is a good idea, but if I wish to construct such a counterfeit artifact, she has told me what items I would need to create such a fake.  The items are commonly found, and I would need a diamond, a Potion of Magic Protection, a scroll with the spell Enchanted Weapon, and any item containing greenstone.  If I find these items and want to have Eleanor create a counterfeit, she said she would contact me someplace in Athkatla.
+  Aside from duplicating the object, Eleanor told me where I could find the mage.  She was told that she could contact him in a dungeon below the Windspear Hills, where he has a laboratory where he conducts his experiements.  If all else fails, I could probably find him there to defeat his attempts to steal the life force of others to earn himself a god-hood.~
+@550293 = ~Of Elves and Artifacts
+
+I have identified and received the magical message stored within the statuette given to my by an elf in the Bridge District.  The voice, apparently the elf's, was full of fear and terror, though did not yield many clues as to what the adventure that the elf alludes to.  All I know is that the elf woman may be in danger- and she mentions that the Sword Coast could also be in danger- and if I meet her in the Temple of Waukeen in Trademeet, she will try to explain further.  Perhaps I will, but I'd much rather know more about this elf woman first.~
+@550294 = ~Of Elves and Artifacts
+
+While walking through the Bridge District of Athkatla, an elf, whom I do not know, approached me with much trepidation.  She did not say anything, but surreptisiously dropped a small statuette into my pack.  I do not know why, yet I do not know what the properties of the statuette are yet.  I shall have to investigate it, and perhaps the elf may lead me to yet another adventure.~
+@550295 = ~Of Elves and Artifacts
+
+  I had a lengthy discussion with Eleanor, an elven mage who specializes in scholarly pursuits of ancient artifacts and magical items.  She is quite concerned with the ambitions of a mage who has employed her to research a theory known as permatration; which I had believed was just a myth.  Apparently this mage has come into an artifact which may allow him to perform a permatration ritual, and of course in the process causing widespread destruction.  Eleanor beseeched my aid, and has come up with a plan to foil the evil mage.
+  She thinks it best to create a duplicate copy of the artifact, one which is harmless.  I do not know if this is a good idea, but if I wish to construct such a counterfeit artifact, she has told me what items I would need to create such a fake.  The items are commonly found, and I would need a diamond, a Potion of Magic Protection, a scroll with the spell Enchanted Weapon, and any item containing greenstone.  If I find these items and want to have Eleanor create a counterfeit, she said she would contact me someplace in Athkatla.
+  Aside from duplicating the object, Eleanor told me where I could find the mage.  She was told that she could contact him in a dungeon below the Windspear Hills, where he has a laboratory where he conducts his experiements.  If all else fails, I could probably find him there to defeat his attempts to steal the life force of others to earn himself a god-hood.~
+@550296 = ~Of Elves and Artifacts
+
+After leaving the Temple of Waukeen in Trademeet, Eleanor was attacked by the mage she told me about.  He had a few bodyguards with him, but did not need them.  His magic was strong, much to strong for Eleanor, who was killed by the mage in an earnest spell battle for her very life.  I shall honor her sacrifice, and not let it be in vain.~
+@550297 = ~Of Elves and Artifacts
+
+I found the parts that Eleanor told me to collect in order to create a counterfeit Crown of Horns.  I brought them to my friend Cromwell, a master craftsman, but he was unable to create a duplicate.  I shall either have to have him try again, or find some other way of preventing the mage from attempting Permatration.~
+@550298 = ~Of Elves and Artifacts
+
+I found the items that Eleanor had told me about and brought them to my dwarf friend Cromwell.  He was able to create nearly an exact copy of the true Crown of Horns, and I will have to meet up with this mage.  Hopefully he will fall for the ruse.~
+@550299 = ~Of Elves and Artifacts
+
+  I had a lengthy discussion with Eleanor, an elven mage who specializes in scholarly pursuits of ancient artifacts and magical items.  She is quite concerned with the ambitions of a mage who has employed her to research a theory known as permatration; which I had believed was just a myth.  Apparently this mage has come into an artifact which may allow him to perform a permatration ritual, and of course in the process causing widespread destruction.  Eleanor beseeched my aid, and has come up with a plan to foil the evil mage.
+  She thinks it best to create a duplicate copy of the artifact, one which is harmless.  I do not know if this is a good idea, but if I wish to construct such a counterfeit artifact, she has told me what items I would need to create such a fake.  The items are commonly found, and I would need a diamond, a Potion of Magic Protection, a scroll with the spell Enchanted Weapon, and any item containing greenstone.  If I find these items and want to have Eleanor create a counterfeit, she said she would contact me someplace in Athkatla.
+  Aside from duplicating the object, Eleanor told me where I could find the mage.  She was told that she could contact him in a meadow near the Forest of Tethyr, where he keeps an underground laboratory to conduct his experiements.  If all else fails, I could probably find him there to defeat his attempts to steal the life force of others to earn himself a god-hood.~
+@550300 = ~Of Elves and Artifacts
+
+  I had a lengthy discussion with Eleanor, an elven mage who specializes in scholarly pursuits of ancient artifacts and magical items.  She is quite concerned with the ambitions of a mage who has employed her to research a theory known as permatration; which I had believed was just a myth.  Apparently this mage has come into an artifact which may allow him to perform a permatration ritual, and of course in the process causing widespread destruction.  Eleanor beseeched my aid, and has come up with a plan to foil the evil mage.
+  She thinks it best to create a duplicate copy of the artifact, one which is harmless.  I do not know if this is a good idea, but if I wish to construct such a counterfeit artifact, she has told me what items I would need to create such a fake.  The items are commonly found, and I would need a diamond, a Potion of Magic Protection, a scroll with the spell Enchanted Weapon, and any item containing greenstone.  If I find these items and want to have Eleanor create a counterfeit, she said she would contact me someplace in Athkatla.
+  Aside from duplicating the object, Eleanor told me where I could find the mage.  She was told that she could contact him in a dungeon near the Umar Hills, where he has a laboratory where he conducts his experiements.  If all else fails, I could probably find him there to defeat his attempts to steal the life force of others to earn himself a god-hood.~
+@550301 = ~Of Elves and Artifacts
+
+I have identified and received the magical message stored within the statuette given to my by an elf in the Bridge District.  The voice, apparently the elf's, was full of fear and terror, though did not yield many clues as to what the adventure that the elf alludes to.  All I know is that the elf woman may be in danger- and she mentions that the Sword Coast could also be in danger- and if I meet her in the Temple of Waukeen in Trademeet, she will try to explain further.  Perhaps I will, but I'd much rather know more about this elf woman first.~
+@550302 = ~Of Elves and Artifacts
+
+While walking through the Bridge District of Athkatla, an elf, whom I do not know, approached me with much trepidation.  She did not say anything, but surreptisiously dropped a small statuette into my pack.  I do not know why, yet I do not know what the properties of the statuette are yet.  I shall have to investigate it, and perhaps the elf may lead me to yet another adventure.~
+@550303 = ~Zannaster's Death Spell Trigger~
+@550304 = ~Imposss.....~
+@550305 = ~able!~
+@550306 = ~(hissss) NoooOOooo!!~
+@550307 = ~"That your best?"~
+@550308 = ~"Take 'em out!"~
+@550309 = ~"Fools think they'll get past Zannaster."~
+@550310 = ~"That isn't a sword, *this* is a sword!"~
+@550311 = ~"That's right, wuss.  Use your limited charged items."~
+@550312 = ~"Bust 'is 'ead!"~
+@550313 = ~"You won't live to see the next Flight!"~
+@550314 = ~"You're gonna fall!"~
+@550315 = ~"That's it!  That's it!  We've got 'em now!"~
+@550400 = ~Gotchya!  Tag!  You're it!~
+@550401 = ~Now you're it again!  TAG!!~
+@550402 = ~I got you again Imoen!  You're it!~
+@550403 = ~Caught ya, <CHARNAME>!~
+@550404 = ~Upon entering the deep dungeon, you are immediately filled with a sense of dread.  There is evil here, great and powerful evil that you can almost taste.  No matter:  you are a skilled adventurer and can use all your class skills to defeat whatever monsters you find in the dark tunnels.~
+@550500 = ~Well done!~
+@550501 = ~Bravo! Bravo!~
+@550502 = ~Encore!~
+@550503 = ~That was an excellent performance.~
+@550504 = ~Yes, the playwright deserves accolades for that one.~
+@550505 = ~Excellent!~
+@550506 = ~Huzzah!~
+@550507 = ~Encore!~
+@550508 = ~Well worth the coin!~
+@550509 = ~One of the year's best fil... er, plays!~
+@550510 = ~          It is!
+Hurrah for the Pirate King!
+Hurrah for the Pirate King!~
+@550511 = ~I truly hate musicals.~
+@550512 = ~Bravo!~
+@550513 = ~A bonny production.~
+@550514 = ~Very well done.  Very well indeed.~
+@550515 = ~Could've been a bit more original.~
+@550516 = ~          You are!
+Hurrah for the Pirate King!~
+@550517 = ~And whistle all the airs from that infernal nonsense Pinafore.~
+@550518 = ~Well, it's the top of the tide, and we must be off.
+Farewell, Frederic.  When your process of extermination 
+begins, let our deaths be as swift and painless as you
+can conveniently make them.~
+@550519 = ~I will!  By the love I have for you, I swear it!  Would
+that you could render this extermination unnecessary by 
+accompanying me back to civilization!~
+@550520 = ~No, Frederic, it cannot be.  I don't think much of our
+profession, but, contrasted with respectability, it is 
+comparatively honest.  No, Frederic, I shall live and
+die a Pirate King.~
+@550521 = ~In short, in matters vegetable, animal, and mineral, He is the very model of a modern Major-General.~
+@550522 = ~With many cheerful facts about the square of the hypotenuse!~
+@550523 = ~Hold monsters!  'Ere your pirate
+			caravanserai
+		Proceed, against our will, to wed us all,
+	Just bear in mind that we are Wards in Chancery,
+		And father is a Major-General!~
+@550524 = ~We'd better pause, or danger may befall,
+			Their father is a Major-General.~
+@550525 = ~Yes, yes; he is a Major-General!~
+@550526 = ~Yes, yes, I am a Major-General!~
+@550527 = ~For he is a Major-General!~
+@550528 = ~He is!  Hurrah for the Major-General!~
+@550529 = ~And it is, it is a glorious thing
+To be a Major-General!~
+@550530 = ~It is!  Hurrah for the Major-General!~
+@550531 = ~That was awful!~
+@550532 = ~I want my money back!~
+@550533 = ~Two thumbs down!~
+@550534 = ~And that's written by one of the great bards?  My cousin Neeber could've done better.~
+@550535 = ~Someone find a noose for that playwright.~
+@550536 = ~I said no interruptions!  Do you dare profane my ceremonies?~
+@550537 = ~Slay them!  Slay them all!~
+@550538 = ~Sssslay thee, I ssshhall.~
+@550539 = ~Come, my Lady, we must away!  Guards!  Slay the assassins!~
+@550600 = ~For some reason, the ward does not dispel for you to pass.~
+@550601 = ~For some reason, the ward lets you pass.~
+@550602 = ~This ward crakles with arcane energy.  It may not be wise to touch or dispel it without knowing what lies behind.~
+@550603 = ~The wind tears your feet from under you, and you hold on for dear life, praying that you do not fall off the edge.~
+@550604 = ~The tree's roots have loosened the shale, and you stumble, making enough noise to wake a dragon.~
+@550605 = ~You suddenly have a sense of imminent danger.  The noise you just made alerted anyone within miles of these mountains.~
+@550606 = ~Climbing up the steep incline, your foot slips on the pieces of loose rock.~
+@550607 = ~The ground gives way, sending rock and debris down the cliff to your west.~
+@550608 = ~Rocks tumble over the edge, making loud echos as the stones plummet down the cliff walls.~
+
+@550624 = ~With a terrible lunge, you slay the once powerful dracolich and it lurches violently, crumbling to dark ash before your eyes.~
+@550625 = ~The mechanical workings of this area have a magic all their own.  The Maze of Max the Mason will not allow more than one of your party members in the area.  Each of your party members must transverse the maze by themselves.~
+
+
+//Chores update
+@550626 = ~Upon careful investigation of the visible footprints, you have noticed some cattle tracks leading close to the northeastern portion of the wall; near the construction site. You wonder what attracts their attention to this point, causing them to visit this area on such a regular basis...~
+@550627 = ~Red Flowers~
+@550628 = ~These flowers are unfamiliar to you, curious in appearance; yet they have a pleasant, cloying aroma. It is obvious that the local cattle have developed a taste for this flora. Perhaps these could be used to curry the favor of these fickle cows...~
+
+@550629 = ~The new day dawns. You should ask Gorion about your daily chores...~
+@550630 = ~Using your newfound ability, you have easily created all of the scrolls that Thalantyr gave you to copy...~
+
+@550631 = ~Dreppin! What's wrong with your cows? Are they SICK? Their milk tastes as rotten as a bucket of spider's guts!!!~
+@550632 = ~I don't know, Clarissa... I'm really confused...~
+@550633 = ~Watch it, Clar---Hey, what's this..? Those are some strange looking flowers...~
+@550634 = ~Looks like....?..!!!~
+@550635 = ~<CHARNAME>!!!~
+@550636 = ~LOOK OUT!!!!~
+
+
+
+
+
+
+
+
+

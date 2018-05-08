@@ -1,0 +1,30 @@
+IF
+        OR(2)
+  	     NumTimesTalkedTo(0)
+	     Global("CbGorionTeachesLesson","GLOBAL",6)
+	See(Player1)
+THEN
+	RESPONSE #100
+		MoveToObject(Player1)
+		StartDialogueNoSet(Player1)
+END
+
+/*IF
+	TimeGT(DAWN_START)
+	TimeLT(17)
+	!IsActive(Myself)
+THEN
+	RESPONSE #100
+		JumpToPoint([1495.1014])
+		Activate(Myself)
+END
+*/
+IF
+	ActionListEmpty()
+	!Range(Player1,20)
+THEN
+	RESPONSE #100
+		MoveToPoint([1495.1014])
+END
+
+

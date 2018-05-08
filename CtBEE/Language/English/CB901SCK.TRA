@@ -1,0 +1,45 @@
+@1   = ~zzz... ughh...  Who?  What do you want?~
+@2   = ~Are you all right?~
+@3   = ~No, I am not all right.  I am sick.~
+@4   = ~Can't the priests help you?~
+@5   = ~Priests?  Those human incompetents?  They can't help me.  They do not know how to heal an elf.~
+@6   = ~Their petty magics twist the weave and do nothing for me.~
+@7   = ~Is there anything I can do to help?~
+@8   = ~What I need these priests do not have.  I need natural healing, and all they can do is use their god-given healing magics and potions.  ~
+@9   = ~But perhaps you can help, if you would.  I need specific herbs that are found in the wilds.  These herbs and grasses will help me, but only if you find them all.~
+@10  = ~I'm sorry but I don't think I could find a bunch of herbs.  You'll have to find another to get them for you.~
+@11  = ~I can try to bring you some roots and herbs.  What is it that you need me to get?~
+@12  = ~I wouldn't have expected anything more from a self-serving adventurer such as you.~
+@13  = ~I need some very specific herbs and roots.  First, in order to make the poltice for myself, I need Sambucus Nigra- that is Elven for Elder berry.  I do not know where you can find it around here, but it is normally found on Elder berry bushes where there are wide spaces for the large bushes to grow.~
+@14  = ~I also need Peach leaves to make into a powder.  It's known among elves as Prunus Persica, and is mainly a sedative and expectorant.~
+@15  = ~Club moss will also be useful, normally found in morrs and swamps.  Don't get any that is wet, as the Lycopodium Clavatum moss must be fairly dry.~
+@16  = ~Artermisia Absintuium- known more commonly as wormwood, will help to promote the digestion of the other herbs, so please bring me some of that.~
+@17  = ~Finally, Couch grass roots are another type of diuretic plant that the Elves call Agropyron Repens.  If you can get a lot of that, it will form the base for a potion that will help me.~
+@18  = ~If you bring me those five roots, it will be of great help to me.~
+@19  = ~I'll try to bring them to you as quickly as I can.~
+@20  = ~I don't know where I can find those things, but I will try.~
+@21  = ~I thank you for your assistance.~
+@22  = ~That would indeed be most helpful.  I thank you for your assistance.~
+@23  = ~Were you able to find any of the medicinal roots and herbs that I need?~
+@24  = ~Not yet.  I can't find any of the roots you told me about.~
+@25  = ~I was only able to find one of the roots you told me about.~
+@26  = ~I could only find two of the grasses that you told me you needed.~
+@27  = ~I have three of the herbs you told me about.  I can't find the others.~
+@28  = ~Not quite.  I'm still searching for one of the herbs you told me about.  I can't find it.~
+@29  = ~Yes, Holly, I found everything that you told me you needed to help make you better.~
+@30  = ~You'll have to look harder then.  Please, I don't know how long I can stand the pain.~
+@31  = ~You do?~
+@32  = ~I don't know how much longer I could stand being laid up like this.~
+@33  = ~Here, give me the items.  I will have a priest concoct the potion to my specifications.~
+@34  = ~I thank you for bringing the roots and grasses.  Come back later tomorrow, and I will be feeling much better.~
+@35  = ~Thank you for helping me.  Without those herbs, I would have eventually died.~
+@36  = ~Here, take this.  It's the left overs from the potion you helped me make.  Be very careful, for it is potent, and will heal you fully no matter how hurt you are.  There's only enough for one dose, so use it wisely.~
+@37  = ~Also as a token of my appreciation, I would like you to have this.  It's a Elven potion that I've been saving for when I have a firstborn, but without you, I wouldn't have a firstborn. ~
+@38  = ~I am feeling much better now, and soon I shall be fully recovered.~
+@39 = ~Diuretic Elf
+
+     I have encountered an elf with a terrible disease in the Church of Helm here in Athkatla.  She seemed nice enough, and so I have agreed to help her find some natural roots to create a potion which she says will help heal her, which the the priests of Helm cannot do.
+     Holly, the elf, has asked me to bring her Elderberries, Peach Leaves, Club Moss, Wormwood, and Couch Grass Roots.  She doesn't know where exactly these things can be found, but I will have to search around for them.~
+@40 = ~Holly Feeling Better
+
+The diuretic Elf that I met in the temple of Helm in Athkatla seems to be doing much better.  She is up and about, and thanked me quite a bit for collecting her herbs, roots, and grasses.  She gave me the leftovers from the potion she concocted, as well as a nifty Elven artifact.  I shall have to find out how much this thing is worth to the highest bidder.~

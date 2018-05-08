@@ -1,0 +1,25 @@
+IF
+        OR(5)
+		AreaCheck("AR1200")
+		AreaCheck("AR1800")
+		AreaCheck("AR1400")
+		AreaCheck("AR2600")
+		AreaCheck("AR1100")
+	!HasItem("CBDRSWOD",Myself) // Oak Pole
+	Global("#HCBDRDBRNCH","LOCALS",0)
+THEN
+	RESPONSE #100
+		GiveItemCreate("CBDRSWOD",Myself,0,0,0) // Oak Pole
+		SetGlobal("#HCBDRDBRNCH","LOCALS",1)
+END
+
+IF
+	Global("#HCBDRDBRNCH","LOCALS",1)
+	!See([PC])
+THEN
+	RESPONSE #100
+		SetGlobal("#HCBDRDBRNCH","LOCALS",2)
+		DropInventory()
+END
+
+

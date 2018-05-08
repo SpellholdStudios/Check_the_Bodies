@@ -1,0 +1,67 @@
+IF
+	Global("CbHlondethMustRetreat","AR3675",11)
+	Global("CbOfficerThreeCreatesMOB","AR3675",3)
+	GlobalLT("CbThirdStandDone","AR3675",5)
+	CombatCounter(0)
+	!IsOverMe(Player1)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,MoveToObject("EASTBRDG"))
+END
+
+IF
+	Global("CbHlondethMustRetreat","AR3675",11)
+	Global("CbOfficerThreeCreatesMOB","AR3675",3)
+	GlobalLT("CbThirdStandDone","AR3675",5)
+	CombatCounter(0)
+	!IsOverMe(Player2)
+THEN
+	RESPONSE #100
+		ActionOverride(Player2,MoveToObject("EASTBRDG"))
+END
+
+IF
+	Global("CbHlondethMustRetreat","AR3675",11)
+	Global("CbOfficerThreeCreatesMOB","AR3675",3)
+	GlobalLT("CbThirdStandDone","AR3675",5)
+	CombatCounter(0)
+	!IsOverMe(Player3)
+THEN
+	RESPONSE #100
+		ActionOverride(Player3,MoveToObject("EASTBRDG"))
+END
+
+IF
+	Global("CbHlondethMustRetreat","AR3675",11)
+	Global("CbOfficerThreeCreatesMOB","AR3675",3)
+	GlobalLT("CbThirdStandDone","AR3675",5)
+	CombatCounter(0)
+	!IsOverMe(Player4)
+THEN
+	RESPONSE #100
+		ActionOverride(Player4,MoveToObject("EASTBRDG"))
+END
+
+IF
+	Global("CbHlondethMustRetreat","AR3675",11)
+	Global("CbOfficerThreeCreatesMOB","AR3675",3)
+	GlobalLT("CbThirdStandDone","AR3675",5)
+	CombatCounter(0)
+	!IsOverMe(Player5)
+THEN
+	RESPONSE #100
+		ActionOverride(Player5,MoveToObject("EASTBRDG"))
+END
+
+IF
+	Global("CbHlondethMustRetreat","AR3675",11)
+	Global("CbOfficerThreeCreatesMOB","AR3675",3)
+	GlobalLT("CbThirdStandDone","AR3675",5)
+	CombatCounter(0)
+	!IsOverMe(Player6)
+THEN
+	RESPONSE #100
+		ActionOverride(Player6,MoveToObject("EASTBRDG"))
+END
+
+

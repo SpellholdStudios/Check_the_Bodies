@@ -1,0 +1,7 @@
+IF
+    Clicked([ANYONE])
+THEN
+    RESPONSE #100
+        CreateCreature("CBMINTO",[-1.-1],0) // Minto
+        TriggerActivation("Bullrushtrap",FALSE)
+END

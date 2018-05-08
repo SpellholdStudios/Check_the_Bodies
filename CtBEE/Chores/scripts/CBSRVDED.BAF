@@ -1,0 +1,18 @@
+IF
+    Global("CbSarevokCutsceneStart","AR3513",1)
+THEN
+    RESPONSE #16
+        AttackReevaluate("CB3513VC",10)
+    RESPONSE #16
+        AttackReevaluate("CB3513IM",10)
+    RESPONSE #16
+        AttackReevaluate("CB3513MN",10)
+    RESPONSE #16
+        AttackReevaluate("CB3513JH",10)
+    RESPONSE #16
+        AttackReevaluate("CB3513BW",10)
+    RESPONSE #20
+        AttackReevaluate("CBCT3513",10)
+END
+
+

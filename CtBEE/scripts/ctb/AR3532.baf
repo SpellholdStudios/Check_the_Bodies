@@ -1,0 +1,113 @@
+IF
+	PartyRested()
+	Global("Cb_PartyAlliesWith_C_o_8","GLOBAL",2)
+THEN
+	RESPONSE #100
+		ActionOverride("CBARKSLV",Rest())
+		ActionOverride("CBSTTFLW",Rest())
+		ActionOverride("CBLSLNDA",Rest())
+		ActionOverride("CBHREDWN",Rest())
+		ActionOverride("CBTARDTH",Rest())
+		ActionOverride("CBMANARB",Rest())
+		ActionOverride("CBMONDRP",Rest())
+END
+
+IF
+	!CombatCounter(0)
+	Global("Cb_LawanthaWarns","AR3532",0)
+	HPGT("CBLSLNDA",10)
+THEN
+	RESPONSE #100
+		ActionOverride("CBLSLNDA",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("CbZannasterFinallyChanging","AR3532",2)
+	Dead("CBC8CTZL")
+	!Dead("CBSTTFLW")
+THEN
+	RESPONSE #100
+		ActionOverride("CBSTTFLW",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("CbZannasterFinallyChanging","AR3532",2)
+	Dead("CBC8CTZL")
+	Dead("CBSTTFLW")
+	!Dead("CBMONDRP")
+THEN
+	RESPONSE #100
+		ActionOverride("CBMONDRP",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("CbZannasterFinallyChanging","AR3532",2)
+	Dead("CBC8CTZL")
+	Dead("CBSTTFLW")
+	Dead("CBMONDRP")
+	!Dead("CBTARDTH")
+THEN
+	RESPONSE #100
+		ActionOverride("CBTARDTH",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("CbZannasterFinallyChanging","AR3532",2)
+	Dead("CBC8CTZL")
+	Dead("CBSTTFLW")
+	Dead("CBMONDRP")
+	Dead("CBTARDTH")
+THEN
+	RESPONSE #100
+		ActionOverride("CBHREDWN",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("CbZannasterFinallyChanging","AR3532",2)
+	Dead("CBC8CTZL")
+	Dead("CBSTTFLW")
+	Dead("CBMONDRP")
+	Dead("CBTARDTH")
+	Dead("CBHREDWN")
+THEN
+	RESPONSE #100
+		ActionOverride("CBLSLNDA",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("CbZannasterFinallyChanging","AR3532",2)
+	Dead("CBC8CTZL")
+	Dead("CBSTTFLW")
+	Dead("CBMONDRP")
+	Dead("CBTARDTH")
+	Dead("CBHREDWN")
+	Dead("CBLSLNDA")
+THEN
+	RESPONSE #100
+		ActionOverride("CBARKSLV",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("CbZannasterFinallyChanging","AR3532",2)
+	Dead("CBC8CTZL")
+	Dead("CBSTTFLW")
+	Dead("CBMONDRP")
+	Dead("CBTARDTH")
+	Dead("CBHREDWN")
+	Dead("CBLSLNDA")
+	Dead("CBARKSLV")
+THEN
+	RESPONSE #100
+		ActionOverride("CBMANARB",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("Cb_CreateCultBoss","AR3532",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_CreateCultBoss","AR3532",1)
+		CreateCreature("CBC8CTZA",[2049.966],0)
+		CreateCreature("CBC8CTD3",[1702.945],0)
+END
+
+

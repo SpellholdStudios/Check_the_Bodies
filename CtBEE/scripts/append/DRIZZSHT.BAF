@@ -1,0 +1,8 @@
+IF
+	!HasItem("CBMIELIK",Myself)
+	HasItem("SW1H15",Myself)
+	HPGT(Myself,0)
+THEN
+	RESPONSE #100
+		GiveItemCreate("CBMIELIK",Myself,1,0,0)
+END

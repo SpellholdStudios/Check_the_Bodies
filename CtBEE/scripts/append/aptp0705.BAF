@@ -1,0 +1,45 @@
+IF
+	!IsActive("Mekrath")
+	IsActive("CBMEKRTH")
+	Global("CbGetBookForCeeb","GLOBAL",3)
+THEN
+	RESPONSE #100
+		ActionOverride("Mekrath",Activate("Mekrath"))
+		ActionOverride("CBMEKRTH",Deactivate("CBMEKRTH"))
+		Continue()
+END
+
+IF
+	Dead("Mekrath")
+	!Dead("CBMEKRTH")
+	Global("CbBookMade","AR0705",0)
+	Global("CbGetBookForCeeb","GLOBAL",1)
+THEN
+	RESPONSE #100
+		CreateCreature("CBMKEBOK",[677.445],0)
+		SetGlobal("CbBookMade","AR0705",1)
+		Continue()
+END
+
+IF
+	!Dead("Mekrath")
+	!Exists("CBMEKRTH")
+	Global("CbGetBookForCeeb","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ActionOverride("Mekrath",Deactivate("Mekrath"))
+		CreateCreature("CBMEKRTH",[187.346],0)
+		Continue()
+END
+
+IF
+	Dead("CBMEKRTH")
+	!Dead("Mekrath")
+	Exists("Mekrath")
+THEN
+	RESPONSE #100
+		SetGlobal("SPRITE_IS_DEAD_MEKRATH","GLOBAL",1)
+		ActionOverride("Mekrath",DestroySelf())
+		Continue()
+END
+

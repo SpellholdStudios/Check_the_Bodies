@@ -1,0 +1,13 @@
+IF
+	OR(2)
+		Entered([ANYONE])
+		Opened([ANYONE])
+THEN
+	RESPONSE #100
+		DisplayString(LastTrigger,14381)
+		ForceSpell(LastTrigger,NOSAVE_PSIONIC_BLAST)
+		Wait(2)
+		DisplayString(LastTrigger,1280)
+END
+
+

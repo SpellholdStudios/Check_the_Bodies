@@ -1,0 +1,46 @@
+@1  = ~zzz... bäh... Wer? Was wollt Ihr?~ 
+@2  = ~Seid Ihr in Ordnung?~
+@3  = ~Nein, ich bin nicht in Ordnung. Ich bin krank.~ 
+@4  = ~Können die Priester Euch nicht helfen?~
+@5  = ~Prieser? Diese inkompetenten Menschen? Die können mir nicht helfen. Sie wissen nicht, wie man einen Elf heilt.~ 
+@6  = ~Ihre belanglose Magie bringt das Netz durcheinander und tutnichts für mich.~
+@7  = ~Kann ich etwas tun, um Euch zu helfen?~
+@8  = ~Was ich brauche, haben dieser Priester nicht. Ich brauche natürliche Heilung, aber alles, was sie haben, ist ihre göttliche Magie und irgendwelche Tränke.~ 
+@9  = ~Aber vielleicht könnt Ihr mir helfen, falls Ihr das tun wollt. Ich brauche spezielle Kräuter, die es in der Wildnis zu finden gibt. Diese Kräuter und Gräser können mir helfen, aber nur wenn Ihr alle besorgt.~
+@10 = ~Tut mir Leid, aber ich glaube nicht, dass ich so viele Kräuter finden kann. Ihr müsst jemand anderen finden, der sie Euch besorgt.~ 
+@11 = ~Ich könnte versuchen, einige Wurzeln und Kräuter zu finden. Was genau braucht Ihr?~
+@12 = ~Ich habe nichts anderes erwartet von einem selbstsüchtigen Abenteurer wie Euch.~ ~Ich habe nichts anderes erwartet von einer selbstsüchtigen Abenteurerin wie Euch.~
+@13 = ~Ich brauche einige spezielle Kräuter und Wurzeln. Damit ich den Breiumschlag machen kann, benötige ich zunächst Sambucus Nigra - das ist elfisch für Fliederbeere. Ich weiss nicht, wo Ihr sie hier in der Umgebung finden könnt, aber normalerweise findet man Fliederbeerensträucher, da sie sehr groß sind, dort, wo es viel Platz zum wachsen für sie gibt.~ 
+@14 = ~Ich brauche auch Pfirsichblätter, um daraus ein Pulver zu herzustellen. Es ist unter Elfen als Prunus Persica bekannt und wirkt hauptsächlich beruhigend und schleimlösend.~
+@15 = ~Knüppelmoos wäre auch nützlich. Man findet es zumeist in Mooren und Sümpfen. Nehmt keines, das nass ist, da das Lycopodium Clavatum Moos völlig trocken sein muss.~ 
+@16 = ~Artermisia Absintuium - besser bekannt als Wermut, wird die Wirkung der anderen Kräuter fördern, bringt mir also bitte auch etwas davon.~
+@17 = ~Zuletzt sind Quecke-Wurzeln ein weiterer Typ harntreibender Pflanzen, welche die Elfen Agropyron Repens nennen. Wenn Ihr davon recht viele besorgen könnt, werden sie die Basis für einen Trank bilden, der mir helfen wird.~
+@18 = ~Es wäre mir eine große Hilfe, wenn Ihr mir diese fünf Wurzeln bringen könntet.~
+@19 = ~Ich werde versuchen, sie Euch so schnell wie möglich zu bringen.~ 
+@20 = ~Ich habe keine Ahnung, wo ich diese Dinge finden kann, aber ich werde es versuchen.~
+@21 = ~Ich danke Euch für Eure Unterstützung.~ 
+@22 = ~Das wäre tatsächlich sehr hilfreich. Ich danke Euch für Eure Unterstützung.~ 
+@23 = ~Konntet Ihr einige der medizinischen Kräuter und Wurzeln finden, die ich brauche?~
+@24 = ~Noch nicht. Ich kann keine der Wurzeln finden, von denen Ihr gesprochen habt.~ 
+@25 = ~Ich konnte nur eine der Wurzeln finden, von denen Ihr gesprochen habt.~
+@26 = ~Ich konnte nur zwei der Gräser finden, von denen Ihr sagtet, dass Ihr sie braucht.~
+@27 = ~Ich habe drei der Kräuter, von denen Ihr gesprochen habt. Die anderen kann ich nicht finden.~
+@28 = ~Nicht ganz. Ich suche noch immer nach einem der Kräuter, von denen Ihr spracht. Ich kann es nicht finden.~
+@29 = ~Ja, Holly, ich habe alles gefunden.~
+@30 = ~Dann müsst Ihr gründlicher suchen. Bitte, Ich weiss nicht, wie lange ich die Schmerzen noch ertragen kann.~
+@31 = ~Wirklich?~
+@32 = ~Ich weiss nicht, wie lange ich es noch ausgehalten hätte.~
+@33 = ~Gebt mir die Zutaten. Ich werde einen Priester bitten, einen Trank nach meinen Anweisungen zu brauen.~
+@34 = ~Ich danke Euch für Eure Hilfe. Aber jetzt brauche ich Ruhe. Sucht mich morgen auf, dann wird es mir viel besser gehen.~
+@35 = ~Danke für Eure Hilfe. Ohne diese Kräuter wäre ich vielleicht gestorben.~
+@36 = ~Hier, nehmt das. Es ist der Rest des Tranks, den ich mit Eurer Hilfe herstellen konnte. Seid sehr vorsichtig, er ist sehr stark und wird jede Verletzung heilen, gleichgültig wie stark sie ist. Er reicht nur für eine Anwendung, also geht weise damit um.~
+@37 = ~Als ein weiteres Zeichen meiner Anerkennung möchte ich, dass dies hier Euch gehört. Es ist ein elfischer Trank, den ich für meinen Erstgeborenen aufheben wollte, aber ohne Euch würde ich nie einen Erstgeborenen haben.~
+@38 = ~Es geht mir schon viel besser. Bald werde ich vollständig genesen sein.~
+@39 = ~Elfe mit Blasenleiden 
+
+Ich bin einer Elfe mit einem schrecklichen Leiden in der Kirche des Helm hier in Athkatla begegnet. Sie scheint nett zu sein, also habe ich mich bereit erklärt, ihr dabei zu helfen, einige Wurzeln und Kräuter zu suchen. Sie glaubt nicht, dass die Priester des Helm ihr helfen können und will deshalb selbst einen Trank bereiten, der sie heilen soll.
+
+Holly, die Elfin, bat mich, ihr Holunderbeeren, Pfirsichblätter, Bärlapp, Wermut und Wurzeln der Gemeinen Quecke zu bringen. Sie weiß nicht genau, wo diese Dinge zu finden sind, aber ich werde nach ihnen suchen müssen.~
+@40 = ~Holly fühlt sich besser
+
+Der Elfe mit dem Blasenleiden, die ich im Tempel des Helm in Athkatla traf, scheint es viel besser zu gehen. Sie ist wohlauf und dankte mir ganz ordentlich dafür, dass ich Kräuter, Wurzeln, und Gräser für sie gesammelt habe. Sie gab mir die Reste von dem Trank, den sie braute, und ein schickes, elfisches Artefakt. Ich werde herausfinden müssen, wieviel dieses Ding für den Meistbietenden wert ist.~

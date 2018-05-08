@@ -1,0 +1,63 @@
+@1   = ~El momento en el que deberé partir en mi viaje hacia la Corte de los Elfos en Siempreunidos se acerca.~
+@2   = ~Los Tel'Quessir saben en lo más profundo de sus corazones cuando deben marchar hacia el oeste, sin embargo, yo no he completado mis objetivos aquí, en Faerûn.~
+@3   = ~Cuando os vi, <GABBER>, supe lo que me restaba, a nosotras tres. Todos tenemos un propósito, y vuestra aparición ha sido como una epifanía para nosotras.~
+@4   = ~Nosotras hemos aborrecido la Retirada, y ahora sabéis el por qué. Habéis sido enviado hasta nosotras para completar una parte de vuestro propio camino en la vida, así como nosotras podremos completar el nuestro.~
+@5   = ~Por favor, no tengo tiempo para esto.~
+@6   = ~Contadme, Hermana, ¿qué es lo que nos conecta?~
+@7   = ~No entiendo. Lo que estáis diciendo no tiene sentido.~
+@8   = ~<GABBER>, nosotras no dejaremos atrás Faerûn hasta que hayamos completado nuestras obligaciones. Volved con nosotroas cuando estéis listo.~
+@9   = ~Es simple, <GABBER>. Debéis comprender que nosotras tres debemos ayudaros a emprender una experiencia personal, tanto física como espiritual. Os guiaremos lo mejor que podamos. Ahora, ¿estáis listo para permitirnos desempeñar nuestras obligaciones?~
+@10  = ~Es bueno para todos los involucrados que veáis lo que debe hacerse con mente abierta.~
+@11  = ~Debéis cumplir nuestras exigencias y órdenes sin preguntas, <GABBER>. El hilo de nuestras vidas está cada vez más deshilachado, y si no completáis las tareas que tenemos establecidas, podríamos pasar al oeste antes de nuestro momento.~
+@12  = ~Tomad, <GABBER>, tomad estas semillas. Llevadselas a Vaelasa, una ninfa que se encuentra en las colinas de Ventolanza. Ella cuidará de que germinen una vez nosotras hayamos pasado. Pero sed cuidadoso, <GABBER>, las semillas son frágiles y el fuego o el frío pueden destruirlas.~
+@13  = ~Os he dado vuestro cometido, <GABBER>. Contadme, ¿están los brotes a salvo?~
+@14  = ~No, Señora, los brotes han sido destruidos.~
+@15  = ~Si, Señora, aún se encuentran en mi poder.~
+@16  = ~Le entregué las semillas a Vaelasa, Hermana, y ella os envía sus agradecimientos, así como su pesar por vuestra inminente Retirada.~
+@17  = ~Lo siento, Hermana elfa, pero no puedo entregar los brotes a la dríada Vaelasa. Ella no está en las Colinas de Ventolanza, y me temo que podría estar muerta.~
+@18  = ~¡Desastroso! ¡Catastrófico! Nuestras vidas, malgastadas. Nos marcharemos al oeste, <GABBER>, sin haber cumplido nuestro propósito terrenal. Adiós...~
+@19  = ~Entoces id sin dilación, entregadlos en las Colinas de Ventolanza.~
+@20  = ~Gracias, <GABBER>. Vuestras palabras, y vuestros actos, levantan mi ánimo.~
+@21  = ~Vos nos habéis ayudado más de lo que podáis imaginar, <GABBER>. Por vuestra ayuda, nosotras deseamos recompensaros para que sigáis creciendo. Os enseñaremos una última cosa, pero debéis escoger.~
+@22  = ~¿Qué es lo que os gustaría que os enseñáramos, saber cómo memorizar un mayor número de conjuros de los que normalmente podría un mago, aprender cómo mejorar vuestros tiempos de lanzamiento de conjuros de forma que os permitiría lanzar dos conjuros casi simultáneamente, o preferiríais aprender cómo conjurar un conjuro sin tener que memorizarlo de nuevo?~
+@23  = ~Me gustaría saber cómo memorizar un conjuro adicional por nivel.~
+@24  = ~Creo que aumentar mi velocidad de lanzamiento de conjuros sería lo más beneficioso.~
+@25  = ~Quiero que me enseñéis cómo recordar un conjuro.~
+@26  = ~¿Qué es lo que os gustaría que os enseñáramos, saber cómo memorizar un mayor número de conjuros de los que normalmente podría un mago, aprender cómo mejorar vuestros tiempos de lanzamiento de conjuros de forma que os permitiría lanzar dos conjuros casi simultáneamente, aprender cómo conjurar un conjuro sin tener que memorizarlo de nuevo, o preferiríais que os enseñe a usar casi cualquer objeto, incluso objetos sobre los cuales los magos no entrenan, aunque algunos puedan provocar perturbaciones en vuestra capacidad de lanzar conjuros?~
+@27  = ~Me gustaría aprender a usar cualquier objeto.~
+@28  = ~Como deseéis, <GABBER>. Intenteré enseñaros lo mejor que sé a aumentar el número de conjuros que podéis memorizar.~
+@29  = ~He tenido éxito, <GABBER>. Ahora vuestra capacidad metal para aprender conjuros excede el intelecto de los magos comunes.~
+@30  = ~Como deseéis, <GABBER>. Intenteré enseñaros lo mejor que sé a doblar el número de conjuros que podéis lanzar en una fracción de tiempo específica.~
+@31  = ~He tenido éxito, <GABBER>. Ahora podéis lanzar el doble de conjuros que la mayoría de los demás magos en un sólo minuto.~
+@32  = ~Como deseéis, <GABBER>. Intenteré enseñaros lo mejor que sé a recordar un conjuro que hayáis lanzado desde la última vez que estudiarais.~
+@33  = ~He tenido éxito, <GABBER>. Habéis aprendido cómo recordar un conjuro que ya hayáis lanzado sin tener que rememorizarlo.~
+@34  = ~Enseñarle a un mago la capacidad de usar cualquier objeto es un proceso difícil. Trataré de hacerlo lo mejor que pueda, <GABBER>, pero no puedo garantizaros que tengáis éxito.~
+@35  = ~<GABBER>, en verdad sois un <RACE> especial. Sin ninguna duda, ha sido placer y un honor para mí el enseñaros a usar practicamente cualquier objeto que deseéis. Pero recordad, algunos objetos que uséis, como armaduras, os impedirán el lanzamiento de conjuros. Además, puede que no sea una buena idea el usar cualquier clase de arma a dos manos, ya que los magos no tenían la intención de utilizar dichos objetos, y los efectos en Faerûn podrían ser catastróficos.~
+@36  = ~<GABBER>, sois un <RACE> especial. Sin embargo, no todos tienen la capacidad de aprender a usar cualquier tipo de objetos. Os pido perdón pues no he sido capaz de enseñaros dicha habilidad.~
+@37  = ~<GABBER>, nuestro tiempo aquí en Faerûn ha llegado a su fin. Nosotras tres marcharemos hacia la isla de los Elfos. Nuestros objetivos están completos. Adiós, <GABBER>, y que el Seldarine os cobije y guie.~
+@38  = ~Aguardamos el momento en el que haremos el viaje final desde Faerûn a Siempreunidos. Que Corellan Lotharian os guie, <GABBER>.~
+@39  = ~¡Desastroso! ¡Catastrófico! No hay nada entonces que podamos dejar de nosotras mismas en Faerûn. Nuestras vidas, malgastadas. Nos marcharemos al oeste, <GABBER>, sin haber cumplido nuestro propósito terrenal. Adiós...~
+@40 = ~Las Sabias élficas: Entrega
+
+  Un trío de hechiceras elficas me han ofrecido el entregar unos brotes consagrados del Bosque de Tethyr a un grupo de elfas del bosque en las Colinas de Ventolanza. Debo tener cuidado mientras los brotes estén en mi poder, al parecer son sensibles al fuego y al frío. Las elfas me pidieron que les informara cuando las ninfas hayan recibido los brotes. Podré reunirme con ellas donde salí de las profundidades de la Infraoscuridad, y han prometido recompensarme.~
+@41 = ~Las Sabias élficas: Entrega
+
+  He entregado unos brotes consagrados a las ninfas de parte de un trío de hechiceras elfas que están preparandose para su Retirada. Ellas han prometido enseñarme nuevas habilidades.~
+@42 = ~Las Sabias élficas: Instrucción mágica
+
+  La tríada de hechiceras que conocí en el linde occidental del Bosque de Tethyr, cerca de la cavernosa entrada a la Infraoscuridad, han tenido la amabilidad de enseñarme cómo aumentar el número de conjuros que puedo memorizar.~
+@43 = ~Las Sabias élficas: Instrucción mágica
+
+  La tríada de hechiceras que conocí en el linde occidental del Bosque de Tethyr, cerca de la cavernosa entrada a la Infraoscuridad, han tenido la amabilidad de enseñarme cómo lanzar conjuros de forma casi simultánea dentro del mismo asalto.~
+@44 = ~Las Sabias élficas: Instrucción mágica
+
+  La tríada de hechiceras que conocí en el linde occidental del Bosque de Tethyr, cerca de la cavernosa entrada a la Infraoscuridad, han tenido la amabilidad de enseñarme cómo recordar un conjuro que ya hubiera lanzado sin tener que estudiarlo de nuevo.~
+@45 = ~Las Sabias élficas: Instrucción mágica
+
+  La tríada de hechiceras que conocí en el linde occidental del Bosque de Tethyr, cerca de la cavernosa entrada a la Infraoscuridad, han tenido la amabilidad de enseñarme cómo usar una gran variedad de diferentes objetos que la mayoría de los magos no pueden usar.~
+@46 = ~Las Sabias élficas: Instrucción mágica
+
+  La tríada de hechiceras que conocí en el linde occidental del Bosque de Tethyr, cerca de la cavernosa entrada a la Infraoscuridad, han tenido la amabilidad de intentar enseñarme cómo usar cualquier objeto, aunque he sido incapaz de comprender sus enseñanzas.~
+@47 = ~Las Sabias élficas: La Retirada final
+
+  La tríada de hechiceras elfas han cumplido con sus obligaciones y se han retirado de Faerûn. Se desvanecieron hacia Siempreunidos, y son nuestra pérdida. Sin duda, para Faerûn, y para mí mismo, fue un gran orgullo el llegar a conocer a estas tres almas élficas. Me apena que se hayan marchado del continente, pero me regocijo sabiendo que serán bien recibidas en el hogar ancestral de los elfos.~

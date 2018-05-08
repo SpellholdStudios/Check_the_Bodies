@@ -1,0 +1,37 @@
+IF
+	Global("CbSurayahGetsMarried","GLOBAL",3)
+	Global("CbWeddingQuestStarts","GLOBAL",7)
+THEN
+	RESPONSE #100
+		EscapeArea()
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	!HasItemEquiped("SW1H01",Myself) // Bastard Sword
+THEN
+	RESPONSE #100
+		EquipItem("SW1H01") // Bastard Sword
+		Continue()
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	!HasItemEquiped("SHLD04",Myself) // Medium Shield +1
+THEN
+	RESPONSE #100
+		EquipItem("SHLD04") // Medium Shield +1
+		Continue()
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	!HasItemEquiped("HAMM02",Myself) // War Hammer +1
+THEN
+	RESPONSE #100
+		EquipItem("HAMM02") // War Hammer +1
+		EquipMostDamagingMelee()
+		Continue()
+END
+
+

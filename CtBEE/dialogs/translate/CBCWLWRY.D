@@ -1,0 +1,396 @@
+BEGIN ~CBCWLWRY~
+
+IF ~GlobalLT("CbCowlsWorry","GLOBAL",4)
+Global("CbWizardsAndHakesharPlot","GLOBAL",0)
+!Gender(LastTalkedToBy(Myself),FEMALE)
+RandomNum(3,1)~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN EXIT
+END
+
+IF ~GlobalLT("CbCowlsWorry","GLOBAL",4)
+Global("CbWizardsAndHakesharPlot","GLOBAL",0)
+!Gender(LastTalkedToBy(Myself),FEMALE)
+RandomNum(3,2)~ THEN BEGIN 1
+  SAY @2
+  IF ~~ THEN EXIT
+END
+
+IF ~GlobalLT("CbCowlsWorry","GLOBAL",4)
+Global("CbWizardsAndHakesharPlot","GLOBAL",0)
+!Gender(LastTalkedToBy(Myself),FEMALE)
+RandomNum(3,3)~ THEN BEGIN 2
+  SAY @3
+  IF ~~ THEN EXIT
+END
+
+IF ~GlobalLT("CbCowlsWorry","GLOBAL",4)
+Global("CbWizardsAndHakesharPlot","GLOBAL",0)
+Gender(LastTalkedToBy(Myself),FEMALE)
+RandomNum(3,1)~ THEN BEGIN 3
+  SAY @4
+  IF ~~ THEN EXIT
+END
+
+IF ~GlobalLT("CbCowlsWorry","GLOBAL",4)
+Global("CbWizardsAndHakesharPlot","GLOBAL",0)
+Gender(LastTalkedToBy(Myself),FEMALE)
+RandomNum(3,2)~ THEN BEGIN 4
+  SAY @5
+  IF ~~ THEN EXIT
+END
+
+IF ~GlobalLT("CbCowlsWorry","GLOBAL",4)
+Global("CbWizardsAndHakesharPlot","GLOBAL",0)
+Gender(LastTalkedToBy(Myself),FEMALE)
+RandomNum(3,3)~ THEN BEGIN 5
+  SAY @6
+  IF ~~ THEN EXIT
+END
+
+IF ~GlobalGT("CbCowlsWorry","GLOBAL",3)
+Global("CbWizardsAndHakesharPlot","GLOBAL",0)
+!Gender(LastTalkedToBy(Myself),FEMALE)~ THEN BEGIN 6
+  SAY @7
+  IF ~~ THEN REPLY @8 GOTO 11
+  IF ~~ THEN REPLY @9 GOTO 15
+  IF ~~ THEN REPLY @10 GOTO 9
+END
+
+IF ~GlobalGT("CbCowlsWorry","GLOBAL",3)
+Global("CbWizardsAndHakesharPlot","GLOBAL",0)
+Gender(LastTalkedToBy(Myself),FEMALE)~ THEN BEGIN 7
+  SAY @11
+  IF ~~ THEN REPLY @10 GOTO 10
+  IF ~~ THEN REPLY @8 GOTO 12
+  IF ~~ THEN REPLY @9 GOTO 16
+  IF ~~ THEN REPLY @12 GOTO 8
+END
+
+IF ~~ THEN BEGIN 8
+  SAY @13
+  IF ~~ THEN REPLY @8 GOTO 12
+  IF ~~ THEN REPLY @9 GOTO 16
+  IF ~~ THEN REPLY @10 GOTO 10
+END
+
+IF ~~ THEN BEGIN 9
+  SAY @14
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 10
+  SAY @15
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 11
+  SAY @16
+  IF ~~ THEN GOTO 13
+END
+
+IF ~~ THEN BEGIN 12
+  SAY @17
+  IF ~~ THEN GOTO 14
+END
+
+IF ~~ THEN BEGIN 13
+  SAY @18
+  IF ~~ THEN REPLY @9 GOTO 15
+  IF ~~ THEN REPLY @10 GOTO 9
+END
+
+IF ~~ THEN BEGIN 14
+  SAY @19
+  IF ~~ THEN REPLY @9 GOTO 16
+  IF ~~ THEN REPLY @10 GOTO 10
+END
+
+IF ~~ THEN BEGIN 15
+  SAY @20
+  IF ~~ THEN REPLY @21 GOTO 21
+  IF ~~ THEN REPLY @22 GOTO 17
+  IF ~~ THEN REPLY @23 GOTO 19
+END
+
+IF ~~ THEN BEGIN 16
+  SAY @24
+  IF ~~ THEN REPLY @25 GOTO 22
+  IF ~~ THEN REPLY @22 GOTO 18
+  IF ~~ THEN REPLY @23 GOTO 20
+END
+
+IF ~~ THEN BEGIN 17
+  SAY @26
+  IF ~~ THEN GOTO 23
+END
+
+IF ~~ THEN BEGIN 18
+  SAY @27
+  IF ~~ THEN GOTO 25
+END
+
+IF ~~ THEN BEGIN 19
+  SAY @28
+  IF ~~ THEN REPLY @21 GOTO 21
+  IF ~~ THEN REPLY @22 GOTO 17
+END
+
+IF ~~ THEN BEGIN 20
+  SAY @29
+  IF ~~ THEN REPLY @21 GOTO 22
+  IF ~~ THEN REPLY @22 GOTO 18
+END
+
+IF ~~ THEN BEGIN 21
+  SAY @30
+  IF ~~ THEN REPLY @31 GOTO 17
+END
+
+IF ~~ THEN BEGIN 22
+  SAY @32
+  IF ~~ THEN REPLY @31 GOTO 18
+END
+
+IF ~~ THEN BEGIN 23
+  SAY @33
+  IF ~~ THEN GOTO 24
+END
+
+IF ~~ THEN BEGIN 24
+  SAY @34
+  IF ~~ THEN REPLY @35 GOTO 28
+  IF ~~ THEN REPLY @36 GOTO 32
+  IF ~~ THEN REPLY @37 GOTO 30
+END
+
+IF ~~ THEN BEGIN 25
+  SAY @38
+  IF ~~ THEN GOTO 26
+END
+
+IF ~~ THEN BEGIN 26
+  SAY @39
+  IF ~~ THEN GOTO 27
+END
+
+IF ~~ THEN BEGIN 27
+  SAY @40
+  IF ~~ THEN REPLY @35 GOTO 29
+  IF ~~ THEN REPLY @36 GOTO 33
+  IF ~~ THEN REPLY @37 GOTO 31
+END
+
+IF ~~ THEN BEGIN 28
+  SAY @41
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 29
+  SAY @42
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 30
+  SAY @43
+  IF ~~ THEN REPLY @44 GOTO 28
+  IF ~~ THEN REPLY @36 GOTO 32
+END
+
+IF ~~ THEN BEGIN 31
+  SAY @45
+  IF ~~ THEN REPLY @46 GOTO 29
+  IF ~~ THEN REPLY @36 GOTO 33
+END
+
+IF ~~ THEN BEGIN 32
+  SAY @47
+  IF ~~ THEN REPLY @48 GOTO 35
+END
+
+IF ~~ THEN BEGIN 33
+  SAY @49
+  IF ~~ THEN GOTO 34
+END
+
+IF ~~ THEN BEGIN 34
+  SAY @50
+  IF ~~ THEN REPLY @48 GOTO 35
+END
+
+IF ~~ THEN BEGIN 35
+  SAY @51
+  IF ~~ THEN GOTO 36
+END
+
+IF ~~ THEN BEGIN 36
+  SAY @52
+  IF ~~ THEN GOTO 37
+END
+
+IF ~~ THEN BEGIN 37
+  SAY @53
+  IF ~~ THEN GOTO 38
+END
+
+IF ~~ THEN BEGIN 38
+  SAY @54
+  IF ~~ THEN GOTO 39
+END
+
+IF ~~ THEN BEGIN 39
+  SAY @55
+  IF ~~ THEN GOTO 40
+END
+
+IF ~~ THEN BEGIN 40
+  SAY @56
+  IF ~~ THEN GOTO 41
+END
+
+IF ~~ THEN BEGIN 41
+  SAY @57
+  IF ~~ THEN GOTO 42
+END
+
+IF ~~ THEN BEGIN 42
+  SAY @58
+  IF ~!Gender(LastTalkedToBy(Myself),FEMALE)~ THEN GOTO 43
+  IF ~Gender(LastTalkedToBy(Myself),FEMALE)~ THEN GOTO 44
+END
+
+IF ~~ THEN BEGIN 43
+  SAY @59
+  IF ~~ THEN REPLY @60 GOTO 45
+END
+
+IF ~~ THEN BEGIN 44
+  SAY @61
+  IF ~~ THEN REPLY @60 GOTO 46
+END
+
+IF ~~ THEN BEGIN 45
+  SAY @62
+  IF ~~ THEN REPLY @63 GOTO 47
+  IF ~~ THEN REPLY @64 GOTO 48
+END
+
+IF ~~ THEN BEGIN 46
+  SAY @65
+  IF ~~ THEN REPLY @63 GOTO 47
+  IF ~~ THEN REPLY @64 GOTO 49
+END
+
+IF ~~ THEN BEGIN 47
+  SAY @66
+  IF ~~ THEN GOTO 50
+END
+
+IF ~~ THEN BEGIN 48
+  SAY @67
+  IF ~~ THEN GOTO 50
+END
+
+IF ~~ THEN BEGIN 49
+  SAY @68
+  IF ~~ THEN GOTO 50
+END
+
+IF ~~ THEN BEGIN 50
+  SAY @69
+  IF ~~ THEN GOTO 51
+END
+
+IF ~~ THEN BEGIN 51
+  SAY @70
+  IF ~~ THEN REPLY @71 DO ~SetGlobal("CbWizardsAndHakesharPlot","GLOBAL",1)
+AddJournalEntry(@84,QUEST)~ EXIT
+  IF ~~ THEN REPLY @72 GOTO 52
+END
+
+IF ~~ THEN BEGIN 52
+  SAY @73
+  IF ~~ THEN REPLY @71 DO ~SetGlobal("CbWizardsAndHakesharPlot","GLOBAL",1)
+AddJournalEntry(@84,QUEST)~ EXIT
+END
+
+IF ~Global("CbWizardsAndHakesharPlot","GLOBAL",1)
+!Gender(LastTalkedToBy(Myself),FEMALE)
+AreaCheck("AR1002")~ THEN BEGIN 53
+  SAY @74
+  IF ~~ THEN GOTO 54
+END
+
+IF ~~ THEN BEGIN 54
+  SAY @75
+  IF ~~ THEN EXIT
+END
+
+IF ~Global("CbWizardsAndHakesharPlot","GLOBAL",1)
+Gender(LastTalkedToBy(Myself),FEMALE)
+AreaCheck("AR1002")~ THEN BEGIN 55
+  SAY @76
+  IF ~~ THEN GOTO 56
+END
+
+IF ~~ THEN BEGIN 56
+  SAY @77
+  IF ~~ THEN EXIT
+END
+
+IF ~Global("CbWizardsAndHakesharPlot","GLOBAL",1)
+!AreaCheck("AR1002")
+!Gender(LastTalkedToBy(Myself),FEMALE)~ THEN BEGIN 57
+  SAY @78
+  IF ~~ THEN DO ~SetGlobal("CbWizardsAndHakesharPlot","GLOBAL",2)
+AddJournalEntry(@85,QUEST_DONE)
+EraseJournalEntry(@84)
+AddXPObject(Player1,20000)
+AddXPObject(Player2,20000)
+AddXPObject(Player3,20000)
+AddXPObject(Player4,20000)
+AddXPObject(Player5,20000)
+AddXPObject(Player6,20000)
+ActionOverride("CBCWLWR2",ForceSpell("CB576WIZ",DRYAD_TELEPORT))
+ActionOverride("CBCWLWR2",ForceSpell(Myself,DRYAD_TELEPORT))
+ActionOverride("CBCWLWRY",ForceSpell(Myself,DRYAD_TELEPORT))~ EXIT
+END
+
+IF ~Global("CbWizardsAndHakesharPlot","GLOBAL",1)
+!AreaCheck("AR1002")
+Gender(LastTalkedToBy(Myself),FEMALE)~ THEN BEGIN 58
+  SAY @79
+  IF ~~ THEN GOTO 59
+END
+
+IF ~~ THEN BEGIN 59
+  SAY @80
+  IF ~~ THEN GOTO 60
+END
+
+IF ~~ THEN BEGIN 60
+  SAY @81
+  IF ~~ THEN GOTO 61
+END
+
+IF ~~ THEN BEGIN 61
+  SAY @82
+  IF ~~ THEN GOTO 62
+END
+
+IF ~~ THEN BEGIN 62
+  SAY @83
+  IF ~~ THEN DO ~SetGlobal("CbWizardsAndHakesharPlot","GLOBAL",2)
+SetGlobal("CbRumplerInSevenVales","GLOBAL",1)
+AddJournalEntry(@85,QUEST_DONE)
+EraseJournalEntry(@84)
+AddXPObject(Player1,20000)
+AddXPObject(Player2,20000)
+AddXPObject(Player3,20000)
+AddXPObject(Player4,20000)
+AddXPObject(Player5,20000)
+AddXPObject(Player6,20000)
+ActionOverride("CBCWLWR2",ForceSpell("CB576WIZ",DRYAD_TELEPORT))
+ActionOverride("CBCWLWR2",ForceSpell(Myself,DRYAD_TELEPORT))
+ActionOverride("CBCWLWRY",ForceSpell(Myself,DRYAD_TELEPORT))~ EXIT
+END

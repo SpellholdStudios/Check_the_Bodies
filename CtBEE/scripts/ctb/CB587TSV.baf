@@ -1,0 +1,18 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("CB587DR1")
+		FadeToColor([20.0],0)
+		Wait(4)
+		SetGlobal("CbDruidCapitalWeapon","GLOBAL",3)
+		SetGlobal("CbTrioDruidsTaught","AR3587",3)
+		SetGlobal("CbDruidStormVengeance","LOCALS",1)
+		DayNight(NOON)
+		ApplySpellRES("CB587TSV",LastTalkedToBy(Myself))
+		Wait(2)
+		FadeFromColor([20.0],0)
+		StartDialogueNoSet(LastTalkedToBy(Myself))
+END
+
+

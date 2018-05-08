@@ -1,0 +1,21 @@
+IF
+	!Exists("CBAMGIRL")
+	OnCreation()
+THEN
+	RESPONSE #100
+		CreateCreature("REBAND01",[523.96],0) 
+		CreateCreature("REBAND02",[547.215],0)
+		CreateCreature("REBAND03",[441.219],0)
+		CreateCreature("REBAND04",[582.308],0)
+END
+
+IF
+	Global("CbEverybodyLovesCake","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbEverybodyLovesCake","GLOBAL",1)
+		CreateCreature("CBAMGIRL",[693.122],0)
+		CreateCreature("CBAMLADY",[795.123],0)
+END
+
+

@@ -1,0 +1,252 @@
+IF
+	GlobalGT("SPRITE_IS_DEADCB3547BL","GLOBAL",5)
+	Global("Cb_SlayingTrap","AR3547",2)
+THEN
+	RESPONSE #100
+		Unlock("AR5104Door1")
+		Unlock("AR5104Door3")
+		Unlock("AR5104Door5")
+		SetGlobal("Cb_SlayingTrap","AR3547",3)
+		Unlock("AR5104Door1")
+		Unlock("AR5104Door3")
+		Unlock("AR5104Door5")
+		Continue()
+END
+
+IF
+	Global("Cb_SlayingTrap","AR3547",1)
+	OpenState("AR5104Door3",TRUE)
+THEN
+	RESPONSE #100
+		CloseDoor("AR5104Door3")
+		Lock("AR5104Door1")
+		Lock("AR5104Door3")
+		Lock("AR5104Door5")
+		Continue()
+END
+
+IF
+	Global("Cb_SlayingTrap","AR3547",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_SlayingTrap","AR3547",2)
+		CreateVisualEffect("ICRMPARI",[567.495])
+		CreateVisualEffect("ICRMPARI",[700.502])
+		CreateVisualEffect("ICRMPARI",[759.587])
+		CreateVisualEffect("ICRMPARI",[709.629])
+		CreateVisualEffect("ICRMPARI",[546.635])
+		CreateVisualEffect("ICRMPARI",[505.575])
+		SmallWait(5)
+		CreateCreature("CB3547BL",[567.495],0) // Animated Sword
+		CreateCreature("CB3547BL",[700.502],0) // Animated Sword
+		CreateCreature("CB3547BL",[759.587],0) // Animated Sword
+		CreateCreature("CB3547BL",[709.629],0) // Animated Sword
+		CreateCreature("CB3547BL",[546.635],0) // Animated Sword
+		CreateCreature("CB3547BL",[505.575],0) // Animated Sword
+		Continue()
+END
+
+IF
+	NumInParty(1)
+	LevelPartyLT(10)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty1Cat1","MYAREA",1)
+END
+
+IF
+	NumInParty(1)
+	LevelPartyLT(20)
+	LevelPartyGT(11)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty1Cat2","MYAREA",1)
+END
+
+IF
+	NumInParty(1)
+	LevelPartyLT(30)
+	LevelPartyGT(21)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty1Cat3","MYAREA",1)
+END
+
+IF
+	NumInParty(1)
+	LevelPartyGT(31)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty1Cat4","MYAREA",1)
+END
+
+IF
+	NumInParty(2)
+	LevelPartyLT(10)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty2Cat1","MYAREA",1)
+END
+
+IF
+	NumInParty(2)
+	LevelPartyLT(20)
+	LevelPartyGT(11)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty2Cat2","MYAREA",1)
+END
+
+IF
+	NumInParty(2)
+	LevelPartyLT(30)
+	LevelPartyGT(21)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty2Cat3","MYAREA",1)
+END
+
+IF
+	NumInParty(2)
+	LevelPartyGT(31)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty2Cat4","MYAREA",1)
+END
+
+IF
+	NumInParty(3)
+	LevelPartyLT(10)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty3Cat1","MYAREA",1)
+END
+
+IF
+	NumInParty(3)
+	LevelPartyLT(20)
+	LevelPartyGT(11)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty3Cat2","MYAREA",1)
+END
+
+IF
+	NumInParty(3)
+	LevelPartyLT(30)
+	LevelPartyGT(21)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty3Cat3","MYAREA",1)
+END
+
+IF
+	NumInParty(3)
+	LevelPartyGT(31)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty3Cat4","MYAREA",1)
+END
+
+IF
+	NumInParty(4)
+	LevelPartyLT(10)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty4Cat1","MYAREA",1)
+END
+
+IF
+	NumInParty(4)
+	LevelPartyLT(20)
+	LevelPartyGT(11)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty4Cat2","MYAREA",1)
+END
+
+IF
+	NumInParty(4)
+	LevelPartyLT(30)
+	LevelPartyGT(21)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty4Cat3","MYAREA",1)
+END
+
+IF
+	NumInParty(4)
+	LevelPartyGT(31)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty4Cat4","MYAREA",1)
+END
+
+IF
+	NumInParty(5)
+	LevelPartyLT(10)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty5Cat1","MYAREA",1)
+END
+
+IF
+	NumInParty(5)
+	LevelPartyLT(20)
+	LevelPartyGT(11)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty5Cat2","MYAREA",1)
+END
+
+IF
+	NumInParty(5)
+	LevelPartyLT(30)
+	LevelPartyGT(21)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty5Cat3","MYAREA",1)
+END
+
+IF
+	NumInParty(5)
+	LevelPartyGT(31)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty5Cat4","MYAREA",1)
+END
+
+IF
+	NumInParty(6)
+	LevelPartyLT(10)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty6Cat1","MYAREA",1)
+END
+
+IF
+	NumInParty(6)
+	LevelPartyLT(20)
+	LevelPartyGT(11)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty6Cat2","MYAREA",1)
+END
+
+IF
+	NumInParty(6)
+	LevelPartyLT(30)
+	LevelPartyGT(21)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty6Cat3","MYAREA",1)
+END
+
+IF
+	NumInParty(6)
+	LevelPartyGT(31)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty6Cat4","MYAREA",1)
+END
+

@@ -1,0 +1,118 @@
+IF
+	Global("CbRynnSpawned","AR3636",0)
+	Global("CbYuantiesReset","GLOBAL",0)
+	GlobalGT("SPRITE_IS_DEADYUANTI","GLOBAL",9)
+THEN
+	RESPONSE #100
+		SetGlobal("CbYuantiesReset","GLOBAL",1)
+		SetGlobal("SPRITE_IS_DEADYUANTI","GLOBAL",0)    //resetting possible NeJ2 conflict
+END
+
+IF
+	LevelLT(Player1,9)
+	Global("CbRynnSpawned","AR3636",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbRynnSpawned","AR3636",1)
+		CreateCreature("RYNNPC06",[397.511],14)
+END
+
+IF
+	LevelGT(Player1,8)
+	LevelLT(Player1,14)
+	Global("CbRynnSpawned","AR3636",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbRynnSpawned","AR3636",1)
+		CreateCreature("RYNNPC11",[397.511],14)
+END
+
+IF
+	LevelGT(Player1,13)
+	LevelLT(Player1,18)
+	Global("CbRynnSpawned","AR3636",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbRynnSpawned","AR3636",1)
+		CreateCreature("RYNNPC15",[397.511],14)
+END
+
+IF
+	LevelGT(Player1,17)
+	Global("CbRynnSpawned","AR3636",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbRynnSpawned","AR3636",1)
+		CreateCreature("RYNNPC19",[397.511],14)
+END
+
+IF
+	InParty("RYNNPC06")
+	Global("CbFixRynnHere","AR3636",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbFixRynnHere","AR3636",1)
+		ActionOverride("RYNNPC06",ChangeAIScript("RYNNNPC",CLASS))
+		ActionOverride("RYNNPC06",ChangeAIScript("",OVERRIDE))
+		ActionOverride("RYNNPC06",ChangeAIScript("",DEFAULT))
+		ActionOverride("RYNNPC06",ChangeAIScript("",GENERAL))
+		ActionOverride("RYNNPC06",ChangeAIScript("",RACE))
+		ActionOverride("RYNNPC06",SetDialog("RYNN"))
+END
+
+IF
+	InParty("RYNNPC11")
+	Global("CbFixRynnHere","AR3636",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbFixRynnHere","AR3636",1)
+		ActionOverride("RYNNPC11",ChangeAIScript("RYNNNPC",CLASS))
+		ActionOverride("RYNNPC11",ChangeAIScript("",OVERRIDE))
+		ActionOverride("RYNNPC11",ChangeAIScript("",DEFAULT))
+		ActionOverride("RYNNPC11",ChangeAIScript("",GENERAL))
+		ActionOverride("RYNNPC11",ChangeAIScript("",RACE))
+		ActionOverride("RYNNPC11",SetDialog("RYNN"))
+END
+
+IF
+	InParty("RYNNPC15")
+	Global("CbFixRynnHere","AR3636",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbFixRynnHere","AR3636",1)
+		ActionOverride("RYNNPC15",ChangeAIScript("RYNNNPC",CLASS))
+		ActionOverride("RYNNPC15",ChangeAIScript("",OVERRIDE))
+		ActionOverride("RYNNPC15",ChangeAIScript("",DEFAULT))
+		ActionOverride("RYNNPC15",ChangeAIScript("",GENERAL))
+		ActionOverride("RYNNPC15",ChangeAIScript("",RACE))
+		ActionOverride("RYNNPC15",SetDialog("RYNN"))
+END
+
+IF
+	InParty("RYNNPC19")
+	Global("CbFixRynnHere","AR3636",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbFixRynnHere","AR3636",1)
+		ActionOverride("RYNNPC19",ChangeAIScript("RYNNNPC",CLASS))
+		ActionOverride("RYNNPC19",ChangeAIScript("",OVERRIDE))
+		ActionOverride("RYNNPC19",ChangeAIScript("",DEFAULT))
+		ActionOverride("RYNNPC19",ChangeAIScript("",GENERAL))
+		ActionOverride("RYNNPC19",ChangeAIScript("",RACE))
+		ActionOverride("RYNNPC19",SetDialog("RYNN"))
+END
+
+IF
+	OR(4)
+		!Contains("CBMTBTAX","Closet")
+		!Contains("CBMTHAMM","Closet")
+		!Contains("CBMTSCIM","Closet")
+		!Contains("CBMTSWLS","Closet")
+	Global("CbStoleFromValiant","AR3636",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbStoleFromValiant","AR3636",1)
+		ActionOverride("CBHLVLNT",StartDialogueNoSet(Nearest([GOODCUTOFF])))
+END
+
+

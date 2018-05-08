@@ -1,0 +1,11 @@
+IF
+	Entered([ANYONE])
+THEN
+	RESPONSE #100
+		CreateCreature("GOLEM01",[383.1400],0) 
+		CreateCreature("GOLFLE01",[387.1443],0)
+		CreateCreature("GOLFLE01",[459.1405],0)
+		CreateCreature("GOLADA01",[437.1434],0)
+END
+
+

@@ -1,0 +1,18 @@
+IF
+	See([GOODCUTOFF])
+THEN
+	RESPONSE #17
+		AttackReevaluate(NearestEnemyOf(Myself),12)
+	RESPONSE #17
+		AttackReevaluate(SecondNearestEnemyOf(Myself),12)
+	RESPONSE #17
+		AttackReevaluate(ThirdNearestEnemyOf(Myself),12)
+	RESPONSE #17
+		AttackReevaluate(FourthNearestEnemyOf(Myself),12)
+	RESPONSE #17
+		AttackReevaluate(FifthNearestEnemyOf(Myself),12)
+	RESPONSE #15
+		AttackReevaluate(SixthNearestEnemyOf(Myself),12)
+END
+
+

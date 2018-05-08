@@ -1,0 +1,23 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("CBP1ACT4")
+		ForceSpell("CBP1ACT1",2360)
+		Wait(4)
+		ForceSpell("CBP1ACT1",2360)
+		Wait(4)
+		ForceSpell("CBP1ACT1",2360)
+		Wait(4)
+		ForceSpell("CBP1ACT1",2360)
+		Wait(4)
+		CreateVisualEffectObject("SPGENHLA","CBP1ACT1")
+		Wait(1)
+		CreateVisualEffectObject("SPGENHLA","CBP1ACT1")
+		Wait(4)
+		SetGlobal("CbElCastsLots","AR0510",1)
+		EndCutSceneMode()
+		ActionOverride("CBP1ACT2",StartDialogueNoSet("CBP1ACT1"))
+END
+
+

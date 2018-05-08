@@ -1,0 +1,15 @@
+@1   = ~"Ti ho sentito chiamare, <GABBER>. Sono venuto il più presto che ho potuto."~
+@2   = ~"Come d'accordo, <GABBER>, puoi invocare il mio aiuto per tre volte. Questa è la prima volta, e ti rimangono altre due chiamate. Dopo di che non ti risponderò più."~
+@3   = ~"Come convenuto, <GABBER>, puoi invocare il mio aiuto per tre volte. Questa è la seconda volta, ti rimane solo un'altra chiamata. Dopo di che non ti risponderò più."~
+@4   = ~"Come pattuito, <GABBER>, puoi invocare il mio aiuto per tre volte. Questa è la tua terza ed ultima chiamata. Dopo di che non ti risponderò più."~
+@5   = ~"Non dovresti essere così ingenuo ad evocarmi senza motivo. Di cosa hai bisogno questa volta, <GABBER>?"~
+@6   = ~Di nulla, potente Darammareth S'ooloun Crommadar Ammanth Kuleera. Puoi andare.~
+@7   = ~Sono sul punto di iniziare una battaglia in cui non so se sopravviverò. Puoi aiutarmi?~
+@8   = ~Uccidi i miei nemici, potente Darammareth S'ooloun Crommadar Ammanth Kuleera!~
+@9   = ~Voglio le tue ricchezze, Darammareth S'ooloun Crommadar Ammanth Kuleera.  Me le darai?~
+@10  = ~"Sei patetico. Questo non faceva parte del nostro accordo, e mi rifiuto di esaudirti. Hai stupidamente sprecato un'evocazione. Non mi fare di nuovo perdere tempo ed energie con cose simili, mortale."~
+@11  = ~"Sei patetico. Hai stupidamente sprecato un'evocazione. Non mi fare di nuovo perdere tempo ed energie con cose simili, mortale."~
+@12  = ~"Molto bene, <GABBER>. Farò quello che posso per aiutarti, ma ricordati che se tu mi lasci qui e te ne andrai all'avventura come fai di solito, io me ne andrò ed avrai sprecato un'evocazione."~
+@13  = ~"Farò quello che posso per aiutarti, <GABBER>. Ma non credere che mi farò ferire per te, un mortale."~
+@14  = ~"Puoi proseguire il tuo cammino adesso, <GABBER>. Ho mantenuto la mia parte del nostro accordo, e sono venuta ad aiutarti. Ora me ne vado, e tu potrai richiamarmi di nuovo se ne avrai bisogno."~
+@15  = ~"Puoi proseguire il tuo cammino adesso, <GABBER>. Ho mantenuto la mia parte del nostro accordo, e sono venuta in tuo aiuto per tre volte come promesso. Ora sono libera dal nostro accordo, ed ho pagato il mio debito. Non pensare di evocarmi di nuovo, o ti ucciderò, mortale."~

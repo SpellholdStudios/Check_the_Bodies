@@ -1,0 +1,71 @@
+@1   = ~Claro que sí, Tardeth. Bienhallados, nuevos amigos.~
+@2   = ~Si alguna vez queréis probar vuestra habilidad con un arco, venid por aquí y practicad conmigo.~
+@3   = ~Estoy con Marilyn, Tardeth. Dejadles ayudar.~
+@4   = ~En la medida en que puedo acertarle a algo, estoy listo.~
+@5   = ~¿Sí, Arkanus? ¿Qué pasa?~
+@6   = ~Bueno, hay algunas especies de elfos lunares que son completamente inmunes al crecimiento antinatural, como polimorfizaciones o resurrecciones. Sin embargo, no sé lo que lo causa, ni me imagino que tendría que ver con las plantas.~
+@7   = ~Estoy intentando practicar con el arco. ¿Queréis probar?~
+@8   = ~Claro. Haré algunos intentos.~
+@9   = ~Ahora no, gracias.~
+@10  = ~Buena suerte, amigo. Yo también haré unos cuantos disparos.~
+~Buena suerte, amiga. Yo también haré unos cuantos disparos.~
+@11  = ~Bueno, si cambiáis de opinión, consideráos invitado.~
+~Bueno, si cambiáis de opinión, consideráos invitada.~
+@12  = ~Intentad acertar en el blanco. Velloliebre piensa que es mejor que yo, pero es imposible que una humana sea mejor con un arco que un elfo.~
+@13  = ~En cuanto queráis organizar un concurso, Velloliebre, estaré allí.~
+@14  = ~Me preguntaba qué estaba esperando Tardeth. Deberíamos estar haciendo algo productivo, en lugar de estar esperando simplemente. Ya llevamos algunos días acampados aquí.~
+@15  = ~Hace semanas que deberíamos haber partido hacia el sur. El Bosque de Mir esta repleto de esos ne'Tel'Quessar.~
+@16  = ~Si os dirigís hacia allí, vigilad vuestra espalda. He oido que aquello puede estar en guerra.~
+@17  = ~Espero que Elhan encuentre pronto la Linterna. He estado esperando regresar a las glorias de Suldanessellar, pero sin la Linterna, nosotros, las gentes del Pueblo Gentíl, estamos perdidos como chiquillos.~
+@18  = ~Así que habéis hablado con Tardeth. Estoy contento al saber que vais a ayudarnos contra el Culto.~
+@19  = ~¿Hay algo más que debáis contarme sobre el Culto?~
+@20  = ~Bueno, no sé mucho mas que vos o que Tardeth, pero creo que Marilyn y Lawantha creen que el lider escondido bajo el Bosque de Tethyr ha creado una nueva célula del Culto del Dragón.~
+@21  = ~Pensaba que el Culto del Dragón estaba asentado principalmente en Sembia.~
+@22  = ~Como ya os he dicho, el Culto es, en efecto, un poderoso grupo de las Tierras centrales orientales, que prospera en las ciudades que están alrededor del Mar de las Estrellas Fugaces. Pero estoy bastante seguro de que el Culto quiere que todos los dragones malvados se unan a su causa. Sé que los Arpistas han tenido varios enfrentamientos con miembros del Culto, y ellos saben más sobre las motivaciones del Culto del Dragón.~
+@23  = ~Si es cierto que el Culto quiere que todos los dragones malignos se unan a su bando, entonces los Bosques de Mir y de Tethyr son sitios perfectos para que operen.~
+@24  = ~¿Por qué?~
+@25  = ~Bueno, hay mas dragones aquí, tanto buenos como malos, en estos dos bosques, que en la mayoría de las demás regiones de Faerûn.~
+@26  = ~¿Podéis contarme algo que nos sea de utilidad?~
+@27  = ~Estoy seguro de que será una batalla difícil, así que tal vez queráis repasar vuestros conjuros y afilar las armas. Mirad, llevamos equipo de sobra, ¿por qué no cogéis una de nuestras tiendas para usarla?~
+@28  = ~Creo que estamos listos para encargarnos del Culto en su guarida. Espero que vuestros preparativos también hayan ido bien.~
+@29  = ~Sí, todo está en orden. Pronto estaremos preparados.~
+@30  = ~Me encantaría echarme una siesta aquí. ¿Podríais dejar de practicar un rato con el arco?~
+@31  = ~Ya basta de tanto ruido. ¡Estoy intentando dormir!~
+@32  = ~Gracias por detener vuestros ejercicios. He terminado de dormir, asi que si queréis continuar, por mí está bien.~
+@33  = ~Gracias por detener vuestros ejercicios. Ahora voy a dormir.~
+@34  = ~¿Quién es mejor con el arco? ¿Vos o Marilyn?~
+@35  = ~¿Por qué llamasteis a vuestro caballo Sir John Johns?~
+@36  = ~¿Cómo es que sois el único de la Compañía que tiene un caballo?~
+@37  = ~Por supuesto. Siento haberos molestado.~
+@38  = ~Sin problema. Ahora voy a tirar. Si queréis intentarlo, acercaros al blanco. Si queréis volver a dormir, hacedmelo saber.~
+@39  = ~Podríais pedirlo amablemente. Quizás no lo hiciera si no fuerais tan rudo.~
+~Podríais pedirlo amablemente. Quizás no lo hiciera si no fuerais tan ruda.~
+@40  = ~Tendréis que vivir con ello hasta que aprendáis buenas maneras.~
+@41  = ~Bueno, es difícil de decir. A pesar de las pullas que nos echamos, ambos somos grandes tiradores.~
+@42  = ~Marilyn es un poco mejor en distancias cortas que yo, pero en cambio yo puedo atravesar una jarra de estaño a cien pasos, más o menos.~
+@43  = ~Eso no es verdad, Lawantha. Sabéis que yo nunca os haría daño. Además, yo tenía menos de tres pulgadas de espacio para acertar el disparo. Un poco más hacia vos, y la flecha os hubiera resbalado en la armadura.~
+@44  = ~¿Es un nombre mejor que "Fábrica de Pegamento"?~
+@45  = ~Oh, no le haríais eso, ¿no?~
+@46  = ~No puedo discutiroslo.~
+@47  = ~Claro que no podría.~
+@48  = ~En realidad, mi primer caballo fue un jamelgo marrón, casi rojizo, y lo llamábamos la Cortina Roja. Este es mi segundo caballo, así que lo llamé Sir John Johns como su padre, pero dos veces.~
+@49  = ~Tuvo un potro la estación pasada, y al descendiente lo llamamos E.I.E.I Owen.~
+@50  = ~Les dais a vuestros caballos nombres muy raros.~
+@51  = ~Bueno, Sir John Johns es mi caballo, pero en realidad sirve a toda la compañía.~
+@52  = ~A la única a la que no le deja montar es a Lawantha. Parece que es un poco asustadizo con su magia, pero no lo es con la magia clerical de los druidas.~
+@53  = ~Yo no, Paddy. Lawantha está otra vez contando historias. No la creáis, <CHARNAME>.~
+@54  = ~¡Tardeth! ¡A vuestra izquierda!~
+@55  = ~Buen trabajo, Compañía. Buen trabajo, <CHARNAME>. ¿Estáis todos bien?~
+@56  = ~Recojamos nuestras cosas y salgamos de aquí. <CHARNAME>, nos volveremos a encontrar fuera, en el bosque.~
+@57  = ~Menuda lucha, ¿eh, <CHARNAME>? Sí que nos encargamos de ese Culto.~
+@58  = ~Ni siquiera supieron lo que había venido a por ellos.~
+@59  = ~Me alegra que decidiérais ayudar a la Compañía, en lugar de convertiros en uno de nuestros enemigos.~
+@60  = ~Tomad, coged este regalo, de mí para vos. Usadlo bien, <CHARNAME>, es un arfetafto élfico bastante poderoso.~
+@61  = ~Vamos, chicos, es hora de irnos...~
+@62 = ~La famosa Compañía de los Ocho
+
+  He pasado mi última aventura luchando al lado de la Compañía de los Ocho, que intentaban neutralizar una célula del Culto del Dragón que se había asentado en una mazmorra abandonada bajo el Bosque de Tethyr. Toda la Compañía, Marilyn, Paddy, el elfo Gotadeluna, Lawantha, los dos druidas Manny y Arkanus, y Tardeth, eran guerreros experimentados, y tuvimos éxito al derrotar al Culto. Debo admitir que luchar junto a una banda de aventureros tan experimentados fue un placer, y espero tener la oportunidad de volver hacerlo en el futuro.~
+@63 = ~La famosa Compañía de los Ocho
+
+  Finalmente he conocido a la Compañía de los Ocho de la que tanto había oído hablar. Este legendario grupo de aventureros de Tethyr ha tropezado con una fortaleza que esta siendo usada por el Culto del Dragón. Me invitaron a echar al Culto, y cuando estemos preparados para encargarme de esa misión, el lider de la Compañía, Tardeth, me ha pedido que se lo haga saber.
+  Espero que cuando estemos listos, buscar aventuras y combates con al Compañia de los Ocho sea algo que esté dentro de mis capacidades.~

@@ -1,0 +1,12 @@
+IF
+	OR(2)
+		Entered([ANYONE])
+		Opened([ANYONE])
+THEN
+	RESPONSE #100
+		DisplayString(LastTrigger,14381)
+		ForceSpell(LastTrigger,HELL_LOSE_DEX)
+		DisplayString(LastTrigger,307) 
+END
+
+

@@ -1,0 +1,14 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("CBP1ACT4")
+		ActionOverride("CBP1ACT6",MoveToPoint([986.623]))
+		ForceSpell("CBP1ACT1",2360)
+		Wait(3)
+		SetGlobal("CbElCastsLightning","LOCALS",1)
+		EndCutSceneMode()
+		StartDialogueNoSet("CBP1ACT1")
+END
+
+

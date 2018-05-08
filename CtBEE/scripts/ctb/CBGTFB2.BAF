@@ -1,0 +1,19 @@
+IF
+	OR(2)
+		Entered([ANYONE])
+		Opened([ANYONE])
+THEN
+	RESPONSE #100
+		DisplayString(LastTrigger,14381) // Trap Sprung
+		ForceSpell(LastTrigger,TRAP_FIREBALL)
+		Wait(2)
+		ForceSpell(LastTrigger,TRAP_FIREBALL)
+		Wait(2)
+		ForceSpell(LastTrigger,TRAP_FIREBALL)
+		Wait(2)
+		ForceSpell(LastTrigger,TRAP_FIREBALL)
+		Wait(2)
+		ForceSpell(LastTrigger,TRAP_FIREBALL)
+END
+
+

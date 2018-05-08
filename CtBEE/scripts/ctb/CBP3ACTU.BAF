@@ -1,0 +1,17 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		FadeToColor([20.0],0)
+		Wait(3)
+		ActionOverride("CBP3ACT7",DestroySelf())
+		ActionOverride("CBP3ACT5",JumpToPoint([1067.696])
+		ActionOverride("CBP3ACT6",JumpToPoint([1005.731])
+		ActionOverride("CBP3ACT5",FaceObject("CBP3ACT6"))
+		Wait(1)
+		SetGlobal("CbScreening_MacParody","AR0510",4)
+		FadeFromColor([20.0],0)
+		EndCutSceneMode()
+		ActionOverride("CBP3ACT5",StartDialogueNoSet("CBP1ACT6"))
+END

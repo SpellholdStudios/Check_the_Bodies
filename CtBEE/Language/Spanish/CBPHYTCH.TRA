@@ -1,0 +1,119 @@
+@1   = ~Uh, ¡hola!  Estaba pensando que tenía que enseñaros algo sobre... sobre... ummm~
+@2   = ~Bolas de fuego.~
+@3   = ~¿Podéis ilustrarme sobre la escritura de pergaminos?~
+@4   = ~Como utilizar la alabarda al nivel de un gran maestro.~
+@5   = ~Ah, sí. Bolas de fuego. Oh, ¡odio ser tan despistada! Bueno, como sea, las bolas de fuego son un ardid muy útil que crea unos grandes globos de fango en los que ahogar a vuestros enemigos. Las gigantecas bolas de llamas de roca fundida vuelan inevitablemente por el cielo, y caen sobre la tierra, causando la destrucción y la ruina de las mazmorras, las cuales son muy oscuras y aterradoras, aunque si usas un conjuro de Luz Contínua podrían en verdad ser muy bonitas, con el musgo resplandeciente, el cual no crece a menos que la mazmorra sea húmeda y sólo donde el agua se filtra desde las capas superficiales del suelo. Los gusanos de tierra viven en las capas superficiales del suelo, y estos gusanos excavan sus madrigueras profundas en la tierra, como un ankheg, excepto que los gusanos de tierra no comen gente. A no ser que estéis muerto, porque entonces los gusanos os comerán y no os convertiréis en un muerto viviente. Pero si sois un muerto viviente entonces... ¡ESPERAD! ¿Sois un muerto viviente? No quiero tener nada que ver con nadie que sea un muerto viviente.~
+~Ah, sí. Bolas de fuego. Oh, ¡odio ser tan despistada! Bueno, como sea, las bolas de fuego son un ardid muy útil que crea unos grandes globos de fango en los que ahogar a vuestros enemigos. Las gigantecas bolas de llamas de roca fundida vuelan inevitablemente por el cielo, y caen sobre la tierra, causando la destrucción y la ruina de las mazmorras, las cuales son muy oscuras y aterradoras, aunque si usas un conjuro de Luz Contínua podrían en verdad ser muy bonitas, con el musgo resplandeciente, el cual no crece a menos que la mazmorra sea húmeda y sólo donde el agua se filtra desde las capas superficiales del suelo. Los gusanos de tierra viven en las capas superficiales del suelo, y estos gusanos excavan sus madrigueras profundas en la tierra, como un ankheg, excepto que los gusanos de tierra no comen gente. A no ser que estéis muerta, porque entonces los gusanos os comerán y no os convertiréis en un muerto viviente. Pero si sois un muerto viviente entonces... ¡ESPERAD! ¿Sois un muerto viviente? No quiero tener nada que ver con nadie que sea un muerto viviente.~
+@6   = ~No temáis, querida Phlydia. No soy un muerto viviente. Sólo soy un pequeño muchachito.~
+~No temáis, querida Phlydia. No soy un muerto viviente. Sólo soy un pequeña muchachita.~
+@7   = ~Um, Phlydia.  En realidad, mi padre os pidió que me enseñárais a escribir pergaminos.~
+@8   = ~Si yo fuera un muerto viviente, ¿no creéis que tendría gusanos saliendo por las cuencas de mis ojos?~
+@9   = ~Ah, y un bonito muchachito sois. Venid aquí, dejadme pellizcaros vuestras lindas mejillas.~
+~Ah, y una bonita muchachita sois. Venid aquí, dejadme pellizcaros vuestras lindas mejillas.~
+@10  = ~Nadie va a pellizcar mis mejillas, especialmente vos, Phlydia. Ahora, ¿vais a instruirme sobre las bolas de fuego o no?~
+@11  = ~Nadie va a pellizcar mis mejillas, especialmente vos, Phlydia. Ahora, ¿vais a instruirme sobre la escritura de pergaminos o no?~
+@12  = ~Nadie va a pellizcar mis mejillas, especialmente vos, Phlydia. Ahora, ¿vais a enseñarme como usar una alabarda o no?~
+@13  = ~¿Escritura? ¿Pergaminos? ¿Por qué los pergaminos escriben? Son objetos inanimados, por lo tanto los pergaminos no pueden realizar acciones.~
+@14  = ~¡No sobre pergaminos escribientes! ¡Inscribir pergaminos! Como cuando los escribas inscriben en los pergaminos.~
+@15  = ~OH...  Sí, sí.  "Esa" escritura de pergaminos. ¡Qué idea más maravillosa, pequeño muchachito!~
+~OH...  Sí, sí.  "Esa" escritura de pergaminos. ¡Qué idea más maravillosa, pequeña muchachita!~
+@16  = ~¡Eso puedo hacerlo! Sé como se trazan los pergaminos, y eso es un paso importante en la enseñanza de algo. Conocer vuestro material.~
+@17  = ~¿Una alabarda? ¿Os referís a esas cosas grandes y puntiagudas con cosas afiladas en un extremo? En nombre de Mystra, ¿por qué querríais saber utilizar algo así? Sois demasiado pequeño para jugar con cuchillos afilados. Por otro lado, vuestro padre os crió para algo mejor que eso. Deberíais saber que hay que pinchar a la gente con palos puntiagudos. O con bananas.~
+~¿Una alabarda? ¿Os referís a esas cosas grandes y puntiagudas con cosas afiladas en un extremo? En nombre de Mystra, ¿por qué querríais saber utilizar algo así? Sois demasiado pequeña para jugar con cuchillos afilados. Por otro lado, vuestro padre os crió para algo mejor que eso. Deberíais saber que hay que pinchar a la gente con palos puntiagudos. O con bananas.~
+@18  = ~No, no sabría por donde empezar para picar a la gente con uno esos palos puntiagudos. ¿Qué tal si os enseño otra cosa?~
+@19  = ~¿Podeis enseñarme a como escribir pergaminos?~
+@20  = ~¿Podeis enseñarme sobre bolas de fuego?~
+@21  = ~¿Vuestro padre? Bha.. Er, no, ¿no está vuestro padre muerto?~
+@22  = ~No, él acaba de salir un rato de la habitación. Ahora, ¿vais a enseñarme sobre las bolas de fuego o no?~
+@23  = ~No, él acaba de salir un rato de la habitación. Ahora, ¿vais a enseñarme cómo inscribir pergaminos o no?~
+@24  = ~No, él acaba de salir un rato de la habitación. Ahora, ¿vais a enseñarme cómo usar una alabarda o no?~
+@25  = ~¿Las cuencas de los ojos? ¿Por qué no? Creo que podría ser. Pero como en realidad nunca ví un dragón, no puedo saber lo que os saldría de los ojos si fuerais un dragón.~
+@26  = ~¿Dragón? ¿Qué dragón?~
+@27  = ~¿De qué estáis hablando? Me estáis confundiendo.~
+@28  = ~¡¿¡Un dragon!?! ¿Dónde? ¡¡Llamad a los Vigilantes!! ¡Convocad a los magos! ¡Candelero está bajo ataque!~
+@29  = ~Aquí no hay ningún dragón, Phlydia. Ahora, ¿vais a enseñarme sobre las bolas de fuego o no?~
+@30  = ~Aquí no hay ningún dragón, Phlydia. Ahora, ¿vais a enseñarme cómo inscribir pergaminos o no?~
+@31  = ~Aquí no hay ningún dragón, Phlydia. Ahora, ¿vais a enseñarme cómo usar una alabarda o no?~
+@32  = ~¡Oh! ¡Vaya, hola! No os había visto. ¿Habéis visto mi libro...? Esperad. No, esto ya vendrá un poco más tarde en vuestra vida.~
+@33  = ~¿Señorita Phlydia? ¿Váis a enseñarme sobre las bolas de fuego o no?~
+@34  = ~¿Señorita Phlydia? ¿Váis a enseñarme cómo inscribir pergaminos o no?~
+@35  = ~¿Señorita Phlydia? ¿Váis a enseñarme cómo usar una alabarda o no?~
+@36  = ~Dejadme ver. Bien, para aprender cómo se inscriben los pergaminos, primero necesitáis saber cómo se escribe. ¿Sabéis escribir?~
+@37  = ~Umm... ¿sí?~
+@38  = ~Por supuesto que no puedo escribir, desquiciada. Sólo soy un montón de pixels coloreados en una pantalla mecánica que tiene un montón de electrones que son disparados desde un tubo catódico hasta una pieza de cristal ionizado en la cuál se crea la imagen de una persona que puede moverse sobre el cristal, simulando los efectos del movimiento, aunque en realidad no hay movimiento alguno.~
+@39  = ~Bien. Ése es es el primer paso para escribir pergaminos.~
+@40  = ~Supongo que el segundo paso para aprender cómo escribir pergaminos sería saber cómo leer. O quizás leerlos es más importante que escribirlos. ¿Qué pensáis?~
+@41  = ~Creo que teníais razón la primera vez.~
+@42  = ~Supongo que leer es más importante que escribir.~
+@43  = ~¿Podríamos terminar con esta discusión y continuar con mi lección?~
+@44  = ~¿La primera vez? Um... ¿cuál era? Oh, no importa. Continuemos con la lección.~
+@45  = ~Probablemente sería lo mejor.~
+@46  = ~De acuerdo, pequeño muchachito... esperad, no puedo seguir llamandoos pequeño muchachito. ¿Me dijísteis vuestro nombre?~
+~De acuerdo, pequeña muchachita... esperad, no puedo seguir llamandoos pequeña muchachita. ¿Me dijísteis vuestro nombre?~
+@47  = ~Me llamo <CHARNAME>.~
+@48  = ~Me llamo Elminster.~
+@49  = ~Me llamo Drizzt.~
+@50  = ~Encantada de conoceros, <CHARNAME>. De acuerdo, <CHARNAME>. ¿Por qué no cogéis esa pila de pergaminos y los miráis?. Cuando los hayáis estudiado lo suficientemente, hacédmelo saber y os hablaré sobre los dragones... no, os enseñaré como escribir pergaminos. No os toméis mucho tiempo, de lo contrario se me podría olvidar lo que estaba haciendo e irme.~
+@51  = ~Encantada de conoceros, Elminster. De acuerdo, Elminster. ¿Por qué no cogéis esa pila de pergaminos y los miráis?. Cuando los hayáis estudiado lo suficientemente, hacédmelo saber y os hablaré sobre los dragones... no, os enseñaré como escribir pergaminos. No os toméis mucho tiempo, de lo contrario se me podría olvidar lo que estaba haciendo e irme.~
+@52  = ~Encantada de conoceros, Drizzt. De acuerdo, Drizzt. ¿Por qué no cogéis esa pila de pergaminos y los miráis?. Cuando los hayáis estudiado lo suficientemente, hacédmelo saber y os hablaré sobre los dragones... no, os enseñaré como escribir pergaminos. No os toméis mucho tiempo, de lo contrario se me podría olvidar lo que estaba haciendo e irme.~
+@53  = ~Sí, desde luego sería una hipótesis válida, pero supongo que se podría argumentar en ambos sentidos. Oh, no importa. Continuemos con la lección.~
+@54  = ~Pequeño muchachito, necesitáis avanzar pasito a pasito en la escritura de pergaminos. Ahora, ¿creéis que leer es más importante que escribir, o la escritura es más importante que la lectura?~
+~Pequeña muchachita, necesitáis avanzar pasito a pasito en la escritura de pergaminos. Ahora, ¿creéis que leer es más importante que escribir, o la escritura es más importante que la lectura?~
+@55  = ~Ummm...~
+@56  = ~Oh.  Hola.  No os había visto. ¿Qué estábais diciendo?~
+@57  = ~Dije que por supuesto que puedo escribir, lunática.~
+@58  = ~Hola. ¿Qué necesitáis?~
+@59  = ~Nada de vos. Adiós.~
+@60  = ~He estudiado los pergaminos, como me dijisteis.~
+@61  = ~Adiós, <CHARNAME>.~
+@62  = ~Adiós, señor Elminster.~
+~Adiós, señora Elminster.~
+@63  = ~Adiós, Drizzt.~
+@64  = ~Bien. ¿Y sabéis lo que dicen?~
+@65  = ~Sí.~
+@66  = ~No.~
+@67  = ~¿Sabéis lo que significan?~
+@68  = ~¿Podríais copiarlos?~
+@69  = ~Entonces aún hay una desafío para mí, enseñaros cómo trazar los pergaminos. Esto es lo más importante, incluso más importante que la lectura o escritura.~
+@70  = ~Éste es el "Examen Sembiano y de Tethyr", empleado para el aprendizaje por todo Faerûn. Todos reciben exactamente el mismo "Examen Sembiano y de Tethyr", a pesar de la raza o la clase, y puede que sea sesgado, pero es la única forma para nosotros de saber si tenéis las aptitudes para el trazado avanzado de pergaminos.~
+@71  = ~Os haré la prueba ahora mismo. Ésta tiene preguntas con multiples respuestas. La primera pregunta es
+
+"A la hora de trazar pergaminos yo debería tener:"
+~
+@72  = ~Pegamento.~
+@73  = ~Elefantes.~
+@74  = ~Pergamino.~
+@75  = ~Una espada.~
+@76  = ~Hierro.~
+@77  = ~Lo lamento, pero eso es incorrecto. Sigamos con la siguiente pregunta.~
+@78  = ~La pregunta es:
+
+"A la hora de trazar un pergamino de protección, yo debería tener tinta de color ______".
+~
+@79  = ~Azul.~
+@80  = ~Verde.~
+@81  = ~Permanente.~
+@82  = ~Invisible.~
+@83  = ~Blanca.~
+@84  = ~Lo lamento, pero eso no es correcto. Vayamos con la pregunta final.~
+@85  = ~La pregunta final, por un millón de eur... quiero decir, por la habilidad de Inscribir pergaminos, es:
+
+"Si inscribo un pergamino de forma que sea mágico, puedo:"
+~
+@86  = ~Consumirlo.~
+@87  = ~Beberlo.~
+@88  = ~Apuñalar a alguien con él.~
+@89  = ~Recitarlo.~
+@90  = ~Usarlo como una manta.~
+@91  = ~Lo siento, pero eso es incorrecto.~
+@92  = ~Tuvisteis suficientes respuestas correctas, por lo que puedo daros un diploma por aprender la forma de inscribir pergaminos.~
+@93  = ~Lo siento, pequeño muchachito, pero no tuvísteis las suficientes respuestas correctas como para que os pueda entregar un diploma para aprender la habilidad de Inscribir pergaminos. Tendréis que esperar hasta que seáis más inteligente para poder aprender esta habilidad. Quizás cuando seáis mayor que yo.~
+~Lo siento, pequeña muchachita, pero no tuvísteis las suficientes respuestas correctas como para que os pueda entregar un diploma para aprender la habilidad de Inscribir pergaminos. Tendréis que esperar hasta que seáis más inteligente para poder aprender esta habilidad. Quizás cuando seáis mayor que yo.~
+@94  = ~¡Es correcto!~
+@95  = ~¡Es correcto! Muy bien, veamos la siguiente pregunta.~
+@96  = ~¡Es correcto! Dejadme haceros la segunda pregunta.~
+@97  = ~Entonces deberíais estudiarlos más detenidamente.~
+@98  = ~Bien hecho, mi pequeño muchachito. Ahora debo marcharme, pero aquí tenéis vuestro diploma. Buena suerte con el resto de vuestros estudios aquí, en Candelero.~
+~Bien hecho, mi pequeña muchachita. Ahora debo marcharme pero aquí tenéis vuestro diploma. Buena suerte con el resto de vuestros estudios aquí, en Candelero.~
+@99  = ~Buen intento, pequeño muchachito. Lo lamento, pero ahora debo marcharme. Buena suerte con vuestros demás estudios aquí en Candelero.~
+~Buen intento, pequeña muchachita. Lo lamento, pero ahora debo marcharme. Buena suerte con vuestros demás estudios aquí en Candelero.~

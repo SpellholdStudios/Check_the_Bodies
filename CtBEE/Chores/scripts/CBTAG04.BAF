@@ -1,0 +1,20 @@
+IF
+    Global("CbImoenPlayed","AR3500",0)
+    Global("CbTagGame","AR3500",4)
+    Range("CBIMOENL",10)
+    Range(Player1,10)
+THEN
+    RESPONSE #100
+        SetGlobal("CbTagGame","AR3500",5)
+        ClearAllActions()
+        SetCursorState(TRUE)
+        StartCutScene("CBIMOENQ")
+END
+/*
+IF
+    Global("CbThisTagGuyHasToMove","LOCALS",0)
+THEN
+    RESPONSE #100
+        SetGlobal("CbThisTagGuyHasToMove","LOCALS",1)
+        JumpToPoint([2300.2800])
+END */

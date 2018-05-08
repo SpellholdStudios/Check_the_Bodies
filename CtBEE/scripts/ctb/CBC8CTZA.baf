@@ -1,0 +1,472 @@
+IF
+	Global("Cb_ZannasterHealed","LOCALS",3)
+	See(NearestEnemyOf(Myself))
+	HP(Myself,1)
+	HasItem("CBPOTNLD",Myself)
+	Global("CbZannasterFinallyChanging","AR3532",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbZannasterFinallyChanging","AR3532",1)
+		DestroyItem("CBPOTNLD")
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!StateCheck(Myself,STATE_HASTED)
+	HasItem("POTN14",Myself) // Oil of Speed
+THEN
+	RESPONSE #100
+		UseItem("POTN14",Myself) // Oil of Speed
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_STONE_SKIN)
+	CheckStatLT(Myself,1,STONESKINS)
+	Global("CbZannPrep","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbZannPrep","LOCALS",1)
+		DisplayString(Myself,39968) // Spell Trigger - Fired
+		Spell(Myself,WIZARD_STONE_SKIN)
+		DisplayString(Myself,40244) // Spell Trigger - Stoneskins
+		ApplySpell(Myself,WIZARD_ABSOLUTE_IMMUNITY)
+		DisplayString(Myself,43050) // Chain Contingency - Improved Mantle
+		ApplySpell(Myself,WIZARD_PROTECTION_FROM_MAGIC_ENERGY)
+		ApplySpell(Myself,CLERIC_HEAL)
+		ApplySpell(Myself,WIZARD_FIRE_SHIELD_BLUE)
+		DisplayString(Myself,43047) // Spell Trigger - Fire Shield Red
+		ApplySpell(Myself,WIZARD_FIRE_SHIELD_RED)
+END
+
+IF
+	HPPercentLT(Myself,25)
+	!HaveSpell(WIZARD_STONE_SKIN)
+	GlobalLT("Cb_ZannasterHealed","LOCALS",3)
+THEN
+	RESPONSE #100
+		ApplySpell(Myself,CLERIC_HEAL)
+		IncrementGlobal("Cb_ZannasterHealed","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_TIME_STOP)
+	Global("Cb_ZannasterTimeStopOne","LOCALS",0)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_TIME_STOP)
+		IncrementGlobal("Cb_ZannasterTimeStopOne","LOCALS",1)
+		Continue()
+END
+
+IF
+	Global("Cb_ZannasterTimeStopOne","LOCALS",1)
+THEN
+	RESPONSE #100
+		IncrementGlobal("Cb_ZannasterTimeStopOne","LOCALS",2)
+		Spell(NearestEnemyOf(Myself),WIZARD_ENERGY_DRAIN)
+		Continue()
+END
+
+IF
+	Global("Cb_ZannasterTimeStopOne","LOCALS",2)
+THEN
+	RESPONSE #100
+		IncrementGlobal("Cb_ZannasterTimeStopOne","LOCALS",3)
+		Spell(NearestEnemyOf(Myself),WIZARD_FINGER_OF_DEATH)
+		Continue()
+END
+
+IF
+	Global("Cb_ZannasterTimeStopOne","LOCALS",3)
+THEN
+	RESPONSE #100
+		IncrementGlobal("Cb_ZannasterTimeStopOne","LOCALS",4)
+		Spell(NearestEnemyOf(Myself),WIZARD_INCENDIARY_CLOUD)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_GREATER_MALISON)
+	Global("Cb_ZannasterTimeStopOne","LOCALS",4)
+THEN
+	RESPONSE #100
+		IncrementGlobal("Cb_ZannasterTimeStopOne","LOCALS",5)
+		Spell(LastSeenBy(Myself),WIZARD_GREATER_MALISON)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	GlobalGT("Cb_ZannasterTimeStopOne","LOCALS",3)
+	Global("Cb_ZannasterTimeStopTwo","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannasterTimeStopTwo","LOCALS",1)
+		Spell(Myself,WIZARD_TIME_STOP)
+END
+
+IF
+	Global("Cb_ZannasterTimeStopTwo","LOCALS",1)
+THEN
+	RESPONSE #100
+		IncrementGlobal("Cb_ZannasterTimeStopTwo","LOCALS",2)
+		Spell(NearestEnemyOf(Myself),WIZARD_MAZE)
+		Continue()
+END
+
+IF
+	Global("Cb_ZannasterTimeStopTwo","LOCALS",2)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannasterTimeStopTwo","LOCALS",3)
+		Spell(SecondNearestEnemyOf(Myself),WIZARD_PRISMATIC_SPRAY)
+		Continue()
+END
+
+IF
+	Global("Cb_ZannasterTimeStopTwo","LOCALS",3)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannasterTimeStopTwo","LOCALS",4)
+		Spell(Myself,WIZARD_SPELL_TURNING)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Cb_ZannasterTimeStopTwo","LOCALS",4)
+	Global("Cb_ZannasterHasNoArmor","LOCALS",0)
+	HaveSpell(WIZARD_MONSTER_SUMMONING_1)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannasterHasNoArmor","LOCALS",1)
+		ApplySpell(Myself,WIZARD_MONSTER_SUMMONING_1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HPPercentLT(Myself,80)
+	HaveSpell(WIZARD_MISLEAD)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_MISLEAD)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HPPercentLT(Myself,60)
+	HaveSpell(WIZARD_PROJECT_IMAGE)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_PROJECT_IMAGE)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HPPercentLT(Myself,40)
+	HaveSpell(WIZARD_SIMULACRUM)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_SIMULACRUM)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!StateCheck(LastSeenBy(Myself),STATE_SLOWED)
+	HPGT(Myself,101)
+	Range(LastSeenBy(Myself),10)
+	HaveSpell(WIZARD_SLOW)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_SLOW)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!StateCheck(LastSeenBy(Myself),STATE_CHARMED)
+	HPGT(Myself,101)
+	Range(LastSeenBy(Myself),10)
+	HaveSpell(WIZARD_DIRE_CHARM)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_DIRE_CHARM)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!StateCheck(LastSeenBy(Myself),STATE_CHARMED)
+	!StateCheck(LastSeenBy(Myself),STATE_STUNNED)
+	HPGT(Myself,101)
+	Range(LastSeenBy(Myself),10)
+	HaveSpell(WIZARD_DOMINATION)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_DOMINATION)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!StateCheck(LastSeenBy(Myself),STATE_PANIC)
+	HPGT(Myself,101)
+	Range(LastSeenBy(Myself),10)
+	HaveSpell(WIZARD_HORROR)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_HORROR)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!StateCheck(LastSeenBy(Myself),STATE_CHARMED)
+	HPGT(Myself,101)
+	Range(LastSeenBy(Myself),10)
+	HaveSpell(WIZARD_DIRE_CHARM)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_DIRE_CHARM)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+	HPGT(Myself,101)
+	Range(LastSeenBy(Myself),10)
+	HaveSpell(WIZARD_OTILUKES_RESILIENT_SPHERE)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_OTILUKES_RESILIENT_SPHERE)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	LevelGT(LastSeenBy(Myself),7)
+	LevelLT(LastSeenBy(Myself),13)
+	HaveSpell(WIZARD_ENERGY_DRAIN)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_ENERGY_DRAIN)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!StateCheck(LastSeenBy(Myself),STATE_FEEBLEMINDED)
+	Range(LastSeenBy(Myself),10)
+	HaveSpell(WIZARD_FEEBLEMIND)
+	HaveSpell(WIZARD_MAZE)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_FEEBLEMIND)
+		Spell(LastSeenBy(Myself),WIZARD_MAZE)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(LastSeenBy(Myself),25)
+	HaveSpell(WIZARD_INCENDIARY_CLOUD)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_INCENDIARY_CLOUD)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_ABI_DALZIMS_HORRID_WILTING)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_ABI_DALZIMS_HORRID_WILTING)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HPPercentGT(LastSeenBy(Myself),50)
+	!Range(LastSeenBy(Myself),10)
+	HaveSpell(WIZARD_FIREBALL)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_FIREBALL)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_FINGER_OF_DEATH)
+	Global("Cb_ZannasterCastFingerOfDeath","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannasterCastFingerOfDeath","LOCALS",1)
+		Spell(LastSeenBy(Myself),WIZARD_FINGER_OF_DEATH_IGNORE_RESISTANCE)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_CONE_OF_COLD)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_CONE_OF_COLD)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HPPercentGT(LastSeenBy(Myself),70)
+	HaveSpell(WIZARD_DISINTEGRATE)
+	Global("Cb_ZannCastDisintegrate","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannCastDisintegrate","LOCALS",1)
+		Spell(LastSeenBy(Myself),WIZARD_DISINTEGRATE_IGNORE_RESISTANCE)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_PRISMATIC_SPRAY)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_PRISMATIC_SPRAY)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_MELF_ACID_ARROW)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_MELF_ACID_ARROW)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_MAGIC_MISSILE)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_MAGIC_MISSILE)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_CHROMATIC_ORB)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_CHROMATIC_ORB)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_STINKING_CLOUD)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_STINKING_CLOUD)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_GREASE)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_GREASE)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HitBy([ANYONE],MAGIC)
+	HaveSpell(WIZARD_ABSOLUTE_IMMUNITY)
+	Global("Cb_ZannasterNotImmune","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannasterNotImmune","LOCALS",1)
+		ApplySpell(Myself,WIZARD_ABSOLUTE_IMMUNITY)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HPPercentLT(Myself,90)
+	HaveSpell(WIZARD_IMPROVED_MANTLE)
+	Global("Cb_ZannasterNotMantled","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannasterNotMantled","LOCALS",1)
+		ApplySpell(Myself,WIZARD_IMPROVED_MANTLE)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HPPercentLT(Myself,70)
+	Global("Cb_ZannasterNotProtected","LOCALS",0)
+	HaveSpell(WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannasterNotProtected","LOCALS",1)
+		Spell(Myself,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HPPercentLT(Myself,60)
+	Global("Cb_ZannasterNotMagic","LOCALS",0)
+	HaveSpell(WIZARD_PROTECTION_FROM_MAGIC_ENERGY)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannasterNotMagic","LOCALS",1)
+		Spell(Myself,WIZARD_PROTECTION_FROM_MAGIC_ENERGY)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HPPercentLT(Myself,50)
+	HitBy([ANYONE],CRUSHING)
+	Global("Cb_ZannasterNotNormal","LOCALS",0)
+	HaveSpell(WIZARD_PROTECTION_FROM_NORMAL_WEAPONS)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannasterNotNormal","LOCALS",1)
+		Spell(Myself,WIZARD_PROTECTION_FROM_NORMAL_WEAPONS)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HPPercentLT(Myself,40)
+	Global("Cb_ZannasterNoGlobe","LOCALS",0)
+	HaveSpell(WIZARD_MINOR_GLOBE_OF_INVULNERABILITY)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannasterNoGlobe","LOCALS",1)
+		Spell(Myself,WIZARD_MINOR_GLOBE_OF_INVULNERABILITY)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HPPercentLT(Myself,20)
+	Global("Cb_ZannasterNoTurning","LOCALS",0)
+	HaveSpell(WIZARD_SPELL_TURNING)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannasterNoTurning","LOCALS",1)
+		Spell(Myself,WIZARD_SPELL_TURNING)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),12)
+END
+
+IF
+	!See(NearestEnemyOf(Myself))
+	!Detect([GOODCUTOFF])
+THEN
+	RESPONSE #100
+		Rest()
+		SetGlobal("Cb_ZannasterHasNoArmor","LOCALS",0)
+		SetGlobal("Cb_ZannasterTimeStopOne","LOCALS",0)
+		SetGlobal("Cb_ZannasterTimeStopTwo","LOCALS",0)
+		SetGlobal("Cb_ZannasterHealed","LOCALS",0)
+		SetGlobal("Cb_ZannasterNotImmune","LOCALS",0)
+		SetGlobal("Cb_ZannasterNotMantled","LOCALS",0)
+		SetGlobal("Cb_ZannasterNotProtected","LOCALS",0)
+		SetGlobal("Cb_ZannasterNotMagic","LOCALS",0)
+		SetGlobal("Cb_ZannasterNotNormal","LOCALS",0)
+		SetGlobal("Cb_ZannasterNoGlobe","LOCALS",0)
+		SetGlobal("Cb_ZannasterNoTurning","LOCALS",0)
+END
+
+

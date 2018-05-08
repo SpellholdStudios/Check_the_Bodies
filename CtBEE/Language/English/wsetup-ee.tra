@@ -1,0 +1,1846 @@
+@650006 = ~This mighty weapon consists of a four- to five-feet haft with a very heavy blade.  The axe may be double-bitted, with blades on both sides of the haft, or it may only have a single blade.  It is an unwieldy weapon, but a skilled warrior can strike blows of tremendous strength with it.  Dwarven runes have been etched into the giant blade to further enhance the axe.
+
+STATISTICS:
+
+Damage: 1d10 + 3
+THAC0: +3
+Equiping Bonuses:
+  +10% Magic Resistance
+  +10% Slashing Resistance
+  +10% Piercing Resistance
+  +10% Crushing Resistance
+  +10% Missile Resistance
+  +2 Bonus to all saving throws
+Damage Type: Slashing
+Weight: 10
+Speed Factor: 9
+Proficiency Type: Axe
+Type: Two-Handed
+Requires: 10 Strength~
+@650008 = ~This two handed sword is quite a prize.  It is an enchanted weapon, awarding a +3 to hit and to damage.  Aside from the sharpness and balance of the weapon, the sword also confers magical bonuses to the user.  Anyone equiping Furcolo gains a 35% bonus to their magic resistance, as well as being completely immune to undead beings.  The sword is an intelligent entity, and can cast Absolute Immunity upon it's weilder once per day.
+
+STATISTICS:
+
+Damage:  1D10 + 3
+Specials:
+   Can cast Absolute Immunity once per day
+   35% Magic Resistance bonus
+   Immune to Undead
+Damage type:  slashing
+Weight: 15
+Speed Factor: 10
+Proficiency Type: Two Handed sword
+Type:  2-handed
+Requires: 14 Strength~
+@650014 = ~Borage is an adrenaline restorative.  When the roots of the wild weed are chewed, the potentcy of the plant awards a person a +2 to hit bonus, a +2 to damage bonus, and a -2 to AC bonus.  While the adrenaline rush is in effect, normally about 60 seconds, the individual who has chewed the weed is immune to charm, hold, fear, Maze and Imprisonment, stun, and sleep.  The person who took the herb also gains a temporary bonus of 15 hit points, which could possibly kill the character at the end of the adrenaline rush.  After the rush is over, for a brief period the person becomes slightly fatigued with a -2 to hit penalty, a -2 damage penalty, and a +2 penalty to AC.
+
+STATISTICS:
+
+Weight: 1 pound~
+@650016 = ~Echinacea is a poison cure.  Upon imbibing the herbs, it will removes all toxins from the body, both natural and magical in nature.  When this herb is eaten by a poisoned individual, it immediately neutralizes any poison and restores 10 lost hit points.
+
+STATISTICS:
+
+Weight: 1 pound~
+@650018 = ~Chaparral relieves arthritis.  By drinking the tonic, it will act like the spell free action when consumed.  The herb makes the user become completely immune to any effects which hinder action or movement whether it is magical in origin or not.  The duration of the herbs effect is 10 turns.
+
+STATISTICS:
+
+Weight: 1 pound~
+@650020 = ~Yarrow helps to stop bleeding.  By placing the flowering herb over one's wounds, blood will clot faster and stop any abrasions, lacerations, or penetrations from causing further blood loss.  It will not however allow the user to regenerate or heal faster.  It also will not protect the user from future harm due to similar cuts.
+
+STATISTICS:
+
+Weight: 1 pound~
+@650022 = ~Calendula soothes burns.  By mixing the freshly crushed calendula berries with small amounts of water and making a thick paste to apply over the skin, one can protect from fire.  These berries will award a temporary, 1 hour- fire resistance bonus of 25% per use.
+
+STATISTICS:
+
+Weight: 1 pound~
+@650024 = ~Stillingia helps laryngitis.  The entire herb, which is grown only in the fall in northern Sembia, is very rare but can still give a spellcaster an enormous bonus as each plant will allow for vocalization, as per the spell Vocalize, for a period of one day.
+
+STATISTICS:
+
+Weight: 1 pound~
+@650026 = ~Alfalfa is an excellent source of many nourishing vitamins.  Taking regular doses of the herb can provide the body with nutrients needed to be physically able.  Alfalfa will increase one's strength, constitution, and dexerity by one point per day it is used.
+
+STATISTICS:
+
+Weight: 1 pound~
+@650028 = ~Golden Rod is useful for the cleaning and healing of wounds.  By mixing the fungus with other natural herbs into a paste-like cream, the golden rod plant's leaves and flowers can be used to increase one's hit points by 12, but will not prevent further injury to the user.
+
+STATISTICS:
+
+Weight: 1 pound~
+@650030 = ~Nettle can be used for improving eyesight.  By chewing the plant, one's failing vision - either from cloud-eye or Glitterdust magicks - can be restored to it's natural function.
+
+STATISTICS:
+
+Weight: 1 pound~
+@650032 = ~Red Raspberry can be used to increase the heart and provides stimulation to the body.  It provides a temporary boost to energy levels.  By taking a number of berries as food, one's speed can be increased slightly as well as the number of attacks doubled.
+
+STATISTICS:
+
+Weight: 1 pound~
+@650034 = ~The natural alcohol in Bugle Weed extract has one simple effect:  it intoxicates a person substantially for a period of about eight hours.
+
+STATISTICS:
+
+Weight: 1 pound~
+@650036 = ~The berries from Juniper, as well as the extracts from the leaves, can be harvested from the wild to cause the person taking the juice to hallucinate, having wild fears and perceive dangers that may not truly exist.
+
+STATISTICS:
+
+Weight: 1 pound~
+@650040 = ~Red Root Usnea helps with breathing problems.  By using this wild herb, one's sinuses can be purged of any harmful toxins or natural odors or particles.
+
+STATISTICS:
+
+Weight: 1 pound~
+@650042 = ~The extract from Hops can help cure restlessness.  The energy boost the herb provides nullifies the need for sleep in the user.  However, it is only a temporary boost, and should not be used without the proper consultation with an apothecary.
+
+STATISTICS:
+
+Weight: 1 pound~
+@650044 = ~Gotu Kola increases mental and physical alertness.  The benefits this purplish flowering herb gives to a person are well worth the price of such a rare herb.  When taken properly, Gotu Kola will decrease the user's AC by 6 and add 3 to all saving throws.  Also, Gotu Kola will allow the person eating the herbs to move at a greater rate and dodge normal missiles.
+
+STATISTICS:
+
+Weight: 1 pound~
+@650046 = ~Coltsfoot is a fairly common herb found in most grassland temperate areas of Faerûn.  It is also produces very poisonous seeds, sought after by many thieves and assassins.  Coltsfoot seeds can cause 2 hit points of poison damage to whomever ingests the herb, which has nearly no taste, making it a popular form of food poisonings.
+
+STATISTICS:
+
+Weight: 1 pound~
+@650112 = ~The light but durable scales of the Blue Dragon provide excellent protection against weapons and all forms of electricity.
+
+STATISTICS:
+
+Armor Class: -1
+  +90% resistance to all lightning and electrical attacks
+Weight: 20
+Requires: 15 Strength~
+@650113 = ~The light but durable scales of Darammareth S'ooloun Crommadar Ammanth Kuleera, known as Velvetfoot, provides better protection against weapons and all forms of electricity than normal Blue Dragon Scale Armor.
+
+STATISTICS:
+
+Armor Class: -2
+  100% resistance to all lightning and electrical attacks
+Weight: 17
+Requires: 12 Strength~
+
+@650248 = ~This pair of gauntlets was likely developed in ancient Netheril to aid masters of the magical arts.  Legends speak of such masters from the past being able to cast spells in quick succession, though details remain sketchy.
+
+STATISTICS:
+
+Spell casting speed lowered by 2
+
+Weight: 2~
+@650251 = ~The broadsword is a combination of the long sword with the strength and effectiveness of a Two-Handed Sword.  Weaponsmiths have always looked for ways to improve existing weapons.  In an effort to improve the long sword, the blade was lengthened.  Eventually, the handle had to be extended and two hands became necessary to properly swing the sword.
+
+STATISTICS:
+
+Damage:  1D12
+Damage type:  slashing
+Weight: 12
+Speed Factor: 8
+Proficiency Type: Two-Handed Swords
+Type:  Two-Handed
+Requires: 9 Strength~
+@650252 = ~The broadsword is a combination of the long sword with the strength and effectiveness of a Two-Handed Sword.  Weaponsmiths have always looked for ways to improve existing weapons.  In an effort to improve the long sword, the blade was lengthened.  Eventually, the handle had to be extended and two hands became necessary to properly swing the sword.
+
+STATISTICS:
+
+Damage: 1D12 + 2, double damage against dragons
+THAC0: +2 Bonus
+Damage type:  slashing
+Weight: 12
+Speed Factor: 8
+Proficiency Type: Long Swords
+Type:  Two-Handed
+Requires: 9 Strength~
+@650256 = ~Chain mail is made of interlocking metal rings.  It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.  Extra protection is given by magical enchantments placed on this armor.
+
+STATISTICS:
+
+Armor Class: 1
+Weight: 10
+Requires: 8 Strength~
+@650260 = ~Cloak of Protection +3:  'The Spirit's Shield'
+
+This cloak is said to focus the energies of one's spirit into a force that protects him or her.  Rumors of a vampire enslaved in the magical item are ever-present, but they are impossible to prove without destroying the cloak.
+
+STATISTICS:
+
+Armor Class:  +3 bonus
+Saving Throw:  +3 bonus
+Weight:  3~
+@650262 = ~This gruesome collection of human and demi-human scalps sewn onto a heavy fabric makes any warrior, thief, or other class an imposing figure.  While it does not award any special bonuses to the wearer, it will make the person who wears this cloak less likable to others, as appearance of a figure makes a lasting impression.
+
+STATISTICS:
+
+Reputation Penalty each time donned: -1
+Charisma Penalty while worn: -1
+Weight: 4
+Requires: 3 Strength~
+@650264 = ~The Ring of Dragons is a powerful and ancient artifact, with a rich and detailed history.  Sages and scholars throughout the Realms have spent hundreds of hours cataloging the history of this Ring, yet even still, not all is known about it.
+
+However, the singular power of this ring is well known to many.  This ring allows the user to control dragons.
+
+By activating the Ring, the wearer can summon a dragon to his or her aid.  The specific species of dragon varies, but will most likely be of non-metallic type (read as "evil").  The Ring can only be used a limited number of times, and there is no telling how many charges remain in this artifact.
+
+Statistics:
+
+  Summons a dragon (Red, Black, Green, or Yellow) to the aid of the caller~
+@650272 = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length.  High quality quarterstaves are made of stout oak and are shod with metal at both ends.  The quarterstaff must be wielded with both hands.
+
+Although this does indeed look like a normal quarterstaff, it has a few minor magical properties.  First, it does an additional bonus of 1d4 crushing damage upon a successful hit against the wielders target.  Second, equiping this quarterstaff automatically blurs it's user to a point where it becomes slightly more difficult for enemies or allies to see the wielder.  Third, the staff has the ability to make its wielder invisible three times per day.  The staff recharges itself automatically after a certain amount of time has passed.
+
+STATISTICS:
+
+Damage:  1D6 + 1d4
+Special:
+  Blurs User while Equipped
+  Casts Invisibility on user three times per day
+Damage type:  crushing
+Weight: 4
+Speed Factor: 4
+Proficiency Type: Staff
+Type:  2-handed
+Requires: 5 Strength~
+@650276 = ~The typical throwing dagger has a pointed, usually double-edged blade, as opposed to a knife, which has a single edge and is a bit shorter than the dagger.  Unlike a dagger, this one has a smaller handle and is balanced perfectly.  A thin coating of heavy magic has been applied to each of these  throwing daggers, making it a lethal tool against mages in the hands of trained assassins.
+
+STATISTICS:
+
+Damage:  1D4
+Special:
+  Dispels magical protection upon successful hit
+Damage type:   missile (piercing)
+Weight: 1
+Speed Factor: 2
+Proficiency Type: Dagger
+Type:  1-handed
+Requires: 3 Strength~
+
+@650277 = ~This dagger is quite a prize.  It is an enchanted weapon, awarding a +3 to hit and to damage.  Aside from the sharpness and balance of the weapon, the dagger also confers magical bonuses to the user.  Anyone equiping Furcolo gains a 35% bonus to their magic resistance, as well as being completely immune to undead beings.  The dagger is an intelligent entity, and can cast Absolute Immunity upon it's weilder once per day.
+
+STATISTICS:
+
+Damage:  1D4 + 3
+THAC0:  +3
+Damage type:  piercing
+Specials:
+  Can cast Absolute Immunity once per day
+  35% Magic Resistance bonus
+  Immune to Undead
+Weight: 1
+Speed Factor: 0
+Proficiency Type: Dagger
+Type:  1-handed
+Requires: 3 Strength~
+@650279 = ~While using this enchanted dagger, one is protected from normal, non-magical missiles.  The dagger itself has a +1 THAC0 bonus and can be used by anyone who can normally wield a dagger.
+
+STATISTICS:
+
+Damage:  1D4 + 1
+THAC0:  +1
+Special:
+  Protection From Normal Missiles while equiped
+Damage Type: Piercing
+Weight: 1
+Speed Factor: 1
+Proficiency Type: Dagger
+Type: 1 Handed
+Requires: 3 Strength~
+@650285 = ~Dancing Long Sword +3:  Most Druids are unable to use edged weapons.  This sword is an exception.  This magical sword not only gives bonuses to hit and damage, but can cast Heal, Dispel Magic, and Detect Traps per the Priest Spells as if the weilder were a 3rd level Druid.
+
+This sentient sword also is intelligent.  Its alignment is Neutral Good, and has an ego of 8.  It is also intelligent (INT 15) speaking both common and its alignment's language.
+
+STATISTICS:
+
+Damage:  1D8 + 3
+THAC0:  +3 bonus
+Special:
+  Can cast Detect Traps, Dispel Magic, Heal 3 times per day
+Dancing:
+  By "freeing" the sword, it can be wielded telepathically for one half hour per day.  It will do the same damage AND the weilder can still hold the physical sword while wielding the sword's sentience telepathically.
+
+Damage type:  slashing
+Weight: 3
+Speed Factor: 3
+Proficiency Type: Long Sword
+Type:  1-handed
+Requires: 
+  17 Strength
+  16 Wisdom~
+@650289 = ~The history of this weapon is not known.  It was given to you by a trio of Fighter-Druids that you met in a small grove south of Baldur's Gate.  The Druids desired it to be repaired.  You did so, and are to bring the staff to them in the woodland grove north of Amn.  This particular staff gives its user a bonus to his armor class, allows the wielder to use the blade with mastery of the quarterstaff proficiency, as well as provides a number of specific resistances to damage types: Poison, Fire, Cold, Acid, and Electrical.
+
+STATISTICS:
+
+Damage:  2D8 + 5
+THAC0:  +5
+Special:
+  +2 bonus to Armor Class
+  +4 stars to Quarterstaff Proficiency
+  25% Fire Resistance
+  25% Cold Resistance
+  25% Acid Resistance
+  25% Poison Resistance
+  25% Electrical Resistance
+Damage type:  crushing
+Weight: 7
+Speed Factor: 3
+Proficiency Type:  Quarterstaff
+Type: Two-Handed
+Requires: 5 Strength~
+
+@650290 = ~The history of this weapon is not known.  It was given to you by a trio of Fighter-Druids that you met in a small grove south of Baldur's Gate.  The Druids desired it to be repaired.  You did so, and they presented you with the staff greatly improved over its original state.  This particular staff gives its user a bonus to his armor class, allows the wielder to use the blade with mastery of the quarterstaff proficiency, as well as provides a number of specific resistances to damage types: Poison, Fire, Cold, Acid, and Electrical.
+
+STATISTICS:
+
+Damage:  2D8 + 5
+THAC0:  +5
+Special:
+  +4 bonus to Armor Class
+  +5 stars to Quarterstaff Proficiency
+  50% Fire Resistance
+  50% Cold Resistance
+  50% Acid Resistance
+  50% Poison Resistance
+  50% Electrical Resistance
+Damage type:  crushing
+Weight: 7
+Speed Factor: 3
+Proficiency Type:  Quarterstaff
+Type: Two-Handed
+Requires: 5 Strength~
+
+@650300 = ~This potent weapon was created by the smiths of ancient Myth Drannor.  Moonblades are used in the long process of selecting a ruler for the isle of Evermeet.  A Moonblade chooses its owner.  Only an elf can use this blade; anyone else attempting to unsheath it will find themselves horribly burned, possibly resulting in death. This particular Moonblade gives its user a bonus to his armor class, allows the wielder to use the blade with mastery of the sword proficiency, as well as provides a number of specific resistances to damage types: Poison, Fire, Cold, Acid, and Electrical.
+
+STATISTICS:
+
+Damage:  1D10 + 4
+THAC0:  +4
+Special:
+  +2 bonus to Armor Class
+  +4 stars to Long Sword Proficiency
+  25% Fire Resistance
+  25% Cold Resistance
+  25% Acid Resistance
+  25% Poison Resistance
+  25% Electrical Resistance
+Damage type:  slashing
+Weight: 3
+Speed Factor: 4
+Proficiency Type:  Long Sword
+Type:  1-handed~
+@650304 = ~This Ioun stone glows with a dark blue tint, hinting at breaking waves upon the ocean.  This Sea Blue ioun stone will grant the wearer the ability to dispel Refected Image, Invisibility, Mirror Image, Non-detection, Improved Invisibility, Shadow Door, Mislead, Project Image, and Simulacrum at will.
+
+Abilities: True Sight at Will 
+Armor Class Bonus: None 
+Weight: 2~
+@650308 = ~The abilities conferred by this powerfully enchanted cloak attest to the fact that protection can take many forms - including hiding from view and running away.
+
+STATISTICS:
+
+Armor Class:  +2 bonus
+Saving Throw:  +2 bonus
+Special:
+ Cast Improved Haste once/day
+ Cast Improved Invisibility once/day
+Weight:  3~
+@650343 = ~This mighty weapon consists of a four to five foot haft with a very heavy blade.  The axe may be double bitted, with blades on both sides of the haft, or it may only have a single blade.  It is an unwieldy wapon, but a skilled warrior can strike blows of tremendous strength with it.  Dwarven runes have been etched into the giant blade to further enhance the axe.
+
+STATISTICS:
+
+Damage:  2D12 + 5
+THAC0 Bonus: +5
+Enchantment: +5
+Special:
+  Flaming Burst:  +2d6 fire damage and 25% chance of +2d10 extra fire damage
+Damage type:  slashing
+Weight: 30
+Speed Factor: 9
+Proficiency Type: Axe
+Type:  2-handed
+Requires: 17 Strength~
+@650345 = ~This mighty weapon consists of a four to five foot haft with a very heavy blade.  The axe may be double bitted, with blades on both sides of the haft, or it may only have a single blade.  It is an unwieldy wapon, but a skilled warrior can strike blows of tremendous strength with it.  Dwarven runes have been etched into the giant blade to further enhance the axe.
+
+STATISTICS:
+
+Damage:  2D12 + 4
+THAC0 Bonus: +4
+Enchantment: +4
+Special:
+  Flaming Burst:  +1d6 fire damage and 10% chance of +1d10 extra fire damage
+Damage type:  slashing
+Weight: 25
+Speed Factor: 9
+Proficiency Type: Axe
+Type:  2-handed
+Requires: 16 Strength~
+@650354 = ~This long sword is quite a prize.  It is an enchanted weapon, awarding a +3 to hit and to damage.  Aside from the sharpness and balance of the weapon, the sword also confers magical bonuses to the user.  Anyone equiping Furcolo gains a 35% bonus to their magic resistance, as well as being completely immune to undead beings.  The sword is an intelligent entity, and can cast Absolute Immunity upon it's weilder once per day.
+
+STATISTICS:
+
+Damage:  1D10 + 3
+Damage type:  slashing
+Specials:
+  Can cast Absolute Immunity once per day
+  35% Magic Resistance bonus
+  Immune to Undead
+Weight: 4
+Speed Factor: 5
+Proficiency Type: Long Sword
+Type:  1-handed
+Requires: 6 Strength~
+@650364 = ~This is a spiraling staff with silver inlay and topped with a large piece of amber, the Staff of Eyes allows the use of the following spells once per day:
+ Wizard Eye
+ Cure Disease
+ True Sight
+
+STATISTICS:
+
+Damage:  1D6 + 1
+Damage type:  crushing
+Weight: 4
+Speed Factor: 4
+Proficiency Type: Quarterstaff
+Type:  2-handed
+Requires: 5 Strength~
+@650366 = ~Several of these necklaces of magically hardened and preserved ice were created by a half-mad sorcerer who wandered amoung the Ulutiun tribes of the Great Glacier.  Two of the acorn-sized ice crystals are obaque, four are transparent.  
+
+The wearer can detach a crystal and hurl it up to 80 feet before it melted down in his hands after 1 turn.  When the crystal reaches the end of its trajectory, it explodes in an Ice Storm.
+
+To use it properly the wearer must be proficient with Slings and have a free ammo slot.
+
+STATISTICS:
+
+Has 6 ice crystals~
+@650369 = ~These devices were made in Netheril.  A new Blast Scepter has 50 charges when created, but most are hundreds of years old and usually have only 1-10 charges when found.  
+
+A Blast Scepter is self-identifing and has the following powers:
+ - the user is immune to fire and lightning while holding the scepter
+ - the user cannot be knocked down or moved by a blast or detonation while holding the scepter.  The user takes half damage from any blast, such as a Horn of Blasting, Smokepowder detonation, or the blast power from another Blast Scepter (one-quarter with a successful saving throw)
+ - the user can stun a target by making a melee touch attack with the scepter.  The creature can avoid being stunned with a successful save versus wands, but is stunned for 1d4 rounds if the save fails (this power drains 1 charge)
+ - the user can blast opponents with a soundless wave of force in a cone 30 feet long.  Targes automatically take 2d6 points of damage and must make a save versus wands or be knocked off their feet (this power drains 2 charges)
+ - the user can powerstrike any creature or object with a melee touch attack.  The touch deals 10d6 points of damage, a Wand Save reduces this by half (this power drains 4 charges)
+
+STATISTICS:
+
+Special Abilities:
+  Immunity to Fire/Lightning
+  Protection from Wing Buffet
+  Blast Wave
+  Powerstrike
+Weight: 6
+Proficiencey Type: Club~
+@650380 = ~A magical shield of unknown origins.  Well constructed materials and enchantments make this a simple yet effective form of defense.
+
+STATISTICS:
+
+Armor Class Bonus: 4
+Special: +2 vs. Missile Weapons
+Weight: 10
+Requires: 10 Strength~
+@650387 = ~The Moon Amulet is of Elven make.  It is a natural supplement to the Elven state of reverie, enabling an Elf to resist the effects of sleep.  Reverie occurs normally for Elves as a daily cylce, similar to that of sleep for humans or other animals, though with Elves Reverie is more of a communal state where they mediatate for a few hours, regenerating the body and soul, but are completely aware of their surroundings and the occurances which are happening around them.
+
+This amulet, when worn by any elf or non-elf, can delay the effects of fatigue and mind altering magical effects such as forms of charm or mind control.  The amulet will not, however, restore any spells cast for those must be memorized normally during a rest period.  Also, wounds must also be healed during rest for the state of reverie only provides minimal regeneration to the physical body.
+
+STATISTICS:
+
+Special:  
+  Protection from Unconsciousness
+  Protection from Charm
+  Delays Fatigue (varies based on Constitution)
+  Regenerates 1 HP per hour~
+@650389 = ~This potent weapon was created by the smiths of ancient Myth Drannor.  Moonblades are used in the long process of selecting a ruler for the isle of Evermeet.  This Moonblade was granted to <CHARNAME> by a trio of Elven Elders deep in the Forest of Tethyr, and has accepted <CHARNAME> as its wielder.  Only the one that the Moonblade has chosen can use this blade; anyone else attempting to unsheath it will find themselves horribly burned, possibly resulting in death. This particular Moonblade gives its user a bonus to his armor class, allows the wielder to use the blade with mastery of the sword proficiency, as well as provides a number of specific resistances to damage types: Poison, Fire, Cold, Acid, and Electrical.
+
+STATISTICS:
+
+Damage:  2D8 + 5
+Bonus to hit:  5
+Special:
+  +4 bonus to Armor Class
+  +5 stars to Long Sword Proficiency
+  50% Fire Resistance
+  50% Cold Resistance
+  50% Acid Resistance
+  50% Poison Resistance
+  50% Electrical Resistance
+Damage type:  slashing
+Weight: 3
+Speed Factor: 3
+Proficiency Type:  Long Sword
+Type:  1-handed~
+
+@650390 = ~This potent weapon was created by the smiths of ancient Myth Drannor.  Moonblades are used in the long process of selecting a ruler for the isle of Evermeet.  This Moonblade was granted to <PLAYER2> by a trio of Elven Elders deep in the Forest of Tethyr, and has accepted <PLAYER2> as its wielder.  Only the one that the Moonblade has chosen can use this blade; anyone else attempting to unsheath it will find themselves horribly burned, possibly resulting in death. This particular Moonblade gives its user a bonus to his armor class, allows the wielder to use the blade with mastery of the sword proficiency, as well as provides a number of specific resistances to damage types: Poison, Fire, Cold, Acid, and Electrical.
+
+STATISTICS:
+
+Damage:  2D8 + 5
+Bonus to hit:  5
+Special:
+  +4 bonus to Armor Class
+  +5 stars to Long Sword Proficiency
+  50% Fire Resistance
+  50% Cold Resistance
+  50% Acid Resistance
+  50% Poison Resistance
+  50% Electrical Resistance
+Weight: 3
+Speed Factor: 3
+Proficiency Type:  Long Sword
+Type:  1-handed
+Damage type:  slashing~
+
+@650391 = ~This potent weapon was created by the smiths of ancient Myth Drannor.  Moonblades are used in the long process of selecting a ruler for the isle of Evermeet.  This Moonblade was granted to <PLAYER3> by a trio of Elven Elders deep in the Forest of Tethyr, and has accepted <PLAYER3> as its wielder.  Only the one that the Moonblade has chosen can use this blade; anyone else attempting to unsheath it will find themselves horribly burned, possibly resulting in death. This particular Moonblade gives its user a bonus to his armor class, allows the wielder to use the blade with mastery of the sword proficiency, as well as provides a number of specific resistances to damage types: Poison, Fire, Cold, Acid, and Electrical.
+
+STATISTICS:
+
+Damage:  2D8 + 5
+Bonus to hit:  5
+Special:
+  +4 bonus to Armor Class
+  +5 stars to Long Sword Proficiency
+  50% Fire Resistance
+  50% Cold Resistance
+  50% Acid Resistance
+  50% Poison Resistance
+  50% Electrical Resistance
+Damage type:  slashing
+Weight: 3
+Speed Factor: 3
+Proficiency Type:  Long Sword
+Type:  1-handed~
+
+@650392 = ~This potent weapon was created by the smiths of ancient Myth Drannor.  Moonblades are used in the long process of selecting a ruler for the isle of Evermeet.  This Moonblade was granted to <PLAYER4> by a trio of Elven Elders deep in the Forest of Tethyr, and has accepted <PLAYER4> as its wielder.  Only the one that the Moonblade has chosen can use this blade; anyone else attempting to unsheath it will find themselves horribly burned, possibly resulting in death. This particular Moonblade gives its user a bonus to his armor class, allows the wielder to use the blade with mastery of the sword proficiency, as well as provides a number of specific resistances to damage types: Poison, Fire, Cold, Acid, and Electrical.
+
+STATISTICS:
+
+Damage:  2D8 + 5
+Bonus to hit:  5
+Special:
+  +4 bonus to Armor Class
+  +5 stars to Long Sword Proficiency
+  50% Fire Resistance
+  50% Cold Resistance
+  50% Acid Resistance
+  50% Poison Resistance
+  50% Electrical Resistance
+Damage type:  slashing
+Weight: 3
+Speed Factor: 3
+Proficiency Type:  Long Sword
+Type:  1-handed~
+
+@650393 = ~This potent weapon was created by the smiths of ancient Myth Drannor.  Moonblades are used in the long process of selecting a ruler for the isle of Evermeet.  This Moonblade was granted to <PLAYER5> by a trio of Elven Elders deep in the Forest of Tethyr, and has accepted <PLAYER5> as its wielder.  Only the one that the Moonblade has chosen can use this blade; anyone else attempting to unsheath it will find themselves horribly burned, possibly resulting in death. This particular Moonblade gives its user a bonus to his armor class, allows the wielder to use the blade with mastery of the sword proficiency, as well as provides a number of specific resistances to damage types: Poison, Fire, Cold, Acid, and Electrical.
+
+STATISTICS:
+
+Damage:  2D8 + 5
+Bonus to hit:  5
+Special:
+  +4 bonus to Armor Class
+  +5 stars to Long Sword Proficiency
+  50% Fire Resistance
+  50% Cold Resistance
+  50% Acid Resistance
+  50% Poison Resistance
+  50% Electrical Resistance
+Damage type:  slashing
+Weight: 3
+Speed Factor: 3
+Proficiency Type:  Long Sword
+Type:  1-handed~
+
+@650394 = ~This potent weapon was created by the smiths of ancient Myth Drannor.  Moonblades are used in the long process of selecting a ruler for the isle of Evermeet.  This Moonblade was granted to <PLAYER6> by a trio of Elven Elders deep in the Forest of Tethyr, and has accepted <PLAYER6> as its wielder.  Only the one that the Moonblade has chosen can use this blade; anyone else attempting to unsheath it will find themselves horribly burned, possibly resulting in death. This particular Moonblade gives its user a bonus to his armor class, allows the wielder to use the blade with mastery of the sword proficiency, as well as provides a number of specific resistances to damage types: Poison, Fire, Cold, Acid, and Electrical.
+
+STATISTICS:
+
+Damage:  2D8 + 5
+Bonus to hit:  5
+Special:
+  +4 bonus to Armor Class
+  +5 stars to Long Sword Proficiency
+  50% Fire Resistance
+  50% Cold Resistance
+  50% Acid Resistance
+  50% Poison Resistance
+  50% Electrical Resistance
+Damage type:  slashing
+Weight: 3
+Speed Factor: 3
+Proficiency Type:  Long Sword
+Type:  1-handed~
+
+@650395 = ~This morning star is quite a prize.  It is an enchanted weapon, awarding a +3 to hit and to damage.  Aside from the sharpness and balance of the weapon, the morning star also confers magical bonuses to the user.  Anyone equiping Furcolo gains a 35% bonus to their magic resistance, as well as being completely immune to undead beings.  The morning star is an intelligent entity, and can cast Absolute Immunity upon it's weilder once per day.
+
+STATISTICS:
+
+Damage:  2D4 + 3
+Specials:
+  Can cast Absolute Immunity once per day
+  35% Magic Resistance bonus
+  Immune to Undead
+Damage type:  crushing
+Weight: 8
+Speed Factor: 4
+Proficiency Type: Flail/Morningstar
+Type:  1-handed
+Requires: 11 Strength~
+
+@7650398 = ~The most common version of the battle axe is a stout pole about four feet in length with a single-edged, trumpet-shaped blade mounted on one end.  Battle axes are also called broad axes.
+
+STATISTICS:
+
+Damage:  1D8
+THAC0:  +1 bonus
+Damage type:  slashing
+Weight: 7
+Speed Factor: 7
+Proficiency Type: Axe
+Type:  1-handed
+Requires: 10 Strength~
+@7650399 = ~Composite bows are long bows or short bows whose staves are made from more than one type of material.  This gives greater flexibility and makes arrows fired from this bow deliver more damage.  To wield such a powerful bow requires a strength of 18.
+
+STATISTICS:
+
+THAC0:  +2 bonus
+Damage:  +1
+Weight: 10
+Speed Factor: 7
+Proficiency Type: Longbow
+Type:  2-handed
+Requires: 18 Strength~
+@7650400 = ~The long bow is similar to the short bow, except that the staff is about as high as the archer is, usually 6 to 6.5 feet.  It has two advantages over the short bow: better range and hence, it is much more accurate.  
+
+STATISTICS:
+
+THAC0:  +2 bonus
+Weight: 3
+Speed Factor: 7
+Proficiency Type: Long Bow
+Type:  2-handed
+Requires: 6 Strength~
+@7650401 = ~Short bows were the first to be developed, although they were not called such.  This is more of a default term that refers to anything which is not a long bow.  Short bow staves are about 5 feet long on the average.  As the years passed, attempts were made to increase bow ranges.  Bows were either given longer staves or flexibility was increased with no change to the length.  The former resulted in what is now called the long bow.  
+
+STATISTICS:
+
+THAC0:  +1 bonus
+Weight: 2
+Speed Factor: 6
+Proficiency Type: Short Bow
+Type:  2-handed
+Requires: 3 Strength~
+@650403 = ~Drakkas Ranul was an outcast Moon Elf with a huge chip on his shoulder.  At a very young age, Drakkas was kidnapped by a Drow raiding party and brought up by the Drow to be a pit fighter.  At first he fought his fellow kidnap victims in the pits.  However, over time, his fellow abductees died from their wounds and poor treatment, thus leaving Drakkas alone to eventually fight monsters of the Drow's choosing.  Drakkas persevered, fueled by his ever-growing hatred for his captors, the hopes of one day escaping and then taking revenge on his kidnappers.
+
+One day Drakkas got his wish - he was able to escape by stealing his jail cells keys from his lazy night guard, and then stealthfully slipping out into the unforgiving Underdark.  He managed to steal a couple of scimitars on his way out, whichy he put to good use while while circumventing the twisted corridors of the Underdark.  When he emerged on the surface, he immediately sought out his Moon Elf kin.
+
+Unfortunately, when he found his kin, they ostracized him due to his horrendous battle scars.  Embittered and outcast, he made it his mission in life to exact the most painful revenge possible on his kidnappers.  Drakkas diligently trained in the dark magics, and continued his formidable weapons training as well.  When he got to the point where he felt he was ready, he began to sell his services as a mercenary to earn coin and buy better equipment. One thing in particular he eventually wanted was lightweight chain mail to actually enhance his fighting ablities.  Luck was with him the day he found a Dwarven armorsmith who could accommodate Drakkas' needs.  It was not long after until the armor was finished and Drakkas was ready for his mission of revenge.
+
+Drakkas disappeared from the people who knew him and utilized his mercenary services, and ventured into the depths of the Underdark, where he never heard from again.  However, his special armor did somehow make it out of the Underdark.  No one knows how, but speculation has it that the return of Drakkas' chain mail to the surface world was a subtle message from the Drow.  The message, of course, was left to the imagination of the interpreter.
+
+STATISTICS:
+
+Armor Class Bonus: +8
+Max Dexterity Bonus: +1
+Spell Failure Bonus: 10%
+Special:
+  Spellcasting and Thieving skills can be performed without penalties while wearing Drakkas' chain armor.
+THAC0 Bonus: +3
+Speed:  1 additional attack per round
+Weight: 30 lb.
+Requires: 8 Strength~
+@7650404 = ~Most clubs are stout, hardwood sticks, narrow at the grip and wider at the end.  This simple weapon has been used since mankind first began using tools.  Anyone can find a good stout piece of wood and swing it; hence the club's widespread use.
+
+STATISTICS:
+
+Damage:  1D6
+THAC0:  +1 bonus
+Damage type:  crushing
+Weight: 3
+Speed Factor: 4
+Proficiency Type:  Club
+Type:  1-handed
+Requires: 5 Strength~
+@7650405 = ~The typical dagger has a pointed, usually double-edged blade, as opposed to a knife, which has a single edge and is a bit shorter than the dagger.
+
+STATISTICS:
+
+Damage:  1D4
+THAC0:  +1 bonus
+Damage type:  piercing
+Weight: 1
+Speed Factor: 2
+Proficiency Type: Dagger
+Type:  1-handed
+Requires:  3 Strength~
+@7650406 = ~The dart is a small, easily concealable missile weapon that is thrown rather than fired from a bow or other launcher.
+
+STATISTICS:
+
+Damage:  1D3
+THAC0:  +1 bonus
+Damage type:  missile (piercing)
+Weight: 0
+Speed Factor: 2
+Proficiency Type: Dart
+Type:  1-handed~
+@650408 = ~The typical dagger has a pointed, usually double-edged blade, as opposed to a knife, which has a single edge and is a bit shorter than the dagger.
+
+STATISTICS:
+
+Damage:  1D4 + 4
+THAC0 Bonus: +4
+Enchantment: +4
+Special:
+  Can cast Blur 2/day
+
+Damage type:  piercing
+Weight: 1 lb.
+Speed Factor: 2
+Proficiency Type: Dagger
+Type:  1-handed
+Requires: 3 Strength~
+@7650409 = ~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link.  The weapon was originally used as a tool for threshing grain.  
+
+STATISTICS:
+
+Damage:  1D6 + 1
+THAC0:  +1 bonus
+Damage type:  crushing
+Weight: 15
+Speed Factor: 7
+Proficiency Type: Flail/Morningstar
+Type:  1-handed
+Requires: 13 Strength~
+@7650410 = ~This mighty weapon consists of a haft several feet long, topped with a heavy blade.  The axe may be double-bitted, with blades on both sides of the haft, or it may only have a single blade.  It is an unwieldy weapon, but a skilled warrior can strike blows of tremendous strength with it.
+
+STATISTICS:
+
+Damage:  1D12
+THAC0:  +1 bonus
+Damage type:  slashing
+Weight: 5
+Speed Factor: 9
+Proficiency Type: Axe
+Type:  2-handed
+Requires: 10 Strength~
+@650413 = ~This mighty weapon consists of a four to five foot haft with a very heavy blade.  The axe may be double-bitted, with bladers on both sides of the haft, or it may only have a single blade.  It is an unwieldy weapon, but a skilled warrior can strike blows of tremendous strength with it.  Dwarven runes have been etched into the giant blade to further enhance the axe.
+
+STATISTICS:
+
+Damage: 1d12 + 5
+THAC0 Bonus: +5
+Enchantment: +5
+Special:
+  Target is under the effects of the spell Blindness (Save vs. Spells negates)
+  +2d6 damage against Evil creatures
+Damage Type: Slashing
+Weight: 20 lb.
+Profiency Type: Axe
+Type: Two Handed~
+@7650414 = ~By far the oldest and most often used pole-arm, the halberd consists of a cleaver-like axe blade mounted on a staff averaging six feet in length.  The axe blade is balanced at the rear with a fluke, and surmounted by a sharp spike, usually of quadrangular design.  The fluke is sometimes replaced by a hook used to dismount cavalry.  A halberd can be best described as a cross between a spear and an axe.  
+
+STATISTICS:
+
+Damage:  1D10
+THAC0:  +1 bonus
+Damage type:  piercing
+Weight: 15
+Speed Factor: 9
+Proficiency Type: Halberd
+Type:  2-handed
+Requires: 13 Strength~
+@7650415 = ~Mounted knights cannot effectively use long pole weapons while on horseback, and as a result, many weapons have been fitted with shorter shafts so they may be wielded with just one hand.  Maces and flails are two previous examples of this - the war hammer is another.  The horseman's war hammer is a descendant of the Lucerne hammer.  It is made entirely of steel, with rondels protecting and strengthening the grip.  Rondels are small disks of metal, often shaped into decorative designs.  The shaft is about 18 inches long.'
+
+STATISTICS:
+
+Damage:  1D4 + 1
+THAC0:  +1 bonus
+Damage type:  crushing
+Weight: 6
+Speed Factor: 4
+Proficiency Type: War Hammer
+Type:  1-handed
+Requires: 9 Strength~
+@7650416 = ~The most common version of the battle axe is a stout pole about four feet in length with a single-edged, trumpet-shaped blade mounted on one end.  Battle axes are also called broad axes.
+
+STATISTICS:
+
+Damage:  1D6
+THAC0:  +1 bonus
+Damage type:  slashing
+Weight: 7
+Speed Factor: 7
+Proficiency Type: Axe
+Type:  1-handed
+Requires: 10 Strength~
+@650418 = ~Like others of its type, this halberd consists of a cleaver-like axe blade mounted on a staff approximately six feet in length.  It has also been bestowed with a small number of magical properties, however, thus making it more effective in combat.  Its keen blade, for instance, will shear through your oppent's flesh to find the bone while its barbed tip will seek out gaps in thier armor.
+
+STATISTICS:
+
+Damage: 1d10
+Enchantment: +2
+Special:
+   Unholy: +2d6 damage vs Good creatures
+   Chaotic: +2d6 damage vs Lawful creatures
+   Bane: +2 Attack Bonus vs Elves and +2d6+2 damage vs Elves
+   Vampiric: 1d4 hit points drained from targe and added to wielder (Save vs Spells for none)
+Damage Type: Piercing
+Proficiency Type: Halberd
+Type: Two-Handed
+Weight: 14 lb.
+Requires: 13 Strength~
+@650420 = ~Ancient dwarven legends tell of a time when the noblest of metals was not dwarven steel, nor meteoric iron, nor mithril, but dykhast - an alloy so strong that a blade's edge would never dull with toil or battle, and with a surface so perfect and gleaming that its shimmering surface could be seen a dragon's flight away.  The oldest of dwarves speak of dykhast blades with tears of fond remembrance in thier eyes, and callously spit at the mention of the "sundry weak and piddling" metals that today's arms and armor are fashioned from.
+
+There are rumors, though, of an ancient and secret temple called Chogoh Kyn - it is there, the tales say, that blades of dykhast are still made in the fashion of days long past.  The price may be high, but for the true connoisseur, there is no matching the glory, the perfection, the utter joy... of dykhast.
+
+STATISTICS:
+
+Damage: 1d8 + 6
+THAC0 Bonus: +3
+Enchantment: +3
+Special:
+  5% chance to blind target (Save vs. Poison negates)
+Damage Type: Slashing
+Proficiency Type: Long Sword
+Type: One-handed~
+@7650421 = ~The mace is a direct descendant of the basic club, being nothing more than a wooden shaft with a stone or iron head mounted on the end.  The head design varies; some being spiked, others flanged, and still others have pyramidal knobs.
+
+STATISTICS:
+
+Damage:  1D6 + 1
+THAC0:  +1 bonus
+Damage type:  crushing
+Weight: 8
+Speed Factor: 7
+Proficiency Type: Mace
+Type:  1-handed
+Requires: 10 Strength~
+@7650422 = ~The morning star is a wooden shaft topped with a metal head made up of a spiked iron sheath.  Morning stars have an overall length of about four feet.  Some such weapons have a round, oval, or cylindrical shaped head studded with spikes.  Extending from most morning star heads, regardless of design, is a long point for thrusting.  
+
+STATISTICS:
+
+Damage:  2D4
+THAC0:  +1 bonus
+Damage type:  crushing
+Weight: 12
+Speed Factor: 7
+Proficiency Type: Flail/Morningstar
+Type:  1-handed
+Requires: 11 Strength~
+@650424 = ~Shortbows were the first to be developed, although they were not called such.  this is more of a default term that refers to anything which is not a longbow.  Shortbow staves are about 5' long on the average.  As the years passed, attempts were made to increase bow ranges.  Bows were either given longer staves or flexibility was increased with no change to the length.  The former resulted in what is now called the longbow.
+
+STATISTICS:
+
+Damage: +1 Missile
+THAC0 Bonus: +1
+Special:
+  Hit Points: +15 to maximum hit points when equipped
+  Bonus to AC: +1
+Weight: 2 lb.
+Proficiency type:  Shortbow
+Type: Two-Handed~
+@7650425 = ~The long, curved, single-edged blade is characteristic of both the sabre and the scimitar, even though their origins lie in different parts of Faerun.  Whereas the sabre was intended mainly for horsemen, mainly due to its versatility, the scimitar has a heavier oriental influence.  The "shamshir", as it was originally called, is larger, has a greater curve to it, and is tapered to an elongated, sharp point.  The effect of this is that it is slightly slower but tends to be more effective and deadly in combat.
+
+STATISTICS:
+
+Damage:  1D8
+THAC0:  +1 bonus
+Damage type:  slashing
+Weight: 4
+Speed Factor: 5
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type:  1-handed
+Requires: 10 Strength~
+@7650426 = ~Slings have existed since the beginning of recorded history.  The basic sling consists of a leather or fabric strap with a pouch for holding the missile.  The weapon is held by both ends of the strap and twirled around the wielder's head.  When top speed is attained, the missile is launched by releasing one of the strap's ends.
+
+STATISTICS:
+
+THAC0:  +1 bonus
+Weight: 0
+Speed Factor: 6
+Proficiency Type: Sling
+Type:  1-handed
+Requires: 3 Strength~
+@7650427 = ~One of man's earliest weapons, dating back to the most primitive of times, the first spears were simply wooden poles or sticks sharpened at one end.  When man mastered metals, spearheads were made from iron and steel.  Having reached this end, weaponers began experimenting with different types of spear heads, thus leading to the development of certain polearm types.
+
+STATISTICS:
+
+Damage:  1D6
+THAC0:  +1 bonus
+Damage type:  piercing
+Weight: 5
+Speed Factor: 6
+Proficiency Type: Spear
+Type:  2-handed
+Requires: 5 Strength~
+@7650428 = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length.  High quality quarterstaves are made of stout oak and are shod with metal at both ends.  The quarterstaff must be wielded with both hands.
+
+STATISTICS:
+
+Damage:  1D6
+THAC0:  +1 bonus
+Damage type:  crushing
+Weight: 4
+Speed Factor: 4
+Proficiency Type: Staff
+Type:  2-handed
+Requires: 5 Strength~
+@7650429 = ~Also known as the hand-and-a-half sword, the bastard sword derives its name from the fact that it is halfway between the two-handed sword and the long sword. The bastard sword has a double-edged blade and a long grip, which can accommodate both hands if preferred.  The overall length of the bastard sword ranges between four feet and four feet ten inches.
+
+STATISTICS:
+
+Damage:  2D4
+THAC0:  +1 bonus
+Damage type:  slashing
+Weight: 10
+Speed Factor: 8
+Proficiency Type: Bastard Sword
+Type:  1-handed
+Requires: 11 Strength~
+@7650430 = ~The two-handed sword is a derivative of the long sword.  Weaponsmiths have always looked for ways to improve existing weapons.  In an effort to improve the long sword, the blade was lengthened.  Eventually, the handle had to be extended and two hands became necessary to properly swing the sword.  The primary function of two-handed swords is cleaving mounted knights and breaking up pike formations.
+
+STATISTICS:
+
+Damage:  1D10
+THAC0:  +1 bonus
+Damage type:  slashing
+Weight: 15
+Speed Factor: 10
+Proficiency Type: Two Handed sword
+Type:  2-handed
+Requires: 14 Strength~
+@7650431 = ~The katana is a single-edged, slightly curved sword that ends with a chisel point. The katana is perhaps one of the finest swords ever made, the steps to its creation a long and secret process, that is more art form than anything else.  This blade is an important facet of Kara-Tur culture.  To touch or wield a samurai's katana is to insult the samurai and to incite his wrath.  For a gaijin, or foreigner, to own such a blade is a rare occurrence. Either the gaijin is a greatly honored friend of an important minister, or the gaijin has murdered a samurai.
+
+STATISTICS:
+
+Damage:  1D10
+THAC0:  +1 bonus
+Damage type:  slashing
+Weight:  6
+Speed Factor: 4
+Proficiency Type: Katana
+Type:  1-handed
+Requires: 6 Strength~
+@7650432 = ~These swords are usually referred to as doubled-edged swords, war swords, or military swords.  In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture, and may vary within the same culture depending on the era.  Among the most common characteristics of all long swords is their length, which ranges from 35 inches to 47 inches.  In the latter case, the blade is known to take up 40 inches of the total length.  Most long swords have a double-edged blade and a sharp point at the tip.  Despite the tip, the long sword is designed for slashing, not thrusting.
+
+STATISTICS:
+
+Damage:  1D8
+THAC0:  +1 bonus
+Damage type:  slashing
+Weight: 4
+Speed Factor: 5
+Proficiency Type: Long Sword
+Type:  1-handed
+Requires: 6 Strength~
+@7650433 = ~The sword of the ninja, the ninja-to, is of lower quality than other Kara-Tur blades such as the katana.  The ninja-to is short with a straight blade, making it ideal for the subterfuge of the ninja.  The ninja-to is also more suited to fighting in closed places, sometimes giving the ninja an advantage over the longer blades that the samurai used.
+
+STATISTICS
+
+Damage:  1D8
+THAC0:  +1 bonus
+Damage type:  slashing
+Weight:  5
+Speed Factor: 4
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type:  1-handed
+Requires: 6 Strength~
+@7650434 = ~The short sword is the first type of sword to come into existence.  In the simplest of terms, a short sword can be considered a dagger with a blade so long that it can no longer be called a dagger.  The term short sword does not exist in sword classifications.  However, it has come to be used to describe a double-edged blade about two feet in length.  The sword tip is usually pointed, ideal for thrusting.
+
+STATISTICS:
+
+Damage:  1D6
+THAC0:  +1 bonus
+Damage type:  piercing
+Weight: 3
+Speed Factor: 3
+Proficiency Type: Short Sword
+Type:  1-handed
+Requires: 5 Strength~
+@7650435 = ~The wakizashi, or companion sword is extremely important to samurai.  It is worn at all times, even indoors, and is near the samurai when he sleeps at night.  As finely made as the katana, the wakizashi, a shorter sword with a length between 12 and 24 inches, is a dangerous weapon in the hands of a skilled user.
+
+STATISTICS
+
+Damage:  1D8
+THAC0:  +1 bonus
+Damage type:  piercing
+Weight:  3
+Speed Factor: 3
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type:  1-handed
+Requires: 5 Strength~
+@7650436 = ~Mounted knights cannot effectively use long pole weapons while on horseback, and as a result, many weapons have been fitted with shorter shafts so they may be wielded with just one hand.  Maces and flails are two previous examples of this - the war hammer is another.  The horseman's war hammer is a descendant of the Lucerne hammer.  It is made entirely of steel, with rondels protecting and strengthening the grip.  Rondels are small disks of metal, often shaped into decorative designs.  The shaft is about 18 inches long.'
+
+STATISTICS:
+
+Damage:  1D4 + 1
+THAC0:  +1 bonus
+Damage type:  crushing
+Weight: 6
+Speed Factor: 4
+Proficiency Type: War Hammer
+Type:  1-handed
+Requires: 9 Strength~
+@7650437 = ~The hand axe or throwing axe is also known as a hatchet.  The axe blade has a sharp steel tip, counterbalanced by a pointed fluke.  The short handle has a point of the bottom and the head may have a spike on the top.
+
+STATISTICS:
+
+Damage:  1D6 + 1
+THAC0:  +1 bonus
+Damage type:  missile (piercing)
+Weight: 5
+Speed Factor: 4
+Proficiency Type:  Axe
+Type:  1-handed
+Requires: 4 Strength~
+@7650438 = ~A crossbow is a bow mounted crosswise on a wooden or metal shaft, the latter called a tiller.  The bow is usually made of ash or yew.  The crossbow fires a quarrel (also called a bolt).
+
+STATISTICS:
+
+Damage:  +2 (missile)
+THAC0:  +1 bonus
+Weight: 14
+Speed Factor: 10
+Proficiency Type: Crossbow
+Type:  2-handed
+Requires: 12 Strength~
+@7650439 = ~A crossbow is a bow mounted crosswise on a wooden or metal shaft, the latter called a tiller.  The bow is usually made of ash or yew.  The crossbow fires a quarrel (also called a bolt).  Light crossbows not only weigh less than their heavy counterparts, they fire faster as well.
+
+STATISTICS:
+
+THAC0:  +1 bonus
+Weight: 7
+Speed Factor: 5
+Proficiency Type: Crossbow
+Type:  2-handed
+Requires: 8 Strength~
+
+@650445 = ~This potent weapon was created by the godly smiths of the planes.  To the Northmen who hold religious beliefs of Ragnarok, this Warhammer of Lokin is to play a part in the fight to prevent Ragnarok from occuring before its time. This particular Warhammer gives its user a bonus to his armor class, allows the wielder to use the blade with mastery of the hammer proficiency, as well as provides a number of specific resistances to damage types: Poison, Fire, Cold, Acid, and Electrical.
+
+STATISTICS:
+
+Damage:  2D8 + 5
+THAC0 bonus: +5
+Special:
+  +4 bonus to Armor Class
+  +5 stars to Warhammer Proficiency
+  +50% Fire Resistance
+  +50% Cold Resistance
+  +50% Acid Resistance
+  +50% Poison Resistance
+  +50% Electrical Resistance
+Damage type:  crushing
+Weight: 6
+Speed Factor: 4
+Proficiency Type:  Warhammer
+Type:  1-handed~
+@650449 = ~This is simply a thirty inch length of forged titanium, a heavy metal that is quite valuable.  The length of metal could be used as a simple weapon if needed, however, if a mace head or other device were attached, could easily be turned into a formidable weapon in the hands of a proficient weilder.
+
+STATISTICS:
+
+Damage:  1D8
+Damage type:  crushing
+Weight: 3
+Speed Factor: 4
+Proficiency Type:  Club
+Type:  1-handed
+Requires: 5 Strength~
+
+@650450 = ~This potent weapon was created by the godly smiths of the planes.  To the Northmen who hold religious beliefs of Ragnarok, this Warhammer of Lokin is to play a part in the fight to prevent Ragnarok from occuring before its time. This particular Warhammer gives its user a bonus to his armor class, allows the wielder to use the blade with mastery of the hammer proficiency, as well as provides a number of specific resistances to damage types: Poison, Fire, Cold, Acid, and Electrical.
+
+STATISTICS:
+
+Damage:  1D10 + 4
+Bonus to hit:  4
+Special:
+  +2 bonus to Armor Class
+  +4 stars to Warhammer Proficiency
+  25% Fire Resistance
+  25% Cold Resistance
+  25% Acid Resistance
+  25% Poison Resistance
+  25% Electrical Resistance
+Damage type:  crushing
+Weight: 6
+Speed Factor: 4
+Proficiency Type:  Warhammer
+Type:  1-handed~
+@650452 = ~This quarterstaff, upon first inspection, looks like most other staff weapons.  This one, however, has been etched with a number of sigils, runes of sort, that have been infused with a silvery colored coating.  This staff, despite it's decorations, looks to be extremely important.  Perhaps it would be wise to find the original owner- or tribe of owners- of the staff, as they may be willing to reward you with such an heirloom.
+
+Although this does indeed look like a normal quarterstaff, it has a few minor magical properties.  First, it does an additional bonus of 1d4 crushing damage upon a successful hit against the wielders target.  Second, equiping this quarterstaff automatically awards it's user a THAC0 bonus of 2.  Third, the staff has the ability to bless its wielder and companions once per day.  The staff recharges itself automatically after a certain amount of time has passed.
+
+STATISTICS:
+
+Damage:  1D6 +1d4
+Special:
+  +2 THAC0 bonus while equipped
+  Casts Bless on user once per day
+Damage type:  crushing
+Weight: 4
+Speed Factor: 4
+Proficiency Type: Staff
+Type:  2-handed
+Requires: 5 Strength~
+@650458 = ~Hunting Gorgons is a highly dangerous drow sport.  Often, after a successful hunt, the blood of the Gorgon is taken and used in the creation of a new suit of plate.  This special type of drow plate is actually able to withstand the light of the surface world.
+
+STATISTICS:
+
+Armor Class: -2
+Bonus:  30% resistance to fire and acid
+Weight: 20
+Requires: 12 Strength~
+
+@650479 = ~The broadsword is a combination of the long sword with the strength and effectiveness of a Two-Handed Sword.  Weaponsmiths have always looked for ways to improve existing weapons.  In an effort to improve the long sword, the blade was lengthened.  Eventually, the handle had to be extended and two hands became necessary to properly swing the sword.
+
+STATISTICS:
+
+Damage:  1D12
+Damage type:  slashing
+Weight: 12
+Speed Factor: 8
+Proficiency Type: Long Swords
+Type:  Other Swords
+Requires: 9 Strength~
+@650480 = ~This is Paddy Stoutfellows weapon.  It is a heavy broadsword, especially for a halfling, but the magical enchantments have come in useful for him in the Forest of Tethyr.
+
+STATISTICS:
+
+Damage:  1D12 + 2
+THACO:  +2 bonus
+Damage type:  slashing
+Weight: 5
+Speed Factor: 5
+Proficiency Type: Long sword
+Type:  1-handed
+Requires: 6 Strength~
+@650488 = ~Ring of Protection +3:  'The Guard's Ring'
+The Guard was an immortal sentry assigned to protect a tomb that sheltered the body of a princess of the Akanal.  Over millennia respect for the grave disappeared with the memory of the royal family, and adventurers began to try their luck with the Guard.  It was inevitable that he would eventually be bested, and when he was, the ring he wore was one of many treasures taken from the tomb.
+
+STATISTICS:
+
+Armor Class:  +3 bonus
+Saving Throws:  +3 bonus~
+@650492 = ~The history of this weapon is not known.  It was given to you by Crowley, a backwater ranger who desired it to be resharpened.  You did so, and are to bring the axe to him in the woodlands north of Amn.  This particular axe gives its user a bonus to his armor class, allows the wielder to use the blade with mastery of the axe proficiency, as well as provides a number of specific resistances to damage types: Poison, Fire, Cold, Acid, and Electrical.
+
+STATISTICS:
+
+Damage:  2D8 + 5
+THAC0:  +5
+Special:
+  +2 bonus to Armor Class
+  +4 stars to Axe Proficiency
+  25% Fire Resistance
+  25% Cold Resistance
+  25% Acid Resistance
+  25% Poison Resistance
+  25% Electrical Resistance
+Damage type:  slashing
+Weight: 7
+Speed Factor: 3
+Proficiency Type:  Axe~
+@650513 = ~A number of these shields can be found in Waukeen's temples throughout Faerûn.  The Church crafts these shields to sell to enterprising adventurers.  In exchange for the powers of the device, the bearer is required to keep the front of the shield uncovered and in its original state.  If the owner does not comply, the shield's powers fail.  In this way, dozens of adventurers walk the Realms bearing the golden face of Waukeen on their arm.
+
+STATISTICS:
+
+Armor Class Bonus: +3
+Saving Throw Bonus: +2
+Magic Resistance: +10%
+Weight: 4~
+@650515 = ~The only material parts of this icy weapon are the hilt, grip, and pommel, wrought from shining silver and steel.  It was created in 1099 DR by the chosen of Auril, Ihanora the Merciful.  Ihanora roamed the north, leading ruthless attacks against all those who attempted to find solace from the cold or fight its effects.  She traveled with a motley crew of yetis, polar worms, frost giants, and a white dragon, freezing everything in her wake.  Ihanora was defeated in 1108 by the notorious Red Mask Brigade, headed by the ruthless killer known as Bitter Harley.
+
+STATISTICS:
+
+Damage: 2d4 + 2
+THAC0: +2
+Special:  
+  2% chance of turning the target to solid ice
+Damage Type:  Cold
+Weight: 10
+Speed Factor: 6
+Proficiency Type: Bastard Sword
+Type: One-Handed
+Requires: 9 Strength~
+@650518 = ~One of man's earliest weapons, dating back to the most primitive of times was the first spears, simple wooden poles or sticks sharpened at one end.  When man mastered metals, spearheads were made from iron and steel.  Having reached this end, weaponers began experimenting with different types of spear heads, thus leading to the development of certain polearm types.  This spear is slightly different though, as it has physical improvements.  The head has a few small barbs to increase damage as the head is removed from a victim and the length of the shaft has been reinforced with rings of steel to prevent the wood from splitting and which have small blades projecting at various angles.  The butt end has a molded steel cap which can be used as a blunt weapon.
+
+STATISTICS:
+
+Damage: 1D6 + 1 (piercing)
+        1d4 + 1 (crushing)
+        1d4 + 1 (slashing)
+THAC0:  +1 bonus
+Damage type:  piercing
+Range: 70
+Weight: 5
+Speed Factor: 5
+Proficiency Type: Spear
+Type:  2-handed
+Requires: 5 Strength~
+@650525 = ~This potent weapon was created by smiths for bards to use as a potent weapon.  This Spellsung Blade was granted to <Player1> by a Master Bard, a former instructor of the Silverymoon Bardic Colleges, and has accepted <Player1> as its wielder.  Only the one that the Spellsung Blade has chosen can use this blade; anyone else attempting to unsheath it will find themselves horribly burned, possibly resulting in death. This particular Spellsung Blade gives its user a bonus to his armor class, allows the wielder to use the blade with mastery of the long sword proficiency, as well as provides a number of specific resistances to damage types: Poison, Fire, Cold, Acid, and Electrical.
+
+STATISTICS:
+
+Damage:  2D8 + 5
+Bonus to hit:  5
+Special:
+  +4 bonus to Armor Class
+  +5 stars to Long Sword Proficiency
+  50% Fire Resistance
+  50% Cold Resistance
+  50% Acid Resistance
+  50% Poison Resistance
+  50% Electrical Resistance
+Damage type:  slashing
+Weight: 3
+Speed Factor: 3
+Proficiency Type:  Long Sword
+Type:  1-handed~
+@650526 = ~This potent weapon was created by smiths for bards to use as a potent weapon.  This Spellsung Blade was granted to <Player2> by a Master Bard, a former instructor of the Silverymoon Bardic Colleges, and has accepted <Player2> as its wielder.  Only the one that the Spellsung Blade has chosen can use this blade; anyone else attempting to unsheath it will find themselves horribly burned, possibly resulting in death. This particular Spellsung Blade gives its user a bonus to his armor class, allows the wielder to use the blade with mastery of the long sword proficiency, as well as provides a number of specific resistances to damage types: Poison, Fire, Cold, Acid, and Electrical.
+
+STATISTICS:
+
+Damage:  2D8 + 5
+Bonus to hit:  5
+Special:
+  +4 bonus to Armor Class
+  +5 stars to Long Sword Proficiency
+  50% Fire Resistance
+  50% Cold Resistance
+  50% Acid Resistance
+  50% Poison Resistance
+  50% Electrical Resistance
+Damage type:  slashing
+Weight: 3
+Speed Factor: 3
+Proficiency Type:  Long Sword
+Type:  1-handed~
+@650527 = ~This potent weapon was created by smiths for bards to use as a potent weapon.  This Spellsung Blade was granted to <Player3> by a Master Bard, a former instructor of the Silverymoon Bardic Colleges, and has accepted <Player3> as its wielder.  Only the one that the Spellsung Blade has chosen can use this blade; anyone else attempting to unsheath it will find themselves horribly burned, possibly resulting in death. This particular Spellsung Blade gives its user a bonus to his armor class, allows the wielder to use the blade with mastery of the long sword proficiency, as well as provides a number of specific resistances to damage types: Poison, Fire, Cold, Acid, and Electrical.
+
+STATISTICS:
+
+Damage:  2D8 + 5
+Bonus to hit:  5
+Special:
+  +4 bonus to Armor Class
+  +5 stars to Long Sword Proficiency
+  50% Fire Resistance
+  50% Cold Resistance
+  50% Acid Resistance
+  50% Poison Resistance
+  50% Electrical Resistance
+Damage type:  slashing
+Weight: 3
+Speed Factor: 3
+Proficiency Type:  Long Sword
+Type:  1-handed~
+@650528 = ~This potent weapon was created by smiths for bards to use as a potent weapon.  This Spellsung Blade was granted to <Player4> by a Master Bard, a former instructor of the Silverymoon Bardic Colleges, and has accepted <Player4> as its wielder.  Only the one that the Spellsung Blade has chosen can use this blade; anyone else attempting to unsheath it will find themselves horribly burned, possibly resulting in death. This particular Spellsung Blade gives its user a bonus to his armor class, allows the wielder to use the blade with mastery of the long sword proficiency, as well as provides a number of specific resistances to damage types: Poison, Fire, Cold, Acid, and Electrical.
+
+STATISTICS:
+
+Damage:  2D8 + 5
+Bonus to hit:  5
+Special:
+  +4 bonus to Armor Class
+  +5 stars to Long Sword Proficiency
+  50% Fire Resistance
+  50% Cold Resistance
+  50% Acid Resistance
+  50% Poison Resistance
+  50% Electrical Resistance
+Damage type:  slashing
+Weight: 3
+Speed Factor: 3
+Proficiency Type:  Long Sword
+Type:  1-handed~
+@650529 = ~This potent weapon was created by smiths for bards to use as a potent weapon.  This Spellsung Blade was granted to <Player5> by a Master Bard, a former instructor of the Silverymoon Bardic Colleges, and has accepted <Player5> as its wielder.  Only the one that the Spellsung Blade has chosen can use this blade; anyone else attempting to unsheath it will find themselves horribly burned, possibly resulting in death. This particular Spellsung Blade gives its user a bonus to his armor class, allows the wielder to use the blade with mastery of the long sword proficiency, as well as provides a number of specific resistances to damage types: Poison, Fire, Cold, Acid, and Electrical.
+
+STATISTICS:
+
+Damage:  2D8 + 5
+Bonus to hit:  5
+Special:
+  +4 bonus to Armor Class
+  +5 stars to Long Sword Proficiency
+  50% Fire Resistance
+  50% Cold Resistance
+  50% Acid Resistance
+  50% Poison Resistance
+  50% Electrical Resistance
+Damage type:  slashing
+Weight: 3
+Speed Factor: 3
+Proficiency Type:  Long Sword
+Type:  1-handed~
+@650530 = ~This potent weapon was created by smiths for bards to use as a potent weapon.  This Spellsung Blade was granted to <Player6> by a Master Bard, a former instructor of the Silverymoon Bardic Colleges, and has accepted <Player6> as its wielder.  Only the one that the Spellsung Blade has chosen can use this blade; anyone else attempting to unsheath it will find themselves horribly burned, possibly resulting in death. This particular Spellsung Blade gives its user a bonus to his armor class, allows the wielder to use the blade with mastery of the long sword proficiency, as well as provides a number of specific resistances to damage types: Poison, Fire, Cold, Acid, and Electrical.
+
+STATISTICS:
+
+Damage:  2D8 + 5
+Bonus to hit:  5
+Special:
+  +4 bonus to Armor Class
+  +5 stars to Long Sword Proficiency
+  50% Fire Resistance
+  50% Cold Resistance
+  50% Acid Resistance
+  50% Poison Resistance
+  50% Electrical Resistance
+Damage type:  slashing
+Weight: 3
+Speed Factor: 3
+Proficiency Type:  Long Sword
+Type:  1-~
+@650532 = ~This potent weapon was created by smiths for bards to use as a potent weapon.  Only an bard can use this blade; anyone else attempting to unsheath it will find themselves horribly burned, possibly resulting in death. This particular Spellsung Blade gives its user a bonus to his armor class, allows the wielder to use the blade with mastery of the short sword proficiency, as well as provides a number of specific resistances to damage types: Poison, Fire, Cold, Acid, and Electrical.
+
+STATISTICS:
+
+Damage: 1D10 + 4
+THAC0:  +4
+Special:
+  +2 bonus to Armor Class
+  +4 stars to Short Sword Proficiency
+  25% Fire Resistance
+  25% Cold Resistance
+  25% Acid Resistance
+  25% Poison Resistance
+  25% Electrical Resistance
+Damage type:  slashing
+Weight: 3
+Speed Factor: 4
+Proficiency Type:  Short Sword
+Type:  1-handed~
+
+@650544 = ~Standard fencing cloaks are worn by many swordsmen who enjoy its loose and voluminous folds which can entangle a weapon in the thick cloth.  This cloak provides a bit of protection against slashing and piercing weapons that have a chance of becoming "stuck" in the heavy cloak.
+
+STATISTICS:
+
+Armor Class:  +2 vs. Piercing and Slashing Weapons.
+Special:  Once per day, give the added protection similar to that of a Wizard's Stoneskin: defeating the first 5 attacks after being invoked.
+Saving Throws: +2 bonus
+Weight:  6~
+
+@650548 = ~Scales of Justice:  This short sword was owned by Tardeth Llanistaph of the Company of Eight.  How it came into your possession is curious.  Perhaps you purchased it from a fence illegally; perhaps Tardeth was murdered and the sword was picked up from his remains; or perhaps you snuck into the Company's camp and searched through all their possessions without them knowing or seeing you check out all their stuff.
+
+Or maybe even it isn't in your possession at all and you just think it is because you are reading this through a magical flickering display about 1280 paces by 1024 paces in size.
+
+STATISTICS:
+
+Damage:  1D6 + 3
+THAC0:  +3 bonus
+Special:  Awards the weilder with extra attacks causes the target to move slower, and any weilder is automatically proficient with the Scales.
+Damage type:  piercing
+Weight: 2
+Speed Factor: 0
+Proficiency Type: Short Sword
+Type:  1-handed
+Requires: 5 Strength~
+@7650549 = ~The most common version of the battle axe is a stout pole about four feet in length with a single-edged, trumpet-shaped blade mounted on one end.  Battle axes are also called broad axes.
+
+STATISTICS:
+
+Damage:  1D8 + 3
+THAC0:  +3 bonus
+Damage type:  slashing
+Weight: 6
+Speed Factor: 7
+Proficiency Type: Axe
+Type:  1-handed
+Requires: 10 Strength~
+@650551 = ~Chain mail is made of interlocking metal rings.  It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.  Extra protection is given by magical enchantments placed on this armor.  This +5 armor was forged by Throm Sturman in Hlondeth.
+
+STATISTICS:
+
+Armor Class: 0
+Weight: 10
+Requires: 8 Strength~
+@7650552 = ~The typical dagger has a pointed, usually double-edged blade, as opposed to a knife, which has a single edge and is a bit shorter than the dagger. 
+
+STATISTICS:
+
+Damage:  1D8 + 2
+THAC0: +4
+Damage type:  piercing
+Weight: 1
+Speed Factor: 1
+Proficiency Type: Dagger
+Type:  1-handed
+Requires:  3 Strength~
+@7650553 = ~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link.  The weapon was originally used as a tool for threshing grain.
+
+STATISTICS:
+
+Damage:  1D8 + 5
+THAC0: +4
+Damage type:  crushing
+Weight: 12
+Speed Factor: 7
+Proficiency Type: Flail/Morningstar
+Type:  1-handed
+Requires: 13 Strength~
+@7650554 = ~By far the oldest and most often used pole-arm, the halberd consists of a cleaver-like axe blade mounted on a staff averaging six feet in length.  The axe blade is balanced at the rear with a fluke, and surmounted by a sharp spike, usually of quadrangular design.  The fluke is sometimes replaced by a hook used to dismount cavalry.  A halberd can be best described as a cross between a spear and an axe.
+
+STATISTICS:
+
+Damage:  1D12 + 1
+THAC0: +2
+Damage type:  piercing
+Weight: 13
+Speed Factor: 8
+Proficiency Type: Halberd
+Type:  2-handed
+Requires: 13 Strength~
+@650556 = ~Full plate armor is the best armor a warrior can buy, both in appearance and protection.  The perfectly fitted interlocking plates are specially angled to deflect arrows and blows, and the entire suit is carefully adorned with rich engraving and embossed detail.  This +5 armor was forged by Throm Sturman in Hlondeth.
+
+STATISTICS:
+
+Armor Class: -4
+Weight: 20
+Requires: 15 Strength~
+@650558 = ~This shield of well constructed materials was forged by Throm Sturman in Hlondeth.
+
+STATISTICS:
+
+Armor Class Bonus: 6
+Special: +2 vs. Missile Weapons
+Weight: 10
+Requires: 10 Strength~
+@7650559 = ~One of man's earliest weapons, dating back to the most primitive of times, the first spears were simply wooden poles or sticks sharpened at one end.  When man mastered metals, spearheads were made from iron and steel.  Having reached this end, weaponers began experimenting with different types of spear heads, thus leading to the development of certain polearm types.
+
+STATISTICS:
+
+Damage:  1D10
+THAC0: +4
+Damage type:  piercing
+Weight: 4
+Speed Factor: 4
+Proficiency Type: Spear 
+Type:  2-handed
+Requires: 5 Strength~
+@650561 = ~Splint Mail is a variant of banded mail in which the metal strips are applied vertically to the backing of chain, leather, or cloth rather than horizontally as in banded mail.  Since the human body does not swivel in mid-torso as much as it flexes back to front, splint mail is more restrictive in battle.  This suit of armor was forged by Throm Sturman in Hlondeth, and grants the wearer a bonus of +4 to their armor class.
+
+STATISTICS:
+
+Armor Class: 1
+Weight: 10
+Requires: 8 Strength~
+@7650562 = ~These swords are usually referred to as doubled-edged swords, war swords, or military swords.  In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture, and may vary within the same culture depending on the era.  Among the most common characteristics of all long swords is their length, which ranges from 35 inches to 47 inches.  In the latter case, the blade is known to take up 40 inches of the total length.  Most long swords have a double-edged blade and a sharp point at the tip.  Despite the tip, the long sword is designed for slashing, not thrusting. 
+
+STATISTICS:
+
+Damage:  1D8 + 3
+THAC0: +3
+Damage type:  slashing
+Weight: 3
+Speed Factor: 5
+Proficiency Type: Long Sword
+Type:  1-handed
+Requires: 6 Strength~
+@7650563 = ~Mounted knights cannot effectively use long pole weapons while on horseback, and as a result, many weapons have been fitted with shorter shafts so they may be wielded with just one hand.  Maces and flails are two previous examples of this - the war hammer is another.  The horseman's war hammer is a descendant of the Lucerne hammer.  It is made entirely of steel, with rondels protecting and strengthening the grip.  Rondels are small disks of metal, often shaped into decorative designs.  The shaft is about 18 inches long.'
+
+STATISTICS:
+
+Damage:  2D6 + 3
+THAC0: +4
+Damage type:  crushing
+Weight: 5
+Speed Factor: 3
+Proficiency Type: War Hammer
+Type:  1-handed
+Requires: 9 Strength~
+@650566 = ~These tool box contains small probes, skeleton keys, wire cutters, files, picks, scissors, an assortment of small screwdrivers and pliers, and many other useful tools to thieves.  It can come in handy when attempting to disarm traps, open locks, or pick pockets when the target is difficult.
+
+Statistics:
+  Pick Locks Bonus:  30%
+  Find Traps Bonus: 15%
+  Pick Pockets Bonus: 15%
+
+Place item in shield slot to earn bonuses.~
+
+@650568 = ~Valiant's Rapier
+
+Whether created specifically for use in the service of Torm or Tyr, Valiant, a retired adventurer who now operates a weapon's and armor shop in the city of Hlondeth, has made good use of this sword in his battles against foes.  Through magic or blessing the thin and sheer blade is empowered with the ability of it's weilder to strike with such speed and finesse that the art of swordfighting becomes like a dance..
+
+STATISTICS:
+
+Damage:  1D8 + 4
+THAC0 Bonus: +4
+Special:  
+  Weilder is under the effect of Whirlwind while equipped, including the -4 THAC0 penalty and -4 Damage Penalty
+Damage type:  piercing
+Weight: 1
+Speed Factor: 1
+Proficiency Type: Long sword
+Type:  1-handed
+Requires: 6 Strength~
+
+@650602 = ~At the height of its short-lived splendor, the Elven City of Song was known for its artistic music, drama, and enchantments.  The Elves of Cormanthyr created artifacts, powerful and beautiful, that are still sought after by treasure hunters and adventurers alike.
+
+This exquisitely carved rosewood harp, trimmed with gold leaf filigree, is one such artifact that demonstrates the surpreme skill of Elven artisans.  Enchantments aside, the hand-crafted harp is an example of perfection in wood carving.  The glass-smooth grains, the seamless fittings, intricate etchings, and glossy finish- even after more than five centuries since its creation- prove this.  The gilt that adorns the harp has not tarnished in the least, and the spun gold strings glint in the light.
+
+Besides the quality crafting of this Harp, it has been enchanted by some of Myth Drannor's most powerful Elven archwizards of yore.  The golden strings, seven in all, all vibrate in resonance with the Weave.  The particular properties of these strings cannot be descerned until the Harp is played, but there are numerous Harps of Myth Drannor scattered across Faerûn, all with similar properties.  Some of the known properties of Harps that have been discovered include an increase the number of spells cast per round, changes to the listener's alignment, the possibility of permanent deafness, an increase to the number of attacks per round, or a permantent increase to charisma.
+
+Whenever a string on a Harp of Myth Drannor is plucked, it will cause one of the above effects- or a previously unknown effect, chosen randomly- to the listener or listeners, for good or for ill.  The released magic of a string destroys it in the process.  When the golded strings have all been played, the Harp of Myth Drannor looses its magical properties.
+
+*Runner-Up of the 2002 CIMS awards  (CBisson Item Making Sweepstakes)~
+@650603 = ~At the height of its short-lived splendor, the Elven City of Song was known for its artistic music, drama, and enchantments.  The Elves of Cormanthyr created artifacts, powerful and beautiful, that are still sought after by treasure hunters and adventurers alike.
+
+This exquisitely carved rosewood harp, trimmed with gold leaf filigree, is one such artifact that demonstrates the surpreme skill of Elven artisans.  Enchantments aside, the hand-crafted harp is an example of perfection in wood carving.  The glass-smooth grains, the seamless fittings, intricate etchings, and glossy finish- even after more than five centuries since its creation- prove this.  The gilt that adorns the harp has not tarnished in the least, and the spun gold strings glint in the light.
+
+Besides the quality crafting of this Harp, it has been enchanted by some of Myth Drannor's most powerful Elven archwizards of yore.  The golden strings, six in all, all vibrate in resonance with the Weave.  The particular properties of these strings cannot be descerned until the Harp is played, but there are numerous Harps of Myth Drannor scattered across Faerûn, all with similar properties.  Some of the known properties of Harps that have been discovered include an increase the number of spells cast per round, changes to the listener's alignment, the possibility of permanent deafness, an increase to the number of attacks per round, or a permantent increase to charisma.
+
+Whenever a string on a Harp of Myth Drannor is plucked, it will cause one of the above effects- or a previously unknown effect, chosen randomly- to the listener or listeners, for good or for ill.  The released magic of a string destroys it in the process.  When the golded strings have all been played, the Harp of Myth Drannor looses its magical properties.~
+@650604 = ~At the height of its short-lived splendor, the Elven City of Song was known for its artistic music, drama, and enchantments.  The Elves of Cormanthyr created artifacts, powerful and beautiful, that are still sought after by treasure hunters and adventurers alike.
+
+This exquisitely carved rosewood harp, trimmed with gold leaf filigree, is one such artifact that demonstrates the surpreme skill of Elven artisans.  Enchantments aside, the hand-crafted harp is an example of perfection in wood carving.  The glass-smooth grains, the seamless fittings, intricate etchings, and glossy finish- even after more than five centuries since its creation- prove this.  The gilt that adorns the harp has not tarnished in the least, and the spun gold strings glint in the light.
+
+Besides the quality crafting of this Harp, it has been enchanted by some of Myth Drannor's most powerful Elven archwizards of yore.  The golden strings, five in all, all vibrate in resonance with the Weave.  The particular properties of these strings cannot be descerned until the Harp is played, but there are numerous Harps of Myth Drannor scattered across Faerûn, all with similar properties.  Some of the known properties of Harps that have been discovered include an increase the number of spells cast per round, changes to the listener's alignment, the possibility of permanent deafness, an increase to the number of attacks per round, or a permantent increase to charisma.
+
+Whenever a string on a Harp of Myth Drannor is plucked, it will cause one of the above effects- or a previously unknown effect, chosen randomly- to the listener or listeners, for good or for ill.  The released magic of a string destroys it in the process.  When the golded strings have all been played, the Harp of Myth Drannor looses its magical properties.
+
+*Runner-Up of the 2002 CIMS awards  (CBisson Item Making Sweepstakes)~
+@650605 = ~At the height of its short-lived splendor, the Elven City of Song was known for its artistic music, drama, and enchantments.  The Elves of Cormanthyr created artifacts, powerful and beautiful, that are still sought after by treasure hunters and adventurers alike.
+
+This exquisitely carved rosewood harp, trimmed with gold leaf filigree, is one such artifact that demonstrates the surpreme skill of Elven artisans.  Enchantments aside, the hand-crafted harp is an example of perfection in wood carving.  The glass-smooth grains, the seamless fittings, intricate etchings, and glossy finish- even after more than five centuries since its creation- prove this.  The gilt that adorns the harp has not tarnished in the least, and the spun gold strings glint in the light.
+
+Besides the quality crafting of this Harp, it has been enchanted by some of Myth Drannor's most powerful Elven archwizards of yore.  The golden strings, four in all, all vibrate in resonance with the Weave.  The particular properties of these strings cannot be descerned until the Harp is played, but there are numerous Harps of Myth Drannor scattered across Faerûn, all with similar properties.  Some of the known properties of Harps that have been discovered include an increase the number of spells cast per round, changes to the listener's alignment, the possibility of permanent deafness, an increase to the number of attacks per round, or a permantent increase to charisma.
+
+Whenever a string on a Harp of Myth Drannor is plucked, it will cause one of the above effects- or a previously unknown effect, chosen randomly- to the listener or listeners, for good or for ill.  The released magic of a string destroys it in the process.  When the golded strings have all been played, the Harp of Myth Drannor looses its magical properties.
+
+*Runner-Up of the 2002 CIMS awards  (CBisson Item Making Sweepstakes)~
+
+@650607 = ~The powerful enchantments on this ioun stone make it a treasure eagerly sought after by wizards and mages.
+
+STATISTICS:
+
+Allows the user to instinctively know where to attack a creature who is hidden without the use of True Sight or dispelling magics when equipped.~
+
+@650609 = ~This is a heavy, square, thickly bound tome with beige-colored parchment bound by maple boards covered with tanned leather.  The book looks well used but not dilapidated.  It has no known traps or defenses, but the brass clasps and ornate circlets prove that it is the lost spellbook of Desmondal.
+
+Desmondal was a dignified mage of Athkatla who perished some seventy winters ago of a winter fever.  His effects were sold by a merchant of Amn, Oristel- almost certainly after several mages had been allowd to copy individual spells from the Libram upon payment of stiff fees.  The purchaser of the Libram and his present whereabouts, are unknown.
+
+In the Libram of Desmondal are ten spells, which follow below, that can be memorized per the normal requirements.  When each spell is memorized, it can be cast from memory normally, however, the spell will remain within the tome unlike a scroll which would be destroyed in the process.
+
+The Libram, despite the fact that the spell may have been memorized by a character, must be read from in order to cast the spell.  To do so, simply equip the spell book in your shield slot, and access the spells as a Item ability.
+
+STATISTICS:
+
+Each of the following spells may be cast once per rest cycle:
+  Luck
+  Skull Trap
+  Minor Globe of Invulnerability
+  Protection From Electricity
+  Pierce Magic
+  Stone to Flesh
+  Prismatic Spray
+  Project Image
+  Power Word: Blind
+  Energy Drain
+Note that unused spells are 'lost', but not removed from the spellbook for a particular rest cycle; the spells are not cumulative.  Spells from Desmondal's Spellbook are cast as if by a 9th level Wizard.
+
+*Second Place Winner of the 2002 CIMS awards  (CBisson Item Making Sweepstakes)~
+@650611 = ~This ring, made of forged steel, will fit upon any finger it is placed upon.  Each of the settings of amber remain cold to the touch, no matter how long the ring is heated.  The ring has a simple magical property and causes its wearer to become ethereal.  As the ring remains in the Prime Material Plane, it will cause whomever dons it to shift planes, granting an immunity from natural creatures such as bears, lions, wolves, and the like.
+
+STATISTICS:
+
+Protects the wearer from animals.~
+
+@650613 = ~This great shield, along with its companion weapon, the Sword of Belvin, has a long and nearly illustrious history.
+
+During the Year of the Spreading Spring, drastic and sudden climate changes quickly took place across the western Heartlands of Faerûn.  Widespread drought was brought about by a short rainy season and an unpleasantly warm summer.  The water level of the Farsea Lake dropped until its edges were boggy and marshy, with an abundance of reeds.  The great desert Anauroch extend its boundaries southward.
+
+More than three hundred years ago, as the desert marched south, so did the goblins.  During the winter of 1089, Izac Uthor gathered the goblin armies near the abandoned village of Thandril, on the norwestern edge of the Goblin Marches.  The host included nigh unto 200,000 goblins, tens of thousands of affiliated orcs and kobolds, and a few thousand hobgoblins leading detachemnets of goblins or orcs.  Of course, even a force of more than a quarter million combatants could hardly hope to conquer, much less ocuppy, the entire Western Realms north of the Fields of the Dead.  Many tense discussions were held in Cormyr, Hills Edge, Tilverton, Soubar, Shadowdale, and other places in harm's way.
+
+Regular troops and the local militias were sent to Hill's Edge to join the main battle force uniting against the goblinoid horde.  They  came from Beregost, Bladur's gate, Berdusk, Iriaebor, Elturel, Scornubel, Soubar, and the Reaches of the High Moor.  No souner than all the forces arrived than a leader was found:  Artur Blevin, commander of the home forces of Soubar.  Belvin's shield was carried by him as the troops on both sides assembled on the plain before dawn; all fought wherever they found their foe.  Belvin slew more than three score of the goblin horde, yet it was to no avail.  Among Artur Blevin's troops, none escaped unscathed.
+
+After the Battle of Bones, the shield was lost and records of particular owners become sketchy.  Yet centuries later, the shield finally resurfaced to knowledge, this time in the hands of a maurading orcan band.  The shield was recovered by guards on a caravan making its way from Waterdeep to Scornubel, but the caravan was ambushed prior to completing its trade run by a larger and better equipped orcan and half-orcan group of bandits, and became the property of a ruthless half-orc by the name of Sureblade.  How the shield ended up in this ancient Wizards Tower is unknown.
+
+This shield is truly an item that should be treasured, as it is bound to save the life of one who carries it more than once adventures take it throughout Faerûn.  This shield decreases AC by 6 and adds 3 to all saving throws.  In addition, Belvin's shield allows one to move so quickly that the movement rate of the carrier is increased by 2 and normal missiles have no chance of striking.
+
+STATISTICS:
+
+Armor Class Bonus: 6
+Special:
+  Missile Weapons ineffective
+  Movement Rate Increased
+Weight: 10
+Requires: 16 Strength~
+
+@650615 = ~This great warsword, along with its companion shield, the Shield of Belvin, has a long and nearly illustrious history.
+
+During the Year of the Spreading Spring, drastic and sudden climate changes quickly took place across the western Heartlands of Faerûn.  Widespread drought was brought about by a short rainy season and an unpleasantly warm summer.  The water level of the Farsea Lake dropped until its edges were boggy and marshy, with an abundance of reeds.  The great desert Anauroch extend its boundaries southward.
+
+More than three hundred years ago, as the desert marched south, so did the goblins.  During the winter of 1089, Izac Uthor gathered the goblin armies near the abandoned village of Thandril, on the norwestern edge of the Goblin Marches.  The host included nigh unto 200,000 goblins, tens of thousands of affiliated orcs and kobolds, and a few thousand hobgoblins leading detachemnets of goblins or orcs.  Of course, even a force of more than a quarter million combatants could hardly hope to conquer, much less ocuppy, the entire Western Realms north of the Fields of the Dead.  Many tense discussions were held in Cormyr, Hills Edge, Tilverton, Soubar, Shadowdale, and other places in harm's way.
+
+Regular troops and the local militias were sent to Hill's Edge to join the main battle force uniting against the goblinoid horde.  They  came from Beregost, Bladur's gate, Berdusk, Iriaebor, Elturel, Scornubel, Soubar, and the Reaches of the High Moor.  No souner than all the forces arrived than a leader was found:  Artur Blevin, commander of the home forces of Soubar.  Belvin's sword, this great warblade, was carried by him as the troops on both sides assembled on the plain before dawn; all fought wherever they found their foe.  Belvin slew more than three score of the goblin horde, yet it was to no avail.  Among Artur Blevin's troops, none escaped unscathed.
+
+After the Battle of Bones, the great warblade was lost and records of particular owners become sketchy.  Yet centuries later, the sword finally resurfaced to knowledge, this time in the hands of a maurading orcan band.  The sword was recovered by guards on a caravan making its way from Waterdeep to Scornubel, but the caravan was ambushed prior to completing its trade run by a larger and better equipped orcan and half-orcan group of bandits, and became the property of a ruthless half-orc by the name of Sureblade.  How the sword ended up in this ancient Wizards Tower is unknown.
+
+This sword is truly a weapon worthy the finest fighting skills, as it allows the weilder to cut through the defenses of most other creatures.  Upon a successful hit against a target of 18th level of less, the creature is instantly killed when struck, an ability which can be quite useful when forced to fight powerful enemies.
+
+
+STATISTICS:
+
+Damage:  2D6 + 3
+THAC0:  +3 bonus
+Special:
+  Slays enemies lower than 18th level upon successful hit (the target receives a save vs. death at a -2 penalty)
+Damage type:  slashing
+Weight:  6
+Speed Factor: 4
+Proficiency Type: Bastard Sword
+Type:  1-handed
+Requires: 15 Strength~
+@650621 = ~The typical dagger has a pointed, double-edged blade, as opposed to a knife which has a single edge and is a bit shorter.  This particular dagger is magical, having special bonuses to its speed, accuracy, and damage it causes.  Also, since it is magical, is it capable of striking opponents that are immune to normal weapons, such as vampires, elementals and mummies.
+
+STATISTICS:
+
+Damage:  1D4 + 3
+THAC0: +3 bonus
+Damage type:  piercing
+Weight: 0
+Speed Factor: 0
+Proficiency Type: Dagger
+Type:  1-handed
+Require: 3 Strength~
+@650625 = ~This harp, a delicate musical instrument, was found within the Harper Stronghold in Athkatla.  Its music is soothing, yet when the strings are plucked in a particular order, the harp allows a bard to instill the ability for his companions to enhance their own self-control and privacy, shielding themselves from almost any mental effect - Charm, Command, Dominate Person, Fear, Feeblemind, and any scrying by crystal balls or other divination methods.
+
+STATISTICS:
+
+Special:  Mind Blank upon party members once/day~
+@650627 = ~Much more than the common time telling devices found throughout the Realms, this one upon a cursory inspection is made of two bulbs of glass joined by a narrow passage, which tells time with a grain of sand that falls between the two bulbs.  However, inspecting the engravings on the base, this Hourglass has the ability to suspend time for its user briefly, allowing actions to be taken.
+
+STATISTICS:
+
+Special:  Casts Time Stop once/day~
+
+@650628 = ~This potent weapon was created by the smiths of ancient Myth Drannor.  Moonblades are used in the long process of selecting a ruler for the isle of Evermeet.  A Moonblade chooses its owner, and in the case of this sword it has chosen the Harper Ranger, Julian Nonnel.  Only Julian can use this blade, anyone else who tries will find themselves unable to lift the sword.  This particular Moonblade gives resistance to fire and gives its user a bonus to his armor class.
+
+STATISTICS:
+
+Damage: 1D12 + 4
+THAC0:  +4
+Special:
+  +12 Hit Points While Equipped
+  Maximum Damage with Successful Attack
+Damage type:  slashing
+Weight: 6
+Speed Factor: 4
+Proficiency Type:  Two Handed Sword
+Type:  2-handed~
+
+@650629 = ~This is the morningstar of Kiel the Legion-Killer, first-born son of Durlag Trollkiller and Clan-prince of his father's ill-fated tower. He was wielding it in his final hour as he rushed to warn his father of the doppelgangers' infiltration of their Clan-home. It is said that the intensity of his rage in these final moments permanently imprinted itself upon the weapon. All who wield it are overcome with this battle anger whenever an enemy is sighted.
+
+Apparently, the morningstar was recovered from the dungeon of Durlag's and brought to the Harper Stronghold in Athkatla for safekeeping.  Since it's recovery, the value of the weapon has increased dramatically.
+
+STATISTICS:
+
+Damage:  2D4 + 3
+THAC0: +3
+Special:  
+  This weapons is cursed and instills a berserker fury in its wielder
+Damage type:  crushing
+Weight: 10
+Speed Factor: 4
+Proficiency Type: Spiked Weapons
+Type:  1-handed
+Requires: 10 Strength~
+@650631 = ~This robe, commonly worn by Cowled Wizards, bestow a number of enchantments upon the wearer.  In addition to lowering the armor class to 4, it awards a 25% bonus to the following damage types:  Fire, Cold, Acid, Electrical, and Magic.  Many young Cowled Wizards receive it as a gift from their instructors upon successfully completing their first five years of an apprenticeship. As with other such robes, they can only be worn by those of the wizardly profession.
+
+STATISTICS:
+
+Armor Class Bonus:  4 (Base)
+Acid Resistance:  +25% bonus
+Cold Resistance:  +25% bonus
+Fire Resistance:  +25% bonus
+Electrical Resistance:  +25% bonus
+Magic Resistance:  +25% bonus
+Weight:  3~
+@650634 = ~Only those utmost and devoted worshippers of Lathander the Dawnbringer gain the powers granted by these blessed holy symbols as signet rings.
+
+STATISTICS:
+
+Grants two additional 5th, 6th and 7th level spells
+20% bonus to Magic Resistance while worn
++1 to Strength while worn
++2 to Wisdom while worn~
+@650640 = ~The willing sacrifice of a vast fortune in gold, combined with the holy venerations of the sanctifying ceremony, have convinced Lathander to transform these already formidable gauntlets into gloves of awesome righteous power.
+
+STATISTICS:
+
+Cast Cure Critical Wounds twice/day
++15 to maximum HP total while equipped
+
+Weight:  3~
+@650642 = ~This dagger acts as a +5 dagger vs. lycanthropes.
+
+STATISTICS:
+
+Damage:  1D4 + 2 (+4 vs. Lycanthropes)
+THAC0: +1
+Damage type:  piercing
+Weight: 1
+Speed Factor: 2
+Proficiency Type: Small Sword
+Type:  1-handed~
+@650644 = ~Helm of Thieving
+Mat Savasta, one of the most talented burglars on the Sword Coast, wore this helm on many of his scores.  The helm, a simple leather coif, enhanced Mat's already impressive lock picking abilities.  In the cities of Waterdeep, Luskan, Neverwinter, Baldur's Gate, Athkatla, or Calimport, there wasn't a door that could not be unlocked by Mat.  To activate the helm, the proper command word must be known at which point a burst of energy magically shapes itself into that of a key that closely fits the lock.
+
+STATISTICS
+
+Special Abilities:  
+  +20% to Lock Picking
+  +20% to Find Traps
+  +20% to Pick Pockets
+  +20% to Hide In Shadows
+  Grants wearer Infravision~
+@650646 = ~The hatchet is a simple tool which can, in a pinch, be used as a weapon to those desperate enough.  The axe blade has a sharp steel blade, capable of cutting wood or flesh alike.  The short handle has a point of the bottom and the head may have a spike on the top.
+
+STATISTICS:
+
+Damage:  1D4
+Damage type:  missle (piercing)
+Weight: 5
+Speed Factor: 5
+Proficiency Type:  Axe
+Type:  1-handed
+Requires: 4 Strength~
+@650648 = ~Studded leather armor has little in common with normal leather armor.  Instead of a hardened shell, studded leather offers hundreds of metal rivets affixed to a supple backing.  The numerous studs form a flexible coat of metal that helps to turn aside slashing and cutting attacks, while the leather is little more than a means of securing the rivets in place.
+
+STATISTICS:
+
+Armor Class: 3
+Weight: 25
+Requires: 6 Strength~
+@650659 = ~The wakizashi, or companion sword is extremely important to samurai.  It is worn at all times, even indoors, and is near the samurai when he sleeps at night.  As finely made as the katana, the wakizashi, a shorter sword with a length between 12 and 24 inches, is a dangerous weapon in the hands of a skilled user.
+
+STATISTICS:
+
+Damage:  1D8 + 3
+THAC0 Bonus: +3
+Damage type:  piercing
+Weight:  3
+Speed Factor: 3
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type:  1-handed
+Requires: 5 Strength~
+@650661 = ~The sword of the ninja, the ninja-to, is of lower quality than other Kara-Tur blades such as the katana.  The ninja-to is short with a straight blade, making it ideal for the subterfuge of the ninja.  The ninja-to is also more suited to fighting in closed places, sometimes giving the ninja an advantage over the longer blades that the samurai used.
+
+STATISTICS:
+
+Damage:  1D8 + 3
+THAC0 Bonus: +3
+Damage type:  slashing
+Weight:  5
+Speed Factor: 4
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type:  1-handed
+Requires: 6 Strength~
+
+@660202 = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length.  High quality quarterstaves are made of stout oak and are shod with metal at both ends.  The quarterstaff must be wielded with both hands.
+
+STATISTICS:
+
+Damage:  1D6 + 9
+THAC0:  +3 bonus
+Damage type:  crushing
+Weight: 4
+Speed Factor: 2
+Proficiency Type: Staff
+Type:  2-handed
+Requires: 5 Strength~
+
+@660204 = ~The two-handed sword is a derivative of the long sword.  Weaponsmiths have always looked for ways to improve existing weapons.  In an effort to improve the long sword, the blade was lengthened.  Eventually, the handle had to be extended and two hands became necessary to properly swing the sword.  The primary function of two-handed swords is cleaving mounted knights and breaking up pike formations.
+
+STATISTICS:
+
+Damage:  1D10 + 1
+THAC0:  +1 bonus
+Damage type:  slashing
+Weight: 12
+Speed Factor: 9
+Proficiency Type: Two Handed sword
+Type:  2-handed
+Requires: 14 Strength~
+@660206 = ~Chain mail is made of interlocking metal rings.  It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.  Extra protection is given by magical enchantments placed on this armor.
+
+STATISTICS:
+
+Armor Class: 3
+Weight: 10
+Requires: 8 Strength~
+
+@661012 = ~Chauntea is a good-aligned diety, the farmer's goddess and the gardener's patroness, and attracts many worshippers from those close to the land.  She is the bitter opponent of gods of natural destruction, such as Talos and Auril.
+
+STATISTICS:
+
+Equipped Abilities: Wearer regenerates 1 hit point every 3 seconds
+Special Use:  Regenerates a target 5 hit points per second for sixty seconds
+
+*First Place Winner of the 2004 CtBIMS awards (Check The Bodies Item Making Sweepstakes) as part of a group of similar items.~
+@661014 = ~The Prince of Lies is a relatively new god, having swallowed the powers of three elder gods.  A schemer and plotter, Cyric has sought to consolidate his power among many factions and schisms, but has proved to be very popular among the Red Wizards of Thay.
+
+STATISTICS:
+
+Casts Greater Malision, Skull Trap or Symbol of Death once per day
+
+*First Place Winner of the 2004 CtBIMS awards (Check The Bodies Item Making Sweepstakes) as part of a group of similar items.~
+
+@661016 = ~Called upon by those suffering and hurt, Ilmater is a peaceful god who encourages others to endure pain and abuse, for rewards come to those who wait.  He is a popular god among the poor in the cities.
+
+STATISTICS:
+
+Awards +25 HP bonus while equipped.
+
+*First Place Winner of the 2004 CtBIMS awards (Check The Bodies Item Making Sweepstakes) as part of a group of similar items.~
+
+@661018 = ~The Lady of the Forest is a strong ally of both Eldath and Silvanus.  Most of her most fervent followers are rangers, as well as those forest creatures such as dryads who have no other diety.  The powers of this medallion have expired, and the symbol is nothing more than a homage to the Lady of the Forest.
+
+*First Place Winner of the 2004 CtBIMS awards (Check The Bodies Item Making Sweepstakes) as part of a group of similar items.~
+@661020 = ~Mystra, the Lady of Mysteries, is the goddess of magic, and one of the most powerful entities in the magical Realms.  Mystra's followers in the past decade have become more vocal and outgoing, following changes which occurred in the goddess herself.
+
+STATISTICS:
+
+Grants a +2 save versus spell bonus while equipped.
+Sets magical resistance to 60% while equipped.
+
+*First Place Winner of the 2004 CtBIMS awards (Check The Bodies Item Making Sweepstakes) as part of a group of similar items.~
+@661022 = ~Tempus, known as the Lord of Battles, is the warriors god, and turns his favor from one group of warriors to another as a war progressess.  He rewards the brave and valiant, and many fighters swear by him.  This large shield has been emblazoned with Tempus' holy symbol: a blazing sword on a blood-red field.  It awards whomever uses the heavy steel shield with various bonuses useful in battle.
+
+STATISTICS:
+
+Armor Class Bonus: 2
+Special:  
+  +1 vs. Missile Weapons
+  +50% Resistance to Missile Damage (Missile Attacks will do one half of full damage)
+  Grants an additional +1 to Strength while equipped.
+Weight: 15
+Requires: 15 Strength
+
+*First Place Winner of the 2004 CtBIMS awards (Check The Bodies Item Making Sweepstakes) as part of a group of similar items.~
+
+@661024 = ~The goddess Waukeen disappeared during the Time of Troubles, and for several years her priests received no spells.  Now they gain them again, but most priests are worshipping Lliira as well as Waukeen, and followers of the Goddess of Trade are dwindling.
+
+STATISTICS:
+
+Grants an additional +1 to Charisma while equipped.
+Creates 10 gold pieces once per day.
+
+*First Place Winner of the 2004 CtBIMS awards (Check The Bodies Item Making Sweepstakes) as part of a group of similar items.~
+
+@661027 = ~The mission of King Azoun's army is a simple one: defend Cormyr. The realization of that goal, however, is complex.  To enforce the royal word, Cormyr maintains a large standing army, which has increased dramatically in the last decade.  There are more than 12,000 Purple Dragons (so-called because of their banner) garrisoned in the major cities and fortifications, a mounted force of 500 warriors trained in sword and bow, led by 30 knights out of the Royal Court. Most of these elite units are veterans of the Crusade against the Horde, and are members of the Order of the Golden Way, a military award commemorating those battles.
+
+An important function of the Purple Dragons is to ensure peace throughout the kingdom of Cormyr.  This means keeping the interior safe from raiding parties so a merchant company or farmer may travel in safety and return home with profits intact.  To this end the Purple Dragons have been very successful. Certainly, the Purple Dragons cannot be everywhere at once, and there is always the threat of a random bandit attack somewhere in Cormyr, but the kingdom does have the reputation of offering safe overall travel.
+
+The Purple Dragons are also charged with preventing internal insurrection. There has been only one instance when the Purple Dragons were needed to quell an insurrection, when they put down the revolt by Gondegal without bloodshed.
+
+STATISTICS:
+
+Armor Class Bonus: 2
+Special:  +1 vs. Slashing Weapons
+Weight: 7
+Requires: 12 Strength
+
+*Second Place Winner of the 2004 CtBIMS awards (Check The Bodies Item Making Sweepstakes).~

@@ -1,0 +1,9 @@
+IF
+	Global("CbKilledAllRanchVampires","GLOBAL",0)
+	Dead("CBMASTVP")
+THEN
+	RESPONSE #100
+		SetGlobal("CbKilledAllRanchVampires","GLOBAL",1)
+END
+
+

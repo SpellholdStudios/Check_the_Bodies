@@ -1,0 +1,80 @@
+@1   = ~Sei venuto, immagino che ti sei reso conto degli errori che hai commesso, questo é un bene. Benvenuto, <GABBER>.~
+@2   = ~Smarrisci e dimentica te stesso, <GABBER>, e ti ritroverai senza tribù.~
+@3   = ~Diventerai il più potente; la tribù ti onorerà. Completa le missioni che devi.~
+@4   = ~Ti è stata affidata una missione. Accettala, non possiamo completarla senza di te.~
+@5   = ~Non accetteremo compromessi. Portaci il Bastone dello Sciamano.~
+@6   = ~Il tuo cervello é confuso. Il tuo corpo è molle.~
+@7   = ~Ti abbiamo raccontato del Bastone dello Sciamano. E' stato rubato.~
+@8   = ~Devi trovarlo. E dovrai riportarcelo.~
+@9   = ~Hai recuperato il bastone? Ne siamo davvero lieti.~
+@10  = ~Scegli quale nuova abilità vuoi imparare: intrappolare i tuoi nemici, colpire con potenza, o far infuriare il tuo corpo?~
+@11  = ~Voglio che mi insegni a Piazzare Trappole.~
+@12  = ~Voglio che mi insegni l'Attacco Poderoso.~
+@13  = ~Voglio che mi insegni come infuriarmi ed entrare nello stato di berserk.~
+@14  = ~D'accordo, preparati.~
+@15  = ~Abbiamo sentito crescere una presenza. Diverse lune fa, da lontano l'abbiamo percepita.~
+@16  = ~E' troppo potente, abbiano paura per la nostra gente. Non appartiene al nostro mondo. Bisogna proteggere e preservare Ruathym e Faerûn da una strage.~
+@17  = ~Non sappiamo dove si trovi esattamente. Ma sappiamo che si trova sulla terraferma. Nell'agglomerato di Athkatla.~
+@18  = ~Farò del mio meglio, Onorato Anziano.~
+@19  = ~Onorato Anziano, dubito che le mie abilità saranno sufficienti a sconfiggere una minaccia così terribile.~
+@20  = ~Nelle tue mani e nella tua forza c'é il destino della nostra tribù. Adempi ai tuoi compiti, noi crediamo in te. Abbi fiducia in te stesso, <GABBER>.~
+@21  = ~So che puoi farlo, e so che lo farai. La speranza è tutto quello che ci rimane. Ritorna da noi quando la presenza non ci sarà più.~
+@22  = ~Te lo abbiamo già detto. Sentiamo la presenza ad Athkatla.~
+@23  = ~Non possiamo essere più precisi. Sentiamo che la presenza è più forte nella parte ovest della città.~
+@24  = ~Possiamo sentire che il male si trova nei pressi di uno specchio d'acqua. Un fiume? Non lo so.~
+@25  = ~La creatura malvagia si trova sotto la superficie, <GABBER>. Dove c'è zolfo, sale, e marciume.~
+@26  = ~Non possiamo essere più precisi. Nella parte ovest della città. Da qualche parte vicino ad uno specchio d'acqua. Sotto la superficie troverai il male.~
+@27  = ~<GABBER>! La gente di Luskan ha portato la Guerra nelle nostre case. Dovrai respingerli nell'oceano e dovranno tornare da dove sono venuti.~
+@28  = ~Devi respingere fuori dalla nostra isola la gente di Luskan!~
+@29  = ~Dobbiamo parlare di molte cose. Non sento più la presenza malvagia. L'hai sconfitta, non è vero?~
+@30  = ~No, Onorevole Saggio, é stata scacciata, ma non distrutta.~
+@31  = ~Si, Onorevole Saggio, l'ho distrutta, qualunque cosa fosse.~
+@32  = ~E cosa ne é delle nostre case? La gente di Luskan, è stata scacciata?~
+@33  = ~Si, Anziano. Ho sconfitto gli aggressori e allontanato la minaccia da Ruathym.~
+@34  = ~E' finito tutto, dunque. Ti ringrazio. Hai agito nel giusto, <GABBER>. Ora sei più vicino alla nostra tribù.~
+@35  = ~Sei prezioso per la nostra tribù. Aumenteremo le tue abilità. Ti invieremo in un incarico meditativo. Ti insegneremo le usanze della nostra gente.~
+@36  = ~Hai imparato la Sopravvivenza.~
+@37  = ~Hai appreso l'Urlo di Guerra.~
+@38  = ~Hai imparato il Colpo Letale.~
+@39  = ~Sei pronto?~
+@40  = ~Si, Anziano. Dimmi cosa devo fare.~
+@41  = ~No, Anziano. Ho bisogno di altro tempo.~
+@42  = ~Dovrai apprendere il percorso di un uomo del nord. Il tuo valore è limitato in confronto ad un membro della tribù. Preparati. Ritorna da noi quando sarai pronto.~
+@43  = ~Il tuo primo incarico é stato semplice. Il secondo è stato più difficoltoso. Quello finale è facile. Dovrai prendere questa testa di martello da guerra. Si é rotta in battaglia.~
+@44  = ~Si é persa l'impugnatura. Il Martello da Guerra deve essere riforgiato. Quando sarà riforgiato riportacelo. Credo che il nano Cromwell ti possa aiutare.~
+@45  = ~Ci proverò, Saggio.~
+@46  = ~<GABBER>. Il nostro Martello é stato riparato?~
+@47  = ~Si, Saggio. Eccolo.~
+@48  = ~Mi dispiace, Saggio. Non sono ancora stato in grado di ripararlo.~
+@49  = ~Ritorna da noi quando il Martello sarà riforgiato.~
+@50  = ~Devi andare nei territori selvaggi di Ruathym. Lì impararerai le nostre tradizioni. Allora cos'altro vuoi conoscere.~
+@51  = ~Vuoi apprendere come combattere al buio? Vuoi sapere di più su come entrare in uno stato di furia? Vuoi imparare di più su come essere ancora più robusto?~
+@52  = ~Voglio sapere come Combattere al Buio.~
+@53  = ~Voglio sapere come ottenere lo stato di Berserk.~
+@54  = ~Voglio sapere come diventare più Resistente.~
+@55  = ~Vuoi imparare a combattere al buio? Ti piacerebbe sapere come infuriarti? Vuoi sapere come diventare più robusto? Desideri saperne di più su come Utilizzare Qualsiasi Oggetto?~
+@56  = ~Voglio apprendere come Utilizzare Qualsiasi Oggetto.~
+@57  = ~Sei un membro della nostra gente. Onora il tuo popolo e le tue tradizioni.~
+@58  = ~Non sei un membro della nostra gente. Ti chiedo di allontanarti.~
+@59  = ~Potresti essere uno dei nostri fratelli guerrieri poiché onori le nostre tradizioni e le nostre abitudini. In questo modo mi renderai fiero di te.~
+@60 = ~Relazioni Tribali
+
+Sono stato in grado di risolvere l'incarico che mi é stato assegnato dal Consiglio degli Anziani Uomini del Nord. Praticamente sono stato in grado di recuperare una semplice arma magica, ma di grande valore religioso e sentimentale per la tribù: ho riportato il Bastone dello Sciamano, e l'ho portato intatto a Ruathym.~
+@61 = ~Relazioni Tribali 
+
+Mi sono imbattuto in una tribù di Uomini del Nord: gente semi civilizzata che vive nell'isolata isola di Ruathym, a circa centosessanta chilometri da Waterdeep e dalla Costa della Spada. Mi hanno detto che se voglio diventare un guerriero della loro tribù, dovrei portare a buon fine un certo numero di missioni. La prima missione che mi hanno assegnato è quella di recuperare il Bastone dello Sciamano, un oggetto di abilità magiche minori, e di riportarlo al Consiglio degli Anziani il più rapidamente che posso.~
+@62 = ~Relazioni Tribali 
+
+Il Consiglio degli Anziani Uomini del Nord, per il quale sto lavorando con lo scopo di farmi accettare nella loro tribù di barbari e guerrieri, mi ha dato un'altra missione da completare. Dovrò viaggiare ancora oltremare, verso la città di Athkatla, e dovrò cercare di localizzare, e rimuovere una minaccia di cui gli Anziani hanno avuto sentore. Non sanno esattamente il luogo esatto dove sia questa minaccia, ma sanno che deve essere sconfitta prima che si abbatta  e faccia del male alla gente che abita su Toril.~
+@63 = ~Relazioni Tribali 
+
+Come il Consiglio degli Uomini del Nord mi aveva chiesto, sono tornato nel continente, dove ho trovato - e sconfitto - un potente demone che aveva in qualche modo trovato la strada, attraverso i piani eterei di arrivare a Faerûn.  Quando sono tornato all'isola di Ruathym, ho trovato un contingente di soldati provenienti dal nord della Costa della Spada ed esattamente dalla città di Luskan che, come fanno da anni, ancora una volta cercavano di conquistare l'isola. Sono stato in grado di respingere gli invasori, ed, una volta sventata la minaccia e cacciata dall'isola la gente di Luskan il Consiglio degli Anziani mi ha ringraziato.~
+@64 = ~Insegnamenti Tribali
+
+Il Consiglio degli Anziani Uomini del Nord ha compiuto un altro passo verso la mia integrazione nella loro società di barbari e guerrieri. Mi hanno aiutato insegnandomi le loro tecniche di sopravvivenza della loro regione.~
+@65 = ~Insegnamenti Tribali 
+
+Il Consiglio degli Anziani Uomini del Nord ha compiuto un altro passo verso la mia integrazione nella loro società di barbari e guerrieri. Mi hanno aiutato insegnandomi come spaventare i nemici con un terrificante Urlo di Guerra.~
+@66 = ~Insegnamenti Tribali 
+
+Il Consiglio degli Anziani Uomini del Nord ha compiuto un altro passo verso la mia integrazione nella loro società di barbari e guerrieri. Mi hanno aiutato insegnandomi come usare la mia forza e le mie capacità fisiche per uccidere i nemici con un potente Colpo Letale.~

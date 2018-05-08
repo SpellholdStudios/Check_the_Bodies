@@ -1,0 +1,127 @@
+@3   = ~Actually, I understand that you can forge some pretty nice weapons.  I was wondering if you could do that for all silver- or metal-work, or just weapons.~
+@5   = ~I need you to do something, good Cromwell.  I need this artifact destroyed.  It is of great evil, and cannot be found.  Take it; take it and destroy it.~
+@38  = ~Hmmmn... what's this?  Some kind of scale from a beastie, aye?~
+@40  = ~What would that involve?~
+@41  = ~I don't think so.  Do I have anything else useful?~
+@89  = ~That sounds fine.  Let's do it.~
+@90  = ~No, I don't think so.  Do I have anything else useful?~
+@91  = ~No, I don't think so.  I think I'll be going, now.~
+@99  = ~Aye, ye've collected the scales of a blue dragon.  By the Soul Forger, 'tis must have been hard won.  I can make a suit of armor from yon scales, if ye like.~
+@100 = ~Two things, me friend. It will cost ye 8,000 gp for the work, no less, and without an apprentice, ye'll have to stay here two days and heat the forge.~
+@101 = ~Aye, me friend, that I can do.  Me fadder train'd me in the art, and I can forge nearly anything, from spoons to statues.~
+@102 = ~Sounds to me that you be wantin' somethin' pretty.  Aye, you got plans, I'd wager.  What be you wantin' to make?~
+@103 = ~A crown.  I need a crown that looks real close to a magical item.  But I don't know what it looks like.  It's called a Crown of Horns, and it's pretty rare.~
+@104 = ~If you don't be knowin' what the durned thing looks like, how by Clangeddin's beard do you be expectin' me to make it?~
+@105 = ~I don't know, Cromwell.  But it's real important.  There's a mage that has the original, and he's planning to do something dangerous.  I need to stop him.~
+@106 = ~A problem we be havin', then.  You gots any other ideas about how to be makin' it?~
+@107 = ~All I know is that there was a mage who gave me a recipe.  I've got to find the parts, and then it's supposed to be enchanted.  Can you do it if I find the parts?~
+@108 = ~Actually, I was told what parts would be needed in order to make a fake, and I have them here.  Do you think you could make it from these?~
+@109 = ~I don't be knowin', me friend.  Sounds important, and I'd be doin' my best for ya, but without seein' what it was I'm supposed to forge, it'd be unlikely that anyone be fooled by the copy.~
+@110 = ~As long as you'd do your best, Cromwell, that's all that's important.~
+@111 = ~As you be sayin'.  Mind the mess on yer way out, <GIRLBOY>.~
+@112 = ~Don't be knowin', <GABBER>.  We can try, but it don't mean nothin' less what you be wantin' fools this mage ye speak about.~
+@113 = ~All right, why don't you take this stuff, and let's try it and see.~
+@114 = ~Well, I don't know if it'll work, and I don't want to waste these.  Let me see if I can find some more information for you about the real Crown of Horns.~
+@115 = ~That prolly be best, <GABBER>.  Maybe the real one or a paintin' or somethin'.  I's got to know what it looks like to forge it to fool anyone.~
+@116 = ~As always, <GIRLBOY>, mind the mess on yer way out.~
+@117 = ~If you be sure about this, I'll try it.  Don't mean nothing like I be tellin' you, but I'll be doin' my best for you.~
+@118 = ~Looks like what ever it was ye had worked.  Seems like this here crown would serve to do whatev'r it is you be planning to do with this mage.~
+@119 = ~Thanks, Cromwell.  I hope that he thinks this is the real one.~
+@120 = ~Looks like what ever it was ye had didn't work.  Seems like I'd be either needin' more of those parts, or a look at the real one.  If ye want me to try it again, bring me the parts and I'll take another go at it.~
+@121 = ~Thanks anyway, Cromwell.  I don't know what I'll do about it.~
+@122 = ~I normally be creatin' works of art: silver and iron and steel, not be destroyin' things.  But if ye say it need be destroyed, I can do that for ye, friend.  Here, let me see it.~
+@123 = ~Look't here.  A hilt.  Darned thing is broken.  How'd you be doing this?~
+@124 = ~What's this thing for?~
+@125 = ~Cromwell, it's part of a sword.  A Moonblade, in fact.  I want to rebuild it.~
+@126 = ~A Moonblade, you say?  Wonders never cease!  I ain't seen one of these in a long time.  How'd you break it?~
+@127 = ~I didn't break it.  I have to fix it, but don't know what I need to fix it.  Do you?~
+@128 = ~There be only one thing that can be used to forge Moonblades.  Persephonium.  You be needin' to get some from the mines up in Eaerlann.  Ascalhorn used to be minin' persephonium, but the damned demons put a stop to that.~
+@129 = ~You be bringing me some persephonium, sure as Clangeddin's hammer do I be able to forge the blade.  Mayhaps the hilt will have also retained the magics, and you'd have yourself a bonnie Elven blade indeed.~
+@130 = ~All right, Cromwell.  I'll try and find some persephonium.  Thanks.~
+@131 = ~Look't here.  You got yourself a hilt.  Broken it may be, but sure as my beard is long, I know what it is and how to be fixin' it.  You even got some metal to reforge this!~
+@132 = ~This is the hilt of a Moonblade, <GABBER>, a powerful Elven blade.  Ain't never seen one that was broken, but you be having persephonium, the only metal that can be used to forge the blades.~
+@133 = ~Don't know if you were up in Eaerlann or Everlund, and I'm  bettin' my hammer on the fact you weren't on Evermeet, but you got the ore somehows.~
+@134 = ~Now, do you be wanting to reforge this blade?~
+@135 = ~Well, Moonblades, actually, Elven weapons generally are tricky things.  It'd take me a couple of days to prepare everything, and you'd need to come back then to help me forge it.  Me apprentice is in Adbar, and I ain't got enough help.  It'd also cost ye, a good 25,000 gold for the use of me forge.  Still want to do it?~
+@136 = ~Yes, Cromwell.  Here's the gold and parts.  I'll come back in a few days and help you out.~
+@137 = ~Yes, Cromwell, but I don't have the money right now.  I'll have to come back with it.~
+@138 = ~Not right now, Cromwell.  Maybe later.~
+@139 = ~You got it, <GABBER>.  I'll have everything ready by then.~
+@140 = ~If ye raise enough, come and see me.  I won't be startin' to do the preparations till ye put up the money.~
+@141 = ~Aye, <GABBER>, as ye wish.  But a Moonblade's somethin' to be treasured, and the sooner ye have one, the better off ye'll be.~
+@142 = ~I still haven't finished up preparin' for the forging of ye Moonblade.  Come back in a while longer yet.~
+@143 = ~Ye be right on time, <GABBER>.  All is about ready for the forging of ye Moonblade.  Are ye ready to help me?~
+@144 = ~Yes, Cromwell.  Let's start this.~
+@145 = ~Not yet, Cromwell.  Give me a few more hours.~
+@146 = ~Aye, <GABBER>.  Listen closely to my instructions, lest the magic fail....~
+@147 = ~Aye, <GABBER>.  You be on the clock, so I'll wait long as ye need.~
+@148 = ~It is done, <GABBER>.  The Moonblade is whole.~
+@149 = ~I honor you with the blade, as you honor me in trusting me with such a tremendous smithing task.  Thank you, <GABBER>.~
+@150 = ~Cromwell, it's part of a sword.  A Spellsung Blade, in fact.  I want to rebuild it.~
+@151 = ~A Spellsung blade, you say?  Wonders never cease!  I ain't seen one of these in a long time.  How'd you break it?~
+@152 = ~I didn't break it.  I have to fix it, and I have some persephonium to rebuild the hilt.  Can you do it?~
+@153 = ~There be only one thing that can be used to forge Spellsung Blades.  Persephonium.  You be needin' to get some from the mines up in Eaerlann.  Ascalhorn used to be minin' persephonium, but the damned demons put a stop to that.~
+@154 = ~You be bringing me some persephonium, sure as Clangeddin's hammer do I be able to forge the blade.  Mayhaps the hilt will have also retained the magics, and you'd have yourself a bonnie blade indeed.~
+@155 = ~It is done, <GABBER>.  The Spellsung Blade is whole.~
+@156 = ~Aye, <GABBER>, look at whats ye got here.~
+@157 = ~Ye got yerself a nice staff, but it be rough.  Needs a bit o' work on it.  'Haps if I had stout oak I could be refinishin' the staff fer ye, but not without havin' wood.  Bring me some oak, a nice long branch, mind ye, but it cannae have knots, and we'll fix this right up fer ye.~
+@158 = ~Ye got yerself some solid oak, a nice pole and it doesn't even have knots.  I could be workin' this into a nice oaken staff fer ye, but I cannae do it without having somethin' to look at.  Ye be bringin' a staff, sure as me beard is wet, I'll whittle ye a staff fer thumpin' folks on their rumps.~
+@159 = ~Ye be havin' a nice pole of solid oak, and a broken staff, <GABBER>.  I could be workin' it out fer ya, if ye'd want to help me with it.  I cannae do it without yer help though.  What says ye?~
+@160 = ~Can you do it for 1000 gold pieces?~
+@161 = ~No, Cromwell.  What else do I have that you could do?~
+@162 = ~Sure, me friend.  I'd do it for 1,000 gp, no less mind ye, and ye'll have to stay for a while and help me with the forge.~
+@163 = ~All right, Cromwell.  Go ahead.~
+@164 = ~As ye wish.  We can start on it right away.~
+@165 = ~Well, there ye go, me friend.  A nice staff.  Use it well.  And if ye comes across anything else of interest, ye knows where to bring it, aye.~
+@166 = ~Ye got yerself a nice axe, but the blade be dull.  Needs a bit o' work on it.  'Haps if I had some ore, I could be sharpenin' and fillin' the knicks fer ye, but not without havin' smelted ore.  Bring me some ore, smelted mind ye, but it cannae be already forged, and we'll fix this right up fer ye.~
+@167 = ~Ye got yerself some smelted ore, a lot o' it, at that.  I could be workin' this into a nice edged weapon fer ye, but there isn't enough for a entire blade, so I cannae do it without having somethin' to add it to.  Ye be bringin' another weapon, sure as me beard is wet, I'll forge ye up a right blade, mayhaps an axe, fer cleavin' folks through their heads.~
+@168 = ~Ye be havin' a nice axe, but the blade be dull.  And ye got yerself some smelted ore, <GABBER>.  I could be workin' these two together fer ya, if ye'd want to help me with it.  I cannae do it without yer help though.  What says ye?~
+@169 = ~Can you do it for 10000 gold pieces?~
+@170 = ~Sure, me friend.  I'd do it for 10,000 gp, no less mind ye, and ye'll have to stay for a while and help me with the forge.~
+@171 = ~Well, there ye go, me friend.  A nice axe.  Use it well.  And if ye comes across anything else of interest, ye knows where to bring it, aye.~
+@172 = ~Ye got yerself a hammer head, but the handle be missin'.  Needs a bit o' work.  'Haps if I had somethin' to attach the head to, I could be forgin' and fillin' the warhammer fer ye.  Bring me a handle, the same metal- titanium, mind ye, and we'll fix this right up fer ye.~
+@173 = ~Ye got yerself a titanium handle, a nice one at that.  I could be workin' this into a hammer fer ya, but ye don't have a head to be mountin' on it, so I cannae do it.  Ye be bringin' a warhammer head, and sure as me beard is wet, I'll forge ye up a right warhammer fer crushin' folks heads.~
+@174 = ~Ye be havin' a nice hammer head, but it be missin' the shaft.  But look it here, ye got yerself a titanium handle!  <GABBER>, I could be workin' these two together into a bonnie warhammer fer ya, if ye'd want to help me with it.  I cannae do it without yer help though.  What says ye?~
+@175 = ~Can you do it for 20000 gold pieces?~
+@176 = ~No, Cromwell, I don't think I could afford it right now.  What else do I have that you could do?~
+@177 = ~Sure, me friend.  I'd do it for 20,000 gp, no less mind ye, and ye'll have to stay for a while and help me with the forge.~
+@178 = ~Well, there ye go, me friend.  A heavy warhammer for crushin' those annoyin' goblins to a pulp.  Use it well.  And if ye comes across anything else of interest, ye knows where to bring it, aye.~
+@179 = ~Of Elves and Artifacts
+
+I found the items that Eleanor had told me about and brought them to my dwarf friend Cromwell.  He was able to create nearly an exact copy of the true Crown of Horns, and I will have to meet up with this mage.  Hopefully he will fall for the ruse.~
+@180 = ~Of Elves and Artifacts
+
+I found the parts that Eleanor told me to collect in order to create a counterfeit Crown of Horns.  I brought them to my friend Cromwell, a master craftsman, but he was unable to create a duplicate.  I shall either have to have him try again, or find some other way of preventing the mage from attempting Permatration.~
+@181 = ~Of Elves and Artifacts
+
+After leaving the Temple of Waukeen in Trademeet, Eleanor was attacked by the mage she told me about.  He had a few bodyguards with him, but did not need them.  His magic was strong, much to strong for Eleanor, who was killed by the mage in an earnest spell battle for her very life.  I shall honor her sacrifice, and not let it be in vain.~
+@182 = ~Of Elves and Artifacts
+
+  I had a lengthy discussion with Eleanor, an elven mage who specializes in scholarly pursuits of ancient artifacts and magical items.  She is quite concerned with the ambitions of a mage who has employed her to research a theory known as permatration; which I had believed was just a myth.  Apparently this mage has come into an artifact which may allow him to perform a permatration ritual, and of course in the process causing widespread destruction.  Eleanor beseeched my aid, and has come up with a plan to foil the evil mage.
+  She thinks it best to create a duplicate copy of the artifact, one which is harmless.  I do not know if this is a good idea, but if I wish to construct such a counterfeit artifact, she has told me what items I would need to create such a fake.  The items are commonly found, and I would need a diamond, a Potion of Magic Protection, a scroll with the spell Enchanted Weapon, and any item containing greenstone.  If I find these items and want to have Eleanor create a counterfeit, she said she would contact me someplace in Athkatla.
+  Aside from duplicating the object, Eleanor told me where I could find the mage.  She was told that she could contact him in a meadow near the Forest of Tethyr, where he keeps an underground laboratory to conduct his experiements.  If all else fails, I could probably find him there to defeat his attempts to steal the life force of others to earn himself a god-hood.~
+@183 = ~Of Elves and Artifacts
+
+  I had a lengthy discussion with Eleanor, an elven mage who specializes in scholarly pursuits of ancient artifacts and magical items.  She is quite concerned with the ambitions of a mage who has employed her to research a theory known as permatration; which I had believed was just a myth.  Apparently this mage has come into an artifact which may allow him to perform a permatration ritual, and of course in the process causing widespread destruction.  Eleanor beseeched my aid, and has come up with a plan to foil the evil mage.
+  She thinks it best to create a duplicate copy of the artifact, one which is harmless.  I do not know if this is a good idea, but if I wish to construct such a counterfeit artifact, she has told me what items I would need to create such a fake.  The items are commonly found, and I would need a diamond, a Potion of Magic Protection, a scroll with the spell Enchanted Weapon, and any item containing greenstone.  If I find these items and want to have Eleanor create a counterfeit, she said she would contact me someplace in Athkatla.
+  Aside from duplicating the object, Eleanor told me where I could find the mage.  She was told that she could contact him in a dungeon near the Umar Hills, where he has a laboratory where he conducts his experiements.  If all else fails, I could probably find him there to defeat his attempts to steal the life force of others to earn himself a god-hood.~
+@184 = ~Of Elves and Artifacts
+
+  I had a lengthy discussion with Eleanor, an elven mage who specializes in scholarly pursuits of ancient artifacts and magical items.  She is quite concerned with the ambitions of a mage who has employed her to research a theory known as permatration; which I had believed was just a myth.  Apparently this mage has come into an artifact which may allow him to perform a permatration ritual, and of course in the process causing widespread destruction.  Eleanor beseeched my aid, and has come up with a plan to foil the evil mage.
+  She thinks it best to create a duplicate copy of the artifact, one which is harmless.  I do not know if this is a good idea, but if I wish to construct such a counterfeit artifact, she has told me what items I would need to create such a fake.  The items are commonly found, and I would need a diamond, a Potion of Magic Protection, a scroll with the spell Enchanted Weapon, and any item containing greenstone.  If I find these items and want to have Eleanor create a counterfeit, she said she would contact me someplace in Athkatla.
+  Aside from duplicating the object, Eleanor told me where I could find the mage.  She was told that she could contact him in a dungeon below the Windspear Hills, where he has a laboratory where he conducts his experiements.  If all else fails, I could probably find him there to defeat his attempts to steal the life force of others to earn himself a god-hood.~
+@185 = ~Of Elves and Artifacts
+
+I have identified and received the magical message stored within the statuette given to my by an elf in the Bridge District.  The voice, apparently the elf's, was full of fear and terror, though did not yield many clues as to what the adventure that the elf alludes to.  All I know is that the elf woman may be in danger- and she mentions that the Sword Coast could also be in danger- and if I meet her in the Temple of Waukeen in Trademeet, she will try to explain further.  Perhaps I will, but I'd much rather know more about this elf woman first.~
+@186 = ~Of Elves and Artifacts
+
+While walking through the Bridge District of Athkatla, an elf, whom I do not know, approached me with much trepidation.  She did not say anything, but surreptisiously dropped a small statuette into my pack.  I do not know why, yet I do not know what the properties of the statuette are yet.  I shall have to investigate it, and perhaps the elf may lead me to yet another adventure.~
+@187 = ~Of Elves and Artifacts
+
+I found the parts that Eleanor told me to collect in order to create a counterfeit Crown of Horns.  I brought them to my friend Cromwell, a master craftsman, but he was unable to create a duplicate.  I shall either have to have him try again, or find some other way of preventing the mage from attempting Permatration.~
+@188 = ~Of Elves and Artifacts
+
+I have brought the Crown of Horns to my friend Cromwell.  He was able to successfully destroy the ancient evil that made up the crown, something that the great mage Khelben was unable to do years ago.  Khaddyr the mage who wanted to attempt Permatration is no longer a threat, and poor Eleanor, the elfwoman I met before this all started can rest easy.  Once again, I do believe I have saved Faerûn from certain destruction.~
+@189 = ~Of Elves and Artifacts
+
+I have found a way to stop the mage Khaddyr from completing his permatration ritual.  What began as an elusive quest with a scared elfwoman is almost complete.  I have recovered the real Crown of Horns, but have not yet decided what should be done with it.  I could keep it, but it's evil would still exist in Faerûn.  Perhaps it would be best if the Crown were destroyed.~

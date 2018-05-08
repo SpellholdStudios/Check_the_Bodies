@@ -1,0 +1,25 @@
+BEGIN ~CBGRDYUN~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN REPLY @2 GOTO 3
+  IF ~PartyHasItem("CBRYNN")~ THEN REPLY @3 GOTO 1
+  IF ~PartyHasItem("CBGONAST")~ THEN REPLY @4 GOTO 2
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @5
+  IF ~~ THEN DO ~TakePartyItem("CBRYNN")
+GiveGoldForce(500)~ EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @6
+  IF ~~ THEN DO ~TakePartyItem("CBGONAST")
+GiveGoldForce(10000)~ EXIT
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @7
+  IF ~~ THEN EXIT
+END

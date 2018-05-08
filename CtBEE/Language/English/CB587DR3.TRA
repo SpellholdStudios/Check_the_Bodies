@@ -1,0 +1,54 @@
+@1   = ~Brother, before I can assist you, I must complete my own studies under the tutelage of the Archdruid.  You should speak with her.~
+@2   = ~Brother, the Archdruid tells me that you are truly a spirit worthy of our guidance.  She has requested that I spend time teaching you a valuable skill.~
+@3   = ~Again, Brother, you must choose: we will help you further yourself, but you must make the decision.  Would you like to learn how to shapeshift yourself into the form of a magical dragon, would you prefer to learn improved methods of healing, or would you wish to cast spells at a greater speed?  Think carefully, Brother, your choice is final.~
+@4   = ~Priestess, I think I would like to learn to shapeshift.~
+@5   = ~Priestess, I would like to heal others more efficiently.~
+@6   = ~Please teach me how to cast spells more quickly, Priestess.~
+@7   = ~I will be more than happy to teach you that, Brother.~
+@8   = ~Thank you, Brother, for giving me the opportunity to teach you how to shapeshift to the form of a dragon.~
+@9   = ~Thank you, Brother, for giving me the opportunity to teach you how to heal others.~
+@10  = ~Thank you, Brother, for giving me the opportunity to teach you how to cast spells more quickly.~
+@11  = ~I am pleased to have helped you, Brother, to become more attuned to nature.  I am also pleased that you have helped us.  Yet there is one final task you must do prior to the Archdruid teaching you a new skill.  Are you ready?~
+@12  = ~Yes, Priestess.  What must I do?~
+@13  = ~Not now, Priestess.  I need time.~
+@14  = ~Then I shall await our next meeting with anticipation, Brother.~
+@15  = ~While your first task was fairly simple, your second was much more difficult.  This final task is easy, only in that you are not required to risk yourself.  Here, Brother, take this staff.  It is a magical staff, what was thought to be an indestructible weapon.~
+@16  = ~The wood of the staff is flawed now.  With the right wood, it can be refinished and regain its magical properties.  There is only one in the region that has enough skill to repair the staff, a dwarf by the name of Cromwell.  Find the wood and bring both to him.  When the staff is repaired, return to me. ~
+@17  = ~I will try, Priestess.~
+@18  = ~I know you will, Brother.~
+@19  = ~Have you been successful with the staff, Brother?~
+@20  = ~Yes, Priestess.  I have it.~
+@21  = ~No, Priestess.  I have not yet been able to repair the staff.~
+@22  = ~Return to me, Brother, when you have.~
+@23  = ~Then you are done.  Here, Brother, I will further enchant the staff for you and present it as a gift.~
+@24  = ~I have not yet completed my apprenticeship to the Archdruid, <GABBER>, and am too busy to interrupt my meditations.~
+@25  = ~Sister, before I can assist you, I must complete my own studies under the tutelage of the Archdruid.  You should speak with her.~
+@26  = ~Sister, the Archdruid tells me that you are truly a spirit worthy of our guidance.  She has requested that I spend time teaching you a valuable skill.~
+@27  = ~Again, Sister, you must choose: we will help you further yourself, but you must make the decision.  Would you like to learn how to shapeshift yourself into the form of a magical dragon, would you prefer to learn improved methods of healing, or would you wish to cast spells at a greater speed?  Think carefully, Sister, your choice is final.~
+@28  = ~I will be more than happy to teach you that, Sister.~
+@29  = ~Thank you, Sister, for giving me the opportunity to teach you how to shapeshift to the form of a dragon.~
+@30  = ~Thank you, Sister, for giving me the opportunity to teach you how to heal others.~
+@31  = ~Thank you, Sister, for giving me the opportunity to teach you how to cast spells more quickly.~
+@32  = ~I am pleased to have helped you, Sister, to become more attuned to nature.  I am also pleased that you have helped us.  Yet there is one final task you must do prior to the Archdruid teaching you a new skill.  Are you ready?~
+@33  = ~Then I shall await our next meeting with anticipation, Sister.~
+@34  = ~While your first task was fairly simple, your second was much more difficult.  This final task is easy, only in that you are not required to risk yourself.  Here, Sister, take this staff.  It is a magical staff, what was thought to be an indestructible weapon.~
+@35  = ~I know you will, Sister.~
+@36  = ~Have you been successful with the staff, Sister?~
+@37  = ~Return to me, Sister, when you have.~
+@38  = ~Then you are done.  Here, Sister, I will further enchant the staff for you and present it as a gift.~
+@39 = ~The Great Druid:  Teaching of the Way
+
+The Great Druid and her apprenctices have taught me how to shapeshift myself into the form of a dragon, which is the pinnicle of shapeshifting.~
+@40 = ~The Great Druid:  Teaching of the Way
+
+The Great Druid and her apprenctices have taught me how to heal others more quickly and with greater efficiancy.~
+@41 = ~The Great Druid:  Teaching of the Way
+
+The Great Druid and her apprenctices have taught me how to cast spells more quickly.~
+@42 = ~The Great Druid:  Regrowing
+
+The trio of druids tending a northern grove have ordered me to help them by repairing a once magical staff that has been damaged.  I was told that I should find some rare wood to bring to the dwarf in Athkatla, Cromwell, who should be able to repair the staff.
+  When I have finished with the staff, I am to report back to the druids south of Baldur's Gate where they have promised to teach me a skill.~
+@43 = ~The Great Druid:  Regrowing
+
+I have been able to, with the help of Cromwell the dwarf, repair a magical staff that the trio of druids have asked me to help them restore to its magical state.  The staff had been damaged, but seems to be much more powerful now that it is restored.~

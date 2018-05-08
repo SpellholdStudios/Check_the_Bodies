@@ -1,0 +1,46 @@
+IF
+	Global("CbPartyLeftTheClassDungeon","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPartyLeftTheClassDungeon","GLOBAL",1)
+		DisplayStringNoName(Player1,@550404)
+END
+
+IF
+	OR(5)
+		Global("CbElvenSorceressDemon","GLOBAL",1)
+		Global("CbMasterBardDemon","GLOBAL",1)
+		Global("CbRangerDemon","GLOBAL",1)
+		Global("CbDruidTeachingDemon","GLOBAL",1)
+		Global("CbNorthmenTeachingDemon","GLOBAL",1)
+	Global("CbDemonCreated","AR3580",0)
+	!Exists("CBEMDM01")
+THEN
+	RESPONSE #20
+		SetGlobal("CbDemonCreated","AR3580",1)
+		CreateCreature("CBEMDM01",[1147.1167],0)
+	RESPONSE #20
+		SetGlobal("CbDemonCreated","AR3580",1)
+		CreateCreature("CBEMDM01",[2413.1572],0)
+	RESPONSE #20
+		SetGlobal("CbDemonCreated","AR3580",1)
+		CreateCreature("CBEMDM01",[3144.1144],0)
+	RESPONSE #20
+		SetGlobal("CbDemonCreated","AR3580",1)
+		CreateCreature("CBEMDM01",[3055.2309],0)
+	RESPONSE #20
+		SetGlobal("CbDemonCreated","AR3580",1)
+		CreateCreature("CBEMDM01",[1884.2562],0)
+END
+
+IF
+	Global("CbElvenDemonDestroyed","GLOBAL",0)
+	Global("CbDemonCreated","AR3580",1)
+	Dead("CBEMDM02")
+THEN
+	RESPONSE #100
+		SetGlobal("CbElvenDemonBanished","GLOBAL",0)
+		SetGlobal("CbElvenDemonDestroyed","GLOBAL",1)
+END
+
+

@@ -1,0 +1,133 @@
+IF
+	Global("CbAngryVillagersRevolt","GLOBAL",2)
+	OR(2)
+		GlobalGT("CbPartySidedSoldiers","AR1000",0)
+		GlobalGT("CbPartySidedVillagers","AR1000",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbAngryVillagersRevolt","GLOBAL",3)
+		Continue()
+END
+
+IF
+	Global("CbPartyEscapedUnderdark","GLOBAL",1)
+	Global("CbAngryVillagersRevolt","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbAngryVillagersRevolt","GLOBAL",1)
+		CreateCreature("CBAVRCWa",[2509.396],10)
+		CreateCreature("CBAVRCWb",[2568.425],12)
+		CreateCreature("CBAVRCWc",[2525.432],2)
+		CreateCreature("m05pcspy",[2536.402],0)
+		CreateCreature("CBAVRVLa",[2462.331],5)
+		CreateCreature("CBAVRVLc",[2538.307],6)
+		CreateCreature("CBAVRVLd",[2605.345],8)
+		CreateCreature("CBAVRVLe",[2403.384],3)
+		CreateCreature("CBAVRVLd",[2420.412],1)
+		CreateCreature("CBAVRVLb",[2409.453],0)
+		CreateCreature("CBAVRVLc",[2439.498],15)
+		CreateCreature("CBAVRVLe",[2502.471],0)
+		CreateCreature("CBAVRVLd",[2518.510],12)
+		CreateCreature("CBAVRVLc",[2597.486],14)
+		CreateCreature("CBAVRVLf",[2666.427],9)
+		CreateCreature("CBAVRVLe",[2625.335],10)
+		CreateCreature("CBAVRVLc",[2683.371],8)
+		CreateCreature("CBAVRSLa",[2328.498],0)
+		CreateCreature("CBAVRSLb",[2374.561],0)
+		CreateCreature("CBAVRSLc",[2522.573],0)
+		CreateCreature("CBAVRSLd",[2731.535],0)
+		CreateCreature("CBAVRSLa",[2759.403],0)
+		CreateCreature("CBAVRSLa",[2710.265],0)
+		CreateCreature("CBAVRSLa",[2486.151],0)
+		CreateCreature("CBAVRSLb",[2550.148],0)
+		CreateCreature("CBAVRSLc",[2343.270],0)
+		CreateCreature("CBAVRSLe",[2444.603],0)
+		CreateCreature("CBAVRSLf",[2742.318],0)
+		CreateCreature("CBAVRSLf",[2416.227],0)
+		CreateCreature("CBAVRSLf",[2605.210],0)
+		CreateCreature("CBAVRSLf",[2584.563],0)
+		CreateCreature("CBAVRSLf",[2652.538],0)
+		CreateCreature("CBAVRSLg",[2519.606],0)
+		Wait(1)
+		Continue()
+END
+
+IF
+	OR(2)
+		GlobalGT("BodhiJob","GLOBAL",3)
+		GlobalGT("CbTalkedGaelan","GLOBAL",1)
+	Global("CbTaxAnnouncement","GLOBAL",0)
+	!Exists("CBTAXCVA")
+THEN
+	RESPONSE #100
+		SetGlobal("CbTaxAnnouncement","GLOBAL",1)
+		CreateCreatureOffScreen("CBTAXCVA",0)
+		Continue()
+END
+
+IF
+	Global("CbTaxAnnouncement","GLOBAL",2)
+	Global("CbTaxAnnouncementArea","AR1000",0)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		SetGlobal("CbTaxAnnouncementArea","AR1000",1)
+		StartCutSceneMode()
+		StartCutScene("CBCUTTXa")
+		Continue()
+END
+
+IF
+	Global("Cb_CowlsKillPC","AR1000",1)
+	NumCreatureVsPartyLT("CBSCCWEN",3)
+THEN
+	RESPONSE #100
+		CreateCreatureOffScreen("CBSCCWEN",0)
+		CreateCreatureOffScreen("CBSCCWEN",0)
+		CreateCreatureOffScreen("CBSCCWEN",0)
+		CreateCreatureOffScreen("CBSCCWEN",0)
+		CreateCreatureOffScreen("CBSCCWEN",0)
+		CreateCreatureOffScreen("CBSCCWEN",0)
+		CreateCreatureOffScreen("CBSCCWEN",0)
+		Continue()
+END
+
+IF
+	OR(7)
+		Class(Player1,MAGE)
+		Class(Player1,FIGHTER_MAGE)
+		Class(Player1,CLERIC_MAGE)
+		Class(Player1,MAGE_THIEF)
+		Class(Player1,SORCERER)
+		Class(Player1,FIGHTER_MAGE_THIEF)
+		Class(Player1,FIGHTER_MAGE_CLERIC)
+	LevelGT(Player1,9)
+	Global("CbDearPrudence","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbDearPrudence","GLOBAL",1)
+		CreateCreatureOffScreen("CBRYBERG",6)
+		Continue()
+END
+
+IF
+	GlobalLT("CbSilenceOrSaveMadame","GLOBAL",2)
+	Global("CbCowlClientsSpawned","AR1000",0)
+THEN
+	RESPONSE #100
+		IncrementGlobal("CbSilenceOrSaveMadame","GLOBAL",1)
+		SetGlobal("CbCowlClientsSpawned","AR1000",1)
+		CreateCreature("CBSCCW01",[2264.1490],15)
+		CreateCreature("CBSCCW02",[2292.1539],10)
+		Continue()
+END
+
+IF
+	Global("CbAngryVillagersRevolt","GLOBAL",4)
+THEN
+	RESPONSE #100
+		ActionOverride("m05pcspy",EscapeAreaDestroy(90))
+		Continue()
+END
+
+

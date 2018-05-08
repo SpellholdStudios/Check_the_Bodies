@@ -1,0 +1,82 @@
+DEFINE_PATCH_MACRO ~ADD_AREA_ENTRANCE~ BEGIN
+		PATCH_IF (%SOURCE_SIZE% > 0xd4) BEGIN
+				//adding new bytes
+				READ_LONG 0x68 entrances_offset
+        READ_SHORT 0x6c entrances_num
+        WRITE_SHORT 0x6c (%entrances_num% + 1)
+        SET new_bytes = (0x68 * 1)
+        SET cmp_loc = %entrances_offset%
+        SET check_num = %entrances_num%
+        INSERT_BYTES (%cmp_loc%) (%new_bytes%)
+				//write new entrance
+				WRITE_EVALUATED_ASCII (%entrances_offset% + 0x00) ~%AREA_ENTRANCE_NAME%~ (32)      		//Name
+				WRITE_LONG	 					(%entrances_offset% + 0x20) ~%AREA_ENTRANCE_X_COORDINATE%~		 	//X coordinate
+				WRITE_LONG	 					(%entrances_offset% + 0x22) ~%AREA_ENTRANCE_Y_COORDINATE%~		 	//Y coordinate
+				WRITE_LONG						(%entrances_offset% + 0x24) ~%AREA_ENTRANCE_ORIENTATION%~				//Orientation
+				//check offsets and update if needed
+				READ_LONG 0x54 actors_offset
+        PATCH_IF ("%actors_offset%">"%cmp_loc%") OR (("%actors_offset%" == "%cmp_loc%") AND ("%check_num%" == 0)) BEGIN
+     			WRITE_LONG  0x54  (%actors_offset% + %new_bytes%) //Actors Offset
+   			END
+   			READ_LONG 0x5c regions_offset
+        PATCH_IF ("%regions_offset%">"%cmp_loc%") OR (("%regions_offset%" == "%cmp_loc%") AND ("%check_num%" == 0)) BEGIN
+     			WRITE_LONG  0x5c  (%regions_offset% + %new_bytes%) //Regions Offset
+   			END
+   			READ_LONG 0x60 spawns_offset
+        PATCH_IF ("%spawns_offset%">"%cmp_loc%") OR (("%spawns_offset%" == "%cmp_loc%") AND ("%check_num%" == 0)) BEGIN
+     			WRITE_LONG  0x60  (%spawns_offset% + %new_bytes%) //Spawn Points Offset
+   			END
+   			READ_LONG 0x70 cont_offset
+        PATCH_IF ("%cont_offset%">"%cmp_loc%") OR (("%cont_offset%" == "%cmp_loc%") AND ("%check_num%" == 0)) BEGIN
+     			WRITE_LONG  0x70  (%cont_offset% + %new_bytes%) //Containers Offset
+   			END
+   			READ_LONG 0x78 items_offset
+        PATCH_IF ("%items_offset%">"%cmp_loc%") OR (("%items_offset%" == "%cmp_loc%") AND ("%check_num%" == 0)) BEGIN
+     			WRITE_LONG  0x78  (%items_offset% + %new_bytes%) //Items Offset
+   			END
+   			READ_LONG 0x7c vert_offset
+        PATCH_IF ("%vert_offset%">"%cmp_loc%") OR (("%vert_offset%" == "%cmp_loc%") AND ("%check_num%" == 0)) BEGIN
+     			WRITE_LONG  0x7c  (%vert_offset% + %new_bytes%) //Vertices Offset
+   			END
+   			READ_LONG 0x84 amb_offset
+        PATCH_IF ("%amb_offset%">"%cmp_loc%") OR (("%amb_offset%" == "%cmp_loc%") AND ("%check_num%" == 0)) BEGIN
+     			WRITE_LONG  0x84  (%amb_offset% + %new_bytes%) //Ambients Offset
+   			END
+   			READ_LONG 0x88 vars_offset
+        PATCH_IF ("%vars_offset%">"%cmp_loc%") OR (("%vars_offset%" == "%cmp_loc%") AND ("%check_num%" == 0)) BEGIN
+     			WRITE_LONG  0x88  (%vars_offset% + %new_bytes%) //Variables Offset
+   			END
+   			READ_LONG 0xa0 expbmp_offset
+        PATCH_IF ("%expbmp_offset%">"%cmp_loc%") OR (("%expbmp_offset%" == "%cmp_loc%") AND ("%check_num%" == 0)) BEGIN
+     			WRITE_LONG  0xa0  (%expbmp_offset% + %new_bytes%) //Explored Bitmask Offset
+   			END
+   			READ_LONG 0xa8 doors_offset
+        PATCH_IF ("%doors_offset%">"%cmp_loc%") OR (("%doors_offset%" == "%cmp_loc%") AND ("%check_num%" == 0)) BEGIN
+     			WRITE_LONG  0xa8  (%doors_offset% + %new_bytes%) //Doors Offset
+   			END
+   			READ_LONG 0xb0 anim_offset
+        PATCH_IF ("%anim_offset%">"%cmp_loc%") OR (("%anim_offset%" == "%cmp_loc%") AND ("%check_num%" == 0)) BEGIN
+     			WRITE_LONG  0xb0  (%anim_offset% + %new_bytes%) //Animations Offset
+   			END
+   			READ_LONG 0xb8 tiled_offset
+        PATCH_IF ("%tiled_offset%">"%cmp_loc%") OR (("%tiled_offset%" == "%cmp_loc%") AND ("%check_num%" == 0)) BEGIN
+     			WRITE_LONG  0xb8  (%tiled_offset% + %new_bytes%) //Tiled Objects Offset
+   			END
+   			READ_LONG 0xbc songs_offset
+        PATCH_IF ("%songs_offset%">"%cmp_loc%") OR (("%songs_offset%" == "%cmp_loc%") AND ("%check_num%" == 0)) BEGIN
+     			WRITE_LONG  0xbc  (%songs_offset% + %new_bytes%) //Song Entries Offset
+   			END
+   			READ_LONG 0xc0 rest_spawns_offset
+        PATCH_IF ("%rest_spawns_offset%">"%cmp_loc%") OR (("%rest_spawns_offset%" == "%cmp_loc%") AND ("%check_num%" == 0)) BEGIN
+     			WRITE_LONG  0xc0  (%rest_spawns_offset% + %new_bytes%) //Rest Interruptions Offsets
+   			END
+   			READ_LONG 0xc4 automap_offset
+        PATCH_IF ("%automap_offset%">"%cmp_loc%") OR (("%automap_offset%" == "%cmp_loc%") AND ("%check_num%" == 0)) BEGIN
+     			WRITE_LONG  0xc4  (%automap_offset% + %new_bytes%) //Automap Note Offsets
+   			END
+   			READ_LONG 0xcc projectile_traps_offset
+        PATCH_IF ("%projectile_traps_offset%">"%cmp_loc%") OR (("%projectile_traps_offset%" == "%cmp_loc%") AND ("%check_num%" == 0)) BEGIN
+     			WRITE_LONG  0xcc  (%projectile_traps_offset% + %new_bytes%) //Projectile Traps Offsets
+   			END
+		END
+END

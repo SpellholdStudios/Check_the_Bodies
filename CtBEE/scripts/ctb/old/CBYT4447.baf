@@ -1,0 +1,162 @@
+IF
+	AreaCheck("AR3646")
+	Global("CbSuperBoss","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSuperBoss","LOCALS",1)
+                ApplySpellRES("CBYT4446",Myself)
+END
+
+IF
+	OnCreation()
+	Global("CbYuanTiGotEquip","LOCALS",0)
+THEN
+	RESPONSE #20
+		SetGlobal("CbYuanTiGotEquip","LOCALS",1)
+		GiveItemCreate("BELT10",Myself,1,0,0) // Belt of Inertial Barrier
+		EquipItem("BELT10") // Belt of Inertial Barrier
+		GiveItemCreate("HELM04",Myself,1,0,0) // Helmet of Defense
+		EquipItem("HELM04") // Helmet of Defense
+		GiveItemCreate("RING07",Myself,1,0,0) // Ring of Protection +3
+		EquipItem("RING07") // Ring of Protection +3
+		GiveItemCreate("CLCK20",Myself,1,0,0) // Cloak of Mirroring
+		EquipItem("CLCK20") // Cloak of Mirroring
+		GiveItemCreate("RNDTRE06",Myself,1,0,0)
+		GiveItemCreate("SW2H08",Myself,1,0,0) // Spectral Brand +4
+		EquipItem("SW2H08") // Spectral Brand +4
+	RESPONSE #20
+		SetGlobal("CbYuanTiGotEquip","LOCALS",1)
+		GiveItemCreate("BELT08",Myself,1,0,0) // Girdle of Frost Giant Strength
+		EquipItem("BELT08") // Girdle of Frost Giant Strength
+		GiveItemCreate("HELM20",Myself,1,0,0) // Pale Green Ioun Stone
+		EquipItem("HELM20") // Pale Green Ioun Stone
+		GiveItemCreate("RING07",Myself,1,0,0) // Ring of Protection +2
+		EquipItem("RING07") // Ring of Protection +2
+		GiveItemCreate("CLCK02",Myself,1,0,0) // Improved Cloak of Protection +2
+		EquipItem("CLCK02") // Improved Cloak of Protection +2
+		GiveItemCreate("RNDTRE06",Myself,1,0,0)
+		GiveItemCreate("SW2H11",Myself,1,0,0) // Soul Reaver +4
+		EquipItem("SW2H11") // Soul Reaver +4
+	RESPONSE #20
+		SetGlobal("CbYuanTiGotEquip","LOCALS",1)
+		GiveItemCreate("BELT03",Myself,1,0,0) // Girdle of Bluntness
+		EquipItem("BELT03") // Girdle of Bluntness
+		GiveItemCreate("HELM24",Myself,1,0,0) // Obsidian Ioun Stone
+		EquipItem("HELM24") // Obsidian Ioun Stone
+		GiveItemCreate("RING09",Myself,1,0,0) // Ring of Free Action
+		EquipItem("RING09") // Ring of Free Action
+		GiveItemCreate("CLCK20",Myself,1,0,0) // Cloak of the Shield
+		EquipItem("CLCK20") // Cloak of the Shield
+		GiveItemCreate("RNDTRE06",Myself,1,0,0)
+		GiveItemCreate("SW1H40",Myself,1,0,0) // Blade of Roses +3
+		EquipItem("SW1H40") // Blade of Roses +3
+	RESPONSE #20
+		SetGlobal("CbYuanTiGotEquip","LOCALS",1)
+		GiveItemCreate("BELT09",Myself,1,0,0) // Girdle of Fortitude
+		EquipItem("BELT09") // Girdle of Fortitude
+		GiveItemCreate("HELM30",Myself,1,0,0) // Thieves' Hood
+		EquipItem("HELM30") // Thieves' Hood
+		GiveItemCreate("RING27",Myself,1,0,0) // Ring of Fire Control
+		EquipItem("RING27") // Ring of Fire Control
+		GiveItemCreate("CLCK02",Myself,1,0,0) // Cloak of Protection +2
+		EquipItem("CLCK02") // Cloak of Protection +2
+		GiveItemCreate("RNDTRE06",Myself,1,0,0)
+		GiveItemCreate("SW1H55",Myself,1,0,0) // Celestial Fury
+		EquipItem("SW1H55") // Celestial Fury
+	RESPONSE #20
+		SetGlobal("CbYuanTiGotEquip","LOCALS",1)
+		GiveItemCreate("BELT06",Myself,1,0,0) // Girdle of Fire Giant Strength
+		EquipItem("BELT06") // Girdle of Fire Giant Strength
+		GiveItemCreate("RING31",Myself,1,0,0) // Ring of Regeneration
+		EquipItem("RING31") // Ring of Regeneration
+		GiveItemCreate("CLCK24",Myself,1,0,0) // Cloak of Reflection
+		EquipItem("CLCK24") // Cloak of Reflection
+		GiveItemCreate("RNDTRE06",Myself,1,0,0)
+		GiveItemCreate("SW1H22",Myself,1,0,0) // Short Sword of Mask +4
+		EquipItem("SW1H22") // Short Sword of Mask +4
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("CbCastOnce","LOCALS",0)
+THEN
+	RESPONSE #80
+		SetGlobal("CbCastOnce","LOCALS",1)
+		SpellNoDec(NearestEnemyOf(Myself),WIZARD_MELF_ACID_ARROW)
+	RESPONSE #80
+		SetGlobal("CbCastOnce","LOCALS",1)
+		SpellNoDec(NearestEnemyOf(Myself),WIZARD_AGANNAZAR_SCORCHER)
+	RESPONSE #100
+		SetGlobal("CbCastOnce","LOCALS",1)
+		SpellNoDec(NearestEnemyOf(Myself),WIZARD_MAGIC_MISSILE)
+	RESPONSE #100
+		SetGlobal("CbCastOnce","LOCALS",1)
+		SpellNoDec(NearestEnemyOf(Myself),WIZARD_FLAME_ARROW)
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	Global("EquipWeapon","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("EquipWeapon","LOCALS",1)
+		EquipMostDamagingMelee()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("CastWhirlwind","LOCALS",0)
+	!GlobalTimerNotExpired("WhirlwindTimer","LOCALS")
+THEN
+	RESPONSE #10
+		ForceSpell(Myself,WARRIOR_WHIRLWIND)
+		DisplayStringHead(Myself,@550538) // No such index
+		SetGlobal("CastWhirlwind","LOCALS",1)
+	RESPONSE #90
+		SetGlobal("CastWhirlwind","LOCALS",1)
+		
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobal("CastWhirlwind","LOCALS",0)
+		SetGlobalTimer("WhirlwindTimer","LOCALS",30)
+		EquipMostDamagingMelee()
+		AttackReevaluate(NearestEnemyOf(Myself),120)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HPPercentLT(Myself,25)
+	HPGT(Myself,1)
+	!Range(NearestMyGroupOfType,10)
+	!GlobalTimerNotExpired("Whined","LOCALS")
+THEN
+	RESPONSE #50
+		SetGlobalTimer("Whined","LOCALS",12)
+		DisplayStringHead(Myself,@550159) // No such index
+		Shout(124)
+		Continue()
+	RESPONSE #50
+		SetGlobalTimer("Whined","LOCALS",12)
+		DisplayStringHead(Myself,@550160) // No such index
+		Shout(124)
+		Continue()
+	RESPONSE #50
+		SetGlobalTimer("Whined","LOCALS",12)
+		DisplayStringHead(Myself,@550161) // No such index
+		Shout(124)
+		Continue()
+END
+
+IF
+	ActionListEmpty()
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(LastSeenBy(Myself),45)
+END
+
+

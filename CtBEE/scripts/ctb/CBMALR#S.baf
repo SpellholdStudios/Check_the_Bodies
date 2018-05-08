@@ -1,0 +1,142 @@
+IF
+	Global("CbMalteseArtifact","GLOBAL",8)
+	Global("CbPartyJoinsMalteseMage","GLOBAL",8)
+	Global("CbFakeMalteseRitual","GLOBAL",2)
+	Exists(Myself)
+THEN
+	RESPONSE #50
+		Wait(3)
+		DisplayStringHead(Myself,@550127)
+		Wait(1)
+		EscapeArea()
+	RESPONSE #50
+		Wait(10)
+		DisplayStringHead(Myself,@550128)
+		Wait(1)
+		EscapeArea()
+END
+
+IF
+	!Allegiance(Myself,ENEMY)
+	OR(2)
+		Allegiance("CBMALR1",ENEMY)
+		Allegiance("CBMALRDM",ENEMY)
+THEN
+	RESPONSE #100
+		Enemy()
+END	
+
+IF
+	Global("CbMalteseArtifact","GLOBAL",8)
+	Global("CbPartyJoinsMalteseMage","GLOBAL",8)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Shout(345)
+		Enemy()
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	!Global("CbSpawnMageProtectors","MYAREA",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpawnMageProtectors","MYAREA",1)
+END
+
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	OR(3)
+		Allegiance(Myself,GOODBUTBLUE)
+		Allegiance(Myself,NEUTRAL)
+		Allegiance(Myself,ALLY)
+THEN
+	RESPONSE #100
+		Shout(345)
+		Enemy()
+END
+
+IF
+	Heard([ANYONE],345)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Enemy()
+		MoveToObject(LastHeardBy(Myself))
+END
+
+IF
+	Heard([ANYONE],345)
+	!See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		MoveToObject(LastHeardBy(Myself))
+		Continue()
+END
+
+IF
+	General(Myself,HUMANOID)
+	HPPercentLT(Myself,20)
+	HPGT(Myself,0)
+	Global("whined","LOCALS",0)
+	See(NearestMyGroupOfType)
+	Allegiance(Myself,ENEMY)
+	HPGT(LastSeenBy(Myself),0)
+THEN
+	RESPONSE #50
+		SetGlobal("whined","LOCALS",1)
+		DisplayStringHead(Myself,46151) // help!
+		Shout(346)
+	RESPONSE #50
+		SetGlobal("whined","LOCALS",1)
+		DisplayStringHead(Myself,49763) // I require assistance
+		Shout(346)
+	RESPONSE #50
+		SetGlobal("whined","LOCALS",1)
+		DisplayStringHead(Myself,49764) // Defend me!
+		Shout(346)
+	RESPONSE #50
+		SetGlobal("whined","LOCALS",1)
+		DisplayStringHead(Myself,49765) // Slay my attacker!
+		Shout(346)
+END
+
+IF
+	Heard([ANYONE],346)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate(LastAttackerOf(LastHeardBy(Myself)),30)
+END
+
+IF
+	Heard([ANYONE],346)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(LastAttackerOf(LastHeardBy(Myself)),30)
+END
+
+IF
+	BreakingPoint()
+	Global("Panic","LOCALS",0)
+THEN
+	RESPONSE #50
+		SetGlobal("Panic","LOCALS",1)
+		DisplayStringHead(Myself,49766) // I can't take this
+	RESPONSE #50
+		SetGlobal("Panic","LOCALS",1)
+		DisplayStringHead(Myself,49767) // No more
+	RESPONSE #50
+		SetGlobal("Panic","LOCALS",1)
+		DisplayStringHead(Myself,49767) // No more
+END
+
+IF
+	HitBy(Myself,CRUSHING)
+THEN
+	RESPONSE #100
+		RunAwayFrom(NearestEnemyOf(Myself),15)
+END
+
+

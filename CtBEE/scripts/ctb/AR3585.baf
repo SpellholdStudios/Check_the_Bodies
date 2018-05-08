@@ -1,0 +1,84 @@
+IF
+	OnCreation()
+	GlobalLT("CbRangerDeadDear","GLOBAL",1)
+THEN
+	RESPONSE #100
+		TriggerActivation("Door3595",FALSE)
+END
+
+IF
+	OnCreation()
+	GlobalGT("CbRangerDeadDear","GLOBAL",0)
+THEN
+	RESPONSE #100
+		TriggerActivation("Door3595",TRUE)
+END
+
+IF
+	!GlobalTimerNotExpired("CbRangerCallsAnimals","GLOBAL")
+	Global("CbRangerAnimals","AR3585",0)
+	Allegiance("CB585RNG",ENEMY)
+	!Dead("CB585RNG")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbRangerCallsAnimals","GLOBAL",30)
+		SetGlobal("CbRangerAnimals","AR3585",1)
+		DisplayStringHead("CB585RNG",@550015)
+		Wait(2)
+		CreateCreatureOffScreen("CB585AN1",8)
+		CreateCreatureOffScreen("CB585AN2",8)
+		CreateCreatureOffScreen("CB585AN4",8)
+		CreateCreatureOffScreen("CB585AN8",8)
+END
+
+IF
+	GlobalTimerExpired("CbRangerCallsAnimals","GLOBAL")
+	Global("CbRangerAnimals","AR3585",1)
+	Allegiance("CB585RNG",ENEMY)
+	!Dead("CB585RNG")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbRangerCallsAnimals","GLOBAL",30)
+		SetGlobal("CbRangerAnimals","AR3585",2)
+		DisplayStringHead("CB585RNG",@550016)
+		Wait(2)
+		CreateCreatureOffScreen("CB585AN3",8)
+		CreateCreatureOffScreen("CB585AN4",8)
+		CreateCreatureOffScreen("CB585AN5",8)
+		CreateCreatureOffScreen("CB585AN6",8)
+END
+
+IF
+	GlobalTimerExpired("CbRangerCallsAnimals","GLOBAL")
+	Global("CbRangerAnimals","AR3585",2)
+	Allegiance("CB585RNG",ENEMY)
+	!Dead("CB585RNG")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbRangerCallsAnimals","GLOBAL",30)
+		SetGlobal("CbRangerAnimals","AR3585",3)
+		DisplayStringHead("CB585RNG",@550015)
+		Wait(2)
+		CreateCreatureOffScreen("CB585AN1",8)
+		CreateCreatureOffScreen("CB585AN3",8)
+		CreateCreatureOffScreen("CB585AN5",8)
+		CreateCreatureOffScreen("CB585AN7",8)
+END
+
+IF
+	GlobalTimerExpired("CbRangerCallsAnimals","GLOBAL")
+	Global("CbRangerAnimals","AR3585",3)
+	Allegiance("CB585RNG",ENEMY)
+	!Dead("CB585RNG")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbRangerCallsAnimals","GLOBAL",30)
+		SetGlobal("CbRangerAnimals","AR3585",4)
+		DisplayStringHead("CB585RNG",@550016)
+		Wait(2)
+		CreateCreatureOffScreen("CB585AN2",4)
+		CreateCreatureOffScreen("CB585AN7",4)
+		CreateCreatureOffScreen("CB585AN5",6)
+END
+
+

@@ -1,0 +1,25 @@
+IF
+	Global("Cb_SlayingTrap","AR3547",0)
+	IsOverMe([GOODCUTOFF])
+	!IsOverMe("CB3547BL")
+THEN
+	RESPONSE #100
+		DisplayString(LastTrigger,14381)
+		SetGlobal("Cb_SlayingTrap","AR3547",1)
+		Wait(10)
+END
+
+IF
+	GlobalGT("Cb_SlayingTrap","AR3547",1)
+	!IsOverMe([GOODCUTOFF])
+	IsOverMe("CB3547BL")
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_SlayingTrap","AR3547",0)
+		Unlock("AR5104Door1")
+		Unlock("AR5104Door3")
+		Unlock("AR5104Door5")
+		TriggerActivation("CbWarblades",TRUE)
+END
+
+

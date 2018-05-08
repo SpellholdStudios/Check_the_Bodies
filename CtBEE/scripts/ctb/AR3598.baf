@@ -1,0 +1,41 @@
+IF
+	Global("CbVampireSubQuestStart","GLOBAL",2)
+	!Exists("CBRNCWVP")
+	Global("CbTanyaCreated","AR3598",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbTanyaCreated","AR3598",1)
+		CreateCreature("CBRNCWVP",[869.212],13)
+END
+
+IF
+	Global("CbVampireSubQuestStart","GLOBAL",2)
+	!Exists("CBRNCGVP")
+	Global("CbWinnyCreated","AR3598",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbWinnyCreated","AR3598",1)
+		CreateCreature("CBRNCGVP",[1341.537],0)
+END
+
+IF
+	Global("CbVampireSubQuestStart","GLOBAL",2)
+	!Exists("CBRNCBVP")
+	Global("CbTheoCreated","AR3598",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbTheoCreated","AR3598",1)
+		CreateCreature("CBRNCBVP",[728.695],0)
+END
+
+IF
+	Global("CbVampireSubQuestStart","GLOBAL",2)
+	!Exists("CBRNCMVP")
+	Global("CbVernonCreated","AR3598",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbVernonCreated","AR3598",1)
+		CreateCreature("CBRNCMVP",[966.224],0)
+END
+
+

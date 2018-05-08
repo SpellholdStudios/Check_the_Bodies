@@ -1,0 +1,12 @@
+IF
+	Global("Trap4","CB3667",0)
+	IsOverMe([ANYONE])
+	CheckStatLT(LastTrigger,17,INT)
+THEN
+	RESPONSE #100
+		SetGlobal("Trap4","CB3667",1)
+		UndoExplore()
+		ActionOverride(LastTrigger,MoveBetweenAreas("CB3665",[295.2105],13))
+END
+
+

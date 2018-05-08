@@ -1,0 +1,18 @@
+IF
+	Global("CbPeachInfoClicked","AR1200",0)
+THEN
+	RESPONSE #100
+		TriggerActivation("PeachTreeInfo",TRUE)
+		ContainerEnable("PeachTreeCont",FALSE)
+		Continue()
+END
+
+IF
+	Global("CbPeachInfoClicked","AR1200",1)
+THEN
+	RESPONSE #100
+		TriggerActivation("PeachTreeInfo",FALSE)
+		ContainerEnable("PeachTreeCont",TRUE)
+		Continue()
+END
+

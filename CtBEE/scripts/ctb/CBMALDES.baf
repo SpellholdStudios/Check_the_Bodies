@@ -1,0 +1,21 @@
+IF
+	GlobalGT("CbMalteseArtifact","GLOBAL",4)
+	AreaCheck("AR1401")
+	Range("CBMALR1",25)
+	Exists(Myself)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
+	GlobalGT("CbMalteseArtifact","GLOBAL",4)
+	AreaCheck("AR1202")
+	Range("CBMALR1",25)
+	Exists(Myself)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+

@@ -1,0 +1,10 @@
+IF
+	HPPercentLT(Myself,15)
+	!Dead("CB576WIZ")
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		StartDialogueNoSet(LastAttackerOf(Myself))
+END
+
+

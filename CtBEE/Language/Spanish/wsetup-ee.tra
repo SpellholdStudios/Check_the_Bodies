@@ -1,0 +1,1887 @@
+@650006 = ~Esta arma poderosa consiste en un mango de metro veinte a metro y medio con una hoja muy pesada. El hacha puede ser de doble filo, con hojas a ambos lados del mango o puede tener un filo único. Es un arma abultada, pero un guerrero diestro puede dar golpes de tremenda fuerza con ella. Su gran hoja ha sido grabada con runas de enanos para mejorarla bastante.
+
+CARACTERÍSTICAS:
+
+Daño: 1d10 + 3
+GAC0: Bonificador +3
+Bonificadores al equipar:
+  Resistencia a la magia +10%
+  Resistencia a daño cortante +10%
+  Resistencia a daño perforante +10%
+  Resistencia a daño contundente +10%
+  Resistencia a proyectiles +10%
+  Bonificación de +2 a todas las tiradas de salvación
+Tipo de daño: Cortante
+Peso: 10
+Factor de velocidad: 9
+Talento marcial: Hacha
+Tipo: a dos manos
+Requiere: Fuerza 10~
+@650008 = ~Este mandoble es un buen premio. Es un arma encantada con un +3 al golpear y al daño. Aparte del filo y el equilibrio del arma, la espada también confiere unas bonificaciones mágica al usuario. Cualquiera que blanda a Furcolo gana un 35% de resistir la magia, así como ser completamente inmune a los seres muertos vivientes. La espada es una entidad inteligente, y puede lanzar Inmunidad absoluta sobre su portador una vez al día.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+   Puede lanzar Inmunidad absoluta una vez al día
+   Bonificación de 35% de resistencia a la magia
+   Inmunidad a los Muertos vivientes
+
+Daño: 1D10 + 3
+Tipo de daño: Cortante
+Peso: 15
+Factor de velocidad: 10
+Talento marcial: Mandoble
+Tipo: A dos manos
+Requiere: Fuerza 14~
+@650014 = ~La borraja es un reconstituyente. Cuando las raices del yerbajo son masticadas, la potencia de la planta otorga a la persona unas bonificaciones de +2 al golpear, +2 al daño, y -2 a la CA. Mientras la oleada de adrenalina esté actuando, normalmente dura unos 60 segundos, el individuo que ha masticado las raices es inmune a encantar, retener, Laberinto y Cauteverio, aturdir, y dormir. La persona que tomó las hierbas también gana un bonificador temporal de 15 puntos de vida, los cuales podrían, posiblemente, matar al personaje al terminar la oleada de adrenalina. Tras terminarse la oleada, durante un breve lapso de tiempo, quien masticó las raices se encontrará ligeramente fatigado y recibirá una penalización de -2 al golpear, -2 al daño y +2 a la CA.
+
+CARACTERÍSTICAS:
+
+Peso: 1 libra~
+@650016 = ~La echinácea es un antítodo contra venenos. Tras beber una infusión de esta hierba, todas las toxinas del cuerpo se eliminarán, tanto naturales como de naturaleza mágica. Cuando estas hierbas son ingeridas por alguien envenenado, neutralizan inmediatamente cualquier veneno y recupera 10 puntos de vida perdidos.
+
+CARACTERÍSTICAS:
+
+Peso: 1 libra~
+@650018 = ~La chaparral mitiga la artritis. Bebiendo el tónico, éste actuará como un hechizo de acción libre cuando se consuma. La hierba hace que el usuario sea completamente inmune a cualquier efecto que dificulte la acción o el movimiento ya sea de origen mágico o no. La duración de los efectos de la hierba es de 10 turnos.
+
+CARACTERÍSTICAS:
+
+Peso: 1 libra~
+@650020 = ~La milenrama ayuda a detener las hemorragias. Colocando la flor de la planta sobre una herida, la sangre coagulará rápidamente y detendrá cualquier pérdida de sangre causada por abrasiones, laceraciones o penetraciones. Sin embargo, no permite al usuario regenerarse o curarse más rapidamente. Además, no protegerá al usuario de perjuicios futuros debido a cortes similares.
+
+CARACTERÍSTICAS:
+
+Peso: 1 libra~
+@650022 = ~La caléndula alivia las quemaduras. Al mezclar las bayas de caléndula recien molidas con pequeñas cantidades de agua se consigue una pasta densa que hay que aplicar sobre la piel, para protegerla del fuego. Estas bayas darán una bonificación a la resistencia al fuego temporal, una hora, de un 25% por uso.
+
+CARACTERÍSTICAS:
+
+Peso: 1 libra~
+@650024 = ~La stillingia ayuda contra la laringitis. La hierba en sí misma, la cuál sólo crece en las cataratas del norte de Sembia, es muy rara pero no obstante da a un lanzador de conjuros un benefício enorme, ya que cada planta permitirá un efecto vocalizador como el conjuro Vocalizar, durante el periodo de un día.
+
+CARACTERÍSTICAS:
+
+Peso: 1 libra~
+@650026 = ~La alfalfa es una fuente excelente de muchas vitaminas vigorizantes. Tomar dosis regulares de la planta puede suministrar al cuerpo los nutrientes necesarios para ser físicamente activo. La alfalfa incrementa la Fuerza, la Constitución, y la Destreza de quien la ingiera en un punto por día.
+
+CARACTERÍSTICAS:
+
+Peso: 1 libra~
+@650028 = ~La Vara de oro (o Solidago) es utilizada para limpiar y curar las heridas. Mezclando el hongo con otras hierbas naturales en pasta cremosa, los brotes y flores de la vara de oro pueden usarse para aumentar los puntos de alguien en 12, pero no le protegerá de heridas futuras.
+
+CARACTERÍSTICAS:
+
+Peso: 1 libra~
+@650030 = ~La ortiga puede usarse para mejorar la vista. Al masticar la planta, la pérdida de visión - ya sea por nubes cegadoras o partículas rutilantes mágicas - de uno puede restaurarse a su estado natural anterior.
+
+CARACTERÍSTICAS:
+
+Peso: 1 libra~
+@650032 = ~La frambuesa roja puede utilizarse para fortalecer el corazón y proporcionar estimulación al cuerpo. Proporciona un aumento temporal de los niveles de energía. Tomando un cierto número de bayas, la velocidad de quien las tomes aumentará ligeramente a la vez que su número de ataques es doblado.
+
+CARACTERÍSTICAS:
+
+Peso: 1 libra~
+@650034 = ~El alcohol natural extraido de la consuelda media tiene un efecto simple: intoxica considerablemente al indivíduo durante un perioro de unas ocho horas.
+
+CARACTERÍSTICAS:
+
+Peso: 1 libra~
+@650036 = ~Las bayas del enebro, así como los extractos de sus hojas, pueden ser recogidas del campo para provocar alucinaciones a la persona que tome su jugo, sufriendo unas visiones espantosas y viendo peligros que no tienen por qué existir realmente.
+
+CARACTERÍSTICAS:
+
+Peso: 1 libra~
+@650040 = ~La raíz roja de Usnea ayuda con los problemas respiratorios. Al utilizar esta hierba salvaje, las fosas nasales son purgadas de toda toxina perjudicial, olores naturales o partículas.
+
+CARACTERÍSTICAS:
+
+Peso: 1 libra~
+@650042 = ~El extracto de lúpulo puede ayudar a curar el agotamiento. El estímulo de la hierba anula la necesidad del usuario de dormir. Sin embargo, sólo es un estímulo temporta, y no debería ser usada sin la consulta apropiada a un boticario.
+
+CARACTERÍSTICAS:
+
+Peso: 1 libra~
+@650044 = ~La centella asiática aumenta la consciencia física y mental. Los benefícios que esta hierba de flores violáceas dan, bien vale el precio de tan rara planta. Cuando se toma apropiadamente, la centella asiática disminuye la CA del usuario en 6 y añade +3 a todas las tiradas de salvación. Además, la centella asiática permitirá a quién coma la hierba el moverse a un gran índice y esquivar los proyectiles normales.
+
+CARACTERÍSTICAS:
+
+Peso: 1 libra~
+@650046 = ~El tusilago (o fárfara) es una hierba común que se encuentra en la mayoría de los pastizales de las zonas templadas de Faerûn. Produce unas semillas muy venenosas que son buscadas por muchos ladrones y asesinos. La semillas de tusilago pueden provocar 2 puntos de daño de veneno a quien quiera que ingiera la hierba, las cuales al apenas tener sabor las convierten en una forma muy popular de envenenar la comida.
+
+CARACTERÍSTICAS:
+
+Peso: 1 libra~
+@650112 = ~Las ligeras, pero resistentes escamas del dragón azul proporcionan una protección excelente contra armas y todas las formas de electricidad.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: -1
+  +90% de resistencia a cualquier ataque eléctrico y relampagueante
+Peso: 20
+Requisito: Fuerza 15~
+@650113 = ~Las ligeras, pero resistentes escamas de Darammareth S'ooloun Crommadar Ammanth Kuleera, también conocida como Pataterciopelo, proporcionan una mejor protección contra armas y todas las formas de electricidad que la armadura normal de Placas de dragón azul.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: -2
+  100% de resistencia a cualquier ataque eléctrico y relampagueante
+Peso: 17
+Requisito: Fuerza 12~
+
+@650248 = ~Este par de guanteletes fueron creados probablemente en la antigua Netheril para ayudar a los maestros de las artes mágicas. Las leyendas hablan de que los maestros del pasado eran capaces de lanzar conjuros en rápida sucesión, aunque los detalles permanecen imprecisos.
+
+CARACTERÍSTICAS:
+
+Reduce el tiempo de lanzamiento en 2
+
+Peso: 2~
+@650251 = ~La espada ancha es una combinación de la espada larga con la fuerza y efectividad de una espada a dos manos. Los armeros siempre andan buscando formas de mejorar las armas ya existentes. En un esfuerzo por mejorar la espada larga, la hoja fue alargada. Al final, se tuvo que prolongar la empuñadura y el usar dos manos fue necesario para blandir la espada adecuadamente.
+
+CARACTERÍSTICAS:
+
+Daño: 1D12
+Tipo de daño: Cortante
+Peso: 12
+Factor de velocidad: 8
+Talento marcial: Mandoble
+Tipo: A dos manos
+Requisito: Fuerza 9~
+@650252 = ~La espada ancha es una combinación de la espada larga con la fuerza y efectividad de una espada a dos manos. Los armeros siempre andan buscando formas de mejorar las armas ya existentes. En un esfuerzo por mejorar la espada larga, la hoja fue alargada. Al final, se tuvo que prolongar la empuñadura y el usar dos manos fue necesario para blandir la espada adecuadamente.
+
+CARACTERÍSTICAS:
+
+Daño: 1D12 + 2, doble daño contra dragones
+GAC0: Bonificador +2
+Tipo de daño: Cortante
+Peso: 12
+Factor de velocidad: 8
+Talento marcial: Mandoble
+Tipo: A dos manos
+Requisito: Fuerza 9~
+@650256 = ~La cota de malla está formada por anillos de metal entrelazados. Siempre está sobre una capa de tela acolchada o de cuero suave para evitar los roces y disminuir el impacto de los golpes. Unos encantamientos mágicos colocados sobre esta armadura le otorgan protección extra.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 1
+Peso: 10
+Requisito: Fuerza 8~
+@650260 = ~Capa de protección +3, El escudo del espíritu
+
+Se dice que esta capa concentra la energía del espíritu de uno dentro de una fuerza que la proteje. Los rumores de un vampiro esclavizado en el objeto mágico siempre están presentes, pero son imposibles de comprobar sin destruir la capa.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: Bonificador +3
+Tirada de salvación: Bonificador +3
+Peso:  3~
+@650262 = ~Esta repugnante colección de cabelleras humanas y semi humanas cosidas sobre una tela pesada hace de cualquier guerrero, ladrón u otra clase, una figura imponente. Aunque no otorga ninguna bonificación especial a su portador, hará a quien lleve la capa menos agradable para los demás, ya que la visión de la figura causa una impresión duradera.
+
+CARACTERÍSTICAS:
+
+Penalización a la reputación cada vez que se ponga: -1
+Penalización al Carisma mientras se lleve: -1
+Peso: 4
+Requisito: Fuerza 3~
+@650264 = ~El Anilo de los dragones es un poderoso y antiguo artefacto, que posee una rica y detallada historia. Sabios y estudiosos de todos los Reinos han empleado cientos de horas catalogando la historia de este Anillo, y aún así, no se conoce todo sobre él.
+
+Sin embargo, el singular poder de este anillo es bien conocido. Este anillo permite al usuario controlar a los dragones.
+
+Al activar el Anillo, el portador puede convocar un dragón para que le ayude. La especie concreta del dragón varía, pero lo más probable es que sea de tipo no metálico (lease "malvado"). El Anillo sólo puede usarse una cantidad de veces limitadas, y no se sabe cuantas cargas quedan en este artefacto.
+
+CARACTERÍSTICAS:
+
+Convoca un dragón (rojo, negro, verde, o amarillo) para ayudar al convocador.~
+@650272 = ~Es la más sencilla y humilde de las armas de palo. La barra es una madera de 180 a 275 centímetros de largo. Una buena barra está hecha de madera de roble y va rematada con metal en ambos extremos. La barra se debe empuñar con ambas manos.
+
+Aunque de apariencia similar a la de cualquier bastón normal, éste tiene unas cuantas propiedades mágicas menores. La primera es un bonificador adicional de 1d4 de daño contundente con cada impacto con éxito que realice el portador. La segunda, al equipar este bastón el usuario se vuelve automáticamente borroso hasta el punto de que es ligeramente más dificil el verle, tanto para los enemigos como para los aliados. Tercero, el bastón tiene la capacida de hacer invisible al portador hasta tres veces al día. El bastón se recarga a sí mismo automáticamente tras pasar una cierta cantidad de tiempo.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  El usuario está "borroso" mientras esté equipado
+  Lanza Invisibilidad sobre el usuario tres veces al día
+
+Daño: 1D6 + 1d4
+Tipo de daño: Contundente
+Peso: 4
+Factor de velocidad: 4
+Talento marcial: Bastón
+Tipo: A dos manos
+Requisito: Fuerza 5~
+@650276 = ~La daga arrojadiza típica tiene una hoja puntiaguda de doble filo, al contrario que el cuchillo, que sólo tiene un filo y es un poco más corto que la daga. A diferencia de la daga, ésta tiene una empuñadura más pequeña y está compensada de manera diferente. Una leve aura de potente magia se ha aplicado a cada una de estas dagas arrojadizas, haciendolas un arma letal contra magos en manos de los asesinos entrenados.
+
+CARACTERÍSTICAS:
+
+Aptitud especial:
+  Disipa protecciones mágicas con cada impacto
+
+Daño: 1D4
+Tipo de daño: Proyectil (perforante)
+Peso: 1
+Factor de velocidad: 2
+Talento marcial: Daga
+Tipo: A una mano
+Requisito: Fuerza 3~
+
+@650277 = ~Esta daga es un bien muy preciado. Es un arma encantada, imbuida con un +3 al daño y al ataque. Aparte del filo y del equilibrio del arma, la daga también confiere bonificadores mágicos al usuario. Cualquiera que se equipe con Furcolo gana un bonus del 35% de resistencia a la magia, así como ser completamente inmune a los seres muertos vivientes. La daga es una entidad inteligente, y puede lanzar Inmunidad absoluta sobre su portador una vez al día.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Lanzar Inmunidad absoluta una vez al día
+  +35% de resistencia a la magia
+  Inmunidad a los muertos vivientes
+
+Daño: 1D4 + 3
+GAC0: Bonificador +3
+Tipo de daño: Perforante
+Peso: 1
+Factor de velocidad: 0
+Talento marcial: Daga
+Tipo: A una mano
+Requisito: Fuerza 3~
+@650279 = ~Mientras se use esta daga encantada, uno estará protegido contra los proyectiles normales, los no mágicos. La daga tiene por sí misma un bonificador de +1 al GAC0 y la puede usar cualquiera que normalmente pueda usar una daga.
+
+CARACTERÍSTICAS:
+
+Aptitud especial:
+  Protección contra proyectiles normales mientras esté equipada
+
+Daño: 1D4 + 1
+GAC0: Bonificador +1
+Tipo de daño: Perforante
+Peso: 1
+Factor de velocidad: 1
+Talento marcial: Daga
+Tipo: A una mano
+Requisito: Fuerza 3~
+@650285 = ~Espada larga danzante +3: La mayoría de los druidas son incapaces de usar las armas afiladas. Esta espada mágica es una excepción. No sólo aporta un bonificador al impacto y al daño, sino que también puede lanzar Sanar, Disipar magia, y Encontrar trampas iguales a los conjuros de Clérigo como si el portador fuera un durida de nivel 3.
+
+Esta espada centinela también es inteligente. Su alineamiento es Neutral Bueno, y tiene un ego de 8. Al ser inteligente (INT 15) habla tanto en común el lenguaje de su alineamiento.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Puede lanzar Encontrar trampas, Disipar magia y Sanar 3 veces al día
+  Danzar: Al "liberar" la espada, ésta se puede esgrimir telepáticamente durante media hora al día. La espada hará el mismo daño Y el portador aún mantendrá la espada física mientras esgrime la espada centinela telepáticamente
+
+Daño: 1D8 + 3
+GAC0: Bonificador +3
+Tipo de daño: Cortante
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: Espada larga
+Tipo: A una mano
+Requisitos:
+ Fuerza 17
+ Sabiduría 16~
+@650289 = ~Se desconoce la historia de este arma. Os fue entregada por un trío de druidas-guerreras que conocisteis en una pequeña arboleda al sur de Puerta de Baldur. Las druidas deseaban que fuera reparado. Así lo hicísteis, y ora debéis llevar el bastón de nuevo al bosquecillo del norte de Amn. Este bastón en particular da a su usuario un bonificador a su clase de armadura, permite al portador usar el arma con la maestría en el talento marcial de bastón, y a su vez proporciona varias resistencias específicas a tipos de daños: veneno, fuego, frío, ácido y electricidad.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Bonificador de +2 a la Clase de armadura
+  +4 estrellas al talento marcial de bastón
+  25% de resistencia al fuego
+  25% de resistencia al frío
+  25% de resistencia al ácido
+  25% de resistencia al veneno
+  25% de resistencia a la electricidad
+
+Daño: 2D8 + 5
+GAC0: Bonificador +5
+Tipo de daño: Contundente
+Peso: 7
+Factor de velocidad: 3
+Talento marcial: Bastón
+Tipo: A dos manos
+Requisito: Fuerza 5~
+
+@650290 = ~Se desconoce la historia de este arma. Os fue entregada por un trío de druidas-guerreras que conocisteis en una pequeña arboleda al sur de Puerta de Baldur. Las druidas deseaban que fuera reparado. Así lo hicisteis, y os recompensaron con el bastón, mejorándolo antes de forma ostensible. Este bastón en particular da a su usuario un bonificador a su clase de armadura, permite al portador usar el arma con la maestría en el talento marcial de bastón, y a su vez proporciona varias resistencias específicas a tipos de daños: veneno, fuego, frío, ácido y electricidad.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Bonificador de +4 a la Clase de armadura
+  +5 estrellas al talento marcial de bastón
+  50% de resistencia al fuego
+  50% de resistencia al frío
+  50% de resistencia al ácido
+  50% de resistencia al veneno
+  50% de resistencia a la electricidad
+  
+Daño: 2D8 + 5
+GAC0: Bonificador +5
+Tipo de daño: Contundente
+Peso: 7
+Factor de velocidad: 3
+Talento marcial: Bastón
+Tipo: A dos manos
+Requisito: Fuerza 5~
+
+@650300 = ~Ésta poderosa arma fue creada por los herreros de la antigua Myth Drannor. Las Espadas lunares son usadas en los largos procesos de elección de un gobernante para la isla de Siempreunidos. Una espada lunar elige a su propietario. Sólo un elfo puede usar esta hoja; cualquier otro que intente desenvainarla se verá envuelto en horribles llamas, que posiblemente le causen la muerte. Ésta espada lunar en particular da a su propietario un bonificador a la clase de armadura, le permite usar la hoja con la maestría en el talento marcial de espada, así como a su vez le proporciona resistencias específicas a varios tipos de daño: veneno, fuego, frío, ácido, y eléctrico.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Bonificador de +2 a la Clase de armadura
+  +4 estrellas al talento marcial de espada larga
+  25% de resistencia al fuego
+  25% de resistencia al frío
+  25% de resistencia al ácido
+  25% de resistencia al veneno
+  25% de resistencia a la electricidad
+
+Daño: 1D10 + 4
+GAC0: Bonificador +4
+Tipo de daño: Cortante
+Peso: 3
+Factor de velocidad: 4
+Talento marcial: Espada larga
+Tipo: A una mano~
+@650304 = ~Esta piedra ioun brilla con un tono azul oscuro, que os recuerda al romper de las olas en el océano. Esta piedra ioun azul marino otorgará al portador la habilidad de disipar Imagen espejada, Invisibilidad, Imagen espejada, No detección, Invisibilidad mejorada, Puerta de la sombra, Proyectar imagen, y Simulacro a voluntad.
+
+Aptitudes: Vista verdadera a voluntad
+Bonificador a la clase de armadura: Ninguno
+Peso: 2~
+@650308 = ~Las habilidades que confiere esta poderosa capa encantada se refieren a diferentes formas de protección, entre las que se incluyen el desaparecer de la vista y escapar.
+
+CARACTERÍSTICAS:
+
+Bonificador a la Clase de armadura: +2
+Bonificador a la Tirada de salvación: +2
+Especial:
+ Lanzar Celeridad mejorada una vez al día
+ Lanzar Invisibilidad mejorada una vez al día
+Peso:  3~
+@650343 = ~Esta poderosa arma consta de un mango de 120 a 150 cm con una hoja muy pesada. Al hacha se le pueden poner dos hojas, a ambos lados del mango, o ésta puede tener sólo una. Es un arma difícil de manejar, pero un guerrero hábil puede lanzar golpes con una fuerza tremenda. Se han grabado runas enanas en la gigantesca hoja para mejorar más todavía el hacha.
+
+CARACTERÍSTICAS:
+
+Aptitud especial:
+  Explosiva ígnea: +2d6 puntos de daño por fuego y un 25% de posibilidades de infligir +2d10 puntos adicionales de daño por fuego
+
+Daño: 2D12 + 5
+GAC0: Bonificador +5
+Tipo de daño: Cortante
+Peso: 30
+Factor de velocidad: 9
+Talento marcial: Hacha
+Tipo: A dos manos
+Requisito: Fuerza 17~
+@650345 = ~Esta poderosa arma consta de un mango de 120 a 150 cm con una hoja muy pesada. Al hacha se le pueden poner dos hojas, a ambos lados del mango, o ésta puede tener sólo una. Es un arma difícil de manejar, pero un guerrero hábil puede lanzar golpes con una fuerza tremenda. Se han grabado runas enanas en la gigantesca hoja para mejorar más todavía el hacha.
+
+CARACTERÍSTICAS:
+
+Aptitud especial:
+  Explosiva ígnea: +1d6 puntos de daño por fuego y un 10% de posibilidades de infligir +1d10 puntos adicionales de daño por fuego
+
+Daño: 2D12 + 4
+GAC0: Bonificador +4
+Tipo de daño: Cortante
+Peso: 25
+Factor de velocidad: 9
+Talento marcial: Hacha
+Tipo: A dos manos
+Requisito: Fuerza 16~
+@650354 = ~Esta espada larga es un bien preciado. Es un arma encantada, imbuida con un +3 al daño y al ataque. Aparte del filo y del equilibrio del arma, la espada larga también confiere bonificadores mágicos al usuario. Cualquiera que se equipe con Furcolo gana un bonus del 35% de resistencia a la magia, así como ser completamente inmune a los seres muertos vivientes. La espada larga es una entidad inteligente, y puede lanzar Inmunidad absoluta sobre su portador una vez al día.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Lanzar Inmunidad absoluta una vez al día
+  +35% de resistencia a la magia
+  Inmunidad a los muertos vivientes
+
+Daño: 1D10 + 3
+Tipo de daño: Cortante
+Peso: 4
+Factor de velocidad: 5
+Talento marcial: Espada larga
+Tipo: A una mano
+Requisito: Fuerza 6~
+@650364 = ~Este bastón torneado como una espiral con incrustaciones de plata y rematado con un gran fragmento de ambar, el Bastón de ojos, permite el uso de los siguientes conjuros una vez al día:
+ Curar enfermedad
+ Ojo de mago
+ Vista verdadera
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 + 1
+Tipo de daño: Contundente
+Peso: 4
+Factor de velocidad: 4
+Talento marcial: Bastón
+Tipo: A dos manos
+Requisitos:
+ Nivel 10
+ Fuerza 5~
+@650366 = ~Varios de estos collares templados mágicamente y preservados con hielo, fueron creados por un hechicero medio loco que deambuló entre las tribus ulutiunas del Gran Glacial. Dos de los cristales de hielo del tamaño de una bellota son opacos, y cuatro son transparentes.
+
+El portador puede separar un cristal y lanzarlo hasta 24 metros antes de que se funda en su mano pasado un turno. Cuando el cristal alcanza el final de su trayectoria, explota en una Tormenta de hielo.
+
+Para usarlo adecuadamente, el portador debe tener pericia con Hondas y tener un hueco de arma libre.
+
+CARACTERÍSTICAS:
+
+Tiene 6 cristales de hielo~
+@650369 = ~Este artefacto fue fabricado en Netheril. Un Cetro de estallido nuevo tiene 50 cargas cuando es creado, pero la mayoría tienen cientos de años de antiguedad por lo que normalmente sólo tienen de 1 a 10 cargas cuando son encontrados.
+
+Un Cetro de estallido se identifica solo y tiene los siguientes poderos:
+ - el usuario es inmune al fuego y a la electricidad mientras sostiene el cetro.
+ - el usuario no puede ser derribado o desplazado por una explosión o detonación mientras sostenga el cetro. El usuario recibe la mitad del daño de cualquier explosión, como la de un Cuerno detonante, la detonación de pólvora, o el poder detonante de otro Cetro de estallido (un cuarto tras una tirada de salvación exitosa).
+ - el usuario puede aturdir a un blanco al realizar un ataque de toque cuerpo a cuerpo con el cetro. La criatura puede evitar quedar aturdida con una tirada de salvación exitosa contra varitas, pero queda aturdida 1d4 asaltos si falla la tirada (este poder consume 1 carga).
+ - el usuario puede golpear a los oponentes con una silenciosa onda de fuerza en un cono de 9 metros de longitud. Los blancos reciben automáticamente 2d6 puntos de daño y deben hacer una tirada de salvación contra varitas o serán derribados (este poder consume 2 cargas).
+ - el usuario puede hacer un Golpe poderoso a cualquier criatura u objeto mediante un ataque de toque cuerpo a cuerpo. El golpe hace 10d5 puntos de daño, una tirada de salvación contra varitas lo reduce a la mitad (este poder consume 4 cargas).
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Inmunidad al Fuego/Electricidad
+  Protección contra Alazos
+  Onda de choque
+  Golpe poderoso
+Peso: 6
+Talento marcial: Clava~
+@650380 = ~Un escudo mágico de orígenes desconocidos. Creado a partir de buenos materiales y encantamientos, éste escudo es una forma simple pero efectiva de defensa.
+
+CARACTERÍSTICAS:
+
+Bonificador a la clase de armadura: 4
+Especial: +2 contra armas de proyectiles
+Peso: 10
+Requisito: Fuerza 10~
+@650387 = ~El Amuleto lunar es de manufactura élfica. Es un complemento usual para los elfos en estado de ensueño, permitiendo a un elfo el resistir los efectos del sueño. La ensoñación es para los elfos como un ciclo diario, similar al dormir para los humanos u otros animales, aunque en el caso de la Ensoñación élfica es más como un estado común de meditación que dura unas pocas horas, regenerativo para el cuerpo y el alma. Durante el mismo, los elfos son completamente conscientes de lo que les rodea y de los acontecimientos que suceden a su alrededor.
+
+Este amuleto, cuando es llevado por cualquier elfo o no elfo, puede retrasar los efectos de la fatiga y de la alteración mental por medio de la magia, tales como formas de hechizar o control mental. Sin embargo, el amuleto no restaurará ningún conjuro lanzado en quienes tengan que descansar durante un periodo normal para memorizarlos. Además, las heridas deberán ser curadas durante el periodo de descansa pues el estado de ensoñación sólo proporciona una regeneración mínima al cuerpo físico.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Protección contra inconsciencia
+  Protección contra hechizar
+  Retrasa la fatiga (varía dependiendo de la Constitución)
+  Regenera 1 PV por hora~
+@650389 = ~Esta poderosa arma fue creada por los herreros de la antigua Myth Drannor. Las Espadas lunares son usadas en los largos procesos de elección de un gobernante para la isla de Siempreunidos. Una espada lunar elige a su propietario. Ésta espada lunar le fue entregada a <CHARNAME> por un trío de sabias elfas en las profundidades del Bosque de Tethyr, y aceptó a <CHARNAME> como su portador. Sólo aquel al que la espada lunar ha escogido puede usarla; cualquier otro que intente desenvainarla se verá envuelto en horribles llamas, que posiblemente le causen la muerte. Ésta espada lunar en particular da a su propietario un bonificador a la clase de armadura, le permite usar la hoja con la maestría en el talento marcial de espada, así como a su vez le proporciona resistencias específicas a varios tipos de daño: veneno, fuego, frío, ácido, y eléctrico.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Bonificador de +4 a la Clase de armadura
+  +5 estrellas al talento marcial de espada larga
+  50% de resistencia al fuego
+  50% de resistencia al frío
+  50% de resistencia al ácido
+  50% de resistencia al veneno
+  50% de resistencia a la electricidad
+
+Daño: 2D8 + 5
+GAC0: Bonificador +5
+Tipo de daño: Cortante
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: Espada larga
+Tipo: A una mano~
+
+@650390 = ~Esta poderosa arma fue creada por los herreros de la antigua Myth Drannor. Las Espadas lunares son usadas en los largos procesos de elección de un gobernante para la isla de Siempreunidos. Una espada lunar elige a su propietario. Ésta espada lunar le fue entregada a <PLAYER2> por un trío de sabias elfas en las profundidades del Bosque de Tethyr, y aceptó a <PLAYER2> como su portador. Sólo aquel al que la espada lunar ha escogido puede usarla; cualquier otro que intente desenvainarla se verá envuelto en horribles llamas, que posiblemente le causen la muerte. Ésta espada lunar en particular da a su propietario un bonificador a la clase de armadura, le permite usar la hoja con la maestría en el talento marcial de espada, así como a su vez le proporciona resistencias específicas a varios tipos de daño: veneno, fuego, frío, ácido, y eléctrico.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Bonificador de +4 a la Clase de armadura
+  +5 estrellas al talento marcial de espada larga
+  50% de resistencia al fuego
+  50% de resistencia al frío
+  50% de resistencia al ácido
+  50% de resistencia al veneno
+  50% de resistencia a la electricidad
+
+Daño: 2D8 + 5
+GAC0: Bonificador +5
+Tipo de daño: Cortante
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: Espada larga
+Tipo: A una mano~
+
+@650391 = ~Esta poderosa arma fue creada por los herreros de la antigua Myth Drannor. Las Espadas lunares son usadas en los largos procesos de elección de un gobernante para la isla de Siempreunidos. Una espada lunar elige a su propietario. Ésta espada lunar le fue entregada a <PLAYER3> por un trío de sabias elfas en las profundidades del Bosque de Tethyr, y aceptó a <PLAYER3> como su portador. Sólo aquel al que la espada lunar ha escogido puede usarla; cualquier otro que intente desenvainarla se verá envuelto en horribles llamas, que posiblemente le causen la muerte. Ésta espada lunar en particular da a su propietario un bonificador a la clase de armadura, le permite usar la hoja con la maestría en el talento marcial de espada, así como a su vez le proporciona resistencias específicas a varios tipos de daño: veneno, fuego, frío, ácido, y eléctrico.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Bonificador de +4 a la Clase de armadura
+  +5 estrellas al talento marcial de espada larga
+  50% de resistencia al fuego
+  50% de resistencia al frío
+  50% de resistencia al ácido
+  50% de resistencia al veneno
+  50% de resistencia a la electricidad
+
+Daño: 2D8 + 5
+GAC0: Bonificador +5
+Tipo de daño: Cortante
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: Espada larga
+Tipo: A una mano~
+
+@650392 = ~Esta poderosa arma fue creada por los herreros de la antigua Myth Drannor. Las Espadas lunares son usadas en los largos procesos de elección de un gobernante para la isla de Siempreunidos. Una espada lunar elige a su propietario. Ésta espada lunar le fue entregada a <PLAYER4> por un trío de sabias elfas en las profundidades del Bosque de Tethyr, y aceptó a <PLAYER4> como su portador. Sólo aquel al que la espada lunar ha escogido puede usarla; cualquier otro que intente desenvainarla se verá envuelto en horribles llamas, que posiblemente le causen la muerte. Ésta espada lunar en particular da a su propietario un bonificador a la clase de armadura, le permite usar la hoja con la maestría en el talento marcial de espada, así como a su vez le proporciona resistencias específicas a varios tipos de daño: veneno, fuego, frío, ácido, y eléctrico.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Bonificador de +4 a la Clase de armadura
+  +5 estrellas al talento marcial de espada larga
+  50% de resistencia al fuego
+  50% de resistencia al frío
+  50% de resistencia al ácido
+  50% de resistencia al veneno
+  50% de resistencia a la electricidad
+
+Daño: 2D8 + 5
+GAC0: Bonificador +5
+Tipo de daño: Cortante
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: Espada larga
+Tipo: A una mano~
+
+@650393 = ~Esta poderosa arma fue creada por los herreros de la antigua Myth Drannor. Las Espadas lunares son usadas en los largos procesos de elección de un gobernante para la isla de Siempreunidos. Una espada lunar elige a su propietario. Ésta espada lunar le fue entregada a <PLAYER5> por un trío de sabias elfas en las profundidades del Bosque de Tethyr, y aceptó a <PLAYER5> como su portador. Sólo aquel al que la espada lunar ha escogido puede usarla; cualquier otro que intente desenvainarla se verá envuelto en horribles llamas, que posiblemente le causen la muerte. Ésta espada lunar en particular da a su propietario un bonificador a la clase de armadura, le permite usar la hoja con la maestría en el talento marcial de espada, así como a su vez le proporciona resistencias específicas a varios tipos de daño: veneno, fuego, frío, ácido, y eléctrico.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Bonificador de +4 a la Clase de armadura
+  +5 estrellas al talento marcial de espada larga
+  50% de resistencia al fuego
+  50% de resistencia al frío
+  50% de resistencia al ácido
+  50% de resistencia al veneno
+  50% de resistencia a la electricidad
+
+Daño: 2D8 + 5
+GAC0: Bonificador +5
+Tipo de daño: Cortante
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: Espada larga
+Tipo: A una mano~
+
+@650394 = ~Esta poderosa arma fue creada por los herreros de la antigua Myth Drannor. Las Espadas lunares son usadas en los largos procesos de elección de un gobernante para la isla de Siempreunidos. Una espada lunar elige a su propietario. Ésta espada lunar le fue entregada a <PLAYER6> por un trío de sabias elfas en las profundidades del Bosque de Tethyr, y aceptó a <PLAYER6> como su portador. Sólo aquel al que la espada lunar ha escogido puede usarla; cualquier otro que intente desenvainarla se verá envuelto en horribles llamas, que posiblemente le causen la muerte. Ésta espada lunar en particular da a su propietario un bonificador a la clase de armadura, le permite usar la hoja con la maestría en el talento marcial de espada, así como a su vez le proporciona resistencias específicas a varios tipos de daño: veneno, fuego, frío, ácido, y eléctrico.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Bonificador de +4 a la Clase de armadura
+  +5 estrellas al talento marcial de espada larga
+  50% de resistencia al fuego
+  50% de resistencia al frío
+  50% de resistencia al ácido
+  50% de resistencia al veneno
+  50% de resistencia a la electricidad
+
+Daño: 2D8 + 5
+GAC0: Bonificador +5
+Tipo de daño: Cortante
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: Espada larga
+Tipo: A una mano~
+
+@650395 = ~Este lucero del alba es un bien preciado. Es un arma encantada, imbuida con un +3 al daño y al ataque. Aparte de lo bien afilada y equilibrada que esta el arma, el lucero del alba también confiere bonificadores mágicos al usuario. Cualquiera que se equipe con Furcolo gana un bonus del 35% de resistencia a la magia, así como ser completamente inmune a los seres muertos vivientes. El lucero del alba es una entidad inteligente, y puede lanzar Inmunidad absoluta sobre su portador una vez al día.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Lanzar Inmunidad absoluta una vez al día
+  +35% de resistencia a la magia
+  Inmunidad a los muertos vivientes
+
+Daño: 2D4 + 3
+Tipo de daño: Contundente
+Peso: 8
+Factor de velocidad: 4
+Talento marcial: Mayal/lucero del alba
+Tipo: A una mano
+Requisito: Fuerza 11~
+@7650398 = ~La versión más común del hacha de batalla es un palo fuerte de unos 120 cm. con una cuchilla de un filo en forma de cuña en uno de sus extremos. Las hachas de batalla también se denominan hachas anchas.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8
+GAC0: Bonificador +1
+Tipo de daño: Cortante
+Peso: 7
+Factor de velocidad: 7
+Talento marcial: Hacha
+Tipo: A una mano
+Requisito: Fuerza 10~
+@7650399 = ~Los arcos compuestos son arcos largos o cortos cuyas varas están hechas de más de un tipo de material. Con esto se consigue mayor flexibilidad y mayor alcance. Se desarrollaron después del arco largo normal. Para usar un arco tan poderoso se requiere una fuerza de 18.
+
+CARACTERÍSTICAS:
+
+GAC0: Bonificador +2
+Daño: Bonificador +1
+Peso: 10
+Factor de velocidad: 7
+Talento marcial: Arco largo
+Tipo: A dos manos
+Requisito: Fuerza 18~
+@7650400 = ~El arco largo es parecido al corto, salvo en que la vara es de la misma altura que el arquero, de 180 a 190 centímetros. Disfruta de mayor alcance que el arco corto y, por lo tanto, de mucha más precisión. 
+
+CARACTERÍSTICAS:
+
+GAC0: Bonificador +2
+Peso: 3
+Factor de velocidad: 7
+Talento marcial: Arco largo
+Tipo: A dos manos
+Requisito: Fuerza 6~
+@7650401 = ~Los arcos cortos fueron los primeros en desarrollarse, aunque no recibían este nombre. Éste es un término que se aplica a todo lo que no sea un arco largo. Las varas de los arcos cortos son de unos 150 centímetros de media. Con el paso del tiempo, se hicieron intentos de mejorar el alcance de los arcos. Esto se hacía alargando las varas o aumentando la flexibilidad sin cambiar la longitud. El primer caso dio como resultado el arco largo.
+
+CARACTERÍSTICAS:
+
+GAC0: Bonificador +1
+Peso: 2
+Factor de velocidad: 6
+Talento marcial: Arco corto
+Tipo: A dos manos
+Requisito: Fuerza 3~
+@650403 = ~Drakkas Ranul fue un elfo lunar proscrito con una gran marca en su hombro. A una edad muy temprana, Drakkas fue raptado por un grupo de exploradores drow que lo criaron para ser un luchador de los pozos. Al principio luchó con sus compañeros, victimas también de raptos, en los pozos. Sin embargo, con el tiempo, sus compañeros secuestrados morían por sus heridas y un pobre tratamiento, hasta que Drakkas se quedó sólo en las peleas contra los monstruos que los drow escogían. Drakkas perseveró, alimentado por su creciente odio hacia sus captores, en la esperanza de poder escapar un día y entonces vengarse de sus raptores.
+
+Un día Drakkas vio cumplido su deseo, logró escapar al robar las llaves de las celdas de un guardia nocturno perezoso, y entonces, sigilosamente se escabulló fuera de la implacable Infraoscuridad. Tuvo cuidado de robar un par de cimitarras en su huída, a las cuales les dio buen uso mientras huía por los enreversados corredores de la Infraoscuridad. Cuando emergió a la superficie, buscó de inmediato a su gente, los elfos lunares.
+
+Por desgracia, cuando encontró a su pueblo, lo desterrarón debido a sus horribles cicatrices de guerra. Amargado y marginado, se fijó la misión en su vida de tomarse la venganza más dolorosa posible contra sus secuestradores. Drakkas se entrenó diligentemente en las artes mágicas oscuras, a la vez que continuaba su formidable entrenamiento en las armas. Cuando llegó el momento en que sintio que estaba listo, empezó a vender sus servicios como mercenario por dinero para comprar un equipo mejor. Una de las cosas que buscaba en particular era una cota de malla muy ligera para mejorar sus habilidades de combate. La suerte estuvo con él el día que encontró a un enano herrero que podía adaptarse a las necesidades de Drakkas. No fue hasta mucho tiempo más tarde que la armadura estuvo finalizada y Drakkas listo para su misión de venganza.
+
+Drakkas desapareció de las personas que lo conocían y utilizaban sus servicios de mercenario, y se aventuró en las profundidades de la Infraoscuridad, donde nunca se supo nada de él. Sin embargo, de alguna manera, su armadura especial apareció fuera de la Infraoscuridad. Nadie sabe cómo, pero se especula que la devolución a la superfície del mundo de la armadura de Drakkas fue un mensaje sutíl de los drow. El mensaje, por supuesto, se dejó a la imaginación del intérprete.
+
+CARACTERÍSTICAS:
+
+Aptitud especial:
+  Las habilidades de lanzamiento de conjuros y de ladrón se pueden realizar sin ninguna penalización mientras se lleve la Cota de mallas de Drakkas.
+  Velocidad: 1 ataque adicional por asalto
+  
+Bonificador a la clase de armadura: +8
+Bonificador al máximo de Destreza: +1
+Bonificador al fallo de conjuros: 10%
+GAC0: Bonificador +3
+Peso: 30
+Requisito: Fuerza 8~
+@7650404 = ~La mayoría de los garrotes son palos recios de madera, estrechos en la empuñadura y más anchos en los extremos. Esta sencilla herramienta se ha utilizado desde que el hombre comenzó a utilizar herramientas. Todo el mundo puede encontrar una buena pieza recia de madera con la que golpear, de ahí el amplio uso de los garrotes.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6
+GAC0: Bonificador +1
+Tipo de daño: Contundente
+Peso: 3
+Factor de velocidad: 4
+Talento marcial: Clava
+Tipo: A una mano
+Requisito: Fuerza 5~
+@7650405 = ~La daga típica tiene una hoja puntiaguda de doble filo, al contrario que el cuchillo, que sólo tiene un filo y es un poco más corto que la daga.
+
+CARACTERÍSTICAS:
+
+Daño: 1D4
+GAC0: Bonificador +1
+Tipo de daño: Perforante
+Peso: 1
+Factor de velocidad: 2
+Talento marcial: Daga
+Tipo: A una mano
+Requisito: Fuerza 3~
+@7650406 = ~Los dardos son proyectiles pequeños, fáciles de ocultar que se lanzan, más que dispararse, con un arco u otro artilugio.
+
+CARACTERÍSTICAS:
+
+Daño: 1D3
+GAC0: Bonificador +1
+Tipo de daño: Proyectil (perforante)
+Peso: 0
+Factor de velocidad: 2
+Talento marcial: Dardo
+Tipo: A una mano~
+@650408 = ~La daga típica tiene una hoja puntiaguda de doble filo, al contrario que el cuchillo, que sólo tiene un filo y es un poco más corto que la daga.
+
+CARACTERÍSTICAS:
+
+Aptitud especial:
+  Puede lanzar Borroso 2 veces al día
+
+Daño: 1D4 + 4
+GAC0: Bonificador +4
+Tipo de daño: Perforante
+Peso: 1 libra
+Factor de velocidad: 2
+Talento marcial: Daga
+Tipo: A una mano
+Requisito: Fuerza 3~
+@7650409 = ~El mayal consiste en un mango grueso de madera unido a una barra de hierro, a una estaca de madera con pinchos o a una bola de hierro con pinchos. Entre el asidero y el instrumento hay una bisagra o una junta de cadena. Originariamente, este arma se utilizaba para trillar el grano.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 + 1
+GAC0: Bonificador +1
+Tipo de daño: Contundente
+Peso: 15
+Factor de velocidad: 7
+Talento marcial: Mayal/lucero del alba
+Tipo: A una mano
+Requisito: Fuerza 13~
+@7650410 = ~Esta poderosa arma consiste en un mango de más de medio metro de largo con una pesada hoja en la parte superior. Al hacha se le pueden poner dos hojas, a ambos lados del mango, o ésta puede tener sólo una. Es un arma difícil de manejar, pero un guerrero hábil puede lanzar golpes con una fuerza tremenda.
+
+CARACTERÍSTICAS:
+
+Daño: 1D12
+GAC0: Bonificador +1
+Tipo de daño: Cortante
+Peso: 5
+Factor de velocidad: 9
+Talento marcial: Hacha
+Tipo: A dos manos
+Requisito: Fuerza 10~
+@650413 = ~Esta poderosa arma consta de un mango de cuatro a cinco pies con una hoja muy pesada. Al hacha se le pueden poner dos hojas, a ambos lados del mango, o ésta puede tener sólo una. Es un arma difícil de manejar, pero un guerrero hábil puede lanzar golpes con una fuerza tremenda. Se han grabado runas enanas en la gigantesca hoja para mejorar más aún el hacha.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  El blanco está bajo los efectos del conjuro Ceguera (salvación contra conjuros lo niega)
+  +2d6 de daño contra criaturas malvadas
+
+Daño: 1d12 + 5
+GAC0: Bonificador +5
+Tipo de daño: Cortante
+Peso: 20 libras
+Talento marcial: Hacha
+Tipo: A dos manos~
+@7650414 = ~Es, con diferencia, el arma alargada más antigua y más ampliamente utilizada. Las alabardas constan de una hoja de cuchilla como de hacha montada sobre un asta de unos 180 cm. La hoja del hacha está compensada por la parte posterior con una aleta y coronada por una afilada púa, normalmente cuadrangular. A veces se reemplaza la aleta por un garfio que se utiliza para desmontar a los caballeros. Las alabardas se pueden describir mejor como una mezcla de lanza y hacha.
+
+CARACTERÍSTICAS:
+
+Daño: 1D10
+GAC0: Bonificador +1
+Tipo de daño: Perforante
+Peso: 15
+Factor de velocidad: 9
+Talento marcial: Alabarda
+Tipo: A dos manos
+Requisito: Fuerza 13~
+@7650415 = ~Los caballeros a caballo no pueden manejar eficazmente las armas de palo largo, y como consecuencia de ello muchas de las armas disponen de un mango más corto para poder empuñarlas con una sola mano. Las mazas y los mayales son ejemplos anteriores (así como el martillo de guerra). El martillo de guerra del jinete es el descendiente del martillo de Lucerna. Se elabora por entero en acero, con arandelas que protegen y refuerzan la empuñadura. Las arandelas son pequeños discos de metal, que se diseñan a menudo con formas decorativas. El mango mide unos 46 centímetros.
+
+CARACTERÍSTICAS:
+
+Daño: 1D4 + 1
+GAC0: Bonificador +1
+Tipo de daño: Contundente
+Peso: 6
+Factor de velocidad: 4
+Talento marcial: Martillo de guerra
+Tipo: A una mano
+Requisito: Fuerza 9~
+@7650416 = ~La versión más común del hacha de batalla es un palo fuerte de unos 120 cm. con una cuchilla de un filo en forma de cuña en uno de sus extremos. Las hachas de batalla también se denominan hachas anchas.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6
+GAC0: Bonificador +1
+Tipo de daño: Cortante
+Peso: 7
+Factor de velocidad: 7
+Talento marcial: Hacha
+Tipo: A una mano
+Requisito: Fuerza 10~
+@650418 = ~Como otras de su clase, esta alabarda se compone de una hoja con forma de hacha puesta sobre un asta de madera, de unos 180 cm de longitud. Sin embargo, a ésta se le ha otorgado un pequeño número de propiedades mágicas, lo que la hace más eficaz en combate. Su hoja afilada, por ejemplo, hendirá la carne de tu rival para encontrar el hueso mientras su punta con púas buscará huecos en su armadura.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Impía: +2d6 de daño contra criaturas Buenas
+  Caótica: +2d6 de daño contra criaturas Legales
+  Castigo: Bonificador al ataque de +2 contra elfos y +2d6 + 2 de daño contra elfos
+  Vampírica: 1d4 puntos de golpe drenados al blanco se añaden al portador (salvación contra conjuros para negarlo)
+
+Daño: 1d10
+Encantamiento: +2
+Tipo de daño: Perforante
+Talento marcial: Alabarda
+Tipo: A dos manos
+Peso: 14 libras
+Requisito: Fuerza 13~
+@650420 = ~Las antiguas leyendas enanas hablan de un tiempo donde el metal más noble no era el acero enano, ni el hierro meteórico, ni el mithril, sino el dykhast, una aleación tan fuerte que el filo de la hoja nunca se mellaba ni por el esfuerzo ni por la batalla, y con una superfície tan perfecta y brillante que en su resplandeciente superfície podía verse el vuelo de un dragón a lo lejos. Los enanos más ancianos hablan de las hojas de dykhast con lágrimas de nostálgico cariño en sus ojos, y escúpen con dureza a la mención de las "varias debilidades y la nimiedad" de los metales que están de moda hoy en día para la forma de armas y armaduras.
+
+Sin embargo, hay rumores de que en un antiguo y secreto templo llamado Chogoh Kyn, las espadas de dykhast aún se hacen con el paso de los días como antaño, eso dicen los cuentos. El precio puede ser alto, pero para el verdadero conocedor, no existe una gloria, una perfección, una alegría absoluta... sin dykhast.
+
+CARACTERÍSTICAS:
+
+Aptitud especial:
+  5% de posibilidad de cegar al blanco (salvación contra veneno para negarlo)
+
+Daño: 1d8 + 6
+GAC0: Bonificador +3
+Tipo de daño: Cortante
+Talento marcial: Espada larga
+Tipo: A una mano~
+@7650421 = ~La maza deriva directamente del garrote común y se compone simplemente de un asta de madera con una punta de piedra o hierro montada en el extremo. El diseño de la punta varía: unas tienen púas, otras rebordes y otras tienen piezas piramidales.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 + 1
+GAC0: Bonificador +1
+Tipo de daño: Contundente
+Peso: 8
+Factor de velocidad: 7
+Talento marcial: Maza
+Tipo: A una mano
+Requisito: Fuerza 10~
+@7650422 = ~El lucero del alba es una barra de madera rematada con una cabeza metálica hecha de una vaina de hierro con pinchos. Los luceros del alba tienen una longitud de unos 120 centímetros. Algunos de ellos tienen una cabeza ovalada o cilíndrica tachonada con clavos. En la mayoría de los luceros del alba, sea cual sea el diseño, sale una larga punta, diseñada para clavar.
+
+CARACTERÍSTICAS:
+
+Daño: 2D4
+GAC0: Bonificador +1
+Tipo de daño: Contundente
+Peso: 12
+Factor de velocidad: 7
+Talento marcial: Mayal/lucero del alba
+Tipo: A una mano
+Requisito: Fuerza 11~
+@650424 = ~Los arcos cortos fueron los primeros en desarrollarse, aunque no recibían este nombre. Éste es un término que se aplica a todo lo que no sea un arco largo. Las varas de los arcos cortos son de unos 150 centímetros de media. Con el paso del tiempo, se hicieron intentos de mejorar el alcance de los arcos. Esto se hacía alargando las varas o aumentando la flexibilidad sin cambiar la longitud. El primer caso dio como resultado el arco largo.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  +15 al máximo de puntos de golpes mientras esté equipado
+  Bonificador de +1 a la clase de armadura
+
+Daño: +1 (proyectil)
+GAC0: Bonificador +1
+Peso: 2 lb.
+Talento marcial: Arco corto
+Tipo: A dos manos~
+@7650425 = ~Esta hoja larga y curvada de un solo filo es característica de los sables y las cimitarras, aunque sus orígenes provienen de diferentes partes de Faerûn. Mientras que el sable fue diseñado para jinetes, principalmente por su versatilidad, la cimitarra tiene una fuerte influencia oriental. La "shamshir", como se la llamó originalmente, es larga, tiene forma curvada y está afilada hasta la delgada punta. Como resultado, es ligeramente más lenta, pero suele ser más efectiva y letal en combate.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8
+GAC0: Bonificador +1
+Tipo de daño: Cortante
+Peso: 4
+Factor de velocidad: 5
+Talento marcial: Cimitarra/wakizashi/ninja-to
+Tipo: A una mano
+Requisito: Fuerza 10~
+@7650426 = ~Las hondas han existido desde el principio de la historia. Las hondas básicas constan de una correa de cuero o de tela con una bolsa para sujetar el proyectil. El arma se sujeta por ambos extremos de la correa y se gira alrededor de la cabeza del lanzador. Cuando se consigue la máxima velocidad, el proyectil se lanza soltando uno de los extremos de la correa.
+
+CARACTERÍSTICAS:
+
+GAC0: Bonificador +1
+Peso: 0
+Factor de velocidad: 6
+Talento marcial: Honda
+Tipo: A una mano
+Requisito: Fuerza 3~
+@7650427 = ~Es una de las primeras armas que utilizó el hombre y se remonta a los tiempos más remotos. Las primeras lanzas no eran más que varas o palos de madera con una punta afilada. Cuando el hombre dominó el arte del metal, las puntas de lanza se hacían de hierro o acero. Llegado este punto, los armeros comenzaron a experimentar diferentes tipos de puntas de lanza, lo que condujo al desarrollo de nuevos tipos de lanzas.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6
+GAC0: Bonificador +1
+Tipo de daño: Penetrante
+Peso: 5
+Factor de velocidad: 6
+Talento marcial: Lanza
+Tipo: A dos manos
+Requisito: Fuerza 5~
+@7650428 = ~Es la más sencilla y humilde de las armas de palo. La barra es una madera de 180 a 275 centímetros de largo. Una buena barra está hecha de madera de roble y va rematada con metal en ambos extremos. La barra se debe empuñar con ambas manos.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6
+GAC0: Bonificador +1
+Tipo de daño: Contundente
+Peso: 4
+Factor de velocidad: 4
+Talento marcial: Bastón
+Tipo: A dos manos
+Requisito: Fuerza 5~
+@7650429 = ~La espada bastarda, conocida también como espada de puño y medio, se llama así porque está a medio camino entre la espada de dos puños y la espada grande. La espada bastarda tiene una hoja de doble filo y una empuñadura larga, que se puede adaptar a las dos manos si se prefiere. La longitud total de la espada bastarda oscila entre 120 y 150 centímetros.
+
+CARACTERÍSTICAS:
+
+Daño: 2D4
+GAC0: Bonificador +1
+Tipo de daño: Cortante
+Peso: 10
+Factor de velocidad: 8
+Talento marcial: Espada bastarda
+Tipo: A una mano
+Requisito: Fuerza 11~
+@7650430 = ~La espada de dos puños es una variación de la espada larga. Los armeros buscan siempre la forma de mejorar las armas que ya existen y para mejorar la espada larga, alargaron la hoja. Finalmente, hubo que extender la empuñadura, por lo que se hizo necesario utilizar ambas manos. La función principal de la espada de dos puños es partir en dos a los caballeros montados y dispersar las formaciones en pica.
+
+CARACTERÍSTICAS:
+
+Daño: 1D10
+GAC0: Bonificador +1
+Tipo de daño: Cortante
+Peso: 15
+Factor de velocidad: 10
+Talento marcial: Mandoble
+Tipo: A dos manos
+Requisito: Fuerza 14~
+@7650431 = ~La katana es una espada curvada con un único filo y acabada en punta. Quizá sea una de las mejores espadas que se han fabricado nunca. Los pasos de su creación, un proceso largo y secreto, son más una forma de arte que cualquier otra cosa. Su hoja es una de las facetas más importantes de la cultura de Kara-Tur. Tocar o coger la katana de un samurái es un insulto que atraerá su ira. Que un gaijin o extranjero posea una de estas espadas es algo raro. O el gaijin ha sido honrado por un importante ministro o ha asesinado a un samurái.
+
+CARACTERÍSTICAS:
+
+Daño: 1D10
+GAC0: Bonificador +1
+Tipo de daño: Cortante
+Peso: 6
+Factor de velocidad: 4
+Talento marcial: Katana
+Tipo: A una mano
+Requisito: Fuerza 6~
+@7650432 = ~Estas armas suelen recibir el nombre de "espadas de doble filo", "espadas de guerra" o "espadas militares". Muchas veces, la espada larga tiene una hoja de un solo filo. No existe una versión corriente de esta arma; su diseño y tamaño varía de una cultura a otra, e incluso puede cambiar dentro de una misma dependiendo de la época. Una de las características más comunes de las espadas largas es su tamaño, que va de los 90 centímetros hasta 1,20 metros. En este último caso, la hoja suele abarcar en torno a un metro de la longitud total. La mayoría de las espadas largas poseen una hoja con punta y doble filo. A pesar de la punta, el arma está diseñada para cortar, no para clavarla.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8
+GAC0: Bonificador +1
+Tipo de daño: Cortante
+Peso: 4
+Factor de velocidad: 5
+Talento marcial: Espada larga
+Tipo: A una mano
+Requisito: Fuerza 6~
+@7650433 = ~La espada ninja, ninja-to, es de peor calidad que otras espadas de Kara-Tur, como la katana. Ésta es corta y tiene una hoja recta que la hace ideal para el subterfugio de los ninja. También es más fácil de blandir en espacios cerrados, lo que en ocasiones proporciona ventaja al ninja sobre las espadas largas que utilizan los samuráis.
+
+CARACTERÍSTICAS
+
+Daño: 1D8
+GAC0: Bonificador +1
+Tipo de daño: Cortante
+Peso: 5
+Factor de velocidad: 4
+Talento marcial: Cimitarra/wakizashi/ninja-to
+Tipo: A una mano
+Requisito: Fuerza 6~
+@7650434 = ~La espada corta fue el primer tipo de espada utilizada y se podría describir como una especie de daga de hoja tan larga que ya deja de ser una daga. En la clasificación de espadas no se incluye el término espada corta. Sin embargo, la utilización de este vocablo se ha generalizado para describir una hoja de doble filo de aproximadamente 60 cm. de longitud. La punta de la espada suele ser afilada, perfecta para apuñalar.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6
+GAC0: Bonificador +1
+Tipo de daño: Perforante
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: Espada corta
+Tipo: A una mano
+Requisito: Fuerza 5~
+@7650435 = ~El wakizashi, o "espada compañera", es muy importante para un samurái. Se lleva en todo momento, incluso por dentro, y está cerca del samurái mientras duerme por la noche. El wakizashi tiene tanta calidad como la katana, aunque es más corta; mide entre 30 y 60 centímetros, resultando un arma peligrosa en manos expertas.
+
+CARACTERÍSTICAS
+
+Daño: 1D8
+GAC0: Bonificador +1
+Tipo de daño: Perforante
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: Cimitarra/wakizashi/ninja-to
+Tipo: A una mano
+Requisito: Fuerza 5~
+@7650436 = ~Los caballeros a caballo no pueden manejar eficazmente las armas de palo largo, y como consecuencia de ello muchas de las armas disponen de un mango más corto para poder empuñarlas con una sola mano. Las mazas y los mayales son ejemplos anteriores (así como el martillo de guerra). El martillo de guerra del jinete es el descendiente del martillo de Lucerna. Se elabora por entero en acero, con arandelas que protegen y refuerzan la empuñadura. Las arandelas son pequeños discos de metal, que se diseñan a menudo con formas decorativas. El mango mide unos 46 centímetros.
+
+CARACTERÍSTICAS:
+
+Daño: 1D4 + 1
+GAC0: Bonificador +1
+Tipo de daño: Contundente
+Peso: 6
+Factor de velocidad: 4
+Talento marcial: Martillo de guerra
+Tipo: A una mano
+Requisito: Fuerza 9~
+@7650437 = ~El hacha de mano o hacha arrojadiza también se conoce como hachuela. La hoja tiene una punta de acero afilada, con una aleta en punta como contrapeso. El corto asidero termina en punta y la cabeza puede tener un clavo en la parte superior.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 + 1
+GAC0: Bonificador +1
+Tipo de daño: Proyectil (perforante)
+Peso: 5
+Factor de velocidad: 4
+Talento marcial: Hacha
+Tipo: A una mano
+Requisito: Fuerza 4~
+@7650438 = ~Una ballesta es un arco que se monta transversalmente sobre un fuste de madera o de metal. El último recibe el nombre de timón. El arco se suele hacer de madera de fresno o de tejo. La ballesta dispara cuadrillos (también llamados virotes).
+
+CARACTERÍSTICAS:
+
+Daño: +2 (proyectil)
+GAC0: Bonificador +1
+Peso: 14
+Factor de velocidad: 10
+Talento marcial: Ballesta
+Tipo: A dos manos
+Requisito: Fuerza 12~
+@7650439 = ~Una ballesta es un arco que se monta transversalmente sobre un fuste de madera o de metal. El último recibe el nombre de timón. El arco se suele hacer de madera de fresno o de tejo. La ballesta dispara cuadrillos (también llamados virotes). Las ballestas ligeras no sólo pesan menos que sus contrapartidas pesadas, sino que también disparan más rapidamente.
+
+CARACTERÍSTICAS:
+
+GAC0: Bonificador +1
+Peso: 7
+Factor de velocidad: 5
+Talento marcial: Ballesta
+Tipo: A dos manos
+Requisito: Fuerza 8~
+
+@650445 = ~Esta poderosa arma fue creada por las deidades herreras de los planos. Para los norteños que mantienen la creencia religiosa del Ragnarok, este martillo de guerra de Lokin toma parte en la lucha para prevenir que el Ragnarok ocurra antes de tiempo. Este particular martillo da a su portador una bonificación a su clase de armadura, le permite esgrimir el arma con la maestría en el talento marcial de martillo, y también le proporciona un número de resistencias a tipos concretos de daños: veneno, fuego, frío, ácido y eléctrico.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Bonificador de +4 a la Clase de armadura
+  +5 estrellas en talento marcial Martillo de guerra
+  +50% de resistencia al fuego
+  +50% de resistencia al frío
+  +50% de resistencia al ácido
+  +50% de resistencia al veneno
+  +50% de resistencia a la electricidad
+
+Daño: 2D8 + 5
+GAC0: Bonificador +5
+Tipo de daño: Contundente
+Peso: 6
+Factor de velocidad: 4
+Talento marcial: Martillo de guerra
+Tipo: A una mano~
+@650449 = ~Este cetro tiene una longitud de 76 cm y está hecho de titanio forjado, un metal pesado bastante valioso. Dada la longitud del metal podría ser usado como un arma simple si fuera necesario, sin embargo, si se le colocara la cabeza de una maza u similar, fácilmente podría volverse un arma formidable en las manos del esgrimidor adecuado.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8
+Tipo de daño: Contundente
+Peso: 3
+Factor de velocidad: 4
+Talento marcial: Clava
+Tipo: A una mano
+Requisito: Fuerza 5~
+
+@650450 = ~Esta poderosa arma fue creada por las deidades herreras de los planos. Para los norteños que mantienen la creencia religiosa del Ragnarok, este martillo de guerra de Lokin toma parte en la lucha para prevenir que el Ragnarok ocurra antes de tiempo. Este particular martillo da a su portador una bonificación a su clase de armadura, le permite esgrimir el arma con la maestría en el talento marcial de martillo, y también le proporciona un número de resistencias a tipos concretos de daños: veneno, fuego, frío, ácido y eléctrico.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Bonificador de +2 a la Clase de armadura
+  +4 estrellas en talento marcial Martillo de guerra
+  +25% de resistencia al fuego
+  +25% de resistencia al frío
+  +25% de resistencia al ácido
+  +25% de resistencia al veneno
+  +25% de resistencia a la electricidad
+
+Daño: 1D10 + 4
+GAC0: Bonificador +4
+Tipo de daño: Contundente
+Peso: 6
+Factor de velocidad: 4
+Talento marcial: Martillo de guerra
+Tipo: A una mano~
+@650452 = ~A primera vista, este bastón se parece a la inmensa mayoría de los bastones. Sin embargo, está grabado con una cierta cantidad de sellos y runas de sortilegios, que lo envuelven en una capa plateada. A pesar de sus decoraciones, este bastón parece ser extremadamente importante. Tal vez sería sabio encontrar al dueño original, o a la tribu a la que pertenezca el bastón, pues pueden estar dispuestos a recompensaros con alguna posesión ancestral.
+
+Aunque realmente parezca un bastón normal, tiene unas cuantas propiedades mágicas menores. La primera es un bonificador adicional de 1d4 de daño contundente con cada impacto con éxito que realice el portador. La segunda es que al equiparse este bastón, el usuario gana automáticamente un bonificador de 2 a su GAC0. La tercera propiedad es la capacidad de bendecir a su portador y a sus compañeros una vez al día. El bastón se recarga a sí mismo automáticamente tras pasar una cierta cantidad de tiempo.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Bonificador de +2 al GAC0 mientras esté equipado
+  Lanza Bendecir sobre el usuario una vez al día
+
+Daño: 1D6 + 1d4
+Tipo de daño: Contundente
+Peso: 4
+Factor de velocidad: 4
+Talento marcial: Bastón
+Tipo: A dos manos
+Requisito: Fuerza 5~
+@650458 = ~Cazar gorgones es un deporte drow muy arriesgado. A menudo, después de una cacería satisfactoria, la sangre del gorgon es recogida y usada en la creación de una nueva armadura de placas. Este tipo especial de armaduras drow son, de hecho, capaces de soportar la luz de la superfície.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: -2
+Especial: +30% de resistencia al fuego y al ácido
+Peso: 20
+Requisito: Fuerza 12~
+
+@650479 = ~La espada ancha es una combinación de la espada larga con la fuerza y efectividad de una espada a dos manos. Los armeros siempre andan buscando formas de mejorar las armas ya existentes. En un esfuerzo por mejorar la espada larga, la hoja fue alargada. Al final, se tuvo que prolongar la empuñadura y el usar dos manos fue necesario para blandir la espada adecuadamente.
+
+CARACTERÍSTICAS:
+
+Daño: 1D12
+Tipo de daño: Cortante
+Peso: 12
+Factor de velocidad: 8
+Talento marcial: Espada larga
+Tipo: A dos manos
+Requisito: Fuerza 9~
+@650480 = ~Esta es el arma de Paddy Cervezafirme. Es una espada ancha pesada, especialmente para un mediano, pero los encantamientos mágicos llegaron a hacerla muy útil para él en el Bosque de Tethyr.
+
+CARACTERÍSTICAS:
+
+Daño: 1D12 + 2
+GAC0: Bonificador +2
+Tipo de daño: Cortante
+Peso: 5
+Factor de velocidad: 5
+Talento marcial: Espada larga
+Tipo: A una mano
+Requisito: Fuerza 6~
+@650488 = ~Anillo de protección +3: 'El Anillo del Guardián'
+El Guardián era un centinela inmortal encargado de proteger la tumba donde estaba sepultado el cuerpo de la princesa de Akanal. Tras varios milenios, se perdió el respeto por la tumba y la familia real quedó en el olvido. Varios aventureros intentaron probar suerte con el Guardián y finalmente fue inevitable que éste sucumbiera a la tentación. El anillo que llevaba era uno de los muchos tesoros sustraídos de la tumba.
+
+CARACTERÍSTICAS:
+
+Bonificador a la Clase de armadura: +3
+Bonificador a la Tirada de salvación: +3~
+@650492 = ~No se conoce la historia de este arma. Os la entregó Crowley, un anticuado explorador que deseaba que fuera afilada. Así lo hicísteis, y le llevásteis el hacha a los bosques del norte de Amn. Esta hacha en concreto da a quien la esgrime un bonificador a su clase de armadura, permite al portador usarla con la maestría en el talento de Hacha, y también proporciona resistencia a determinados tipos de daño: veneno, fuego, frío, ácido y electricidad.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Bonificador a la clase de armadura: +2
+  +4 estrellas al talento con Hacha
+  25% de resistencia al fuego
+  25% de resistencia al frío
+  25% de resistencia al ácido
+  25% de resistencia al veneno
+  25% de resistencia a la electricidad
+
+Daño: 2D8 + 5
+GAC0: Bonificador +5
+Tipo de daño: Cortante
+Peso: 7
+Factor de velocidad: 3
+Talento marcial: Hacha~
+@650513 = ~Un buen número de estos escudos se pueden encontrar en los templos de Waukeen de todo Faerûn. La iglesia fabrica estos escudos para venderselos a los aventureros interesados. A cambio de los poderes del dispositivo, se le pide al portador que mantenga el frontal del escudo al descubierto y en su estado original. Si el propietario no lo cumple, los poderes del escudo desaparecerán. De esta forma, docenas de aventureros recorren los Reinos portando el rostro dorado de Waukeen en sus brazos.
+
+CARACTERÍSTICAS:
+
+Bonificador a la clase de armadura: +3
+Bonificador a las tiradas de salvación: +2
+Resistencia a la magia: +10%
+Peso: 4~
+@650515 = ~Las únicas partes materiales de esta arma helada son el pomo, la empuñadura y el mango, hechos de plata y acero brillantes. Fue creada en el 1099 CV por la elegida de Auril, Ihanora la Piadosa. Ihanora recorrió el Norte, liderando ataques implacables contra todos aquellos que trataban de buscar solaz del frío o combatir sus efectos. Viajaba con un grupo variopinto de yetis, gusanos polares, gigantes de hielo y un dragón blanco, congelando todo a su paso. Ihanora fue vencida en el año 1108 CV por la célebre Brigada de la Máscara Roja, encabezada por el asesino implacable conocido como Harley el Amargado.
+
+CARACTERÍSTICAS:
+
+Aptitud especial:  
+  2% de probabilidad de convertir al blanco en hielo sólido
+
+Daño: 2d4 + 2
+GAC0: Bonificador +2
+Tipo de daño: Frío
+Peso: 10
+Factor de velocidad: 6
+Talento marcial: Espada bastarda
+Tipo: A una mano
+Requisito: Fuerza 9~
+@650518 = ~Una de las armas más tempranas del hombre, se remontan a los tiempos más primitivos pues fueron las primeras lanzas, simples palos de madera o estacas afiladas por un extremo. Cuando el hombre dominó los metales, las puntas de las lanzas se hicieron de hierro y acero. Habiendo alcanzado este punto, los armaeros comenzaron a experimentar con diferentes puntas de lanzas, lo que condujo al desarrollo de varios tipos de armas de asta. Esta lanza es ligeramente diferente, pues tiene mejoras físicas. La punta tiene unas pequeñas púas que aumentan el daño cuando se extrae la misma del cuerpo de una víctima y el mastil ha sido reforzado en toda su longitud con anillos de acero para prevenir que la madera se astille y tiene varias hojas pequeñas colocadas en varios ángulos. La base tiene un casquillo de acero moldeado el cuál permite usar la lanza como un arma contundente.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 + 1 (perforante)
+        1d4 + 1 (contundente)
+        1d4 + 1 (cortante)
+GAC0: Bonificador +1
+Tipo de daño: Perforante
+Alcance: 70
+Peso: 5
+Factor de velocidad: 5
+Talento marcial: Lanza
+Tipo: A dos manos
+Requisito: Fuerza 5~
+@650525 = ~Este arma fue creada por los herreros para que los bardos esgrimieran un arma poderosa. Esta hoja Entonaconjuro le fe otorgada a <Player1> por un Maestro bardo, un antiguo instructor de la Escuela bárdica de Luna Plateada, y aceptó a <Player1> como su portador. Sólo aquél que haya sido elegido por la hoja Entonaconjuro puede usarla; cualquiera que intente desenvainarla se verá abrasado horriblemente, muriendo muy posiblemente. Esta hoja Entonaconjuro en concreto da al usuario una bonificación a su clase de armadura, permite al portador el usar la espada con la maestría en el talento de Espada larga, y también proporciona resistencia a determinados tipos de daño: veneno, fuego, frío, ácido y electricidad.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Bonificador a la clase de armadura: +4
+  +5 estrellas al talento con Espada corta
+  50% de resistencia al fuego
+  50% de resistencia al frío
+  50% de resistencia al ácido
+  50% de resistencia al veneno
+  50% de resistencia a la electricidad
+
+Daño: 2D8 + 5
+GAC0: Bonificador +5
+Tipo de daño: Cortante
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: Espada larga
+Tipo: A una mano~
+@650526 = ~Este arma fue creada por los herreros para que los bardos esgrimieran un arma poderosa. Esta hoja Entonaconjuro le fe otorgada a <Player2> por un Maestro bardo, un antiguo instructor de la Escuela bárdica de Luna Plateada, y aceptó a <Player2> como su portador. Sólo aquél que haya sido elegido por la hoja Entonaconjuro puede usarla; cualquiera que intente desenvainarla se verá abrasado horriblemente, muriendo muy posiblemente. Esta hoja Entonaconjuro en concreto da al usuario una bonificación a su clase de armadura, permite al portador el usar la espada con la maestría en el talento de Espada larga, y también proporciona resistencia a determinados tipos de daño: veneno, fuego, frío, ácido y electricidad.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Bonificador a la clase de armadura: +4
+  +5 estrellas al talento con Espada corta
+  50% de resistencia al fuego
+  50% de resistencia al frío
+  50% de resistencia al ácido
+  50% de resistencia al veneno
+  50% de resistencia a la electricidad
+
+Daño: 2D8 + 5
+GAC0: Bonificador +5
+Tipo de daño: Cortante
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: Espada larga
+Tipo: A una mano~
+@650527 = ~Este arma fue creada por los herreros para que los bardos esgrimieran un arma poderosa. Esta hoja Entonaconjuro le fe otorgada a <Player3> por un Maestro bardo, un antiguo instructor de la Escuela bárdica de Luna Plateada, y aceptó a <Player3> como su portador. Sólo aquél que haya sido elegido por la hoja Entonaconjuro puede usarla; cualquiera que intente desenvainarla se verá abrasado horriblemente, muriendo muy posiblemente. Esta hoja Entonaconjuro en concreto da al usuario una bonificación a su clase de armadura, permite al portador el usar la espada con la maestría en el talento de Espada larga, y también proporciona resistencia a determinados tipos de daño: veneno, fuego, frío, ácido y electricidad.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Bonificador a la clase de armadura: +4
+  +5 estrellas al talento con Espada corta
+  50% de resistencia al fuego
+  50% de resistencia al frío
+  50% de resistencia al ácido
+  50% de resistencia al veneno
+  50% de resistencia a la electricidad
+
+Daño: 2D8 + 5
+GAC0: Bonificador +5
+Tipo de daño: Cortante
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: Espada larga
+Tipo: A una mano~
+@650528 = ~Este arma fue creada por los herreros para que los bardos esgrimieran un arma poderosa. Esta hoja Entonaconjuro le fe otorgada a <Player4> por un Maestro bardo, un antiguo instructor de la Escuela bárdica de Luna Plateada, y aceptó a <Player4> como su portador. Sólo aquél que haya sido elegido por la hoja Entonaconjuro puede usarla; cualquiera que intente desenvainarla se verá abrasado horriblemente, muriendo muy posiblemente. Esta hoja Entonaconjuro en concreto da al usuario una bonificación a su clase de armadura, permite al portador el usar la espada con la maestría en el talento de Espada larga, y también proporciona resistencia a determinados tipos de daño: veneno, fuego, frío, ácido y electricidad.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Bonificador a la clase de armadura: +4
+  +5 estrellas al talento con Espada corta
+  50% de resistencia al fuego
+  50% de resistencia al frío
+  50% de resistencia al ácido
+  50% de resistencia al veneno
+  50% de resistencia a la electricidad
+
+Daño: 2D8 + 5
+GAC0: Bonificador +5
+Tipo de daño: Cortante
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: Espada larga
+Tipo: A una mano~
+@650529 = ~Este arma fue creada por los herreros para que los bardos esgrimieran un arma poderosa. Esta hoja Entonaconjuro le fe otorgada a <Player5> por un Maestro bardo, un antiguo instructor de la Escuela bárdica de Luna Plateada, y aceptó a <Player5> como su portador. Sólo aquél que haya sido elegido por la hoja Entonaconjuro puede usarla; cualquiera que intente desenvainarla se verá abrasado horriblemente, muriendo muy posiblemente. Esta hoja Entonaconjuro en concreto da al usuario una bonificación a su clase de armadura, permite al portador el usar la espada con la maestría en el talento de Espada larga, y también proporciona resistencia a determinados tipos de daño: veneno, fuego, frío, ácido y electricidad.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Bonificador a la clase de armadura: +4
+  +5 estrellas al talento con Espada corta
+  50% de resistencia al fuego
+  50% de resistencia al frío
+  50% de resistencia al ácido
+  50% de resistencia al veneno
+  50% de resistencia a la electricidad
+
+Daño: 2D8 + 5
+GAC0: Bonificador +5
+Tipo de daño: Cortante
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: Espada larga
+Tipo: A una mano~
+@650530 = ~Este arma fue creada por los herreros para que los bardos esgrimieran un arma poderosa. Esta hoja Entonaconjuro le fe otorgada a <Player6> por un Maestro bardo, un antiguo instructor de la Escuela bárdica de Luna Plateada, y aceptó a <Player6> como su portador. Sólo aquél que haya sido elegido por la hoja Entonaconjuro puede usarla; cualquiera que intente desenvainarla se verá abrasado horriblemente, muriendo muy posiblemente. Esta hoja Entonaconjuro en concreto da al usuario una bonificación a su clase de armadura, permite al portador el usar la espada con la maestría en el talento de Espada larga, y también proporciona resistencia a determinados tipos de daño: veneno, fuego, frío, ácido y electricidad.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Bonificador a la clase de armadura: +4
+  +5 estrellas al talento con Espada corta
+  50% de resistencia al fuego
+  50% de resistencia al frío
+  50% de resistencia al ácido
+  50% de resistencia al veneno
+  50% de resistencia a la electricidad
+
+Daño: 2D8 + 5
+GAC0: Bonificador +5
+Tipo de daño: Cortante
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: Espada larga
+Tipo: A una mano~
+
+@650532 = ~Este arma fue creada por los herreros para que los bardos esgrimieran un arma poderosa. Sólo los bardos pueden usar esta espada; cualquiera que intente desenvainarla se verá abrasado horriblemente, muriendo muy posiblemente. Esta hoja Entonaconjuro en concreto da al usuario una bonificación a su clase de armadura, permite al portador el usar la espada con la maestría en el talento de Espada corta, y también proporciona resistencia a determinados tipos de daño: veneno, fuego, frío, ácido y electricidad.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  Bonificador a la clase de armadura: +2
+  +4 estrellas al talento con Espada corta
+  25% de resistencia al fuego
+  25% de resistencia al frío
+  25% de resistencia al ácido
+  25% de resistencia al veneno
+  25% de resistencia a la electricidad
+
+Daño: 1D10 + 4
+GAC0: Bonificador +4
+Tipo de daño: Cortante
+Peso: 3
+Factor de velocidad: 4
+Talento marcial: Espada corta
+Tipo: A una mano~
+
+@650544 = ~Las capas de esgrima normales las llevan muchos espadachines que disfrutan de sus holgados y voluminosos pliegues que pueden llegar a enredar un arma en la gruesa tela. Esta capa proporciona un poco de protección contra las armas cortantes y las perforantes pues tienen una posibilidad de atorarse en la pesada capa.
+
+CARACTERÍSTICAS:
+
+Aptitud especial: Una vez al día, da una protección añadida similar a la del Piel pétra de mago: evitando los 5 primeros ataques tras ser invocada.
+
+Bonificador a la clase de armadura: +2 contra armas perforantes y cortantes.
+Bonificador a la tirada de salvación: +2
+Peso:  6~
+
+@650548 = ~Balanza de la justicia:  Esta espada corta fue propiedad de Tardeth Llanistaph de la Compañía de los Ocho. El cómo llegó a vuestra posesión es curioso. Tal vez la conseguisteis de forma ilegal; tal vez Tardeth fuera asesinado y la espada recogida de sus restos; o quizas os escamotearais dentro del campamento de la Compañía y buscasteis entre sus posesiones sin que ellos se dieran cuenta o vieron el registro de sus cosas por vuestra parte.
+
+O a lo mejor no está en vuestra posesión y sólo creéis que si porque estáis leyendo esto a través de una proyección mágica de 1280 por 1024 de tamaño.
+
+CARACTERÍSTICAS:
+
+Aptitud especial: Recompensa al portador con ataques extras que provocan que el blanco se mueva de forma más lenta, y cualquier portador tiene de forma automática destreza con la Balanza.
+
+Daño: 1D6 + 3
+GAC0: Bonificador +3
+Tipo de daño: Perforante
+Peso: 2
+Factor de velocidad: 0
+Talento marcial: Espada corta
+Tipo: A una mano
+Requisito: Fuerza 5~
+@7650549 = ~La versión más común del hacha de batalla es un palo fuerte de unos 120 cm. con una cuchilla de un filo en forma de cuña en uno de sus extremos. Las hachas de batalla también se denominan hachas anchas.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8 + 3
+GAC0: Bonificador +3
+Tipo de daño: Cortante
+Peso: 6
+Factor de velocidad: 7
+Talento marcial: Hacha
+Tipo: A una mano
+Requisito: Fuerza 10~
+@650551 = ~La cota de mallas está fabricada de anillas de metal entrelazadas. Siempre se lleva sobre un acolchado de cuero blando para evitar los roces y amortiguar el impacto de los golpes. Se ha aumentado la protección de la armadura por medio de encantamientos mágicos. Esta armadura +5 fue forjada por Throm Sturman en Hlondeth.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 0
+Peso: 10
+Requisito: Fuerza 8~
+@7650552 = ~La daga típica tiene una hoja puntiaguda de doble filo, al contrario que el cuchillo, que sólo tiene un filo y es un poco más corto que la daga.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8 + 2
+GAC0: Bonificador +4
+Tipo de daño: Perforante
+Peso: 1
+Factor de velocidad: 1
+Talento marcial: Daga
+Tipo: A una mano
+Requisito: Fuerza 3~
+@7650553 = ~El mayal consiste en un mango grueso de madera unido a una barra de hierro, a una estaca de madera con pinchos o a una bola de hierro con pinchos. Entre el asidero y el instrumento hay una bisagra o una junta de cadena. Originariamente, este arma se utilizaba para trillar el grano.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8 + 5
+GAC0: Bonificador +4
+Tipo de daño: Contundente
+Peso: 12
+Factor de velocidad: 7
+Talento marcial: Mayal/Lucero del alba
+Tipo: A una mano
+Requisito: Fuerza 13~
+@7650554 = ~Es, con diferencia, el arma alargada más antigua y más ampliamente utilizada. Las alabardas constan de una hoja de cuchilla como de hacha montada sobre un asta de unos 180 cm. La hoja del hacha está compensada por la parte posterior con una aleta y coronada por una afilada púa, normalmente cuadrangular. A veces se reemplaza la aleta por un garfio que se utiliza para desmontar a los caballeros. Las alabardas se pueden describir mejor como una mezcla de lanza y hacha.
+
+CARACTERÍSTICAS:
+
+Daño: 1D12 + 1
+GAC0: Bonificador +2
+Tipo de daño: Perforante
+Peso: 13
+Factor de velocidad: 8
+Talento marcial: Albarda
+Tipo: A dos manos
+Requisito: Fuerza 13~
+@650556 = ~La armadura completa es la mejor que un guerrero puede comprar, tanto en apariencia como en protección. Sus placas perfectamente entrelazadas tienen un ángulo especial para desviar flechas y golpes, toda la pieza está esmeradamente adornada con magníficos grabados y detallados relieves. Los encantamientos mágicos la convierten en la armadura ideal para un guerrero. Esta armadura +5 fue forjada por Throm Sturman en Hlondeth.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: -4
+Peso: 20
+Requisito: Fuerza 15~
+@650558 = ~Este escudo creado a partir de buenos materiales fue forjado por Throm Sturman en Hlondeth.
+
+CARACTERÍSTICAS:
+
+Bonificador a la Clase de armadura: 6
+Especial: +2 contra armas de proyectiles
+Peso: 10
+Requisito: Fuerza 10~
+@7650559 = ~Es una de las primeras armas que utilizó el hombre y se remonta a los tiempos más remotos. Las primeras lanzas no eran más que varas o palos de madera con una punta afilada. Cuando el hombre dominó el arte del metal, las puntas de lanza se hacían de hierro o acero. Llegado este punto, los armeros comenzaron a experimentar diferentes tipos de puntas de lanza, lo que condujo al desarrollo de nuevos tipos de lanzas.
+
+CARACTERÍSTICAS:
+
+Daño: 1D10
+GAC0: Bonificador +4
+Tipo de daño: Perforante
+Peso: 4
+Factor de velocidad: 4
+Talento marcial: Lanza 
+Tipo: A dos manos
+Requisito: Fuerza 5~
+@650561 = ~La armadura laminada es una variante de la malla de correas en la que las bandas de metal se aplican verticalmente a la parte posterior de la cota, cuero o tejido en lugar de horizontalmente como en la malla con bandas. Como el cuerpo humano no se flexiona en el medio torso como se flexiona de atrás hacia delante, el uso de la armadura laminada es más restrictivo en el combate.  Esta armadura fue forjada por Throm Sturman en Hlondeth, y le da a quien la lleve un bonificador de +4 a su clase de armadura.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 1
+Peso: 10
+Requisito: Fuerza 8~
+@7650562 = ~Estas espadas generalmente reciben el nombre de espadas de doble filo, de guerra o militares. En muchos casos, la espada larga tiene una hoja de un solo filo. No existe una única versión de la espada larga, ya que su diseño y longitud varían de una cultura a otra, e incluso puede cambiar dentro de una misma cultura dependiendo del período histórico. Una de las características más comunes en todas las espadas largas es su longitud, que oscila entre 90 y 120 centímetros. En el último caso, sólo la hoja llega a medir hasta 1 metro de la longitud total de la espada. La mayoría de las espadas largas son de doble filo y punta afilada. A pesar de tener punta, se diseñan para rasgar, no para apuñalar. 
+
+CARACTERÍSTICAS:
+
+Daño: 1D8 + 3
+GAC0: Bonificador +3
+Tipo de daño: Cortante
+Peso: 3
+Factor de velocidad: 5
+Talento marcial: Espada larga
+Tipo: A una mano
+Requisito: Fuerza 6~
+@7650563 = ~Los caballeros a caballo no pueden manejar eficazmente las armas de palo largo, y como consecuencia de ello muchas de las armas disponen de un mango más corto para poder empuñarlas con una sola mano. Las mazas y los mayales son ejemplos anteriores (así como el martillo de guerra). El martillo de guerra del jinete es el descendiente del martillo de Lucerna. Se elabora por entero en acero, con arandelas que protegen y refuerzan la empuñadura. Las arandelas son pequeños discos de metal, que se diseñan a menudo con formas decorativas. El mango mide unos 46 centímetros.
+
+CARACTERÍSTICAS:
+
+Daño: 2D6 + 3
+GAC0: Bonificador +4
+Tipo de daño: Contundente
+Peso: 5
+Factor de velocidad: 3
+Talento marcial: Martillo de guerra
+Tipo: A una mano
+Requisito: Fuerza 9~
+@650566 = ~Este estuche de herramientas contiene pequeñas sondas, llaves de esqueleto, tenazas, limas, ganzúas, tijeras, un surtido de pequeños destornilladores y alicates, y muchas otros útiles de ladrón. Puede ser muy útil al tratar de desarmar trampas, abrir cerraduras, o al robar cuando el objetivo es complicado.
+
+CARACTERÍSTICAS:
+  Bonificación a Abrir cerraduras: 30%
+  Bonificación a Encontrar trampas: 15%
+  Bonificación a Robar: 15%
+
+Para conseguir las bonificaciones hay que colocar el objeto en el hueco para el escudo.~
+
+@650568 = ~Estoque de Valiente
+
+Ya fuera creado específicamente para usarlo al servicio de Torm o Tyr, Valiente, un aventurero retirado que ahora lleva una tienda de armas y armaduras en el pueblo de Hlondeth, ha hecho buen uso de este estoque en sus batallas contra sus enemigos. Por medio de la magia o de la consagración, la fina y pulida hoja está dotada de la habilidad de que su portador golpee con tal rapidez y delicadeza que el arte del combate con espada se vuelve como un baile.
+
+CARACTERÍSTICAS:
+
+Aptitud especial:
+  El portador está bajo los efectos de Torbellino mientras esté equipada, incluyendo las penalizaciones de -4 al GAC0 y al daño.
+
+Daño: 1D8 + 4
+GAC0: Bonificador +4
+Tipo de daño: Perforante
+Peso: 1
+Factor de velocidad: 1
+Talento marcial: Espada larga
+Tipo: A una mano
+Requisito: Fuerza 6~
+
+@650602 = ~En la plenitud de su efímero esplendor, la Ciudad élfica de la Canción era conocida por sus artística música, teatros y encantamientos. Los elfos de Cormanthyr crearon artefactos, poderosos y bellos, que aún hoy son buscados por los cazadores de tesoros y aventureros.
+
+Esta arpa exquisitamente tallada en palisando y adornada con hojas de filigrana de oro, es uno de esos artefactos que demuestran la destreza suprema de los artesanos élficos. Encantamientos aparte, este arpa artesanal es un ejemplo de perfección en el tallado de la madera. El pulido del grano, sin elementos añadidos ni grabados intrincados, y un acabado brillante, incluso tras el paso de más de cinco siglos desde su creación, lo demuestran. El brillo que adorna el arpa no se ha empañado en absoluto, y las cuerdas de oro hilado resplandecen a la luz.
+
+Además de la cuidadosa elaboración de este arpa, fue encantada por algunos de los más poderosos archimagos élficos de antaño de Myth Drannor. Las cuerdas doradas, siete en total, vibran todas ellas en resolancia con la Urdimbre. Las propiedades en concreto de estas cuerdas no pueden discernirse hasta que el arpa sea tocada, pero hay muchas arpas de Myth Drannor esparcidas por Faerûn, todas con propiedades similares. Algunas de las propiedades de estas arpas que se saben han sido descubiertas incluyen el aumento del número de conjuros lanzador por asalto, el cambio del alineamiento del oyente, la posibilidad de ensordecer permanentemente, el incremento del número de ataques por asalto, o el aumento permanente del Carisma.
+
+Cada vez que se pulse una cuerda de un arpa de Myth Drannor, ésta provocará uno de los efectos anteriores, o un efecto desconocido de ante mano, elegido al azar, en el oyente u oyentes, para bien o para mal. La magia liberada por una cuerda la destruye en el proceso. Cuando todas las cuerdas doradas se hayan tocado, el arpa de Myth Drannor perderá sus propiedades mágicas.
+
+*Finalista de los premios CIMS 2002  (CBisson Item Making Sweepstakes)~
+@650603 = ~En la plenitud de su efímero esplendor, la Ciudad élfica de la Canción era conocida por sus artística música, teatros y encantamientos. Los elfos de Cormanthyr crearon artefactos, poderosos y bellos, que aún hoy son buscados por los cazadores de tesoros y aventureros.
+
+Esta arpa exquisitamente tallada en palisando y adornada con hojas de filigrana de oro, es uno de esos artefactos que demuestran la destreza suprema de los artesanos élficos. Encantamientos aparte, este arpa artesanal es un ejemplo de perfección en el tallado de la madera. El pulido del grano, sin elementos añadidos ni grabados intrincados, y un acabado brillante, incluso tras el paso de más de cinco siglos desde su creación, lo demuestran. El brillo que adorna el arpa no se ha empañado en absoluto, y las cuerdas de oro hilado resplandecen a la luz.
+
+Además de la cuidadosa elaboración de este arpa, fue encantada por algunos de los más poderosos archimagos élficos de antaño de Myth Drannor. Las cuerdas doradas, seis en total, vibran todas ellas en resolancia con la Urdimbre. Las propiedades en concreto de estas cuerdas no pueden discernirse hasta que el arpa sea tocada, pero hay muchas arpas de Myth Drannor esparcidas por Faerûn, todas con propiedades similares. Algunas de las propiedades de estas arpas que se saben han sido descubiertas incluyen el aumento del número de conjuros lanzador por asalto, el cambio del alineamiento del oyente, la posibilidad de ensordecer permanentemente, el incremento del número de ataques por asalto, o el aumento permanente del Carisma.
+
+Cada vez que se pulse una cuerda de un arpa de Myth Drannor, ésta provocará uno de los efectos anteriores, o un efecto desconocido de ante mano, elegido al azar, en el oyente u oyentes, para bien o para mal. La magia liberada por una cuerda la destruye en el proceso. Cuando todas las cuerdas doradas se hayan tocado, el arpa de Myth Drannor perderá sus propiedades mágicas.
+
+*Finalista de los premios CIMS 2002  (CBisson Item Making Sweepstakes)~
+@650604 = ~En la plenitud de su efímero esplendor, la Ciudad élfica de la Canción era conocida por sus artística música, teatros y encantamientos. Los elfos de Cormanthyr crearon artefactos, poderosos y bellos, que aún hoy son buscados por los cazadores de tesoros y aventureros.
+
+Esta arpa exquisitamente tallada en palisando y adornada con hojas de filigrana de oro, es uno de esos artefactos que demuestran la destreza suprema de los artesanos élficos. Encantamientos aparte, este arpa artesanal es un ejemplo de perfección en el tallado de la madera. El pulido del grano, sin elementos añadidos ni grabados intrincados, y un acabado brillante, incluso tras el paso de más de cinco siglos desde su creación, lo demuestran. El brillo que adorna el arpa no se ha empañado en absoluto, y las cuerdas de oro hilado resplandecen a la luz.
+
+Además de la cuidadosa elaboración de este arpa, fue encantada por algunos de los más poderosos archimagos élficos de antaño de Myth Drannor. Las cuerdas doradas, cinco en total, vibran todas ellas en resolancia con la Urdimbre. Las propiedades en concreto de estas cuerdas no pueden discernirse hasta que el arpa sea tocada, pero hay muchas arpas de Myth Drannor esparcidas por Faerûn, todas con propiedades similares. Algunas de las propiedades de estas arpas que se saben han sido descubiertas incluyen el aumento del número de conjuros lanzador por asalto, el cambio del alineamiento del oyente, la posibilidad de ensordecer permanentemente, el incremento del número de ataques por asalto, o el aumento permanente del Carisma.
+
+Cada vez que se pulse una cuerda de un arpa de Myth Drannor, ésta provocará uno de los efectos anteriores, o un efecto desconocido de ante mano, elegido al azar, en el oyente u oyentes, para bien o para mal. La magia liberada por una cuerda la destruye en el proceso. Cuando todas las cuerdas doradas se hayan tocado, el arpa de Myth Drannor perderá sus propiedades mágicas.
+
+*Finalista de los premios CIMS 2002  (CBisson Item Making Sweepstakes)~
+@650605 = ~En la plenitud de su efímero esplendor, la Ciudad élfica de la Canción era conocida por sus artística música, teatros y encantamientos. Los elfos de Cormanthyr crearon artefactos, poderosos y bellos, que aún hoy son buscados por los cazadores de tesoros y aventureros.
+
+Esta arpa exquisitamente tallada en palisando y adornada con hojas de filigrana de oro, es uno de esos artefactos que demuestran la destreza suprema de los artesanos élficos. Encantamientos aparte, este arpa artesanal es un ejemplo de perfección en el tallado de la madera. El pulido del grano, sin elementos añadidos ni grabados intrincados, y un acabado brillante, incluso tras el paso de más de cinco siglos desde su creación, lo demuestran. El brillo que adorna el arpa no se ha empañado en absoluto, y las cuerdas de oro hilado resplandecen a la luz.
+
+Además de la cuidadosa elaboración de este arpa, fue encantada por algunos de los más poderosos archimagos élficos de antaño de Myth Drannor. Las cuerdas doradas, cuatro en total, vibran todas ellas en resolancia con la Urdimbre. Las propiedades en concreto de estas cuerdas no pueden discernirse hasta que el arpa sea tocada, pero hay muchas arpas de Myth Drannor esparcidas por Faerûn, todas con propiedades similares. Algunas de las propiedades de estas arpas que se saben han sido descubiertas incluyen el aumento del número de conjuros lanzador por asalto, el cambio del alineamiento del oyente, la posibilidad de ensordecer permanentemente, el incremento del número de ataques por asalto, o el aumento permanente del Carisma.
+
+Cada vez que se pulse una cuerda de un arpa de Myth Drannor, ésta provocará uno de los efectos anteriores, o un efecto desconocido de ante mano, elegido al azar, en el oyente u oyentes, para bien o para mal. La magia liberada por una cuerda la destruye en el proceso. Cuando todas las cuerdas doradas se hayan tocado, el arpa de Myth Drannor perderá sus propiedades mágicas.
+
+*Finalista de los premios CIMS 2002  (CBisson Item Making Sweepstakes)~
+
+@650607 = ~Los poderosos encantamientos de esta piedra ioun la hacen un tesoro muy apreciado por magos y hechiceros.
+
+CARACTERÍSTICAS:
+
+Permite al usuario saber instintivamente dónde atacar a una criatura que esté oculta sin tener que usar Vista verdadera o magias disipadoras cuando está equipada.~
+@650609 = ~Éste pesado, cuadrado y grueso tomo está formado por pergaminos encuadernados en color beige unidos con una junta de arce y con una cubierta de cuero curtido. El libro parece muy usado pero no destrozado. No se le ven trampas o defensas, pero el cierre de latón y los círculos ornamentales denotan que es el libro perdido de conjuros de Desmondal.
+
+Desmondal fue un dignificado mago de Athkatla que falleció de unas fiebres inverntales hace unos setenta inviernos. Sus efectos fueron vendidos por un mercader de Amn, Oriestel, casi con toda seguridad después de que se les hubiera permitido a varios magos el copiar conjuros sueltos del Prontuario previo pago de unas rígidas tasas. El comprador del Prontuario y su paradero actual se desconocen.
+
+El Prontuario de Desmondal se compone de diez conjuros, listados más abajo, que se pueden memorizar con los requerimientos usuales. Cuando se memoriza cada conjuro, éste podrá ser lanzado desde la memoria con normalidad, sin embargo, el conjuro permanecerá dentro del tomo a diferencia de lo que ocurriría si estuviera en un pergamino, que se destruiría en el proceso.
+
+El Prontuario, a pesar del hecho de que los conjuros puede ser memorizados por un personaje, deben ser leidos a fin de lanzar el conjuro. Para hacerlo, sólo hay que equipar el libro de conjuros en el hueco del escudo, y acceder a los conjuros como si fueran una aptitud del objeto.
+
+CARACTERÍSTICAS:
+
+Cada uno de los sigueintes conjuros se puede lanzar una vez por ciclo de descanso:
+  Suerte
+  Trampa calavera
+  Esfera menor de invulnerabilidad
+  Protección contra la electricidad
+  Perforar magia
+  De la piedra a la carne
+  Rociada prismática
+  Proyectar imagen
+  Palabra de poder: cegar
+  Consumir energía
+Tened en cuenta que los hechizos no usados son "perdidos", pero no eliminados del libro de conjuros para un ciclo de descanso en particular; los conjuros no son acumulativos. Los conjuros del libro de conjuros de Desmondal son lanzados como si los lanzaran un mago de noveno nivel.
+
+*Ganador del segundo lugar de los premios CIMS 2002 (CBisson Item Making Sweepstakes)~
+@650611 = ~Este anillo, hecho de acero forjado, se ajustará a cualquier dedo sobre el que sea colocado. Cada engaste de ambar permanece frío al tacto, sin importar cuanto se caliente el anillo. El anillo tiene una sola propiedad mágica y provoca que su portador se vuelva etéreo. Puesto que el anillo permanece en el Plano material primario, hará que cualquiera que lo lleve puesto cambie de plano, otorgandole una inmunidad natural a criaturas tales como osos, leones, lobos, y similares.
+
+CARACTERÍSTICAS:
+
+Protege al portador contra animales.~
+@650613 = ~Este gran escudo, junto con su arma compañera, la Espada de Belvin, tiene una historia larga y casi ilustre.
+
+Durante el Año de la Gran primavera, unos cambios drásticos y repentinos en el clima tuvieron lugar rápidamente por todo el oeste de las Tierras centrales de Faerûn. Una sequía endémica fue provocada por una corta estación de lluvias y un verano desagradablemente caluroso. El nivel del agua del Lago del Mar lejano bajó hasta el extremo de ser cenagoso y pantanoso, con abundancia de juncos. El gran desierto del Anauroch amplió sus fronteras hacia el sur.
+
+Hace más de trescientos años, al igual que el desierto marchó hacia el sur, así hicieron los trasgos. Durante el invierno del 1089, Izac Uthor reunió los ejércitos trasgoides cerca del pueblo abandonado de Thandril, en el borde noroeste de las Lindes trasgas. La hueste incluía cerca de 200.000 trasgos, decenas de miles de orcos y kobols aliados, y unos cuantos miles hobgoblins mayormente separados de trasgos y orcos. Por supuesto, incluso una fuerza de más de un cuarto de millón de combatientes dificilmente podría esperar el conquistar, y mucho menos ocupar, todos los Reinos occidentales al norte del Campo de los Muertos. Muchas discusiones tensas tuvieron lugar en Cormyr, Lindero de la Colina, Tilverton, Soubar, Valle de la Sombra, y otros lugares en peligro.
+
+Las tropas regulares y las milicias locales fueron enviadas a Lindero de la Colina para que se unieran a la fuerza de batalla principal unida contra la horda goblinoide. Vinieron desde Beregost, Puerta de Baldur, Berdusk, Iriaebor, Elturel, Scornubel, Soubar, y los límites de los Páramos altos. No hubo entre todas las fuerzas que llegaron un líder más firme que Artur Blevin, comandante de las naturales de Soubar. Portando su escudo, tanto Belvin como los soldados de ambos bandos se encontraron en la llanura antes del amanecer; todos lucharon dondequiera que encontraban a sus enemigos. Belvin mató a más de tres veintenas de trasgos, pero fue en vano. Entre todas las tropas de Artur Blevin, ninguno escapó ileso.
+
+Después de la Batalla de los Huesos, el escudo se perdió y el rastro de sus propietarios se volvió vago e impreciso. Sin embargo, siglos más tarde, el escudo volvió a la luz, esta vez en manos de una banda de merodeadores orcos. El escudo fue recuperado por los guardias de una caravana que hacían su camino desde Aguas Profundas a Scornubel, pero la caravana fue emboscada antes de completar su ruta por un grupo de bandidos orcos y semiorcos más numerosos y mejor equipados, y se convirtió en propiedad de un despediadado semiorco llamado Sureblade. Cómo el escudo terminó en esta antigua Torre de Hechicería se desconoce.
+
+Este escudo es en verdad un elemento que debe ser atesorado, ya que está obligado a salvar la vida de quien lo porte por más aventuras en las que se vea envuelto por todo Faerûn. Este escudo recude la CA en 6 y añade 3 a todas las tiradas de salvación. Además, el Escudo de Belvin le permite a uno moverse tan rápido que la base de movimiento del portador es incrementada en 2 y los proyectiles normales no tienen oportunidad de golpearle.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+ Armas de proyectiles inefectivas
+ Movimiento base aumentado
+
+Bonificador a la Clase de armadura: 6
+Peso: 10
+Requisito: Fuerza 16~
+@650615 = ~Esta gran espada, junto con su escudo compañero, el Escudo de Belvin, tiene una historia larga y casi ilustre.
+
+Durante el Año de la gran primavera, unos cambios drásticos y repentinos en el clima tuvieron lugar rápidamente por todo el oeste de las Tierras centrales de Faerûn. Una sequía endémica fue provocada por una corta estación de lluvias y un verano desagradablemente caluroso. El nivel del agua del Lago del Mar lejano bajó hasta el extremo de ser cenagoso y pantanoso, con abundancia de juncos. El gran desierto del Anauroch amplió sus fronteras hacia el sur.
+
+Hace más de trescientos años, al igual que el desierto marchó hacia el sur, así hicieron los trasgos. Durante el invierno del 1089, Izac Uthor reunió los ejércitos trasgoides cerca del pueblo abandonado de Thandril, en el borde noroeste de las Lindes trasgas. La hueste incluía cerca de 200.000 trasgos, decenas de miles de orcos y kobols aliados, y unos cuantos miles hobgoblins mayormente separados de trasgos y orcos. Por supuesto, incluso una fuerza de más de un cuarto de millón de combatientes dificilmente podría esperar el conquistar, y mucho menos ocupar, todos los Reinos occidentales al norte del Campo de los Muertos. Muchas discusiones tensas tuvieron lugar en Cormyr, Lindero de la Colina, Tilverton, Soubar, Valle de la Sombra, y otros lugares en peligro.
+
+Las tropas regulares y las milicias locales fueron enviadas a Lindero de la Colina para que se unieran a la fuerza de batalla principal unida contra la horda goblinoide. Vinieron desde Beregost, Puerta de Baldur, Berdusk, Iriaebor, Elturel, Scornubel, Soubar, y los límites de los Páramos altos. No hubo entre todas las fuerzas que llegaron un líder más firme que Artur Blevin, comandante de las naturales de Soubar. La Espada de Belvin, esta gran espada de guerra, se encontró junto con los soldados de ambos bandos en la llanura antes del amanecer; todos lucharon dondequiera que encontraban a sus enemigos. Belvin mató a más de tres veintenas de trasgos, pero fue en vano. Entre todas las tropas de Artur Blevin, ninguno escapó ileso.
+
+Después de la Batalla de los Huesos, la espada de guerra se perdió y el rastro de sus propietarios se volvió vago e impreciso. Sin embargo, siglos más tarde, la espada volvió a la luz, esta vez en manos de una banda de merodeadores orcos. El espada fue recuperado por los guardias de una caravana que hacían su camino desde Aguas Profundas a Scornubel, pero la caravana fue emboscada antes de completar su ruta por un grupo de bandidos orcos y semiorcos más numerosos y mejor equipados, y se convirtió en propiedad de un despediadado semiorco llamado Sureblade. Cómo la espada terminó en esta antigua Torre de Hechicería se desconoce.
+
+Esta espada es un arma verdaderamente digna de las más finas artes de la lucha, ya que permite al portador atravesar las defensas de la mayoría de las demás criaturas. Un impacto certero contra un blanco de nivel 18 o menor, puede provocarle la muerte instantánea, una habilidad que puede resultar muy útil cuando se lucha contra enemigos poderosos.
+
+CARACTERÍSTICAS:
+
+Aptitud especial:
+ Mata a los enemigos de nivel inferior a 18 con un golpe exitoso (el blanco recibe una tirada de salvación contra muerte con una penalización de -2)
+
+Daño: 2D6 + 3
+GAC0: Bonificador +3
+Tipo de daño: Cortante
+Peso: 6
+Factor de velocidad: 4
+Talento marcial: Espada bastarda
+Tipo: A una mano
+Requisito: Fuerza 15~
+@650621 = ~La típica daga tiene una hoja de doble filo acabada en punta, al contrario que un cuchillo, que tiene un solo filo y es un poco más corto. Esta daga en particular es mágica, y ofrece unos bonificadores especiales por su velocidad, precisión y daño infligido. Además, como es mágica, es capaz de golpear a oponentes que son inmunes a las armas normales, como los vampiros, los elementales y las momias.
+
+CARACTERÍSTICAS:
+
+Daño: 1D4 + 3
+GAC0: Bonificador +3
+Tipo de daño: Perforante
+Peso: 0
+Factor de velocidad: 0
+Talento marcial: Daga
+Tipo: A una mano
+Require: Fuerza 3~
+@650625 = ~Esta delicado instrumento musical fue robado del interior del refugio de los Arpistas en Athkatla. Su música es tranquilizadora, y cuando las cuerdas son pulsadas en un orden en particular, el arpa permite al bardo inspirar en sus compañeros un mejor autocontrol y de abstracción en sí mismos, protegiendose de la mayoría de los efectos mentales como Hechizar, Ordenar, Dominar persona, Miedo, Debilidad mental y cualquier observación por bolas de cristal u otros métodos adivinatorios.
+
+CARACTERÍSTICAS:
+
+Aptitud especial:
+  Mente en blanco sobre los miembros del grupo una vez al día~
+@650627 = ~Este reloj es mucho más que el artificio usual para medir el tiempo que puede encontrarse por todos los Reinos, formado por dos bulbos de cristal unidos por un estrecho pasillo, por el cuál el tiempo, en forma de grano de arena, cae entre los dos bulbos. No obstante, inspeccionando los grabados de la base, este reloj de arena tiene la propiedad de detener el paso del tiempo por un instante para quien lo use, permitiendole realizar más acciones.
+
+CARACTERÍSTICAS:
+
+Aptitud especial:
+  Lanza Parar el tiempo una vez al día~
+
+@650628 = ~Esta potente arma fue creada por los herreros de la antigua Myth Drannor. Las espadas lunares se utilizan durante el largo proceso de elección del gobernante de la isla de Siempreunidos. Una espada lunar elige a su propietario y, en el caso de esta espada, ha elegido al explorador Arpista, Julian Nonnel. Sólo Julian puede utilizar esta espada, ya que cualquier otro que intente utilizarla se verá incapaz de levantarla. Esta espada lunar en concreto otorga resistencia al fuego y proporciona un bonificador de su clase de armadura a su dueño.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  +12 a los PG mientras esté equipada
+  Hace el daño máximo cuando golpea con éxito
+
+Daño: 1D12 + 4
+GAC0: Bonificador +4
+Tipo de daño: Cortante
+Peso: 6
+Factor de velocidad: 4
+Talento marcial: Mandoble
+Tipo: A dos manos~
+
+@650629 = ~Éste es el mangual de Kiel el Asesino de Legiones, hijo primogénito de Durlag Matatrolls y Príncipe del Clan de la funesta torre de su padre. Él lo llevaba en su hora final, cuando se dirigía a advertir a su padre de la infiltración de doppelgängers en el hogar de su Clan. Se dice que la intensidad de su rabia en esos momentos finales, quedó impresa permanentemente en el arma. Todos los que la lleven se verán dominados por su ira cuando vean a un enemigo.
+
+Al parecer, el mangual fue recuperado de la Torre de Durlag y llevado al refugio de los Arpistas en Athkatla para salvaguardarlo. Desde que se recuperó, el valor del arma ha aumentado dramáticamente.
+
+CARACTERÍSTICAS:
+
+Aptitud especial:
+  Este arma está maldita y envuelve al portador en una furia berserker
+
+Daño: 2D4 + 3
+GAC0: Bonificador +3
+Tipo de daño: Contundente
+Peso: 10
+Factor de velocidad: 4
+Talento marcial: Mangual
+Tipo: A una mano
+Requisito: Fuerza 10~
+@650631 = ~Esta túnica, vestida normalmente por los Magos encapuchados, dota de numerosos encantamientos a quien la vista. Junto con la reducción de la clase de armadura a 4, la túnica otorga un bonificador del 25% a resistir los siguientes tipos de daños: fuego, frío, ácido, electrico, y mágico. Muchos Magos encapuchados jóvenes la reciben como regalo de sus instructores por haber completado satisfactoriamente sus primeros cinco años de aprendizaje. Como pasa con otras túnicas, sólo puede ser vestida por aquellos de profesión arcana.
+
+CARACTERÍSTICAS:
+
+Bonificador a la Clase de armadura: 4 (Base)
+Resistencia al ácido: +25% de bonificador
+Resistencia al frío: +25% de bonificador
+Resistencia al fuego: +25% de bonificador
+Resistencia a la electricidad: +25% de bonificador
+Resistencia a la magia: +25% de bonificador
+Peso: 3~
+@650634 = ~Sólo aquellos abnegados y devotos adoradores de Lathander, el Portador del Alba, ganan los poderes otorgados por estos símbolos sagrados bendecidos con forma de sellos.
+
+CARACTERÍSTICAS:
+
+Otorga dos conjuros extras de nivel 5, 6 y 7
+Bonificador de 20% a la Resistencia contra la Magia mientras sea llevado
++1 a la Fuerza mientras sea llevado
++2 a la Sabiduría mientras sea llevado~
+@650640 = ~El sacrificio voluntario de una vasta fortuna en oro, combinado con la sagrada adoración de una ceremonia de santificación, han convencido a Lathander para transformar estos de por sí formidables guanteletes en unos brazales con un poder piadoso impresionante.
+
+CARACTERÍSTICAS:
+
+Lanza Curar heridas críticas dos veces al día
++15 al máximo total de PG mientras estén equipados
+
+Peso:  3~
+@650642 = ~Esta daga actúa como una daga +5 contra licántropos.
+
+CARACTERÍSTICAS:
+
+Daño: 1D4 + 2 (+4 contra licántropos)
+GAC0: Bonificador +1
+Tipo de daño: Perforante
+Peso: 1
+Factor de velocidad: 2
+Talento marcial: Daga
+Tipo: A una mano~
+@650644 = ~Yelmo del hurto
+Mat Savasta, uno de los ladrones más habilidosos de la Costa de la Espada, llevó este yelmo en muchos de sus golpes. El Yelmo, una simple cofia de cuero, mejoró las ya impresionantes habilidades de abrir cerraduras de Mat. En las ciudades de Aguas Profundas, Luskan, Nuncainvierno, Puerta de Baldur, Athkatla o Puerto Cálim, no habría una puerta que no pudiera ser descerrajada por Mat. Para activar el yelmo, se debe conocer la palabra de mando apropiada para que una oleada de energía mágica se amolde a una llave para que encaje en la cerradura.
+
+CARACTERÍSTICAS
+
+Aptitudes especiales:
+  +20% a Abrir cerraduras
+  +20% a Encontrar trampas
+  +20% a Robar
+  +20% a Ocultarse en las sombras
+  Otorga Infravisión a quien lo lleve~
+@650646 = ~El destral es una herramienta normal que puede, en caso de necesidad, ser usada como un arma por aquellos los suficientemente desesperados. La hoja del hacha es una cuchilla afilada de acero, capaz de cortar madera o carne por igual. El mango corto tiene orificio en el extremo inferior y la cabeza puede tener un pincho en la parte superior.
+
+CARACTERÍSTICAS:
+
+Daño: 1D4
+Tipo de daño: Proyectil (perforación)
+Peso: 5
+Factor de velocidad: 5
+Talento marcial: Hacha
+Tipo: A una mano
+Requisito: Fuerza 4~
+@650648 = ~La armadura de cuero tachonado tiene poco en común con la armadura normal de cuero. Mientras que la armadura de cuero es un caparazón endurecido, el cuero tachonado es más blando y flexible y tiene cientos de remaches de metal. Los remaches están tan juntos que forman una capa flexible de duro metal, capaz de desviar los ataques de cuchillada y cortantes. El respaldo del cuero blando no es más que un medio para fijar los remaches.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 3
+Peso: 25
+Requisito: Fuerza 6~
+@650659 = ~El wakizashi, o "espada compañera", es muy importante para un samurái. Se lleva en todo momento, incluso por dentro, y está cerca del samurái mientras duerme por la noche. El wakizashi tiene tanta calidad como la katana, aunque es más corta; mide entre 30 y 60 centímetros, resultando un arma peligrosa en manos expertas.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8 + 3
+GAC0: Bonificador +3
+Tipo de daño: Perforante
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: Cimitarra/wakizashi/ninja-to
+Tipo: A una mano
+Requisito: Fuerza 5~
+@650661 = ~La espada ninja, ninja-to, es de peor calidad que otras espadas de Kara-Tur, como la katana. Ésta es corta y tiene una hoja recta que la hace ideal para el subterfugio de los ninja. También es más fácil de blandir en espacios cerrados, lo que en ocasiones proporciona ventaja al ninja sobre las espadas largas que utilizan los samuráis.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8 + 3
+GAC0: Bonificador +3
+Tipo de daño: Cortante
+Peso: 5
+Factor de velocidad: 4
+Talento marcial: Cimitarra/wakizashi/ninja-to
+Tipo: A una mano
+Requisito: Fuerza 6~
+
+@660202 = ~Es la más sencilla y humilde de las armas de palo. La barra es una madera de 180 a 275 centímetros de largo. Una buena barra está hecha de madera de roble y va rematada con metal en ambos extremos. La barra se debe empuñar con ambas manos.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 + 9
+GAC0: Bonificador +3
+Tipo de daño: Contundente
+Peso: 4
+Factor de velocidad: 2
+Talento marcial: Bastón
+Tipo: A dos manos
+Requisito: Fuerza 5~
+
+@660204 = ~La espada de dos puños es una variación de la espada larga. Los armeros buscan siempre la forma de mejorar las armas que ya existen y para mejorar la espada larga, alargaron la hoja. Finalmente, hubo que extender la empuñadura, por lo que se hizo necesario utilizar ambas manos. La función principal de la espada de dos puños es partir en dos a los caballeros montados y dispersar las formaciones en pica.
+
+CARACTERÍSTICAS:
+
+Daño: 1D10 + 1
+GAC0: Bonificador +1
+Tipo de daño: Cortante
+Peso: 12
+Factor de velocidad: 9
+Talento marcial: Mandoble
+Tipo: A dos manos
+Requisito: Fuerza 14~
+@660206 = ~La cota de malla está formada por anillos de metal entrelazados. Siempre está sobre una capa de tela acolchada o de cuero suave para evitar los roces y disminuir el impacto de los golpes. Los encantamientos mágicos colocados sobre la armadura le otorgan una protección extra.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 3
+Peso: 10
+Requisito: Fuerza 8~
+
+@661012 = ~Chauntea es una deidad de alineamiento bueno, la diosa de los granjeros y la patrona de los jardineros, y tiene muchos seguidores entre aquellos cercanos a la tierra. Es una enemiga acérrima de los dioses de la naturaleza destructiva, como Talos y Auril.
+
+CARACTERÍSTICAS:
+
+Aptitud equipado: El portador regenera 1 punto de golpe cada 3 segundos
+Aptitud especial: Regenera 5 puntos de golpe cada segundo a un blanco durante sesenta segundos
+
+*Ganador del Primer Puesto de los premios CtBIMS 2004 (Check The Bodies Item Making Sweepstakes) como parte de un conjunto de objetos similares.~
+@661014 = ~El Píncipe de las Mentiras es un dios relativamente nuevo, al haber absorbido los poderes de tres antiguas deidades. Maquinador y conspirador, Cyric ha buscado consolidar su poder entre muchas facciones y escisiones, pero ha resultado ser muy popular entre los Magos rojos de Thay.
+
+CARACTERÍSTICAS:
+
+Lanza Malison mayor, Trampa calavera o Símbolo de la Muerte una vez por día
+
+*Ganador del Primer Puesto de los premios CtBIMS 2004 (Check The Bodies Item Making Sweepstakes) como parte de un conjunto de objetos similares.~
+
+@661016 = ~Recurrido por aquellos que sufren o están heridos, Ilmater es un dios pacífico que anima a otros a soportar el dolor y el abuso, para recompensar a aquellos que esperan. Es un dios querido entre los pobres de las ciudades.
+
+CARACTERÍSTICAS:
+
+Otorga un bonificador de +25 PG mientras está equipado.
+
+*Ganador del Primer Puesto de los premios CtBIMS 2004 (Check The Bodies Item Making Sweepstakes) como parte de un conjunto de objetos similares.~
+
+@661018 = ~La Dama de los Bosques es una poderosa aliada tanto de Eldath como de Silvanus. La mayoría de sus fervientes seguidores son exploradores, así como también aquellas criaturas del bosque como dríadas que no tienen otra deidad. Los poderes de este medallón han expirado, y el símbolo no es más que un homenaje a la Dama de los Bosques.
+
+*Ganador del Primer Puesto de los premios CtBIMS 2004 (Check The Bodies Item Making Sweepstakes) como parte de un conjunto de objetos similares.~
+@661020 = ~Mystra, la Dama de los Misterios, es la diosa de la magia, y una de las entidades más poderosas en los mágicos Reinos. Los seguidores de Mystra en décadas pasadas se volvieron más sociables, imitando los cambios ocurridos en la propia diosa.
+
+CARACTERÍSTICAS:
+
+Orotga un bonificador de +2 a la salvación contra Conjuros mientras esté equipado.
+Proporciona una resistencia a la magia del 60 % mientras esté equipado.
+
+*Ganador del Primer Puesto de los premios CtBIMS 2004 (Check The Bodies Item Making Sweepstakes) como parte de un conjunto de objetos similares.~
+@661022 = ~Tempus, también conocido como el Lord de las Batallas, es el dios de los guerreros, y su favor va de un grupo de guerreros a otro según el progreso de la guerra. Recompensa a los bravos y valientes, y muchos luchadores juran por él. Este enorme escudo ha sido blasonado con el símbolo sagrado de Tempus: una espada llameante sobre un fondo rojo sangre. Concede a quienes usan el pesado escudo de acero varias bonificaciones útiles en la batalla.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+  +1 contra armas de proyectil
+  +50% al resistir el daño por proyectil (los ataques con proyectil harán la mitad del daño total)
+  Otorga un +1 extra a la Fuerza mientras esté equipado
+
+Bonificador a la Clase de armadura: 2
+Peso: 15
+Requisito: Fuerza 15
+
+*Ganador del Primer Puesto de los premios CtBIMS 2004 (Check The Bodies Item Making Sweepstakes) como parte de un conjunto de objetos similares.~
+
+@661024 = ~La diosa Waukeen desapareció durante la Era de los Trastornos, y durante varios años sus sacerdotes no recibieron conjuros. Ahora los ganan de nuevo, pero la mayoría de los sacerdotes le rinden culto tanto a Lliira como a Waukeen, y los seguidores de la Diosa del Comercio están disminuyendo.
+
+CARACTERÍSTICAS:
+
++1 adicional al Carisma mientras se lleve.
+Crea 10 piezas de oro una vez por día.
+
+*Ganador del Primer Puesto de los premios CtBIMS 2004 (Check The Bodies Item Making Sweepstakes) como parte de un conjunto de objetos similares.~
+
+@661027 = ~La misión del ejército del Rey Azoun es sencillamente una: defender Cormyr. Sin embargo, la realización de este fin, es complejo. Para reforzar el mandato real, Cormyr mantiene un ejército enorme de forma permanente, que ha aumentado drásticamente en las últimas décadas. Hay más de 12.000 Dragones púrpura (así llamados por su estandarte) guarnecidos en las mayores ciudades y fortificaciones, una fuerza montada de 500 guerreros entrenados en la espada y el arco, dirigidos por 30 caballeros de la Corte real. La mayoría de estas unidades de élite son veteranos de las Cruzadas contra las Hordas, y son miembros de la Orden del Camino dorado, una condecoración militar conmemorativa de aquellas batallas.
+
+Una función importante de los Dragones púrpura es asegurar la paz a lo largo del reino de Cormyr. Esto significa mantener el interior a salvo de los grupos invasores de forma que los comerciantes y campesinos puedan viajar seguros y volver a casa con las ganacias intactas. A tal fin, los Dragones púrpura son muy eficientes. No obstante, los Dragones púrpura no pueden estar en todos los lugares a la vez, y siempre existe la amenaza de un ataque bandido en cualquier lugar de Cormyr, pero el reino tiene la reputación de ofrecer unos caminos seguros en general.
+
+Los Dragones púrpura también son los encargados de prevenir las insurrecciones internas. Sólo ha habido una vez en la que los Dragones púrpuras fueron necesarios para sofocar una insurreción, y calmaron la revuelta de Gondegal sin derramamiento de sangre.
+
+CARACTERÍSTICAS:
+
+Aptitud especial:
+  +1 contra las armas cortantes
+
+Bonificador de clase de armadura: 2
+Peso: 7
+Requisito: Fuerza 12
+
+*Ganador del segundo lugar de los premios CtBIMS 2004 (Check The Bodies Item Making Sweepstakes).~

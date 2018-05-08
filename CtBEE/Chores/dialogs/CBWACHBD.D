@@ -1,0 +1,6 @@
+BEGIN ~CBWACHBD~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END

@@ -1,0 +1,1822 @@
+@650006  = ~Diese mächtige Waffe besteht aus einem 1,2m - 1,5m langem Griff mit einer sehr schweren Klinge. Die Axt kann mit Klingen an beiden Seiten des Hefts doppelt bestückt sein, oder sie kann nur eine einzelne Klinge haben. Es ist eine unhandliche Waffe, aber ein geübter Krieger kann Schläge mit enormen Kraft damit austeilen. Zwergen-Runen wurden in die riesige Klinge geätzt, um die Axt weiter aufzuwerten.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W10 + 3
+ETW0: +3
+ausgestatteter Bonus:
+  Magiewiderstand von +10 %
+  +10 % Widerstand gegen Aufschlitzen
+  +10 % Widerstand gegen Durchbohren
+  +10 % Widerstand gegen Zertrümmern
+  Geschosswiderstand von +10 %
+  +2 Bonus auf alle Rettungswürfe
+Schadensart: Aufschlitzen
+Gewicht: 10
+Geschwindigkeitsfaktor: 9
+Fertigkeit: Axt
+Waffenart: Zweihändig
+Mindeststärke: 10~
+@650008  = ~Dieses zweihändige Schwert ist ein echter Gewinn. Es ist eine verzauberte Waffe, die +3 auf Treffer und Schaden gewährt. Abgesehen von der Schärfe und dem Gleichgewicht der Waffe teilt das Schwert dem Benutzer auch Magiebonus zu. Jemand, der mit Furcolo ausgestattet ist, erhält einen Bonus von 35 % zum Magiewiderstand und ist völlig immun gegen untote Wesen. Das Schwert ist ein intelligentes Gebilde und kann einmal pro Tag absolute Immunität auf seinen Träger wirken.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W10 + 3
+Besonderheiten:
+   Kann einmal pro Tag absolute Immunität wirken
+   Magiewiderstand-Bonus von 35 %
+   Geschützt vor Untoten
+Schadensart: Aufschlitzen
+Gewicht: 15
+Geschwindigkeitsfaktor: 10
+Fertigkeit: zweihändiges Schwert
+Waffenart: zweihändig
+Mindeststärke: 14~
+@650014  = ~Borretsch ist ein stärkendes Adrenalin. Wenn die Wurzeln des wilden Unkrauts gekaut werden, gewährt die Wirksamkeit der Pflanze einer Person einen +2 Trefferbonus, einen +2 Schadensbonus, und einen -2 Rüstungsklassebonus. Während der Adrenalinrausch wirksam ist, normalerweise ungefähr 60 Sekunden lang, ist die Person, die das Unkraut gekaut hat, immun gegen Bezaubern, Festhalten, Furcht, Irrgarten und Einkerkerung, Betäubung und Schlaf. Die Person, die das Kraut einnahm, gewinnt einen vorläufigen Bonus von 15 Trefferpunkten, die vielleicht den Charakter am Ende des Adrenalinrausches töten könnten. Nachdem der Rausch vorbei ist, ist die Person für kurze Zeit ein bisschen ermüdet mit einem -2 Treffernachteil, einen -2 Schadennachteil, und einen +2 Rüstungsklassenachteil.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht: 1 Pfund~
+@650016  = ~Echinacea {Sonnenhut} ist ein Gift-Heilmittel. Nach der Einnahme des Krauts entfernt es alle Gifte aus dem Körper, sowohl natürlicher als auch magischer Natur. Wenn dieses Kraut von einer vergifteten Person gegessen wird, neutralisiert es sofort jedes Gift und stellt 10 verlorene Trefferpunkte wieder her.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht: 1 Pfund~
+@650018  = ~Chaparral, ein immergrünes Wüstengewächs, erleichtert Arthritis. Wenn man das Stärkungsmittel trinkt, wirkt es wie der Zauber Freie Handlung. Das Kraut macht den Benutzer völlig immun gegen irgendwelche Wirkungen, die Handlungen oder Bewegungen behindern, egal ob sie magischen Ursprungs sind oder nicht. Die Wirkung des Krauts hält 10 Phasen an.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht: 1 Pfund~
+@650020  = ~Schafgarbe hilft, Blutungen zu stoppen. Indem man das Blütenkraut über jemandes Wunden legt, gerinnt das Blut schneller und verhindert bei irgendwelchen Hautabschürfungen, Risswunden, oder Stichwunden weiteren Blutverlust. Sie ermöglicht dem Benutzer jedoch nicht, sich schneller zu regenerieren oder zu heilen. Sie schützt den Benutzer auch nicht vor zukünftigen Schaden durch ähnliche Schnitte.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht: 1 Pfund~
+@650022  = ~Ringelblume besänftigt Brandwunden. Indem man die frisch zerquetschten Samen der Ringelblumen mit kleinen Mengen Wasser mischt und eine dicke Paste macht, um sie auf die Haut aufzutragen, kann man sich vor Feuer schützen. Diese Samen gewähren einen vorübergehenden, 1 Stunde anhaltenden Feuerwiderstands-Bonus von 25 % pro Anwendung.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht: 1 Pfund~
+@650024  = ~Stillingie hilft bei Kehlkopfentzündung. Das ganze Kraut, das nur im Herbst im nördlichem Sembia angebaut wird, ist sehr selten aber kann einem Zauberwirker einen enormen Bonus geben, weil jede Pflanze für die Dauer von einem Tag Stimmgebung ermöglicht wie der Zauber Wortloses Zaubern.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht: 1 Pfund~
+@650026  = ~Alfalfa (Luzerne) ist eine ausgezeichnete Quelle für viele nahrhafte Vitamine. Die Einnahme regelmäßiger Dosen des Krauts kann den Körper mit Nährstoffen versorgen, die für die körperliche Tüchtigkeit nötig sind. Alfalfa erhöht jemandes Kraft, Konstitution, und Geschicklichkeit um einen Punkt pro Tag, an dem sie verwendet wird.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht: 1 Pfund~
+@650028  = ~Goldrute ist für die Reinigung und die Heilung von Wunden nützlich. Durch das Mischen des Krautes mit anderem natürlichen Kräutern in eine teigartige Creme können die Goldrutenblätter und -blüten verwendet werden, um jemandes Trefferpunkte um 12 zu vergrößern, aber weitere Verletzungen des Benutzers werden nicht verhindert.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht: 1 Pfund~
+@650030  = ~Nessel kann verwendet werden, um die Sehkraft zu verbessern. Indem man die Pflanze kaut, kann die jemandem fehlende Sicht - entweder durch Augentrübung oder Glitzerstaub-Zauber - zu seiner natürliche Funktion wiederhergestellt werden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht: 1 Pfund~
+@650032  = ~Rote Himbeere kann verwendet werden, um das Herz zu vergrößern und regt den Körper an. Sie bietet eine vorläufige Erhöhuung der Energiestufe. Indem man mehrere Beeren als Essen zu sich nimmt, kann jedermanns Geschwindigkeit ein bisschen vergrößert sowie die Zahl von Angriffen verdoppelt werden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht: 1 Pfund~
+@650034  = ~Der natürliche Alkohol im Signalhornkraut-Extrakt hat eine einfache Wirkung: es berauscht eine Person wesentlich für die Dauer von ungefähr acht Stunden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht: 1 Pfund~
+@650036  = ~Die Beeren des Wacholders sowie die Extrakte aus den Blättern können in der Wildnis geerntet werden, um bei der Person, die den Saft einnimmt, Halluzinationen zu verursachen, so dass sie wilde Ängste hat und Gefahren wahrnimmt, die nicht wirklich bestehen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht: 1 Pfund~
+@650040  = ~Die roten Wurzeln der Seckelblume helfen bei Atemproblemen. Bei Verwendung dieses wilden Krautes können jemandes Nebenhöhlen von irgendwelchen schädlichen Giften oder natürlichem Gestank oder Partikeln gereinigt werden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht: 1 Pfund~
+@650042  = ~Der Extrakt von Hopfen kann helfen, Ruhelosigkeit zu heilen. Die Energiezunahme, die das Kraut bietet, hebt beim Benutzer das Bedürfnis nach Schlaf auf. Jedoch ist es nur eine vorläufige Zunahme und sollte nicht ohne richtige Beratung durch einem Apotheker verwendet werden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht: 1 Pfund~
+@650044  = ~Gotu Kola steigert geistige und körperliche Wachsamkeit. Die Vorteile, die dieses purpurfarbige Blütenkraut einer Person gibt, sind den Preis für solch ein seltenes Kraut wert. Richtig eingenommen, vermindert Gotu Kola die Rüstungsklasse des Benutzers um 6 und fügt 3 zu allen Rettungswürfen hinzu. Außerdem erlaubt Gotu Kola der Person, die das Kraut ißt, sich mit größeren Geschwindigkeit zu bewegen und normalen Geschossen auszuweichen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht: 1 Pfund~
+@650046  = ~Huflattich ist ein ziemlich gewöhnliches Kraut, das in den meisten Wiesen in den gemäßigten Gebieten von Faerûn zu finden ist. Es erzeugt sehr giftige Samen, die von vielen Dieben und Meuchelmördern gesucht sind. Huflattich-Samen können bei wem auch immer der das fast geschmacklose Kraut aufnimmt 2 Trefferpunkte Giftschaden verursachen und macht es zu einer weit verbreiteten Art von Lebensmittelvergiftungen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewicht: 1 Pfund~
+@650112  = ~Die Rüstung wurde aus den leichten, aber widerstandsfähigen Schuppen eines blauen Drachen angefertigt. Sie bietet ausgezeichneten Schutz gegen alle Arten von Waffen und gegen Elektrizität.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: -1
+  
+Elektrizitätsresistenz: +90%
+Gewicht: 20
+Mindeststärke: 15~
+@650113  = ~Die Rüstung aus den leichten, aber widerstandsfähigen Schuppen von Darammareth S'ooloun Crommadar Ammanth Kuleera, bekannt als Samtfuß, bietet besseren Schutz gegen Waffen und alle Arten der Elektrizität als ein normaler Blauer Drachenschuppenpanzer.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: -2
+  
+Elektrizitätsresistenz: 100 %
+Gewicht: 17
+Mindeststärke: 12~
+@650248  = ~Dieses Paar Handschuhe wurde wahrscheinlich in altem Netheril entwickelt, um den Meistern der magischen Künste zu helfen. Legenden sprechen von solchen Meistern aus der Vergangenheit, die imstande waren, Zauber in schneller Folge zu wirken, obwohl Details dürftig bleiben.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Geschwindigkeit beim Zauberwirken um 2 gesenkt
+
+Gewicht: 2~
+@650251  = ~Das Breitschwert ist eine Kombination des Langschwertes mit der Kraft und Wirksamkeit eines Zweihänder-Schwertes. Waffenschmide haben immer nach Wegen gesucht, vorhandene Waffen zu verbessern. Um das Langschwert zu verbessern, wurde die Klinge verlängert. Schließlich musste der Griff erweitert werden, und zwei Hände wurden notwendig, um das Schwert richtig zu schwingen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W12
+Schadensart: Aufschlitzen
+Gewicht: 12
+Geschwindigkeitsfaktor: 8
+Fertigkeit: Zweihändige Schwerter
+Waffenart: Zweihändig
+Mindeststärke: 9~
+@650252  = ~Das Breitschwert ist eine Kombination des Langschwertes mit der Kraft und Wirksamkeit eines Zweihänder-Schwertes. Waffenschmide haben immer nach Wegen gesucht, vorhandene Waffen zu verbessern. Um das Langschwert zu verbessern, wurde die Klinge verlängert. Schließlich musste der Griff erweitert werden, und zwei Hände wurden notwendig, um das Schwert richtig zu schwingen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W12 + 2, doppelter Schaden gegen Drachen
+ETW0: +2 Bonus
+Schadensart: Aufschlitzen
+Gewicht: 12
+Geschwindigkeitsfaktor: 8
+Fertigkeit: Zweihändige Schwerter
+Waffenart: Zweihändig
+Mindeststärke: 9~
+@650256  = ~Ein Kettenhemd besteht aus miteinander verbundenen Metallringen. Es wird immer über einem wattierten Rock oder einem leichten Ledergewand getragen, um schmerzhafte Scheuerstellen zu vermeiden und die Wucht von Schlägen zu dämpfen. Dieses Kettenhemd wurde auf magische Weise zusätzlich verstärkt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 1
+Gewicht: 10
+Mindeststärke: 8~
+@650260  = ~Schutzumhang +3: "Der Geistesschild"
+
+Von diesem Umhang sagt man, er konzentriere die Energien des Geistes in einer schützenden Kraft. Gerüchte von einem in diesem magischen Umhang gefangenen Vampir halten sich hartnäckig, können jedoch ohne Zerstörung des Umhangs nicht bewiesen werden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: +3 Bonus
+Rettungswurf: +3 Bonus
+Gewicht: 3~
+@650262  = ~Diese grauenhafte Sammlung von menschlichen und halb-menschlichen Kopfhäuten, die auf einen schweren Stoff genäht sind, macht jeden Krieger, Dieb, oder andere Klasse zu einer eindrucksvollen Gestalt. Obwohl er dem Träger keinen besondern Bonus zuerkennt, macht er die Person, die diesen Umhang trägt, anderen weniger sympathischen, weil das Äussere einer Gestalt einen anhaltenden Eindruck macht.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Nachteiliger Ruf, jedes Mal, wenn er getragen wird: -1
+Charisma-Abzug, während er getragen wird: -1
+Gewicht: 4
+Mindeststärke: 3~
+@650264  = ~Der Drachenring ist ein starkes und altes Artefakt mit einer reichen und ausführlichen Geschichte. Weise und Gelehrte aus allen Reichen haben Hunderte von Stunden damit verbracht, die Geschichte dieses Rings aufzuzeichnen, aber sogar jetzt ist noch nicht alles darüber bekannt.
+
+Jedoch ist die einzigartige Macht dieses Rings vielen weithin bekannt. Dieser Ring erlaubt dem Benutzer, Drachen zu kontrollieren.
+
+Indem er den Ring aktiviert, kann der Träger einen Drachen zu seiner oder ihrer Hilfe auffordern. Die genaue Art des Drachen ändert sich, wird aber höchst wahrscheinlich von nichtmetallischer Art (als "Böse" zu verstehen) sein. Der Ring kann nur eine beschränkte Anzahl von Malen verwendet werden und er gibt keinen Aufschluss darüber, wie viele Ladungen in diesem Artefakt übrig bleiben.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+  Ruft einen Drachen (Rot, Schwarz, Grün, oder Gelb) dem Anrufer zu Hilfe~
+@650272  = ~Der Kampfstab ist ein 1,80 bis 2,70 m langer Holzstab und somit die einfachste aller Stangenwaffen. Qualitativ hochwertige Kampfstäbe sind aus festem Eichenholz hergestellt und an beiden Enden mit Metall beschlagen. Der Kampfstab wird mit beiden Händen geschwungen.
+
+Obwohl dieser tatsächlich wie ein normaler Kampfstab aussieht, hat er einige geringe magische Eigenschaften. Erstens verleiht er einen zusätzlichen Bonus von 1W4 Schmetterschaden bei einem erfolgreichen Treffer gegen das Ziel des Trägers. Zweitens macht die Ausrüstung mit diesem Kampfstab automatisch seinen Benutzer undeutlich bis zu einem Punkt, wo es ein bisschen schwieriger für Feinde oder Verbündete wird, den Träger zu sehen. Drittens ist der Stab in der Lage, seinen Träger dreimal pro Tag unsichtbar zu machen. Der Stab lädt sich automatisch wieder auf, nachdem eine bestimmte Zeit vergangen ist.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 + 1W4
+Speziell:
+  Macht seinen Benutzer undeutlich, solange er damit ausgerüstet ist, 
+  Wirkt dreimal pro Tag Unsichtbarkeit auf den Benutzer
+Schadensart: das Zertrümmern
+Gewicht: 4
+Geschwindigkeitsfaktor: 4
+Fertigkeit: Stab
+Waffenart: zweihändig
+Mindeststärke: 5~
+@650276  = ~Der typische Wurfdolch hat eine spitze, normalerweise zweischneidige Klinge, anders als ein Messer, das eine einschneidige Klinge besitzt und ein bisschen kürzer ist als der Dolch. Im Gegensatz zum Dolch hat der Wurfdolch einen kürzeren Griff und ist perfekt ausbalanciert. Ein dünner Überzug aus schwerer Magie wurde auf jeden dieser Wurfdolche aufgetragen, was ihn zu einem tödlichen Werkzeug gegen Magier in den Händen von ausgebildeten Meuchelmördern macht.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4
+Besonderheit:
+  Zerstreut magischen Schutz bei erfolgreichem Treffer
+Schadensart: Fernkampfwaffe (Durchbohren)
+Gewicht: 1
+Geschwindigkeitsfaktor: 2
+Fertigkeit: Dolch
+Typ: 1-händig
+Mindeststärke: 3~
+@650277  = ~Dieser Dolch ist ein ziemlicher Gewinn. Es ist eine verzauberte Waffe, die +3 für Treffer und Schaden gewährt. Abgesehen von der Schärfe und dem Gleichgewicht der Waffe gewährt der Dolch dem Benutzer auch Magie-Bonus. Jeder, der mit Furcolo aussgerüstet ist, gewinnt einen Bonus von 35 % zu ihren Magie-Widerstand und ist völlig immun gegen untote Wesen. Der Dolch ist ein intelligentes Gebilde und kann einmal pro Tag Absolute Immunität auf seinen Träger wirken.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4 + 3
+ETW0: +3
+Schadensart: Durchbohren
+Besonderheiten:
+  Kann Absolute Immunität einmal pro Tag wirken
+  Magiewiderstand-Bonus von 35 %
+  Immun gegen Untote
+Gewicht: 1
+Geschwindigkeitsfaktor: 0
+Fertigkeit: Dolch
+Typ: 1-händig
+Mindeststärke: 3~
+@650279  = ~Während man diesen verzauberten Dolch verwendet, ist man vor normalen, nichtmagischen Fernkampfwaffen geschützt. Der Dolch selbst hat einen +1 ETW0 Bonus und kann von jedem verwendet werden, der normalerweise einen Dolch verwenden kann.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4 + 1
+ETW0: +1
+Speziell:
+  Schutz Vor Normalen Fernkampfwaffen, solange man damit ausgerüstet ist 
+Schadensart: Durchbohren
+Gewicht: 1
+Geschwindigkeitsfaktor: 1
+Fertigkeit: Dolch
+Typ: 1-händig
+Mindeststärke: 3~
+@650285  = ~Tanzendes Langschwert +3: die Meisten Druiden sind außer Stande, scharfe Waffen zu verwenden. Dieses Schwert ist eine Ausnahme. Dieses magische Schwert gewährt nicht nur Bonus für Treffer und Schaden, sondern kann durch Priesterzauber Heilen, Magie Zerstreuen und Fallen Entdecken gewähren, als ob der Träger ein Druide der 3. Stufe wäre.
+
+Dieses empfindsame Schwert ist auch intelligent. Seine Gesinnung ist neutral gut und hat ein Ego von 8. Es ist auch intelligent (INT 15) und spricht sowohl die allgemeine als auch die Sprache seiner Gesinnung.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 + 3
+ETW0: +3 Bonus
+Speziell:
+  Kann 3mal pro Tag Fallen Entdecken, Magie Zerstreuen und Heilen wirken
+Tanzen:
+  Beim "Befreien" des Schwertes kann es telepathisch eine halbe Stunde pro Tag geschwungen werden. Es wird denselben Schaden verursachen UND der Träger kann noch das physische Schwert halten, während er die Empfindung des Schwertes telepathisch schwingt.
+
+Schadensart: Aufschlitzen
+Gewicht: 3
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Langschwert
+Typ: 1-händig
+Mindeststärke: 17
+Weisheit: 16~
+@650289  = ~Die Geschichte dieser Waffe ist nicht bekannt. Ihr bekamt sie von einem Trio Druiden-Kämpferinnen, die Ihr in einem kleinen Wäldchen im Süden vom Baldurs Tor traft. Die Druidinnen wünschten, dass er repariert wird. Ihr tatet es und sollt den Stab zu ihnen in das Wäldchen im Norden von Amn bringen. Dieser besondere Stab gibt seinem Benutzer einen Bonus zu seiner Rüstungsklasse, erlaubt dem Träger, den Stab mit der Meisterschaft der Kampfstab-Fertigkeiten zu verwenden und gewährt ebenso mehrere spezifische Widerstände gegen die Schadensarten: Gift, Feuer, Kälte, Säure, und Elektrizität.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W8 + 5
+ETW0: +5
+Besonderheit:
+  +2 Bonus zur Rüstungsklasse
+  +4 Sterne zu Kampfstab Fertigkeiten
+  Feuerwiderstand von 25 %
+  Kältewiderstand von 25 %
+  Säurewiderstand von 25 %
+  Gift-Widerstand von 25 %
+  Elektrizitäts-Widerstand von 25 %
+Schadensart: Zertümmern
+Gewicht: 7
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Kampfstab
+Waffenart: Zweihändig
+Mindeststärke: 5~
+@650290  = ~Die Geschichte dieser Waffe ist nicht bekannt. Ihr bekamt sie von einem Trio Druiden-Kämpferinnen, die Ihr in einem kleinen Wäldchen im Süden vom Baldurs Tor traft. Die Druidinnen wünschten, dass sie repariert wird. Ihr tatet es und sie beschenkten Euch mit dem über seinen ursprünglichen Zustand hinaus außerordentlich verbesserten Stab. Dieser besondere Stab gibt seinem Benutzer einen Bonus zu seiner Rüstungsklasse, erlaubt dem Träger, den Stab mit der Meisterschaft der Kampfstab-Fertigkeiten zu verwenden und gewährt ebenso mehrere spezifische Widerstände gegen die Schadensarten: Gift, Feuer, Kälte, Säure, und Elektrizität.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W8 + 5
+ETW0: +5
+Besonderheit:
+  +2 Bonus zur Rüstungsklasse
+  +5 Sterne zu Kampfstab Fertigkeiten
+  Feuerwiderstand von 50 %
+  Kältewiderstand von 50 %
+  Säurewiderstand von 50 %
+  Gift-Widerstand von 50 %
+  Elektrizitäts-Widerstand von 50 %
+Schadensart: Zertümmern
+Gewicht: 7
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Kampfstab
+Waffenart: Zweihändig
+Mindeststärke: 5~
+@650300  = ~Diese starke Waffe wurde von Schmieden des alten Mythos Drannor geschaffen. Mondklingen werden in dem langen Prozess verwendet, einen Herrscher für die Insel Immerdar auszuwählen. Ein Mondklinge wählt ihren Eigentümer. Nur ein Elf kann diese Klinge verwenden; jeder andere, der sonst versucht, sie aus der Scheide zu ziehen, wird sich furchtbar verbrennen, was vielleicht auf den Tod hinausläuft. Diese besondere Mondklinge gibt seinem Benutzer einen Bonus zu seiner Rüstungsklasse, erlaubt dem Träger, die Klinge mit der Meisterschaft der Schwert-Fertigkeiten zu verwenden und gewährt mehrere spezifische Widerstände gegen die Schadensarten: Gift, Feuer, Kälte, Säure, und Elektrizität.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W10 + 4
+ETW0: +4
+Besonderheit:
+  +2 Bonus zur Rüstungsklasse
+  +4 Sterne zu Schwert Fertigkeiten
+  Feuerwiderstand von 25 %
+  Kältewiderstand von 25 %
+  Säurewiderstand von 25 %
+  Gift-Widerstand von 25 %
+  Elektrizitäts-Widerstand von 25 %
+Schadensart: Aufschlitzen
+Gewicht: 3
+Geschwindigkeitsfaktor: 4
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@650304  = ~Dieser Ionen-Stein glüht mit dunkelblauer Tönung und erinnert an brechende Wellen des Ozeans. Dieser meeresblaue Ionen-Stein gewährt dem Träger die Fähigkeit, nach Wunsch Gespiegeltes Ebenbild, Unsichtbarkeit, Spiegelbild, Unauffindbarkeit, Verbesserte Unsichtbarkeit, Phantomtor, Ablenkung, Projeziertes Ebenbild und Abbild zu entzaubern.
+
+Fähigkeiten: Wahrer Blick nach Wunsch 
+Rüstungsklassbonus: keiner 
+Gewicht: 2~
+@650308  = ~Die Fähigkeiten, über die dieser mächtige Umhang verfügt, machen deutlich, dass Schutz die verschiedensten Formen annehmen kann - einschließlich vor Blicken zu verstecken und davonzulaufen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: +2 Bonus
+Rettungswurf: +2 Bonus
+Besonderheit:
+ Wirkt Verbesserte Hast einmal am Tag
+ Wirkt Verbesserte Unsichtbarkeit einmal am Tag
+Gewicht: 3~
+@650343  = ~Diese mächtige Waffe besteht aus einem 1,2m bis 1,5m langem Schaft mit einer sehr schweren Klinge. Die Axt kann an beiden Seiten des Schafts mit Klingen versehen sein, oder sie kann nur eine einzelne Klinge haben. Es ist eine unhandliche Waffe, aber ein erfahrener Krieger kann Schläge mit enormer Kraft damit ausüben. Zwergen-Runen wurden in die riesige Klinge geätzt, um die Axt weiter aufzubessern.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W12 + 5
+ETW0-Bonus: +5
+Entzücken: +5
+Besonderheit:
+  Flammenbruch: +2W6 Feuerschaden und 25 % Chance von +2W10 Extra-Feuerschaden
+Schadensart: Aufschlitzen
+Gewicht: 30
+Geschwindigkeitsfaktor: 9
+Fertigkeit: Axt
+Waffenart: zweihändig
+Mindeststärke: 17~
+@650345  = ~Diese mächtige Waffe besteht aus einem 1,2m bis 1,5m langem Schaft mit einer sehr schweren Klinge. Die Axt kann an beiden Seiten des Schafts mit Klingen versehen sein, oder sie kann nur eine einzelne Klinge haben. Es ist eine unhandliche Waffe, aber ein erfahrener Krieger kann Schläge mit enormer Kraft damit ausüben. Zwergen-Runen wurden in die riesige Klinge geätzt, um die Axt weiter aufzubessern.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W12 + 4
+ETW0-Bonus: +4
+Entzücken: +4
+Besonderheit:
+  Flammenbruch: +1W6 Feuerschaden und 10 % Chance von +1W10 Extra-Feuerschaden
+Schadensart: Aufschlitzen
+Gewicht: 25
+Geschwindigkeitsfaktor: 9
+Fertigkeit: Axt
+Waffenart: zweihändig
+Mindeststärke: 16~
+@650354  = ~Dieses Langschwert ist ein ziemlicher Gewinn. Es ist eine verzauberte Waffe, die +3 auf Treffer und Schaden gewährt. Abgesehen von der Schärfe und dem Gleichgewicht der Waffe gewährt das Schwert dem Benutzer auch einen Magiebonus. Jemand, der mit Furcolo ausgestattet ist, erhält einen Bonus von 35 % zum Magiewiderstand und ist völlig immun gegen untote Wesen. Das Schwert ist ein intelligentes Gebilde und kann einmal pro Tag absolute Immunität auf seinen Träger wirken.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W10 + 3
+Schadensart: Aufschlitzen
+Besonderheiten:
+  Kann Absolute Immunität einmal pro Tag wirken
+  Magiewiderstand-Bonus von 35 %
+  Immun gegen Untote
+Gewicht: 4
+Geschwindigkeitsfaktor: 5
+Fertigkeit: Langschwert
+Typ: 1-händig
+Mindeststärke: 6~
+@650364  = ~Dies ist ein spiralförmiger Stab mit silberner Einlegearbeit und mit einem großen Stück Bernstein auf der Spitze. Der Stab von Augen erlaubt den Gebrauch der folgenden Zauber einmal pro Tag:
+ Zauberauge
+ Krankheit heilen
+ Wahrer Blick
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 + 1
+Schadensart: Zertrümmern
+Gewicht: 4
+Geschwindigkeitsfaktor: 4
+Fertigkeit: Kampfstab
+Waffenart: zweihändig
+Mindeststärke: 5~
+@650366  = ~Verschiedene dieser Ketten aus magisch gehärtetem und konserviertem Eis wurden von einem halbverrückten Zauberer geschaffen, der unter den Ulutiun Stämmen des Großen Gletschers wanderte. Zwei der eichel-großen Eiskristalle sind trübe, vier sind durchsichtig.  
+
+Der Träger kann einen Kristall lösen und ihn bis zu 25m weit schleudern, bevor er in seinen Händen nach 1 Phase auftaut. Wenn der Kristall das Ende seiner Wurfbahn erreicht, explodiert er in einem Eissturm.
+
+Um ihn richtig zu verwenden, muss der Träger mit Schleudern erfahren sein und ein freies Munitionsfach haben.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Hat 6 Eiskristalle~
+@650369  = ~Diese Geräte wurden in Netheril gefertigt. Ein neues Druckwellen-Zepter hatte 50 Ladungen, als sie hergestellt wurden, aber die meisten sind Hunderte von Jahren alt und hatten gewöhnlich nur 1-10 Ladungen, als sie gefunden wurden.  
+
+Ein Druckwellen-Zepter ist selbst-identifizierend und hat die folgenden Mächte:
+ - der Benutzer ist immun gegen Feuer und Blitz, solange er das Zepter hält
+ - der Benutzer kann nicht niedergeschlagen oder durch eine Druckwelle oder Detonation bewegt werden, solange er das Zepter hält. Der Benutzer nimmt halben Schaden bei jeder Druckwelle, wie Schmetterhorn, der Rauchpulver Detonation, oder der Druckwellen-Kaft von einem anderen Druckwellen-Zepter (ein Viertel mit einem erfolgreichen Rettungswurf)
+ - der Benutzer kann ein Ziel betäuben, indem er einen Nahkampf-Angriff mit dem Zepter macht. Das Wesen kann mit einem erfolgreichen Rettungswurf geben Stäbe vermeiden, betäubt zu werden, aber wird für 1W4 Runden betäubt, wenn der Rettungswurf versagt (diese Macht entzieht 1 Ladung)
+ - der Benutzer kann Gegner mit einer lautlosen Kraftwelle in einem 10 m langen Kegel wegblasen. Die Ziele erleiden automatisch 2W6 Schadenspunkte und müssen einen Rettungswurf gegen Stäbe ausführen oder werden von ihren Füßen gerissen (diese Macht entzieht 2 Ladungen)
+ - der Benutzer kann jedes Wesen oder Objekt mit einem Nahkampf-Angriff mit Macht stoßen. Die Berührung versetzt 10W6 Schadenspunkte, ein Rettungswurf gegen Stäbe reduziert sie um die Hälfte (diese Macht entzieht 4 Ladungen)
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Spezielle Fähigkeiten:
+  Immunität gegen das Feuer/Blitz
+  Schutz vor Flügelschlag
+  Druckwelle
+  Kraftstoß
+Gewicht: 6
+Fertigkeit: Keule~
+@650380  = ~Ein magischer Schild unbekannten Ursprungs. Gut hergestellte Materialien und Verzauberungen machen ihn zu einer einfachen aber wirksamen Form der Verteidigung.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklassbonus: 4
+Besonderheit: +2 gegen Fernkampfwaffen
+Gewicht: 10
+Mindeststärke: 10~
+@650387  = ~Das Mondamulett ist von Elfen gemacht. Es ist eine natürliche Ergänzung zu dem Elfen-Zustand der Träumereien, die einem Elfen ermöglichen, den Wirkungen des Schlafes zu widerstehen. Träumereien erscheinen normalerweise den Elfen als täglicher Kreislauf, ähnlich dem des Schlafes bei Menschen oder Tieren, obwohl Elfen Träumereien mehr ein gemeinschaftlicher Zustand sind, während dem sie für ein paar Stunden meditieren, den Leib und die Seele regenerieren, sich aber völlig ihrer Umgebung und der Erscheinungen bewusst sind, die um sie geschehen.
+
+Dieses Amulett kann, wenn es von einem Elfen oder Nichtelfen getragen wird, die Wirkungen der Erschöpfung verzögern und gegen magische Wirkungen wie Formen von Zaubern oder Gedankenkontrollen sein. Das Amulett wird jedoch keinen gewirkten Zauber wiederherstellen von denen, die normalerweise während einer Rast eingeprägt werden müssen. Außerdem müssen auch Wunden während der Rast geheilt werden, denn der Zustand der Träumerei gewährt dem Körper nur minimale Regeneration.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheit:  
+  Schutz vor Bewußtlosigkeit
+  Schutz vor Zauber
+  Verzögerte Erschöpfung (ändert sich entsprechend der Zusammensetzung)
+  Regeneriert 1 Trefferpunkt pro Stunde~
+@650389  = ~Diese starke Waffe wurde von Schmieden des alten Mythos Drannor geschaffen. Mondklingen werden in dem langen Prozess verwendet, einen Herrscher für die Insel Immerdar auszuwählen. Diese Mondklinge wurde <CHARNAME> von einem Trio von Elfen-Ältesten tief im Wald von Tethyr gewährt und hat <CHARNAME> als Träger akzeptiert. Nur jemand, den die Mondklinge gewählt hat, kann diese Klinge verwenden; jeder andere, der sonst versucht, sie aus der Scheide zu ziehen, wird sich furchtbar verbrennen, was vielleicht auf den Tod hinausläuft. Diese besondere Mondklinge gibt seinem Benutzer einen Bonus zu seiner Rüstungsklasse, erlaubt dem Träger, die Klinge mit der Meisterschaft der Schwert-Fertigkeiten zu verwenden, und gewährt mehrere spezifische Widerstände gegen die Schadensarten: Gift, Feuer, Kälte, Säure, und Elektrizität.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W8 + 5
+Trefferbonus: 5
+Besonderheit:
+  +4 Bonus zur Rüstungsklasse
+  +5 Sterne zu Schwert Fertigkeiten
+  Feuerwiderstand von 50 %
+  Kältewiderstand von 50 %
+  Säurewiderstand von 50 %
+  Gift-Widerstand von 50 %
+  Elektrizitäts-Widerstand von 50 %
+Schadensart: Aufschlitzen
+Gewicht: 3
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@650390  = ~Diese starke Waffe wurde von Schmieden des alten Mythos Drannor geschaffen. Mondklingen werden in den langen Prozess verwendet, einen Herrscher für die Insel Immerdar auszuwählen. Diese Mondklinge wurde <PLAYER2> von einem Trio von Elfen-Ältesten tief im Wald von Tethyr gewährt und hat <PLAYER2> als ihren Träger akzeptiert. Nur jemand, den die Mondklinge gewählt hat, kann diese Klinge verwenden; jeder andere, der sonst versucht, sie aus der Scheide zu ziehen, wird sich furchtbar verbrennen, was vielleicht auf den Tod hinausläuft. Diese besondere Mondklinge gibt seinem Benutzer einen Bonus zu seiner Rüstungsklasse, erlaubt dem Träger, die Klinge mit der Meisterschaft der Schwert-Fertigkeiten zu verwenden, und gewährt mehrere spezifische Widerstände gegen die Schadensarten: Gift, Feuer, Kälte, Säure, und Elektrizität.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W8 + 5
+Trefferbonus: 5
+Besonderheit:
+  +4 Bonus zur Rüstungsklasse
+  +5 Sterne zu Schwert Fertigkeiten
+  Feuerwiderstand von 50 %
+  Kältewiderstand von 50 %
+  Säurewiderstand von 50 %
+  Gift-Widerstand von 50 %
+  Elektrizitäts-Widerstand von 50 %
+Schadensart: Aufschlitzen
+Gewicht: 3
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@650391  = ~Diese starke Waffe wurde von Schmieden des alten Mythos Drannor geschaffen. Mondklingen werden in den langen Prozess verwendet, einen Herrscher für die Insel Immerdar auszuwählen. Diese Mondklinge wurde <PLAYER3> von einem Trio von Elfen-Ältesten tief im Wald von Tethyr gewährt und hat <PLAYER3> als ihren Träger akzeptiert. Nur jemand, den die Mondklinge gewählt hat, kann diese Klinge verwenden; jeder andere, der sonst versucht, sie aus der Scheide zu ziehen, wird sich furchtbar verbrennen, was vielleicht auf den Tod hinausläuft. Diese besondere Mondklinge gibt seinem Benutzer einen Bonus zu seiner Rüstungsklasse, erlaubt dem Träger, die Klinge mit der Meisterschaft der Schwert-Fertigkeiten zu verwenden, und gewährt mehrere spezifische Widerstände gegen die Schadensarten: Gift, Feuer, Kälte, Säure, und Elektrizität.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W8 + 5
+Trefferbonus: 5
+Besonderheit:
+  +4 Bonus zur Rüstungsklasse
+  +5 Sterne zu Schwert Fertigkeiten
+  Feuerwiderstand von 50 %
+  Kältewiderstand von 50 %
+  Säurewiderstand von 50 %
+  Gift-Widerstand von 50 %
+  Elektrizitäts-Widerstand von 50 %
+Schadensart: Aufschlitzen
+Gewicht: 3
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@650392  = ~Diese starke Waffe wurde von Schmieden des alten Mythos Drannor geschaffen. Mondklingen werden in den langen Prozess verwendet, einen Herrscher für die Insel Immerdar auszuwählen. Diese Mondklinge wurde <PLAYER4> von einem Trio von Elfen-Ältesten tief im Wald von Tethyr gewährt und hat <PLAYER4> als ihren Träger akzeptiert. Nur jemand, den die Mondklinge gewählt hat, kann diese Klinge verwenden; jeder andere, der sonst versucht, sie aus der Scheide zu ziehen, wird sich furchtbar verbrennen, was vielleicht auf den Tod hinausläuft. Diese besondere Mondklinge gibt seinem Benutzer einen Bonus zu seiner Rüstungsklasse, erlaubt dem Träger, die Klinge mit der Meisterschaft der Schwert-Fertigkeiten zu verwenden, und gewährt mehrere spezifische Widerstände gegen die Schadensarten: Gift, Feuer, Kälte, Säure, und Elektrizität.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W8 + 5
+Trefferbonus: 5
+Besonderheit:
+  +4 Bonus zur Rüstungsklasse
+  +5 Sterne zu Schwert Fertigkeiten
+  Feuerwiderstand von 50 %
+  Kältewiderstand von 50 %
+  Säurewiderstand von 50 %
+  Gift-Widerstand von 50 %
+  Elektrizitäts-Widerstand von 50 %
+Schadensart: Aufschlitzen
+Gewicht: 3
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@650393  = ~Diese starke Waffe wurde von Schmieden des alten Mythos Drannor geschaffen. Mondklingen werden in den langen Prozess verwendet, einen Herrscher für die Insel Immerdar auszuwählen. Diese Mondklinge wurde <PLAYER5> von einem Trio von Elfen-Ältesten tief im Wald von Tethyr gewährt und hat <PLAYER5> als ihren Träger akzeptiert. Nur jemand, den die Mondklinge gewählt hat, kann diese Klinge verwenden; jeder andere, der sonst versucht, sie aus der Scheide zu ziehen, wird sich furchtbar verbrennen, was vielleicht auf den Tod hinausläuft. Diese besondere Mondklinge gibt seinem Benutzer einen Bonus zu seiner Rüstungsklasse, erlaubt dem Träger, die Klinge mit der Meisterschaft der Schwert-Fertigkeiten zu verwenden, und gewährt mehrere spezifische Widerstände gegen die Schadensarten: Gift, Feuer, Kälte, Säure, und Elektrizität.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W8 + 5
+Trefferbonus: 5
+Besonderheit:
+  +4 Bonus zur Rüstungsklasse
+  +5 Sterne zu Schwert Fertigkeiten
+  Feuerwiderstand von 50 %
+  Kältewiderstand von 50 %
+  Säurewiderstand von 50 %
+  Gift-Widerstand von 50 %
+  Elektrizitäts-Widerstand von 50 %
+Schadensart: Aufschlitzen
+Gewicht: 3
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@650394  = ~Diese starke Waffe wurde von Schmieden des alten Mythos Drannor geschaffen. Mondklingen werden in den langen Prozess verwendet, einen Herrscher für die Insel Immerdar auszuwählen. Diese Mondklinge wurde <PLAYER6> von einem Trio von Elfen-Ältesten tief im Wald von Tethyr gewährt und hat <PLAYER6> als ihren Träger akzeptiert. Nur jemand, den die Mondklinge gewählt hat, kann diese Klinge verwenden; jeder andere, der sonst versucht, sie aus der Scheide zu ziehen, wird sich furchtbar verbrennen, was vielleicht auf den Tod hinausläuft. Diese besondere Mondklinge gibt seinem Benutzer einen Bonus zu seiner Rüstungsklasse, erlaubt dem Träger, die Klinge mit der Meisterschaft der Schwert-Fertigkeiten zu verwenden, und gewährt mehrere spezifische Widerstände gegen die Schadensarten: Gift, Feuer, Kälte, Säure, und Elektrizität.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W8 + 5
+Trefferbonus: 5
+Besonderheit:
+  +4 Bonus zur Rüstungsklasse
+  +5 Sterne zu Schwert Fertigkeiten
+  Feuerwiderstand von 50 %
+  Kältewiderstand von 50 %
+  Säurewiderstand von 50 %
+  Gift-Widerstand von 50 %
+  Elektrizitäts-Widerstand von 50 %
+Schadensart: Aufschlitzen
+Gewicht: 3
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@650395  = ~Dieser Morgenstern ist ein ziemlicher Gewinn. Es ist eine verzauberte Waffe, die +3 auf Treffer und Schaden gewährt. Abgesehen von der Schärfe und dem Gleichgewicht der Waffe teilt das Schwert dem Benutzer auch Magiebonus zu. Jemand, der mit Furcolo ausgestattet ist, erhält einen Bonus von 35 % zum Magiewiderstand und ist völlig immun gegen untote Wesen. Das Schwert ist ein intelligentes Gebilde und kann einmal pro Tag absolute Immunität auf seinen Träger wirken.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W4 + 3
+Besonderheiten:
+  Kann Absolute Immunität einmal pro Tag wirken
+  Magiewiderstand-Bonus von 35 %
+  Immun gegen Untote
+Schadensart: Zertrümmern
+Gewicht: 8
+Geschwindigkeitsfaktor: 4
+Fertigkeit: Flegel/Morgenstern
+Typ: 1-händig
+Mindeststärke: 11~
+@7650398 = ~Die gängigste Ausführung einer Streitaxt besteht aus einem dicken Stab von ungefähr 1,20 m Länge mit einer einschneidigen, trompetenförmigen Klinge an einem Ende. Diese Waffe wird auch Breitbeil genannt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8
+ETW0: +1 Bonus
+Schadensart: Aufschlitzen
+Gewicht: 7
+Geschwindigkeitsfaktor: 7
+Fertigkeit: Axt
+Typ: 1-händig
+Mindeststärke: 10~
+@7650399 = ~Zu den Komposit-Bögen zählen Lang- und Kurzbögen, die aus mehreren unterschiedlichen Materialien bestehen. Dadurch wird der Bogen flexibler und von ihm verschossene Pfeile richten größeren Schaden an. Solch einen starken Bogen auszuüben, erfordert eine Kraft von 18.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ETW0: +2 Bonus
+Schaden: +1
+Gewicht: 10
+Geschwindigkeitsfaktor: 7
+Fertigkeit: Langbogen
+Waffenart: zweihändig
+Mindeststärke: 18~
+@7650400 = ~Der Langbogen ist dem Kurzbogen sehr ähnlich. Der einzige Unterschied besteht darin, dass der Bogen fast so groß wie der Bogenschütze ist, normalerweise etwa 1,80 bis 2 m. Obwohl der Langbogen im Einsatz etwas langsamer ist als der Kurzbogen, hat er eine größere Reichweite und eine höhere Treffsicherheit.  
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ETW0: +2 Bonus
+Gewicht: 3
+Geschwindigkeitsfaktor: 7
+Fertigkeit: Langbogen
+Waffenart: zweihändig
+Mindeststärke: 6~
+@7650401 = ~Ein Kurzbogen ist die älteste Form eines Bogens, jedoch wurde er nicht als solcher bezeichnet. Der Begriff "Kurzbogen" ist eher eine Standardbezeichnung für alle Bögen, die nicht als Langbogen gelten. Ein Kurzbogen ist durchschnittlich etwa 1,50 m lang. Im Laufe der Zeit versuchte man die Reichweite von Bögen zu vergrößern. Dabei verlängerte man entweder den Wurfarm oder erhöhte seine Flexibilität, ohne gleichzeitig die Länge zu verändern. Im ersten Fall entwickelte sich daraus der so genannte Langbogen.  
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ETW0: +1 Bonus
+Gewicht: 2
+Geschwindigkeitsfaktor: 6
+Fertigkeit: Kurzbogen
+Waffenart: zweihändig
+Mindeststärke: 3~
+@650403  = ~Drakkas Ranul war ein ausgestoßener Mondelf mit einer riesigen Narbe auf seiner Schulter. In sehr jungen Jahren wurde Drakkas von einer plündernden Drow-Gruppe entführt und von den Drow zu einem Schaukämpfer herangezogen. Zuerst kämpfte er gegen andere Entführungsopfer in den Gruben. Jedoch, im Laufe der Zeit, starben seine Entführungs-Gefährten an ihren Wunden und schlechter Behandlung, so dass Drakkas allein blieb, um schließlich mit Ungeheuern nach Wahl der Drow zu kämpfen. Drakkas hielt durch, angetrieben durch seinen ständig wachsenden Hass auf seine Geiselnehmer und der Hoffnung, eines Tages zu fliehen und dann an seinen Entführern Rache zu nehmen.
+
+Eines Tages wurde Drakkas Wunsch wahr - er war im Stande zu fliehen, indem er seine Gefängniszellen-Schlüssel seinem faulen Nachtwächter stahl, und dann in aller Heimlichkeit in das unversöhnliche Unterreich entschlüpfte. Es gelang ihm, einige Krummsäbel auf seinem Weg zu stehlen, die er gut gebrauchen konnte, während er die gewundenen Gänge des Unterreichs umging. Als er auf der Oberfläche erschien, suchte er sofort seine Mondelfen-Verwandtschaft auf.
+
+Leider, als er seine Verwandtschaft fand, ächteten sie ihn wegen seiner schrecklichen Kampfnarben. Verbittert und verstoßen, machte er es sich zu seiner Mission im Leben, sich so schmerzhaft wie möglich an seinen Entführern zu rächen. Drakkas bildete sich fleißig in dunkler Magie aus und setzte ebenso seine Ausbildung mit den furchterregenden Waffen fort. Als er zu dem Punkt kam, wo er fand, dass er bereit war, begann er, seine Dienste als Söldner zu verkaufen, um Münzen zu verdienen und bessere Ausrüstung zu kaufen. Eine Sache, die er schließlich besonders wollte, war ein leichtgewichtiger Kettenpanzer, um seine Kämpffähigkeiten wirklich zu erhöhen. Das Glück war mit ihm, als er eines Tages einen zwergischen Rüstungsschmied fand, der Drakkas Anforderungen entsprechen konnte. Es dauerte nicht lange, bis die Rüstung fertiggestellt war und Drakkas zu seiner Rache-Mission bereit war.
+
+Drakkas verschwand von den Leuten, die ihn kannten und nutzte seine Söldnerdienste und wagte sich in die Tiefen des Unterreiches, wo man nie wieder von ihm hörte. Jedoch gelangte seine spezielle Rüstung irgendwie aus dem Unterreich heraus. Keiner weiß, wie, aber Spekulationen zufolge war die Rückkehr von Drakkas Kettenpanzer zur Oberflächenwelt eine hintergründige Nachricht der Drow. Die Nachricht blieb natürlich der Phantasie des Deuters überlassen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklassbonus: +8
+Max Geschicklichkeits-Bonus: +1
+Zauber-Misserfolg-Bonus: 10 %
+Besonderheit:
+  Zauber wirken und Diebesfähigkeiten können ohne Nachteil durchgeführt werden, solange  Drakkas Kettenrüstung getragen wird.
+ETW0-Bonus: +3
+Geschwindigkeit: 1 zusätzlicher Angriff pro Runde
+Gewicht: 30 Pfund
+Mindeststärke: 8~
+@7650404 = ~Meist besteht eine Keule aus einem festen Stock aus Hartholz, der am Griff schmal ist und zum Ende hin breiter wird. Diese einfache Waffe ist in Gebrauch, seit Menschen Werkzeuge benutzen. Da jeder ein brauchbares festes Holzstück finden und herumschleudern kann, ist die Keule als Waffe weit verbreitet.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6
+ETW0: +1 Bonus
+Schadensart: Zertrümmern
+Gewicht: 3
+Geschwindigkeitsfaktor: 4
+Fertigkeit: Keule
+Typ: 1-händig
+Mindeststärke: 5~
+@7650405 = ~Ein typischer Dolch ist mit einer spitzen, normalerweise zweischneidigen Klinge versehen, wodurch er sich von einem Messer unterscheidet. Ein Messer hat nur eine Schneide und ist etwas kürzer als ein Dolch.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4
+ETW0: +1 Bonus
+Schadensart: Durchbohren
+Gewicht: 1
+Geschwindigkeitsfaktor: 2
+Fertigkeit: Dolch
+Typ: 1-händiger
+Mindeststärke: 3~
+@7650406 = ~Ein Wurfpfeil ist eine kleine, leicht zu versteckende Fernkampfwaffe, die nicht mit einem Bogen oder einer anderen Waffe abgefeuert, sondern mit der Hand auf das Ziel geworfen wird.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W3
+ETW0: +1 Bonus
+Schadensart: Fernkampfwaffe (Durchbohren)
+Gewicht: 0
+Geschwindigkeitsfaktor: 2
+Fertigkeit: Wurfpfeil
+Typ: 1-händig~
+@650408  = ~Ein typischer Dolch ist mit einer spitzen, normalerweise zweischneidigen Klinge versehen, wodurch er sich von einem Messer unterscheidet. Ein Messer hat nur eine Schneide und ist etwas kürzer als ein Dolch.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4 + 4
+ETW0-Bonus: +4
+Verzauberung: +4
+Besonderheit:
+  Kann 2 mal am Tag Verschwimmen wirken
+
+Schadensart: Durchbohren
+Gewicht: 1 Pfund
+Geschwindigkeitsfaktor: 2
+Fertigkeit: Dolch
+Typ: 1-händig
+Mindeststärke: 3~
+@7650409 = ~Ein Flegel besteht aus einem kräftigen Holzgriff, der mit einem Eisenstab, einem mit Dornen besetzten Holzstab oder einer mit Dornen besetzten Eisenkugel verbunden ist. Die beiden Teile sind entweder mit einem Scharnier oder einer Kette verbunden. Ursprünglich wurde diese Waffe zum Dreschen von Getreide benutzt.  
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 + 1
+ETW0: +1 Bonus
+Schadensart: Zertrümmern
+Gewicht: 15
+Geschwindigkeitsfaktor: 7
+Fertigkeit: Flegel/Morgenstern
+Typ: 1-händig
+Mindeststärke: 13~
+@7650410 = ~Diese mächtige Waffe besteht aus einem etwa 1,5m langem Schaft mit einer schweren Klinge. Die Axt kann an beiden Seiten des Schafts mit Klingen versehen sein, oder sie kann nur eine einzelne Klinge haben. Es ist eine unhandliche Waffe, aber ein erfahrener Krieger kann Schläge mit enormer Kraft damit ausüben.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W12
+ETW0: +1 Bonus
+Schadensart: Aufschlitzen
+Gewicht: 5
+Geschwindigkeitsfaktor: 9
+Fertigkeit: Axt
+Waffenart: zweihändig
+Mindeststärke: 10~
+@650413  = ~Diese mächtige Waffe besteht aus einem 1,2m bis 1,5m langem Schaft mit einer sehr schweren Klinge. Die Axt kann an beiden Seiten des Schafts mit Klingen versehen sein, oder sie kann nur eine einzelne Klinge haben. Es ist eine unhandliche Waffe, aber ein erfahrener Krieger kann Schläge mit enormer Kraft damit ausüben. Zwergen-Runen wurden in die riesige Klinge geätzt, um die Axt weiter aufzubessern.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W12 + 5
+ETW0-Bonus: +5
+Verzauberung: +5
+Besonderheit:
+  Ziel ist unter den Ausirkungen des Zaubers Blindheit (kein Rettungswurf gegen Zauber)
+  +2W6 Schaden gegen böse Wesen
+Schadensart: Aufschlitzen
+Gewicht: 20 Pfund
+Fertigkeit: Axt
+Typ: zweihändig~
+@7650414 = ~Die Hellebarde ist nach dem Speer die älteste und verbreitetste Stangenwaffe. Sie besteht aus einer Klinge, die einem Henkerbeil ähnelt, welche auf einen durchschnittlich 1,80 m langen Stab aufgesetzt ist. Das Gewicht der Axtklinge wird durch eine Fluke ausgeglichen. Am oberen Ende sitzt ein spitzer Dorn, der gewöhnlich viereckig geformt ist. Manchmal wird die Fluke von einem Haken ersetzt, mit dem berittene Kämpfer vom Pferd geholt werden können. Eine Hellebarde lässt sich am besten als eine Kreuzung zwischen Speer und Axt beschreiben.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W10
+ETW0: +1 Bonus
+Schadensart: Durchbohren
+Gewicht: 15
+Geschwindigkeitsfaktor: 9
+Fertigkeit: Hellebarde
+Waffenart: zweihändig
+Mindeststärke: 13~
+@7650415 = ~Für berittene Kämpfer sind Waffen mit langem Schaft eher ungeeignet, weshalb viele Waffen mit einem kürzeren Schaft versehen wurden, so dass sie mit einer Hand geschwungen werden können. Beispiele dafür sind Streitkolben und Flegel, ein weiteres ist der Kriegshammer. Der Kriegshammer für Reiter wurde aus dem Luzerner Hammer entwickelt. Er besteht ganz aus Stahl und ist mit kleinen Metallscheiben - auch Rondelle genannt - versehen, die zum Schutz und zur Verstärkung des Griffes dienen. Diese Rondelle sind oft schmuckvoll verziert und geformt. Der Schaft hat eine Länge von ungefähr 50 cm.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4 + 1
+ETW0: +1 Bonus
+Schadensart: Zertrümmern
+Gewicht: 6
+Geschwindigkeitsfaktor: 4
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+Mindeststärke: 9~
+@7650416 = ~Die gängigste Ausführung einer Streitaxt besteht aus einem dicken Stab von ungefähr 1,20 m Länge mit einer einschneidigen, trompetenförmigen Klinge an einem Ende. Diese Waffe wird auch Breitbeil genannt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6
+ETW0: +1 Bonus
+Schadensart: Aufschlitzen
+Gewicht: 7
+Geschwindigkeitsfaktor: 7
+Fertigkeit: Axt
+Typ: 1-händig
+Mindeststärke: 10~
+@650418  = ~Wie andere Hellebarden, so besteht auch diese aus einer axtähnlichen Klinge, die auf einem ca. 1,80 m langen Schaft befestigt ist. Sie besitzt außerdem ein paar magische Eigenschaften, die ihre Wirkung im Kampf erhöhen. So bahnt sich die scharfe Klinge ihren Weg bis zu den Knochen der Gegner, während die mit Widerhaken versehene Spitze nach einer Lücke in ihrer Rüstung sucht.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W10
+Verzauberung: +2
+Besonderheit:
+   Ruchlos: +2W6 Schaden gegen Gute Wesen
+   Chaotisch: +2W6 beschädigen gegen rechtschaffene Wesen
+   Verflucht: +2 Angriffsbonus gegen Elfen und +2W6+2 Schaden gegen Elfen
+   Vampirisch: 1W4 Trefferpunkte werden dem Ziel abgezogen und dem Träger hinzugefügt (kein Rettungswurf gegen Zauber)
+Schadensart: Durchbohren
+Fertigkeit: Hellebarde
+Waffenart: Zweihändig
+Gewicht: 14 Pfund
+Mindeststärke: 13~
+@650420  = ~Alte Zwergen-Legenden erzählen von einer Zeit, als das edelste Metall weder Zwergen-Stahl noch meteorisches Eisen, noch Mithril, sondern Dykhast war - eine derart starke Legierung, dass die Kante einer Klinge nie durch Arbeit oder Kampf stumpf wurde, und mit einer Oberfläche so vollkommen und glänzend, dass in seiner schimmernden Oberfläche der Flug eines entfernten Drachen gesehen werden konnte. Die ältesten Zwerge sprechen von Dykhast-Klingen mit Tränen liebevoller Erinnerung in ihren Augen und spucken gleichgültig bei der Erwähnung der "verschiedenen schwachen und belanglosen" Metalle, aus denen heutige Waffen und Rüstungen geformt werden.
+
+Es gibt aber Gerüchte über einen alten und geheimen Chogoh Kyn genannten Tempel - das ist dort, wie die Legenden sagen, wo Klingen aus Dykhast noch in der Art und Weise aus längst vergangenen Tagen gemacht werden. Der Preis mag höch sein, aber für den wahren Kenner gibt es nichts, was dem Ruhm, der Vollkommenheit und der völligen Verzauberung von Dykhast entspricht.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 + 6
+ETW0-Bonus: +3
+Verzauberung: +3
+Besonderheit:
+  Chance von 5 %, das Ziel zu blenden (kein Rettungswurf gegen Gift)
+Schadensart: Aufschlitzen
+Fertigkeit: Langschwert
+Typ: Einhändig~
+@7650421 = ~Der Streitkolben ist eine direkte Ableitung der einfachen Keule und besteht lediglich aus einem Holzschaft, auf den ein Stein- oder Eisenkopf aufgesetzt ist. Der Kopf kann entweder mit Spitzen versehen, geflanscht oder aber auch pyramidenförmig ausgearbeitet sein.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 + 1
+ETW0: +1 Bonus
+Schadensart: Zertrümmern
+Gewicht: 8
+Geschwindigkeitsfaktor: 7
+Fertigkeit: Streitkolben
+Typ: 1-händig
+Mindeststärke: 10~
+@7650422 = ~Ein Morgenstern besteht aus einem hölzernen Schaft, auf den ein mit Eisenspitzen besetzter Metallkopf aufgesetzt ist. Die Gesamtlänge eines Morgensterns beträgt etwa 1,20 m. Der Kopf kann rund, oval oder zylindrisch geformt sein. Unabhängig von der jeweiligen Ausführung ist der Kopf von Morgensternen meist mit einer langen Spitze zum Stoßen versehen.  
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W4
+ETW0: +1 Bonus
+Schadensart: Zertrümmern
+Gewicht: 12
+Geschwindigkeitsfaktor: 7
+Fertigkeit: Flegel/Morgenstern
+Typ: 1-händig
+Mindeststärke: 11~
+@650424  = ~Ein Kurzbogen ist die älteste Form eines Bogens, jedoch wurde er nicht als solcher bezeichnet. Der Begriff "Kurzbogen" ist eher eine Standardbezeichnung für alle Bögen, die nicht als Langbogen gelten. Ein Kurzbogen ist durchschnittlich etwa 1,50 m lang. Im Laufe der Zeit versuchte man die Reichweite von Bögen zu vergrößern. Dabei verlängerte man entweder den Wurfarm oder erhöhte seine Flexibilität, ohne gleichzeitig die Länge zu verändern. Im ersten Fall entwickelte sich daraus der so genannte Langbogen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: +1 Fernkampfwaffe
+ETW0-Bonus: +1
+Besonderheit:
+  Trefferpunkte: +15 zu maximalen Trefferpunkten, wenn man damit ausgestattet ist
+  Bonus zu Rüstungsklasse: +1
+Gewicht: 2 Pfund.
+Fertigkeit: Kurzbogen
+Waffenart: Zweihändig~
+@7650425 = ~Sowohl der Säbel als auch der Krummsäbel sind durch eine einseitig scharfe, gekrümmte Klinge charakterisiert, obwohl die beiden Waffen ursprünglich aus unterschiedlichen Regionen Faerûns stammen. Der Säbel wurde aufgrund seiner Vielseitigkeit hauptsächlich von berittenen Kriegern eingesetzt, während die Entwicklung des Krummsäbels durch einen starken orientalischen Einfluss geprägt ist. Der "Shamshir", wie man ihn ursprünglich genannt hat, ist größer und stärker gekrümmt und hat eine langgezogene Spitze. Dadurch kann er zwar nur ein wenig langsamer geschwungen werden, ist aber wesentlich tödlicher.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8
+ETW0: +1 Bonus
+Schadensart: Aufschlitzen
+Gewicht: 4
+Geschwindigkeitsfaktor: 5
+Fertigkeit: Scimitar/Wakizashi/Ninja-To
+Typ: 1-händig
+Mindeststärke: 10~
+@7650426 = ~Schleudern gibt es seit Menschengedenken. Grundsätzlich bestehen Schleudern aus einem Leder- oder Stoffriemen und einem Beutel für das Geschoss. Die Waffe wird an beiden Enden des Riemens gehalten und über dem Kopf im Kreis geschwungen. Wenn die Höchstgeschwindigkeit erreicht ist, wird das Geschoss abgefeuert, indem man ein Ende des Riemens loslässt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ETW0: +1 Bonus
+Gewicht: 0
+Geschwindigkeitsfaktor: 6
+Fertigkeit: Schleuder
+Typ: 1-händig
+Mindeststärke: 3~
+@7650427 = ~Speere zählen zu den ältesten Waffen der Geschichte. Schon die primitivsten Völker benutzten einfache Holzstangen, die an einem Ende angespitzt wurden. Nachdem die Menschen die Metallverarbeitung entdeckt hatten, begannen sie Speerköpfe aus Eisen und Stahl herzustellen. Waffenschmiede experimentierten bald mit unterschiedlichen Formen von Speerköpfen, was zur Entstehung verschiedener Arten von Stangenwaffen führte. Dieser Speer ist etwas ganz Besonderes, da er mit magischen Eigenschaften versehen wurde.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6
+ETW0: +1 Bonus
+Schadensart: Durchbohren
+Gewicht: 5
+Geschwindigkeitsfaktor: 6
+Fertigkeit: Speer
+Waffenart: zweihändig
+Mindeststärke: 5~
+@7650428 = ~Der Kampfstab ist ein 1,80 bis 2,70 m langer Holzstab und somit die einfachste aller Stangenwaffen. Qualitativ hochwertige Kampfstäbe sind aus festem Eichenholz hergestellt und an beiden Enden mit Metall beschlagen. Der Kampfstab wird mit beiden Händen geschwungen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6
+ETW0: +1 Bonus
+Schadensart: Zertrümmern
+Gewicht: 4
+Geschwindigkeitsfaktor: 4
+Fertigkeit: Stab
+Waffenart: zweihändig
+Mindeststärke: 5~
+@7650429 = ~Das Bastardschwert ist von seiner Art her zwischen dem Zweihänder und dem Langschwert angesiedelt, weshalb es auch als Anderthalbhänder bezeichnet wird. Es besitzt eine zweischneidige Klinge und einen langen Griff, wodurch es auch beidhändig geschwungen werden kann. Die durchschnittliche Länge des Bastardschwertes liegt zwischen 1,40 und 1,60 m.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W4
+ETW0: +1 Bonus
+Schadensart: Aufschlitzen
+Gewicht: 10
+Geschwindigkeitsfaktor: 8
+Fertigkeit: Bastardschwert
+Typ: 1-händig
+Mindeststärke: 11~
+@7650430 = ~Beim Zweihänder handelt es sich um eine Weiterentwicklung des Langschwertes. Waffenschmiede sind seit jeher daran interessiert, bereits existierende Waffen noch zu verbessern, was beim Langschwert dazu führte, dass die Klinge verlängert wurde. Schließlich musste auch der Griff verlängert werden und man brauchte nun beide Hände, um das Schwert richtig zu schwingen. Der Zweihänder dient hauptsächlich dazu, berittene Krieger schwer zu verletzen und die Stoßformation eines Heeres aufzubrechen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W10
+ETW0: +1 Bonus
+Schadensart: Aufschlitzen
+Gewicht: 15
+Geschwindigkeitsfaktor: 10
+Fertigkeit: zweihändiges Schwert
+Waffenart: zweihändig
+Mindeststärke: 14~
+@7650431 = ~Das Katana ist ein Schwert, dessen Klinge nur auf einer Seite scharf ist. Es ist leicht gekrümmt und endet in einer Spitze, die an die Spitze eines Meißels erinnert. Das Katana stellt vermutlich die aufwendigste Form des Schwertes dar. Seine Fertigung ist ein langer, aufwendiger und höchst geheimer Vorgang, den man schon fast als Kunstwerk bezeichnen müsste. Dieses Schwert spielt in der Kultur von Kara-Tur eine wichtige Rolle. Wenn man es wagt, das Katana eines Samurais zu berühren oder gar zu ziehen, beleidigt man den Samurai, dem es gehört, und zieht seinen Zorn auf sich. Es kommt nur äußerst selten vor, dass ein Gaijin, ein Fremder, in den Besitz einer derartigen Waffe kommt. Entweder handelt es sich bei diesem Gaijin dann um den geehrten Freund eines wichtigen Ministers oder um den Mörder eines Samurais.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W10
+ETW0: +1 Bonus
+Schadensart: Aufschlitzen
+Gewicht: 6
+Geschwindigkeitsfaktor: 4
+Fertigkeit: Katana
+Typ: 1-händig
+Mindeststärke: 6~
+@7650432 = ~Diese Schwerter werden auch als zweischneidige Schwerter, Kriegsschwerter oder Militärschwerter bezeichnet. Es gibt keine einheitliche Form des Langschwertes. Seine Form und Länge sind von Kultur zu Kultur unterschiedlich und können selbst innerhalb einer Kultur je nach Zeitalter variieren. Das grundlegendste Merkmal aller Langschwerter ist ihre Länge, die zwischen 90 und 120 cm beträgt. Im letzteren Fall nimmt die Klinge 1 m der Gesamtlänge ein. Die meisten Langschwerter besitzen eine zweischneidige Klinge mit einer scharfen Spitze. Trotz dieser Spitze ist das Langschwert nicht zum Stoßen, sondern zum Schwingen vorgesehen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8
+ETW0: +1 Bonus
+Schadensart: Aufschlitzen
+Gewicht: 4
+Geschwindigkeitsfaktor: 5
+Fertigkeit: Langschwert
+Typ: 1-händig
+Mindeststärke: 6~
+@7650433 = ~Das Ninja-To ist das Schwert der Ninja und nicht von so hochwertiger Qualität wie die anderen Klingen, die aus Kara-Tur stammen, beispielsweise das Katana. Das Ninja-To hat eine gerade Klinge und ist relativ kurz. Es eignet sich daher ideal für den verschlagenen Ninja, da es sich leicht verbergen lässt. Da es recht kurz ist, eignet es sich besser als die langen Klingen eines Samurais, um damit unter beengten Verhältnissen zu kämpfen. Das verschafft einem Ninja, der gegen einen Samurai antritt, manchmal einen Vorteil.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8
+ETW0: +1 Bonus
+Schadensart: Aufschlitzen
+Gewicht: 5
+Geschwindigkeitsfaktor: 4
+Fertigkeit: Scimitar/Wakizashi/Ninja-To
+Typ: 1-händig
+Mindeststärke: 6~
+@7650434 = ~Das Kurzschwert ist die erste und ursprüngliche Form eines Schwertes. Einfach ausgedrückt ist ein Kurzschwert ein Dolch, bei dem die Klinge so lang ist, dass das Ganze nicht mehr als Dolch bezeichnet werden kann. Der Begriff "Kurzschwert" ist in der Klassifizierung der Schwerter eigentlich nicht bekannt. Er wird jedoch mittlerweile zur Beschreibung einer zweischneidigen Klinge mit einer ungefähren Länge von 60 cm verwendet. Die Klinge ist normalerweise vorne spitz, wodurch sich das Kurzschwert hervorragend zum Stoßen eignet.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6
+ETW0: +1 Bonus
+Schadensart: Durchbohren
+Gewicht: 3
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Kurzschwert
+Typ: 1-händiger
+Mindeststärke: 5~
+@7650435 = ~Das Wakizashi, auch Begleitschwert genannt, ist für einen Samurai von höchster Wichtigkeit. Es wird von ihm ständig getragen, auch wenn er sich in einem Gebäude aufhält. Wenn er schläft, liegt es neben ihm. Das Wakizashi ist von ebenso hochwertiger Fertigung wie das Katana. Es ist allerdings deutlich kürzer und die Klinge ist nur 30 bis 60 cm lang. In den Händen eines geschulten Kriegers ist es eine tödliche Waffe.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8
+ETW0: +1 Bonus
+Schadensart: Durchbohren
+Gewicht: 3
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Scimitar/Wakizashi/Ninja-To
+Typ: 1-händig
+Mindeststärke: 5~
+@7650436 = ~Für berittene Kämpfer sind Waffen mit langem Schaft eher ungeeignet, weshalb viele Waffen mit einem kürzeren Schaft versehen wurden, so dass sie mit einer Hand geschwungen werden können. Beispiele dafür sind Streitkolben und Flegel, ein weiteres ist der Kriegshammer. Der Kriegshammer für Reiter wurde aus dem Luzerner Hammer entwickelt. Er besteht ganz aus Stahl und ist mit kleinen Metallscheiben - auch Rondelle genannt - versehen, die zum Schutz und zur Verstärkung des Griffes dienen. Diese Rondelle sind oft schmuckvoll verziert und geformt. Der Schaft hat eine Länge von ungefähr 50 cm.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4 + 1
+ETW0: +1 Bonus
+Schadensart: Zertrümmern
+Gewicht: 6
+Geschwindigkeitsfaktor: 4
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+Mindeststärke: 9~
+@7650437 = ~Das Hand- oder Wurfbeil ist auch als Kriegsbeil bekannt. Die Klinge des Beils ist mit einer scharfen Stahlschneide und einer spitzen Fluke als Gegengewicht versehen. Der kurze Griff hat am unteren Ende eine Spitze und am oberen Ende eventuell einen Dorn.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 + 1
+ETW0: +1 Bonus
+Schadensart: Fernkampfwaffe (Durchbohren)
+Gewicht: 5
+Geschwindigkeitsfaktor: 4
+Fertigkeit: Axt
+Typ: 1-händig
+Mindeststärke: 4~
+@7650438 = ~Bei einer Armbrust handelt es sich um einen Bogen, der kreuzförmig auf einem Schaft aus Holz oder Metall befestigt ist. Der Bogen besteht für gewöhnlich aus Eschen- oder Eibenholz. Für diese Waffe werden Bolzen als Geschosse verwendet.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: +2 (Fernkampfwaffe)
+ETW0: +1 Bonus
+Gewicht: 14
+Geschwindigkeitsfaktor: 10
+Fertigkeit: Armbrust
+Waffenart: zweihändig
+Mindeststärke: 12~
+@7650439 = ~Bei einer Armbrust handelt es sich um einen Bogen, der kreuzförmig auf einem Schaft aus Holz oder Metall befestigt ist. Der Bogen besteht für gewöhnlich aus Eschen- oder Eibenholz. Für diese Waffe werden Bolzen als Geschosse verwendet. Eine leichte Armbrust wiegt nicht nur weniger als eine schwere Armbrust, sondern kann auch öfter abgefeuert werden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ETW0: +1 Bonus
+Gewicht: 7
+Geschwindigkeitsfaktor: 5
+Fertigkeit: Armbrust
+Waffenart: zweihändig
+Mindeststärke: 8~
+@650445  = ~Diese starke Waffe wurde von den frommen Schmieden der Ebenen geschaffen. Für die Nordmänner, die an Ragnarok glauben, soll dieser Kriegshammer von Lokin eine Rolle im Kampf spielen, um Ragnarok davon abzuhalten, vor seiner Zeit zu kommen. Dieser besondere Kriegshammer gibt seinem Benutzer einen Bonus zu seiner Rüstungsklasse, erlaubt dem Träger, die Klinge mit der Meisterschaft der Schwert-Fertigkeiten zu verwenden, und gewährt mehrere spezifische Widerstände gegen die Schadensarten: Gift, Feuer, Kälte, Säure, und Elektrizität.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W8 + 5
+ETW0-Bonus: +5
+Besonderheit:
+  +4 Bonus zur Rüstungsklasse
+  +5 Sterne zu Kriegshammer Fertigkeiten
+  Feuerwiderstand von 50 %
+  Kältewiderstand von 50 %
+  Säurewiderstand von 50 %
+  Gift-Widerstand von 50 %
+  Elektrizitäts-Widerstand von 50 %
+Schadensart: Zertrümmern
+Gewicht: 6
+Geschwindigkeitsfaktor: 4
+Fertigkeit: Warhammer
+Typ: 1-händig~
+@650449  = ~Dies sind einfach 80 cm geschmiedetes Titan, ein schweres Metall, das ziemlich wertvoll ist. Die Länge des Metalls könnte als einfache Waffe verwendet werden, falls erforderlich, wenn jedoch ein Streitkolben-Kopf oder anderes Gerät angefügt würde, könnte es in den Händen eines tüchtigen Benutzers leicht in eine furchterregende Waffe verwandelt werden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8
+Schadensart: Zertrümmern
+Gewicht: 3
+Geschwindigkeitsfaktor: 4
+Fertigkeit: Keule
+Typ: 1-händig
+Mindeststärke: 5~
+@650450  = ~Diese starke Waffe wurde von den frommen Schmieden der Ebenen geschaffen. Für die Nordmänner, die an Ragnarok glauben, soll dieser Kriegshammer von Lokin eine Rolle im Kampf spielen, um Ragnarok davon abzuhalten, vor seiner Zeit zu kommen. Dieser besondere Kriegshammer gibt seinem Benutzer einen Bonus zu seiner Rüstungsklasse, erlaubt dem Träger, die Klinge mit der Meisterschaft der Schwert-Fertigkeiten zu verwenden, und gewährt mehrere spezifische Widerstände gegen die Schadensarten: Gift, Feuer, Kälte, Säure, und Elektrizität.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W10 + 4
+Trefferbonus: 4
+Besonderheit:
+  +2 Bonus zur Rüstungsklasse
+  +4 Sterne zu Kriegshammer Fertigkeiten
+  Feuerwiderstand von 25 %
+  Kältewiderstand von 25 %
+  Säurewiderstand von 25 %
+  Gift-Widerstand von 25 %
+  Elektrizitäts-Widerstand von 25 %
+Schadensart: Zertrümmern
+Gewicht: 6
+Geschwindigkeitsfaktor: 4
+Fertigkeit: Kriegshammer
+Typ: 1-händig~
+@650452  = ~Dieser Kampfstab sieht auf dem ersten Blick wie die meisten anderen Stabwaffen aus. In diesen wurden jedoch mehrere Siegel geätzt, eine Art Runen, in die eine silberfarbene Beschichtung eingegossen wurde. Dieser Stab scheint, ungeachtet der Dekorationen, äußerst wichtig zu sein. Vielleicht wäre es klug, den ursprünglichen Eigentümer - oder Stamm von Eigentümern - des Stabs zu finden, weil sie bereit sein könnten, Euch mit solch einem Erbstück zu belohnen.
+
+Obwohl er tatsächlich wie ein normaler Kampfstab aussieht, hat es einige geringe magische Eigenschaften. Zuerst gibt es einen zusätzlichen Schadensbonus von 1W4 Trümmerschaden bei einem erfolgreichen Treffer gegen das Ziel des Trägers. Zweitens belohnt dieser Kampfstab seinen Benutzer für das Ausrüsten automatisch mit einem ETW0 Bonus von 2. Drittens ist der Stab in der Lage, seinen Träger und seine Begleiter einmal pro Tag zu segnen. Der Stab lädt sich automatisch wieder, nachdem eine bestimmte Zeit vergangen ist.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 +1W4
+Besonderheit:
+  +2 ETW0 Bonus, während man mit ihm ausgerüstet ist, 
+  Wirkt einmal pro Tag Segnen auf den Benutzer
+Schadensart: Zertrümmern
+Gewicht: 4
+Geschwindigkeitsfaktor: 4
+Fertigkeit: Stab
+Waffenart: zweihändig
+Mindeststärke: 5~
+@650458  = ~Die Gorgonenjagd ist ein extrem gefährlicher Sport, der bei den Drow beliebt ist. Oft wird das Blut der erlegten Gorgonen dazu verwendet, neue Plattenpanzer herzustellen. Diese besondere Art von Drow-Plattenpanzern ist dazu in der Lage, dem Licht der Sonne zu widerstehen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: -2
+Bonus: Feuer- uns SäureWiderstand von 30 %
+Gewicht: 20
+Mindeststärke: 12~
+@650479  = ~Das Breitschwert ist eine Kombination des Langschwertes mit der Kraft und Wirksamkeit eines Zweihänder-Schwertes. Waffenschmide haben immer nach Wegen gesucht, vorhandene Waffen zu verbessern. Um das Langschwert zu verbessern, wurde die Klinge verlängert. Schließlich musste der Griff erweitert werden, und zwei Hände wurden notwendig, um das Schwert richtig zu schwingen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W12
+Schadensart: Aufschlitzen
+Gewicht: 12
+Geschwindigkeitsfaktor: 8
+Fertigkeit: Langschwerter
+Waffenart: Zweihändig
+Mindeststärke: 9~
+@650480  = ~Dies ist die Waffe von Paddy Starkkerl. Es ist ein schweres Breitschwert, besonders für einen Halbling, aber die magische Verzauberung wurde ihm im Wald von Tethyr nützlich.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W12 + 2
+THACO: +2 Bonus
+Schadensart: Aufschlitzen
+Gewicht: 5
+Geschwindigkeitsfaktor: 5
+Fertigkeit: Langschwert
+Typ: 1-händig
+Mindeststärke: 6~
+@650488  = ~Schutzring +3: "Der Ring des Wächters"
+
+Der Wächter war ein unsterblicher Wachtposten, der damit beauftragt war, eine Grabstätte zu schützen, die den Körper einer Prinzessin des Akanal schützte. Über die Jahrtausende schwand das Ansehen für das Grab mit der Erinnerung an die königlichen Familie, und Abenteurer begannen, ihr Glück mit dem Wächter zu versuchen. Es war unvermeidlich, dass er schließlich übertreffon wurde, und als er es war, war der Ring, den er trug, einer von vielen Schätzen, die aus der Grabstätte genommenen wurden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: +3 Bonus
+Rettungswurf: +3 Bonus~
+@650492  = ~Die Geschichte dieser Waffe ist nicht bekannt. Ihr bekamt sie von Crowley, einem Altwasser Waldläufer, der wünschte, dass sie wieder geschärft wird. Ihr tatet es und sollt die Axt zu ihm ins Waldland im Norden von Amn bringen. Diese besondere Axt gibt seinem Benutzer einen Bonus zu seiner Rüstungsklasse, erlaubt dem Träger, die Klinge mit der Meisterschaft der Axt-Fertigkeiten zu verwenden und gewährt ebenso mehrere spezifische Widerstände gegen die Schadensarten: Gift, Feuer, Kälte, Säure, und Elektrizität.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W8 + 5
+ETW0: +5
+Besonderheit:
+  +2 Bonus zur Rüstungsklasse
+  +4 Sterne zu Axt Fertigkeiten
+  Feuerwiderstand von 25 %
+  Kältewiderstand von 25 %
+  Säurewiderstand von 25 %
+  Gift-Widerstand von 25 %
+  Elektrizitäts-Widerstand von 25 %
+Schadensart: Aufschlitzen
+Gewicht: 7
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Axt~
+@650513  = ~Eine Reihe dieser Schilde kann in ganz Faerûn in Tempeln der Waukeen gefunden werden. Die Kirche fertigt diese Schilde an, um sie an unternehmungslustige Abenteurer zu verkaufen. Der Träger muss, um die Kräfte des Schildes nutzen zu können, dessen Vorderseite unbedeckt und in seinem ursprünglichen Zustand lassen. Wenn sich der Besitzer nicht daran hält, werden die Kräfte des Schildes unwirksam. Dutzende von Abenteurern wandern daher mit Waukeens goldenem Gesicht auf dem Schild an ihrem Arm durch die Reiche.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklassbonus: +3
+Rettungswurf-Bonus: +2
+Magiewiderstand: +10 %
+Gewicht: 4~
+@650515  = ~Die einzigen Teile materiellem Teile dieser eisigen Waffe sind Heft, Griff und Knauf, die aus glänzendem Silber und Stahl geschmiedet sind. Sie wurde 1099 TZ von Ihanora der Gnädigen, einer der Auserwählten Aurils, geschaffen. Ihanora streifte durch den Norden und griff rücksichtslos jeden an, der versuchte, der Kälte zu entfliehen. Sie reiste mit einer wilden Truppe aus Yetis, Polarwürmern, Frostriesen und einem Weißen Drachen und hinterließ eine kalte Spur eisigen Todes. Ihanora wurde 1108 TZ von der berüchtigten Brigade der Roten Maske besiegt, die von dem als Finsterer Harley bekannten kaltblütigen Mörder angeführt wurde.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W4+2
+ETW0: +2
+Speziell:  
+  2%-ige Chance, dass das Opfer zu Eis verwandelt wird.
+Schadensart: Kälte
+Gewicht: 10
+Geschwindigkeitsfaktor: 6
+Fertigkeit: Bastardschwert
+Typ: Einhändig
+Mindeststärke: 9~
+@650518  = ~Speere zählen zu den ältesten Waffen der Geschichte. Schon die primitivsten Völker benutzten einfache Holzstangen, die an einem Ende angespitzt wurden. Nachdem die Menschen die Metallverarbeitung entdeckt hatten, begannen sie Speerköpfe aus Eisen und Stahl herzustellen. Waffenschmiede experimentierten bald mit unterschiedlichen Formen von Speerköpfen, was zur Entstehung verschiedener Arten von Stangenwaffen führte. Dieser Speer ist jedoch ein bisschen unterschiedlich, weil er technische Verbesserungen hat. Der Kopf hat einige kleine Widerhaken, um den Schaden zu vergrößern, wenn der Kopf von einem Opfer entfernt wird und die Länge des Schaftes wurde mit Ringen aus Stahl verstärkt, um zu verhindern, dass das Holz splittert, mit kleinen Klingen, die an verschiedenen Winkeln vorspringen. Das Kolbenende hat eine geformte Stahlkappe, die als stumpfe Waffe verwendet werden kann.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 + 1 (Durchbohren)
+         1W4 + 1 (Zertrümmern)
+         1W4 + 1 (Aufschlitzen)
+ETW0: +1 Bonus
+Schadensart: Durchbohren
+Reichweite: 70
+Gewicht: 5
+Geschwindigkeitsfaktor: 5
+Fertigkeit: Speer
+Waffenart: zweihändig
+Mindeststärke: 5~
+@650525  = ~Diese starke Waffe wurde von Schmieden für Barden geschaffen, um sie als starke Waffe zu verwenden. Diese Zaubersang-Klinge wurde <Player1> von einem Meister-Barden, einem früheren Lehrer der Silbermond Bardenuniversitäten, übertragen und hat <PLAYER1> als ihren Träger akzeptiert. Nur jemand, den die Mondklinge gewählt hat, kann diese Klinge verwenden; jeder andere, der sonst versucht, sie aus der Scheide zu ziehen, wird sich furchtbar verbrennen, was vielleicht auf den Tod hinausläuft. Diese besondere Zaubersang-Klinge gibt seinem Benutzer einen Bonus zu seiner Rüstungsklasse, erlaubt dem Träger, die Klinge mit der Meisterschaft der Schwert-Fertigkeiten zu verwenden, und gewährt mehrere spezifische Widerstände gegen die Schadensarten: Gift, Feuer, Kälte, Säure, und Elektrizität.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W8 + 5
+Trefferbonus: 5
+Besonderheit:
+  +4 Bonus zur Rüstungsklasse
+  +5 Sterne zu Schwert Fertigkeiten
+  Feuerwiderstand von 50 %
+  Kältewiderstand von 50 %
+  Säurewiderstand von 50 %
+  Gift-Widerstand von 50 %
+  Elektrizitäts-Widerstand von 50 %
+Schadensart: Aufschlitzen
+Gewicht: 3
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@650526  = ~Diese starke Waffe wurde von Schmieden für Barden geschaffen, um sie als starke Waffe zu verwenden. Diese Zaubersang-Klinge wurde <Player2> von einem Meister-Barden, einem früheren Lehrer der Silbermond Bardenuniversitäten, übertragen und hat <PLAYER2> als ihren Träger akzeptiert. Nur jemand, den die Mondklinge gewählt hat, kann diese Klinge verwenden; jeder andere, der sonst versucht, sie aus der Scheide zu ziehen, wird sich furchtbar verbrennen, was vielleicht auf den Tod hinausläuft. Diese besondere Zaubersang-Klinge gibt seinem Benutzer einen Bonus zu seiner Rüstungsklasse, erlaubt dem Träger, die Klinge mit der Meisterschaft der Schwert-Fertigkeiten zu verwenden, und gewährt mehrere spezifische Widerstände gegen die Schadensarten: Gift, Feuer, Kälte, Säure, und Elektrizität.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W8 + 5
+Trefferbonus: 5
+Besonderheit:
+  +4 Bonus zur Rüstungsklasse
+  +5 Sterne zu Schwert Fertigkeiten
+  Feuerwiderstand von 50 %
+  Kältewiderstand von 50 %
+  Säurewiderstand von 50 %
+  Gift-Widerstand von 50 %
+  Elektrizitäts-Widerstand von 50 %
+Schadensart: Aufschlitzen
+Gewicht: 3
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@650527  = ~Diese starke Waffe wurde von Schmieden für Barden geschaffen, um sie als starke Waffe zu verwenden. Diese Zaubersang-Klinge wurde <Player3> von einem Meister-Barden, einem früheren Lehrer der Silbermond Bardenuniversitäten, übertragen und hat <PLAYER3> als ihren Träger akzeptiert. Nur jemand, den die Mondklinge gewählt hat, kann diese Klinge verwenden; jeder andere, der sonst versucht, sie aus der Scheide zu ziehen, wird sich furchtbar verbrennen, was vielleicht auf den Tod hinausläuft. Diese besondere Zaubersang-Klinge gibt seinem Benutzer einen Bonus zu seiner Rüstungsklasse, erlaubt dem Träger, die Klinge mit der Meisterschaft der Schwert-Fertigkeiten zu verwenden, und gewährt mehrere spezifische Widerstände gegen die Schadensarten: Gift, Feuer, Kälte, Säure, und Elektrizität.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W8 + 5
+Trefferbonus: 5
+Besonderheit:
+  +4 Bonus zur Rüstungsklasse
+  +5 Sterne zu Schwert Fertigkeiten
+  Feuerwiderstand von 50 %
+  Kältewiderstand von 50 %
+  Säurewiderstand von 50 %
+  Gift-Widerstand von 50 %
+  Elektrizitäts-Widerstand von 50 %
+Schadensart: Aufschlitzen
+Gewicht: 3
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@650528  = ~Diese starke Waffe wurde von Schmieden für Barden geschaffen, um sie als starke Waffe zu verwenden. Diese Zaubersang-Klinge wurde <Player4> von einem Meister-Barden, einem früheren Lehrer der Silbermond Bardenuniversitäten, übertragen und hat <PLAYER4> als ihren Träger akzeptiert. Nur jemand, den die Mondklinge gewählt hat, kann diese Klinge verwenden; jeder andere, der sonst versucht, sie aus der Scheide zu ziehen, wird sich furchtbar verbrennen, was vielleicht auf den Tod hinausläuft. Diese besondere Zaubersang-Klinge gibt seinem Benutzer einen Bonus zu seiner Rüstungsklasse, erlaubt dem Träger, die Klinge mit der Meisterschaft der Schwert-Fertigkeiten zu verwenden, und gewährt mehrere spezifische Widerstände gegen die Schadensarten: Gift, Feuer, Kälte, Säure, und Elektrizität.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W8 + 5
+Trefferbonus: 5
+Besonderheit:
+  +4 Bonus zur Rüstungsklasse
+  +5 Sterne zu Schwert Fertigkeiten
+  Feuerwiderstand von 50 %
+  Kältewiderstand von 50 %
+  Säurewiderstand von 50 %
+  Gift-Widerstand von 50 %
+  Elektrizitäts-Widerstand von 50 %
+Schadensart: Aufschlitzen
+Gewicht: 3
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@650529  = ~Diese starke Waffe wurde von Schmieden für Barden geschaffen, um sie als starke Waffe zu verwenden. Diese Zaubersang-Klinge wurde <Player5> von einem Meister-Barden, einem früheren Lehrer der Silbermond Bardenuniversitäten, übertragen und hat <PLAYER5> als ihren Träger akzeptiert. Nur jemand, den die Mondklinge gewählt hat, kann diese Klinge verwenden; jeder andere, der sonst versucht, sie aus der Scheide zu ziehen, wird sich furchtbar verbrennen, was vielleicht auf den Tod hinausläuft. Diese besondere Zaubersang-Klinge gibt seinem Benutzer einen Bonus zu seiner Rüstungsklasse, erlaubt dem Träger, die Klinge mit der Meisterschaft der Schwert-Fertigkeiten zu verwenden, und gewährt mehrere spezifische Widerstände gegen die Schadensarten: Gift, Feuer, Kälte, Säure, und Elektrizität.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W8 + 5
+Trefferbonus: 5
+Besonderheit:
+  +4 Bonus zur Rüstungsklasse
+  +5 Sterne zu Schwert Fertigkeiten
+  Feuerwiderstand von 50 %
+  Kältewiderstand von 50 %
+  Säurewiderstand von 50 %
+  Gift-Widerstand von 50 %
+  Elektrizitäts-Widerstand von 50 %
+Schadensart: Aufschlitzen
+Gewicht: 3
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@650530  = ~Diese starke Waffe wurde von Schmieden für Barden geschaffen, um sie als starke Waffe zu verwenden. Diese Zaubersang-Klinge wurde <Player6> von einem Meister-Barden, einem früheren Lehrer der Silbermond Bardenuniversitäten, übertragen und hat <PLAYER6> als ihren Träger akzeptiert. Nur jemand, den die Mondklinge gewählt hat, kann diese Klinge verwenden; jeder andere, der sonst versucht, sie aus der Scheide zu ziehen, wird sich furchtbar verbrennen, was vielleicht auf den Tod hinausläuft. Diese besondere Zaubersang-Klinge gibt seinem Benutzer einen Bonus zu seiner Rüstungsklasse, erlaubt dem Träger, die Klinge mit der Meisterschaft der Schwert-Fertigkeiten zu verwenden, und gewährt mehrere spezifische Widerstände gegen die Schadensarten: Gift, Feuer, Kälte, Säure, und Elektrizität.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W8 + 5
+Trefferbonus: 5
+Besonderheit:
+  +4 Bonus zur Rüstungsklasse
+  +5 Sterne zu Schwert Fertigkeiten
+  Feuerwiderstand von 50 %
+  Kältewiderstand von 50 %
+  Säurewiderstand von 50 %
+  Gift-Widerstand von 50 %
+  Elektrizitäts-Widerstand von 50 %
+Schadensart: Aufschlitzen
+Gewicht: 3
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@650532  = ~Diese starke Waffe wurde von Schmieden für Barden geschaffen, um sie als starke Waffe zu verwenden. Nur ein Barde kann diese Klinge verwenden; jeder andere, der sonst versucht, sie aus der Scheide zu ziehen, wird sich furchtbar verbrennen, was vielleicht auf den Tod hinausläuft. Diese besondere Zaubersang-Klinge gibt seinem Benutzer einen Bonus zu seiner Rüstungsklasse, erlaubt dem Träger, die Klinge mit der Meisterschaft der Schwert-Fertigkeiten zu verwenden, und gewährt mehrere spezifische Widerstände gegen die Schadensarten: Gift, Feuer, Kälte, Säure, und Elektrizität.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W10 + 4
+ETW0:  +4
+Besonderheit:
+  +2 Bonus zur Rüstungsklasse
+  +4 Sterne zu Schwert Fertigkeiten
+  Feuerwiderstand von 25 %
+  Kältewiderstand von 25 %
+  Säurewiderstand von 25 %
+  Gift-Widerstand von 25 %
+  Elektrizitäts-Widerstand von 25 %
+Schadensart: Aufschlitzen
+Gewicht: 3
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@650544  = ~Normale Fechtumhänge werden von vielen Schwertfechtern getragen, die seine losen und umfangreichen Falten genießen, in deren dicken Stoff sich eine Waffe verfangen kann. Dieser Umhang bietet ein wenig Schutz gegen schlitzende und stechende Waffen, die eine Möglichkeit haben, im schweren Umhang stecken zu bleiben.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: +2 gegen durchbohrende und aufschlitzende Waffen.
+Besonderheit: Gibt einmal pro Tag den zusätzlichen Schutz ähnlich dem Steinhaut eines Zauberers und wehrt die ersten 5 Angriffe nach der Beschwörung ab.
+Rettungswurf: +2 Bonus
+Gewicht: 6~
+@650548  = ~Maßstab der Gerechtigkeit: Dieses Kurzschwert besaß Tardeth Llanistaph aus der Gesellschaft der Acht. Wie es in Euren Besitz eintrat, ist seltsam. Vielleicht habt Ihr es ungesetzlich von einem Hehler gekauft; vielleicht wurde Tardeth ermordet, und das Schwert wurde von seinem Überresten aufgenommen; oder vielleicht habt Ihr Euch ins Lager der Gesellschaft geschlichen und all ihre Habseligkeiten durchsucht, ohne dass sie es wussten oder Euch sahen, wie Ihr ihr ganzes Zeug unter die Lupe nahmt.
+
+Oder vielleicht ist es gar nicht in Eurem Besitz, und Ihr denkt gerade, dass es so ist, weil Ihr dies durch eine magische flackernde Anzeige mit einer Größen von ungefähr 1280 auf 1024 Schritten lest.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 + 3
+ETW0: +3 Bonus
+Besonderheit: Belohnt den Träger mit Extraangriffen, die das Ziel sich langsamer bewegen lassen, und jeder Träger ist im Umgang mit dem Maßstab automatisch erfahren.
+Schadensart: Durchbohren
+Gewicht: 2
+Geschwindigkeitsfaktor: 0
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+Mindeststärke: 5~
+@7650549 = ~Die gängigste Ausführung einer Streitaxt besteht aus einem dicken Stab von ungefähr 1,20 m Länge mit einer einschneidigen, trompetenförmigen Klinge an einem Ende. Diese Waffe wird auch Breitbeil genannt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 + 3
+ETW0: +3 Bonus
+Schadensart: Aufschlitzen
+Gewicht: 6
+Geschwindigkeitsfaktor: 7
+Fertigkeit: Axt
+Typ: 1-händig
+Mindeststärke: 10 Kraft~
+@650551  = ~Ein Kettenhemd besteht aus miteinander verbundenen Metallringen. Es wird immer über einem wattierten Rock oder einem leichten Ledergewand getragen, um schmerzhafte Scheuerstellen zu vermeiden und die Wucht von Schlägen zu dämpfen. Dieses Kettenhemd wurde auf magische Weise zusätzlich verstärkt. Diese +5 Rüstung wurde von Throm Sturman in Hlondeth geschmiedet.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 0
+Gewicht: 10
+Mindeststärke: 8~
+@7650552 = ~Ein typischer Dolch ist mit einer spitzen, normalerweise zweischneidigen Klinge versehen, wodurch er sich von einem Messer unterscheidet. Ein Messer hat nur eine Schneide und ist etwas kürzer als ein Dolch. 
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 + 2
+ETW0: +4
+Schadensart: Durchbohren
+Gewicht: 1
+Geschwindigkeitsfaktor: 1
+Fertigkeit: Dolch
+Typ: 1-händig
+Mindeststärke: 3~
+@7650553 = ~Ein Flegel besteht aus einem kräftigen Holzgriff, der mit einem Eisenstab, einem mit Dornen besetzten Holzstab oder einer mit Dornen besetzten Eisenkugel verbunden ist. Die beiden Teile sind entweder mit einem Scharnier oder einer Kette verbunden. Ursprünglich wurde diese Waffe zum Dreschen von Getreide benutzt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 + 5
+ETW0: +4
+Schadensart: Zertrümmern
+Gewicht: 12
+Geschwindigkeitsfaktor: 7
+Fertigkeit: Flegel/Morgenstern
+Typ: 1-händig
+Mindeststärke: 13~
+@7650554 = ~Die Hellebarde ist nach dem Speer die älteste und verbreitetste Stangenwaffe. Sie besteht aus einer Klinge, die einem Henkerbeil ähnelt, welche auf einen durchschnittlich 1,80 m langen Stab aufgesetzt ist. Das Gewicht der Axtklinge wird durch eine Fluke ausgeglichen. Am oberen Ende sitzt ein spitzer Dorn, der gewöhnlich viereckig geformt ist. Manchmal wird die Fluke von einem Haken ersetzt, mit dem berittene Kämpfer vom Pferd geholt werden können. Eine Hellebarde lässt sich am besten als eine Kreuzung zwischen Speer und Axt beschreiben.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W12 + 1
+ETW0: +2
+Schadensart: Durchbohren
+Gewicht: 13
+Geschwindigkeitsfaktor: 8
+Fertigkeit: Hellebarde
+Waffenart: zweihändig
+Mindeststärke: 13~
+@650556  = ~Ein Prunkharnisch stellt die prächtigste Rüstung dar, die man sich als Krieger kaufen kann. Sie sieht nicht nur beeindruckend aus, sondern bietet auch den besten Schutz. Die perfekt gearbeiteten Metallplatten sind eng miteinander verbunden und wehren sowohl Schläge als auch Pfeile ab. Die ganze Rüstung ist mit Gravuren und Prägungen verziert. Diese +5 Rüstung wurde von Throm Sturman in Hlondeth geschmiedet.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: -4
+Gewicht: 20
+Mindeststärke: 15~
+@650558  = ~Dieser Schild aus gut konstruierten Materialien wurde von Throm Sturman in Hlondeth geschmiedet.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklassbonus: 6
+Besonderheit: +2 gegen Fernkampfwaffen
+Gewicht: 10
+Mindeststärke: 10~
+@7650559 = ~Speere zählen zu den ältesten Waffen der Geschichte. Schon die primitivsten Völker benutzten einfache Holzstangen, die an einem Ende angespitzt wurden. Nachdem die Menschen die Metallverarbeitung entdeckt hatten, begannen sie Speerköpfe aus Eisen und Stahl herzustellen. Waffenschmiede experimentierten bald mit unterschiedlichen Formen von Speerköpfen, was zur Entstehung verschiedener Arten von Stangenwaffen führte. Dieser Speer ist etwas ganz Besonderes, da er mit magischen Eigenschaften versehen wurde..
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W10
+ETW0: +4
+Schadensart: Durchbohren
+Gewicht: 4
+Geschwindigkeitsfaktor: 4
+Fertigkeit: Speer 
+Waffenart: zweihändig
+Mindeststärke: 5~
+@650561  = ~Der Schienenpanzer ist dem Bänderpanzer ziemlich ähnlich, jedoch sind die Metallstreifen nicht waagerecht auf das Grundmaterial (entweder Kettenhemd, Leder oder Stoff) aufgebracht, sondern senkrecht. Da der menschliche Oberkörper sich mehr nach vorne und hinten biegt, als dass er sich dreht, erweist sich der Schienenpanzer im Kampf eher als hinderlich. Dieser Harnisch wurde durch Throm Sturman in Hlondeth geschmiedet, und gewährt dem Träger einen Bonus +4 zu seiner Rüstungsklasse.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 1
+Gewicht: 10
+Mindeststärke: 8~
+@7650562 = ~Diese Schwerter werden auch als zweischneidige Schwerter, Kriegsschwerter oder Militärschwerter bezeichnet. Es gibt keine einheitliche Form des Langschwertes. Seine Form und Länge sind von Kultur zu Kultur unterschiedlich und können selbst innerhalb einer Kultur je nach Zeitalter variieren. Das grundlegendste Merkmal aller Langschwerter ist ihre Länge, die zwischen 90 und 120 cm beträgt. Im letzteren Fall nimmt die Klinge 1 m der Gesamtlänge ein. Die meisten Langschwerter besitzen eine zweischneidige Klinge mit einer scharfen Spitze. Trotz dieser Spitze ist das Langschwert nicht zum Stoßen, sondern zum Schwingen vorgesehen. 
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 + 3
+ETW0: +3
+Schadensart: Aufschlitzen
+Gewicht: 3
+Geschwindigkeitsfaktor: 5
+Fertigkeit: Langschwert
+Typ: 1-händig
+Mindeststärke: 6~
+@7650563 = ~Für berittene Kämpfer sind Waffen mit langem Schaft eher ungeeignet, weshalb viele Waffen mit einem kürzeren Schaft versehen wurden, so dass sie mit einer Hand geschwungen werden können. Beispiele dafür sind Streitkolben und Flegel, ein weiteres ist der Kriegshammer. Der Kriegshammer für Reiter wurde aus dem Luzerner Hammer entwickelt. Er besteht ganz aus Stahl und ist mit kleinen Metallscheiben - auch Rondelle genannt - versehen, die zum Schutz und zur Verstärkung des Griffes dienen. Diese Rondelle sind oft schmuckvoll verziert und geformt. Der Schaft hat eine Länge von ungefähr 50 cm.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W6 + 3
+ETW0: +4
+Schadensart: Zertrümmern
+Gewicht: 5
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+Mindeststärke: 9~
+@650566  = ~Dieser Werkzeugkasten enthält kleine Sonden, Hauptschlüssel, Drahtscheren, Feilen, Stocher, Scheren, eine Zusammenstellung von kleinen Schraubenziehern und Zangen und vielen anderen nützlichen Diebes-Werkzeugen. Es kann sich als nützlich erweisen bei dem Versuch, Fallen zu entschärfen, Schlösser zu öffnen, oder beim Taschendiebstahl, wenn das Ziel schwierig ist.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+  Schlösser öffnen Bonus: 30 %
+  Fallen finden Bonus: 15 %
+  Taschendiebstahl-bonus: 15 %
+
+Legt den Gegenstand auf das Schild-Feld, um den Bonus zu erhalten.~
+@650568  = ~Rapier des Recken
+
+Obwohl es speziell für den Gebrauch im Dienst von Torm oder Tyr geschaffen wurde, machte Recke, ein pensionierter Abenteurer, der jetzt ein Waffen- und Rüstungsgeschäft in der Stadt Hlondeth führt, eifrigen Gebrauch von diesem Schwert bei seinen Kämpfen gegen Feinde. Durch Magie oder Segen ist die dünne und hauchfeine Klinge durch der Fähigkeit des Trägers befähigt, mit solcher Geschwindigkeit und Gewandtheit zu schlagen, dass die Kunst des Schwertkampfes wie ein Tanz wird.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 + 4
+ETW0-Bonus: +4
+Besonderheit:  
+  Träger isteht unter der Wirkung des Wirbelwinds, während er ausgerüstet ist, einschließlich des -4 ETW0 Abzugs und -4 Schaden-Abzugs
+Schadensart: Durchbohren
+Gewicht: 1
+Geschwindigkeitsfaktor: 1
+Fertigkeit: Langschwert
+Typ: 1-händig
+Mindeststärke: 6~
+@650602  = ~Auf der Höhe ihrer kurzlebigen Pracht war die Elfen Stadt des Liedes für ihre künstlerische Musik, Dramen und Verzauberungen bekannt. Die Elfen von Cormanthyr schufen Kunstgegenstände, stark und schön, die von Schatzjägern und Abenteurern gleichermaßen gesucht sind.
+
+Diese exquisit geschnitzte Palisander-Harfe, bestückt mit Blattgold-Filigran, ist ein solcher Kunsgegenstand, der die höchsten Fähigkeiten der Elfen-Handwerker demonstriert. Abgesehen von ihren Verzauberungen ist die handgefertigte Harfe ein Beispiel der Vollkommenheit der Holzschnitzerei. Die glasglatte Maserung, die nahtlosen Ausstattungen, die komplizierte Ätzungen und der glänzende Lack - sogar nach mehr als fünf Jahrhunderten seit ihrer Entwicklung - beweisen das. Die Vergoldung, die die Harfe schmückt, ist nicht im geringsten angelaufen, und die gesponnenen Goldsaiten schimmern im Licht.
+
+Außer der Fertigungsqualität dieser Harfe wurde sie durch einige der vormals stärksten Elfen-Erzmagier von Myth Drannor verzaubert. Die goldenen Saiten, sieben insgesamt, vibrieren alle in der Klangfülle mit der Bindung. Die besonderen Eigenschaften dieser Saiten können nicht wahrgenommen werden, solange die Harfe nicht gespielt wird, aber es gibt zahlreiche Harfen des Mythos Drannor, die über Faerûn verstreut sind, alle mit ähnlichen Eigenschaften. Einige der bekannten Eigenschaften von Harfen, die entdeckt wurden, beinhalten eine zunehmende Zahl von Zaubern, die pro Runde gewirkt werden, Änderungen der Gesinnung des Zuhörers, die Möglichkeit der dauerhaften Taubheit, eine Zunahme der Zahl von Angriffen pro Runde, oder eine permantente Zunahme des Charismas.
+
+Wann auch immer eine Saite auf einer Harfe aus Mythos Drannor gezupft wird, verursacht sie eine der obengenannten Wirkungen - oder einer zufällig gewählten, vorher unbekannten Wirkung - bei dem Zuhörer oder den Zuhörern, zum Guten oder Schlechten. Die freigesetzte Magie einer Saite zerstört sie im Verlauf. Wenn die Goldenen Saiten alle gespielt wurden, verliert die Harfe von Mythos Drannor ihre magischen Eigenschaften.
+
+*Zweiter-Platz-Sieger der 2002 CIMS-Preise (CBisson Item-Machen-Spiel)~
+@650603  = ~Auf der Höhe ihrer kurzlebigen Pracht war die Elfen Stadt des Liedes für ihre künstlerische Musik, Dramen und Verzauberungen bekannt. Die Elfen von Cormanthyr schufen Kunstgegenstände, stark und schön, die von Schatzjägern und Abenteurern gleichermaßen gesucht sind.
+
+Diese exquisit geschnitzte Palisander-Harfe, bestückt mit Blattgold-Filigran, ist ein solcher Kunsgegenstand, der die höchsten Fähigkeiten der Elfen-Handwerker demonstriert. Abgesehen von ihren Verzauberungen ist die handgefertigte Harfe ein Beispiel der Vollkommenheit der Holzschnitzerei. Die glasglatte Maserung, die nahtlosen Ausstattungen, die komplizierte Ätzungen und der glänzende Lack - sogar nach mehr als fünf Jahrhunderten seit ihrer Entwicklung - beweisen das. Die Vergoldung, die die Harfe schmückt, ist nicht im geringsten angelaufen, und die gesponnenen Goldsaiten schimmern im Licht.
+
+Außer der Fertigungsqualität dieser Harfe wurde sie durch einige der vormals stärksten Elfen-Erzmagier von Myth Drannor verzaubert. Die goldenen Saiten, sechs insgesamt, vibrieren alle in der Klangfülle mit der Bindung. Die besonderen Eigenschaften dieser Saiten können nicht wahrgenommen werden, solange die Harfe nicht gespielt wird, aber es gibt zahlreiche Harfen des Mythos Drannor, die über Faerûn verstreut sind, alle mit ähnlichen Eigenschaften. Einige der bekannten Eigenschaften von Harfen, die entdeckt wurden, beinhalten eine zunehmende Zahl von Zaubern, die pro Runde gewirkt werden, Änderungen der Gesinnung des Zuhörers, die Möglichkeit der dauerhaften Taubheit, eine Zunahme der Zahl von Angriffen pro Runde, oder eine permantente Zunahme des Charismas.
+
+Wann auch immer eine Saite auf einer Harfe aus Mythos Drannor gezupft wird, verursacht sie eine der obengenannten Wirkungen - oder einer zufällig gewählten, vorher unbekannten Wirkung - bei dem Zuhörer oder den Zuhörern, zum Guten oder Schlechten. Die freigesetzte Magie einer Saite zerstört sie im Verlauf. Wenn die Goldenen Saiten alle gespielt wurden, verliert die Harfe von Mythos Drannor ihre magischen Eigenschaften.
+
+*Zweiter-Platz-Sieger der 2002 CIMS-Preise (CBisson Item-Machen-Spiel)~
+@650604  = ~Auf der Höhe ihrer kurzlebigen Pracht war die Elfen Stadt des Liedes für ihre künstlerische Musik, Dramen und Verzauberungen bekannt. Die Elfen von Cormanthyr schufen Kunstgegenstände, stark und schön, die von Schatzjägern und Abenteurern gleichermaßen gesucht sind.
+
+Diese exquisit geschnitzte Palisander-Harfe, bestückt mit Blattgold-Filigran, ist ein solcher Kunsgegenstand, der die höchsten Fähigkeiten der Elfen-Handwerker demonstriert. Abgesehen von ihren Verzauberungen ist die handgefertigte Harfe ein Beispiel der Vollkommenheit der Holzschnitzerei. Die glasglatte Maserung, die nahtlosen Ausstattungen, die komplizierte Ätzungen und der glänzende Lack - sogar nach mehr als fünf Jahrhunderten seit ihrer Entwicklung - beweisen das. Die Vergoldung, die die Harfe schmückt, ist nicht im geringsten angelaufen, und die gesponnenen Goldsaiten schimmern im Licht.
+
+Außer der Fertigungsqualität dieser Harfe wurde sie durch einige der vormals stärksten Elfen-Erzmagier von Myth Drannor verzaubert. Die goldenen Saiten, fünf insgesamt, vibrieren alle in der Klangfülle mit der Bindung. Die besonderen Eigenschaften dieser Saiten können nicht wahrgenommen werden, solange die Harfe nicht gespielt wird, aber es gibt zahlreiche Harfen des Mythos Drannor, die über Faerûn verstreut sind, alle mit ähnlichen Eigenschaften. Einige der bekannten Eigenschaften von Harfen, die entdeckt wurden, beinhalten eine zunehmende Zahl von Zaubern, die pro Runde gewirkt werden, Änderungen der Gesinnung des Zuhörers, die Möglichkeit der dauerhaften Taubheit, eine Zunahme der Zahl von Angriffen pro Runde, oder eine permantente Zunahme des Charismas.
+
+Wann auch immer eine Saite auf einer Harfe aus Mythos Drannor gezupft wird, verursacht sie eine der obengenannten Wirkungen - oder einer zufällig gewählten, vorher unbekannten Wirkung - bei dem Zuhörer oder den Zuhörern, zum Guten oder Schlechten. Die freigesetzte Magie einer Saite zerstört sie im Verlauf. Wenn die Goldenen Saiten alle gespielt wurden, verliert die Harfe von Mythos Drannor ihre magischen Eigenschaften.
+
+*Zweiter-Platz-Sieger der 2002 CIMS-Preise (CBisson Item-Machen-Spiel)~
+@650605  = ~Auf der Höhe ihrer kurzlebigen Pracht war die Elfen Stadt des Liedes für ihre künstlerische Musik, Dramen und Verzauberungen bekannt. Die Elfen von Cormanthyr schufen Kunstgegenstände, stark und schön, die von Schatzjägern und Abenteurern gleichermaßen gesucht sind.
+
+Diese exquisit geschnitzte Palisander-Harfe, bestückt mit Blattgold-Filigran, ist ein solcher Kunsgegenstand, der die höchsten Fähigkeiten der Elfen-Handwerker demonstriert. Abgesehen von ihren Verzauberungen ist die handgefertigte Harfe ein Beispiel der Vollkommenheit der Holzschnitzerei. Die glasglatte Maserung, die nahtlosen Ausstattungen, die komplizierte Ätzungen und der glänzende Lack - sogar nach mehr als fünf Jahrhunderten seit ihrer Entwicklung - beweisen das. Die Vergoldung, die die Harfe schmückt, ist nicht im geringsten angelaufen, und die gesponnenen Goldsaiten schimmern im Licht.
+
+Außer der Fertigungsqualität dieser Harfe wurde sie durch einige der vormals stärksten Elfen-Erzmagier von Myth Drannor verzaubert. Die goldenen Saiten, vier insgesamt, vibrieren alle in der Klangfülle mit der Bindung. Die besonderen Eigenschaften dieser Saiten können nicht wahrgenommen werden, solange die Harfe nicht gespielt wird, aber es gibt zahlreiche Harfen des Mythos Drannor, die über Faerûn verstreut sind, alle mit ähnlichen Eigenschaften. Einige der bekannten Eigenschaften von Harfen, die entdeckt wurden, beinhalten eine zunehmende Zahl von Zaubern, die pro Runde gewirkt werden, Änderungen der Gesinnung des Zuhörers, die Möglichkeit der dauerhaften Taubheit, eine Zunahme der Zahl von Angriffen pro Runde, oder eine permantente Zunahme des Charismas.
+
+Wann auch immer eine Saite auf einer Harfe aus Mythos Drannor gezupft wird, verursacht sie eine der obengenannten Wirkungen - oder einer zufällig gewählten, vorher unbekannten Wirkung - bei dem Zuhörer oder den Zuhörern, zum Guten oder Schlechten. Die freigesetzte Magie einer Saite zerstört sie im Verlauf. Wenn die Goldenen Saiten alle gespielt wurden, verliert die Harfe von Mythos Drannor ihre magischen Eigenschaften.
+
+*Zweiter-Platz-Sieger der 2002 CIMS-Preise (CBisson Item-Machen-Spiel)~
+@650607  = ~Die starke Verzauberung auf diesem Ionen-Stein machen ihn zu einem Schatz, der von Zauberern und Magiern eifrig gesucht wird.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Erlaubt dem Benutzer, wenn er damit wenn ausgestattet ist, instinktiv zu wissen, wo man ohne Verwendung von Wahrem Blick oder Zerstreuungs-Magie ein verborgenes Wesen angreifen kann.~
+@650609  = ~Dies ist ein schwerer, quadratischer, dick gebundener Wälzer mit beige-farbigen Pergament, gebunden mit braun gebranntem Leder und mit Ahorn-Buchdeckeln versehen. Das Buch sieht durchaus benutzt aber nicht zerfleddert aus. Es hat keine bekannten Fallen oder Abwehrzauber, aber die Messinghaken und kunstvollen Ringe beweisen, dass es das verlorene Zauberbuch von Desmondal ist.
+
+Desmondal war ein würdevoller Magier von Athkatla, der vor ungefähr siebzig Wintern durch ein Winterfieber dahinschied. Seine bewegliche Habe wurde von einem Großhändler aus Amn, Oristel, verkauft - nahezu sicher, nachdem mehreren Magiern erlaubt wurde, verschiedene Zauber des Libram gegen Zahlung von festen Gebühren zu kopieren. Der Käufer des Libram und sein gegenwärtiger Verbleib sind unbekannt.
+
+In Desmondals Libram sind zehn Zauber, die unten folgen, die unter den normalen Voraussetzungen eingeprägt werden können. Wenn sich jeder Zauber eingeprägt hat, kann er normalerweise auswendig gewirkt werden, jedoch werden die Zauber in dem Wälzer bleiben, anders als bei einer Schriftrolle, die im Prozess zerstört würde.
+
+Der Libram, ungeachtet der Tatsache, dass sich ein Charakter den Zauber eingeprägt haben kann, muss gelesen werden, um den Zauber zu wirken. Um das zu tun, legt das Zauber-Buch einfach in Euer Schild-Fach und greift auf die Zauber wie auf einen Gegenstand zu.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Jeder der folgenden Zauber kann einmal pro Ruhezyklus gewirkt werden:
+  Glück
+  Schädelfalle
+  Geringere Kugel der Unverwundbarkeit
+  Schutz Vor der Elektrizität
+  Magie durchdringen
+  Stein zu Fleisch
+  Regenbogenstrahlen
+  Projeziertes Ebenbild
+  Wort der Macht: Blindheit
+  Entzug von Lebensenergie
+Beachtet, dass unbenutzte Zaubern "verloren" gehen, aber nicht aus dem Zauberbuch für einen bestimmten Ruhezyklus entfernt werden; die Zauber sind nicht kumulativ. Zauber aus Desmondals Zauberbuch werden wie von einem 9. Stufe-Zauberer gewirkt.
+
+*Zweiter-Platz-Sieger der 2002 CIMS-Preise (CBisson Item-Machen-Spiel)~
+@650611  = ~Dieser Ring, gefertigt aus geschmiedetem Stahl, passt auf jeden Finger. Jede der  Bernsteinfassungen bleibt bei Berührung kalt, egal wie lange der Ring erhitzt wird. Der Ring hat eine einfache magische Eigenschaft und lässt seinen Träger entrücken. Weil der Ring in der Materiellen Hauptebene bleibt, wird er denjenigen, wer auch immer ihn aufsteckt, veranlassen, die Ebenen zu wechseln, und gewährt Immunität gegen natürliche Wesen wie Bären, Löwen, Wölfe und ähnlichen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schützt den Träger vor Tieren.~
+@650613  = ~Dieser große Schild hat zusammen mit seiner dazugehörigen Waffe, Belvins Schwert, eine lange und beinahe berühmte Geschichte.
+
+Im Jahre des sich ausbreitenden Frühlings fanden drastische und plötzliche Klimaveränderungen schnell über die Westlichen Herzländen von Faerûn statt. Ausgedehnter Wassermangel wurde durch eine kurze Regenzeit und einen unangenehm warmen Sommer verursacht. Der Wasserspiegel des Weitmeer Sees fiel, bis seine Ufer morasitg und sumpfig waren mit eine Fülle von Schilf. Die große Wüste Anauroch erweiterte seine Grenzen nach Süden.
+
+Während des Winters 1089 sammelte Izac Uthor die Goblin-Armeen in der Nähe des verlassenen Dorfes Thandril am nordwestlichen Rand des Goblin Grenzlandes. Das Heer umfasste nahezu 200.000 Goblins, mehrere zehntausend von angegliederten Orks und Kobolden, und einige tausend Hobgoblins, die Einheiten von Goblins oder Orks anführten. Natürlich konnte selbst eine Stärke von mehr als einer Viertel Million Kämpfer kaum darauf hoffen, die ganzen westlichen Reiche nördlich des Feldes der Toten zu erobern, viel weniger, sie in Besitz zu nehmen. Viele angespannte Diskussionen wurden in Cormyr, Hügelrand, Tilverton, Soubar, Schattental, und anderen Orten im Gefahrenbereich gehalten.
+
+Berufssoldaten und lokale Milizen wurden nach Hügelrand gesandt, um sich der Hauptstreitmacht anzuschließen und sich gegen die goblinoiden Horden zu vereinen. Sie kamen aus Beregost, Baldurs Tor, Berdusk, Iriaebor, Elturel, Scornubel, Soubar und den Bereichen des Hochmoores. Kaum waren alle Truppen angekommenen, als ein Führer gefunden wurde: Artur Blevin, Kommandant der heimischen Truppen von Soubar. Belvins Schild wurde von ihm getragen, als die Truppen sich auf beiden Seiten in der Ebene vor der Morgendämmerung sammelten; alle kämpften, wo auch immer sie ihren Feind fanden. Belvin tötete mehr als sechzig der Goblin-Horde, jedoch war das vergeblich. Unter den Truppen von Artur Blevin entkam niemand unversehrt.
+
+Nach dem Kampf der Knochen ging der Schild verloren, und Aufzeichnungen von bestimmten Eigentümern werden lückenhaft. Und doch tauchte der Schild schließlich Jahrhunderte später wieder auf, dieses Mal in den Händen einer plündernden Bande von Orks. Der Schild wurde von den Wachen einer Karawane auf dem Weg von Tiefwasser bis Scornubel wiederentdeckt, aber die Karawane wurde vor dem Abschluß ihres Geschäfts von einer größeren und besser ausgerüsteten Gruppe Banditen aus Orks und Halborks überfallen, und der Schild wurde zum Eigentum eines unbarmherzigen Halborks mit dem Namen Sicherklinge. Wie der Schild letztendlich in diesen alten Zauberturm gelangte, ist unbekannt.
+
+Dieser Schild ist wirklich ein Gegenstand, der aufbewahrt werden sollte, weil er verpflichtet ist, das Leben von demjenigen zu retten, der ihn mehr als für ein Abenteuer durch ganz Faerûn nimmt. Dieser Schild vermindert die Rüstungsklasse um 6 und addiert 3 zu allen Rettungswürfen. Außerdem erlaubt Belvins Schild, sich so schnell zu bewegen, dass die Bewegungsrate des Trägers um 2 vergrößert wird und normale Fernkampfwaffen keine Trefferchance haben.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklassebonus: 6
+Besonderheit:
+  Unwirksame Fernkampfwaffen
+  Vergrößerte Bewegungsrate
+Gewicht: 10
+Mindeststärke: 16~
+@650615  = ~Dieses große Kriegsschwert hat zusammen mit seinem dazugehörigen Schild, Belvins Schild, eine lange und beinahe berühmte Geschichte.
+
+Im Jahre des sich ausbreitenden Frühlings fanden drastische und plötzliche Klimaveränderungen schnell über die Westlichen Herzländen von Faerûn statt. Ausgedehnter Wassermangel wurde durch eine kurze Regenzeit und einen unangenehm warmen Sommer verursacht. Der Wasserspiegel des Weitmeer Sees fiel, bis seine Ufer morasitg und sumpfig waren mit eine Fülle von Schilf. Die große Wüste Anauroch erweiterte seine Grenzen nach Süden.
+
+Während des Winters 1089 sammelte Izac Uthor die Goblin-Armeen in der Nähe des verlassenen Dorfes Thandril am nordwestlichen Rand des Goblin Grenzlandes. Das Heer umfasste nahezu 200.000 Goblins, mehrere zehntausend von angegliederten Orks und Kobolden, und einige tausend Hobgoblins, die Einheiten von Goblins oder Orks anführten. Natürlich konnte selbst eine Stärke von mehr als einer Viertel Million Kämpfer kaum darauf hoffen, die ganzen westlichen Reiche nördlich des Feldes der Toten zu erobern, viel weniger, sie in Besitz zu nehmen. Viele angespannte Diskussionen wurden in Cormyr, Hügelrand, Tilverton, Soubar, Schattental, und anderen Orten im Gefahrenbereich gehalten.
+
+Berufssoldaten und lokale Milizen wurden nach Hügelrand gesandt, um sich der Hauptstreitmacht anzuschließen und sich gegen die goblinoiden Horden zu vereinen. Sie kamen aus Beregost, Baldurs Tor, Berdusk, Iriaebor, Elturel, Scornubel, Soubar und den Bereichen des Hochmoores. Kaum waren alle Truppen angekommenen, als ein Führer gefunden wurde: Artur Blevin, Kommandant der heimischen Truppen von Soubar. Belvins Schwert, diese große Kriegsklinge, wurde von ihm getragen, als die Truppen sich auf beiden Seiten in der Ebene vor der Morgendämmerung sammelten; alle kämpften, wo auch immer sie ihren Feind fanden. Belvin tötete mehr als sechzig der Goblin-Horde, jedoch war das vergeblich. Unter den Truppen von Artur Blevin entkam niemand unversehrt.
+
+Nach dem Kampf der Knochen ging das große Kriegsschwert verloren, und Aufzeichnungen von bestimmten Eigentümern werden lückenhaft. Und doch tauchte das Schwert schließlich Jahrhunderte später wieder auf, dieses Mal in den Händen einer plündernden Bande von Orks. Das Schwert wurde von den Wachen einer Karawane auf dem Weg von Tiefwasser bis Scornubel wiederentdeckt, aber die Karawane wurde vor dem Abschluß ihres Geschäfts von einer größeren und besser ausgerüsteten Gruppe Banditen aus Orks und Halborks überfallen, und das Schwert wurde zum Eigentum eines unbarmherzigen Halborks mit dem Namen Sicherklinge. Wie das Schwert letztendlich in diesen alten Zauberturm gelangte, ist unbekannt.
+
+Dieses Schwert ist wirklich ein eine Waffe, die den feinsten Kampffähigkeiten würdig ist, weil es dem Träger erlaubt, die Verteidigung der meisten anderen Wesen zu durchdringen. Bei einem erfolgreichen Treffer gegen ein Ziel der 18. Stufe oder weniger wird das Wesen sofort beim Schlagen getötet, eine Fähigkeit, die ziemlich nützlich sein kann, wenn man gezwungen ist, mit starken Feinden zu kämpfen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W6 + 3
+ETW0: +3 Bonus
+Besonderheit:
+  Tötet Feinde niedriger als 18. Stufe bei erfolgreichen Treffer (das Ziel erhält einen Rettungswurf gegen Tod bei einem -2 Abzug)
+Schadensart: Aufschlitzen
+Gewicht: 6
+Geschwindigkeitsfaktor: 4
+Fertigkeit: Bastardschwert
+Typ: 1-händig
+Mindeststärke: 15~
+@650621  = ~Ein typischer Dolch ist mit einer spitzen, normalerweise zweischneidigen Klinge versehen, wodurch er sich von einem Messer unterscheidet. Ein Messer hat nur eine Schneide und ist etwas kürzer als ein Dolch.
+Dieser Dolch ist magisch, wodurch er besser trifft, mehr Schaden verursacht und schneller zustößt. Durch seine Magie kann er auch Wesen verletzen, die gegen normale Waffen immun sind, wie beispielsweise Vampire, Elementare und Mumien.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4 + 3
+ETW0: +3 Bonus
+Schadensart: Durchbohren
+Gewicht: 0
+Geschwindigkeitsfaktor: 0
+Fertigkeit: Dolch
+Typ: 1-händig
+Mindeststärke: 3~
+@650625  = ~Diese Harfe, ein feines Musikinstrument, wurde im Inneren der Harfner Zitadelle in Athkatla gefunden. Ihre Musik ist beruhigend, jedoch wenn die Saiten in einer bestimmten Reihenfolge gezupft werden, erlaubt die Harfe einem Barden, seinen Begleitern die Fähigkeit  einzuimpfen, ihre eigene Selbstdisziplin und Privatsphäre zu erhöhen und sich vor fast jeder geistigen Wirkung - Zauber, Befehl, Personen beherrschen, Angst, Schwachsinn, und jedem Wahrsagen durch Kristallkugeln oder andere Wahrsagungsmethoden Zu schützen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheit: keine Erinnerung bei Gruppenmitgliedern einmal am Tag~
+@650627  = ~Viel mehr als die üblichen Zeitzähl-Geräte, die überall in den Reichen zu finden sind, ist dieses bei flüchtiger Betrachtung aus zwei Glaszwiebeln gemacht, die mit einen schmalen Durchgang verbunden sind, das die Zeit mit einem Sandkorn zählt, das zwischen den zwei Zwiebeln fällt. Beim Untersuchen der Gravuren auf der Grundfläche zeigt sich jedoch, dass dieses Stundenglas in der Lage ist, die Zeit für seinen Benutzer kurz anzuhalten und erlaubt, Handlungen auszuführen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheit: Wirkt Zeithalt einmal am Tag~
+@650628  = ~Diese starke Waffe wurde von Schmieden des alten Mythos Drannor geschaffen. Mondklingen werden in dem langen Prozess verwendet, einen Herrscher für die Insel Immerdar auszuwählen. Eine Mondklinge wählt ihren Eigentümer, und im Fall von diesem Schwert hat es den Harfner Waldläufer Julian Nonnel gewählt. Nur Julian kann diese Klinge verwenden, jeder ander andere, der es versucht, wird außer Stande sein, das Schwert zu heben. Diese besondere Mondklinge gewährt Feuerwiderstand und gibt ihtrm Benutzer einen Bonus zu seiner Rüstungsklasse.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W12 + 4
+ETW0: +4
+Besonderheit:
+  +12 Trefferpunkte, solange man damit ausgestattet ist 
+  Maximaler Schaden bei erfolgreichem Angriff
+Schadensart: Aufschlitzen
+Gewicht: 6
+Geschwindigkeitsfaktor: 4
+Fertigkeit: Zweihänder-Schwert
+Waffenart: zweihändig~
+@650629  = ~Dies ist der Morgenstern von Kiel dem Legionentöter, erstgeborener Sohn von Durlag Trollkiller und Clan-Prinz des unglückseligen Turms seines Vaters. Er schwang es in seiner letzten Stunde, als er eilte, um seinen Vater vor der Unterwanderung ihres Clan-Hauses durch Doppelgänger zu warnen. Es wird gesagt, dass das Ausmaß seiner Wut in diesen letzten Momenten sich dauerhaft auf die Waffe übertrug. Alle, die es ausüben, werden von dieser Kampfwut überwältigt, wann auch immer ein Feind gesichtet wird.
+
+Anscheinend wurde der Morgenstern in Durlags Kerker  wiedergefunden und zur Harfner Zitadelle in Athkatla zur Aufbewahrung gebracht. Seit seiner Wiederentdeckung hat der Wert der Waffe drastisch zugenommen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 2W4 + 3
+ETW0: +3
+Besonderheit:  
+  Die Waffe ist verflucht und impft seinem Träger Berserkerwut ein
+Schadensart: Zertrümmern
+Gewicht: 10
+Geschwindigkeitsfaktor: 4
+Fertigkeit: Stachelbesetzte Waffen
+Typ: 1-händig
+Mindeststärke: 10~
+@650631  = ~Diese Robe, üblicherweise von Verhüllten Magiern getragen, verleiht dem Träger mehrere Verzauberungen. Zusätzlich zum Senken der Rüstungsklasse auf 4 gewährt sie einen Bonus von 25 % auf die folgenden Schadensarten: Feuer, Kälte, Säure, Elektrizität und Magie. Viele junge Verhüllte Magier erhalten sie von ihren Lehrern als Geschenk bei erfolgreicher Vollendung ihrer ersten fünf Lehrjahre. Wie andere solcher Roben können sie nur von denjenigen mit dem Beruf eines Magiers getragen werden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklassebonus: 4 (Basis)
+Säureeiderstand: Bonus von +25 %
+Kältewiderstand: Bonus von +25 %
+Feuerwiderstand: Bonus von +25 %
+Elektrizitäts-Widerstand: Bonus von +25 %
+Magiewiderstand: Bonus von +25 %
+Gewicht: 3~
+@650634  = ~Nur jene allergrößten und ergebensten Anbeter von Lathander dem Bringer der Dämmerung erlangen die Macht, die durch diese seligen heiligen Symbole in Form von Siegelringen gewährt wird.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewährt zwei zusätzliche Zauber der 5., 6. und 7. Stufe
+Magiewiderstand-Bonus von 20 %, während er getragen wird
++1 zur Kraft, während ergetragen wird
++2 zum Verstand, während ergetragen wird~
+@650640  = ~Die bereitwillige Opferung eines riesengroßen Glückes in Gold, verbunden mit den gottgefälligen Verehrungen der heiligenden Zeremonie, haben Lathander überzeugt, diese bereits furchterregende Panzerhandschuhe in Handschuhe der schrecklichen rechtschaffenen Macht umzugestalten.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Wirkt Kritische Wunden Heilen zweimal am Tag
++15 zur maximalen Trefferpunkt-Summe, während man damit ausgestattet ist. 
+
+Gewicht: 3~
+@650642  = ~Dieser Dolch funktioniert wie ein +5 Dolch gegen Lykanthropen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4 + 2 (+4 gegen Lykanthropen)
+ETW0: +1
+Schadensart: Durchbohren
+Gewicht: 1
+Geschwindigkeitsfaktor: 2
+Fertigkeit: Kleines Schwert
+Typ: 1-händig~
+@650644  = ~Helm des Stehlens
+Mat Savasta, einer der talentiertesten Einbrecher an der Schwertküste, trug diesen Helm bei vielen seiner Beutezüge. Der Helm, eine einfache Lederkappe, erhöhte Mats bereits eindrucksvolle Fähigkeiten, Schlösser zu öffnen. In den Städten von Tiefwasser, Luskan, Niewinter, Baldurs Tor, Athkatla oder Calimport gab es nicht eine Tür, die nicht von Mat aufgeschlossen werden konnte. Um den Helm zu aktivieren, muss das richtige Befehlswort bekannt sein, bei dem ein Energiestoß sich magisch in einen Schlüssels gestaltet, der genau in das Schloss passt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Spezielle Fähigkeiten:  
+  +20 % zu Schlösser öffnen
+  +20 % zu Fallen Zu finden
+  +20 % zu Taschendiebstahl
+  +20 % zu 
+
+Im Schatten verstecken
+  gewährt dem Träger Infravision~
+@650646  = ~Das Beil ist ein einfaches Werkzeug, das beim Stehlen von jenen als Waffe verwendet werden kann, die verzweifelt genug sind. Die Beilklinge hat eine scharfe Stahlklinge, gleichermaßen zum Schneiden von Holz oder Fleisch geeignet. Der kurze Griff hat am unteren Ende eine Spitze und am oberen Ende eventuell einen Dorn.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W4
+Schadensart: Wurfgeschoss (Durchbohren)
+Gewicht: 5
+Geschwindigkeitsfaktor: 5
+Fertigkeit: Axt
+Typ: 1-händig
+Mindeststärke: 4~
+@650648  = ~Das beschlagene Lederwams hat wenig mit der normalen Lederrüstung gemeinsam. Die Lederrüstung ist ein gehärteter Panzer, während das beschlagene Lederwams weich und biegsam und mit hunderten von Metallnieten besetzt ist. Die Nieten sind so nahe beieinander, dass sie einen flexiblen Überzug aus hartem Metall bilden, durch den sich Hiebe und Stiche abwehren lassen. Das Grundmaterial aus weichem Leder dient lediglich dazu, die Nieten zusammen zu halten.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+Gewicht: 25
+Mindeststärke: 6~
+@650659  = ~Das Wakizashi, auch Begleitschwert genannt, ist für einen Samurai von höchster Wichtigkeit. Es wird von ihm ständig getragen, auch wenn er sich in einem Gebäude aufhält. Wenn er schläft, liegt es neben ihm. Das Wakizashi ist von ebenso hochwertiger Fertigung wie das Katana. Es ist allerdings deutlich kürzer und die Klinge ist nur 30 bis 60 cm lang. In den Händen eines geschulten Kriegers ist es eine tödliche Waffe.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 + 3
+ETW0-Bonus: +3
+Schadensart: Durchbohren
+Gewicht: 3
+Geschwindigkeitsfaktor: 3
+Fertigkeit: Scimitar/Wakizashi/Ninja-To
+Typ: 1-händig
+Mindeststärke: 5~
+@650661  = ~Das Ninja-To ist das Schwert der Ninja und nicht von so hochwertiger Qualität wie die anderen Klingen, die aus Kara-Tur stammen, beispielsweise das Katana. Das Ninja-To hat eine gerade Klinge und ist relativ kurz. Es eignet sich daher ideal für den verschlagenen Ninja, da es sich leicht verbergen lässt. Da es recht kurz ist, eignet es sich besser als die langen Klingen eines Samurais, um damit unter beengten Verhältnissen zu kämpfen. Das verschafft einem Ninja, der gegen einen Samurai antritt, manchmal einen Vorteil.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8 + 3
+ETW0-Bonus: +3
+Schadensart: Aufschlitzen
+Gewicht: 5
+Geschwindigkeitsfaktor: 4
+Fertigkeit: Scimitar/Wakizashi/Ninja-To
+Typ: 1-händig
+Mindeststärke: 6~
+@660202  = ~Der Kampfstab ist ein 1,80 bis 2,70 m langer Holzstab und somit die einfachste aller Stangenwaffen. Qualitativ hochwertige Kampfstäbe sind aus festem Eichenholz hergestellt und an beiden Enden mit Metall beschlagen. Der Kampfstab wird mit beiden Händen geschwungen. Dieser Kampfstab ist etwas ganz Besonderes, da er mit magischen Eigenschaften versehen wurde.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 + 9
+ETW0: +3 Bonus
+Schadensart: Zertrümmern
+Gewicht: 4
+Geschwindigkeitsfaktor: 2
+Fertigkeit: Stab
+Waffenart: zweihändig
+Mindeststärke: 5~
+@660204  = ~Beim Zweihänder handelt es sich um eine Weiterentwicklung des Langschwertes. Waffenschmiede sind seit jeher daran interessiert, bereits existierende Waffen noch zu verbessern, was beim Langschwert dazu führte, dass die Klinge verlängert wurde. Schließlich musste auch der Griff verlängert werden und man brauchte nun beide Hände, um das Schwert richtig zu schwingen. Der Zweihänder dient hauptsächlich dazu, berittene Krieger schwer zu verletzen und die Stoßformation eines Heeres aufzubrechen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W10 + 1
+ETW0: +1 Bonus
+Schadensart: Aufschlitzen
+Gewicht: 12
+Geschwindigkeitsfaktor: 9
+Fertigkeit: Zweihänder
+Waffenart: zweihändig
+Mindeststärke: 14~
+@660206  = ~Ein Kettenhemd besteht aus miteinander verbundenen Metallringen. Es wird immer über einem wattierten Rock oder einem leichten Ledergewand getragen, um schmerzhafte Scheuerstellen zu vermeiden und die Wucht von Schlägen zu dämpfen. Dieses Kettenhemd ist auf magische Weise zusätzlich verstärkt worden.
+
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+Gewicht: 10
+Mindeststärke: 8~
+@661012  = ~Chauntea ist ein gut gesinnte Gottheit, die Göttin der Bauern und die Schutzherrin der Gärtner, und gewinnt unter denen, die dem Land nahe sind, viele Anbeter. Sie ist die erbitterte Gegnerin von Göttern der Vernichtung der Natur, wie Talos und Auril.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Ausgestattete Fähigkeiten: Träger erneuert 1 Trefferpunkt alle 3 Sekunden
+Spezieller Gebrauch: Erneuert beim Ziel sechzig Sekunden lang 5 Trefferpunkte pro Sekunde 
+
+*Erster-Platz-Sieger der 2004 CtBIMS-Preise ("Check the Bodies" Item-Machen-Spiel) als Teil einer Gruppe von ähnlichen Gegenständen.~
+@661014  = ~Der Prinz der Lügen ist ein relativ neuer Gott, der die Mächte von drei älteren Göttern geschluckt hat. Als Ränkeschmied hat sich Cyric bemüht, seine Macht unter vielen Splittergruppen und Abspaltungen zu festigen, hat sich aber unter den Roten Zauberern von Thay als sehr populär erwiesen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Wirkt einmal pro Tag Größeres Unbehagen, Schädelfalle oder Symbol des Todes 
+
+*Erster-Platz-Sieger der 2004 CtBIMS-Preise ("Check the Bodies" Item-Machen-Spiel) als Teil einer Gruppe von ähnlichen Gegenständen.~
+@661016  = ~Von denjenigen angerufen, die leiden und Schmerzen haben, ist Ilmater ein friedlicher Gott, der andere dazu ermuntert, Schmerz und Misshandlungen zu erleiden, weil  diejenigen Belohnungen erhalten, die warten. Er ist ein belieter Gott unter den Armen in den Städten.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+gewährt +25 Trefferbonus, solange sie getragen werden.
+
+*Erster-Platz-Sieger der 2004 CtBIMS-Preise ("Check the Bodies" Item-Machen-Spiel) als Teil einer Gruppe von ähnlichen Gegenständen.~
+@661018  = ~Die Dame des Waldes ist eine starke Verbündete sowohl von Eldath als auch Silvanus. Die meisten ihrer leidenschaftlichsten Anhänger sind Waldläufer sowie solche Waldwesen wie Baumnymphen, die keine andere Gottheit haben. Die Mächte dieses Medaillons sind verfallen, und das Symbol ist nichts weiter als eine Huldigung an die Dame des Waldes.
+
+*Erster-Platz-Sieger der 2004 CtBIMS-Preise ("Check the Bodies" Item-Machen-Spiel) als Teil einer Gruppe von ähnlichen Gegenständen.~
+@661020  = ~Mystra, die Dame der Mysterien, ist die Göttin der Magie und eines der stärksten Wesen in den magischen Reichen. Die Anhänger von Mystra wurden im letzten Jahrzehnt mehr lautstark und kontaktfreudig, entsprechend den Änderungen, die bei der Göttin selbst vorkamen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewährt einen +2 Rettungwurf-Bonus gegen den Zauber, solange es getragen wird.
+Setzt den Magiewiderstand auf 60 %, während ausgestattet.solange es getragen wird.
+
+*Erster-Platz-Sieger der 2004 CtBIMS-Preise ("Check the Bodies" Item-Machen-Spiel) als Teil einer Gruppe von ähnlichen Gegenständen.~
+@661022  = ~Tempus, bekannt als der Herr der Kämpfe, ist der Kriegsgott, und wendet seine Gunst von einer Gruppe von Kriegern zu einer anderen, wenn ein Krieg fortschreitet. Er belohnt den mutigen und tapferen, und viele Kämpfer schwören auf ihn. Dieser große Schild wurde mit dem heiligen Symbol von Tempus geschmückt: ein leuchtendes Schwert auf einem blutroten Feld. Es belohnt denjenigen, wer auch immer den schweren Stahlschild im Kampf benutzt, mit verschiedenen nützlichen Boni.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklassbonus: 2
+Besonderheit:  
+  +1 gegen Fernkampfwaffen
+  +50 % Widerstand gegen den Fernkampfwaffenschaden (Angriffe mit Fernkampfwaffen verursachen halben Schades tun)
+  Gewährt zusätzlichen +1 zur Kraft, solange er getragen wird.
+Gewicht: 15
+Mindeststärke: 15
+
+*Erster-Platz-Sieger der 2004 CtBIMS-Preise ("Check the Bodies" Item-Machen-Spiel) als Teil einer Gruppe von ähnlichen Gegenständen.~
+@661024  = ~Die Göttin Waukeen verschwand während der Zeit der Schatten, und seit mehreren Jahren erhielten ihre Priester keine Zauber. Jetzt erlangen sie sie wieder, aber die meisten Priester beten Lliira ebenso wie Waukeen an und die Anhänger der Göttin des Handels nehmen ab.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Gewährt zusätzlichen +1 zum Charisma, solange sie getragen wird.
+Erzeugt einmal pro Tag 10 Goldstücke.
+
+*Erster-Platz-Sieger der 2004 CtBIMS-Preise ("Check the Bodies" Item-Machen-Spiel) als Teil einer Gruppe von ähnlichen Gegenständen.~
+@661027  = ~Die Mission von König Azouns Armee ist eine ganz einfache: verteidigt Cormyr. Die Verwirklichung dieser Absicht ist jedoch kompliziert. Um das königliche Wort durchzusetzen, unterstützt Cormyr ein großes stehendes Heer, das im letzten Jahrzehnt drastisch zugenommen hat. Es sind mehr als 12.000 Purpurdrachen (so genannt wegen ihrem Banner) in den Hauptstädten und Befestigungen stationiert, eine berittene Macht von 500 Kriegern, ausgebildet mit Schwert und Bogen, angeführt von 30 Rittern aus dem Königlichen Hof. Die meisten dieser Eliteeinheiten sind Veteranen des Kreuzzugs gegen die Horde, und sind Mitglieder des Ordens des Goldenen Weges, eine militärische Auszeichnung, die jener Kämpfe gedenkt.
+
+Eine wichtige Funktion der Purpurdrachen ist, überall im Königreich von Cormyr den Frieden zu sichern. Das bedeutet, das Hinterland vor plündernden Banden zu sichern, so dass eine Handelsgesellschaft oder ein Bauer in Sicherheit reisen und mit unversehrten Gewinnen nach Hause zurückkehren kann. Zu diesem Zeck waren die Purpurdrachen sehr erfolgreich. Sicher können die Purpurdrachen nicht überall sofort sein, und es gibt immer die Bedrohung durch einen zufälligen Angriff von Banditen irgendwo in Cormyr, aber das Königreich hat wirklich den Ruf, insgesamt sicheres Reisen zu bieten.
+
+Die Purpurdrachen werden auch dafür verantwortlich gemacht, inneren Aufstand zu verhindern. Es gab nur ein Beispiel, als die Purpurdrachen benötigt wurden, um einen Aufstand niederzuschlagen, als sie die Revolte von Gondegal ohne Blutvergießen niederschlugen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklassbonus: 2
+Besonderheit: +1 gegen schneidende Waffen
+Gewicht: 7
+Mindeststärke: 12
+
+*Zweiter-Platz-Sieger der 2004 CtBIMS-Preise ("Check the Bodies" Item-Machen-Spiel) als Teil einer Gruppe von ähnlichen Gegenständen.~

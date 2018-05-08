@@ -1,0 +1,9 @@
+IF
+	Global("CbMalteseArtifact","GLOBAL",4)
+	!Exists("CBYBGIR1")
+THEN
+	RESPONSE #100
+		CreateCreature("CBYBGIR1",[777.929],12)
+		Continue()
+END
+

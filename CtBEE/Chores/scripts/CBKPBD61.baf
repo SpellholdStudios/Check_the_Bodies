@@ -1,0 +1,36 @@
+IF
+	Clicked([ANYONE])
+	!PartyHasItem("CBLINENP")
+	Range(LastTrigger,9)
+	See(LastTrigger)
+THEN
+	RESPONSE #100
+		DisplayStringNoName(Myself,@550124)
+END
+
+IF
+	Clicked([ANYONE])
+	PartyHasItem("CBLINENP")
+	Global("CbPrivateBedOne","AR3506",0)
+	Range(LastTrigger,9)
+	See(LastTrigger)
+THEN
+	RESPONSE #100
+		Wait(1)
+		SetGlobal("CbPrivateBedOne","AR3506",1)
+		TakePartyItemNum("CBLINENP",1)
+		DisplayStringNoName(Myself,@550125)
+		TriggerActivation(Myself,FALSE)
+END
+
+IF
+	Clicked([ANYONE])
+	OR(2)
+	  !Range(LastTrigger,9)
+          !See(LastTrigger)
+THEN
+	RESPONSE #100
+		DisplayStringNoName(Myself,@550126)
+END
+
+

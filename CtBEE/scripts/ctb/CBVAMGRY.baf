@@ -1,0 +1,10 @@
+IF
+	See([GOODCUTOFF])
+	Range([GOODCUTOFF],10)
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(LastSeenBy(Myself))
+END
+
+

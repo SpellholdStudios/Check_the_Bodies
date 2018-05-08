@@ -1,0 +1,52 @@
+IF
+	Global("Cb_DSCAK_CreatesTreasure","AR3521",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_DSCAK_CreatesTreasure","AR3521",1)
+		Wait(2)
+		CreateCreature("CBBDSL02",[1760.1551],0)
+END
+
+IF
+	Exists("CBBDAW01")
+THEN
+	RESPONSE #100
+		Deactivate("CBBDSL01")
+		DestroySelf()
+END
+
+IF
+	TookDamage()
+THEN
+	RESPONSE #100
+		SetGlobal("CbBlueDragonAlerted","GLOBAL",1)
+		SetGlobal("CbBlueDragonAttacked","AR3521",1)
+		DestroySelf()
+END
+
+IF
+	Range([GOODCUTOFF],10)
+	OR(5)
+		!StateCheck(LastTrigger,STATE_INVISIBLE)
+		!StateCheck(LastTrigger,STATE_SILENCED)
+		!StateCheck(LastTrigger,STATE_NONDETECTION)
+		!StateCheck(LastTrigger,STATE_IMPROVEDINVISIBILITY)
+		!CheckStatGT(LastTrigger,0,HIDEINSHADOWS)
+	!Exists("CBBDAW01")
+THEN
+	RESPONSE #100
+		SetGlobal("CbBlueDragonAlerted","GLOBAL",1)
+		SetGlobal("CbBlueDragonStealth","AR3521",1)
+		DestroySelf()
+END
+
+IF
+	PickPocketFailed([ANYONE])
+THEN
+	RESPONSE #100
+		SetGlobal("CbBlueDragonAlerted","GLOBAL",1)
+		SetGlobal("CbBlueDragonStole","AR3521",1)
+		DestroySelf()
+END
+
+

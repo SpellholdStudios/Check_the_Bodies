@@ -1,0 +1,95 @@
+IF
+	Allegiance(Myself,ENEMY)
+	!StateCheck(Myself,STATE_CHARMED)
+	HasItem("IMOENHP1",Myself) // Imoen's Belt
+THEN
+	RESPONSE #100
+		DestroyItem("IMOENHP1") // Imoen's Belt
+END
+
+IF
+	HPLT(Myself,15)
+	!HasItem("CBCO8HP1",Myself)
+	HasItem("POTN52",Myself) // Potion of Extra Healing
+THEN
+	RESPONSE #100
+		UseItem("POTN52",Myself) // Potion of Extra Healing
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_CALL_LIGHTNING)
+	RandomNum(2,1)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_CALL_LIGHTNING)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_SUMMON_INSECTS)
+	RandomNum(2,2)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_SUMMON_INSECTS)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_ARMOR_OF_FAITH)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_ARMOR_OF_FAITH)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_HOLD_PERSON)
+	!StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+	OR(1)
+		!StateCheck(LastSeenBy(Myself),STATE_STUNNED)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_HOLD_PERSON)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_FLAME_BLADE)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_FLAME_BLADE)
+		Attack(LastSeenBy(Myself))
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(NearestEnemyOf(Myself),5)
+	HasItem("DAGG05",Myself) // Throwing Dagger
+THEN
+	RESPONSE #100
+		EquipItem("DAGG05") // Throwing Dagger
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(NearestEnemyOf(Myself),5)
+	!HasItem("DAGG05",Myself) // Throwing Dagger
+	HasItem("DAGG01",Myself) // Dagger
+THEN
+	RESPONSE #100
+		MoveToObject(NearestEnemyOf(Myself))
+		EquipItem("DAGG01") // Dagger
+		Attack(NearestEnemyOf(Myself))
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+

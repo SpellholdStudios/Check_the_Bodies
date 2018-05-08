@@ -1,0 +1,78 @@
+@1   = ~Lo sabemos todo sobre vos, <GABBER>. Vuestro dominio de la magia no nos es desconocido.~
+@2   = ~¿Quiénes sois para saber de mí?~
+@3   = ~Estoy cansado de tener a los de vuestra calaña vigilándome y siguiendome por todas partes. Dejadme solo.~
+~Estoy cansada de tener a los de vuestra calaña vigilándome y siguiendome por todas partes. Dejadme sola.~
+@4   = ~¡Sólo quiero saber donde está Imoen! ¡Si vuestros hechiceros no me lo dicen, voy a tener que sonsacároslo!~
+@5   = ~Claro que no lo es. Estoy autorizado por la ciudad, así que no me molestéis sobre el lanzamiento de conjuros.~
+~Claro que no lo es. Estoy autorizada por la ciudad, así que no me molestéis sobre el lanzamiento de conjuros.~
+@6   = ~Quienes seamos no es asunto vuestro. No obstante, representamos a un grupo poderoso, uno con el que estáis algo familiarizado, ¿no?~
+@7   = ~Necesitamos vuestra colaboración, <GABBER>. Es un asunto muy delicado.~
+@8   = ~Me doy cuenta de que tal demanda suena poco plausible por los problemas que algunos de mis semejantes os han causado.~
+@9   = ~Sin embargo, estoy seguro de que ellos os olvidarán, si les ayudáis a guarecerlos de las llames, si queréis.~
+@10  = ~No os ayudaré, capuchas. Cualquier problema que sea en el que estéis involucrados, salid por vosotros mismos.~
+@11  = ~Parece que os estoy ayudando más de lo que os ayudáis vosotros, capuchas. ¿Qué es esta vez? ¿Otro mago asustadizo hace que os tiemblen las piernas?~
+@12  = ~Siempre y cuanto me paguéis bien, haré lo que sea que necesitéis.~
+@13  = ~Lamento oirlo, <GABBER>. Si no podéis haceros cargo de este asunto, tendré que encontrar a alguien más dispuesto~
+@14  = ~No hay malos deseos entre vos y yo, <GABBER>. No ordené que llevaran a vuestra amiga al Sanatorio. Así que no deberíais insultarme así.~
+@15  = ~Y no, este es un asunto en el que nosotros, los encapuchados, no podemos mostrarnos abiertamente. Esa es la razón por que la necesitamos algo de ayuda externa.~
+@16  = ~Si aceptáis el hecho de que os necesitamos, y aceptáis realizar este encargo, os explicaré lo que queremos que se haga. Si no, tendré que encontrar a alguien más predispuesto.~
+@17  = ~Muy bien, encapuchado. Os ayudaré.~
+@18  = ~No os ayudaré encapuchado. Me habéis hecho más daño del que jamás os podría perdonar.~
+@19  = ~Lamento oir eso, <GABBER>. Buena suerte en el resto de vuestras aventuras, entonces.~
+@20  = ~Otros en mi orden no cesarán sus observaciones sólo porque vos estéis molesto con ellos. Sería absurdo que pensarais así.~
+~Otros en mi orden no cesarán sus observaciones sólo porque vos estéis molesta con ellos. Sería absurdo que pensárais así.~
+@21  = ~No puedo responder a eso. Hay magos mucho más poderosos que yo con los que debería tratar con el fin de poder encontrar a vuestra compañera.~
+@22  = ~En cualquier caso, amenazarme no ayudará a vuestra causa, <GABBER>. No veo con buenos ojos las amenazas.~
+@23  = ~Sin embargo, pasaré por alto esta transgresión. Mirad, <GABBER>, en mi orden hay otros, que así como yo mismo, necesitan de vuestra ayuda. En un asunto muy delicado.~
+@24  = ~No estoy aquí para castigaros por el uso ilícito de magia. Ni tampoco para intentar revocaros vuestra "legítima" licencia.~
+@25  = ~Sin embargo, estoy aquí para pediros vuestra ayuda. Mirad, <GABBER>, en mi orden hay otros, que así como yo mismo, necesitan de vuestra ayuda. En un asunto muy delicado.~
+@26  = ~No tengo el tiempo, ni la intención, de hablar con vos. Quizás hiciérais bien en buscar a alguien de mayor relevancia.~
+@27  = ~Seguiré mi camino entonces.~
+@28  = ~¿Podríais ayudarme? Estoy interesado en aquellos que son capturados por los Magos encapuchados.~
+~¿Podríais ayudarme? Estoy interesada en aquellos que son capturados por los Magos encapuchados.~
+@29  = ~Estoy buscando a un mago o a un grupo de magos. Usan túnicas negras y verdes como vestimenta.~
+@30  = ~He oído algo acerca de una guerra entre los Ladrones de las sombras y alguien más. ¿Sabéis algo acerca de ello?~
+@31  = ~La gente decente no necesita saber qué es lo que les sucede a los capturados por los Magos encapuchados. Conocemos a todos los hechiceros y todos terminan por pasar por aquí, pero eso no os interesa. Que tengáis un buen día.~
+@32  = ~Si, bien, bien. A vuestro camino... y no me molestéis más.~
+@33  = ~No sé nada sobre tales túnicas, aunque no sería asunto vuestro si lo supiera. Los Magos encapuchados tratarán con esa gente. Marcháos, y no me hagáis más preguntas al respecto.~
+@34  = ~Nadie sabe, y yo no os diría nada incluso si lo supiera. No es de vuestra incumbencia. No insistáis sobre el asunto, o encontraréis que tenéis arrinconado al dragón, por así decirlo.~
+@35  = ~Vuestra respuesta afirmativa está anotada. No reneguéis del pacto, <GABBER>, o encontraréis en cada mago encapuchado de la ciudad a vuestro enemigo.~
+@36  = ~El asunto es simple. Hay una mujer en la ciudad. Ha pasado a la clandestinidad y nuestras mágias de observación no pueden penetrar sus protecciones, cualesquiera que sean.~
+@37  = ~Es imperativo para los Magos encapuchados que esta mujer sea encontrada y detenida, sin el uso de la fuerza innecesaria.~
+@38  = ~Encontradla, <GABBER>. Traednosla. Y si no quiere venir con vos voluntariamente, no importa. No le deseamos daño físico, sólo silenciarla permanentemente. Podéis hacerlo por nosotros si resulta más sencillo.~
+@39  = ~El método no importa, son los resultados lo que queremos ver. Cuidáos de ello, y no volváis hasta que los tengáis.~
+@40  = ~¿Podríais darme alguna idea de donde puede estar la mujer?~
+@41  = ~¿Cómo sabré que encontré a la mujer correcta?~
+@42  = ~No puedo hacer eso. Es una sinrazón, y no puedo tomar parte en semejante plan.~
+@43  = ~¿Silenciarla? ¿Qué ha hecho esa mujer para mereser tal castigo?~
+@44  = ~No sé donde podría estar. Si lo supiera, un centenar de encapuchados habrían quemado el edificio en segundos.~
+@45  = ~Su nombre es Miranda, o Melanie quizás. Responde a muchos alias, pero la reconoceréis por las ropas que viste. Salta a la luz. Y por sus ofertas de favores.~
+@46  = ~Ya habéis dado vuestra palabra, <GABBER>. ¿Acaso estáis dando marcha atrás?~
+@47  = ~No puedo hacer lo que pedís.~
+@48  = ~Aunque no me guste, me haré cargo de vuestro problema.~
+@49  = ~¡Cuidáos entonces de la ira de los Magos encapuchados, <GABBER>!~
+@50  = ~Muy bien. ¿Tenéis alguna otra pregunta?~
+@51  = ~No puedo hacer eso. Es una sinrazón, y no puedo ser parte de semajante maquinación sanguinaria.~
+@52  = ~No, me pondré en camino y cazaré a esa mujer por vos.~
+@53  = ~No regreséis hasta que hayáis resuelto el problema, <GABBER>.~
+@54  = ~Eso no es de vuestra incumbencia. Lo que si os concierne es el hecho de que esa mujer debe ser silenciada, por nosotros o por vosotros.~
+@55  = ~¿Tenéis alguna otra pregunta?~
+@56  = ~No tengo nada que pudiera compartir con vos. Hablad con mi compañero si necesitáis cualquier cosa.~
+@57  = ~Ya os he dicho que habléis con mi compañero.~
+@58  = ~¿Ya habéis hablado con la puta?~
+@59  = ~No, pero lo haré.~
+@60  = ~En verdad no deberíais usar un lenguaje como ese. Me ofende.~
+@61  = ~Sí, y está de acuerdo con vuestros términos. Todo lo que necesitáis hacer es devolverle el habla, y la llevaré lejos de la ciudad.~
+@62  = ~No me importa cuanto tiempo os lleve. Puede pudrirse con la gota dado todo lo que me preocupa.~
+@63  = ~Soportadlo.~
+@64  = ~Estupendo. Lo haré. Quedaos quietos y lanzaré un disparador sobre vos.~
+@65  = ~La próxima vez que la veáis, ella será capaz de hablar SÓLO a vos y durante un breve instante, hasta que ella esté a quinientos kilómetros de Amn.~
+@66  = ~Cuando haya excedido la distancia, la puta volverá a hablar de nuevo. Si alguna vez vuelve a Amn, será destruida para siempre.~
+@67  = ~Tenéis una hora para llevárosla de la ciudad. Marchad.~
+@68  = ~Necesitáis ocuparos de nuestro problema, <GABBER>. No tengo nada más para vos.~
+@69  = ~La cacería de los Magos encapuchados
+
+Al parecer he insultado a uno de los Magos encapuchados demasiadas veces. Ahora están cazandome, y deberé tener cuidado. No sé si voy a conseguir escarparme de ellos.~
+@70  = ~Los Magos encapuchados necesitan ayuda
+
+He decidido ayudar a los Magos encapuchados en la caza de otro indivíduo que puede haberles agrabiado. Están buscando a un mujer, pero no están seguro de su nombre o localización. El encapuchado con el que hablé me contó que su nombre podría ser Melanie, o Miranda. No me es de ayuda, pero debo buscar a alguien que tenga un nombre parecido.~

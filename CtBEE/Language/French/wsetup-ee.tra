@@ -1,0 +1,1864 @@
+@650006= ~Cette puissante arme se compose d'une hampe d'1,20 mètres à 1,50 mètres de long, surmontée d'une lourde lame. La hache peut être à double ou simple tranchant. C'est une arme peu maniable, mais un guerrier expérimenté peut s'en servir pour porter des coups dévastateurs. Des runes naines ont été gravées sur l'énorme lame pour en augmenter les performances.  
+
+PARAMETRES :
+
+Dégâts : 1D10 +3
+TAC0 : +3
+Type de dégâts : tranchant
+Spécial :
+  +10 % de résistance magique
+  +10 % de résistance aux dégâts tranchants
+  +10 % de résistance aux dégâts perforants
+  +10 % de résistance aux dégâts contondants
+  +10 % de résistance contre les projectiles
+  +2 points de bonus à tous les jets de sauvegarde
+Poids : 10
+Facteur de vitesse : 9
+Type de compétence : hache
+Type : arme à 2 mains~
+@650008= ~Cette épée à deux mains vaut vraiment son pesant d'or. Il s'agit d'une arme enchantée, offrant un bonus de +3 au toucher et aux dégâts. En plus de l'équilibre et du tranchant de l'arme, l'épée confère des bonus magiques à son porteur. Un personnage qui utilise Furcolo gagne un bonus de 35 % à sa résistance à la magie, en plus d'être totalement immunisé aux morts-vivants. L'épée est une entité intelligente et peut lancer le sort Immunité Absolue sur son porteur une fois par jour.
+
+PARAMETRES :
+
+Dégâts : 1D10 +3
+Type de dégâts : tranchant
+Spécial :
+ Peut lancer Immunité Absolue une fois par jour
+ +35 % à la résistance à la magie 
+ Immunité aux morts-vivants
+Poids : 15
+Facteur de vitesse : 10
+Type de compétence : épée à 2 mains
+Type : arme à 2 mains
+Force nécessaire : 14~
+@650014= ~La bourrache permet de restaurer l'adrénaline. Lorsque les racines de l'herbe sauvage sont mastiquées, les propriétés de la plante permettent à une personne de recevoir un bonus au toucher de +2, un bonus aux dégâts de +2, ainsi qu'un bonus de CA de -2. Pendant que le pic d'adrénaline fait effet, normalement autour de 60 secondes, l'individu qui a mâché les herbes est immunisé au charme, à l'immobilisation, à la peur, au sort Labyrinthe et à l'emprisonnement, à l'étourdissement et au sommeil. La personne qui a pris les herbes gagne également un bonus temporaire de 15 points de vie, qui peut éventuellement tuer un personnage à la fin du pic d'adrénaline. Une fois que les effets se dissipent, pendant une courte période, la personne est un peu fatiguée subissant une pénalité au toucher de -2, une pénalité aux dégâts de -2, ainsi qu'une pénalité à la CA de +2.
+
+PARAMETRES :
+
+Poids : 1 
+Facteur de vitesse : 0~
+@650016= ~L'Echinacée est un antidote contre le poison. L'absorption de ces herbes va supprimer toutes les toxines du corps, qu'elles soient naturelles ou de nature magique. Lorsque cette herbe est mangée par un individu empoisonné, le poison est immédiatement neutralisé et la personne en question regagne 10 points de vie. 
+
+PARAMETRES :
+
+Poids : 1
+Facteur de vitesse : 0~
+@650018= ~Le chaparal soulage l'arthrite. En absorbant cette substance, cela va provoquer le même effet que le sort 'Action libre'. Cette herbe immunise complètement son utilisateur contre tous les effets qui entravent les actions ou les mouvements, qu'ils soient d'origine magique ou non. La durée de l'effet des herbes est de 10 tours.
+
+PARAMETRES :
+
+Poids : 1
+Facteur de vitesse : 0~
+@650020= ~L'achillée stoppe les saignements. En plaçant cette herbe sur une plaie, le sang coagulera plus vite et évitera les irritations ou coupures qui pourraient causer une reprise des saignements. Cependant cela ne permet pas à l'individu de regagner ses points de vie plus rapidement. De même que l'individu n'est pas non plus protégé contre une blessure similaire.  
+
+PARAMETRES :
+
+Poids : 1
+Facteur de vitesse : 0~
+@650022= ~Les soucis calment les brûlures. En mélangeant les baies de souci broyées avec un peu d'eau on obtient une pâte fine que l'on peut appliquer sur la peau et qui protège du feu. Ces baies confèrent un bonus temporaire (1 heure) de 25% à la résistance au feu qui n'est pas cumulable.  
+
+PARAMETRES :
+
+Poids : 1
+Facteur de vitesse : 0~
+@650024= ~La Stillingia aide à guérir les laryngites. Cette herbe, qui ne grandit que dans les chutes de la Sembie du nord, est très rare mais peut donner au jeteur de sort un avantage énorme étant donné que chaque plante va permettre de faire des vocalises, comme le sort du même nom, une fois par jour.
+
+PARAMETRES :
+
+Poids : 1
+Facteur de vitesse : 0~
+@650026= ~La luzerne est une excellente source de plusieurs vitamines nourrissantes. La consommation régulière de cette herbe confère au corps les nutriments d'un bon équilibre physique. La luzerne permet d'augmenter la force, la constitution et la dextérité d'un point par jour d'utilisation.
+
+PARAMETRES :
+
+Poids : 1
+Facteur de vitesse : 0~
+@650028= ~Le bâton d'or est utile pour nettoyer et soigner les blessures. En mélangeant le champignon avec d'autres herbes naturelles en une pâte (comme une crème) les feuilles du bâton d'or et ses fleurs peuvent être utilisées pour augmenter les points de vie d'un personnage de 12, mais ne confère aucune protection contre les blessures à venir.
+
+PARAMETRES :
+
+Poids : 1
+Facteur de vitesse : 0~
+@650030= ~Les orties peuvent être utilisées pour améliorer la vue. En mâchant cette plante, la vision défectueuse (due à un brouillard ou à de la poussière magique scintillante) peut retrouver toutes ses facultés.
+
+PARAMETRES :
+
+Poids : 1 
+Facteur de vitesse : 0~
+@650032= ~Les framboises rouges sont utilisées pour augmenter les pulsations cardiaques et confèrent des stimulations au corps. Elles provoquent une augmentation temporaire du niveau d'énergie. En absorbant plusieurs baies, un individu voit sa vitesse augmentée légèrement et son nombre d'attaques doubler.
+
+PARAMETRES :
+
+Poids : 1 
+Facteur de vitesse : 0~
+@650034= ~L'alcool naturel contenu dans les lycopus a une seule propriété : il peut intoxiquer une personne substantiellement pendant une période de 8 heures.
+
+PARAMETRES :
+
+Poids : 1 
+Facteur de vitesse : 0~
+@650036= ~Les baies de genévrier, comme ses feuilles d'ailleurs, peuvent être récoltées dans la nature pour causer des hallucinations chez une personne, la rendre extrêmement craintive et lui faire ressentir des dangers qui n'existe pas en réalité.
+
+PARAMETRES :
+
+Poids : 1 
+Facteur de vitesse : 0~
+@650040= ~Le lichen à racines rouges permet de pallier les problèmes de respiration. En utilisant cette herbe sauvage, les synus de l'individu sont débarrassés des toxines, des odeurs naturelles désagréables et des particules.
+
+PARAMETRES :
+
+Poids : 1 
+Facteur de vitesse : 0~
+@650042= ~Les extrait de houblon peuvent guérir la fatigue. L'énergie conférée par l'herbe fait disparaître le besoin de se reposer chez les individus. Cependant, l'effet n'est que temporaire, et ne doit pas être utilisé avant une discussion préalable avec un druide.
+
+PARAMETRES :
+
+Poids : 1 
+Facteur de vitesse : 0~
+@650044= ~Le centella asiatique augmente l'attention physique et mentale. Les bénéfices de cette herbe à fleurs pourpres valent bien le prix élevé de cette plante très rare. Lorsqu'elle est absorbée, le centella asiatique confère un bonus à la CA de -6 et ajoute +3 à tous les jets de sauvegarde. De même, le centella asiatique va permettre à la personne qui l'a ingéré de se déplacer plus vite et d'éviter ainsi les projectiles normaux.
+
+PARAMETRES :
+
+Poids : 1 
+Facteur de vitesse : 0~
+@650046= ~Le pied-d'âne est une herbe très commune que l'on peut trouver dans la plupart des zones herbeuses sur Féerune. Il produit des graines empoisonnées, recherchées par les voleurs et les assassins. Les graines de pied-d'âne peuvent provoquer 2 points de vie de dégâts de poison à tout individu qui absorbe cette herbe. Il n'a pratiquement aucun goût, ce qui le rend très populaire pour les empoisonnements d'aliments.  
+
+PARAMETRES :
+
+Poids : 1 
+Facteur de vitesse : 0~
+@650112= ~Les écailles à la fois souples et résistantes d'un dragon bleu confèrent à cette armure une protection appréciable contre les armes et toutes les formes, magiques ou non, de dégâts électriques.
+
+PARAMETRES :
+
+Classe d'armure : -1
+Spécial :
+ +90 % de résistance aux éclairs et à toutes les attaques électriques
+Poids : 20
+Force nécessaire : 15~
+@650113= ~Les écailles à la fois souples et résistantes de Darammareth S'ooloun Crommadar Ammanth Kuleera, aussi connue sous le nom de Patte de Velours, confèrent à cette armure une protection appréciable contre les armes et toutes les formes, magiques ou non, de dégâts électriques.
+
+PARAMETRES :
+
+Classe d'Armure : -2
+Spécial :
+ 100% de Résistance à l'Electricité et à la Foudre
+Poids : 17
+Force nécessaire : 12~
+
+@650248= ~Cette paire de gantelets semble avoir été fabriquée dans l'ancienne citée de Néthéril pour aider les maîtres dans les arts magiques. Les légendes du passé parlent de ces archimages, capables de lancer très rapidement de nombreux sorts à la suite, les détails de ces prouesses restant toutefois très imprécis.
+
+PARAMETRES :
+
+Vitesse de lancement des sorts réduite de 2
+Poids : 2~
+@650251= ~L'épée large combine à la fois les atouts de l'épée longue et la force et l'efficacité d'une épée à deux mains. Les forgerons ont toujours cherché un moyen d'améliorer les armes existantes. Dans l'optique d'augmenter l'efficacité d'une épée longue, sa lame fut rallongée. Evidemment, la garde a aussi dû être allongée et les deux mains sont devenues nécessaires pour utiliser correctement l'épée.
+
+PARAMETRES :
+
+Dégâts : 1D12
+Type de dégâts : tranchant
+Poids : 12
+Facteur de vitesse : 8
+Type de compétence : épée à 2 mains
+Type : arme à 2 mains
+Force nécessaire : 9~
+@650252= ~L'épée large combine à la fois les atouts de l'épée longue et la force et l'efficacité d'une épée à deux mains. Les forgerons ont toujours cherché un moyen d'améliorer les armes existantes. Dans l'optique d'augmenter l'efficacité d'une épée longue, sa lame fut rallongée. Evidemment, la garde a aussi dû être allongée et les deux mains sont devenues nécessaires pour utiliser correctement l'épée.
+
+PARAMETRES :
+
+TAC0 : +2
+Dégâts : 1D12 +2, dégâts doublés contre les dragons verts
+Type de dégâts : tranchant
+Poids : 12
+Facteur de vitesse : 8
+Type de compétence : épée à 2 mains
+Type : arme à 2 mains
+Force nécessaire : 9~
+@650256= ~Une cotte de mailles est faite d'anneaux de métal liés les uns aux autres. On la porte sur un rembourrage de tissu ou de cuir souple pour éviter d'irriter la peau et pour amortir les impacts. Un enchantement améliore la protection qu'offre cette armure.
+
+PARAMETRES :
+
+Classe d'armure : 2
+Poids : 10
+Force nécessaire : 8~
+@650260= ~Cape de Protection +3 : "Le Bouclier de l'Esprit"
+On dit de cette cape qu'elle est capable de concentrer les énergies de l'esprit d'un individu en une force qui peut le protéger. Les rumeurs parlent de la présence d'un vampire prisonnier de cet objet magique, mais il est bien entendu impossible de prouver ceci sans détruire la cape.
+
+PARAMETRES :
+
+Classe d'armure : +3
+Jets de Sauvegarde : +3
+Poids : 3~
+@650262= ~Cette horrible collection de scalps humains et demis-humains cousue sur une épaisse pièce de tissu rendra imposant n'importe quel guerrier, voleur ou autre classe. Le fait de porter un tel manteau ne confère aucun bonus, mais rendra le porteur moins aimé des autres, et leur laissera une impression durable.
+
+PARAMETRES :
+
+Pénalité de -1 à la Réputation à chaque fois qu'il est enfilé
+Pénalité de -1 au Charisme si porté
+Poids : 4
+Force nécessaire : 3~
+@650264= ~L'anneau des Dragons est un artéfact ancien très puissant, avec une histoire riche et détaillée. Les sages et les étudiants à travers les Royaumes ont passé des centaines d'heures à répertorier l'histoire de cet anneau, et pourtant, on ne sait pas encore tout à son sujet.
+
+Néanmoins, le pouvoir singulier de l'anneau est bien connu de beaucoup de gens. Cet anneau permet à son porteur de contrôler les dragons.
+
+En activant le pouvoir de l'anneau, le porteur peut invoquer un dragon à ses côtés. L'espèce du dragon peut varier, mais appartiendrait sans doute à l'espèce des dragons chromatiques (considérés comme "Mauvais"). L'anneau ne peut être utilisé qu'un nombre limité de fois, et il n'y a aucun moyen de savoir combien de fois il est utilisable au jour d'aujourd'hui.
+
+PARAMETRES :
+
+Invoque un dragon (rouge, noir, vert ou jaune) pour aider le porteur.~
+@650272= ~Réputée être l'arme contondante la moins sophistiquée, le bâton est un bout de bois d'une longueur de 1,80 m à 2,80 m. Les bâtons de qualité supérieure sont fabriqués en chêne robuste et sont ferrés de métal aux deux extrémités. Le bâton doit être manié des deux mains. 
+Bien que cet objet ressemble à un bâton de combat des plus basiques, il possède quelques propriétés magiques mineures. Premièrement, il possède un bonus de 1D4 points de dégâts contondants pour chaque attaque réussie sur une cible. Deuxièmement, il rend automatiquement flou l'image de son porteur pour le rendre un peu plus difficile à repérer par ses alliés comme par ses ennemis. Troisièmement, le bâton a la possibilité de rendre son porteur invisible trois fois par jour. Il se recharge automatiquement après un certain laps de temps.
+
+PARAMETRES :
+
+Dégâts : 1D6 + 1D4
+Type de dégâts : contondant
+Spécial :
+   Rend le porteur flou
+   Rend le porteur invisible trois fois par jour
+Poids : 4
+Facteur de vitesse : 4
+Type de compétence : bâton
+Type : arme à 2 mains
+Force nécessaire : 5~
+
+@650276= ~La dague de jet traditionnelle a une lame pointue généralement à double tranchant, contrairement au couteau qui n'a qu'un seul tranchant et est un peu moins long. Celle-ci a un manche plus court et est équilibrée différemment. Un mince enduit de magie lourde a été appliqué sur chacune de ces dagues, les rendant meurtrières contre les mages entre les mains d'un assassin habile.
+
+PARAMETRES :
+
+Dégâts : 1D4
+Spécial : dissipe les protections magiques lors d'un coup au but
+Type de dégâts : projectile (perforant)
+Poids : 1
+Facteur de vitesse : 2
+Type de compétence : dague
+Type : arme à 1 main
+Force nécessaire : 3~
+
+@650277= ~Cette dague vaut son pesant d'or. Il s'agit d'une arme enchantée, allouant un bonus de +3 au toucher et aux dégâts. En plus du tranchant et de l'équilibre parfait de l'arme, l'épée confère également des propriétés magiques à son porteur. Toute personne qui porte Furcolo gagne un bonus de 35 % à sa résistance magique, et devient en même temps complètement immunisé aux créatures mortes-vivantes. L'épée est une entité intelligente et peut lancer le sort Immunité Absolue sur son porteur 1 fois par jour.
+
+PARAMETRES :
+
+Dégâts : 1D4 +3
+Type de dégâts : perforant
+Spécial :
+ Peut lancer Immunité Absolue une fois par jour
+ Bonus de 35 % à la résistance magique
+ Imunité aux morts-vivants
+Poids : 1
+Facteur de vitesse : 2
+Type de compétence : dague
+Type : arme à 1 main
+Force nécessaire : 3~
+@650279= ~Un utilisant cette dague enchantée, le porteur est protégé des projectiles normaux, non magiques. La dague en elle-même confère un bonus de +1 au TAC0 et peut être utilisé par tout individu capable de porter une dague.
+
+PARAMETRES :
+
+Dégâts : 1D4 +1
+Type de dégâts : perforant
+Spécial :
+ Protection contre les projectiles normaux tant qu'elle est équipée
+Poids : 1
+Facteur de vitesse : 2
+Type de compétence : dague
+Type : arme à 1 main
+Force nécessaire : 3~
+@650285= ~Epée longue Dansante +3
+La plupart des druides sont incapables de se servir des armes tranchantes. Cette épée est une exception. Cette épée magique ne se limite pas à accorder des bonus au toucher et aux dégâts, mais est également capable d'invoquer des soins, des sorts de dissipation et de détection des pièges à travers des sorts de clerc comme si le porteur était un druide de niveau 3. 
+
+Cette épée est également dotée d'intelligence. Son alignement est neutre-bon, et possède un égo de 8. Elle possède également une valeur d'intelligence (INT 15) et parle la langue commune ainsi que le langage de son alignement.
+
+PARAMETRES :
+
+Dégâts : 1D8 +3
+Spécial :
+ Peut lancer Détection des pièges, Dissipation de la magie et Guérison 3 fois par jour
+Danse :
+ En "libérant" l'épée, elle peut être guidée de manière télépathique pendant une demi-heure par jour. Elle infligera les mêmes dégâts, et le porteur peut garder l'épée physique pendant qu'il contrôle l'image de celle-ci par télépathie
+TAC0 : +2
+Type de dégâts : tranchant
+Poids : 3
+Facteur de vitesse : 3
+Type de compétence : épée longue
+Type : arme à 1 main
+Force nécessaire : 17
+Sagesse nécessaire : 16~
+@650289= ~L'histoire de cette arme ne vous est pas connue. Elle vous a été donnée par trois druidesses que vous avez rencontrées dans un petit bosquet au sud de la Porte de Baldur. Les druidesses voulaient que ce bâton soit réparé. Vous l'avez fait, et vous devez maintenant le leur rapporter dans le bosquet de la forêt au nord d'Amn. Ce bâton particulier confère à son porteur un bonus à la classe d'armure et lui permet d'utiliser l'arme  avec une compétence en bâton au niveau maître, tout en lui procurant des résistances spécifiques aux types de dégâts suivants : Poison, Feu, Froid, Acide et Electricité.
+
+PARAMETRES :
+
+Dégâts : 2D8 +5
+Type de dégâts : contondant
+TAC0 : +5
+Spécial :
+   +2 à la classe d'amure
+   +4 étoiles de maîtrise dans les bâtons
+   25% de résistance au Feu
+   25% de résistance au Froid
+   25% de résistance à l'Acide
+   25% de résistance au Poison
+   25% de résistance à l'Electricité
+Poids : 7
+Facteur de vitesse : 3
+Type de compétence : bâton
+Type : arme à 2 mains~
+
+@650290= ~L'histoire de cette arme ne vous est pas connue. Elle vous a été donnée par trois druidesses que vous avez rencontrées dans un petit bosquet au sud de la Porte de Baldur. Les druidesses voulaient que ce bâton soit réparé. Vous l'avez fait, et vous devez maintenant le leur rapporter dans le bosquet de la forêt au nord d'Amn. Ce bâton particulier confère à son porteur un bonus à la classe d'armure et lui permet d'utiliser l'arme  avec une compétence en bâton au niveau maître, tout en lui procurant des résistances spécifiques aux types de dégâts suivants : Poison, Feu, Froid, Acide et Electricité.
+
+PARAMETRES :
+
+Dégâts : 2D8 +5
+Type de dégâts : contondant
+TAC0 : +5
+Spécial :
+   +4 à la classe d'amure
+   +5 étoiles de maîtrise dans les bâtons
+   50% de résistance au Feu
+   50% de résistance au Froid
+   50% de résistance à l'Acide
+   50% de résistance au Poison
+   50% de résistance à l'Electricité
+Poids : 7
+Facteur de vitesse : 3
+Type de compétence : bâton
+Type : arme à 2 mains~
+
+@650300= ~Cette arme puissante a été créée par les forgerons de l'antique Myth Drannor. Les Lames de Lune servent au long processus du choix d'un régnant sur l'île de l'Eternelle-Rencontre. Une Lame de Lune choisit son propriétaire. Seul un elfe peut utiliser cette lame ; tout autre individu essayant de s'en saisir se brûlera horriblement, et pourra même en mourir. Cette Lame de Lune en particulier procure à son porteur un bonus à sa classe d'armure et lui permet d'utiliser l'arme avec une compétence à l'épée au niveau maitre, tout en lui procurant des résistances spécifiques aux types de dégâts suivants : Poison, Feu, Froid, Acide et Electricité.
+
+PARAMETRES :
+
+Dégâts : 1D10 +4
+Type de dégâts : tranchant
+TAC0 : +4
+Spécial :
+   +2 à la classe d'amure
+   +4 étoiles de maîtrise dans les épées longues
+   25% de résistance au Feu
+   25% de résistance au Froid
+   25% de résistance à l'Acide
+   25% de résistance au Poison
+   25% de résistance à l'Electricité
+Poids : 3
+Facteur de vitesse : 4
+Type de compétence : épée longue
+Type : arme à 1 main~
+@650304= ~Cette pierre ionique brille d'une lueur bleue foncée, rappellant les vagues de l'océan. Cette pierre ionique bleue marine permet à son porteur de dissiper les sorts Image Réfléchie, Invisibilité, Image-Miroir, Non-Détection, Invisibilité Améliorée, Porte d'Ombre, Egarement, Image Projetée et Simulacre. 
+
+PARAMETRES :
+
+Capacité : Vision véritable à volonté
+Bonus à la classe d'armure : aucun
+Poids : 2~
+@650308= ~Les pouvoirs conférés par cette cape magique prouvent bien que le concept de "protection" peut recouvrir plusieurs formes, comme celles de la discrétion et de la fuite.
+
+PARAMETRES :
+
+Hâte améliorée 1 fois par jour
+Invisibilité majeure 1 fois par jour
+CA +2
++2 à tous les jets de sauvegarde
+Poids : 3~
+
+@650343= ~Cette arme puissante est composée d'un manche allant de 1m20 à 1m50 surmonté d'une lame très lourde. La hache peut être à double tranchant, avec une lame de chaque coté du manche, ou alors elle ne peut posséder qu'une seule lame. C'est une arme difficile à manier, mais un guerrier adroit peut asséner des coups d'une force terrifiante avec elle. Des runes naines ont été enchâssées dans la grande lame pour augmenter les capacités de la hache.
+
+PARAMETRES :
+
+Dégâts : 2D12 +5
+TAC0 : +5
+Enchantement : +5
+Type de dégâts : tranchant
+Spécial :
+ Jet de flamme : +2D6 points de dégâts de feu et 25% de chance d'infliger +2D10 points de dégâts supplémentaires de feu
+Poids : 30
+Facteur de vitesse : 9
+Type de compétence : hache
+Type : arme à 2 mains
+Force requise : 17~
+@650345= ~Cette arme puissante est composée d'un manche allant de 1m20 à 1m50 surmonté d'une lame très lourde. La hache peut être à double tranchant, avec une lame de chaque coté du manche, ou alors elle ne peut posséder qu'une seule lame. C'est une arme difficile à manier, mais un guerrier adroit peut asséner des coups d'une force terrifiante avec elle. Des runes naines ont été enchâssées dans la grande lame pour augmenter les capacités de la hache.
+
+PARAMETRES :
+
+Dégâts : 2D12 +4
+TAC0 : +4
+Enchantement : +4
+Type de dégâts : tranchant
+Spécial :
+ Jet de flamme : +1D6 points de dégâts de feu et 10% de chance d'infliger +1D10 points de dégâts supplémentaires de feu
+Poids : 30
+Facteur de vitesse : 9
+Type de compétence : hache
+Type : arme à 2 mains
+Force requise : 16~
+@650354= ~Cette épée longue vaut son pesant d'or. Il s'agit d'une arme enchantée, allouant un bonus de +3 au toucher et aux dégâts. En plus du tranchant et de l'équilibre parfait de l'arme, l'épée confère également des propriétés magiques à son porteur. Toute personne qui porte Furcolo gagne un bonus de 35 % à sa résistance magique, et devient en même temps complètement immunisé aux créatures mortes-vivantes. L'épée est une entité intelligente et peut lancer le sort Immunité Absolue sur son porteur 1 fois par jour.
+
+PARAMETRES :
+
+Dégâts : 1D10 +3
+Type de dégâts : tranchant
+Spécial :
+ Peut lancer Immunité Absolue une fois par jour
+ Bonus de 35 % à la résistance magique
+ Immunité aux morts-vivants
+Poids : 4
+Facteur de vitesse : 5
+Type de compétence : épée longue
+Type : arme à 1 main
+Force nécessaire : 6~
+@650364= ~Il s'agit d'un bâton en forme de spirale avec des morceaux d'argent enchâssées dans le bois et surmonté d'un grand morceau d'ambre, le Bâton des Yeux permet l'usage des sorts suivants une fois par jour :
+
+Oeil du Magicien
+Guérison des maladies
+Vision véritable
+
+PARAMETRES :
+
+Spécial :
+ Lance les sorts ci-dessus
+
+Dégâts : 1D6 +1
+Type de dégâts : contondant
+Poids : 4
+Facteur de vitesse : 4
+Type de compétence : bâton
+Type : arme à 2 mains
+Nécessite : Niveau 10, 5 en force~
+@650366= ~La plupart de ces colliers de glace préservée et durcie magiquement furent créés par un sorcier à moitié fou qui vivait près de la tribu des Ulutiuns du Grand Glacier. Deux des cristaux de glace en forme de noix sont opaques, les quatre autres sont transparents. Le porteur peut décrocher un cristal et le jeter à 25 mètres de distance. Lorsque le cristal atteint la fin de sa trajectoire, il explose en formant une Tempête de Glace.
+
+PARAMETRES :
+
+Possède 6 Cristaux de glace~
+@650369= ~Ce genre d'outil fut créé à Néthéril. Un sceptre de souffle fraichement fabriqué contient 50 charges, mais la plupart d'entre eux ont plusieurs centaines d'années et ne contiennent plus qu'une dizaine de charge au maximum lorsque l'on met la main dessus. Un sceptre de souffle s'identifie de lui-même et contient les pouvoirs suivants : 
+Le porteur est immunisé au feu et à l'électricité pendant qu'il tient le sceptre en main.
+Le porteur ne peut pas être projeté à terre ou en arrière par un souffle ou une détonation pendant qu'il tient le sceptre en main. Le porteur ne subit que la moitié des dégâts des sorts de souffle, comme par exemple, Corne de souffle, la détonation de la poudre explosive, ou même le pouvoir d'un autre sceptre de souffle (les dégâts sont ramenés à un quart si le jet de sauvegarde est réussi).
+Le porteur peut étourdir une cible en réussissant une attaque de mêlée avec le sceptre. La créature peut éviter d'être étourdie en réussissant un jet de sauvegarde contre les baguettes magiques, mais se retrouve étourdie pendant 1D4 tours si elle échoue. Ce pouvoir utilise 1 charge. 
+Le porteur peut attaquer ses adversaires avec une vague silencieuse de force formant un cône de 9 mètres de long. Les cibles prennent automatiquement 2D6 points de dégâts et doivent réussir un jet de sauvegarde contre les baguettes magiques pour ne pas se faire projeter à terre. Ce pouvoir utilise 2 charges.
+Le porteur peut asséner un coup puissant à une créature ou un objet avec une attaque de mêlée. La frappe provoque 10D6 points de dégâts, un jet de sauvegarde réussi contre les baguettes magiques réduit ces dégâts de moitié. Ce pouvoir utilise 4 charges.
+
+PARAMETRES :
+
+Spécial :
+ Immunité au feu et à l'électricité
+ Protection contre la capacité Coup d'aile
+ Onde de choc
+ Coup puissant
+
+Poids : 6
+Type de compétence : gourdin~
+@650380= ~Grand Bouclier +3
+Les origines de ce bouclier magique sont inconnues. Des matériaux de bonne facture et quelques enchantements en font un moyen de défense simple mais efficace.
+
+PARAMETRES :
+
+Bonus à la classe d'armure : 4
+Spécial :
+ Bonus de +2 contre les armes de jet
+Poids : 10
+Force nécessaire : 10~
+@650387= ~L'amulette de la Lune est une création des Elfes. Elle complète naturellement la compétence elfique de Rêverie, permettant à un elfe de résister aux effets du sommeil. La Rêverie apparaît chez les Elfes de manière quotidienne, de façon similaire au sommeil des humains et des autres animaux, bien que la Rêverie des elfes se rapproche plus d'un état de méditation durant quelques heures, régénérant le corps et l'esprit, mais les laissant complètement conscients de leur environnement et de ce qui se passe autour d'eux.
+
+Cette amulette, qu'elle soit portée par un Elfe ou un non-Elfe, peut retarder les effets de la fatigue et des modifications magiques de l'esprit telles que les charmes-personnes et autres dominations mentales. Cependant, l'amulette ne permet pas de mémoriser des sorts comme pendant une période de repos. De même, les blessures ne seront guéries que pendant une phase de repos, la Rêverie ne procure que des régénérations physiques minimes.
+
+PARAMETRES :
+
+Protection contre l'inconscience
+Protection contre les charmes
+Retarde la fatigue (effet basé sur la constitution)
+Régénère 1 point de vie par heure~
+@650389= ~Cette arme puissante a été créée par les forgerons de l'antique Myth Drannor. Les Lames de Lune servent au long processus du choix d'un régnant sur l'île de l'Eternelle-Rencontre. Cette Lame de Lune a été offerte à <CHARNAME> par trois anciennes Elfes dans les profondeurs de la forêt de Téthyr, et elle a accepté <CHARNAME> comme son porteur. Seul celui qui a été choisi par la Lame de Lune est capable de l'utiliser ; toute autre personne qui tentera de s'en emparer se brûlera horriblement et pourra même en mourir. Cette Lame de Lune en particulier procure à son porteur un bonus à la classe d'armure et lui permet d'utiliser l'arme avec une maîtrise en compétence d'épée, tout en lui procurant des résistances spécifiques par type de dégâts : Poison, Feu, Froid, Acide et Electricité.
+
+PARAMETRES :
+
+Dégâts : 2D8 +5
+Type de Dégâts : tranchant
+TAC0 : +5
+Spécial :
+   +4 à la classe d'armure
+   +5 étoiles de maîtrise dans les épées longues
+   50% de résistance au Feu
+   50% de résistance au Froid
+   50% de résistance à l'Acide
+   50% de résistance au Poison
+   50% de résistance à l'Electricité
+Poids : 3
+Facteur de vitesse : 3
+Type de compétence : épée longue
+Type : arme à 1 main~
+
+@650390= ~Cette arme puissante a été créée par les forgerons de l'antique Myth Drannor. Les Lames de Lune servent au long processus du choix d'un régnant sur l'île de l'Eternelle-Rencontre. Cette Lame de Lune a été offerte à <PLAYER2> par trois anciennes Elfes dans les profondeurs de la forêt de Téthyr, et elle a accepté <PLAYER2> comme son porteur. Seul celui qui a été choisi par la Lame de Lune est capable de l'utiliser ; toute autre personne qui tentera de s'en emparer se brûlera horriblement et pourra même en mourir. Cette Lame de Lune en particulier procure à son porteur un bonus à la classe d'armure et lui permet d'utiliser l'arme avec une maîtrise en compétence d'épée, tout en lui procurant des résistances spécifiques par type de dégâts : Poison, Feu, Froid, Acide et Electricité.
+
+PARAMETRES :
+
+Dégâts : 2D8 +5
+Type de Dégâts : tranchant
+TAC0 : +5
+Spécial :
+   +4 à la classe d'armure
+   +5 étoiles de maîtrise dans les épées longues
+   50% de résistance au Feu
+   50% de résistance au Froid
+   50% de résistance à l'Acide
+   50% de résistance au Poison
+   50% de résistance à l'Electricité
+Poids : 3
+Facteur de vitesse : 3
+Type de compétence : épée longue
+Type : arme à 1 main~
+
+@650391= ~Cette arme puissante a été créée par les forgerons de l'antique Myth Drannor. Les Lames de Lune servent au long processus du choix d'un régnant sur l'île de l'Eternelle-Rencontre. Cette Lame de Lune a été offerte à <PLAYER3> par trois anciennes Elfes dans les profondeurs de la forêt de Téthyr, et elle a accepté <PLAYER3> comme son porteur. Seul celui qui a été choisi par la Lame de Lune est capable de l'utiliser ; toute autre personne qui tentera de s'en emparer se brûlera horriblement et pourra même en mourir. Cette Lame de Lune en particulier procure à son porteur un bonus à la classe d'armure et lui permet d'utiliser l'arme avec une maîtrise en compétence d'épée, tout en lui procurant des résistances spécifiques par type de dégâts : Poison, Feu, Froid, Acide et Electricité.
+
+PARAMETRES :
+
+Dégâts : 2D8 +5
+Type de Dégâts : tranchant
+TAC0 : +5
+Spécial :
+   +4 à la classe d'armure
+   +5 étoiles de maîtrise dans les épées longues
+   50% de résistance au Feu
+   50% de résistance au Froid
+   50% de résistance à l'Acide
+   50% de résistance au Poison
+   50% de résistance à l'Electricité
+Poids : 3
+Facteur de vitesse : 3
+Type de compétence : épée longue
+Type : arme à 1 main~
+
+@650392= ~Cette arme puissante a été créée par les forgerons de l'antique Myth Drannor. Les Lames de Lune servent au long processus du choix d'un régnant sur l'île de l'Eternelle-Rencontre. Cette Lame de Lune a été offerte à <PLAYER4> par trois anciennes Elfes dans les profondeurs de la forêt de Téthyr, et elle a accepté <PLAYER4> comme son porteur. Seul celui qui a été choisi par la Lame de Lune est capable de l'utiliser ; toute autre personne qui tentera de s'en emparer se brûlera horriblement et pourra même en mourir. Cette Lame de Lune en particulier procure à son porteur un bonus à la classe d'armure et lui permet d'utiliser l'arme avec une maîtrise en compétence d'épée, tout en lui procurant des résistances spécifiques par type de dégâts : Poison, Feu, Froid, Acide et Electricité.
+
+PARAMETRES :
+
+Dégâts : 2D8 +5
+Type de Dégâts : tranchant
+TAC0 : +5
+Spécial :
+   +4 à la classe d'armure
+   +5 étoiles de maîtrise dans les épées longues
+   50% de résistance au Feu
+   50% de résistance au Froid
+   50% de résistance à l'Acide
+   50% de résistance au Poison
+   50% de résistance à l'Electricité
+Poids : 3
+Facteur de vitesse : 3
+Type de compétence : épée longue
+Type : arme à 1 main~
+
+@650393= ~Cette arme puissante a été créée par les forgerons de l'antique Myth Drannor. Les Lames de Lune servent au long processus du choix d'un régnant sur l'île de l'Eternelle-Rencontre. Cette Lame de Lune a été offerte à <PLAYER5> par trois anciennes Elfes dans les profondeurs de la forêt de Téthyr, et elle a accepté <PLAYER5> comme son porteur. Seul celui qui a été choisi par la Lame de Lune est capable de l'utiliser ; toute autre personne qui tentera de s'en emparer se brûlera horriblement et pourra même en mourir. Cette Lame de Lune en particulier procure à son porteur un bonus à la classe d'armure et lui permet d'utiliser l'arme avec une maîtrise en compétence d'épée, tout en lui procurant des résistances spécifiques par type de dégâts : Poison, Feu, Froid, Acide et Electricité.
+
+PARAMETRES :
+
+Dégâts : 2D8 +5
+Type de Dégâts : tranchant
+TAC0 : +5
+Spécial :
+   +4 à la classe d'armure
+   +5 étoiles de maîtrise dans les épées longues
+   50% de résistance au Feu
+   50% de résistance au Froid
+   50% de résistance à l'Acide
+   50% de résistance au Poison
+   50% de résistance à l'Electricité
+Poids : 3
+Facteur de vitesse : 3
+Type de compétence : épée longue
+Type : arme à 1 main~
+
+@650394= ~Cette arme puissante a été créée par les forgerons de l'antique Myth Drannor. Les Lames de Lune servent au long processus du choix d'un régnant sur l'île de l'Eternelle-Rencontre. Cette Lame de Lune a été offerte à <PLAYER6> par trois anciennes Elfes dans les profondeurs de la forêt de Téthyr, et elle a accepté <PLAYER6> comme son porteur. Seul celui qui a été choisi par la Lame de Lune est capable de l'utiliser ; toute autre personne qui tentera de s'en emparer se brûlera horriblement et pourra même en mourir. Cette Lame de Lune en particulier procure à son porteur un bonus à la classe d'armure et lui permet d'utiliser l'arme avec une maîtrise en compétence d'épée, tout en lui procurant des résistances spécifiques par type de dégâts : Poison, Feu, Froid, Acide et Electricité.
+
+PARAMETRES :
+
+Dégâts : 2D8 +5
+Type de Dégâts : tranchant
+TAC0 : +5
+Spécial :
+   +4 à la classe d'armure
+   +5 étoiles de maîtrise dans les épées longues
+   50% de résistance au Feu
+   50% de résistance au Froid
+   50% de résistance à l'Acide
+   50% de résistance au Poison
+   50% de résistance à l'Electricité
+Poids : 3
+Facteur de vitesse : 3
+Type de compétence : épée longue
+Type : arme à 1 main~
+
+@650395= ~Cette étoile du matin vaut son pesant d'or. Il s'agit d'une arme enchantée, allouant un bonus de +3 au toucher et aux dégâts. En plus du tranchant et de l'équilibre parfait de l'arme, le fléau confère également des propriétés magiques à son porteur. Toute personne qui porte Furcolo gagne un bonus de 35 % à sa résistance magique, et devient en même temps complètement immunisé aux créatures mortes-vivantes. Le fléau est une entité intelligente et peut lancer le sort Immunité Absolue sur son porteur 1 fois par jour.
+
+PARAMETRES :
+
+Dégâts : 1D10 +3
+Type de dégâts : contondant
+Spécial :
+ Peut lancer Immunité Absolue une fois par jour
+ Bonus de 35 % à la résistance magique
+ Immunité aux morts-vivants
+Poids : 12
+Facteur de vitesse : 7
+Type de compétence : fléau/étoile du matin
+Type : arme à 1 main
+Force nécessaire : 11~
+@7650398= ~La version la plus répandue de la hache d'armes est une grande hampe d'environ 1,20 mètres de long comportant une lame à un seul tranchant et en forme de trompette montée sur une extrémité. Les haches d'armes sont également appelées grandes haches.
+
+PARAMETRES :
+
+Dégâts : 1D8
+TAC0 : +1
+Type de dégâts : tranchant
+Poids : 7
+Facteur de vitesse : 7
+Type de compétence : hache
+Type : arme à 1 main
+Force requise : 10~
+@7650399= ~Les arcs composites sont des arcs longs ou courts dont les branches sont faites de plusieurs matériaux. Cela rend l'arc plus souple, ce qui accroît sa portée. Cet arc puissant requiert une force de 18 pour être utilisé.
+
+PARAMETRES :
+
+TAC0 : +2
+Dégâts : +1
+Poids : 10
+Facteur de vitesse : 7
+Type de compétence : arc long
+Type : arme à 2 mains
+Force requise : 18~
+@7650400= ~L'arc long est similaire à l'arc court, sauf que la branche est pratiquement aussi grande que l'archer, généralement entre 1,80 m et 2 m. Sa portée et sa précision sont supérieures à celles de l'arc court.
+
+PARAMETRES :
+
+TAC0 : +2
+Poids : 3
+Facteur de vitesse : 7
+Type de compétence : arc long
+Type : arme à 2 mains
+Force requise : 6~
+@7650401= ~Les arcs courts ont été fabriqués avant les autres, même s'ils ne s'appelaient pas encore ainsi. Ce terme est utilisé par défaut pour désigner tout ce qui n'est pas un arc long. Les branches d'arc court mesurent 1,50 m en moyenne. Avec les années, on s'est efforcé d'améliorer la portée de l'arc. Tantôt on augmentait la longueur des branches, tantôt on améliorait leur flexibilité sans modifier leur longueur. La première expérience a engendré ce qui s'appelle aujourd'hui l'arc long.
+
+PARAMETRES :
+
+TAC0 : +1
+Poids : 2
+Facteur de vitesse : 6
+Type de compétence : arc court
+Type : arme à 2 mains
+Force requise : 3~
+@650403= ~Drakkas Ranul fut un elfe de la Lune exilé avec un lourd poids sur ses épaules. Dans sa jeunesse, Drakkas fut kidnappé lors d’une incursion d'elfes noirs et fut élevé par ces mêmes drows pour devenir gladiateur. Au début, il combattait avec ses compagnons également kidnappés dans l'arène. Cependant, avec le temps, ses compagnons succombèrent à leurs blessures et aux mauvais traitements, laissant Drakkas seul pour combattre les monstres que les elfes noirs choisissaient pour lui. Drakkas préservait, grâce à une haine grandissante pour ses geôliers, l'espérance de fuir un jour et de revenir se venger de ses kidnappeurs.
+
+Un jour, le rêve de Drakkas se réalisa : il fut capable de fuir en volant les clés de sa cellule au garde de nuit roupillant, et s'extirpa discrètement de la terrible Ombre-Terre. Il déroba deux cimeterres sur son chemin vers la sortie, qu'il eut l'occasion d'utiliser dans les couloirs sinueux d'Ombre-Terre. Lorsqu'il émergea enfin à la surface, il partit immédiatement à la recherche de son peuple, les Elfes de la Lune.
+
+Malheureusement, lorsqu'il retrouva les siens, ces derniers le bannirent à cause de ses horribles blessures de bataille. Exilé et amer suite à cet événement, il se fixa comme but dans la vie de prendre la plus douloureuse des vengeances possibles sur ses kidnappeurs. Drakkas se forma dans les arts de la magie obscure, et affûta encore d'avantage ses formidables capacités de guerrier. Lorsqu'il se sentit prêt, il vendit ses services comme mercenaire pour gagner de l'argent et ainsi s'acheter de l'équipement. Il désirait particulièrement une cotte de mailles très légère pour encore améliorer ses compétences de combat. La chance était avec lui le jour où il rencontra un armurier nain qui pouvait répondre à ses besoins. L'armure fut fabriquée en très peu de temps, permettant à Drakkas de se lancer dans le but qu'il s'était fixé.
+
+Drakkas disparu de la circulation et s'aventura dans les profondeurs de l'Ombre-Terre. C'est la dernière fois que l'on a entendu parler de lui. Cependant, son armure spéciale a trouvé son chemin pour ressortir d'Ombre-Terre par un moyen qui nous échappe encore. Personne ne s'explique ce mystère, mais les spéculations allant bon train, on dit que le retour de la cotte de mailles de Drakkas vers la surface constitue un message subtil de la part des elfes noirs. L'interprétation de ce message est, bien entendu, laissé à l'imagination de chacun.
+
+PARAMETRES :
+
+Bonus à la classe d'armure : +8
+Bonus de Dextérité maximal : +1
+Echec des sorts profanes : 10%
+Spécial :
+ Le lancement des sorts et l'utilisation des techniques de voleur ne subissent aucun malus en portant l'armure de Drakkas
+Bonus à l'attaque : +3
+Vitesse : 1 attaque supplémentaire par round
+Poids : 30~
+
+@7650404= ~La plupart des gourdins sont de gros bâtons résistants, étroits à une extrémité et plus large à l'autre. Cette arme simple est utilisée depuis que l'homme a découvert les outils. N'importe qui peut trouver un gros morceau de bois et le brandir, d'où l'utilisation très répandue du gourdin.
+
+PARAMETRES :
+
+Dégâts : 1D6
+TAC0 : +1
+Type de dégâts : contondant
+Poids : 3
+Facteur de vitesse : 4
+Type de compétence : gourdin
+Type : arme à 1 main
+Force requise : 5~
+@7650405= ~La dague traditionnelle a une lame pointue généralement à double tranchant, contrairement au couteau doté d'un seul tranchant et un peu plus court.
+
+PARAMETRES :
+
+Dégâts : 1D4
+TAC0 : +1
+Type de dégâts : perçant
+Poids : 1
+Facteur de vitesse : 2
+Type de compétence : dague
+Type : arme à 1 main
+Force requise : 3~
+@7650406= ~La fléchette est un petit projectile qui peut être facilement dissimulé, lancé plutôt que tiré par un arc ou une autre arme de jet.
+
+PARAMETRES :
+
+Dégâts : 1D3
+TAC0 : +1
+Type de dégâts : projectile (perçant)
+Poids : 0
+Facteur de vitesse : 2
+Type de compétence : fléchette
+Type : arme à 1 main~
+@650408= ~La dague traditionnelle a une lame pointue généralement à double tranchant, contrairement au couteau doté d'un seul tranchant et un peu plus court.
+
+PARAMETRES :
+
+Dégâts : 1D4 +4
+TAC0 : +4
+Enchantement : +4
+Type de dégâts : perforant
+Spécial :
+ Permet de lancer le sort Flou deux fois par jour
+Poids : 1
+Facteur de vitesse : 2
+Type de compétence : dague
+Type : arme à 1 main
+Force requise : 3~
+@7650409= ~Le fléau est une solide poignée en bois attachée à une tringle en fer, une baguette de bois comportant des pointes, ou une balle en fer pointue. La poignée et l'équipement qui l'accompagne sont reliés par une charnière ou une chaîne. Cette arme servait à l'origine à battre le grain. 
+
+PARAMETRES :
+
+Dégâts : 1D6 +1
+TAC0 : +1
+Type de dégâts : contondant
+Poids : 15
+Facteur de vitesse : 7
+Type de compétence : fléau/étoile du matin
+Type : arme à 1 main
+Force requise : 13~
+@7650410= ~Cette arme se compose d'une longue hampe surmontée d'une lourde lame. La hache peut être à double ou simple tranchant. C'est une arme peu maniable, mais un guerrier expérimenté peut s'en servir pour porter des coups dévastateurs.
+
+PARAMETRES :
+
+Dégâts : 1D12
+TAC0 : +1
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 9
+Type de compétence : hache
+Type : arme à 2 mains
+Force requise : 10~
+@650413= ~Cette arme se compose d'une longue hampe surmontée d'une lourde lame. La hache peut être à double ou simple tranchant. C'est une arme peu maniable, mais un guerrier expérimenté peut s'en servir pour porter des coups dévastateurs. Des runes naines ont été gravées dans la lame géante afin d'augmenter le potentiel de la hache.
+
+PARAMETRES :
+
+Dégâts : 1D12 +5
+TAC0 : +5
+Enchantement : +5
+Type de dégâts : tranchant
+Spécial :
+ La cible est sous l'effet du sort de Cécité (si un jet de sauvegarde contre les sorts est raté)
+ +2D6 points de dégâts contre les créatures maléfiques
+Poids : 20
+Type de compétence : hallebarde
+Type : arme à 2 mains ~
+@7650414= ~De loin l'arme d'hast la plus ancienne et la plus répandue, la hallebarde se compose d'une hache en forme de couperet montée sur un bâton de 1,80 m de long. La hache est équilibrée à l'arrière par un barbillon et surmontée d'une pointe acérée, généralement de forme quadrangulaire. Le barbillon est parfois remplacé par un crochet utilisé pour faire tomber l'ennemi de cheval. La hallebarde est en réalité un croisement entre la lance et la hache.
+
+PARAMETRES :
+
+Dégâts : 1D10
+TAC0 : +1
+Type de dégâts : perçant
+Poids : 15
+Facteur de vitesse : 9
+Type de compétence : hallebarde
+Type : arme à 2 mains
+Force requise : 13~
+@7650415= ~Les cavaliers peuvent difficilement manier les armes longues. C'est pourquoi de nombreuses armes ont été munies de manches plus courts pouvant être portées d'une seule main. La masse et le fléau sont deux exemples d'armes longues qui ont suivi cette évolution, le marteau de guerre en est un autre. Le marteau de guerre du cavalier est le descendant du marteau de Lucerne. Il est entièrement fabriqué en acier, avec des rondelles pour protéger et renforcer la prise. Les rondelles sont de petits disques métalliques, souvent en forme de motifs décoratifs. Le manche mesure environ 45 cm de long.
+
+PARAMETRES :
+
+Dégâts : 1D4 +1
+TAC0 : +1
+Type de dégâts : contondant
+Poids : 6
+Facteur de vitesse : 4
+Type de compétence : marteau de guerre
+Type : arme à 1 main
+Force requise : 9~
+@7650416= ~La version la plus répandue de la hache d'armes est une grande hampe d'environ 1,20 mètres de long comportant une lame à un seul tranchant et en forme de trompette montée sur une extrémité. Les haches d'armes sont également appelées grandes haches.
+
+PARAMETRES :
+
+Dégâts : 1D6
+TAC0 : +1
+Type de dégâts : tranchant
+Poids : 7
+Facteur de vitesse : 7
+Type de compétence : hache
+Type : arme à 1 main
+Force requise : 10~
+@650418= ~Comme les autres armes de ce type, cette hallebarde est constituée d'une lourde lame montée sur un bâton d'une longueur approximative de 2 mètres. Elle a également été enchantée d'un petit nombre de propriétés magiques qui la rendent, cependant, plus efficace en combat. Sa lame aiguisée peut traverser facilement la chair de l'adversaire pour atteindre rapidement les os pendant que sa pointe hérissée de pointes troue les armures.
+
+PARAMETRES :
+
+Dégâts : 1D10
+Enchantement : +2
+Type de dégâts : perforant
+Spécial :
+ +2D6 points de dégâts contre les individus d'alignement Bon
+ +2D6 points de dégâts contre les individus Loyaux
+ +2 au bonus d'attaque contre les elfes 
+ +2D6 +2 points de dégâts contre les elfes
+ 1D4 points de vie sont drainés à la cible et ajoutés à ceux du porteur (à moins d'un jet de sauvegarde contre les sorts réussi)
+Poids : 14
+Type de compétence : hallebarde
+Type : à 2 mains~
+@650420= ~Les anciennes légendes naines parlent d'un temps où le métal le plus noble n'était pas l'acier nain, ni même le fer des météores ou le Mithril, mais le Dykahst - un alliage si résistant que le tranchant de la lame ne s'émousse jamais si on la travaille ou au cours des batailles, et avec une surface si brillante et si parfaite qu'elle peut être vue à distance d'un vol de dragon. Les plus vieux nains parlent des lames en Dykhast avec des larmes de nostalgie dans les yeux, et crachent rageusement lorsqu'ils mentionnent les métaux "extrêmement faibles et friables" qui servent à fabriquer les armes et les armures d'aujourd'hui.
+
+Il y a tout de même des rumeurs qui parlent d'un ancien temple secret appelé Chogoh Kyn ; et c'est là-bas, selon la légende, que les lames de Dykhast sont toujours fabriquées à la manière des jours depuis longtemps passés. Les prix sont élevés, mais pour un vrai connaisseur, rien n'égale la gloire, la perfection, la joie totale... du Dykhast.
+
+PARAMETRES :
+
+Dégâts : 1D8 +6
+Bonus à l'attaque : +3
+Enchantement : +3
+Type de dégâts : tranchant
+Spécial :
+ 5% de chance d'aveugler la cible (en cas d'échec de son jet de sauvegarde contre le poison)
+Type de compétence : épée longue
+Type : arme à 1 main~
+@7650421= ~La masse descend directement du simple gourdin. C'est une simple hampe de bois avec une tête en pierre ou en fer fixée à son extrémité. La forme de la tête varie : certaines sont pointues, d'autres à rebord, et d'autres encore ont une tête pyramidale.
+
+PARAMETRES :
+
+Dégâts : 1D6 +1
+TAC0 : +1
+Type de dégâts : contondant
+Poids : 8
+Facteur de vitesse : 7
+Type de compétence : masse
+Type : arme à 1 main
+Force requise : 10~
+@7650422= ~L'étoile du matin est un manche en bois couronné d'une tête en métal constituée d'une gaine de fer cloutée. Les étoiles du matin mesurent environ 1,20 m. Certaines de ces armes possèdent une tête de forme ronde, ovale ou cylindrique garnie de clous. Sur la plupart des têtes des étoiles du matin, quelle que soit leur forme, se trouve une longue pointe pour porter une attaque perforante. 
+
+PARAMETRES :
+
+Dégâts : 2D4
+TAC0 : +1
+Type de Dégâts : contondant
+Poids : 12
+Facteur de vitesse : 7
+Type de compétence : fléau/étoile du matin
+Type : arme à 1 main
+Force requise : 11~
+@650424= ~Les arcs courts ont été fabriqués avant les autres, même s'ils ne s'appelaient pas encore ainsi. Ce terme est utilisé par défaut pour désigner tout ce qui n'est pas un arc long. Les branches d'arc court mesurent 1,50 m en moyenne. Avec les années, on s'est efforcé d'améliorer la portée de l'arc. Tantôt on augmentait la longueur des branches, tantôt on améliorait leur flexibilité sans modifier leur longueur. La première expérience a engendré ce qui s'appelle aujourd'hui l'arc long.
+
+PARAMETRES :
+
+Dégâts : +1 à distance
+Bonus à l'attaque : +1
+Spécial :
+ +15 aux points de vie du porteur
+ +1 à la classe d'armure
+Poids : 2
+Type de compétence : arc court
+Type : arme à 2 mains~
+@7650425= ~La longue lame simple et incurvée est la caractéristique des sabres et des cimeterres, bien qu'ils n'aient pas la même origine dans Féérune. Alors que le sabre était fait essentiellement pour les cavaliers, notamment pour sa polyvalence, le cimeterre est issu d'une influence plus orientale. Le "shamshir", comme on l'appelait au début, est plus grand et plus recourbé, et il s'effile sur une pointe très allongée. Cela le rend un peu plus lent, mais plus efficace et mortel en combat.
+
+PARAMETRES :
+
+Dégâts : 1D8
+TAC0 : +1
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 5
+Type de compétence : cimeterre/wakizashi/ninja-to
+Type : arme à 1 main
+Force requise : 10~
+@7650426= ~Les frondes existent depuis la nuit des temps. La fronde de base se compose d'une courroie en cuir ou en tissu comportant une bourse pouvant contenir un projectile. L'utilisateur fait tourner la courroie en la tenant par les deux extrémités. Lorsque la vitesse maximale est atteinte, il suffit de relâcher l'une des extrémités de la courroie pour larguer le projectile.
+
+PARAMETRES :
+
+TAC0 : +1
+Poids : 0
+Facteur de vitesse : 6
+Type de compétence : fronde
+Type : arme à 1 main
+Force requise : 3~
+@7650427= ~La lance, l'une des premières armes de l'homme, remonte aux temps les plus reculés et était initialement constituée d'un pic ou d'un bâton de bois taillé en pointe à une extrémité. Avec la découverte et la maîtrise des métaux, les hommes ont commencé à remplacer les pointes en bois par des pointes en fer et en acier. Les armuriers ont alors pu essayer différents types de pointes, ce qui a permis l'élaboration de certains types d'armes d'hast.
+
+PARAMETRES :
+
+Dégâts : 1D6
+TAC0 : +1
+Type de dégâts : perçant
+Poids : 5
+Facteur de vitesse : 6
+Type de compétence : lance
+Type : arme à 2 mains
+Force requise : 5~
+@7650428= ~Réputé être l'arme contondante la moins sophistiquée, le bâton est un bout de bois d'une longueur de 1,80 m à 2,80 m. Les bâtons de qualité supérieure sont fabriqués en chêne robuste et sont ferrés de métal aux deux extrémités. Le bâton doit être manié des deux mains. 
+
+PARAMETRES :
+
+Dégâts : 1D6
+TAC0 : +1
+Type de dégâts : contondant
+Poids : 4
+Facteur de vitesse : 4
+Type de compétence : bâton
+Type : arme à 2 mains
+Force requise : 5~
+@7650429= ~Egalement connue sous le nom d'épée à une main et demie, l'épée bâtarde tire son nom de son aspect intermédiaire entre l'épée à 2 mains et l'épée longue. Elle possède une lame à double tranchant et une longue poignée, qui peut éventuellement accueillir les deux mains. La longueur de l'épée bâtarde varie entre 1,20 m et 1,50 m.
+
+PARAMETRES :
+
+Dégâts : 2D4
+TAC0 : +1
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 8
+Type de compétence : épée bâtarde
+Type : arme à 1 main
+Force requise : 11~
+@7650430= ~L'épée à 2 mains est un dérivé de l'épée longue. Les armuriers ont toujours cherché à améliorer les armes de leur temps. Pour l'épée longue, ils ont allongé la lame. Après la lame, c'est la poignée qui s'est allongée. Il est alors devenu nécessaire d'utiliser les deux mains pour manier l'épée. La fonction première de l'épée à 2 mains est de désarçonner les chevaliers montés et de désorganiser les haies de piques.
+
+PARAMETRES :
+
+Dégâts : 1D10
+TAC0 : +1
+Type de dégâts : tranchant
+Poids : 15
+Facteur de vitesse : 10
+Type de compétence : épée à 2 mains
+Type : arme à 2 mains
+Force requise : 14~
+@7650431= ~Le katana est une épée légèrement courbée à simple tranchant, dont la lame se termine en pointe. C'est probablement une des meilleures épées jamais conçues. Les étapes de sa fabrication constituent un procédé long et secret qui est considéré plus comme un art que comme une technique. Cette lame représente un aspect important de la culture de Kara-Tur. C'est faire insulte à un samouraï et provoquer sa colère que d'utiliser ou même de toucher son katana. Il est très rare pour un gaïjin, un étranger, de posséder une telle lame. Cela implique que le gaïjin soit l'ami estimé d'un personnage important, ou bien qu'il ait assassiné un samouraï.
+
+PARAMETRES :
+
+Dégâts : 1D10
+TAC0 : +1
+Type de dégâts : tranchant
+Poids : 6
+Facteur de vitesse : 4
+Type de compétence : katana
+Type : arme à 1 main
+Force requise : 6~
+@7650432= ~Ces épées sont généralement appelées épées à double tranchant, épées de guerre ou épées militaires. Souvent, l'épée longue a une lame à simple tranchant. Le modèle et la longueur de l'épée varient d'un peuple à un autre, parfois même d'une époque à une autre. L'une des caractéristiques communes à toutes les épées de ce type est la longueur, comprise entre 90 cm et 1,20 m. Dans le cas des épées les plus longues, la lame couvre 1 m de la longueur totale. La plupart des épées longues ont une lame à double tranchant et un estoc pointu. Malgré son estoc, l'épée longue est une arme considérée comme tranchante, et non perforante. 
+
+PARAMETRES :
+
+Dégâts : 1D8
+TAC0 : +1
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 5
+Type de compétence : épée longue
+Type : arme à 1 main
+Force requise : 6~
+@7650433= ~L'épée du ninja, le ninja-to est de qualité inférieure aux autres lames de Kara-Tur, comme le katana. Le ninja-to est court et sa lame est droite, ce qui le rend idéal pour la dissimulation. Il est aussi plus approprié pour le combat en espace confiné, donnant parfois l'avantage aux ninjas sur les lames plus longues utilisées par les samouraïs.
+
+PARAMETRES :
+
+Dégâts : 1D8
+TAC0 : +1
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : cimeterre/wakizashi/ninja-to
+Type : arme à 1 main
+Force requise : 6~
+@7650434= ~L'épée courte est le premier type d'épée à être apparu. Grossièrement, on peut comparer une épée courte à une dague dont la lame serait si longue qu'on ne pourrait plus l'appeler dague. Le terme épée courte n'entre pas dans les catégories d'épées. Pourtant, il est utilisé pour décrire une lame à double tranchant longue d'environ 60 cm. L'estoc de l'épée est généralement pointu, et on la range donc parmi les armes perforantes.
+
+PARAMETRES :
+
+Dégâts : 1D6
+TAC0 : +1
+Type de dégâts : perçant
+Poids : 3
+Facteur de vitesse : 3
+Type de compétence : épée courte
+Type : arme à 1 main
+Force requise : 5~
+@7650435= ~Le wakizashi est une arme essentielle pour tout samouraï. C'est l'arme qu'il porte en permanence, même en intérieur, et qu'il garde à portée de main pendant son sommeil. Fabriqué de la même façon que le katana, le wakizashi est, malgré sa plus petite taille, une arme redoutable entre les mains d'un pratiquant accompli.
+
+PARAMETRES :
+
+Dégâts : 1D8
+TAC0 : +1
+Type de dégâts : perçant
+Poids : 3
+Facteur de vitesse : 3
+Type de compétence : cimeterre/wakizashi/ninja-to
+Type : arme à 1 main
+Force requise : 5~
+@7650436= ~Les cavaliers peuvent difficilement manier les armes longues. C'est pourquoi de nombreuses armes ont été munies de manches plus courts pouvant être portées d'une seule main. La masse et le fléau sont deux exemples d'armes longues qui ont suivi cette évolution, le marteau de guerre en est un autre. Le marteau de guerre du cavalier est le descendant du marteau de Lucerne. Il est entièrement fabriqué en acier, avec des rondelles pour protéger et renforcer la prise. Les rondelles sont de petits disques métalliques, souvent en forme de motifs décoratifs. Le manche mesure environ 45 cm de long.
+
+PARAMETRES :
+
+Dégâts : 1D4 +1
+TAC0 : +1
+Type de dégâts : contondant
+Poids : 6
+Facteur de vitesse : 4
+Type de compétence : marteau de guerre
+Type : arme à 1 main
+Force requise : 9~
+@7650437= ~La hache à main, ou hache de jet, est également connue sous l'appellation de hachette. Sa lame comporte une lame d'acier tranchante, contrebalancée par une barbelure pointue. La courte poignée comporte une pointe en bas et la tête comporte parfois une pointe en haut.
+
+PARAMETRES :
+
+Dégâts : 1D6 +1
+TAC0 : +1
+Type de dégâts : projectile (perçant)
+Poids : 5
+Facteur de vitesse : 4
+Type de compétence : hache
+Type : arme à 1 main
+Force requise : 4~
+@7650438= ~Une arbalète est un arc monté en croix sur un manche en métal ou en bois, appelé alors un arbrier. L'arc est généralement en bois de frêne ou d'if. L'arbalète décoche un carreau lourd (également appelé simplement carreau).
+
+PARAMETRES :
+
+Dégâts : +2 (projectile)
+TAC0 : +1
+Poids : 14
+Facteur de vitesse : 10
+Type de compétence : arbalète
+Type : arme à 2 mains
+Force requise : 12~
+@7650439= ~Une arbalète est un arc monté en croix sur un manche en métal ou en bois, appelé alors un arbrier. L'arc est généralement en bois de frêne ou d'if. L'arbalète décoche un carreau lourd (également appelé simplement carreau). Les arbalètes légères, en plus de leur poids plus faible, ont une cadence de tir plus élevée.
+
+PARAMETRES :
+
+TAC0 : +1
+Poids : 7
+Facteur de vitesse : 5
+Type de compétence : arbalète
+Type : à 2 mains
+Force requise : 8~
+
+@650445= ~Cette arme puissante a été créée par les forgerons des Dieux des plans. Pour les hommes du nord qui gardent les croyances religieuses du Ragnarök, le marteau de guerre de Lokin joue un rôle dans la bataille qui empêche le Ragnarök de prendre effet avant l'heure. Ce marteau de guerre confère à son porteur un bonus à sa classe d'armure, lui permet de se servir de l'arme avec une compétence au niveau maître en marteau et lui procure un certain nombre de résistances spécifiques aux types de dégâts : Poison, Feu, Froid, Acide et Electricité.
+
+PARAMETRES :
+
+Dégâts : 2D8 +5
+Type de dégâts : contondant
+TAC0 : +5
+Spécial :
+   +4 à la classe d'armure
+   +5 étoiles de maîtrise dans les marteaux de guerre
+   +50% de résistance au Feu
+   +50% de résistance au Froid
+   +50% de résistance à l'Acide
+   +50% de résistance au Poison
+   +50% de résistance à l'Electricité
+Poids : 6
+Facteur de vitesse : 4
+Type de compétence : marteau de guerre
+Type : arme à 1 main~
+@650449= ~Il s'agit simplement d'un bâton de 70 centimètres forgé à partir de titane, un métal lourd de grande valeur. Cette barre de métal peut être utilisée comme une arme, cependant, si on y attache la tête d'une masse ou d'un autre outil, elle pourrait se transformer en une arme formidable entre les mains d'un porteur expérimenté.
+
+PARAMETRES :
+
+Dégâts : 1D8
+Type de dégâts : contondant
+Poids : 3
+Facteur de vitesse : 4
+Type de compétence : gourdin
+Type : arme à 1 main
+Force nécessaire : 5~
+
+@650450= ~Cette arme puissante a été créée par les forgerons des Dieux des plans. Pour les hommes du nord qui gardent les croyances religieuses du Ragnarök, le marteau de guerre de Lokin joue un rôle dans la bataille qui empêche le Ragnarök de prendre effet avant l'heure. Ce marteau de guerre confère à son porteur un bonus à sa classe d'armure, lui permet de se servir de l'arme avec une compétence au niveau maître en marteau et lui procure un certain nombre de résistances spécifiques aux types de dégâts : Poison, Feu, Froid, Acide et Electricité.
+
+PARAMETRES :
+
+Dégâts : 1D10 +4
+Type de dégâts : contondant
+TAC0 : +4
+Spécial :
+   +2 à la classe d'armure
+   +4 étoiles de maîtrise dans les marteaux de guerre
+   +25% de résistance au Feu
+   +25% de résistance au Froid
+   +25% de résistance à l'Acide
+   +25% de résistance au Poison
+   +25% de résistance à l'Electricité
+Poids : 6
+Facteur de vitesse : 4
+Type de compétence : marteau de guerre
+Type : arme à 1 main~
+@650452= ~Ce bâton, après une rapide inspection, ressemble à tous les autres bâtons de combat. Cependant, sur celui-ci ont été gravés des symboles et des runes qui ont été incrustés avec un enduit coloré argenté. Ce bâton, malgré ses décorations, à l'air extrêmement important. Peut-être serait-il sage de retrouver son propriétaire initial, ou sa tribu d'origine, afin de toucher une récompense pour un héritage de cette nature.
+
+Bien que cela ressemble à un bâton commun, cet objet possède quelques propriétés magiques mineures. Premièrement, il confère un bonus de 1D4 points de dégâts contondants pour chaque coup porté avec succès. En outre, en s'équipant de ce bâton, son propriétaire reçoit automatiquement un bonus de +2 à son TAC0. Enfin, le bâton possède la capacité de bénir son porteur et ses compagnons une fois par jour. Le bâton se recharge automatiquement au fur et à mesure que le temps passe.
+
+PARAMETRES :
+
+Dégâts : 1D6 + 1D4
+Type de dégâts : contondant
+Spécial :
+ +2 au TAC0 tant que le bâton est équipé
+ Invoque Bénédiction sur le porteur une fois par jour
+Poids : 4
+Facteur de vitesse : 4
+Type de compétence : bâton
+Type : arme à 2 mains
+Force nécessaire : 5~
+
+@650458= ~La chasse aux gorgones est un sport très dangereux pratiqué par les elfes noirs. Souvent, après une chasse réussie, le sang de la gorgone est récupéré pour être utilisé dans la fabrication d'une nouvelle armure de plates. Ces armures spéciales des elfes noires sont capables de supporter la lumière du monde de la surface.
+
+PARAMETRES :
+
+Classe d'armure : -2
+Bonus : 30 % de résistance au feu et à l'acide
+Poids : 20
+Force nécessaire : 12~
+
+@650479= ~L'épée large combine l'efficacité d'une épée longue avec la force d'une épée à deux mains. Les artisans ont toujours cherché à améliorer les armes existantes. Pour améliorer l'épée longue, la lame a été rallongée. Naturellement, la garde a aussi dû être rallongée et l'utilisation des deux mains devint nécessaire pour utiliser correctement l'épée.
+
+PARAMETRES :
+
+Dégâts : 1D12
+Type de dégâts : tranchant
+Poids : 12
+Facteur de vitesse : 8
+Type de compétence : épée longue
+Type : arme à 2 mains
+Force nécessaire : 9~
+@650480= ~Il s'agit de l'arme de Paddy Stoutfellow. C'est une une lourde épée longue taillée spécialement pour une petite-personne. Ses enchantements magiques lui ont été très utiles dans la forêt de Téthyr.
+
+PARAMETRES :
+
+TAC0 : +2
+Dégâts : 1D12 +2
+Type de dégât : tranchant
+Poids : 3
+Facteur de vitesse : 3
+Type de compétence : épée longue
+Type : arme à 1 main
+Force nécessaire : 6~
+@650488= ~Anneau de protection +3 : "L'Anneau du Gardien"
+Le Gardien était une sentinelle immortelle assignée à la protection d'une tombe qui renfermait le corps d'une princesse d'Akanal. Après des millénaires de respect, la tombe disparaissait des mémoires du peuple, emmenant avec elle la mémoire de la famille royale, et les aventuriers commencèrent à tenter leur chance avec le Gardien. Il devint inévitable que ce dernier ait été surpassé par les évènements, et effectivement, l'anneau qu'il portait constitue une des pièces parmi les nombreux trésors pillés dans la tombe.
+
+PARAMETRES :
+
+Classe d'armure : +3
+Jets de sauvegarde : +3~
+
+@650492= ~L'histoire de cette arme est inconnue. Elle vous a été donnée par Crowley, un rôdeur qui désire la faire aiguiser. Vous l'avez fait, et êtes sur le point de lui ramener la hache dans la région boisée au nord d'Amn. Cette hache particulière confère à son porteur un bonus à sa classe d'armure et lui permet d'utiliser l'arme avec un type de compétence au niveau maître en hache tout en lui procurant un certain nombre de résistances magiques contre différents types de dégâts : Poison, Feu, Froid, Acide et Electricité.
+
+PARAMETRES :
+
+Dégâts : 2D8 +5
+Type de dégâts : tranchant
+TAC0 : +5
+Spécial :
+  +2 à la classe d'armure
+  +4 étoiles de maîtrise dans les haches
+  25% de résistance au Feu
+  25% de résistance au Froid
+  25% de résistance à l'Acide
+  25% de résistance au Poison
+  25% de résistance à l'Electricité
+Poids : 7
+Facteur de vitesse : 3
+Type de compétence : hache~
+@650513= ~Quelques-uns de ces boucliers peuvent être trouvés dans les temples de Waukyne à travers Féérune. L'église fabrique ces boucliers pour les vendre aux aventuriers entreprenants. En échange du pouvoir de l'objet, le porteur se doit de garder l'avant du bouclier visible et dans son état original. Si le porteur ne le fait pas, le pouvoir du bouclier disparaît. C'est pour cela que des douzaines d'aventuriers parcourent les Royaumes en arborant le visage en or de Waukyne sur leur bras.
+
+PARAMETRES :
+
+Bonus à la classe d'armure : +3
+Bonus aux jets de sauvegarde : +2
+Résistance à la magie : +10%
+Poids : 4~
+@650515= ~Les seules parties matérielles de cette arme de glace sont la garde, le manche et le pommeau, travaillé à partir d'argent brillant et de métal. Elle fut créée en 1099 DR par l'élue d'Aurile, Ihanora la Compatissante. Ihanora parcourut le nord, lançant de rudes attaques contre tous ceux qui tentaient de combattre le froid et ses effets. Elle voyageait avec une équipe très hétérogène de yétis, de vers polaires, de géants des glaces et de dragons blancs, congelant tout ce qui se trouvait dans leur sillage. Ihanora fut vaincue en 1108 par la renommée Brigade des Masques Rouges, dirigée par le tueur Harley l'Implacable.
+
+PARAMETRES :
+
+Dégâts : 2D4 +2
+TAC0 : +2
+Spécial :
+  2% de chance de transformer la cible en bloc de glace
+Type de dégâts : froid
+Poids : 10
+Facteur de vitesse : 6
+Type de compétence : épée bâtarde
+Type : arme à 1 main~
+@650518= ~La lance, l'une des premières armes de l'homme, remonte aux temps les plus reculés et était initialement constituée d'un pic ou d'un bâton de bois taillé en pointe à une extrémité. Avec la découverte et la maîtrise des métaux, les hommes ont commencé à remplacer les pointes en bois par des pointes en fer et en acier. Les armuriers ont alors pu essayer différents types de pointes, ce qui a permis l'élaboration de certains types d'armes d'hast. Cette lance est légèrement différente dans le sens où elle possède quelques évolutions. La tête possède quelques piques pour provoquer plus de dégâts lorsque la lance est retirée du corps de la victime, et le manche a été renforcé avec de petits anneaux de métal pour empêcher le bois de se fendre. Ces anneaux possèdent également de petites lames dirigées dans des directions variées. L'autre bout de la lance est recouvert d'une pièce de métal qui permet d'utiliser l'objet comme une arme contondante.
+
+PARAMETRES :
+
+TAC0 : Bonus de +1
+Dégâts : 
+ 1D6 +1 (perforant) 
+ 1D4 +1 (contondant)
+ 1D4 +1 (tranchant)
+Type de dégâts : perforant
+Portée : 70
+Poids : 5
+Facteur de vitesse : 5
+Type de compétence : lance
+Type : arme 2 mains
+Force nécessaire : 5~
+@650525= ~Cette épée puissante a été créée par des forgerons pour des bardes. Cette Lame de Chantesort a été donnée à <Player1> par un Maître Barde, un ancien instructeur au Collège Bardique de Lunargent, et a accepté <Player1> comme son porteur légitime. Seul celui qui a été choisi par la Lame de Chantesort est capable de l'utiliser ; toute autre personne qui tentera de s'en emparer se brûlera horriblement et pourra même en mourir. Cette Lame de Chantesort en particulier procure à son porteur un bonus à la classe d'armure et lui permet d'utiliser l'arme avec une compétence à l'épée au niveau maitre, tout en lui procurant des résistances spécifiques aux types de dégâts suivants : Poison, Feu, Froid, Acide et Electricité.
+
+PARAMETRES :
+
+Dégâts : 2D8 +5
+TAC0 : +5
+Spécial :
+ +4 à la classe d'armure
+ +5 étoiles de maîtrise dans les épées longues
+ 50% de résistance au Feu
+ 50% de résistance au Froid
+ 50% de résistance à l'Acide
+ 50% de résistance au Poison
+ 50% de résistance à l'Electricité
+Type de dégâts : tranchant
+Poids : 3
+Facteur de vitesse : 3
+Type de compétence : épée longue
+Type : à 1 main~
+@650526= ~Cette épée puissante a été créée par des forgerons pour des bardes. Cette Lame de Chantesort a été donnée à <Player2> par un Maître Barde, un ancien instructeur du Collège Bardique de Lunargent, et a accepté <Player2> comme son porteur légitime. Seul celui qui a été choisi par la Lame de Chantesort est capable de l'utiliser ; toute autre personne qui tentera de s'en emparer se brûlera horriblement et pourra même en mourir. Cette Lame de Chantesort en particulier procure à son porteur un bonus à la classe d'armure et lui permet d'utiliser l'arme avec une compétence à l'épée au niveau maitre, tout en lui procurant des résistances spécifiques aux types de dégâts suivants : Poison, Feu, Froid, Acide et Electricité.
+
+PARAMETRES :
+
+Dégâts : 2D8 +5
+TAC0 : +5
+Spécial :
+ +4 à la classe d'armure
+ +5 étoiles de maîtrise dans les épées longues
+ 50% de résistance au Feu
+ 50% de résistance au Froid
+ 50% de résistance à l'Acide
+ 50% de résistance au Poison
+ 50% de résistance à l'Electricité
+Type de dégâts : tranchant
+Poids : 3
+Facteur de vitesse : 3
+Type de compétence : épée longue
+Type : à 1 main~
+@650527= ~Cette épée puissante a été créée par des forgerons pour des bardes. Cette Lame de Chantesort a été donnée à <Player3> par un Maître Barde, un ancien instructeur du Collège Bardique de Lunargent, et a accepté <Player3> comme son porteur légitime. Seul celui qui a été choisi par la Lame de Chantesort est capable de l'utiliser ; toute autre personne qui tentera de s'en emparer se brûlera horriblement et pourra même en mourir. Cette Lame de Chantesort en particulier procure à son porteur un bonus à la classe d'armure et lui permet d'utiliser l'arme avec une compétence à l'épée au niveau maitre, tout en lui procurant des résistances spécifiques aux types de dégâts suivants : Poison, Feu, Froid, Acide et Electricité.
+
+PARAMETRES :
+
+Dégâts : 2D8 +5
+TAC0 : +5
+Spécial :
+ +4 à la classe d'armure
+ +5 étoiles de maîtrise dans les épées longues
+ 50% de résistance au Feu
+ 50% de résistance au Froid
+ 50% de résistance à l'Acide
+ 50% de résistance au Poison
+ 50% de résistance à l'Electricité
+Type de dégâts : tranchant
+Poids : 3
+Facteur de vitesse : 3
+Type de compétence : épée longue
+Type : à 1 main~
+@650528= ~Cette épée puissante a été créée par des forgerons pour des bardes. Cette Lame de Chantesort a été donnée à <Player4> par un Maître Barde, un ancien instructeur du Collège Bardique de Lunargent, et a accepté <Player4> comme son porteur légitime. Seul celui qui a été choisi par la Lame de Chantesort est capable de l'utiliser ; toute autre personne qui tentera de s'en emparer se brûlera horriblement et pourra même en mourir. Cette Lame de Chantesort en particulier procure à son porteur un bonus à la classe d'armure et lui permet d'utiliser l'arme avec une compétence à l'épée au niveau maitre, tout en lui procurant des résistances spécifiques aux types de dégâts suivants : Poison, Feu, Froid, Acide et Electricité.
+
+PARAMETRES :
+
+Dégâts : 2D8 +5
+TAC0 : +5
+Spécial :
+ +4 à la classe d'armure
+ +5 étoiles de maîtrise dans les épées longues
+ 50% de résistance au Feu
+ 50% de résistance au Froid
+ 50% de résistance à l'Acide
+ 50% de résistance au Poison
+ 50% de résistance à l'Electricité
+Type de dégâts : tranchant
+Poids : 3
+Facteur de vitesse : 3
+Type de compétence : épée longue
+Type : à 1 main~
+@650529= ~Cette épée puissante a été créée par des forgerons pour des bardes. Cette Lame de Chantesort a été donnée à <Player5> par un Maître Barde, un ancien instructeur du Collège Bardique de Lunargent, et a accepté <Player5> comme son porteur légitime. Seul celui qui a été choisi par la Lame de Chantesort est capable de l'utiliser ; toute autre personne qui tentera de s'en emparer se brûlera horriblement et pourra même en mourir. Cette Lame de Chantesort en particulier procure à son porteur un bonus à la classe d'armure et lui permet d'utiliser l'arme avec une compétence à l'épée au niveau maitre, tout en lui procurant des résistances spécifiques aux types de dégâts suivants : Poison, Feu, Froid, Acide et Electricité.
+
+PARAMETRES :
+
+Dégâts : 2D8 +5
+TAC0 : +5
+Spécial :
+ +4 à la classe d'armure
+ +5 étoiles de maîtrise dans les épées longues
+ 50% de résistance au Feu
+ 50% de résistance au Froid
+ 50% de résistance à l'Acide
+ 50% de résistance au Poison
+ 50% de résistance à l'Electricité
+Type de dégâts : tranchant
+Poids : 3
+Facteur de vitesse : 3
+Type de compétence : épée longue
+Type : à 1 main~
+@650530= ~Cette épée puissante a été créée par des forgerons pour des bardes. Cette Lame de Chantesort a été donnée à <Player6> par un Maître Barde, un ancien instructeur du Collège Bardique de Lunargent, et a accepté <Player6> comme son porteur légitime. Seul celui qui a été choisi par la Lame de Chantesort est capable de l'utiliser ; toute autre personne qui tentera de s'en emparer se brûlera horriblement et pourra même en mourir. Cette Lame de Chantesort en particulier procure à son porteur un bonus à la classe d'armure et lui permet d'utiliser l'arme avec une compétence à l'épée au niveau maitre, tout en lui procurant des résistances spécifiques aux types de dégâts suivants : Poison, Feu, Froid, Acide et Electricité.
+
+PARAMETRES :
+
+Dégâts : 2D8 +5
+TAC0 : +5
+Spécial :
+ +4 à la classe d'armure
+ +5 étoiles de maîtrise dans les épées longues
+ 50% de résistance au Feu
+ 50% de résistance au Froid
+ 50% de résistance à l'Acide
+ 50% de résistance au Poison
+ 50% de résistance à l'Electricité
+Type de dégâts : tranchant
+Poids : 3
+Facteur de vitesse : 3
+Type de compétence : épée longue
+Type : à 1 ~
+@650532= ~Cette lame puissante a été créée par des forgerons pour des bardes qui voulaient une arme résistante. Seul un barde peut prendre cette épée en main, tout autre personne essayant de brandir la lame sera horriblement brûlée, et pourrait bien en mourir. Cette Lame de Chantesort accorde à son porteur un bonus à la classe d'armure, lui permet d'utiliser l'arme avec un type de compétence au niveau maître en épées courtes et le protège contre certains types de dégâts spécifiques : Poison, Feu, Froid, Acide et Electricité.
+
+PARAMETRES :
+
+Dégâts : 1D10 +4
+TAC0 : +4
+Spécial :
+  +2 à la Classe d'Armure
+  +4 étoiles de maîtrise dans les épées courtes
+  25% de résistance au Feu
+  25% de résistance au Froid
+  25% de résistance à l'Acide
+  25% de résistance au Poison
+  25% de résistance à l'Electricité
+Type de dégâts : tranchant
+Poids : 3
+Facteur de vitesse : 4
+Type de compétence : épée courte
+Type : arme à 1 main~
+
+@650544= ~Les larges capes font le bonheur de nombre d'épéistes, qui peuvent, grâce au vêtement volumineux, se saisir sans danger de l'arme de l'adversaire. Cette cape en particulier procure une protection contre les armes tranchantes et perforantes, qui ont une chance de se "coincer" dans le vêtement.
+
+PARAMETRES :
+
+Classe d'Armure : +2 contre les armes tranchantes et perforantes
+Jets de Sauvegarde : +2
+Une fois par jour, accorde une protection similaire au sort "Peau de Pierre" contre les cinq premières attaques suivant l'incantation
+Poids : 6~
+
+@650548= ~Juste Equilibre
+Cette épée courte appartenait à Tardeth Llanistaph, de la Compagnie des Huit. Il est curieux que vous soyez maintenant en sa possession. Peut-être que vous avez acheté cette épée illégalement au marché noir, peut-être que Tardeth a été assassiné et que l'arme a été récupérée sur son cadavre, ou alors peut-être que vous avez fureté dans le campement de la Compagnie et que vous avez fouillé dans leurs affaires sans qu'ils s'en aperçoivent.
+
+Peut-être même que l'épée n'est pas du tout en votre possession, mais que vous le croyez parce que vous lisez ceci à travers un morceau de verre brillant et magique de dimensions 1280 par 1024.
+
+PARAMETRES :
+
+Dégâts : 1D6 +3
+TAC0 : +3
+Spécial :
+ Le porteur porte des attaques supplémentaires qui ralentissent la vitesse de déplacement de la cible
+ Le porteur acquiert automatiquement le maniement de Juste Equilibre
+Type de dégâts : perforant
+Poids : 2
+Facteur de Vitesse : 0
+Type de Compétence : épée courte
+Type : arme à 1 main
+Force nécessaire : 5~
+@7650549= ~La version la plus répandue de la hache d'armes est une grande hampe d'environ 1,20 mètre de long comportant une lame à un seul tranchant et en forme de trompette montée sur une extrémité. Les haches d'armes sont également appelées grandes haches. 
+
+PARAMETRES :
+
+Dégâts : 1D8 +3
+TAC0 : +3
+Type de dégâts : tranchant
+Poids : 6
+Facteur de Vitesse : 7
+Type de Compétence : hache
+Type : arme à 1 main
+Force nécessaire : 10~
+@650551= ~Une cotte de mailles est faite d'anneaux de métal liés les uns aux autres. On la porte sur un rembourrage de tissu ou de cuir souple pour éviter d'irriter la peau et pour amortir les impacts. Un enchantement améliore la protection qu'offre cette armure. Cette armure +5 a été forgée par Throm Sturman de Hlondeth.
+
+PARAMETRES :
+
+Classe d'Armure : 0
+Poids : 10
+Force nécessaire : 8~
+@7650552= ~La dague traditionnelle a une lame pointue généralement à double tranchant, contrairement au couteau doté d'un seul tranchant et un peu plus court.
+
+PARAMETRES :
+
+Dégâts : 1D8 +2
+TAC0 : +4
+Type de dégâts : perforant
+Poids : 1
+Facteur de Vitesse : 1
+Type de Compétence : dague
+Type : arme à 1 main
+Force nécessaire : 3~
+@7650553= ~Le fléau est une solide poignée en bois attachée à une tringle en fer, une baguette de bois comportant des pointes, ou une balle en fer pointue. La poignée et l'équipement qui l'accompagne sont reliés par une charnière ou une chaîne. Cette arme servait à l'origine à battre le grain.
+
+PARAMETRES :
+
+Dégâts : 1D8 +5
+TAC0 : +4
+Type de dégâts : contondant
+Poids : 12
+Facteur de Vitesse : 7
+Type de Compétence : fléau/étoile du matin
+Type : arme à 1 main
+Force nécessaire : 13~
+@7650554= ~De loin l'arme d'hast la plus ancienne et la plus répandue, la hallebarde se compose d'une hache en forme de couperet montée sur un bâton de 1,80 m de long. La hache est équilibrée à l'arrière par un barbillon et surmontée d'une pointe acérée, généralement de forme quadrangulaire. Le barbillon est parfois remplacé par un crochet utilisé pour faire tomber l'ennemi de cheval. La hallebarde est en réalité un croisement entre la lance et la hache.
+
+PARAMETRES :
+
+Dégâts : 1D12 +1
+TAC0 : +2
+Type de dégâts : perforant
+Poids : 13
+Facteur de Vitesse : 8
+Type de Compétence : hallebarde
+Type : arme à 2 mains
+Force nécessaire : 13~
+@650556= ~L'armure de plates complète est la meilleure protection qu'un guerrier puisse acquérir, en performance et en apparence. Les plaques s'ajustent parfaitement et sont courbées de façon à dévier coups et projectiles. Toute l'armure est recouverte de gravures et de détails en relief. Avec ses enchantements magiques, c'est l'armure ultime du guerrier. Cette armure +5 a été forgée par Throm Sturman de Hlondeth.
+
+PARAMETRES :
+
+Classe d'Armure : -4
+Poids : 20
+Force nécessaire : 15~
+@650558= ~Ce bouclier a été forgé par Throm Sturman de Hlondeth à partir de plusieurs matériaux de qualité.
+
+PARAMETRES :
+
+Bonus à la Classe d'Armure : 6
+Special: +2 contre les armes à projectiles
+Poids : 10
+Force nécessaire : 10~
+@7650559= ~La lance, l'une des premières armes de l'homme, remonte aux temps les plus reculés et était initialement constituée d'un pic ou d'un bâton de bois taillé en pointe à une extrémité. Avec la découverte et la maîtrise des métaux, les hommes ont commencé à remplacer les pointes en bois par des pointes en fer et en acier. Les armuriers ont alors pu essayer différents types de pointes, ce qui a permis l'élaboration de certains types d'armes d'hast.
+
+PARAMETRES :
+
+Dégâts : 1D10
+TAC0 : +4
+Type de dégâts : perforant
+Poids : 4
+Facteur de Vitesse : 4
+Type de Compétence : lance 
+Type : arme à 2 mains
+Force nécessaire : 5~
+@650561= ~L'armure feuilletée est une variante de l'armure à bandes. Elle comporte des bandes métalliques appliquées verticalement au renforcement des mailles, du cuir et du tissu, plutôt qu'horizontalement comme dans l'armure à bandes. Comme le corps humain ne pivote pas au niveau du torse autant qu'il peut se courber en avant, l'armure feuilletée limite les mouvements lors des combats. Cette armure a été forgée par Throm Sturman de Hlondeth, et accorde à son porteur un bonus supplémentaire de 4 points à la classe d'armure.
+
+PARAMETRES :
+
+Classe d'Armure : 1
+Poids : 10
+Force nécessaire : 8~
+@7650562= ~Ces épées sont généralement appelées épées à double tranchant, épées de guerre ou épées militaires. L'épée longue a généralement une lame à simple tranchant. Le modèle et la longueur de l'épée varient d'un peuple à un autre, parfois même d'une époque à une autre. L'une des caractéristiques communes à toutes les épées de ce type est la longueur, comprise entre 90 cm et 1,20 m. Dans le cas des épées les plus longues, la lame couvre 1 m de la longueur totale. La plupart des épées longues ont une lame à double tranchant et un estoc pointu. Malgré son estoc, l'épée longue est une arme considérée comme tranchante, et non perforante.
+
+PARAMETRES :
+
+Dégâts : 1D8 +3
+TAC0 : +3
+Type de dégâts : tranchant
+Poids : 3
+Facteur de Vitesse : 5
+Type de Compétence : épée longue
+Type : arme à 1 main
+Force nécessaire : 6~
+@7650563= ~Les cavaliers peuvent difficilement manier les armes longues. C'est pourquoi de nombreuses armes ont été munies de manches plus courts pouvant être portées d'une seule main. La masse et le fléau sont deux exemples d'armes longues qui ont suivi cette évolution, le marteau de guerre en est un autre. Le marteau de guerre du cavalier est le descendant du marteau de Lucerne. Il est entièrement fabriqué en acier, avec des rondelles pour protéger et renforcer la prise. Les rondelles sont de petits disques métalliques, souvent en forme de motifs décoratifs. Le manche mesure environ 45 cm de long.
+
+PARAMETRES :
+
+Dégâts : 2D6 +3
+TAC0 : +4
+Type de dégâts : contondant
+Poids : 5
+Facteur de Vitesse : 3
+Type de Compétence : marteau de guerre
+Type : arme à 1 main
+Force nécessaire : 9~
+@650566= ~Cette petite trousse à outils contient de petites sondes, des clés squelettes, des lames, des limes, des crochets, des ciseaux, un assortiment de petites pinces et de petites tenailes, ainsi que beaucoup d'autres petits objets utiles à tout voleur digne de ce nom. Ces outils peuvent se révéler d'une aide précieuse lorsqu'il s'agit de désamorcer des pièces, de crocheter des serrures ou même de voler à la tire lorsque la cible est particulièrement retorse.
+
+PARAMETRES :
+
+Crochetage des serrures : +30 %
+Détection/désamorçage des pièges : +15 %
+Vol à la tire : +15 %
+
+Mettez l'objet dans l'emplacement du bouclier pour bénéficier des bonus.~
+
+@650568= ~Rapière de Valiant
+
+Forgée spécifiquement pour le service de Torm ou de Tyr, Valiant, un ancien aventurier qui s'est retiré dans la Hlondeth pour y pratiquer le commerce d'armes magiques, a de nombreuses fois utilisé cette arme au cours de ses batailles. La lame brillante et fine de cette arme a été enchantée par magie ou par bénédiction pour que son porteur frappe avec une finesse et une précision telle qu'il semble danser au lieu de combattre...
+
+PARAMETRES :
+
+Dégâts : 1D8 +4
+TAC0 : +4
+Spécial : 
+ Le porteur est sous l'effet de Tornade de Fer, ce qui inclut les malus de -4 au toucher et à l'attaque
+Type de dégâts : perçant
+Poids : 1
+Facteur de vitesse : 1
+Type de compétence : épée longue
+Type : arme à 1 main
+Force requise : 6~
+
+@650602= ~Au plus haut de sa courte apogée, la Cité Elfe des Chants était célèbre pour sa musique, ses pièces et ses enchantements artistiques. Les Elfes du Cormanthor avaient créé des artéfacts qui étaient à la fois beaux et puissants. Ces objets sont encore aujourd'hui activement recherchés par les chasseurs de trésors et autre aventuriers.
+
+Cette superbe harpe sculptée dans du bois de rose et décorée avec des feuilles dorées en filigrane est l'un de ces artéfacts qui démontrent les compétences exceptionnelles des artisans Elfes. Même sans tenir compte de ses enchantements, cette harpe faite à la main est une parfaite démonstration de taille dans le bois. Sa texture aussi lisse que du cristal, le fait qu'elle ne soit taillée qu'en une seule pièce, ses gravures détaillées et la finesse de son vernis - même cinq siècles après sa création - sont là pour en témoigner. Pour ne rien gâcher, la dorure de la harpe ne s'est pas ternie, et ses cordes dorées étincellent à la lumière.
+
+Outre l'exceptionnelle facture de cette harpe, elle a été enchantée par certains des plus anciens et des plus puissants archimages Elfes de Myth Drannor. Les cordes dorées, qui sont au nombre de sept, vibrent toutes en résonance avec la Toile. Les capacités spéciales de ces cordes ne peuvent être décelées qu'à partir du moment où l'on joue de la harpe, mais il existe plusieurs Harpes de Myth Drannor dispersées dans tout Féérune, toutes possédant les mêmes propriétés. Certaines des caractéristiques de la harpe que l'on a pu découvrir incluent la capacité d'accélérer la cadence à laquelle son propriétaire peut lancer des sorts, de changer l'alignement de son auditoire, de causer une possible surdité permanente, d'accélérer la cadence d'attaque par round, ou encore d'accorder un bonus permanent au charisme.
+
+Lorsque l'on pince l'une des cordes de la Harpe de Myth Drannor, le ou les auditeurs subiront l'un des effets cités (ou un effet encore inconnu au hasard), pour le meilleur ou pour le pire. La magie utilisée détruit la corde dans le processus. Lorsque toutes les cordes dorées ont été jouées, la Harpe de Myth Drannor perd toute capacité magique.
+
+*Participant au 2002 CIMS awards (CBisson Item Making Sweepstakes - un concours de création d'objets)~
+@650603= ~Au plus haut de sa courte apogée, la Cité Elfe des Chants était célèbre pour sa musique, ses pièces et ses enchantements artistiques. Les Elfes du Cormanthor avaient créé des artéfacts qui étaient à la fois beaux et puissants. Ces objets sont encore aujourd'hui activement recherchés par les chasseurs de trésors et autre aventuriers.
+
+Cette superbe harpe sculptée dans du bois de rose et décorée avec des feuilles dorées en filigrane est l'un de ces artéfacts qui démontrent les compétences exceptionnelles des artisans Elfes. Même sans tenir compte de ses enchantements, cette harpe faite à la main est une parfaite démonstration de taille dans le bois. Sa texture aussi lisse que du cristal, le fait qu'elle ne soit taillée qu'en une seule pièce, ses gravures détaillées et la finesse de son vernis - même cinq siècles après sa création - sont là pour en témoigner. Pour ne rien gâcher, la dorure de la harpe ne s'est pas ternie, et ses cordes dorées étincellent à la lumière.
+
+Outre l'exceptionnelle facture de cette harpe, elle a été enchantée par certains des plus anciens et des plus puissants archimages Elfes de Myth Drannor. Les cordes dorées, qui sont au nombre de six, vibrent toutes en résonance avec la Toile. Les capacités spéciales de ces cordes ne peuvent être décelées qu'à partir du moment où l'on joue de la harpe, mais il existe plusieurs Harpes de Myth Drannor dispersées dans tout Féérune, toutes possédant les mêmes propriétés. Certaines des caractéristiques de la harpe que l'on a pu découvrir incluent la capacité d'accélérer la cadence à laquelle son propriétaire peut lancer des sorts, de changer l'alignement de son auditoire, de causer une possible surdité permanente, d'accélérer la cadence d'attaque par round, ou encore d'accorder un bonus permanent au charisme.
+
+Lorsque l'on pince l'une des cordes de la Harpe de Myth Drannor, le ou les auditeurs subiront l'un des effets cités (ou un effet encore inconnu au hasard), pour le meilleur ou pour le pire. La magie utilisée détruit la corde dans le processus. Lorsque toutes les cordes dorées ont été jouées, la Harpe de Myth Drannor perd toute capacité magique.
+
+*Participant au 2002 CIMS awards (CBisson Item Making Sweepstakes - un concours de création d'objets)~
+@650604= ~Au plus haut de sa courte apogée, la Cité Elfe des Chants était célèbre pour sa musique, ses pièces et ses enchantements artistiques. Les Elfes du Cormanthor avaient créé des artéfacts qui étaient à la fois beaux et puissants. Ces objets sont encore aujourd'hui activement recherchés par les chasseurs de trésors et autre aventuriers.
+
+Cette superbe harpe sculptée dans du bois de rose et décorée avec des feuilles dorées en filigrane est l'un de ces artéfacts qui démontrent les compétences exceptionnelles des artisans Elfes. Même sans tenir compte de ses enchantements, cette harpe faite à la main est une parfaite démonstration de taille dans le bois. Sa texture aussi lisse que du cristal, le fait qu'elle ne soit taillée qu'en une seule pièce, ses gravures détaillées et la finesse de son vernis - même cinq siècles après sa création - sont là pour en témoigner. Pour ne rien gâcher, la dorure de la harpe ne s'est pas ternie, et ses cordes dorées étincellent à la lumière.
+
+Outre l'exceptionnelle facture de cette harpe, elle a été enchantée par certains des plus anciens et des plus puissants archimages Elfes de Myth Drannor. Les cordes dorées, qui sont au nombre de cinq, vibrent toutes en résonance avec la Toile. Les capacités spéciales de ces cordes ne peuvent être décelées qu'à partir du moment où l'on joue de la harpe, mais il existe plusieurs Harpes de Myth Drannor dispersées dans tout Féérune, toutes possédant les mêmes propriétés. Certaines des caractéristiques de la harpe que l'on a pu découvrir incluent la capacité d'accélérer la cadence à laquelle son propriétaire peut lancer des sorts, de changer l'alignement de son auditoire, de causer une possible surdité permanente, d'accélérer la cadence d'attaque par round, ou encore d'accorder un bonus permanent au charisme.
+
+Lorsque l'on pince l'une des cordes de la Harpe de Myth Drannor, le ou les auditeurs subiront l'un des effets cités (ou un effet encore inconnu au hasard), pour le meilleur ou pour le pire. La magie utilisée détruit la corde dans le processus. Lorsque toutes les cordes dorées ont été jouées, la Harpe de Myth Drannor perd toute capacité magique.
+
+*Participant au 2002 CIMS awards (CBisson Item Making Sweepstakes - un concours de création d'objets)~
+@650605= ~Au plus haut de sa courte apogée, la Cité Elfe des Chants était célèbre pour sa musique, ses pièces et ses enchantements artistiques. Les Elfes du Cormanthor avaient créé des artéfacts qui étaient à la fois beaux et puissants. Ces objets sont encore aujourd'hui activement recherchés par les chasseurs de trésors et autre aventuriers.
+
+Cette superbe harpe sculptée dans du bois de rose et décorée avec des feuilles dorées en filigrane est l'un de ces artéfacts qui démontrent les compétences exceptionnelles des artisans Elfes. Même sans tenir compte de ses enchantements, cette harpe faite à la main est une parfaite démonstration de taille dans le bois. Sa texture aussi lisse que du cristal, le fait qu'elle ne soit taillée qu'en une seule pièce, ses gravures détaillées et la finesse de son vernis - même cinq siècles après sa création - sont là pour en témoigner. Pour ne rien gâcher, la dorure de la harpe ne s'est pas ternie, et ses cordes dorées étincellent à la lumière.
+
+Outre l'exceptionnelle facture de cette harpe, elle a été enchantée par certains des plus anciens et des plus puissants archimages Elfes de Myth Drannor. Les cordes dorées, qui sont au nombre de quatre, vibrent toutes en résonance avec la Toile. Les capacités spéciales de ces cordes ne peuvent être décelées qu'à partir du moment où l'on joue de la harpe, mais il existe plusieurs Harpes de Myth Drannor dispersées dans tout Féérune, toutes possédant les mêmes propriétés. Certaines des caractéristiques de la harpe que l'on a pu découvrir incluent la capacité d'accélérer la cadence à laquelle son propriétaire peut lancer des sorts, de changer l'alignement de son auditoire, de causer une possible surdité permanente, d'accélérer la cadence d'attaque par round, ou encore d'accorder un bonus permanent au charisme.
+
+Lorsque l'on pince l'une des cordes de la Harpe de Myth Drannor, le ou les auditeurs subiront l'un des effets cités (ou un effet encore inconnu au hasard), pour le meilleur ou pour le pire. La magie utilisée détruit la corde dans le processus. Lorsque toutes les cordes dorées ont été jouées, la Harpe de Myth Drannor perd toute capacité magique.
+
+*Participant au 2002 CIMS awards (CBisson Item Making Sweepstakes - un concours de création d'objets)~
+
+@650607= ~Cette pierre ionique fait l'objet de recherches effrenées de la part de tous les jeteurs de sorts profanes pour son enchantement puissant.
+
+PARAMETRES :
+
+Le porteur sait instinctivement où attaquer une créature cachée ou invisible sans avoir à utiliser des sorts tels que Vision véritable ou Dissipation de la magie~
+
+@650609= ~Ce tome carré, lourd et dense est rempli de pages de parchemin beige, et sa couverture est faite en hêtre recouvert de cuir tanné. Ce livre semble usé, mais reste encore en plutôt bon état. Il ne possède pas de défense magique connue, mais les agrafes en cuivre et les petits cercles décoratifs prouvent qu'il s'agit du livre de sorts perdu de Desmondal.
+
+Desmondal était un magicien respectable d'Athkatla qui mourut il y a près de soixante-dix ans d'une fièvre hivernale. Ses effets personnels ont été vendus par un marchand Amnien, Oristel, certainement après que plusieurs mages eurent la permission de recopier des sorts du Libram contre quelque paiment. Qui a acheté le Libram, et à qui il a appartenu ensuite, vous est inconnu.
+
+Il y a dix sorts dans le Libram de Desmondal, qui sont décrits plus bas. Ces sorts peuvent être mémorisés de la manière habituelle, puis déclenché comme à l'accoutumée. Par contre, les sorts restent dans le tome au lieu d'être détruits, contrairement à tout parchemin normal.
+
+Le sort, même s'il a été mémorisé par un magicien, doit être lu dans le Libram pour être déclenché. Pour ce faire, équipez le Libram dans l'emplacement du bouclier et accédez aux sorts via le bouton de capacités d'objets.
+
+PARAMETRES :
+
+Chacun des sorts suivant est présent dans le tome et peut être invoqué une fois par cycle de sommeil :
+ Chance
+ Piège à Crânes
+ Globe Mineur d'Invulnérabilité
+ Protection contre l'Electricité
+ Perce-Magie
+ Transformation de la Pierre en Chair
+ Vaporisation prismatique
+ Projection de l'Image
+ Mot de Pouvoir : Cécité
+ Absorption d'Energie
+
+Notez que les sorts inutilisés sont "perdus", on ne peut pas cumuler plus d'une incantation d'un sort particulier par cycle de sommeil. Les sorts du tome de Desmondal sont invoqués comme si le personnage était un magicien de niveau 9.
+
+*Arrivé à la seconde place du 2002 CIMS awards (CBisson Item Making Sweepstakes, concours de création d'objets de Check the Bodies)~
+@650611= ~Cet anneau de fer ciselé modifiera son apparence pour aller à n'importe quel doigt. Les pierres d'ambre qui y sont incrustées resteront froides au toucher, peu importe le temps que l'on a passé à les chauffer. Cet anneau possède un enchantement simple qui consiste à rendre son porteur éthéré. A partir du moment où il reste dans le Plan Matériel, ce bijou modifiera la structure planaire de son propriétaire, lui garantissant l'immunité contre les créatures naturelles : ours, loups, lions et autres.
+
+PARAMETRES :
+
+Protège le porteur des animaux~
+
+@650613= ~Ce grand bouclier, accompagné de l'épée du même nom, l'épée de Belvin, possède une longue histoire très connue.
+
+Lors de l'année du Printemps Eternel, de brusques et drastiques changements de climat eurent lieu dans les terres de l'ouest de Féérune. Une saison des pluies courte et un été long et intense provoquèrent une sécheresse générale. Le niveau des eaux baissa jusqu'à transformer les lacs en marécages infestés de roseaux. Le grand désert d'Anauroch s'étendit loin vers le sud.
+
+Ce fut il y a plus de trois-cent ans. Comme le désert s'étendait au sud, les gobelins qui l'habitaient durent suivre le mouvement. Durant l'été 1089, Izac Uthor rassembla les armées gobelines près du village de Thandril, situé au nord-ouest des Marches Gobelines. Ce rassemblement était formé par pas moins de 200 000 gobelins, des dizaines de milliers d'orcs et de kobolds affiliés, et de quelques milliers de hobgobelins, commandant des détachements d'orcs et de gobelins. Bien entendu, même une force d'un quart de million de soldats pouvait difficilement prétendre conquérir, et encore moins occuper Les Royaumes de l'ouest, au nord du Champ des Morts. Plusieurs discussions tendues eurent lieu en Cormyr, Borcolline, Tilverton, Soubar, Valombre, et en d'autres endroits sur la route de la gigantesque armée.
+
+Les troupes régulières des armées de plusieurs nations furent envoyées à Borcolline afin de former une coalition de forces armées pour faire face à la horde gobelinoïde. Elles venaient de Bérégost, la Porte de Baldur, Berdusk, Iriaebor, Elturel, Scornubel, Soubar et des Hautes Landes. Les troupes ne tardèrent pas à se choisir un leader : Artur Belvin, commandant des troupes de Soubar. Belvin s'équipa de son bouclier alors que les troupes des deux camps prenaient formation sur la plaine, un peu avant l'aube. Lors de la bataille, tous se combattirent où ils purent trouver un adversaire. Belvin massacra plus d'une soixantaine de gobelins, mais ce ne fut pas suffisant. Parmi les troupes d'Artur Belvin, nul ne s'en sortit indemne.
+
+A l'issue de la Bataille des Os, le bouclier fut perdu et la liste de ses éventuels propriétaires depuis lors est particulièrement hasardeuse. Cependant, des siècles plus tard, le bouclier refit enfin surface, cette fois entre les mains d'une bande de pillards orcs. Le bouclier fut récupéré par les gardes d'une caravane qui faisait route d'Eauprofonde vers Scornubel. Malheureusement, la caravane fut attaquée par une force massive de bandits orcs et demis-orcs bien mieux équipés que les gardes. Le bouclier devint ainsi la propriété d'un impitoyable demi-orc du nom de Surelame. Comment le bouclier a fini dans cette ancienne Tour des Magiciens où vous l'avez trouvé, cela reste un mystère.
+
+Ce bouclier est un objet à garder précieusement, car il est plus que probable qu'il sauve plus d'une fois la vie de son porteur au cours de ses aventures. Il accorde un bonus de 6 points à la CA et de 3 points à tous les jets de sauvegarde. En outre, le bouclier de Belvin augmente la vitesse de son porteur de 2 points, ce qui fait que les projectiles n'ont aucune chance de le toucher.
+
+PARAMETRES :
+
+Bonus à la Classe d'Armure : 6
+Spécial :
+  Immunité aux attaques à distance
+  Vitesse de mouvement augmentée
+Poids : 10
+Force nécessaire : 16~
+@650615= ~Cette lame de guerre, accompagnée du bouclier du même nom, le bouclier de Belvin, possède une longue histoire très connue.
+
+Lors de l'année du Printemps Eternel, de brusques et drastiques changements de climat eurent lieu dans les terres de l'ouest de Féérune. Une saison des pluies courte et un été long et intense provoquèrent une sécheresse générale. Le niveau des eaux baissa jusqu'à transformer les lacs en marécages infestés de roseaux. Le grand désert d'Anauroch s'étendit loin vers le sud.
+
+Ce fut il y a plus de trois-cent ans. Comme le désert s'étendait au sud, les gobelins qui l'habitaient durent suivre le mouvement. Durant l'été 1089, Izac Uthor rassembla les armées gobelines près du village de Thandril, situé au nord-ouest des Marches Gobelines. Ce rassemblement était formé par pas moins de 200 000 gobelins, des dizaines de milliers d'orcs et de kobolds affiliés, et de quelques milliers de hobgobelins, commandant des détachements d'orcs et de gobelins. Bien entendu, même une force d'un quart de million de soldats pouvait difficilement prétendre conquérir, et encore moins occuper Les Royaumes de l'ouest, au nord du Champ des Morts. Plusieurs discussions tendues eurent lieu en Cormyr, Borcolline, Tilverton, Soubar, Valombre, et en d'autres endroits sur la route de la gigantesque armée.
+
+Les troupes régulières des armées de plusieurs nations furent envoyées à Borcolline afin de former une coalition de forces armées pour faire face à la horde gobelinoïde. Elles venaient de Bérégost, la Porte de Baldur, Berdusk, Iriaebor, Elturel, Scornubel, Soubar et des Hautes Landes. Les troupes ne tardèrent pas à se choisir un leader : Artur Belvin, commandant des troupes de Soubar. Belvin dégaina sa lame de guerre alors que les troupes des deux camps prenaient formation sur la plaine, un peu avant l'aube. Lors de la bataille, tous se combattirent où ils purent trouver un adversaire. Belvin massacra plus d'une soixantaine de gobelins, mais ce ne fut pas suffisant. Parmi les troupes d'Artur Belvin, nul ne s'en sortit indemne.
+
+A l'issue de la Bataille des Os, l'épée se perdit et la liste de ses éventuels propriétaires depuis lors est particulièrement hasardeuse. Cependant, des siècles plus tard, la lame refit enfin surface, cette fois entre les mains d'une bande de pillards orcs. Elle fut récupérée par les gardes d'une caravane qui faisait route d'Eauprofonde vers Scornubel. Malheureusement, la caravane fut attaquée par une force massive de bandits orcs et demis-orcs bien mieux équipés que les gardes. L'épée devint ainsi la propriété d'un impitoyable demi-orc du nom de Surelame. Comment cette lame a fini dans cette ancienne Tour des Magiciens où vous l'avez trouvée, cela reste un mystère.
+
+Cette épée est véritablement digne des plus grands combattants. Elle permet en effet de passer la défense de la plupart des créatures de Toril. Sur une attaque réussie contre un adversaire du dix-huitième niveau ou moins, la créature est tuée sur le coup. Cette capacité peut se révéler fort utile contre des ennemis puissants.
+
+
+PARAMETRES :
+
+Dégâts : 2D6 +3
+TAC0 : +3
+Spécial :
+  Tue automatiquement les ennemis d'un niveau inférieur à 18 sur une attaque réussie (la cible a droit à un jet de sauvegarde contre la mort à -2)
+Type de dégâts : tranchant
+Poids : 6
+Facteur de Vitesse : 4
+Type de compétence : épée bâtarde
+Type : arme à 1 main
+Force nécessaire : 15~
+@650621= ~Les dagues sont des lames pointues à double tranchant, contrairement aux couteaux, plus petits, qui n'en ont qu'un. Cette dague est magique, et donne des bonus de vitesse, de précision et de dégâts. De plus, étant magique, elle peut toucher des adversaires immunisés contre les armes normales, comme les vampires, les élémentaires et les momies.
+
+PARAMETRES :
+
+Dégâts : 1D4 +2
+TAC0 : +2 
+Type de dégâts : perforant
+Poids : 1
+Facteur de Vitesse : 0 
+Type de compétence : dague
+Type : arme à 1 main
+Force nécessaire : 3~
+@650625= ~Cette harpé délicate a été trouvée dans le quartier général des Ménestrels d'Athkatla. La musique apaisante de cet instrument n'a pas de propriété particulière, mais lorsque les cordes sont pincées selon un ordre particulier, la harpe permet aux compagnons du barde de décupler leurs capacités de protection mentale, ce qui les immunise contre quasiment tout effet mental : charme, commandement, domination, peur, confusion, ainsi que toute technique de scrutation magique, telle que la divination à travers une boule de cristal.
+
+PARAMETRES :
+
+Esprit Impénétrable sur tous les membres du groupe une fois par jour~
+@650627= ~Parmi tous les instruments de mesure du temps que l'on peut trouver parmi les Royaumes, le sablier est un objet formé de deux boules de verre reliées par un passage étroit, ce qui permet à chaque grain de sable de tomber d'une boule à l'autre, mesurant ainsi le temps. Toutefois, lorsque l'on déchiffre les gravures à la base de ce sablier, on apprend qu'il a la capacité de suspendre le temps pour un court instant, permettant à son propriétaire d'agir comme si de rien n'était.
+
+PARAMETRES :
+
+Arrêt du Temps une fois par jour~
+
+@650628= ~Cette arme puissante a été créée par les forgerons de l'antique Myth Drannor. Les lames de lune servent au long processus du choix d'un régnant sur l'île d'Eternelle-Rencontre. Une lame de lune choisit son propriétaire et, dans le cas présent, celle-ci a choisi le rôdeur Ménestrel Julian Nonnel. Seul Julian peut utiliser cette arme, et toute autre personne se trouvera incapable de la soulever. Cette lame de lune confère à son utilisateur une résistance au feu et un bonus à la classe d'armure.
+
+PARAMETRES :
+
+Dégâts : 1D12 +4
+TAC0 : +4
+Spécial :
+ +12 points de vie une fois équipée
+ Une attaque portée avec succès inflige le maximum de dégâts
+Type de dégâts : tranchant
+Poids : 6
+Facteur de vitesse : 4
+Type de compétence : épée à 2 mains
+Type : arme à 2 mains~
+
+@650629= ~Voici la morgenstern de Kiel le Tueur de Légions, fils aîné de Durlag le Tueur de Trolls et prince du clan de la Tour Funeste de son père. Il l'utilisa dans ses derniers instants, alors qu'il se précipitait pour avertir son père de l'infiltration du territoire du clan par des doppelgangers. La légende dit que l'intensité de sa rage, en ces derniers instants, est gravée définitivement dans l'arme. Tous ceux qui l'utilisent sont submergés par cette rage de vaincre dès qu'apparaît un ennemi.
+
+Il semblerait que cette morgenstern ait été récupérée dans la Tour de Durlag pour être ramenée et mise en sécurité dans le domaine des Ménestrels d'Athkatla. Depuis qu'elle a été retrouvée, la valeur de cette arme s'est vue décuplée.
+
+PARAMETRES :
+
+Dégâts : 2D4 +3
+TAC0 : +3
+Spécial : 
+ Cette arme est maudite et rend son utilisateur fou furieux
+Type de dégâts : contondant
+Poids : 10
+Facteur de vitesse : 4
+Type de compétence : armes à pointes
+Type : arme à 1 main
+Force nécessaire : 10~
+@650631= ~Cette robe, habituellement portée par les membres des Mages Cagoulés, accorde un certain nombre d'enchantements à son propriétaire. Outre le bonus à la classe d'armure, elle garantit 25% de résistance aux forces suivantes : feu, froid, acide, électricité et magie. La plupart des jeunes Mages Cagoulés reçoivent ce cadeau de la part de leurs instructeurs après avoir complété leurs cinq premières années de formation. Comme la plupart des vêtements de ce type, cette robe ne peut être portée que part ceux qui manipulent la magie profane.
+
+PARAMETRES :
+
+Bonus à la Classe d'Armure : 4 (Base)
+Résistance à l'acide : +25 %
+Résistance au froid : +25 %
+Résistance au feu : +25 %
+Résistance à l'électricité : +25 %
+Résistance à la magie : +25 %
+Poids : 3~
+@650634= ~Seuls les plus nobles et les plus fidèles serviteurs du Dieu du Matin reçoivent ce type de récompense.
+
+PARAMETRES :
+
+Mémorisation de 2 sorts supplémentaires aux niveaux 5, 6 et 7
++20% de Résistance magique
++1 en Force
++2 à la Sagesse~
+@650640= ~Le sacrifice d'une fortune en or combiné aux prières d'une cérémonie sanctifiée ont convaincu Lathandre de transformer ces gantelets déjà puissants en de formidables objets sacrés.
+
+PARAMETRES :
+
+Soin des Blessures Critiques deux fois par jour
++15 aux points de vie maximum si équipés
+
+Poids : 3~
+@650642= ~Cette dague agit comme une arme +5 contre les lycanthropes.
+
+PARAMETRES :
+
+Dégâts : 1D4 +2 (+4 contre les lycanthropes)
+TAC0 : +1
+Type de dégâts : perçant
+Poids : 1
+Facteur de vitesse : 2
+Type de compétence : dague
+Type : à 1 main~
+@650644= ~Cagoule du Voleur
+Mat Savasta, l'un des meilleurs cambrioleurs de toute la Côte des Epées, portait toujours cette capuche lors de ses exploits. La cagoule, qui n'est rien d'autre qu'une coiffe de cuir, améliorait les talents déjà impressionnants de Mat. Dans toutes les villes, en passant par Eauprofonde, Luskan, Padhiver, La Porte de Baldur, Athkatla, ou Calimport, il n'y avait pas une serrure qui résistait à Mat. Pour activer le pouvoir de cet objet, le mot de commande approprié doit être prononcé pour qu'une petite clef magique adoptant la forme de la serrure à crocheter apparaisse.
+
+PARAMETRES :
+
+Spécial : 
+ +20 % en crochetage
+ +20 % en détection des pièges
+ +20 % en vol à la tire
+ +20 % à se cacher dans l'ombre
+ Accorde l'Infravision au porteur~
+@650646= ~La hachette est un outil qui peut être utilisé comme une arme en cas de dernier recours. Sa lame aiguisée est en acier, ce qui lui permet de couper le bois aussi bien que la chair. La courte poignée comporte une pointe en bas, et la tête comporte parfois une pointe en haut.
+
+PARAMETRES :
+
+Dégâts : 1D4
+Type de dégâts : projectile (perçant)
+Poids : 5
+Facteur de vitesse : 5
+Type de compétence : hache
+Type : à 1 main
+Force nécessaire : 4~
+@650648= ~La besantine a peu de choses en commun avec une armure de cuir normale. L'armure de cuir est une protection renforcée, la besantine est souple et comporte des centaines de rivets. Ces derniers sont tellement rapprochés qu'ils forment une couche flexible de métal dur qui permet de contrer toute attaque cinglante et tranchante. Le renforcement de cuir souple n'est rien de plus qu'un moyen de maintenir les rivets en place. 
+
+PARAMETRES :
+
+Classe d'Armure : 3
+Poids : 25
+Force nécessaire : 6~
+@650659= ~Le wakizashi est une arme essentielle pour tout samouraï. C'est l'arme qu'il porte en permanence, même en intérieur, et qu'il garde à portée de main pendant son sommeil. Fabriqué de la même façon que le katana, le wakizashi est, malgré sa plus petite taille, une arme redoutable entre les mains d'un pratiquant accompli.
+
+PARAMETRES :
+
+Dégâts : 1D8 +3
+TAC0 : +3
+Type de dégâts : perforant
+Poids : 3
+Facteur de Vitesse : 3
+Type de Compétence : cimeterre/wakizashi/ninja-to
+Type : arme à 1 main
+Force nécessaire : 5~
+@650661= ~L'épée du ninja, le ninja-to est de qualité inférieure aux autres lames de Kara-Tur, comme le katana. Le ninja-to est court et sa lame est droite, ce qui le rend idéal pour la dissimulation. Il est aussi plus approprié pour le combat en espace confiné, donnant parfois l'avantage aux ninjas sur les lames plus longues utilisées par les samouraïs.
+
+PARAMETRES :
+
+Dégâts : 1D8 +3
+TAC0 : +3
+Type de dégâts : tranchant
+Poids : 5
+Facteur de Vitesse : 4
+Type de Compétence : cimeterre/wakizashi/ninja-to
+Type : arme à 1 main
+Force nécessaire : 6~
+
+@660202= ~Réputée être l'arme contondante la moins sophistiquée, le bâton est un bout de bois d'une longueur de 1,80 m à 2,80 m. Les bâtons de qualité supérieure sont fabriqués en chêne robuste et sont ferrés de métal aux deux extrémités. Le bâton doit être manié des deux mains. 
+
+PARAMETRES :
+
+Dégâts : 1D6 +9
+TAC0 : +3
+Type de dégâts : contondant
+Poids : 4
+Facteur de vitesse : 2
+Type de compétence : bâton
+Type : arme à 2 mains
+Force nécessaire : 5~
+
+@660204= ~L'épée à deux mains est un dérivé de l'épée longue. Les armuriers ont toujours cherché à améliorer les armes de leur temps. Pour l'épée longue, ils ont allongé la lame. Après la lame, c'est la poignée qui s'est allongée. Il est alors devenu nécessaire d'utiliser les deux mains pour manier l'épée. La fonction première de l'épée à deux mains est de désarçonner les chevaliers montés et de désorganiser les haies de piques.
+
+PARAMETRES :
+
+Dégâts : 1D10 +1
+TAC0 : +1
+Type de dégâts : tranchant
+Poids : 12
+Facteur de vitesse : 9
+Type de compétence : épée à 2 mains
+Type : arme à 2 mains
+Force nécessaire : 14~
+@660206= ~L'armure de cotte de mailles est constituée d'anneaux métalliques imbriqués les uns dans les autres. Elle est toujours portée par-dessus une couche de tissu matelassé ou de cuir souple pour empêcher le frottement et réduire l'impact des chocs. L'armure est enchantée et procure une protection supplémentaire.
+
+PARAMETRES :
+
+Classe d'Armure : 3
+Poids : 10
+Force nécessaire : 8~
+
+@661012= ~Chauntéa est une divinté d'alignement bon. Elle est la déesse des paysans et la patronne des cultivateurs, et est l'une des principales divinités révérées par ceux qui vivent à la campagne. Elle est une adversaire sans pitié face aux dieux de la destruction de la nature, Talos ou Aurile entre autres.
+
+PARAMETRES :
+
+Si équipé : le porteur régénère un point de vie toutes les 3 secondes
+Capacité spéciale : Peut régénérer le porteur de 5 points de vie par seconde pendant 60 secondes
+
+*Arrivé à la première place du 2004 CtBIMS awards (Check The Bodies Item Making Sweepstakes, concours de création d'objets de Check the Bodies), parmi un groupe d'autres objets similaires.~
+@661014= ~Le Prince des Mensonges est un dieu assez jeune qui a volé les attributions d'autres divinités plus anciennes. Intrigant et calculateur, Cyric n'a pour le moment que cherché à consolider sa position parmi plusieurs factions et groupuscules, mais s'est révélé très populaire parmi les Magiciens Rouges de Thay.
+
+PARAMETRES :
+
+Invoque une fois par jour Malédiction majeure, Piège à crânes ou Symbole de Mort
+
+*Arrivé à la première place du 2004 CtBIMS awards (Check The Bodies Item Making Sweepstakes, concours de création d'objets de Check the Bodies), parmi un groupe d'autres objets similaires.~
+
+@661016= ~Révéré par ceux qui souffrent, Ilmater est un dieu pacifique qui encourage les autres à endurer peines et souffrances, car seuls ceux qui savent se montrer patients seront récompensés. C'est un dieu populaire parmi les indigents des villes.
+
+PARAMETRES :
+
++25 points de vie si équipé
+
+*Arrivé à la première place du 2004 CtBIMS awards (Check The Bodies Item Making Sweepstakes, concours de création d'objets de Check the Bodies), parmi un groupe d'autres objets similaires.~
+
+@661018= ~La Dame de la Forêt est une alliée puissante d'Eldath et de Sylvanus. La plupart de ses disciples sont des rôdeurs, ainsi que des créatures de la forêt n'ayant pas de divinité propre, comme les dryades par exemple. Le pouvoir de ce médaillon s'est dissipé, et il n'est maintenant rien de plus qu'un hommage envers la Dame de la Forêt.
+
+*Arrivé à la première place du 2004 CtBIMS awards (Check The Bodies Item Making Sweepstakes, concours de création d'objets de Check the Bodies), parmi un groupe d'autres objets similaires.~
+@661020= ~Mystra, la Dame des Mystères, est à la fois la déesse de la magie et l'une des plus puissantes entités ayant jamais foulé le sol de Toril. Les adeptes de Mystra sont, au cours de la dernière décennie, devenus plus prosélytes et extravertis, suivant les changements qui s'opéraient en la déesse elle-même.
+
+PARAMETRES :
+
++2 aux jets de sauvegarde contre les sorts
+Fixe la résistance à la magie à 60%
+
+*Arrivé à la première place du 2004 CtBIMS awards (Check The Bodies Item Making Sweepstakes, concours de création d'objets de Check the Bodies), parmi un groupe d'autres objets similaires.~
+@661022= ~Tempus, aussi connu sous le nom de Seigneur des Batailles, est la divinité en charge de la guerre. Il accorde ses faveurs à un groupe de combattants, puis à un autre selon le chemin que suit la guerre. Il récompense les forts et les braves, et bon nombre de guerriers lui adressent une petite prière avant le combat. Ce large bouclier porte sur lui le symbole de Tempus : une épée enflammée sur fond rouge-sang. Divers enchantements aideront le combattant qui l'utilise en combat.
+
+PARAMETRES :
+
+Bonus à la Classe d'Armure : +2
+Spécial :
+  +1 contre les attaques à distance
+  +50% de résistance aux dégâts à distance (qui ne provoquent plus que la moitié des dégâts)
+  +1 en Force
+Poids : 15
+Force nécessaire : 15
+
+*Arrivé à la première place du 2004 CtBIMS awards (Check The Bodies Item Making Sweepstakes, concours de création d'objets de Check the Bodies), parmi un groupe d'autres objets similaires.~
+
+@661024= ~La déesse Waukyne a disparu lors du Temps des Troubles, et ses prêtres se sont trouvés incapables de lancer des sorts pendant plusieurs années. Maintenant, ils sont de nouveau capables d'incanter, mais la plupart des prêtres révèrent maintenant Lliira en même temps que Waukyne. Les prêtres de Waukyne se font de moins en moins nombreux.
+
+PARAMETRES :
+
++1 en Charisme si équipé
+Créé 10 pièces d'or une fois par jour
+
+*Arrivé à la première place du 2004 CtBIMS awards (Check The Bodies Item Making Sweepstakes, concours de création d'objets de Check the Bodies), parmi un groupe d'autres objets similaires.~
+
+@661027= ~L'armée du Roi Azoun n'a qu'une mission simple : défendre le Cormyr. Réaliser cette mission n'est pourtant pas si facile. Pour soutenir le pouvoir du roi, le Cormyr possède une grande armée dont les rangs ont vu une très forte augmentation ces dernières années. Il y a maintenant plus de 12 000 Dragons Pourpres (titre qui vient de leur bannière) stationnés dans la plupart des villes et garnisons, ainsi qu'une en Force montée de 500 guerriers entraînés dans le maniement de l'arc et de l'épée et menée par 30 chevaliers de la Cour Royale. La plupart de ces combattants d'élite sont des vétérans de la croisade contre la Horde et membres de l'Ordre de la Voie Dorée, récompense militaire commémorant ces batailles.
+
+L'une des principales fonctions des Dragons Pourpres est d'assurer la protection du Royaume du Cormyr, ce qui signifie garantir la sécurité des marchands et des paysans sur les routes, afin qu'ils puissent rentrer sains et saufs avec tous leurs profits. Les Dragons Pourpres s'acquittent de cette mission avec zèle et succès. Il est certain que les Dragons Pourpres ne peuvent être partout en même temps, et il existe toujours un risque que des bandits traînent dans les parages, mais les routes du Cormyr ont la réputation d'être globalement sûres.
+
+Les Dragons Pourpres ont aussi la charge de prévenir les insurrections internes. Ils n'ont eu à intervenir dans ce domaine-ci qu'à une seule reprise, lorsqu'ils ont réprimé la révolte menée par Gongedal sans aucune effusion de sang.
+
+PARAMETRES :
+
+Bonus à la Classe d'Armure : 2
+Spécial : +1 contre les armes tranchantes
+Poids : 7
+Force requise : 12
+
+*Arrivé à la seconde place du 2004 CtBIMS awards (Check The Bodies Item Making Sweepstakes, concours de création d'objets de Check the Bodies).~
+

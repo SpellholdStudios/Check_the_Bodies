@@ -1,0 +1,23 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		FadeToColor([20.0],0)
+		Wait(2)
+		ActionOverride("CBTAXCOL",DestroySelf())
+		SetGlobal("CbTaxCollected","GLOBAL",2)
+		Wait(1)
+		ActionOverride(Player2,LeaveAreaLUA("AR0044","",[345.308],13))
+		ActionOverride(Player3,LeaveAreaLUA("AR0044","",[344.237],13))
+		ActionOverride(Player4,LeaveAreaLUA("AR0044","",[296.276],13))
+		ActionOverride(Player5,LeaveAreaLUA("AR0044","",[296.215],13))
+		ActionOverride(Player6,LeaveAreaLUA("AR0044","",[266.245],13))
+		LeaveAreaLUAPanic("AR0044","",[383.281],13)
+		LeaveAreaLUA("AR0044","",[383.281],13)
+		MultiPlayerSync()
+		FadeFromColor([20.0],0)
+		EndCutSceneMode()
+END
+
+

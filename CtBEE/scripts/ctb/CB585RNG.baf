@@ -1,0 +1,77 @@
+IF
+	!HasItem("AROW11",Myself)
+	!HasItem("AX1H04",Myself)  //was CB585AXE
+	Allegiance(Myself,ENEMY)
+	Global("CbSwitchingWeapons","LOCALS",0)
+THEN
+	RESPONSE #100
+		DestroyItem("BOW17")
+		GiveItemCreate("BOW17",Myself,1,0,0)
+		ApplySpellRES("CB585RN1",LastTalkedToBy(Myself))
+		EquipItem("AX1H02")
+		EquipItem("AX1H03")
+		SetGlobal("CbSwitchingWeapons","LOCALS",1)
+END
+
+IF
+	HPPercentLT(Myself,25)
+	HPGT(Myself,0)
+	Global("Whined","LOCALS",0)
+	See(NearestMyGroupOfType)
+	Allegiance(Myself,ENEMY)
+	HPGT(LastSeenBy(Myself),0)
+	Global("SlaveFight","GLOBAL",4)
+THEN
+	RESPONSE #100
+		SetGlobal("Whined","LOCALS",1)
+		Shout(153)
+		DisplayStringHead(Myself,46151)
+END
+
+IF
+	Heard([ANYONE],154)
+THEN
+	RESPONSE #100
+		AttackReevaluate([PC.0.0.MAGE],45)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(ARCHER_CALL_SHOT)
+THEN
+	RESPONSE #100
+		Spell(Myself,ARCHER_CALL_SHOT)
+		AttackReevaluate(NearestEnemyOf(Myself),45)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HasItem("AROW11",Myself)
+THEN
+	RESPONSE #100
+		EquipItem("BOW11")
+		AttackReevaluate(NearestEnemyOf(Myself),45)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!HasItem("AROW11",Myself)
+	HasItem("AX1H04",Myself)  //was CB585AXE
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate(NearestEnemyOf(Myself),45)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!HasItem("AROW11",Myself)
+	!HasItem("AX1H04",Myself)  //was CB585AXE
+	HasItemEquipedReal("AX1H02",Myself)
+	HasItemEquipedReal("AX1H03",Myself) 
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),45)
+END
+
+

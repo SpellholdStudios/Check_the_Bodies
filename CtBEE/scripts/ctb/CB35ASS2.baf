@@ -1,0 +1,37 @@
+IF
+	GlobalTimerExpired("Cb_AssassinRuns","LOCALS")
+	Global("CbTriedPickPocketing","LOCALS",1)
+THEN
+	RESPONSE #100
+		EscapeArea()
+END
+
+IF
+	Global("CbTriedPickPocketing","LOCALS",1)
+	!GlobalTimerNotExpired("Cb_AssassinRuns","LOCALS")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("Cb_AssassinRuns","LOCALS",120)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Range(LastSeenBy(Myself),10)
+	Global("CbTriedPickPocketing","LOCALS",1)
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),12)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(NearestEnemyOf(Myself),10)
+	Global("CbTriedPickPocketing","LOCALS",1)
+THEN
+	RESPONSE #100
+		Hide()
+		MoveToObject(NearestEnemyOf(Myself))
+		AttackReevaluate(NearestEnemyOf(Myself),12)
+END
+
+

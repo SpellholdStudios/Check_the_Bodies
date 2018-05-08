@@ -1,0 +1,54 @@
+@1  = ~Bruder, bevor ich Euch helfen kann, muss ich meine eigene Studien unter Anleitung der Erzdruidin beenden. Ihr solltet mit ihr sprechen.~ 
+@2  = ~Bruder, die Erzdruidin teilte mir mit, dass Ihr wirklich ein Geist seid, der unserer Annleitung würdig ist. Sie hat gebeten, dass ich Zeit darauf verwende, Euch eine nützliche Fähigkeit zu lehren.~
+@3  = ~Wieder einmal, Bruder, müsst ihr Euch entscheiden: Wir werden Euch weiterhin helfen, aber die Entscheidung müsst Ihr treffen. Möchtet Ihr lernen, wie Ihr Eure Gestalt in die eines magischen Drachen verwandeln könnt, würdet Ihr gerne verbesserte Methoden der Heilung erlernen, oder würdet Ihr gerne Zauber mit einer größeren Geschwindigkeit wirken können? Wägt gründlich ab: Eure Entscheidung ist endgültig.~ 
+@4  = ~Priesterin. Ich würde gerne lernen, die Gestalt zu verwandeln.~
+@5  = ~Priesterin. Ich würde gerne lernen, andere wirkungsvoller zu heilen.~ 
+@6  = ~Bitte lehrt mich, wie man Zauber schneller wirkt, Priesterin.~
+@7  = ~Ich wäre mehr als glücklich, Euch das zu lehren, Bruder.~
+@8  = ~Danke, Bruder, dass Ihr mir die Gelegenheit gebt, Euch zu lehren, wie man die Gestalt eines Drachen annimmt.~ 
+@9  = ~Danke, Bruder, dass Ihr mir die Gelegenheit zu gebt, Euch zu lehren, wie man andere heilt.~
+@10 = ~Danke, Bruder, dass Ihr mir die Gelegenheit zu gebt, Euch zu lehren, wie man schneller Zauber wirkt.~ 
+@11 = ~Ich bin froh, dass ich Euch helfen konnte, Bruder, mit der Natur besser in Einklang zu kommen. Ich bin auch froh, dass Ihr uns geholfen habt. Eine Aufgabe ist aber noch zu erledigen, bevor die Erzdruidin Euch eine neue Fähigkeit lehrt. Seid Ihr bereit?~
+@12 = ~Ja, Priesterin, was muss ich tun?~
+@13 = ~Nicht jetzt, Priesterin. Ich brauche Zeit.~ 
+@14 = ~Dann werde ich unser nächstes Treffen mit Vorfreude erwarten, Bruder.~
+@15 = ~Während Eure erste Aufgabe ziemlich einfach war, war die zweite wesentlich schwerer. Diese letzte Aufgabe ist einfach, in dem Sinne, dass Ihr Euch nicht selbst gefährden müsst. Hier, Bruder, nehmt diesen Stab. Es ist ein magischer Stab, der für eine unzerstörbare Waffe gehalten wird.~ 
+@16 = ~Doch das Holz des Stabes ist brüchig. Mit dem richtigen Holz kann er erneuert werden und seine magischen Eigenschaften zurückerlangen. Es gibt nur einen in der Region, der genug Fähigkeiten hat, den Stab zu reparieren: ein Zwerg namens Cromwell. Findet das Holz und bringt es zu ihm. Wenn der Stab repariert wurde, kehrt zu mir zurück.~
+@17 = ~Ich werde es versuchen, Priesterin.~
+@18 = ~Ich weiss, das Ihr das werdet, Bruder.~
+@19 = ~Hattet Ihr Erfolg mit dem Stab, Bruder?~ 
+@20 = ~Ja, Priesterin, das hatte ich.~
+@21 = ~Nein, Priesterin. Es ist mir noch nicht gelungen, den Stab zu reparieren.~ 
+@22 = ~Kommt wieder, Bruder, wenn es Euch gelungen ist.~ 
+@23 = ~Dann seid Ihr fertig, Hier, Bruder, ich füge dem Stab noch weitere Zauber hinzu und schenke ihn Euch.~
+@24 = ~Ich habe meine Ausbildung bei der Erzdruidin noch nicht abgeschlossen, <GABBER>. Ich bin zu beschäftigt und kann meine Meditation jetzt nicht unterbrechen.~ 
+@25 = ~Schwester, bevor ich Euch helfen kann, muss ich meine eigene Ausbildung unter der Führung der Erzdruidin beenden. Ihr solltet mit ihr sprechen.~
+@26 = ~Schwester, die Erzdruidin teilte mir mit, dass Euer Geist unserer Anleitung würdig ist. Sie bat mich, Zeit dafür aufzuwenden, Euch eine nützliche Fähigkeit zu lehren.~
+@27 = ~Wieder einmal, Schester, müsst ihr Euch entscheiden: Wir werden Euch weiterhin helfen, aber die Entscheidung müsst Ihr treffen. Möchtet Ihr lernen, wie Ihr Eure Gestalt in die eines magischen Drachen verwandeln könnt, würdet Ihr gerne verbesserte Methoden der Heilung erlernen, oder würdet Ihr gerne Zauber mit einer größeren Geschwindigkeit wirken können? Wägt gründlich ab: Eure Entscheidung ist endgültig.~
+@28 = ~Ich wäre mehr als glücklich, Euch das zu lehren, Schester.~
+@29 = ~Danke, Schester, dass Ihr mir die Gelegenheit gebt, Euch zu lehren, wie man die Gestalt eines Drachen annimmt.~
+@30 = ~Danke, Schester, dass Ihr mir die Gelegenheit zu gebt, Euch zu lehren, wie man andere heilt.~
+@31 = ~Danke, Schester, dass Ihr mir die Gelegenheit zu gebt, Euch zu lehren, wie man schneller Zauber wirkt.~
+@32 = ~Ich bin froh, dass ich Euch helfen konnte, Schester, mit der Natur besser in Einklang zu kommen. Ich bin auch froh, dass Ihr uns geholfen habt. Eine Aufgabe ist aber noch zu erledigen, bevor die Erzdruidin Euch eine neue Fähigkeit lehrt. Seid Ihr bereit?~
+@33 = ~Dann werde ich unser nächstes Treffen mit Vorfreude erwarten, Schester.~
+@34 = ~Während Eure erste Aufgabe ziemlich einfach war, war die zweite wesentlich schwerer. Diese letzte Aufgabe ist einfach, in dem Sinne, dass Ihr Euch nicht selbst gefährden müsst. Hier, Schester, nehmt diesen Stab. Es ist ein magischer Stab, der für eine unzerstörbare Waffe gehalten wird.~
+@35 = ~Ich weiss, das Ihr das werdet, Schester.~
+@36 = ~Hattet Ihr Erfolg mit dem Stab, Schwester?~
+@37 = ~Kommt wieder, Schester, wenn es Euch gelungen ist.~
+@38 = ~Dann seid Ihr fertig, Hier, Schester, ich füge dem Stab noch weitere Zauber hinzu und schenke ihn Euch.~
+@39 = ~Die Erzdruidin: Die Lehren des Weges
+
+Die Erzdruidin und ihre Lehrlinge zeigten mir, wie ich die Gestalt eines Drachen annehmen kann. Das ist der Höhepunkt der Gestaltwandlung!~
+@40 = ~Die Erzdruidin: Die Lehren des Weges
+
+Die Erzdruidin und ihre Lehrlinge zeigten mir, wie man andere schneller und wirkungsvoller heilt.~
+@41 = ~Die Erzdruidin: Die Lehren des Weges
+
+Die Erzdruidin und ihre Schüler zeigten mir, wie man schneller Zauber wirkt.~
+@42 = ~Die Erzdruidin: Wieder gewachsen
+
+Das Trio von Druiden, die sich um ein nördliches Wäldchen kümmern, beauftragte mich, ihnen zu helfen, einen einst magischen Stab zu reparieren, der beschädigt worden ist. Mir wurde gesagt, dass ich ein seltenes Holz finden sollte, das ich dem Zwerg in Athkatla, Cromwell, bringen soll, der im Stande sein sollte, den Stab zu reparieren.
+ Wenn ich mit dem Stab fertig bin, soll ich mich bei den Druiden südlich von Baldurs Tor melden, wo sie versprochen haben, mich eine Fertigkeit zu lehren.~
+@43 = ~Die Erzdruidin: Wieder gewachsen
+
+Mit Hilfe des Zwerges Cromwell ist es mir gelungen, den magischen Stab zu reparieren, um dessen magischen Zustand wiederherzustellen das Trio von Druiden mich gebeten haben, ihnen zu helfen. Der Stab war beschädigt worden, aber scheint viel mächtiger zu sein, nachdem er wiederhergestellt ist.~

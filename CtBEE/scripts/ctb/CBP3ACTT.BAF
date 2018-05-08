@@ -1,0 +1,9 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		MoveViewPoint([1067.696],INSTANT)
+		MoveToPoint([901.850])
+		ActionOverride("CBP3ACT1",StartDialogueNoSet(Player1))
+END

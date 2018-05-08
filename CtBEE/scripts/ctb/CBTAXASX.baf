@@ -1,0 +1,73 @@
+IF
+	See(NearestEnemyOf(Myself))
+	!StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+	!StateCheck(Myself,STATE_INVISIBLE)
+THEN
+	RESPONSE #100
+		GiveItemCreate("CBPOTN10",Myself,1,1,0)
+		DisplayStringHead(Myself,46150) // quaffs a potion
+		UseItem("CBPOTN10",Myself)
+		Continue()
+END
+
+IF
+	Range("CB596SE1",5)
+THEN
+	RESPONSE #100
+		AttackOneRound("CB596SE1")
+END
+
+IF
+	Range("CB596SE2",5)
+THEN
+	RESPONSE #100
+		AttackOneRound("CB596SE2")
+END
+
+IF
+	Range("CB596SE3",5)
+THEN
+	RESPONSE #100
+		AttackOneRound("CB596SE3")
+END
+
+IF
+	Range("CB596SE4",5)
+THEN
+	RESPONSE #100
+		AttackOneRound("CB596SE4")
+END
+
+IF
+	Range("CB596SE5",5)
+THEN
+	RESPONSE #100
+		AttackOneRound("CB596SE5")
+END
+
+IF
+	OR(4)
+		See("CB596SE6")
+		See("CB596SE7")
+		See("CB596SE8")
+		See("CB596SE9")
+THEN
+	RESPONSE #100
+		AttackOneRound(LastSeenBy(Myself))
+END
+
+IF
+	See([GOODCUTOFF])
+THEN
+	RESPONSE #100
+		AttackOneRound(LastSeenBy(Myself))
+END
+
+IF
+	ActionListEmpty()
+THEN
+	RESPONSE #100
+		AttackOneRound(NearestEnemyOf(Myself))
+END
+
+

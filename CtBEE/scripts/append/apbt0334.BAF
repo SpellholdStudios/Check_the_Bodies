@@ -1,0 +1,10 @@
+IF
+	Global("ForgeItem","GLOBAL",10)
+	Global("ForgeStuff","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ForgeStuff","GLOBAL",0)
+		TakePartyItem("CBBDSCLE")
+		GiveItemCreate("CBBDARMR",Player1,0,0,0)
+		ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END

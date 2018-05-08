@@ -1,0 +1,43 @@
+IF
+	Global("Cb_DoorMagic1Open","AR3554",1)
+	!Range([GOODCUTOFF],10)
+THEN
+	RESPONSE #100
+		CloseDoor("CB3554D1")
+		Lock("CB3554D1")
+		SetGlobal("Cb_DoorMagic1Open","AR3554",0)
+END
+
+IF
+	IsOverMe([GOODCUTOFF])
+	!GlobalTimerNotExpired("Cb_DoorMagic1","AR3554")
+	Global("Cb_DoorMagic1Open","AR3554",0)
+	!Alignment(LastTrigger,LAWFUL_GOOD)
+	!Alignment(LastTrigger,NEUTRAL_GOOD)
+	!Alignment(LastTrigger,CHAOTIC_GOOD)
+	!Alignment(LastTrigger,MASK_GOOD)
+THEN
+	RESPONSE #100
+		DisplayString(LastTrigger,@550602)
+		SetGlobalTimer("Cb_DoorMagic1","AR3554",20)
+END
+
+IF
+	IsOverMe([GOODCUTOFF])
+	!GlobalTimerNotExpired("Cb_DoorMagic1","AR3554")
+	Global("Cb_DoorMagic1Open","AR3554",0)
+	OR(4)
+		Alignment(LastTrigger,LAWFUL_GOOD)
+		Alignment(LastTrigger,NEUTRAL_GOOD)
+		Alignment(LastTrigger,CHAOTIC_GOOD)
+		Alignment(LastTrigger,MASK_GOOD)
+THEN
+	RESPONSE #100
+		Unlock("CB3554D1")
+		OpenDoor("CB3554D1")
+		DisplayString(LastTrigger,@550601) 
+		SetGlobalTimer("Cb_DoorMagic1","AR3554",20)
+		SetGlobal("Cb_DoorMagic1Open","AR3554",1)
+END
+
+

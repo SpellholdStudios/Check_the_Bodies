@@ -1,0 +1,29 @@
+IF
+	GlobalLT("CbWizardsAndHakesharPlot","GLOBAL",1)
+	!Exists("CBCWLWRY")
+	Global("CbFixCowledWorrySpawn","AR1002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbFixCowledWorrySpawn","AR1002",1)
+		CreateCreature("CBCWLWRY",[1137.635],2)
+		Continue()
+END
+
+IF
+	Global("CbXTThiefStealsFromGovernment","GLOBAL",0)
+THEN
+	RESPONSE #100
+		ContainerEnable("CbCont01",FALSE)
+		ContainerEnable("CbCont02",FALSE)
+		Continue()
+END
+
+IF
+	GlobalGT("CbXTThiefStealsFromGovernment","GLOBAL",0)
+THEN
+	RESPONSE #100
+		ContainerEnable("CbCont01",TRUE)
+		ContainerEnable("CbCont02",TRUE)
+		Continue()
+END
+

@@ -1,0 +1,41 @@
+MZO3 / Treant
+***
+						SOUND
+ATTACK          		TREE01A TREE02A TREE03A
+ATTACK          		2 0 0
+AWAKE           		***
+AWAKE           		0
+CAST            		***
+CAST            		0
+CONJURE         		***
+CONJURE         		0
+DAMAGE          		TREE07A TREE08A TREE10A
+DAMAGE          		0 0 0
+DIE             		TREE11A TREE09A
+DIE             		0 0
+HEAD_TURN       		***
+HEAD_TURN       		0
+READY           		***
+READY           		0
+SHOOT           		***
+SHOOT           		0
+TWITCH          		***
+TWITCH          		0
+WALK            		***
+WALK            		0
+ATTACK_SLASH    		TREE01A TREE03A nosound
+ATTACK_SLASH    		2 0 0
+ATTACK_BACKSLASH		TREE02A TREE04A nosound
+ATTACK_BACKSLASH		2 0 0
+ATTACK_JAB      		TREE03A TREE04A nosound
+ATTACK_JAB      		2 0 0
+EMERGE          		***
+EMERGE          		0
+HIDE            		***
+HIDE            		0
+SLEEP          			***
+SLEEP          			0
+Battle_Cry			TREE02A TREE01A
+Battle_Cry			0 0
+Selection                       TREE02A
+Selection                       0

@@ -1,0 +1,38 @@
+IF
+	NumTimesTalkedTo(0)
+	GlobalGT("CbPaddyWasFollowed","AR2600",0)
+	See([GOODCUTOFF])
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(LastSeenBy(Myself))
+END
+
+IF
+	NumTimesTalkedToGT(0)
+	GlobalLT("CbLetsMovePaddy","AR2600",5)
+	!Range("CBSTTFLW",30)
+THEN
+	RESPONSE #100
+		ActionOverride("CBSTTFLW",MoveToObjectNoInterrupt("PaddyPT6"))
+END
+
+IF
+	NumTimesTalkedToGT(0)
+	GlobalLT("CbLetsMovePaddy","AR2600",5)
+	Range("CBSTTFLW",30)
+THEN
+	RESPONSE #100
+		SetGlobal("CbLetsMovePaddy","AR2600",5)
+END
+
+IF
+	Global("CbZannasterFinallyChanging","AR3532",2)
+	CombatCounter(0)
+	Dead("CBC8CTZL")
+	Dead("CBSTTFLW")
+	!AreaCheck("AR2600")
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Nearest([GOODCUTOFF]))
+END
+

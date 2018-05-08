@@ -1,0 +1,108 @@
+IF
+	Global("Cb_ImMoving","LOCALS",1)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		ClearActions(Myself)
+END
+
+IF
+	!See(NearestEnemyOf(Myself))
+	InMyArea([GOODCUTOFF])
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ImMoving","LOCALS",1)
+		MoveToObject(NearestEnemyOf(Myself))
+END
+
+IF
+	!GlobalTimerNotExpired("CbMagicMissile","LOCALS")
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbMagicMissile","LOCALS",21)
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_MAGIC_MISSILE)
+END
+
+IF
+	!GlobalTimerNotExpired("CbMelfsArrow","LOCALS")
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbMelfsArrow","LOCALS",21)
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_MELF_ACID_ARROW)
+END
+
+IF
+	!GlobalTimerNotExpired("CbBurningHands","LOCALS")
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbBurningHands","LOCALS",21)
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_BURNING_HANDS)
+END
+
+IF
+	!GlobalTimerNotExpired("CbChromeOrb","LOCALS")
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbChromeOrb","LOCALS",21)
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_CHROMATIC_ORB)
+END
+
+IF
+	!GlobalTimerNotExpired("CbAgannScorch","LOCALS")
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbAgannScorch","LOCALS",21)
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_AGANNAZAR_SCORCHER)
+END
+
+IF
+	!GlobalTimerNotExpired("CbFlameArrow","LOCALS")
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbFlameArrow","LOCALS",21)
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_FLAME_ARROW)
+END
+
+IF
+	!GlobalTimerNotExpired("CbLightningBolt","LOCALS")
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbLightningBolt","LOCALS",21)
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_LIGHTNING_BOLT)
+END
+
+IF
+	!GlobalTimerNotExpired("CbLightningBolt","LOCALS")
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbLightningBolt","LOCALS",21)
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_LIGHTNING_BOLT)
+END
+
+IF
+	!GlobalTimerNotExpired("CbSkullTrap","LOCALS")
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbSkullTrap","LOCALS",21)
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_SKULL_TRAP)
+END
+
+IF
+	!GlobalTimerNotExpired("CbGreatMalison","LOCALS")
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbGreatMalison","LOCALS",21)
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_GREATER_MALISON)
+END
+
+

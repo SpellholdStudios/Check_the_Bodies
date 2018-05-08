@@ -1,0 +1,22 @@
+IF
+	Clicked([ANYONE])
+	GlobalLT("CbInformedAboutRoots","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayStringNoName(Myself,@550025)
+END
+
+IF
+	Clicked([ANYONE])
+	Global("CbInformedAboutRoots","GLOBAL",1)
+	Global("CbCouchGrassInfoClicked","AR1900",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCouchGrassInfoClicked","AR1900",1)
+		DisplayStringNoName(Myself,@550025)
+		TriggerActivation("CouchGrassInfo",FALSE)
+		Wait(2)
+		ContainerEnable("CouchGrassCont",TRUE)
+END
+
+

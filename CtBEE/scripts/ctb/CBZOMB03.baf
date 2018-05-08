@@ -1,0 +1,121 @@
+IF
+	Global("CbUtterDestruction","AR3675",1)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		RunAwayFrom(NearestEnemyOf(Myself),30)
+END
+
+IF
+	Global("CbCloseToHome","GLOBAL",5)
+THEN
+	RESPONSE #20
+		EscapeAreaDestroy(20)
+	RESPONSE #20
+		EscapeAreaDestroy(30)
+	RESPONSE #20
+		EscapeAreaDestroy(40)
+	RESPONSE #20
+		EscapeAreaDestroy(50)
+	RESPONSE #20
+		EscapeAreaDestroy(60)
+END
+
+IF
+	Global("CbEveryoneDies","AR3675",1)
+	Global("CbDefenderGotEquipment","LOCALS",1)
+THEN
+	RESPONSE #20
+		Face(6)
+		CreateCreature("CBZOMBD2",[-1.-1],4)
+		ChangeAnimationNoEffect("DEADB01") // Adventurer
+	RESPONSE #20
+		Face(10)
+		CreateCreature("CBZOMBD1",[-1.-1],0)
+		ChangeAnimationNoEffect("DEADB06")
+	RESPONSE #20
+		Face(7)
+		CreateCreature("CBZOMBD2",[-1.-1],4)
+		ChangeAnimationNoEffect("DEADB03") // Adventurer
+	RESPONSE #20
+		Face(4)
+		CreateCreature("CBZOMBD1",[-1.-1],0)
+		ChangeAnimationNoEffect("DEADB04")
+	RESPONSE #20
+		Face(12)
+		CreateCreature("CBZOMBD1",[-1.-1],0)
+		ChangeAnimationNoEffect("DEADB05")
+END
+
+IF
+	Global("CbDefenderGotEquipment","LOCALS",0)
+THEN
+	RESPONSE #100
+		Face(5)
+		EquipRanged()
+		SetGlobal("CbDefenderGotEquipment","LOCALS",1)
+END
+
+IF
+	Global("CbInitialStandDone","AR3675",2)
+	GlobalGT("CbHlondethRetreatStage","AR3675",4)
+	Global("CbThisSoldierRetreated","LOCALS",0)
+	!Range("RALLY1",15)
+THEN
+	RESPONSE #100
+		MoveToObjectNoInterrupt("RALLY1")
+		Face(6)
+		SetGlobal("CbThisSoldierRetreated","LOCALS",1)
+END
+
+IF
+	Global("CbSecondStandDone","AR3675",2)
+	GlobalGT("CbHlondethRetreatStage","AR3675",8)
+	Global("CbFinalSecondWave","AR3675",1)
+	Global("CbThisSoldierRetreatedTwice","LOCALS",0)
+	!Range("RALLY2",15)
+THEN
+	RESPONSE #100
+		MoveToObjectNoInterrupt("RALLY2")
+		Face(6)
+		SetGlobal("CbThisSoldierRetreatedTwice","LOCALS",1)
+END
+
+IF
+	Global("CbHlondethRetreatStage","AR3675",3)
+	Global("CbOfficerOneCreatesMOB","AR3675",2)
+	Global("CbInitialStandDone","AR3675",0)
+	!Range("WESTBRDG",10)
+THEN
+	RESPONSE #100
+		MoveToObject("WESTBRDG")
+END
+
+IF
+	Global("CbHlondethRetreatStage","AR3675",7)
+	Global("CbOfficerTwoCreatesMOB","AR3675",3)
+	Global("CbSecondStandDone","AR3675",0)
+	!Range("MDDLBRDG",10)
+THEN
+	RESPONSE #100
+		MoveToObject("MDDLBRDG")
+END
+
+IF
+	Global("CbHlondethMustRetreat","AR3675",11)
+	Global("CbOfficerThreeCreatesMOB","AR3675",3)
+	GlobalLT("CbThirdStandDone","AR3675",5)
+	!Range("EASTBRDG",10)
+THEN
+	RESPONSE #100
+		MoveToObject("EASTBRDG")
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),10)
+END
+
+

@@ -1,0 +1,11 @@
+IF
+	OR(2)
+		Entered([ANYONE])
+		Opened([ANYONE])
+THEN
+	RESPONSE #100
+		DisplayString(LastTrigger,14381) 
+		ForceSpellRES("SPIN926",LastTrigger)
+END
+
+

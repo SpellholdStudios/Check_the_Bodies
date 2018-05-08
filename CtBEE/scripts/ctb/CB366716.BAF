@@ -1,0 +1,79 @@
+IF
+	IsOverMe([ANYONE])
+	!AreaCheckObject("CB3667",Player1)
+THEN
+	RESPONSE #100
+		SetGlobal("Trap1","CB3667",0)
+		SetGlobal("Trap2","CB3667",0)
+		SetGlobal("Trap3","CB3667",0)
+		SetGlobal("Trap4","CB3667",0)
+		SetGlobal("Trap5","CB3667",0)
+		MoveGlobalObject(LastTrigger,Player1)
+END
+
+IF
+	IsOverMe([ANYONE])
+	!AreaCheckObject("CB3667",Player2)
+THEN
+	RESPONSE #100
+		SetGlobal("Trap1","CB3667",0)
+		SetGlobal("Trap2","CB3667",0)
+		SetGlobal("Trap3","CB3667",0)
+		SetGlobal("Trap4","CB3667",0)
+		SetGlobal("Trap5","CB3667",0)
+		MoveGlobalObject(LastTrigger,Player2)
+END
+
+IF
+	IsOverMe([ANYONE])
+	!AreaCheckObject("CB3667",Player3)
+THEN
+	RESPONSE #100
+		SetGlobal("Trap1","CB3667",0)
+		SetGlobal("Trap2","CB3667",0)
+		SetGlobal("Trap3","CB3667",0)
+		SetGlobal("Trap4","CB3667",0)
+		SetGlobal("Trap5","CB3667",0)
+		MoveGlobalObject(LastTrigger,Player3)
+END
+
+IF
+	IsOverMe([ANYONE])
+	!AreaCheckObject("CB3667",Player4)
+THEN
+	RESPONSE #100
+		SetGlobal("Trap1","CB3667",0)
+		SetGlobal("Trap2","CB3667",0)
+		SetGlobal("Trap3","CB3667",0)
+		SetGlobal("Trap4","CB3667",0)
+		SetGlobal("Trap5","CB3667",0)
+		MoveGlobalObject(LastTrigger,Player4)
+END
+
+IF
+	IsOverMe([ANYONE])
+	!AreaCheckObject("CB3667",Player5)
+THEN
+	RESPONSE #100
+		SetGlobal("Trap1","CB3667",0)
+		SetGlobal("Trap2","CB3667",0)
+		SetGlobal("Trap3","CB3667",0)
+		SetGlobal("Trap4","CB3667",0)
+		SetGlobal("Trap5","CB3667",0)
+		MoveGlobalObject(LastTrigger,Player5)
+END
+
+IF
+	IsOverMe([ANYONE])
+	!AreaCheckObject("CB3667",Player6)
+THEN
+	RESPONSE #100
+		SetGlobal("Trap1","CB3667",0)
+		SetGlobal("Trap2","CB3667",0)
+		SetGlobal("Trap3","CB3667",0)
+		SetGlobal("Trap4","CB3667",0)
+		SetGlobal("Trap5","CB3667",0)
+		MoveGlobalObject(LastTrigger,Player6)
+END
+
+

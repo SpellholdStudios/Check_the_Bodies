@@ -1,0 +1,299 @@
+IF
+	OnCreation()
+	Global("CbAreaWard_3542_Opened","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbAreaWard_3542_Opened","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("Cb_DoorMagicOpen","AR3544",0)
+	OpenState("DoorMagic",TRUE)
+THEN
+	RESPONSE #100
+		CloseDoor("DoorMagic")
+		Lock("DoorMagic")
+		Continue()
+END
+
+IF
+	NumInParty(1)
+	InActiveArea(Player1)
+	!Global("CbStopSplitting","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbStopSplitting","GLOBAL",1)
+		Continue()
+END
+
+IF
+	NumInParty(2)
+	InActiveArea(Player1)
+	InActiveArea(Player2)
+	!Global("CbStopSplitting","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbStopSplitting","GLOBAL",1)
+		Continue()
+END
+
+IF
+	NumInParty(3)
+	InActiveArea(Player1)
+	InActiveArea(Player2)
+	InActiveArea(Player3)
+	!Global("CbStopSplitting","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbStopSplitting","GLOBAL",1)
+		Continue()
+END
+
+IF
+	NumInParty(4)
+	InActiveArea(Player1)
+	InActiveArea(Player2)
+	InActiveArea(Player3)
+	InActiveArea(Player4)
+	!Global("CbStopSplitting","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbStopSplitting","GLOBAL",1)
+		Continue()
+END
+
+IF
+	NumInParty(5)
+	InActiveArea(Player1)
+	InActiveArea(Player2)
+	InActiveArea(Player3)
+	InActiveArea(Player4)
+	InActiveArea(Player5)
+	!Global("CbStopSplitting","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbStopSplitting","GLOBAL",1)
+		Continue()
+END
+
+IF
+	NumInParty(6)
+	InActiveArea(Player1)
+	InActiveArea(Player2)
+	InActiveArea(Player3)
+	InActiveArea(Player4)
+	InActiveArea(Player5)
+	InActiveArea(Player6)
+	!Global("CbStopSplitting","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbStopSplitting","GLOBAL",1)
+		Continue()
+END
+
+IF
+	NumInParty(1)
+	LevelPartyLT(10)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty1Cat1","MYAREA",1)
+END
+
+IF
+	NumInParty(1)
+	LevelPartyLT(20)
+	LevelPartyGT(11)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty1Cat2","MYAREA",1)
+END
+
+IF
+	NumInParty(1)
+	LevelPartyLT(30)
+	LevelPartyGT(21)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty1Cat3","MYAREA",1)
+END
+
+IF
+	NumInParty(1)
+	LevelPartyGT(31)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty1Cat4","MYAREA",1)
+END
+
+IF
+	NumInParty(2)
+	LevelPartyLT(10)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty2Cat1","MYAREA",1)
+END
+
+IF
+	NumInParty(2)
+	LevelPartyLT(20)
+	LevelPartyGT(11)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty2Cat2","MYAREA",1)
+END
+
+IF
+	NumInParty(2)
+	LevelPartyLT(30)
+	LevelPartyGT(21)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty2Cat3","MYAREA",1)
+END
+
+IF
+	NumInParty(2)
+	LevelPartyGT(31)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty2Cat4","MYAREA",1)
+END
+
+IF
+	NumInParty(3)
+	LevelPartyLT(10)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty3Cat1","MYAREA",1)
+END
+
+IF
+	NumInParty(3)
+	LevelPartyLT(20)
+	LevelPartyGT(11)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty3Cat2","MYAREA",1)
+END
+
+IF
+	NumInParty(3)
+	LevelPartyLT(30)
+	LevelPartyGT(21)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty3Cat3","MYAREA",1)
+END
+
+IF
+	NumInParty(3)
+	LevelPartyGT(31)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty3Cat4","MYAREA",1)
+END
+
+IF
+	NumInParty(4)
+	LevelPartyLT(10)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty4Cat1","MYAREA",1)
+END
+
+IF
+	NumInParty(4)
+	LevelPartyLT(20)
+	LevelPartyGT(11)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty4Cat2","MYAREA",1)
+END
+
+IF
+	NumInParty(4)
+	LevelPartyLT(30)
+	LevelPartyGT(21)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty4Cat3","MYAREA",1)
+END
+
+IF
+	NumInParty(4)
+	LevelPartyGT(31)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty4Cat4","MYAREA",1)
+END
+
+IF
+	NumInParty(5)
+	LevelPartyLT(10)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty5Cat1","MYAREA",1)
+END
+
+IF
+	NumInParty(5)
+	LevelPartyLT(20)
+	LevelPartyGT(11)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty5Cat2","MYAREA",1)
+END
+
+IF
+	NumInParty(5)
+	LevelPartyLT(30)
+	LevelPartyGT(21)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty5Cat3","MYAREA",1)
+END
+
+IF
+	NumInParty(5)
+	LevelPartyGT(31)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty5Cat4","MYAREA",1)
+END
+
+IF
+	NumInParty(6)
+	LevelPartyLT(10)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty6Cat1","MYAREA",1)
+END
+
+IF
+	NumInParty(6)
+	LevelPartyLT(20)
+	LevelPartyGT(11)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty6Cat2","MYAREA",1)
+END
+
+IF
+	NumInParty(6)
+	LevelPartyLT(30)
+	LevelPartyGT(21)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty6Cat3","MYAREA",1)
+END
+
+IF
+	NumInParty(6)
+	LevelPartyGT(31)
+THEN
+	RESPONSE #100
+		SetGlobal("CbParty6Cat4","MYAREA",1)
+END
+
+

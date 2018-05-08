@@ -1,0 +1,168 @@
+IF
+	Global("CbXTThiefStealsFromSlavers","GLOBAL",0)
+//	OnCreation()
+THEN
+	RESPONSE #100
+		ContainerEnable("CbCont01",FALSE)
+		ContainerEnable("CbCont02",FALSE)
+		ContainerEnable("CbCont03",FALSE)
+		ContainerEnable("CbCont04",FALSE)
+		Continue()
+END
+
+IF
+	Unlocked("Container13")
+	!Unlocked("CbCont01")
+THEN
+	RESPONSE #100
+		Unlock("CbCont01")
+		Continue()
+END
+
+IF
+	!Unlocked("Container13")
+	Unlocked("CbCont01")
+THEN
+	RESPONSE #100
+		Unlock("Container13")
+		Continue()
+END
+
+IF
+	Unlocked("Container11")
+	!Unlocked("CbCont02")
+THEN
+	RESPONSE #100
+		Unlock("CbCont02")
+		Continue()
+END
+
+IF
+	!Unlocked("Container11")
+	Unlocked("CbCont02")
+THEN
+	RESPONSE #100
+		Unlock("Container11")
+		Continue()
+END
+
+IF
+	Unlocked("Container12")
+	!Unlocked("CbCont03")
+THEN
+	RESPONSE #100
+		Unlock("CbCont03")
+		Continue()
+END
+
+IF
+	!Unlocked("Container12")
+	Unlocked("CbCont03")
+THEN
+	RESPONSE #100
+		Unlock("Container12")
+		Continue()
+END
+
+IF
+	Unlocked("Container5")
+	!Unlocked("CbCont04")
+THEN
+	RESPONSE #100
+		Unlock("CbCont04")
+		Continue()
+END
+
+IF
+	!Unlocked("Container5")
+	Unlocked("CbCont04")
+THEN
+	RESPONSE #100
+		Unlock("Container5")
+		Continue()
+END
+
+IF
+	GlobalGT("CbXTThiefStealsFromSlavers","GLOBAL",0)
+	Contains("CBXTSHaa","CbCont01")
+THEN
+	RESPONSE #100
+		ContainerEnable("CbCont01",TRUE)
+		ContainerEnable("Container13",FALSE)
+		Continue()
+END
+
+IF
+	GlobalGT("CbXTThiefStealsFromSlavers","GLOBAL",1)
+	!Contains("CBXTSHaa","CbCont01")
+	Global("CbResetContainer13","AR0907",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbResetContainer13","AR0907",1)
+		ContainerEnable("CbCont01",FALSE)
+		ContainerEnable("Container13",TRUE)
+END
+
+IF
+	GlobalGT("CbXTThiefStealsFromSlavers","GLOBAL",0)
+	Contains("CBXTSHbb","CbCont02")
+THEN
+	RESPONSE #100
+		ContainerEnable("CbCont02",TRUE)
+		ContainerEnable("Container11",FALSE)
+		Continue()
+END
+
+IF
+	GlobalGT("CbXTThiefStealsFromSlavers","GLOBAL",1)
+	!Contains("CBXTSHbb","CbCont02")
+	Global("CbResetContainer11","AR0907",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbResetContainer11","AR0907",1)
+		ContainerEnable("CbCont02",FALSE)
+		ContainerEnable("Container11",TRUE)
+END
+
+IF
+	GlobalGT("CbXTThiefStealsFromSlavers","GLOBAL",0)
+	Contains("CBXTSHcc","CbCont03")
+THEN
+	RESPONSE #100
+		ContainerEnable("CbCont03",TRUE)
+		ContainerEnable("Container12",FALSE)
+		Continue()
+END
+
+IF
+	GlobalGT("CbXTThiefStealsFromSlavers","GLOBAL",1)
+	!Contains("CBXTSHcc","CbCont03")
+	Global("CbResetContainer12","AR0907",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbResetContainer12","AR0907",1)
+		ContainerEnable("CbCont03",FALSE)
+		ContainerEnable("Container12",TRUE)
+END
+
+IF
+	GlobalGT("CbXTThiefStealsFromSlavers","GLOBAL",0)
+	Contains("CBXTSHdd","CbCont04")
+THEN
+	RESPONSE #100
+		ContainerEnable("CbCont04",TRUE)
+		ContainerEnable("Container5",FALSE)
+		Continue()
+END
+
+IF
+	GlobalGT("CbXTThiefStealsFromSlavers","GLOBAL",1)
+	!Contains("CBXTSHdd","CbCont04")
+	Global("CbResetContainer5","AR0907",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbResetContainer5","AR0907",1)
+		ContainerEnable("CbCont04",FALSE)
+		ContainerEnable("Container5",TRUE)
+END
+

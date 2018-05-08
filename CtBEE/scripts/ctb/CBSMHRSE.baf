@@ -1,0 +1,35 @@
+IF
+	Range(Player1,5)
+	!GlobalTimerNotExpired("CbMoondropsHorseBothered","AR2600")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbMoondropsHorseBothered","AR2600",60)
+		SetGlobal("MoondropsHorseStolenP1","AR2600",1)
+		ActionOverride("CBMONDRP",ClearActions([ANYONE]))
+END
+
+IF
+	Range(Player2,5)
+	OR(4)
+		Range(Player3,5)
+		Range(Player4,5)
+		Range(Player5,5)
+		Range(Player6,5)
+	!GlobalTimerNotExpired("CbMoondropsHorseBothered","AR2600")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbMoondropsHorseBothered","AR2600",60)
+		SetGlobal("MoondropsHorseStolenP2","AR2600",1)
+		ActionOverride("CBMONDRP",ClearActions([ANYONE]))
+END
+
+IF
+	Global("MoondropsHorseKilled","AR2600",0)
+	HPLT(Myself,1)
+THEN
+	RESPONSE #100
+		SetGlobal("MoondropsHorseKilled","AR2600",1)
+		ActionOverride("CBMONDRP",ClearActions([ANYONE]))
+END
+
+

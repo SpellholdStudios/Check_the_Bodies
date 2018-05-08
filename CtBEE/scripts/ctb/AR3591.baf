@@ -1,0 +1,29 @@
+IF
+	OR(2)
+		Global("CbBarbarianIntroGuy","GLOBAL",2)
+		GlobalGT("CbPartyEscapedUnderdark","GLOBAL",0)
+	Global("CbNorthmenCouncilCreated","AR3591",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbNorthmenCouncilCreated","AR3591",1)
+		CreateCreature("CBNRT020",[182.214],13)
+		CreateCreature("CBNRT025",[322.325],2)
+END
+
+IF
+	InActiveArea(Player1)
+	Global("CbFixingMasterAreas","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbFixingMasterAreas","GLOBAL",1)
+		SetMasterArea("AR3591")
+END
+
+IF
+	Exists("SEAGUL")
+THEN
+	RESPONSE #100
+		ActionOverride("SEAGUL",DestroySelf())
+END
+
+

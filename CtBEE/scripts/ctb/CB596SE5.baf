@@ -1,0 +1,25 @@
+IF
+	OnCreation()
+THEN
+	RESPONSE #100
+		FaceObject("CB596SE1")
+END
+
+IF
+	Global("CbTaxAnnouncement","GLOBAL",5)
+THEN
+	RESPONSE #25
+		Wait(5)
+		EscapeArea()
+	RESPONSE #25
+		Wait(10)
+		EscapeArea()
+	RESPONSE #25
+		Wait(15)
+		EscapeArea()
+	RESPONSE #25
+		Wait(25)
+		EscapeArea()
+END
+
+

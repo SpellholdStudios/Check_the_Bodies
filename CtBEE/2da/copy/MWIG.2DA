@@ -1,0 +1,41 @@
+MWIG/ Female Drider/
+***
+						SOUND
+ATTACK          		MDRID01A MDRID01B nosound
+ATTACK          		2 0 0
+AWAKE           		***
+AWAKE           		0
+CAST            		***
+CAST            		0
+CONJURE         		***
+CONJURE         		0
+DAMAGE          		MDRID07A MDRID07B MDRID08A nosound
+DAMAGE          		0 0 0 0
+DIE             		MDRID09A MDRID09B
+DIE             		0 0
+HEAD_TURN       		***
+HEAD_TURN       		0
+READY           		***
+READY           		0
+SHOOT           		***
+SHOOT           		0
+TWITCH          		***
+TWITCH          		0
+WALK            		***
+WALK            		0
+ATTACK_SLASH    		MDRID03A MDRID03B MDRID03C nosound
+ATTACK_SLASH    		2 2 0 0
+ATTACK_BACKSLASH		MDRID04A MDRID04B MDRID04C nosound
+ATTACK_BACKSLASH		2 2 0 0
+ATTACK_JAB      		***
+ATTACK_JAB      		0
+EMERGE          		***
+EMERGE          		0
+HIDE            		***
+HIDE            		0
+SLEEP                   	***
+SLEEP                   	0
+Battle_Cry			MDRID10A MDRID10B
+Battle_Cry			0 0
+Selection               	MDRID10A
+Selection               	0

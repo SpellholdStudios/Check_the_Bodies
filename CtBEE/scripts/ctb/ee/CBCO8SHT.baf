@@ -1,0 +1,348 @@
+IF
+	Allegiance(Myself,ENEMY)
+	!StateCheck(Myself,STATE_CHARMED)                 
+	HasItem("IMOENHP1",Myself) // Imoen's Belt
+THEN
+	RESPONSE #100
+		DestroyItem("IMOENHP1") // Imoen's Belt
+END
+
+IF
+	Global("Cb_CompanyOfEight_Attacked","GLOBAL",1)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly(Myself,ENEMY)
+END
+
+IF
+	HasItem("CBCO8HP1",Myself)
+	AttackedBy([GOODCUTOFF],DEFAULT)
+THEN
+	RESPONSE #100
+		ClearActions(LastAttackerOf(Myself))
+		ActionOverride(LastAttackerOf(Myself),AttackReevaluate(NearestEnemyOf(Myself),6))
+		Continue()
+END
+
+IF
+	HP(Myself,1)
+	HasItem("IMOENHP1",Myself) // Imoen's Belt
+	GlobalGT("Cb_PartyAlliesWith_C_o_8","GLOBAL",1)
+	!Global("CbThisMemberDied","LOCALS",1)
+	!GlobalTimerNotExpired("CbIveBeenResurrected","LOCALS")
+THEN
+	RESPONSE #100
+		TakeItemReplace("CBCO8HP1","IMOENHP1",Myself) // Imoen's Belt
+		DisplayString(Myself,14026) // Death
+		ChangeEnemyAlly(Myself,NEUTRAL)
+		ClearActions(LastAttackerOf(Myself))
+		ApplySpellRES("CBC8LSXP",Player1)
+		ApplySpellRES("CBC8LSXP",Player2)
+		ApplySpellRES("CBC8LSXP",Player3)
+		ApplySpellRES("CBC8LSXP",Player4)
+		ApplySpellRES("CBC8LSXP",Player5)
+		ApplySpellRES("CBC8LSXP",Player6)
+		ReputationInc(-1)
+		SetGlobal("CbThisMemberDied","LOCALS",1)
+		Continue()
+END
+
+IF
+	HP(Myself,1)
+	HasItem("CBCO8HP1",Myself)
+	Global("CbThisMemberDied","LOCALS",1)
+	OR(2)
+		SpellCastOnMe([ANYONE],CLERIC_RAISE_DEAD)
+		SpellCastOnMe([ANYONE],CLERIC_RESURRECTION)
+THEN
+	RESPONSE #100
+		SetGlobal("CbThisMemberDied","LOCALS",0)
+		SetGlobalTimer("CbIveBeenResurrected","LOCALS",180)
+		TakeItemReplace("IMOENHP1","CBCO8HP1",Myself)
+		ChangeEnemyAlly(Myself,CONTROLLED)
+		AddXPObject(Player1,10000)
+		AddXPObject(Player2,10000)
+		AddXPObject(Player3,10000)
+		AddXPObject(Player4,10000)
+		AddXPObject(Player5,10000)
+		AddXPObject(Player6,10000)
+		ReputationInc(1)
+		Continue()
+END
+
+IF
+	HasItem("CBCO8HP1",Myself)
+	HasItem("CBTLSWRD",Myself)
+	HasItem("CBSPERRG",Myself)
+	Global("Cb_TardethDied","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_TardethDied","GLOBAL",1)
+END
+
+IF
+	Global("Cb_TardethDied","GLOBAL",1)
+	HasItem("CBTLSWRD",Myself)
+	HasItem("CBSPERRG",Myself)
+	!HasItem("CBCO8HP1",Myself)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_TardethDied","GLOBAL",0)
+END
+
+IF
+	HasItem("CBCO8HP1",Myself)
+	HasItem("CBMHSHLD",Myself)
+	HasItem("CBDRDSWD",Myself)
+	Global("Cb_MarilyDied","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_MarilynDied","GLOBAL",1)
+END
+
+IF
+	Global("Cb_MarilynDied","GLOBAL",1)
+	HasItem("CBMHSHLD",Myself)
+	HasItem("CBDRDSWD",Myself)
+	!HasItem("CBCO8HP1",Myself)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_MarilynDied","GLOBAL",0)
+END
+
+IF
+	HasItem("CBCO8HP1",Myself)
+	HasItem("CBMNAMUL",Myself)
+	HasItem("CBSMRLBW",Myself)
+	Global("Cb_SylvanusDied","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_SylvanusDied","GLOBAL",1)
+END
+
+IF
+	Global("Cb_SylvanusDied","GLOBAL",1)
+	HasItem("CBMNAMUL",Myself)
+	HasItem("CBSMRLBW",Myself)
+	!HasItem("CBCO8HP1",Myself)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_SylvanusDied","GLOBAL",0)
+END
+
+IF
+	HasItem("CBCO8HP1",Myself)
+	HasItem("CBBRCSPL",Myself)
+	HasItem("CBCLCKP3",Myself)
+	Global("Cb_LawanthaDied","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_LawanthaDied","GLOBAL",1)
+END
+
+IF
+	Global("Cb_LawanthaDied","GLOBAL",1)
+	HasItem("CBBRCSPL",Myself)
+	HasItem("CBCLCKP3",Myself)
+	!HasItem("CBCO8HP1",Myself)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_LawanthaDied","GLOBAL",0)
+END
+
+IF
+	HasItem("CBCO8HP1",Myself)
+	HasItem("CBPSBSWD",Myself)
+	HasItem("XBOW04",Myself) // Light Crossbow
+	Global("Cb_PaddyDied","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_PaddyDied","GLOBAL",1)
+END
+
+IF
+	Global("Cb_PaddyDied","GLOBAL",1)
+	HasItem("CBPSBSWD",Myself)
+	HasItem("XBOW04",Myself) // Light Crossbow
+	!HasItem("CBCO8HP1",Myself)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_PaddyDied","GLOBAL",0)
+END
+
+IF
+	HasItem("CBCO8HP1",Myself)
+	HasItem("STAF14",Myself) // Staff of the Woodlands +4
+	HasItem("STAF16",Myself) // Staff of Earth +2
+	Global("Cb_ArkanusDied","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ArkanusDied","GLOBAL",1)
+END
+
+IF
+	Global("Cb_ArkanusDied","GLOBAL",1)
+	HasItem("STAF14",Myself) // Staff of the Woodlands +4
+	HasItem("STAF16",Myself) // Staff of Earth +2
+	!HasItem("CBCO8HP1",Myself)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ArkanusDied","GLOBAL",0)
+END
+
+IF
+	HasItem("CBCO8HP1",Myself)
+	HasItem("STAF01",Myself) // Quarterstaff
+	LevelLT(Myself,10)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_MannyDied","GLOBAL",1)
+END
+
+IF
+	Global("Cb_MannyDied","GLOBAL",1)
+	HasItem("STAF01",Myself) // Quarterstaff
+	LevelLT(Myself,10)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_MannyDied","GLOBAL",0)
+END
+
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	OR(2)
+		Allegiance(Myself,GOODBUTBLUE)
+		Allegiance(Myself,NEUTRAL)
+	!Global("Cb_CompanyOfEight_Attacked","GLOBAL",1)
+	!StateCheck(LastAttackerOf(Myself),STATE_CONFUSED)
+THEN
+	RESPONSE #100
+		Shout(208)
+		SetGlobal("Cb_CompanyOfEight_Attacked","GLOBAL",1)
+		SetGlobal("Cb_CompanyOfEightEnemy","LOCALS",1)
+		StartDialogOverride("CBCO8SHT",LastAttackerOf(Myself))
+END
+
+IF
+	HitBy([GOODCUTOFF],CRUSHING)
+	!Global("Cb_CompanyOfEight_Attacked","GLOBAL",1)
+	!StateCheck(LastAttackerOf(Myself),STATE_CONFUSED)
+THEN
+	RESPONSE #100
+		Shout(208)
+		SetGlobal("Cb_CompanyOfEight_Attacked","GLOBAL",1)
+		SetGlobal("Cb_CompanyOfEightEnemy","LOCALS",1)
+		StartDialogOverride("CBCO8SHT",LastAttackerOf(Myself))
+		Continue()
+END
+
+IF
+	See([GOODCUTOFF])
+	Allegiance(Myself,ENEMY)
+	!Global("Cb_CompanyOfEight_Attacked","GLOBAL",1)
+	ActionListEmpty()
+THEN
+	RESPONSE #100
+		Shout(208)
+		SetGlobal("Cb_CompanyOfEight_Attacked","GLOBAL",1)
+		SetGlobal("Cb_CompanyOfEightEnemy","LOCALS",1)
+		StartDialogOverride("CBCO8SHT",LastAttackerOf(Myself))
+		Continue()
+END
+
+IF
+	Heard([ANYONE],208)
+	InMyGroup(LastHeardBy(Myself))
+	!Class(Myself,INNOCENT)
+	OR(2)
+		Allegiance(Myself,GOODBUTBLUE)
+		Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+		MoveToObject(LastHeardBy(Myself))
+END
+
+IF
+	Heard([ANYONE],208)
+	InMyGroup(LastHeardBy(Myself))
+	OR(2)
+		Allegiance(Myself,GOODBUTBLUE)
+		Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	Heard([ANYONE],208)
+	InMyGroup(LastHeardBy(Myself))
+	!Class(Myself,INNOCENT)
+	!See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		MoveToObject(LastHeardBy(Myself))
+		Continue()
+END
+
+IF
+	General(Myself,HUMANOID)
+	HPPercentLT(Myself,20)
+	HPGT(Myself,0)
+	Global("whined","LOCALS",0)
+	See(NearestMyGroupOfType)
+	Allegiance(Myself,ENEMY)
+	HPGT(LastSeenBy(Myself),0)
+THEN
+	RESPONSE #50
+		SetGlobal("whined","LOCALS",1)
+		DisplayStringHead(Myself,46151) // help!
+		Shout(209)
+	RESPONSE #50
+		SetGlobal("whined","LOCALS",1)
+		DisplayStringHead(Myself,49763) // I require assistance
+		Shout(209)
+	RESPONSE #50
+		SetGlobal("whined","LOCALS",1)
+		DisplayStringHead(Myself,49764) // Defend me!
+		Shout(209)
+	RESPONSE #50
+		SetGlobal("whined","LOCALS",1)
+		DisplayStringHead(Myself,49765) // Slay my attacker!
+		Shout(209)
+END
+
+IF
+	Heard([ANYONE],209)
+	InMyGroup(LastHeardBy(Myself))
+	!HaveAnySpells()
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate(LastAttackerOf(LastHeardBy(Myself)),30)
+END
+
+IF
+	BreakingPoint()
+	Global("Panic","LOCALS",0)
+THEN
+	RESPONSE #50
+		SetGlobal("Panic","LOCALS",1)
+		DisplayStringHead(Myself,49766) // I can't take this
+	RESPONSE #50
+		SetGlobal("Panic","LOCALS",1)
+		DisplayStringHead(Myself,49767) // No more
+	RESPONSE #50
+		SetGlobal("Panic","LOCALS",1)
+		DisplayStringHead(Myself,49768) // Mercy!
+END
+
+IF
+	HitBy(Myself,CRUSHING)
+THEN
+	RESPONSE #100
+		RunAwayFrom(NearestEnemyOf(Myself),15)
+END
+
+

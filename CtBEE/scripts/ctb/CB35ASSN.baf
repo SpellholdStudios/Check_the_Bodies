@@ -1,0 +1,69 @@
+IF
+	GlobalTimerExpired("Cb_AssassinRuns","LOCALS")
+	Global("CbTriedPickPocketing","LOCALS",1)
+THEN
+	RESPONSE #100
+		EscapeArea()
+END
+
+IF
+	Global("CbTriedPickPocketing","LOCALS",1)
+	!GlobalTimerNotExpired("Cb_AssassinRuns","LOCALS")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("Cb_AssassinRuns","LOCALS",120)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Range(LastSeenBy(Myself),10)
+	Global("CbTriedPickPocketing","LOCALS",1)
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),12)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(NearestEnemyOf(Myself),10)
+	Global("CbTriedPickPocketing","LOCALS",1)
+THEN
+	RESPONSE #100
+		Hide()
+		MoveToObject(NearestEnemyOf(Myself))
+		AttackReevaluate(NearestEnemyOf(Myself),12)
+END
+
+IF
+	StateCheck(Myself,STATE_INVISIBLE)
+	!HasItem("CB513REL",Myself)
+	Global("CbTriedPickPocketing","LOCALS",0)
+	OR(6)
+ 	    See(Player1)
+ 	    See(Player2)
+ 	    See(Player3)
+ 	    See(Player4)
+ 	    See(Player5)
+ 	    See(Player6)
+	HasItem("CB513REL",LastSeenBy(Myself))
+THEN
+	RESPONSE #100
+		MoveToObject(LastSeenBy(Myself))
+		TakePartyItem("CB513REL")
+		GiveItemCreate("CB513REL",Myself,1,0,0)
+		DisplayStringNoName(Myself,10072)
+		SetGlobal("CbTriedPickPocketing","LOCALS",1)
+		Wait(2)
+		EquipItem("CB35ASS2")
+		AttackReevaluate(LastSeenBy(Myself),6)
+END
+
+IF
+	See([GOODCUTOFF])
+	!HasItem("CB513REL",LastSeenBy(Myself))
+THEN
+	RESPONSE #100
+		NoAction()
+END
+
+

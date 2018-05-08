@@ -1,0 +1,84 @@
+IF
+	Global("CbAngryVillagersRevolt","GLOBAL",3)
+	AttackedBy([ANYONE],DEFAULT)
+	HPGT(LastAttackerOf(Myself),0)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastAttackerOf(Myself),10)
+END
+
+IF
+	Global("CbAngryVillagersRevolt","GLOBAL",4)
+THEN
+	RESPONSE #100
+		EscapeArea()
+END
+
+IF
+	Global("CbPartySidedVillagers","AR1000",1)
+	!Allegiance(Myself,GOODBUTBLUE)
+	Global("CbActorChanged","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbActorChanged","LOCALS",1)
+		ChangeEnemyAlly(Myself,GOODBUTBLUE)
+END
+
+IF
+	Global("CbPartySidedSoldiers","AR1000",1)
+	!Allegiance(Myself,GOODBUTRED)
+	Global("CbActorChanged","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbActorChanged","LOCALS",1)
+		ChangeEnemyAlly(Myself,GOODBUTRED)
+END
+
+IF
+	See([GOODBUTRED])
+	Global("CbPartySidedVillagers","AR1000",1)
+        HPGT(LastSeenBy(Myself),0)
+	GlobalGT("CbAngryVillagersRevolt","GLOBAL",2)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),20)
+END
+
+IF
+	See([GOODBUTBLUE])
+	Global("CbPartySidedSoldiers","AR1000",1)
+        HPGT(LastSeenBy(Myself),0)
+	GlobalGT("CbAngryVillagersRevolt","GLOBAL",2)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),20)
+END
+
+IF
+	Detect([PC])
+	Range([PC],10)
+	NumTimesTalkedTo(0)
+	Allegiance(Myself,NEUTRAL)
+	!GlobalGT("CbAngryVillagersRevolt","GLOBAL",1)
+	!Global("CbPartySidedSoldiers","AR1000",1)
+	!Global("CbPartySidedVillagers","AR1000",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbAngryVillagersRevolt","GLOBAL",2)
+		ActionOverride(Player1,MoveToObject("CBAVRSLG"))
+		ActionOverride("CBAVRSLE",StartDialogueNoSet("CBAVRSLG"))
+END
+
+IF
+	Global("CbAngryVillagersRevolt","GLOBAL",3)
+	OR(2)
+		Global("CbPartySidedSoldiers","AR1000",1)
+		Global("CbPartySidedVillagers","AR1000",1)
+	Detect([PC])
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet([PC])
+END
+
+

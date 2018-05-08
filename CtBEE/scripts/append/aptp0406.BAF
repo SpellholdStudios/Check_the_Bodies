@@ -1,0 +1,9 @@
+IF
+	Global("CbMadameSpawned","AR0406",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CBSCHOOK",[282.979],3)
+		SetGlobal("CbMadameSpawned","AR0406",1)
+		Continue()
+END
+

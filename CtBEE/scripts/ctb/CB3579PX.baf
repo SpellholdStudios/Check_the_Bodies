@@ -1,0 +1,48 @@
+IF
+	AreaCheck("AR3580")
+	!HasItem("SW1H06",Myself)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		GiveItemCreate("SW1H06",Myself,1,0,0)
+		EquipItem("SW1H06") 
+		EquipMostDamagingMelee()
+		ReallyForceSpell(Myself,WIZARD_FIRE_SHIELD_BLUE)
+		ReallyForceSpell(Myself,WIZARD_FIRE_SHIELD_RED)
+		ReallyForceSpell(Myself,WIZARD_PROJECT_IMAGE)
+		ReallyForceSpell(Myself,WIZARD_SPELL_TRAP)
+		SetInterrupt(TRUE)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Fireball","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(LastSeenBy(Myself),WIZARD_DISPEL_MAGIC)
+		Wait(2)
+		ForceSpell(LastSeenBy(Myself),RED_FIREBALL)
+		SetGlobal("Fireball","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_DISPEL_MAGIC)
+		Wait(2)
+		ForceSpell(LastSeenBy(Myself),RED_FIREBALL)
+		AttackOneRound(NearestEnemyOf(Myself))
+		AttackOneRound(NearestEnemyOf(Myself))
+		Wait(1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+

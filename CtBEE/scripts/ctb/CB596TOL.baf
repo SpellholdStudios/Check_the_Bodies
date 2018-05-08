@@ -1,0 +1,54 @@
+IF
+	Global("CbBylannaEscapes","AR3596",0)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		DisplayStringHead(Myself,@550539)
+		SmallWait(5)
+		CreateVisualEffectObject("SPDIMNDR","CB596SE1")
+		SmallWait(3)
+		CreateVisualEffectObject("SPDIMNDR","CB596SE2")
+		SmallWait(5)
+		CreateVisualEffectObject("SPDIMNDR",Myself)
+		Wait(1)
+		SetGlobal("CbBylannaEscapes","AR3596",1)
+		ActionOverride("CB596SE1",Deactivate("CB596SE1"))
+		ActionOverride("CB596SE2",Deactivate("CB596SE2"))
+		SetInterrupt(TRUE)
+		Deactivate(Myself)
+END
+
+IF
+	Global("CbBylannaEscapes","AR3596",1)
+	Detect([PC])
+	Dead("CBTAXAS1")
+	Dead("CBTAXAS2")
+	Dead("CBTAXAS3")
+	Dead("CBTAXAS4")
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		CreateVisualEffectObject("SPDIMNDR","CB596SE1")
+		CreateVisualEffectObject("SPDIMNDR","CB596SE2")
+		CreateVisualEffectObject("SPDIMNDR",Myself)
+		ActionOverride("CB596SE1",Activate("CB596SE1"))
+		ActionOverride("CB596SE2",Activate("CB596SE2"))
+		Activate(Myself)
+		Wait(2)
+		SetGlobal("CbBylannaEscapes","AR3596",2)
+		SetInterrupt(TRUE)
+END
+
+IF
+	Global("CbBylannaEscapes","AR3596",4)
+	Global("CbTaxAnnouncement","GLOBAL",5)
+THEN
+	RESPONSE #100
+		Wait(2)
+		CreateVisualEffectObject("SPDIMNDR",Myself)
+		Wait(1)
+		Deactivate(Myself)
+		DestroySelf()
+END
+
+

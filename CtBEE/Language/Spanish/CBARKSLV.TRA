@@ -1,0 +1,50 @@
+@1   = ~Vigilad dónde pisáis mientras estéis en estos bosques.~
+@2   = ~Manny es mi estudiante, aprendiendo los caminos de la Naturaleza: los bosques y las grandes praderas.~
+@3   = ~Sí, perdonadme. Me esforzaré en recordarlo en el futuro.~
+@4   = ~No, Tardeth. No podemos poner inocentes en peligro.~
+@5   = ~No soy ningún "inocente", druida.~
+@6   = ~Puedo encargarme de mí mismo, buen druida.~
+~Puedo encargarme de mí misma, buen druida.~
+@7   = ~No os preocupéis, druida. Hago esto por propia voluntad.~
+@8   = ~Manfred y yo estamos preparados, Tardeth. En cuanto queráis, nos pondremos en marcha.~
+@9   = ~Debéis perdonarme. Ahora mismo estoy muy ocupado instruyendo al joven Manfred a hablar correctamente. Hablad con Tardeth si necesitáis algo.~
+@10  = ~Disculpadme. Oh, Sylvanus. Ahí estáis. ¿Podría hablar con vos?~
+@11  = ~Esperaba que pudiérais compartir algo de vuestro saber élfico con Manny. Estuvimos discutiendo sobre la diferencia entre el crecimiento natural e antinatural, como el anormal crecimiento de las plantas de los conjuros Enredar o Crecimiento de Plantas, y él señaló que hay muchas criaturas y especies que no pueden crecer de forma antinatural. Esto sé que es verdad, pero no comprendo el razonamiento científico lo suficiente. ¿Tendríais algún conocimiento que aportar sobre el tema?~
+@12  = ~Cualquiera que sea la razón, Manfred, el hecho es que algunas plantas y animales no pueden ser alteradas de forma artificial.~
+@13  = ~El Bosque nos rodea. Oledlo. Sentid su respiración. Daos cuenta de que está vivo.~
+@14  = ~La Naturaleza puede curarse así misma, aunque con lentitud.~
+@15  = ~Y aún así, no atendéis a mis advertencias. Mirad, aún dejáis pisadas en el blando suelo.~
+@16  = ~He visto algunas cosas extrañas aquí, en el Bosque de Tethyr. Pero nunca habían ocurrido tantos hechos malvados al mismo tiempo.~
+@17  = ~Es muy problemático lo que les ha sucedido a los elfos, y más incluso si los rumores de guerra al sur se vuelven realidad.~
+@18  = ~Moveos con cuidado a través del Bosque. ¿Véis aquellos brotes? Pueden ser pequeños, pero crecerán para convertirse en robles fuertes y sanos, reemplazando a los árboles que vemos ahora en pie. Pero vos ya conocéis el ciclo de la naturaleza, ¿verdad?~
+@19  = ~Ah... sí. Bueno, parecen árboles sanos.~
+@20  = ~Que estén sanos o no lo estén no importa. Recordad, los brotes más débiles pueden crecer y convertirse eb el más legendario de los robles.~
+@21  = ~Moveos con cuidado a través del Bosque. ¿Véis aquellos brotes? Pueden ser pequeños, pero crecerán hasta convertirse en robles fuertes y sanos, reemplazando a los árboles que vemos ahora en pie. Deberíais poner mas atención a la Naturaleza.~
+@22  = ~No tengo tiempo de ponerme a ver crecer la hierba.~
+@23  = ~Sólo por no ser un druida no significa que no aprecie la naturaleza.~
+~Sólo por no ser una druida no significa que no aprecie la naturaleza.~
+@24  = ~Deberíais saber que una vez fui druida.~
+@25  = ~Todos deberíamos encontrar el tiempo. Si no, nuestras grandes tierras serán arrasadas para construir ciudades en las que sólo prosperan las malas hierbas y las ratas.~
+@26  = ~Por supuesto que no. Disculpad mi comentario.~
+@27  = ~Pero ya no lo sois. Lloro por vos, mi desencantado amigo.~
+~Pero ya no lo sois. Lloro por vos, mi desencantada amiga.~
+@28  = ~Si puedo hacer algo para ayudar, Marilyn, simplemente pedídmelo.~
+@29  = ~Es suficiente. Paddy volvió a bromear, y necesitamos recordar que sólo fue un chiste.~
+@30  = ~Manfred, calmaos.~
+@31  = ~No, Manfred, todos piensan en vos como miembro de la Compañía.~
+@32  = ~No le prestéis atención, Manfred. Todo lo que necesitáis es confianza en vos y en vuestras habilidades.~
+@33  = ~Desde luego, Manfred. La Arboleda está a salvo de los druidas renegados ahora que <CHARNAME> ha resuelto los problemas.~
+@34  = ~No, Lawantha. Manfred no se unirá a vos. Estoy al corriente de vuestras intenciones, y no le trataréis como a un estúpido.~
+@35  = ~Lo siento, Marilyn, pero no esperaba usar ningún conjuro elemental. No puedo hacer nada por ahora.~
+@36  = ~Las fuerzas del bien en Faerûn se han fortalecido ahora que el Culto del Dragón ha sido expulsado de este Bosque.~
+@37  = ~A mí, en representación del resto de la Compañía, me gustaría manifestaros nuestro gradecimiento por vuestra ayuda prestada para desterrar la invasión.~
+@38  = ~Nos habeís ayudado mucho, y y me temo que no hubiéramos tenido éxito sin vos. Tomad, os doy mi bastón como muestra de mi aprecio.~
+@39  = ~Usadlo con orgullo, <CHARNAME>. Buena suerte en el resto de vuestras aventuras. Quizás nos volvamos a encontrar.~
+@40  = ~Vamos, Compañía de Ocho, debemos partir y encontrar la aventura allá donde se encuentre.~
+@41 = ~La famosa Compañía de los Ocho
+
+  He pasado mi última aventura luchando al lado de la Compañía de los Ocho, que intentaban neutralizar una célula del Culto del Dragón que se había asentado en una mazmorra abandonada bajo el Bosque de Tethyr. Toda la Compañía, Marilyn, Paddy, el elfo Gotadeluna, Lawantha, los dos druidas Manny y Arkanus, y Tardeth, eran guerreros experimentados, y tuvimos éxito al derrotar al Culto. Debo admitir que luchar junto a una banda de aventureros tan experimentados fue un placer, y espero tener la oportunidad de volver hacerlo en el futuro.~
+@42 = ~La famosa Compañía de los Ocho
+
+  Finalmente he conocido a la Compañía de los Ocho de la que tanto había oído hablar. Este legendario grupo de aventureros de Tethyr ha tropezado con una fortaleza que esta siendo usada por el Culto del Dragón. Me invitaron a echar al Culto, y cuando estemos preparados para encargarme de esa misión, el lider de la Compañía, Tardeth, me ha pedido que se lo haga saber.
+  Espero que cuando estemos listos, buscar aventuras y combates con al Compañia de los Ocho sea algo que esté dentro de mis capacidades.~

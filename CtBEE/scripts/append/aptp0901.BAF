@@ -1,0 +1,47 @@
+IF
+  Global("CbAllAlongTheWatchtower","AR0901",0)
+THEN
+  RESPONSE #100
+           SetGlobal("CbAllAlongTheWatchtower","AR0901",1)
+           CreateCreature("CB901SCK",[1083.906],6)
+           Continue()
+END
+
+/*IF
+	OR(5)
+		Class(Player1,CLERIC)
+		Class(Player1,FIGHTER_CLERIC)
+		Class(Player1,CLERIC_MAGE)
+		Class(Player1,CLERIC_THIEF)
+		Class(Player1,FIGHTER_MAGE_CLERIC)
+	LevelGT(Player1,9)
+	Global("CbAllAlongTheWatchtower","AR0901",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbAllAlongTheWatchtower","AR0901",1)
+		CreateCreature("CB901SCK",[1083.906],6)
+		Continue()
+END
+
+IF
+	Class([GOODCUTOFF],DRUID_ALL)
+	LevelGT(LastTrigger,9)
+	Global("CbAllAlongTheWatchtower","AR0901",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbAllAlongTheWatchtower","AR0901",1)
+		CreateCreature("CB901SCK",[1083.906],6)
+		Continue()
+END
+
+IF
+	Global("JoinHelm","GLOBAL",1)
+	!Global("Stripped","GLOBAL",2)
+	LevelGT(Player1,12)
+	Global("CbAllAlongTheWatchtower","AR0901",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbAllAlongTheWatchtower","AR0901",1)
+		CreateCreature("CB901SCK",[1083.906],6)
+		Continue()
+END  */

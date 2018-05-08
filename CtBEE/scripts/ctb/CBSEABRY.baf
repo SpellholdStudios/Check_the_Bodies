@@ -1,0 +1,24 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		FadeToColor([20.0],0)
+		Wait(2)
+		SetGlobal("CbSeaCaptainToBrynnlaw","GLOBAL",3)
+		ActionOverride("CBSEACPT",EscapeAreaObjectMove("AR1600","CBSEACPT",795,2174,14))
+		LeaveAreaLUAPanic("AR1600","",[770.2236],10)
+		LeaveAreaLUA("AR1600","",[770.2236],10)
+		ActionOverride(Player2,LeaveAreaLUA("AR1600","",[832.2233],10))
+		ActionOverride(Player3,LeaveAreaLUA("AR1600","",[780.2281],10))
+		ActionOverride(Player4,LeaveAreaLUA("AR1600","",[830.2272],10))
+		ActionOverride(Player5,LeaveAreaLUA("AR1600","",[784.2317],10))
+		ActionOverride(Player6,LeaveAreaLUA("AR1600","",[843.2317],10))
+		MultiPlayerSync()
+		EndCutSceneMode()
+		SetMasterArea("AR1600")
+		FadeFromColor([20.0],0)
+		ActionOverride("CBSEACPT",StartDialogueNoSet(LastTalkedToBy(Myself)))
+END
+
+

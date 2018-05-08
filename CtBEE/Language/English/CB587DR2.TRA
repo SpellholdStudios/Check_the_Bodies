@@ -1,0 +1,71 @@
+@1   = ~I have not yet completed my apprenticeship to the Archdruid, Brother Druid.  Perhaps you should speak to her.~
+@2   = ~The Archdruid is pleased with your performance.  She has allowed me the opportunity to further your knowledge of druidic arts.~
+@3   = ~I will do so, Brother Druid, but you must choose what it is you wish me to teach you.  Would you rather learn how to memorize additional spells, would you like to learn how to cast spells faster, or would you desire the ability to transform yourself into the form of a panther or leopard?~
+@4   = ~I'd like to know how to memorize an additional spell per level.~
+@5   = ~I think I would like to cast spells faster.~
+@6   = ~I think I would prefer to shapeshift into a great cat.~
+@7   = ~As you choose, Brother Druid, so will I teach.~
+@8   = ~Brother Druid, you learn fast, and have increased your spellcasting capacity.  There is, however, more for you to learn.~
+@9   = ~Brother Druid, you learn fast, and have increased your ability to cast spells more quickly.  There is, however, more for you to learn.~
+@10  = ~Brother Druid, you learn fast, and have gained the ability to shapeshift into the form of a great cat.  Half the time you desire to change, you will take the form of a leopard, the other half, that of a panther.  There is, however, more for you to learn~
+@11  = ~You have done well, Brother Druid, and it pleases me to have helped you in such a small way.  But now, the Archdruid tells me you are to be tested further.  Are you ready for your next task?~
+@12  = ~Yes, Lady Elf.  Tell me what needs to be done.~
+@13  = ~No, Lady Elf, I need more time.~
+@14  = ~Brother Druid, without testing your worth as a druid, your time on Faerûn is limited to that which you make of it.  Prepare yourself as best you can, and return to me when you are ready.~
+@15  = ~Very well, fellow Druid.  Listen closely, for I have much to explain before you begin your next task.~
+@16  = ~There is a growing presence that the Archdruid has felt and sensed from afar these past months.  She knows not what it is, but is aware of its great evil.~
+@17  = ~Brother Druid, the Archdruid fears for the region if this presence becomes too powerful.  It is not of our world, and must be prevented from wreaking havoc in Faerûn.~
+@18  = ~She has charged you, Brother Druid, to eliminate this being by whatever means you have at your disposal.  Enlist the aid of allies, powerful friends, or gather arcane tools to forcefully end the threat if you must.  The security of Faerûn once again depends on you.~
+@19  = ~Where can I find this presence, Druid?~
+@20  = ~I will do my best, Lady Elf.~
+@21  = ~Lady Elf, I doubt my skills will be sufficient to end such a dire threat.~
+@22  = ~The Archdruid does not know exactly where, but she senses it strongly in the city to the south, the human settlement known as Athkatla.~
+@23  = ~Whatever the costs, Brother Druid, the fate of us all may rest in your hands.  The three of us trust you, the Archdruid trusts you, and those who do not know anything more than campside tales of your deeds would trust you if they knew of the danger.  Have confidence in yourself, Brother, and you will succeed.~
+@24  = ~I know you will do your best.  It is all we can hope for.  Good luck to you, Brother Druid.  Return to me when the presence is no more.~
+@25  = ~The Archdruid can still sense evil in the region.  She knows you have not yet completed your task.~
+@26  = ~I cannot find this presence.  Do you know where it is?~
+@27  = ~I told you, Brother Druid, the Archdruid feels it in Athkatla.~
+@28  = ~I cannot be more precise, but the presence is strongest on the west side of the city.~
+@29  = ~The Archdruid senses the presence somewhere near a body of water.  Perhaps a river?  She cannot say with certainty.~
+@30  = ~The evil being is beneath the surface, Brother Druid.  The Archdruid has a sensation smelling of a mix of sulfur, salt, and decay.~
+@31  = ~I cannot be more precise, Brother Druid.  The evil emanates strongly on the west side of Athkatla, near water, beneath the surface.~
+@32  = ~The Archdruid no longer senses and evil presence growing.  You destroyed it?~
+@33  = ~No, it was banished but not destroyed.~
+@34  = ~Yes, Great Lady, I destroyed whatever it was.~
+@35  = ~Then it is done, regardless of the outcome.  You have done well, Brother Druid, and have brought yourself closer to the time when you may learn more about the natural order.~
+@36  = ~Go, Brother Druid, defeat the evil if you can.~
+@37  = ~I have not yet completed my apprenticeship to the Archdruid, <GABBER>, and am too busy to interrupt my meditations.~
+@38  = ~I have not yet completed my apprenticeship to the Archdruid, Sister Druid.  Perhaps you should speak to her.~
+@39  = ~I will do so, Sister Druid, but you must choose what it is you wish me to teach you.  Would you rather learn how to memorize additional spells, would you like to learn how to cast spells faster, or would you desire the ability to transform yourself into the form of a panther or leopard?~
+@40  = ~As you choose, Sister Druid, so will I teach.~
+@41  = ~Sister Druid, you learn fast, and have increased your spellcasting capacity.  There is, however, more for you to learn.~
+@42  = ~Sister Druid, you learn fast, and have increased your ability to cast spells more quickly.  There is, however, more for you to learn.~
+@43  = ~Sister Druid, you learn fast, and have gained the ability to shapeshift into the form of a great cat.  Half the time you desire to change, you will take the form of a leopard, the other half, that of a panther.  There is, however, more for you to learn~
+@44  = ~You have done well, Sister Druid, and it pleases me to have helped you in such a small way.  But now, the Archdruid tells me you are to be tested further.  Are you ready for your next task?~
+@45  = ~Sister Druid, without testing your worth as a druid, your time on Faerûn is limited to that which you make of it.  Prepare yourself as best you can, and return to me when you are ready.~
+@46  = ~Sister Druid, the Archdruid fears for the region if this presence becomes too powerful.  It is not of our world, and must be prevented from wreaking havoc in Faerûn.~
+@47  = ~She has charged you, Sister Druid, to eliminate this being by whatever means you have at your disposal.  Enlist the aid of allies, powerful friends, or gather arcane tools to forcefully end the treat if you must.  The security of Faerûn once again depends on you.~
+@48  = ~Whatever the costs, Sister Druid, the fate of us all may rest in your hands.  The three of us trust you, the Archdruid trusts you, and those who do not know anything more than campside tales of your deeds would trust you if they knew of the danger.  Have confidence in yourself, Sister, and you will succeed.~
+@49  = ~I know you will do your best.  It is all we can hope for.  Good luck to you, Sister Druid.  Return to me when the presence is no more.~
+@50  = ~I told you, Sister Druid, the Archdruid feels it in Athkatla.~
+@51  = ~The evil being is beneath the surface, Sister Druid.  The Archdruid has a sensation smelling of a mix of sulfur, salt, and decay.~
+@52  = ~I cannot be more precise, Sister Druid.  The evil emanates strongly on the west side of Athkatla, near water, beneath the surface.~
+@53  = ~Then it is done, regardless of the outcome.  You have done well, Sister Druid, and have brought yourself closer to the time when you may learn more about the natural order.~
+@54  = ~Go, Sister Druid, defeat the evil if you can.~
+@55 = ~The Great Druid:  Evil Presence
+
+The trio of druids tending a northern grove have ordered me to defeat an evil presence that they can sense in the region.  They are unsure of where precisely this evil is emanating from, but it is somewhere within the city of Athkatla.
+  When I have defeated the evil presence- either by destroying it or by banishing it from Faerûn- I am to report back to the druids south of Baldur's Gate where they have promised to teach me a skill which will enrich my life.~
+@56 = ~The Great Druid:  Teaching of the Way
+
+The Great Druid and her apprenctices have taught me how to memorize more spells.~
+@57 = ~The Great Druid:  Teaching of the Way
+
+The Great Druid and her apprenctices have taught me how to cast spells more quickly.~
+@58 = ~The Great Druid:  Teaching of the Way
+
+The Great Druid and her apprenctices have taught me how to shapeshift myself into the form of a great cat, either panther or leapord.~
+@59 = ~The Great Druid:  Evil Presence
+
+The trio of druids ordered me to defeat an evil presence that they sensed in the region, which I found below the docks of Athkatla.  It was a hard fought battle, but I was victorious and the elven druids have promised to teach me a valuable skill.~
+

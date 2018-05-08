@@ -1,0 +1,9 @@
+IF
+	Global("Cb_CowlsGoEnemy","GLOBAL",2)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly(Myself,ENEMY)
+END
+
+

@@ -1,0 +1,146 @@
+IF
+	Delay(5)
+THEN
+	RESPONSE #100
+		CreateVisualEffectObject("SPFLSRIN",Myself)
+END
+
+IF
+	See([GOODCUTOFF])
+	Global("PITFEAR","LOCALS",0)
+	!See("CBRYBERG")
+THEN
+	RESPONSE #100
+		ForceSpell(LastSeenBy(Myself),DEMON_FEAR)
+		SetGlobal("PITFEAR","LOCALS",1)
+END
+
+IF
+	OR(2)
+		See([GOODCUTOFF.0.0.CLERIC_ALL])
+		See([GOODCUTOFF.0.0.MAGE])
+	Global("prep","LOCALS",0)
+	!See("CBRYBERG")
+THEN
+	RESPONSE #100
+		ForceSpell(LastSeenBy(Myself),WIZARD_DISPEL_MAGIC)
+		SetGlobal("prep","LOCALS",1)
+END
+
+IF
+	See([GOODCUTOFF])
+	!See("CBRYBERG")
+THEN
+	RESPONSE #15
+		ReallyForceSpell(LastSeenBy(Myself),WIZARD_SYMBOL_FEAR)
+		AttackOneRound(LastSeenBy(Myself))
+	RESPONSE #25
+		ReallyForceSpell(LastSeenBy(Myself),DEATHKNIGHT_FIREBALL)
+		AttackOneRound(LastSeenBy(Myself))
+	RESPONSE #60
+		AttackOneRound(LastSeenBy(Myself))
+		AttackOneRound(LastSeenBy(Myself))
+END
+
+IF
+	See([GOODCUTOFF])
+	Global("prep","LOCALS",0)
+	!See("CBRYBERG")
+THEN
+	RESPONSE #100
+		ForceSpell(LastSeenBy(Myself),WIZARD_DISPEL_MAGIC)
+		SetGlobal("prep","LOCALS",1)
+END
+
+IF
+	See([GOODCUTOFF])
+	Global("DeathKnightFireball","LOCALS",0)
+	!See("CBRYBERG")
+THEN
+	RESPONSE #100
+		ForceSpell(LastSeenBy(Myself),DEATHKNIGHT_FIREBALL)
+		SetGlobal("DeathKnightFireball","LOCALS",1)
+END
+
+IF
+	See([GOODCUTOFF])
+	!See("CBRYBERG")
+THEN
+	RESPONSE #10
+		ReallyForceSpell(LastSeenBy(Myself),WIZARD_SYMBOL_FEAR)
+	RESPONSE #20
+		ReallyForceSpell(LastSeenBy(Myself),DEATHKNIGHT_FIREBALL)
+	RESPONSE #70
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	See([ANYONE])
+	Allegiance(Myself,ENEMY)
+	Global("PITFEAR","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(LastSeenBy(Myself),DEMON_FEAR)
+		SetGlobal("PITFEAR","LOCALS",1)
+END
+
+IF
+	OR(2)
+		See([0.0.0.CLERIC_ALL])
+		See([0.0.0.MAGE])
+	Allegiance(Myself,ENEMY)
+	Global("prep","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(LastSeenBy(Myself),WIZARD_DISPEL_MAGIC)
+		SetGlobal("prep","LOCALS",1)
+END
+
+IF
+	See([ANYONE])
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #15
+		ReallyForceSpell(LastSeenBy(Myself),WIZARD_SYMBOL_FEAR)
+		AttackOneRound(LastSeenBy(Myself))
+	RESPONSE #25
+		ReallyForceSpell(LastSeenBy(Myself),DEATHKNIGHT_FIREBALL)
+		AttackOneRound(LastSeenBy(Myself))
+	RESPONSE #60
+		AttackOneRound(LastSeenBy(Myself))
+		AttackOneRound(LastSeenBy(Myself))
+END
+
+IF
+	See([ANYONE])
+	Global("prep","LOCALS",0)
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ForceSpell(LastSeenBy(Myself),WIZARD_DISPEL_MAGIC)
+		SetGlobal("prep","LOCALS",1)
+END
+
+IF
+	See([ANYONE])
+	Global("DeathKnightFireball","LOCALS",0)
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ForceSpell(LastSeenBy(Myself),DEATHKNIGHT_FIREBALL)
+		SetGlobal("DeathKnightFireball","LOCALS",1)
+END
+
+IF
+	See([ANYONE])
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #10
+		ReallyForceSpell(LastSeenBy(Myself),WIZARD_SYMBOL_FEAR)
+	RESPONSE #20
+		ReallyForceSpell(LastSeenBy(Myself),DEATHKNIGHT_FIREBALL)
+	RESPONSE #70
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+

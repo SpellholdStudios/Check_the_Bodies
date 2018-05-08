@@ -1,0 +1,96 @@
+IF
+	Global("CbStartingCreaturesCreated","AR3595",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbStartingCreaturesCreated","AR3595",1)
+		CreateCreature("CB595DER",[2094.1440],6)
+		CreateCreature("CB595drb",[61.542],0)
+		CreateCreature("CB595drb",[1255.1636],0)
+		CreateCreature("CB595drb",[1550.288],0)
+		CreateCreature("CB595grb",[72.836],0)
+		CreateCreature("CB595grb",[976.1857],0)
+		CreateCreature("CB595grb",[1649.602],0)
+		CreateCreature("CB595brb",[301.1413],0)
+		CreateCreature("CB595brb",[538.361],0)
+		CreateCreature("CB595brb",[1105.1542],0)
+		CreateCreature("CB595brb",[1390.1203],0)
+		CreateCreature("CB595blb",[229.495],0)
+		CreateCreature("CB595blb",[961.1121],0)
+		CreateCreature("CB595blb",[2223.311],0)
+		CreateCreature("CB595blb",[2394.723],0)
+END
+
+IF
+	Global("CbRangerDeadDear","GLOBAL",1)
+	OR(2)
+		Dead("CB595DER")
+		!Exists("CB595DER")
+THEN
+	RESPONSE #100
+		SetGlobal("CbRangerDeadDear","GLOBAL",2)
+		SetGlobal("CbDearStoppedPoisoningRiver","AR3595",1)
+		SetGlobal("CbCleanCarcassTimerSet","GLOBAL",1)
+		SetGlobalTimer("CbCleanRiverCarcassTimer","GLOBAL",THREE_DAYS)
+END
+
+IF
+	GlobalTimerExpired("CbCleanRiverCarcassTimer","GLOBAL")
+	Global("CbCleanCarcassTimerSet","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCleanRiverCarcass","GLOBAL",1)
+		SetGlobal("CbDearStoppedPoisoningRiver","AR3595",2)
+		TriggerActivation("CbPoisonRiverNumber01",FALSE)
+		TriggerActivation("CbPoisonRiverNumber02",FALSE)
+		TriggerActivation("CbPoisonRiverNumber03",FALSE)
+		TriggerActivation("CbPoisonRiverNumber04",FALSE)
+		TriggerActivation("CbPoisonRiverNumber05",FALSE)
+		TriggerActivation("CbPoisonRiverNumber06",FALSE)
+		TriggerActivation("CbPoisonRiverNumber07",FALSE)
+		TriggerActivation("CbPoisonRiverNumber08",FALSE)
+		TriggerActivation("CbPoisonRiverNumber09",FALSE)
+		TriggerActivation("CbPoisonRiverNumber10",FALSE)
+		TriggerActivation("CbPoisonRiverNumber11",FALSE)
+END
+
+IF
+	!Exists("CB595drb")
+	Delay(15)
+	Global("CbStartingCreaturesCreated","AR3595",1)
+	!GlobalGT("CbDearStoppedPoisoningRiver","AR3595",1)
+THEN
+	RESPONSE #100
+		CreateCreatureOffScreen("CB595drb",0)
+END
+
+IF
+	!Exists("CB595grb")
+	Delay(15)
+	Global("CbStartingCreaturesCreated","AR3595",1)
+	!GlobalGT("CbDearStoppedPoisoningRiver","AR3595",1)
+THEN
+	RESPONSE #100
+		CreateCreatureOffScreen("CB595grb",0)
+END
+
+IF
+	!Exists("CB595brb")
+	Delay(15)
+	Global("CbStartingCreaturesCreated","AR3595",1)
+	!GlobalGT("CbDearStoppedPoisoningRiver","AR3595",1)
+THEN
+	RESPONSE #100
+		CreateCreatureOffScreen("CB595brb",0)
+END
+
+IF
+	!Exists("CB595blb")
+	Delay(15)
+	Global("CbStartingCreaturesCreated","AR3595",1)
+	!GlobalGT("CbDearStoppedPoisoningRiver","AR3595",1)
+THEN
+	RESPONSE #100
+		CreateCreatureOffScreen("CB595blb",0)
+END
+
+

@@ -1,0 +1,9 @@
+IF
+	Global("CbSurayahGetsMarried","GLOBAL",3)
+	Global("CbWeddingQuestStarts","GLOBAL",7)
+THEN
+	RESPONSE #100
+		EscapeArea()
+END
+
+

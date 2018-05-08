@@ -1,0 +1,12 @@
+IF
+    Global("CbImoenPlayed","AR3500",0)
+    Global("CbTagGame","AR3500",1)
+    Range("CBIMOENL",10)
+    Range(Player1,10)
+THEN
+    RESPONSE #100
+        SetGlobal("CbTagGame","AR3500",2)
+        ClearAllActions()
+        SetCursorState(TRUE)
+        StartCutScene("CBIMOENN")
+END

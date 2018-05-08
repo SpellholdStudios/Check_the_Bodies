@@ -1,0 +1,20 @@
+IF
+	Dead("CB576WIZ")
+	Global("CbWizardsAndHakesharPlot","GLOBAL",1)
+	!Exists("CBCWLWRY")
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		CreateCreatureDoor("CBCWLWRY",[290.330],0)
+		CreateCreatureDoor("CBCWLWR2",[132.350],7)
+END
+
+IF
+	Exists("M05PCSPY")
+	GlobalGT("CbWizardsAndHakesharPlot","GLOBAL",0)
+THEN
+	RESPONSE #100
+		ActionOverride("M05PCSPY",DestroySelf())
+END
+
+

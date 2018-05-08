@@ -1,0 +1,27 @@
+IF
+	OR(2)
+		Global("Cb_GetMeOutOfThisHellHole","LOCALS",1)
+		GlobalGT("CbBlueDragonAlerted","GLOBAL",0)
+THEN
+	RESPONSE #100
+		EscapeArea()
+END
+
+IF
+	OnCreation()
+	NumTimesTalkedToGT(0)
+THEN
+	RESPONSE #100
+		SetNumTimesTalkedTo(0)
+END
+
+IF
+	See([GOODCUTOFF])
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		MoveToObjectNoInterrupt(LastSeenBy(Myself))
+		StartDialogueNoSet(LastSeenBy(Myself))
+END
+
+

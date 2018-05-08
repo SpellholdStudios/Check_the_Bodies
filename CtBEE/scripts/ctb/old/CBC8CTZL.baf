@@ -1,0 +1,184 @@
+IF
+	Global("CbZannasterFinallyChanging","AR3532",2)
+	Global("Cb_ZannasterCutFix","AR3532",0)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		SetGlobal("Cb_ZannasterCutFix","AR3532",1)
+		StartCutSceneMode()
+		StartCutScene("CBC8ZCHG")
+END
+
+IF
+	!HaveAnySpells()
+	!See(NearestEnemyOf(Myself))
+	!Detect([GOODCUTOFF])
+	Global("Cb_ZannasterTheLichRested","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannasterTheLichRested","LOCALS",1)
+		SetGlobal("Cb_ZannasterLichImprison","LOCALS",0)
+		Rest()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	GlobalLT("Cb_ZannasterLichImprison","LOCALS",5)
+THEN
+	RESPONSE #100
+		IncrementGlobal("Cb_ZannasterLichImprison","LOCALS",1)
+		ForceSpell(LastSeenBy(Myself),WIZARD_IMPRISONMENT)
+		Wait(4)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	GlobalLT("Cb_ZannasterLichWilting","LOCALS",5)
+	Global("Cb_ZannasterLichImprison","LOCALS",5)
+THEN
+	RESPONSE #100
+		IncrementGlobal("Cb_ZannasterLichWilting","LOCALS",1)
+		ForceSpell(LastSeenBy(Myself),WIZARD_ABI_DALZIMS_HORRID_WILTING)
+		Wait(4)
+		Continue()
+END
+
+IF
+	Global("Cb_ZannastersContingency","LOCALS",0)
+	HPPercentLT(Myself,50)
+	CheckStatLT(Myself,1,STONESKINS)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannastersContingency","LOCALS",1)
+		DisplayString(Myself,29736) // Contingency - Stoneskin
+		ApplySpell(Myself,WIZARD_STONE_SKIN)
+END
+
+IF
+	Global("Cb_ZannastersChainContingency","LOCALS",0)
+	CheckStatLT(Myself,1,STONESKINS)
+	HPPercentLT(Myself,25)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannastersChainContingency","LOCALS",1)
+		DisplayString(Myself,29736) // Contingency - Stoneskin
+		ApplySpell(Myself,WIZARD_STONE_SKIN)
+		DisplayString(Myself,43047) // Spell Trigger - Fire Shield Red
+		ApplySpell(Myself,WIZARD_FIRE_SHIELD_RED)
+		ApplySpell(Myself,WIZARD_FIRE_SHIELD_BLUE)
+		DisplayString(Myself,40252) // Contingency - Protection from Magical Weapons
+		ApplySpell(Myself,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+END
+
+IF
+	Global("Cb_ZannasterCutFix","AR3532",1)
+	Global("Cb_Cult_Of_Dragon_Demise","GLOBAL",0)
+	Global("Cb_ZannastersDeathSpellTrigger","LOCALS",0)
+	HP(Myself,1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		MoveViewObject(Myself,INSTANT)
+		SmallWait(2)
+		DisplayStringHead(Myself,84831) // Zannaster's Death Spell Trigger
+		Wait(2)
+		ApplySpell(Myself,WIZARD_FIREBALL)
+		Wait(2)
+		DisplayStringHead(Myself,84832) // Imposss.....
+		Wait(2)
+		ApplySpell(Myself,WIZARD_FIREBALL)
+		Wait(2)
+		DisplayStringHead(Myself,84833) // able!
+		ApplySpell(Myself,WIZARD_FIREBALL)
+		Wait(2)
+		DisplayStringHead(Myself,84834) // (hissss) NoooOOooo!!
+		SetGlobal("Cb_Cult_Of_Dragon_Demise","GLOBAL",1)
+		SetGlobal("Cb_ZannastersDeathSpellTrigger","LOCALS",1)
+		CreateVisualEffectObject("SPFIREPI",Myself)
+		Wait(2)
+		CreateVisualEffectObject("SPPLANAR",Myself)
+		Wait(2)
+		DestroyItem("IMOENHP1") // Imoen's Belt
+		EndCutSceneMode()
+		ActionOverride(LastAttackerOf(Myself),Kill(Myself))
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!StateCheck(Myself,STATE_HASTED)
+	HasItem("POTN14",Myself) // Oil of Speed
+THEN
+	RESPONSE #100
+		UseItem("POTN14",Myself) // Oil of Speed
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_STONE_SKIN)
+	CheckStatLT(Myself,1,STONESKINS)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,39968) // Spell Trigger - Fired
+		Spell(Myself,WIZARD_STONE_SKIN)
+		DisplayString(Myself,40244) // Spell Trigger - Stoneskins
+		ApplySpell(Myself,WIZARD_ABSOLUTE_IMMUNITY)
+		DisplayString(Myself,43050) // Chain Contingency - Improved Mantle
+		ApplySpell(Myself,WIZARD_PROTECTION_FROM_MAGIC_ENERGY)
+		ApplySpell(Myself,CLERIC_HEAL)
+		ApplySpell(Myself,WIZARD_FIRE_SHIELD_BLUE)
+		DisplayString(Myself,43047) // Spell Trigger - Fire Shield Red
+		ApplySpell(Myself,WIZARD_FIRE_SHIELD_RED)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HitBy([ANYONE],MAGIC)
+	HaveSpell(WIZARD_ABSOLUTE_IMMUNITY)
+	Global("Cb_ZannastertheLichNotImmune","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannastertheLichNotImmune","LOCALS",1)
+		ApplySpell(Myself,WIZARD_ABSOLUTE_IMMUNITY)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HPPercentLT(Myself,90)
+	HaveSpell(WIZARD_IMPROVED_MANTLE)
+	Global("Cb_ZannastertheLichNotMantled","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannastertheLichNotMantled","LOCALS",1)
+		ApplySpell(Myself,WIZARD_IMPROVED_MANTLE)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HPPercentLT(Myself,70)
+	Global("Cb_ZannastertheLichNotProtected","LOCALS",0)
+	HaveSpell(WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannastertheLichNotProtected","LOCALS",1)
+		Spell(Myself,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+END
+
+IF
+	HPPercentLT(Myself,25)
+	GlobalLT("Cb_ZannastertheLichHealed","LOCALS",2)
+THEN
+	RESPONSE #100
+		IncrementGlobal("Cb_ZannastertheLichHealed","LOCALS",1)
+		ApplySpell(Myself,CLERIC_HEAL)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),12)
+END
+
+

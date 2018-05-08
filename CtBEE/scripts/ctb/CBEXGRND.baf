@@ -1,0 +1,12 @@
+IF
+	OR(2)
+		OpenState("Door04",FALSE)
+		Global("CbOpenedExtaminosGate","AR3611",0)
+	IsOverMe([GOODCUTOFF])
+THEN
+	RESPONSE #100
+		DisplayString(LastTrigger,@550079)// No such index
+		ActionOverride(LastTrigger,JumpToPoint([1234.828]))
+END
+
+

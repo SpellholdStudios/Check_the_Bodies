@@ -1,0 +1,17 @@
+88
+15
+A1             @TAG ENDE2
+A2             @TAG ENDA1
+A3             @TAG ENDA1
+B1             @TAG ENDB1
+B2             @TAG ENDB1
+B3             @TAG ENDB1
+C1             @TAG ENDC1
+C2             @TAG ENDC1
+C3             @TAG ENDC1
+D1             @TAG ENDD1
+D2             @TAG ENDD1
+E1             @TAG ENDE1
+E2             @TAG ENDE1
+E3             @TAG ENDE1
+E4     A2      @TAG ENDE2

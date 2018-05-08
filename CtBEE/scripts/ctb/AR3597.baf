@@ -1,0 +1,27 @@
+IF
+	Global("CbCanGoMaster","AR3597",0)
+	Global("CbVampireSubQuestStart","GLOBAL",4)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCanGoMaster","AR3597",1)
+		TriggerActivation("MasterLairEnter",TRUE)
+END
+
+IF
+	Global("CbRestPermanDeactive","AR3597",0)
+	Global("CbKilledAllRanchVampires","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbRestPermanDeactive","AR3597",1)
+		SetRestEncounterProbabilityDay(0)
+		SetRestEncounterProbabilityNight(0)
+END
+
+IF
+	Global("CbCanGoMaster","AR3597",1)
+THEN
+	RESPONSE #100
+		TriggerActivation("MasterLairEnter",TRUE)
+END
+
+

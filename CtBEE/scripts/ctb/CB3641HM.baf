@@ -1,0 +1,56 @@
+IF
+	XPLT(Player1,400000)
+	Entered([ANYONE])
+	Global("CbTriggerTwoActivated","AR3641",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbTriggerTwoActivated","AR3641",1)
+		CreateCreature("CBHLDYT3",[-1.-1],0)
+		CreateCreature("CBHLDYT4",[-1.-1],0)
+END
+
+IF
+	XPGT(Player1,399999)
+	XPLT(Player1,1000000)
+	Entered([ANYONE])
+	Global("CbTriggerTwoActivated","AR3641",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbTriggerTwoActivated","AR3641",1)
+		CreateCreature("CBHLDYT3",[-1.-1],0)
+		CreateCreature("CBHLDYT3",[-1.-1],0)
+		CreateCreature("CBHLDYT4",[-1.-1],0)
+END
+
+IF
+	XPGT(Player1,999999)
+	XPLT(Player1,2000000)
+	Entered([ANYONE])
+	Global("CbTriggerTwoActivated","AR3641",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbTriggerTwoActivated","AR3641",1)
+		CreateCreature("CBHLDYT3",[-1.-1],0)
+		CreateCreature("CBHLDYT3",[-1.-1],0)
+		CreateCreature("CBHLDYT3",[-1.-1],0)
+		CreateCreature("CBHLDYT4",[-1.-1],0)
+		CreateCreature("CBHLDYT2",[-1.-1],0)
+		CreateCreature("CBHLDYT2",[-1.-1],0)
+END
+
+IF
+	XPGT(Player1,1999999)
+	Entered([ANYONE])
+	Global("CbTriggerTwoActivated","AR3641",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbTriggerTwoActivated","AR3641",1)
+		CreateCreature("CBHLDYT3",[-1.-1],0)
+		CreateCreature("CBHLDYT4",[-1.-1],0)
+		CreateCreature("CBHLDYT2",[-1.-1],0)
+		CreateCreature("CBHLDYT2",[-1.-1],0)
+		CreateCreature("CBHLDYT1",[-1.-1],0)
+		CreateCreature("CBHLDYT1",[-1.-1],0)
+END
+
+

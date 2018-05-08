@@ -1,0 +1,42 @@
+@1   = ~Ora non c'é niente che posso fare per te nel mio viaggio attraverso Faerûn.~
+@2   = ~<GABBER>, sei davvero uno spirito meritevole della nostra guida e ci rivolgiamo umilmente a te per esigere il tuo aiuto nel completare i nostri doveri.~
+@3   = ~Di nuovo, <GABBER>, devi scegliere. Noi ti aiuteremo ulteriormente ma devi decidere: preferisci imparare metodi avanzati di alchimia, vale a dire, preparare potenti elisir e pozioni, o ti piacerebbe piuttosto imparare a migliorare i metodi di incantare le armi, oppure preferisci migliorare ulteriormente il tempo di lancio degli incantesimi? Pensaci con attenzione, <GABBER>, la tua scelta sarà definitiva.~
+@4   = ~Mi piacerebbe apprendere l'arte dell'alchimia.~
+@5   = ~Mi sarebbe molto utile se mi insegnassi a migliorare l'incantamento delle armi.~
+@6   = ~Ti prego, Signora, insegnami come lanciare incantesimi ancora più velocemente.~
+@7   = ~Sarò più che felice di insegnarti, <GABBER>, come mescolare le sostanze e le polveri per creare pozioni.~
+@8   = ~Ti ringrazio, <GABBER>, che mi hai permesso di insegnarti i metodi avanzati dell'alchimia, aiutandoci a fare un ulteriore passo in avanti per essere poi in grado di lasciare Faerûn per l'Isola degli Elfi.~
+@9   = ~Sono più che felice di insegnarti, <GABBER>, la tecnica migliorata utilizzata per incantare le armi con le lame.~
+@10  = ~Ti ringrazio, <GABBER>, che mi hai permesso di insegnarti come incantare le armi con le lame per farle diventare più potenti. Ricordati che devi possedere tu l'oggetto che vuoi incantare altrimenti l'incantamento fallirà. E ricorda inoltre, che l'incantamento lavora sulle armi usate per il corpo a corpo, non per le armi da lancio. Ci hai aiutato a fare un ulteriore passo in avanti per essere poi in grado di lasciare Faerûn per l'Isola degli Elfi.~
+@11  = ~Sono più che felice di insegnarti, <GABBER>, come migliorare ulteriormente la velocità di lancio dei tuoi incantesimi.~
+@12  = ~Ti ringrazio, <GABBER>, di avermi dato l'opportunità di insegnarti a lanciare incantesimi in modo più veloce ed efficace. Ci hai aiutato fare un ulteriore passo in avanti per essere poi in grado di lasciare Faerûn per l'Isola degli Elfi.~
+@13  = ~Sono lieta di averti aiutato, <GABBER>. C'è un incarico finale che ci resta per completare la nostra missione, poi ti insegneremo un'abilità per darti ulteriore esperienza. Sei pronto?~
+@14  = ~Si, Sorella. Cosa devo fare?~
+@15  = ~Non adesso, Sorella. Ho bisogno di un altro pò di tempo.~
+@16  = ~Allora aspetteremo il nostro prossimo incontro con impazienza per il nostro imminente passaggio ad ovest.~
+@17  = ~Allora, mentre il tuo primo incarico é stato abbastanza semplice, il tuo secondo incarico molto più difficile. quest'incarico finale è facile, non ti si chiede di rischiare la vita. Ecco, <GABBER>, prendi questa impugnatura. E' l'elsa di una Lama di Luna, che si pensava fosse un'arma indistruttibile.~
+@18  = ~La lama l'abbiamo persa, ma con il metallo giusto, può essere ricostruita e riforgiata. Che io sappia c'è solo una persona nella regione che possa ricreare la lama, un discendente del Regno Perduto, un nano di nome Cromwell. Portagli l'elsa ed il metallo per riforgiare la lama. Quando la Lama di Luna sarà ricostruita, portamela.~
+@19  = ~Ci proverò, buona Signora.~
+@20  = ~So che lo farai, <GABBER>.~
+@21  = ~Sei stato in grado di aggiustato la Lama di Luna?~
+@22  = ~Si, Sorella. Eccola.~
+@23  = ~No, Sorella. Non ho ancora aggiustato la lama.~
+@24  = ~Ritorna da me, <GABBER>, quando lo avrai fatto.~
+@25  = ~Ci sei riuscito. Siamo ancora più vicine al nostro passaggio. Ecco, <GABBER>, ti incanterò ulteriormente la lama e te la ridarò, prendilo come un regalo. Hai guadagnato il diritto di maneggiare un vecchio artefatto Efico, e dovresti esserne onorato.~
+@26  = ~Noi aspettiamo il momento in cui faremo il viaggio finale da Faerûn ad Evermeet. Possa Seldarine guidarti, <GABBER>.~
+@27 = ~Le Anziane Elfe: Insegnamenti Magici
+
+Le tre maghe elfe che ho incontrato nella parte ovest della Foresta di Tethyr, vicino alla caverna dell'entrata del Sottosuolo, sono state gentili ad insegnarmi come eseguire avanzate procedure alchemiche per creare potenti pozioni.~
+@28 = ~Le Anziane Elfe: Insegnamenti Magici
+
+Le tre maghe elfe che ho incontrato nella parte ovest della Foresta di Tethyr, vicino alla caverna dell'entrata del Sottosuolo, sono state gentili ad insegnarmi come trasformare delle normali armi dotate di lame in armi incantate magicamente.~
+@29 = ~Le Anziane Elfe: Insegnamenti Magici
+
+Le tre maghe elfe che ho incontrato nella parte ovest della Foresta di Tethyr, vicino alla caverna dell'entrata del Sottosuolo, sono state gentili ad insegnarmi come lanciare incantesimi con una velocità maggiore di come potevo fare prima.~
+@30 = ~Le Anziane Elfe: Riforgiare una Lama di Luna
+
+Le anziane maghe che mi hanno insegnato delle preziose abilità mi hanno chiesto di completare ancora un incarico. Questa volta mi hanno dato un'elsa di una Lama di Luna andata in frantumi, che si pensava fosse un'arma indistruttibile. Qualsiasi potenza abbia mandato in frantumi la lama deve aver avuto davvero una forza impressionante.
+  Io devo trovare il metallo per forgiare la lama che dovrà essere usato per rendere l'arma di nuovo utilizzabile. Non so dove posso trovare del metallo simile, ma le Elfe che ho incontrato all'uscita del Sottosuolo mi hanno detto che un nano di nome Cromwell potrà aiutarmi a riforgiare l'arma magica.~
+@31 = ~Le Anziane Elfe: Riforgiare una Lama di Luna
+
+Con l'aiuto di Cromwell, sono stato in grado di riparare una vecchia Lama di Luna Elfica. Quando io gliel'ho riportata alle tre maghe, mi hanno ricompensato incantandomi ulteriormente la lama. Credevo che le Lame di Luna scegliessero i loro proprietari, ma le Elfe mi hanno offerto loro stesse la potente arma, donandomela come regalo, sembrerebbe un grande onore per gli Elfi, e ancora di più per quelli delle altre razze.~

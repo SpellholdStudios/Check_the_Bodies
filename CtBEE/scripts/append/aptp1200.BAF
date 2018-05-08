@@ -1,0 +1,13 @@
+IF
+	Global("CbElvenSorceressWantsSeeds","GLOBAL",1)
+	Global("CbFireEnemiesCreated","AR1200",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbFireEnemiesCreated","AR1200",1)
+		CreateCreatureOffScreen("CBEMKOBL",0)
+		CreateCreatureOffScreen("CBEMKOBL",0)
+		CreateCreatureOffScreen("CBEMKOBL",0)
+		CreateCreatureOffScreen("CBEMKOBL",0)
+		CreateCreatureOffScreen("CBEMKOBL",0)
+		Continue()
+END

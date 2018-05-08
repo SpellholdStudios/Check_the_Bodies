@@ -1,0 +1,38 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		Wait(1)
+		ActionOverride("CB3566P1",Wait(19))
+		ActionOverride("CBOWEN66",DisplayStringHead(Myself,29559)) // Right, boss.
+		ActionOverride("CBOWEN66",Wait(1))
+		ActionOverride("CBOWEN66",MoveToObject("CB3566P1"))
+		ActionOverride("CBOWEN66",FaceObject("CB3566P1"))
+		ActionOverride("CBOWEN66",SmallWait(5))
+		ActionOverride("CBOWEN66",AttackOneRound("CB3566P1"))
+		ActionOverride("CBOWEN66",SmallWait(5))
+		ActionOverride("CBOWEN66",AttackOneRound("CB3566P1"))
+		ActionOverride("CBOWEN66",SmallWait(5))
+		ActionOverride("CBOWEN66",AttackOneRound("CB3566P1"))
+		ActionOverride("CB3566P1",PlayDead(165))
+		ActionOverride("CBOWEN66",MoveToObject("CBBYRN66"))
+		ActionOverride("CBOWEN66",FaceObject("CB3566P1"))
+		ActionOverride("CBOWEN66",Wait(2))
+		Wait(23)
+		FadeToColor([20.0],0)
+		Wait(2)
+		ActionOverride("CB566SPY",DestroySelf())
+		ActionOverride("CB566SPY",DestroySelf())
+		SetGlobal("CbShadowThievesCapturePC","GLOBAL",6)
+		SetGlobal("CbBodhiJob","GLOBAL",6)
+		SetGlobal("CbWorkingForBodhi","GLOBAL",6)
+		RestorePartyLocations()
+		AddJournalEntry(@550174,QUEST)
+		EndCutSceneMode()
+		Wait(1)
+		FadeFromColor([20.0],0)
+		UnhideGUI()
+END
+
+

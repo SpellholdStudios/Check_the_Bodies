@@ -1,0 +1,12 @@
+IF
+	IsOverMe([GOODCUTOFF])
+	!Global("CbRestActive","AR3597",1)
+	!Global("CbKilledAllRanchVampires","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbRestActive","AR3597",1)
+		SetRestEncounterProbabilityDay(100)
+		SetRestEncounterProbabilityNight(100)
+END
+
+

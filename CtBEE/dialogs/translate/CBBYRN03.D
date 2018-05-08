@@ -1,0 +1,146 @@
+BEGIN ~CBBYRN03~
+
+IF ~NumTimesTalkedTo(0)
+!Gender(Player1,MALE)
+!AreaCheck("AR3566")~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN GOTO 2
+END
+
+IF ~NumTimesTalkedTo(0)
+Gender(Player1,MALE)
+!AreaCheck("AR3566")~ THEN BEGIN 1
+  SAY @2
+  IF ~~ THEN GOTO 2
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @3
+  IF ~~ THEN GOTO 3
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @4
+  IF ~~ THEN GOTO 4
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @5
+  IF ~!Gender(Player1,MALE)~ THEN REPLY @6 GOTO 5
+  IF ~Gender(Player1,MALE)~ THEN REPLY @6 GOTO 6
+  IF ~~ THEN REPLY @7 GOTO 9
+  IF ~~ THEN REPLY @8 GOTO 7
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @9
+  IF ~~ THEN REPLY @8 GOTO 7
+  IF ~~ THEN REPLY @7 GOTO 9
+END
+
+IF ~~ THEN BEGIN 6
+  SAY @10
+  IF ~~ THEN REPLY @8 GOTO 7
+  IF ~~ THEN REPLY @11 GOTO 9
+END
+
+IF ~~ THEN BEGIN 7
+  SAY @12
+  IF ~~ THEN GOTO 8
+END
+
+IF ~~ THEN BEGIN 8
+  SAY @13
+  IF ~~ THEN DO ~SetGlobal("CbShadowThievesAttack","AR0300",1)
+SetGlobal("CbBodhiJob","GLOBAL",3)
+SetGlobal("CbWorkingForBodhi","GLOBAL",3)
+SetGlobal("BodhiJob","GLOBAL",1)
+SetGlobal("WorkingForBodhi","GLOBAL",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN 9
+  SAY @14
+  IF ~!Gender(Player1,MALE)~ THEN DO ~ClearAllActions()
+Wait(1)
+StartCutSceneMode()
+StartCutScene("CBOWEN0F")~ EXIT
+  IF ~Gender(Player1,MALE)~ THEN DO ~ClearAllActions()
+Wait(1)
+StartCutSceneMode()
+StartCutScene("CBOWEN0M")~ EXIT
+END
+
+IF ~~ THEN BEGIN 10
+  SAY @15
+  IF ~!Gender(Player1,MALE)~ THEN GOTO 11
+  IF ~Gender(Player1,MALE)~ THEN GOTO 12
+END
+
+IF ~~ THEN BEGIN 11
+  SAY @16
+  IF ~~ THEN GOTO 13
+END
+
+IF ~~ THEN BEGIN 12
+  SAY @17
+  IF ~~ THEN GOTO 13
+END
+
+IF ~~ THEN BEGIN 13
+  SAY @18
+  IF ~~ THEN REPLY @19 GOTO 14
+  IF ~~ THEN REPLY @20 GOTO 7
+  IF ~~ THEN REPLY @21 GOTO 16
+  IF ~~ THEN REPLY @22 GOTO 20
+  IF ~~ THEN REPLY @23 GOTO 17
+END
+
+IF ~~ THEN BEGIN 14
+  SAY @24
+  IF ~~ THEN GOTO 15
+END
+
+IF ~~ THEN BEGIN 15
+  SAY @25
+  IF ~~ THEN DO ~SetGlobal("CbBodhiJob","GLOBAL",3)
+SetGlobal("CbWorkingForBodhi","GLOBAL",3)
+SetGlobal("CbShadowThievesCapturePC","GLOBAL",2)
+ClearAllActions()
+Wait(1)
+StartCutSceneMode()
+StartCutScene("CBAR3566")~ EXIT
+END
+
+IF ~~ THEN BEGIN 16
+  SAY @26
+  IF ~~ THEN REPLY @19 GOTO 14
+  IF ~~ THEN REPLY @20 GOTO 7
+  IF ~~ THEN REPLY @22 GOTO 20
+  IF ~~ THEN REPLY @23 GOTO 17
+END
+
+IF ~~ THEN BEGIN 17
+  SAY @27
+  IF ~~ THEN GOTO 18
+END
+
+IF ~~ THEN BEGIN 18
+  SAY @28
+  IF ~~ THEN GOTO 19
+END
+
+IF ~~ THEN BEGIN 19
+  SAY @29
+  IF ~~ THEN REPLY @19 GOTO 14
+  IF ~~ THEN REPLY @20 GOTO 7
+  IF ~~ THEN REPLY @21 GOTO 16
+  IF ~~ THEN REPLY @22 GOTO 20
+END
+
+IF ~~ THEN BEGIN 20
+  SAY @30
+  IF ~~ THEN REPLY @19 GOTO 14
+  IF ~~ THEN REPLY @20 GOTO 7
+  IF ~~ THEN REPLY @21 GOTO 16
+  IF ~~ THEN REPLY @23 GOTO 17
+END

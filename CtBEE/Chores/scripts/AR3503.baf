@@ -1,0 +1,49 @@
+//**************************************************************************
+//Alchemy skill using
+IF
+        Global("SPCL919","GLOBAL",1)
+        PartyHasItem("CBSCRB0J")
+        Global("CbScrollsScribedByAlchemy","GLOBAL",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,CreateItem("CBCOPY10",1,1,0))
+        ActionOverride(Player1,CreateItem("CBCOPY10",1,1,0))
+        SetGlobal("CbScrollsScribedByAlchemy","GLOBAL",1)
+        Continue()
+END
+
+IF
+        Global("SPCL919","GLOBAL",1)
+        PartyHasItem("CBSCRB0K")
+        Global("CbScrollsScribedByAlchemy","GLOBAL",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,CreateItem("CBCOPY11",1,1,0))
+        ActionOverride(Player1,CreateItem("CBCOPY11",1,1,0))
+        ActionOverride(Player1,CreateItem("CBCOPY11",1,1,0))
+        SetGlobal("CbScrollsScribedByAlchemy","GLOBAL",1)
+END
+
+IF
+        Global("SPCL919","GLOBAL",1)
+        PartyHasItem("CBSCRB0L")
+        Global("CbScrollsScribedByAlchemy","GLOBAL",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,CreateItem("CBCOPY12",1,1,0))
+        ActionOverride(Player1,CreateItem("CBCOPY12",1,1,0))
+        ActionOverride(Player1,CreateItem("CBCOPY12",1,1,0))
+        ActionOverride(Player1,CreateItem("CBCOPY12",1,1,0))
+        SetGlobal("CbScrollsScribedByAlchemy","GLOBAL",1)
+END
+
+IF
+        Global("CbScrollsScribedByAlchemy","GLOBAL",1)
+THEN
+    RESPONSE #100
+        DisplayStringHead(Player1,@550630)
+        SetGlobal("CbScrollsScribedByAlchemy","GLOBAL",2)
+END
+//**************************************************************************
+
+

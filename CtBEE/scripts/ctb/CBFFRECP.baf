@@ -1,0 +1,49 @@
+IF
+	NumTimesTalkedTo(0)
+	See([PC])
+	Range([PC],20)
+THEN
+	RESPONSE #100
+		SetGlobal("TICKET","AR0510",0)
+		SetNumTimesTalkedTo(0)
+		StartDialogueNoSet([PC])
+END
+
+IF
+	OnCreation()
+	GlobalTimerExpired("CbPlayTimersReset","GLOBAL")
+	See([PC])
+	Range([PC],20)
+THEN
+	RESPONSE #100
+		SetGlobal("TICKET","AR0510",0)
+		SetNumTimesTalkedTo(0)
+		StartDialogueNoSet([PC])
+END
+
+IF
+	Global("HaerDalisFree","GLOBAL",1)
+	GlobalGT("CbScreening_NoName","AR0510",1)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
+	GlobalGT("PlayOver","AR0510",0)
+	GlobalGT("CbScreening_NoName","AR0510",1)
+	See([PC])
+THEN
+	RESPONSE #100
+		MoveToPoint([363.1120])
+		EscapeArea()
+END
+
+IF
+	GlobalGT("PlayOver","AR0510",0)
+	GlobalGT("CbScreening_NoName","AR0510",1)
+	!See([PC])
+THEN
+	RESPONSE #100
+		DestroySelf()
+END

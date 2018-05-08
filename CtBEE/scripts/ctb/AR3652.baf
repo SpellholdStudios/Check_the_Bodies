@@ -1,0 +1,32 @@
+IF
+	Global("CbRynnsQuest","GLOBAL",3)
+	Global("CbAstinarSpawnOne","GLOBAL",0)
+	GlobalTimerExpired("CbCanSpawnAstinarNow","GLOBAL")
+	RandomNum(33,1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbAstinarSpawnOne","GLOBAL",1)
+		CreateCreatureOffScreen("CBGONAST",0)
+END
+
+IF
+	Global("CbRynnsQuest","GLOBAL",5)
+	Global("CbAstinarSpawnTwo","GLOBAL",0)
+	GlobalTimerExpired("CbCanSpawnAstinarAgain","GLOBAL")
+	RandomNum(33,1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbAstinarSpawnTwo","GLOBAL",1)
+		CreateCreatureOffScreen("CBGONAST",0)
+END
+
+IF
+	Global("CbSleepersCreated","AR3652",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSleepersCreated","AR3652",1)
+		CreateCreature("SLEEPFH",[200.541],0)
+		CreateCreature("SLEEPMH",[639.206],3)
+END
+
+

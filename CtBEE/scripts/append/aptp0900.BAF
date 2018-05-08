@@ -1,0 +1,45 @@
+/*IF
+        !InParty("Anomen")
+        CombatCounter(0)
+        Global("t#spawnSFmess","GLOBAL",0)
+        GlobalTimerExpired("t#SFmessT","GLOBAL")
+THEN
+        RESPONSE #100
+                 SetGlobal("CbWeddingQuestStarts","GLOBAL",1)
+                 SetGlobal("t#spawnSFmess","GLOBAL",1)
+                 CreateCreatureOffScreen("CBSFMESS",0)
+                 FaceObject([PC])
+                 StartDialogNoSet([PC])
+		Continue()
+END                        */
+
+IF
+	OR(2)
+		GlobalGT("BodhiJob","GLOBAL",3)
+		GlobalGT("CbTalkedGaelan","GLOBAL",1)
+	Global("CbTaxAnnouncement","GLOBAL",0)
+	!Exists("CBTAXCVA")
+THEN
+	RESPONSE #100
+		SetGlobal("CbTaxAnnouncement","GLOBAL",1)
+		CreateCreatureOffScreen("CBTAXCVA",0)
+		Continue()
+END
+
+IF
+	OR(7)
+		Class(Player1,MAGE)
+		Class(Player1,FIGHTER_MAGE)
+		Class(Player1,CLERIC_MAGE)
+		Class(Player1,MAGE_THIEF)
+		Class(Player1,SORCERER)
+		Class(Player1,FIGHTER_MAGE_THIEF)
+		Class(Player1,FIGHTER_MAGE_CLERIC)
+	LevelGT(Player1,9)
+	Global("CbDearPrudence","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbDearPrudence","GLOBAL",1)
+		CreateCreatureOffScreen("CBRYBERG",6)
+		Continue()
+END

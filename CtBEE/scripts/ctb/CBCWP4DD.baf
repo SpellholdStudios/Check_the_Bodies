@@ -1,0 +1,21 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player4)
+		FadeToColor([20.0],0)
+		Wait(2)
+		StartMovie("RESTINN")
+		Wait(2)
+		DayNight(3)
+		IncrementGlobal("CbPlayer4DiseasedByCowl","GLOBAL",1)
+		SetGlobalTimer("CbPlayer4DiseasedDay","GLOBAL",ONE_DAY)
+		Rest()
+		SetGlobal("CbTumblingWizardWantsCure","GLOBAL",1)
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		ActionOverride("CBCWLTCH",StartDialogueNoSet(Player4))
+END
+
+

@@ -1,0 +1,127 @@
+IF
+	HP(Myself,1)
+	Global("CbDracolichDied","LOCALS",0)
+	NumInParty(1)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		MoveViewObject(Myself,INSTANT)
+		ClearAllActions()
+		StartCutSceneMode()
+		DisplayStringHead(LastAttackerOf("CB368DRG"),@550624)
+		Wait(4)
+		SetGlobal("CbDracolichDied","LOCALS",1)
+		DestroyItem("BHAALHP1")
+		ActionOverride(LastAttackerOf("CB368DRG"),Attack("CB368DRG"))
+		EndCutSceneMode()
+		SetInterrupt(TRUE)
+		SetGlobal("SPRITE_IS_DEADCB368DRG","GLOBAL",1)
+		SetGlobal("CbAreaCB3668NotCompleted","GLOBAL",1)
+END
+
+IF
+	HP(Myself,1)
+	Global("CbDracolichDied","LOCALS",0)
+	NumInParty(2)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		MoveViewObject(Myself,INSTANT)
+		ClearAllActions()
+		StartCutSceneMode()
+		DisplayStringHead(LastAttackerOf("CB368DRG"),@550624)
+		Wait(4)
+		SetGlobal("CbDracolichDied","LOCALS",1)
+		DestroyItem("BHAALHP1")
+		ActionOverride(LastAttackerOf("CB368DRG"),Attack("CB368DRG"))
+		EndCutSceneMode()
+		SetInterrupt(TRUE)
+		SetGlobal("SPRITE_IS_DEADCB368DRG","GLOBAL",1)
+		SetGlobal("CbAreaCB3668NotCompleted","GLOBAL",1)
+END
+
+IF
+	HP(Myself,1)
+	Global("CbDracolichDied","LOCALS",0)
+	NumInParty(3)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		MoveViewObject(Myself,INSTANT)
+		ClearAllActions()
+		StartCutSceneMode()
+		DisplayStringHead(LastAttackerOf("CB368DRG"),@550624)
+		Wait(4)
+		SetGlobal("CbDracolichDied","LOCALS",1)
+		DestroyItem("BHAALHP1")
+		ActionOverride(LastAttackerOf("CB368DRG"),Attack("CB368DRG"))
+		EndCutSceneMode()
+		SetInterrupt(TRUE)
+		SetGlobal("SPRITE_IS_DEADCB368DRG","GLOBAL",1)
+		SetGlobal("CbAreaCB3668NotCompleted","GLOBAL",1)
+END
+
+IF
+	HP(Myself,1)
+	Global("CbDracolichDied","LOCALS",0)
+	NumInParty(4)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		MoveViewObject(Myself,INSTANT)
+		ClearAllActions()
+		StartCutSceneMode()
+		DisplayStringHead(LastAttackerOf("CB368DRG"),@550624)
+		Wait(4)
+		SetGlobal("CbDracolichDied","LOCALS",1)
+		DestroyItem("BHAALHP1")
+		ActionOverride(LastAttackerOf("CB368DRG"),Attack("CB368DRG"))
+		EndCutSceneMode()
+		SetInterrupt(TRUE)
+		SetGlobal("SPRITE_IS_DEADCB368DRG","GLOBAL",1)
+		SetGlobal("CbAreaCB3668NotCompleted","GLOBAL",1)
+END
+
+IF
+	HP(Myself,1)
+	Global("CbDracolichDied","LOCALS",0)
+	NumInParty(5)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		MoveViewObject(Myself,INSTANT)
+		ClearAllActions()
+		StartCutSceneMode()
+		DisplayStringHead(LastAttackerOf("CB368DRG"),@550624)
+		Wait(4)
+		SetGlobal("CbDracolichDied","LOCALS",1)
+		DestroyItem("BHAALHP1")
+		ActionOverride(LastAttackerOf("CB368DRG"),Attack("CB368DRG"))
+		EndCutSceneMode()
+		SetInterrupt(TRUE)
+		SetGlobal("SPRITE_IS_DEADCB368DRG","GLOBAL",1)
+		SetGlobal("CbAreaCB3668NotCompleted","GLOBAL",1)
+END
+
+IF
+	HP(Myself,1)
+	Global("CbDracolichDied","LOCALS",0)
+	NumInParty(6)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		MoveViewObject(Myself,INSTANT)
+		ClearAllActions()
+		StartCutSceneMode()
+		DisplayStringHead(LastAttackerOf("CB368DRG"),@550624)
+		Wait(4)
+		SetGlobal("CbDracolichDied","LOCALS",1)
+		DestroyItem("BHAALHP1") 
+		ActionOverride(LastAttackerOf("CB368DRG"),Attack("CB368DRG"))
+		EndCutSceneMode()
+		SetInterrupt(TRUE)
+		SetGlobal("SPRITE_IS_DEADCB368DRG","GLOBAL",1)
+		SetGlobal("CbAreaCB3668NotCompleted","GLOBAL",1)
+END
+
+

@@ -1,0 +1,31 @@
+IF
+	Global("CbCouchGrassInfoClicked","AR1900",0)
+THEN
+	RESPONSE #100
+		TriggerActivation("CouchGrassInfo",TRUE)
+		ContainerEnable("CouchGrassCont",FALSE)
+		Continue()
+END
+
+IF
+	Global("CbCouchGrassInfoClicked","AR1900",1)
+THEN
+	RESPONSE #100
+		TriggerActivation("CouchGrassInfo",FALSE)
+		ContainerEnable("CouchGrassCont",TRUE)
+		Continue()
+END
+
+IF
+	GlobalGT("CbDruidTeachingSeeds","GLOBAL",0)
+	Global("CbFireEnemiesCreated","AR1900",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbFireEnemiesCreated","AR1900",1)
+		CreateCreatureOffScreen("CBEMKOBL",0)
+		CreateCreatureOffScreen("CBEMKOBL",0)
+		CreateCreatureOffScreen("CBEMKOBL",0)
+		CreateCreatureOffScreen("CBEMKOBL",0)
+		CreateCreatureOffScreen("CBEMKOBL",0)
+END
+

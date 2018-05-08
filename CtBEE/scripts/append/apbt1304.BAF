@@ -1,0 +1,38 @@
+IF
+	Global("CbInformedAboutRoots","GLOBAL",1)
+	!Contains("CB901ELD","ElderberryCont")
+	Global("CbElderberryInfoClicked","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbElderberryInfoClicked","GLOBAL",2)
+END
+
+IF
+	Global("CbInformedAboutRoots","GLOBAL",1)
+	Contains("CB901ELD","ElderberryCont")
+	Global("CbElderberryInfoClicked","GLOBAL",2)
+THEN
+	RESPONSE #100
+		ContainerEnable("ElderberryCont",FALSE)
+		TriggerActivation("ElderberryInfo",FALSE)
+		Continue()
+END
+
+IF
+	Global("CbElderberryInfoClicked","GLOBAL",0)
+THEN
+	RESPONSE #100
+		TriggerActivation("ElderberryInfo",TRUE)
+		ContainerEnable("ElderberryCont",FALSE)
+		Continue()
+END
+
+IF
+	Global("CbElderberryInfoClicked","GLOBAL",1)
+THEN
+	RESPONSE #100
+		TriggerActivation("ElderberryInfo",FALSE)
+		ContainerEnable("ElderberryCont",TRUE)
+		Continue()
+END
+

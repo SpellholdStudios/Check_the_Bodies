@@ -1,0 +1,18 @@
+/*IF
+	Global("CbMelindaSilenced","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END*/
+
+IF
+	OR(3)
+		Global("SPRITE_IS_DEADcbsccw01","GLOBAL",1)
+		Global("SPRITE_IS_DEADcbsccw02","GLOBAL",1)
+		Global("Cb_CowlsKillPC","AR1000",1)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+

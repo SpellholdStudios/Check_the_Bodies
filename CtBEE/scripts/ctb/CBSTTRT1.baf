@@ -1,0 +1,37 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("CBSHOWEN")
+		SmallWait(5)
+		DisplayStringHead(Myself,29559) // Right, boss.
+		Wait(1)
+		MoveToObject("CBPLAYR1")
+		FaceObject("CBPLAYR1")
+		SmallWait(2)
+		AttackOneRound("CBPLAYR1")
+		SmallWait(5)
+		AttackOneRound("CBPLAYR1")
+		SmallWait(5)
+		AttackOneRound("CBPLAYR1")
+		SmallWait(5)
+		AttackOneRound("CBPLAYR1")
+		SmallWait(5)
+		AttackOneRound("CBPLAYR1")
+		ActionOverride("CBPLAYR1",PlayDead(165))
+		MoveToObject("CBSHDWT1")
+		FaceObject("CBPLAYR1")
+		Wait(2)
+		ActionOverride("CB307SPY",DestroySelf())
+		ActionOverride("CB307SPY",DestroySelf())
+		FadeToColor([20.0],0)
+		Wait(2)
+		RestorePartyLocations()
+		FadeFromColor([20.0],0)
+		SetGlobal("CbShadowThiefTortureScene","GLOBAL",4)
+		SetGlobal("CbVampireInGraveyard","GLOBAL",1)
+		AddJournalEntry(@550165,QUEST)
+		EndCutSceneMode()
+END
+
+

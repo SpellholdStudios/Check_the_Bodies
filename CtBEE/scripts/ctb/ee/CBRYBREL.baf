@@ -1,0 +1,11 @@
+IF
+	See("CBRYBERG") 
+	Global("CbRybergMeetsRelative","GLOBAL",0)
+	THEN
+	RESPONSE #100
+		SetGlobal("CbRybergMeetsRelative","GLOBAL",1)
+		Wait(2)
+		StartDialogueNoSet("CBRYBERG")
+END
+
+

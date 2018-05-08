@@ -1,0 +1,118 @@
+@1  = ~¡<GABBER>!  Me alegra que me halláis encontrado. Rápido, no tenemos mucho tiempo.~ 
+@2  = ~No puedo quedarme mucho, pues deben verme saliendo de aquí después de que hayáis entrado.~
+@3  = ~De acuerdo. Estoy aquí. ¿Qué necesitáis?~ 
+@4  = ~Sólo quería devolveros tu estatuilla. No la necesito, ni a vos.~
+@5  = ~Mirad, no me gusta arriesgar mi vida, como a cualquiera, por algo de lo que ni siquiera he oido hablar.~ 
+@6  = ~No, <GABBER>. No pretendo que lo hagáis. Pero por favor, necesito vuestra ayuda. ¿No podríais al menos escucharme?~
+@7  = ~Estoy muy ocupado para ayudayudarosarte. Tendréis que encontrar a algún otro para sacaros las castañas del fuego.~
+~Estoy muy ocupada para ayudaros. Tendréis que encontrar a algún otro para sacaros las castañas del fuego.~
+@8  = ~Os concedo un momento, pero no he decidido si os ayudaré o no. ¿Por qué no me contáis de qué va esto?~ 
+@9  = ~Bien. Os ayudaré. ¿Qué necesitáis?~
+@10 = ~No sé si podré. Pero si vos no me ayudáis, entonces supongo que no tengo otra elección que buscar otro aventurero. Os pido que me perdonéis por haberos molestado.~ 
+@11 = ~Ni a mí, <GABBER>, ni a mí. Pero las circunstancias me han forzado a emprender acciones, y no puedo prevalecer sin ayuda. Por eso me he presentado ante vos.~
+@12 = ~En parte es mi fallo, pero sólo en haberme equivocado al confiar en alguien que pensaba que tenía intenciones honorables.~
+@13 = ~Estaba increiblemente equivocada, y ahora no sé que hacer.~ 
+@14 = ~Todos cometemos errores. ¿Por qué no me decís cual es el problema, y vamos que puedo hacer para ayudaros?~
+@15 = ~Suena como si os hubierais metido sola en este lío. No sé si quiero ayudaros o no.~ 
+@16 = ~No, <GABBER>. No suponía que lo quisierais. Pero por favor, necesito vuestra ayuda. ¿No podríais escucharme al menos?~
+@17 = ~Gracias, <GABBER>. Espero que me ayudéis cuando escuchéis mi problema.~
+@18 = ~Muy bien, <GABBER>, intentaré ser breve y explicaros la situación desde el principio.~
+@19 = ~Como os mencioné, soy una manga. No practico el Arte tan a menudo como la mayoría de los magos, sino que persigo más la investigación académica sobre temas mágicos como objetos, tratados, o artefactos. Normalmente estudio tales cosas con un cierto distanciamiento, de forma profesional. Compartí mis conocimientos con aquellos quienes me lo pidieron o con los que necesitaban dicha información.  Al menos hasta hace unos meses, nunca había dudado de mis habilidades académicas, o cuestionado mi ética. Fue entonces cuando otro mago, llamado Khaddyr, acudió a mí pidiéndome información específica sobre algunos conjuros realmente raros, y como una profesional, le ayudé lo mejor que pude.~ 
+@20 = ~No sé porqué Khaddyr quería notas de esos conjuros, pero le ayudé a encajar las piezas de esos puzles. He estado dirigiendo las investigaciones para Khaddyr durante unos pocos meses, y muy recientemente descubrí las razones por las que él deseaba información sobre ciertos conjuros y artefactos que potenciaban dichos conjuros.~
+@21 = ~<GABBER>, ¿alguna vez habéis oido algo sobre la permanetración o cualquiera de las teorías mágicas relativas a la permanetración?~ 
+@22 = ~No, no puedo decir que me suene. ¿Qué significa?~ 
+@23 = ~Creo que lo he oido mencionar, pero no lo situo. Explicadmelo.~
+@24 = ~Sí, estoy familiarizado con la Permanetración. Continuad vuestra historia.~
+~Sí, estoy familiarizada con la Permanetración. Continuad vuestra historia.~
+@25 = ~La permanetración es una teoría bastante antigua según la cual un mago poderoso puede, con la suficiente habilidad mágica y energía, extraer la fuerza vital de muchos seres y añadirlas colectivamente a la suya propia. Haciendo eso, algo que sólo una persona pudo llegar a conseguir, el mago puede alcanzar un estado cercano a la divinidad.~
+@26 = ~Karsus intentó la permanetración antes de la caida de Netheril. Hizo su intento por medio de un conjuro que desarrolló, el Avatar de Karsus, pero falló, con drásticos resultados. No sólo desgarró permanentemente la Urdimbre, sino que miles de seres murieron durante la invocación, y muchos más cuando la ciudad flotante de Karsus se precipitó desde kilómetros de altura hasta chocar contra el suelo. Pero el mayor peligro de todos fue la muerte de Mystryl, la precursora de Mystra, que colocó mucho de su poder en un mortal para evitar la destrucción absoluta, usando después el poder que le quedaba para reparar la Urdimbre. Los poderes de Mystryl se encarnaron como Mystra. Aquel fue el primer intento de una permanetración, un precursor de las modernas escuelas de magia de los arcanistas; el segundo intento tuvo lugar miles de años después, un año antes de vuestro nacimiento. La misma Mystra intentó la permanetración, pero fue aniquilada por Helm en las Tierras de Piedra de Cormyr. La devastación que causó aun puede verse, incluso a pesar del paso de los años.~
+@27 = ~Así que os podéis hacer una idea del peligro de la permanetración.~
+@28 = ~Entonces ya conocéis el gran peligro que implica que alguien intente la permanetración.~
+@29 = ~No pensaba que tal cosa fuera posible cuando comencé mis estudios para el mago, aunque cuando me sumergí en los textos antiguos, el propósito de sus preguntas se volvió claro.~
+@30 = ~Creo que este mago está intentando realizar sus propios conjuros para la permanetración.~
+@31 = ~¿Qué os hace pensar eso?~
+@32 = ~¿Qué tipo de conjuros podría usar el mago para tal cosa?~
+@33 = ~En todos y cada uno de los intentos de realizar lapermanetración que conozco, las consecuencias no han sido buenas para los implicados.  Por eso no podéis permitir que teja los conjuros, ni dejar que las consecuencias se desencadenen.~
+@34 = ~No puedo permitir que nadie realice ningún ritual de permanetración.  ¿Qué puedo hacer?~
+@35 = ~<GABBER>, hay muchas pistas, pero en realidad lo principal es que Khaddyr me ha tenido investigando *mucha* información específica: por ejemplo el uso de la magia pesada conjuntamente con un artefacto recientemente descubierto: la Corona Astada. Esto y otras cosas similares me dieron una pista para comenzar, pero hay más.~
+@36 = ~<GABBER>, Khaddyr ha recuperado el artefacto sobre el que me pidió que investigara. No me ha permitido tocarlo, ni lanzar conjuros sobre él para determinar sus propiedades. Sin embargo, he descubierto lo que es. Sólo pude encontrar una sola referencia en todos mis textos, e incluso esa referencia era muy vaga. Recuerdo bien las palabras, se han quedado impresas en mi mente para siempre, y nunca las olvidaré:
+
+	Tendo fio posterus, nex vadum reign;
+	dum viscus est demented, phasmatis subsisto sanus.
+	Temerarius dico quod permissum vox exsisto emanio;
+	a novus universitas fio, ut verto est fed.~
+@37 = ~¿Qué significa?~
+@38 = ~<GABBER>, traducido al común dice:
+
+"El presente se vuelve futuro, la muerte reinará;
+mientras la carne enloquece, el espíritu permanece cuerdo;
+escucha la llamada y deja que la palabra se extienda;
+un mundo nuevo será creado, cuando el transformado esté alimentado."~
+@39 = ~No hay nada que hacer sólo con los conjuros específicos, <GABBER>. Tiene que ver más con el uso de cierto artefacto que ha sido hallado hace poco: la Corona Astada, e incluso el uso de la magia pesada. Khaddyr me pidió que investigara cosas muy específicas: en concreto el uso de dicha magia conjuntamente con la Corona. Todo esto debería haberme hecho cesar en mis investigaciones, pero hay más.~
+@40 = ~Debería haberlo sabido mejor, pero Khaddyr compró algo hace poco. Recuperó un artefacto de gran poder, y yo creo que es la Corona. Me ordenó estudiarla, pero no me permite tocarla ni lanzar conjuros sobre ella para determinar sus propiedades. Sin embargo, he descubierto lo que es. Sólo pude encontrar una sola referencia en todos mis textos, e incluso esa referencia era muy vaga. Recuerdo bien las palabras, se han quedado impresas en mi mente para siempre, y nunca las olvidaré:
+
+	Tendo fio posterus, nex vadum reign;
+	dum viscus est demented, phasmatis subsisto sanus.
+	Temerarius dico quod permissum vox exsisto emanio;
+	a novus universitas fio, ut verto est fed.~
+@41 = ~<GABBER>, sabéis tan bien como yo que cuando se trata con magia no se puede dejar nada al azar. Un instante después de cada intento de realizar la permanetración fue seguido por la destrucción. ¿Deberíamos esperar algo diferente? Quizás no, pero no quiero pensar en las consecuencias si este mago tiene éxito. Tengo razones para creer que en este caso, Khaddyr tiene una buena oportunidad de conseguir lo que desea.~
+@42 = ~Hace poco, encontré algo que aumenta las posibilidades de que Khaddyr realice una permanetración con éxito, mayores que cualquier otro que haya intentado dicho ritual. Debería haberme dado cuenta antes, pero supongo que era muy inocente. El mago me compró hace unas semanas un artefacto que había descubierto, aunque desconocía sus propiedades e historia. Este artefacto tenía gran poder, y no me permitió tocarlo ni lanzar conjuros sobre él. Me pidió que lo investigara, pero sólo pude encontrar una vaga referencia después de buscar en mis libros y en los tomos que investigué en Candelero y en Luna Plateada, e incluso ésta era vaga. Creo que el artefacto que Khaddyr recuperó es la Corona Astada. Recuerdo bien las palabras, se han quedado impresas en mi mente para siempre, y nunca las olvidaré:
+
+	Tendo fio posterus, nex vadum reign;
+	dum viscus est demented, phasmatis subsisto sanus.
+	Temerarius dico quod permissum vox exsisto emanio;
+	a novus universitas fio, ut verto est fed.~
+@43 = ~Es fácil de entender una vez uno se da cuenta de que las palabras describen el mismo proceso de permanetración: la muerte de muchas, muchas almas alimentando a quien intente la permanetración para convertirse en un único espíritu enorme.~
+@44 = ~Así que, <GABBER>, hay mucho que comprender. Sé que no podéis tomar un decisión de cualquier manera, pero necesito vuestra ayuda. Todos nosotros necesitamos vuestra ayuda. Khaddyr no puede tener éxito; no, ni siquiera debe intentar la permanetración. Nosotros... vos, <GABBER>,  vos no podéis permitir que ocurra algo así.~
+@45 = ~No sé. Lo que pedís es toda una tarea. Me temo no ser capaz de evitar que tenga éxito.~
+@46 = ~Me encantaría ayudaros, Eleanor, pero tengo que ganarme algún tipo de recompensa por las molestias.~
+@47 = ~No puedo. No puedo hacerlo. Tendréis que encontrar a otro.~
+~No puedo. No puedo hacerlo. Tendréis que encontrar a otra.~
+@48 = ~Está bien. Alguien debe encargarse de ese mago. ¿Dónde puedo encontrar a este Khaddyr?~
+@49 = ~<GABBER>, si os decidís a enfrentaros en esta batalla contra el mago, tendré que confiar en vuestras habilidades. No os hubiera abordado si no estuviera segura de que tendríais una posibilidad de derrotarle.  ¿Me ayudaréis, por favor?~
+@50 = ~<GABBER>, sólo soy una humilde estudiosa. No tengo nada salvo la capa de mi espalda y las botas en mis pies. No puedo ofreceros posesiones materiales, pero no haréis este trabajo por nada.~
+@51 = ~Por supuesto, derrotar a Khaddyr os permitiría ganar varios poderosos conjuros y objetos, y el orgullo de conocer el hecho de que una vez más habéis ayudado al bien en Faerûn, lo que es más de lo que yo podría daros.~
+@52 = ~Por supuesto, derrotar a Khaddyr os permitiría a vos y a vuestros amigos ganar varios poderosos conjuros y objetos, y el orgullo de que vuestro grupo sepa de que una vez más habéiss ayudado al bien en Faerûn, lo que es mas de lo que yo podría daros.~
+@53 = ~Os pido ayuda no porque esté buscando empleados o mercenarios, sino para apelar a vuestro sentido del honor y del bien. No es simplemente algo que hacéis por mí, sino algo que hacéis por todo Faerûn.~
+@54 = ~Si no podéis ayudarme, entonces supongo que no tengo más elección que encontrar a otro.  Quiero agradeceros que al menos me hayáis dedicado un tiempo para escucharme, y rogaré que sobreviváis al cataclismo que ocurriría si el mago tiene éxito.~
+~Si no podéis ayudarme, entonces supongo que no tengo más elección que encontrar a otra.  Quiero agradeceros que al menos me hayáis dedicado un tiempo para escucharme, y rogaré que sobreviváis al cataclismo que ocurriría si el mago tiene éxito.~
+@55 = ~Es la pregunta mas fácil que podría contestaros. Cuando Khaddyr me contrató para hacer la investigación, me dijo dónde podría contactarle.  <GABBER>, Khaddyr tiene un laboratorio en una mazmorra en las Colinas Ventolanza.~
+@56 = ~Ya sabes dónde están las Colinas, así que no deberíais tener ningún problema en llegar allí.~
+@57 = ~Aquí, os marcaré su posición en vuestro mapa. No deberíais tener problemas para encontrarlo.~
+@58 = ~Es la pregunta mas fácil que podría contestaros. Cuando Khaddyr me contrató para hacer la investigación, me dijo dónde podría contactarle.  <GABBER>, Khaddyr tiene un laboratorio en una mazmorra al norte de una pequeña villa llamada Imnesvale, situada en las Colinas de Umar.~
+@59 = ~Aquí, os marcaré la localización de esas ruinas en vuestro mapa. No deberíais tener problemas en encontrarlas.~
+@60 = ~Es la pregunta mas fácil que podría contestaros. Cuando Khaddyr me contrató para hacer la investigación, me dijo dónde podría contactarle.  <GABBER>, Khaddyr tiene un laboratorio secreto excavado en un gran prado al noreste de Brost, una pequeña aldea cerca del Bosque de Tethyr.~
+@61 = ~Aquí, os marcaré la posición de ese prado en vuestro mapa. No deberíais tener problemas para encontrarlo.~
+@62 = ~Bien, <GABBER>, estoy contenta de que al menos lo intentéis. Por tanto, dejadme ayudaros lo mejor que pueda. Debéis saber que Khaddyr es bastante poderoso, y nunca he visto menos de seis guardaespaldas rodeándolo. Va a ser todo un reto, así que lo mejor para vos seguramente sea engañarle.~
+@63 = ~Puedo ayudaros con eso. Tengo un plan. Podéis hacerlo como os propongo, o como vos prefiráis, pero os sugiero que dupliquemos el artefacto y lo reemplacemos por una copia sin poder, tomemos posesión de la Corona y la destruyamos en lugar de arriesgarnos a que Khaddyr intente la permanetración antes de que podáis detenerle.~
+@64 = ~Eso lo reduciría sencillamente a hacer un duplicado de la Corona Astada, y sólo necesitaríais unos pocos componentes y un conjuro especial. Puedo deciros lo que necesitáis, y si me lo traéis, construiré una réplica que podréis usar para reemplazar la auténtica. Al traerme la Corona, sólo nos quedará destruirla.~
+@65 = ~Parece un buen plan, Eleanor. Intentemoslo.  ¿Qué necesitáis que os consiga?~
+@66 = ~No, Eleanor, parece muy arriesgado. Dejadme intentar arrebarale la Corona a Khaddyr por la fuerza. Seré capaz de traerla para destruirla.~
+@67 = ~No me gusta eso, <GABBER>, pero como deseéis. Sin embargo, al menos dejadme explicaros qué necesitaríais para construir un duplicado para el caso en que falléis.~
+@68 = ~Hay unos pocos objetos que necesitaríais para construir una falsificación de la Corona Astada. Cada uno es bastante común, pero no sé dónde podríais encontrarlos. Primero, necesitaríais un diamante, de cualquier talla o calidad. Con el diamante, tendréis que conseguir una Poción de Protección Mágica para evitar que el mago descubra la verdad sobre el duplicado. En tercer lugar, dadas las propiedades mágicas del jade, hay un número de objetos que contienen jade, otro componente que necesitaremos para construir la falsificación de la Corona. Finalmente, necesito un pergamino con el conjuro Arma encantada, que alteraré para encantar en su lugar un objeto.~
+@69 = ~Si reunís estos objetos y me los traéis, sólo me llevará unas pocas horas hacer una copia de esta Corona Astada.~
+@70 = ~Creo que es todo lo que necesito contaros, <GABBER>.  ¿Tenéis alguna pregunta?~
+@71 = ~No, Eleanor. Intentaré hacerlo con rapidez. No necesitamos que Khaddyr intente realizar el ritual de permanetración.~
+@72 = ~Bien. <GABBER>, he estado aquí demasiado tiempo. Debo irme. Reuníos conmigo en Athkatla. Os encontraré allí.~
+@73 = ~Buena suerte, <GABBER>. Todos la necesitamos.~
+@74 = ~Sobre elfos y artefactos
+
+  He tenido una larga discusión con Eleanor, una maga élfica especializada en reunir el saber sobre antiguos artefactos y objetos mágicos. Está preocupada por las ambiciones de un mago, que la contrató para investigar una teoría conocida como Permanetración, que hasta ahora se pensaba era sólo un mito. Aparentemente, este mago se ha hecho con un artefacto que le permitirá realizar el ritual de Permanetración, y por supuesto causando una destrucción enorme en el proceso. Eleanor imploró mi ayuda, pues tiene un plan para que el mago fracase.
+  Cree que lo mejor será crear un duplicado del artefacto, uno que carezca de poder. No sé si es una buena idea, pero si deseo construir tal falsificación, me dijo los objetos que necesitaría para ello. Los objetos se encuentran fácilmente, y necesitaría un diamante, una Poción de Protección Mágica, un pergamino con el conjuro Arma Encantada, y cualquier objeto con jade. Si encuentro estos objetos y quiero que Eleanor cree un duplicado, me dijo que se pondría en contacto conmigo en algún lugar de Athkatla.
+  Además de lo duplicar el objeto, Eleanor me dijo dónde podría encontrar al mago. Me dijo que contactaba con él en un refugio en las Colinas Ventolanza, donde él tiene un laboratorio subterráneo donde realizar sus experimentos. Si todo lo demás falla, podría encontrarle allí y derrotarle para detener sus intentos de robar la fuerza vital de los otros para lograr la divinidad.~
+@75 = ~Sobre elfos y artefactos
+
+  He tenido una larga discusión con Eleanor, una maga élfica especializada en reunir el saber sobre antiguos artefactos y objetos mágicos. Está preocupada por las ambiciones de un mago, que la contrató para investigar una teoría conocida como Permanetración, que hasta ahora se pensaba era sólo un mito. Aparentemente, este mago se ha hecho con un artefacto que le permitirá realizar el ritual de Permanetración, y por supuesto causando una destrucción enorme en el proceso. Eleanor imploró mi ayuda, pues tiene un plan para que el mago fracase.
+  Cree que lo mejor será crear un duplicado del artefacto, uno que carezca de poder. No sé si es una buena idea, pero si deseo construir tal falsificación, me dijo los objetos que necesitaría para ello. Los objetos se encuentran fácilmente, y necesitaría un diamante, una Poción de Protección Mágica, un pergamino con el conjuro Arma Encantada, y cualquier objeto con jade. Si encuentro estos objetos y quiero que Eleanor cree un diplicado, me dijo que se pondría en contacto conmigo en algún lugar de Athkatla. 
+  Además de lo duplicar el objeto, Eleanor me dijo dónde podría encontrar al mago. Me dijo que contactaba con él en un refugio cercano a las Colinas de Umar, donde él tiene un laboratorio subterráneo donde realizar sus experimentos. Si todo lo demás falla, podría encontrarle allí y derrotarle para detener sus intentos de robar la fuerza vital de los otros para lograr la divinidad.~
+@76 = ~Sobre elfos y artefactos
+
+  He tenido una larga discusión con Eleanor, una maga élfica especializada en reunir el saber sobre antiguos artefactos y objetos mágicos. Está preocupada por las ambiciones de un mago, que la contrató para investigar una teoría conocida como Permanetración, que hasta ahora se pensaba era sólo un mito. Aparentemente, este mago se ha hecho con un artefacto que le permitirá realizar el ritual de Permanetración, y por supuesto causando una destrucción enorme en el proceso. Eleanor imploró mi ayuda, pues tiene un plan para que el mago fracase.
+  Cree que lo mejor será crear un duplicado del artefacto, uno que carezca de poder. No sé si es una buena idea, pero si deseo construir tal falsificación, me dijo los objetos que necesitaría para ello. Los objetos se encuentran fácilmente, y necesitaría un diamante, una Poción de Protección Mágica, un pergamino con el conjuro Arma Encantada, y cualquier objeto con jade. Si encuentro estos objetos y quiero que Eleanor cree un diplicado, me dijo que se pondría en contacto conmigo en algún lugar de Athkatla.
+  Además de lo duplicar el objeto, Eleanor me dijo dónde podría encontrar al mago. Me dijo que contactaba con él en un prado cercano al Bosque de Tethyr, donde él tiene un laboratorio subterráneo donde realizar sus experimentos. Si todo lo demás falla, podría encontrarle allí y derrotarle para detener sus intentos de robar la fuerza vital de los otros para lograr la divinidad.~
+@77 = ~Sobre elfos y artefactos
+
+Mientras paseaba por el Distrito del Puente de Athkatla, una elfa, desconocida para mí, se me acercó con mucha precipitación. No dijo nada, pero disimuladamente me echó una estatuilla en la mochila. No sé el porqué, aunque aún no conozco todas las propiedades que tiene la estatuilla. Tendré que investigarla más a fondo, y quizás la misteriosa elfa me conduzca a otra aventura.~
+@78 = ~Sobre elfos y artefactos
+
+He identificado y recibido el mensaje mágico almacenado en la estatua que me entregó una elfa en el Distrito del Puente. La voz, aparentemente la de una elfa, estaba cargada de miedo y angustia, aunque no aportó muchas pistas sobre la aventura a la que alude la elfa. Todo lo que sé es que la elfa podría estar en peligro-,y todo lo que dice es que la Costa de la Espada también, y que si me reuno con ella en el Templo de Waukeen de Caravasar, intentará explicarme más. Quizás vaya, pero sería mejor saber antes algo mas sobre esta elfa.~

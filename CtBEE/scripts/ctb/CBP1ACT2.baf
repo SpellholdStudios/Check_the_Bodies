@@ -1,0 +1,24 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		FadeToColor([20.0],0)
+		Wait(3)
+		CreateCreature("CBP1ACT4",[870.632],0)
+		CreateCreature("CBP1ACT5",[849.515],0)
+		CreateCreature("CBP1ACT6",[1175.596],0)
+		ActionOverride("CBP1ACT1",JumpToPoint([927.672]))
+		ActionOverride("CBP1ACT1",Face(2))
+		ActionOverride("CBP1ACT2",JumpToPoint([729.544]))
+		ActionOverride("CBP1ACT2",Face(15))
+		ActionOverride("CBP1ACT3",JumpToPoint([785.529]))
+		ActionOverride("CBP1ACT3",Face(15))
+		Wait(1)
+		SetGlobal("CbPeeWeePlayOne","AR0510",6)
+		FadeFromColor([20.0],0)
+		EndCutSceneMode()
+		ActionOverride("CBP1ACT4",StartDialogueNoSet("CBP1ACT1"))
+END
+
+

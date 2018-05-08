@@ -1,0 +1,2 @@
+ADD_STATE_TRIGGER SCOOK 0
+~!Global("CbCanDoWedding","GLOBAL",1)~

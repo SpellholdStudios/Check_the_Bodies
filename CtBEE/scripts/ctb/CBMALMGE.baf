@@ -1,0 +1,157 @@
+IF
+	Range(Player1,20)
+	OR(10)
+		Class(Player1,SORCERER)
+		Class(Player1,MAGE)
+		Class(Player1,MAGE_ALL)
+		Class(Player1,MAGE_THIEF)
+		Class(Player1,FIGHTER_MAGE)
+		Class(Player1,FIGHTER_MAGE_CLERIC)
+		Class(Player1,FIGHTER_MAGE_THIEF)
+		Class(Player1,CLERIC_MAGE)
+		Class(Player1,BARD)
+		Class(Player1,BARD_ALL)
+	Global("PlayerHasStronghold","GLOBAL",1)
+	OR(2)
+		GlobalGT("playhouse","GLOBAL",0)
+		GlobalGT("PCSphere","GLOBAL",0)
+	CombatCounter(0)
+	Global("CbMalteseArtifact","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbMalteseArtifact","GLOBAL",1)
+		SetGlobal("CbMalMgeP1","AR0500",1)
+		CreateCreature("CBMALMGE",[1720.2402],14)
+END
+
+IF
+	Range(Player2,20)
+	OR(10)
+		Class(Player2,SORCERER)
+		Class(Player2,MAGE)
+		Class(Player2,MAGE_ALL)
+		Class(Player2,MAGE_THIEF)
+		Class(Player2,FIGHTER_MAGE)
+		Class(Player2,FIGHTER_MAGE_CLERIC)
+		Class(Player2,FIGHTER_MAGE_THIEF)
+		Class(Player2,CLERIC_MAGE)
+		Class(Player2,BARD)
+		Class(Player2,BARD_ALL)
+	Global("PlayerHasStronghold","GLOBAL",1)
+	OR(2)
+		GlobalGT("playhouse","GLOBAL",0)
+		GlobalGT("PCSphere","GLOBAL",0)
+	CombatCounter(0)
+	Global("CbMalteseArtifact","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbMalteseArtifact","GLOBAL",1)
+		SetGlobal("CbMalMgeP2","AR0500",1)
+		CreateCreature("CBMALMGE",[1720.2402],14)
+END
+
+IF
+	Range(Player3,20)
+	OR(10)
+		Class(Player3,SORCERER)
+		Class(Player3,MAGE)
+		Class(Player3,MAGE_ALL)
+		Class(Player3,MAGE_THIEF)
+		Class(Player3,FIGHTER_MAGE)
+		Class(Player3,FIGHTER_MAGE_CLERIC)
+		Class(Player3,FIGHTER_MAGE_THIEF)
+		Class(Player3,CLERIC_MAGE)
+		Class(Player3,BARD)
+		Class(Player3,BARD_ALL)
+	Global("PlayerHasStronghold","GLOBAL",1)
+	OR(2)
+		GlobalGT("playhouse","GLOBAL",0)
+		GlobalGT("PCSphere","GLOBAL",0)
+	CombatCounter(0)
+	Global("CbMalteseArtifact","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbMalteseArtifact","GLOBAL",1)
+		SetGlobal("CbMalMgeP3","AR0500",1)
+		CreateCreature("CBMALMGE",[1720.2402],14)
+END
+
+IF
+	Range(Player4,20)
+	OR(10)
+		Class(Player4,SORCERER)
+		Class(Player4,MAGE)
+		Class(Player4,MAGE_ALL)
+		Class(Player4,MAGE_THIEF)
+		Class(Player4,FIGHTER_MAGE)
+		Class(Player4,FIGHTER_MAGE_CLERIC)
+		Class(Player4,FIGHTER_MAGE_THIEF)
+		Class(Player4,CLERIC_MAGE)
+		Class(Player4,BARD)
+		Class(Player4,BARD_ALL)
+	Global("PlayerHasStronghold","GLOBAL",1)
+	OR(2)
+		GlobalGT("playhouse","GLOBAL",0)
+		GlobalGT("PCSphere","GLOBAL",0)
+	CombatCounter(0)
+	Global("CbMalteseArtifact","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbMalteseArtifact","GLOBAL",1)
+		SetGlobal("CbMalMgeP4","AR0500",1)
+		CreateCreature("CBMALMGE",[1720.2402],14)
+END
+
+IF
+	Range(Player5,20)
+	OR(10)
+		Class(Player5,SORCERER)
+		Class(Player5,MAGE)
+		Class(Player5,MAGE_ALL)
+		Class(Player5,MAGE_THIEF)
+		Class(Player5,FIGHTER_MAGE)
+		Class(Player5,FIGHTER_MAGE_CLERIC)
+		Class(Player5,FIGHTER_MAGE_THIEF)
+		Class(Player5,CLERIC_MAGE)
+		Class(Player5,BARD)
+		Class(Player5,BARD_ALL)
+	Global("PlayerHasStronghold","GLOBAL",1)
+	OR(2)
+		GlobalGT("playhouse","GLOBAL",0)
+		GlobalGT("PCSphere","GLOBAL",0)
+	CombatCounter(0)
+	Global("CbMalteseArtifact","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbMalteseArtifact","GLOBAL",1)
+		SetGlobal("CbMalMgeP5","AR0500",1)
+		CreateCreature("CBMALMGE",[1720.2402],14)
+END
+
+IF
+	Range(Player6,20)
+	OR(10)
+		Class(Player6,SORCERER)
+		Class(Player6,MAGE)
+		Class(Player6,MAGE_ALL)
+		Class(Player6,MAGE_THIEF)
+		Class(Player6,FIGHTER_MAGE)
+		Class(Player6,FIGHTER_MAGE_CLERIC)
+		Class(Player6,FIGHTER_MAGE_THIEF)
+		Class(Player6,CLERIC_MAGE)
+		Class(Player6,BARD)
+		Class(Player6,BARD_ALL)
+	Global("PlayerHasStronghold","GLOBAL",1)
+	OR(2)
+		GlobalGT("playhouse","GLOBAL",0)
+		GlobalGT("PCSphere","GLOBAL",0)
+	CombatCounter(0)
+	Global("CbMalteseArtifact","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbMalteseArtifact","GLOBAL",1)
+		SetGlobal("CbMalMgeP6","AR0500",1)
+		CreateCreature("CBMALMGE",[1720.2402],14)
+END
+
+

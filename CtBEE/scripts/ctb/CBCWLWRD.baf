@@ -1,0 +1,28 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		FadeToColor([20.0],0)
+		SmallWait(3)
+		MultiPlayerSync()
+		LeaveAreaLUAPanic("AR0069","",[-1.-1],0)
+		LeaveAreaLUA("AR0069","",[-1.-1],0)
+		ActionOverride(Player2,LeaveAreaLUA("AR0069","",[-1.-1],0))
+		ActionOverride(Player3,LeaveAreaLUA("AR0069","",[-1.-1],0))
+		ActionOverride(Player4,LeaveAreaLUA("AR0069","",[-1.-1],0))
+		ActionOverride(Player5,LeaveAreaLUA("AR0069","",[-1.-1],0))
+		ActionOverride(Player6,LeaveAreaLUA("AR0069","",[-1.-1],0))
+		Wait(1)
+		MultiPlayerSync()
+		MoveViewPoint([791.790],INSTANT)
+		CreateCreature("cuwiz6",[480.630],0) // Cowled Enforcer
+		CreateCreature("cuwiz5",[779.518],0) // Cowled Enforcer
+		CreateCreature("cuwiz3",[482.965],0) // Cowled Enforcer
+		Wait(2)
+		FadeFromColor([20.0],0)
+		MultiPlayerSync()
+		StartCutScene("CBCWLWRE")
+END
+
+

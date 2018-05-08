@@ -1,0 +1,48 @@
+IF
+	Global("CbXTThiefStealsFromSlavers","GLOBAL",0)
+//	OnCreation()
+THEN
+	RESPONSE #100
+		ContainerEnable("CbCont01",FALSE)
+		Continue()
+END
+
+IF
+	Unlocked("Chest7")
+	!Unlocked("CbCont01")
+THEN
+	RESPONSE #100
+		Unlock("CbCont01")
+		Continue()
+END
+
+IF
+	!Unlocked("Chest7")
+	Unlocked("CbCont01")
+THEN
+	RESPONSE #100
+		Unlock("Chest7")
+		Continue()
+END
+
+IF
+	GlobalGT("CbXTThiefStealsFromSlavers","GLOBAL",0)
+	Contains("CBXTSHee","CbCont01")
+THEN
+	RESPONSE #100
+		ContainerEnable("CbCont01",TRUE)
+		ContainerEnable("Chest7",FALSE)
+		Continue()
+END
+
+IF
+	GlobalGT("CbXTThiefStealsFromSlavers","GLOBAL",1)
+	!Contains("CBXTSHee","CbCont01")
+	Global("CbResetChest7","AR0906",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbResetChest7","AR0906",1)
+		ContainerEnable("CbCont01",FALSE)
+		ContainerEnable("Chest7",TRUE)
+END
+

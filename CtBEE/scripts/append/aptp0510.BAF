@@ -1,0 +1,150 @@
+IF
+	OnCreation()
+	GlobalTimerExpired("CbPlayTimersReset","GLOBAL")
+THEN
+	RESPONSE #100
+		ActionOverride("FFRECEP",SetNumTimesTalkedTo(0))
+		Continue()
+END
+
+IF
+	GlobalGT("PlayOver","AR0510",2)
+	!Exists("CB510BRD")
+	Global("CbPeeWeeBardCreated","AR0510",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPeeWeeBardCreated","AR0510",1)
+		CreateCreature("CB510BRD",[627.645],15)
+		Continue()
+END
+	
+IF
+	Global("PlayOver","AR0510",1)
+	Global("CbScreening_Spellfire","AR0510",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPeeWeePlayOne","AR0510",4)
+		SetGlobal("CbScreening_Spellfire","AR0510",2)
+		IncrementGlobal("PlayOver","AR0510",1)
+		CreateCreature("CBP1ACT1",[871.581],0)
+		CreateCreature("CBP1ACT2",[918.610],0)
+		CreateCreature("CBP1ACT3",[1175.596],0)
+		CreateCreature("CBFFCRW1",[577.728],0)
+		CreateCreature("CBFFCRW2",[529.853],0)
+		CreateCreature("CBFFCRW3",[780.926],0)
+		CreateCreature("CBFFCRW4",[623.973],0)
+		CreateCreature("CBFFCRW5",[467.900],0)
+		ActionOverride("CBFFCRW1",FaceObject("CBP1ACT1"))
+		ActionOverride("CBFFCRW2",FaceObject("CBP1ACT1"))
+		ActionOverride("CBFFCRW3",FaceObject("CBP1ACT1"))
+		ActionOverride("CBFFCRW4",FaceObject("CBP1ACT1"))
+		ActionOverride("CBFFCRW5",FaceObject("CBP1ACT1"))
+		Continue()
+END
+
+IF
+	Global("PlayOver","AR0510",2)
+	Global("CbScreening_TisPity","AR0510",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbScreening_TisPity","AR0510",2)
+		IncrementGlobal("PlayOver","AR0510",1)
+		CreateCreature("CBP2ACT1",[808.614],0)
+		CreateCreature("CBP2ACT2",[915.670],0)
+		CreateCreature("CBP2ACT3",[853.600],0)
+		CreateCreature("CBFFCRW1",[445.802],0)
+		CreateCreature("CBFFCRW2",[710.891],0)
+		CreateCreature("CBFFCRW3",[668.1003],0)
+		CreateCreature("CBFFCRW4",[675.944],0)
+		CreateCreature("CBFFCRW5",[538.783],0)
+		ActionOverride("CBFFCRW1",FaceObject("CBP3ACT1"))
+		ActionOverride("CBFFCRW2",FaceObject("CBP3ACT1"))
+		ActionOverride("CBFFCRW3",FaceObject("CBP3ACT1"))
+		ActionOverride("CBFFCRW4",FaceObject("CBP3ACT1"))
+		ActionOverride("CBFFCRW5",FaceObject("CBP3ACT1"))
+		Continue()
+END
+
+IF
+	Global("PlayOver","AR0510",3)
+	Global("CbScreening_MacParody","AR0510",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbScreening_MacParody","AR0510",2)
+		IncrementGlobal("PlayOver","AR0510",1)
+		CreateCreature("CBP3ACT1",[1067.696],0)
+		CreateCreature("CBP3ACT2",[1005.731],0)
+		ActionOverride("CBP3ACT2",FaceObject("CBP3ACT1"))
+		CreateCreature("CBP3ACT3",[1011.655],0)
+		ActionOverride("CBP3ACT3",FaceObject("CBP3ACT1"))
+		CreateCreature("CBP3ACT4",[746.557],0)
+		CreateCreature("CBFFCRW1",[445.802],0)
+		CreateCreature("CBFFCRW2",[710.891],0)
+		CreateCreature("CBFFCRW3",[668.1003],0)
+		CreateCreature("CBFFCRW4",[675.944],0)
+		CreateCreature("CBFFCRW5",[538.783],0)
+		ActionOverride("CBFFCRW1",FaceObject("CBP3ACT1"))
+		ActionOverride("CBFFCRW2",FaceObject("CBP3ACT1"))
+		ActionOverride("CBFFCRW3",FaceObject("CBP3ACT1"))
+		ActionOverride("CBFFCRW4",FaceObject("CBP3ACT1"))
+		ActionOverride("CBFFCRW5",FaceObject("CBP3ACT1"))
+		Continue()
+END
+
+IF
+	Global("PlayOver","AR0510",4)
+	Global("CbScreening_Pirates","AR0510",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbScreening_Pirates","AR0510",2)
+		IncrementGlobal("PlayOver","AR0510",1)
+		CreateCreature("CBP4ACT1",[1050.820],0)
+		ActionOverride("CBP4ACT1",FaceObject("CBP4ACT2"))
+		CreateCreature("CBP4ACT2",[1058.767],0)
+		ActionOverride("CBP4ACT2",FaceObject("CBP4ACT1"))
+		CreateCreature("CBP4ACT3",[694.671],0)
+		ActionOverride("CBP4ACT3",FaceObject("CBP4ACT7"))
+		CreateCreature("CBP4ACT4",[714.637],0)
+		ActionOverride("CBP4ACT4",FaceObject("CBP4ACT6"))
+		CreateCreature("CBP4ACT5",[1011.887],0)
+		ActionOverride("CBP4ACT5",FaceObject("CBP4ACT3"))
+		CreateCreature("CBP4ACT6",[1020.850],0)
+		ActionOverride("CBP4ACT6",FaceObject("CBP4ACT4"))
+		CreateCreature("CBP4ACT7",[937.702],0)
+		ActionOverride("CBP4ACT7",FaceObject("FFRECEP"))
+		CreateCreature("CBP4ACT8",[819.606],0)
+		ActionOverride("CBP4ACT8",FaceObject("FFRECEP"))
+		CreateCreature("CBP4ACT9",[780.538],0)
+		ActionOverride("CBP4ACT9",FaceObject("FFRECEP"))
+		CreateCreature("CBP4ACTa",[920.555],0)
+		ActionOverride("CBP4ACTa",FaceObject("FFRECEP"))
+		CreateCreature("CBP4ACTb",[1006.620],0)
+		ActionOverride("CBP4ACTb",FaceObject("FFRECEP"))
+		CreateCreature("CBP4ACTc",[1079.688],0)
+		ActionOverride("CBP4ACTc",FaceObject("FFRECEP"))
+		CreateCreature("CBP4ACTd",[1119.829],0)
+		ActionOverride("CBP4ACTd",FaceObject("FFRECEP"))
+		CreateCreature("CBP4ACTe",[853.597],0)
+		ActionOverride("CBP4ACTe",FaceObject("CBP4ACT8"))
+		CreateCreature("CBFFCRW1",[577.728],0)
+		CreateCreature("CBFFCRW2",[529.853],0)
+		CreateCreature("CBFFCRW3",[780.926],0)
+		CreateCreature("CBFFCRW4",[623.973],0)
+		CreateCreature("CBFFCRW5",[467.900],0)
+		ActionOverride("CBFFCRW1",FaceObject("CBP4ACT7"))
+		ActionOverride("CBFFCRW2",FaceObject("CBP4ACT7"))
+		ActionOverride("CBFFCRW3",FaceObject("CBP4ACT7"))
+		ActionOverride("CBFFCRW4",FaceObject("CBP4ACT7"))
+		ActionOverride("CBFFCRW5",FaceObject("CBP4ACT7"))
+		Continue()
+END
+
+IF
+	Global("PlayOver","AR0510",1)
+	Global("CbGetthefriggintimerset","AR0510",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbGetthefriggintimerset","AR0510",1)
+		SetGlobalTimer("CbPlayTimersReset","GLOBAL",THREE_DAYS)
+		Continue()
+END

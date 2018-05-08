@@ -1,0 +1,16 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ActionOverride("CB576WIZ",JumpToPoint([293.362]))
+		ActionOverride("CB576WIZ",Face(4))
+		CreateCreature("CBHAKSH1",[102.329],11)
+		CreateCreature("M05PCSPY",[150.350],0) // No such index
+		MoveViewPoint([293.362],INSTANT)
+		FadeFromColor([20.0],0)
+		SmallWait(7)
+		StartCutScene("CBCWLWRc")
+END
+
+

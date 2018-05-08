@@ -1,0 +1,55 @@
+IF
+	Global("CbCult_O_D_Items","LOCALS",0)
+THEN
+	RESPONSE #20
+		SetGlobal("CbCult_O_D_Items","LOCALS",1)
+		GiveItemCreate("POTN05",Myself,1,1,0) // Potion of Fire Giant Strength
+		EquipItem("POTN05") // Potion of Fire Giant Strength
+	RESPONSE #20
+		SetGlobal("CbCult_O_D_Items","LOCALS",1)
+		GiveItemCreate("POTN08",Myself,2,1,0) // Potion of Healing
+		EquipItem("POTN08") // Potion of Healing
+	RESPONSE #20
+		SetGlobal("CbCult_O_D_Items","LOCALS",1)
+		GiveItemCreate("POTN14",Myself,1,1,0) // Oil of Speed
+		EquipItem("POTN14") // Oil of Speed
+	RESPONSE #20
+		SetGlobal("CbCult_O_D_Items","LOCALS",1)
+		GiveItemCreate("POTN34",Myself,1,1,0) // Potion of Magic Protection
+		EquipItem("POTN34") // Potion of Magic Protection
+	RESPONSE #20
+		SetGlobal("CbCult_O_D_Items","LOCALS",1)
+		GiveItemCreate("POTN52",Myself,1,1,0) // Potion of Extra Healing
+		EquipItem("POTN52") // Potion of Extra Healing
+END
+
+IF
+	Heard([ANYONE],111)
+THEN
+	RESPONSE #100
+		MoveToObject(NearestEnemyOf(Myself))
+END
+
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		Attack(LastAttackerOf(Myself))
+END
+
+

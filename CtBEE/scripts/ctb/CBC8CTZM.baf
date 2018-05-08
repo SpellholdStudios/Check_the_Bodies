@@ -1,0 +1,64 @@
+IF
+	Global("Cb_ZannasterCreatedConversable","LOCALS",0)
+	Class(Player1,FIGHTER)
+	OR(2)
+		Class(Player1,PALADIN)
+		Class(Player1,RANGER)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannasterCreatedConversable","LOCALS",1)
+		GiveItemCreate("CB2HCONV",Myself,1,0,0)
+END
+
+IF
+	Global("Cb_ZannasterCreatedConversable","LOCALS",0)
+	Class(Player1,THIEF)
+	OR(1)
+		Class(Player1,BARD)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannasterCreatedConversable","LOCALS",1)
+		GiveItemCreate("CBLSCONV",Myself,1,0,0)
+END
+
+IF
+	Global("Cb_ZannasterCreatedConversable","LOCALS",0)
+	Class(Player1,MAGE)
+	OR(1)
+		Class(Player1,SORCERER)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannasterCreatedConversable","LOCALS",1)
+		GiveItemCreate("CBDGCONV",Myself,1,0,0)
+END
+
+IF
+	Global("Cb_ZannasterCreatedConversable","LOCALS",0)
+	Class(Player1,CLERIC)
+	OR(1)
+		Class(Player1,DRUID)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannasterCreatedConversable","LOCALS",1)
+		GiveItemCreate("CBMSCONV",Myself,1,0,0)
+END
+
+IF
+	Global("Cb_ZannasterCreatedConversable","LOCALS",0)
+	!Class(Player1,FIGHTER)
+	OR(8)
+		!Class(Player1,PALADIN)
+		!Class(Player1,RANGER)
+		!Class(Player1,THIEF)
+		!Class(Player1,BARD)
+		!Class(Player1,MAGE)
+		!Class(Player1,SORCERER)
+		!Class(Player1,CLERIC)
+		!Class(Player1,DRUID)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannasterCreatedConversable","LOCALS",1)
+		GiveItemCreate("CBLSCONV",Myself,1,0,0)
+END
+
+

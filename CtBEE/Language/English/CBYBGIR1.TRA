@@ -1,0 +1,114 @@
+@1   = ~<GABBER>!  I am glad you have sought me out.  Quickly, we haven't much time.~
+@2   = ~I cannot stay long, for I may be seen leaving here after you have come in.~
+@3   = ~Fine.  I'm here.  What is it that you need?~
+@4   = ~I just came to give you your statue.  I have no need of, nor of you.~
+@5   = ~Look, I don't like risking my life, or anyone else's, for something that I don't know anything about.~
+@6   = ~No, <GABBER>.  I don't suppose that you do.  But please, I need your help.  Won't you at least hear me out?~
+@7   = ~I'm much too busy to help you.  You'll have to find someone else to pull you out of the fire.~
+@8   = ~I'll give you a few moments, but I haven't decided if I'll help you or not.  Why don't you tell me what this is about?~
+@9   = ~Fine.  I'll help you.  What is it you need?~
+@10  = ~I don't know if I can.  But if you can't help me, then I guess I have no choice but to find another adventurer.  I pray you will forgive me bothering you.~
+@11  = ~Nor do I, <GABBER>, nor do I.  But circumstances have forced me to take action, and I cannot prevail without aid.  That is why I have approached you.~
+@12  = ~It is partially my fault, but only in that I misplaced my trust in one whom I thought had honorable intentions.~
+@13  = ~I was dreadfully wrong, and now I do not know what to do.~
+@14  = ~We all make mistakes.  Why don't you just tell me what it is that is the problem, and what I could do to help.~
+@15  = ~Sounds to me like you've gotten yourself into this mess.  I don't know if I want to help you or not.~
+@16  = ~No, <GABBER>.  I don't suppose that you would want to.  But please, I need your help.  Won't you at least hear me out?~
+@17  = ~Thank you, <GABBER>.  I hope that you'll help once you hear my problem.~
+@18  = ~Very well, <GABBER>, I will try to be brief and explain the situation from the beginning.~
+@19  = ~Like I mentioned, I am a mage.  I do not practice magic as often as most mages, but pursue more of a scholarly research on magical topics- items, treatises, or artifacts.  I have normally studied such things with as much distance to maintain a professional view of such things.  I shared my knowledge with those who asked or needed such information.  Up until a few months ago, I have never doubted my abilities as a scholar, or questioned my own ethics.  It was about that time that another mage by the name Khaddyr came to me requiring specific information on some very rarely mentioned spells, and as a professional, I assisted him to the best of my ability.~
+@20  = ~I did not know why Khaddyr wanted notes on such spells, nor did I attempt to puzzle out the connections.  I have been conducting research for Khaddyr for a few months now, and quite recently discovered what I believe to be the reasons why he wishes to know about certain spells and artifacts that amplify these spells.~
+@21  = ~<GABBER>, have you ever heard of permatration or any magical theories relating to permatration?~
+@22  = ~No, can't say that I have.  What does that mean?~
+@23  = ~I believe I've heard mention of that, but can't recall.  Explain it to me.~
+@24  = ~Yes, I am familiar with Permatration.  Go on with your story.~
+@25  = ~Permatration is a relatively old theory whereas a powerful mage can, with enough magical skill and energy, pull the life force from many beings and add it collectively to his own.  By doing so, something only one other person has ever been able to do, one can in fact become nearly godlike.~
+@26  = ~Karsus attempted permatration before the fall of Netheril.  He made an attempt at a spell that he researched, Karsus' Avatar, but failed, with drastic results.  Not only was the Weave torn permanently, but thousands died during his castings, and afterwards when the floating city of Karsus fell miles from the sky to earth.  Of even greater danger was the death of Mystryl, the forerunner of Mystra, who placed much of her power in a mortal to avoid true destruction, then used what remained to repair the Weave.  Mystral's powers were incarnated to Mystra.  That was the first instance of an attempted permatration, a precursor to the modern schools of magic of Arcanist spells, the second occured thousands of years later, just less than a year after your birth.  Mystra herself attempted permatration, and was slain by Helm in the Stonelands of Cormyr.  The devestation that caused can still be seen, even after the score of years.~
+@27  = ~So you can see and know the danger of permatration.~
+@28  = ~Then you are aware of the grave danger when one attempts permatration.~
+@29  = ~I was not aware that such a thing was possible when I began my research for the mage, yet as I dug deeper into ancient texts, the purpose of his inquiry became apparent.~
+@30  = ~I believe that this mage is attempting to conduct his own spells of permatration.~
+@31  = ~What makes you believe that?~
+@32  = ~What kinds of spells could this mage use to do such a thing?~
+@33  = ~In all the instances of permatration I know of, the consequences have not been good for those involved.  Why can't you let him conduct the spells, and let the consequences play out.~
+@34  = ~I cannot allow for anyone to perform any rituals of permatration.  What can I do?~
+@35  = ~<GABBER>, there are many clues, but mostly the fact that Khaddyr has me researching *very* specific information:  one of which is the use of heavy magic coupled with an artifact only recently found:  The Crown of Horns.  That in and of itself should have given me a clue to begin with, but there is more.~
+@36  = ~<GABBER>, Khaddyr has recovered this artifact which he has ordered me to research.  I was not allowed to touch it, nor cast spells upon it to test its properties.  However, I have discovered what this artifact is.  I could only find a single reference to it in all my texts, and even that reference was vague.  I remember the words well- they are impressed on my mind for life- and I shall never forget them:
+
+	Tendo fio posterus, nex vadum reign;
+	dum viscus est demented, phasmatis subsisto sanus.
+	Temerarius dico quod permissum vox exsisto emanio;
+	a novus universitas fio, ut verto est fed.~
+@37  = ~What does that mean?~
+@38  = ~<GABBER>, that translates to common as:
+
+"The present becomes future, death shall reign;
+while the flesh is demented, the spirit stays sane.
+Heed the call and let the word be spread;
+a new world be made, when the transformed is fed."~
+@39  = ~It has nothing to do with specific spells, <GABBER>.  It has to do more with the use of a certain artifact that has only recently been found:  The Crown of Horns, and even the use of heavy magic.  You see, Khaddyr asked me to research very specific information:  particularly the use of heavy magic coupled with an artifact only recently discovered: The Crown of Horns.  That in and of itself should have caused me to cease my research, but there is more.~
+@40  = ~I should have known better, but Khaddyr brought something to me recently.  An artifact of great power which he recovered and I believe to be this Crown..  He instructed me to research it, yet I was not allowed to touch it, nor cast spells upon it to test its properties.  I was able to discover what this artifact is.  I could only find a single reference to it in all my texts, and even that reference was vague.  I remember the words well- they are impressed on my mind for life- and I shall never forget them:
+
+	Tendo fio posterus, nex vadum reign;
+	dum viscus est demented, phasmatis subsisto sanus.
+	Temerarius dico quod permissum vox exsisto emanio;
+	a novus universitas fio, ut verto est fed.~
+@41  = ~<GABBER>, you know as well as I that when dealing with magic, one should leave nothing to chance.  In nearly every instance of attempted permatration, devestation followed.  Should we expect differently?  Perhaps not, but I for one do not want to think about the consequences should this mage succeed.  I have reason to believe that in this case, Khaddyr has a very good chance of accomplishing what he desires.~
+@42  = ~Recently, I found something that could in fact make Khaddyr's chances of a successful permatration much greater than any other who attempted such a ritual.  I should have know better at the time, but I suppose I was naive.  The mage brought me something a few short weeks ago, an artifact that he had discovered, yet did not know of its properties or history.  This artifact was of great power, and I was not allowed to touch it, nor cast any spells upon it.  He asked that I research it, and I was only able to find a solitarity reference to it in my texts as well as the tomes I searched through at Candlekeep and Silverymoon, and even that was vague.  I believe that this artifact Khaddyr recovered is the Crown of Horns.  I will never forget the words I found that I believe describe this artifact- they are forever burned into my mind's eye for life:
+	
+	Tendo fio posterus, nex vadum reign;
+	dum viscus est demented, phasmatis subsisto sanus.
+	Temerarius dico quod permissum vox exsisto emanio;
+	a novus universitas fio, ut verto est fed.~
+@43  = ~Easy to understand, once one realizes that the words describe the very process of permatration:  the death of many, many souls feeding the one attempting permatration to become an all powerful spirit.~
+@44  = ~So, <GABBER>, it is a lot to comprehend.  I know you can't make a decision overnight, but I need your help.  We all need your help.  Khaddyr cannot succeed; nay, he cannot attempt; permatration.  We- you: <GABBER>, you cannot allow such a thing to occur.~
+@45  = ~I don't know.  What you're asking is quite a task.  I fear I may not be able to succeed.~
+@46  = ~I'd like to help you, Eleanor, but I'd have to get some sort of reward for my troubles.~
+@47  = ~I can't.  I can't do this.  You're going to have to find another.~
+@48  = ~All right.  Someone has to take care of this mage.  Where can I find this Khaddyr?~
+@49  = ~<GABBER>, if you are to undertake this battle against the mage, you must have confidence in your abilities.  I would not have sought you out if I were not sure you had a chance to defeat him.  Please, will you help?~
+@50  = ~<GABBER>, I am a simple scholar.  I have nothing with me but the cloak on my back and the boots on my feet.  I may not be able to offer you material possessions, but you would not do this task for nothing.~
+@51  = ~Of course, defeating Khaddyr may earn you some powerful items or spells, and the pride you know from the fact that you have once again aided good in Faerûn is more than I could ever give you.~
+@52  = ~Of course, defeating Khaddyr may earn you and your friends some powerful items or spells, and the pride your group would know from the fact that you all have once again aided good in Faerûn is more than I could ever give you.~
+@53  = ~I ask your aid not because I am searching for an employee or a mercenary, but to appeal to your sense of honor and goodness.  This in not simply something you do for me, but something that you do for all of Faerûn.~
+@54  = ~If you can't help me, then I suppose I have no choice but to find another.  I do thank you for taking the time to at least hear me out, and I pray you will survive the cataclysm that may occur should the mage succeed.~
+@55  = ~That is the easiest question I could answer for you.  When Khaddyr hired me to do his research, he told me where he could be contacted.  <GABBER>, Khaddyr keeps a laboratory in a dungeon deep beneath the Windspear Hills.~
+@56  = ~You already know where the Hills are, so you should have no trouble getting there.~
+@57  = ~Here, I'll mark the location of the Hills on your map.  You should have no trouble finding it now.~
+@58  = ~That is the easiest question I could answer for you.  When Khaddyr hired me to do his research, he told me where he could be contacted.  <GABBER>, Khaddyr keeps a laboratory in a dungeon north of a small village by the name of Imnesvale, nestled in the Umar Hills.~
+@59  = ~Here, I'll mark the location of these ruins on your map.  You should have no trouble finding it now.~
+@60  = ~That is the easiest question I could answer for you.  When Khaddyr hired me to do his research, he told me where he could be contacted.  <GABBER>, Khaddyr keeps a secret laboratory excavated below a large meadow to the north-east of Brost, a small village near the Forest of Tethyr.~
+@61  = ~Here, I'll mark the location of this meadow on your map.  You should have no trouble finding it now.~
+@62  = ~Good, <GABBER>, I am glad that you will at least try.  Now then, let me try to help you as best as I can.  You must know that Khaddyr is quite powerful, and I have never seen fewer than six bodyguards surrounding him.  It is going to be quite a task, but the best thing for you to do would be to trick him.~
+@63  = ~I can help you do this.  I have a plan.  You may want to do it as I proposed, or however you wish, but I suggest that we duplicate the artifact, replacing it with a harmless copy, take possession of the Crown, and destroy that, rather than take the chance that Khaddyr makes an attempt at permatration before you could stop him.~
+@64  = ~It would be a simple matter to duplicate the Crown of Horns, and I would only need a few different components and a special spell.  I could tell you what I need, and if you bring it to me, I will construct a counterfeit which you could replace.  By bringing me the Crown, it would be a simple matter of destroying it.~
+@65  = ~That sounds like a good plan, Eleanor.  Let's try it.  What do you need me to get for you?~
+@66  = ~No, Eleanor, that sounds too risky.  Let me try to take this Crown from Khaddyr by force.  I'll still be able to bring it to you to destroy it.~
+@67  = ~I don't like that, <GABBER>, but as you wish.  However, let me at least explain what you would need to construct a duplicate in case you fail.~
+@68  = ~There are only a few different objects that you would need in order to construct a counterfeit Crown of Horns.  Each is fairly common, but I do not know where you could find them.  First, you would need a diamond, any size or quality would do.  With the diamond, you would also need to get a Potion of Magic Protection in order to keep the mage from discovering the truth about the counterfeit.  Third, due to the magical properties of greenstone, there are a number of items that contain greenstone, another component we would need to construct a counterfiet of the Crown.  Finally, I would need a scroll with the spell Enchanted Weapon, which I could alter to enchant an item instead.~
+@69  = ~If you were to collect these objects and bring them to me, it would only take me a few hours to make a duplicate copy of this Crown of Horns.~
+@70  = ~I believe that is all I need to tell you, <GABBER>.  Do you have any questions?~
+@71  = ~I don't, Eleanor.  I'll try to do this quickly.  We don't need Khaddyr trying to perform a permatration ritual.~
+@72  = ~Good.  <GABBER>, I have been here much too long.  I must be away.  Meet me back at Athkatla.  I'll find you there.~
+@73  = ~Good luck, <GABBER>.  We all shall need it.~
+@74 = ~Of Elves and Artifacts
+
+  I had a lengthy discussion with Eleanor, an elven mage who specializes in scholarly pursuits of ancient artifacts and magical items.  She is quite concerned with the ambitions of a mage who has employed her to research a theory known as permatration; which I had believed was just a myth.  Apparently this mage has come into an artifact which may allow him to perform a permatration ritual, and of course in the process causing widespread destruction.  Eleanor beseeched my aid, and has come up with a plan to foil the evil mage.
+  She thinks it best to create a duplicate copy of the artifact, one which is harmless.  I do not know if this is a good idea, but if I wish to construct such a counterfeit artifact, she has told me what items I would need to create such a fake.  The items are commonly found, and I would need a diamond, a Potion of Magic Protection, a scroll with the spell Enchanted Weapon, and any item containing greenstone.  If I find these items and want to have Eleanor create a counterfeit, she said she would contact me someplace in Athkatla.
+  Aside from duplicating the object, Eleanor told me where I could find the mage.  She was told that she could contact him in a dungeon below the Windspear Hills, where he has a laboratory where he conducts his experiements.  If all else fails, I could probably find him there to defeat his attempts to steal the life force of others to earn himself a god-hood.~
+@75 = ~Of Elves and Artifacts
+
+  I had a lengthy discussion with Eleanor, an elven mage who specializes in scholarly pursuits of ancient artifacts and magical items.  She is quite concerned with the ambitions of a mage who has employed her to research a theory known as permatration; which I had believed was just a myth.  Apparently this mage has come into an artifact which may allow him to perform a permatration ritual, and of course in the process causing widespread destruction.  Eleanor beseeched my aid, and has come up with a plan to foil the evil mage.
+  She thinks it best to create a duplicate copy of the artifact, one which is harmless.  I do not know if this is a good idea, but if I wish to construct such a counterfeit artifact, she has told me what items I would need to create such a fake.  The items are commonly found, and I would need a diamond, a Potion of Magic Protection, a scroll with the spell Enchanted Weapon, and any item containing greenstone.  If I find these items and want to have Eleanor create a counterfeit, she said she would contact me someplace in Athkatla.
+  Aside from duplicating the object, Eleanor told me where I could find the mage.  She was told that she could contact him in a dungeon near the Umar Hills, where he has a laboratory where he conducts his experiements.  If all else fails, I could probably find him there to defeat his attempts to steal the life force of others to earn himself a god-hood.~
+@76 = ~Of Elves and Artifacts
+
+  I had a lengthy discussion with Eleanor, an elven mage who specializes in scholarly pursuits of ancient artifacts and magical items.  She is quite concerned with the ambitions of a mage who has employed her to research a theory known as permatration; which I had believed was just a myth.  Apparently this mage has come into an artifact which may allow him to perform a permatration ritual, and of course in the process causing widespread destruction.  Eleanor beseeched my aid, and has come up with a plan to foil the evil mage.
+  She thinks it best to create a duplicate copy of the artifact, one which is harmless.  I do not know if this is a good idea, but if I wish to construct such a counterfeit artifact, she has told me what items I would need to create such a fake.  The items are commonly found, and I would need a diamond, a Potion of Magic Protection, a scroll with the spell Enchanted Weapon, and any item containing greenstone.  If I find these items and want to have Eleanor create a counterfeit, she said she would contact me someplace in Athkatla.
+  Aside from duplicating the object, Eleanor told me where I could find the mage.  She was told that she could contact him in a meadow near the Forest of Tethyr, where he keeps an underground laboratory to conduct his experiements.  If all else fails, I could probably find him there to defeat his attempts to steal the life force of others to earn himself a god-hood.~
+@77 = ~Of Elves and Artifacts
+
+While walking through the Bridge District of Athkatla, an elf, whom I do not know, approached me with much trepidation.  She did not say anything, but surreptisiously dropped a small statuette into my pack.  I do not know why, yet I do not know what the properties of the statuette are yet.  I shall have to investigate it, and perhaps the elf may lead me to yet another adventure.~
+@78 = ~Of Elves and Artifacts
+
+I have identified and received the magical message stored within the statuette given to my by an elf in the Bridge District.  The voice, apparently the elf's, was full of fear and terror, though did not yield many clues as to what the adventure that the elf alludes to.  All I know is that the elf woman may be in danger- and she mentions that the Sword Coast could also be in danger- and if I meet her in the Temple of Waukeen in Trademeet, she will try to explain further.  Perhaps I will, but I'd much rather know more about this elf woman first.~

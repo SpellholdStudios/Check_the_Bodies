@@ -1,0 +1,12 @@
+IF
+	IsOverMe([ANYONE])
+THEN
+	RESPONSE #100
+		CloseDoor("DOOR08")
+		OpenDoor("DOOR17")
+		OpenDoor("DOOR18")
+		OpenDoor("DOOR20")
+		CloseDoor("DOOR15")
+END
+
+

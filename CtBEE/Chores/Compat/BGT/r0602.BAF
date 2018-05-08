@@ -1,0 +1,66 @@
+IF
+	Global("TakeImportItems","AR0602",0)
+        Global("MinscImport","GLOBAL",2)
+        Global("JaheiraImport","GLOBAL",2)
+        Global("ImoenImport","GLOBAL",2)
+	Gender(Player1,MALE)
+THEN
+	RESPONSE #100
+		SetGlobal("TakeImportItems","AR0602",1)
+		SetGlobal("Chapter","GLOBAL",1)
+		ActionOverride("Malaaq",MoveBetweenAreas("AR0601",[345.591],14))
+		ActionOverride("DuegarClanChief",TakeItemListPartyNum("IMPORT01",1))
+		ActionOverride("Shelf1",TakeItemListPartyNum("IMPORT03",1))
+		SmallWait(4)
+		TakePartyGold(2147483647)
+                ActionOverride(Player1,MakeUnselectable(0))           //G3FixPack
+		ActionOverride(Player1,DestroyAllEquipment())
+		ActionOverride(Player2,DestroyAllEquipment())
+		ActionOverride(Player3,DestroyAllEquipment())
+		ActionOverride(Player4,DestroyAllEquipment())
+		ActionOverride(Player5,DestroyAllEquipment())
+		ActionOverride(Player6,DestroyAllEquipment())
+		CreateCreature("CSJON",[3210.3304],10)
+		ActionOverride(Player1,PlayDead(165))
+		Wait(1)
+		FadeFromColor([30.0],0)
+		StartCutSceneMode()
+		StartCutScene("CBNEWGMM")
+END
+
+IF
+	Global("TakeImportItems","AR0602",0)
+        Global("MinscImport","GLOBAL",2)
+        Global("JaheiraImport","GLOBAL",2)
+        Global("ImoenImport","GLOBAL",2)
+	Gender(Player1,FEMALE)
+THEN
+	RESPONSE #100
+		SetGlobal("TakeImportItems","AR0602",1)
+		SetGlobal("Chapter","GLOBAL",1)
+		ActionOverride("Malaaq",MoveBetweenAreas("AR0601",[345.591],14))
+		ActionOverride("DuegarClanChief",TakeItemListPartyNum("IMPORT01",1))
+		ActionOverride("Shelf1",TakeItemListPartyNum("IMPORT03",1))
+		SmallWait(4)
+		TakePartyGold(2147483647)
+                ActionOverride(Player1,MakeUnselectable(0))           //G3FixPack
+		ActionOverride(Player1,DestroyAllEquipment())
+		ActionOverride(Player2,DestroyAllEquipment())
+		ActionOverride(Player3,DestroyAllEquipment())
+		ActionOverride(Player4,DestroyAllEquipment())
+		ActionOverride(Player5,DestroyAllEquipment())
+		ActionOverride(Player6,DestroyAllEquipment())
+		CreateCreature("CSJON",[3210.3304],10)
+		ActionOverride(Player1,PlayDead(165))
+		Wait(1)
+		FadeFromColor([30.0],0)
+		StartCutSceneMode()
+		StartCutScene("CBNEWGMF")
+END
+
+IF
+       Global("KD_ChoresDone","GLOBAL",0)
+THEN
+    RESPONSE #100
+             NoAction()
+END

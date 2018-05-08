@@ -1,0 +1,37 @@
+@1   = ~¿Centinela? ¿Hay algún problema aquí?~
+@2   = ~<CHARNAME>, ¿qué tenéis ahí? ¿Eso no pertenece a uno de los salmodiadores?~
+@3   = ~Sí, padre. Lo encontré en aquel cofre.~
+@4   = ~Sólo quería jugar un rato con esto. Iba a devolverlo, de verdad.~
+@5   = ~Nada, padre.~
+@6   = ~¿Admitís vuestro hurto, joven <CHARNAME>? Creía haberos enseñado mejor moral que esta. Pero estoy contento de que no me mintiérais.~
+@7   = ~No obstante, ya os dije, joven <CHARNAME>, que no voy a tolerar el robo si permanecéis aquí conmigo.~
+@8   = ~Dadme el objeto. Tendréis vuestro castigo, niño. Habéis errado, y no puedo permitiros cometer semejantes actos y que no afrontéis las consecuencias.~
+~Dadme el objeto. Tendréis vuestro castigo, niña. Habéis errado, y no puedo permitiros cometer semejantes actos y que no afrontéis las consecuencias.~
+@9   = ~Niño, creía que os había educado mejor. El problema no es devolverlo de nuevo. Lo cogísteis, y eso es robar.~
+~Niña, creía que os había educado mejor. El problema no es devolverlo de nuevo. Lo cogísteis, y eso es robar.~
+@10  = ~Os lo dije, joven <CHARNAME>, no voy a tolerar el robo si permanecéis aquí conmigo. Ahora, entregadme el objeto.~
+@11  = ~Niño, puedo ver que estáis ocultando algo tras vuestra espalda.~
+~Niña, puedo ver que estáis ocultando algo tras vuestra espalda.~
+@12  = ~Niño, creía que os había educado mejor. Tomásteis esto, y eso es robar.~
+~Niña, creía que os había educado mejor. Tomásteis esto, y eso es robar.~
+@13  = ~Os lo dije, joven <CHARNAME>, no voy a tolerar el robo si permanecéis aquí conmigo.~
+@14  = ~Pero peor aún, niño, me mentísteis. Eso me duele más que cualquier cosa.~
+~Pero peor aún, niña, me mentísteis. Eso me duele más que cualquier cosa.~
+@15  = ~Venid conmigo, niño. Os educaré ahora. Y no quiero oir ninguna excusa más.~
+~Venid conmigo, niña. Os educaré ahora. Y no quiero oir ninguna excusa más.~
+@16  = ~Tendréis vuestro castigo, niño. Habéis obrado mal, y no puedo permitiros cometer semejantes actos y que no afrontéis las consecuencias.~
+~Tendréis vuestro castigo, niña. Habéis obrado mal, y no puedo permitiros cometer semejantes actos y que no afrontéis las consecuencias.~
+@17  = ~Niño. Sabéis más que robar a los demás. Estoy muy disgustado con lo que habéis hecho. Necesitáis aprender de vuestros errores, y de la única forma en la que lo lograréis es si sois castigado.~
+~Niña. Sabéis más que robar a los demás. Estoy muy disgustado con lo que habéis hecho. Necesitáis aprender de vuestros errores, y de la única forma en la que lo lograréis es si sois castigada.~
+@18  = ~Me entristece que robárais, pero me alivia un poco el que no me hayáis mentido. No obstante, debéis aprender a enmendar vuestras acciones, especialmente las concernientes a robar las propiedades de los demás. Permaneceréis aquí en vuestra habitación hasta que yo diga que es el momento de que la dejéis.~
+@19  = ~Lo siento, <CHARNAME>, pero esto os lo habéis hecho vos mismo.~
+~Lo siento, <CHARNAME>, pero esto os lo habéis hecho vos misma.~
+@20  = ~Me entristece que robárais, pero me alivia un poco el que no me hayáis mentido. No obstante, debéis aprender a enmendar vuestras acciones. Me complace, y a la vez me asusta, que aún no os hayáis vuelto como vuestra amiga Imoen, quien disfruta robando a los demás. Permaneceréis aquí en vuestra habitación hasta que yo diga que es el momento de que la dejéis.~
+@21  = ~Estoy bastante enfadado de que intentárais mentirme, y especialmente molesto de que persistáis en vuestros actos como vuestra amiga Imoen, quien disfruta robando a los demás. ¡<CHARNAME>, no debéis volveros un ladrón!~
+~Estoy bastante enfadado de que intentárais mentirme, y especialmente molesto de que persistáis en vuestros actos como vuestra amiga Imoen, quien disfruta robando a los demás. ¡<CHARNAME>, no debéis volveros una ladrona!~
+@22  = ~Debéis aprender cómo rectificar vuestras acciones, especialmente el robar las propiedades de otros. Permaneceréis aquí en vuestra habitación hasta que yo diga que es el momento de que la dejéis.~
+@23  = ~Estoy bastante enfadado con que intentárais mentirme. No obstante, debéis aprender a enmendar vuestras acciones. Me complace, y a la vez me asusta, que aún no os hayáis vuelto como vuestra amiga Imoen, quien disfruta robando a los demás. Permaneceréis aquí en vuestra habitación hasta que yo diga que es el momento de que la dejéis.~
+@24  = ~Creo que habéis aprendido vuestra lección esta vez, niño.~
+~Creo que habéis aprendido vuestra lección esta vez, niña.~
+@25  = ~Tenéis trabajo por hacer. Adelante.~
+@26  = ~Y no me hagáis pillaros robando de nuevo. Ni siquiera oir nada por el estilo a los Centinelas de la Fortaleza.~

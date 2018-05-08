@@ -1,0 +1,11 @@
+IF
+	See([PC])
+	!See([ENEMY])
+	CombatCounter(0)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		StartCutSceneMode()
+		StartCutScene("CBP3ACTT")
+END

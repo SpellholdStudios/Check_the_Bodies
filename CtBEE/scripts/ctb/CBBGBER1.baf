@@ -1,0 +1,187 @@
+IF
+	OnCreation()
+THEN
+	RESPONSE #10
+		Face(2)
+	RESPONSE #10
+		Face(4)
+	RESPONSE #20
+		Face(6)
+	RESPONSE #10
+		Face(8)
+	RESPONSE #20
+		Face(10)
+	RESPONSE #10
+		Face(12)
+	RESPONSE #20
+		Face(14)
+END
+
+IF
+	Global("CbBugbearAdjustsLevel","LOCALS",0)
+	Global("CbParty1Cat1","MYAREA",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbBugbearAdjustsLevel","LOCALS",1)
+		CreateCreature("CBBGBERa",[-1.-1],0) // Bugbear
+		DestroySelf()
+END
+
+IF
+	Global("CbBugbearAdjustsLevel","LOCALS",0)
+	OR(2)
+		Global("CbParty1Cat2","MYAREA",1)
+		Global("CbParty2Cat1","MYAREA",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbBugbearAdjustsLevel","LOCALS",1)
+		CreateCreature("CBBGBERb",[-1.-1],0) // Bugbear
+		DestroySelf()
+END
+
+IF
+	Global("CbBugbearAdjustsLevel","LOCALS",0)
+	OR(3)
+		Global("CbParty1Cat3","MYAREA",1)
+		Global("CbParty2Cat2","MYAREA",1)
+		Global("CbParty3Cat1","MYAREA",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbBugbearAdjustsLevel","LOCALS",1)
+		CreateCreature("CBBGBERc",[-1.-1],0) // Bugbear
+		DestroySelf()
+END
+
+IF
+	Global("CbBugbearAdjustsLevel","LOCALS",0)
+	OR(4)
+		Global("CbParty1Cat4","MYAREA",1)
+		Global("CbParty2Cat3","MYAREA",1)
+		Global("CbParty3Cat2","MYAREA",1)
+		Global("CbParty4Cat1","MYAREA",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbBugbearAdjustsLevel","LOCALS",1)
+		CreateCreature("CBBGBERd",[-1.-1],0) // Bugbear
+		DestroySelf()
+END
+
+IF
+	Global("CbBugbearAdjustsLevel","LOCALS",0)
+	OR(4)
+		Global("CbParty2Cat4","MYAREA",1)
+		Global("CbParty3Cat3","MYAREA",1)
+		Global("CbParty4Cat2","MYAREA",1)
+		Global("CbParty5Cat1","MYAREA",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbBugbearAdjustsLevel","LOCALS",1)
+		CreateCreature("CBGORGRD",[-1.-1],0) // Bugbear
+		DestroySelf()
+END
+
+IF
+	Global("CbBugbearAdjustsLevel","LOCALS",0)
+	OR(4)
+		Global("CbParty3Cat4","MYAREA",1)
+		Global("CbParty4Cat3","MYAREA",1)
+		Global("CbParty5Cat2","MYAREA",1)
+		Global("CbParty6Cat1","MYAREA",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbBugbearAdjustsLevel","LOCALS",1)
+		CreateCreature("CBGORGRE",[-1.-1],0) // Bugbear
+		DestroySelf()
+END
+
+IF
+	Global("CbBugbearAdjustsLevel","LOCALS",0)
+	OR(3)
+		Global("CbParty4Cat4","MYAREA",1)
+		Global("CbParty5Cat3","MYAREA",1)
+		Global("CbParty6Cat2","MYAREA",1)
+THEN
+	RESPONSE #50
+		SetGlobal("CbBugbearAdjustsLevel","LOCALS",1)
+		CreateCreature("TELALU1",[-1.-1],0) // Bugbear
+		DestroySelf()
+	RESPONSE #50
+		SetGlobal("CbBugbearAdjustsLevel","LOCALS",1)
+		CreateCreature("DEMGLA01",[-1.-1],0) // Bugbear
+		DestroySelf()		
+END
+
+IF
+	Global("CbBugbearAdjustsLevel","LOCALS",0)
+	OR(2)
+		Global("CbParty5Cat4","MYAREA",1)
+		Global("CbParty6Cat3","MYAREA",1)
+THEN
+	RESPONSE #33
+		SetGlobal("CbBugbearAdjustsLevel","LOCALS",1)
+		CreateCreature("TELALU1",[-1.-1],0) // Bugbear
+		DestroySelf()
+	RESPONSE #33
+		SetGlobal("CbBugbearAdjustsLevel","LOCALS",1)
+		CreateCreature("TELALU1",[-1.-1],0) // Bugbear
+		CreateCreature("DEMGLA01",[-1.-1],0) // Bugbear
+		DestroySelf()
+	RESPONSE #34	
+		SetGlobal("CbBugbearAdjustsLevel","LOCALS",1) 
+		CreateCreature("DEMGLA01",[-1.-1],0) // Bugbear
+		CreateCreature("DEMNAB01",[-1.-1],0) // Bugbear
+		DestroySelf()	
+END
+
+IF
+	Global("CbBugbearAdjustsLevel","LOCALS",0)
+	Global("CbParty6Cat4","MYAREA",1)
+THEN
+	RESPONSE #25
+		SetGlobal("CbBugbearAdjustsLevel","LOCALS",1)
+		CreateCreature("TELALU1",[-1.-1],0) // Bugbear
+		DestroySelf()
+	RESPONSE #25
+		SetGlobal("CbBugbearAdjustsLevel","LOCALS",1)
+		CreateCreature("TELALU1",[-1.-1],0) // Bugbear
+		CreateCreature("DEMGLA01",[-1.-1],0) // Bugbear
+		DestroySelf()
+	RESPONSE #25	
+		SetGlobal("CbBugbearAdjustsLevel","LOCALS",1) 
+		CreateCreature("DEMGLA01",[-1.-1],0) // Bugbear
+		CreateCreature("DEMNAB01",[-1.-1],0) // Bugbear
+		DestroySelf()
+	RESPONSE #25	
+		SetGlobal("CbBugbearAdjustsLevel","LOCALS",1) 
+		CreateCreature("DEMGLA01",[-1.-1],0) // Bugbear
+		CreateCreature("DEMNAB01",[-1.-1],0) // Bugbear
+		CreateCreature("TELCOR1",[-1.-1],0) // Bugbear
+		DestroySelf()	
+END
+
+IF
+	!AreaCheck("AR3540")
+	!AreaCheck("AR3541")
+	!AreaCheck("AR3542")
+	!AreaCheck("AR3543")
+	!AreaCheck("AR3544")
+	!AreaCheck("AR3545")
+	!AreaCheck("AR3546")
+	!AreaCheck("AR3547")
+	!AreaCheck("AR3548")
+	!AreaCheck("AR3549")
+	!AreaCheck("AR3550")
+	!AreaCheck("AR3551")
+	!AreaCheck("AR3552")
+	!AreaCheck("AR3553")
+	!AreaCheck("AR3554")
+	!AreaCheck("AR3555")
+	!AreaCheck("AR3556")
+	!AreaCheck("AR3557")
+	!AreaCheck("AR3558")
+	!AreaCheck("AR3559")
+	!AreaCheck("AR3560")
+THEN
+	RESPONSE #100
+		ChangeAIScript("WTASIGHT",RACE)
+END

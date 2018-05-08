@@ -1,0 +1,18 @@
+IF
+	!GlobalTimerNotExpired("CbHorseNeighedAndTurned","LOCALS")
+	Range([GOODCUTOFF],100)
+	HPGT(Myself,0)
+THEN
+	RESPONSE #33
+		PlaySound("CB3597Y1")
+		SetGlobalTimer("CbHorseNeighedAndTurned","LOCALS",20)
+	RESPONSE #33
+		PlaySound("CB3597Y2")
+		SetGlobalTimer("CbHorseNeighedAndTurned","LOCALS",20)
+	RESPONSE #34
+		PlaySound("CB3597Y3")
+		SetGlobalTimer("CbHorseNeighedAndTurned","LOCALS",20)
+		RandomTurn()
+END
+
+

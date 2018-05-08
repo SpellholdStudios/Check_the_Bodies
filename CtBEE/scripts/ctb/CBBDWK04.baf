@@ -1,0 +1,14 @@
+IF
+	OR(2)
+		IsOverMe([GOODCUTOFF])
+		Entered([GOODCUTOFF])
+THEN
+	RESPONSE #100
+		SetGlobal("CbBlueDragonAlerted","GLOBAL",1)
+		DisplayString(LastTrigger,@550608) // No such index
+		Wait(4)
+		DisplayStringNoName(Myself,@550605) // No such index
+		TriggerActivation(Myself,FALSE)
+END
+
+

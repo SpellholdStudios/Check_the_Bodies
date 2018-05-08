@@ -1,0 +1,18 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("CBELEDI2")
+		Wait(2)
+		ActionOverride("CBELEDI1",Spell("CBELEDI2",WIZARD_MAGIC_MISSILE))
+		ForceSpell("CBELEDI1",WIZARD_FIREBALL)
+		ActionOverride("CBELEDI1",DestroyItem("MINHP1")) // No such index
+		Kill("CBELEDI1")
+		SetGlobal("CbKillOffYbgir","GLOBAL",2)
+		AddJournalEntry(@550158,QUEST)
+		MoveToPoint([1604.2560])
+		Wait(3)
+		EndCutSceneMode()
+END
+
+

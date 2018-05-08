@@ -1,0 +1,12 @@
+@1   = ~<CHARNAME>, I am truly sorry that the Shadow Thieves caught on to our plan and took you captive.~
+@2   = ~I had not expected them to make such a bold move.  We must advance our operations and spread the war to every area of Athkatla.  I will order my associates to deal with the Shadow Thieves in the cruelest manner.  You, <CHARNAME>, return to the docks and complete your mission finding that shipment of cargo.~
+@3   = ~I do not expect the Shadow Thieves will take any more bold actions against you, so you should have no fear.  Go, <CHARNAME>.  I have work to do.~
+@4 = ~Captured!
+
+While attempting to perform Bodhi's task, we were ambushed by Shadow Thieves.  They gave us very little choice, and <CHARNAME> was taken prisoner.  We know not what these thieves are doing to <PRO_HIMHER>, but all of us think that it would be best if we rescued <PRO_HIMHER> as soon as possible.  We've briefly tried to figure out what to do next, but without <CHARNAME> to make decisons for us, the best course of action that we have must be to find our employer, Bodhi, in the graveyard to see if she knows anything about how we could rescue <CHARNAME> from the Shadow Thieves.~
+@5 = ~Captured!
+
+<CHARNAME> is still being held captive by the Shadow Thieves.  We seem to be getting closer to being able to rescue <PRO_HIMHER>.  Hareishan told us that we had to be in the docks in order to gain entrance to the Shadow Thieves' hideout, and we were met there by Parisa.  She gave us a copy of a key to a door which they believe will open one of the doors in the building occupied by Shadow Thieves.  Unfortunately, she thinks that in order to get to the lower level of the guildhouse, we are going to have to make a direct assault on their guildhouse, and recommended using the front door, as if that weren't obvious to veteran adventurers like ourselves.~
+@6 = ~Captured!
+
+We have finally rescued <CHARNAME> from the Shadow Thieves.  It was a bit rough, but we were able to get in and out of the Guildhouse without alerting any of the Shadow Thieves to our presence.  Bodhi has expressed some concern over the Thieves' motives, and is planning to step up her war against them.  She wasn't too concerned about our well being, but we weren't expecting her to be.  She told us to resume our mission to recover the shipment of cargo from the docks.~

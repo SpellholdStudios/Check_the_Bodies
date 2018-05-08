@@ -1,0 +1,62 @@
+IF
+	Global("mirrordone","AR3579",1)
+	Exists(Player1)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,CreateCreatureObjectCopy("CB3579P1",Myself,1,0,0))
+		Continue()
+END
+
+IF
+	Global("mirrordone","AR3579",1)
+	Exists(Player2)
+THEN
+	RESPONSE #100
+		ActionOverride(Player2,CreateCreatureObjectCopy("CB3579P2",Myself,1,0,0))
+		Continue()
+END
+
+IF
+	Global("mirrordone","AR3579",1)
+	Exists(Player3)
+THEN
+	RESPONSE #100
+		ActionOverride(Player3,CreateCreatureObjectCopy("CB3579P3",Myself,1,0,0))
+		Continue()
+END
+
+IF
+	Global("mirrordone","AR3579",1)
+	Exists(Player4)
+THEN
+	RESPONSE #100
+		ActionOverride(Player4,CreateCreatureObjectCopy("CB3579P4",Myself,1,0,0))
+		Continue()
+END
+
+IF
+	Global("mirrordone","AR3579",1)
+	Exists(Player5)
+THEN
+	RESPONSE #100
+		ActionOverride(Player5,CreateCreatureObjectCopy("CB3579P5",Myself,1,0,0))
+		Continue()
+END
+
+IF
+	Global("mirrordone","AR3579",1)
+	Exists(Player6)
+THEN
+	RESPONSE #100
+		ActionOverride(Player6,CreateCreatureObjectCopy("CB3579P6",Myself,1,0,0))
+		Continue()
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		SetGlobal("mirrordone","AR3579",2)
+END
+
+

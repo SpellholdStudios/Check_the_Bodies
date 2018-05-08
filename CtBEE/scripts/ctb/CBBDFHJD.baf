@@ -1,0 +1,143 @@
+IF
+	GlobalGT("Cb_DSACKsFeintStart","AR3521",1)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
+	Global("Cb_DSACK_FeintDamage","AR3521",1)
+	Global("Cb_DSACKsFeintStart","AR3521",1)
+	OR(6)
+		HPPercentLT(Player1,26)
+		HPPercentLT(Player2,26)
+		HPPercentLT(Player3,26)
+		HPPercentLT(Player4,26)
+		HPPercentLT(Player5,26)
+		HPPercentLT(Player6,26)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_DSACKsFeintStart","AR3521",2)
+		SetGlobal("Cb_DSACKsFeintLose","AR3521",1)
+		ClearAllActions()
+		ActionOverride("CBBDAW01",ChangeAIScript("CBBDCLAS",CLASS))
+		ActionOverride("CBBDAW01",StartDialogNoSet(LastAttackerOf(Myself))
+END
+
+IF
+	Global("Cb_DSACK_FeintDamage","AR3521",1)
+	Global("Cb_DSACKsFeintStart","AR3521",1)
+	HPPercentLT("CBBDAW01",26)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_DSACKsFeintStart","AR3521",2)
+		SetGlobal("Cb_DSACKsFeintWin","AR3521",1)
+		ClearAllActions()
+		Wait(2)
+		ActionOverride("CBBDAW01",ChangeAIScript("CBBDCLAS",CLASS))
+		ActionOverride("CBBDAW01",StartDialogNoSet(LastAttackerOf(Myself))
+END
+
+IF
+	Global("Cb_DSACK_FeintDamage","AR3521",2)
+	Global("Cb_DSACKsFeintStart","AR3521",1)
+	OR(6)
+		HPPercentLT(Player1,51)
+		HPPercentLT(Player2,51)
+		HPPercentLT(Player3,51)
+		HPPercentLT(Player4,51)
+		HPPercentLT(Player5,51)
+		HPPercentLT(Player6,51)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_DSACKsFeintStart","AR3521",2)
+		SetGlobal("Cb_DSACKsFeintLose","AR3521",1)
+		ClearAllActions()
+		Wait(2)
+		ActionOverride("CBBDAW01",ChangeAIScript("CBBDCLAS",CLASS))
+		ActionOverride("CBBDAW01",StartDialogNoSet(LastAttackerOf(Myself))
+END
+
+IF
+	Global("Cb_DSACK_FeintDamage","AR3521",2)
+	Global("Cb_DSACKsFeintStart","AR3521",1)
+	HPPercentLT("CBBDAW01",51)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_DSACKsFeintStart","AR3521",2)
+		SetGlobal("Cb_DSACKsFeintWin","AR3521",1)
+		ClearAllActions()
+		Wait(2)
+		ActionOverride("CBBDAW01",ChangeAIScript("CBBDCLAS",CLASS))
+		ActionOverride("CBBDAW01",StartDialogNoSet(LastAttackerOf(Myself))
+END
+
+IF
+	Global("Cb_DSACK_FeintDamage","AR3521",3)
+	Global("Cb_DSACKsFeintStart","AR3521",1)
+	OR(6)
+		HPPercentLT(Player1,6)
+		HPPercentLT(Player2,6)
+		HPPercentLT(Player3,6)
+		HPPercentLT(Player4,6)
+		HPPercentLT(Player5,6)
+		HPPercentLT(Player6,6)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_DSACKsFeintStart","AR3521",2)
+		SetGlobal("Cb_DSACKsFeintLose","AR3521",1)
+		ClearAllActions()
+		Wait(2)
+		ActionOverride("CBBDAW01",ChangeAIScript("CBBDCLAS",CLASS))
+		ActionOverride("CBBDAW01",StartDialogNoSet(LastAttackerOf(Myself))
+END
+
+IF
+	Global("Cb_DSACK_FeintDamage","AR3521",3)
+	Global("Cb_DSACKsFeintStart","AR3521",1)
+	HPPercentLT("CBBDAW01",6)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_DSACKsFeintStart","AR3521",2)
+		SetGlobal("Cb_DSACKsFeintWin","AR3521",1)
+		ClearAllActions()
+		Wait(2)
+		ActionOverride("CBBDAW01",ChangeAIScript("CBBDCLAS",CLASS))
+		ActionOverride("CBBDAW01",StartDialogNoSet(LastAttackerOf(Myself))
+END
+
+IF
+	Global("Cb_DSACK_FeintDamage","AR3521",4)
+	Global("Cb_DSACKsFeintStart","AR3521",1)
+	OR(6)
+		HPPercentLT(Player1,100)
+		HPPercentLT(Player2,100)
+		HPPercentLT(Player3,100)
+		HPPercentLT(Player4,100)
+		HPPercentLT(Player5,100)
+		HPPercentLT(Player6,100)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_DSACKsFeintStart","AR3521",2)
+		SetGlobal("Cb_DSACKsFeintLose","AR3521",1)
+		ClearAllActions()
+		Wait(2)
+		ActionOverride("CBBDAW01",ChangeAIScript("CBBDCLAS",CLASS))
+		ActionOverride("CBBDAW01",StartDialogNoSet(LastAttackerOf(Myself))
+END
+
+IF
+	Global("Cb_DSACK_FeintDamage","AR3521",4)
+	Global("Cb_DSACKsFeintStart","AR3521",1)
+	HPPercentLT("CBBDAW01",100)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_DSACKsFeintStart","AR3521",2)
+		SetGlobal("Cb_DSACKsFeintWin","AR3521",1)
+		ClearAllActions()
+		Wait(2)
+		ActionOverride("CBBDAW01",ChangeAIScript("CBBDCLAS",CLASS))
+		ActionOverride("CBBDAW01",StartDialogNoSet(LastAttackerOf(Myself))
+END
+
+

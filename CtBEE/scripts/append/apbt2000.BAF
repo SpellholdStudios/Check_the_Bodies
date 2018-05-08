@@ -1,0 +1,34 @@
+IF
+	Global("CbKillOffYbgir","GLOBAL",2)
+	Global("CbCutsceneCenter","AR2000",0)
+	OR(6)
+		InMyArea(Player1)
+		InMyArea(Player2)
+		InMyArea(Player3)
+		InMyArea(Player4)
+		InMyArea(Player5)
+		InMyArea(Player6)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCutsceneCenter","AR2000",1)
+		MoveViewObject(LastTrigger,INSTANT)
+END
+
+IF
+	Global("CbKillOffYbgir","GLOBAL",1)
+	OR(6)
+		InMyArea(Player1)
+		InMyArea(Player2)
+		InMyArea(Player3)
+		InMyArea(Player4)
+		InMyArea(Player5)
+		InMyArea(Player6)
+THEN
+	RESPONSE #100
+		SetGlobal("CbKillOffYbgir","GLOBAL",2)
+		CreateCreature("CBELEDI1",[1930.1890],0)
+		ClearAllActions()
+		StartCutSceneMode()
+		StartCutScene("CBELEDIE")
+END
+

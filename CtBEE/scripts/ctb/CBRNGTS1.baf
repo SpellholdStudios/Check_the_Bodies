@@ -1,0 +1,18 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("CB585RNG")
+		FadeToColor([20.0],0)
+		Wait(4)
+		SetGlobal("CbRangerDeadDear","GLOBAL",3)
+		SetGlobal("CbRangerTaught","AR3585",1)
+		SetGlobal("CbRangerTeachesSnares1","LOCALS",1)
+		DayNight(16)
+		ApplySpellRES("CBRNGTS1",LastTalkedToBy(Myself))
+		Wait(2)
+		FadeFromColor([20.0],0)
+		StartDialogueNoSet(LastTalkedToBy(Myself))
+END
+
+

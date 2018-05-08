@@ -1,0 +1,15 @@
+ADD_TRANS_TRIGGER MGTEOS01 77
+~False()~
+
+EXTEND_BOTTOM MGTEOS01 77
+  IF ~~ THEN DO ~SetGlobal("SpawnArgrim","GLOBAL",1)
+SetGlobal("CbCowlsWorry","GLOBAL",4)~ EXIT
+END
+
+ADD_TRANS_TRIGGER MGTEOS01 78
+~False()~
+
+EXTEND_BOTTOM MGTEOS01 78
+  IF ~~ THEN DO ~SetGlobal("SpawnArgrim","GLOBAL",1)
+SetGlobal("CbCowlsWorry","GLOBAL",4)~ EXIT
+END

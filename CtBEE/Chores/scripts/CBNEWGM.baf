@@ -1,0 +1,25 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		SmallWait(5)
+		DisplayStringHead(Player1,@550130)
+		Wait(3)
+		FadeToColor([30.0],0)
+		Wait(3)
+		ActionOverride(Player6,LeaveAreaLUA("AR0602","",[3889.2479],0))
+		ActionOverride(Player5,LeaveAreaLUA("AR0602","",[3824.2447],0))
+		ActionOverride(Player4,LeaveAreaLUA("AR0602","",[3374.3068],0))
+		ActionOverride(Player3,LeaveAreaLUA("AR0602","",[3532.2956],0))
+		ActionOverride(Player2,LeaveAreaLUA("AR0602","",[3585.2917],0))
+		LeaveAreaLUA("AR3501","",[1300.1100],12)
+		DayNight(8)
+		Wait(3)
+		CreateCreatureObject("CBNEWPOL",Player1,0,0,0)
+		FadeFromColor([90.0],0)
+		MultiPlayerSync()
+		UnhideGUI()
+		EndCutSceneMode()
+
+END

@@ -1,0 +1,29 @@
+IF
+	OnCreation()
+THEN
+	RESPONSE #100
+		CreateCreatureObjectOffset("CBTAXGRD","CBTAXCOL",[-5.-5])
+		CreateCreatureObjectOffset("CBTAXGRD","CBTAXCOL",[-10.-5])
+		CreateCreatureObjectOffset("CBTAXGRD","CBTAXCOL",[-5.-10])
+		CreateCreatureObjectOffset("CBTAXGRD","CBTAXCOL",[-15.-5])
+		CreateCreatureObjectOffset("CBTAXGRD","CBTAXCOL",[-5.-15])
+		CreateCreatureObjectOffset("CBTAXGRD","CBTAXCOL",[-25.-5])
+END
+
+IF
+	Detect([PC])
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet([PC])
+END
+
+IF
+	Global("CbTaxCollected","GLOBAL",2)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		EscapeArea()
+END
+
+

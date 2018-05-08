@@ -1,0 +1,20 @@
+IF
+	OR(2)
+		Class(Player1,SORCERER)
+		Class(Player1,MAGE_ALL)
+	OnCreation()
+THEN
+	RESPONSE #100
+		TriggerActivation("PoolofRadiance",TRUE)
+		Continue()
+END
+
+IF
+	Global("CbSpelunking","AR1106",1)
+THEN
+	RESPONSE #100
+		TriggerActivation("PoolofRadiance",FALSE)
+		TriggerActivation("Tran3575",TRUE)
+		SetGlobal("CbSpelunking","AR1106",2)
+		Continue()
+END

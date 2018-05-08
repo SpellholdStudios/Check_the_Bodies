@@ -1,0 +1,35 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("CB576WIZ")
+		SmallWait(5)
+		DisplayStringHead("CB576WIZ",@550058)// No such index
+		Wait(2)
+		ForceSpell("CBHAKSH1",2060)
+		CreateVisualEffect("SPPOWRRD",[102.329])
+		Wait(5)
+		DisplayStringHead("CB576WIZ",@550059) // No such index
+		ForceSpell("CBHAKSH1",2061)
+		CreateVisualEffect("SPUSEANY",[102.329])
+		Wait(5)
+		ForceSpell("CBHAKSH1",2062)
+		CreateVisualEffect("SPRAISED",[102.329])
+		CreateVisualEffect("SPHOLY",[102.329])
+		Wait(5)
+		DisplayStringHead("CB576WIZ",@550060) // No such index
+		Wait(2)
+		ForceSpell("CBHAKSH1",2061)
+		CreateVisualEffect("ICFIRSDI",[102.329])
+		CreateVisualEffect("SPDISPMA",[102.329])
+		CreateVisualEffect("SPDUSTY2",[102.329])
+		Wait(5)
+		DisplayStringHead("CB576WIZ",@550061) // No such index
+		SetGlobal("CbCowlsWorry","GLOBAL",3)
+		Wait(3)
+		MultiPlayerSync()
+		ClearAllActions()
+		StartCutScene("CBCWLWRD")
+END
+
+

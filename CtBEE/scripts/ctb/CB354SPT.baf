@@ -1,0 +1,91 @@
+IF
+	IsOverMe([GOODCUTOFF])
+	Global("CbWizardTowerSplitsParty","GLOBAL",0)
+	!Global("CbStopSplitting","GLOBAL",1)
+THEN
+	RESPONSE #100
+		PlaySound("PORTAL2")
+		IncrementGlobal("CbWizardTowerSplitsParty","GLOBAL",1)
+		DisplayString(LastTrigger,@550030)
+		CreateVisualEffectObject("SPDIMNDR",LastTrigger)
+		SmallWait(10)
+		ActionOverride(LastTrigger,LeaveAreaLUAPanic("AR3555","",[470.403],0))
+		ActionOverride(LastTrigger,LeaveAreaLUA("AR3555","",[470.403],0))
+END
+
+IF
+	IsOverMe([GOODCUTOFF])
+	Global("CbWizardTowerSplitsParty","GLOBAL",1)
+	!Global("CbStopSplitting","GLOBAL",1)
+THEN
+	RESPONSE #100
+		PlaySound("PORTAL2")
+		IncrementGlobal("CbWizardTowerSplitsParty","GLOBAL",1)
+		DisplayString(LastTrigger,@550030)
+		CreateVisualEffectObject("SPDIMNDR",LastTrigger)
+		SmallWait(10)
+		ActionOverride(LastTrigger,LeaveAreaLUAPanic("AR3547","",[480.788],8))
+		ActionOverride(LastTrigger,LeaveAreaLUA("AR3547","",[480.788],8))
+END
+
+IF
+	IsOverMe([GOODCUTOFF])
+	Global("CbWizardTowerSplitsParty","GLOBAL",2)
+	!Global("CbStopSplitting","GLOBAL",1)
+THEN
+	RESPONSE #100
+		PlaySound("PORTAL2")
+		IncrementGlobal("CbWizardTowerSplitsParty","GLOBAL",1)
+		DisplayString(LastTrigger,@550030)
+		CreateVisualEffectObject("SPDIMNDR",LastTrigger)
+		SmallWait(10)
+		ActionOverride(LastTrigger,LeaveAreaLUAPanic("AR3546","",[288.512],12))
+		ActionOverride(LastTrigger,LeaveAreaLUA("AR3546","",[288.512],12))
+END
+
+IF
+	IsOverMe([GOODCUTOFF])
+	Global("CbWizardTowerSplitsParty","GLOBAL",3)
+	!Global("CbStopSplitting","GLOBAL",1)
+THEN
+	RESPONSE #100
+		PlaySound("PORTAL2")
+		IncrementGlobal("CbWizardTowerSplitsParty","GLOBAL",1)
+		DisplayString(LastTrigger,@550030)
+		CreateVisualEffectObject("SPDIMNDR",LastTrigger)
+		SmallWait(10)
+		ActionOverride(LastTrigger,LeaveAreaLUAPanic("AR3551","",[483.792],7))
+		ActionOverride(LastTrigger,LeaveAreaLUA("AR3551","",[483.792],7))
+END
+
+IF
+	IsOverMe([GOODCUTOFF])
+	Global("CbWizardTowerSplitsParty","GLOBAL",4)
+	!Global("CbStopSplitting","GLOBAL",1)
+THEN
+	RESPONSE #100
+		PlaySound("PORTAL2")
+		IncrementGlobal("CbWizardTowerSplitsParty","GLOBAL",1)
+		DisplayString(LastTrigger,@550030)
+		CreateVisualEffectObject("SPDIMNDR",LastTrigger)
+		SmallWait(10)
+		ActionOverride(LastTrigger,LeaveAreaLUAPanic("AR3548","",[640.686],0))
+		ActionOverride(LastTrigger,LeaveAreaLUA("AR3548","",[640.686],0))
+END
+
+IF
+	IsOverMe([GOODCUTOFF])
+	Global("CbWizardTowerSplitsParty","GLOBAL",5)
+	!Global("CbStopSplitting","GLOBAL",1)
+THEN
+	RESPONSE #100
+		PlaySound("PORTAL2")
+		IncrementGlobal("CbWizardTowerSplitsParty","GLOBAL",1)
+		DisplayString(LastTrigger,@550030)
+		CreateVisualEffectObject("SPDIMNDR",LastTrigger)
+		SmallWait(10)
+		ActionOverride(LastTrigger,LeaveAreaLUAPanic("AR3554","",[895.542],12))
+		ActionOverride(LastTrigger,LeaveAreaLUA("AR3554","",[895.542],12))
+END
+
+

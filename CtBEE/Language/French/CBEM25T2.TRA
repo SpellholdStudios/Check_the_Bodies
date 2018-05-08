@@ -1,0 +1,56 @@
+@1   = ~Il n'y a rien que je puisse faire pour vous à cet instant de mon périple à travers Féérune.~
+@2   = ~Merci, <GABBER>, de nous avoir aidées à franchir une étape dans la réalisation de notre mission sur Féérune. Nous devons maintenant vous apporter notre soutien dans l'accomplissement de votre destin. Mais comme pour l'ensemble de vos actes, le choix vous appartient, nous vous aiderons en vous enseignant quelque chose.~
+@3   = ~Que préfèrez-vous apprendre, <GABBER> ? Comment mémoriser un sort supplémentaire par niveau, comment lancer des sortilèges plus rapidement, ou comment enchanter une arme en métal pour en faire un artéfact magique ?~
+@4   = ~J'aimerais apprendre comment mémoriser un sort supplémentaire par niveau.~
+@5   = ~Je pense qu'accroître ma vitesse de lancement des sorts me serait le plus utile.~
+@6   = ~Enchanter une arme ? Ca m'intéresse.~
+@7   = ~Très bien, <GABBER>. C'est un honneur pour moi de vous enseigner comment améliorer vos capacités de mémorisation.~
+@8   = ~Je me suis encore rapprochée d'un pas de l'achèvement de ma quête, <GABBER>. Vous apprenez vite, et je suis honorée de vous avoir aidé à améliorer vos capacités de mémorisation.~
+@9   = ~Très bien, <GABBER>. C'est un honneur pour moi de vous enseigner comment lancer des sorts plus rapidement et plus efficacement.~
+@10  = ~Je me suis encore rapprochée d'un pas de l'achèvement de ma quête, <GABBER>. Vous apprenez vite, et je suis honorée de vous avoir aidé à améliorer votre vitesse de lancement des sorts.~
+@11  = ~Très bien, <GABBER>. C'est un honneur pour moi de vous enseigner comment enchanter une arme en métal, que ce soit une épée, une dague, une hache ou une hallebarde.~
+@12  = ~Je me suis encore rapprochée d'un pas de l'achèvement de ma quête, <GABBER>. Vous apprenez vite, et je suis honorée de vous avoir enseigné comment enchanter une arme. Souvenez-vous que vous devez porter sur vous l'arme que vous souhaitez enchanter ou le sortilège échouera. Et rappelez-vous qu'il ne fonctionne que sur les armes de corps-à-corps, et pas sur les armes de jet.~
+@13  = ~Vous avez bien agi, <GABBER>, et nous vous sommes toutes trois reconnaissantes de votre aide. Mais vous devez maintenant être testé plus avant. Êtes-vous prêt à enrichir votre être ?~
+@14  = ~Oui, Dame Révérée. Dites-moi ce qui doit être fait.~
+@15  = ~Non, Dame Révérée. Il me faut plus de temps.~
+@16  = ~<GABBER>, nous ne pourrons achever notre destinée sur Féérune tant que vous ne serez pas prêt. Préparez-vous du mieux possible, et revenez nous voir quand vous vous sentirez prêt.~
+@17  = ~Très bien, <GABBER>. Ecoutez attentivement, car j'ai bien des choses à vous expliquer avant que vous n'entamiez votre prochaine quête.~
+@18  = ~Ces derniers mois, j'ai ressenti de loin une présence croissante. Je ne sais pas ce que c'est exactement, mais je peux ressentir qu'elle est terriblement maléfique.~
+@19  = ~<GABBER>, j'ai de grandes inquiétudes pour cette contrée si cette présence devait devenir trop puissante. Elle n'appartient pas à notre monde, et nous devons empêcher qu'elle ne sème le chaos.~
+@20  = ~<GABBER>, je vous charge d'éliminer cette créature par tous les moyens à votre disposition. Faites appel à vos alliés et à des amis puissants, ou rassemblez vos plus redoutables arcanes pour mettre un terme à cette menace, par la force si nécessaire. La sécurité de Féérune dépend de vous une fois encore.~
+@21  = ~Où puis-je trouver cette présence, ma Dame ?~
+@22  = ~Je ferai de mon mieux, ma Dame.~
+@23  = ~Ma Dame, je doute que mes capacités soient suffisantes pour mettre un terme à une menace aussi terrifiante.~
+@24  = ~Je ne sais pas à quel endroit exactement, mais la présence semble plus forte dans la ville située au Nord, que les humains appellent Athkatla.~
+@25  = ~Quel qu'en soit le prix, <GABBER>, le destin de tous repose entre vos mains. Nous trois avons confiance en vous, Elhan a confiance en vous, et ceux qui ne vous connaissent que par les récits de vos exploits entendus dans les tavernes compteraient aussi sur vous s'ils savaient le danger. Ayez confiance en vous, cher Seigneur, et vous réussirez.~
+@26  = ~Je sais que vous ferez de votre mieux. Nous ne pouvons que prier pour votre réussite. Bonne chance, <GABBER>. Revenez-moi lorsque la présence ne sera plus. Que Seldarine vous protège et soutienne votre bras.~
+@27  = ~Je peux toujours sentir le Mal dans la région. Vous n'avez pas achevé votre quête.~
+@28  = ~Je n'arrive pas à trouver la présence. Savez-vous où elle se trouve ?~
+@29  = ~Je vous l'ai dit. Je peux la sentir à Athkatla.~
+@30  = ~Je ne peux être plus précise, mais il me semble que la présence est plus forte dans la partie ouest de la cité humaine.~
+@31  = ~Je sens cette présence quelque-part près d'un point d'eau. Peut-être une rivière ? Je ne peux me prononcer avec certitude.~
+@32  = ~Le Mal rôde sous la surface. J'éprouve une sensation mêlant le soufre, le sel et la pourriture.~
+@33  = ~Je ne peux être plus précise, <GABBER>. Le Mal émane fortement de l'ouest d'Athkatla, près de l'eau, sous la surface.~
+@34  = ~Je ne sens plus la présence maléfique. Est-elle détruite ?~
+@35  = ~Non. Je l'ai bannie, mais pas détruite.~
+@36  = ~Oui, Grande Dame, j'ai détruit cette créature, quoi qu'elle fût.~
+@37  = ~Alors c'est fait, quelles qu'en soient les conséquences. Vous avez bien agi, <GABBER>. Je vous remercie pour m'avoir rendu plus proche de l'heure où je pourrai aller vers l'Ouest.~
+@38  = ~Allez, <GABBER>. Détruisez le mal, si toutefois c'est en votre pouvoir.~
+@39  = ~Nous attendons l'heure où nous pourrons entreprendre notre dernier voyage de Féérune vers Eternelle-Rencontre. Que Corellon Larethian vous protège, <GABBER>.~
+@40  = ~Les anciennes Elfes : Instruction magique
+
+Les trois sorcières que j'ai rencontrées à la lisière occidentale de la forêt de Téthyr, près de l'entrée d'Ombre-Terre, ont été assez aimables pour m'apprendre à mémoriser un nombre plus important de sorts.~
+@41 = ~Les anciennes Elfes : Instruction magique
+
+Les trois sorcières que j'ai rencontrées à la lisière occidentale de la forêt de Téthyr, près de l'entrée d'Ombre-Terre, ont été assez aimables pour m'enseigner comment lancer des sortilèges plus rapidement.~
+@42 = ~Les anciennes Elfes : Instruction magique
+
+Les trois sorcières que j'ai rencontrées à la lisière occidentale de la forêt de Téthyr, près de l'entrée d'Ombre-Terre, ont été assez aimables pour m'enseigner comment enchanter une arme de métal pour en faire un artéfact magique.~
+@43 = ~Les anciennes Elfes : Présence maléfique
+
+Les trois sorcières se préparant à la Retraite m'ont ordonné de défaire une présence maléfique qu'elles ont ressentie dans la région. Elles ne sont pas certaines de savoir d'où émane ce Mal, mais il est quelquepart dans la cité d'Athkatla.
+
+Lorsque je l'aurai vaincue, en la détruisant ou en la banissant de Féérune, je devrai en rendre compte aux Elfes, situées près de la sortie d'Ombre-Terre. Elles ont promis de m'enseigner une compétence dont je pourrai tirer profit.~
+@44 = ~Les anciennes Elfes : Présence maléfique
+
+J'ai vaincu, près du quartier des quais d'Athkatla, un démon dont les sages sorcières Elfes avaient senti la présence. Elles m'ont dit qu'elles préparaient leur Retraite vers Eternelle-Rencontre, et m'ont promis de m'enseigner une nouvelle compétence.~

@@ -1,0 +1,147 @@
+@1   = ~Ascoltate. Nessuno si farà male. Ma credo che fareste meglio a lasciare in terra le vostre armi.~
+@2   = ~Ad ogni modo, se hai intenzione di farmi del male, ho con me alcuni buoni amici per difendermi, se la situazione diventerà grave. Loro non ti faranno del male a meno che tu me ne farai a me.~
+@3   = ~Credo di essere un po' troppo diffidente ma i cervi sembrano un pò nervosi quando ci sono degli estranei qui intorno, cercate di non disturbarli, d'accordo?~
+@4   = ~Ma dove ho lasciato le buone maniere? Io sono Crowley, un ranger che vive qui in questa foresta. E tu chi sei?~
+@5   = ~Non hai bisogno di sapere il mio nome.~
+@6   = ~Sono <GABBER>, piacere di conoscerti.~
+@7   = ~Tu da quanto vivi qui.~
+@8   = ~Vedo che sei intenzionato ad essere irriverente, amico, ma se non desideri essere amichevole, incontrerai delle brutte sorprese lungo il tuo cammino.~
+@9   = ~Ormai credo che sia una decina di anni. Conosco questi boschi come il palmo delle mie mani. E vorrei anche essere informato su chi frequenta questi posti. Allora, compagno, come hai detto che ti chiami?~
+@10  = ~Il piacere è mio. Ascolta, <GABBER>, io so riconoscere un collega ranger quando ne vedo uno. E conosco anche questi boschi come il palmo delle mie mani. Ma ho dovuto metterci anni prima di conoscerne i segreti.~
+@11  = ~Finalmente vedo un ranger dopo anni, saresti felice se ti insegnassi quello che ho imparato? Io sarei più che felice di farlo, ma tu dovrai aiutarmi.~
+@12  = ~Certamente, posso aiutarti. E mi piacerebbe imparare anche delle nuove cose.~
+@13  = ~Non ho tempo per aiutarti in questo momento. Forse tornerò più tardi.~
+@14  = ~Credo che non ti prenda molto tempo. Ti dirò quello ci cui ho bisogno. A nord di qui, c'é un fiume che si getta poi in un bacino situato in fondo ad una cascata. Ad ogni modo, i miei amici animali si ammalano dopo che hanno bevuto da quell'acqua inquinata. Vorrei che tu scoprissi il problema e trovassi il motivo per il quale i miei animali si ammalano.~
+@15  = ~Ecco il mio amico ranger <GABBER>! Sono felice di rivederti. Hai scoperto il motivo per cui i miei animali si ammalano?~
+@16  = ~No, Crowley, non ne ho ancora capito il motivo.~
+@17  = ~Si, Crowley. Credo di aver trovato l'origine del problema; era una carcassa di cervo morto che stava infettando il fiume. Ho rimosso la carcassa, ora l'acqua dovrebbe ritornate pulita in breve tempo.~
+@18  = ~Potresti ripetermi cos'é che devo fare?~
+@19  = ~Sono certo che la tua scaltrezza riuscirà a farti capire quale sia il problema. Fammi sapere quando scoprirai qualcosa.~
+@20  = ~Sto iniziando a credere che tu sia alquanto distratto e superficiale. Dovresti andare al fiume e scoprire il motivo per cui i miei animali si stanno ammalando. Fammi sapere se scoprirai qualcosa.~
+@21  = ~Allora le cose stavano così, eh? Beh, mi dispiace sentire questo. Credo che sia stato difficile rimuovere quella carcassa, vero?~
+@22  = ~Ti avevo detto che ti avrei insegnato qualcosa se fossi riuscito ad aiutarmi, ora ti mostrerò alcune cose.~
+@23  = ~Cosa ti piacerebbe imparare? Come dare la caccia alle creature, come piazzare delle buone trappole, o come trovare e rimuovere le trappole malvagie?~
+@24  = ~Credo che mi piacerebbe sapere come seguire le tracce in modo più accurato.~
+@25  = ~Mi piacerebbe davvero sapere come piazzare le trappole.~
+@26  = ~Voglio imparare ad individuare e rimuovere le trappole.~
+@27  = ~D'accordo, amico. Seguimi, e ti insegnerò questa cosa.~
+@28  = ~Adesso sei in grado ci capire il genere di creature che sono passate in un certo luogo, se ti guarderai attentamente intorno.~
+@29  = ~Ora sei in grado di piazzare delle trappole per dare la caccia a qualcosa.~
+@30  = ~Ora sei in grado di individuare e rimuovere le trappole.~
+@31  = ~Tienimi al corrente di quello che scoprirai. Io sarò qui intorno.~
+@32  = ~<GABBER>! Amico mio! E' bello rivederti. E' successo un altro fatto da quando ci siamo visti l'ultima volta. Allora, pensi di volermi dare una mano anche questa volta? Potrei insegnarti qualcosa se mi aiuterai.~
+@33  = ~Certamente, Crowley. Di cosa hai bisogno?~
+@34  = ~Veramente ora non posso. Magari in seguito.~
+@35  = ~Certamente. Fai con comodo, <GABBER>. Io non ho fretta.~
+@36  = ~Riconosco che potrebbe essere un incarico difficile, ma sono certo che potresti farcela.~
+@37  = ~Non sono in grado di dirti esattamente dove ma sono sicuro che c'é una presenza qui da qualche parte. Qualcosa di terribilmente malvagio. Ed é qualcosa di innaturale.~
+@38  = ~Tutto quello che sento è che è localizzato da qualche parte nei pressi di Athkatla. Non so cosa sia, e neanche da dove venga, ma sono sicuro, come sono sicuro che il sole brilla, che é una minaccia per l'intera regione.~
+@39  = ~Potresti occupartene tu per conto mio?~
+@40  = ~Dove posso trovare questa presenza, Crowley?~
+@41  = ~Farò del mio meglio, Crowley,.~
+@42  = ~Crowley, in verità credo di non essere in grado di porre fine ad una simile e terribile minaccia.~
+@43  = ~Tutto quello che ti posso dire é che sento la presenza malefica provenire da Athkatla. Forse dovresti andare lì, per prima cosa. Fammi sapere se riesci a scoprire qualcosa, se la scaccerai o la distruggerai. Se avrai successo ti insegnerò un'abilità.~
+@44  = ~<GABBER>, come ti ho detto, sono certo che questa cosa é spregevole, credo che sia qualcosa di malefico, ed é una minaccia per l'intera ragione. Se tu hai fiducia in te e nelle tue capacità, ed avrai un po' di fortuna, sono certo che sarai all'altezza della situazione.~
+@45  = ~So che farai del tuo meglio, <GABBER>. Fammi sapere se scoprirai qualcosa, se la scaccerai o la distruggerai. Se avrai successo ti insegnerò un'abilità.~
+@46  = ~Amico <GABBER>! Sento che non sei stato ancora in grado di rimuovere la presenza malvagia. C'è qualcosa che posso fare per te?~
+@47  = ~Non riesco a trovare la presenza. Sai dove si trovi esattamente?~
+@48  = ~Te l'ho detto, <GABBER>, tutto quello che so é che si trova ad Athkatla.~
+@49  = ~Mi dispiace amico, non posso essere più dettagliato, ma sembra che la presenza sia più forte nella parte ovest di della città.~
+@50  = ~Te l'ho già detto, la presenza si trova da qualche parte mi sembra di sentire che vicino ci sia uno specchio d'acqua. Forse un fiume? Non posso dirlo con certezza.~
+@51  = ~La creatura malvagia si trova sotto la superficie, <GABBER>. Per qualche oscura ragione, percepisco una sensazione di zolfo, di sale, e di marciume.~
+@52  = ~Amico, vorrei essere più preciso ma non posso. Tutto quello che percepisco é una forte presenza malefica nella parte ovest di Athkatla, vicino a dell'acqua, sotto la superficie.~
+@53  = ~Amico! E' bello vederti. Non sento più alcune presenza malvagia ad Athkatla. Cos'è successo?~
+@54  = ~C'era un demone là ed io l'ho scacciato, ma non distrutto.~
+@55  = ~C'era un demone là ed io l'ho distrutto. Non c'è più da preoccuparsi.~
+@56  = ~Questa si che é una bella notizia, amico! Bene. Andiamo, ora lascia che ti insegni qualcosa per diventare un buon ranger.~
+@57  = ~Ora va, <GABBER>, vedi se riesci a distruggere quello che c'è là.~
+@58  = ~Non mi sottrarrò alla mia promessa, allora dimmi cosa ti piacerebbe apprendere.~
+@59  = ~Cosa vorresti imparare, a piazzare trappole, come sopravvivere nei boschi, oppure ti piacerebbe saper utilizzare meglio le armi a lungo raggio?~
+@60  = ~Voglio imparare a piazzare le trappole. Puoi insegnarmelo, Crowley?~
+@61  = ~Sopravvivenza. Puoi insegnarmela, Crowley?~
+@62  = ~Intendi come migliorare l'utilizzo di armi a lungo raggio? Come colpire meglio un bersaglio? Si, Crowley, voglio impararlo.~
+@63  = ~Certo che posso farlo. Allora, andiamo nel bosco e ti mostrerò tutto.~
+@64  = ~Dovrai esercitarti se vorrai imparare meglio quello che ti ho insegnato, ma sono sicuro che sei in grado di piazzare facilmente delle trappole adesso.~
+@65  = ~Dovrai esercitarti se vorrai imparare meglio quello che ti ho insegnato, ma sono sicuro che sarai capace di sopravvivere meglio nei boschi adesso.~
+@66  = ~Dovrai esercitarti se vorrai imparare meglio quello che ti ho mostrato, ma sono sicuro che adesso sarai in grado di utilizzare meglio archi, asce da lancio, pugnali, balestre, o qualsiasi altra arma che si può utilizzare a lungo raggio.~
+@67  = ~Guarda se non é il mio vecchio amico. Come te la passi? Hai trovato qualcosa di interessante nei tuoi viaggi? Aspetta, non dire nulla adesso. Mettiamoci davanti ad un buon fuoco e parliamo un momento. Allora, ho bisogno di aiuto. Hai qualche giorno disponibile per me?~
+@68  = ~Non adesso, Crowley. Ho necessità di fare delle cose adesso.~
+@69  = ~Naturalmente, amico. Fammi sapere quando potrai darmi una mano allora.~
+@70  = ~Guarda, amico, questa é la mia vecchia ascia. Non la uso da molti anni, ma era un'ottima arma, ora però sembra essersi rovinata. Si potrebbe riparare ma bisognerebbe avere gli attrezzi giusti.~
+@71  = ~La potrebbe riparare un mio vecchio amico nano, si chiama Cromwell, saprebbe come fare, forse richiederà di rimediargli del metallo per aggiustarla. Non sei obbligato a portargliela a riparare, ma se lo farai ti potrò ben ricompensare insegnandoti un'altra abilità.~
+@72  = ~Proverò a portargliela, Crowley.~
+@73  = ~Bene, fammi sapere se avrai novità.~
+@74  = ~Ehilà. Lo sapevo che prima o poi saresti tornato. Hai aggiustato la mia ascia?~
+@75  = ~Si, Crowley.~
+@76  = ~Mi dispiace, Crowley. Non ho avuto ancora il tempo di farlo.~
+@77  = ~Beh, fammi sapere se riuscirai a ripararla.~
+@78  = ~Allora ci sei riuscito! Avrei pensato una cosa. Io non ho bisogno di quest'ascia qui nei boschi. Sono sicuro che tu potresti farne un maggior utilizzo rispetto a me. Ecco, ti mostrerò come utilizzarla nel modo migliore.~
+@79  = ~Tieni. Ecco un dono da parte di Crowley. Puoi prenderti l'ascia, te la regalo. Ti avevo anche promesso una ricompensa e che ti avrei insegnato qualcosa, e non torno indietro sulla mie parole.~
+@80  = ~Cosa ti piacerebbe che ti insegnassi: come nascondersi meglio nelle ombre, come spargere piccole picche, sai cosa voglio dire, spargendole sul terreno, o ti piacerebbe imparare a sopravvivere meglio nei boschi?~
+@81  = ~Puoi aiutarmi ad imparare a migliorare l'abilità della segretezza? Mi piacerebbe molto.~
+@82  = ~Puoi mostrarmi come spargere piccole picche? Si, mi piacerebbe impararlo, Crowley.~
+@83  = ~Puoi insegnarmi a sopravvivere meglio in ambienti selvaggi?~
+@84  = ~Dovrai fare un pò di pratica, quindi vieni con me. Un pò di esercitazione ti farà bene.~
+@85  = ~Ora potrai nasconderti tra i cespugli, nell'erba, o persino nelle città.  Fai solo attenzione a non farti scoprire.~
+@86  = ~Adesso sei in grado di spargere piccole picche sul terreno per rallentare ed anche ferire qualsiasi nemico che ti si avvicina.~
+@87  = ~Ora potrai sopravvivere meglio nei luoghi selvaggi. Non ti perderai più nei boschi senza il chiaro di luna.~
+@88  = ~Sembra che abbiamo un problema. Ho un sacco di cose da fare e mi devo occupare dei miei boschi, non ho tempo per chiacchierare con te. Potrai tornare a trovarmi se un giorno deciderai di diventare un ranger a tutti gli effetti.~
+@89  = ~Scusa ma ho un sacco di cose da fare e mi devo occupare dei miei boschi, non ho tempo per chiacchierare con te adesso.~
+@90  = ~Cosa ti farebbe piacere che ti insegnassi: come nascondersi meglio nelle ombre, come piazzare delle piccole picche, sai cosa voglio dire, spargendole sul terreno, o ti piacerebbe imparare a sopravvivere meglio nei boschi, oppure ti piacerebbe imparare ad utilizzare qualsiasi oggetto?~
+@91  = ~Mi piacerebbe imparare ad utilizzare qualsiasi oggetto. Puoi insegnarmelo?~
+@92  = ~Posso provarci, amico, ma non posso garantirti che ci riuscirò. Andiamo, proviamo.~
+@93  = ~Fatto. Ora, come molti di noi, sei in grado di utilizzare qualsiasi oggetto che desideri. Ricordati solamente che, come saprai, lanciare incantesimi mentre utilizzi certi tipi di oggetti non ti sarà possibile.~
+@94  = ~Non sembri in grado di imparare ad utilizzare qualsiasi oggetto. Devi cercare di esercitarti ulteriormente.~
+@95  = ~Mi dispiace, amico, ma a me non piace avere stranieri nei miei boschi. Agli animali non piacciono gli estranei, sai cosa voglio dire vero?~
+@96 = ~Il Ranger dei Boschi Selvaggi: Il Fiume Avvelenato
+
+La ragione per cui gli animali del mio nuovo amico si ammalavano era una carcassa di un cervo morto che era marcito nel fiume. Io sono stato in grado di rimuovere la carcassa, e tra qualche giorno l'acqua dovrebbe tornare pulita.~
+@97 = ~Il Ranger dei Boschi Selvaggi
+
+Il ranger Crowley mi ha insegnato come seguire le tracce delle creature in ambienti selvaggi con grande accuratezza, ma mentre mi insegnava mi ha assicurato che gli stessi metodi possono essere utilizzati anche in altri tipi di terreno, come una città o nei sotterranei.~
+@98 = ~Il Ranger dei Boschi Selvaggi
+
+Il ranger Crowley mi a insegnato come piazzare trappole per cacciare piccolo o medi animali mentre sono in ambienti selvaggi, ma mentre mi insegnava mi ha assicurato che gli stessi metodi possono essere utilizzati anche per ferire i miei nemici.~
+@99 = ~Il Ranger dei Boschi Selvaggi
+
+Il ranger Crowley mi ha insegnato ad individuare e rimuovere trappole che possono essere state piazzate in ambienti selvaggi, ma mentre mi insegnava mi ha assicurato che gli stessi metodi di individuazione di trappole possono essere utilizzati anche in altri ambienti, come le caverne o nei sotterranei.~
+@100 = ~Il Ranger dei Boschi Selvaggi: Il Fiume Avvelenato 
+
+Ho incontrato un ranger nelle colline a nord che vive a valle di una montagna insieme a degli animali. Mi ha detto che é ranger da molti anni, e che sarebbe intenzionato ad insegnarmi alcune cose che lui ha imparato, se lo aiuterò. Io gli ho detto che mi avrebbe fatto piacere aiutarlo e lui mi ha spiegato che i suoi amici animali si stanno ammalando. Mi ha chiesto di scoprire il motivo per cui le acque del fiume vicino alla sua abitazione sono inquinate.~
+@101 = ~Il Ranger dei Boschi Selvaggi: Una Presenza Malvagia
+
+Il solitario ranger Crowley mi ha chiesto di trovare e sconfiggere una presenza malvagia che lui sente nella regione. Non sa da dove precisamente provenga, ma mi ha detto che la percepisce all'interno della città di Athkatla.
+  Quando avrò sconfitto questa presenza malvagia - sia che riesca a distruggerla sia che riesca a scacciarla da Faerûn - dovrò ritornare e dirglielo a Crowley a sud di Baldur's Gate dove mi ha promesso di insegnarmi un'abilità che arricchirà la mia esperienza di vita.~
+@102 = ~Il Ranger dei Boschi Selvaggi: Una Presenza Malvagia
+
+Crowley mi aveva chiesto di sconfiggere una presenza malvagia che sentiva nella regione, io l'ho trovata sotto i moli di Athkatla. E' stata una dura battaglia, ma ne sono uscito vittorioso ed il ranger dei boschi selvaggi mi ha promesso di insegnarmi una preziosa abilità.~
+@103 = ~Il Capanna del Ranger dei Boschi Selvaggi
+
+Il ranger Crowley mi ha insegnato come sopravvivere in luoghi selvaggi, proteggendomi dagli elementi, e assicurandomi che sarò molto meno soggetto a congelarmi sulla cima innevata di una montagna o rimanere disidratato in un deserto adesso.~
+@104 = ~Il Ranger dei Boschi Selvaggi
+
+Il ranger Crowley mi ha insegnato come mirare meglio, con colpi mirati, una specifica parte di un bersaglio, concentrandomi su quel particolare punto, mirando più accuratamente il bersaglio, e potenzialmente causando un danno maggiore a chiunque sia colpito dalla mia freccia, dal mio dardo, dal mio pugnale, o da qualsiasi altra arma da lancio.~
+@105 = ~Il Ranger dei Boschi Selvaggi: Riparare un'Ascia
+
+Crowley, il ranger che mi ha insegnato alcuni dei suoi vecchi trucchi da ranger, mi ha chiesto di riparagli la sua ascia. Sembra che a lui non piaccia molto andare in città, e mi ha chiesto di portare l'ascia rotta a Cromwell per farla riparare. Siccome era un'ascia magica, Crowley crede che il fabbro nano possa chiedermi del metallo speciale per riforgiare la lama cosicché possa ritornare come era prima. Quando avrò riparato l'ascia, Crowley mi ha domandato di riportargliela, e mi ha promesso che poi mi insegnerà un'altrà abilità.~
+@106 = ~Il Ranger dei Boschi Selvaggi: Riparare un'Ascia
+
+Ho fatto riparare e riforgiare la lama dell'ascia di Crowley dal fabbro nano Cromwell, ed ho consegnato l'ascia riparata al mio amico ranger. Crowley é stato poi molto gentile a regalarmi l'ascia magica, é stato un bel gesto da parte sua. Crowley, come promesso, mi ha insegnato alcuni nuovi trucchi da ranger che ha appreso durante la sua vita nei boschi.~
+@107 = ~Il Ranger dei Boschi Selvaggi
+
+Il ranger Crowley mi ha insegnato a nascondermi nei boschi e nelle foreste senza lasciare tracce dietro di me, e mentre mi insegnava mi ha assicurato che questa abilità può essere utilizzata in vari tipi di terreno, anche sulle dure rocce di una caverna oppure su tutti i tipi di suoli delle strade di città.~
+@108 = ~Il Ranger dei Boschi Selvaggi
+
+Il ranger Crowley mi ha insegnato a spargere delle piccole picche sul terreno per rallentare e causare piccole ferite ai nemici che si avvicinano.~
+@109 = ~Il Ranger dei Boschi Selvaggi
+
+Il ranger Crowley mi ha insegnato come sopravvivere meglio negli ambienti selvaggi, proteggendomi dagli elementi, e assicurandomi che sarò molto meno soggetto a congelarmi sulla cima innevata di una montagna o rimanere disidratato in un deserto.~
+@110 = ~Il Ranger dei Boschi Selvaggi
+
+Il ranger Crowley mi hai insegnato ad utilizzare qualsiasi oggetto, incluse le pergamene magiche, bacchette, o qualsiasi altra cosa che prima non potevo utilizzare.~
+@111 = ~Il Ranger dei Boschi Selvaggi
+
+Il ranger Crowley ha provato ad insegnarmi come utilizzare qualsiasi oggetto, ma io non sono riuscito a comprendere il suo insegnamento.~
+@112 = ~Il Ranger dei Boschi Selvaggi: Il Fiume Avvelenato 
+
+Ho incontrato un ranger nelle colline a nord che vive a valle di una montagna insieme ad un gruppo di animali. Mi ha detto che é ranger da molti anni, e che sarebbe intenzionato ad insegnarmi alcune cose che lui ha imparato, se lo aiuterò. Io gli ho detto che mi avrebbe fatto piacere aiutarlo e lui mi ha spiegato che i suoi amici animali si stanno ammalando. Mi ha chiesto di scoprire il motivo per cui le acque del fiume vicino alla sua abitazione sono inquinate.~

@@ -1,0 +1,10 @@
+IF
+	Global("CreateDracolich","CB3668",0)
+	!Global("CbDracolichDied","LOCALS",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CreateDracolich","CB3668",1)
+		CreateCreature("CB368DRG",[800.652],0) // Dracolich
+END
+
+

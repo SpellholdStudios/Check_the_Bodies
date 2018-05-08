@@ -1,0 +1,20 @@
+IF
+	OnCreation()
+THEN
+	RESPONSE #10
+		Face(2)
+	RESPONSE #10
+		Face(4)
+	RESPONSE #20
+		Face(6)
+	RESPONSE #10
+		Face(8)
+	RESPONSE #20
+		Face(10)
+	RESPONSE #10
+		Face(12)
+	RESPONSE #20
+		Face(14)
+END
+
+

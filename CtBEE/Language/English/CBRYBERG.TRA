@@ -1,0 +1,93 @@
+@1   = ~Pardon me.  You there!  Excuse me.  You look like a skilled magic user.  Would you mind telling me if you are?~
+@2   = ~Yes, I am a mage.  Why?~
+@3   = ~No, sorry, you must have me mistaken for someone else.~
+@4   = ~Truly?  You are?  Then you might be able to help me.~
+@5   = ~Would you mind?  I mean, could you help me out?~
+@6   = ~Sure.  I will help you.  Tell me what you need.~
+@7   = ~No, I can't help you.~
+@8   = ~I can help you, but not right now.  Wait here, and I'll come back.~
+@9   = ~I'm tired of helping people.  I'm not going to help anyone anymore so leave me alone.~
+@10  = ~I've heard that some magic users can call those who passed on.  I know that this is true, so let me explain my problem.~
+@11  = ~You see, recently one of my relatives, dear Uncle Donny, died and of course I am very saddened at our loss of such a good man.~
+@12  = ~I miss Uncle Donny very much, as we loved each other greatly.  I know that Uncle Donny loved and cared about me too, and he told me- before he passed, that is- that he would be leaving me his worldly possessions.~
+@13  = ~However, the city officials are all too bureaucratic about these things, and Uncle Donny had to file a legal testament with the city.  Now that he has passed, the politicians won't allow me to see a copy of his will.~
+@14  = ~My Uncle Donny was a good man, but he had his quirks when it came to money.  Donny was tremendously worried about thieves, swindlers, and the taxman, and hid his money away.  I know that Uncle Donny left me all of his possessions, but he must have hid his money real well, for I cannot find it in his house, or anywhere else in the city. I'm pretty sure that he gave clues about the location in the testament, but not specifically, only by code.~
+@15  = ~That way anyone reading the will would have a hard time finding the money.  Uncle Donny was wealthy, but since he died and I can't see the will, nothing has been left to me.  I think that the city officials are going to try to solve where Donny hid the money, but I don't think that they'll be able to.~
+@16  = ~So now I need to find out where the money is hid before they do, but I can't see the will, so I can't figure out the code.~
+@17  = ~That sounds like a job for someone who knows more about the law.  Perhaps you should hire a lawyer, not a mage.~
+@18  = ~So what is it that you need me to do?~
+@19  = ~Do you think that I am going to go on a wild goose chase to find your Uncle's money?~
+@20  = ~Yes, yes, that's true.  If I wanted to force the city officials to give me the will or a copy.~
+@21  = ~I don't want to give the city officials any reason to begin their own hunt for Uncle Donny's money faster , that's why I don't want to go about forcing them to give me the will legally.   I have another plan in mind, but I don't have the skills to do it myself.~
+@22  = ~What I was hoping was to find a magic-user to summon Uncle Donny's spirit.  I have heard that powerful magic-users can do that, and would like to speak with him in order to find out the clues about where he hid his money.~
+@23  = ~That sounds like a good plan.  It is true that some mages- and some priests for that matter- can Speak With Dead, but in order to do so, the wizard or cleric needs to know the spell, or have a scroll to cast it from.  I do not know the spell Speak With Dead, nor do I have a scroll.~
+@24  = ~Then ss there any way that you could learn the spell?  Maybe get a scroll?~
+@25  = ~I will try to find one, but I don't know who might have a copy of the scroll, or even if there is one here in the city.  Why don't you wait here, and if I find a spell, I'll come back to help you talk with your uncle.~
+@26  = ~I don't know where to look.  Do you know anyone that might be able to sell me that spell?~
+@27  = ~I don't think I have time to look for that spell.  Sorry, but you'll have to find someone else to cast the spell in order to talk with your uncle.~
+@28  = ~That would be a big help.  You must know more about magic than I do, but from what I know, you need to have a scroll in order to cast it, so be careful because you might only find one copy of the spell.~
+@29  = ~I don't know any one that might sell that kind of magic.  You know more about magic than I do, so you'd be able to find someone more easily than I could, but from what I know, you need to have a scroll in order to cast it, so be careful because you might only find one copy of the spell.  If you go look for one, I'll stay here, and if you find the spell, I can do what ever I can to help you cast it.~
+@30  = ~Then I will wait here until you have time to find the spell or until you return to cast it.  You know more about magic than I do, so you'd be able to find someone more easily than I could, but from what I know, you need to have a scroll in order to cast it, so be careful because you might only find one copy of the spell.  If you do find that spell, I can do what ever I can to help you cast it.~
+@31  = ~I wouldn't expect you to search the entire city by yourself, with nary a clue.  No, I had another plan, but I don't have the skills to do it myself.~
+@32  = ~I'm running out of options.  I'd really like it if you could help me.  I'll wait here, and if you change your mind about helping, please come back and let me know.~
+@33  = ~Like you said, I'll stay here, and if you have the chance to help me, come back and let me know.~
+@34  = ~I didn't mean to make you upset.  I just thought you might be able to help me.  Sorry for the interruption.  Goodbye.~
+@35  = ~I'm sorry for the bother then.  You cannot help me.  Good day to you, <SIRMAAM>.~
+@36  = ~So you have returned.  Are you going to be able to help me now?~
+@37  = ~Remember, you had said you could look for a spell that would help me speak with my Uncle Donny.  Did you find one?~
+@38  = ~No, sorry, not yet.  I'll keep looking though.  Wait here.~
+@39  = ~I haven't even started looking for one.  I don't think it would be a good idea to call your uncle back from the dead.~
+@40  = ~Yes, Ryberg, I did find a scroll.  Stand right there and I'll call your uncle.~
+@41  = ~You are in luck, Ryberg.  I found a spell-scroll to Speak With Dead, but I don't think it's a good idea to call your uncle back from the dead.~
+@42  = ~I forgot what it was that you wanted me to do.~
+@43  = ~Yes, Ryberg, I did find a scroll.  But we can't cast the spell here, because of the forces that it may unleash.~
+@44  = ~Please, I really need to find out where Uncle Donny hid his money.  If you find some way of speaking with my Uncle, come get me here.~
+@45  = ~All right, magic-user, don't let me get in your way while you cast the spell.~
+@46  = ~I know I asked for your help, and you've done a lot for me, but if you don't want to cast the spell yourself, give me the scroll and I'll find someone else to cast it for me.~
+@47  = ~Very well, Ryberg.  Here's the scroll.~
+@48  = ~No, Ryberg.  Meddling with the forces of death is not something that can be done without consequences.  In good conscience, I can't let you have this scroll.~
+@49  = ~Meddling with the forces of death is not something that can be done without consequences, Ryberg.  I can't let someone who I don't know, and who may not be skilled enough, to cast this scroll.  I'll do it for you, but under protest, Ryberg.~
+@50  = ~Thanks for your help.  I'm sorry that you didn't want to cast the spell, but I understand that it might have been beyond your skills.  Anyway, I hope that I'll be able to find someone else to cast the spell for me.  Good day to you, <SIRMAAM>.~
+@51  = ~I'm running out of options.  I really need to find out where my Uncle hid his money.Please, if you change your mind, come find me here.~
+@52  = ~Uncle Donny!  I'm so glad to see you!  But we don't have much time.  Please, the politians here won't let me look at your will.  I can't find the money you left me.~
+@53  = ~Please, if you can tell me how or where to find the money, it would help me.  There must be something you can tell me.  Uncle Donny!  Speak!~
+@54  = ~What?  What does that mean, Uncle Donny?  I don't understand.~
+@55  = ~No, wait... don't go yet!  Donny!  Wait...~
+@56  = ~Well, that's it.  Uncle Donny is really gone, and I'm no closer to figuring out where he hid his money.~
+@57  = ~Sorry I couldn't be of more help.  I thought that your uncle would be able to tell you where to find the ttreasure.~
+@58  = ~Wait, Ryberg, I think I have an idea about where your uncle might have hid his money.  Maybe I could get it for you.~
+@59  = ~Those are the breaks, Ryberg.  Better luck next time.~
+@60  = ~You were a big help anyway.  Without you, I wouldn't have been able to see my Uncle.  I thank you for your help anyway.~
+@61  = ~If you can figure out where it is, then I'll split it with you.  If not, I'll be no better off than I am now.  Why don't you look for it if you have the time.~
+@62  = ~Yeah, I guess the city officials will keep the will and I'm out of my inheritance.  Thanks for helping anyway.~
+@63  = ~You said you might be able to find the money Uncle Donny left me.  Were you able to find it?~
+@64  = ~Not yet, Ryberg.  I'm still thinking about the riddle and looking around the city.~
+@65  = ~Yes, Ryberg, I think I found your uncle's money.  It's a lot of gold, too.  Here, I'll split it with you fifty-fifty.~
+@66  = ~I found your dead relative's gold, but I want a greater share as I did all the work.~
+@67  = ~Oh great!  This will help me and my family out a lot.  Thank you for all your help.  Good day to you, <SIRMAAM>.~
+@68  = ~You swindling thief!  You're no better than those politicians who wouldn't give me the will.  I hope you rot with Cyric.~
+@69  = ~And like you said, I'll stay here, and if you find the spell, I can do whatever you might need to help cast it.~
+@70  = ~Well, I've heard that some magic-users can call those who passed on.  I know that this is true, so let me explain my problem.~
+@71  = ~Where should we go to do the spell then?~
+@72  = ~Come with me to the Umar Hills.~
+@73  = ~We'll go to this Keep outside the city.~
+@74  = ~Follow me, and we will go to the Windspear Mountains.~
+@75  = ~We'll go down to one of the tombs under the Graveyard District to cast the spell.  Come on.~
+@76  = ~That sounds like a safer spot.  Let's go.~
+@77  = ~If you figure it out, let me know.~
+@78 = ~Lost Inheritance
+
+Today I met a troubled young man by the name of Ryberg.  He told me how his uncle has recently passed, and due to the fat-cats in Athkatla's city Government, he isn't able to find where his deceased uncle hid the money.  Ryberg asked me to find a way to bring his Uncle back, in the hopes that he would be able to speak with his uncle's soul to find the money.~
+@79 = ~Lost Inheritance?
+
+I returned to find Ryberg in a worried state.  I was able to get a scroll to summon the spirit of his Uncle, and Ryberg had a brief conversation with his dead uncle.  Unfortunately, Ryberg's uncle was not particularly forthcoming about the location of his money.  I told Ryberg I would try to figure out the riddle, but there were not many clues.
+Ryberg's uncle mentioned something about losing sight to gain faith, as well as something about the meaning of life, in the form of a metaphor of a bridge.  I will have to think of where the money could be with those clues.~
+@80 = ~Lost Inheritance Recovered
+
+I was finally able to find Ryberg's deceased uncle's money, and returned it to him.  Ryberg was so pleased with my work that he split the funds with me, keeping half of the 26,000 gold pieces for himself and giving me the rest.~
+@81 = ~Searching For "Over Spiritus"
+
+The mage I met some time ago up in the village of Soubar is on holiday here in Athkatla, and he was looking for a volume about the afterlife.  He promised that if I could find him a copy of the book "Over Spiritus", he would trade a scroll with the spell Speak With Dead for it.~
+@82 = ~Found "Over Spiritus"
+
+I found the book that the mage Ceeb was looking for.  I'll have to return to the Docks to give the book to him.~

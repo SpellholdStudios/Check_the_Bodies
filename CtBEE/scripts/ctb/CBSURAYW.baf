@@ -1,0 +1,35 @@
+IF
+	Global("CbWeddingDialogPartOne","AR0504",19)
+	Global("CbWeddingQuestStarts","GLOBAL",5)
+	Global("CbSurayahInitiatesOnce","LOCALS",0)
+	See([GOODCUTOFF])
+THEN
+	RESPONSE #100
+		Wait(12)
+		MoveToObject(LastSeenBy(Myself))
+		StartDialogueNoSet(LastSeenBy(Myself))
+END
+
+IF
+	Global("CbSurayahGetsMarried","GLOBAL",3)
+	Global("CbWeddingQuestStarts","GLOBAL",7)
+THEN
+	RESPONSE #100
+		EscapeArea()
+END
+
+IF
+	GlobalGT("AnomenDecide","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
+	Dead("Surayah") // Surayah
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+

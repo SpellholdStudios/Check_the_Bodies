@@ -1,0 +1,22 @@
+IF
+	Global("ImoenLibrary","AR0602",1)
+	Global("TeleportChores","AR0602",0)
+	Gender(Player1,MALE)
+THEN
+	RESPONSE #100
+		SetGlobal("TeleportChores","AR0602",1)
+		StartCutSceneMode()
+		StartCutScene("CBNEWGMM")
+END
+
+IF
+	Global("ImoenLibrary","AR0602",1)
+	Global("TeleportChores","AR0602",0)
+	Gender(Player1,FEMALE)
+THEN
+	RESPONSE #100
+		SetGlobal("TeleportChores","AR0602",1)
+		StartCutSceneMode()
+		StartCutScene("CBNEWGMF")
+END
+

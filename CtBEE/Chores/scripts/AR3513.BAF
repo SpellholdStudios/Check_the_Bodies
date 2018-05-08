@@ -1,0 +1,41 @@
+IF
+    	Global("CbTimerSet","AR3513",0)
+	Global("CbSarevokCutsceneStart","AR3513",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CbTimerSet","AR3513",1)
+        SetGlobalTimer("CbKillSarevok","AR3513",50)
+	ApplySpell(Player1,WIZARD_HOLD_PERSON)
+END
+
+IF
+    	GlobalTimerExpired("CbKillSarevok","AR3513")
+	Global("CbSarevokCutsceneStart","AR3513",1)
+	Global("CbCutSceneArea3513","GLOBAL",1)
+	Global("CbCowsFed","GLOBAL",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CbSarevokCutsceneStart","AR3513",2)
+        Kill("CBSRVDED")
+        Wait(5)
+        FadeToColor([20.0],0)
+        Wait(1)
+        StartCutSceneMode()
+        StartCutScene("CBCT3515")
+END
+
+IF
+    	GlobalTimerExpired("CbKillSarevok","AR3513")
+	Global("CbSarevokCutsceneStart","AR3513",1)
+	Global("CbCutSceneArea3513","GLOBAL",1)
+	Global("CbCowsFed","GLOBAL",0)
+THEN
+    RESPONSE #100
+        SetGlobal("CbSarevokCutsceneStart","AR3513",2)
+        Kill("CBSRVDED")
+        Wait(5)
+        FadeToColor([20.0],0)
+        Wait(1)
+        StartCutSceneMode()
+        StartCutScene("CBCT3500")
+END

@@ -1,0 +1,44 @@
+IF
+	Allegiance(Myself,ENEMY)
+	!StateCheck(Myself,STATE_CHARMED)
+	HasItem("IMOENHP1",Myself) // Imoen's Belt
+THEN
+	RESPONSE #100
+		DestroyItem("IMOENHP1") // Imoen's Belt
+END
+
+IF
+	HPLT(Myself,15)
+	!HasItem("CBCO8HP1",Myself)
+	HasItem("POTN52",Myself) // Potion of Extra Healing
+THEN
+	RESPONSE #100
+		UseItem("POTN52",Myself) // Potion of Extra Healing
+END
+
+IF
+	HPLT(LastTargetedBy(Myself),1)
+THEN
+	RESPONSE #100
+		ClearActions(Myself)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Range(LastSeenBy(Myself),12)
+THEN
+	RESPONSE #100
+		EquipItem("CBPSXBOW")
+		AttackReevaluate(LastSeenBy(Myself),12)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(LastSeenBy(Myself),12)
+THEN
+	RESPONSE #100
+		EquipItem("CBPSBSWD")
+		AttackReevaluate(LastSeenBy(Myself),12)
+END
+
+

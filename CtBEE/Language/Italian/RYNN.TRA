@@ -1,0 +1,73 @@
+@1   = ~Non sembra che hai scelto per chi parteggiare nella nostra lotta. Uccidi alcuni serpenti, e forse la Secessione ti concederà la sua attenzione.~
+@2   = ~Quindi decidi se stare con la Casa Extaminos, o con la Secessione. Quando avrai deciso ed inizierai a sterminare quei serpenti sanguinari, fammelo sapere.~
+@3   = ~Se decidessi di unirti con la Secessione, sappi che i serpenti hanno messo una taglia di 500 monete d'oro su ogni membro della Secessione. In questo caso ti dovrai guardare le spalle.~
+@4   = ~Non tradirò nessuno dei miei patrioti per la Casa. Non so da quale parte stai. Ma aiuta gli Yuan-ti e sarai mio nemico. Scegli noi e forse ne potremo parlare.~
+@5   = ~Allora, io mi chiamo Rynn, e tu pensi di avere quello che serve per unirti alla Secessione?~
+@6   = ~Si, penso di avere tutto quello che serve. Cosa posso fare?~
+@7   = ~Cos'é questa Secessione di cui parli?~
+@8   = ~Allora tu sei una dei membri della Secessione?~
+@9   = ~Beh, prima che la Secessione possa avere piena fiducia in te devi darne prova.~
+@10  = ~La Secessione dal Serpente. Liberi combattenti che si sforzano di liberare Hlondeth dagli yuan-ti. Forse hai già assistito ad alcune scaramucce contro le truppe di Hlondeth.~
+@11  = ~Per il momento, la sola cosa che abbiamo ottenuto é una taglia sulle nostre teste, quindi se pensi di avere quello che serve per distruggere la Extaminos, dovrai guardarti le spalle ad ogni angolo.~
+@12  = ~Si, ma non dirò i nomi di altri miei compatrioti che ne fanno parte.~
+@13  = ~Allora, bisogna che ci mostri quello che sai fare prima di ottenere la nostra fiducia. Dimostraci che sei degno della nostra fiducia, e noi ti daremo un'opportunità di colpire al cuore molti di quei malvagi serpenti.~
+@14  = ~Ecco la tua prima missione. Conosci il Tempio di Mystra di Hlondeth? Dovrai prendere una cassa che si trova là da qualche parte, sarà chiusa ma dovresti essere in grado di trasportarla qui senza alcuna difficoltà. E' una cassa particolare, la riconoscerai appena la vedrai. C'è il simbolo dorato di un serpente. Vai e ritorna quando avrai la cassa.~
+@15  = ~Senza la cassa, non avrai la nostra fiducia. Portami la cassa e dirò al capo della Secessione dal Serpente di contattarti.~
+@16  = ~Bene, sei stato in grado di portarmi la cassa. Ottimo lavoro. Adesso dammela.~
+@17  = ~Ora ascolta. Hai appena eseguito un semplice incarico, ma i miei compatrioti sono felici del risultato. Questa cassa ci aiuterà a finanziare la nostra organizzazione.~
+@18  = ~Qualcuno é soddisfatto del tuo lavoro, e vuole incontrarti. Lui si nasconde nella città - Extaminos ha messo una taglia sulla sua testa di 10,000 monete d'oro. Lui si chiama Astinar ed è il capo della Secessione dal Serpente. I serpenti della Casa lo conoscono bene. Sarà difficile per te riuscire a trovarlo, ma non preoccuparti. Sarà lui a trovarti quando sarà certo di essere al sicuro.~
+@19  = ~Lui ha una chiave della casa dove dimorano gli yuan-ti, e tu dovrai avere quella chiave in modo tale da poterti infiltrare nella Casa.~
+@20  = ~Non preoccuparti. Il capo del nostro movimento ti troverà in tempo. Sono sicura che ci sarà una ragione se rimane nascosto, ma rimani nei paraggi della città. Lui ti troverà quando sarà certo di essere al sicuro.~
+@21  = ~Allora? Hai preso la chiave?~
+@22  = ~No, ma abbiamo incontrato Astinar. Vuole che vieni con noi - ovviamente per 'tenerci sott'occhio' - quando attaccheremo i Serpenti. Allora vieni?~
+@23  = ~Darei la mia vita per cacciare quei disgustosi serpenti da Hlondeth. Se Gonthril vuole che faccia da bambinaia, lo farò. Cerchiamolo e prendiamo la chiave. Dobbiamo attaccare Extaminos il più presto possibile.~
+@24  = ~<CHARNAME>, hai già fatto la tua scelta, ma devi sapere che siamo sul punto di scrivere una pagina di storia. Noi ci libereremo dal controllo della Casa, incerti su quello che succederà in futuro. Credo - e lo credo davvero - che noi cambieremo in meglio la vita di tutti. Ma ora è arrivato il momento. Dobbiamo cacciare i serpenti per liberare Hlondeth, poi Astinar ci troverà.~
+@25  = ~Ce l'abbiamo fatta, <CHARNAME>. Hlondeth é vicina alla libertà. Spero che abbiamo agito bene.  Gonthril deve avere al più presto la notizia, devo andare subito a cercarlo per dirglielo. Grazie per il tuo aiuto, <CHARNAME>.~
+@26 = ~Stufato Di Serpente 
+
+   Rynn é sul punto di prendere contatto con il capo della Secessione, che si vuole incontrare con me in città. Dal momento che c'è una taglia molto alta sulla sua testa, Astinar deve rimanere nascosto. Sono sicuro che mi troverà, ma dovrò tenere gli occhi ben aperti. Quando lo incontrerò, dovrei ottenere una chiave che si suppone possa aprire la Casa Extaminos.~
+@27 = ~Stufato Di Serpente 
+
+   L'assalto alla Casa Extaminos si é rivelato essere qualcosa di più di una semplice distruzione di serpenti. Ho preso Rynn con me, e mi ha assicurato che Astinar ci troverà. Spero di non avere una taglia sulla mia testa.~
+@28 = ~Stufato Di Serpente 
+
+   Astinar ci ha dato la chiave della Casa Extaminos. Attaccheremo al più presto e Hlondeth sarà così liberata dagli yuan-ti.~
+@29 = ~Stufato Di Serpente 
+
+   Rynn, sembrerebbe far parte di un gruppo clandestino di Hlondeth, credo di poter aiutare lei e la cosi detta Secessione dai Serpenti di cui è affiliata ad assalire la Casa Extaminos. Non sono sicuro se sia una buona cosa, intromettersi nelle faccende del governo di una città, ma le persone qui non sono particolarmente felici del modo con cui gli Yuan-Ti stanno governando la città. Ad ogni modo se voglio aiutare la Secessione, Rynn mi ha chiesto di eseguire un incarico, di andare a prendere una cassa che si presume sia tenuta nel Tempio di Mystra ad Hondleth. Io non so dove sia, ma andare il tempio potrebbe essere un buon punto di partenza per iniziare a cercare.~
+@30 = ~Stufato Di Serpente 
+
+Finalmente ho trovato Gonthril Astinar ad Hlondeth. Abbiamo parlato brevemente, le mie intenzioni sono quelle di aiutare la Secessione ad eliminare la Casa Extaminos. Lui ha acconsentito a fornirmi la chiave per la fortezza, a patto che io prenda con me Rynn, un membro della Secessione contro i Serpenti - sono sicuro che lo ha fatto per essere certo che io non lo tradissi - quindi credo che troverò la donna che si chiama Rynn al ritorno nel negozio di Valiant. Astinar mi ha detto che una volta che mi sarò incontrato con lei, lui mi ricontatterà di nuovo in città.~
+@31 = ~Stufato Di Serpente 
+
+   Gli yuan-ti della Casa Extaminos sono morti. Non posso sapere, adesso, quali siano le conseguenze per la città. Tuttavia la politica della regione ne sarà influenzata, e di sicuro io non voglio essere coinvolto in una eventuale guerra civile. Rynn é andata a cercare Astinar, e, se voglio, per me é giunto il momento di lasciare la città.~
+@32 = ~<CHARNAME>, temo che potremmo incappare in qualcosa in cui non dovremmo intrometterci se deciderai di schierarti con la Casa Extaminos. Questi giochi di potere politico, <CHARNAME>, li conosco benissimo e noi dovremmo lasciarli stare. Aiutare la Secessione, invece, non é la nostra guerra, però è una nobile causa.~
+@33 = ~Questi viscidi serpenti non piacciono né a Boo e né a Minsc.~
+@34 = ~Questi difensori della libertà hanno bisogno di una buona lama e di un pò di birra forte nanica per lavare e pulire il fetore dei serpenti, non credi, mio valoroso amico?~
+@35 = ~Credo che questi difensori della libertà hanno bisogno di una buona lama.~
+@36 = ~Siccome c'è sempre tempo per una birra nanica, io sono pronto per uccidere. Giocherò al gatto e al topo con il mio martello.~
+@37 = ~Io dico di uccidere quegli yuan-ti anche senza birra nanica.~
+@38 = ~Qualsiasi sia la nostra decisione, <CHARNAME>, questa faccenda richiede un pò di attenzione. Pensaci bene, davvero vuoi farti coinvolgere in questioni politiche locali le cui conseguenze potrebbero farsi sentire fino alla lontana Cormyr e i cui risultati comunque non ti interessano?~
+@39 = ~Ti prego, <CHARNAME>, pensaci su.~
+@40 = ~Un incarico facile, amica mia. Ma dimmi, Rynn, cosa ci dovremmo fare con questa cassa?~
+@41 = ~Forse sei diventato cieco, paladino. O forse il tuo cuore é diventato candido e ingenuo. Se questa cassa che dobbiamo prendere é così particolare, come dice questa donna, allora credo che dovrebbe essere un forziere d'oro o contenente qualcosa di prezioso. Oppure al suo interno ci sono dei soldi per aiutare la loro causa. Giusto?~
+@42 = ~Quindi Rynn vuole utilizzare i soldi degli Yuan-ti contro loro stessi?  Io ci sto! Andiamo a prendere questa cassa, <CHARNAME>!~
+@43 = ~Che importa, Kelly? Andiamo a prendere la cassa e vediamo cosa c'é dentro!~
+@44 = ~Vuoi che ti dimostriamo il nostro valore? Sciocca abbil! Cerchi di salvare Hlondeth dal suo misero stato, tuttavia ti occupi di provare il valore di coloro che potrebbero aiutarti. Non sembri saggia, o comunque.... non sei in grado di sapere quel tanto che basta per rovesciare la Casa Extaminos.~
+@45 = ~Folle drow! Massacreresti la gente di Hlondeth se noi ti lasciassimo libera di farlo. Potrebbero esserci dei soldi nella cassa, <CHARNAME>. Soldi di cui ha bisogno la gente.~
+@46 = ~Ok, <CHARNAME>. Andiamo a prendere questa cassa di cui parla, e vediamo cosa possiamo fare per aiutare Hlondeth.~
+@47 = ~Come se non fosse ovvio. Il contenuto della cassa sarà diviso tra coloro che ne avranno più bisogno: la gente oppressa di Hlondeth, come anche, una parte del contenuto, andrà a finanziare l'attività della Secessione dal Serpente contro gli yuan-ti.~
+@48 = ~Non é stata solo una mia idea quella di rovesciare la Casa Extaminos, ma anche degli altri. Ora, se hai finito di insultare me e la Secessione, andate e trovate la cassa.~
+@49 = ~Hai ragione, elfa oscura. La maggior parte dei soldi che noi crediamo siano contenuti nella cassa saranno utilizzati per aiutare la gente di Hlondeth, ma una parte anche a finanziare la nostra causa.~
+@50 = ~Sei un tipo deciso, halfling. Ritornate da me quando avrete la cassa.~
+@51 = ~Halfling, visto quello che si dice della tua razza, neanche una moneta d'oro dovrà mancare da quella cassa.  Ritorna quando l'avrete, e speriamo di non doverti mettere sottosopra per vedere se uscirà qualcosa dalle tue tasche, mia piccola amica.~
+@52 = ~L'elfa oscura ha ragione ad evidenziare i miei limiti. Ma non tutto quello che prendiamo sarà per noi. Credo che il denaro che troveremo nella cassa sarà utilizzato sia per aiutare la nostra causa e sia per aiutare la gente di Hlondeth.~
+@53 = ~Io... Io credo che sia meglio andare a cercare quest'uomo di cui parla Rynn. Potrebbe essere pericoloso per noi... er, cioè, potremmo finire con una taglia sulla nostra testa se la Casa viene a conoscenza che noi stiamo aiutando la Secessione.~
+@54 = ~Bene, che la Signora della Fortuna ci sorrida. Credo che sarebbe meglio per noi tirarci fuori da questa faccenda e continuare i nostri affari come se niente sia successo, <CHARNAME>, sicuramente l'uomo di cui parla Rynn ci troverà a suo tempo.~
+@55 = ~Assurdità. Tutte assurdità. Se sei interessato a cacciare dalla città i suoi governanti, allora bene. Noi li cacceremo con la forza, e lasceremo i dettagli ai bardi e ai romantici.~
+@56 = ~Mi dispiace, <CHARNAME>. Sono stata fin troppo a lungo silenziosa su questa faccenda. Dirò solo una cosa e ascoltami bene. Se tu non aiuterai la Secessione nel loro tentativo di sbarazzarti della Casa Extaminos della città di Hlondeth, le donne e i bambini moriranno di fame nelle strade e gli uomini non avranno più di che vivere, tutti quegli yuan-ti si preoccupano solo di acquisire più potere e ricchezze. Opponiti a quest'ingiustizia, <CHARNAME>, ma fallo con saggezza e con attenzione.~
+@57 = ~<CHARNAME>, conosci il mio passato. Noi arpisti abbiamo sempre provato a mantenere una certa distanza dalla politica interna di una nazione o città-stato, ma tuttavia, in qualche maniera, nel mio cuore so che noi dobbiamo cacciare da Hlondeth gli Extaminos. Ma, cercare qualcuno che ha una taglia sulla testa - una grossa taglia - non é affatto facile, soprattutto se desidera non essere visto. Andiamo, abbiamo parlato abbastanza. Ci attende del lavoro.~
+@58 = ~Ci hai fatto fare una nobile azione, <CHARNAME>. Spero solo che abbiamo fatto la cosa giusta.~
+@59 = ~Boo é d'accordissimo con <CHARNAME>. Guarda! Sorride e squittisce con approvazione.~
+@60 = ~Non ha importanza gli eventi che deriveranno da tutto ciò, <CHARNAME>, ricorda che tutto prima o poi riprenderà il suo equilibrio.~
+@61 = ~Ti lascio con questo pensiero finale, <CHARNAME>. Avrai notato che al primo piano del loro quartier generale c'é una scala che conduce verso il basso. Sotto ci sono delle vecchie rovine, tenute dagli yuan-ti. Se vuoi puoi esplorarle ma a tuo rischio e pericolo, io non ti seguirò laggiù. Buona fortuna, <CHARNAME>.~

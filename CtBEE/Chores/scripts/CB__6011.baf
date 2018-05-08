@@ -1,0 +1,16 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		SmallWait(10)
+		ActionOverride("CBGORCLD",EscapeAreaDestroy(0))
+		Polymorph(CLERIC_FEMALE_ELF)
+		Wait(2)
+		MultiPlayerSync()
+		StartCutScene("CBCT3510")
+END
+
+

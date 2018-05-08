@@ -1,0 +1,19 @@
+IF
+    Global("CbImoenPlayed","AR3500",1)
+    See(Player1)
+    Range(Player1,25)
+THEN
+    RESPONSE #100
+	SetGlobal("CbImoenPlayed","AR3500",2)
+        StartDialogueNoSet(Player1)
+END
+
+IF
+    Global("CbImoenPlayed","AR3500",6)
+THEN
+    RESPONSE #100
+        Wait(4)
+        SetGlobal("CbImoenPlayed","AR3500",0)
+        JumpToPoint([2931.607])
+END
+

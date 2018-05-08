@@ -1,0 +1,19 @@
+IF
+	GlobalGT("CbTaxAnnouncement","GLOBAL",2)
+THEN
+	RESPONSE #100
+		EscapeArea()
+END
+
+IF
+	Delay(12)
+THEN
+	RESPONSE #33
+		DisplayStringHead(Myself,@550139)
+	RESPONSE #33
+		DisplayStringHead(Myself,@550140)
+	RESPONSE #34
+		DisplayStringHead(Myself,@550141)
+END
+
+

@@ -1,0 +1,74 @@
+IF
+	HPPercentLT(Myself,50)
+	XPLT(Player1,400000)
+	Global("Cb_ZannasterInTrouble","LOCALS",0)
+	Global("CbZannasterHealed","LOCALS",3)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannasterInTrouble","LOCALS",1)
+		CreateCreatureOffScreen("CBC8CTF2",0)
+		CreateCreatureOffScreen("CBC8CTF2",0)
+		CreateCreatureOffScreen("CBC8CTM2",0)
+END
+
+IF
+	HPPercentLT(Myself,50)
+	XPGT(Player1,399999)
+	XPLT(Player1,1000000)
+	Global("Cb_ZannasterInTrouble","LOCALS",0)
+	Global("CbZannasterHealed","LOCALS",3)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannasterInTrouble","LOCALS",1)
+		CreateCreatureOffScreen("CBC8CTF2",0)
+		CreateCreatureOffScreen("CBC8CTF2",0)
+		CreateCreatureOffScreen("CBC8CTF2",0)
+		CreateCreatureOffScreen("CBC8CTF2",0)
+		CreateCreatureOffScreen("CBC8CTM2",0)
+END
+
+IF
+	HPPercentLT(Myself,50)
+	XPGT(Player1,999999)
+	XPLT(Player1,2000000)
+	Global("Cb_ZannasterInTrouble","LOCALS",0)
+	Global("CbZannasterHealed","LOCALS",3)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannasterInTrouble","LOCALS",1)
+		CreateCreatureOffScreen("CBC8CTF3",0)
+		CreateCreatureOffScreen("CBC8CTF3",0)
+		CreateCreatureOffScreen("CBC8CTF3",0)
+		CreateCreatureOffScreen("CBC8CTF3",0)
+		CreateCreatureOffScreen("CBC8CTM3",0)
+		CreateCreatureOffScreen("CBC8CTL3",0)
+END
+
+IF
+	HPPercentLT(Myself,50)
+	XPGT(Player1,1999999)
+	Global("Cb_ZannasterInTrouble","LOCALS",0)
+	Global("CbZannasterHealed","LOCALS",3)
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_ZannasterInTrouble","LOCALS",1)
+		CreateCreatureOffScreen("CBC8CTF3",0)
+		CreateCreatureOffScreen("CBC8CTF3",0)
+		CreateCreatureOffScreen("CBC8CTF3",0)
+		CreateCreatureOffScreen("CBC8CTF3",0)
+		CreateCreatureOffScreen("CBC8CTF3",0)
+		CreateCreatureOffScreen("CBC8CTF3",0)
+		CreateCreatureOffScreen("CBC8CTM3",0)
+		CreateCreatureOffScreen("CBC8CTM3",0)
+		CreateCreatureOffScreen("CBC8CTL3",0)
+		CreateCreatureOffScreen("CBC8CTL4",0)
+		CreateCreatureOffScreen("CBC8CTU3",0)
+		CreateCreatureOffScreen("CBC8CTU3",0)
+		CreateCreatureOffScreen("CBC8CTU3",0)
+		CreateCreatureOffScreen("CBC8CTU3",0)
+		CreateCreatureOffScreen("CBC8CTU3",0)
+		CreateCreatureOffScreen("CBC8CTC3",0)
+		CreateCreatureOffScreen("CBC8CTC3",0)
+END
+
+

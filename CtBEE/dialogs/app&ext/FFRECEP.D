@@ -1,0 +1,104 @@
+ADD_TRANS_TRIGGER FFRECEP 1
+~False()~ DO 1
+
+ADD_TRANS_TRIGGER FFRECEP 1
+~False()~ DO 2
+
+ADD_STATE_TRIGGER FFRECEP 5
+~!GlobalTimerNotExpired("CbPlayTimersReset","GLOBAL")~
+
+ADD_STATE_TRIGGER FFRECEP 6
+~!GlobalTimerNotExpired("CbPlayTimersReset","GLOBAL")~
+
+EXTEND_BOTTOM FFRECEP 1
+  IF ~Global("PlayOver","AR0510",0)~ THEN REPLY #29880 GOTO 3
+  IF ~Global("PlayOver","AR0510",1)~ THEN REPLY #29880 GOTO CB_4
+  IF ~Global("PlayOver","AR0510",2)~ THEN REPLY #29880 GOTO CB_5
+  IF ~Global("PlayOver","AR0510",3)~ THEN REPLY #29880 GOTO CB_6
+  IF ~Global("PlayOver","AR0510",4)~ THEN REPLY #29880 GOTO CB_7
+  IF ~Global("PlayOver","AR0510",5)~ THEN REPLY #29880 GOTO CB_8  //NoName
+  IF ~~ THEN REPLY #29875 GOTO 4
+END
+
+APPEND FFRECEP 
+IF ~~ THEN BEGIN CB_4
+  SAY @16
+  IF ~PartyGoldGT(4)
+~ THEN REPLY #29883 DO ~SetGlobal("CbScreening_Spellfire","AR0510",1)
+TakePartyGold(5)
+~ GOTO 2
+  IF ~~ THEN REPLY #29884 DO ~SetGlobal("CbScreening_Spellfire","AR0510",1)~ GOTO 2
+  IF ~~ THEN REPLY #29875 GOTO 4
+END
+END
+
+APPEND FFRECEP 
+IF ~~ THEN BEGIN CB_5
+  SAY @17
+  IF ~PartyGoldGT(4)
+~ THEN REPLY #29883 DO ~SetGlobal("CbScreening_TisPity","AR0510",1)
+TakePartyGold(5)
+~ GOTO 2
+  IF ~~ THEN REPLY #29884 DO ~SetGlobal("CbScreening_TisPity","AR0510",1)~ GOTO 2
+  IF ~~ THEN REPLY #29875 GOTO 4
+END
+END
+
+APPEND FFRECEP 
+IF ~~ THEN BEGIN CB_6
+  SAY @18
+  IF ~PartyGoldGT(4)
+~ THEN REPLY #29883 DO ~SetGlobal("CbScreening_MacParody","AR0510",1)
+TakePartyGold(5)
+~ GOTO 2
+  IF ~~ THEN REPLY #29884 DO ~SetGlobal("CbScreening_MacParody","AR0510",1)~ GOTO 2
+  IF ~~ THEN REPLY #29875 GOTO 4
+END
+END
+
+APPEND FFRECEP 
+IF ~~ THEN BEGIN CB_7
+  SAY @19
+  IF ~PartyGoldGT(4)
+~ THEN REPLY #29883 DO ~SetGlobal("CbScreening_Pirates","AR0510",1)
+TakePartyGold(5)
+~ GOTO 2
+  IF ~~ THEN REPLY #29884 DO ~SetGlobal("CbScreening_Pirates","AR0510",1)~ GOTO 2
+  IF ~~ THEN REPLY #29875 GOTO 4
+END
+END
+
+APPEND FFRECEP 
+IF ~~ THEN BEGIN CB_8
+  SAY @20
+  IF ~PartyGoldGT(4)
+~ THEN REPLY #29883 DO ~SetGlobal("CbScreening_NoName","AR0510",1)
+TakePartyGold(5)
+~ GOTO 2
+  IF ~~ THEN REPLY #29884 DO ~SetGlobal("CbScreening_NoName","AR0510",1)~ GOTO 2
+  IF ~~ THEN REPLY #29875 GOTO 4
+END
+END
+
+ADD_TRANS_TRIGGER FFRECEP 5
+~False()~ DO 1
+
+ADD_TRANS_TRIGGER FFRECEP 5
+~False()~ DO 2
+
+EXTEND_BOTTOM FFRECEP 5
+  IF ~Global("PlayOver","AR0510",0)~ THEN REPLY #29880 GOTO 3
+  IF ~Global("PlayOver","AR0510",1)~ THEN REPLY #29880 GOTO CB_4
+  IF ~Global("PlayOver","AR0510",2)~ THEN REPLY #29880 GOTO CB_5
+  IF ~Global("PlayOver","AR0510",3)~ THEN REPLY #29880 GOTO CB_6
+  IF ~Global("PlayOver","AR0510",4)~ THEN REPLY #29880 GOTO CB_7
+  IF ~Global("PlayOver","AR0510",5)~ THEN REPLY #29880 GOTO CB_8  //NoName
+  IF ~~ THEN REPLY #29875 GOTO 4
+END
+
+APPEND FFRECEP 
+IF ~!GlobalTimerExpired("CbPlayTimersReset","GLOBAL")~ THEN BEGIN CB_22
+  SAY @21
+  IF ~~ THEN EXIT
+END
+END

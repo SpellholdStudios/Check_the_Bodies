@@ -1,0 +1,133 @@
+@3   = ~Tatsächlich hörte ich, dass Ihr einige ziemlich gute Waffen schmieden könnt. Ich fragte mich, ob Ihr das mit allen Silber- oder Metallarbeiten könnt, oder nur mit Waffen.~ 
+@5   = ~Ihr müsst etwas für mich tun, guter Cromwell. Dieses Artefakt muss für mich zerstört werden. Es ist von großem Übel, und darf nicht gefunden werden. Nehmt es, nehmt es und zerstört es.~
+@38  = ~Hmmm. Was ist denn das? Die Schuppe irgendeiner Bestie, oder?~ 
+@40  = ~Was würde mich das kosten?~
+@41  = ~Nein, ich glaube nicht. Habe ich sonst noch was Nützliches bei mir?~ 
+@89  = ~Das klingt vielversprechend. An die Arbeit.~
+@90  = ~Nein, ich glaube nicht. Habe ich sonst noch was Nützliches bei mir?~
+@91  = ~Nein, kein Interesse. Ich denke, es ist besser, wenn ich gehe.~ 
+@99  = ~Ja, Ihr habt die Schuppen eines Blauen Drachen gesammelt. Beim Seelenschmied, diese müssen hart erkämpft sein! Aus den Schuppen könnt' ich Euch eine wunderschöne Rüstung machen, wenn Ihr wollt.~
+@100 = ~Zwei Dinge, mein Freund. Zunächst einmal 8000 Goldmünzen für die Arbeit und keinen Heller weniger. Und weil mein Lehrling nicht da ist, müsst Ihr zwei Tage lang hier bleiben und das Feuer anheizen.~ ~Zwei Dinge, meine Freundin. Zunächst einmal 8000 Goldmünzen für die Arbeit und keinen Heller weniger. Und weil mein Lehrling nicht da ist, müsst Ihr zwei Tage lang hier bleiben und das Feuer anheizen.~ 
+@101 = ~Gewiss, mein Freund, das kann ich tun. Mein Vater bildete mich in der Kunst aus und ich kann fast alles schmieden, vom Löffel bis zur Statue.~
+@102 = ~Klingt für mich, als ob Ihr etwas Hübsches haben wollt. Ja, Ihr habt Pläne geschmiedet, würde ich wetten. Was soll ich für Euch machen?~
+@103 = ~Eine Krone. Ich brauche eine Krone, die beinahe wie ein magischer Gegenstand aussieht. Aber ich weiß nicht, wie sie aussieht. Sie wird Hörnerkrone genannt, und sie ist ziemlich selten.~ 
+@104 = ~Wenn Ihr nicht wisst, wie was das verdammte Ding aussieht, wie beim Bart des Clangeddin erwartet Ihr von mir, dass ich sie machen soll?~
+@105 = ~Ich weiß nicht, Cromwell. Aber es ist wirklich wichtig. Es gibt einen Magier, der das Original hat, und er plant, etwas Gefährliches zu tun. Ich muss ihn aufhalten.~ 
+@106 = ~Dann haben wir ein Problem. Habt Ihr irgendwelche anderen Vorstellungen davon, wie man sie herstellt?~
+@107 = ~Alles, was ich weiß, ist, dass es einen Magier gab, der mir ein Rezept gab. Ich muss die Teile finden, und dann soll sie verzaubert werden. Könnt Ihr es tun, wenn ich die Teile finde?~
+@108 = ~Tatsächlich wurde mir erzählt, welche Teile erforderlich wären, um eine Fälschung zu machen, und ich habe sie hier. Denkt Ihr, dass Ihr sie danach fertigen könntet?~
+@109 = ~Ich weiß nicht, mein Freund. Klingt wichtig, und ich würde mein bestes für Euch geben, aber ohne zu sehen, was ich schmieden soll, wäre es unwahrscheinlich, dass irgendjemand durch die Kopie zum Narren gehalten wird.~ ~Ich weiß nicht, meine Freundin. Klingt wichtig, und ich würde mein bestes für Euch geben, aber ohne zu sehen, was ich schmieden soll, wäre es unwahrscheinlich, dass irgendjemand durch die Kopie zum Narren gehalten wird.~ 
+@110 = ~Solange Ihr Euer Bestes gebt, Cromwell, ist es alles, was wichtig ist.~
+@111 = ~Wie Ihr sagt. Stört Euch beim Hinausgehen nicht an der Unordnung, <GIRLBOY>.~ 
+@112 = ~Weiß nicht, <GABBER>. Wir können es versuchen, aber es bedeutet nichts weniger als diesen Magier zum Narren zu halten, über den Ihr sprecht.~ 
+@113 = ~Ganz Recht, aber warum nehmt Ihr nicht dieses Zeug, und lasst es uns versuchen und sehen.~
+@114 = ~Nun, ich weiß nicht, ob es funktionieren wird, und ich will diese nicht vergeuden. Lasst mich sehen, ob ich noch einige weitere Information für Euch über die echte Hörnerkrone finden kann.~ 
+@115 = ~Das ist wahrscheinlich das Beste, <GABBER>. Vielleicht die echte oder ein Bild oder so. Ich muss wissen, wie sie aussieht, um sie so zu schmieden, um jemanden zum Narren zu halten.~
+@116 = ~Wie immer, <GIRLBOY>, stört Euch beim Hinausgehen nicht an der Unordnung.~
+@117 = ~Wenn Ihr Euch dessen sicher seid, werde ich es versuchen. Das bedeutet nichts, wie ich Euch gesagt habe, aber ich werde mein Bestes für Euch tun.~
+@118 = ~Sieht so aus, als ob das, was auch immer Ihr hattet, funktionierte. Scheint, dass diese Krone dem dienen würde, was auch immer Ihr vorhabt, mit diesem Magier zu tun .~
+@119 = ~Danke, Cromwell. Ich hoffe, dass er denkt, dass dies die echte ist.~
+@120 = ~Sieht so aus, als ob das, was auch immer Ihr hattet, nicht funktionierte. Scheint, dass ich entweder mehr von jenen Teilen brauch' oder einen Blick auf die echte Krone. Wenn Ihr wollt, dass ich es wieder versuche, bringt mir die Teile, und ich werde einen weiteren Versuch damit unternehmen.~
+@121 = ~Danke jedenfalls, Cromwell. Ich weiß nicht, was ich dagegen tun werde.~
+@122 = ~Ich fertige normalerweise Kunstwerke aus Silber und Eisen und Stahl und zerstöre keine Dinge. Aber wenn Ihr sagt, dass es zerstört werden muss, kann ich das für Euch tun, mein Freund. Lasst es mich hier sehen.~ ~Ich fertige normalerweise Kunstwerke aus Silber und Eisen und Stahl und zerstöre keine Dinge. Aber wenn Ihr sagt, dass es zerstört werden muss, kann ich das für Euch tun, meine Freundin. Lasst es mich hier sehen.~
+@123 = ~Seht hier. Ein Griff. Das verfluchte Ding ist gebrochen. Wie wollt Ihr das tun?~
+@124 = ~Wozu ist dieses Ding?~
+@125 = ~Cromwell, es ist ein Teil eines Schwertes. Genau genommen einer Mondklinge. Ich will sie wieder herstellen.~
+@126 = ~Eine Mondklinge, sagt Ihr? Wunder hören nie auf! Ich habe so eine seit langer Zeit nicht gesehen. Wie habt Ihr sie zerbrochen?~
+@127 = ~Ich zerbrach sie nicht. Ich muss sie reparieren, weiß aber nicht, was ich brauch, um sie zu reparieren. Ihr etwa?~
+@128 = ~Es gibt nur eine Sache, die verwendet werden kann, um Mondklingen zu schmieden. Persephonium. Ihr müsst einiges aus den Gruben in Eaerlann holen. Ascalhorn baute Persephonium ab, aber die verdammten Dämonen bereiteten dem ein Ende.~
+@129 = ~Ihr  bringt mir Persephonium, so sicher wie der Hammer von Clangeddin bin ich im Stande, die Klinge zu schmieden. Vielleicht hat der Griff auch die Magie behalten, und Ihr hättet tatsächlich eine ansehnliche Elfen-Klinge.~
+@130 = ~Also gut, Cromwell. Ich werde versuchen, etwas Persephonium zu finden. Danke.~
+@131 = ~Schaut her. Ihr habt einen Griff. Er mag gebrochen sein, aber so sicher, wie mein Bart lang ist, weiß ich, was es ist, und wie man es repariert. Ihr habt sogar etwas Metall, um dies wiederzuschmieden! ~
+@132 = ~Das ist der Griff einer Mondklinge, <GABBER>, einer starken Elfen-Klinge. Ich habe nie eine gesehen, die gebrochen ist, aber Ihr habt Persephonium, das einzige Metall, das verwendet werden kann, um die Klinge zu schmieden.~
+@133 = ~Ich weiß nicht, ob Ihr in Eaerlann oder Immerlund wart, und ich verwette meinen Hammer darauf, dass Ihr nicht in Immerdar wart, aber Ihr bekamt das Erz irgendwie.~
+@134 = ~Nun, habt Ihr den Wunsch, diese Klinge wiederzuschmieden?~
+@135 = ~Nun, Mondklingen, überhaupt Elfen-Waffen, sind im Allgemeinen heikle Dinge. Es würde ein paar Tage dauern, um alles vorzubereiten, und Ihr müsstet dann zurückkommen, um mir zu helfen, sie zu schmieden. Mein Lehrling ist in Adbar, und ich werde nicht genug Hilfe bekommen. Es würde Euch auch gute 25.000 Goldstücke kosten für den Gebrauch meiner Schmiede. Wollt Ihr es noch tun?~
+@136 = ~Ja, Cromwell. Hier ist das Gold und Teile. Ich werde in ein paar Tagen zurückkommen und Euch aushelfen.~
+@137 = ~Ja, Cromwell, aber ich habe das Geld im Augenblick nicht. Ich werde damit zurückkommen müssen.~
+@138 = ~Nicht im Augenblick, Cromwell. Vielleicht später.~
+@139 = ~Ihr habt es, <GABBER>. Ich werde bis dahin alles bereit haben.~
+@140 = ~Wenn Ihr genug aufbringt, kommt und sucht mich auf. Ich werde nicht mit den Vorbereitungen beginnen, bevor Ihr nicht das Geld aufbringt.~
+@141 = ~Ja, <GABBER>, wie Ihr wünscht. Aber eine Mondklinge ist etwas, das begehrt ist, und je eher Ihr eine habt, desto besser ist es für Euch.~
+@142 = ~Ich bin mit den Vorbereitungen für das Schmieden Eurer Mondklinge noch nicht fertig. Kommt eine Weile später wieder zurück.~
+@143 = ~Ihr kommt zur recten Zeit, <GABBER>. Alles ist zum Schmieden Eurer Mondklinge bereit. Seid Ihr bereit, mir zu helfen?~
+@144 = ~Ja, Cromwell. Lasst uns damit anfangen.~
+@145 = ~Noch nicht, Cromwell. Gebt mir noch ein paar Stunden.~
+@146 = ~Gewiss, <GABBER>. Hört genau auf meine Anweisungen, damit nicht die Magie versagt....~
+@147 = ~Gewiss, <GABBER>. Eure Zeit läuft, also werde ich so lange warten, wie Ihr braucht.~
+@148 = ~Es ist erledigt, <GABBER>. Die Mondkinge ist vollständig.~
+@149 = ~Ich ehre Euch mit der Klinge, so wie Ihr mich ehrt, indem Ihr mir solch eine enorme Schiedearbeit anvertraut. Danke, <GABBER>.~
+@150 = ~Cromwell, es ist ein Teil eines Schwertes. Genau genommen einer Zaubersang-Klinge. Ich will sie wieder herstellen.~
+@151 = ~Eine Zaubersang-Klinge sagt Ihr? Wunder hören nie auf! Ich habe seit langer Zeit keine gesehen. Wie habt Ihr sie zerbrochen?~
+@152 = ~Ich zerbrach sie nicht. Ich muss sie reparieren, und ich habe etwas Persephonium, um den Griff wieder anzufügen. Könnt Ihr es tun?~
+@153 = ~Es gibt nur eine Sache, die verwendet werden kann, um Zaubersang-Klingen zu schmieden. Persephonium. Ihr müsst einiges aus den Gruben in Eaerlann holen. Ascalhorn baute Persephonium ab, aber die verdammten Dämonen bereiteten dem ein Ende.~
+@154 = ~Ihr  bringt mir Persephonium, so sicher wie der Hammer von Clangeddin bin ich im Stande, die Klinge zu schmieden. Vielleicht hat der Griff auch die Magie behalten, und Ihr hättet tatsächlich eine ansehnliche Elfen-Klinge.~
+@155 = ~Es ist erledigt, <GABBER>. Die Zaubersang-Klinge ist heil.~
+@156 = ~Ja, <GABBER>, schaut, was Ihr hier habt.~
+@157 = ~Ihr habt einen hübschen Stab, aber er ist rau. Muss ein wenig bearbeitet werden. Vielleicht, wenn ich stabile Eiche hätte, könnte ich den Stab für Euch wieder fertig stellen, aber nicht ohne Holz zu haben. Bringt mir etwas Eiche, einen schönen langen Ast, aber wohlgemerkt, er darf keine Knorren  haben, und wir werden ihn für Euch reparieren.~
+@158 = ~Ihr habt etwas stabile Eiche, eine schöne Stange und sie hat nicht einmal Äste. Ich könnte sie in einen hübschen Eichenstab für Euch umarbeiten, aber ich kann es nicht ohne Vorlage machen, auf die ich schauen kann. Bringt mir einen Stab, und so sicher, wie mein Bart nass ist, ich werde ich Euch einen Stab schnitzen um Leuten den Hintern zu verhauen.~
+@159 = ~Ihr habt eine schöne Stange aus fester Eiche, und einen gebrochenen Stab, <GABBER>. Ich könnte ihn für Euch bearbeiten, wenn Ihr mir dabei helfen würdet. Ich kann es ohne Eure Hilfe nicht machen. Was sagt Ihr?~
+@160 = ~Könnt Ihr es für 1000 Goldstücke machen?~
+@161 = ~Nein, Cromwell. Was habe ich noch, mit dem Ihr was anfangen könntet?~
+@162 = ~Sicher, mein Freund. Ich würde es für 1.000 Goldmünzen machen, allerdings nicht für weniger, und Ihr müsst eine Zeit lang bleiben und mir in der Schmiede helfen.~ ~Sicher, meine Freundin. Ich würde es für 1.000 Goldmünzen machen, allerdings nicht für weniger, und Ihr müsst eine Zeit lang bleiben und mir in der Schmiede helfen.~
+@163 = ~Also gut, Cromwell. Macht schon!~
+@164 = ~Wie Ihr wollt. Wir können sofort damit anfangen.~
+@165 = ~Nun, ich denke, wir sind soweit, mein Freund. Ein netter Stab. Geht sorgsam damit um. Und wenn Ihr wieder mal was findet, wisst Ihr ja jetzt, wo Ihr's hinbringen müsst, nicht wahr?~ ~Nun, bitte schön, meine Freundin. Ein netter Stab. Verwendet ihn gut. Und wenn Ihr auf irgend etwas anderes von Interesse stoßt, wisst Ihr ja, wohin Ihr es bringen müsst.~
+@166 = ~Ihr habt eine nette Axt, aber die Klinge ist stumpf. Muss ein wenig bearbeitet werden. Vielleicht, wenn ich etwas Erz hatte, könnte ich sie schärfen und die Kerben für Euch füllen, aber nicht ohne geschmolzenes Erz zu haben. Bringt mir etwas Erz, wohlgemerkt geschmolzenes, aber es darf noch nicht geschmiedet sein, und wir werden sie für Euch reparieren.~
+@167 = ~Ihr habt etwas geschmolzenes Erz, noch dazu eine ganze Menge. Ich könnte das in eine schöne Klingenwaffe für Euch verarbeiten, aber es reicht nicht für eine komplette Klinge, daher kann ich es nicht machen, ohne etwas zu haben, um es hinzuzufügen. Bringt mir eine andere Waffe, und so sicher, wie mein Bart nass ist, werde ich Euch eine richtige Klinge machen, vielleicht eine Axt, um damit Leuten die Köpfe zu spalten.~
+@168 = ~Ihr habt eine nette Axt, aber die Klinge ist stumpf. Und Ihr habt etwas geshmolzenes Erz, <GABBER>. Ich könnte diese beiden für Euch zusammenfügen, wenn Ihr mir dabei helfen wollt. Ich kann es ohne Eure Hilfe nicht machen. Was sagt Ihr?~
+@169 = ~Könnt Ihr es für 10000 Goldstücke machen?~
+@170 = ~Sicher, mein Freund. Ich würde es für 10.000 Goldmünzen machen, allerdings nicht für weniger, und Ihr müsst eine Zeit lang bleiben und mir in der Schmiede helfen.~ ~Sicher, meine Freundin. Ich würde es für 10.000 Goldmünzen machen, allerdings nicht für weniger, und Ihr müsst eine Zeit lang bleiben und mir in der Schmiede helfen.~
+@171 = ~Nun, ich denke, wir sind soweit, mein Freund. Eine nette Axt. Geht sorgsam damit um. Und wenn Ihr wieder mal was findet, wisst Ihr ja jetzt, wo Ihr's hinbringen müsst, nicht wahr?~ ~Nun, ich denke, wir sind soweit, meine Freundin. Eine nette Axt. Geht sorgsam damit um. Und wenn Ihr wieder mal was findet, wisst Ihr ja jetzt, wo Ihr's hinbringen müsst, nicht wahr?~
+@172 = ~Ihr habt einen Hammer-Kopf, aber der Griff fehlt. Benötigt ein wenig Arbeit. Vielleicht, wenn ich etwas hätte, um den Kopf anzufügen, konnte ich den Kriegshammer für Euch schmieden und füllen. Bringt mir einen Griff, dasselbe Metall - Titan, wohlgemerkt, und wir werden ihn für Euch reparieren.~
+@173 = ~Ihr habt einen Titan-Griff, einen schönen noch dazu. Ich könnte diesen für Euch an einem Hammer befestigen, aber Ihr habt keinen Kopf, um ihn darauf zu befestigen, also kann ich es nicht tun. Bringt mir  den Kopf eines Kriegshammers, und so sicher, wie mein Bart nass ist, ich werde ich Euch einen richtigen Kriegshammer schmieden, um Leuten die Köpfe einzuschlagen.~
+@174 = ~Ihr habt einen netten Hammer-Kopf, aber ihm fehlt der Schaft. Aber schaut hier, Ihr habt einen Titan-Griff! <GABBER>, ich könnte diese beiden für Euch zu einem ansehnlichen Kriegshammer zusammenfügen, wenn Ihr mir dabei helfen wollt. Ich kann es ohne Eure Hilfe nicht machen. Was sagt Ihr?~
+@175 = ~Könnt Ihr es für 20.000 Goldstücke machen?~
+@176 = ~Nein, Cromwell, ich denke nicht, dass ich es mir im Moment leisten könnte. Was habe ich noch, mit dem Ihr was anfangen könntet?~
+@177 = ~Sicher, mein Freund. Ich würde es für 20.000 Goldmünzen machen, allerdings nicht für weniger, und Ihr müsst eine Zeit lang bleiben und mir in der Schmiede helfen.~ ~Sicher, meine Freundin. Ich würde es für 20.000 Goldmünzen machen, allerdings nicht für weniger, und Ihr müsst eine Zeit lang bleiben und mir in der Schmiede helfen.~
+@178 = ~Nun, ich denke, wir sind soweit, mein Freund. Ein schwerer Kriegshammer, um diese lästigen Goblins zu Fruchtfleisch zu zertrümmern. Geht sorgsam damit um. Und wenn Ihr wieder mal was findet, wisst Ihr ja jetzt, wo Ihr's hinbringen müsst, nicht wahr?~ ~Nun, ich denke, wir sind soweit, meine Freundin. Ein schwerer Kriegshammer, um diese lästigen Goblins zu Fruchtfleisch zu zertrümmern. Geht sorgsam damit um. Und wenn Ihr wieder mal was findet, wisst Ihr ja jetzt, wo Ihr's hinbringen müsst, nicht wahr?~
+@179 = ~Von Elfen und Artefakten
+
+Ich fand die Gegenstände, von denen Eleanor mir erzählt hat und brachte sie meinem Zwergenfreund Cromwell. Er war im Stande, eine fast exakte Kopie der echten Hörnerkrone zu erschaffen und ich werde mich mit diesem Magier treffen müssen. Hoffentlich fällt er auf den Trick herein.~
+@180 = ~Von Elfen und Artefakten
+
+Ich fand die Teile, die Eleanor mich beauftragte zu sammeln, um eine nachgemachte Hörnerkrone zu erschaffen. Ich brachte sie meinem Freund Cromwell, einem Meister-Handwerker, aber er war außer Stande, ein Duplikat zu erschaffen. Ich werde es ihn entweder noch einmal versuchen lassen, oder einen anderen Weg finden müssen, den Magier davon abzuhalten, Übertragung zu versuchen.~
+@181 = ~Von Elfen und Artefakten
+
+Nachdem sie Waukeens Tempel in Handelstreff verließ, wurde Eleanor von dem Magier angegriffen, von dem sie mir erzählte. Er hatte einige Leibwächter bei sich, aber brauchte sie nicht. Seine Magie war stark, viel zu stark für Eleanor, die von dem Magier in einem ernsthaften Zauber-Kampf um ihr Leben getötet wurde. Ich werde ihr Opfer ehren und es nicht vergebens sein lassen.~
+@182 = ~Von Elfen und Artefakten
+
+Ich hatte eine lange Diskussion mit Eleanor, einer Elfen-Magierin, die sich auf wissenschaftliche Jagd nach alten Artefakten und magischen Gegenständen spezialisiert hat. Sie ist ganz besorgt über die Bestrebungen eines Magiers, der sie angestellt hat, um eine als Übertragung bekannte Theorie zu erforschen, von der ich glaubte, dass sie ein Mythos wäre. Anscheinend hat dieser Magier ein Artefakt erlangt, das ihm erlaubt, ein Übertragungs-Ritual durchzuführen und natürlich infolge dessen weit reichende Vernichtung verursacht. Eleanor flehte meine Hilfe an und hat einen Plan entwickelt, dem bösen Magier einen Strich durch die Rechnung zu machen.
+
+Sie denkt, dass es am besten wäre, eine Dublette des Artefakts zu erschaffen, eines, das harmlos ist. Ich weiß nicht, ob das eine gute Idee ist, aber für den Fall, dass ich solch ein nachgemachtes Artefakt zusammenfügen mag, hat sie mir erzählt, welche Gegenstände ich bräuchte, um solch eine Fälschung zu erschaffen. Die Gegenstände werden gewöhnlich gefunden, und ich würde einen Diamanten, einen Magieabwehrtrank, eine Schriftrolle mit dem Spruch Verzauberte Waffe und irgendeinen Gegenstand brauchen, der Grünstein enthält. Wenn ich diese Gegenstände finde und Eleanor eine Fälschung erschaffen lassen will, sagte sie, dass sie sich mit mir irgendwo in Athkatla in Verbindung setzen würde.
+
+Abgesehen vom Kopieren des Gegenstands erzählte mir Eleanor, wo ich den Magier finden könnte. Ihr wurde gesagt, dass sie sich mit ihm auf einer Wiese in der Nähe vom Wald von Tethyr in Verbindung setzen könnte, wo er ein unterirdisches Laboratorium unterhält, um seine Experiemente durchzuführen. Wenn alles andere misslingt, könnte ich ihn wahrscheinlich dort finden, um seine Versuche zu verhindern, die Lebendskraft von anderen zu stehlen, um sich selbst Göttlichkeit zu verleihen.~
+@183 = ~Von Elfen und Artefakten
+
+Ich hatte eine lange Diskussion mit Eleanor, einer Elfen-Magierin, die sich auf wissenschaftliche Jagd nach alten Artefakten und magischen Gegenständen spezialisiert hat. Sie ist ganz besorgt über die Bestrebungen eines Magiers, der sie angestellt hat, um eine als Übertragung bekannte Theorie zu erforschen, von der ich glaubte, dass sie ein Mythos wäre. Anscheinend hat dieser Magier ein Artefakt erlangt, das ihm erlaubt, ein Übertragungs-Ritual durchzuführen und natürlich infolge dessen weit reichende Vernichtung verursacht. Eleanor flehte meine Hilfe an und hat einen Plan entwickelt, dem bösen Magier einen Strich durch die Rechnung zu machen.
+
+Sie denkt, dass es am besten wäre, eine Dublette des Artefakts zu erschaffen, eines, das harmlos ist. Ich weiß nicht, ob das eine gute Idee ist, aber für den Fall, dass ich solch ein nachgemachtes Artefakt zusammenfügen mag, hat sie mir erzählt, welche Gegenstände ich bräuchte, um solch eine Fälschung zu erschaffen. Die Gegenstände werden gewöhnlich gefunden, und ich würde einen Diamanten, einen Magieabwehrtrank, eine Schriftrolle mit dem Spruch Verzauberte Waffe und irgendeinen Gegenstand brauchen, der Grünstein enthält. Wenn ich diese Gegenstände finde und Eleanor eine Fälschung erschaffen lassen will, sagte sie, dass sie sich mit mir irgendwo in Athkatla in Verbindung setzen würde.
+
+Abgesehen vom Kopieren des Gegenstands erzählte mir Eleanor, wo ich den Magier finden könnte. Ihr wurde gesagt, dass sie sich mit ihm in einem Kerker in der Nähe von den Umar Hügeln in Verbindung setzen könnte, wo er ein Laboratorium unterhält, um seine Experiemente durchzuführen. Wenn alles andere misslingt, könnte ich ihn wahrscheinlich dort finden, um seine Versuche zu verhindern, die Lebendskraft von anderen zu stehlen, um sich selbst Göttlichkeit zu verleihen.~
+@184 = ~Von Elfen und Artefakten
+
+Ich hatte eine lange Diskussion mit Eleanor, einer Elfen-Magierin, die sich auf wissenschaftliche Jagd nach alten Artefakten und magischen Gegenständen spezialisiert hat. Sie ist ganz besorgt über die Bestrebungen eines Magiers, der sie angestellt hat, um eine als Übertragung bekannte Theorie zu erforschen, von der ich glaubte, dass sie ein Mythos wäre. Anscheinend hat dieser Magier ein Artefakt erlangt, das ihm erlaubt, ein Übertragungs-Ritual durchzuführen und natürlich infolge dessen weit reichende Vernichtung verursacht. Eleanor flehte meine Hilfe an und hat einen Plan entwickelt, dem bösen Magier einen Strich durch die Rechnung zu machen.
+
+Sie denkt, dass es am besten wäre, eine Dublette des Artefakts zu erschaffen, eines, das harmlos ist. Ich weiß nicht, ob das eine gute Idee ist, aber für den Fall, dass ich solch ein nachgemachtes Artefakt zusammenfügen mag, hat sie mir erzählt, welche Gegenstände ich bräuchte, um solch eine Fälschung zu erschaffen. Die Gegenstände werden gewöhnlich gefunden, und ich würde einen Diamanten, einen Magieabwehrtrank, eine Schriftrolle mit dem Spruch Verzauberte Waffe und irgendeinen Gegenstand brauchen, der Grünstein enthält. Wenn ich diese Gegenstände finde und Eleanor eine Fälschung erschaffen lassen will, sagte sie, dass sie sich mit mir irgendwo in Athkatla in Verbindung setzen würde.
+
+Abgesehen vom Kopieren des Gegenstands erzählte mir Eleanor, wo ich den Magier finden könnte. Ihr wurde gesagt,  dass sie sich mit ihm in einem Kerker unter den Windspeer Hügeln in Verbindung setzen könnte, wo er ein Laboratorium unterhält, um seine Experiemente durchzuführen. Wenn alles andere misslingt, könnte ich ihn wahrscheinlich dort finden, um seine Versuche zu verhindern, die Lebendskraft von anderen zu stehlen, um sich selbst Göttlichkeit zu verleihen.~
+@185 = ~Von Elfen und Artefakten
+
+Ich habe die magische Nachricht identifiziert und empfangen, die in der Statuette enthalten war, die mir eine Elfin im Brücken-Bezirk gab. Die Stimme, anscheinend die der Elfin, war voller Angst und Schrecken, obwohl sie nicht viele Hinweise darauf gab, auf welches Abenteuer die Elfin anspielte. Alles, was ich weiß, ist, dass die Elfen-Frau in Gefahr sein kann - und sie erwähnt, dass die Schwert-Küste auch in der Gefahr sein könnte - und wenn ich sie in Waukeens Tempel in Handelstreff treffe, versucht sie, mehr zu erklären. Vielleicht werde ich es tun, aber ich möchte lieber zuerst mehr über diese Elfen-Frau wissen.~
+@186 = ~Von Elfen und Artefakten
+
+Während ich durch den Brücken-Bezirk von Athkatla ging, näherte sich mir eine Elfin, die ich nicht kenne, mit großer Beklommenheit. Sie sagte nichts, ließ aber verstohlen eine kleine Statuette in mein Gepäck fallen. Ich weiß nicht, warum, noch weiß ich, was die Statuette für Eigenschaften hat. Ich werde sie untersuchen müssen, und vielleicht führt mich die Elfin zu einem anderen Abenteuer.~
+@187 = ~Von Elfen und Artefakten
+
+Ich fand die Teile, von denen Eleanor sagte, ich solle sie sammeln, um eine nachgemachte Hörnerkrone zu erschaffen. Ich brachte sie meinem Freund Cromwell, einem Meister-Handwerker, aber er war außer Stande, ein Duplikat zu erchaffen. Ich werde es ihn entweder noch einmal versuchen lassen, oder einen anderen Weg finden müssen, den Magier davon abzuhalten, Übertragung zu versuchen.~
+@188 = ~Von Elfen und Artefakten
+
+Ich habe die Hörnerkrone meinem Freund Cromwell gebracht. Er war im Stande, das alte Übel erfolgreich zu zerstören, das die Krone ausmachte, etwas, das zu tun der große Magier Khelben vor Jahren außer Stande war. Der Magier Khaddyr, der Übertragung versuchen wollte, ist keine Bedrohung mehr, und die arme Eleanor, die Elfenfrau, die ich traf, bevor das anfing, kann ganz beruhrigt sein. Noch einmal habe ich, glaube ich, Faerûn vor einer bestimmten Vernichtung gerettet.~
+@189 = ~Von Elfen und Artefakten
+
+Ich habe einen Weg gefunden, den Magier Khaddyr daran zu hindern, sein Übertragungs-Ritual zu vollenden. Was als eine schwer erfüllbare Aufgabe mit einer verängstigten Elfenfrau begann, ist fast abgeschlossen. Ich habe die echte Hörnerkrone wiedererlangt, aber habe noch nicht entschieden, was damit getan werden sollte. Ich könnte ssie behalten, aber sie ist böse und würde weiterhin in Faerûn bestehen. Vielleicht wäre es am besten, wenn die Krone zerstört werden würde.~

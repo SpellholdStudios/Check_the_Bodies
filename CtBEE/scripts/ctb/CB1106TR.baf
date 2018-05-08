@@ -1,0 +1,12 @@
+IF
+	Clicked([ANYONE])
+	Global("CbSpelunking","AR1106",0)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		DisplayStringHead(Myself,@550020)
+		Wait(6)
+		SetGlobal("CbSpelunking","AR1106",1)
+END
+
+

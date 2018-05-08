@@ -1,0 +1,81 @@
+IF
+	!GlobalTimerNotExpired("CbWarCaptainCreateDefend","LOCALS")
+	!See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobal("CbWarCaptainCreateDefend","LOCALS",300)
+		CreateCreature("CBNRT001",[-1.-1],0)
+		CreateCreature("CBNRT002",[-1.-1],0)
+		CreateCreature("CBNRT003",[-1.-1],0)
+		CreateCreature("CBNRT004",[-1.-1],0)
+END
+
+IF
+	Dead("CBNRTLU1")
+	Global("CbLuskanitesRetreat","AR3594",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbLuskanitesRetreat","AR3594",1)
+END
+
+IF
+	HPPercentLT(Myself,30)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		DisplayStringHead(Myself,@550134)
+		Wait(3)
+		DisplayStringHead(Myself,@550135)
+		SetGlobal("CbLuskanitesRetreat","AR3594",1)
+		SetInterrupt(TRUE)
+END
+
+IF
+	Global("CbLuskanitesRetreat","AR3594",1)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		MoveToPointNoInterrupt([4061.998])
+		EscapeAreaNoSee()
+		SetInterrupt(TRUE)
+END
+
+IF
+	OR(6)
+		See([GOODCUTOFF])
+		See("CBNRT001")
+		See("CBNRT002")
+		See("CBNRT003")
+		See("CBNRT004")
+		See("CBNRT005")
+	Exists("CBNRTLU1")
+	!Global("CbLuskanitesAttack","AR3594",1)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),20)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("CbLuskanCaptSawEnemy","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbLuskanCaptSawEnemy","LOCALS",1)
+		ClearActions(Myself)
+END
+
+IF
+	ActionListEmpty()
+	!See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #25
+		MoveToPoint([3867.1672])
+	RESPONSE #25
+		MoveToPoint([1560.2993])
+	RESPONSE #25
+		MoveToPoint([2856.1110])
+	RESPONSE #25
+		MoveToPoint([3525.1998])
+END
+
+

@@ -1,0 +1,10 @@
+IF
+	Global("CbXTThiefStealsFromJysstev","GLOBAL",0)
+	OnCreation()
+THEN
+	RESPONSE #100
+		ContainerEnable("CbCont01",FALSE)
+		ContainerEnable("CbCont02",FALSE)
+		Continue()
+END
+

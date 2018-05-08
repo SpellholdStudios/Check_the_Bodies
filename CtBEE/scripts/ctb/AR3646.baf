@@ -1,0 +1,22 @@
+IF
+	!Contains("CBHLYTAX","Container6")
+	Global("CbContainerEmpty","AR3646",0)
+THEN
+	RESPONSE #100
+		CloseDoor("FakeDoor")
+		Lock("FakeDoor")
+		ContainerEnable("Container6",FALSE)
+		SetGlobal("CbContainerEmpty","AR3646",1)
+END
+
+IF
+	Global("CbContainerEmpty","AR3646",1)
+	Global("kd#ContainerTrick","AR3646",0)
+	Contains("CBHLYTAX","Container6")
+	!PartyHasItem("CBHLYTAX")
+THEN
+	RESPONSE #100
+		SetGlobal("kd#ContainerTrick","AR3646",1)
+	        ActionOverride("Container6",GiveItemCreate("CBHLYTAX",Player1,0,0,0))
+END
+

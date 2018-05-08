@@ -1,0 +1,12 @@
+IF
+	Clicked([ANYONE])
+	Global("CbSpelunking","AR3575",0)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		SetGlobal("CbSpelunking","AR3575",1)
+		CreateCreature("CB3575EX",[380.2059],0)
+		ActionOverride("CB3575EX",StartDialogueNoSet(LastTrigger))
+END
+
+

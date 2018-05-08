@@ -1,0 +1,20 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		DisplayStringHead("CBP4ACT3",@550522)
+		DisplayStringHead("CBP4ACT4",@550522)
+		DisplayStringHead("CBP4ACT5",@550522)
+		DisplayStringHead("CBP4ACT6",@550522)
+		DisplayStringHead("CBP4ACT1",@550522)
+		DisplayStringHead("CBP4ACT2",@550522)
+		DisplayStringHead("CBP4ACT9",@550522)
+		DisplayStringHead("CBP4ACTa",@550522)
+		DisplayStringHead("CBP4ACTb",@550522)
+		DisplayStringHead("CBP4ACTc",@550522)
+		DisplayStringHead("CBP4ACTd",@550522)
+		Wait(6)
+		SetGlobal("CbScreening_Pirates","AR0510",4)
+		ActionOverride("CBP4ACT7",StartDialogNoSet(Player1))
+END

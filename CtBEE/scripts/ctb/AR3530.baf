@@ -1,0 +1,56 @@
+IF
+	PartyRested()
+	Global("Cb_PartyAlliesWith_C_o_8","GLOBAL",2)
+THEN
+	RESPONSE #100
+		ActionOverride("CBARKSLV",Rest())
+		ActionOverride("CBSTTFLW",Rest())
+		ActionOverride("CBLSLNDA",Rest())
+		ActionOverride("CBHREDWN",Rest())
+		ActionOverride("CBTARDTH",Rest())
+		ActionOverride("CBMANARB",Rest())
+		ActionOverride("CBMONDRP",Rest())
+END
+
+IF
+	SpellCast([ANYONE],CLERIC_RAISE_DEAD)
+	OR(1)
+		SpellCast([ANYONE],CLERIC_RESURRECTION)
+	Global("Cb_MannyDied","GLOBAL",1)
+	HasItem("CBCO8HP1","CBMANARB")
+THEN
+	RESPONSE #100
+		SetGlobal("Cb_MannyDied","GLOBAL",0)
+		ActionOverride("CBMANARB",TakeItemReplace("IMOENHP1","CBCO8HP1","CBMANARB"))
+		ActionOverride("CBMANARB",SetGlobalTimer("CbMannyResurrected","LOCALS",120))
+		AddXPObject(Player1,5000)
+		AddXPObject(Player2,5000)
+		AddXPObject(Player3,5000)
+		AddXPObject(Player4,5000)
+		AddXPObject(Player5,5000)
+		AddXPObject(Player6,5000)
+		ReputationInc(1)
+END
+
+IF
+	Global("CbSpawnFightersIn3531","GLOBAL",0)
+	Disarmed("CbPrFlor")
+	Global("CbTurnOfLights","AR3530",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbTurnOfLights","AR3530",1)
+		TriggerActivation("TurnOff",FALSE)
+		StaticStop("TurnOff")
+		Deactivate("TurnOff")
+		DisplayStringNoName(Myself,@550007)
+END
+
+IF
+	GlobalGT("SPRITE_IS_DEAD_CBC8CTM1","GLOBAL",1)
+	Global("CbMarilynSpeaksHere","AR3530",0)
+THEN
+	RESPONSE #100
+		ActionOverride("CBHREDWN",StartDialogueNoSet(Player1))
+END
+
+

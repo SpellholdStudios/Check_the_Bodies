@@ -1,0 +1,53 @@
+IF
+	Global("CbFaceParty","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbFaceParty","LOCALS",1)
+		FaceObject(Player1)
+END
+
+IF
+	GlobalGT("CbBodhiJob","GLOBAL",2)
+	GlobalGT("CbWorkingForBodhi","GLOBAL",2)
+	GlobalGT("CbShadowThievesCapturePC","GLOBAL",1)
+	Exists(Myself)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	HPLT(LastTargetedBy(Myself),1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbShadowThiefPicksWeapon","LOCALS",2)
+		ClearActions(Myself)
+END
+
+IF
+	Allegiance(Myself,NEUTRAL)
+	Global("CbShadowThievesAttack","AR0300",1)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly(Myself,ENEMY)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #25
+		SelectWeaponAbility(SLOT_WEAPON,1)
+		AttackReevaluate(NearestEnemyOf(Myself),45)
+	RESPONSE #25
+		SelectWeaponAbility(SLOT_WEAPON,2)
+		AttackReevaluate(NearestEnemyOf(Myself),45)
+	RESPONSE #25
+		SelectWeaponAbility(SLOT_WEAPON,3)
+		AttackReevaluate(NearestEnemyOf(Myself),45)
+	RESPONSE #25
+		SelectWeaponAbility(SLOT_WEAPON,4)
+		AttackReevaluate(NearestEnemyOf(Myself),45)
+END
+
+

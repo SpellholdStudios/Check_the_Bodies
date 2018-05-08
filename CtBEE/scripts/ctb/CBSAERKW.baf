@@ -1,0 +1,51 @@
+IF
+	Global("CbWeddingQuestStarts","GLOBAL",4)
+	Global("CbSaerkIntiatesWelcome","AR0504",0)
+	See([PC])
+THEN
+	RESPONSE #100
+		Wait(1)
+		SetGlobal("CbSaerkIntiatesWelcome","AR0504",1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("CbSurayahGetsMarried","GLOBAL",4)
+	Global("CbWeddingQuestStarts","GLOBAL",7)
+	Global("CbSaerkIntiatesGetTheHellOut","AR0504",0)
+THEN
+	RESPONSE #100
+		Wait(1)
+		SetGlobal("CbSaerkIntiatesGetTheHellOut","AR0504",1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly([ANYONE],ENEMY)
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	!HasItemEquiped("BLUN07",Myself) // Morning Star +1
+THEN
+	RESPONSE #100
+		EquipItem("PLAT04") // Full Plate Mail
+		EquipItem("SLNG02") // Sling +1
+		EquipItem("BLUN07") // Morning Star +1
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	HasItemEquiped("BLUN07",Myself) // Morning Star +1
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		Attack(NearestEnemyOf(Myself))
+END
+
+

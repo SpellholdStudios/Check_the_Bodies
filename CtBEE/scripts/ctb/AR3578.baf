@@ -1,0 +1,6 @@
+IF
+	Global("CbPartyLeftTheClassDungeon","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPartyLeftTheClassDungeon","GLOBAL",0)
+END

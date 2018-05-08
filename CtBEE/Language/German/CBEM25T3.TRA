@@ -1,0 +1,42 @@
+@1  = ~Es gibt nichts, das ich für Euch an diesem Punkt meiner Reise durch Faerûn tun kann.~ 
+@2  = ~<GABBER>, Ihr seid wahrhaftig ein Geist, der unserer Führung würdig ist, und wir demütigen uns, wenn wir behaupten, Euch zu brauchen, um unsere Aufgaben zu vollenden.~
+@3  = ~Wieder müsst Ihr wählen, <GABBER>. Wir werden Euch weiterhin helfen, aber Ihr müsst Euch entscheiden: Wollt Ihr die erweiterten Anwendungen der Alchemie erlernen, das heißt, starke Elixiere und Heiltränke zusammenbrauen, oder möchtet Ihr lieber die verbesserten Methoden zum Verzaubern von Waffen erlernen oder würdet Ihr es vorziehen, Eure Geschwindigkeit beim Wirken von Zaubern weiter zu verbessern? Denkt gründlich darüber nach, <GABBER>, Eure Wahl ist endgültig.~ 
+@4  = ~Ich glaube, ich würde gerne die Kunst der Alchemie erlernen.~
+@5  = ~Ich wäre Euch sehr dankbar, wenn ihr mich lehren würdet, wie man Waffen verzaubert.~ 
+@6  = ~Bitte unterrichtet mich darin, wie man schneller zaubert.~
+@7  = ~Ich wäre mehr als glücklich, Euch, <GABBER>, zu zeigen, wie man Chemikalien und Pulver mischt, um Tränke zu erzeugen.~
+@8  = ~Danke, <GABBER>, dass Ihr mir erlaubt, Euch die fortgeschritten Methoden der Alchimie zu lehren und mich der Möglichkeit, von Faerûn zu der Elfen Insel abzureisen, einen Schritt näher bringt.~ 
+@9  = ~Ich wäre mehr als glücklich, Euch, <GABBER> die fortgeschrittenen Techniken zu zeigen, um Klingenwaffen zu verzaubern.~
+@10 = ~Danke, <GABBER>, dass Ihr mir erlaubt, Euch zu unterrichten, wie man Klingenwaffen verzaubert, dass sie noch stärker sind. Denkt nur daran, dass Ihr den Gegenstand, den Ihr verzaubern wollt, selbst haben müsst, sonst wird die Verzauberung versagen. Und denkt daran, dass sie nur bei Waffen funktioniert, die Ihr beim Angriff in Eurer Hand haltet, nicht bei irgendetwas, was geworfen werden kann. Ihr habt mir geholfen, mich der Möglichkeit, von Faerûn zu der Insel der Elfen abzureisen, einen Schritt näher zu bringen.~ 
+@11 = ~Ich wäre mehr als glücklich, Euch, <GABBER>, zu zeigen, wie man die Geschwindigkeit beim Wirken von Zaubern verbessert.~
+@12 = ~Danke, <GABBER>, dass Ihr mir die Gelegenheit gabt, Euch zu unterrichten, wie man Zauber schneller und wirkungsvoller wirkt. Ihr habt mir geholfen, mich der Möglichkeit, zu der Insel der Elfen abzureisen, einen Schritt näher zu bringen.~
+@13 = ~Ich bin zufrieden, Euch, <GABBER>, geholfen zu haben. Es gibt eine letzte Aufgabe, die Ihr erst für uns tun müsst, um unsere eigenen Aufgaben zu erfüllen, damit wir Euch bei Eurer Ausbildung weiterhelfen. Seid Ihr bereit?~ 
+@14 = ~Ja, Schwester. Was muss ich tun?~
+@15 = ~Nicht jetzt, Schwester. Ich brauche Zeit.~ 
+@16 = ~Dann werde ich unser nächstes Treffen in Vorfreude auf meine kommende Schiffsreise nach Westen erwarten.~
+@17 = ~Während Eure erste Aufgabe ziemlich einfach war, war die zweite viel schwieriger. Diese letzte Aufgabe ist nur insofern leicht, als es nicht erforderlich ist, Euch selbst einer Gefahr auszusetzen. Hier, <GABBER>, nehmt diesen Griff. Es ist der Griff einer Mondklinge, von der man dachte, dass sie eine unzerstörbare Waffe wäre.~
+@18 = ~Die Klinge ging uns verloren, aber mit den richtigen Metallen kann sie wiederhergestellt werden. Es gibt nur eine Seele in der Gegend, von der ich weiß, das sie es tun kann, ein Nachkomme des Verlorenen Königreichs, ein Zwerg namens Cromwell. Bringt ihm den Griff und Metall, um die Klinge wieder zu schmieden. Wenn die Mondklinge wiederhergestellt ist, bringt sie zu mir. ~
+@19 = ~Ich werde es versuchen, gute Dame.~ 
+@20 = ~Ich weiß, dass Ihr es werdet, <GABBER>.~
+@21 = ~Ist es Euch gelungen, die Mondklinge wiederherzustellen?~ 
+@22 = ~Ja, Schwester. Ich habe sie.~ 
+@23 = ~Nein, Schwester. Ich habe die Klinge noch nicht wiederherstellen lassen.~
+@24 = ~Kehrt zu mir zurück, <GABBER>, wenn Ihr sie habt.~ 
+@25 = ~Dann ist es erledigt. Ich bin meiner Abreise einen Schritt näherer gekommen. Hier, <GABBER>, ich werde die Klinge weiter verzaubern und sie Euch zum Geschenk machen. Ihr habt das Recht verdient, ein altes Elfen-Artefakt auszuüben, und Ihr solltet geehrt sein.~
+@26 = ~Wir erwarten die Zeit, wenn wir die letzte Reise von Faerûn nach Immerdar machen werden. Mag Seldarine Euch geleiten, <GABBER>.~
+@27 = ~Elfen-Ältere: Magische Instruktion
+
+Das Trio von Zauberinnen, das ich am Westrand des Waldes von Tethyr in der Nähe des höhlenartigen Eingangs zum Unterreich traf, war so nett, mich zu unterrichten, wie man fortgeschrittene alchimistische Verfahren durchführt, um starke Tränke zu erzeugen.~
+@28 = ~Elfen-Ältere: Magische Instruktion
+
+Das Trio von Zauberinnen, das ich am Westrand des Waldes von Tethyr in der Nähe des höhlenartigen Eingangs zum Unterreich traf, war so nett, mich zu unterrichten, wie man normale Klingenwaffen in starke magische Waffen verzaubert.~
+@29 = ~Elfen-Ältere: Magische Instruktion
+
+Das Trio von Zauberinnen, das ich am Westrand des Waldes von Tethyr in der Nähe des höhlenartigen Eingangs zum Unterreich traf, war so nett, mich zu unterrichten, wie man Zauber mit viel größerer Geschwindigkeit wirkt, als ich es vorher konnte.~
+@30 = ~Ältere Elfen: Wiederschmieden einer Mondklinge
+
+Die älteren Zauberinnen, die mich in einigen wertvollen Fähigkeiten unterrichtet haben, baten mich, noch eine andere Aufgabe zu vollenden. Dieses Mal gaben sie mir den Griff einer zerbrochenen Mondklinge, von der man dachte, dass sie eine unzerstörbare Waffe wäre. Was auch immer verursachte, die Klinge in Stücke zu brechen, muss tatsächlich eine starke Kraft gewesen sein.
+  Ich soll Metall finden, das verwendet werden kann, um diesen Griff wieder an eine gebrauchsfähige Waffe zu schmieden. Ich weiß nicht, woher ich solches Metall bekommen kann, aber die Elfen, die ich am Ausgang vom Unterreich traf, erzählten mir, dass ein Zwerg namens Cromwell mir helfen kann, die magische Waffe wieder zu schmieden.~
+@31 = ~Ältere Elfen: das Wiederschmieden einer Mondklinge
+
+Ich war mit Hilfe von Cromwell in der Lage, die alte Elfen-Mondklinge wiederherzustellen. Als ich es dem Trio der Zauberinnen brachte, belohnten sie mich durch weitere Verzauberungen der Klinge. Ich hatte geglaubt, dass Mondklingen ihren Träger wählen würden, aber die Elfen beschenkten mich mit der starken Waffe, anscheinend eine große Ehre für Elfen, und nahezu unbekannt bei anderen Rassen.~

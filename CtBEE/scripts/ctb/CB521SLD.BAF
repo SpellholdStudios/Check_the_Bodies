@@ -1,0 +1,154 @@
+IF
+	Global("CbSleepingDSACKcreatesSpeaker","AR3521",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSleepingDSACKcreatesSpeaker","AR3521",1)
+		Wait(2)
+		CreateCreature("CBBDSL02",[1760.1551],0)
+END
+
+IF
+	Exists("CBBDAW01")
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
+	TookDamage()
+	!Exists("CBBDAW01")
+
+THEN
+	RESPONSE #100
+		SetGlobal("CbBlueDragonAlerted","GLOBAL",1)
+		SetGlobal("CbBlueDragonAttacked","AR3521",1)
+		DestroySelf()
+END
+
+IF
+	Range(Player1,20)
+	OR(5)
+		StateCheck(Player1,STATE_INVISIBLE)
+		StateCheck(Player1,STATE_SILENCED)
+		StateCheck(Player1,STATE_NONDETECTION)
+		StateCheck(Player1,STATE_IMPROVEDINVISIBILITY)
+		CheckStatGT(Player1,0,HIDEINSHADOWS)
+THEN
+	RESPONSE #100
+		SetGlobal("CbBlueDragonAlerted","GLOBAL",1)
+		SetGlobal("CbBlueDragonStealth","AR3521",1)
+		DestroySelf()
+END
+
+IF
+	Range(Player2,20)
+	OR(5)
+		StateCheck(Player2,STATE_INVISIBLE)
+		StateCheck(Player2,STATE_SILENCED)
+		StateCheck(Player2,STATE_NONDETECTION)
+		StateCheck(Player2,STATE_IMPROVEDINVISIBILITY)
+		CheckStatGT(Player2,0,HIDEINSHADOWS)
+THEN
+	RESPONSE #100
+		SetGlobal("CbBlueDragonAlerted","GLOBAL",1)
+		SetGlobal("CbBlueDragonStealth","AR3521",1)
+		DestroySelf()
+END
+
+IF
+	Range(Player3,20)
+	OR(5)
+		StateCheck(Player3,STATE_INVISIBLE)
+		StateCheck(Player3,STATE_SILENCED)
+		StateCheck(Player3,STATE_NONDETECTION)
+		StateCheck(Player3,STATE_IMPROVEDINVISIBILITY)
+		CheckStatGT(Player3,0,HIDEINSHADOWS)
+THEN
+	RESPONSE #100
+		SetGlobal("CbBlueDragonAlerted","GLOBAL",1)
+		SetGlobal("CbBlueDragonStealth","AR3521",1)
+		DestroySelf()
+END
+
+IF
+	Range(Player4,20)
+	OR(5)
+		StateCheck(Player4,STATE_INVISIBLE)
+		StateCheck(Player4,STATE_SILENCED)
+		StateCheck(Player4,STATE_NONDETECTION)
+		StateCheck(Player4,STATE_IMPROVEDINVISIBILITY)
+		CheckStatGT(Player4,0,HIDEINSHADOWS)
+THEN
+	RESPONSE #100
+		SetGlobal("CbBlueDragonAlerted","GLOBAL",1)
+		SetGlobal("CbBlueDragonStealth","AR3521",1)
+		DestroySelf()
+END
+
+IF
+	Range(Player5,20)
+	OR(5)
+		StateCheck(Player5,STATE_INVISIBLE)
+		StateCheck(Player5,STATE_SILENCED)
+		StateCheck(Player5,STATE_NONDETECTION)
+		StateCheck(Player5,STATE_IMPROVEDINVISIBILITY)
+		CheckStatGT(Player5,0,HIDEINSHADOWS)
+THEN
+	RESPONSE #100
+		SetGlobal("CbBlueDragonAlerted","GLOBAL",1)
+		SetGlobal("CbBlueDragonStealth","AR3521",1)
+		DestroySelf()
+END
+
+IF
+	Range(Player6,20)
+	OR(5)
+		StateCheck(Player6,STATE_INVISIBLE)
+		StateCheck(Player6,STATE_SILENCED)
+		StateCheck(Player6,STATE_NONDETECTION)
+		StateCheck(Player6,STATE_IMPROVEDINVISIBILITY)
+		CheckStatGT(Player6,0,HIDEINSHADOWS)
+THEN
+	RESPONSE #100
+		SetGlobal("CbBlueDragonAlerted","GLOBAL",1)
+		SetGlobal("CbBlueDragonStealth","AR3521",1)
+		DestroySelf()
+END
+
+IF
+	Global("CbBlueDragonStole","AR3521",0)
+	OR(3)
+		!Contains("MISC07","BehindDoorOne")
+		!Contains("SW1H04","BehindDoorOne")
+		!Contains("PLAT09","BehindDoorOne")
+THEN
+	RESPONSE #100
+		SetGlobal("CbBlueDragonAlerted","GLOBAL",1)
+		SetGlobal("CbBlueDragonStole","AR3521",1)
+END
+
+IF
+	Global("CbBlueDragonStole","AR3521",0)
+	OR(3)
+		!Contains("MISC07","BehindDoorTwo")
+		!Contains("SW2H19","BehindDoorTwo")
+		!Contains("HELM07","BehindDoorTwo")
+THEN
+	RESPONSE #100
+		SetGlobal("CbBlueDragonAlerted","GLOBAL",1)
+		SetGlobal("CbBlueDragonStole","AR3521",1)
+END
+
+IF
+	Global("CbBlueDragonStole","AR3521",0)
+	OR(5)
+		!Contains("MISC07","BehindDoorThree")
+		!Contains("MISC3E","BehindDoorThree")
+		!Contains("SHLD31","BehindDoorThree")
+		!Contains("HALB11","BehindDoorThree")
+		!Contains("AX1H15","BehindDoorThree")
+THEN
+	RESPONSE #100
+		SetGlobal("CbBlueDragonAlerted","GLOBAL",1)
+		SetGlobal("CbBlueDragonStole","AR3521",1)
+END

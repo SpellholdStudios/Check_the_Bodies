@@ -1,0 +1,353 @@
+COPY ~CtBEE/music/84.MUS~ ~music~
+     ~CtBEE/music/85.MUS~ ~music~
+     ~CtBEE/music/86.MUS~ ~music~
+     ~CtBEE/music/87.MUS~ ~music~
+     ~CtBEE/music/88.MUS~ ~music~
+     ~CtBEE/music/89.MUS~ ~music~
+     ~CtBEE/music/90.MUS~ ~music~
+     ~CtBEE/music/91.MUS~ ~music~
+
+OUTER_SET rows_cnt=0
+COPY_EXISTING - ~SONGLIST.2da~ ~override~
+ COUNT_2DA_ROWS 3 "rows_cnt"
+
+ACTION_IF ("%rows_cnt%"<=92) THEN BEGIN
+  APPEND ~SONGLIST.2DA~ ~9999_84      AR3540          84.MUS~
+  APPEND ~SONGLIST.2DA~ ~9999_85      AR3545          85.MUS~
+  APPEND ~SONGLIST.2DA~ ~9999_86      AR3550          86.MUS~
+  APPEND ~SONGLIST.2DA~ ~9999_87      AR3555          87.MUS~
+  APPEND ~SONGLIST.2DA~ ~9999_88      AR3500          88.MUS~
+  APPEND ~SONGLIST.2DA~ ~9999_89      AR3502          89.MUS~
+  APPEND ~SONGLIST.2DA~ ~9999_90      CB3661          90.MUS~
+  APPEND ~SONGLIST.2DA~ ~9999_91      CB3661B         91.MUS~
+
+  COPY_EXISTING ~SONGLIST.2da~  ~override~
+   SET song_84 = "%rows_cnt%"
+   REPLACE_TEXTUALLY ~9999_84~    "%song_84%"
+   SET song_85 = "%rows_cnt%"+1
+   REPLACE_TEXTUALLY ~9999_85~    "%song_85%"
+   SET song_86 = "%rows_cnt%"+2
+   REPLACE_TEXTUALLY ~9999_86~    "%song_86%"
+   SET song_87 = "%rows_cnt%"+3
+   REPLACE_TEXTUALLY ~9999_87~    "%song_87%"
+   SET song_88 = "%rows_cnt%"+4
+   REPLACE_TEXTUALLY ~9999_88~    "%song_88%"
+   SET song_89 = "%rows_cnt%"+5
+   REPLACE_TEXTUALLY ~9999_89~    "%song_89%"
+   SET song_90 = "%rows_cnt%"+6
+   REPLACE_TEXTUALLY ~9999_90~    "%song_90%"
+   SET song_91 = "%rows_cnt%"+7
+   REPLACE_TEXTUALLY ~9999_91~    "%song_91%"
+
+  COPY_EXISTING ~AR3540.ARE~  ~override~
+                ~AR3542.ARE~  ~override~
+                ~AR3544.ARE~  ~override~
+                ~AR3546.ARE~  ~override~
+                ~AR3547.ARE~  ~override~
+                ~AR3549.ARE~  ~override~
+                ~AR3551.ARE~  ~override~
+                ~AR3553.ARE~  ~override~
+                ~AR3555.ARE~  ~override~
+                ~AR3557.ARE~  ~override~
+                ~AR3558.ARE~  ~override~
+                ~AR3560.ARE~  ~override~
+                ~AR3610.ARE~  ~override~
+                ~AR3611.ARE~  ~override~
+                ~AR3613.ARE~  ~override~
+    READ_LONG  0xbc "song_offset"
+    WRITE_LONG ("%song_offset%"+0x0c) "%song_84%"  //battle song
+  BUT_ONLY_IF_IT_CHANGES
+
+  COPY_EXISTING ~AR3541.ARE~  ~override~
+                ~AR3543.ARE~  ~override~
+                ~AR3545.ARE~  ~override~
+                ~AR3548.ARE~  ~override~
+                ~AR3550.ARE~  ~override~
+                ~AR3552.ARE~  ~override~
+                ~AR3554.ARE~  ~override~
+                ~AR3556.ARE~  ~override~
+                ~AR3559.ARE~  ~override~
+    READ_LONG  0xbc "song_offset"
+    WRITE_LONG ("%song_offset%"+0x0c) "%song_85%"  //battle song
+  BUT_ONLY_IF_IT_CHANGES
+
+  COPY_EXISTING ~AR3540.ARE~  ~override~
+                ~AR3541.ARE~  ~override~
+                ~AR3542.ARE~  ~override~
+                ~AR3543.ARE~  ~override~
+                ~AR3544.ARE~  ~override~
+                ~AR3545.ARE~  ~override~
+                ~AR3546.ARE~  ~override~
+                ~AR3547.ARE~  ~override~
+                ~AR3548.ARE~  ~override~
+                ~AR3549.ARE~  ~override~
+                ~AR3550.ARE~  ~override~
+                ~AR3551.ARE~  ~override~
+                ~AR3552.ARE~  ~override~
+                ~AR3553.ARE~  ~override~
+                ~AR3554.ARE~  ~override~
+                ~AR3555.ARE~  ~override~
+                ~AR3556.ARE~  ~override~
+                ~AR3557.ARE~  ~override~
+                ~AR3558.ARE~  ~override~
+                ~AR3559.ARE~  ~override~
+                ~AR3560.ARE~  ~override~
+                ~AR3570.ARE~  ~override~
+                ~AR3610.ARE~  ~override~
+                ~AR3611.ARE~  ~override~
+                ~AR3613.ARE~  ~override~
+    READ_LONG  0xbc "song_offset"
+    WRITE_LONG ("%song_offset%") "%song_86%"    //day song
+  BUT_ONLY_IF_IT_CHANGES
+  
+  COPY_EXISTING ~AR3570.ARE~  ~override~
+                ~AR3610.ARE~  ~override~
+                ~AR3611.ARE~  ~override~
+                ~AR3613.ARE~  ~override~
+    READ_LONG  0xbc "song_offset"
+    WRITE_LONG ("%song_offset%"+4) "%song_86%"  //night song
+  BUT_ONLY_IF_IT_CHANGES
+  
+  COPY_EXISTING ~AR3540.ARE~  ~override~
+                ~AR3541.ARE~  ~override~
+                ~AR3542.ARE~  ~override~
+                ~AR3543.ARE~  ~override~
+                ~AR3544.ARE~  ~override~
+                ~AR3545.ARE~  ~override~
+                ~AR3546.ARE~  ~override~
+                ~AR3547.ARE~  ~override~
+                ~AR3548.ARE~  ~override~
+                ~AR3549.ARE~  ~override~
+                ~AR3550.ARE~  ~override~
+                ~AR3551.ARE~  ~override~
+                ~AR3552.ARE~  ~override~
+                ~AR3553.ARE~  ~override~
+                ~AR3554.ARE~  ~override~
+                ~AR3555.ARE~  ~override~
+                ~AR3556.ARE~  ~override~
+                ~AR3557.ARE~  ~override~
+                ~AR3558.ARE~  ~override~
+                ~AR3559.ARE~  ~override~
+                ~AR3560.ARE~  ~override~
+    READ_LONG  0xbc "song_offset"
+    WRITE_LONG ("%song_offset%"+4) "%song_87%"    //night song
+  BUT_ONLY_IF_IT_CHANGES
+  
+  COPY_EXISTING ~AR3597.ARE~  ~override~
+                ~AR3600.ARE~  ~override~
+    READ_LONG  0xbc "song_offset"
+    WRITE_LONG ("%song_offset%")   "%song_88%"  //day song
+    WRITE_LONG ("%song_offset%"+4) "%song_88%"  //night song
+  BUT_ONLY_IF_IT_CHANGES
+  
+  COPY_EXISTING ~AR3598.ARE~  ~override~
+                ~AR3599.ARE~  ~override~
+    READ_LONG  0xbc "song_offset"
+    WRITE_LONG ("%song_offset%")   "%song_89%"  //day song
+  //   WRITE_LONG ("%song_offset%"+4) "%song_89%"  //night song
+  BUT_ONLY_IF_IT_CHANGES
+  
+  COPY_EXISTING ~CB3661.ARE~  ~override~
+                ~CB3662.ARE~  ~override~
+                ~CB3663.ARE~  ~override~
+                ~CB3664.ARE~  ~override~
+                ~CB3665.ARE~  ~override~
+                ~CB3666.ARE~  ~override~
+                ~CB3667.ARE~  ~override~
+                ~CB3668.ARE~  ~override~
+    READ_LONG  0xbc "song_offset"
+    WRITE_LONG ("%song_offset%")      "%song_90%"  //day song
+    WRITE_LONG ("%song_offset%"+4)    "%song_90%"  //night song
+    WRITE_LONG ("%song_offset%"+0x0c) "%song_91%"  //battle song
+  BUT_ONLY_IF_IT_CHANGES
+  
+END//patch_if <92
+ELSE BEGIN  
+  //SONGLIST.2DA has less than 8 free slots - we must move the whole music setup to the GUI auto-mod
+  MKDIR ~GUI_Mods/%slot_name%/sound~
+  COPY ~CtBEE/RULE/default/SONGLIST.2DA~ ~GUI_Mods/%slot_name%/sound/SONGLIST.2DA~
+
+<<<<<<<< sound1.tp2
+OUTER_SET rows_cnt=0
+COPY_EXISTING ~GUI_Mods/%gui_slot_name%/sound/SONGLIST.2DA~ ~override~
+ COUNT_2DA_ROWS 3 "rows_cnt"
+
+>>>>>>>>
+<<<<<<<< sound2.tp2
+APPEND ~SONGLIST.2DA~ ~9999_84      AR3540          84.MUS~
+APPEND ~SONGLIST.2DA~ ~9999_85      AR3545          85.MUS~
+APPEND ~SONGLIST.2DA~ ~9999_86      AR3550          86.MUS~
+APPEND ~SONGLIST.2DA~ ~9999_87      AR3555          87.MUS~
+APPEND ~SONGLIST.2DA~ ~9999_88      AR3500          88.MUS~
+APPEND ~SONGLIST.2DA~ ~9999_89      AR3502          89.MUS~
+APPEND ~SONGLIST.2DA~ ~9999_90      CB3661          90.MUS~
+APPEND ~SONGLIST.2DA~ ~9999_91      CB3661B         91.MUS~
+
+COPY_EXISTING ~SONGLIST.2da~  ~override~
+ SET song_84 = "%rows_cnt%"
+ REPLACE_TEXTUALLY ~9999_84~    "%song_84%"
+ SET song_85 = "%rows_cnt%"+1
+ REPLACE_TEXTUALLY ~9999_85~    "%song_85%"
+ SET song_86 = "%rows_cnt%"+2
+ REPLACE_TEXTUALLY ~9999_86~    "%song_86%"
+ SET song_87 = "%rows_cnt%"+3
+ REPLACE_TEXTUALLY ~9999_87~    "%song_87%"
+ SET song_88 = "%rows_cnt%"+4
+ REPLACE_TEXTUALLY ~9999_88~    "%song_88%"
+ SET song_89 = "%rows_cnt%"+5
+ REPLACE_TEXTUALLY ~9999_89~    "%song_89%"
+ SET song_90 = "%rows_cnt%"+6
+ REPLACE_TEXTUALLY ~9999_90~    "%song_90%"
+ SET song_91 = "%rows_cnt%"+7
+ REPLACE_TEXTUALLY ~9999_91~    "%song_91%"
+
+COPY_EXISTING ~AR3540.ARE~  ~override~
+              ~AR3542.ARE~  ~override~
+              ~AR3544.ARE~  ~override~
+              ~AR3546.ARE~  ~override~
+              ~AR3547.ARE~  ~override~
+              ~AR3549.ARE~  ~override~
+              ~AR3551.ARE~  ~override~
+              ~AR3553.ARE~  ~override~
+              ~AR3555.ARE~  ~override~
+              ~AR3557.ARE~  ~override~
+              ~AR3558.ARE~  ~override~
+              ~AR3560.ARE~  ~override~
+              ~AR3610.ARE~  ~override~
+              ~AR3611.ARE~  ~override~
+              ~AR3613.ARE~  ~override~
+  READ_LONG  0xbc "song_offset"
+  WRITE_LONG ("%song_offset%"+0x0c) "%song_84%"  //battle song
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~AR3541.ARE~  ~override~
+              ~AR3543.ARE~  ~override~
+              ~AR3545.ARE~  ~override~
+              ~AR3548.ARE~  ~override~
+              ~AR3550.ARE~  ~override~
+              ~AR3552.ARE~  ~override~
+              ~AR3554.ARE~  ~override~
+              ~AR3556.ARE~  ~override~
+              ~AR3559.ARE~  ~override~
+  READ_LONG  0xbc "song_offset"
+  WRITE_LONG ("%song_offset%"+0x0c) "%song_85%"  //battle song
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~AR3540.ARE~  ~override~
+              ~AR3541.ARE~  ~override~
+              ~AR3542.ARE~  ~override~
+              ~AR3543.ARE~  ~override~
+              ~AR3544.ARE~  ~override~
+              ~AR3545.ARE~  ~override~
+              ~AR3546.ARE~  ~override~
+              ~AR3547.ARE~  ~override~
+              ~AR3548.ARE~  ~override~
+              ~AR3549.ARE~  ~override~
+              ~AR3550.ARE~  ~override~
+              ~AR3551.ARE~  ~override~
+              ~AR3552.ARE~  ~override~
+              ~AR3553.ARE~  ~override~
+              ~AR3554.ARE~  ~override~
+              ~AR3555.ARE~  ~override~
+              ~AR3556.ARE~  ~override~
+              ~AR3557.ARE~  ~override~
+              ~AR3558.ARE~  ~override~
+              ~AR3559.ARE~  ~override~
+              ~AR3560.ARE~  ~override~
+              ~AR3570.ARE~  ~override~
+              ~AR3610.ARE~  ~override~
+              ~AR3611.ARE~  ~override~
+              ~AR3613.ARE~  ~override~
+  READ_LONG  0xbc "song_offset"
+  WRITE_LONG ("%song_offset%") "%song_86%"    //day song
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~AR3570.ARE~  ~override~
+              ~AR3610.ARE~  ~override~
+              ~AR3611.ARE~  ~override~
+              ~AR3613.ARE~  ~override~
+  READ_LONG  0xbc "song_offset"
+  WRITE_LONG ("%song_offset%"+4) "%song_86%"  //night song
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~AR3540.ARE~  ~override~
+              ~AR3541.ARE~  ~override~
+              ~AR3542.ARE~  ~override~
+              ~AR3543.ARE~  ~override~
+              ~AR3544.ARE~  ~override~
+              ~AR3545.ARE~  ~override~
+              ~AR3546.ARE~  ~override~
+              ~AR3547.ARE~  ~override~
+              ~AR3548.ARE~  ~override~
+              ~AR3549.ARE~  ~override~
+              ~AR3550.ARE~  ~override~
+              ~AR3551.ARE~  ~override~
+              ~AR3552.ARE~  ~override~
+              ~AR3553.ARE~  ~override~
+              ~AR3554.ARE~  ~override~
+              ~AR3555.ARE~  ~override~
+              ~AR3556.ARE~  ~override~
+              ~AR3557.ARE~  ~override~
+              ~AR3558.ARE~  ~override~
+              ~AR3559.ARE~  ~override~
+              ~AR3560.ARE~  ~override~
+  READ_LONG  0xbc "song_offset"
+  WRITE_LONG ("%song_offset%"+4) "%song_87%"    //night song
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~AR3597.ARE~  ~override~
+              ~AR3600.ARE~  ~override~
+ PATCH_IF (~%SOURCE_SIZE%~) BEGIN
+  READ_LONG  0xbc "song_offset"
+  WRITE_LONG ("%song_offset%")   "%song_88%"  //day song
+  WRITE_LONG ("%song_offset%"+4) "%song_88%"  //night song
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~AR3598.ARE~  ~override~
+              ~AR3599.ARE~  ~override~
+ PATCH_IF (~%SOURCE_SIZE%~) BEGIN
+  READ_LONG  0xbc "song_offset"
+  WRITE_LONG ("%song_offset%")   "%song_89%"  //day song
+  WRITE_LONG ("%song_offset%"+4) "%song_89%"  //night song
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~CB3661.ARE~  ~override~
+              ~CB3662.ARE~  ~override~
+              ~CB3663.ARE~  ~override~
+              ~CB3664.ARE~  ~override~
+              ~CB3665.ARE~  ~override~
+              ~CB3666.ARE~  ~override~
+              ~CB3667.ARE~  ~override~
+              ~CB3668.ARE~  ~override~
+  READ_LONG  0xbc "song_offset"
+  WRITE_LONG ("%song_offset%")      "%song_90%"  //day song
+  WRITE_LONG ("%song_offset%"+4)    "%song_90%"  //night song
+  WRITE_LONG ("%song_offset%"+0x0c) "%song_91%"  //battle song
+BUT_ONLY_IF_IT_CHANGES
+
+ACTION_IF FILE_EXISTS ~data/CTB_CHRS.bif~
+THEN BEGIN
+  COPY_EXISTING ~AR3500.ARE~  ~override~
+    READ_LONG  0xbc "song_offset"
+    WRITE_LONG ("%song_offset%")   "%song_88%"  //day song
+    WRITE_LONG ("%song_offset%"+4) "%song_88%"  //night song
+  BUT_ONLY_IF_IT_CHANGES
+
+  COPY_EXISTING ~AR3505.ARE~  ~override~
+                ~AR3508.ARE~  ~override~
+    READ_LONG  0xbc "song_offset"
+    WRITE_LONG ("%song_offset%")   "%song_89%"  //day song
+    WRITE_LONG ("%song_offset%"+4) "%song_89%"  //night song
+  BUT_ONLY_IF_IT_CHANGES
+END
+//***********************************************************************************
+
+>>>>>>>>
+
+//  COPY + ~sound1.tp2~ ~sound.tmp~ EVALUATE_BUFFER
+  COPY_EXISTING ~Setup-GUI.tp2~ ~Setup-GUI.tp2~
+   APPEND_FILE_EVALUATE ~sound.tp2~
+   APPEND_FILE ~sound2.tp2~
+END //ELSE

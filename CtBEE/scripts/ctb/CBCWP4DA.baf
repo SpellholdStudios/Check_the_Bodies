@@ -1,0 +1,19 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player4)
+		FadeToColor([20.0],0)
+		Wait(2)
+		StartMovie("RESTINN")
+		Wait(2)
+		DayNight(2)
+		IncrementGlobal("CbPlayer4DiseasedByCowl","GLOBAL",1)
+		SetGlobalTimer("CbPlayer4DiseasedDay","GLOBAL",ONE_DAY)
+		Rest()
+		FadeFromColor([20.0],0)
+		Wait(1)
+		EndCutSceneMode()
+END
+
+

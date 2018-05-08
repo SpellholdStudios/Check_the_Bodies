@@ -1,0 +1,18 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		FadeToColor([20.0],0)
+		Wait(3)
+		ActionOverride("CBP2ACT1",JumpToPoint([1029.677]))
+		ActionOverride("CBP2ACT2",JumpToPoint([937.643]))
+		ActionOverride("CBP2ACT3",JumpToPoint([1176.535]))
+		Wait(1)
+		SetGlobal("CbPeeWeePlayTwo","AR0510",6)
+		FadeFromColor([20.0],0)
+		EndCutSceneMode()
+		ActionOverride("CBP2ACT2",StartDialogueNoSet("CBP2ACT1"))
+END
+
+

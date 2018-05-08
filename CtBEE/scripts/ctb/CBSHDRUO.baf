@@ -1,0 +1,19 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("CBSHDRUN")
+		MoveViewObject(Myself,INSTANT)
+		Unlock("Door03")
+		OpenDoor("Door03")
+		MoveToPoint([1283.2344])
+		MoveViewPoint([1283.2344],INSTANT)
+		FaceObject("CBBYRN66")
+		DisplayStringHead(Myself,@550138)
+		SetGlobal("CbShadowThievesKillPlayer1","AR3566",1)
+		ActionOverride("CBBYRN66",ChangeEnemyAlly(Myself,ENEMY))
+		ActionOverride("CBOWEN66",ChangeEnemyAlly(Myself,ENEMY))
+		EndCutSceneMode()
+END
+
+

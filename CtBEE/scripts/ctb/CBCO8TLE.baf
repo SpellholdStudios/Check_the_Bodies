@@ -1,0 +1,138 @@
+IF
+	Allegiance(Myself,ENEMY)
+	!StateCheck(Myself,STATE_CHARMED)
+	HasItem("IMOENHP1",Myself) // Imoen's Belt
+THEN
+	RESPONSE #100
+		DestroyItem("IMOENHP1") // Imoen's Belt
+END
+
+IF
+	HPLT(Myself,15)
+	!HasItem("CBCO8HP1",Myself)
+	HasItem("POTN52",Myself) // Potion of Extra Healing
+THEN
+	RESPONSE #100
+		UseItem("POTN52",Myself) // Potion of Extra Healing
+END
+
+IF
+	HPLT(Myself,25)
+	!HasItem("CBCO8HP1",Myself)
+	!HasItem("POTN52",Myself) // Potion of Extra Healing
+	HaveSpell(CLERIC_CURE_LIGHT_WOUNDS)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,CLERIC_CURE_LIGHT_WOUNDS)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_RESIST_FIRE)
+	CheckStatLT(Myself,25,RESISTFIRE)
+	OR(1)
+		CheckStatLT(Myself,25,RESISTCOLD)
+	!GlobalTimerNotExpired("Cb_TardethCastsASpell","LOCALS")
+THEN
+	RESPONSE #100
+		DestroyItem("CBCHANP4")
+		GiveItemCreate("CBCHANP4",Myself,1,0,0)
+		Spell(Myself,CLERIC_RESIST_FIRE)
+		EquipItem("CBCHANP4")
+		SetGlobalTimer("Cb_TardethCastsASpell","LOCALS",12)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_MAGIC_MISSILE)
+	RandomNum(2,1)
+THEN
+	RESPONSE #100
+		DestroyItem("CBCHANP4")
+		GiveItemCreate("CBCHANP4",Myself,1,0,0)
+		Spell(NearestEnemyOf(Myself),WIZARD_MAGIC_MISSILE)
+		EquipItem("CBCHANP4")
+		SetGlobalTimer("Cb_TardethCastsASpell","LOCALS",12)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_MIRROR_IMAGE)
+	!Range(NearestEnemyOf(Myself),10)
+	RandomNum(2,2)
+THEN
+	RESPONSE #100
+		DestroyItem("CBCHANP4")
+		GiveItemCreate("CBCHANP4",Myself,1,0,0)
+		Spell(Myself,WIZARD_MIRROR_IMAGE)
+		EquipItem("CBCHANP4")
+		SetGlobalTimer("Cb_TardethCastsASpell","LOCALS",12)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_HASTE)
+	!Range(NearestEnemyOf(Myself),5)
+THEN
+	RESPONSE #100
+		DestroyItem("CBCHANP4")
+		GiveItemCreate("CBCHANP4",Myself,1,0,0)
+		Spell(Myself,WIZARD_HASTE)
+		EquipItem("CBCHANP4")
+		SetGlobalTimer("Cb_TardethCastsASpell","LOCALS",12)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(NearestEnemyOf(Myself),5)
+	HaveSpell(WIZARD_HORROR)
+	RandomNum(2,1)
+THEN
+	RESPONSE #100
+		DestroyItem("CBCHANP4")
+		GiveItemCreate("CBCHANP4",Myself,1,0,0)
+		Spell(LastSeenBy(Myself),WIZARD_HORROR)
+		EquipItem("CBCHANP4")
+		SetGlobalTimer("Cb_TardethCastsASpell","LOCALS",12)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(NearestEnemyOf(Myself),5)
+	HaveSpell(WIZARD_COLOR_SPRAY)
+	RandomNum(2,2)
+THEN
+	RESPONSE #100
+		DestroyItem("CBCHANP4")
+		GiveItemCreate("CBCHANP4",Myself,1,0,0)
+		Spell(LastSeenBy(Myself),WIZARD_COLOR_SPRAY)
+		EquipItem("CBCHANP4")
+		SetGlobalTimer("Cb_TardethCastsASpell","LOCALS",12)
+END
+
+IF
+	HPLT(LastTargetedBy(Myself),1)
+THEN
+	RESPONSE #100
+		ClearActions(Myself)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(LastSeenBy(Myself),12)
+THEN
+	RESPONSE #100
+		EquipItem("CBTLBOW1")
+		AttackReevaluate(NearestEnemyOf(Myself),20)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Range(LastSeenBy(Myself),12)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+

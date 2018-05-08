@@ -1,0 +1,18 @@
+IF
+	Global("Cb_ArkanusDied","GLOBAL",0)
+	Global("CbCompanyAnnouncedArkanus","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCompanyAnnouncedArkanus","GLOBAL",0)
+END
+
+IF
+	Global("Cb_ArkanusDied","GLOBAL",1)
+	Global("CbCompanyAnnouncedArkanus","GLOBAL",0)
+	!HasItem("CBCO8HP1",Myself)
+THEN
+	RESPONSE #100
+		StartDialogOverride("CBCO8DIE",Player1)
+END
+
+

@@ -1,0 +1,350 @@
+BEGIN ~CBSCHOOK~
+
+IF WEIGHT #0 ~Global("CbMelindaSilenced","GLOBAL",0)~ THEN BEGIN first
+  SAY @1
+  IF ~~ THEN EXIT
+END
+
+IF ~Global("CbMelindaSpokeHeHe","LOCALS",0)
+Global("CbHelpingMelinda","GLOBAL",0)~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN DO ~IncrementGlobal("CbMelindaSpokeHeHe","LOCALS",1)~ EXIT
+END
+
+IF ~Global("CbMelindaSpokeHeHe","LOCALS",1)
+Global("CbHelpingMelinda","GLOBAL",0)~ THEN BEGIN 1
+  SAY @2
+  IF ~~ THEN DO ~IncrementGlobal("CbMelindaSpokeHeHe","LOCALS",1)~ EXIT
+END
+
+IF ~Global("CbMelindaSpokeHeHe","LOCALS",2)
+Global("CbHelpingMelinda","GLOBAL",0)~ THEN BEGIN 2
+  SAY @3
+  IF ~~ THEN DO ~IncrementGlobal("CbMelindaSpokeHeHe","LOCALS",1)~ EXIT
+END
+
+IF ~Global("CbMelindaSpokeHeHe","LOCALS",3)
+Global("CbHelpingMelinda","GLOBAL",0)~ THEN BEGIN 3
+  SAY @4
+  IF ~~ THEN DO ~IncrementGlobal("CbMelindaSpokeHeHe","LOCALS",1)~ EXIT
+END
+
+IF ~Global("CbMelindaSpokeHeHe","LOCALS",4)
+Global("CbHelpingMelinda","GLOBAL",0)~ THEN BEGIN 4
+  SAY @5
+  IF ~~ THEN REPLY @6 DO ~IncrementGlobal("CbMelindaSpokeHeHe","LOCALS",1)~ GOTO 5
+  IF ~~ THEN REPLY @7 DO ~IncrementGlobal("CbMelindaSpokeHeHe","LOCALS",1)~ GOTO 5
+  IF ~~ THEN REPLY @8 DO ~IncrementGlobal("CbMelindaSpokeHeHe","LOCALS",1)~ GOTO 5
+END
+
+IF ~Global("CbMelindaSpokeHeHe","LOCALS",5)
+Global("CbHelpingMelinda","GLOBAL",0)
+!Global("Cb_GetWritingStuff","LOCALS",1)
+!Global("CbGaveNote","LOCALS",1)~ THEN BEGIN 5
+  SAY @9
+  IF ~~ THEN REPLY @10 GOTO 6
+  IF ~~ THEN REPLY @11 GOTO 7
+  IF ~~ THEN REPLY @12 GOTO 8
+END
+
+IF ~~ THEN BEGIN 6
+  SAY @13
+  IF ~~ THEN REPLY @11 GOTO 7
+  IF ~~ THEN REPLY @12 GOTO 8
+END
+
+IF ~~ THEN BEGIN 7
+  SAY @14
+  IF ~~ THEN REPLY @10 GOTO 6
+  IF ~~ THEN REPLY @12 GOTO 8
+END
+
+IF ~~ THEN BEGIN 8
+  SAY @15
+  IF ~~ THEN REPLY @16 GOTO 9
+  IF ~~ THEN REPLY @17 GOTO 10
+  IF ~~ THEN REPLY @18 GOTO 11
+  IF ~~ THEN REPLY @19 GOTO 12
+END
+
+IF ~~ THEN BEGIN 9
+  SAY @20
+  IF ~~ THEN GOTO 13
+END
+
+IF ~~ THEN BEGIN 10
+  SAY @21
+  IF ~~ THEN GOTO 13
+END
+
+IF ~~ THEN BEGIN 11
+  SAY @22
+  IF ~~ THEN GOTO 13
+END
+
+IF ~~ THEN BEGIN 12
+  SAY @23
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 13
+  SAY @24
+  IF ~~ THEN REPLY @25 GOTO 14
+END
+
+IF ~~ THEN BEGIN 14
+  SAY @26
+  IF ~~ THEN REPLY @27 GOTO 18
+  IF ~~ THEN REPLY @28 GOTO 15
+  IF ~~ THEN REPLY @29 GOTO 12
+END
+
+IF ~~ THEN BEGIN 15
+  SAY @20
+  IF ~~ THEN GOTO 16
+END
+
+IF ~~ THEN BEGIN 16
+  SAY @22
+  IF ~~ THEN GOTO 17
+END
+
+IF ~~ THEN BEGIN 17
+  SAY @30
+  IF ~~ THEN REPLY @27 GOTO 18
+  IF ~~ THEN REPLY @28 GOTO 15
+  IF ~~ THEN REPLY @29 GOTO 12
+END
+
+IF ~~ THEN BEGIN 18
+  SAY @31
+  IF ~~ THEN GOTO 19
+END
+
+IF ~~ THEN BEGIN 19
+  SAY @32
+  IF ~~ THEN REPLY @33 GOTO 20
+  IF ~PartyHasItem("CBSCPRCH")~ THEN REPLY @34 DO ~TakePartyItem("CBSCPRCH")
+SetGlobal("Cb_GetWritingStuff","LOCALS",2)~ GOTO 21
+  IF ~PartyHasItem("CBSCVLLM")~ THEN REPLY @35 DO ~TakePartyItem("CBSCVLLM")
+SetGlobal("Cb_GetWritingStuff","LOCALS",2)~ GOTO 22
+END
+
+IF ~~ THEN BEGIN 20
+  SAY @36
+  IF ~~ THEN DO ~SetGlobal("Cb_GetWritingStuff","LOCALS",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN 21
+  SAY @37
+  IF ~~ THEN DO ~GiveItemCreate("CBSCLTTR",LastTalkedToBy(Myself),1,0,0)
+SetGlobal("CbGaveNote","LOCALS",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN 22
+  SAY @38
+  IF ~~ THEN DO ~GiveItemCreate("CBSCLTTR",LastTalkedToBy(Myself),1,0,0)
+SetGlobal("CbGaveNote","LOCALS",1)~ EXIT
+END
+
+IF ~Global("CbMelindaSpokeHeHe","LOCALS",5)
+Global("Cb_GetWritingStuff","LOCALS",1)
+Global("CbHelpingMelinda","GLOBAL",0)~ THEN BEGIN 23
+  SAY @32
+  IF ~~ THEN REPLY @33 GOTO 20
+  IF ~PartyHasItem("CBSCPRCH")~ THEN REPLY @34 DO ~TakePartyItem("CBSCPRCH")
+SetGlobal("Cb_GetWritingStuff","LOCALS",2)~ GOTO 21
+  IF ~PartyHasItem("CBSCVLLM")~ THEN REPLY @35 DO ~TakePartyItem("CBSCVLLM")
+SetGlobal("Cb_GetWritingStuff","LOCALS",2)~ GOTO 22
+END
+
+IF ~Global("CbMelindaSpokeHeHe","LOCALS",5)
+Global("CbGaveNote","LOCALS",1)
+PartyHasItemIdentified("CBSCLTTR")
+Global("CbHelpingMelinda","GLOBAL",0)~ THEN BEGIN 24
+  SAY @39
+  IF ~~ THEN REPLY @40 GOTO 25
+  IF ~Gender(LastTalkedToBy(Myself),MALE)~ THEN REPLY @41 GOTO 26
+  IF ~!Gender(LastTalkedToBy(Myself),MALE)~ THEN REPLY @42 GOTO 27
+  IF ~!Gender(LastTalkedToBy(Myself),MALE)~ THEN REPLY @43 GOTO 28
+  IF ~~ THEN REPLY @44 GOTO 29
+END
+
+IF ~~ THEN BEGIN 25
+  SAY @45
+  IF ~~ THEN DO ~SetGlobal("CbHelpingMelinda","GLOBAL",1)~ UNSOLVED_JOURNAL @84 EXIT
+//AddJournalEntry(@84,QUEST)~ EXIT
+END
+
+IF ~~ THEN BEGIN 26
+  SAY @46
+  IF ~~ THEN DO ~SetGlobal("CbHelpingMelinda","GLOBAL",1)~ UNSOLVED_JOURNAL @84 EXIT
+//AddJournalEntry(@84,QUEST)~ EXIT
+END
+
+IF ~~ THEN BEGIN 27
+  SAY @47
+  IF ~~ THEN DO ~SetGlobal("CbHelpingMelinda","GLOBAL",1)~ UNSOLVED_JOURNAL @84 EXIT
+//AddJournalEntry(@84,QUEST)~ EXIT
+END
+
+IF ~~ THEN BEGIN 28
+  SAY @48
+  IF ~~ THEN REPLY @49 EXIT
+  IF ~~ THEN REPLY @50 GOTO 27
+END
+
+IF ~~ THEN BEGIN 29
+  SAY @51
+  IF ~~ THEN REPLY @49 EXIT
+  IF ~~ THEN REPLY @50 GOTO 27
+  IF ~~ THEN REPLY @40 GOTO 25
+  IF ~Gender(LastTalkedToBy(Myself),MALE)~ THEN REPLY @41 GOTO 26
+  IF ~!Gender(LastTalkedToBy(Myself),MALE)~ THEN REPLY @42 GOTO 27
+  IF ~!Gender(LastTalkedToBy(Myself),MALE)~ THEN REPLY @43 GOTO 28
+END
+
+IF ~GlobalGT("CbHelpingMelinda","GLOBAL",0)~ THEN BEGIN 30
+  SAY @52
+  IF ~Global("CbHelpingMelinda","GLOBAL",1)~ THEN EXIT
+  IF ~Global("CbHelpingMelinda","GLOBAL",2)~ THEN REPLY @53 GOTO 31
+  IF ~Global("CbHelpingMelinda","GLOBAL",3)~ THEN REPLY @54 EXIT
+  IF ~Global("CbHelpingMelinda","GLOBAL",4)
+GlobalTimerNotExpired("Cb_HelpMelindaQuick","GLOBAL")~ THEN REPLY @55 GOTO 38
+  IF ~Global("CbHelpingMelinda","GLOBAL",4)
+GlobalTimerExpired("Cb_HelpMelindaQuick","GLOBAL")~ THEN REPLY @55 GOTO 37
+END
+
+IF ~~ THEN BEGIN 31
+  SAY @56
+  IF ~~ THEN REPLY @57 GOTO 32
+END
+
+IF ~~ THEN BEGIN 32
+  SAY @58
+  IF ~~ THEN REPLY @59 GOTO 33
+  IF ~~ THEN REPLY @60 GOTO 35
+END
+
+IF ~~ THEN BEGIN 33
+  SAY @61
+  IF ~~ THEN REPLY @62 GOTO 34
+END
+
+IF ~~ THEN BEGIN 34
+  SAY @63
+  IF ~~ THEN REPLY @64 DO ~SetGlobal("CbHelpingMelinda","GLOBAL",3)~ EXIT
+END
+
+IF ~~ THEN BEGIN 35
+  SAY @65
+  IF ~~ THEN REPLY @66 GOTO 36
+END
+
+IF ~~ THEN BEGIN 36
+  SAY @67
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 37
+  SAY @68
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 38
+  SAY @69
+  IF ~~ THEN REPLY @70 GOTO 39
+END
+
+IF ~~ THEN BEGIN 39
+  SAY @71
+  IF ~~ THEN REPLY @72 GOTO 40
+  IF ~~ THEN REPLY @73 GOTO 41
+  IF ~~ THEN REPLY @74 GOTO 42
+  IF ~~ THEN REPLY @75 GOTO 43
+  IF ~~ THEN REPLY @76 GOTO 46
+  IF ~~ THEN REPLY @77 GOTO 44
+  IF ~~ THEN REPLY @78 GOTO 45
+END
+
+IF ~~ THEN BEGIN 40
+  SAY @79
+  IF ~~ THEN REPLY @73 GOTO 41
+  IF ~~ THEN REPLY @74 GOTO 42
+  IF ~~ THEN REPLY @75 GOTO 43
+  IF ~~ THEN REPLY @76 GOTO 46
+  IF ~~ THEN REPLY @77 GOTO 44
+  IF ~~ THEN REPLY @78 GOTO 45
+END
+
+IF ~~ THEN BEGIN 41
+  SAY @79
+  IF ~~ THEN REPLY @72 GOTO 40
+  IF ~~ THEN REPLY @74 GOTO 42
+  IF ~~ THEN REPLY @75 GOTO 43
+  IF ~~ THEN REPLY @76 GOTO 46
+  IF ~~ THEN REPLY @77 GOTO 44
+  IF ~~ THEN REPLY @78 GOTO 45
+END
+
+IF ~~ THEN BEGIN 42
+  SAY @79
+  IF ~~ THEN REPLY @72 GOTO 40
+  IF ~~ THEN REPLY @73 GOTO 41
+  IF ~~ THEN REPLY @75 GOTO 43
+  IF ~~ THEN REPLY @76 GOTO 46
+  IF ~~ THEN REPLY @77 GOTO 44
+  IF ~~ THEN REPLY @78 GOTO 45
+END
+
+IF ~~ THEN BEGIN 43
+  SAY @79
+  IF ~~ THEN REPLY @72 GOTO 40
+  IF ~~ THEN REPLY @73 GOTO 41
+  IF ~~ THEN REPLY @74 GOTO 42
+  IF ~~ THEN REPLY @76 GOTO 46
+  IF ~~ THEN REPLY @77 GOTO 44
+  IF ~~ THEN REPLY @78 GOTO 45
+END
+
+IF ~~ THEN BEGIN 44
+  SAY @79
+  IF ~~ THEN REPLY @72 GOTO 40
+  IF ~~ THEN REPLY @73 GOTO 41
+  IF ~~ THEN REPLY @74 GOTO 42
+  IF ~~ THEN REPLY @75 GOTO 43
+  IF ~~ THEN REPLY @76 GOTO 46
+  IF ~~ THEN REPLY @78 GOTO 45
+END
+
+IF ~~ THEN BEGIN 45
+  SAY @79
+  IF ~~ THEN REPLY @72 GOTO 40
+  IF ~~ THEN REPLY @73 GOTO 41
+  IF ~~ THEN REPLY @74 GOTO 42
+  IF ~~ THEN REPLY @75 GOTO 43
+  IF ~~ THEN REPLY @76 GOTO 46
+  IF ~~ THEN REPLY @77 GOTO 44
+END
+
+IF ~~ THEN BEGIN 46
+  SAY @80
+  IF ~~ THEN GOTO 47
+END
+
+IF ~~ THEN BEGIN 47
+  SAY @81
+  IF ~~ THEN REPLY @82 GOTO 48
+END
+
+IF ~~ THEN BEGIN 48
+  SAY @83
+  IF ~~ THEN DO ~SetGlobal("CbHelpingMelinda","GLOBAL",5)
+ReputationInc(1)
+AddexperienceParty(20000)
+EraseJournalEntry(@84)
+//AddJournalEntry(@85,QUEST_DONE)
+EscapeArea()~ SOLVED_JOURNAL @85 EXIT
+END
+
+

@@ -1,0 +1,45 @@
+BEGIN ~CBPISSMN~
+
+IF ~Gender(LastTalkedToBy(Myself),MALE)~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN REPLY @2 GOTO 1
+  IF ~~ THEN REPLY @3 GOTO 2
+  IF ~InParty("JAHEIRA")
+OR(5)
+InParty("MAZZY")
+InParty("IMOEN2")
+InParty("AERIE")
+InParty("VICONIA")
+InParty("NALIA")~ THEN REPLY @4 GOTO 3
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @5
+  IF ~~ THEN DO ~Face(4)~ EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @6
+  IF ~~ THEN DO ~Face(4)~ EXIT
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @7
+  IF ~~ THEN DO ~Face(4)~ EXIT
+END
+
+IF ~Gender(LastTalkedToBy(Myself),FEMALE)~ THEN BEGIN 4
+  SAY @8
+  IF ~~ THEN REPLY @9 GOTO 5
+  IF ~~ THEN REPLY @10 GOTO 6
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @11
+  IF ~~ THEN DO ~Face(4)~ EXIT
+END
+
+IF ~~ THEN BEGIN 6
+  SAY @12
+  IF ~~ THEN DO ~Face(4)~ EXIT
+END

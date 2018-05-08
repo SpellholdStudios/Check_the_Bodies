@@ -1,0 +1,132 @@
+BEGIN ~CBCEEB01~
+
+IF ~Global("CbGetBookForCeeb","GLOBAL",0)~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN REPLY @2 GOTO 1
+  IF ~~ THEN REPLY @3 GOTO 3
+  IF ~~ THEN REPLY @4 GOTO 12
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @5
+  IF ~~ THEN GOTO 2
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @6
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @7
+  IF ~~ THEN REPLY @8 GOTO 4
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @9
+  IF ~~ THEN REPLY @10 GOTO 5
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @11
+  IF ~~ THEN REPLY @12 GOTO 6
+  IF ~~ THEN REPLY @13 GOTO 10
+END
+
+IF ~~ THEN BEGIN 6
+  SAY @14
+  IF ~~ THEN REPLY @15 GOTO 7
+  IF ~~ THEN REPLY @16 GOTO 9
+END
+
+IF ~~ THEN BEGIN 7
+  SAY @17
+  IF ~~ THEN GOTO 8
+END
+
+IF ~~ THEN BEGIN 8
+  SAY @18
+  IF ~~ THEN DO ~SetGlobal("CbGetBookForCeeb","GLOBAL",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN 9
+  SAY @19
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 10
+  SAY @20
+  IF ~~ THEN GOTO 11
+END
+
+IF ~~ THEN BEGIN 11
+  SAY @21
+  IF ~~ THEN REPLY @22 GOTO 7
+  IF ~~ THEN REPLY @16 GOTO 9
+END
+
+IF ~~ THEN BEGIN 12
+  SAY @23
+  IF ~~ THEN EXIT
+END
+
+IF ~GlobalGT("CbGetBookForCeeb","GLOBAL",0)~ THEN BEGIN 13
+  SAY @24
+  IF ~~ THEN REPLY @25 GOTO 14
+  IF ~~ THEN REPLY @26 GOTO 16
+  IF ~PartyHasItem("CBOVRSPR")~ THEN REPLY @27 GOTO 17
+  IF ~PartyHasItem("CBOVRSPR")~ THEN REPLY @28 GOTO 19
+END
+
+IF ~~ THEN BEGIN 14
+  SAY @29
+  IF ~~ THEN GOTO 15
+END
+
+IF ~~ THEN BEGIN 15
+  SAY @18
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 16
+  SAY @30
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 17
+  SAY @31
+  IF ~~ THEN DO ~TakePartyItem("CBOVRSPR")
+GiveItem("CBSPKDED",LastTalkedToBy(Myself))~ GOTO 18
+END
+
+IF ~~ THEN BEGIN 18
+  SAY @32
+  IF ~~ THEN DO ~SetGlobal("CbGetBookForCeeb","GLOBAL",5)
+AddJournalEntry(@38,QUEST)
+Wait(1)
+ForceSpell(Myself,DRYAD_TELEPORT)
+Wait(2)
+DestroySelf()~ EXIT
+END
+
+IF ~~ THEN BEGIN 19
+  SAY @33
+  IF ~~ THEN REPLY @34 GOTO 20
+  IF ~~ THEN REPLY @35 GOTO 21
+END
+
+IF ~~ THEN BEGIN 20
+  SAY @36
+  IF ~~ THEN DO ~TakePartyItem("CBOVRSPR")
+GiveItem("CBSPKDED",LastTalkedToBy(Myself))~ GOTO 18
+END
+
+IF ~~ THEN BEGIN 21
+  SAY @37
+  IF ~~ THEN DO ~TakePartyItem("CBOVRSPR")
+SetGlobal("CbGetBookForCeeb","GLOBAL",5)
+Wait(1)
+ForceSpell(Myself,DRYAD_TELEPORT)
+Wait(2)
+DestroySelf()~ EXIT
+END

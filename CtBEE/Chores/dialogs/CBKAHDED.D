@@ -1,0 +1,11 @@
+BEGIN ~CBKAHDED~
+
+IF ~Global("CbCutscene3511","AR3511",1)~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN DO ~SetGlobal("CbCutscene3511","AR3511",2)~ EXTERN ~CBJAHDED~ 1
+END
+
+IF ~Global("CbCutscene3511","AR3511",5)~ THEN BEGIN 1
+  SAY @2
+  IF ~~ THEN DO ~SetGlobal("CbCutscene3511","AR3511",6)~ EXTERN ~CBJAHDED~ 4
+END

@@ -1,0 +1,82 @@
+IF
+	Allegiance(Myself,ENEMY)
+	See(NearestEnemyOf(Myself))
+	GlobalTimerNotExpired("CbRunnerAttacked","LOCALS")
+	!Global("CbShadowThievesKillPlayer1","AR3566",1)
+	!Range("Door03",10)
+THEN
+	RESPONSE #50
+		DisplayStringHead(Myself,@550136)
+		MoveToObject("Door03")
+	RESPONSE #50
+		DisplayStringHead(Myself,@550137)
+		MoveToObject("Door03")
+END
+
+IF
+	Global("CbShadowThievesKillPlayer1","AR3566",1)
+	Allegiance(Myself,ENEMY)
+	See(NearestEnemyOf(Myself))
+	Range(Player1,20)
+	Delay(45)
+THEN
+	RESPONSE #100
+		Kill(Player1)
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	See(NearestEnemyOf(Myself))
+	!GlobalTimerNotExpired("CbRunnerAttacked","LOCALS")
+	!Range("Door03",10)
+THEN
+	RESPONSE #33
+		SelectWeaponAbility(SLOT_WEAPON,1)
+		SetGlobalTimer("CbRunnerAttacked","LOCALS",18)
+		AttackReevaluate(LastSeenBy(Myself),6)
+	RESPONSE #33
+		SelectWeaponAbility(SLOT_WEAPON,2)
+		SetGlobalTimer("CbRunnerAttacked","LOCALS",18)
+		AttackReevaluate(LastSeenBy(Myself),6)
+	RESPONSE #34
+		SelectWeaponAbility(SLOT_WEAPON,3)
+		SetGlobalTimer("CbRunnerAttacked","LOCALS",18)
+		AttackReevaluate(LastSeenBy(Myself),6)
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	See(NearestEnemyOf(Myself))
+	Range("Door03",10)
+	!Global("CbShadowThievesKillPlayer1","AR3566",1)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		StartCutSceneMode()
+		StartCutScene("CBSHDRUO")
+END
+
+IF
+	See([PC])
+	AreaCheck("AR3566")
+	OR(2)
+		!StateCheck(LastSeenBy(Myself),STATE_INVISIBLE)
+		!StateCheck(LastSeenBy(Myself),STATE_IMPROVEDINVISIBILITY)
+	Global("CbShadowThievesAttack","AR3566",0)
+	!Global("CbShadowThievesKillPlayer1","AR3566",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbShadowThievesAttack","AR3566",1)
+END
+
+IF
+	Allegiance(Myself,NEUTRAL)
+	AreaCheck("AR3566")
+	Global("CbShadowThievesAttack","AR3566",1)
+	!Global("CbShadowThievesKillPlayer1","AR3566",1)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly(Myself,ENEMY)
+END
+
+

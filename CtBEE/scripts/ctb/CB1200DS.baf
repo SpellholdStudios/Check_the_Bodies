@@ -1,0 +1,22 @@
+IF
+	Clicked([ANYONE])
+	GlobalLT("CbInformedAboutRoots","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayStringNoName(Myself,@550021)
+END
+
+IF
+	Clicked([ANYONE])
+	Global("CbInformedAboutRoots","GLOBAL",1)
+	Global("CbPeachInfoClicked","AR1200",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbPeachInfoClicked","AR1200",1)
+		DisplayStringNoName(Myself,@550021)
+		TriggerActivation("PeachTreeInfo",FALSE)
+		Wait(2)
+		ContainerEnable("PeachTreeCont",TRUE)
+END
+
+

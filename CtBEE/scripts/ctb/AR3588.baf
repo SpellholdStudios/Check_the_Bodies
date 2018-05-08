@@ -1,0 +1,20 @@
+IF
+	NumCreatureLT("SEAGUL",6)
+	AreaCheck("AR3588")
+	Delay(10)
+	InActiveArea(Player1)
+THEN
+	RESPONSE #100
+		CreateCreatureOffScreen("SEAGUL",0) 
+END
+
+IF
+	InActiveArea(Player1)
+	Global("CbFixingMasterAreas","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbFixingMasterAreas","GLOBAL",0)
+		SetMasterArea("AR3588")
+END
+
+

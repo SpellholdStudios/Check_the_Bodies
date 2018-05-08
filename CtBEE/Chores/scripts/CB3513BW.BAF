@@ -1,0 +1,24 @@
+IF
+    Global("CbSarevokCutsceneStart","AR3513",1)
+    Global("CbBranwenDidOnce","LOCALS",0)
+    HaveSpell(CLERIC_DRAW_UPON_HOLY_MIGHT)
+THEN
+    RESPONSE #100
+      SetGlobal("CbBranwenDidOnce","LOCALS",1)
+      Spell(Myself,CLERIC_DRAW_UPON_HOLY_MIGHT)
+END
+
+IF
+    Global("CbSarevokCutsceneStart","AR3513",1)
+THEN
+    RESPONSE #25
+        AttackReevaluate("CBSRVDED",10)
+    RESPONSE #25
+        AttackReevaluate("CBSEMDED",10)
+    RESPONSE #25
+        AttackReevaluate("CBGALDED",10)
+    RESPONSE #25
+        AttackReevaluate("CBTAZDED",10)
+END
+
+

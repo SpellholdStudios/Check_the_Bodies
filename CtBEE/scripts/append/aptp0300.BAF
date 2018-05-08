@@ -1,0 +1,158 @@
+/*IF
+        !InParty("Anomen")
+        CombatCounter(0)
+        Global("t#spawnSFmess","GLOBAL",0)
+        GlobalTimerExpired("t#SFmessT","GLOBAL")
+THEN
+        RESPONSE #100
+                 SetGlobal("CbWeddingQuestStarts","GLOBAL",1)
+                 SetGlobal("t#spawnSFmess","GLOBAL",1)
+                 CreateCreatureOffScreen("CBSFMESS",0)
+                 FaceObject([PC])
+                 StartDialogNoSet([PC])
+		Continue()
+END        */
+
+IF
+	OR(2)
+		GlobalGT("BodhiJob","GLOBAL",3)
+		GlobalGT("CbTalkedGaelan","GLOBAL",1)
+	Global("CbTaxAnnouncement","GLOBAL",0)
+	!Exists("CBTAXCVA")
+THEN
+	RESPONSE #100
+		SetGlobal("CbTaxAnnouncement","GLOBAL",1)
+		CreateCreatureOffScreen("CBTAXCVA",0)
+		Continue()
+END
+
+IF
+	GlobalLT("CbPartyEscapedUnderdark","GLOBAL",1)
+	OR(2)
+		GlobalGT("Movie02","GLOBAL",0)
+		GlobalGT("BodhiJob","GLOBAL",0)
+	Global("CbBarbarianIntroGuy","GLOBAL",0)
+	Class(Player1,FIGHTER)
+	Kit(Player1,0)
+	!Exists("CBNRT010")
+	AreaCheck("AR0300")
+THEN
+	RESPONSE #100
+		SetGlobal("CbBarbarianIntroGuy","GLOBAL",1)
+		CreateCreatureOffScreen("CBNRT010",0)
+		Continue()
+END
+
+IF
+	OR(2)
+		Global("CbDockWizardHasStaff","GLOBAL",1)
+		Global("CbDockWizardHasShaman","GLOBAL",1)
+	OpenState("DOOR0315",FALSE)
+THEN
+	RESPONSE #100
+		Unlock("DOOR0315")
+		Continue()
+END
+
+IF
+	Global("CbShadowThievesCapturePC","GLOBAL",6)
+	Global("CbBodhiJob","GLOBAL",6)
+	Global("CbWorkingForBodhi","GLOBAL",6)
+THEN
+	RESPONSE #100
+		TriggerActivation("Tran3565",TRUE)
+		TriggerActivation("Tran3566",FALSE)
+		TriggerActivation("CbInf328",TRUE)
+		TriggerActivation("Tran0305",FALSE)
+		TriggerActivation("Tran0306",FALSE)
+		TriggerActivation("Tran0327",FALSE)
+		TriggerActivation("Tran0328",FALSE)
+		TriggerActivation("Tran0329",FALSE)
+		TriggerActivation("Tran0307a",FALSE)
+		TriggerActivation("Tran0307b",FALSE)
+		TriggerActivation("Info307a",TRUE)
+		TriggerActivation("Info307b",TRUE)
+		TriggerActivation("Tran0329a",FALSE)
+		TriggerActivation("Tran0329b",FALSE)
+		Lock("Door0306")
+		Unlock("Door0305")
+		Continue()
+END
+
+IF
+	Global("CbShadowThievesCapturePC","GLOBAL",7)
+	Global("CbBodhiJob","GLOBAL",7)
+	Global("CbWorkingForBodhi","GLOBAL",7)
+THEN
+	RESPONSE #100
+		TriggerActivation("Tran3565",TRUE)
+		TriggerActivation("Tran3566",TRUE)
+		TriggerActivation("CbInf328",TRUE)
+		TriggerActivation("Tran0305",FALSE)
+		TriggerActivation("Tran0306",FALSE)
+		TriggerActivation("Tran0327",FALSE)
+		TriggerActivation("Tran0328",FALSE)
+		TriggerActivation("Tran0329",FALSE)
+		TriggerActivation("Tran0307a",FALSE)
+		TriggerActivation("Tran0307b",FALSE)
+		TriggerActivation("Info307a",TRUE)
+		TriggerActivation("Info307b",FALSE)
+		TriggerActivation("Tran0329a",FALSE)
+		TriggerActivation("Tran0329b",FALSE)
+		Lock("Door0306")
+		Continue()
+END
+
+IF
+	GlobalGT("CbShadowThievesCapturePC","GLOBAL",8)
+	GlobalLT("CbBodhiJob","GLOBAL",10)
+	GlobalLT("CbWorkingForBodhi","GLOBAL",10)
+THEN
+	RESPONSE #100
+		TriggerActivation("Tran3565",FALSE)
+		TriggerActivation("Tran3566",FALSE)
+		TriggerActivation("CbInf328",FALSE)
+		EraseJournalEntry(@70002)
+		EraseJournalEntry(@70003)
+		AddJournalEntry(@70004,QUEST_DONE)
+		SetGlobal("CbWorkingForBodhi","GLOBAL",10)
+		SetGlobal("CbShadowThievesCapturePC","GLOBAL",10)
+		SetGlobal("CbBodhiJob","GLOBAL",10)
+		SetGlobal("ETG2Dave","AR0300",0)
+		SetGlobal("CloseDoorsFirstTime","AR0300",0)
+		SetGlobal("DisableThiefGuild","AR0300",0)
+		SetGlobal("EnableThiefGuild","AR0300",0)
+		SetGlobal("DTG2Dave","AR0300",0)
+		SetGlobal("ShadowDoors","GLOBAL",0)
+		SetGlobal("ShadowSecretDoors","GLOBAL",0)
+		Continue()
+END
+
+IF
+	OR(7)
+		Class(Player1,MAGE)
+		Class(Player1,FIGHTER_MAGE)
+		Class(Player1,CLERIC_MAGE)
+		Class(Player1,MAGE_THIEF)
+		Class(Player1,SORCERER)
+		Class(Player1,FIGHTER_MAGE_THIEF)
+		Class(Player1,FIGHTER_MAGE_CLERIC)
+	LevelGT(Player1,9)
+	Global("CbDearPrudence","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbDearPrudence","GLOBAL",1)
+		CreateCreatureOffScreen("CBRYBERG",6)
+		Continue()
+END
+
+IF
+	GlobalGT("CbBarbarianIntroGuy","GLOBAL",0)
+	Global("#HCBCAPTNFIX","GLOBAL",0)
+	!Exists("CBSEACPT")
+THEN
+	RESPONSE #100
+		SetGlobal("#HCBCAPTNFIX","GLOBAL",1)
+		CreateCreature("CBSEACPT",[1760.3174],8) // Captain Deudermont
+		Continue()
+END

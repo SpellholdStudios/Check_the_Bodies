@@ -1,0 +1,17 @@
+IF
+        Global("ButtonsEnabled","AR3513",0)
+        OR(6)
+	     Class(Protagonist,DRUID_ALL)
+	     Class(Protagonist,CLERIC_ALL)
+	     Class(Protagonist,PALADIN_ALL)
+	     Class(Protagonist,MAGE_ALL)
+	     Class(Protagonist,BARD_ALL)
+	     Class(Protagonist,MAGE_ALL)
+	!Kit(Protagonist,INQUISITOR)
+THEN
+	RESPONSE #100
+		ForceSpellRES("CBCHOR_E",Protagonist)
+  	        SetGlobal("ButtonsEnabled","AR3513",1)
+  	        Continue()
+END
+

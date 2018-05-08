@@ -1,0 +1,18 @@
+IF
+	GlobalTimerNotExpired("CbIamRunningScared","LOCALS")
+THEN
+	RESPONSE #100
+		RunAwayFromNoInterrupt(LastSeenBy(Myself),24)
+END
+
+IF
+	See([ANYONE])
+	HasItemEquiped("CBMALR6A",LastSeenBy(Myself))
+	!GlobalTimerNotExpired("CbIamRunningScared","LOCALS")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("CbIamRunningScared","LOCALS",24)
+		DisplayString(Myself,20568) // Morale Failure: Panic
+END
+
+

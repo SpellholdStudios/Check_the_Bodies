@@ -1,0 +1,9 @@
+IF
+	Allegiance("CB576WIZ",ENEMY)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly(Myself,ENEMY)
+END
+
+

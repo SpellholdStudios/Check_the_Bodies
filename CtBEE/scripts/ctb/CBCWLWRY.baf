@@ -1,0 +1,23 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		StorePartyLocations()
+		FadeToColor([20.0],0)
+		SmallWait(7)
+		MultiPlayerSync()
+		LeaveAreaLUAPanic("AR3576","",[2000.2000],0)
+		LeaveAreaLUA("AR3576","",[2000.2000],0)
+		ActionOverride(Player2,LeaveAreaLUA("AR3576","",[2000.2000],0))
+		ActionOverride(Player3,LeaveAreaLUA("AR3576","",[2000.2000],0))
+		ActionOverride(Player4,LeaveAreaLUA("AR3576","",[2000.2000],0))
+		ActionOverride(Player5,LeaveAreaLUA("AR3576","",[2000.2000],0))
+		ActionOverride(Player6,LeaveAreaLUA("AR3576","",[2000.2000],0))
+		MultiPlayerSync()
+		MoveViewPoint([288.417],INSTANT)
+		MultiPlayerSync()
+		StartCutScene("CBCWLWRb")
+END
+
+

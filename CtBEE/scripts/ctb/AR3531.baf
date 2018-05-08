@@ -1,0 +1,84 @@
+IF
+	PartyRested()
+	Global("Cb_PartyAlliesWith_C_o_8","GLOBAL",2)
+THEN
+	RESPONSE #100
+		ActionOverride("CBARKSLV",Rest())
+		ActionOverride("CBSTTFLW",Rest())
+		ActionOverride("CBLSLNDA",Rest())
+		ActionOverride("CBHREDWN",Rest())
+		ActionOverride("CBTARDTH",Rest())
+		ActionOverride("CBMANARB",Rest())
+		ActionOverride("CBMONDRP",Rest())
+END
+
+IF
+	!CombatCounter(0)
+	Global("Cb_MoondropWarns","AR3531",0)
+	HPGT("CBMONDRP",10)
+THEN
+	RESPONSE #100
+		ActionOverride("CBMONDRP",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("CbSpawnFightersIn3531","GLOBAL",1)
+	LevelLT(Player1,13)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpawnFightersIn3531","GLOBAL",2)
+		CreateCreature("CBC8CTF1",[1700.2200],0)
+		CreateCreature("CBC8CTF1",[1635.2240],0)
+		CreateCreature("CBC8CTF1",[1725.2260],0)
+		CreateCreature("CBC8CTF1",[1830.2280],0)
+		CreateCreature("CBC8CTM1",[1825.2365],0)
+END
+
+IF
+	Global("CbSpawnFightersIn3531","GLOBAL",1)
+	LevelGT(Player1,12)
+	LevelLT(Player1,16)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpawnFightersIn3531","GLOBAL",2)
+		CreateCreature("CBC8CTF2",[1700.2200],0)
+		CreateCreature("CBC8CTF2",[1635.2240],0)
+		CreateCreature("CBC8CTF2",[1725.2260],0)
+		CreateCreature("CBC8CTF2",[1830.2280],0)
+		CreateCreature("CBC8CTM2",[1825.2365],0)
+END
+
+IF
+	Global("CbSpawnFightersIn3531","GLOBAL",1)
+	LevelGT(Player1,15)
+	LevelLT(Player1,19)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpawnFightersIn3531","GLOBAL",2)
+		CreateCreature("CBC8CTF2",[1700.2200],0)
+		CreateCreature("CBC8CTF2",[1635.2240],0)
+		CreateCreature("CBC8CTF2",[1725.2260],0)
+		CreateCreature("CBC8CTF2",[1830.2280],0)
+		CreateCreature("CBC8CTM2",[1825.2365],0)
+		CreateCreature("CBC8CTL2",[1720.2365],0)
+END
+
+IF
+	Global("CbSpawnFightersIn3531","GLOBAL",1)
+	LevelGT(Player1,18)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpawnFightersIn3531","GLOBAL",2)
+		CreateCreature("CBC8CTF3",[1700.2200],0)
+		CreateCreature("CBC8CTF3",[1635.2240],0)
+		CreateCreature("CBC8CTF3",[1725.2260],0)
+		CreateCreature("CBC8CTF3",[1830.2280],0)
+		CreateCreature("CBC8CTM3",[1825.2365],0)
+		CreateCreature("CBC8CTL3",[1720.2365],0)
+		CreateCreature("CBC8CTU3",[1578.2314],0)
+		CreateCreature("CBC8CTU3",[1869.2063],0)
+		CreateCreature("CBC8CTC2",[1962.2094],0)
+		CreateCreature("CBC8CTC2",[2042.2137],0)
+END
+
+

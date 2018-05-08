@@ -1,0 +1,22 @@
+IF
+	Clicked([ANYONE])
+	GlobalLT("CbInformedAboutRoots","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayStringNoName(Myself,@550024)
+END
+
+IF
+	Clicked([ANYONE])
+	Global("CbInformedAboutRoots","GLOBAL",1)
+	Global("CbWormwoodInfoClicked","AR1700",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbWormwoodInfoClicked","AR1700",1)
+		DisplayStringNoName(Myself,@550024)
+		TriggerActivation("WormwoodInfo",FALSE)
+		Wait(2)
+		ContainerEnable("WormwoodCont",TRUE)
+END
+
+

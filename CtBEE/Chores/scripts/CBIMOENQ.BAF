@@ -1,0 +1,12 @@
+IF
+    True()
+THEN
+    RESPONSE #100
+        CutSceneId(Player1)
+        Wait(1)
+        ActionOverride("CBIMOENL",DisplayStringHead("CBIMOENL",@550403))
+        Wait(5)
+        SetCursorState(FALSE)
+        SetGlobal("CbImoenPlayed","AR3500",1)
+        ActionOverride("CBIMOENL",StartDialogueNoSet(Player1))
+END

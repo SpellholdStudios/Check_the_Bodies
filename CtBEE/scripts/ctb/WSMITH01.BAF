@@ -1,0 +1,34 @@
+IF
+	HasItem("CBMALR6a",Myself)
+	Global("CbCromwellDestroysCrown","AR0334",1)
+THEN
+	RESPONSE #100
+	        DestroyItem("CBMALR6a")
+		ClearAllActions()
+		StartCutSceneMode()
+		StartCutScene("CROMWELL")
+END
+
+IF
+	GlobalGT("CbMalteseArtifact","GLOBAL",4)
+	GlobalGT("CbMalteseJournals","GLOBAL",0)
+	GlobalGT("CbCromwellDestroysCrown","AR0334",0)
+	Global("CbCromwellFinalizesEntries","AR0334",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbCromwellFinalizesEntries","AR0334",1)
+		SetGlobal("CbMalteseArtifact","GLOBAL",10)
+		AddJournalEntry(@550163,QUEST_DONE)
+		AddexperienceParty(60000)
+		EraseJournalEntry(@550286) 
+		EraseJournalEntry(@550287) 
+		EraseJournalEntry(@550288) 
+		EraseJournalEntry(@550289) 
+		EraseJournalEntry(@550290) 
+		EraseJournalEntry(@550291) 
+		EraseJournalEntry(@550292) 
+		EraseJournalEntry(@550293) 
+		EraseJournalEntry(@550294)
+END
+
+

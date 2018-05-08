@@ -1,0 +1,82 @@
+IF
+	Global("CbCloseToHome","GLOBAL",5)
+THEN
+	RESPONSE #100
+		Kill(Myself)
+END
+
+IF
+	Global("CbZombieGotEquipment","LOCALS",0)
+THEN
+	RESPONSE #100
+		ApplySpellRES("CBZOMB01",Myself)
+		EquipMostDamagingMelee()
+		SetGlobal("CbZombieGotEquipment","LOCALS",1)
+END
+
+IF
+	Global("CbInitialStandDone","AR3675",2)
+	GlobalGT("CbHlondethRetreatStage","AR3675",4)
+	Global("CbFinalInitialWave","AR3675",1)
+	!See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		MoveToObject("RALLY1")
+END
+
+IF
+	Global("CbSecondStandDone","AR3675",2)
+	GlobalGT("CbHlondethRetreatStage","AR3675",8)
+	Global("CbFinalSecondWave","AR3675",1)
+	!Range("RALLY2",15)
+	!See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		MoveToObjectNoInterrupt("RALLY2")
+		Face(6)
+END
+
+IF
+	Global("CbHlondethRetreatStage","AR3675",3)
+	Global("CbOfficerOneCreatesMOB","AR3675",2)
+	!See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		MoveToObject("WESTBRDG")
+END
+
+IF
+	Global("CbHlondethRetreatStage","AR3675",7)
+	Global("CbOfficerTwoCreatesMOB","AR3675",3)
+	!See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		MoveToObject("MDDLBRDG")
+END
+
+IF
+	GlobalGT("CbHlondethMustRetreat","AR3675",10)
+	Global("CbOfficerThreeCreatesMOB","AR3675",3)
+	!See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		MoveToObject("EASTBRDG")
+END
+
+IF
+	See([GOODBUTBLUE])
+THEN
+	RESPONSE #100
+		SetGlobal("CbZombieOneMoving","LOCALS",0)
+		Attack(LastSeenBy(Myself))
+END
+
+IF
+	See([GOODCUTOFF])
+THEN
+	RESPONSE #100
+		SetGlobal("CbZombieOneMoving","LOCALS",0)
+		Attack(LastSeenBy(Myself))
+END
+
+

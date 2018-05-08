@@ -1,0 +1,51 @@
+IF
+	HasItem("AX1H03",Myself) // Battle Axe +2
+	Global("CbNorthmanEquipedWeapon","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbNorthmanEquipedWeapon","LOCALS",1)
+		EquipItem("AX1H03") // Battle Axe +2
+		EquipMostDamagingMelee()
+END
+
+IF
+	HasItem("SW1H06",Myself) // Long Sword +2
+	Global("CbNorthmanEquipedWeapon","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbNorthmanEquipedWeapon","LOCALS",1)
+		EquipItem("SW1H06") // Long Sword +2
+		EquipMostDamagingMelee()
+END
+
+IF
+	HasItem("SW1H04",Myself) // Long Sword
+	Global("CbNorthmanEquipedWeapon","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbNorthmanEquipedWeapon","LOCALS",1)
+		EquipItem("SW1H04") // Long Sword
+		EquipMostDamagingMelee()
+END
+
+IF
+	HasItem("SW2H02",Myself) // Two Handed Sword +1
+	Global("CbNorthmanEquipedWeapon","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbNorthmanEquipedWeapon","LOCALS",1)
+		EquipItem("SW2H02") // Two Handed Sword +1
+		EquipMostDamagingMelee()
+END
+
+IF
+	NumTimesTalkedTo(0)
+	CombatCounter(0)
+	See(Player1)
+THEN
+	RESPONSE #100
+		MoveToObject(Player1)
+		StartDialogueNoSet(Player1)
+END
+
+

@@ -1,0 +1,104 @@
+IF
+	OR(6)
+		See([GOODCUTOFF])
+		See("CBNRT001")
+		See("CBNRT002")
+		See("CBNRT003")
+		See("CBNRT004")
+		See("CBNRT005")
+	Exists("CBNRTLU1")
+	!Global("CbLuskanitesAttack","AR3594",1)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),20)
+END
+
+IF
+	Global("CbLuskanitesRetreat","AR3594",1)
+THEN
+	RESPONSE #20
+		SetInterrupt(FALSE)
+		DisplayStringHead(Myself,3929) //  These odds are idiocy!  Retreat!
+		MoveToPointNoInterrupt([4061.998])
+		EscapeAreaDestroy(0)
+		SetInterrupt(TRUE)
+	RESPONSE #20
+		SetInterrupt(FALSE)
+		DisplayStringHead(Myself,73182) //  There is no disgrace in retreat!
+		MoveToPointNoInterrupt([4061.998])
+		EscapeAreaDestroy(0)
+		SetInterrupt(TRUE)
+	RESPONSE #20
+		SetInterrupt(FALSE)
+		DisplayStringHead(Myself,72954) //  Retreat! Retreat!
+		MoveToPointNoInterrupt([4061.998])
+		EscapeAreaDestroy(0)
+		SetInterrupt(TRUE)
+	RESPONSE #20
+		SetInterrupt(FALSE)
+		DisplayStringHead(Myself,61869) //  Retreat!
+		MoveToPointNoInterrupt([4061.998])
+		EscapeAreaDestroy(0)
+		SetInterrupt(TRUE)
+	RESPONSE #20
+		SetInterrupt(FALSE)
+		DisplayStringHead(Myself,4560) //  There are too many, retreat!
+		MoveToPointNoInterrupt([4061.998])
+		EscapeAreaDestroy(0)
+		SetInterrupt(TRUE)
+END
+
+IF
+	Global("CbLuskanMoves","LOCALS",1)
+	!Range("CBNRTLU1",7)
+	!Global("CbLuskanitesRetreat","AR3594",1)
+	!See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobal("CbLuskanMoves","LOCALS",0)
+END
+
+IF
+	Global("CbLuskanMoves","LOCALS",0)
+	!Range([ANYONE],16)
+	!Global("CbLuskanitesRetreat","AR3594",1)
+	!See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobal("CbLuskanMoves","LOCALS",1)
+		FollowObjectFormation("CBNRTLU1",0,1)
+	RESPONSE #100
+		SetGlobal("CbLuskanMoves","LOCALS",1)
+		FollowObjectFormation("CBNRTLU1",0,2)
+	RESPONSE #100
+		SetGlobal("CbLuskanMoves","LOCALS",1)
+		FollowObjectFormation("CBNRTLU1",0,3)
+	RESPONSE #100
+		SetGlobal("CbLuskanMoves","LOCALS",1)
+		FollowObjectFormation("CBNRTLU1",0,4)
+	RESPONSE #100
+		SetGlobal("CbLuskanMoves","LOCALS",1)
+		FollowObjectFormation("CBNRTLU1",0,5)
+	RESPONSE #100
+		SetGlobal("CbLuskanMoves","LOCALS",1)
+		FollowObjectFormation("CBNRTLU1",0,6)
+END
+
+IF
+	!Range("CBNRTLU1",16)
+	!Global("CbLuskanitesRetreat","AR3594",1)
+	!See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		FollowObjectFormation("CBNRTLU1",0,1)
+	RESPONSE #100
+		FollowObjectFormation("CBNRTLU1",0,6)
+	RESPONSE #100
+		FollowObjectFormation("CBNRTLU1",0,6)
+	RESPONSE #100
+		FollowObjectFormation("CBNRTLU1",0,6)
+	RESPONSE #100
+		FollowObjectFormation("CBNRTLU1",0,6)
+END
+
+

@@ -1,0 +1,210 @@
+IF
+	Global("CbUndeadAdjustsLevel","LOCALS",0)
+	RandomNumLT(100,21)
+	RandomNumGT(100,0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbUndeadAdjustsLevel","LOCALS",1)
+		CreateCreature("GPSKEL1",[-1.-1],0) // Skeleton
+		CreateCreature("GPSKEL1",[-1.-1],0) // Skeleton
+		CreateCreature("GPSKEL1",[-1.-1],0) // Skeleton
+		DestroySelf()
+END
+
+IF
+	Global("CbUndeadAdjustsLevel","LOCALS",0)
+	RandomNumLT(100,41)
+	RandomNumGT(100,20)
+THEN
+	RESPONSE #100
+		SetGlobal("CbUndeadAdjustsLevel","LOCALS",1)
+		CreateCreature("SKELWA01",[-1.-1],0) // Skeleton Warrior
+		CreateCreature("SKELWA01",[-1.-1],0) // Skeleton Warrior
+		CreateCreature("SKELWA01",[-1.-1],0) // Skeleton Warrior
+		DestroySelf()
+END
+
+IF
+	Global("CbUndeadAdjustsLevel","LOCALS",0)
+	RandomNumLT(100,51)
+	RandomNumGT(100,40)
+THEN
+	RESPONSE #100
+		SetGlobal("CbUndeadAdjustsLevel","LOCALS",1)
+		CreateCreature("SKELWA01",[-1.-1],0) // Skeleton Warrior
+		CreateCreature("SKELWA01",[-1.-1],0) // Skeleton Warrior
+		CreateCreature("SKELWA01",[-1.-1],0) // Skeleton Warrior
+		CreateCreature("SKELWA01",[-1.-1],0) // Skeleton Warrior
+		CreateCreature("SKELAR02",[-1.-1],0) // Skeleton Archer
+		CreateCreature("SKELAR02",[-1.-1],0) // Skeleton Archer
+		DestroySelf()
+END
+
+IF
+	Global("CbUndeadAdjustsLevel","LOCALS",0)
+	RandomNumLT(100,61)
+	RandomNumGT(100,50)
+THEN
+	RESPONSE #100
+		SetGlobal("CbUndeadAdjustsLevel","LOCALS",1)
+		CreateCreature("WRAITH01",[-1.-1],0) // Wraith
+		CreateCreature("WRAITH01",[-1.-1],0) // Wraith
+		DestroySelf()
+END
+
+IF
+	Global("CbUndeadAdjustsLevel","LOCALS",0)
+	RandomNumLT(100,71)
+	RandomNumGT(100,60)
+THEN
+	RESPONSE #100
+		SetGlobal("CbUndeadAdjustsLevel","LOCALS",1)
+		CreateCreature("SHAWOL02",[-1.-1],0) // Greater Shade Wolf
+		CreateCreature("SHAWOL02",[-1.-1],0) // Greater Shade Wolf
+		CreateCreature("SHAWOL02",[-1.-1],0) // Greater Shade Wolf
+		DestroySelf()
+END
+
+IF
+	Global("CbUndeadAdjustsLevel","LOCALS",0)
+	RandomNumLT(100,81)
+	RandomNumGT(100,70)
+THEN
+	RESPONSE #100
+		SetGlobal("CbUndeadAdjustsLevel","LOCALS",1)
+		CreateCreature("SKELWA02",[-1.-1],0) // Skeleton Warrior
+		CreateCreature("SKELWA02",[-1.-1],0) // Skeleton Warrior
+		CreateCreature("SKELWA02",[-1.-1],0) // Skeleton Warrior
+		DestroySelf()
+END
+
+IF
+	Global("CbUndeadAdjustsLevel","LOCALS",0)
+	RandomNumLT(100,91)
+	RandomNumGT(100,80)
+THEN
+	RESPONSE #100
+		SetGlobal("CbUndeadAdjustsLevel","LOCALS",1)
+		CreateCreature("ICBONE01",[-1.-1],0) // Bone Golem
+		CreateCreature("ICBONE01",[-1.-1],0) // Bone Golem
+		DestroySelf()
+END
+
+IF
+	Global("CbUndeadAdjustsLevel","LOCALS",0)
+	RandomNumLT(100,94)
+	RandomNumGT(100,90)
+THEN
+	RESPONSE #100
+		SetGlobal("CbUndeadAdjustsLevel","LOCALS",1)
+		CreateCreature("GHAST01",[-1.-1],0) // Ghast
+		CreateCreature("GHAST01",[-1.-1],0) // Ghast
+		CreateCreature("GHAST01",[-1.-1],0) // Ghast
+		CreateCreature("GHOGR01",[-1.-1],0) // Greater Ghoul
+		DestroySelf()
+END
+
+IF
+	Global("CbUndeadAdjustsLevel","LOCALS",0)
+	RandomNumLT(100,97)
+	RandomNumGT(100,93)
+THEN
+	RESPONSE #100
+		SetGlobal("CbUndeadAdjustsLevel","LOCALS",1)
+		CreateCreature("GHAST01",[-1.-1],0) // Ghast
+		CreateCreature("GHAST01",[-1.-1],0) // Ghast
+		CreateCreature("GHAST01",[-1.-1],0) // Ghast
+		CreateCreature("GHAST01",[-1.-1],0) // Ghast
+		CreateCreature("GHOGR01",[-1.-1],0) // Greater Ghoul
+		CreateCreature("GHOGR01",[-1.-1],0) // Greater Ghoul
+		CreateCreature("GTCIT3",[-1.-1],0) // Zombie
+		CreateCreature("GTCIT3",[-1.-1],0) // Zombie
+		CreateCreature("LICHEL01",[-1.-1],0) // Elemental Lich
+		DestroySelf()
+END
+
+IF
+	Global("CbUndeadAdjustsLevel","LOCALS",0)
+	RandomNumLT(100,100)
+	RandomNumGT(100,96)
+THEN
+	RESPONSE #100
+		SetGlobal("CbUndeadAdjustsLevel","LOCALS",1)
+		CreateCreature("GHAST01",[-1.-1],0) // Ghast
+		CreateCreature("GHAST01",[-1.-1],0) // Ghast
+		CreateCreature("GHAST01",[-1.-1],0) // Ghast
+		CreateCreature("GHAST01",[-1.-1],0) // Ghast
+		CreateCreature("GHAST01",[-1.-1],0) // Ghast
+		CreateCreature("GHOGR01",[-1.-1],0) // Greater Ghoul
+		CreateCreature("GHOGR01",[-1.-1],0) // Greater Ghoul
+		CreateCreature("GHOGR01",[-1.-1],0) // Greater Ghoul
+		CreateCreature("GTCIT3",[-1.-1],0) // Zombie
+		CreateCreature("GTCIT3",[-1.-1],0) // Zombie
+		CreateCreature("GTCIT3",[-1.-1],0) // Zombie
+		CreateCreature("LICHEL01",[-1.-1],0) // Elemental Lich
+		CreateCreature("GRREVEN",[-1.-1],0) // Revenant
+		DestroySelf()
+END
+
+IF
+	Global("CbUndeadAdjustsLevel","LOCALS",0)
+	!Global("CbDon'tDoAgain","LOCALS",1)
+	RandomNum(100,100)
+THEN
+	RESPONSE #50
+		SetGlobal("CbUndeadAdjustsLevel","LOCALS",1)
+		CreateCreature("GPSKEL1",[-1.-1],0) // Skeleton
+		CreateCreature("GPSKEL1",[-1.-1],0) // Skeleton
+		CreateCreature("GPSKEL1",[-1.-1],0) // Skeleton
+		CreateCreature("WRAITH01",[-1.-1],0) // Wraith
+		CreateCreature("WRAITH01",[-1.-1],0) // Wraith
+		CreateCreature("SKELAR02",[-1.-1],0) // Skeleton Archer
+		CreateCreature("SKELAR02",[-1.-1],0) // Skeleton Archer
+		CreateCreature("SHAWOL02",[-1.-1],0) // Greater Shade Wolf
+		CreateCreature("SHAWOL02",[-1.-1],0) // Greater Shade Wolf
+		CreateCreature("SKELWA02",[-1.-1],0) // Skeleton Warrior
+		CreateCreature("SKELWA02",[-1.-1],0) // Skeleton Warrior
+		CreateCreature("GHAST01",[-1.-1],0) // Ghast
+		CreateCreature("GHAST01",[-1.-1],0) // Ghast
+		CreateCreature("GTCIT3",[-1.-1],0) // Zombie
+		CreateCreature("GRREVEN",[-1.-1],0) // Revenant
+		CreateCreature("GRREVEN",[-1.-1],0) // Revenant
+		CreateCreature("LICHEL01",[-1.-1],0) // Elemental Lich
+		CreateCreature("LICH01",[-1.-1],0) // Lich
+		DestroySelf()
+	RESPONSE #50
+		SetGlobal("CbDon'tDoAgain","LOCALS",1)
+		CreateCreature("GPSKEL1",[-1.-1],0) // Skeleton
+		CreateCreature("GPSKEL1",[-1.-1],0) // Skeleton
+		CreateCreature("GPSKEL1",[-1.-1],0) // Skeleton
+		CreateCreature("WRAITH01",[-1.-1],0) // Wraith
+		CreateCreature("WRAITH01",[-1.-1],0) // Wraith
+		CreateCreature("SKELAR02",[-1.-1],0) // Skeleton Archer
+		CreateCreature("SKELAR02",[-1.-1],0) // Skeleton Archer
+		CreateCreature("SHAWOL02",[-1.-1],0) // Greater Shade Wolf
+		CreateCreature("SHAWOL02",[-1.-1],0) // Greater Shade Wolf
+		CreateCreature("SKELWA02",[-1.-1],0) // Skeleton Warrior
+		CreateCreature("SKELWA02",[-1.-1],0) // Skeleton Warrior
+		CreateCreature("GHAST01",[-1.-1],0) // Ghast
+		CreateCreature("GHAST01",[-1.-1],0) // Ghast
+		CreateCreature("GTCIT3",[-1.-1],0) // Zombie
+		CreateCreature("GRREVEN",[-1.-1],0) // Revenant
+		CreateCreature("GRREVEN",[-1.-1],0) // Revenant
+		CreateCreature("LICHEL01",[-1.-1],0) // Elemental Lich
+		CreateCreature("LICH01",[-1.-1],0) // Lich
+END
+
+IF
+	Global("CbDon'tDoAgain","LOCALS",1)
+	RandomNum(100,100)
+THEN
+	RESPONSE #100
+		SetGlobal("CbUndeadAdjustsLevel","LOCALS",1)
+		CreateCreature("GHAST01",[-1.-1],0) // Ghast
+		CreateCreature("GHAST01",[-1.-1],0) // Ghast
+		CreateCreature("GHAST01",[-1.-1],0) // Ghast
+		CreateCreature("GHOGR01",[-1.-1],0) // Greater Ghoul
+		DestroySelf()
+END
+
+

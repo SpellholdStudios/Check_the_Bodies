@@ -1,0 +1,21 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		FadeToColor([20.0],0)
+		Wait(3)
+		ActionOverride("CBP3ACT1",DestroySelf())
+		ActionOverride("CBP3ACT2",DestroySelf())
+		ActionOverride("CBP3ACT3",DestroySelf())
+		ActionOverride("CBP3ACT4",DestroySelf())
+		CreateCreature("CBP3ACT7",[785.596],2)
+		CreateCreature("CBP3ACT5",[975.589],15)
+		CreateCreature("CBP3ACT6",[811.543],0)
+		ActionOverride("CBP3ACT6",FaceObject("CBP3ACT7"))
+		Wait(1)
+		SetGlobal("CbScreening_MacParody","AR0510",3)
+		FadeFromColor([20.0],0)
+		EndCutSceneMode()
+		ActionOverride("CBP3ACT5",StartDialogueNoSet("CBP1ACT6"))
+END

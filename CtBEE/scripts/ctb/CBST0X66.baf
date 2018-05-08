@@ -1,0 +1,60 @@
+IF
+	See([PC])
+	AreaCheck("AR3565")
+	OR(2)
+		!StateCheck(LastSeenBy(Myself),STATE_INVISIBLE)
+		!StateCheck(LastSeenBy(Myself),STATE_IMPROVEDINVISIBILITY)
+	Global("CbShadowThievesAttack","AR3565",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbShadowThievesAttack","AR3565",1)
+END
+
+IF
+	See([PC])
+	AreaCheck("AR3566")
+	OR(2)
+		!StateCheck(LastSeenBy(Myself),STATE_INVISIBLE)
+		!StateCheck(LastSeenBy(Myself),STATE_IMPROVEDINVISIBILITY)
+	Global("CbShadowThievesAttack","AR3566",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbShadowThievesAttack","AR3566",1)
+END
+
+IF
+	Allegiance(Myself,NEUTRAL)
+	AreaCheck("AR3565")
+	Global("CbShadowThievesAttack","AR3565",1)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly(Myself,ENEMY)
+END
+
+IF
+	Allegiance(Myself,NEUTRAL)
+	AreaCheck("AR3566")
+	Global("CbShadowThievesAttack","AR3566",1)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly(Myself,ENEMY)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #25
+		SelectWeaponAbility(SLOT_WEAPON,1)
+		AttackReevaluate(NearestEnemyOf(Myself),45)
+	RESPONSE #25
+		SelectWeaponAbility(SLOT_WEAPON,2)
+		AttackReevaluate(NearestEnemyOf(Myself),45)
+	RESPONSE #25
+		SelectWeaponAbility(SLOT_WEAPON,3)
+		AttackReevaluate(NearestEnemyOf(Myself),45)
+	RESPONSE #25
+		SelectWeaponAbility(SLOT_WEAPON,4)
+		AttackReevaluate(NearestEnemyOf(Myself),45)
+END
+
+

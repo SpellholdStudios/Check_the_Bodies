@@ -1,0 +1,196 @@
+BEGIN ~CBTAXCOL~ 2
+
+IF ~NumTimesTalkedTo(0)
+Global("CbTaxAnnouncement","GLOBAL",5)~ THEN BEGIN 0
+  SAY @1
+  IF ~PartyGoldLT(1000)~ THEN GOTO 1
+  IF ~PartyGoldGT(999)
+PartyGoldLT(5000)~ THEN GOTO 2
+  IF ~PartyGoldGT(4999)
+PartyGoldLT(10000)~ THEN GOTO 3
+  IF ~PartyGoldGT(9999)
+PartyGoldLT(25000)~ THEN GOTO 4
+  IF ~PartyGoldGT(24999)
+PartyGoldLT(100000)~ THEN GOTO 5
+  IF ~PartyGoldGT(99999)
+PartyGoldLT(150000)~ THEN GOTO 6
+  IF ~PartyGoldGT(149999)
+PartyGoldLT(200000)~ THEN GOTO 7
+  IF ~PartyGoldGT(199999)~ THEN GOTO 8
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @2
+  IF ~~ THEN REPLY @3 DO ~TakePartyGold(20)
+DestroyGold(20)~ GOTO 9
+  IF ~~ THEN REPLY @4 GOTO 10
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @5
+  IF ~~ THEN REPLY @3 DO ~TakePartyGold(100)
+DestroyGold(100)~ GOTO 9
+  IF ~~ THEN REPLY @6 GOTO 11
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @7
+  IF ~~ THEN REPLY @3 DO ~TakePartyGold(200)
+DestroyGold(200)~ GOTO 9
+  IF ~~ THEN REPLY @8 GOTO 12
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @9
+  IF ~~ THEN REPLY @3 DO ~TakePartyGold(500)
+DestroyGold(500)~ GOTO 9
+  IF ~~ THEN REPLY @10 GOTO 13
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @11
+  IF ~~ THEN REPLY @3 DO ~TakePartyGold(2000)
+DestroyGold(2000)~ GOTO 9
+  IF ~~ THEN REPLY @12 GOTO 14
+END
+
+IF ~~ THEN BEGIN 6
+  SAY @13
+  IF ~~ THEN REPLY @3 DO ~TakePartyGold(4000)
+DestroyGold(4000)~ GOTO 9
+  IF ~~ THEN REPLY @14 GOTO 15
+END
+
+IF ~~ THEN BEGIN 7
+  SAY @15
+  IF ~~ THEN REPLY @3 DO ~TakePartyGold(5000)
+DestroyGold(5000)~ GOTO 9
+  IF ~~ THEN REPLY @16 GOTO 16
+END
+
+IF ~~ THEN BEGIN 8
+  SAY @17
+  IF ~~ THEN REPLY @3 DO ~TakePartyGold(6000)
+DestroyGold(6000)~ GOTO 9
+  IF ~~ THEN REPLY @18 GOTO 17
+END
+
+IF ~~ THEN BEGIN 9
+  SAY @19
+  IF ~~ THEN DO ~SetGlobal("CbTaxCollected","GLOBAL",2)~ EXIT
+END
+
+IF ~~ THEN BEGIN 10
+  SAY @20
+  IF ~~ THEN REPLY @3 DO ~TakePartyGold(20)
+DestroyGold(20)~ GOTO 9
+  IF ~~ THEN REPLY @21 GOTO 18
+  IF ~~ THEN REPLY @22 GOTO 19
+  IF ~~ THEN REPLY @23 GOTO 20
+END
+
+IF ~~ THEN BEGIN 11
+  SAY @20
+  IF ~~ THEN REPLY @3 DO ~TakePartyGold(100)
+DestroyGold(100)~ GOTO 9
+  IF ~~ THEN REPLY @21 GOTO 18
+  IF ~~ THEN REPLY @22 GOTO 19
+  IF ~~ THEN REPLY @23 GOTO 20
+END
+
+IF ~~ THEN BEGIN 12
+  SAY @20
+  IF ~~ THEN REPLY @3 DO ~TakePartyGold(200)
+DestroyGold(200)~ GOTO 9
+  IF ~~ THEN REPLY @21 GOTO 18
+  IF ~~ THEN REPLY @22 GOTO 19
+  IF ~~ THEN REPLY @23 GOTO 20
+END
+
+IF ~~ THEN BEGIN 13
+  SAY @20
+  IF ~~ THEN REPLY @3 DO ~TakePartyGold(500)
+DestroyGold(500)~ GOTO 9
+  IF ~~ THEN REPLY @21 GOTO 18
+  IF ~~ THEN REPLY @22 GOTO 19
+  IF ~~ THEN REPLY @23 GOTO 20
+END
+
+IF ~~ THEN BEGIN 14
+  SAY @20
+  IF ~~ THEN REPLY @3 DO ~TakePartyGold(2000)
+DestroyGold(2000)~ GOTO 9
+  IF ~~ THEN REPLY @21 GOTO 18
+  IF ~~ THEN REPLY @22 GOTO 19
+  IF ~~ THEN REPLY @23 GOTO 20
+END
+
+IF ~~ THEN BEGIN 15
+  SAY @20
+  IF ~~ THEN REPLY @3 DO ~TakePartyGold(4000)
+DestroyGold(4000)~ GOTO 9
+  IF ~~ THEN REPLY @21 GOTO 18
+  IF ~~ THEN REPLY @22 GOTO 19
+  IF ~~ THEN REPLY @23 GOTO 20
+END
+
+IF ~~ THEN BEGIN 16
+  SAY @20
+  IF ~~ THEN REPLY @3 DO ~TakePartyGold(5000)
+DestroyGold(5000)~ GOTO 9
+  IF ~~ THEN REPLY @21 GOTO 18
+  IF ~~ THEN REPLY @22 GOTO 19
+  IF ~~ THEN REPLY @23 GOTO 20
+END
+
+IF ~~ THEN BEGIN 17
+  SAY @20
+  IF ~~ THEN REPLY @3 DO ~TakePartyGold(6000)
+DestroyGold(6000)~ GOTO 9
+  IF ~~ THEN REPLY @21 GOTO 18
+  IF ~~ THEN REPLY @22 GOTO 19
+  IF ~~ THEN REPLY @23 GOTO 20
+END
+
+IF ~~ THEN BEGIN 18
+  SAY @24
+  IF ~~ THEN DO ~SetGlobal("CbTaxCollected","GLOBAL",2)
+Wait(2)
+ClearAllActions()
+StartCutSceneMode()
+StartCutScene("CBTAXLVE")~ EXIT
+END
+
+IF ~~ THEN BEGIN 19
+  SAY @25
+  IF ~~ THEN REPLY @21 GOTO 18
+  IF ~~ THEN REPLY @23 GOTO 20
+  IF ~PartyGoldLT(1000)~ THEN REPLY @3 DO ~TakePartyGold(20)
+DestroyGold(20)~ GOTO 9
+  IF ~PartyGoldGT(999)
+PartyGoldLT(5000)~ THEN REPLY @3 DO ~TakePartyGold(100)
+DestroyGold(100)~ GOTO 9
+  IF ~PartyGoldGT(4999)
+PartyGoldLT(10000)~ THEN REPLY @3 DO ~TakePartyGold(200)
+DestroyGold(200)~ GOTO 9
+  IF ~PartyGoldGT(9999)
+PartyGoldLT(25000)~ THEN REPLY @3 DO ~TakePartyGold(500)
+DestroyGold(500)~ GOTO 9
+  IF ~PartyGoldGT(24999)
+PartyGoldLT(100000)~ THEN REPLY @3 DO ~TakePartyGold(2000)
+DestroyGold(2000)~ GOTO 9
+  IF ~PartyGoldGT(99999)
+PartyGoldLT(150000)~ THEN REPLY @3 DO ~TakePartyGold(4000)
+DestroyGold(4000)~ GOTO 9
+  IF ~PartyGoldGT(149999)
+PartyGoldLT(200000)~ THEN REPLY @3 DO ~TakePartyGold(5000)
+DestroyGold(5000)~ GOTO 9
+  IF ~PartyGoldGT(199999)~ THEN REPLY @3 DO ~TakePartyGold(6000)
+DestroyGold(6000)~ GOTO 9
+END
+
+IF ~~ THEN BEGIN 20
+  SAY @26
+  IF ~~ THEN DO ~SetGlobal("CbTaxCollected","GLOBAL",2)
+ChangeEnemyAlly(Myself,ENEMY)~ EXIT
+END

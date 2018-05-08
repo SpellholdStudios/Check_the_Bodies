@@ -1,0 +1,57 @@
+IF
+	Allegiance(Myself,ENEMY)
+	Global("CbDSACKhasenemyscript","AR3521",0)
+	!Global("Cb_DSACKsFeintStart","AR3531",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbDSACKhasenemyscript","AR3521",1)
+		ChangeAIScript("CBBDENEM",OVERRIDE)
+END
+
+IF
+	Global("CbBlueDragonAttacked","AR3521",2)
+	!Global("Cb_DSACKsFeintStart","AR3531",1)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		SetGlobal("CbDSACKhasenemyscript","AR3521",1)
+		ChangeAIScript("CBBDENEM",OVERRIDE)
+		Enemy()
+END
+
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	!Global("Cb_DSACKsFeintStart","AR3531",1)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		SetGlobal("CbDSACKhasenemyscript","AR3521",1)
+		ChangeAIScript("CBBDENEM",OVERRIDE)
+		Enemy()
+END
+
+IF
+	NumTimesTalkedTo(0)
+	See([GOODCUTOFF])
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(LastSeenBy(Myself))
+END
+
+IF
+	Global("Cb_DSACKsFeintStart","AR3531",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbDSACKhasfeintscript","AR3521",1)
+		ChangeAIScript("CBBDFENT",CLASS)
+END
+
+IF
+	Global("Cb_DSACK_Pissed","AR3521",1)
+	Global("CbEnteredDSACKsLair","AR3521",1)
+	!Allegiance("CBBDAW01",ENEMY)
+	See([GOODCUTOFF])
+THEN
+	RESPONSE #100		
+		ActionOverride("CBBDAW01",StartDialogueNoSet([GOODCUTOFF]))
+END

@@ -1,0 +1,7 @@
+IF
+	GlobalGT("CbCanDoWedding","GLOBAL",1)
+	NumTimesTalkedToGT(0)
+THEN
+	RESPONSE #100
+		SetNumTimesTalkedTo(0)
+END

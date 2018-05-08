@@ -1,0 +1,71 @@
+@1   = ~Aún no he completado mi aprendizaje con la Archidruida, Hermano Druida.  Quizás deberias hablar con ella.~
+@2   = ~La Archidruida está satisfecha con vuestro desempeño. Me ha dado la oportunidad de aumentar vuestros conocimientos de las artes druídicas.~
+@3   = ~Así lo haré, Hermano Druida, pero ahora debes escoger qué prefieres que te enseñe. ¿Te gustaría aprender cómo memorizar conjuros adicionales, preferirías aprender a lanzar conjuros mas rápido, o desearías tener la habilidad de transformarte en pantera o leopardo?~
+@4   = ~Me gustaría saber cómo memorizar un conjuro adicional por nivel.~
+@5   = ~Creo que preferiría lanzar conjuros con mayor rapidez.~
+@6   = ~Me gustaría saber transformarme en un gran felino.~
+@7   = ~Como quieras, Hermano Druida, te lo enseñaré.~
+@8   = ~Hermano Druida, aprendes rápido, y has aumentado tu capacidad mágica. Sin embargo, hay mas cosas que debes aprender.~
+@9   = ~Hermano Druida, aprendes rápido, y has aumentado tu velocidad de lanzamiento de conjuros. Sin embargo, hay mas cosas que debes aprender.~
+@10  = ~Hermano Druida, aprendes rápido, y has adquirido la capacidad de cambiar tu forma a la de un gran felino. La mitad del tiempo que quieras cambiar, tomarás la forma de un leopardo, y la otra mitad, la de una pantera. Sin embargo, hay mas cosas que debes aprender.~
+@11  = ~Lo habéis hecho bien, Hermano Druida, y me agrada haberos podido ayudar aunque sólo sea un poco. Pero ahora, la Archidruida me ha dicho que debéis ser puesto a prueba una vez mas. ¿Estáis preparado para vuestra siguiente tarea?~
+@12  = ~Sí, Dama Elfa. Decidme qué es lo que debe hacerse.~
+@13  = ~No, Dama Elfa, necesito mas tiempo.~
+@14  = ~Hermano Druida, sin probar vuestra valía como druida, vuestro tiempo en Faerun está limitado a lo que hagáis con él. Preparaos lo mejor que podáis, y regresad conmigo cuando estéis preparado.~
+@15  = ~Muy bien, compañero Druida. Escuchad con atención, porque tengo mucho que explicaros antes de que comenzéis vuestra próxima tarea.~ ~Muy bien, compañero druida. Escuchad con atención, porque tengo mucho que explicaros antes de que comenzéis vuestra próxima tarea.~
+@16  = ~Hay una lejana presencia emergente que la Archidruida ha visto y sentido desde hace varios meses. No sabe lo que es, pero es consciente de que se trata de un gran mal.~
+@17  = ~Hermano Druida, la Archidruida teme por la región si esta presencia se vuelve demasiado poderosa. No es de nuestro mundo, y debe evitarse que cause estragos en Faerun.~ 
+@18  = ~Os ha encargado, Hermano Druida, eliminar este ser por cualquier medio a vuestro alcance. Reclutad la ayuda de aliados, poderosos amigos, o reunid medios mágicos para causar el fin de la amenaza, si debéis hacerlo. La seguridad de Faerun, una vez mas, depende de vos.~ ~Os ha encargado, Hermana Druida, eliminar este ser por cualquier medio a vuestro alcance. Reclutad la ayuda de aliados, poderosos amigos, o reunid medios mágicos para causar el fin de la amenaza, si debéis hacerlo. La seguridad de Faerun, una vez mas, depende de vos.~
+@19  = ~¿Dónde puedo encontrar esa amenaza, Druida?~
+@20  = ~Lo haré lo mejor que pueda, Dama Elfa.~
+@21  = ~Dama Elfa, dudo que mis habilidades sean suficientes para detener tal amenaza.~
+@22  = ~La Archidruida no sabe exáctamente dónde, pero lo siente con fuerza en la ciudad al sur, el asentamiento humano conocido como Athkatla.~
+@23  = ~Sea cual sea el precio, Hermano Druida, el destino de todos nosotros descansa en vuestras manos. Nosotros tres confiamos en vos, la Archidruida confía en vos, y aquellos quienes sólo conocen vuestras hazañas como cuentos para relatar a la luz de una fogata de campamento también confiarían en vos si conocieran el peligro. Tened confianza en vos mismo, Hermano, y tendréis éxito.~ 
+@24  = ~Sé que lo haréis lo mejor que podáis. Eso es todo lo que podemos pedir. Buena suerte, Hermano Druida. Regresad cuando la presencia ya no esté entre nosotros.~ 
+@25  = ~La Archidruida puede sentir maldad en la región. Sabe que aún no habéis completado vuestra tarea.~
+@26  = ~No puedo sentir la presencia. ¿Sabéis dónde está?~
+@27  = ~Os lo dije, Hermano Druida, la Archidruida la siente en Athkatla.~ 
+@28  = ~No puedo ser mas precisa, pero la presencia es mas fuerte en la parte oeste de la ciudad.~
+@29  = ~La Archidruida siente la presencia en algún lugar cerca de una masa de agua. ¿Quizás un río? No puede decirlo con exactitud.~
+@30  = ~El mal está bajo la superficie, Hermano Druida. La Archidruida tiene la sensación del olor mezclado de sulfuro, sal y podredumbre.~ 
+@31  = ~No puedo ser mas precisa, Hermano Druida. La maldad emana con fuerta de la parte oeste de Athkatla, cerca del agua, bajo la superficie.~
+@32  = ~La Archidruida ya no siente al ser maligno. ¿Lo destruisteis?~
+@33  = ~No, fue desterrado, pero no destruido.~
+@34  = ~Sí, Gran Dama, fuera lo que fuera, lo destruí.~
+@35  = ~Entonces está hecho, sea cual sea el resultado. Lo habéis hecho bien, Hermano Druida, y os habéis acercado el momento en el que aprendáis mas sobre el Orden Natural.~ ~Entonces está hecho, sea cual sea el resultado. Lo habéis hecho bien, Hermana Druida, y os habéis acercado el momento en el que aprendáis mas sobre el Orden Natural.~
+@36  = ~Id, Hermano Druida, y derrotad al mal si podéis hacerlo.~
+@37  = ~Aún no he completado mi aprendizaje con la Archidruida, <GABBER>, y estoy muy ocupado como para interrumpir mis meditaciones.~
+@38  = ~Aún no he completado mi aprendizaje con la Archidruida, Hermana Druida.  Quizás deberíais hablar con ella.~
+@39  = ~Así lo haré, Hermana Druida, pero ahora debéis escoger qué preferís que os enseñe. ¿Os gustaría aprender cómo memorizar conjuros adicionales, preferiríais aprender a lanzar conjuros mas rápido, o desearíais tener la habilidad de transformaros en pantera o leopardo?~
+@40  = ~Como queráis, Hermana Druida, os lo enseñaré.~
+@41  = ~Hermana Druida, aprendéis rápido, y habéis aumentado vuestra capacidad mágica. Sin embargo, hay mas cosas que debéis aprender.~
+@42  = ~Hermana Druida, aprendéis rápido, y habéis aumentado vuestra velocidad de lanzamiento de conjuros. Sin embargo, hay mas cosas que debéis aprender.~
+@43  = ~Hermana Druida, aprendéis rápido, y habéis adquirido la capacidad de cambiar vuestra forma a la de un gran felino. La mitad de las veces que queráis cambiar, tomaréis la forma de un leopardo, y la otra mitad, la de una pantera. Sin embargo, hay mas cosas que debéis aprender.~
+@44  = ~Lo habéis hecho bien, Hermana Druida, y me agrada haberos podido ayudar aunque sólo sea un poco. Pero ahora, la Archidruida me ha dicho que debéis ser puesta a prueba una vez mas. ¿Estáis preparada para vuestra siguiente tarea?~
+@45  = ~Hermana Druida, sin probar vuestra valía como druida, vuestro tiempo en Faerun está limitado a lo que hagáis con él. Preparaos lo mejor que podáis, y regresad conmigo cuando estéis preparada.~
+@46  = ~Hermana Druida, la Archidruida teme por la región si esta presencia se vuelve demasiado poderosa. No es de nuestro mundo, y debe evitarse que cause estragos en Faerun.~
+@47  = ~Os ha encargado, Hermana Druida, eliminar este ser por cualquier medio a vuestro alcance. Reclutad la ayuda de aliados, poderosos amigos, o reunid medios mágicos para causar el fin de la amenaza, si debéis hacerlo. La seguridad de Faerun, una vez mas, depende de vos.~ 
+@48  = ~Sea cual sea el precio, Hermana Druida, el destino de todos nosotros descansa en vuestras manos. Nosotros tres confiamos en vos, la Archidruida confía en vos, y aquellos quienes sólo conocen vuestras hazañas como cuentos para relatar a la luz de una fogata de campamento también confiarían en vos si conocieran el peligro. Tened confianza en vos misma, Hermana, y tendréis éxito.~
+@49  = ~Sé que lo haréis lo mejor que podáis. Eso es todo lo que podemos pedir. Buena suerte, Hermana Druida. Regresad cuando la presencia ya no esté entre nosotros.~
+@50  = ~Os lo dije, Hermana Druida, la Archidruida la siente en Athkatla.~
+@51  = ~El mal está bajo la superficie, Hermana Druida. La Archidruida tiene la sensación del olor mezclado de sulfuro, sal y podredumbre.~
+@52  = ~No puedo ser mas preciso, Hermana Druida. La maldad emana con fuerta de la parte oeste de Athkatla, cerca del agua, bajo la superficie.~
+@53  = ~Entonces está hecho, sea cual sea el resultado. Lo habéis hecho bien, Hermana Druida, y os acercáis al momento en el que aprendáis mas sobre el Orden Natural.~ 
+@54  = ~Id, Hermana Druida, y derrotad al mal si podéis hacerlo.~
+@55 = ~La Gran Druida: Presencia Malvada
+
+El trío de druidas de la arboleda norte me han ordenado derrotar una presencia malvada que pueden sentir en la región. No saben exactamente de dónde emana esta maldad, pero es en algún lugar de la ciudad de Athkatla. Cuando haya derrotado a ese ser malvado, tanto destruyéndolo como desterrándolo de Faerun, deberé informarles a los druidas al sur de Puerta de Baldur, donde han prometido enseñarme una habilidad que enriquecerá mi vida.~
+@56 = ~La Gran Druida: Enseñando el Camino
+
+La Archidruida y sus aprendices me han enseñado cómo memorizar mas conjuros.~
+@57 = ~La Gran Druida: Enseñando el Camino
+
+La Archidruida y sus aprendices me han enseñado cómo lanzar conjuros con mayor rapidez.~
+@58 = ~La Gran Druida: Enseñando el Camino
+
+La Archidruida y sus aprendices me han enseñado cómo transformarme en un gran felino, tanto pantera como leopardo.~
+@59 = ~La Gran Druida: Presencia Malvada
+
+El trio de druidas me ordenaron derrotar una presencia malvada que podían sentir en la región, la cual encontré en los muelles de Athkatla. Fue una difícl batalla, pero salí victorioso y los druidas elfos me han prometido enseñarme una habilidad valiosa.~ ~La Gran Druida:  Presencia Malvada
+
+El trio de druidas me ordenaron derrotar una presencia malvada que podían sentir en la región, la cual encontré en los muelles de Athkatla. Fue una difícl batalla, pero salí victoriosa y los druidas elfos me han prometido enseñarme una habilidad valiosa.~

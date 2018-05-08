@@ -1,0 +1,11 @@
+IF
+	GlobalGT("CbWizardsAndHakesharPlot","GLOBAL",0)
+	Global("CbTransActive","AR0404",0)
+THEN
+	RESPONSE #100
+		TriggerActivation("Info3576",FALSE)
+		TriggerActivation("Door3576",TRUE)
+		SetGlobal("CbTransActive","AR0404",1)
+		Continue()
+END
+

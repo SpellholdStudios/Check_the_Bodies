@@ -1,0 +1,192 @@
+IF
+	Allegiance(Myself,ENEMY)
+	!StateCheck(Myself,STATE_CHARMED)
+	HasItem("IMOENHP1",Myself) // Imoen's Belt
+THEN
+	RESPONSE #100
+		DestroyItem("IMOENHP1") // Imoen's Belt
+END
+
+IF
+	HPLT(Myself,15)
+	!HasItem("CBCO8HP1",Myself)
+	HasItem("POTN52",Myself) // Potion of Extra Healing
+THEN
+	RESPONSE #100
+		UseItem("POTN52",Myself) // Potion of Extra Healing
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HPLT(Myself,10)
+	!HasItem("POTN52",Myself) // Potion of Extra Healing
+	HaveSpell(WIZARD_INVISIBILITY)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_INVISIBILITY)
+		RunAwayFrom(LastAttackerOf(Myself),100)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HPLT(Myself,10)
+	!HasItem("POTN52",Myself) // Potion of Extra Healing
+	!HaveSpell(WIZARD_INVISIBILITY)
+THEN
+	RESPONSE #100
+		RunAwayFrom(LastAttackerOf(Myself),100)
+END
+
+IF
+	StateCheck(Myself,STATE_SILENCED)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_VOCALIZE)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_STONE_SKIN)
+	CheckStatLT(Myself,1,STONESKINS)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_STONE_SKIN)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_INVISIBILITY_10_FOOT)
+	Range(NearestMyGroupOfType(Myself),10)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_INVISIBILITY_10_FOOT)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_SHADOW_DOOR)
+	RandomNum(3,1)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_SHADOW_DOOR)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_HASTE)
+	RandomNum(3,2)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_HASTE)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_CONJURE_LESSER_FIRE_ELEMENTAL)
+	RandomNum(3,3)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_CONJURE_LESSER_FIRE_ELEMENTAL)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_LIGHTNING_BOLT)
+	RandomNum(4,1)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_LIGHTNING_BOLT)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_MIRROR_IMAGE)
+	RandomNum(4,2)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_MIRROR_IMAGE)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_DOMINATION)
+	RandomNum(4,3)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_DOMINATION)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_PROTECTION_FROM_NORMAL_MISSILES)
+	RandomNum(4,4)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_PROTECTION_FROM_NORMAL_MISSILES)
+END
+
+IF
+	See(SecondNearestEnemyOf(Myself))
+	HaveSpell(WIZARD_ICE_STORM)
+	RandomNum(2,1)
+THEN
+	RESPONSE #100
+		Spell(SecondNearestEnemyOf(Myself),WIZARD_ICE_STORM)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_POLYMORPH_OTHER)
+	RandomNum(2,2)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_POLYMORPH_OTHER)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_STINKING_CLOUD)
+	RandomNum(3,1)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_STINKING_CLOUD)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_MAGIC_MISSILE)
+	RandomNum(3,2)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_MAGIC_MISSILE)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_SLEEP)
+	RandomNum(3,3)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_SLEEP)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(NearestEnemyOf(Myself),5)
+	HasItem("STAF01",Myself) // Quarterstaff
+THEN
+	RESPONSE #100
+		MoveToObject(NearestEnemyOf(Myself))
+		EquipItem("STAF01") // Quarterstaff
+		Attack(NearestEnemyOf(Myself))
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+

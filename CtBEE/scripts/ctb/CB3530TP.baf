@@ -1,0 +1,10 @@
+IF
+	Entered([GOODCUTOFF])
+	Global("CbSpawnFightersIn3531","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbSpawnFightersIn3531","GLOBAL",1)
+		DisplayStringHead(LastTrigger,@550026)
+END
+
+

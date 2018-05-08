@@ -1,0 +1,24 @@
+IF
+	Global("CbBlueDragonAlerted","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
+	Global("CbBlueDragonAlerted","GLOBAL",0)
+	Delay(8)
+THEN
+	RESPONSE #25
+		DisplayString(Myself,44790) // Zzzzz (snort!)...
+		PlaySound("CBBDSL01")
+	RESPONSE #25
+		DisplayString(Myself,16195) //   ZZZZzzzzz..snort
+		PlaySound("CBBDSL02")
+	RESPONSE #25
+		DisplayString(Myself,16193) //   ZZZZzzzzzzz
+		PlaySound("CBBDSL03")
+	RESPONSE #25
+		DisplayString(Myself,16196) //   ZZZzzzzz...sniffle
+		PlaySound("CBBDSL01")
+END

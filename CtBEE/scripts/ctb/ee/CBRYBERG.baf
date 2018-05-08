@@ -1,0 +1,24 @@
+IF
+	Global("CbDearPrudence","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbDearPrudence","GLOBAL",1)
+END
+
+IF
+	Global("CbRybergMeetsRelative","GLOBAL",5)
+	Global("CbHelpRyberg","GLOBAL",2)
+	Global("CbRybergDoesOnce","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbRybergDoesOnce","LOCALS",1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	GlobalTimerExpired("#HCbRybSpwn","GLOBAL")
+	Global("CbDearPrudence","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CbDearPrudence","GLOBAL",0)
+END

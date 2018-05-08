@@ -1,0 +1,9 @@
+IF
+	OpenState("Door04",TRUE)
+	Global("CbOpenedExtaminosGate","AR3611",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CbOpenedExtaminosGate","AR3611",1)
+END
+
+

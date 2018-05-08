@@ -1,0 +1,22 @@
+IF
+	OnCreation()
+THEN
+	RESPONSE #100
+		MoveViewObject(Myself,STANDARD)
+		ActionOverride(Player1,MoveToObject("CBP1HOME"))
+		Wait(4)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("CbBylannaEscapes","AR3596",2)
+	Global("CbTaxAnnouncement","GLOBAL",4)
+THEN
+	RESPONSE #100
+		MoveViewObject(Myself,STANDARD)
+		ActionOverride(Player1,MoveToObject("CBP1HOME"))
+		Wait(2)
+		StartDialogueNoSet(Player1)
+END
+
+
