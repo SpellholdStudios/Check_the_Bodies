@@ -1,5 +1,5 @@
 IF
-	Global("ImoenLibrary","AR0602",1)
+	Global("ImoenLibrary","AR0602",2)
 	Global("TeleportChores","AR0602",0)
 	Gender(Player1,MALE)
 THEN
@@ -10,7 +10,7 @@ THEN
 END
 
 IF
-	Global("ImoenLibrary","AR0602",1)
+	Global("ImoenLibrary","AR0602",2)
 	Global("TeleportChores","AR0602",0)
 	Gender(Player1,FEMALE)
 THEN
