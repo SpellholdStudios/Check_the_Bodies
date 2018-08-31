@@ -1008,6 +1008,7 @@ THEN
 END
 
 IF
+	GlobalGT("CbAreaWard_3542_Opened","GLOBAL",1)
 	OR(12)
 		SpellCastRES("SPWI140",[GOODCUTOFF]) 
 		SpellCastRES("SPWI240",[GOODCUTOFF])
@@ -1031,6 +1032,7 @@ THEN
 END
 
 IF
+	GlobalGT("CbAreaWard_3542_Opened","GLOBAL",1)
 	OR(12)
 		SpellCastRES("SPWI140",[GOODCUTOFF]) 
 		SpellCastRES("SPWI240",[GOODCUTOFF])
