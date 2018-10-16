@@ -1,7 +1,6 @@
 IF
-	Global("Cb_ZannasterHealed","LOCALS",3)
 	See(NearestEnemyOf(Myself))
-	HP(Myself,1)
+	HPLT(Myself,10)
 	HasItem("CBPOTNLD",Myself)
 	Global("CbZannasterFinallyChanging","AR3532",0)
 THEN
