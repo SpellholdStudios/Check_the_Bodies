@@ -1378,7 +1378,7 @@ END
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	MAKE_BIFF ~CtB-RULE~ BEGIN
-		~override~ ~^.*\.2da$~
+		~override~ ~ctb.mrk~
 	END
 	ACTION_IF ~%WEIDU_OS%~ STR_EQ ~win32~ BEGIN
 		AT_UNINSTALL ~rmdir /s /q %MOD_FOLDER%\temp~ EXACT
@@ -1389,7 +1389,7 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	ACTION_DEFINE_ASSOCIATIVE_ARRAY table_ctb_biff BEGIN
 		~ctbeeTIS~ , ~override~ , ~^.*\.tis$~ => 150000000 //150 MB
 		~ctbeeWAV~ , ~override~ , ~^.*\.wav$~ => 150000000 //150 MB
-		~ctbeeRES~ , ~override~ , ~^.*$~ => 100000000 //100 MB
+//		~ctbeeRES~ , ~override~ , ~^.*$~ => 100000000 //100 MB
 	END
 	
 	ACTION_PHP_EACH table_ctb_biff AS biff => size BEGIN
@@ -1410,6 +1410,7 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 			MAKE_BIFF ~%biff%%index%~ BEGIN ~%MOD_FOLDER%/temp/%biff%%index%~ ~^.*$~ END
 		END
 	END
+//	COPY_EXISTING ~^.*\.ids$~ ~override~
 END
 
 COPY_EXISTING ~misc01.itm~ ~override/ctb.mrk~
@@ -1762,7 +1763,21 @@ COPY ~CtBEE/Chores/bitmaps~ ~override~
 // Installing tileset and audio
 //////////////////////////////
 
-LAF HANDLE_AUDIO  
+MKDIR ~CtBEE/Chores/language/%LANGUAGE%/sound~
+
+ACTION_BASH_FOR ~CtBEE/Chores/language/english/sound~ ~^.+\.wav$~ BEGIN
+	ACTION_IF NOT FILE_EXISTS ~CtBEE/Chores/language/%LANGUAGE%/sound/%BASH_FOR_FILE%~ BEGIN
+		COPY ~%BASH_FOR_FILESPEC%~ ~CtBEE/Chores/language/%LANGUAGE%/sound~
+	END
+END
+
+ACTION_BASH_FOR ~CtBEE/Chores/language/%LANGUAGE%/sound~ ~^.+\.wav$~ BEGIN
+	ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
+		COPY ~%BASH_FOR_FILESPEC%~ ~override~
+	END
+END
+
+/*LAF HANDLE_AUDIO  
   STR_VAR
     audio_path = ~CtBEE/Chores/sound~
     oggdec_path = ~CtBEE/bin/win32~
@@ -1779,7 +1794,7 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 END
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
    COPY ~CtBEE/Chores/PVRZ~ ~override~
-END
+END*/
 
 //////////////////////////////
 // biffing
@@ -1793,7 +1808,7 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	END
 	
 	ACTION_DEFINE_ASSOCIATIVE_ARRAY table_ctb_chor_biff BEGIN
-		~ctb-Chor~ , ~override~ , ~^.*$~ => 100000000 //100 MB
+		~ctb-Chor~ , ~override~ , ~^.*\.tis$~ => 100000000 //100 MB
 	END
 	
 	ACTION_PHP_EACH table_ctb_chor_biff AS biff => size BEGIN
