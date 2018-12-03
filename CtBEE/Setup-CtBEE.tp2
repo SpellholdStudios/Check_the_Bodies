@@ -1831,6 +1831,23 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	END
 END
 
+ACTION_IF (GAME_IS ~eet~) BEGIN
+COPY_EXISTING ~Ar3500.are~ ~override~
+WRITE_ASCII 0x8 ~bg2600~
+COPY_EXISTING ~Ar3501.are~ ~override~
+WRITE_ASCII 0x8 ~bg2608~
+COPY_EXISTING ~Ar3502.are~ ~override~
+WRITE_ASCII 0x8 ~bg2609~
+COPY_EXISTING ~Ar3503.are~ ~override~
+WRITE_ASCII 0x8 ~bg2610~
+COPY_EXISTING ~Ar3504.are~ ~override~
+WRITE_ASCII 0x8 ~bg2611~
+COPY_EXISTING ~Ar3505.are~ ~override~
+WRITE_ASCII 0x8 ~bg2612~
+COPY_EXISTING ~Ar3506.are~ ~override~
+WRITE_ASCII 0x8 ~bg2618~
+END
+
 //////////////////////////////
 // bgee.lua cheat table
 //////////////////////////////
