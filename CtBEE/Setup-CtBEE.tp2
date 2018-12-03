@@ -1846,6 +1846,14 @@ COPY_EXISTING ~Ar3505.are~ ~override~
 WRITE_ASCII 0x8 ~bg2612~
 COPY_EXISTING ~Ar3506.are~ ~override~
 WRITE_ASCII 0x8 ~bg2618~
+COPY_EXISTING ~Ar3507.are~ ~override~
+WRITE_ASCII 0x8 ~bg2613~
+COPY_EXISTING ~Ar3508.are~ ~override~
+WRITE_ASCII 0x8 ~bg2618~
+END
+
+ACTION_IF (GAME_IS ~eet bg2ee~) BEGIN
+COPY ~CtBEE/chores/PVRZ~ ~override~
 END
 
 //////////////////////////////
