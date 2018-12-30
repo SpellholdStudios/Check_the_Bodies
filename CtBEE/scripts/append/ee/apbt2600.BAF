@@ -1,4 +1,20 @@
 IF
+Global("CB_Make8","ar2600",0)
+THEN
+RESPONSE #100
+SetGlobal("CB_Make8","ar2600",1)
+CreateCreature("CBLSLNDA",[4415.2474],0)
+CreateCreature("CBHREDWN",[4201.2414],2)
+CreateCreature("CBMANARB",[4358.2338],14)
+CreateCreature("CBARKSLV",[4401.2338],3)
+CreateCreature("CBTARDTH",[4254.2450],2)
+CreateCreature("CBMONDRP",[4472.2657],2)
+CreateCreature("CBSMHRSE",[4173.2651],12)
+CreateCreature("CBSMTRGT",[4784.2664],0)
+CreateCreature("CBSTTFLW",[3317.631],5)
+END
+
+IF
         Global("C_Bissons_Famous_C_O_8_Expanded","GLOBAL",0)
 THEN
 	RESPONSE #100
