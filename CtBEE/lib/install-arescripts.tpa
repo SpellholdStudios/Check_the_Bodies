@@ -82,36 +82,6 @@ COPY_EXISTING ~AR2600.ARE~  ~override~
 		END
 	END
 	PATCH_IF (info_1=1) BEGIN 
-	/////////////
-	//new actors
-	/////////////
-	PATCH_DEFINE_ASSOCIATIVE_ARRAY actors BEGIN
-		4415 , 2474 , 4415 , 2474 ,  0 , 0xffffffff , CBLSLNDA => "Lawantha"
-		4201 , 2414 , 4201 , 2414 ,  2 , 0xffffffff , CBHREDWN => "Marilyn"
-		4358 , 2276 , 4358 , 2276 , 14 , 0xffffffff , CBMANARB => "Manfred"
-		4401 , 2338 , 4401 , 2338 ,  3 , 0xffffffff , CBARKSLV => "Arkaneus"
-		4254 , 2450 , 4254 , 2450 ,  2 , 0xffffffff , CBTARDTH => "Tardeth"
-		4472 , 2657 , 4472 , 2657 ,  2 , 0xffffffff , CBMONDRP => "Silvanus"
-		4173 , 2651 , 4173 , 2651 , 12 , 0xffffffff , CBSMHRSE => "Sir John Johns"
-		4784 , 2664 , 4784 , 2664 ,  0 , 0xffffffff , CBSMTRGT => "Target"
-		3317 ,  631 , 3317 ,  631 ,  5 , 0xff3fff80 , CBSTTFLW => "Paddy"
-	END
-	PATCH_PHP_EACH actors AS vars => name BEGIN
-		LPF fj_are_structure
-			INT_VAR
-			fj_loc_x          = EVAL vars
-			fj_loc_y          = EVAL vars_1
-			fj_dest_x         = EVAL vars_2
-			fj_dest_y         = EVAL vars_3
-			fj_orientation    = EVAL vars_4     
-			fj_schedule		  = EVAL vars_5
-			STR_VAR
-			fj_structure_type = actor
-			fj_name           = EVAL ~%name%~
-			fj_cre_resref     = EVAL vars_6
-		END
-	END
-	CLEAR_ARRAY actors
 	///////////////
 	//delete automap
 	///////////////
