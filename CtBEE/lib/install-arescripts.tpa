@@ -758,8 +758,8 @@ COPY_EXISTING ~AR1106.ARE~ ~override~
 		END
 		PATCH_IF (info_1=1) BEGIN 
 		PATCH_DEFINE_ASSOCIATIVE_ARRAY triggers BEGIN
-			1 , 293 ,  771 , 522 ,  916 , 22 , 1 , 409 , 846 , 412 , 500 , "CB1106TR" , "NONE" , 0  => "PoolofRadiance"
-			2 , 293 ,  771 , 522 ,  916 , 34 , 1 , 409 , 927 , 409 , 927 , "NONE" , "AR3575" , "EXIT1106" => "Tran3575"
+			1 , 293 ,  771 , 522 ,  916 , 22 , 1 , 409 , 846 , 412 , 500 , 0, "CB1106TR" , "NONE" , 0  => "PoolofRadiance"
+			2 , 293 ,  771 , 522 ,  916 , 34 , 1 , 409 , 927 , 409 , 927 , 1024, "NONE" , "AR3575" , "EXIT1106" => "Tran3575"
 		END
 		PATCH_DEFINE_ARRAY PoolofRadiance BEGIN 313 791 354 777 355 778 366 774 387 771 403 771 426 778 450 784 472 793 488 804
 												489 810 497 812 514 825 519 831 522 846 514 871 498 889 463 904 434 914 412 916
@@ -785,6 +785,7 @@ COPY_EXISTING ~AR1106.ARE~ ~override~
 			fj_loc_y				= EVAL vars_8 
 			fj_alt_x				= EVAL vars_9
 			fj_alt_y				= EVAL vars_10
+			fj_flags				= EVAL vars_11
 			fj_vertex_0     		= EVAL vertex_0 +  (vertex_1 << 16)   
 			fj_vertex_1     		= EVAL vertex_2 +  (vertex_3 << 16)   
 			fj_vertex_2     		= EVAL vertex_4 +  (vertex_5 << 16)   
@@ -818,9 +819,9 @@ COPY_EXISTING ~AR1106.ARE~ ~override~
 			STR_VAR                                             
 			fj_structure_type   = region                        
 			fj_name             = EVAL ~%name%~
-			fj_reg_script       = EVAL ~%vars_11%~
-			fj_destination_area	= EVAL ~%vars_12%~                       
-			fj_destination_name = EVAL ~%vars_13%~   			
+			fj_reg_script       = EVAL ~%vars_12%~
+			fj_destination_area	= EVAL ~%vars_13%~                       
+			fj_destination_name = EVAL ~%vars_14%~   			
 			END
 		END
   	END
