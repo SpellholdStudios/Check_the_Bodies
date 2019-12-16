@@ -1,0 +1,448 @@
+COPY_EXISTING ~ARGRIM.CRE~   ~override~
+              ~BODYG2.CRE~   ~override~
+              ~BYLANNA.CRE~  ~override~
+              ~CIVAMNG1.CRE~ ~override~
+              ~CIVFRUS1.CRE~ ~override~
+              ~CIVIL01.CRE~  ~override~
+              ~CIVIL02.CRE~  ~override~
+              ~CIVIL03.CRE~  ~override~
+              ~CLERK01.CRE~  ~override~
+              ~COUNSEC.CRE~  ~override~
+              ~HABREGA.CRE~  ~override~
+              ~LLARSH.CRE~   ~override~
+  WRITE_ASCII 0x260  ~CBXTGBDS~   //General script
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~CORGEIG.CRE~ ~override~
+              ~CORNEIL.CRE~ ~override~
+              ~TOLGER.CRE~  ~override~
+  WRITE_ASCII 0x258  ~CBXTGBDS~   //Race script
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~BEARBR.CRE~ ~override~
+  WRITE_ASCII 0x280  ~BEARBR~ #8  //DV
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~BERINVAR.CRE~ ~override~
+              ~HSPECTR1.CRE~ ~override~
+              ~HSPECTR2.CRE~ ~override~
+              ~HSPECTR3.CRE~ ~override~
+              ~MERONIA.CRE~  ~override~
+              ~PACE.CRE~     ~override~
+              ~TERMER01.CRE~ ~override~
+              ~TERMER03.CRE~ ~override~
+              ~TERMER04.CRE~ ~override~
+              ~TERMER05.CRE~ ~override~
+  WRITE_ASCII 0x260  ~CBXTHSDS~   //General script
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~C6SQUIRE.CRE~ ~override~
+              ~HEARTG1.CRE~  ~override~
+              ~HEARTG2.CRE~  ~override~
+              ~HEARTG3.CRE~  ~override~
+              ~HEARTG4.CRE~  ~override~
+              ~HMELVIN.CRE~  ~override~
+              ~HPRELATE.CRE~ ~override~
+  WRITE_ASCII 0x260  ~CBXTRSDS~   //General script
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~CATPAN01.CRE~ ~override~
+  WRITE_ASCII 0x280  ~CATPAN01~   //DV
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~COWLD.CRE~    ~override~
+              ~COWLED01.CRE~ ~override~
+              ~CSCOWL1.CRE~  ~override~
+              ~CSCOWL2.CRE~  ~override~
+              ~CSCOWL3.CRE~  ~override~
+              ~CSCOWL4.CRE~  ~override~
+              ~CSCOWL5.CRE~  ~override~
+              ~CSCOWL6.CRE~  ~override~
+              ~CSCOWL7.CRE~  ~override~
+              ~CSCOWL8.CRE~  ~override~
+              ~CSCOWL9.CRE~  ~override~
+  WRITE_ASCII 0x258  ~CBSCCWNM~   //Race script
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~DEER01.CRE~ ~override~
+  WRITE_ASCII 0x280  ~DEER01~   //DV
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~DAWNMAS.CRE~ ~override~
+              ~LATLARA.CRE~ ~override~
+              ~SCSAIN.CRE~  ~override~
+  WRITE_ASCII 0x260  ~DAWNMAS~   //General script - non-existing!
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~FFRECEP.CRE~ ~override~
+  WRITE_ASCII 0x248  ~~ #8        //Override script
+  WRITE_ASCII 0x250  ~CBFFRECP~   //Class script
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~FFUSHER1.CRE~ ~override~
+              ~FFUSHER2.CRE~ ~override~
+  WRITE_ASCII 0x250  ~CBFFUSHA~   //Class script
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~FIRWLF01.CRE~ ~override~
+              ~FIRWLF02.CRE~ ~override~
+  WRITE_ASCII 0x268  ~CBMALDES~   //Default script
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~HLKETTA.CRE~  ~override~
+              ~HLKETTA2.CRE~ ~override~
+              ~HLMAFER.CRE~  ~override~
+              ~HLSION.CRE~   ~override~
+              ~HLSTAL.CRE~   ~override~
+  WRITE_ASCII 0x260  ~HLKETTA2~   //General script - non-existing!
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~ICYUAN01.CRE~ ~override~
+              ~ICYUAN02.CRE~ ~override~
+              ~ICYUAN03.CRE~ ~override~
+              ~ICYUAN04.CRE~ ~override~
+              ~ICYUAN05.CRE~ ~override~
+              ~KPSHAM01.CRE~ ~override~
+              ~KPYUAN01.CRE~ ~override~
+  WRITE_ASCII 0x280  ~YUANTI~ #8  //DV
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~KAYL1.CRE~ ~override~
+  WRITE_ASCII 0x268  ~CBXTRSDS~   //Default script
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~RSKEL01.CRE~ ~override~
+  WRITE_ASCII 0x258  ~CBMALDES~   //Race script
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~SBUTLER.CRE~ ~override~
+  WRITE_ASCII 0x250  ~SGUARD~  #8  //Class script
+  WRITE_ASCII 0x280  ~SBUTLER~ #8  //DV
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~SCOOK.CRE~   ~override~
+  WRITE_ASCII 0x250  ~SGUARD~ #8  //Class script
+  WRITE_ASCII 0x280  ~SCOOK~ #8  //DV
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~SCBUTLER.CRE~ ~override~
+              ~SCLJYSS.CRE~  ~override~
+              ~SCQAR.CRE~    ~override~
+              ~SCSARLES.CRE~ ~override~
+  WRITE_ASCII 0x260  ~CBXTJEDS~   //General script
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~SGUARD1.CRE~ ~override~
+              ~SGUARD2.CRE~ ~override~
+  WRITE_ASCII 0x250  ~~ #8        //Class script
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~SHAWOL01.CRE~ ~override~
+              ~SHAWOL02.CRE~ ~override~
+  WRITE_ASCII 0x260  ~CBMALDES~   //General script
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~SKELWA02.CRE~ ~override~
+  WRITE_ASCII 0x248  ~CBMALDES~   //Override script
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~SQUIRL.CRE~ ~override~
+  WRITE_ASCII 0x280  ~SQUIRL~ #8  //DV
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~TERMER02.CRE~ ~override~
+  WRITE_ASCII 0x258  ~CBXTHSDS~   //Race script
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~WSMITH01.CRE~ ~override~
+  WRITE_ASCII 0x258  ~WSMITH01~   //Race script
+BUT_ONLY_IF_IT_CHANGES
+
+
+
+
+COPY_EXISTING ~REFIGH01.CRE~       ~override~				// checks if the creature (Suna Seni Slaver) already has the cloak and adds it if not
+  REMOVE_CRE_ITEM ~CBCLKSCP~
+  ADD_CRE_ITEM ~CBCLKSCP~ #0 #0 #0 ~NONE~ ~CLOAK~ EQUIP
+BUT_ONLY_IF_IT_CHANGES
+
+
+
+
+COPY_EXISTING ~SCJERLIA.CRE~       ~override~				// Jerlia the Ore Merchant
+  REMOVE_CRE_ITEM ~CBRNGMTL~
+  ADD_CRE_ITEM ~CBRNGMTL~ #0 #0 #0 ~NONE~ ~INV2~
+BUT_ONLY_IF_IT_CHANGES
+
+//ZILFGT01.CRE is a "cutscene-only" creature, so we can overwrite it
+
+
+PRINT ~Installing new creatures...~
+//DKNIGHT soundset
+STRING_SET ~23804~ @559136
+STRING_SET ~23805~ @559137
+STRING_SET ~23806~ @559138
+STRING_SET ~23807~ @559139
+STRING_SET ~23808~ @559140
+STRING_SET ~23810~ @559275
+STRING_SET ~23811~ @559276
+STRING_SET ~23812~ @559277
+STRING_SET ~23813~ @559278
+
+COPY ~CtB/creature/nostring~ ~override~
+
+COPY ~CtB/creature/translate/CB3545XB.CRE~ ~override~ SAY NAME1 @1    SAY NAME2 @1
+COPY ~CtB/creature/translate/CB3547BL.CRE~ ~override~ SAY NAME1 @2    SAY NAME2 @2
+COPY ~CtB/creature/translate/CB363501.CRE~ ~override~ SAY NAME1 @3    SAY NAME2 @3
+COPY ~CtB/creature/translate/CB3647HB.CRE~ ~override~ SAY NAME1 @4    SAY NAME2 @4
+COPY ~CtB/creature/translate/CB3650DW.CRE~ ~override~ SAY NAME1 @5    SAY NAME2 @5
+COPY ~CtB/creature/translate/CB510BRD.CRE~ ~override~ SAY NAME1 @7    SAY NAME2 @7
+COPY ~CtB/creature/translate/CB513REL.CRE~ ~override~ SAY NAME1 @8    SAY NAME2 @8
+COPY ~CtB/creature/translate/CB585RNG.CRE~ ~override~ SAY NAME1 @9    SAY NAME2 @9
+COPY ~CtB/creature/translate/CB595BLB.CRE~ ~override~ SAY NAME1 @10    SAY NAME2 @10
+COPY ~CtB/creature/translate/CB595BRB.CRE~ ~override~ SAY NAME1 @11    SAY NAME2 @11
+COPY ~CtB/creature/translate/CB595DRB.CRE~ ~override~ SAY NAME1 @12    SAY NAME2 @12
+COPY ~CtB/creature/translate/CB595GRB.CRE~ ~override~ SAY NAME1 @13    SAY NAME2 @13
+COPY ~CtB/creature/translate/CB597RIR.CRE~ ~override~ SAY NAME1 @14    SAY NAME2 @14
+COPY ~CtB/creature/translate/CB597RIS.CRE~ ~override~ SAY NAME1 @14    SAY NAME2 @14
+COPY ~CtB/creature/translate/CB642BAR.CRE~ ~override~ SAY NAME1 @15    SAY NAME2 @15
+COPY ~CtB/creature/translate/CBAMLADY.CRE~ ~override~ SAY NAME1 @16    SAY NAME2 @16
+COPY ~CtB/creature/translate/CBARKSLV.CRE~ ~override~ SAY NAME1 @17    SAY NAME2 @17
+COPY ~CtB/creature/translate/CBAVRVLA.CRE~ ~override~ SAY NAME1 @18    SAY NAME2 @18
+COPY ~CtB/creature/translate/CBAVRVLB.CRE~ ~override~ SAY NAME1 @18    SAY NAME2 @18
+COPY ~CtB/creature/translate/CBAVRVLC.CRE~ ~override~ SAY NAME1 @18    SAY NAME2 @18
+COPY ~CtB/creature/translate/CBAVRVLD.CRE~ ~override~ SAY NAME1 @18    SAY NAME2 @18
+COPY ~CtB/creature/translate/CBAVRVLE.CRE~ ~override~ SAY NAME1 @18    SAY NAME2 @18
+COPY ~CtB/creature/translate/CBAVRVLF.CRE~ ~override~ SAY NAME1 @18    SAY NAME2 @18
+COPY ~CtB/creature/translate/CBAVRVLG.CRE~ ~override~ SAY NAME1 @18    SAY NAME2 @18
+COPY ~CtB/creature/translate/CBAVRVLH.CRE~ ~override~ SAY NAME1 @18    SAY NAME2 @18
+COPY ~CtB/creature/translate/CBAVRVLI.CRE~ ~override~ SAY NAME1 @18    SAY NAME2 @18
+COPY ~CtB/creature/translate/CBAVRVLJ.CRE~ ~override~ SAY NAME1 @18    SAY NAME2 @18
+COPY ~CtB/creature/translate/CBAVRVLK.CRE~ ~override~ SAY NAME1 @18    SAY NAME2 @18
+COPY ~CtB/creature/translate/CBAVRVLM.CRE~ ~override~ SAY NAME1 @18    SAY NAME2 @18
+COPY ~CtB/creature/translate/CBBDAW01.CRE~ ~override~ SAY NAME1 @19    SAY NAME2 @20
+COPY ~CtB/creature/translate/CBBDHELP.CRE~ ~override~ SAY NAME1 @19    SAY NAME2 @20
+COPY ~CtB/creature/translate/CBBYRN03.CRE~ ~override~ SAY NAME1 @21    SAY NAME2 @21
+COPY ~CtB/creature/translate/CBBYRN66.CRE~ ~override~ SAY NAME1 @21    SAY NAME2 @21
+COPY ~CtB/creature/translate/CBC8CTC2.CRE~ ~override~ SAY NAME1 @22    SAY NAME2 @22
+COPY ~CtB/creature/translate/CBC8CTC3.CRE~ ~override~ SAY NAME1 @22    SAY NAME2 @22
+COPY ~CtB/creature/translate/CBC8CTD3.CRE~ ~override~ SAY NAME1 @23    SAY NAME2 @23
+COPY ~CtB/creature/translate/CBC8CTF1.CRE~ ~override~ SAY NAME1 @24    SAY NAME2 @24
+COPY ~CtB/creature/translate/CBC8CTF2.CRE~ ~override~ SAY NAME1 @24    SAY NAME2 @24
+COPY ~CtB/creature/translate/CBC8CTF3.CRE~ ~override~ SAY NAME1 @24    SAY NAME2 @24
+COPY ~CtB/creature/translate/CBC8CTL2.CRE~ ~override~ SAY NAME1 @25    SAY NAME2 @25
+COPY ~CtB/creature/translate/CBC8CTL3.CRE~ ~override~ SAY NAME1 @25    SAY NAME2 @25
+COPY ~CtB/creature/translate/CBC8CTL4.CRE~ ~override~ SAY NAME1 @25    SAY NAME2 @25
+COPY ~CtB/creature/translate/CBC8CTM1.CRE~ ~override~ SAY NAME1 @26    SAY NAME2 @26
+COPY ~CtB/creature/translate/CBC8CTM2.CRE~ ~override~ SAY NAME1 @26    SAY NAME2 @26
+COPY ~CtB/creature/translate/CBC8CTM3.CRE~ ~override~ SAY NAME1 @26    SAY NAME2 @26
+COPY ~CtB/creature/translate/CBC8CTU3.CRE~ ~override~ SAY NAME1 @27    SAY NAME2 @27
+COPY ~CtB/creature/translate/CBC8CTZA.CRE~ ~override~ SAY NAME1 @28    SAY NAME2 @28
+COPY ~CtB/creature/translate/CBC8CTZL.CRE~ ~override~ SAY NAME1 @29    SAY NAME2 @29
+COPY ~CtB/creature/translate/CBCEEB01.CRE~ ~override~ SAY NAME1 @30    SAY NAME2 @30
+COPY ~CtB/creature/translate/CBDNCSWD.CRE~ ~override~ SAY NAME1 @32    SAY NAME2 @32
+COPY ~CtB/creature/translate/CBDRIFAL.CRE~ ~override~ SAY NAME1 @33    SAY NAME2 @33
+COPY ~CtB/creature/translate/CBDRIFML.CRE~ ~override~ SAY NAME1 @34    SAY NAME2 @34
+COPY ~CtB/creature/translate/CBDRIFSL.CRE~ ~override~ SAY NAME1 @34    SAY NAME2 @34
+COPY ~CtB/creature/translate/CBDRIMML.CRE~ ~override~ SAY NAME1 @33    SAY NAME2 @33
+COPY ~CtB/creature/translate/CBDRIMSL.CRE~ ~override~ SAY NAME1 @33    SAY NAME2 @33
+COPY ~CtB/creature/translate/CBELEDI1.CRE~ ~override~ SAY NAME1 @35    SAY NAME2 @35
+COPY ~CtB/creature/translate/CBELEDI2.CRE~ ~override~ SAY NAME1 @36    SAY NAME2 @36
+COPY ~CtB/creature/translate/CBGONAST.CRE~ ~override~ SAY NAME1 @37    SAY NAME2 @37
+COPY ~CtB/creature/translate/CBGRDYUN.CRE~ ~override~ SAY NAME1 @38    SAY NAME2 @38
+COPY ~CtB/creature/translate/CBHARPY1.CRE~ ~override~ SAY NAME1 @39    SAY NAME2 @39
+COPY ~CtB/creature/translate/CBHARPYa.CRE~ ~override~ SAY NAME1 @39    SAY NAME2 @39
+COPY ~CtB/creature/translate/CBHARPYb.CRE~ ~override~ SAY NAME1 @39    SAY NAME2 @39
+COPY ~CtB/creature/translate/CBHARPYc.CRE~ ~override~ SAY NAME1 @39    SAY NAME2 @39
+COPY ~CtB/creature/translate/CBHARPYd.CRE~ ~override~ SAY NAME1 @39    SAY NAME2 @39
+COPY ~CtB/creature/translate/CBHARPY2.CRE~ ~override~ SAY NAME1 @39    SAY NAME2 @39
+COPY ~CtB/creature/translate/CBHARPYw.CRE~ ~override~ SAY NAME1 @39    SAY NAME2 @39
+COPY ~CtB/creature/translate/CBHARPYx.CRE~ ~override~ SAY NAME1 @39    SAY NAME2 @39
+COPY ~CtB/creature/translate/CBHARPYy.CRE~ ~override~ SAY NAME1 @39    SAY NAME2 @39
+COPY ~CtB/creature/translate/CBHARPYz.CRE~ ~override~ SAY NAME1 @39    SAY NAME2 @39
+COPY ~CtB/creature/translate/CBHL3627.CRE~ ~override~ SAY NAME1 @40    SAY NAME2 @40
+COPY ~CtB/creature/translate/CBHL3631.CRE~ ~override~ SAY NAME1 @41    SAY NAME2 @41
+COPY ~CtB/creature/translate/CBHL3634.CRE~ ~override~ SAY NAME1 @40    SAY NAME2 @40
+COPY ~CtB/creature/translate/CBHLDYT1.CRE~ ~override~ SAY NAME1 @38    SAY NAME2 @38
+COPY ~CtB/creature/translate/CBHLDYT2.CRE~ ~override~ SAY NAME1 @42    SAY NAME2 @42
+COPY ~CtB/creature/translate/CBHLDYT3.CRE~ ~override~ SAY NAME1 @43    SAY NAME2 @43
+COPY ~CtB/creature/translate/CBHLDYT4.CRE~ ~override~ SAY NAME1 @44    SAY NAME2 @44
+COPY ~CtB/creature/translate/CBHLVLNT.CRE~ ~override~ SAY NAME1 @45    SAY NAME2 @45
+COPY ~CtB/creature/translate/CBHREDWN.CRE~ ~override~ SAY NAME1 @46    SAY NAME2 @46
+COPY ~CtB/creature/translate/CBLSLNDA.CRE~ ~override~ SAY NAME1 @47    SAY NAME2 @47
+COPY ~CtB/creature/translate/CBMALMGE.CRE~ ~override~ SAY NAME1 @35    SAY NAME2 @35
+COPY ~CtB/creature/translate/CBMALR1.CRE~ ~override~ SAY NAME1 @36    SAY NAME2 @36
+COPY ~CtB/creature/translate/CBMALR5A.CRE~ ~override~ SAY NAME1 @48    SAY NAME2 @48
+COPY ~CtB/creature/translate/CBMALR6.CRE~ ~override~ SAY NAME1 @49    SAY NAME2 @49
+COPY ~CtB/creature/translate/CBMALR7.CRE~ ~override~ SAY NAME1 @50    SAY NAME2 @50
+COPY ~CtB/creature/translate/CBMALR8.CRE~ ~override~ SAY NAME1 @50    SAY NAME2 @50
+COPY ~CtB/creature/translate/CBMALRDM.CRE~ ~override~ SAY NAME1 @51    SAY NAME2 @51
+COPY ~CtB/creature/translate/CBMANARB.CRE~ ~override~ SAY NAME1 @52    SAY NAME2 @52
+COPY ~CtB/creature/translate/CBMASTVP.CRE~ ~override~ SAY NAME1 @53    SAY NAME2 @53
+COPY ~CtB/creature/translate/CBMONDRP.CRE~ ~override~ SAY NAME1 @55    SAY NAME2 @55
+COPY ~CtB/creature/translate/CBMYSTP1.CRE~ ~override~ SAY NAME1 @56    SAY NAME2 @56
+COPY ~CtB/creature/translate/CBMYSTP2.CRE~ ~override~ SAY NAME1 @555556    SAY NAME2 @555556
+COPY ~CtB/creature/translate/CBMYSTP3.CRE~ ~override~ SAY NAME1 @56    SAY NAME2 @56
+COPY ~CtB/creature/translate/CBMYSTP4.CRE~ ~override~ SAY NAME1 @56    SAY NAME2 @56
+COPY ~CtB/creature/translate/CBNRT001.CRE~ ~override~ SAY NAME1 @57    SAY NAME2 @57
+COPY ~CtB/creature/translate/CBNRT002.CRE~ ~override~ SAY NAME1 @57    SAY NAME2 @57
+COPY ~CtB/creature/translate/CBNRT003.CRE~ ~override~ SAY NAME1 @57    SAY NAME2 @57
+COPY ~CtB/creature/translate/CBNRT004.CRE~ ~override~ SAY NAME1 @57    SAY NAME2 @57
+COPY ~CtB/creature/translate/CBNRT005.CRE~ ~override~ SAY NAME1 @57    SAY NAME2 @57
+COPY ~CtB/creature/translate/CBNRT010.CRE~ ~override~ SAY NAME1 @57    SAY NAME2 @57
+COPY ~CtB/creature/translate/CBNRT020.CRE~ ~override~ SAY NAME1 @58    SAY NAME2 @58
+COPY ~CtB/creature/translate/CBNRT025.CRE~ ~override~ SAY NAME1 @58    SAY NAME2 @58
+COPY ~CtB/creature/translate/CBNRTLU1.CRE~ ~override~ SAY NAME1 @59    SAY NAME2 @59
+COPY ~CtB/creature/translate/CBNRTLUS.CRE~ ~override~ SAY NAME1 @60    SAY NAME2 @60
+COPY ~CtB/creature/translate/CBOWEN03.CRE~ ~override~ SAY NAME1 @61    SAY NAME2 @61
+COPY ~CtB/creature/translate/CBOWEN66.CRE~ ~override~ SAY NAME1 @61    SAY NAME2 @61
+COPY ~CtB/creature/translate/CBP1ACT1.CRE~ ~override~ SAY NAME1 @62    SAY NAME2 @62
+COPY ~CtB/creature/translate/CBP1ACT2.CRE~ ~override~ SAY NAME1 @63    SAY NAME2 @63
+COPY ~CtB/creature/translate/CBP1ACT3.CRE~ ~override~ SAY NAME1 @64    SAY NAME2 @64
+COPY ~CtB/creature/translate/CBP1ACT4.CRE~ ~override~ SAY NAME1 @65    SAY NAME2 @65
+COPY ~CtB/creature/translate/CBP1ACT5.CRE~ ~override~ SAY NAME1 @66    SAY NAME2 @66
+COPY ~CtB/creature/translate/CBP1ACT6.CRE~ ~override~ SAY NAME1 @67    SAY NAME2 @67
+COPY ~CtB/creature/translate/CBP2ACT1.CRE~ ~override~ SAY NAME1 @68    SAY NAME2 @68
+COPY ~CtB/creature/translate/CBP2ACT2.CRE~ ~override~ SAY NAME1 @69    SAY NAME2 @69
+COPY ~CtB/creature/translate/CBP2ACT3.CRE~ ~override~ SAY NAME1 @70    SAY NAME2 @70
+COPY ~CtB/creature/translate/CBP2ACT4.CRE~ ~override~ SAY NAME1 @71    SAY NAME2 @71
+COPY ~CtB/creature/translate/CBP2ACT5.CRE~ ~override~ SAY NAME1 @72    SAY NAME2 @72
+COPY ~CtB/creature/translate/CBP2ACT6.CRE~ ~override~ SAY NAME1 @73    SAY NAME2 @73
+COPY ~CtB/creature/translate/CBP2ACT7.CRE~ ~override~ SAY NAME1 @74    SAY NAME2 @74
+COPY ~CtB/creature/translate/CBPISSMN.CRE~ ~override~ SAY NAME1 @75    SAY NAME2 @75
+COPY ~CtB/creature/translate/CBRNCBOY.CRE~ ~override~ SAY NAME1 @76    SAY NAME2 @76
+COPY ~CtB/creature/translate/CBRNCBVP.CRE~ ~override~ SAY NAME1 @76    SAY NAME2 @76
+COPY ~CtB/creature/translate/CBRNCGRL.CRE~ ~override~ SAY NAME1 @77    SAY NAME2 @77
+COPY ~CtB/creature/translate/CBRNCGVP.CRE~ ~override~ SAY NAME1 @77    SAY NAME2 @77
+COPY ~CtB/creature/translate/CBRNCHER.CRE~ ~override~ SAY NAME1 @78    SAY NAME2 @78
+COPY ~CtB/creature/translate/CBRNCMAN.CRE~ ~override~ SAY NAME1 @79    SAY NAME2 @79
+COPY ~CtB/creature/translate/CBRNCMVP.CRE~ ~override~ SAY NAME1 @79    SAY NAME2 @79
+COPY ~CtB/creature/translate/CBRNCWFE.CRE~ ~override~ SAY NAME1 @80    SAY NAME2 @80
+COPY ~CtB/creature/translate/CBRNCWVP.CRE~ ~override~ SAY NAME1 @80    SAY NAME2 @80
+COPY ~CtB/creature/translate/CBRYBERG.CRE~ ~override~ SAY NAME1 @81    SAY NAME2 @81
+COPY ~CtB/creature/translate/CBRYBREL.CRE~ ~override~ SAY NAME1 @82    SAY NAME2 @82
+COPY ~CtB/creature/translate/CBSCHOOK.CRE~ ~override~ SAY NAME1 @83    SAY NAME2 @83
+COPY ~CtB/creature/translate/CBSEACPT.CRE~ ~override~ SAY NAME1 @84    SAY NAME2 @84
+COPY ~CtB/creature/translate/CBSELIMS.CRE~ ~override~ SAY NAME1 @85    SAY NAME2 @85
+COPY ~CtB/creature/translate/CBSFMESS.CRE~ ~override~ SAY NAME1 @86    SAY NAME2 @86
+COPY ~CtB/creature/translate/CBSMHRSE.CRE~ ~override~ SAY NAME1 @87    SAY NAME2 @87
+COPY ~CtB/creature/translate/CBSMTRGT.CRE~ ~override~ SAY NAME1 @88    SAY NAME2 @88
+COPY ~CtB/creature/translate/CBSPKDED.CRE~ ~override~ SAY NAME1 @89    SAY NAME2 @89
+COPY ~CtB/creature/translate/CBSTTFLW.CRE~ ~override~ SAY NAME1 @90    SAY NAME2 @90
+COPY ~CtB/creature/translate/CBTARDTH.CRE~ ~override~ SAY NAME1 @91    SAY NAME2 @91
+COPY ~CtB/creature/translate/CBTAXCOL.CRE~ ~override~ SAY NAME1 @92    SAY NAME2 @92
+COPY ~CtB/creature/translate/CBTREANT.CRE~ ~override~ SAY NAME1 @93    SAY NAME2 @93
+COPY ~CtB/creature/translate/CBXTTHEF.CRE~ ~override~ SAY NAME1 @94    SAY NAME2 @94
+COPY ~CtB/creature/translate/CBYBGIR1.CRE~ ~override~ SAY NAME1 @35    SAY NAME2 @35
+COPY ~CtB/creature/translate/CBYT4446.CRE~ ~override~ SAY NAME1 @38    SAY NAME2 @38
+COPY ~CtB/creature/translate/CBYT4447.CRE~ ~override~ SAY NAME1 @38    SAY NAME2 @38
+COPY ~CtB/creature/translate/CBZOMB01.CRE~ ~override~ SAY NAME1 @95    SAY NAME2 @95
+COPY ~CtB/creature/translate/CBZOMBD1.CRE~ ~override~ SAY NAME1 @95    SAY NAME2 @95
+COPY ~CtB/creature/translate/CBZOMB02.CRE~ ~override~ SAY NAME1 @96    SAY NAME2 @96
+COPY ~CtB/creature/translate/CBZOMBD2.CRE~ ~override~ SAY NAME1 @96    SAY NAME2 @96
+COPY ~CtB/creature/translate/CBZOMB03.CRE~ ~override~ SAY NAME1 @97    SAY NAME2 @97
+COPY ~CtB/creature/translate/CBZOMB05.CRE~ ~override~ SAY NAME1 @97    SAY NAME2 @97
+COPY ~CtB/creature/translate/CBZOMB07.CRE~ ~override~ SAY NAME1 @97    SAY NAME2 @97
+COPY ~CtB/creature/translate/CBZOMB04.CRE~ ~override~ SAY NAME1 @98    SAY NAME2 @98
+COPY ~CtB/creature/translate/CBZOMB06.CRE~ ~override~ SAY NAME1 @98    SAY NAME2 @98
+COPY ~CtB/creature/translate/CBZOMB08.CRE~ ~override~ SAY NAME1 @98    SAY NAME2 @98
+COPY ~CtB/creature/translate/CBZOMB09.CRE~ ~override~ SAY NAME1 @98    SAY NAME2 @98
+COPY ~CtB/creature/translate/CBZOMB10.CRE~ ~override~ SAY NAME1 @98    SAY NAME2 @98
+COPY ~CtB/creature/translate/CBZOMB11.CRE~ ~override~ SAY NAME1 @98    SAY NAME2 @98
+COPY ~CtB/creature/translate/CBZOMB12.CRE~ ~override~ SAY NAME1 @98    SAY NAME2 @98
+COPY ~CtB/creature/translate/CBZOMB13.CRE~ ~override~ SAY NAME1 @98    SAY NAME2 @98
+COPY ~CtB/creature/translate/CBZOMB0A.CRE~ ~override~ SAY NAME1 @99    SAY NAME2 @99
+COPY ~CtB/creature/translate/CBZOMB0B.CRE~ ~override~ SAY NAME1 @99    SAY NAME2 @99
+COPY ~CtB/creature/translate/CBZOMB0C.CRE~ ~override~ SAY NAME1 @99    SAY NAME2 @99
+COPY ~CtB/creature/translate/CBBGBER1.CRE~ ~override~ SAY NAME1 @650670 SAY NAME2 @650670
+COPY ~CtB/creature/translate/CBBGBERa.CRE~ ~override~ SAY NAME1 @650670 SAY NAME2 @650670
+COPY ~CtB/creature/translate/CBBGBERb.CRE~ ~override~ SAY NAME1 @650670 SAY NAME2 @650670
+COPY ~CtB/creature/translate/CBBGBERc.CRE~ ~override~ SAY NAME1 @650670 SAY NAME2 @650670
+COPY ~CtB/creature/translate/CBBGBERd.CRE~ ~override~ SAY NAME1 @650670 SAY NAME2 @650670
+COPY ~CtB/creature/translate/CBBGBER2.CRE~ ~override~ SAY NAME1 @650670 SAY NAME2 @650670
+COPY ~CtB/creature/translate/CBBGBERw.CRE~ ~override~ SAY NAME1 @650670 SAY NAME2 @650670
+COPY ~CtB/creature/translate/CBBGBERx.CRE~ ~override~ SAY NAME1 @650670 SAY NAME2 @650670
+COPY ~CtB/creature/translate/CBBGBERy.CRE~ ~override~ SAY NAME1 @650670 SAY NAME2 @650670
+COPY ~CtB/creature/translate/CBBGBERz.CRE~ ~override~ SAY NAME1 @650670 SAY NAME2 @650670
+COPY ~CtB/creature/translate/CB901SCK.CRE~ ~override~ SAY NAME1 @650691 SAY NAME2 @650691
+COPY ~CtB/creature/translate/CBREDDRG.CRE~ ~override~ SAY NAME1 @661006 SAY NAME2 @661006
+COPY ~CtB/creature/translate/CBBLKDRG.CRE~ ~override~ SAY NAME1 @661007 SAY NAME2 @661007
+COPY ~CtB/creature/translate/CBGRNDRG.CRE~ ~override~ SAY NAME1 @661008 SAY NAME2 @661008
+COPY ~CtB/creature/translate/CBYELDRG.CRE~ ~override~ SAY NAME1 @661009 SAY NAME2 @661009
+
+COPY ~CtB/creature/translate/RYNNPC06.CRE~ ~override~
+     ~CtB/creature/translate/RYNNPC11.CRE~ ~override~
+     ~CtB/creature/translate/RYNNPC15.CRE~ ~override~
+     ~CtB/creature/translate/RYNNPC19.CRE~ ~override~
+  SAY NAME1             @100
+  SAY NAME2             @100
+  SAY INITIAL_MEETING   @101
+  SAY MORALE            @102
+  SAY UNHAPPY_ANNOYED   @103
+  SAY UNHAPPY_SERIOUS   @104
+  SAY UNHAPPY_BREAKING  @103
+  SAY LEADER            @105
+  SAY TIRED             @106
+  SAY BORED             @107
+  SAY BATTLE_CRY1       @108
+  SAY BATTLE_CRY2       @109
+  SAY BATTLE_CRY3       @110
+  SAY BATTLE_CRY4       @111
+  SAY BATTLE_CRY5       @112
+  SAY DAMAGE            @113
+  SAY DYING             @114
+  SAY HURT              @115
+  SAY SELECT_COMMON1    @116
+  SAY SELECT_COMMON2    @117
+  SAY SELECT_COMMON3    @118
+  SAY SELECT_COMMON4    @119
+  SAY SELECT_COMMON5    @120
+  SAY SELECT_COMMON6    @121
+  SAY SELECT_ACTION1    @122
+  SAY SELECT_ACTION2    @123
+  SAY SELECT_ACTION3    @124
+  SAY REACT_TO_DIE_GENERAL    @125
+  SAY REACT_TO_DIE_SPECIFIC    @126
+  SAY CRITICAL_HIT      @127
+  SAY EXISTANCE5        @128
+
+COPY ~CtB/creature/translate/CBLNIGHT.CRE~ ~override/CBLNIGHT.CRE~ SAY NAME1 @129    SAY NAME2 @129
+COPY ~CtB/creature/translate/CBMANVER.CRE~ ~override/CBMANVER.CRE~ SAY NAME1 @130    SAY NAME2 @130
+COPY ~CtB/creature/translate/CBELHOE.CRE~ ~override/CBELHOE.CRE~ SAY NAME1 @131    SAY NAME2 @131
+COPY ~CtB/creature/translate/CBDEANOH.CRE~ ~override/CBDEANOH.CRE~ SAY NAME1 @132    SAY NAME2 @132
+COPY ~CtB/creature/translate/CBMINTO.CRE~ ~override/CBMINTO.CRE~ SAY NAME1 @133    SAY NAME2 @133
+COPY ~CtB/creature/translate/CBP3ACT1.CRE~ ~override/CBP3ACT1.CRE~ SAY NAME1 @660006 SAY NAME2 @660006
+COPY ~CtB/creature/translate/CBP3ACT2.CRE~ ~override/CBP3ACT2.CRE~ SAY NAME1 @660007 SAY NAME2 @660007
+COPY ~CtB/creature/translate/CBP3ACT3.CRE~ ~override/CBP3ACT3.CRE~ SAY NAME1 @660008 SAY NAME2 @660008
+COPY ~CtB/creature/translate/CBP3ACT4.CRE~ ~override/CBP3ACT4.CRE~ SAY NAME1 @660009 SAY NAME2 @660009
+COPY ~CtB/creature/translate/CBP3ACT5.CRE~ ~override/CBP3ACT5.CRE~ SAY NAME1 @660010 SAY NAME2 @660010
+COPY ~CtB/creature/translate/CBP3ACT6.CRE~ ~override/CBP3ACT6.CRE~ SAY NAME1 @660011 SAY NAME2 @660011
+COPY ~CtB/creature/translate/CBP3ACT7.CRE~ ~override/CBP3ACT7.CRE~ SAY NAME1 @660012 SAY NAME2 @660012
+COPY ~CtB/creature/translate/CBP4ACT1.CRE~ ~override/CBP4ACT1.CRE~ SAY NAME1 @660013 SAY NAME2 @660013
+COPY ~CtB/creature/translate/CBP4ACT2.CRE~ ~override/CBP4ACT2.CRE~ SAY NAME1 @660014 SAY NAME2 @660014
+COPY ~CtB/creature/translate/CBP4ACT3.CRE~ ~override/CBP4ACT3.CRE~ SAY NAME1 @660015 SAY NAME2 @660015
+COPY ~CtB/creature/translate/CBP4ACT4.CRE~ ~override/CBP4ACT4.CRE~ SAY NAME1 @660016 SAY NAME2 @660016
+COPY ~CtB/creature/translate/CBP4ACT5.CRE~ ~override/CBP4ACT5.CRE~ SAY NAME1 @660017 SAY NAME2 @660017
+COPY ~CtB/creature/translate/CBP4ACT6.CRE~ ~override/CBP4ACT6.CRE~ SAY NAME1 @660018 SAY NAME2 @660018
+COPY ~CtB/creature/translate/CBP4ACT7.CRE~ ~override/CBP4ACT7.CRE~ SAY NAME1 @660019 SAY NAME2 @660019
+COPY ~CtB/creature/translate/CBP4ACT8.CRE~ ~override/CBP4ACT8.CRE~ SAY NAME1 @660020 SAY NAME2 @660020
+COPY ~CtB/creature/translate/CBP4ACT9.CRE~ ~override/CBP4ACT9.CRE~ SAY NAME1 @660021 SAY NAME2 @660021
+COPY ~CtB/creature/translate/CBP4ACTa.CRE~ ~override/CBP4ACTa.CRE~ SAY NAME1 @660021 SAY NAME2 @660021
+COPY ~CtB/creature/translate/CBP4ACTb.CRE~ ~override/CBP4ACTb.CRE~ SAY NAME1 @660021 SAY NAME2 @660021
+COPY ~CtB/creature/translate/CBP4ACTc.CRE~ ~override/CBP4ACTc.CRE~ SAY NAME1 @660021 SAY NAME2 @660021
+COPY ~CtB/creature/translate/CBP4ACTd.CRE~ ~override/CBP4ACTd.CRE~ SAY NAME1 @660021 SAY NAME2 @660021
+COPY ~CtB/creature/translate/CBP4ACTe.CRE~ ~override/CBP4ACTe.CRE~ SAY NAME1 @660022 SAY NAME2 @660022
+COPY ~CtB/creature/translate/CB368DRG.CRE~ ~override/CB368DRG.CRE~ SAY NAME1 @661004 SAY NAME2 @661004
+COPY ~CtB/creature/translate/CBUNDEAD.CRE~ ~override/CBUNDEAD.CRE~ SAY NAME1 @661005 SAY NAME2 @661005
+
+COPY_EXISTING ~TEMSUP.CRE~ ~override/TEMSUP.CRE~
+  WRITE_ASCII 0x0448 ~CBWAUKEE~
+
+COPY ~CtB/creature/translate/t#mdomo.cre~ ~override~
+ SAY NAME1 ~Majordomo~
+ SAY NAME2 ~Majordomo~
+ 
+ COPY ~CtB/creature/translate/cbchimra.cre~ ~override~
+ SAY NAME1 @31
+ SAY NAME2 @31
+ 

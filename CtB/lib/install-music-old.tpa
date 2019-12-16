@@ -1,11 +1,11 @@
-COPY ~CtBEE/music/84.MUS~ ~music~
-     ~CtBEE/music/85.MUS~ ~music~
-     ~CtBEE/music/86.MUS~ ~music~
-     ~CtBEE/music/87.MUS~ ~music~
-     ~CtBEE/music/88.MUS~ ~music~
-     ~CtBEE/music/89.MUS~ ~music~
-     ~CtBEE/music/90.MUS~ ~music~
-     ~CtBEE/music/91.MUS~ ~music~
+COPY ~CtB/music/84.MUS~ ~music~
+     ~CtB/music/85.MUS~ ~music~
+     ~CtB/music/86.MUS~ ~music~
+     ~CtB/music/87.MUS~ ~music~
+     ~CtB/music/88.MUS~ ~music~
+     ~CtB/music/89.MUS~ ~music~
+     ~CtB/music/90.MUS~ ~music~
+     ~CtB/music/91.MUS~ ~music~
 
 OUTER_SET rows_cnt=0
 COPY_EXISTING - ~SONGLIST.2da~ ~override~
@@ -165,7 +165,7 @@ END//patch_if <92
 ELSE BEGIN  
   //SONGLIST.2DA has less than 8 free slots - we must move the whole music setup to the GUI auto-mod
   MKDIR ~GUI_Mods/%slot_name%/sound~
-  COPY ~CtBEE/RULE/default/SONGLIST.2DA~ ~GUI_Mods/%slot_name%/sound/SONGLIST.2DA~
+  COPY ~CtB/RULE/default/SONGLIST.2DA~ ~GUI_Mods/%slot_name%/sound/SONGLIST.2DA~
 
 <<<<<<<< sound1.tp2
 OUTER_SET rows_cnt=0

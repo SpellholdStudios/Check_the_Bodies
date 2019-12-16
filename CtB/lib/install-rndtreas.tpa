@@ -170,7 +170,7 @@ COPY_EXISTING + ~SONGLIST.2DA~ ~override~ //just used as an external bracket for
     PATCH_PRINT "%src_name%"^" --> "^"%name%"
 
     INNER_ACTION BEGIN
-      COPY ~CtBEE/items/rndtre/RNDTRE.ITM~ ~override/%name%~
+      COPY ~CtB/items/rndtre/RNDTRE.ITM~ ~override/%name%~
     END
 
     PATCH_IF(i=6) BEGIN

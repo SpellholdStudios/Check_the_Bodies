@@ -1,11 +1,11 @@
-COPY ~CtBEE/music/84.MUS~ ~music~
-     ~CtBEE/music/85.MUS~ ~music~
-     ~CtBEE/music/86.MUS~ ~music~
-     ~CtBEE/music/87.MUS~ ~music~
-     ~CtBEE/music/88.MUS~ ~music~
-     ~CtBEE/music/89.MUS~ ~music~
-     ~CtBEE/music/90.MUS~ ~music~
-     ~CtBEE/music/91.MUS~ ~music~
+COPY ~CtB/music/84.MUS~ ~music~
+     ~CtB/music/85.MUS~ ~music~
+     ~CtB/music/86.MUS~ ~music~
+     ~CtB/music/87.MUS~ ~music~
+     ~CtB/music/88.MUS~ ~music~
+     ~CtB/music/89.MUS~ ~music~
+     ~CtB/music/90.MUS~ ~music~
+     ~CtB/music/91.MUS~ ~music~
 
 MKDIR ~music/84~
       ~music/85~
@@ -16,14 +16,14 @@ MKDIR ~music/84~
       ~music/90~
       ~music/91~ 
 
-COPY ~CtBEE/music/84~  ~music/84~
-COPY ~CtBEE/music/85~  ~music/85~
-COPY ~CtBEE/music/86~  ~music/86~
-COPY ~CtBEE/music/87~  ~music/87~
-COPY ~CtBEE/music/88~  ~music/88~
-COPY ~CtBEE/music/89~  ~music/89~
-COPY ~CtBEE/music/90~  ~music/90~
-COPY ~CtBEE/music/91~  ~music/91~ 
+COPY ~CtB/music/84~  ~music/84~
+COPY ~CtB/music/85~  ~music/85~
+COPY ~CtB/music/86~  ~music/86~
+COPY ~CtB/music/87~  ~music/87~
+COPY ~CtB/music/88~  ~music/88~
+COPY ~CtB/music/89~  ~music/89~
+COPY ~CtB/music/90~  ~music/90~
+COPY ~CtB/music/91~  ~music/91~ 
 
 
 OUTER_SET rows_cnt=0
