@@ -2,7 +2,7 @@ BACKUP ~CtBEE/backup~
 
 AUTHOR ~Charles Bisson, King Diamond (revision) Ikki (EE Conversion)  Weigo (all in one)~  NO_IF_EVAL_BUG
 
-VERSION ~2.2~
+VERSION ~2.3 pre 1~
 
 AUTO_TRA ~CtBEE/Language/%s~
 
@@ -106,7 +106,7 @@ LANGUAGE ~Castellano (clan REO)~
      ~CtBEE/Language/Spanish/script.tra~
 
 
-BEGIN ~Check The Bodies EET~
+BEGIN ~Check The Bodies~
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	COPY + ~Setup-CtBEE.exe~ ~WeiDU.exe~
@@ -667,10 +667,10 @@ COPY ~CtBEE/ctbareas/translate/CB3668.ARE~ ~override~
 //***********************************************************
 PRINT ~Patching original BG2 scripts...~
 
-EXTEND_BOTTOM 	~AR2600.bcs~ ~CtBEE/scripts/append/%engine%/apbt2600.BAF~ EVALUATE_BUFFER
-EXTEND_TOP 		~Baldur.BCS~ ~CtBEE/scripts/append/%engine%/aptp1BLD.BAF~ EVALUATE_BUFFER
-EXTEND_TOP 		~Baldur.BCS~ ~CtBEE/scripts/append/%engine%/aptp2BLD.BAF~ EVALUATE_BUFFER
-EXTEND_TOP    	~AR2500.bcs~ ~CtBEE/scripts/append/%engine%/aptp2500.BAF~ EVALUATE_BUFFER //Other part of Chapter 6 fix
+EXTEND_BOTTOM 	~AR2600.bcs~ ~CtBEE/scripts/append/apbt2600.BAF~ EVALUATE_BUFFER
+EXTEND_TOP 		~Baldur.BCS~ ~CtBEE/scripts/append/aptp1BLD.BAF~ EVALUATE_BUFFER
+EXTEND_TOP 		~Baldur.BCS~ ~CtBEE/scripts/append/aptp2BLD.BAF~ EVALUATE_BUFFER
+EXTEND_TOP    	~AR2500.bcs~ ~CtBEE/scripts/append/aptp2500.BAF~ EVALUATE_BUFFER //Other part of Chapter 6 fix
 
 COPY_EXISTING ~AR0300.bcs~ ~override~
  REPLACE_BCS_BLOCK EVALUATE_BUFFER ~CtBEE/scripts/append/rbbO0300.bcs~ ~CtBEE/scripts/append/rbbN0300.bcs~
@@ -755,14 +755,11 @@ PRINT ~Installing new scripts...~
 COMPILE EVALUATE_BUFFER ~CtBEE/scripts/ctb~
   USING ~CtBEE/Language/%s/script.tra~
   
-COMPILE EVALUATE_BUFFER ~CtBEE/scripts/ctb/%engine%~
-  USING ~CtBEE/Language/%s/script.tra~
 //**************************************************************************
 //**************************************************************************
 PRINT ~Installing dialogues...~
 
 // Install DLG
-COMPILE EVALUATE_BUFFER ~CtBEE/dialogs/translate/%engine%~
 COMPILE EVALUATE_BUFFER ~CtBEE/dialogs/translate~
 
 COMPILE EVALUATE_BUFFER ~CtBEE/dialogs/app&ext~
@@ -1423,7 +1420,7 @@ INCLUDE ~%MOD_FOLDER%/lib/cheat_var.tph~
 //***********************************************************************************
 // Candlekeep Chores component
 //***********************************************************************************
-BEGIN ~Candlekeep Chores, v2.2~
+BEGIN ~Candlekeep Chores~
 REQUIRE_COMPONENT "Setup-CtBEE.tp2"      "0"  ~You must have CtBEE v2.2 main package installed~
 //REQUIRE_PREDICATE (!GAME_IS ~bg2ee eet~) ~Not for EET and BG2EE~
 
@@ -1864,7 +1861,7 @@ INCLUDE ~%MOD_FOLDER%/lib/cheat_var_chores.tph~
 //***********************************************************************************
 // Candlekeep Chores Fast Forward
 //***********************************************************************************
-BEGIN ~Check the Bodies Fast Forward, v2.2 (for CtB v2.2 or later)~
+BEGIN ~Check the Bodies Fast Forward (for CtB v2.2 or later)~
 REQUIRE_COMPONENT "Setup-CtBEE.tp2"      "1"  ~You must have Candlekeep Chores v2.2 (or later) installed~
 
 COMPILE ~CtBEE/CtB_FF/CtB_FF.d~
