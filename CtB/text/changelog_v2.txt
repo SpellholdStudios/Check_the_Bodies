@@ -24,4 +24,5 @@ v2.3 (by jastey):
 -iconv dlls added so non-english versions do not freeze on EE-games (thanks to Roxanne)
 -re-inserted journal entry into CBSFMESS.D
 -removed unused files scripts/append/nAR2500.baf, scripts/append/oAR2500.baf
+-portraits removed due to missing copyright
 -changelog.txt for v 2.x added

@@ -2,7 +2,7 @@ BACKUP ~CtB/backup~
 
 AUTHOR ~Charles Bisson, King Diamond (revision) Ikki (EE Conversion)  Weigo (all in one)~  NO_IF_EVAL_BUG
 
-VERSION ~2.3 pre 2~
+VERSION ~2.3 pre 3~
 
 AUTO_TRA ~CtB/Language/%s~
 
@@ -332,7 +332,7 @@ PRINT ~Installing game graphics and effects...~
 COPY ~CtB/gui_/bam~ ~override~ // item bam
 COPY ~CtB/gui_/mos~ ~override~
 COPY ~CtB/effects~  ~override~
-COPY ~CtB/portrait~ ~override~
+//COPY ~CtB/portrait~ ~override~
 
 
 
