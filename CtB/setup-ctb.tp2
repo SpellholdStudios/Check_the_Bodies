@@ -794,6 +794,10 @@ COMPILE EVALUATE_BUFFER ~CtB/dialogs/translate~
 
 COMPILE EVALUATE_BUFFER ~CtB/dialogs/app&ext~
 
+COMPILE EVALUATE_BUFFER ~CtB/dialogs/improvements/CBSURAYW.D~ USING ~ctb/language/%LANGUAGE%/improvements/CBSURAYW.tra~
+COMPILE EVALUATE_BUFFER ~CtB/dialogs/improvements/CBSAERKW.D~ USING ~ctb/language/%LANGUAGE%/improvements/CBSAERKW.tra~
+COMPILE EVALUATE_BUFFER ~CtB/dialogs/improvements/CBPASTRW.D~ USING ~ctb/language/%LANGUAGE%/improvements/CBPASTRW.tra~
+
 COPY_EXISTING ~FFRECEP.DLG~ ~override~
  WRITE_BYTE 0x30 0 //makes FFRECEP.DLG a pausing dialog - KD: was 2
 
