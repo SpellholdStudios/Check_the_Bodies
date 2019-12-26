@@ -1895,3 +1895,124 @@ BEGIN ~Candlekeep Chores Fast Forward (for CtB v2.2 or later)~
 REQUIRE_COMPONENT "Setup-CtB.tp2"      "1"  ~You must have Candlekeep Chores v2.2 (or later) installed~
 
 COMPILE ~CtB/CtB_FF/CtB_FF.d~
+
+//***********************************************************************************
+// CtB other improvements
+//***********************************************************************************
+BEGIN ~Other Improvements~
+REQUIRE_COMPONENT "Setup-CtB.tp2"      "0"  ~Check the Bodies main component is needed for this component.~
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR0404.are	Change the entrances to the original position
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+PRINT ~Change the entrances to the original position AR0404.are~
+COPY_EXISTING ~AR0404.ARE~  ~override~
+	
+	READ_SHORT 0x5a  "infotrig_num"
+	READ_LONG  0x5c  "infotrig_offset"
+	FOR( cnt=0; cnt<"%infotrig_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
+		READ_ASCII ("%infotrig_offset%"+0xc4*cnt)       "info_name"
+		PATCH_IF ("%info_name%" STRING_COMPARE_CASE "Info3576")=0 BEGIN
+				 //PATCH_PRINT ~Region Number %cnt% %info_name%~
+			LPF fj_are_structure
+				INT_VAR 
+				fj_delete_mode = EVAL ~%cnt%~
+				STR_VAR 
+				fj_structure_type = region
+			END
+		END
+	END
+	FOR( cnt=0; cnt<"%infotrig_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
+		READ_ASCII ("%infotrig_offset%"+0xc4*cnt)       "info_name"
+		PATCH_IF ("%info_name%" STRING_COMPARE_CASE "Tran0404")=0 BEGIN
+				 //PATCH_PRINT ~Region Number %cnt% %info_name%~
+			LPF fj_are_structure
+				INT_VAR 
+				fj_delete_mode = EVAL ~%cnt%~
+				STR_VAR 
+				fj_structure_type = region
+			END
+		END
+	END
+
+	FOR( cnt=0; cnt<"%infotrig_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
+		READ_ASCII ("%infotrig_offset%"+0xc4*cnt)       "info_name"
+		PATCH_IF (("%info_name%" STRING_COMPARE_CASE "Door3576")=0) BEGIN
+			WRITE_ASCII ("%infotrig_offset%"+0xc4*cnt)      ~Tran0404~
+			WRITE_ASCII ("%infotrig_offset%"+0xc4*cnt+0x38) ~AR0406~
+			WRITE_LONG  ("%infotrig_offset%"+0xc4*cnt+0x60) 0x00000004
+			END
+	END
+	LPF fj_are_structure
+		INT_VAR
+		fj_type         		= 2    						
+		fj_box_left     		= 2462                      
+		fj_box_top      		= 995                      
+		fj_box_right    		= 2710                      
+		fj_box_bottom   		= 1296                     
+		fj_cursor_idx           = 28							
+		fj_flags                = 0x00000104                
+		fj_loc_x				= 2586                      
+		fj_loc_y				= 1145                      
+		fj_vertex_0     		= 2462 + (1064 << 16)  
+		fj_vertex_1     		= 2495 + (1150 << 16)  
+		fj_vertex_2     		= 2554 + (1195 << 16)  
+		fj_vertex_3     		= 2578 + (1239 << 16)  
+		fj_vertex_4     		= 2594 + (1252 << 16)  
+		fj_vertex_5     		= 2705 + (1255 << 16)
+		fj_vertex_6     		= 2710 + (1166 << 16)  
+		fj_vertex_7     		= 2463 + (995  << 16)  
+		STR_VAR                                             
+		fj_structure_type   = region                        
+		fj_name             = Door3576                      
+		fj_destination_area	= AR3576                        
+		fj_destination_name = Exit0404                      
+	END
+	LPF fj_are_structure
+		INT_VAR
+		fj_type         		= 1    						
+		fj_box_left     		= 2462                      
+		fj_box_top      		= 995                      
+		fj_box_right    		= 2710                      
+		fj_box_bottom   		= 1296                     
+		fj_cursor_idx           = 22							
+		fj_info_point_strref    = RESOLVE_STR_REF (@218) 
+		fj_loc_x				= 2586                      
+		fj_loc_y				= 1145                      
+		fj_vertex_0     		= 2462 + (1064 << 16)  
+		fj_vertex_1     		= 2495 + (1150 << 16)  
+		fj_vertex_2     		= 2554 + (1195 << 16)  
+		fj_vertex_3     		= 2578 + (1239 << 16)  
+		fj_vertex_4     		= 2594 + (1252 << 16)  
+		fj_vertex_5     		= 2705 + (1255 << 16)
+		fj_vertex_6     		= 2710 + (1166 << 16)  
+		fj_vertex_7     		= 2463 + (995  << 16)  
+		STR_VAR                                             
+		fj_structure_type   = region                        
+		fj_name             = ~Info3576~                      
+	END
+	LPF ALTER_AREA_ENTRANCE
+		INT_VAR 
+		x_coord = "752"
+		y_coord = "233"
+		STR_VAR 
+		entrance_name = "Exit0406"
+	END
+	LPF ALTER_AREA_ENTRANCE
+		INT_VAR 
+		x_coord = "2420"
+		y_coord = "1258"
+		STR_VAR 
+		entrance_name = "Exit3576"
+	END
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Change Yusef's name to Yassir, because Yusef is Surayas brother
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+PRINT ~Change Yusef's name to Yassir, because Yusef is Surayas brother~
+
+COMPILE ~CtB/dialogs/improvements/CBSURAYW.D~ USING ~ctb/language/%LANGUAGE%/improvements/CBSURAYW_new.tra~
+COMPILE ~CtB/dialogs/improvements/CBSAERKW.D~ USING ~ctb/language/%LANGUAGE%/improvements/CBSAERKW_new.tra~
+COMPILE ~CtB/dialogs/improvements/CBPASTRW.D~ USING ~ctb/language/%LANGUAGE%/improvements/CBPASTRW_new.tra~
