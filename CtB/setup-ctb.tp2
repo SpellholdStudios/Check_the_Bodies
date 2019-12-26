@@ -1814,7 +1814,7 @@ END
     oggdec_path = ~CtB/bin/win32~
 	sox_path = ~CtB/bin/osx~
 	output_path = ~override~
-END
+END*/
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	LAF HANDLE_TILESETS
@@ -1825,7 +1825,7 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 END
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
    COPY ~CtB/Chores/PVRZ~ ~override~
-END*/
+END
 
 //////////////////////////////
 // biffing
@@ -1881,10 +1881,6 @@ COPY_EXISTING ~Ar3507.are~ ~override~
 WRITE_ASCII 0x8 ~bg2613~
 COPY_EXISTING ~Ar3508.are~ ~override~
 WRITE_ASCII 0x8 ~bg2618~
-END
-
-ACTION_IF (GAME_IS ~eet bg2ee~) BEGIN
-COPY ~CtB/chores/PVRZ~ ~override~
 END
 
 //////////////////////////////
