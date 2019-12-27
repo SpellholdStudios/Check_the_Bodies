@@ -2107,6 +2107,6 @@ COPY_EXISTING 	~AR0309.ARE~ ~override~
 				~AR0806.ARE~ ~override~
 				~AR0807.ARE~ ~override~
 				~AR0813.ARE~ ~override~
-    WRITE_ASCII 0x94 ~%SOURCE_RES%~ #8  //script
+    WRITE_ASCIIE 0x94 ~%SOURCE_RES%~ #8  //script
  BUT_ONLY_IF_IT_CHANGES
  
