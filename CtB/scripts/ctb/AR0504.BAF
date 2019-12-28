@@ -16,44 +16,9 @@ THEN
         RESPONSE #100
                  SetGlobal("t#spawninvi","AR0504",1)
 //                 CreateCreature("t#sfinvi",[816.1651],0)
-                 CreateCreature("M05PCSPY",[816.1651],0)
-                 ActionOverride("M05PCSPY",ChangeAIScript("t#sfinvi",OVERRIDE))
+//                 CreateCreature("M05PCSPY",[816.1651],0)
+//                 ActionOverride("M05PCSPY",ChangeAIScript("t#sfinvi",DEFAULT))
 
-END
-
-IF
-	Global("CbWeddingQuestStarts","GLOBAL",7)
-	Global("CbSurayahGetsMarried","GLOBAL",6)
-	Global("CbCanDoWedding","GLOBAL",1)
-	Global("CbSaerkIntiateGetTheHellOut","AR0504",1)
-	//Exists("t#sfinvi")
-	Global("t#spawninvi","AR0504",1)
-THEN
-	RESPONSE #100
-		ActionOverride("CBUSHERW",DestroySelf())
-END
-
-IF
-	Global("CbWeddingQuestStarts","GLOBAL",7)
-	Global("CbSurayahGetsMarried","GLOBAL",6)
-	Global("CbCanDoWedding","GLOBAL",1)
-	Global("CbSaerkIntiateGetTheHellOut","AR0504",1)
-THEN
-	RESPONSE #100
-		ActionOverride("SBUTLER",Activate("SBUTLER"))
-		ActionOverride("SCOOK",Activate("SCOOK"))
-END
-
-IF
-	Global("CbWeddingQuestStarts","GLOBAL",7)
-	Global("CbSurayahGetsMarried","GLOBAL",6)
-	Global("CbCanDoWedding","GLOBAL",1)
-	Global("CbSaerkIntiateGetTheHellOut","AR0504",1)
-	!Global("t#spawninvi","AR0504",1)
-//	!Exists("t#sfinvi")
-THEN
-	RESPONSE #100
-		SetGlobal("CbWeddingQuestStarts","GLOBAL",1)
 END
 
 IF
@@ -220,6 +185,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("CbSurayahGetsMarried","GLOBAL",6)
+		SetGlobal("t#spawninvi","AR0504",2)
 		ActionOverride("CBUSHERW",EscapeArea())
 		ActionOverride("CBNOBL1W",EscapeArea())
 		ActionOverride("CBNOBL2W",EscapeArea())
@@ -267,6 +233,7 @@ THEN
 		ActionOverride("CBNOBL3W",EscapeArea())
 		ActionOverride("CBNOBL4W",EscapeArea())
 		ActionOverride("CBNOBL5W",EscapeArea())
+		SetGlobal("t#spawninvi","AR0504",2)
 		SetGlobal("CbWeddingQuestStarts","GLOBAL",10)
 END
 
@@ -290,6 +257,42 @@ THEN
 	TriggerActivation("TRAN0505a",TRUE)
 	TriggerActivation("Tran0500",TRUE)
 	Continue()
+END
+
+IF
+	Global("CbWeddingQuestStarts","GLOBAL",7)
+	Global("CbSurayahGetsMarried","GLOBAL",6)
+	Global("CbCanDoWedding","GLOBAL",1)
+	Global("CbSaerkIntiateGetTheHellOut","AR0504",1)
+	//Exists("t#sfinvi")
+	Global("t#spawninvi","AR0504",1)
+THEN
+	RESPONSE #100
+		SetGlobal("t#spawninvi","AR0504",2)
+//		ActionOverride("CBUSHERW",DestroySelf())
+END
+
+IF
+	Global("CbWeddingQuestStarts","GLOBAL",7)
+	Global("CbSurayahGetsMarried","GLOBAL",6)
+	Global("CbCanDoWedding","GLOBAL",1)
+	Global("CbSaerkIntiateGetTheHellOut","AR0504",1)
+THEN
+	RESPONSE #100
+		ActionOverride("SBUTLER",Activate("SBUTLER"))
+		ActionOverride("SCOOK",Activate("SCOOK"))
+END
+
+IF
+	Global("CbWeddingQuestStarts","GLOBAL",7)
+	Global("CbSurayahGetsMarried","GLOBAL",6)
+	Global("CbCanDoWedding","GLOBAL",1)
+	Global("CbSaerkIntiateGetTheHellOut","AR0504",1)
+	!Global("t#spawninvi","AR0504",1)
+//	!Exists("t#sfinvi")
+THEN
+	RESPONSE #100
+		SetGlobal("CbWeddingQuestStarts","GLOBAL",1)
 END
 
 IF
