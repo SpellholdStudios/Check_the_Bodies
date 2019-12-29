@@ -94,6 +94,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("SaerkDoor","AR0500",0)
+		CloseDoor("DOOR0504")
 		Lock("Door0504")
 		Continue()
 END
