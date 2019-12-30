@@ -2013,6 +2013,37 @@ COPY_EXISTING ~AR0404.ARE~  ~override~
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 PRINT ~Change Yusef's name to Yassir, because Yusef is Surayas brother~
 
-COMPILE ~CtB/dialogs/improvements/CBSURAYW.D~ USING ~ctb/language/%LANGUAGE%/improvements/CBSURAYW_new.tra~
-COMPILE ~CtB/dialogs/improvements/CBSAERKW.D~ USING ~ctb/language/%LANGUAGE%/improvements/CBSAERKW_new.tra~
-COMPILE ~CtB/dialogs/improvements/CBPASTRW.D~ USING ~ctb/language/%LANGUAGE%/improvements/CBPASTRW_new.tra~
+ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
+	COMPILE ~CtB/dialogs/improvements/CBSURAYW.D~ USING ~ctb/language/%LANGUAGE%/improvements/CBSURAYW_new.tra~
+	COMPILE ~CtB/dialogs/improvements/CBSAERKW.D~ USING ~ctb/language/%LANGUAGE%/improvements/CBSAERKW_new.tra~
+	COMPILE ~CtB/dialogs/improvements/CBPASTRW.D~ USING ~ctb/language/%LANGUAGE%/improvements/CBPASTRW_new.tra~
+END
+
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+   COMPILE ~CtB/dialogs/improvements/CBSURAYW.D~ USING ~ctb/language/%LANGUAGE%/improvements/fl#utf8_CBSURAYW_new.tra~
+	COMPILE ~CtB/dialogs/improvements/CBSAERKW.D~ USING ~ctb/language/%LANGUAGE%/improvements/fl#utf8_CBSAERKW_new.tra~
+	COMPILE ~CtB/dialogs/improvements/CBPASTRW.D~ USING ~ctb/language/%LANGUAGE%/improvements/fl#utf8_CBPASTRW_new.tra~
+END
+
+COPY_EXISTING ~CBYUSEFW.CRE~ ~override~
+	SAY NAME1 @900    SAY NAME2 @900
+
+COPY_EXISTING ~YUSEF.CRE~ ~override/CBYUSEFR.CRE~
+	WRITE_ASCII 0x0248 ~CBYUSEFR~
+	WRITE_ASCII 0x0258 ~RUNENEMY~
+	WRITE_ASCII 0x02cc ~CBNOBL2W~
+	WRITE_ASCII 0x0280 ~CBYusefr~
+	
+COPY_EXISTING ~AR0504.BCS~ ~override~
+	DECOMPILE_AND_PATCH BEGIN
+		REPLACE_TEXTUALLY ~SetGlobal("CbWeddingQuestStarts","GLOBAL",3)~
+						  ~SetGlobal("CbWeddingQuestStarts","GLOBAL",3)
+						   CreateCreature("CBYUSEFR",[1897.526],14)~
+		REPLACE_TEXTUALLY ~Wait(1)~
+						  ~Wait(1)
+						   ActionOverride("CBYUSEFR",JumpToPoint([1176.1576]))
+						   ActionOverride("CBYUSEFR",Face(5))~
+		REPLACE_TEXTUALLY ~ActionOverride("CBSAERKW",EscapeArea())~
+						  ~ActionOverride("CBSAERKW",EscapeArea())
+						   ActionOverride("CBYUSEFR",EscapeArea())~
+	END
