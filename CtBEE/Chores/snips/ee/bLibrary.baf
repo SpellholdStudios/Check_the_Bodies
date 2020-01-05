@@ -1,0 +1,60 @@
+IF
+	Global("TeleportChores","AR0602",0)
+	Gender(Player1,MALE)
+	Global("ImoenLibrary","AR0602",2)
+THEN
+	RESPONSE #100
+		SetGlobal("TeleportChores","AR0602",1)
+		CreateCreatureObject("M05PCSPY",Player1,0,0,0)  // No such index
+		ActionOverride("M05PCSPY",ChangeAIScript("",OVERRIDE))
+		ActionOverride("M05PCSPY",TakeCreatureItems(Player1,BACKPACK))
+		StartCutSceneMode()
+		StartCutScene("CBNEWGMM")
+END
+
+IF
+	IsOverMe(Player1)
+	Global("TeleportChores","AR0602",0)
+	Gender(Player1,MALE)
+	!InParty("Imoen2")  // Imoen
+THEN
+	RESPONSE #100
+		DisplayStringHead(Player1,276773)  // Oh, das hier erinnert mich so sehr an Kerzenburg. ÜberBACKPACK staubige, dicke alte Wälzer, Bücherregale, die fast überquellen. Es ist, als wären wir nie fortgegangen …
+		SetGlobal("TeleportChores","AR0602",1)
+		CreateCreatureObject("M05PCSPY",Player1,0,0,0)  // No such index
+		ActionOverride("M05PCSPY",ChangeAIScript("",OVERRIDE))
+		ActionOverride("M05PCSPY",TakeCreatureItems(Player1,BACKPACK))
+		StartCutSceneMode()
+		StartCutScene("CBNEWGMM")
+END
+
+IF
+	Global("TeleportChores","AR0602",0)
+	Gender(Player1,FEMALE)
+	Global("ImoenLibrary","AR0602",2)
+THEN
+	RESPONSE #100
+		SetGlobal("TeleportChores","AR0602",1)
+		CreateCreatureObject("M05PCSPY",Player1,0,0,0)  // No such index
+		ActionOverride("M05PCSPY",ChangeAIScript("",OVERRIDE))
+		ActionOverride("M05PCSPY",TakeCreatureItems(Player1,BACKPACK))
+		StartCutSceneMode()
+		StartCutScene("CBNEWGMF")
+END
+
+IF
+	IsOverMe(Player1)
+	Global("TeleportChores","AR0602",0)
+	Gender(Player1,FEMALE)
+	!InParty("Imoen2")  // Imoen
+THEN
+	RESPONSE #100
+		DisplayStringHead(Player1,276773)  // Oh, das hier erinnert mich so sehr an Kerzenburg. ÜberBACKPACK staubige, dicke alte Wälzer, Bücherregale, die fast überquellen. Es ist, als wären wir nie fortgegangen …
+		SetGlobal("TeleportChores","AR0602",1)
+		CreateCreatureObject("M05PCSPY",Player1,0,0,0)  // No such index
+		ActionOverride("M05PCSPY",ChangeAIScript("",OVERRIDE))
+		ActionOverride("M05PCSPY",TakeCreatureItems(Player1,BACKPACK))
+		StartCutSceneMode()
+		StartCutScene("CBNEWGMF")
+END
+

@@ -1,0 +1,8 @@
+IF
+	Global("KD_ChoresDone","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("KD_ChoresDone","GLOBAL",2)
+		ActionOverride(Player1,TakeCreatureItems("M05PCSPY",BACKPACK))
+		ActionOverride("M05PCSPY",DestroySelf())
+END
