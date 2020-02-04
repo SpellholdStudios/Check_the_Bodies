@@ -2047,3 +2047,10 @@ COPY_EXISTING ~AR0504.BCS~ ~override~
 						  ~ActionOverride("CBSAERKW",EscapeArea())
 						   ActionOverride("CBYUSEFR",EscapeArea())~
 	END
+
+//////////////////////////////////////////////////////////////
+//Start the pirate quest in Athkathla at the gates by level 10
+//////////////////////////////////////////////////////////////
+PRINT ~Start the pirate quest in Athkathla at the gates by level 10~
+
+COMPILE ~CtB/dialogs/improvements/CBBDSTRT.D~
