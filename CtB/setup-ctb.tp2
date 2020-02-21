@@ -1,8 +1,10 @@
 BACKUP ~CtB/backup~
 
-AUTHOR ~Charles Bisson, King Diamond (revision) Ikki (EE Conversion)  Weigo (all in one)~  NO_IF_EVAL_BUG
+//AUTHOR ~Charles Bisson, King Diamond (revision) Ikki (EE Conversion)  Weigo (all in one)~  NO_IF_EVAL_BUG
+SUPPORT ~http://www.shsforums.net or https://github.com/SpellholdStudios~ NO_IF_EVAL_BUG
 
-VERSION ~2.3 pre 3~
+README ~CtB/text/CtB-Readme.txt~
+VERSION ~3.0~
 
 AUTO_TRA ~CtB/Language/%s~
 
@@ -2020,9 +2022,9 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 END
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-   COMPILE ~CtB/dialogs/improvements/CBSURAYW.D~ USING ~ctb/language/%LANGUAGE%/improvements/fl#utf8_CBSURAYW_new.tra~
-	COMPILE ~CtB/dialogs/improvements/CBSAERKW.D~ USING ~ctb/language/%LANGUAGE%/improvements/fl#utf8_CBSAERKW_new.tra~
-	COMPILE ~CtB/dialogs/improvements/CBPASTRW.D~ USING ~ctb/language/%LANGUAGE%/improvements/fl#utf8_CBPASTRW_new.tra~
+   COMPILE ~CtB/dialogs/improvements/CBSURAYW.D~ USING ~ctb/language/%LANGUAGE%/improvements/CBSURAYW_new.tra~
+	COMPILE ~CtB/dialogs/improvements/CBSAERKW.D~ USING ~ctb/language/%LANGUAGE%/improvements/CBSAERKW_new.tra~
+	COMPILE ~CtB/dialogs/improvements/CBPASTRW.D~ USING ~ctb/language/%LANGUAGE%/improvements/CBPASTRW_new.tra~
 END
 
 COPY_EXISTING ~CBYUSEFW.CRE~ ~override~

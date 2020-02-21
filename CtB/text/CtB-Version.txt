@@ -1,11 +1,48 @@
-Installation of Check The Bodies ©2003, ©2004 Charles Bisson now complete.  Thanks for playing!
-
-------------------
 VERSION HISTORY
 
 Forum:
 
 http://www.shsforums.net/forum/196-check-the-bodies/
+
+*******************************************************************************
+*** v3.0 by Weigo and jastey:
+*******************************************************************************
+-renamed mod folder and tp2 to CtB
+-added ctb.ini for compatibility with ALIEN's Project Infinity
+-(BGT) no rep loss if wearing Cloak of Scalps
+-(BGT) removed item checks from baldur.bcs which caused laggs
+-(BGT) removed chapter increase from aptp2500.baf
+-(BGT) removed OnCreation() from various baf files (BWPFix)
+-(BGT) adjusted level checks for PC in various baf files (BWPFix)
+-(BGT) corrected entries in links.tbl (BWPFix)
+-patching of AR0300.bcs should work always
+-iconv dlls added so non-english versions do not freeze on EE-games (thanks to Roxanne)
+-re-inserted journal entry into CBSFMESS.D
+-removed unused files scripts/append/nAR2500.baf, scripts/append/oAR2500.baf
+-portraits removed due to missing copyright
+-aptp0500.BAF: Door "DOOR0504" will be closed accordingly
+-wedding quests debugged
+-added missing evaluate to install-arescripts.tpa
+-added component "Other Improvements":
+--Change the entrances to the original position
+--pirate Quest in Athkatla will be available for non-fighters at level 11 (instead of 14)
+--Change Yusef's name to Yassir, because Yusef is Surayas brother
+
+
+
+
+*******************************************************************************
+*** v2.2 (by Weigo):  - WeiDU v246
+*******************************************************************************
+-named mod folder and tp2 CtBEE
+-EET compatibility (EE compatibility by Ikki)
+-(EE) no rep loss if wearing Cloak of Scalps
+-(EE) removed item checks from baldur.bcs which caused laggs
+-(EE) removed chapter increase from aptp2500.baf
+-(EE) removed OnCreation() from various baf files (BWPFix)
+-(EE) adjusted level checks for PC in various baf files (BWPFix)
+-typo corrections (BWPFix)
+-corrected timer "CbValiantReforges" to "CbValiantReforgesTimer" in CBHLVLNT.D
 
 *******************************************************************************
 *** Version 1.13 (by Hoppy)  - WeiDU v220
