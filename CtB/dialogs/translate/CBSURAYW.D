@@ -1,0 +1,259 @@
+BEGIN ~CBSURAYW~
+
+IF ~~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN DO ~SetGlobal("CbWeddingDialogPartOne","AR0504",2)~ EXTERN ~CBSAERKW~ 5
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @2
+  IF ~~ THEN GOTO 2
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @3
+  IF ~~ THEN DO ~SetGlobal("CbWeddingDialogPartOne","AR0504",4)~ EXTERN ~CBSAERKW~ 7
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @4
+  IF ~~ THEN GOTO 4
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @5
+  IF ~~ THEN DO ~SetGlobal("CbWeddingDialogPartOne","AR0504",10)~ EXTERN ~CBSAERKW~ 9
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @6
+  IF ~~ THEN DO ~SetGlobal("CbWeddingDialogPartOne","AR0504",13)~ EXTERN ~CBNOBL5W~ 1
+END
+
+IF ~~ THEN BEGIN 6
+  SAY @7
+  IF ~~ THEN DO ~SetGlobal("CbWeddingDialogPartOne","AR0504",15)~ EXTERN ~CBYUSEFW~ 3
+END
+
+IF ~Global("CbWeddingDialogPartOne","AR0504",19)
+Global("CbWeddingQuestStarts","GLOBAL",5)
+AreaCheck("AR0504")~ THEN BEGIN 7
+  SAY @8
+  IF ~~ THEN GOTO 8
+END
+
+IF ~~ THEN BEGIN 8
+  SAY @9
+  IF ~~ THEN REPLY @10 DO ~SetGlobal("CbSurayahInitiatesOnce","LOCALS",1)~ GOTO 9
+  IF ~~ THEN REPLY @11 DO ~SetGlobal("CbSurayahInitiatesOnce","LOCALS",1)~ GOTO 27
+  IF ~~ THEN REPLY @12 DO ~SetGlobal("CbSurayahInitiatesOnce","LOCALS",1)~ GOTO 29
+END
+
+IF ~~ THEN BEGIN 9
+  SAY @13
+  IF ~~ THEN REPLY @14 GOTO 10
+  IF ~~ THEN REPLY @15 GOTO 11
+  IF ~~ THEN REPLY @16 GOTO 24
+END
+
+IF ~~ THEN BEGIN 10
+  SAY @17
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 11
+  SAY @18
+  IF ~~ THEN REPLY @19 GOTO 12
+  IF ~~ THEN REPLY @20 GOTO 23
+END
+
+IF ~~ THEN BEGIN 12
+  SAY @21
+  IF ~~ THEN GOTO 13
+END
+
+IF ~~ THEN BEGIN 13
+  SAY @22
+  IF ~~ THEN REPLY @23 GOTO 14
+  IF ~~ THEN REPLY @24 GOTO 22
+END
+
+IF ~~ THEN BEGIN 14
+  SAY @25
+  IF ~~ THEN GOTO 15
+END
+
+IF ~~ THEN BEGIN 15
+  SAY @26
+  IF ~~ THEN REPLY @27 GOTO 16
+  IF ~~ THEN REPLY @28 GOTO 17
+END
+
+IF ~~ THEN BEGIN 16
+  SAY @29
+  IF ~~ THEN DO ~SetGlobal("CbWeddingQuestStarts","GLOBAL",6)
+SetGlobal("CbSurayahGetsMarried","GLOBAL",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN 17
+  SAY @30
+  IF ~~ THEN REPLY @31 GOTO 16
+  IF ~~ THEN REPLY @32 GOTO 18
+END
+
+IF ~~ THEN BEGIN 18
+  SAY @33
+  IF ~~ THEN REPLY @34 GOTO 19
+  IF ~~ THEN REPLY @35 GOTO 20
+  IF ~~ THEN REPLY @36 GOTO 21
+END
+
+IF ~~ THEN BEGIN 19
+  SAY @37
+  IF ~~ THEN DO ~SetGlobal("CbWeddingQuestStarts","GLOBAL",6)
+SetGlobal("CbSurayahRunsAway","GLOBAL",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN 20
+  SAY @38
+  IF ~~ THEN REPLY @39 GOTO 19
+END
+
+IF ~~ THEN BEGIN 21
+  SAY @40
+  IF ~~ THEN DO ~SetGlobal("CbWeddingQuestStarts","GLOBAL",6)
+SetGlobal("CbSurayahGetsMarried","GLOBAL",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN 22
+  SAY @41
+  IF ~~ THEN GOTO 15
+END
+
+IF ~~ THEN BEGIN 23
+  SAY @42
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 24
+  SAY @43
+  IF ~~ THEN REPLY @44 GOTO 25
+  IF ~~ THEN REPLY @45 GOTO 26
+END
+
+IF ~~ THEN BEGIN 25
+  SAY @46
+  IF ~~ THEN REPLY @20 GOTO 23
+  IF ~~ THEN REPLY @19 GOTO 12
+END
+
+IF ~~ THEN BEGIN 26
+  SAY @47
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 27
+  SAY @48
+  IF ~~ THEN REPLY @15 GOTO 11
+  IF ~~ THEN REPLY @49 GOTO 28
+  IF ~~ THEN REPLY @16 GOTO 24
+END
+
+IF ~~ THEN BEGIN 28
+  SAY @50
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 29
+  SAY @51
+  IF ~~ THEN REPLY @52 GOTO 24
+  IF ~~ THEN REPLY @15 GOTO 11
+  IF ~~ THEN REPLY @53 GOTO 30
+END
+
+IF ~~ THEN BEGIN 30
+  SAY @54
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 31
+  SAY @55
+  IF ~~ THEN EXTERN ~CBPASTRW~ 6
+END
+
+IF ~~ THEN BEGIN 32
+  SAY @56
+  IF ~~ THEN DO ~SetGlobal("CbSurayahGetsMarried","GLOBAL",3)
+SetGlobal("CbWeddingQuestStarts","GLOBAL",7)~ EXIT
+END
+
+IF ~~ THEN BEGIN 33
+  SAY @57
+  IF ~~ THEN EXTERN ~CBSAERKW~ 32
+END
+
+IF ~~ THEN BEGIN 34
+  SAY @58
+  IF ~~ THEN EXTERN ~CBSAERKW~ 32
+END
+
+IF ~~ THEN BEGIN 35
+  SAY @59
+  IF ~~ THEN GOTO 36
+END
+
+IF ~~ THEN BEGIN 36
+  SAY @60
+  IF ~~ THEN EXTERN ~CBSAERKW~ 38
+END
+
+IF ~~ THEN BEGIN 37
+  SAY @61
+  IF ~~ THEN EXTERN ~CBSAERKW~ 40
+END
+
+IF ~~ THEN BEGIN 38
+  SAY @62
+  IF ~~ THEN EXTERN ~CBSAERKW~ 41
+END
+
+IF ~~ THEN BEGIN 39
+  SAY @63
+  IF ~~ THEN GOTO 40
+END
+
+IF ~~ THEN BEGIN 40
+  SAY @64
+  IF ~~ THEN DO ~SetGlobal("CbSurayahRunsAway","GLOBAL",2)
+SetGlobal("CbSurayahDoesntGoToStronghold","AR0504",1)
+SetGlobal("CbWeddingQuestStarts","GLOBAL",7)
+EscapeArea()~ EXIT
+END
+
+IF ~!AreaCheck("AR0504")~ THEN BEGIN 41
+  SAY @65
+  IF ~Global("CbStopDoubleExperience","LOCALS",0)~ THEN GOTO 42
+  IF ~Global("CbStopDoubleExperience","LOCALS",1)~ THEN GOTO 44
+END
+
+IF ~~ THEN BEGIN 42
+  SAY @66
+  IF ~~ THEN GOTO 43
+END
+
+IF ~~ THEN BEGIN 43
+  SAY @67
+  IF ~~ THEN DO ~SetGlobal("CbStopDoubleExperience","LOCALS",1)
+SetGlobal("CbWeddingQuestStarts","GLOBAL",2)
+AddXPObject(Player1,10000)
+AddXPObject(Player2,10000)
+AddXPObject(Player3,10000)
+AddXPObject(Player4,10000)
+AddXPObject(Player5,10000)
+AddXPObject(Player6,10000)~ EXIT
+END
+
+IF ~~ THEN BEGIN 44
+  SAY @68
+  IF ~~ THEN EXIT
+END

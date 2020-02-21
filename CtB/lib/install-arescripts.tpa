@@ -1,0 +1,2112 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR1600.are	1*actor
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR1600.ARE~ ~override~
+	READ_LONG  0x54  "actors_offset"
+	READ_SHORT 0x58  "actors_num"
+	SET info_1=1
+	FOR( cnt=0; cnt<"%actors_num%"; cnt=cnt+1 ) BEGIN  //actors loop
+	READ_ASCII ("%actors_offset%"+0x110*cnt)       "actor_name" (5)
+		PATCH_IF (("%actor_name%" STRING_COMPARE_CASE "WyrbrinHorton")=0) BEGIN  //if already exists
+			info_1=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN 
+	LPF fj_are_structure
+		INT_VAR
+		fj_loc_x          = 3165
+		fj_loc_y          = 1590
+		fj_dest_x         = 3165
+		fj_dest_y         = 1590
+		fj_animation      = 0x6313 
+		fj_orientation    = 13     
+		fj_schedule		  = 0xfffc003f
+//		fj_debug		  = 1
+		STR_VAR
+		fj_structure_type = actor
+		fj_name           = WyrbrinHorton
+		fj_cre_resref     = CBXTTHEF
+	END 
+	END
+//********************************************************  ~AR1600.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR2008.are	2*Alter Trigger flags
+////////////////////////////////////////////////////////////////////////////////////////////////////////	
+COPY_EXISTING ~AR2008.ARE~ ~override~     
+ READ_SHORT 0x5a  "infotrig_num"
+ READ_LONG  0x5c  "infotrig_offset"
+
+ FOR( cnt=0; cnt<"%infotrig_num%"; cnt=cnt+1 ) BEGIN  //info/triggers loop
+   READ_ASCII ("%infotrig_offset%"+0xc4*cnt)       "info_name"
+   PATCH_IF ( ("%info_name%" STRING_COMPARE_CASE "Tran2000")=0 OR
+              ("%info_name%" STRING_COMPARE_CASE "Tran2000b")=0 ) BEGIN
+     READ_LONG  ("%infotrig_offset%"+0xc4*cnt+0x60)  flags
+     WRITE_LONG ("%infotrig_offset%"+0xc4*cnt+0x60)  (flags BAND 0xfffffdff) //remove "NPC Can't pass" flag
+   END
+ END
+ BUT_ONLY_IF_IT_CHANGES  
+//********************************************************  ~AR2008.are~
+	
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR2500.are	1*Alter actor position
+////////////////////////////////////////////////////////////////////////////////////////////////////////	
+COPY_EXISTING ~AR2500.ARE~ ~override~      
+ READ_LONG  0x54  "actors_offset"
+ READ_SHORT 0x58  "actors_num"
+
+ FOR( cnt=0; cnt<"%actors_num%"; cnt=cnt+1 ) BEGIN  //actors loop
+   READ_SHORT ("%actors_offset%"+0x110*cnt+0x20)  X
+   READ_SHORT ("%actors_offset%"+0x110*cnt+0x22)  Y
+   PATCH_IF ( "%X%"=1061 AND "%Y%"=1962 ) BEGIN
+     WRITE_SHORT ("%actors_offset%"+0x110*cnt+0x20)  844
+     WRITE_SHORT ("%actors_offset%"+0x110*cnt+0x22)  1908
+     WRITE_SHORT ("%actors_offset%"+0x110*cnt+0x24)  844
+     WRITE_SHORT ("%actors_offset%"+0x110*cnt+0x26)  1908
+   END
+ END
+ BUT_ONLY_IF_IT_CHANGES 
+//********************************************************  ~AR2500.are~	
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR2008.are	Tethyr patch 9*actors 1*delete first automap 2*delete spawn points 5*Triggers 2*new automap
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR2600.ARE~  ~override~
+	READ_LONG  0x54  "actors_offset"
+	READ_SHORT 0x58  "actors_num"
+	SET info_1=1
+	FOR( cnt=0; cnt<"%actors_num%"; cnt=cnt+1 ) BEGIN  //actors loop
+	READ_ASCII ("%actors_offset%"+0x110*cnt)       "actor_name" (5)
+		PATCH_IF (("%actor_name%" STRING_COMPARE_CASE "Paddy")=0) BEGIN  //if already exists
+			info_1=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN 
+	///////////////
+	//delete automap
+	///////////////
+	LPF fj_are_structure
+		INT_VAR 
+		fj_delete_mode = 0
+		STR_VAR 
+		fj_structure_type = note
+	END
+	///////////////
+	//spawn points
+	///////////////
+	READ_LONG  0x60  "spawns_offset"
+	READ_LONG  0x64  "spawns_num"
+	FOR( cnt=0; cnt<"%spawns_num%"; cnt=cnt+1 ) BEGIN  //spawns loop
+		READ_ASCII ("%spawns_offset%"+0xc8*cnt)    "spawn_name"  (13)
+		PATCH_IF (("%spawn_name%" STRING_COMPARE_CASE "Spawn Point 1")=0 OR
+				  ("%spawn_name%" STRING_COMPARE_CASE "Spawn Point 7")=0) BEGIN
+			LPF fj_are_structure
+				INT_VAR 
+				fj_delete_mode = EVAL ~%cnt%~
+				STR_VAR 
+				fj_structure_type = spawn
+			END
+		END
+	END
+	/////////////
+	//new triggers
+	/////////////
+	PATCH_DEFINE_ASSOCIATIVE_ARRAY triggers BEGIN
+		0 , 3295 ,  618 , 3310 ,  634 , 3289 ,  627  => "PaddyPT1"
+		0 , 2607 , 1507 , 2623 , 1523 , 2615 , 1515  => "PaddyPT2"
+		0 , 2663 , 2245 , 2678 , 2261 , 2670 , 2253  => "PaddyPT3"
+		0 , 3134 , 2949 , 3149 , 2966 , 3141 , 2957  => "PaddyPT4"
+		0 , 3948 , 2980 , 3963 , 2995 , 3955 , 2987  => "PaddyPT5"
+		0 , 4190 , 2334 , 4208 , 2352 , 4199 , 2343  => "PaddyPT6"
+	END
+	PATCH_DEFINE_ARRAY PaddyPT1 BEGIN 3299 618 3295 634 3310 624 3299 618 END		//vertex xy
+	PATCH_DEFINE_ARRAY PaddyPT2 BEGIN 2613 1507 2607 1523 2623 1517 2613 1507 END
+	PATCH_DEFINE_ARRAY PaddyPT3 BEGIN 2664 2245 2663 2261 2678 2253 2664 2245 END
+	PATCH_DEFINE_ARRAY PaddyPT4 BEGIN 3137 2949 3134 2966 3149 2958 3137 2949 END
+	PATCH_DEFINE_ARRAY PaddyPT5 BEGIN 3953 2980 3948 2995 3963 2989 3953 2980 END
+	PATCH_DEFINE_ARRAY PaddyPT6 BEGIN 4196 2334 4190 2352 4208 2349 4196 2334 END
+	
+	PATCH_PHP_EACH triggers AS vars => name BEGIN
+		FOR ( cnt=0; cnt<8; cnt=cnt+1 ) BEGIN
+			SPRINT EVAL ~vertex_%cnt%~ $EVAL ~%name%~(~%cnt%~)
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_type         = EVAL vars_0    //info
+			fj_box_left     = EVAL vars_1
+			fj_box_top      = EVAL vars_2
+			fj_box_right    = EVAL vars_3
+			fj_box_bottom   = EVAL vars_4
+			fj_loc_x		= EVAL vars_5
+			fj_loc_y		= EVAL vars_6
+			fj_vertex_0     = EVAL vertex_0 + (vertex_1 << 16)
+			fj_vertex_1     = EVAL vertex_2 + (vertex_3 << 16)
+			fj_vertex_2     = EVAL vertex_4 + (vertex_5 << 16)
+			fj_vertex_3     = EVAL vertex_6 + (vertex_7 << 16)
+			STR_VAR
+			fj_structure_type   = region
+			fj_name             = EVAL ~%name%~
+		END
+	END
+	CLEAR_ARRAY triggers
+	////////////////////////////////////
+	//new entrance for 3530 Thetyr Forrest Patch
+	////////////////////////////////////
+	LPF fj_are_structure
+		INT_VAR
+		fj_type         = 1    //info
+		fj_box_left     = 4479
+		fj_box_top      = 2183
+		fj_box_right    = 4545
+		fj_box_bottom   = 2258
+		fj_cursor_idx   = 30
+		fj_flags		= 0x00000804
+		fj_vertex_0     = 4479 + (2238 << 16)
+		fj_vertex_1     = 4498 + (2183 << 16)
+		fj_vertex_2     = 4545 + (2198 << 16)
+		fj_vertex_3     = 4526 + (2258 << 16)
+		fj_vertex_4		= 4499 + (2256 << 16)
+		STR_VAR
+		fj_reg_script		= "CBTR3530"
+		fj_structure_type   = region
+		fj_name             = Tran3530
+	END
+	LPF ALTER_AREA_DOOR
+		INT_VAR
+		flag_locked = "1"
+		flag_uses_key = "1"
+		lock_difficulty = "100"
+		STR_VAR 
+		door_name = "Door02"
+		travel_trigger = "Tran3530"
+	END
+	LPF fj_are_structure
+		INT_VAR
+		fj_loc_x       = 4426
+		fj_loc_y       = 2300
+		fj_orientation = 2
+		STR_VAR
+		fj_structure_type = entrance
+		fj_name           = Exit3530
+	END
+	LPF fj_are_structure
+		INT_VAR 
+		fj_loc_x = 4489
+		fj_loc_y = 2322
+		fj_note_strref = RESOLVE_STR_REF (@650692)
+		fj_color = 0
+		STR_VAR 
+		fj_structure_type = note
+	END
+	//////////////////////////////////////
+	//changed entrance AR2602 Thetyr Forrest Patch
+	//////////////////////////////////////
+	LPF ALTER_AREA_REGION
+		INT_VAR
+		cursor = ~42~
+		bounding_left         = 3341
+        bounding_top          = 3192
+        bounding_right        = 3505
+		bounding_bottom 	  = 3347
+		STR_VAR
+		region_name = ~Tran2602~
+	END
+	PATCH_DEFINE_ASSOCIATIVE_ARRAY vertex_change BEGIN
+		0 , 3342 , 3242 => Tran2602 
+		1 , 3467 , 3192 => Tran2602
+		2 , 3505 , 3347 => Tran2602
+		3 , 3364 , 3316 => Tran2602
+		4 , 3341 , 3242 => Tran2602
+	END
+	READ_SHORT 0x5a  "infotrig_num"
+	READ_LONG  0x5c  "infotrig_offset"
+	READ_LONG  0x7c  "vert_offset"
+	FOR( cnt=0; cnt<"%infotrig_num%"; cnt=cnt+1 ) BEGIN  //info/triggers loop
+		READ_ASCII ("%infotrig_offset%"+0xc4*cnt)       "info_name"
+		PATCH_IF ( ("%info_name%" STRING_COMPARE_CASE "Tran2602")=0 ) BEGIN
+			PATCH_PHP_EACH vertex_change AS xy => tran BEGIN
+				READ_LONG  ("%infotrig_offset%"+0xc4*cnt+0x2c) vert_idx
+				WRITE_SHORT ("%vert_offset%"+4*(xy+vert_idx))   xy_1
+				WRITE_SHORT ("%vert_offset%"+4*(xy+vert_idx)+2) xy_2
+			END
+		END
+	END
+	CLEAR_ARRAY vertex_change
+	LPF ALTER_AREA_ENTRANCE	
+		INT_VAR x_coord = "3421"  
+				y_coord = "3251"  
+				orient  = "9"  
+		STR_VAR entrance_name = "Exit2602"
+	END
+	LPF fj_are_structure
+		INT_VAR 
+		fj_loc_x = 3421
+		fj_loc_y = 3251
+		fj_note_strref = RESOLVE_STR_REF (#193)
+		fj_color = 1
+		STR_VAR 
+		fj_structure_type = note
+	END
+	END
+//********************************************************  ~AR2600.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR3005.are	1*changed Actors 1*rest spawns
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR3005.ARE~  ~override~
+	READ_LONG  0x54  "actors_offset"
+	READ_SHORT 0x58  "actors_num"
+	READ_LONG  0xc0  "rest_spawns_offset"
+	
+	FOR( cnt=0; cnt<"%actors_num%"; cnt=cnt+1 ) BEGIN  //actors loop
+		READ_ASCII ("%actors_offset%"+0x110*cnt)       "actor_name"
+		PATCH_IF (("%actor_name%" STRING_COMPARE_CASE "Tiefling")=0) BEGIN
+			PATCH_IF (GAME_IS ~bg2ee eet~) BEGIN
+				LPF ALTER_AREA_ACTOR 
+					INT_VAR
+					animation = 0xe268
+					STR_VAR 
+					actor_name = "Tiefling" 
+					cre_file = "CBCHIMRA"
+				END
+				WRITE_ASCII  ("%actors_offset%"+0x110*cnt)     "Chimera" #32
+			END
+			PATCH_IF (GAME_IS ~bg2 tob bgt~) BEGIN
+				LPF ALTER_AREA_ACTOR 
+					INT_VAR
+					animation = 0xe0d0
+					STR_VAR 
+					actor_name = "Tiefling" 
+					cre_file = "CBCHIMRA"
+				END
+				WRITE_ASCII  ("%actors_offset%"+0x110*cnt)     "Chimera" #32
+			END
+		END
+	END
+	WRITE_ASCII "%rest_spawns_offset%"           ~Chimera~  #32
+	WRITE_ASCII ("%rest_spawns_offset%"+0x48)    ~CBCHIMRA~ #8
+	WRITE_ASCII ("%rest_spawns_offset%"+0x48+8)  ~CBCHIMRA~ #8
+	WRITE_ASCII ("%rest_spawns_offset%"+0x48+16) ~CBCHIMRA~ #8
+BUT_ONLY_IF_IT_CHANGES //**************************************************************  ~AR3005.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR3021.are	1*item
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR3021.are~           ~override~
+	READ_LONG  0x70  "cont_offset"
+	READ_SHORT 0x74  "cont_num"
+	FOR( cnt=0; cnt<"%cont_num%"; cnt=cnt+1 ) BEGIN
+		READ_ASCII ("%cont_offset%"+0xc0*cnt)       "cont_name" (11)
+		PATCH_IF (("%cont_name%" STRING_COMPARE_CASE "Container 7")=0) BEGIN
+			LPF fj_are_structure
+				INT_VAR
+				fj_con_itm_idx    = EVAL cnt
+				STR_VAR
+				fj_name           = CBEMMETL
+				fj_structure_type = itm
+			END
+		END
+	END
+//********************************************************  ~AR3021.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR5004.are	1*item
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR5004.are~           ~override~
+	READ_LONG  0x70  "cont_offset"
+	READ_SHORT 0x74  "cont_num"
+	FOR( cnt=0; cnt<"%cont_num%"; cnt=cnt+1 ) BEGIN
+		READ_ASCII ("%cont_offset%"+0xc0*cnt)       "cont_name"
+		PATCH_IF (("%cont_name%" STRING_COMPARE_CASE "Shelf1")=0) BEGIN
+			LPF fj_are_structure
+				INT_VAR
+				fj_con_itm_idx    = EVAL cnt
+				STR_VAR
+				fj_name           = CBSPKDED
+				fj_structure_type = itm
+			END
+		END
+	END
+//********************************************************  ~AR5004.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR5505.are	2*Alter Region + Vertex
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR5505.are~           ~override~
+	LPF ALTER_AREA_REGION
+		INT_VAR
+		bounding_left         = 1385
+        bounding_top          = 679 
+        bounding_right        = 1417
+		bounding_bottom 	  = 703 
+		STR_VAR
+		region_name = ~ThroneR~
+	END
+	PATCH_DEFINE_ASSOCIATIVE_ARRAY vertex_change BEGIN
+		0 , 1385 , 703 => ThroneR 
+		1 , 1405 , 679 => ThroneR
+		2 , 1417 , 700 => ThroneR
+	END
+	READ_SHORT 0x5a  "infotrig_num"
+	READ_LONG  0x5c  "infotrig_offset"
+	READ_LONG  0x7c  "vert_offset"
+	FOR( cnt=0; cnt<"%infotrig_num%"; cnt=cnt+1 ) BEGIN  //info/triggers loop
+		READ_ASCII ("%infotrig_offset%"+0xc4*cnt)       "info_name"
+		PATCH_IF ( ("%info_name%" STRING_COMPARE_CASE "ThroneR")=0 ) BEGIN
+			PATCH_PHP_EACH vertex_change AS xy => tran BEGIN
+				READ_LONG  ("%infotrig_offset%"+0xc4*cnt+0x2c) vert_idx
+				WRITE_SHORT ("%vert_offset%"+4*(xy+vert_idx))   xy_1
+				WRITE_SHORT ("%vert_offset%"+4*(xy+vert_idx)+2) xy_2
+			END
+		END
+	END
+	CLEAR_ARRAY vertex_change
+	LPF ALTER_AREA_REGION
+		INT_VAR
+		bounding_left         = 344 
+        bounding_top          = 1000
+        bounding_right        = 375 
+		bounding_bottom 	  = 1041
+		STR_VAR
+		region_name = ~ThroneL~
+	END
+	PATCH_DEFINE_ASSOCIATIVE_ARRAY vertex_change BEGIN
+		0 , 344 , 1041 => ThroneL 
+		1 , 361 , 1000 => ThroneL
+		2 , 375 , 1023 => ThroneL
+	END
+	READ_SHORT 0x5a  "infotrig_num"
+	READ_LONG  0x5c  "infotrig_offset"
+	READ_LONG  0x7c  "vert_offset"
+	FOR( cnt=0; cnt<"%infotrig_num%"; cnt=cnt+1 ) BEGIN  //info/triggers loop
+		READ_ASCII ("%infotrig_offset%"+0xc4*cnt)       "info_name"
+		PATCH_IF ( ("%info_name%" STRING_COMPARE_CASE "ThroneL")=0 ) BEGIN
+			PATCH_PHP_EACH vertex_change AS xy => tran BEGIN
+				READ_LONG  ("%infotrig_offset%"+0xc4*cnt+0x2c) vert_idx
+				WRITE_SHORT ("%vert_offset%"+4*(xy+vert_idx))   xy_1
+				WRITE_SHORT ("%vert_offset%"+4*(xy+vert_idx)+2) xy_2
+			END
+		END
+	END
+	CLEAR_ARRAY vertex_change
+//********************************************************  ~AR5505.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR3000.are	5*Triggers 1*Actor
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR0300.ARE~ ~override~
+	READ_LONG  0x54  "actors_offset"
+	READ_SHORT 0x58  "actors_num"
+	SET info_1=1
+	FOR( cnt=0; cnt<"%actors_num%"; cnt=cnt+1 ) BEGIN  //actors loop
+	  READ_ASCII ("%actors_offset%"+0x110*cnt)       "actor_name"
+	  PATCH_IF (("%actor_name%" STRING_COMPARE_CASE "Sea Captain")=0) BEGIN  //if already exists
+	    info_1=0
+	  END
+	END
+	PATCH_IF (info_1=1) BEGIN
+	LPF fj_are_structure
+		INT_VAR
+		fj_loc_x          = 1760
+		fj_loc_y          = 3174
+		fj_dest_x         = 1760
+		fj_dest_y         = 3174
+		fj_loading		  = 1
+		fj_animation      = 0xc800 
+		fj_orientation    = 8
+		fj_schedule		  = 0xffffffff
+		STR_VAR
+		fj_structure_type = actor
+		fj_name           = ~Sea Captain~
+		fj_cre_resref     = CBSEACPT
+  END
+	LPF fj_are_structure
+		INT_VAR
+		fj_type         		= 2    						
+		fj_box_left     		= 1327                      
+		fj_box_top      		= 876                      
+		fj_box_right    		= 1345                      
+		fj_box_bottom   		= 946                      
+		fj_cursor_idx           = 30							
+		fj_flags                = 0x00000100                
+		fj_loc_x				= 1396                      
+		fj_loc_y				= 948                       
+		fj_vertex_0     		= 1345 + (921 << 16)  
+		fj_vertex_1     		= 1345 + (876 << 16)  
+		fj_vertex_2     		= 1335 + (880 << 16)  
+		fj_vertex_3     		= 1327 + (882 << 16)  
+		fj_vertex_4     		= 1327 + (886 << 16)  
+		fj_vertex_5     		= 1327 + (946 << 16)  
+		STR_VAR                                             
+		fj_structure_type   = region                        
+		fj_name             = Tran3565                      
+		fj_destination_area	= AR3565                        
+		fj_destination_name = EXIT0300                      
+	END
+	LPF fj_are_structure
+		INT_VAR
+		fj_type         		= 2    						
+		fj_box_left     		= 4412                      
+		fj_box_top      		= 1001                      
+		fj_box_right    		= 4466                      
+		fj_box_bottom   		= 1056                      
+		fj_cursor_idx           = 8							
+		fj_flags                = 0x00000104                
+		fj_loc_x				= 4574                      
+		fj_loc_y				= 990                       
+		fj_vertex_0     		= 4412 + (1056 << 16)  
+		fj_vertex_1     		= 4414 + (1011 << 16)  
+		fj_vertex_2     		= 4424 + (1002 << 16)  
+		fj_vertex_3     		= 4436 + (1001 << 16)  
+		fj_vertex_4     		= 4452 + (1002 << 16)  
+		fj_vertex_5     		= 4461 + (1005 << 16)  
+		fj_vertex_6     		= 4466 + (1011 << 16)  
+		fj_vertex_7     		= 4466 + (1053 << 16)  
+		STR_VAR                                             
+		fj_structure_type   = region                        
+		fj_name             = Tran3566                      
+		fj_destination_area	= AR3566                        
+		fj_destination_name = EXIT300b                      
+	END
+	LPF fj_are_structure
+		INT_VAR
+		fj_type         		= 0    					
+		fj_box_left     		= 2270                       
+		fj_box_top      		= 2358                       
+		fj_box_right    		= 2667                       
+		fj_box_bottom   		= 2900                       
+		fj_cursor_idx           = 5						
+		fj_flags                = 0x00000002                       
+		fj_trap_active          = 1                       
+		fj_loc_x				= 2468                       
+		fj_loc_y				= 2629                      
+		fj_vertex_0     		= 2270 + (2537 << 16)    
+		fj_vertex_1     		= 2455 + (2900 << 16)    
+		fj_vertex_2     		= 2667 + (2845 << 16)    
+		fj_vertex_3     		= 2420 + (2358 << 16)    
+		fj_vertex_4     		= 2270 + (2537 << 16)
+		STR_VAR                                                     
+		fj_structure_type   = region                                
+		fj_name             = ~CBSTAMBH~                         
+		fj_reg_script       = ~CBSTAM03~						
+	END
+	LPF fj_are_structure
+		INT_VAR
+		fj_type         		= 1    						
+		fj_box_left     		= 961                       
+		fj_box_top      		= 1150                      
+		fj_box_right    		= 1023                      
+		fj_box_bottom   		= 1228                      
+		fj_cursor_idx           = 22						
+		fj_flags                = 0x00000100                
+		fj_info_point_strref    = RESOLVE_STR_REF (#39132)  
+		fj_trap_active          = 1                         
+		fj_loc_x				= 670                       
+		fj_loc_y				= 1502                      
+		fj_vertex_0     		= 961 + (1213 << 16)   
+		fj_vertex_1     		= 961 + (1190 << 16)   
+		fj_vertex_2     		= 962 + (1150 << 16)   
+		fj_vertex_3     		= 980 + (1156 << 16)   
+		fj_vertex_4     		= 1023 + (1163 << 16)
+		fj_vertex_5     		= 1022 + (1183 << 16)
+		fj_vertex_6     		= 1020 + (1203 << 16)
+		fj_vertex_7     		= 1019 + (1228 << 16)
+		STR_VAR                                             
+		fj_structure_type   = region                        
+		fj_name             = ~CbInf328~               
+	END
+	LPF fj_are_structure
+		INT_VAR
+		fj_type         		= 0    					
+		fj_box_left     		= 1788                       
+		fj_box_top      		= 240                       
+		fj_box_right    		= 2323                       
+		fj_box_bottom   		= 572                       
+		fj_cursor_idx           = 5						
+		fj_flags                = 0x00000001                       
+		fj_trap_active          = 1                       
+		fj_loc_x				= 2055                       
+		fj_loc_y				= 406                      
+		fj_vertex_0     		= 1788 + (291 << 16)    
+		fj_vertex_1     		= 1979 + (572 << 16)    
+		fj_vertex_2     		= 2323 + (462 << 16)    
+		fj_vertex_3     		= 2134 + (240 << 16)    
+		fj_vertex_4     		= 1788 + (291 << 16)
+		STR_VAR                                                     
+		fj_structure_type   = region                                
+		fj_name             = ~CBPARLFT~                         
+		fj_reg_script       = ~CBPARLFT~						
+	END
+	END
+//********************************************************  ~AR0300.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR1100.are	Change Trigger Name and destination name
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR0330.ARE~ ~override~
+ READ_SHORT 0x5a  "infotrig_num"
+ READ_LONG  0x5c  "infotrig_offset"
+ READ_LONG  0x7c  "vert_offset"
+ READ_SHORT 0x80  "vert_num"
+    FOR( cnt=0; cnt<"%infotrig_num%"; cnt=cnt+1 ) BEGIN  //info/triggers loop
+     READ_ASCII ("%infotrig_offset%"+0xc4*cnt)       "info_name"
+     PATCH_IF ( ("%info_name%" STRING_COMPARE_CASE "Tran0331")=0 ) BEGIN
+       WRITE_ASCII ("%infotrig_offset%"+0xc4*cnt)      "Tran3578"   //changing trigger's name
+       WRITE_ASCII ("%infotrig_offset%"+0xc4*cnt+0x38) "AR3578" #8  //new destination area
+     END
+   END
+ BUT_ONLY_IF_IT_CHANGES  //********************************************************  ~AR0330.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR1100.are	1*Actor
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR1100.ARE~ ~override~
+	READ_LONG  0x54  "actors_offset"
+	READ_SHORT 0x58  "actors_num"
+	SET info_1=1
+	FOR( cnt=0; cnt<"%actors_num%"; cnt=cnt+1 ) BEGIN  //actors loop
+	  READ_ASCII ("%actors_offset%"+0x110*cnt)       "actor_name"
+	  PATCH_IF (("%actor_name%" STRING_COMPARE_CASE "CbBarlot")=0) BEGIN  //if already exists
+	    info_1=0
+	  END
+	END
+	PATCH_IF (info_1=1) BEGIN
+	LPF fj_are_structure
+		INT_VAR
+		fj_loc_x          = 533
+		fj_loc_y          = 2045
+		fj_dest_x         = 533
+		fj_dest_y         = 2045
+		fj_loading		  = 1
+		fj_animation      = 0x6100 
+		fj_orientation    = 3
+		fj_schedule		  = 0xffffffff
+		STR_VAR
+		fj_structure_type = actor
+		fj_name           = ~CbBarlot~
+		fj_cre_resref     = CBPISSMN
+	END
+	END
+//********************************************************  ~AR1100.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR1202.are	5*items changed in container
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR1202.ARE~  ~override~
+	READ_LONG  0x70  "cont_offset"
+	READ_SHORT 0x74  "cont_num"
+	READ_SHORT 0x76  "items_num"
+	READ_LONG  0x78  "items_offset"
+	SET "first_item1"=0
+	SET "items1"=0
+	FOR( cnt=0; cnt<"%cont_num%"; cnt=cnt+1 ) BEGIN  //containers loop
+		READ_ASCII ("%cont_offset%"+0xc0*cnt)       "cont_name" (11)
+		PATCH_IF (("%cont_name%" STRING_COMPARE_CASE "Container 3")=0) BEGIN
+			READ_LONG ("%cont_offset%"+0xc0*cnt+0x40)  "first_item1"
+			READ_LONG ("%cont_offset%"+0xc0*cnt+0x44)  "items1"
+		END
+	END
+	PATCH_IF ("%items1%">0 ) BEGIN
+		SET ar_cnt=0
+		SET bl_cnt=0
+		FOR( cnt=0; cnt<"%items1%"; cnt=cnt+1 ) BEGIN       //items loop
+			READ_ASCII ("%items_offset%"+0x14*(cnt+"%first_item1%")) "name"
+			PATCH_IF ( ("%name%" STRING_COMPARE_CASE "AROW01")=0 ) BEGIN
+				PATCH_IF( ar_cnt=0 ) BEGIN
+					WRITE_ASCII ("%items_offset%"+0x14*(cnt+"%first_item1%"))     "CBNRTHM2" #8 //replacing item
+					WRITE_SHORT ("%items_offset%"+0x14*(cnt+"%first_item1%")+0xa) 1
+				END
+				ELSE BEGIN
+					PATCH_IF( ar_cnt=1 ) BEGIN
+						WRITE_ASCII ("%items_offset%"+0x14*(cnt+"%first_item1%"))   "AROW02" #8 //replacing item
+					END
+				END
+				ar_cnt += 1
+			END
+			PATCH_IF ( ("%name%" STRING_COMPARE_CASE "BOLT01")=0 ) BEGIN
+				PATCH_IF( bl_cnt=0 ) BEGIN
+					WRITE_ASCII ("%items_offset%"+0x14*(cnt+"%first_item1%"))     "BOLT06" #8 //replacing item
+				END
+			bl_cnt += 1
+			END
+		END
+	END
+BUT_ONLY_IF_IT_CHANGES
+//********************************************************  ~AR1202.are~	
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR1515.are	1*item
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR1515.are~           ~override~
+	READ_LONG  0x70  "cont_offset"
+	READ_SHORT 0x74  "cont_num"
+	FOR( cnt=0; cnt<"%cont_num%"; cnt=cnt+1 ) BEGIN
+		READ_ASCII ("%cont_offset%"+0xc0*cnt)       "cont_name"
+		PATCH_IF (("%cont_name%" STRING_COMPARE_CASE "Desk 1")=0) BEGIN
+			LPF fj_are_structure
+				INT_VAR
+				fj_con_itm_idx    = EVAL cnt
+				STR_VAR
+				fj_name           = CBCWRSCH
+				fj_structure_type = itm
+			END
+		END
+	END
+//********************************************************  ~AR1515.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR0711.are	1*item
+////////////////////////////////////////////////////////////////////////////////////////////////////////	
+COPY_EXISTING ~AR0711.are~           ~override~
+	READ_LONG  0x70  "cont_offset"
+	READ_SHORT 0x74  "cont_num"
+	FOR( cnt=0; cnt<"%cont_num%"; cnt=cnt+1 ) BEGIN
+		READ_ASCII ("%cont_offset%"+0xc0*cnt)       "cont_name" (11)
+		PATCH_IF (("%cont_name%" STRING_COMPARE_CASE "Container 1")=0) BEGIN
+			LPF fj_are_structure
+				INT_VAR
+				fj_con_itm_idx    = EVAL cnt
+				STR_VAR
+				fj_name           = CBEMMETL
+				fj_structure_type = itm
+			END
+		END
+	END
+//********************************************************  ~AR0711.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR0500.are	1*Trigger
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR0500.ARE~ ~override~
+	READ_SHORT 0x5a  "infotrig_num"
+	READ_LONG  0x5c  "infotrig_offset"
+	SET info_1=1
+	FOR( cnt=0; cnt<"%infotrig_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
+	READ_ASCII ("%infotrig_offset%"+0xc4*cnt)       "info_name"
+		PATCH_IF (("%info_name%" STRING_COMPARE_CASE "CbMaltese")=0) BEGIN  //if already exists
+			info_1=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN 
+		LPF fj_are_structure
+			INT_VAR
+			fj_type         		= 0    					
+			fj_box_left     		= 1039                       
+			fj_box_top      		= 3163                       
+			fj_box_right    		= 1244                       
+			fj_box_bottom   		= 3477                       
+			fj_cursor_idx           = 5						
+			fj_flags                = 0x00000001                       
+			fj_trap_active          = 1                       
+			fj_loc_x				= 1141                       
+			fj_loc_y				= 3321                      
+			fj_vertex_0     		= 1039 + (3241 << 16)    
+			fj_vertex_1     		= 1116 + (3477 << 16)    
+			fj_vertex_2     		= 1244 + (3396 << 16)    
+			fj_vertex_3     		= 1156 + (3163 << 16)    
+			fj_vertex_4     		= 1039 + (3241 << 16)
+			STR_VAR                                                     
+			fj_structure_type   = region                                
+			fj_name             = CbMaltese                        
+			fj_reg_script       = CBMALMGE					
+		END
+	END
+//********************************************************  ~AR0500.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR1106.are	2*Trigger
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR1106.ARE~ ~override~
+	READ_SHORT 0x5a  "infotrig_num"
+	READ_LONG  0x5c  "infotrig_offset"
+	SET info_1=1
+	FOR( cnt=0; cnt<"%infotrig_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
+		READ_ASCII ("%infotrig_offset%"+0xc4*cnt)       "info_name"
+			PATCH_IF (("%info_name%" STRING_COMPARE_CASE "PoolofRadiance")=0) BEGIN  //if already exists
+				info_1=0
+			END
+		END
+		PATCH_IF (info_1=1) BEGIN 
+		PATCH_DEFINE_ASSOCIATIVE_ARRAY triggers BEGIN
+			1 , 293 ,  771 , 522 ,  916 , 22 , 1 , 409 , 846 , 412 , 500 , 0, "CB1106TR" , "NONE" , 0  => "PoolofRadiance"
+			2 , 293 ,  771 , 522 ,  916 , 34 , 1 , 409 , 927 , 490 , 927 , 1024, "NONE" , "AR3575" , "EXIT1106" => "Tran3575"
+		END
+		PATCH_DEFINE_ARRAY PoolofRadiance BEGIN 313 791 354 777 355 778 366 774 387 771 403 771 426 778 450 784 472 793 488 804
+												489 810 497 812 514 825 519 831 522 846 514 871 498 889 463 904 434 914 412 916
+												378 908 368 908 368 904 364 898 339 883 323 872 309 857 294 839 293 830 299 811 END		//vertex xy
+		PATCH_DEFINE_ARRAY Tran3575 BEGIN 313 791 354 777 355 778 366 774 387 771 403 771 426 778 450 784 472 793 488 804
+										489 810 497 812 514 825 519 831 522 846 514 871 498 889 463 904 434 914 412 916
+										378 908 368 908 368 904 364 898 339 883 323 872 309 857 294 839 293 830 299 811 END		//vertex xy
+		
+		PATCH_PHP_EACH triggers AS vars => name BEGIN
+			FOR ( cnt=0; cnt<60; cnt=cnt+1 ) BEGIN
+				SPRINT EVAL ~vertex_%cnt%~ $EVAL ~%name%~(~%cnt%~)
+			END
+			LPF fj_are_structure
+			INT_VAR
+			fj_type         		= EVAL vars_0    						
+			fj_box_left     		= EVAL vars_1                       
+			fj_box_top      		= EVAL vars_2                      
+			fj_box_right    		= EVAL vars_3                    
+			fj_box_bottom   		= EVAL vars_4                    
+			fj_cursor_idx           = EVAL vars_5 					
+			fj_trap_active          = EVAL vars_6                         
+			fj_loc_x				= EVAL vars_7                       
+			fj_loc_y				= EVAL vars_8 
+			fj_alt_x				= EVAL vars_9
+			fj_alt_y				= EVAL vars_10
+			fj_flags				= EVAL vars_11
+			fj_vertex_0     		= EVAL vertex_0 +  (vertex_1 << 16)   
+			fj_vertex_1     		= EVAL vertex_2 +  (vertex_3 << 16)   
+			fj_vertex_2     		= EVAL vertex_4 +  (vertex_5 << 16)   
+			fj_vertex_3     		= EVAL vertex_6 +  (vertex_7 << 16)   
+			fj_vertex_4     		= EVAL vertex_8 +  (vertex_9 << 16)
+			fj_vertex_5     		= EVAL vertex_10 + (vertex_11 << 16)
+			fj_vertex_6     		= EVAL vertex_12 + (vertex_13 << 16)
+			fj_vertex_7     		= EVAL vertex_14 + (vertex_15 << 16)
+			fj_vertex_8     		= EVAL vertex_16 + (vertex_17 << 16)   
+			fj_vertex_9     		= EVAL vertex_18 + (vertex_19 << 16)   
+			fj_vertex_10     		= EVAL vertex_20 + (vertex_21 << 16)   
+			fj_vertex_11    		= EVAL vertex_22 + (vertex_23 << 16)   
+			fj_vertex_12    		= EVAL vertex_24 + (vertex_25 << 16)
+			fj_vertex_13    		= EVAL vertex_26 + (vertex_27 << 16)
+			fj_vertex_14    		= EVAL vertex_28 + (vertex_29 << 16)
+			fj_vertex_15    		= EVAL vertex_30 + (vertex_31 << 16)
+			fj_vertex_16    		= EVAL vertex_32 + (vertex_33 << 16)   
+			fj_vertex_17    		= EVAL vertex_34 + (vertex_35 << 16)   
+			fj_vertex_18    		= EVAL vertex_36 + (vertex_37 << 16)   
+			fj_vertex_19    		= EVAL vertex_38 + (vertex_39 << 16)   
+			fj_vertex_20    		= EVAL vertex_40 + (vertex_41 << 16)
+			fj_vertex_21    		= EVAL vertex_42 + (vertex_43 << 16)
+			fj_vertex_22    		= EVAL vertex_44 + (vertex_45 << 16)
+			fj_vertex_23    		= EVAL vertex_46 + (vertex_47 << 16)
+			fj_vertex_24    		= EVAL vertex_48 + (vertex_49 << 16)   
+			fj_vertex_25    		= EVAL vertex_50 + (vertex_51 << 16)   
+			fj_vertex_26    		= EVAL vertex_52 + (vertex_53 << 16)   
+			fj_vertex_27    		= EVAL vertex_54 + (vertex_55 << 16)   
+			fj_vertex_28    		= EVAL vertex_56 + (vertex_57 << 16)
+			fj_vertex_29    		= EVAL vertex_58 + (vertex_59 << 16)
+			STR_VAR                                             
+			fj_structure_type   = region                        
+			fj_name             = EVAL ~%name%~
+			fj_reg_script       = EVAL ~%vars_12%~
+			fj_destination_area	= EVAL ~%vars_13%~                       
+			fj_destination_name = EVAL ~%vars_14%~   			
+			END
+		END
+  	END
+ //********************************************************  ~AR1106.are~
+ 
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR1300 AR1304	1*Trigger 1*Container 1*Item
+//////////////////////////////////////////////////////////////////////////////////////////////////////// 
+COPY_EXISTING ~AR1300.ARE~ ~override~
+              ~AR1304.ARE~ ~override~
+ 	READ_SHORT 0x5a  "infotrig_num"
+	READ_LONG  0x5c  "infotrig_offset"
+	SET info_1=1
+	FOR( cnt=0; cnt<"%infotrig_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
+	READ_ASCII ("%infotrig_offset%"+0xc4*cnt)       "info_name"
+		PATCH_IF (("%info_name%" STRING_COMPARE_CASE "ElderberryInfo")=0) BEGIN  //if already exists
+			info_1=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN
+		LPF fj_are_structure
+			INT_VAR
+			fj_type         		= 1    					
+			fj_box_left     		= 2677                       
+			fj_box_top      		= 3363                       
+			fj_box_right    		= 3157                       
+			fj_box_bottom   		= 3566                       
+			fj_cursor_idx           = 22						
+			fj_trap_active          = 1                       
+			fj_loc_x				= 3033                       
+			fj_loc_y				= 3620                      
+			fj_vertex_0     		= 2681 + (3559 << 16)    
+			fj_vertex_1     		= 3133 + (3555 << 16)    
+			fj_vertex_2     		= 3097 + (3446 << 16)    
+			fj_vertex_3     		= 3002 + (3376 << 16)    
+			fj_vertex_4     		= 2902 + (3381 << 16)
+			fj_vertex_5     		= 2741 + (3360 << 16)    
+			fj_vertex_6     		= 2718 + (3387 << 16)    
+			fj_vertex_7     		= 2676 + (3519 << 16)    
+			STR_VAR                                                     
+			fj_structure_type   = region                                
+			fj_name             = ElderberryInfo                        
+			fj_reg_script       = CB1300DS					
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_type        			= 8 //nonvisible
+			fj_loc_x       			= 3034
+			fj_loc_y       			= 3622
+			fj_box_left    			= 2672
+			fj_box_top     			= 3354
+			fj_box_right   			= 3157
+			fj_box_bottom  			= 3566
+			fj_vertex_0     		= 2681 + (3559 << 16)    
+			fj_vertex_1     		= 3133 + (3555 << 16)    
+			fj_vertex_2     		= 3097 + (3446 << 16)    
+			fj_vertex_3     		= 3002 + (3376 << 16)    
+			fj_vertex_4     		= 2902 + (3381 << 16)
+			fj_vertex_5     		= 2741 + (3360 << 16)    
+			fj_vertex_6     		= 2718 + (3387 << 16)    
+			fj_vertex_7     		= 2676 + (3519 << 16) 
+			STR_VAR
+			fj_structure_type = container
+			fj_name           = ~ElderberryCont~
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 1 // identified
+			fj_charge0		  = 1
+			STR_VAR
+			fj_name           = CB901ELD
+			fj_structure_type = itm
+		END
+	END
+//********************************************************  ~AR1300,AR1304.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR1400 AR1404	1*Trigger 1*Container 1*Item
+//////////////////////////////////////////////////////////////////////////////////////////////////////// 
+COPY_EXISTING ~AR1400.ARE~ ~override~
+              ~AR1404.ARE~ ~override~
+ 	READ_SHORT 0x5a  "infotrig_num"
+	READ_LONG  0x5c  "infotrig_offset"
+	SET info_1=1
+	FOR( cnt=0; cnt<"%infotrig_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
+	READ_ASCII ("%infotrig_offset%"+0xc4*cnt)       "info_name"
+		PATCH_IF (("%info_name%" STRING_COMPARE_CASE "ClubMossInfo")=0) BEGIN  //if already exists
+			info_1=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN
+		LPF fj_are_structure
+			INT_VAR
+			fj_type         		= 1    					
+			fj_box_left     		= 2518                       
+			fj_box_top      		= 133                       
+			fj_box_right    		= 2650                       
+			fj_box_bottom   		= 220                       
+			fj_cursor_idx           = 22						
+			fj_trap_active          = 1                       
+			fj_loc_x				= 2712                       
+			fj_loc_y				= 174                      
+			fj_vertex_0     		= 2515 + (182 << 16)    
+			fj_vertex_1     		= 2547 + (205 << 16)    
+			fj_vertex_2     		= 2622 + (207 << 16)    
+			fj_vertex_3     		= 2645 + (204 << 16)    
+			fj_vertex_4     		= 2615 + (128 << 16)
+			fj_vertex_5     		= 2585 + (132 << 16)    
+			fj_vertex_6     		= 2561 + (140 << 16)    
+			fj_vertex_7     		= 2537 + (144 << 16)    
+			STR_VAR                                                     
+			fj_structure_type   = region                                
+			fj_name             = ClubMossInfo                        
+			fj_reg_script       = CB1400DS					
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_type        			= 8 //nonvisible
+			fj_loc_x       			= 2712
+			fj_loc_y       			= 174 
+			fj_box_left    			= 2513
+			fj_box_top     			= 123 
+			fj_box_right   			= 2650
+			fj_box_bottom  			= 220 
+			fj_vertex_0     		= 2515 + (182 << 16)    
+			fj_vertex_1     		= 2547 + (205 << 16)    
+			fj_vertex_2     		= 2622 + (207 << 16)    
+			fj_vertex_3     		= 2645 + (204 << 16)    
+			fj_vertex_4     		= 2615 + (128 << 16)
+			fj_vertex_5     		= 2585 + (132 << 16)    
+			fj_vertex_6     		= 2561 + (140 << 16)    
+			fj_vertex_7     		= 2537 + (144 << 16) 
+			STR_VAR
+			fj_structure_type = container
+			fj_name           = ~ClubMossCont~
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 1 // identified
+			fj_charge0		  = 1
+			STR_VAR
+			fj_name           = CB901CMS
+			fj_structure_type = itm
+		END
+	END			  
+//********************************************************  ~AR1400,AR1404.are~	  
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR1700 1*Trigger 1*Container 1*Item
+//////////////////////////////////////////////////////////////////////////////////////////////////////// 
+COPY_EXISTING ~AR1700.ARE~ ~override~
+	READ_SHORT 0x5a  "infotrig_num"
+	READ_LONG  0x5c  "infotrig_offset"
+	SET info_1=1
+	FOR( cnt=0; cnt<"%infotrig_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
+	READ_ASCII ("%infotrig_offset%"+0xc4*cnt)       "info_name"
+		PATCH_IF (("%info_name%" STRING_COMPARE_CASE "WormwoodInfo")=0) BEGIN  //if already exists
+			info_1=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN
+		LPF fj_are_structure
+			INT_VAR
+			fj_type         		= 1    					
+			fj_box_left     		= 3157                       
+			fj_box_top      		= 184                       
+			fj_box_right    		= 3358                       
+			fj_box_bottom   		= 682                       
+			fj_cursor_idx           = 22						
+			fj_trap_active          = 1                       
+			fj_loc_x				= 3170                       
+			fj_loc_y				= 570                      
+			fj_vertex_0     		= 3154 + (600 << 16)    
+			fj_vertex_1     		= 3263 + (672 << 16)    
+			fj_vertex_2     		= 3286 + (572 << 16)    
+			fj_vertex_3     		= 3317 + (503 << 16)    
+			fj_vertex_4     		= 3291 + (474 << 16)
+			fj_vertex_5     		= 3210 + (481 << 16)    
+			fj_vertex_6     		= 3169 + (517 << 16)    
+			fj_vertex_7     		= 3190 + (571 << 16)    
+			STR_VAR                                                     
+			fj_structure_type   = region                                
+			fj_name             = WormwoodInfo                        
+			fj_reg_script       = CB1700DS					
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_type        			= 8 //nonvisible
+			fj_loc_x       			= 3179
+			fj_loc_y       			= 582
+			fj_box_left    			= 3152
+			fj_box_top     			= 184
+			fj_box_right   			= 3358
+			fj_box_bottom  			= 682
+			fj_vertex_0     		= 3154 + (600 << 16)    
+			fj_vertex_1     		= 3263 + (672 << 16)    
+			fj_vertex_2     		= 3286 + (572 << 16)    
+			fj_vertex_3     		= 3317 + (503 << 16)    
+			fj_vertex_4     		= 3291 + (474 << 16)
+			fj_vertex_5     		= 3210 + (481 << 16)    
+			fj_vertex_6     		= 3169 + (517 << 16)    
+			fj_vertex_7     		= 3190 + (571 << 16)    
+			STR_VAR
+			fj_structure_type = container
+			fj_name           = ~WormwoodCont~
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 1 // identified
+			fj_charge0		  = 1
+			STR_VAR
+			fj_name           = CB901WRM
+			fj_structure_type = itm
+		END
+	END
+//********************************************************  ~AR1700.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR1900	1*Trigger 1*Container 1*Item
+//////////////////////////////////////////////////////////////////////////////////////////////////////// 
+COPY_EXISTING ~AR1900.ARE~ ~override~
+	READ_SHORT 0x5a  "infotrig_num"
+	READ_LONG  0x5c  "infotrig_offset"
+	SET info_1=1
+	FOR( cnt=0; cnt<"%infotrig_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
+	READ_ASCII ("%infotrig_offset%"+0xc4*cnt)       "info_name"
+		PATCH_IF (("%info_name%" STRING_COMPARE_CASE "CouchGrassInfo")=0) BEGIN  //if already exists
+			info_1=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN
+		LPF fj_are_structure
+			INT_VAR
+			fj_type         		= 1    					
+			fj_box_left     		= 197                        
+			fj_box_top      		= 1090                      
+			fj_box_right    		= 830                        
+			fj_box_bottom   		= 1453                      
+			fj_cursor_idx           = 22						
+			fj_trap_active          = 1                       
+			fj_loc_x				= 513                        
+			fj_loc_y				= 1302                     
+			fj_vertex_0     		= 245 + (1449 << 16)    
+			fj_vertex_1     		= 403 + (1292 << 16)    
+			fj_vertex_2     		= 654 + (1156 << 16)    
+			fj_vertex_3     		= 800 + (1212 << 16)    
+			fj_vertex_4     		= 785 + (1124 << 16)
+			fj_vertex_5     		= 672 + (1085 << 16)    
+			fj_vertex_6     		= 435 + (1184 << 16)    
+			fj_vertex_7     		= 226 + (1375 << 16)    
+			STR_VAR                                                     
+			fj_structure_type   = region                                
+			fj_name             = CouchGrassInfo                        
+			fj_reg_script       = CB1900DS					
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_type        			= 8 //nonvisible
+			fj_loc_x       			= 531 
+			fj_loc_y       			= 1302
+			fj_box_left    			= 197 
+			fj_box_top     			= 1080
+			fj_box_right   			= 830 
+			fj_box_bottom  			= 1453
+			fj_vertex_0     		= 245 + (1449 << 16)    
+			fj_vertex_1     		= 403 + (1292 << 16)    
+			fj_vertex_2     		= 654 + (1156 << 16)    
+			fj_vertex_3     		= 800 + (1212 << 16)    
+			fj_vertex_4     		= 785 + (1124 << 16)
+			fj_vertex_5     		= 672 + (1085 << 16)    
+			fj_vertex_6     		= 435 + (1184 << 16)    
+			fj_vertex_7     		= 226 + (1375 << 16)   
+			STR_VAR
+			fj_structure_type = container
+			fj_name           = ~CouchGrassCont~
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 1 // identified
+			fj_charge0		  = 1
+			STR_VAR
+			fj_name           = CB901CHG
+			fj_structure_type = itm
+		END
+	END
+//********************************************************  ~AR1900.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR1200 1*Trigger 1*Container 1*Item
+//////////////////////////////////////////////////////////////////////////////////////////////////////// 
+COPY_EXISTING ~AR1200.ARE~ ~override~
+	READ_SHORT 0x5a  "infotrig_num"
+	READ_LONG  0x5c  "infotrig_offset"
+	SET info_1=1
+	FOR( cnt=0; cnt<"%infotrig_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
+	READ_ASCII ("%infotrig_offset%"+0xc4*cnt)       "info_name"
+		PATCH_IF (("%info_name%" STRING_COMPARE_CASE "PeachTreeInfo")=0) BEGIN  //if already exists
+			info_1=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN
+		LPF fj_are_structure
+			INT_VAR
+			fj_type         		= 1    					
+			fj_box_left     		= 2487                       
+			fj_box_top      		= 3158                      
+			fj_box_right    		= 2825                       
+			fj_box_bottom   		= 3491                      
+			fj_cursor_idx           = 22						
+			fj_trap_active          = 1                       
+			fj_loc_x				= 2757                       
+			fj_loc_y				= 3530                     
+			fj_vertex_0     		= 2482 + (3438 << 16)    
+			fj_vertex_1     		= 2560 + (3475 << 16)    
+			fj_vertex_2     		= 2751 + (3471 << 16)    
+			fj_vertex_3     		= 2820 + (3325 << 16)    
+			fj_vertex_4     		= 2752 + (3226 << 16)
+			fj_vertex_5     		= 2618 + (3212 << 16)    
+			fj_vertex_6     		= 2520 + (3230 << 16)    
+			fj_vertex_7     		= 2535 + (3312 << 16)    
+			STR_VAR                                                     
+			fj_structure_type   = region                                
+			fj_name             = PeachTreeInfo                        
+			fj_reg_script       = CB1200DS					
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_type        			= 8 //nonvisible
+			fj_loc_x       			= 2757
+			fj_loc_y       			= 3530
+			fj_box_left    			= 2482
+			fj_box_top     			= 3158
+			fj_box_right   			= 2825
+			fj_box_bottom  			= 3491
+			fj_vertex_0     		= 245 + (1449 << 16)    
+			fj_vertex_1     		= 403 + (1292 << 16)    
+			fj_vertex_2     		= 654 + (1156 << 16)    
+			fj_vertex_3     		= 800 + (1212 << 16)    
+			fj_vertex_4     		= 785 + (1124 << 16)
+			fj_vertex_5     		= 672 + (1085 << 16)    
+			fj_vertex_6     		= 435 + (1184 << 16)    
+			fj_vertex_7     		= 226 + (1375 << 16)   
+			STR_VAR
+			fj_structure_type = container
+			fj_name           = ~PeachTreeCont~
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 1 // identified
+			fj_charge0		  = 1
+			STR_VAR
+			fj_name           = CB901PCH
+			fj_structure_type = itm
+		END
+	END
+//********************************************************  ~AR1200.are~	
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR0308 Container+Item
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR0308.ARE~ ~override~
+	READ_LONG  0x70  "cont_offset"
+	READ_SHORT 0x74  "cont_num"
+	SET info_1=1
+	FOR( cnt=0; cnt<"%cont_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
+		READ_ASCII ("%cont_offset%"+0xc0*cnt)       "cont_name"
+		PATCH_IF (("%cont_name%" STRING_COMPARE_CASE "CbCont01")=0) BEGIN  //if already exists
+			info_1=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN
+		LPF fj_are_structure
+			INT_VAR
+			fj_type        			= 5
+			fj_loc_x       			= 1401
+			fj_loc_y       			= 610 
+			fj_box_left    			= 1325
+			fj_box_top     			= 553 
+			fj_box_right   			= 1416
+			fj_box_bottom  			= 619 
+			fj_trap_detect			= 100
+			fj_flags	 			= 1
+			fj_vertex_0     		= 1416 + (571 << 16)    
+			fj_vertex_1     		= 1403 + (560 << 16)    
+			fj_vertex_2     		= 1391 + (553 << 16)    
+			fj_vertex_3     		= 1358 + (572 << 16)    
+			fj_vertex_4     		= 1325 + (599 << 16)
+			fj_vertex_5     		= 1334 + (605 << 16)    
+			fj_vertex_6     		= 1351 + (619 << 16)    
+			fj_vertex_7     		= 1382 + (592 << 16)   
+			STR_VAR
+			fj_structure_type = container
+			fj_name           = ~CbCont01~
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 4 // stolen
+			fj_charge0		  = 1
+			STR_VAR
+			fj_name           = CBXTHSCC
+			fj_structure_type = itm
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_type        			= 8 //nonvisible
+			fj_loc_x       			= 1382
+			fj_loc_y       			= 472 
+			fj_box_left    			= 1386
+			fj_box_top     			= 402 
+			fj_box_right   			= 1435
+			fj_box_bottom  			= 454 
+			fj_trap_detect			= 64
+			fj_flags	 			= 1
+			fj_vertex_0     		= 1386 + (412 << 16)    
+			fj_vertex_1     		= 1405 + (402 << 16)    
+			fj_vertex_2     		= 1426 + (422 << 16)    
+			fj_vertex_3     		= 1435 + (448 << 16)    
+			fj_vertex_4     		= 1426 + (454 << 16)
+			fj_vertex_5     		= 1406 + (445 << 16)    
+			fj_vertex_6     		= 1395 + (435 << 16)    
+			fj_vertex_7     		= 1387 + (422 << 16)   
+			STR_VAR
+			fj_structure_type = container
+			fj_name           = ~CbCont02~
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 4 // stolen
+			fj_charge0		  = 1
+			STR_VAR
+			fj_name           = CBXTHSDD
+			fj_structure_type = itm
+		END
+	END
+//********************************************************  ~AR0308.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR0309 Container+Item
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR0309.ARE~ ~override~
+	READ_LONG  0x70  "cont_offset"
+	READ_SHORT 0x74  "cont_num"
+	SET info_1=1
+	FOR( cnt=0; cnt<"%cont_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
+		READ_ASCII ("%cont_offset%"+0xc0*cnt)       "cont_name"
+		PATCH_IF (("%cont_name%" STRING_COMPARE_CASE "CbCont01")=0) BEGIN  //if already exists
+			info_1=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN
+		LPF fj_are_structure
+			INT_VAR
+			fj_type        			= 5
+			fj_loc_x       			= 756
+			fj_loc_y       			= 1240 
+			fj_box_left    			= 668
+			fj_box_top     			= 1187 
+			fj_box_right   			= 739
+			fj_box_bottom  			= 1237 
+			fj_trap_detect			= 0
+			fj_flags	 			= 0
+			fj_vertex_0     		= 668 + (1218 << 16)    
+			fj_vertex_1     		= 678 + (1226 << 16)    
+			fj_vertex_2     		= 690 + (1237 << 16)    
+			fj_vertex_3     		= 720 + (1220 << 16)    
+			fj_vertex_4     		= 739 + (1208 << 16)
+			fj_vertex_5     		= 725 + (1195 << 16)    
+			fj_vertex_6     		= 716 + (1188 << 16)    
+			fj_vertex_7     		= 715 + (1187 << 16)   
+			STR_VAR
+			fj_structure_type = container
+			fj_name           = ~CbCont01~
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 4 // stolen
+			fj_charge0		  = 1
+			STR_VAR
+			fj_name           = CBXTHSAA
+			fj_structure_type = itm
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_type        			= 5 
+			fj_loc_x       			= 1118
+			fj_loc_y       			= 1061
+			fj_box_left    			= 1044
+			fj_box_top     			= 976 
+			fj_box_right   			= 1132
+			fj_box_bottom  			= 1039
+			fj_trap_detect			= 0
+			fj_flags	 			= 0
+			fj_vertex_0     		= 1044 + (1009 << 16)    
+			fj_vertex_1     		= 1062 + (992 << 16)    
+			fj_vertex_2     		= 1092 + (976 << 16)    
+			fj_vertex_3     		= 1115 + (992 << 16)    
+			fj_vertex_4     		= 1132 + (1005 << 16)
+			fj_vertex_5     		= 1110 + (1020 << 16)    
+			fj_vertex_6     		= 1090 + (1032 << 16)    
+			fj_vertex_7     		= 1085 + (1039 << 16)   
+			STR_VAR
+			fj_structure_type = container
+			fj_name           = ~CbCont02~
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 4 // stolen
+			fj_charge0		  = 1
+			STR_VAR
+			fj_name           = CBXTHSBB
+			fj_structure_type = itm
+		END
+	END
+//********************************************************  ~AR0309.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR0204.are 1*Item
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR0204.are~           ~override~
+	READ_LONG  0x70  "cont_offset"
+	READ_SHORT 0x74  "cont_num"
+	FOR( cnt=0; cnt<"%cont_num%"; cnt=cnt+1 ) BEGIN
+		READ_ASCII ("%cont_offset%"+0xc0*cnt)       "cont_name" (11)
+		PATCH_IF (("%cont_name%" STRING_COMPARE_CASE "Container 3")=0) BEGIN
+			LPF fj_are_structure
+				INT_VAR
+				fj_con_itm_idx    = EVAL cnt
+				STR_VAR
+				fj_name           = CBRYBERG
+				fj_structure_type = itm
+			END
+		END
+	END
+//********************************************************  ~AR0204.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR0805 Container+Item
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR0805.ARE~ ~override~
+	READ_LONG  0x70  "cont_offset"
+	READ_SHORT 0x74  "cont_num"
+	SET info_1=1
+	FOR( cnt=0; cnt<"%cont_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
+		READ_ASCII ("%cont_offset%"+0xc0*cnt)       "cont_name"
+		PATCH_IF (("%cont_name%" STRING_COMPARE_CASE "CbCont01")=0) BEGIN  //if already exists
+			info_1=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN
+		LPF fj_are_structure
+			INT_VAR
+			fj_type        			= 8
+			fj_loc_x       			= 404
+			fj_loc_y       			= 449 
+			fj_box_left    			= 395
+			fj_box_top     			= 335 
+			fj_box_right   			= 504
+			fj_box_bottom  			= 420 
+			fj_trap_detect			= 35
+			fj_flags	 			= 1
+			fj_vertex_0     		= 395 + (397 << 16)    
+			fj_vertex_1     		= 429 + (420 << 16)    
+			fj_vertex_2     		= 504 + (367 << 16)    
+			fj_vertex_3     		= 504 + (364 << 16)    
+			fj_vertex_4     		= 504 + (360 << 16)
+			fj_vertex_5     		= 470 + (335 << 16)    
+			fj_vertex_6     		= 395 + (388 << 16)    
+			STR_VAR
+			fj_structure_type = container
+			fj_name           = ~CbCont01~
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 4 // stolen
+			fj_charge0		  = 1
+			STR_VAR
+			fj_name           = CBXTGCAA
+			fj_structure_type = itm
+		END
+	END
+//********************************************************  ~AR0805.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR0806 Container+Item
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR0806.ARE~ ~override~
+	READ_LONG  0x70  "cont_offset"
+	READ_SHORT 0x74  "cont_num"
+	SET info_1=1
+	FOR( cnt=0; cnt<"%cont_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
+		READ_ASCII ("%cont_offset%"+0xc0*cnt)       "cont_name"
+		PATCH_IF (("%cont_name%" STRING_COMPARE_CASE "CbCont01")=0) BEGIN  //if already exists
+			info_1=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN
+		LPF fj_are_structure
+			INT_VAR
+			fj_type        			= 2
+			fj_loc_x       			= 355
+			fj_loc_y       			= 330 
+			fj_box_left    			= 321
+			fj_box_top     			= 270 
+			fj_box_right   			= 367
+			fj_box_bottom  			= 316 
+			fj_trap_detect			= 65
+			fj_flags	 			= 1
+			fj_vertex_0     		= 321 + (301 << 16)    
+			fj_vertex_1     		= 336 + (316 << 16)    
+			fj_vertex_2     		= 367 + (300 << 16)    
+			fj_vertex_3     		= 367 + (285 << 16)    
+			fj_vertex_4     		= 362 + (277 << 16)
+			fj_vertex_5     		= 358 + (272 << 16)    
+			fj_vertex_6     		= 353 + (270 << 16) 
+			fj_vertex_7				= 321 + (286 << 16)
+			STR_VAR
+			fj_structure_type = container
+			fj_name           = ~CbCont01~
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 4 // stolen
+			fj_charge0		  = 1
+			STR_VAR
+			fj_name           = CBXTGCDD
+			fj_structure_type = itm
+		END
+	END
+//********************************************************  ~AR0806.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR0807 Container+Item
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR0807.ARE~ ~override~
+	READ_LONG  0x70  "cont_offset"
+	READ_SHORT 0x74  "cont_num"
+	SET info_1=1
+	FOR( cnt=0; cnt<"%cont_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
+		READ_ASCII ("%cont_offset%"+0xc0*cnt)       "cont_name"
+		PATCH_IF (("%cont_name%" STRING_COMPARE_CASE "CbCont01")=0) BEGIN  //if already exists
+			info_1=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN
+		LPF fj_are_structure
+			INT_VAR
+			fj_type        			= 8
+			fj_loc_x       			= 434
+			fj_loc_y       			= 405 
+			fj_box_left    			= 335
+			fj_box_top     			= 294 
+			fj_box_right   			= 444
+			fj_box_bottom  			= 379 
+			fj_trap_detect			= 35
+			fj_flags	 			= 1
+			fj_vertex_0     		= 335 + (325 << 16)    
+			fj_vertex_1     		= 410 + (379 << 16)    
+			fj_vertex_2     		= 444 + (355 << 16)    
+			fj_vertex_3     		= 444 + (352 << 16)    
+			fj_vertex_4     		= 444 + (350 << 16)
+			fj_vertex_5     		= 444 + (348 << 16)    
+			fj_vertex_6     		= 369 + (294 << 16) 
+			fj_vertex_7				= 335 + (316 << 16)
+			STR_VAR
+			fj_structure_type = container
+			fj_name           = ~CbCont01~
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 4 // stolen
+			fj_charge0		  = 1
+			STR_VAR
+			fj_name           = CBXTGCBB
+			fj_structure_type = itm
+		END
+	END
+//********************************************************  ~AR0807.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR0809.are 1*Item
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR0809.are~           ~override~
+	READ_LONG  0x70  "cont_offset"
+	READ_SHORT 0x74  "cont_num"
+	FOR( cnt=0; cnt<"%cont_num%"; cnt=cnt+1 ) BEGIN
+		READ_ASCII ("%cont_offset%"+0xc0*cnt)       "cont_name"
+		PATCH_IF (("%cont_name%" STRING_COMPARE_CASE "Altar 1")=0) BEGIN
+			LPF fj_are_structure
+				INT_VAR
+				fj_con_itm_idx    = EVAL cnt
+				STR_VAR
+				fj_name           = CB3597ST
+				fj_structure_type = itm
+			END
+		END
+	END
+//********************************************************  ~AR0809.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR0813 Container+Item
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR0813.ARE~ ~override~
+	READ_LONG  0x70  "cont_offset"
+	READ_SHORT 0x74  "cont_num"
+	SET info_1=1
+	FOR( cnt=0; cnt<"%cont_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
+		READ_ASCII ("%cont_offset%"+0xc0*cnt)       "cont_name"
+		PATCH_IF (("%cont_name%" STRING_COMPARE_CASE "CbCont01")=0) BEGIN  //if already exists
+			info_1=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN
+		LPF fj_are_structure
+			INT_VAR
+			fj_type        			= 8
+			fj_loc_x       			= 455
+			fj_loc_y       			= 395 
+			fj_box_left    			= 335
+			fj_box_top     			= 294 
+			fj_box_right   			= 444
+			fj_box_bottom  			= 379 
+			fj_trap_detect			= 25
+			fj_flags	 			= 1
+			fj_vertex_0     		= 335 + (325 << 16)    
+			fj_vertex_1     		= 410 + (379 << 16)    
+			fj_vertex_2     		= 444 + (355 << 16)    
+			fj_vertex_3     		= 444 + (352 << 16)    
+			fj_vertex_4     		= 444 + (350 << 16)
+			fj_vertex_5     		= 444 + (348 << 16)    
+			fj_vertex_6     		= 369 + (294 << 16) 
+			fj_vertex_7				= 335 + (316 << 16)
+			STR_VAR
+			fj_structure_type = container
+			fj_name           = ~CbCont01~
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 4 // stolen
+			fj_charge0		  = 1
+			STR_VAR
+			fj_name           = CBXTGCCC
+			fj_structure_type = itm
+		END
+	END
+//********************************************************  ~AR0813.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR0902 2*Container+3*Item
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR0902.ARE~ ~override~
+	READ_LONG  0x70  "cont_offset"
+	READ_SHORT 0x74  "cont_num"
+	SET info_1=1
+	FOR( cnt=0; cnt<"%cont_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
+		READ_ASCII ("%cont_offset%"+0xc0*cnt)       "cont_name"
+		PATCH_IF (("%cont_name%" STRING_COMPARE_CASE "CbCont01")=0) BEGIN  //if already exists
+			info_1=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN
+		LPF fj_are_structure
+			INT_VAR
+			fj_type        			= 2
+			fj_loc_x       			= 1325
+			fj_loc_y       			= 1513 
+			fj_box_left    			= 1286
+			fj_box_top     			= 1437 
+			fj_box_right   			= 1334
+			fj_box_bottom  			= 1505 
+			fj_trap_detect			= 90
+			fj_flags	 			= 1
+			fj_vertex_0     		= 1300 + (1505 << 16)    
+			fj_vertex_1     		= 1286 + (1490 << 16)    
+			fj_vertex_2     		= 1286 + (1470 << 16)    
+			fj_vertex_3     		= 1286 + (1449 << 16)    
+			fj_vertex_4     		= 1318 + (1437 << 16)
+			fj_vertex_5     		= 1334 + (1455 << 16)    
+			fj_vertex_6     		= 1334 + (1470 << 16) 
+			fj_vertex_7				= 1344 + (1490 << 16)
+			STR_VAR
+			fj_structure_type = container
+			fj_name           = ~CbCont01~
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 4 // stolen
+			fj_charge0		  = 1
+			STR_VAR
+			fj_name           = CBXTLTAA
+			fj_structure_type = itm
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 4 // stolen
+			fj_charge0		  = 1
+			STR_VAR
+			fj_name           = CBXTLTCC
+			fj_structure_type = itm
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_type        			= 2
+			fj_loc_x       			= 1434
+			fj_loc_y       			= 1606 
+			fj_box_left    			= 1445
+			fj_box_top     			= 1557 
+			fj_box_right   			= 1489
+			fj_box_bottom  			= 1610 
+			fj_trap_detect			= 65
+			fj_flags	 			= 1
+			fj_vertex_0     		= 1445 + (1590 << 16)    
+			fj_vertex_1     		= 1445 + (1570 << 16)    
+			fj_vertex_2     		= 1448 + (1563 << 16)    
+			fj_vertex_3     		= 1453 + (1558 << 16)    
+			fj_vertex_4     		= 1458 + (1557 << 16)
+			fj_vertex_5     		= 1489 + (1578 << 16)    
+			fj_vertex_6     		= 1489 + (1597 << 16) 
+			fj_vertex_7				= 1476 + (1610 << 16)
+			STR_VAR
+			fj_structure_type = container
+			fj_name           = ~CbCont02~
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 4 // stolen
+			fj_charge0		  = 1
+			STR_VAR
+			fj_name           = CBXTLTBB
+			fj_structure_type = itm
+		END
+	END
+//********************************************************  ~AR0902.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR0903 Container+Item
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR0903.ARE~ ~override~
+	READ_LONG  0x70  "cont_offset"
+	READ_SHORT 0x74  "cont_num"
+	SET info_1=1
+	FOR( cnt=0; cnt<"%cont_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
+		READ_ASCII ("%cont_offset%"+0xc0*cnt)       "cont_name"
+		PATCH_IF (("%cont_name%" STRING_COMPARE_CASE "CbCont01")=0) BEGIN  //if already exists
+			info_1=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN
+		LPF fj_are_structure
+			INT_VAR
+			fj_type        			= 5
+			fj_loc_x       			= 395
+			fj_loc_y       			= 547 
+			fj_box_left    			= 338
+			fj_box_top     			= 505 
+			fj_box_right   			= 379
+			fj_box_bottom  			= 552 
+			fj_trap_detect			= 25
+			fj_flags	 			= 1
+			fj_vertex_0     		= 338 + (507 << 16)    
+			fj_vertex_1     		= 377 + (505 << 16)    
+			fj_vertex_2     		= 379 + (549 << 16)    
+			fj_vertex_3     		= 342 + (552 << 16)    
+			STR_VAR
+			fj_structure_type = container
+			fj_name           = ~CbCont01~
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 4 // stolen
+			fj_charge0		  = 1
+			STR_VAR
+			fj_name           = CBXTRHAA
+			fj_structure_type = itm
+		END
+	END
+//********************************************************  ~AR0903.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR0906 Container+Item
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR0906.ARE~ ~override~
+	READ_LONG  0x70  "cont_offset"
+	READ_SHORT 0x74  "cont_num"
+	SET info_1=1
+	FOR( cnt=0; cnt<"%cont_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
+		READ_ASCII ("%cont_offset%"+0xc0*cnt)       "cont_name"
+		PATCH_IF (("%cont_name%" STRING_COMPARE_CASE "CbCont01")=0) BEGIN  //if already exists
+			info_1=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN
+		LPF fj_are_structure
+			INT_VAR
+			fj_type        			= 2
+			fj_loc_x       			= 572
+			fj_loc_y       			= 951 
+			fj_box_left    			= 514
+			fj_box_top     			= 919 
+			fj_box_right   			= 558
+			fj_box_bottom  			= 966 
+			fj_trap_detect			= 36
+			fj_flags	 			= 1
+			fj_vertex_0     		= 514 + (946 << 16)    
+			fj_vertex_1     		= 538 + (966 << 16)    
+			fj_vertex_2     		= 558 + (955 << 16)    
+			fj_vertex_3     		= 558 + (939 << 16)    
+			fj_vertex_4     		= 532 + (919 << 16)
+			fj_vertex_5     		= 527 + (919 << 16)    
+			fj_vertex_6     		= 520 + (923 << 16) 
+			fj_vertex_7				= 514 + (930 << 16)
+			STR_VAR
+			fj_structure_type = container
+			fj_name           = ~CbCont01~
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 4 // stolen
+			fj_charge0		  = 1
+			STR_VAR
+			fj_name           = CBXTSHEE
+			fj_structure_type = itm
+		END
+	END
+//********************************************************  ~AR0906.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR1002 2*Container+2*Item
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR1002.ARE~ ~override~
+	READ_LONG  0x70  "cont_offset"
+	READ_SHORT 0x74  "cont_num"
+	SET info_1=1
+	FOR( cnt=0; cnt<"%cont_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
+		READ_ASCII ("%cont_offset%"+0xc0*cnt)       "cont_name"
+		PATCH_IF (("%cont_name%" STRING_COMPARE_CASE "CbCont01")=0) BEGIN  //if already exists
+			info_1=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN
+		LPF fj_are_structure
+			INT_VAR
+			fj_type        			= 7
+			fj_loc_x       			= 668
+			fj_loc_y       			= 326 
+			fj_box_left    			= 613
+			fj_box_top     			= 274 
+			fj_box_right   			= 680
+			fj_box_bottom  			= 324 
+			fj_trap_detect			= 22
+			fj_flags	 			= 1
+			fj_vertex_0     		= 613 + (307 << 16)    
+			fj_vertex_1     		= 657 + (274 << 16)    
+			fj_vertex_2     		= 680 + (292 << 16)    
+			fj_vertex_3     		= 635 + (324 << 16)    
+			STR_VAR
+			fj_structure_type = container
+			fj_name           = ~CbCont01~
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 4 // stolen
+			fj_charge0		  = 1
+			STR_VAR
+			fj_name           = CBXTGBAA
+			fj_structure_type = itm
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_type        			= 8
+			fj_loc_x       			= 1052
+			fj_loc_y       			= 481  
+			fj_box_left    			= 1048
+			fj_box_top     			= 381  
+			fj_box_right   			= 1067
+			fj_box_bottom  			= 414  
+			fj_trap_detect			= 65
+			fj_flags	 			= 1
+			fj_vertex_0     		= 1053 + (413 << 16)    
+			fj_vertex_1     		= 1048 + (394 << 16)    
+			fj_vertex_2     		= 1060 + (381 << 16)    
+			fj_vertex_3     		= 1067 + (387 << 16)    
+			fj_vertex_4     		= 1066 + (400 << 16)
+			fj_vertex_5     		= 1061 + (413 << 16)    
+			fj_vertex_6     		= 1058 + (414 << 16) 
+			STR_VAR
+			fj_structure_type = container
+			fj_name           = ~CbCont02~
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 4 // stolen
+			fj_charge0		  = 1
+			STR_VAR
+			fj_name           = CBXTGBBB
+			fj_structure_type = itm
+		END
+	END
+//********************************************************  ~AR1002.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR1006 2*Container+2*Item
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR1006.ARE~ ~override~
+	READ_LONG  0x70  "cont_offset"
+	READ_SHORT 0x74  "cont_num"
+	SET info_1=1
+	FOR( cnt=0; cnt<"%cont_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
+		READ_ASCII ("%cont_offset%"+0xc0*cnt)       "cont_name"
+		PATCH_IF (("%cont_name%" STRING_COMPARE_CASE "CbCont01")=0) BEGIN  //if already exists
+			info_1=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN
+		LPF fj_are_structure
+			INT_VAR
+			fj_type        			= 2
+			fj_loc_x       			= 239
+			fj_loc_y       			= 585 
+			fj_box_left    			= 198
+			fj_box_top     			= 530 
+			fj_box_right   			= 247
+			fj_box_bottom  			= 576 
+			fj_trap_detect			= 36
+			fj_flags	 			= 1
+			fj_vertex_0     		= 212 + (576 << 16)    
+			fj_vertex_1     		= 247 + (554 << 16)    
+			fj_vertex_2     		= 247 + (541 << 16)    
+			fj_vertex_3     		= 232 + (530 << 16)    
+			fj_vertex_4     		= 198 + (553 << 16)
+			fj_vertex_5     		= 198 + (566 << 16)    
+			STR_VAR
+			fj_structure_type = container
+			fj_name           = ~CbCont01~
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 4 // stolen
+			fj_charge0		  = 1
+			STR_VAR
+			fj_name           = CBXTJEAA
+			fj_structure_type = itm
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_type        			= 3
+			fj_loc_x       			= 438
+			fj_loc_y       			= 440 
+			fj_box_left    			= 419
+			fj_box_top     			= 371 
+			fj_box_right   			= 485
+			fj_box_bottom  			= 435 
+			fj_trap_detect			= 54
+			fj_flags	 			= 1
+			fj_vertex_0     		= 469 + (435 << 16)    
+			fj_vertex_1     		= 485 + (422 << 16)    
+			fj_vertex_2     		= 485 + (406 << 16)    
+			fj_vertex_3     		= 435 + (371 << 16)    
+			fj_vertex_4     		= 419 + (383 << 16)
+			fj_vertex_5     		= 419 + (401 << 16)    
+			STR_VAR
+			fj_structure_type = container
+			fj_name           = ~CbCont02~
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 4 // stolen
+			fj_charge0		  = 1
+			STR_VAR
+			fj_name           = CBXTJEBB
+			fj_structure_type = itm
+		END
+	END
+//********************************************************  ~AR1006.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR0907 4*Container+4*Item
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR0907.ARE~ ~override~
+	READ_LONG  0x70  "cont_offset"
+	READ_SHORT 0x74  "cont_num"
+	SET info_1=1
+	FOR( cnt=0; cnt<"%cont_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
+		READ_ASCII ("%cont_offset%"+0xc0*cnt)       "cont_name"
+		PATCH_IF (("%cont_name%" STRING_COMPARE_CASE "CbCont01")=0) BEGIN  //if already exists
+			info_1=0
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN
+		LPF fj_are_structure
+			INT_VAR
+			fj_type        			= 5
+			fj_loc_x       			= 1874
+			fj_loc_y       			= 493  
+			fj_box_left    			= 1803
+			fj_box_top     			= 408  
+			fj_box_right   			= 1890
+			fj_box_bottom  			= 470  
+			fj_trap_detect			= 45
+			fj_flags	 			= 1
+			fj_vertex_0     		= 1803 + (443 << 16)    
+			fj_vertex_1     		= 1841 + (470 << 16)    
+			fj_vertex_2     		= 1890 + (437 << 16)    
+			fj_vertex_3     		= 1851 + (408 << 16)    
+			STR_VAR
+			fj_structure_type = container
+			fj_name           = ~CbCont01~
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 4 // stolen
+			fj_charge0		  = 1
+			STR_VAR
+			fj_name           = CBXTSHAA
+			fj_structure_type = itm
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_type        			= 8
+			fj_loc_x       			= 1678
+			fj_loc_y       			= 606  
+			fj_box_left    			= 1664
+			fj_box_top     			= 552  
+			fj_box_right   			= 1681
+			fj_box_bottom  			= 587  
+			fj_trap_detect			= 85
+			fj_flags	 			= 1
+			fj_vertex_0     		= 1664 + (587 << 16)    
+			fj_vertex_1     		= 1681 + (576 << 16)    
+			fj_vertex_2     		= 1681 + (552 << 16)    
+			fj_vertex_3     		= 1664 + (565 << 16)    
+			STR_VAR
+			fj_structure_type = container
+			fj_name           = ~CbCont02~
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 4 // stolen
+			fj_charge0		  = 1
+			STR_VAR
+			fj_name           = CBXTSHBB
+			fj_structure_type = itm
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_type        			= 5
+			fj_loc_x       			= 1818
+			fj_loc_y       			= 541  
+			fj_box_left    			= 1743
+			fj_box_top     			= 447  
+			fj_box_right   			= 1831
+			fj_box_bottom  			= 510  
+			fj_trap_detect			= 0
+			fj_flags	 			= 0
+			fj_vertex_0     		= 1743 + (482 << 16)    
+			fj_vertex_1     		= 1786 + (511 << 16)    
+			fj_vertex_2     		= 1831 + (475 << 16)    
+			fj_vertex_3     		= 1792 + (447 << 16)    
+			STR_VAR
+			fj_structure_type = container
+			fj_name           = ~CbCont03~
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 4 // stolen
+			fj_charge0		  = 24
+			STR_VAR
+			fj_name           = CBXTSHCC
+			fj_structure_type = itm
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_type        			= 2
+			fj_loc_x       			= 255 
+			fj_loc_y       			= 1163 
+			fj_box_left    			= 209  
+			fj_box_top     			= 1119  
+			fj_box_right   			= 247  
+			fj_box_bottom  			= 1162  
+			fj_trap_detect			= 78
+			fj_flags	 			= 1
+			fj_vertex_0     		= 209 + (1151 << 16)    
+			fj_vertex_1     		= 225 + (1162 << 16)    
+			fj_vertex_2     		= 247 + (1144 << 16)    
+			fj_vertex_3     		= 247 + (1131 << 16)    
+			fj_vertex_4     		= 243 + (1124 << 16)
+			fj_vertex_5     		= 238 + (1121 << 16)    
+			fj_vertex_6     		= 230 + (1119 << 16) 
+			fj_vertex_7				= 209 + (1136 << 16)
+			STR_VAR
+			fj_structure_type = container
+			fj_name           = ~CbCont04~
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+			fj_flags          = 4 // stolen
+			fj_charge0		  = 1
+			STR_VAR
+			fj_name           = CBXTSHDD
+			fj_structure_type = itm
+		END
+	END
+//********************************************************  ~AR0907.are~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AR0404.are	2*Triggers 1*Entrance
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+COPY_EXISTING ~AR0404.ARE~  ~override~
+	READ_SHORT 0x5a  "infotrig_num"
+	READ_LONG  0x5c  "infotrig_offset"
+	SET info_1=0
+	FOR( cnt=0; cnt<"%infotrig_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
+		READ_ASCII ("%infotrig_offset%"+0xc4*cnt)       "info_name"
+		PATCH_IF (("%info_name%" STRING_COMPARE_CASE "Door0406")=0) BEGIN
+			WRITE_ASCII ("%infotrig_offset%"+0xc4*cnt)      ~Door3576~
+			WRITE_ASCII ("%infotrig_offset%"+0xc4*cnt+0x38) ~AR3576~
+			WRITE_LONG  ("%infotrig_offset%"+0xc4*cnt+0x60) 0x00000104
+			info_1=1
+		END
+	END
+	PATCH_IF (info_1=1) BEGIN
+		LPF fj_are_structure
+			INT_VAR
+			fj_type         		= 1    						
+			fj_box_left     		= 521                      
+			fj_box_top      		= 26                       
+			fj_box_right    		= 765                      
+			fj_box_bottom   		= 253                      
+			fj_cursor_idx           = 22						
+			fj_info_point_strref    = RESOLVE_STR_REF (@218)  
+			fj_loc_x				= 798                      
+			fj_loc_y				= 350                      
+			fj_vertex_0     		= 521 + (133 << 16)   
+			fj_vertex_1     		= 599 + (253 << 16)   
+			fj_vertex_2     		= 765 + (137 << 16)   
+			fj_vertex_3     		= 693 + (26  << 16)   
+			STR_VAR                                             
+			fj_structure_type   = region                        
+			fj_name             = ~Info3576~               
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_type         		= 2    						
+			fj_box_left     		= 2462                      
+			fj_box_top      		= 995                      
+			fj_box_right    		= 2710                      
+			fj_box_bottom   		= 1296                     
+			fj_cursor_idx           = 28							
+			fj_flags                = 0x00000004                
+			fj_loc_x				= 2586                      
+			fj_loc_y				= 1145                      
+			fj_vertex_0     		= 2462 + (1064 << 16)  
+			fj_vertex_1     		= 2495 + (1150 << 16)  
+			fj_vertex_2     		= 2554 + (1195 << 16)  
+			fj_vertex_3     		= 2578 + (1239 << 16)  
+			fj_vertex_4     		= 2594 + (1252 << 16)  
+			fj_vertex_5     		= 2705 + (1255 << 16)
+			fj_vertex_6     		= 2710 + (1166 << 16)  
+			fj_vertex_7     		= 2463 + (995  << 16)  
+			STR_VAR                                             
+			fj_structure_type   = region                        
+			fj_name             = Trans0404                      
+			fj_destination_area	= AR0406                        
+			fj_destination_name = Exit0404                      
+		END
+		LPF fj_are_structure
+			INT_VAR
+			fj_loc_x       = 753 
+			fj_loc_y       = 246 
+			fj_orientation = 0
+			STR_VAR
+			fj_structure_type = entrance
+			fj_name           = Exit3576
+		END
+		LPF ALTER_AREA_ENTRANCE
+			INT_VAR 
+			x_coord = "2420"
+			y_coord = "1258"
+			STR_VAR 
+			entrance_name = "Exit0406"
+		END
+	END
+//********************************************************  ~AR0404.are~
+	
+COPY_EXISTING 	~AR0309.ARE~ ~override~
+				~AR0504.ARE~ ~override~
+				~AR0805.ARE~ ~override~
+				~AR0806.ARE~ ~override~
+				~AR0807.ARE~ ~override~
+				~AR0813.ARE~ ~override~
+    WRITE_ASCIIE 0x94 ~%SOURCE_RES%~ #8  //script
+ BUT_ONLY_IF_IT_CHANGES
+ 

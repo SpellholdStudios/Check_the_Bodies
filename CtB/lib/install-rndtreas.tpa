@@ -1,0 +1,533 @@
+COPY_EXISTING + ~SONGLIST.2DA~ ~override~ //just used as an external bracket for actions below
+ SET next_idx_scroll = 0    //next vacant 2DA row index
+ SET next_idx_weapon = 0    //----"----"----
+ SET next_idx_magic = 0     //----"----"----
+ SET next_idx_treas = 0     //----"----"----
+ SET next_idx_equip = 0     //----"----"----
+ SET available_scroll = 0   //a quantity of available free slots in 2DA
+ SET available_weapon = 0   //----"----"----
+ SET available_magic = 0    //----"----"----
+ SET available_treas = 0    //----"----"----
+ SET available_equip = 0    //----"----"----
+ SPRINT name_6 ""           //destination names for our random items
+ SPRINT name_7 ""
+ SPRINT name_8 ""
+ SPRINT name_9 ""
+ SPRINT name_10 ""
+ SPRINT name_11 ""
+ SPRINT name_12 ""
+ SPRINT name_13 ""
+ SPRINT name_14 ""
+ SET src_6 = 1      //1-RNDSCROL, 2-RNDWEP, 3-RNDMAGIC, 4-RNDTREAS, 5-RNDEQUIP
+ SET src_7 = 1      //these vars indicate where should we append our 2DA rows
+ SET src_8 = 1
+ SET src_9 = 1
+ SET src_10 = 1
+ SET src_11 = 1
+ SET src_12 = 1
+ SET src_13 = 1
+ SET src_14 = 1
+
+ INNER_ACTION BEGIN
+  //here we are obtaining starting vacant indexes and numbers of free slots from all 5 random tables
+  COPY_EXISTING + ~RNDSCROL.2DA~ ~override~
+                  ~RNDWEP.2DA~   ~override~
+                  ~RNDMAGIC.2DA~ ~override~
+                  ~RNDTREAS.2DA~ ~override~
+                  ~RNDEQUIP.2DA~ ~override~
+   SET rows=2
+   SET rows_prev=0
+   SET col_cnt=0
+   WHILE "%rows%">1 BEGIN
+     col_cnt += 1
+     rows_prev = rows
+     COUNT_2DA_ROWS col_cnt rows
+   END
+   col_cnt = col_cnt - 1
+
+   PATCH_IF( ("%SOURCE_RES%" STRING_COMPARE_CASE "RNDSCROL")=0 ) BEGIN
+     SET next_idx_scroll = rows_prev+1
+     PATCH_IF( next_idx_scroll<=9 ) BEGIN
+       SET available_scroll = 10 - next_idx_scroll
+     END
+   END
+   PATCH_IF( ("%SOURCE_RES%" STRING_COMPARE_CASE "RNDWEP")=0 ) BEGIN
+     SET next_idx_weapon = rows_prev+1
+     PATCH_IF( next_idx_weapon<=9 ) BEGIN
+       SET available_weapon = 10 - next_idx_weapon
+     END
+   END
+   PATCH_IF( ("%SOURCE_RES%" STRING_COMPARE_CASE "RNDMAGIC")=0 ) BEGIN
+     SET next_idx_magic = rows_prev+1
+     PATCH_IF( next_idx_magic<=9 ) BEGIN
+       SET available_magic = 10 - next_idx_magic
+     END
+   END
+   PATCH_IF( ("%SOURCE_RES%" STRING_COMPARE_CASE "RNDTREAS")=0 ) BEGIN
+     SET next_idx_treas = rows_prev+1
+     PATCH_IF( next_idx_treas<=9 ) BEGIN
+       SET available_treas = 10 - next_idx_treas
+     END
+   END
+   PATCH_IF( ("%SOURCE_RES%" STRING_COMPARE_CASE "RNDEQUIP")=0 ) BEGIN
+     SET next_idx_equip = rows_prev+1
+     PATCH_IF( next_idx_equip<=9 ) BEGIN
+       SET available_equip = 10 - next_idx_equip
+     END
+   END
+ END //INNER_ACTION
+
+
+ FOR(i=6; i<=14; i+=1) BEGIN    //it is RNDTRE06-14.ITM that need to be replaced with new names
+    //what item should we currently work with
+    PATCH_IF(i<10) BEGIN
+      SPRINT src_name "RNDTRE0%i%.ITM"
+    END
+    ELSE BEGIN
+      SPRINT src_name "RNDTRE%i%.ITM"
+    END
+    //now we need to determine where and under what name the item will go
+    PATCH_IF( available_scroll>0 ) BEGIN
+      SPRINT name "RNDSCR0%next_idx_scroll%.ITM"
+      SPRINT name_n "RNDSC_0%next_idx_scroll%"
+      SET next_idx_scroll = next_idx_scroll + 1
+      SET available_scroll = available_scroll - 1
+      PATCH_IF(i=6) BEGIN SET src_6 = 1 END
+      ELSE BEGIN PATCH_IF(i=7) BEGIN SET src_7 = 1 END
+      ELSE BEGIN PATCH_IF(i=8) BEGIN SET src_8 = 1 END
+      ELSE BEGIN PATCH_IF(i=9) BEGIN SET src_9 = 1 END
+      ELSE BEGIN PATCH_IF(i=10) BEGIN SET src_10 = 1 END
+      ELSE BEGIN PATCH_IF(i=11) BEGIN SET src_11 = 1 END
+      ELSE BEGIN PATCH_IF(i=12) BEGIN SET src_12 = 1 END
+      ELSE BEGIN PATCH_IF(i=13) BEGIN SET src_13 = 1 END
+      ELSE BEGIN PATCH_IF(i=14) BEGIN SET src_14 = 1 END END END END END END END END END
+    END
+    ELSE BEGIN PATCH_IF( available_weapon>0 ) BEGIN
+      SPRINT name "RNDWEP0%next_idx_weapon%.ITM"
+      SPRINT name_n "RNDWE_0%next_idx_weapon%"
+      SET next_idx_weapon = next_idx_weapon + 1
+      SET available_weapon = available_weapon - 1
+      PATCH_IF(i=6) BEGIN SET src_6 = 2 END
+      ELSE BEGIN PATCH_IF(i=7) BEGIN SET src_7 = 2 END
+      ELSE BEGIN PATCH_IF(i=8) BEGIN SET src_8 = 2 END
+      ELSE BEGIN PATCH_IF(i=9) BEGIN SET src_9 = 2 END
+      ELSE BEGIN PATCH_IF(i=10) BEGIN SET src_10 = 2 END
+      ELSE BEGIN PATCH_IF(i=11) BEGIN SET src_11 = 2 END
+      ELSE BEGIN PATCH_IF(i=12) BEGIN SET src_12 = 2 END
+      ELSE BEGIN PATCH_IF(i=13) BEGIN SET src_13 = 2 END
+      ELSE BEGIN PATCH_IF(i=14) BEGIN SET src_14 = 2 END END END END END END END END END
+    END
+    ELSE BEGIN PATCH_IF( available_magic>0 ) BEGIN
+      SPRINT name "RNDMAG0%next_idx_magic%.ITM"
+      SPRINT name_n "RNDMA_0%next_idx_magic%"
+      SET next_idx_magic = next_idx_magic + 1
+      SET available_magic = available_magic - 1
+      PATCH_IF(i=6) BEGIN SET src_6 = 3 END
+      ELSE BEGIN PATCH_IF(i=7) BEGIN SET src_7 = 3 END
+      ELSE BEGIN PATCH_IF(i=8) BEGIN SET src_8 = 3 END
+      ELSE BEGIN PATCH_IF(i=9) BEGIN SET src_9 = 3 END
+      ELSE BEGIN PATCH_IF(i=10) BEGIN SET src_10 = 3 END
+      ELSE BEGIN PATCH_IF(i=11) BEGIN SET src_11 = 3 END
+      ELSE BEGIN PATCH_IF(i=12) BEGIN SET src_12 = 3 END
+      ELSE BEGIN PATCH_IF(i=13) BEGIN SET src_13 = 3 END
+      ELSE BEGIN PATCH_IF(i=14) BEGIN SET src_14 = 3 END END END END END END END END END
+    END
+    ELSE BEGIN PATCH_IF( available_treas>0 ) BEGIN
+      SPRINT name "RNDTRE0%next_idx_treas%.ITM"
+      SPRINT name_n "RNDTR_0%next_idx_treas%"
+      SET next_idx_treas = next_idx_treas + 1
+      SET available_treas = available_treas - 1
+      PATCH_IF(i=6) BEGIN SET src_6 = 4 END
+      ELSE BEGIN PATCH_IF(i=7) BEGIN SET src_7 = 4 END
+      ELSE BEGIN PATCH_IF(i=8) BEGIN SET src_8 = 4 END
+      ELSE BEGIN PATCH_IF(i=9) BEGIN SET src_9 = 4 END
+      ELSE BEGIN PATCH_IF(i=10) BEGIN SET src_10 = 4 END
+      ELSE BEGIN PATCH_IF(i=11) BEGIN SET src_11 = 4 END
+      ELSE BEGIN PATCH_IF(i=12) BEGIN SET src_12 = 4 END
+      ELSE BEGIN PATCH_IF(i=13) BEGIN SET src_13 = 4 END
+      ELSE BEGIN PATCH_IF(i=14) BEGIN SET src_14 = 4 END END END END END END END END END
+    END
+    ELSE BEGIN PATCH_IF( available_equip>0 ) BEGIN
+      SPRINT name "RNDEQU0%next_idx_equip%.ITM"
+      SPRINT name_n "RNDEQ_0%next_idx_equip%"
+      SET next_idx_equip = next_idx_equip + 1
+      SET available_equip = available_equip - 1
+      PATCH_IF(i=6) BEGIN SET src_6 = 5 END
+      ELSE BEGIN PATCH_IF(i=7) BEGIN SET src_7 = 5 END
+      ELSE BEGIN PATCH_IF(i=8) BEGIN SET src_8 = 5 END
+      ELSE BEGIN PATCH_IF(i=9) BEGIN SET src_9 = 5 END
+      ELSE BEGIN PATCH_IF(i=10) BEGIN SET src_10 = 5 END
+      ELSE BEGIN PATCH_IF(i=11) BEGIN SET src_11 = 5 END
+      ELSE BEGIN PATCH_IF(i=12) BEGIN SET src_12 = 5 END
+      ELSE BEGIN PATCH_IF(i=13) BEGIN SET src_13 = 5 END
+      ELSE BEGIN PATCH_IF(i=14) BEGIN SET src_14 = 5 END END END END END END END END END
+    END
+    END //ELSE 4
+    END //ELSE 3
+    END //ELSE 2
+    END //ELSE 1
+
+    PATCH_PRINT "%src_name%"^" --> "^"%name%"
+
+    INNER_ACTION BEGIN
+      COPY ~CtB/items/rndtre/RNDTRE.ITM~ ~override/%name%~
+    END
+
+    PATCH_IF(i=6) BEGIN
+      SPRINT name_6 "%name_n%"
+    END
+    PATCH_IF(i=7) BEGIN
+      SPRINT name_7 "%name_n%"
+    END
+    PATCH_IF(i=8) BEGIN
+      SPRINT name_8 "%name_n%"
+    END
+    PATCH_IF(i=9) BEGIN
+      SPRINT name_9 "%name_n%"
+    END
+    PATCH_IF(i=10) BEGIN
+      SPRINT name_10 "%name_n%"
+    END
+    PATCH_IF(i=11) BEGIN
+      SPRINT name_11 "%name_n%"
+    END
+    PATCH_IF(i=12) BEGIN
+      SPRINT name_12 "%name_n%"
+    END
+    PATCH_IF(i=13) BEGIN
+      SPRINT name_13 "%name_n%"
+    END
+    PATCH_IF(i=14) BEGIN
+      SPRINT name_14 "%name_n%"
+    END
+  END  //FOR loop
+
+
+
+
+  INNER_ACTION BEGIN
+   //here we need to patch every appearance of old RNDTRE_ name with the new one
+   COPY_EXISTING ~AR3541.ARE~ ~override~
+              ~AR3542.ARE~ ~override~
+              ~AR3544.ARE~ ~override~
+              ~AR3545.ARE~ ~override~
+              ~AR3546.ARE~ ~override~
+              ~AR3547.ARE~ ~override~
+              ~AR3549.ARE~ ~override~
+              ~AR3551.ARE~ ~override~
+              ~AR3552.ARE~ ~override~
+              ~AR3553.ARE~ ~override~
+              ~AR3554.ARE~ ~override~
+              ~AR3556.ARE~ ~override~
+              ~AR3559.ARE~ ~override~
+              ~AR3610.ARE~ ~override~
+              ~AR3611.ARE~ ~override~
+              ~AR3613.ARE~ ~override~
+              ~AR3615.ARE~ ~override~
+              ~AR3616.ARE~ ~override~
+              ~AR3617.ARE~ ~override~
+              ~AR3620.ARE~ ~override~
+              ~AR3621.ARE~ ~override~
+              ~AR3622.ARE~ ~override~
+              ~AR3623.ARE~ ~override~
+              ~AR3624.ARE~ ~override~
+              ~AR3625.ARE~ ~override~
+              ~AR3626.ARE~ ~override~
+              ~AR3627.ARE~ ~override~
+              ~AR3628.ARE~ ~override~
+              ~AR3629.ARE~ ~override~
+              ~AR3630.ARE~ ~override~
+              ~AR3631.ARE~ ~override~
+              ~AR3632.ARE~ ~override~
+              ~AR3633.ARE~ ~override~
+              ~AR3634.ARE~ ~override~
+              ~AR3637.ARE~ ~override~
+              ~AR3638.ARE~ ~override~
+              ~AR3640.ARE~ ~override~
+              ~AR3641.ARE~ ~override~
+              ~AR3642.ARE~ ~override~
+              ~AR3643.ARE~ ~override~
+              ~AR3644.ARE~ ~override~
+              ~AR3645.ARE~ ~override~
+              ~AR3646.ARE~ ~override~
+              ~AR3647.ARE~ ~override~
+              ~AR3648.ARE~ ~override~
+              ~AR3649.ARE~ ~override~
+              ~AR3650.ARE~ ~override~
+              ~AR3652.ARE~ ~override~
+              ~AR3653.ARE~ ~override~
+
+              ~CB3651IN.CRE~ ~override~
+              ~CBGRDYUO.BCS~ ~override~
+              ~CBYT4446.BCS~ ~override~
+              ~CBYT4447.BCS~ ~override~
+
+              ~CBHLD00A.BCS~ ~override~
+              ~CBHLD00D.BCS~ ~override~
+              ~CBHLD00E.BCS~ ~override~
+
+              ~CBZOMB02.CRE~ ~override~
+              ~CBZOMBD2.CRE~ ~override~
+              ~CBZOMB04.SPL~ ~override~
+              ~CBZOMB07.BCS~ ~override~
+              ~CBZOMB08.BCS~ ~override~
+              ~CBZOMB0C.BCS~ ~override~
+
+      REPLACE_TEXTUALLY "RNDTRE14" "%name_14%"
+      REPLACE_TEXTUALLY "RNDTRE13" "%name_13%"
+      REPLACE_TEXTUALLY "RNDTRE12" "%name_12%"
+      REPLACE_TEXTUALLY "RNDTRE11" "%name_11%"
+      REPLACE_TEXTUALLY "RNDTRE10" "%name_10%"
+      REPLACE_TEXTUALLY "RNDTRE09" "%name_9%"
+      REPLACE_TEXTUALLY "RNDTRE08" "%name_8%"
+      REPLACE_TEXTUALLY "RNDTRE07" "%name_7%"
+      REPLACE_TEXTUALLY "RNDTRE06" "%name_6%"
+      REPLACE_TEXTUALLY "RNDSC_" "RNDSCR"
+      REPLACE_TEXTUALLY "RNDWE_" "RNDWEP"
+      REPLACE_TEXTUALLY "RNDMA_" "RNDMAG"
+      REPLACE_TEXTUALLY "RNDTR_" "RNDTRE"
+      REPLACE_TEXTUALLY "RNDEQ_" "RNDEQU"
+   BUT_ONLY_IF_IT_CHANGES
+END
+
+//now we only have to add new 2DA rows properly
+ACTION_IF( src_6=1 ) THEN BEGIN
+ APPEND ~RNDSCROL.2DA~  //21 columns
+ ~CTBRND01   POTN03   POTN05   POTN07   POTN09   POTN11   POTN13  POTN15  POTN17  POTN19   POTN21   POTN23   POTN25   POTN27   POTN29   POTN31   POTN33   POTN35   POTN37   POTN39  POTN39~
+END
+ELSE BEGIN
+ACTION_IF( src_6=2 ) THEN BEGIN
+ APPEND ~RNDWEP.2DA~   //21 columns
+ ~CTBRND01   POTN03   POTN05   POTN07   POTN09   POTN11   POTN13  POTN15  POTN17  POTN19   POTN21   POTN23   POTN25   POTN27   POTN29   POTN31   POTN33   POTN35   POTN37   POTN39  POTN39~
+END
+ELSE BEGIN
+ACTION_IF( src_6=3 ) THEN BEGIN
+ APPEND ~RNDMAGIC.2DA~ //20 columns
+ ~CTBRND01   POTN03   POTN05   POTN07   POTN09   POTN11   POTN13  POTN15  POTN17  POTN19   POTN21   POTN23   POTN25   POTN27   POTN29   POTN31   POTN33   POTN35   POTN37   POTN39~
+END
+ELSE BEGIN
+ACTION_IF( src_6=4 ) THEN BEGIN
+ APPEND ~RNDTREAS.2DA~  //20 columns
+ ~CTBRND01   POTN03   POTN05   POTN07   POTN09   POTN11   POTN13  POTN15  POTN17  POTN19   POTN21   POTN23   POTN25   POTN27   POTN29   POTN31   POTN33   POTN35   POTN37   POTN39~
+END
+ELSE BEGIN
+ACTION_IF( src_6=5 ) THEN BEGIN
+ APPEND ~RNDEQUIP.2DA~  //21 columns
+ ~CTBRND01   POTN03   POTN05   POTN07   POTN09   POTN11   POTN13  POTN15  POTN17  POTN19   POTN21   POTN23   POTN25   POTN27   POTN29   POTN31   POTN33   POTN35   POTN37   POTN39  POTN39~
+END END END END END
+
+
+
+ACTION_IF( src_7=1 ) THEN BEGIN
+ APPEND ~RNDSCROL.2DA~  //21 columns
+ ~CTBRND02   SCRL1B   SCRL6F   SCRL5K   SCRL6R   SCRL7U   SCRL8W  SCRL9Z  SCRLAR  SCRL9Q   SCRL8N   SCRL7K   SCRL6I   SCRL5B   SCRL2E   SCRL10   SCRL15   SCRL8G   SCRL5G   SCRL6N  SCRL6N~
+END
+ELSE BEGIN
+ACTION_IF( src_7=2 ) THEN BEGIN
+ APPEND ~RNDWEP.2DA~   //21 columns
+ ~CTBRND02   SCRL1B   SCRL6F   SCRL5K   SCRL6R   SCRL7U   SCRL8W  SCRL9Z  SCRLAR  SCRL9Q   SCRL8N   SCRL7K   SCRL6I   SCRL5B   SCRL2E   SCRL10   SCRL15   SCRL8G   SCRL5G   SCRL6N  SCRL6N~
+END
+ELSE BEGIN
+ACTION_IF( src_7=3 ) THEN BEGIN
+ APPEND ~RNDMAGIC.2DA~ //20 columns
+ ~CTBRND02   SCRL1B   SCRL6F   SCRL5K   SCRL6R   SCRL7U   SCRL8W  SCRL9Z  SCRLAR  SCRL9Q   SCRL8N   SCRL7K   SCRL6I   SCRL5B   SCRL2E   SCRL10   SCRL15   SCRL8G   SCRL5G   SCRL6N~
+END
+ELSE BEGIN
+ACTION_IF( src_7=4 ) THEN BEGIN
+ APPEND ~RNDTREAS.2DA~  //20 columns
+ ~CTBRND02   SCRL1B   SCRL6F   SCRL5K   SCRL6R   SCRL7U   SCRL8W  SCRL9Z  SCRLAR  SCRL9Q   SCRL8N   SCRL7K   SCRL6I   SCRL5B   SCRL2E   SCRL10   SCRL15   SCRL8G   SCRL5G   SCRL6N~
+END
+ELSE BEGIN
+ACTION_IF( src_7=5 ) THEN BEGIN
+ APPEND ~RNDEQUIP.2DA~  //21 columns
+ ~CTBRND02   SCRL1B   SCRL6F   SCRL5K   SCRL6R   SCRL7U   SCRL8W  SCRL9Z  SCRLAR  SCRL9Q   SCRL8N   SCRL7K   SCRL6I   SCRL5B   SCRL2E   SCRL10   SCRL15   SCRL8G   SCRL5G   SCRL6N  SCRL6N~
+END END END END END
+
+
+
+ACTION_IF( src_8=1 ) THEN BEGIN
+ APPEND ~RNDSCROL.2DA~  //21 columns
+ ~CTBRND03   RING06   RING21   RING27   RING34   WAND03   WAND06  WAND11  RODS03  AMUL08   BELT09   BOOK05   BRAC09   POTN55   001      002      003      004      005      006     007~
+END
+ELSE BEGIN
+ACTION_IF( src_8=2 ) THEN BEGIN
+ APPEND ~RNDWEP.2DA~   //21 columns
+ ~CTBRND03   RING06   RING21   RING27   RING34   WAND03   WAND06  WAND11  RODS03  AMUL08   BELT09   BOOK05   BRAC09   POTN55   001      002      003      004      005      006     007~
+END
+ELSE BEGIN
+ACTION_IF( src_8=3 ) THEN BEGIN
+ APPEND ~RNDMAGIC.2DA~ //20 columns
+ ~CTBRND03   RING06   RING21   RING27   RING34   WAND03   WAND06  WAND11  RODS03  AMUL08   BELT09   BOOK05   BRAC09   POTN55   001      002      003      004      005      006~
+END
+ELSE BEGIN
+ACTION_IF( src_8=4 ) THEN BEGIN
+ APPEND ~RNDTREAS.2DA~  //20 columns
+ ~CTBRND03   RING06   RING21   RING27   RING34   WAND03   WAND06  WAND11  RODS03  AMUL08   BELT09   BOOK05   BRAC09   POTN55   001      002      003      004      005      006~
+END
+ELSE BEGIN
+ACTION_IF( src_8=5 ) THEN BEGIN
+ APPEND ~RNDEQUIP.2DA~  //21 columns
+ ~CTBRND03   RING06   RING21   RING27   RING34   WAND03   WAND06  WAND11  RODS03  AMUL08   BELT09   BOOK05   BRAC09   POTN55   001      002      003      004      005      006     007~
+END END END END END
+
+
+
+ACTION_IF( src_9=1 ) THEN BEGIN
+ APPEND ~RNDSCROL.2DA~  //21 columns
+ ~CTBRND04   MISC19   MISC20   MISC22   MISC24   MISC26   MISC29  MISC30  MISC36  MISC45   LEAT01   PLAT01   HELM08   BRAC03   SHLD08   HELM19   HELM13   PLAT05   LEAT15   CHAN21  CHAN21~
+END
+ELSE BEGIN
+ACTION_IF( src_9=2 ) THEN BEGIN
+ APPEND ~RNDWEP.2DA~   //21 columns
+ ~CTBRND04   MISC19   MISC20   MISC22   MISC24   MISC26   MISC29  MISC30  MISC36  MISC45   LEAT01   PLAT01   HELM08   BRAC03   SHLD08   HELM19   HELM13   PLAT05   LEAT15   CHAN21  CHAN21~
+END
+ELSE BEGIN
+ACTION_IF( src_9=3 ) THEN BEGIN
+ APPEND ~RNDMAGIC.2DA~ //20 columns
+ ~CTBRND04   MISC19   MISC20   MISC22   MISC24   MISC26   MISC29  MISC30  MISC36  MISC45   LEAT01   PLAT01   HELM08   BRAC03   SHLD08   HELM19   HELM13   PLAT05   LEAT15   CHAN21~
+END
+ELSE BEGIN
+ACTION_IF( src_9=4 ) THEN BEGIN
+ APPEND ~RNDTREAS.2DA~  //20 columns
+ ~CTBRND04   MISC19   MISC20   MISC22   MISC24   MISC26   MISC29  MISC30  MISC36  MISC45   LEAT01   PLAT01   HELM08   BRAC03   SHLD08   HELM19   HELM13   PLAT05   LEAT15   CHAN21~
+END
+ELSE BEGIN
+ACTION_IF( src_9=5 ) THEN BEGIN
+ APPEND ~RNDEQUIP.2DA~  //21 columns
+ ~CTBRND04   MISC19   MISC20   MISC22   MISC24   MISC26   MISC29  MISC30  MISC36  MISC45   LEAT01   PLAT01   HELM08   BRAC03   SHLD08   HELM19   HELM13   PLAT05   LEAT15   CHAN21  CHAN21~
+END END END END END
+
+
+
+ACTION_IF( src_10=1 ) THEN BEGIN
+ APPEND ~RNDSCROL.2DA~  //21 columns
+ ~CTBRND05   HELM15   MISC18   MISC56   MISC7R   HALB10   BRAC25  HELM15  MISC18  MISC56   HELM10   SHLD01   BRAC15   CHAN02   XBOW08   LEAT01   SHLD15   HELM09   SHLD23   SHLD12  SHLD12~
+END
+ELSE BEGIN
+ACTION_IF( src_10=2 ) THEN BEGIN
+ APPEND ~RNDWEP.2DA~   //21 columns
+ ~CTBRND05   HELM15   MISC18   MISC56   MISC7R   HALB10   BRAC25  HELM15  MISC18  MISC56   HELM10   SHLD01   BRAC15   CHAN02   XBOW08   LEAT01   SHLD15   HELM09   SHLD23   SHLD12  SHLD12~
+END
+ELSE BEGIN
+ACTION_IF( src_10=3 ) THEN BEGIN
+ APPEND ~RNDMAGIC.2DA~ //20 columns
+ ~CTBRND05   HELM15   MISC18   MISC56   MISC7R   HALB10   BRAC25  HELM15  MISC18  MISC56   HELM10   SHLD01   BRAC15   CHAN02   XBOW08   LEAT01   SHLD15   HELM09   SHLD23   SHLD12~
+END
+ELSE BEGIN
+ACTION_IF( src_10=4 ) THEN BEGIN
+ APPEND ~RNDTREAS.2DA~  //20 columns
+ ~CTBRND05   HELM15   MISC18   MISC56   MISC7R   HALB10   BRAC25  HELM15  MISC18  MISC56   HELM10   SHLD01   BRAC15   CHAN02   XBOW08   LEAT01   SHLD15   HELM09   SHLD23   SHLD12~
+END
+ELSE BEGIN
+ACTION_IF( src_10=5 ) THEN BEGIN
+ APPEND ~RNDEQUIP.2DA~  //21 columns
+ ~CTBRND05   HELM15   MISC18   MISC56   MISC7R   HALB10   BRAC25  HELM15  MISC18  MISC56   HELM10   SHLD01   BRAC15   CHAN02   XBOW08   LEAT01   SHLD15   HELM09   SHLD23   SHLD12  SHLD12~
+END END END END END
+
+
+
+ACTION_IF( src_11=1 ) THEN BEGIN
+ APPEND ~RNDSCROL.2DA~  //21 columns
+ ~CTBRND06   MISC56   SW1H70   MISC57   SHLD31   MISC58   BOOT01  MISC59  HELM15  MISC18   MISC56   SHLD18   CHAN05   PLAT08   PLAT01   HELM11   SHLD04   CLCK31   SHLD03   HELM12  HELM12~
+END
+ELSE BEGIN
+ACTION_IF( src_11=2 ) THEN BEGIN
+ APPEND ~RNDWEP.2DA~   //21 columns
+ ~CTBRND06   MISC56   SW1H70   MISC57   SHLD31   MISC58   BOOT01  MISC59  HELM15  MISC18   MISC56   SHLD18   CHAN05   PLAT08   PLAT01   HELM11   SHLD04   CLCK31   SHLD03   HELM12  HELM12~
+END
+ELSE BEGIN
+ACTION_IF( src_11=3 ) THEN BEGIN
+ APPEND ~RNDMAGIC.2DA~ //20 columns
+ ~CTBRND06   MISC56   SW1H70   MISC57   SHLD31   MISC58   BOOT01  MISC59  HELM15  MISC18   MISC56   SHLD18   CHAN05   PLAT08   PLAT01   HELM11   SHLD04   CLCK31   SHLD03   HELM12~
+END
+ELSE BEGIN
+ACTION_IF( src_11=4 ) THEN BEGIN
+ APPEND ~RNDTREAS.2DA~  //20 columns
+ ~CTBRND06   MISC56   SW1H70   MISC57   SHLD31   MISC58   BOOT01  MISC59  HELM15  MISC18   MISC56   SHLD18   CHAN05   PLAT08   PLAT01   HELM11   SHLD04   CLCK31   SHLD03   HELM12~
+END
+ELSE BEGIN
+ACTION_IF( src_11=5 ) THEN BEGIN
+ APPEND ~RNDEQUIP.2DA~  //21 columns
+ ~CTBRND06   MISC56   SW1H70   MISC57   SHLD31   MISC58   BOOT01  MISC59  HELM15  MISC18   MISC56   SHLD18   CHAN05   PLAT08   PLAT01   HELM11   SHLD04   CLCK31   SHLD03   HELM12  HELM12~
+END END END END END
+
+
+
+ACTION_IF( src_12=1 ) THEN BEGIN
+ APPEND ~RNDSCROL.2DA~  //21 columns
+ ~CTBRND07   STAF01   AX1H17   BLUN07   SPER01   HALB01   AX1H03  HAMM02  DAGG01  SW2H11   HALB07   SW1H73   SW1H01   BOW01    AX1H03   BLUN07   SPER01   STAF18   BLUN02   SW2H11  SW2H11~
+END
+ELSE BEGIN
+ACTION_IF( src_12=2 ) THEN BEGIN
+ APPEND ~RNDWEP.2DA~   //21 columns
+ ~CTBRND07   STAF01   AX1H17   BLUN07   SPER01   HALB01   AX1H03  HAMM02  DAGG01  SW2H11   HALB07   SW1H73   SW1H01   BOW01    AX1H03   BLUN07   SPER01   STAF18   BLUN02   SW2H11  SW2H11~
+END
+ELSE BEGIN
+ACTION_IF( src_12=3 ) THEN BEGIN
+ APPEND ~RNDMAGIC.2DA~ //20 columns
+ ~CTBRND07   STAF01   AX1H17   BLUN07   SPER01   HALB01   AX1H03  HAMM02  DAGG01  SW2H11   HALB07   SW1H73   SW1H01   BOW01    AX1H03   BLUN07   SPER01   STAF18   BLUN02   SW2H11~
+END
+ELSE BEGIN
+ACTION_IF( src_12=4 ) THEN BEGIN
+ APPEND ~RNDTREAS.2DA~  //20 columns
+ ~CTBRND07   STAF01   AX1H17   BLUN07   SPER01   HALB01   AX1H03  HAMM02  DAGG01  SW2H11   HALB07   SW1H73   SW1H01   BOW01    AX1H03   BLUN07   SPER01   STAF18   BLUN02   SW2H11~
+END
+ELSE BEGIN
+ACTION_IF( src_12=5 ) THEN BEGIN
+ APPEND ~RNDEQUIP.2DA~  //21 columns
+ ~CTBRND07   STAF01   AX1H17   BLUN07   SPER01   HALB01   AX1H03  HAMM02  DAGG01  SW2H11   HALB07   SW1H73   SW1H01   BOW01    AX1H03   BLUN07   SPER01   STAF18   BLUN02   SW2H11  SW2H11~
+END END END END END
+
+
+
+ACTION_IF( src_13=1 ) THEN BEGIN
+ APPEND ~RNDSCROL.2DA~  //21 columns
+ ~CTBRND08   BLUN02   BOW05    AX1H03   STAF01   SW1H02   SPER01  SW1H07  BOW01   BOW05    SW2H11   BLUN07   BOW25    DAGG01   BLUN02   BOW05    SW1H05   SPER01   SW1H08   HALB01  HALB01~
+END
+ELSE BEGIN
+ACTION_IF( src_13=2 ) THEN BEGIN
+ APPEND ~RNDWEP.2DA~   //21 columns
+ ~CTBRND08   BLUN02   BOW05    AX1H03   STAF01   SW1H02   SPER01  SW1H07  BOW01   BOW05    SW2H11   BLUN07   BOW25    DAGG01   BLUN02   BOW05    SW1H05   SPER01   SW1H08   HALB01  HALB01~
+END
+ELSE BEGIN
+ACTION_IF( src_13=3 ) THEN BEGIN
+ APPEND ~RNDMAGIC.2DA~ //20 columns
+ ~CTBRND08   BLUN02   BOW05    AX1H03   STAF01   SW1H02   SPER01  SW1H07  BOW01   BOW05    SW2H11   BLUN07   BOW25    DAGG01   BLUN02   BOW05    SW1H05   SPER01   SW1H08   HALB01~
+END
+ELSE BEGIN
+ACTION_IF( src_13=4 ) THEN BEGIN
+ APPEND ~RNDTREAS.2DA~  //20 columns
+ ~CTBRND08   BLUN02   BOW05    AX1H03   STAF01   SW1H02   SPER01  SW1H07  BOW01   BOW05    SW2H11   BLUN07   BOW25    DAGG01   BLUN02   BOW05    SW1H05   SPER01   SW1H08   HALB01~
+END
+ELSE BEGIN
+ACTION_IF( src_13=5 ) THEN BEGIN
+ APPEND ~RNDEQUIP.2DA~  //21 columns
+ ~CTBRND08   BLUN02   BOW05    AX1H03   STAF01   SW1H02   SPER01  SW1H07  BOW01   BOW05    SW2H11   BLUN07   BOW25    DAGG01   BLUN02   BOW05    SW1H05   SPER01   SW1H08   HALB01  HALB01~
+END END END END END
+
+
+
+ACTION_IF( src_14=1 ) THEN BEGIN
+ APPEND ~RNDSCROL.2DA~  //21 columns
+ ~CTBRND09   SW2H20   DAGG01   SW2H11   BOW01    SW1H04   BLUN32  DAGG24  HAMM12  BLUN02   SPER01   BOW05    AX1H03   STAF01   HALB01   SW2H11   SPER06   DAGG01   HAMM02   BLUN07  BLUN07~
+END
+ELSE BEGIN
+ACTION_IF( src_14=2 ) THEN BEGIN
+ APPEND ~RNDWEP.2DA~   //21 columns
+ ~CTBRND09   SW2H20   DAGG01   SW2H11   BOW01    SW1H04   BLUN32  DAGG24  HAMM12  BLUN02   SPER01   BOW05    AX1H03   STAF01   HALB01   SW2H11   SPER06   DAGG01   HAMM02   BLUN07  BLUN07~
+END
+ELSE BEGIN
+ACTION_IF( src_14=3 ) THEN BEGIN
+ APPEND ~RNDMAGIC.2DA~ //20 columns
+ ~CTBRND09   SW2H20   DAGG01   SW2H11   BOW01    SW1H04   BLUN32  DAGG24  HAMM12  BLUN02   SPER01   BOW05    AX1H03   STAF01   HALB01   SW2H11   SPER06   DAGG01   HAMM02   BLUN07~
+END
+ELSE BEGIN
+ACTION_IF( src_14=4 ) THEN BEGIN
+ APPEND ~RNDTREAS.2DA~  //20 columns
+ ~CTBRND09   SW2H20   DAGG01   SW2H11   BOW01    SW1H04   BLUN32  DAGG24  HAMM12  BLUN02   SPER01   BOW05    AX1H03   STAF01   HALB01   SW2H11   SPER06   DAGG01   HAMM02   BLUN07~
+END
+ELSE BEGIN
+ACTION_IF( src_14=5 ) THEN BEGIN
+ APPEND ~RNDEQUIP.2DA~  //21 columns
+ ~CTBRND09   SW2H20   DAGG01   SW2H11   BOW01    SW1H04   BLUN32  DAGG24  HAMM12  BLUN02   SPER01   BOW05    AX1H03   STAF01   HALB01   SW2H11   SPER06   DAGG01   HAMM02   BLUN07  BLUN07~
+END END END END END
