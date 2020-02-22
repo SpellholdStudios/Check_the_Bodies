@@ -13,12 +13,14 @@
 
 **Author:** Charles Bisson  
 **Mod Website:** <a href="hhttp://www.spellholdstudios.net/ie/ctb">Spellhold Studios</a>  
-**Mod Forum:** <a href="http://www.shsforums.net/forum/196-check-the-bodies/>Check The Bodies</a>  
+**Mod Forum:** <a href="http://www.shsforums.net/forum/196-check-the-bodies/">Check The Bodies</a>  
+
 
 [Read the mod's readme](http://spellholdstudios.github.io/readmes/ctb-readme-english.html).
 
 [Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/58-check-the-bodies-v113/).<br>
 
+&nbsp;
 
 <div align="center">
 <a href="#intro">Overview</a> &#8226; <a href="#compat">Compatibility</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#components">Components</a> &#8226; <a href="#credits">Credits and Acknowledgements</a> &#8226; <a href="#versions">Version History</a></br>
@@ -165,7 +167,7 @@ This component patches the main component with some improvements:
 
 **Original author:** <a href="http://www.shsforums.net/user/3378-cbisson/">Charles Bisson</a>  
 **Candlekeep Chores Fast Forward:** <a href="http://www.shsforums.net/user/24-hlidskialf/">hlidskialf</a>  
-**Coders:** Charles Bisson (original installer), <a href="http://www.shsforums.net/user/3816-king-diamond/">King Diamond </a>(WeiDU revision), Ikki (EE Conversion) and <a href="http://www.shsforums.net/user/3958-weigo/">Weigo</a> (all in one)  
+**Coders:** Charles Bisson (original installer), <a href="http://www.shsforums.net/user/3816-king-diamond/">King Diamond </a>(WeiDU revision), <a href="http://www.shsforums.net/user/7223-ikki/">Ikky</a> (EE Conversion) and <a href="http://www.shsforums.net/user/3958-weigo/">Weigo</a> (all in one)  
 
 
 #### Special Acknowledgements to:
