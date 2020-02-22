@@ -3,7 +3,8 @@ BACKUP ~CtB/backup~
 //AUTHOR ~Charles Bisson, King Diamond (revision) Ikki (EE Conversion)  Weigo (all in one)~  NO_IF_EVAL_BUG
 SUPPORT ~http://www.shsforums.net or https://github.com/SpellholdStudios~ NO_IF_EVAL_BUG
 
-README ~CtB/text/CtB-Readme.txt~
+README ~ctb/text/ctb-readme-%LANGUAGE%.html~ ~ctb/text/ctb-readme-readme-english.html~
+
 VERSION ~3.0~
 
 AUTO_TRA ~CtB/Language/%s~
@@ -89,30 +90,38 @@ LANGUAGE ~English~
 	 ~english~
 	 ~CtB/Language/English/wsetup.tra~
      ~CtB/Language/English/script.tra~
-LANGUAGE ~Russian~
+
+LANGUAGE ~Russian (translation by aerie-ru.info team)~
 	 ~russian~
 	 ~CtB/Language/Russian/wsetup.tra~
      ~CtB/Language/Russian/script.tra~
-LANGUAGE ~French~
+
+LANGUAGE ~French (Traduction : Les d'Oghmatiques)~
 	 ~french~
 	 ~CtB/Language/French/wsetup.tra~
      ~CtB/Language/French/script.tra~
-LANGUAGE ~Italian~
+
+LANGUAGE ~Italiano (traduzione di Ilot, Arcangelo, Andrea C.)~
 	 ~italian~
 	 ~CtB/Language/Italian/wsetup.tra~
      ~CtB/Language/Italian/script.tra~
-LANGUAGE ~German~
+
+LANGUAGE ~Deutsch (Uebersetzung von Leonardo Watson)~
 	 ~german~
 	 ~CtB/Language/German/wsetup.tra~
      ~CtB/Language/German/script.tra~
 
-LANGUAGE ~Castellano (clan REO)~
+LANGUAGE ~Espanol (traduccion por clan REO)~
 	 ~Spanish~
 	 ~CtB/Language/Spanish/wsetup.tra~
      ~CtB/Language/Spanish/script.tra~
 
 
+/* =================================== *
+ *  Check The Bodies : main component  *
+ * =================================== */
 BEGIN ~Check The Bodies~
+DESIGNATED 0 LABEL ~check_the_bodies~
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	COPY + ~Setup-CtB.exe~ ~WeiDU.exe~
@@ -275,31 +284,31 @@ PRINT ~Dealing with TOOLTIP.2DA ...~
 
 INCLUDE ~CtB/lib/tooltip.tpa~
 
-LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBWTNI3a~ tooltips = ~12048 12072 13073 07571 25934 32393 25960 25944 7783 23358~ END
-LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBMALR1a~ tooltips = ~26799 26465 20935 20853 23726 40271 29743 29744~ END
-LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBMALR2a~ tooltips = ~@146 38596 2445 25633~ END
-LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBMALR4a~ tooltips = ~@147 @148 @149~ END
-LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBMALR6a~ tooltips = ~@150 @151~ END
-LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBCWSTFF~ tooltips = ~@650271 12017~ END
-LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBMTDGME~ tooltips = ~@153 12016~ END
-LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBCHAUNT~ tooltips = ~@661025~ END
-LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBCYRICx~ tooltips = ~22185 12072 49073~ END
-LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CB2HCONV~ tooltips = ~@650007 7619~ END
-LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBBK7521~ tooltips = ~12089~ END
-LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBBK7526~ tooltips = ~12121~ END
-LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBBK7534~ tooltips = ~12083~ END
-LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBBK7535~ tooltips = ~@253~ END
-LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBBK7537~ tooltips = ~12108~ END
-LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBBK7538~ tooltips = ~12090~ END
-LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBDGCONV~ tooltips = ~@650007 7619~ END
-LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBDRDSWD~ tooltips = ~@650284 12094 12026 8786 @32~ END
-LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBGEMSEE~ tooltips = ~25633~ END
-LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBHLD001~ tooltips = ~25937 12021~ END
-LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBHLD002~ tooltips = ~25875~ END
-LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBLSCONV~ tooltips = ~@650007 7619~ END
-LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBMSCONV~ tooltips = ~@650007 7619~ END
-LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBNRTSTF~ tooltips = ~@650451 12089~ END
-LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBXTLTcc~ tooltips = ~12116~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBWTNI3a~ tooltips = ~12048 12072 13073 07571 25934 32393 25960 25944 7783 23358~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBMALR1a~ tooltips = ~26799 26465 20935 20853 23726 40271 29743 29744~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBMALR2a~ tooltips = ~@146 38596 2445 25633~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBMALR4a~ tooltips = ~@147 @148 @149~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBMALR6a~ tooltips = ~@150 @151~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBCWSTFF~ tooltips = ~@650271 12017~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBMTDGME~ tooltips = ~@153 12016~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBCHAUNT~ tooltips = ~@661025~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBCYRICx~ tooltips = ~22185 12072 49073~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CB2HCONV~ tooltips = ~@650007 7619~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBBK7521~ tooltips = ~12089~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBBK7526~ tooltips = ~12121~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBBK7534~ tooltips = ~12083~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBBK7535~ tooltips = ~@253~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBBK7537~ tooltips = ~12108~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBBK7538~ tooltips = ~12090~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBDGCONV~ tooltips = ~@650007 7619~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBDRDSWD~ tooltips = ~@650284 12094 12026 8786 @32~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBGEMSEE~ tooltips = ~25633~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBHLD001~ tooltips = ~25937 12021~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBHLD002~ tooltips = ~25875~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBLSCONV~ tooltips = ~@650007 7619~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBMSCONV~ tooltips = ~@650007 7619~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBNRTSTF~ tooltips = ~@650451 12089~ END
+LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBXTLTcc~ tooltips = ~12116~ END
 
 APPEND ~TRACKING.2DA~
 ~AR3534     450500
@@ -723,8 +732,7 @@ EXTEND_BOTTOM ~AR0400.bcs~ ~CtB/scripts/append/aptp0400.BAF~  EVALUATE_BUFFER //
 EXTEND_BOTTOM ~AR0404.bcs~ ~CtB/scripts/append/apbt0404.BAF~ EVALUATE_BUFFER
 EXTEND_TOP    ~AR0406.bcs~ ~CtB/scripts/append/aptp0406.BAF~ EVALUATE_BUFFER
 // bonus merchant
-ACTION_IF NOT ((FILE_EXISTS ~data/TS-RULE.BIF~) OR (FILE_EXISTS ~override/tdd.mrk~) OR (FILE_EXISTS ~override/TDD-RULE.BIF~)) THEN 
-BEGIN
+ACTION_IF NOT ((FILE_EXISTS ~data/TS-RULE.BIF~) OR (FILE_EXISTS ~override/tdd.mrk~) OR (FILE_EXISTS ~override/TDD-RULE.BIF~)) BEGIN
   EXTEND_BOTTOM ~AR0406.bcs~ ~CtB/scripts/append/apbt0406.BAF~ EVALUATE_BUFFER //WMART1
 END
 EXTEND_TOP    ~AR0500.bcs~ ~CtB/scripts/append/aptp0500.BAF~ EVALUATE_BUFFER
@@ -810,7 +818,7 @@ PRINT ~Patching original BG2 creatures...~
 
 INCLUDE ~%MOD_FOLDER%/lib/install-cre.tpa~
 
- //***********************************************************
+//***********************************************************
 //  Animations
 //***********************************************************
 
@@ -1345,16 +1353,16 @@ ACTION_IF GAME_IS ~eet~ BEGIN
 END
 
 //////////////////////////////
-//Adding music
+// Adding music
 //////////////////////////////
 PRINT ~Registering CtB music themes...~
 
 INCLUDE ~%MOD_FOLDER%/lib/install-music-%engine%.tpa~
 
 
-//////////////////////////////
+/////////////////////////////////
 // Installing tileset and audio
-//////////////////////////////
+/////////////////////////////////
 MKDIR ~CtB/language/%LANGUAGE%/ogg1~
 
 ACTION_BASH_FOR ~CtB/language/english/ogg1~ ~^.+\.ogg$~ BEGIN
@@ -1390,9 +1398,9 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 END
 
 
-//////////////////////////////
+////////////////////////////////////////////
 // fixing missing AR3675.ARE Ambient sound
-//////////////////////////////
+////////////////////////////////////////////
 
 //COPY_EXISTING ~AM1700.WAV~ ~override/AM3675.WAV~
 //COPY_EXISTING ~AM1700N.WAV~ ~override/AM3675N.WAV~
@@ -1453,11 +1461,13 @@ COPY_EXISTING ~misc01.itm~ ~override/ctb.mrk~
 //////////////////////////////
 INCLUDE ~%MOD_FOLDER%/lib/cheat_var.tph~
 
-//***********************************************************************************
-// Candlekeep Chores component
-//***********************************************************************************
+
+/* ============================= *
+ *  Candlekeep Chores component  *
+ * ============================= */
 BEGIN ~Candlekeep Chores~
-REQUIRE_COMPONENT "Setup-CtB.tp2"      "0"  ~Check tthe Bodies main component is needed for this component.~
+DESIGNATED 1 LABEL ~ctb_candlekeep_chores~
+REQUIRE_COMPONENT "Setup-CtB.tp2"      "0"  ~Check the Bodies main component is needed for this component.~
 //REQUIRE_PREDICATE (!GAME_IS ~bg2ee eet~) ~Not for EET and BG2EE~
 
 ACTION_IF GAME_IS ~soa tob~ BEGIN
@@ -1890,24 +1900,25 @@ END
 //////////////////////////////
 INCLUDE ~%MOD_FOLDER%/lib/cheat_var_chores.tph~
 
-//***********************************************************************************
-// Candlekeep Chores Fast Forward
-//***********************************************************************************
+
+/* ================================ *
+ *  Candlekeep Chores Fast Forward  *
+  *================================ */
 BEGIN ~Candlekeep Chores Fast Forward (for CtB v2.2 or later)~
+DESIGNATED 2 LABEL ~ctb_candlekeep_chores_ff~
 REQUIRE_COMPONENT "Setup-CtB.tp2"      "1"  ~You must have Candlekeep Chores v2.2 (or later) installed~
 
 COMPILE ~CtB/CtB_FF/CtB_FF.d~
 
-//***********************************************************************************
-// CtB other improvements
-//***********************************************************************************
+/* ======================== *
+ *  CtB other improvements  *
+ * ======================== */
 BEGIN ~Other Improvements~
+DESIGNATED 3 LABEL ~ctb_improvements~
 REQUIRE_COMPONENT "Setup-CtB.tp2"      "0"  ~Check the Bodies main component is needed for this component.~
 
-
-
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
-//AR0404.are	Change the entrances to the original position
+// AR0404.are	Change the entrances to the original position
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 PRINT ~Change the entrances to the original position AR0404.are~
 COPY_EXISTING ~AR0404.ARE~  ~override~
@@ -2011,7 +2022,7 @@ COPY_EXISTING ~AR0404.ARE~  ~override~
 	END
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
-//Change Yusef's name to Yassir, because Yusef is Surayas brother
+// Change Yusef's name to Yassir, because Yusef is Surayas brother
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 PRINT ~Change Yusef's name to Yassir, because Yusef is Surayas brother~
 
@@ -2050,9 +2061,9 @@ COPY_EXISTING ~AR0504.BCS~ ~override~
 						   ActionOverride("CBYUSEFR",EscapeArea())~
 	END
 
-//////////////////////////////////////////////////////////////
-//Start the pirate quest in Athkathla at the gates by level 10
-//////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////
+// Start the pirate quest in Athkathla at the gates by level 10
+/////////////////////////////////////////////////////////////////
 PRINT ~Start the pirate quest in Athkathla at the gates by level 10~
 
 COMPILE ~CtB/dialogs/improvements/CBBDSTRT.D~
