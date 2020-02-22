@@ -40,37 +40,37 @@ Hlondeth Area modeling (additional): Braño aka Valiant, Slovakia
 Hlondeth Area Texturing/Rendering:  Braño aka Valiant, Slovakia
 Hlondeth Area Texturing/Rendering (additional): CBisson
 Baldurdash Bug-Fixes:  Kevin Dorner
-Check The Bodies Title:  I hate to admit it, but I didn't come up with it...  thanks Aernor!
+Check The Bodies Title: I hate to admit it, but I didn't come up with it... Thanks Aernor!
 Voice Overs:
-   The Cowled Wizard:  Bob Dupuis, TheWizard
+   The Cowled Wizard: Bob Dupuis, TheWizard
    Captain Deudermont and ElfSapate: Gregg notmrt Kincaid
-Portrait for Rynn taken from The Portrait Portal (Karse never mailed me back, so these were 	taken without permission), http://www.karwal.dk/portraitportal/index.html
-The Spellfire Play comes straight from Ed Greenwood's book, Spellfire.  (I don't know the 	copyright information as I'm typing this.)
-The 'Tis Pity She's A Wench' play is based on John Ford's play 'Tis Pity She's A Whore', and 	I don't have the copyright info on that either.
-Candlekeep's music taken from The Lord Of The Rings:  The Fellowship of the Ring, copyright 	2001.
+Portrait for Rynn taken from The Portrait Portal (Karse never mailed me back, so these were taken without permission), http://www.karwal.dk/portraitportal/index.html
+The Spellfire Play comes straight from Ed Greenwood's book, Spellfire. (I don't know the copyright information as I'm typing this.)
+The 'Tis Pity She's A Wench' play is based on John Ford's play 'Tis Pity She's A Whore', and I don't have the copyright info on that either.
+Candlekeep's music taken from The Lord Of The Rings:  The Fellowship of the Ring, copyright 2001.
 Captain Deudermont's stories:  
 	Arrival in Waterdeep taken from Master and Commander by Patrick O'Brian
 	A Fantastic Voyage taken from Passage To Dawn by R.A. Salvatore
 	The Sea Sprite's Crew also taken from Master and Commander by Patrick O'Brian
 
 Tools:
-  I couldn't have built the files without NearInfinity.  What a lovely tool!  (I once told 	Jon I was going to name the mod after him, obviously I lied, but thanks anyway Jon!)
+  I couldn't have built the files without NearInfinity. What a lovely tool! (I once told Jon I was going to name the mod after him, obviously I lied, but thanks anyway Jon!)
   Also, IETME, great work Theo!
-  Weidu as a simple and fast dialog creator- which for me makes altering/adding to dialogs 	SOOOO very simple.
+  Weidu as a simple and fast dialog creator- which for me makes altering/adding to dialogs SOOOO very simple.
   TISunpack and ogg decoders which made the mod quite smaller for downloading.
   I used DLTCEP a bit towards the end of the creation process, so hats off to Avenger.
-  The 'old standby' IEEP, still useful and Todd is owed so much by the IE modding community 	for his work that nearly started the whole thing.
-  ...and other IE tools:  InfExpl, IDU, MOS/BAM Workshops, et all.
+  The 'old standby' IEEP, still useful and Todd is owed so much by the IE modding community for his work that nearly started the whole thing.
+  ...and other IE tools: InfExpl, IDU, MOS/BAM Workshops, et all.
 
-Weidu Installation Assistance provided by JCompton and Wes Weimer.  Thanks guys!
-Weidu Bug Testing provided by Andrew.  Thanks!
-Additional material taken from IE Games:  BG I, IWD I, IWD II.
+Weidu Installation Assistance provided by JCompton and Wes Weimer. Thanks guys!
+Weidu Bug Testing provided by Andrew. Thanks!
+Additional material taken from IE Games: BGI, IWDI, IWDII.
 
-Thanks to testers, supporters, etc.  You know who you are, but there are waaaaay to many to 	list.
+Thanks to testers, supporters, etc. You know who you are, but there are waaaaay to many to list.
 
-I'm sure I forgot other people, so PLEASE!  if you helped me in any way with Check The 	Bodies, please! please!  write me and remind me!
+I'm sure I forgot other people, so PLEASE! If you helped me in any way with Check The Bodies, please! please! Write me and remind me!
 
-And I can't forget to say thanks the fantastic crew at BioWare/Interplay for these games.  	Words can't say how happy I am they did a lot of 'planning' to make the Infinity 	Engine truly infinite.
+And I can't forget to say thanks the fantastic crew at BioWare/Interplay for these games. Words can't say how happy I am they did a lot of 'planning' to make the Infinity Engine truly infinite.
 
 
 LEGAL INFORMATION
