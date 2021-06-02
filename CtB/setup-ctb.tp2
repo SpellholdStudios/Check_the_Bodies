@@ -1938,8 +1938,8 @@ COPY_EXISTING ~AR0404.ARE~  ~override~
 		END
 	END
 	FOR( cnt=0; cnt<"%infotrig_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
-		READ_ASCII ("%infotrig_offset%"+0xc4*cnt)       "info_name"
-		PATCH_IF ("%info_name%" STRING_COMPARE_CASE "Tran0404")=0 BEGIN
+		READ_ASCII ("%infotrig_offset%"+0xc4*cnt)       "info_name" (9)
+		PATCH_IF ("%info_name%" STRING_COMPARE_CASE "Trans0404")=0 BEGIN
 				 //PATCH_PRINT ~Region Number %cnt% %info_name%~
 			LPF fj_are_structure
 				INT_VAR 
@@ -1953,7 +1953,7 @@ COPY_EXISTING ~AR0404.ARE~  ~override~
 	FOR( cnt=0; cnt<"%infotrig_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
 		READ_ASCII ("%infotrig_offset%"+0xc4*cnt)       "info_name"
 		PATCH_IF (("%info_name%" STRING_COMPARE_CASE "Door3576")=0) BEGIN
-			WRITE_ASCII ("%infotrig_offset%"+0xc4*cnt)      ~Tran0404~
+			WRITE_ASCII ("%infotrig_offset%"+0xc4*cnt)      ~Door0404~
 			WRITE_ASCII ("%infotrig_offset%"+0xc4*cnt+0x38) ~AR0406~
 			WRITE_LONG  ("%infotrig_offset%"+0xc4*cnt+0x60) 0x00000004
 			END
