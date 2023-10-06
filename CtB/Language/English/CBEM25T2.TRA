@@ -1,5 +1,5 @@
-@1   = ~There is nothing that I can do for you at this point in my journey through Faer鹡~
-@2   = ~Thank you, <GABBER>, for helping us come one step closer to fulfilling our purpose here on Faer鹡.  We must now help you to complete your destiny, but like everything you do, the choice is up to you.  We will help you now by teaching you one thing.~
+@1   = ~There is nothing that I can do for you at this point in my journey through Faer没n~
+@2   = ~Thank you, <GABBER>, for helping us come one step closer to fulfilling our purpose here on Faer没n.  We must now help you to complete your destiny, but like everything you do, the choice is up to you.  We will help you now by teaching you one thing.~
 @3   = ~What, <GABBER>, would you rather learn:  how to memorize additional spells, how to cast spells faster, or how to enchant a normal, bladed weapon into something magical?~
 @4   = ~I'd like to know how to memorize an additional spell per level.~
 @5   = ~I would think an increased spellcasting speed will be more beneficial.~
@@ -13,11 +13,11 @@
 @13  = ~You have done well, <GABBER>, and we three are grateful for your help.  But now, you are to be tested further.  Are you ready to enrich yourself?~
 @14  = ~Yes, Revered Lady.  Tell me what needs to be done.~
 @15  = ~No, Revered Lady, I need more time.~
-@16  = ~<GABBER>, we cannot fulfill our destiny here on Faer鹡 until you are ready.  Prepare yourself as best you can, and return when you are able.~
+@16  = ~<GABBER>, we cannot fulfill our destiny here on Faer没n until you are ready.  Prepare yourself as best you can, and return when you are able.~
 @17  = ~Very well, <GABBER>.  Listen closely, for I have much to explain before you begin your next task.~
 @18  = ~There is a growing presence that I have felt from afar these past months.  I know not what it is, but I can feel that it is of great evil.~
 @19  = ~<GABBER>, I fear for the region if this presence becomes too strong.  It is not of our world, and must be prevented from wreaking havoc.~
-@20  = ~I am charging you, <GABBER>, to the elimination of this being by whatever means you have at your disposal.  Enlist the aid of allies, powerful friends, or gather arcane tools to forcefully end the threat if you must.  The security of Faer鹡 once again depends on you.~
+@20  = ~I am charging you, <GABBER>, to the elimination of this being by whatever means you have at your disposal.  Enlist the aid of allies, powerful friends, or gather arcane tools to forcefully end the threat if you must.  The security of Faer没n once again depends on you.~
 @21  = ~Where can I find this presence, Lady?~
 @22  = ~I will do my best, Lady.~
 @23  = ~Lady, I doubt my skills will be sufficiant to end such a dire threat.~
@@ -36,7 +36,7 @@
 @36  = ~Yes, Great Lady, I destroyed whatever it was.~
 @37  = ~Then it is done, regardless of the outcome.  You have done well, <GABBER>.  I thank you for bringing me closer to the time when I can pass to the west.~
 @38  = ~Go, <GABBER>.  Defeat the evil if you can.~
-@39  = ~We await the time when we will make the final journey from Faer鹡 to Evermeet.  Corellan Lotharian guide you, <GABBER>.~
+@39  = ~We await the time when we will make the final journey from Faer没n to Evermeet.  Corellan Lotharian guide you, <GABBER>.~
 @40 = ~Elven Elders:  Magical Instruction
 
 The trio of sorceresses I meet on the western edge of the Forest of Tethyr, near the cavernous entrance to the Underdark, have been kind enough to teach me how to increase the number of spells I can memorize.~
@@ -49,7 +49,7 @@ The trio of sorceresses I meet on the western edge of the Forest of Tethyr, near
 @43 = ~Elder Elves:  Evil Presence
 
 The trio of elder sorceresses preparing to Retreat have ordered me to defeat an evil presence that they can sense in the region.  They are unsure of where precisely this evil is emanating from, but it is somewhere within the city of Athkatla.
-  When I have defeated the evil presence- either by destroying it or by banishing it from Faer鹡- I am to report back to the Elves near the exit from the Underdark where they have promised to teach me a skill which will enrich my life.~
+  When I have defeated the evil presence- either by destroying it or by banishing it from Faer没n- I am to report back to the Elves near the exit from the Underdark where they have promised to teach me a skill which will enrich my life.~
 @44 = ~Elder Elves:  Evil Presence
 
 I have defeated an evil demon below the Dock district of Athkatla which the wise Elven sorceresses sensed.  They inform me that they are anticipating the time when they make their passage to Evermeet and have promised to teach me a new skill.~

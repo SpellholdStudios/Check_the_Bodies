@@ -24,7 +24,7 @@
 @24  = ~Yes, good Master Bard, I have found a Harp of Myth Drannor, yet I cannot give it to you for I think I shall keep it for my own.~
 @25  = ~By the good graces, I do not know, <GABBER>.  I do not know the uncivilized areas this far south, so if I were to guess, I would suggest you check local dealers of equipment or artifacts.  Failing that, my friend, it may be wise to search through ancient crypts, dungeons, or lairs.~
 @26  = ~It would be a dream come true if I could own a real Harp of Myth Drannor, and I don't begrudge you for wanting it for yourself.  You'll have to decide, my friend, unless we trade, I will not take the time to share my bardic knowledge with you.~
-@27  = ~Wonderful news, <GABBER>!  Truly, I am very pleased by your generosity.  With this Harp of Myth Drannor, I can become as great as the most famous bards of Faer鹡's history and of our own era.~
+@27  = ~Wonderful news, <GABBER>!  Truly, I am very pleased by your generosity.  With this Harp of Myth Drannor, I can become as great as the most famous bards of Faer没n's history and of our own era.~
 @28  = ~You have done a great service for me, <GABBER>, and I want to show you how much I appreciate what you do.  I promised to teach you something if you helped me out, and I will honor my word.  I will teach you one of three things, but I leave the choice of lesson up to you.~
 @29  = ~It would be my pleasure and honor to instruct yet another aspiring bard, one whom I know will be famous throughout the Realms some day.  Tell me, <GABBER>, would you be more interested in knowing how to memorize a greater number of spells than a bard of your skill normally can, how to evade your enemies, or, since you have the ability to set some traps, would you like to learn how to set a new kind of traps for your enemies, by spreading Caltrops upon the ground to trip up and harm your enemies?~
 @30  = ~I'd like to know how to memorize an additional spell per level.~
@@ -36,15 +36,15 @@
 @36  = ~You will make a fine bard, <GABBER>.  Indeed, you are already well-versed in the life of a minstrel, but by evading your enemies in combat you can live long enough to become a well known storyteller.~
 @37  = ~I have taught many students who are trained in methods of traps and snares how to properly drop caltrops, and I am sure with your own knowledge of such traps, I can teach you the same.~
 @38  = ~You will make a fine bard, <GABBER>.  Indeed, you already are well-versed in the life of a minstrel, but by stopping or slowing the approach of an armed enemy, you may live long enough to become a well known storyteller.~
-@39  = ~Like I said, <GABBER>, I like you.  I think you can make a name for yourself as one of Faer鹡's greatest and most respected bards.  If you don't wish to help me out now, that's your choice, but I think it will benefit you greatly in the years to come.  I'll stay in Athkatla for a while, perhaps do a show or two here, and if you change your mind, don't hesitate to let me know.~
+@39  = ~Like I said, <GABBER>, I like you.  I think you can make a name for yourself as one of Faer没n's greatest and most respected bards.  If you don't wish to help me out now, that's your choice, but I think it will benefit you greatly in the years to come.  I'll stay in Athkatla for a while, perhaps do a show or two here, and if you change your mind, don't hesitate to let me know.~
 @40  = ~To make a lengthy epic short, unusual for a bard indeed, while I was traveling the length of the Sword Coast and stopping at so many festhalls, taverns, and playhouses like this one, I have lost a valuable possession of mine.  A Harp of Myth Drannor, to be exact.  Yes, I see by your expression that you know of its value.  I am certain I will never find the same Harp, but I would like to have one nevertheless.  If you could find and bring me one, you can be sure that I will reward you and teach you a bardic skill you could only learn in the Academies of Silverymoon.~
-@41  = ~I tire of telling you this, <GABBER>, and I am certain it must bore you so, but I truly believe that you will become one of Faer鹡's greatest bards.  I'd be honored to make that road easier for you again, by teaching you something, but you will need to do something for me.  Are you ready to help?~
+@41  = ~I tire of telling you this, <GABBER>, and I am certain it must bore you so, but I truly believe that you will become one of Faer没n's greatest bards.  I'd be honored to make that road easier for you again, by teaching you something, but you will need to do something for me.  Are you ready to help?~
 @42  = ~Yes, Master Bard.  Tell me what needs to be done.~
 @43  = ~No, Master Bard, I need more time.~
 @44  = ~Like I said, <GABBER>, it would be an honor and privilege to assist you in becoming a world renowned bard, but I cannot help you until you are ready to help me.  Return when you are able, while I attend to my upcoming performance.~
 @45  = ~I will do so, <GABBER>, but you must listen very closely to what needs to be done.  I have much to explain.~
 @46  = ~As a bard, I hear much of the happenings around the world, and more often than not, local issues are raised in my hearing.  I have a few harping friends here in Athkatla, and they have confided in me of a growing danger.  I do not have all the details, and some of this may be exaggerated rumor, but I was told by my associates that this danger is of great evil.~
-@47  = ~It is an evil presence, of which my associates cannot discern an origin or intent.  However, they are certain that it is not of this world, and fear for the region if this presence becomes too strong.  <GABBER>, this evil presence cannot be allowed to wreak havoc upon Faer鹡. ~
+@47  = ~It is an evil presence, of which my associates cannot discern an origin or intent.  However, they are certain that it is not of this world, and fear for the region if this presence becomes too strong.  <GABBER>, this evil presence cannot be allowed to wreak havoc upon Faer没n. ~
 @48  = ~I am asking you, <GABBER>, as a skilled bard, to use whatever means you have at your disposal to eliminate this being.  Enlist the aid of allies if you choose, powerful friends, or gather arcane objects to forcefully end the threat if you must.~
 @49  = ~Where can I find this presence, good Sir Bard?~
 @50  = ~I will do my best, good Sir Bard.~
@@ -60,7 +60,7 @@
 @60  = ~As far as my friends can tell me, the evil being is beneath the surface.  There is a sensation of sulfur, salt, and decay near it.~
 @61  = ~I am sorry, <GABBER>.  I cannot five you more information.  My associates have only told me that the evil emanates strongly on the west side of Athkatla, near water, beneath the surface streets.~
 @62  = ~<GABBER>, 'tis good to see you again!  I have heard some good news.  Some good news indeed.  My harping friends no longer sense an evil presence, and would be quite interested to know what happened.  I understand that you have defeated the being, but what occurred?~
-@63  = ~The demon was banished from Faer鹡.  I couldn't destroy it.~
+@63  = ~The demon was banished from Faer没n.  I couldn't destroy it.~
 @64  = ~I was able to destroy the demon and there should be no more to worry about below the docks.~
 @65  = ~Regardless of the outcome, <GABBER>, it is done.  You have done well, and those who harp are pleased at your accomplishments.  As am I.~
 @66  = ~Go, <GABBER>.  Find this evil and do whatever must be done to stop it.~
@@ -88,7 +88,7 @@
 @88  = ~No, Master Bard.  I have not yet had the Spellsung blade restored.~
 @89  = ~I had truly hoped that you could have restored the blade by now.  I still have faith that you will.  If you are able to help Cromwell rebuild the Spellsung Blade, return to me.~
 @90  = ~<GABBER>, you have earned this powerful weapon.  You deserve it more than I.  Please, allow me to further enhance the blade's magical abilities, and I will present it to you.  The Spellsung Blade is a great bardic weapon, and you should be honored to carry it by your side.~
-@91  = ~It is truly my honor to have met you, <GABBER>, and I would be lying to myself, and to you, if I did not once again tell you that you could be Faer鹡's greatest bard, especially if you allow me to teach you one final skill.  Something to help you as you travel the world.~
+@91  = ~It is truly my honor to have met you, <GABBER>, and I would be lying to myself, and to you, if I did not once again tell you that you could be Faer没n's greatest bard, especially if you allow me to teach you one final skill.  Something to help you as you travel the world.~
 @92  = ~I will indeed teach you something- something most bards could never learn- if you would be so kind as to tell me what it is that you would prefer to know.  Would you like to learn how to evade your enemies, or, since you have the ability to set some traps, would you like to learn how to set a new kind of traps for your enemies, by spreading Caltrops upon the ground to trip up and harm your enemies?, or would you like to learn how to use any item?~
 @93  = ~I would think being able to use any item would be most beneficial.  Can you teach me that?~
 @94  = ~As you wish, <GABBER>.  I will teach you how spread caltrops upon the ground to harm your enemies before they get too close to you.~
@@ -105,7 +105,7 @@
 @103 = ~Academy of Bardic Studies:  Evil Presence
 
   The Master Bard in the Five Flagons playhouse has ordered me to defeat an evil presence that he was told about in the region.  He is unsure of where precisely this evil is emanating from, but it is somewhere within the city of Athkatla.
-  When I have defeated the evil presence- either by destroying it or by banishing it from Faer鹡- I am to report back to the poet near the exit from the Underdark where he has promised to teach me a skill which will further my bardic knowledge.~
+  When I have defeated the evil presence- either by destroying it or by banishing it from Faer没n- I am to report back to the poet near the exit from the Underdark where he has promised to teach me a skill which will further my bardic knowledge.~
 @104 = ~Academy of Bardic Studies:  Reforging A Spellsung Blade
 
   The Master Bard who has taught me some valuable skills have asked me to complete yet another task.  This time, he has given me the hilt of a shattered spellsung blade, what was thought to be an indestructible weapon.  Whatever caused the blade to shatter must have been a powerful force indeed.
@@ -129,7 +129,7 @@
 @110 = ~Academy of Bardic Studies:  Evil Presence
 
   The Master Bard in the Five Flagons playhouse has ordered me to defeat an evil presence that he was told about in the region.  He is unsure of where precisely this evil is emanating from, but it is somewhere within the city of Athkatla.
-  When I have defeated the evil presence- either by destroying it or by banishing it from Faer鹡- I am to report back to the poet near the exit from the Underdark where he has promised to teach me a skill which will further my bardic knowledge.~
+  When I have defeated the evil presence- either by destroying it or by banishing it from Faer没n- I am to report back to the poet near the exit from the Underdark where he has promised to teach me a skill which will further my bardic knowledge.~
 @111 = ~Academy of Bardic Studies:  Evil Presence
 
   I have defeated an evil demon below the Dock district of Athkatla which the Master Bard was told about.  He informed me that he is anticipating the time when he can perfom a ballad about my heroic deeds and has promised to teach me a new skill.~
