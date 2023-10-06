@@ -1,84 +1,84 @@
-@1   = ~Haber visto el error de tus métodos, bueno es. Bienvenido, <GABBER>.~ ~Haber visto el error de tus métodos, bueno es. Bienvenida, <GABBER>.~
-@2   = ~Pierde y olvídate a tí mismo, <GABBER>, y lo serás, de la tribu serás.~ ~Pierde y olvídate a tí misma, <GABBER>, y lo serás, de la tribu serás.~
-@3   = ~Volverte mas poderoso, serás; la tribu, te honrará. Completar las tareas, debes.~ ~Volverte mas poderosa, serás; la tribu, te honrará. Completar las tareas, debes.~
+@1   = ~Haber visto el error de tus mÃ©todos, bueno es. Bienvenido, <GABBER>.~ ~Haber visto el error de tus mÃ©todos, bueno es. Bienvenida, <GABBER>.~
+@2   = ~Pierde y olvÃ­date a tÃ­ mismo, <GABBER>, y lo serÃ¡s, de la tribu serÃ¡s.~ ~Pierde y olvÃ­date a tÃ­ misma, <GABBER>, y lo serÃ¡s, de la tribu serÃ¡s.~
+@3   = ~Volverte mas poderoso, serÃ¡s; la tribu, te honrarÃ¡. Completar las tareas, debes.~ ~Volverte mas poderosa, serÃ¡s; la tribu, te honrarÃ¡. Completar las tareas, debes.~
 @4   = ~La tarea dada, te han sido. Aceptarte no lo haremos, hasta que completarla hayas.~
 @5   = ~Comprometernos no haremos. A nosotros, traer la Vara del Chaman debes.~
-@6   = ~Podrido, está tu cerebro. Blando, tu cuerpo.~
-@7   = ~Decirte dónde la Vara del Chamán estar. Robada, fue.~
-@8   = ~Averiguar dónde debes. Traerla debes.~
-@9   = ~¿Recuperado la vara, has?  Agradecidos, estamos.~
-@10  = ~Escoger lo que aprender debes: ¿a tus enemigos con trampas atrapar, poderosa fuerza para golpear, o tu cuerpo enfurecer?~
-@11  = ~Quiero que me enseñéis cómo colocar trampas.~
-@12  = ~Quiero que me enseñéis la técnica del ataque poderoso.~
-@13  = ~Quiero que me enseñéis cómo enfurecerme y entrar en trance berserk.~
-@14  = ~Tú, prepararte debes.~
+@6   = ~Podrido, estÃ¡ tu cerebro. Blando, tu cuerpo.~
+@7   = ~Decirte dÃ³nde la Vara del ChamÃ¡n estar. Robada, fue.~
+@8   = ~Averiguar dÃ³nde debes. Traerla debes.~
+@9   = ~Â¿Recuperado la vara, has?  Agradecidos, estamos.~
+@10  = ~Escoger lo que aprender debes: Â¿a tus enemigos con trampas atrapar, poderosa fuerza para golpear, o tu cuerpo enfurecer?~
+@11  = ~Quiero que me enseÃ±Ã©is cÃ³mo colocar trampas.~
+@12  = ~Quiero que me enseÃ±Ã©is la tÃ©cnica del ataque poderoso.~
+@13  = ~Quiero que me enseÃ±Ã©is cÃ³mo enfurecerme y entrar en trance berserk.~
+@14  = ~TÃº, prepararte debes.~
 @15  = ~Una presencia, hemos sentido crecer. Las pasadas lunas, lejos lo hemos sentido.~
-@16  = ~Volverse demasiado poderosa, temor por nuestra gente sentimos. Nuestro mundo, no el suyo es. Causar estragos, debe evitarse en Ruathym y en Faerûn.~
-@17  = ~Exactamente dónde, no sabemos. En el continente, está. Athkatla, la ciudad conocida es.~
-@18  = ~Lo haré lo mejor que pueda, Honorable Anciano.~
-@19  = ~Honorable Anciano, dudo que mis habilidades sean suficientes para detener tamaña amenaza.~
-@20  = ~En tus manos, en tu fuerza, el destino de nuestra tribu está. Para cumplir este deber, confiamos en tí. En tí mismo, <GABBER>, tener confianza debes.~ ~En tus manos, en tu fuerza, el destino de nuestra tribu está. Para cumplir este deber, confiamos en tí. En tí misma, <GABBER>, tener confianza debes.~
-@21  = ~Lo mejor que puedas, sé que lo harás. Esperanza, es cuanto podemos tener. Cuando la presencia ya no esté, a nosotros regresa.~
-@22  = ~Habértelo dicho, hemos. En Athkatla, lo sentimos.~
-@23  = ~Más precisos, no podemos ser. Más fuerte es la presencia, en el lado oeste de la ciudad.~
-@24  = ~Cuerpo de agua, en algún lugar cercano, en el que el mal podemos sentir. ¿Un río? Seguro, no puedo estarlo.~
-@25  = ~Bajo la superficie, <GABBER>, el ser malvado está. Sulfuro, sal y decadencia.~
-@26  = ~Más preciso, no puedo ser. Lado oeste de la ciudad. Un cuerpo de agua, cercano. Bajo la superficie, la maldad encontrarás.~
-@27  = ~¡<GABBER>!  La guerra a nuestras casas los luskanitas han traido. Al océano, empujarles debemos.~
-@28  = ~¡De nuestra isla, a los luskanitas expulsad!~
-@29  = ~Mucho de que hablar, tenemos. La presencia maligna, sentir ya no puedo. ¿Destruido, la has?~
+@16  = ~Volverse demasiado poderosa, temor por nuestra gente sentimos. Nuestro mundo, no el suyo es. Causar estragos, debe evitarse en Ruathym y en FaerÃ»n.~
+@17  = ~Exactamente dÃ³nde, no sabemos. En el continente, estÃ¡. Athkatla, la ciudad conocida es.~
+@18  = ~Lo harÃ© lo mejor que pueda, Honorable Anciano.~
+@19  = ~Honorable Anciano, dudo que mis habilidades sean suficientes para detener tamaÃ±a amenaza.~
+@20  = ~En tus manos, en tu fuerza, el destino de nuestra tribu estÃ¡. Para cumplir este deber, confiamos en tÃ­. En tÃ­ mismo, <GABBER>, tener confianza debes.~ ~En tus manos, en tu fuerza, el destino de nuestra tribu estÃ¡. Para cumplir este deber, confiamos en tÃ­. En tÃ­ misma, <GABBER>, tener confianza debes.~
+@21  = ~Lo mejor que puedas, sÃ© que lo harÃ¡s. Esperanza, es cuanto podemos tener. Cuando la presencia ya no estÃ©, a nosotros regresa.~
+@22  = ~HabÃ©rtelo dicho, hemos. En Athkatla, lo sentimos.~
+@23  = ~MÃ¡s precisos, no podemos ser. MÃ¡s fuerte es la presencia, en el lado oeste de la ciudad.~
+@24  = ~Cuerpo de agua, en algÃºn lugar cercano, en el que el mal podemos sentir. Â¿Un rÃ­o? Seguro, no puedo estarlo.~
+@25  = ~Bajo la superficie, <GABBER>, el ser malvado estÃ¡. Sulfuro, sal y decadencia.~
+@26  = ~MÃ¡s preciso, no puedo ser. Lado oeste de la ciudad. Un cuerpo de agua, cercano. Bajo la superficie, la maldad encontrarÃ¡s.~
+@27  = ~Â¡<GABBER>!  La guerra a nuestras casas los luskanitas han traido. Al ocÃ©ano, empujarles debemos.~
+@28  = ~Â¡De nuestra isla, a los luskanitas expulsad!~
+@29  = ~Mucho de que hablar, tenemos. La presencia maligna, sentir ya no puedo. Â¿Destruido, la has?~
 @30  = ~No, Honorable, fue expulsada pero no destruida.~
-@31  = ~Sí, Honorable, sea lo que fuera lo destruí.~
-@32  = ~¿Nuestras casas, bien están? ¿De los luskanitas, a salvo estamos?~
-@33  = ~Sí, Anciano. He derrotado a los atacantes y evitado la amenaza de Ruathym.~
-@34  = ~Acabado está. Bien lo has hecho, <GABBER>. A nuestra tribu, cercano estás.~ ~Acabado está. Bien lo has hecho, <GABBER>. A nuestra tribu, cercana estás.~
-@35  = ~Valioso para nuestra gente, eres. Tus habilidades, mejoraremos. A una búsqueda de ensueño, te enviaremos. Las costumbres de nuestro pueblo, aprender deberás.~
+@31  = ~SÃ­, Honorable, sea lo que fuera lo destruÃ­.~
+@32  = ~Â¿Nuestras casas, bien estÃ¡n? Â¿De los luskanitas, a salvo estamos?~
+@33  = ~SÃ­, Anciano. He derrotado a los atacantes y evitado la amenaza de Ruathym.~
+@34  = ~Acabado estÃ¡. Bien lo has hecho, <GABBER>. A nuestra tribu, cercano estÃ¡s.~ ~Acabado estÃ¡. Bien lo has hecho, <GABBER>. A nuestra tribu, cercana estÃ¡s.~
+@35  = ~Valioso para nuestra gente, eres. Tus habilidades, mejoraremos. A una bÃºsqueda de ensueÃ±o, te enviaremos. Las costumbres de nuestro pueblo, aprender deberÃ¡s.~
 @36  = ~Supervivencia, aprendido tu has.~
 @37  = ~Grito de Guerra, aprendido tu has.~
 @38  = ~Golpe Mortal, aprendido tu has.~
-@39  = ~¿Preparado, estas?~ ~¿Preparada, estas?~
-@40  = ~Sí, Anciano. Decidme qué necesita hacerse.~
-@41  = ~No, Anciano. Necesito más tiempo.~
-@42  = ~Las maneras de un Norteño, aprender debes. Limitado tu valor como miembro de la tribu está. Prepárate. A nosotros regresa cuando preparado estés.~ ~Las maneras de un Norteño, aprender debes. Limitado tu valor como miembro de la tribu está. Prepárate. A nosotros regresa cuando preparada estés.~
-@43  = ~Sencillo, tu primera tarea fue. La segunda, más difícil era. Fácil, la final es. Esta cabeza de martillo tomarás. En la batalla rota fue.~
-@44  = ~Perdido el mango está. Reforjado, el Martillo de Guerra deberá ser. A nosotros, con él regresa.~
-@45  = ~Lo intentaré, Sabio.~
-@46  = ~<GABBER>. Nuestro martillo,¿reparado está?~
-@47  = ~Sí, Sabio. Lo tengo.~
-@48  = ~Lo siento, Sabio. Aún no he sido capaz de conseguirlo.~
-@49  = ~A nosotros regresa cuando el martillo forjado esté.~
-@50  = ~A las selvas de Ruathym, ir debes. De nuestras costumbres aprender debes. Para más saber, escoger debes.~
-@51  = ~¿Luchar en la oscuridad, aprender más quieres?  ¿Enfurecerte, aprender más quieres?  ¿Mas resistente, aprender más quieres?~
+@39  = ~Â¿Preparado, estas?~ ~Â¿Preparada, estas?~
+@40  = ~SÃ­, Anciano. Decidme quÃ© necesita hacerse.~
+@41  = ~No, Anciano. Necesito mÃ¡s tiempo.~
+@42  = ~Las maneras de un NorteÃ±o, aprender debes. Limitado tu valor como miembro de la tribu estÃ¡. PrepÃ¡rate. A nosotros regresa cuando preparado estÃ©s.~ ~Las maneras de un NorteÃ±o, aprender debes. Limitado tu valor como miembro de la tribu estÃ¡. PrepÃ¡rate. A nosotros regresa cuando preparada estÃ©s.~
+@43  = ~Sencillo, tu primera tarea fue. La segunda, mÃ¡s difÃ­cil era. FÃ¡cil, la final es. Esta cabeza de martillo tomarÃ¡s. En la batalla rota fue.~
+@44  = ~Perdido el mango estÃ¡. Reforjado, el Martillo de Guerra deberÃ¡ ser. A nosotros, con Ã©l regresa.~
+@45  = ~Lo intentarÃ©, Sabio.~
+@46  = ~<GABBER>. Nuestro martillo,Â¿reparado estÃ¡?~
+@47  = ~SÃ­, Sabio. Lo tengo.~
+@48  = ~Lo siento, Sabio. AÃºn no he sido capaz de conseguirlo.~
+@49  = ~A nosotros regresa cuando el martillo forjado estÃ©.~
+@50  = ~A las selvas de Ruathym, ir debes. De nuestras costumbres aprender debes. Para mÃ¡s saber, escoger debes.~
+@51  = ~Â¿Luchar en la oscuridad, aprender mÃ¡s quieres?  Â¿Enfurecerte, aprender mÃ¡s quieres?  Â¿Mas resistente, aprender mÃ¡s quieres?~
 @52  = ~Quiero aprender Lucha a Ciegas.~
 @53  = ~Quiero aprender a Enfurecerme.~
-@54  = ~Quiero aprender a volverme más Resistente.~
-@55  = ~¿Luchar en la oscuridad, aprender más quieres? ¿Enfurecerte, aprender más quieres? ¿Mas resistente, aprender más quieres? ¿Usar cualquier objeto, aprender más deseas?~
+@54  = ~Quiero aprender a volverme mÃ¡s Resistente.~
+@55  = ~Â¿Luchar en la oscuridad, aprender mÃ¡s quieres? Â¿Enfurecerte, aprender mÃ¡s quieres? Â¿Mas resistente, aprender mÃ¡s quieres? Â¿Usar cualquier objeto, aprender mÃ¡s deseas?~
 @56  = ~Quiero aprender a usar cualquier objeto.~
-@57  = ~Como un miembro de nuestra gente ser conocido deberías. Tu gente y tradiciones, te honra.~ ~Como un miembro de nuestra gente ser conocida deberías. Tu gente y tradiciones, te honra.~
+@57  = ~Como un miembro de nuestra gente ser conocido deberÃ­as. Tu gente y tradiciones, te honra.~ ~Como un miembro de nuestra gente ser conocida deberÃ­as. Tu gente y tradiciones, te honra.~
 @58  = ~Un miembro de nuestra gente no eres. Deja nuestra casa, te pedimos.~
-@59  = ~Uno de nuestros hermanos guerreros deberías ser, pues ya nuestros usos y tradiciones honras. Al hacerlo, me agradas.~
+@59  = ~Uno de nuestros hermanos guerreros deberÃ­as ser, pues ya nuestros usos y tradiciones honras. Al hacerlo, me agradas.~
 @60 = ~Relaciones Tribales
 
-He tenido éxito en la tarea impuesta por el Consejo de Ancianos de los Norteños. Fui capaz de recuperar un arma mágica sencilla, con gran valor sentimental y religioso para toda la tribu: una Vara de Chamán adornada, y la he devuelto a salvo a Rauthym.~
+He tenido Ã©xito en la tarea impuesta por el Consejo de Ancianos de los NorteÃ±os. Fui capaz de recuperar un arma mÃ¡gica sencilla, con gran valor sentimental y religioso para toda la tribu: una Vara de ChamÃ¡n adornada, y la he devuelto a salvo a Rauthym.~
 @61 = ~Relaciones Tribales
 
-He encontrado una tribu de Norteños: gente semi civilizada que habita en las desoladas islas de Rauthym, a cientos de millas de Aguas Profundas y de la Costa de la Espada. Me han dicho que si deseo ser aceptado en su sociedad guerrera, debería completar un número de tareas. La primera de ellas es recuperar la Vara del Chamán, un objeto con pequeños poderes mágicos, y devolverla al Consejo de Ancianos lo antes que pueda.~ ~Relaciones Tribales
+He encontrado una tribu de NorteÃ±os: gente semi civilizada que habita en las desoladas islas de Rauthym, a cientos de millas de Aguas Profundas y de la Costa de la Espada. Me han dicho que si deseo ser aceptado en su sociedad guerrera, deberÃ­a completar un nÃºmero de tareas. La primera de ellas es recuperar la Vara del ChamÃ¡n, un objeto con pequeÃ±os poderes mÃ¡gicos, y devolverla al Consejo de Ancianos lo antes que pueda.~ ~Relaciones Tribales
 
-He encontrado una tribu de Norteños: gente semi civilizada que habita en las desoladas islas de Rauthym, a cientos de millas de Aguas Profundas y de la Costa de la Espada. Me han dicho que si deseo ser aceptada en su sociedad guerrera, debería completar un número de tareas. La primera de ellas es recuperar la Vara del Chamán, un objeto con pequeños poderes mágicos, y devolverla al Consejo de Ancianos lo antes que pueda.~
+He encontrado una tribu de NorteÃ±os: gente semi civilizada que habita en las desoladas islas de Rauthym, a cientos de millas de Aguas Profundas y de la Costa de la Espada. Me han dicho que si deseo ser aceptada en su sociedad guerrera, deberÃ­a completar un nÃºmero de tareas. La primera de ellas es recuperar la Vara del ChamÃ¡n, un objeto con pequeÃ±os poderes mÃ¡gicos, y devolverla al Consejo de Ancianos lo antes que pueda.~
 @62 = ~Relaciones Tribales
 
-El Consejo de Ancianos Norteños, para quienes estoy trabajando en un intento de ganar aceptación en su tribu de bárbaros y luchadores, me ha dado otra tarea. Debo viajar otra vez por el mar, de regreso a la ciudad de Athkatla, donde debo intentar localizar, y detener, una amenaza que han percibido los Ancianos. Están indecisos sobre la localización exacta de esta amenaza desconocida, pero saben que debe ser detenido antes de que ataque a toda la gente de bien de Toril.~
+El Consejo de Ancianos NorteÃ±os, para quienes estoy trabajando en un intento de ganar aceptaciÃ³n en su tribu de bÃ¡rbaros y luchadores, me ha dado otra tarea. Debo viajar otra vez por el mar, de regreso a la ciudad de Athkatla, donde debo intentar localizar, y detener, una amenaza que han percibido los Ancianos. EstÃ¡n indecisos sobre la localizaciÃ³n exacta de esta amenaza desconocida, pero saben que debe ser detenido antes de que ataque a toda la gente de bien de Toril.~
 @63 = ~Relaciones Tribales
 
-Como pidió el Consejo de Norteños, he regresado al continente y tuve que enfrentarme -y derrotar- a un poderoso demonio que de alguna manera había encontrado la forma de venir a Faerûn desde los planos etéreos. Cuando regresé a la isla de Rauthym, me encontré con que un ejército de la ciudad más norteña de la Costa de la Espada, Luskan, como han hecho desde hace años, estaba intentando de nuevo conquistar la isla. Pude expulsar a los invasores, y fui recompensado por el Consejo de Ancianos después de que la amenaza luskanita fuera derrotada.~ ~Relaciones Tribales
+Como pidiÃ³ el Consejo de NorteÃ±os, he regresado al continente y tuve que enfrentarme -y derrotar- a un poderoso demonio que de alguna manera habÃ­a encontrado la forma de venir a FaerÃ»n desde los planos etÃ©reos. Cuando regresÃ© a la isla de Rauthym, me encontrÃ© con que un ejÃ©rcito de la ciudad mÃ¡s norteÃ±a de la Costa de la Espada, Luskan, como han hecho desde hace aÃ±os, estaba intentando de nuevo conquistar la isla. Pude expulsar a los invasores, y fui recompensado por el Consejo de Ancianos despuÃ©s de que la amenaza luskanita fuera derrotada.~ ~Relaciones Tribales
 
-Como pidió el Consejo de Norteños, he regresado al continente y tuve que enfrentarme -y derrotar- a un poderoso demonio que de alguna manera había encontrado la forma de venir a Faerûn desde los planos etéreos. Cuando regresé a la isla de Rauthym, me encontré con que un ejército de la ciudad más norteña de la Costa de la Espada, Luskan, como han hecho desde hace años, estaba intentando de nuevo conquistar la isla. Pude expulsar a los invasores, y fui recompensada por el Consejo de Ancianos después de que la amenaza luskanita fuera derrotada.~
-@64 = ~Enseñanzas Tribales
+Como pidiÃ³ el Consejo de NorteÃ±os, he regresado al continente y tuve que enfrentarme -y derrotar- a un poderoso demonio que de alguna manera habÃ­a encontrado la forma de venir a FaerÃ»n desde los planos etÃ©reos. Cuando regresÃ© a la isla de Rauthym, me encontrÃ© con que un ejÃ©rcito de la ciudad mÃ¡s norteÃ±a de la Costa de la Espada, Luskan, como han hecho desde hace aÃ±os, estaba intentando de nuevo conquistar la isla. Pude expulsar a los invasores, y fui recompensada por el Consejo de Ancianos despuÃ©s de que la amenaza luskanita fuera derrotada.~
+@64 = ~EnseÃ±anzas Tribales
 
-El Consejo de Ancianos Norteños ha dado un paso para aceptarme en su sociedad de guerreros y bárbaros. Me han ayudado enseñándome los secretos de la supervivencia en las zonas salvajes.~
-@65 = ~Enseñanzas Tribales
+El Consejo de Ancianos NorteÃ±os ha dado un paso para aceptarme en su sociedad de guerreros y bÃ¡rbaros. Me han ayudado enseÃ±Ã¡ndome los secretos de la supervivencia en las zonas salvajes.~
+@65 = ~EnseÃ±anzas Tribales
 
-El Consejo de Ancianos Norteños ha dado un paso para aceptarme en su sociedad de guerreros y bárbaros. Me han ayudado enseñándome cómo paralizar enemigos con un terrorífico Grito de Guerra.~
-@66 = ~Enseñanzas Tribales
+El Consejo de Ancianos NorteÃ±os ha dado un paso para aceptarme en su sociedad de guerreros y bÃ¡rbaros. Me han ayudado enseÃ±Ã¡ndome cÃ³mo paralizar enemigos con un terrorÃ­fico Grito de Guerra.~
+@66 = ~EnseÃ±anzas Tribales
 
-El Consejo de Ancianos Norteños ha dado un paso para aceptarme en su sociedad de guerreros y bárbaros. Me han ayudado enseñándome cómo usar mi fuerza y habilidad con los brazos para aniquilar enemigos con un poderoso Golpe Mortal.~
+El Consejo de Ancianos NorteÃ±os ha dado un paso para aceptarme en su sociedad de guerreros y bÃ¡rbaros. Me han ayudado enseÃ±Ã¡ndome cÃ³mo usar mi fuerza y habilidad con los brazos para aniquilar enemigos con un poderoso Golpe Mortal.~

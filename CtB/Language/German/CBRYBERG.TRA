@@ -1,93 +1,93 @@
-@1  = ~Verzeihung bitte. Ihr dort! Entschuldigt mich. Ihr seht wie ein erfahrener Magie-Anwender aus. Würde es Euch etwas ausmachen, es mir zu sagen, wenn Ihr einer seid?~ ~Verzeihung bitte. Ihr dort! Entschuldigt mich. Ihr seht wie eine erfahrene Magie-Anwenderin aus. Würde es Euch etwas ausmachen, es mir zu sagen, wenn Ihr eine seid?~ 
+@1  = ~Verzeihung bitte. Ihr dort! Entschuldigt mich. Ihr seht wie ein erfahrener Magie-Anwender aus. WÃ¼rde es Euch etwas ausmachen, es mir zu sagen, wenn Ihr einer seid?~ ~Verzeihung bitte. Ihr dort! Entschuldigt mich. Ihr seht wie eine erfahrene Magie-Anwenderin aus. WÃ¼rde es Euch etwas ausmachen, es mir zu sagen, wenn Ihr eine seid?~ 
 @2  = ~Ja, ich bin ein Magier. Warum?~ ~Ja, ich bin eine Magierin. Warum?~
-@3  = ~Nein, es tut mir Leid, Ihr müsst mich mit jemand anderen verwechseln.~ 
-@4  = ~Wirklich? Ihr seid einer? Dann könntet Ihr im Stande sein, mir zu helfen.~ ~Wirklich? Ihr seid eine? Dann könntet Ihr im Stande sein, mir zu helfen.~
-@5  = ~Würde es Euch etwas ausmachen? Ich meine, könntet Ihr mir aushelfen?~ 
-@6  = ~Sicher. Ich werde Euch helfen. Erzählt mir, was Ihr braucht.~
+@3  = ~Nein, es tut mir Leid, Ihr mÃ¼sst mich mit jemand anderen verwechseln.~ 
+@4  = ~Wirklich? Ihr seid einer? Dann kÃ¶nntet Ihr im Stande sein, mir zu helfen.~ ~Wirklich? Ihr seid eine? Dann kÃ¶nntet Ihr im Stande sein, mir zu helfen.~
+@5  = ~WÃ¼rde es Euch etwas ausmachen? Ich meine, kÃ¶nntet Ihr mir aushelfen?~ 
+@6  = ~Sicher. Ich werde Euch helfen. ErzÃ¤hlt mir, was Ihr braucht.~
 @7  = ~Nein, ich kann Euch nicht helfen.~
-@8  = ~Ich kann Euch helfen, aber nicht im Augenblick. Wartet hier, und ich werde zurückkommen.~ 
+@8  = ~Ich kann Euch helfen, aber nicht im Augenblick. Wartet hier, und ich werde zurÃ¼ckkommen.~ 
 @9  = ~Ich bin es Leid, Leuten zu helfen. Ich werde niemandem mehr helfen, also lasst mich allein.~
-@10 = ~Ich hörte, dass einige Magie-Benutzer diejenigen rufen können, die das Zeitliche gesegnet habe. Ich weiß, dass das wahr ist, also lasst mich mein Problem erklären.~ 
-@11 = ~Wisst Ihr, kürzlich starb einer meiner Verwandten, der liebe Onkels Donnys, und natürlich bin ich über unseren Verlust solch eines guten Mannes sehr betrübt.~
-@12 = ~Ich vermisse Onkel Donny sehr, da wir einander außerordentlich liebten. Ich weiß, dass Onkel Donny mich auch liebte und sich um mich kümmerte und er erzählte mir - bevor er ging - dass er mir seine weltlichen Besitzungen überlassen würde.~
-@13 = ~Jedoch, die Stadt-Beamten sind allzu  bürokratisch in diesen Dingen, und Onkel Donny musste ein gesetzliches Testament in der Stadt hinterlegen. Jetzt, da er gegangen ist, wollen die Politiker mir nicht erlauben, eine Kopie seines Testaments zu sehen.~ 
-@14 = ~Mein Onkel Donny war ein guter Mann, aber er hatte seine Marotten, wenn es um Geld ging. Donny war über Diebe, Betrüger und den Steuereintreiber schrecklich besorgt und versteckte sein Geld. Ich weiß, dass Onkel Donny mir alle seine Besitzungen hinterließ, aber er muss sein Geld sehr gut verborgen haben, weil ich es in seinem Haus oder sonstwo in der Stadt nicht finden kann. Ich bin ziemlich sicher, dass er Hinweise über die Örtlichkeit im Testament machte, aber nicht namentlich, nur durch Code.~
-@15 = ~Auf diese Weise würde jeder, der das Testament liest, es schwer haben, das Geld zu finden. Onkel Donny war wohlhabend, aber seitdem er starb und ich den letzten Willen nicht sehen kann, ist mir nichts hinterlassen worden. Ich denke, dass die Stadt-Beamten sich bemühen, dahinterzukommen, wo Donny das Geld versteckte, aber ich denke nicht, dass sie dazu imstande sind.~ 
+@10 = ~Ich hÃ¶rte, dass einige Magie-Benutzer diejenigen rufen kÃ¶nnen, die das Zeitliche gesegnet habe. Ich weiÃŸ, dass das wahr ist, also lasst mich mein Problem erklÃ¤ren.~ 
+@11 = ~Wisst Ihr, kÃ¼rzlich starb einer meiner Verwandten, der liebe Onkels Donnys, und natÃ¼rlich bin ich Ã¼ber unseren Verlust solch eines guten Mannes sehr betrÃ¼bt.~
+@12 = ~Ich vermisse Onkel Donny sehr, da wir einander auÃŸerordentlich liebten. Ich weiÃŸ, dass Onkel Donny mich auch liebte und sich um mich kÃ¼mmerte und er erzÃ¤hlte mir - bevor er ging - dass er mir seine weltlichen Besitzungen Ã¼berlassen wÃ¼rde.~
+@13 = ~Jedoch, die Stadt-Beamten sind allzu  bÃ¼rokratisch in diesen Dingen, und Onkel Donny musste ein gesetzliches Testament in der Stadt hinterlegen. Jetzt, da er gegangen ist, wollen die Politiker mir nicht erlauben, eine Kopie seines Testaments zu sehen.~ 
+@14 = ~Mein Onkel Donny war ein guter Mann, aber er hatte seine Marotten, wenn es um Geld ging. Donny war Ã¼ber Diebe, BetrÃ¼ger und den Steuereintreiber schrecklich besorgt und versteckte sein Geld. Ich weiÃŸ, dass Onkel Donny mir alle seine Besitzungen hinterlieÃŸ, aber er muss sein Geld sehr gut verborgen haben, weil ich es in seinem Haus oder sonstwo in der Stadt nicht finden kann. Ich bin ziemlich sicher, dass er Hinweise Ã¼ber die Ã–rtlichkeit im Testament machte, aber nicht namentlich, nur durch Code.~
+@15 = ~Auf diese Weise wÃ¼rde jeder, der das Testament liest, es schwer haben, das Geld zu finden. Onkel Donny war wohlhabend, aber seitdem er starb und ich den letzten Willen nicht sehen kann, ist mir nichts hinterlassen worden. Ich denke, dass die Stadt-Beamten sich bemÃ¼hen, dahinterzukommen, wo Donny das Geld versteckte, aber ich denke nicht, dass sie dazu imstande sind.~ 
 @16 = ~Ich muss also jetzt herausfinden, wo das Geld versteckt ist, bevor sie es tun, aber ich kann das Testament nicht sehen, also kann ich den Code nicht herausfinden.~
-@17 = ~Das klingt wie nach einem Job für jemanden, der mehr über das Gesetz weiß. Vielleicht solltet Ihr einen Rechtsanwalt anstellen, nicht einen Magier.~ ~Das klingt wie nach einem Job für jemanden, der mehr über das Gesetz weiß. Vielleicht solltet Ihr einen Rechtsanwalt anstellen, nicht eine Magierin.~
-@18 = ~Also was ist es, wofür Ihr mich braucht?~
-@19 = ~Denkt Ihr, dass ich mir vergebliche Mühe mache, um das Geld Eures Onkels zu finden?~ 
+@17 = ~Das klingt wie nach einem Job fÃ¼r jemanden, der mehr Ã¼ber das Gesetz weiÃŸ. Vielleicht solltet Ihr einen Rechtsanwalt anstellen, nicht einen Magier.~ ~Das klingt wie nach einem Job fÃ¼r jemanden, der mehr Ã¼ber das Gesetz weiÃŸ. Vielleicht solltet Ihr einen Rechtsanwalt anstellen, nicht eine Magierin.~
+@18 = ~Also was ist es, wofÃ¼r Ihr mich braucht?~
+@19 = ~Denkt Ihr, dass ich mir vergebliche MÃ¼he mache, um das Geld Eures Onkels zu finden?~ 
 @20 = ~Ja, ja, das ist wahr. Wenn ich die Stadt-Beamten zwingen wollte, mir das Testament oder eine Kopie zu geben.~
-@21 = ~Ich will den Stadt-Beamten keinen Grund geben, ihre eigene Jagd nach Onkels Donny Geld schneller zu beginnen, deshalb will ich nicht darüber hinausgehen, sie zu zwingen, mir das Testament gesetzlich zu geben. Ich habe einen anderen Plan im Sinn, aber ich habe nicht die Sachkenntnisse, es selbst zu tun.~ 
-@22 = ~Was ich zu finden hoffte, war ein Magie-Benutzer, um den Geist Onkels Donny zu beschwören. Ich habe gehört, dass starke Magie-Benutzer das tun können, und würde gern mit ihm sprechen, um die Hinweise darüber herauszufinden, wo er sein Geld versteckte.~ 
-@23 = ~Das hört sich nach einem guten Plan an. Es ist wahr, dass einige Magier - und übrigens auch einige Priester  - Mit Toten Sprechen können, aber um das zu tun, müssen der Zauberer oder Kleriker den Zauber kennen, oder eine Schriftrolle haben, um ihn zu wirken. Ich kenne weder den Zauber Mit Toten Sprechen, noch habe ich eine Schriftrolle.~
-@24 = ~Gibt es dann irgendwelche Art, wie Ihr den Zauber lernen könntet? Erhaltet Ihr vielleicht eine Schriftrolle?~ 
-@25 = ~Ich werde versuchen, eine zu finden, aber ich weiß nicht, wer eine Kopie der Schriftrolle haben könnte, oder ob es überhaupt eine hier in der Stadt gibt. Warum wartent Ihr nicht hier, und wenn ich einen Zauber finde, komme ich zurück, um Euch zu helfen, mit Eurem Onkel zu sprechen.~
-@26 = ~Ich weiß nicht, wo ich suchen soll. Kennt Ihr irgendjemanden, der im Stande sein könnte, mir diesen Zauber zu verkaufen?~
-@27 = ~Ich denke nicht, dass ich Zeit habe, um nach diesem Zauber zu suchen. Tut mir Leid, aber Ihr werdet jemand anderen finden müssen, der diesen Zauber wirkt, um mit Eurem Onkel zu sprechen.~
-@28 = ~Das wäre eine große Hilfe. Ihr müsst mehr über die Magie wissen, als ich, aber nach dem, was ich weiß, müsst Ihr eine Schriftrolle haben, um ihn zu wirken, also seid vorsichtig, weil Ihr vielleicht nur eine Kopie des Zaubers finden könntet.~
-@29 = ~Ich kenne niemanden, der diese Art der Magie verkaufen könnte. Ihr wisst mehr über die Magie als ich, also könntet Ihr im Stande sein, leichter jemanden zu finden als ich, aber nach dem, was ich weiß, müsst Ihr eine Schriftrolle haben, um ihn zu wirken, also seid vorsichtig, weil Ihr vielleicht nur eine Kopie des Zaubers finden könntet. Wenn Ihr nach einer suchen geht, werde ich hier bleiben, und wenn Ihr den Zauber findet, kann ich tun, was immer ich kann, um Euch zu helfen, ihn zu wirken.~
-@30 = ~Dann werde ich hier warten, bis Ihr Zeit habt, um den Zauber zu finden, oder bis Ihr zurückkehrt, um ihn zu wirken. Ihr wisst mehr über die Magie als ich, also könntet Ihr im Stande sein, leichter jemanden zu finden als ich, aber nach dem, was ich weiß, müsst Ihr eine Schriftrolle haben, um ihn zu wirken, also seid vorsichtig, weil Ihr vielleicht nur eine Kopie des Zaubers finden könntet. Wenn Ihr nach einer suchen geht, werde ich hier bleiben, und wenn Ihr den Zauber findet, kann ich tun, was immer ich kann, um Euch zu helfen, ihn zu wirken.~
-@31 = ~Ich würde von Euch nicht erwarten, dass Ihr die ganze Stadt selbst durchsucht, ohne einen Hinweis. Nein, ich hatte einen anderen Plan, aber ich habe nicht die Fähigkeiten, es selbst zu tun.~
-@32 = ~Mir gehen die Optionen aus. Ich hätte es wirklich gerne, wenn Ihr mir helfen könntet. Ich werde hier warten, und wenn Ihr Eure Meinung über die Hilfe ändert, kommt bitte zurück und lasst es mich wissen.~
-@33 = ~Wie Ihr sagtet, werde ich hier bleiben, und wenn Ihr die Möglichkeit habt, mir zu helfen, kommt zurück und lasst es mich wissen.~
-@34 = ~Ich wollte Euch nicht verärgern. Ich dachte nur, dass Ihr im Stande sein könntet, mir zu helfen. Entschuldigung für die Unterbrechung. Auf Wiedersehen.~
-@35 = ~Es tut mir dann Leid, Euch belästigt zu haben. Ihr könnt mir nicht helfen. Euch einen guten Tag, <SIRMAAM>.~
-@36 = ~Ihr seid zurückgekehrt. Seid Ihr jetzt im Stande, mir zu helfen?~
-@37 = ~Erinnert Ihr Euch, Ihr hattet gesagt, dass Ihr nach einem Zauber suchen könntet, der mir helfen würde, mit meinem Onkel Donny zu sprechen. Fandet Ihr einen?~
+@21 = ~Ich will den Stadt-Beamten keinen Grund geben, ihre eigene Jagd nach Onkels Donny Geld schneller zu beginnen, deshalb will ich nicht darÃ¼ber hinausgehen, sie zu zwingen, mir das Testament gesetzlich zu geben. Ich habe einen anderen Plan im Sinn, aber ich habe nicht die Sachkenntnisse, es selbst zu tun.~ 
+@22 = ~Was ich zu finden hoffte, war ein Magie-Benutzer, um den Geist Onkels Donny zu beschwÃ¶ren. Ich habe gehÃ¶rt, dass starke Magie-Benutzer das tun kÃ¶nnen, und wÃ¼rde gern mit ihm sprechen, um die Hinweise darÃ¼ber herauszufinden, wo er sein Geld versteckte.~ 
+@23 = ~Das hÃ¶rt sich nach einem guten Plan an. Es ist wahr, dass einige Magier - und Ã¼brigens auch einige Priester  - Mit Toten Sprechen kÃ¶nnen, aber um das zu tun, mÃ¼ssen der Zauberer oder Kleriker den Zauber kennen, oder eine Schriftrolle haben, um ihn zu wirken. Ich kenne weder den Zauber Mit Toten Sprechen, noch habe ich eine Schriftrolle.~
+@24 = ~Gibt es dann irgendwelche Art, wie Ihr den Zauber lernen kÃ¶nntet? Erhaltet Ihr vielleicht eine Schriftrolle?~ 
+@25 = ~Ich werde versuchen, eine zu finden, aber ich weiÃŸ nicht, wer eine Kopie der Schriftrolle haben kÃ¶nnte, oder ob es Ã¼berhaupt eine hier in der Stadt gibt. Warum wartent Ihr nicht hier, und wenn ich einen Zauber finde, komme ich zurÃ¼ck, um Euch zu helfen, mit Eurem Onkel zu sprechen.~
+@26 = ~Ich weiÃŸ nicht, wo ich suchen soll. Kennt Ihr irgendjemanden, der im Stande sein kÃ¶nnte, mir diesen Zauber zu verkaufen?~
+@27 = ~Ich denke nicht, dass ich Zeit habe, um nach diesem Zauber zu suchen. Tut mir Leid, aber Ihr werdet jemand anderen finden mÃ¼ssen, der diesen Zauber wirkt, um mit Eurem Onkel zu sprechen.~
+@28 = ~Das wÃ¤re eine groÃŸe Hilfe. Ihr mÃ¼sst mehr Ã¼ber die Magie wissen, als ich, aber nach dem, was ich weiÃŸ, mÃ¼sst Ihr eine Schriftrolle haben, um ihn zu wirken, also seid vorsichtig, weil Ihr vielleicht nur eine Kopie des Zaubers finden kÃ¶nntet.~
+@29 = ~Ich kenne niemanden, der diese Art der Magie verkaufen kÃ¶nnte. Ihr wisst mehr Ã¼ber die Magie als ich, also kÃ¶nntet Ihr im Stande sein, leichter jemanden zu finden als ich, aber nach dem, was ich weiÃŸ, mÃ¼sst Ihr eine Schriftrolle haben, um ihn zu wirken, also seid vorsichtig, weil Ihr vielleicht nur eine Kopie des Zaubers finden kÃ¶nntet. Wenn Ihr nach einer suchen geht, werde ich hier bleiben, und wenn Ihr den Zauber findet, kann ich tun, was immer ich kann, um Euch zu helfen, ihn zu wirken.~
+@30 = ~Dann werde ich hier warten, bis Ihr Zeit habt, um den Zauber zu finden, oder bis Ihr zurÃ¼ckkehrt, um ihn zu wirken. Ihr wisst mehr Ã¼ber die Magie als ich, also kÃ¶nntet Ihr im Stande sein, leichter jemanden zu finden als ich, aber nach dem, was ich weiÃŸ, mÃ¼sst Ihr eine Schriftrolle haben, um ihn zu wirken, also seid vorsichtig, weil Ihr vielleicht nur eine Kopie des Zaubers finden kÃ¶nntet. Wenn Ihr nach einer suchen geht, werde ich hier bleiben, und wenn Ihr den Zauber findet, kann ich tun, was immer ich kann, um Euch zu helfen, ihn zu wirken.~
+@31 = ~Ich wÃ¼rde von Euch nicht erwarten, dass Ihr die ganze Stadt selbst durchsucht, ohne einen Hinweis. Nein, ich hatte einen anderen Plan, aber ich habe nicht die FÃ¤higkeiten, es selbst zu tun.~
+@32 = ~Mir gehen die Optionen aus. Ich hÃ¤tte es wirklich gerne, wenn Ihr mir helfen kÃ¶nntet. Ich werde hier warten, und wenn Ihr Eure Meinung Ã¼ber die Hilfe Ã¤ndert, kommt bitte zurÃ¼ck und lasst es mich wissen.~
+@33 = ~Wie Ihr sagtet, werde ich hier bleiben, und wenn Ihr die MÃ¶glichkeit habt, mir zu helfen, kommt zurÃ¼ck und lasst es mich wissen.~
+@34 = ~Ich wollte Euch nicht verÃ¤rgern. Ich dachte nur, dass Ihr im Stande sein kÃ¶nntet, mir zu helfen. Entschuldigung fÃ¼r die Unterbrechung. Auf Wiedersehen.~
+@35 = ~Es tut mir dann Leid, Euch belÃ¤stigt zu haben. Ihr kÃ¶nnt mir nicht helfen. Euch einen guten Tag, <SIRMAAM>.~
+@36 = ~Ihr seid zurÃ¼ckgekehrt. Seid Ihr jetzt im Stande, mir zu helfen?~
+@37 = ~Erinnert Ihr Euch, Ihr hattet gesagt, dass Ihr nach einem Zauber suchen kÃ¶nntet, der mir helfen wÃ¼rde, mit meinem Onkel Donny zu sprechen. Fandet Ihr einen?~
 @38 = ~Nein, tut mir Leid, noch nicht. Ich werde dennoch weiter danach suchen. Wartet hier.~
-@39 = ~Ich habe noch nicht einmal angefangen, nach einem zu suchen. Ich denke nicht, dass es eine gute Idee wäre, Euren Onkel von den Toten zurückzurufen.~
+@39 = ~Ich habe noch nicht einmal angefangen, nach einem zu suchen. Ich denke nicht, dass es eine gute Idee wÃ¤re, Euren Onkel von den Toten zurÃ¼ckzurufen.~
 @40 = ~Ja, Ryberg, ich fand wirklich eine Schriftrolle. Stellt Euch dort hin und ich werde Euren Onkel rufen.~
-@41 = ~Ihr habt Glück, Ryberg. Ich fand eine Zauber-Schriftrolle Mit Toten Sprechen, aber ich denke nicht, dass es eine gute Idee ist, Euren Onkel von den Toten zurückzurufen.~
-@42 = ~Ic h vergaß, was es war, was Ihr von mir wolltet.~
-@43 = ~Ja, Ryberg, ich fand eine Schriftrolle. Aber wir können den Zauber hier nicht wirken wegen der Kräfte, die er freisetzen könnte.~
+@41 = ~Ihr habt GlÃ¼ck, Ryberg. Ich fand eine Zauber-Schriftrolle Mit Toten Sprechen, aber ich denke nicht, dass es eine gute Idee ist, Euren Onkel von den Toten zurÃ¼ckzurufen.~
+@42 = ~Ic h vergaÃŸ, was es war, was Ihr von mir wolltet.~
+@43 = ~Ja, Ryberg, ich fand eine Schriftrolle. Aber wir kÃ¶nnen den Zauber hier nicht wirken wegen der KrÃ¤fte, die er freisetzen kÃ¶nnte.~
 @44 = ~Bitte, ich muss wirklich herausfinden, wo Onkel Donny sein Geld verbarg. Wenn Ihr einen Weg findet, mit meinem Onkel zu sprechen, kommt her zu mir.~
-@45 = ~In Ordnung, Magie-Benutzer, lasst mich Euch nicht im Weg stehen, während Ihr den Zauber wirkt.~ ~In Ordnung, Magie-Benutzerin, lasst mich Euch nicht im Weg stehen, während Ihr den Zauber wirkt.~
-@46 = ~Ich weiss, dass ich um Eure Hilfe bat, und Ihr habt viel für mich getan, aber wenn Ihr den Zauber nicht selbst wirken wollt, gebt mir die Schriftrolle und ich werde jemand anderen finden, der ihn für mich wirkt.~
-@47 = ~Na schön, Ryberg. Hier ist die Schriftrolle.~
-@48 = ~Nein, Ryberg. Die Einmischung in die Kräfte des Todes ist nichts, das ohne Folgen bleiben kann. Mit guten Gewissen kann ich Euch nicht diese Schriftrolle nehmen lassen.~
-@49 = ~Man kann sich nicht ohne Folgen in die Mächte des Todes einmischen, Ryberg. Ich kann nicht jemanden, den ich nicht kenne, und der vielleicht nicht erfahren genug ist, diese Schriftrolle wirken lassen. Ich werde es für Euch machen, aber unter Protest, Ryberg.~
-@50 = ~Danke für Eure Hilfe. Es tut mir Leid, dass Ihr den Zauber nicht wirken wollt, aber ich verstehe, dass es außerhalb Euren Fähigkeiten sein könnte. Jedenfalls hoffe ich, dass ich im Stande sein werde, jemand anderen zu finden, der den Zauber für mich wirkt. Euch einen guten Tag, <SIRMAAM>.~
-@51 = ~Mir gehen die Optionen aus. Ich muss wirklich herausfinden, wo mein Onkel sein Geld versteckte. Bitte, wenn Ihr Eure Meinung ändert, besucht mich hier.~
-@52 = ~Onkel Donny! Ich bin so froh, Euch zu sehen! Aber wir haben nicht viel Zeit. Bitte, die Politiker hier wollen mich nicht Euer Testament sehen lassen. Ich kann das Geld nicht finden, das Ihr mir hinterließt.~
-@53 = ~Bitte, wenn Ihr mir erzählen könnt, wie oder wo das Geld zu finden ist, würde es mir helfen. Es muss etwas geben, das Ihr mir erzählen könnt. Onkel Donny! Sprecht! ~
+@45 = ~In Ordnung, Magie-Benutzer, lasst mich Euch nicht im Weg stehen, wÃ¤hrend Ihr den Zauber wirkt.~ ~In Ordnung, Magie-Benutzerin, lasst mich Euch nicht im Weg stehen, wÃ¤hrend Ihr den Zauber wirkt.~
+@46 = ~Ich weiss, dass ich um Eure Hilfe bat, und Ihr habt viel fÃ¼r mich getan, aber wenn Ihr den Zauber nicht selbst wirken wollt, gebt mir die Schriftrolle und ich werde jemand anderen finden, der ihn fÃ¼r mich wirkt.~
+@47 = ~Na schÃ¶n, Ryberg. Hier ist die Schriftrolle.~
+@48 = ~Nein, Ryberg. Die Einmischung in die KrÃ¤fte des Todes ist nichts, das ohne Folgen bleiben kann. Mit guten Gewissen kann ich Euch nicht diese Schriftrolle nehmen lassen.~
+@49 = ~Man kann sich nicht ohne Folgen in die MÃ¤chte des Todes einmischen, Ryberg. Ich kann nicht jemanden, den ich nicht kenne, und der vielleicht nicht erfahren genug ist, diese Schriftrolle wirken lassen. Ich werde es fÃ¼r Euch machen, aber unter Protest, Ryberg.~
+@50 = ~Danke fÃ¼r Eure Hilfe. Es tut mir Leid, dass Ihr den Zauber nicht wirken wollt, aber ich verstehe, dass es auÃŸerhalb Euren FÃ¤higkeiten sein kÃ¶nnte. Jedenfalls hoffe ich, dass ich im Stande sein werde, jemand anderen zu finden, der den Zauber fÃ¼r mich wirkt. Euch einen guten Tag, <SIRMAAM>.~
+@51 = ~Mir gehen die Optionen aus. Ich muss wirklich herausfinden, wo mein Onkel sein Geld versteckte. Bitte, wenn Ihr Eure Meinung Ã¤ndert, besucht mich hier.~
+@52 = ~Onkel Donny! Ich bin so froh, Euch zu sehen! Aber wir haben nicht viel Zeit. Bitte, die Politiker hier wollen mich nicht Euer Testament sehen lassen. Ich kann das Geld nicht finden, das Ihr mir hinterlieÃŸt.~
+@53 = ~Bitte, wenn Ihr mir erzÃ¤hlen kÃ¶nnt, wie oder wo das Geld zu finden ist, wÃ¼rde es mir helfen. Es muss etwas geben, das Ihr mir erzÃ¤hlen kÃ¶nnt. Onkel Donny! Sprecht! ~
 @54 = ~Was? Was bedeutet das, Onkel Donny? Ich verstehe nicht.~
 @55 = ~Nein, wartet... geht noch nicht! Donny! Wartet...~
-@56 = ~Nun, das war's. Onkel Donny ist wirklich weg, und ich bin nicht näher gekommen, herauszufinden, wo er sein Geld verbarg.~
-@57 = ~Tut mir Leid, dass ich nicht mehr von Hilfe sein konnte. Ich dachte, dass Euer Onkel im Stande sein würde, Euch zu erzählen, wo der Schatz zu finden ist.~
-@58 = ~Wartet, Ryberg, ich denke, dass ich eine Idee habe, wo Euer Onkel sein Geld verborgen haben könnte. Vielleicht könnte ich es für Euch bekommen.~
-@59 = ~So ist es nun mal., Ryberg. Mehr Glück beim nächsten Mal.~
-@60 = ~Ihr wart jedenfalls eine große Hilfe. Ohne Euch wäre ich nicht im Stande gewesen, meinen Onkel zu sehen. Ich danke Euch jedenfalls für Eure Hilfe.~
-@61 = ~Wenn Ihr herausfinden könnt, wo es ist, dann werde ich es mit Euch teilen. Wenn nicht, werde ich nicht besser dran sein, als ich jetzt bin. Warum sucht Ihr nicht danach, wenn Ihr Zeit habt.~
-@62 = ~Ja, ich glaube, dass die Stadt-Beamten das Testament behalten werden, und ich bin ohne mein Erbe. Vielen Dank jedenfalls dafür, zu helfen.~
-@63 = ~Ihr sagtet, dass Ihr im Stande sein könntet, das Geld zu finden, das Onkel Donny mir hinterließ. Wäret Ihr in der Lage, es zu finden?~
-@64 = ~Noch nicht, Ryberg. Ich denke noch über das Rätsel nach und sehe mich in der Stadt um.~
+@56 = ~Nun, das war's. Onkel Donny ist wirklich weg, und ich bin nicht nÃ¤her gekommen, herauszufinden, wo er sein Geld verbarg.~
+@57 = ~Tut mir Leid, dass ich nicht mehr von Hilfe sein konnte. Ich dachte, dass Euer Onkel im Stande sein wÃ¼rde, Euch zu erzÃ¤hlen, wo der Schatz zu finden ist.~
+@58 = ~Wartet, Ryberg, ich denke, dass ich eine Idee habe, wo Euer Onkel sein Geld verborgen haben kÃ¶nnte. Vielleicht kÃ¶nnte ich es fÃ¼r Euch bekommen.~
+@59 = ~So ist es nun mal., Ryberg. Mehr GlÃ¼ck beim nÃ¤chsten Mal.~
+@60 = ~Ihr wart jedenfalls eine groÃŸe Hilfe. Ohne Euch wÃ¤re ich nicht im Stande gewesen, meinen Onkel zu sehen. Ich danke Euch jedenfalls fÃ¼r Eure Hilfe.~
+@61 = ~Wenn Ihr herausfinden kÃ¶nnt, wo es ist, dann werde ich es mit Euch teilen. Wenn nicht, werde ich nicht besser dran sein, als ich jetzt bin. Warum sucht Ihr nicht danach, wenn Ihr Zeit habt.~
+@62 = ~Ja, ich glaube, dass die Stadt-Beamten das Testament behalten werden, und ich bin ohne mein Erbe. Vielen Dank jedenfalls dafÃ¼r, zu helfen.~
+@63 = ~Ihr sagtet, dass Ihr im Stande sein kÃ¶nntet, das Geld zu finden, das Onkel Donny mir hinterlieÃŸ. WÃ¤ret Ihr in der Lage, es zu finden?~
+@64 = ~Noch nicht, Ryberg. Ich denke noch Ã¼ber das RÃ¤tsel nach und sehe mich in der Stadt um.~
 @65 = ~Ja, Ryberg, ich denke, dass ich das Geld Eures Onkels fand. Es ist auch viel Gold. Hier, ich werde es mit Euch Halbe-Halbe teilen.~
-@66 = ~Ich fand das Gold Eures toten Verwandten, aber ich will einen größeren Anteil, weil ich die ganze Arbeit machte.~
-@67 = ~Oh großartig! Das wird mir und meiner Familie sehr helfen. Vielen Dank für Eure ganze Hilfe. Euch einen guten Tag, <SIRMAAM>.~
-@68 = ~Ihr betrügerischer Dieb! Ihr seid nicht besser als jene Politiker, die mir das Testament nicht geben würden. Ich hoffe, dass Ihr mit Cyric verfault.~
-@69 = ~Und wie Ihr sagtet, ich werde hier bleiben, und wenn Ihr den Zauber findet, kann ich tun, was auch immer Ihr an Hilfe benötigen solltet, um ihn zu wirken.~
-@70 = ~Nun, ich habe gehört, dass einige Magie-Benutzer diejenigen rufen können, die das Zeitliche gesegnet haben. Ich weiß, dass das wahr ist, also lasst  mich mein Problem erklären.~
+@66 = ~Ich fand das Gold Eures toten Verwandten, aber ich will einen grÃ¶ÃŸeren Anteil, weil ich die ganze Arbeit machte.~
+@67 = ~Oh groÃŸartig! Das wird mir und meiner Familie sehr helfen. Vielen Dank fÃ¼r Eure ganze Hilfe. Euch einen guten Tag, <SIRMAAM>.~
+@68 = ~Ihr betrÃ¼gerischer Dieb! Ihr seid nicht besser als jene Politiker, die mir das Testament nicht geben wÃ¼rden. Ich hoffe, dass Ihr mit Cyric verfault.~
+@69 = ~Und wie Ihr sagtet, ich werde hier bleiben, und wenn Ihr den Zauber findet, kann ich tun, was auch immer Ihr an Hilfe benÃ¶tigen solltet, um ihn zu wirken.~
+@70 = ~Nun, ich habe gehÃ¶rt, dass einige Magie-Benutzer diejenigen rufen kÃ¶nnen, die das Zeitliche gesegnet haben. Ich weiÃŸ, dass das wahr ist, also lasst  mich mein Problem erklÃ¤ren.~
 @71 = ~Wohin sollten wir dann gehen, um den Zauber zu wirken?~
-@72 = ~Kommt mit mir zu den Umar Hügeln.~
-@73 = ~Wir werden zu der Festung außerhalb der Stadt gehen.~
-@74 = ~Folgt mir, und werden wir zu den Windspeer Hügeln gehen.~
-@75 = ~Wir werden zu einer der Grabstätten unter dem Friedhofs-Bezirk hinuntergehen, um den Zauber zu wirken. Geht schon!~
-@76 = ~Das hört sich nach einem sichereren Ort an. Gehen wir.~
+@72 = ~Kommt mit mir zu den Umar HÃ¼geln.~
+@73 = ~Wir werden zu der Festung auÃŸerhalb der Stadt gehen.~
+@74 = ~Folgt mir, und werden wir zu den Windspeer HÃ¼geln gehen.~
+@75 = ~Wir werden zu einer der GrabstÃ¤tten unter dem Friedhofs-Bezirk hinuntergehen, um den Zauber zu wirken. Geht schon!~
+@76 = ~Das hÃ¶rt sich nach einem sichereren Ort an. Gehen wir.~
 @77 = ~Wenn Ihr es herausfindet, lasst es mich wissen.~
 @78 = ~Entgangenes Erbe
 
-Heute traf ich einen bekümmerten jungen Mann mit dem Namen Ryberg. Er erzählte mir, wie sein Onkel kürzlich verschied, und wegen der Bonzen in der Stadt-Regierung von Athkatla ist er nicht im Stande herauszufinden, wo sein verstorbener Onkel das Geld verbarg. Ryberg bat mich, einen Weg zu finden, seinen Onkel zurückzubringen in der Hoffnung, dass er im Stande sein würde, mit der Seele seines Onkels zu sprechen, um das Geld zu finden.~
+Heute traf ich einen bekÃ¼mmerten jungen Mann mit dem Namen Ryberg. Er erzÃ¤hlte mir, wie sein Onkel kÃ¼rzlich verschied, und wegen der Bonzen in der Stadt-Regierung von Athkatla ist er nicht im Stande herauszufinden, wo sein verstorbener Onkel das Geld verbarg. Ryberg bat mich, einen Weg zu finden, seinen Onkel zurÃ¼ckzubringen in der Hoffnung, dass er im Stande sein wÃ¼rde, mit der Seele seines Onkels zu sprechen, um das Geld zu finden.~
 @79 = ~Entgangenes Erbe?
 
-Ich kehrte zurück und fand Ryberg in einem beunruhigten Zustand. Ich war im Stande, eine Schriftrolle zu bekommen, um den Geist seines Onkels zu beschwören, und Ryberg hatte ein kurzes Gespräch mit seinem toten Onkel. Leider war Rybergs Onkel über den Fundort seines Geldes nicht sonderlich entgegenkommend. Ich sagte Ryberg, dass ich versuchen würde, hinter das Rätsel zu kommen, aber es gab nicht viele Hinweise.
-Rybergs Onkel erwähnte etwas wie etwas aus den Augen verlieren, um Glauben zu erlangen, sowie etwas über den Sinn des Lebens in der Form einer Metapher von einer Brücke. Ich werde darüber nachdenken müssen, wo das Geld mit jenen Hinweisen sein könnte.~
+Ich kehrte zurÃ¼ck und fand Ryberg in einem beunruhigten Zustand. Ich war im Stande, eine Schriftrolle zu bekommen, um den Geist seines Onkels zu beschwÃ¶ren, und Ryberg hatte ein kurzes GesprÃ¤ch mit seinem toten Onkel. Leider war Rybergs Onkel Ã¼ber den Fundort seines Geldes nicht sonderlich entgegenkommend. Ich sagte Ryberg, dass ich versuchen wÃ¼rde, hinter das RÃ¤tsel zu kommen, aber es gab nicht viele Hinweise.
+Rybergs Onkel erwÃ¤hnte etwas wie etwas aus den Augen verlieren, um Glauben zu erlangen, sowie etwas Ã¼ber den Sinn des Lebens in der Form einer Metapher von einer BrÃ¼cke. Ich werde darÃ¼ber nachdenken mÃ¼ssen, wo das Geld mit jenen Hinweisen sein kÃ¶nnte.~
 @80 = ~Wiedererlangtes Entgangenes Erbe
 
-Ich war schließlich im Stande, das Geld des verstorben Onkels von Ryberg zu finden, und gab es ihm zurück. Ryberg war mit meiner Arbeit so zufrieden, dass er das Geld mit mir teilte, indem er die Hälfte der 26,000 Goldstücke für sich selbst behielt und mir den Rest gab.~
-@81 = ~Suche nach "Über den Geist"
+Ich war schlieÃŸlich im Stande, das Geld des verstorben Onkels von Ryberg zu finden, und gab es ihm zurÃ¼ck. Ryberg war mit meiner Arbeit so zufrieden, dass er das Geld mit mir teilte, indem er die HÃ¤lfte der 26,000 GoldstÃ¼cke fÃ¼r sich selbst behielt und mir den Rest gab.~
+@81 = ~Suche nach "Ãœber den Geist"
 
-Der Magier, den ich vor einiger Zeit im Dorf Soubar traf, ist hier in Athkatla im Urlaub, und er suchte nach einem Buch über das Leben nach dem Tod. Er versprach, dass, wenn ich eine Kopie des Buches "Über den Geist" für ihn finden könnte, er eine Schriftrolle mit dem Zauber Mit Toten Sprechen dafür tauschen würde.~
-@82 = ~"Über den Geist" gefunden
+Der Magier, den ich vor einiger Zeit im Dorf Soubar traf, ist hier in Athkatla im Urlaub, und er suchte nach einem Buch Ã¼ber das Leben nach dem Tod. Er versprach, dass, wenn ich eine Kopie des Buches "Ãœber den Geist" fÃ¼r ihn finden kÃ¶nnte, er eine Schriftrolle mit dem Zauber Mit Toten Sprechen dafÃ¼r tauschen wÃ¼rde.~
+@82 = ~"Ãœber den Geist" gefunden
 
-Ich fand das Buch, nach dem der Magier Ceeb suchte. Ich werde zur Promenade zurückkehren müssen, um Ceeb das Buch zu geben.~
+Ich fand das Buch, nach dem der Magier Ceeb suchte. Ich werde zur Promenade zurÃ¼ckkehren mÃ¼ssen, um Ceeb das Buch zu geben.~

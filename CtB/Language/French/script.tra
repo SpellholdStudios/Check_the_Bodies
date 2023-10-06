@@ -1,209 +1,209 @@
 //this is the file that will have all script STRREFs
 @550000 = ~Vous allez en briser, des coeurs, Surayah.~
-@550001 = ~Ils forment un très beau couple.~
+@550001 = ~Ils forment un trÃ¨s beau couple.~
 @550002 = ~Quelle jeune femme charmante !~
-@550003 = ~Toutes mes félicitations, mes chers.~
-@550004 = ~Il n'y a pas de confusion possible entre une femme si gracieuse et exquise telle que vous et n'importe qui d'autre, à l'exception, peut-être, d'une Dame distinguée.~
-@550005 = ~Par les dieux, votre époux sera un homme chanceux d'avoir une femme telle que vous !~
-@550006 = ~Hourrah pour les nouveaux mariés !~
-@550007 = ~Vous tirez légèrement sur le bougeoir. Un bruit discordant vient du plancher près de vous, et la lumière s'éteint, mais il n'y a aucun autre effet visible ou audible.~ 
-@550008 = ~Vous êtes sûr qu'il y a des perturbations mineures dans le secteur. Vous ne savez pas exactement de quoi il s'agit, mais il semble qu'une certaine créature, ou des créatures, probablement bipèdes, étaient présentes autour de votre cabane.~
-@550009 = ~Vous escaladez le sentier jusqu'à cet endroit exigu, et vous êtes immédiatement impressionné par la vue. Les montagnes sont majestueuses, et vous ne pouviez pas imaginer un endroit plus distant. Aux alentours, le seul son que vous pouvez entendre est celui de la vie sauvage, et vous ne pouvez pas croire que ceux qui vous pourchassent puissent vous retrouver ici. Vous vous sentez en sécurité, sauf en ce qui concerne les animaux sauvages.~
-@550010 = ~Tout ici semble être resté dans l'état où vous l'avez laissé. Il n'y a pas de trace qui prouve qu'une quelconque forme d'intelligence ait trouvé le chemin qui monte à flanc de montagne pour aboutir ici.~
-@550011 = ~Vous êtes sûr qu'il y a des perturbations mineures dans le secteur. Vous ne savez pas exactement de quoi il s'agit, mais il semble qu'une certaine créature, ou des créatures, probablement bipèdes, étaient présentes autour de votre cabane.~
-@550012 = ~La structure antique de cette tour de magicien s'est fragilisée avec le temps, et le plafond s'effondre, manquant de vous écraser.~
-@550013 = ~Vous vous saisissez de la statuette couverte de poussière sur l'autel.~
-@550014 = ~L'écho d'un bruit fort se réverbère à travers la tour, et vous pouvez le ressentir bien plus que par vos oreilles. Quelque chose a bougé dans la tour, quelque chose de lourd et de massif.~ 
-@550015 = ~Amis de la forêt ! Je suis en danger ! Aidez-moi maintenant !~
-@550016 = ~Animaux de la forêt ! J'ai besoin de votre aide ! Venez à moi !~
+@550003 = ~Toutes mes fÃ©licitations, mes chers.~
+@550004 = ~Il n'y a pas de confusion possible entre une femme si gracieuse et exquise telle que vous et n'importe qui d'autre, Ã  l'exception, peut-Ãªtre, d'une Dame distinguÃ©e.~
+@550005 = ~Par les dieux, votre Ã©poux sera un homme chanceux d'avoir une femme telle que vous !~
+@550006 = ~Hourrah pour les nouveaux mariÃ©s !~
+@550007 = ~Vous tirez lÃ©gÃ¨rement sur le bougeoir. Un bruit discordant vient du plancher prÃ¨s de vous, et la lumiÃ¨re s'Ã©teint, mais il n'y a aucun autre effet visible ou audible.~ 
+@550008 = ~Vous Ãªtes sÃ»r qu'il y a des perturbations mineures dans le secteur. Vous ne savez pas exactement de quoi il s'agit, mais il semble qu'une certaine crÃ©ature, ou des crÃ©atures, probablement bipÃ¨des, Ã©taient prÃ©sentes autour de votre cabane.~
+@550009 = ~Vous escaladez le sentier jusqu'Ã  cet endroit exigu, et vous Ãªtes immÃ©diatement impressionnÃ© par la vue. Les montagnes sont majestueuses, et vous ne pouviez pas imaginer un endroit plus distant. Aux alentours, le seul son que vous pouvez entendre est celui de la vie sauvage, et vous ne pouvez pas croire que ceux qui vous pourchassent puissent vous retrouver ici. Vous vous sentez en sÃ©curitÃ©, sauf en ce qui concerne les animaux sauvages.~
+@550010 = ~Tout ici semble Ãªtre restÃ© dans l'Ã©tat oÃ¹ vous l'avez laissÃ©. Il n'y a pas de trace qui prouve qu'une quelconque forme d'intelligence ait trouvÃ© le chemin qui monte Ã  flanc de montagne pour aboutir ici.~
+@550011 = ~Vous Ãªtes sÃ»r qu'il y a des perturbations mineures dans le secteur. Vous ne savez pas exactement de quoi il s'agit, mais il semble qu'une certaine crÃ©ature, ou des crÃ©atures, probablement bipÃ¨des, Ã©taient prÃ©sentes autour de votre cabane.~
+@550012 = ~La structure antique de cette tour de magicien s'est fragilisÃ©e avec le temps, et le plafond s'effondre, manquant de vous Ã©craser.~
+@550013 = ~Vous vous saisissez de la statuette couverte de poussiÃ¨re sur l'autel.~
+@550014 = ~L'Ã©cho d'un bruit fort se rÃ©verbÃ¨re Ã  travers la tour, et vous pouvez le ressentir bien plus que par vos oreilles. Quelque chose a bougÃ© dans la tour, quelque chose de lourd et de massif.~ 
+@550015 = ~Amis de la forÃªt ! Je suis en danger ! Aidez-moi maintenant !~
+@550016 = ~Animaux de la forÃªt ! J'ai besoin de votre aide ! Venez Ã  moi !~
 @550017 = ~ILS REVIENNENT !!!~
-@550018 = ~Préparez-vous à charger !!!~
+@550018 = ~PrÃ©parez-vous Ã  charger !!!~
 @550019 = ~MAINTENEZ VOS POSITIONS !! NOUS NE DEVONS PAS LES LAISSER PASSER !!!~
-@550020 = ~L'eau est sombre et profonde. Vous ne pouvez pas voir le fond du bassin, et votre instinct vous dit que cette eau stagnante pourrait bien être reliée à une rivière souterraine qui mène quelque part. Si vous le désirez, vous pouvez probablement plonger pour voir où cela vous mène.~
-@550021 = ~Cet arbre n'a pas encore fleuri, il n'y a donc pas de pêches à manger. Toutefois, il y a de nombreuses petites feuilles qui peuvent être récoltées partout sur ses membres souples et fragiles.~ 
-@550022 = ~Des baies de sureau fraîches pendent des branches de ce buisson.~
-@550023 = ~La base de cet arbre est recouverte de blocs de mousse très rare remontant le côté nord de son tronc.~
-@550024 = ~Il s'agit d'arbres d'absinthe. L'écorce des arbres d'absinthe est généralement employée par des guérisseurs ou des chamans pour favoriser la digestion de leurs patients.~
-@550025 = ~Au bord du chemin s'étale une couche herbeuse, parsemée d'une variété de fougères.~
-@550026 = ~Alors que vous posez le pied sur les dalles en porcelaine, vous sentez un léger décalage, comme si elles s'enfonçaient dans le sol.~ 
-@550027 = ~Ce glyphe de garde a suffisamment été affaibli pour que votre sort dissipe la barrière magique.~
-@550028 = ~Lorsque vous avancez vers la barrière, l'énergie qui vous empêche de passer augmente et un ronflement se fait entendre dans votre sac à dos.~
-@550029 = ~Depuis que vous avez vidé votre sac de ses objets particuliers, la barrière vous laisse passer.~
-@550030 = ~La magie protectrice des arcanes de la tour du magicien vous téléporte soudainement vers un autre étage, semant la confusion dans votre esprit pendant un court instant.~
+@550020 = ~L'eau est sombre et profonde. Vous ne pouvez pas voir le fond du bassin, et votre instinct vous dit que cette eau stagnante pourrait bien Ãªtre reliÃ©e Ã  une riviÃ¨re souterraine qui mÃ¨ne quelque part. Si vous le dÃ©sirez, vous pouvez probablement plonger pour voir oÃ¹ cela vous mÃ¨ne.~
+@550021 = ~Cet arbre n'a pas encore fleuri, il n'y a donc pas de pÃªches Ã  manger. Toutefois, il y a de nombreuses petites feuilles qui peuvent Ãªtre rÃ©coltÃ©es partout sur ses membres souples et fragiles.~ 
+@550022 = ~Des baies de sureau fraÃ®ches pendent des branches de ce buisson.~
+@550023 = ~La base de cet arbre est recouverte de blocs de mousse trÃ¨s rare remontant le cÃ´tÃ© nord de son tronc.~
+@550024 = ~Il s'agit d'arbres d'absinthe. L'Ã©corce des arbres d'absinthe est gÃ©nÃ©ralement employÃ©e par des guÃ©risseurs ou des chamans pour favoriser la digestion de leurs patients.~
+@550025 = ~Au bord du chemin s'Ã©tale une couche herbeuse, parsemÃ©e d'une variÃ©tÃ© de fougÃ¨res.~
+@550026 = ~Alors que vous posez le pied sur les dalles en porcelaine, vous sentez un lÃ©ger dÃ©calage, comme si elles s'enfonÃ§aient dans le sol.~ 
+@550027 = ~Ce glyphe de garde a suffisamment Ã©tÃ© affaibli pour que votre sort dissipe la barriÃ¨re magique.~
+@550028 = ~Lorsque vous avancez vers la barriÃ¨re, l'Ã©nergie qui vous empÃªche de passer augmente et un ronflement se fait entendre dans votre sac Ã  dos.~
+@550029 = ~Depuis que vous avez vidÃ© votre sac de ses objets particuliers, la barriÃ¨re vous laisse passer.~
+@550030 = ~La magie protectrice des arcanes de la tour du magicien vous tÃ©lÃ©porte soudainement vers un autre Ã©tage, semant la confusion dans votre esprit pendant un court instant.~
 @550031 = ~"Oui, Tardeth. Nous savons tous que tu ne sais pas te servir d'un arc."~
-@550032 = ~"Je pourrais faire mieux que ça."~
+@550032 = ~"Je pourrais faire mieux que Ã§a."~
 @550033 = ~"Regarde comment il faut faire."~
-@550034 = ~"Et voilà, Tardeth. Ce fut plus facile à faire qu'à dire."~
+@550034 = ~"Et voilÃ , Tardeth. Ce fut plus facile Ã  faire qu'Ã  dire."~
 @550035 = ~"Je veux y arriver !"~
 @550036 = ~"Sylvanus et Tardeth, soyez plus attentifs."~
 @550037 = ~"Je vais vous montrer comment il faut faire."~
-@550038 = ~"Et voilà, Tardeth. Ce fut plus facile à faire qu'à dire."~
+@550038 = ~"Et voilÃ , Tardeth. Ce fut plus facile Ã  faire qu'Ã  dire."~
 @550039 = ~"Eh, regardez tous ! L'elfe essaie encore une fois de devenir un archer !"~
-@550040 = ~"Et moi qui pensais que les elfes étaient supposés être habiles à l'arc !"~
+@550040 = ~"Et moi qui pensais que les elfes Ã©taient supposÃ©s Ãªtre habiles Ã  l'arc !"~
 @550041 = ~"Sylvanus, tu ne pourrais pas atteindre le flanc d'une grange avec cet arc."~
 @550042 = ~"En avant, Compagnie des Huit ! Allez !"~
 @550043 = ~"J'aimerais bien voir si tu fais mieux, Haresdown."~
-@550044 = ~"Ne fais pas attention à elle, Sylvanus."~
-@550045 = ~"Je vais m'entraîner un peu avec toi."~
+@550044 = ~"Ne fais pas attention Ã  elle, Sylvanus."~
+@550045 = ~"Je vais m'entraÃ®ner un peu avec toi."~
 @550046 = ~"Enfer, je ne peux pas tirer d'ici."~ 
 @550047 = ~"Trois sur quatre. Pas mal."~
-@550048 = ~"Ne fais pas attention à elle, Sylvanus."~
-@550049 = ~"Je vais m'entraîner un peu avec toi."~
+@550048 = ~"Ne fais pas attention Ã  elle, Sylvanus."~
+@550049 = ~"Je vais m'entraÃ®ner un peu avec toi."~
 @550050 = ~"Enfer, je ne peux pas tirer d'ici !"~ 
-@550051 = ~"Enfer ! Je ne l'ai touché qu'une seule fois !"~
+@550051 = ~"Enfer ! Je ne l'ai touchÃ© qu'une seule fois !"~
 @550052 = ~"Bien !"~
 @550053 = ~"Beau tir !"~
-@550054 = ~"Tu l'as touché, celui-là."~
-@550055 = ~En effet, nous appartenons à la même engeance. Personne d'autre n'aurait pu survivre pour m'affronter. Bien sûr, cela ne change pas grand-chose. Je finirai par m'imposer, ce qui sera l'avènement d'une nouvelle ère pour les Royaumes.~ [CB_74215]
-@550056 = ~Oui, frère, mets-y toute ton énergie, et nous terminerons cette aventure comme il sied à notre héritage ! Affronte-moi ! Affronte le nouveau SEIGNEUR DU MEURTRE ! Angelo ! Tazok ! Révélez votre vraie nature et finissons tout ceci maintenant !~ ~Oui, ma soeur, mets-y toute ton énergie, et nous terminerons cette aventure comme il sied à notre héritage ! Affronte-moi ! Affronte le nouveau SEIGNEUR DU MEURTRE ! Angelo ! Tazok ! Révélez votre vraie nature et finissons tout ceci maintenant !~ [CB_74217]
-@550057 = ~Tes plans démoniaques prennent fin ici et maintenant ! Ce Dieu va non seulement rester mort, mais en plus tu vas le rejoindre !~
-@550058 = ~Je découvrirai la vérité !~
-@550059 = ~Intéressant. Ceci va requérir plus d'études.~
-@550060 = ~Ces résultats ne confirment pas mes recherches précédentes. Je vais devoir tenter une expérimentation supplémentaire.~
-@550061 = ~Hmmmm.... très inhabituel. Cela nécessite d'avantage de recherches.~
+@550054 = ~"Tu l'as touchÃ©, celui-lÃ ."~
+@550055 = ~En effet, nous appartenons Ã  la mÃªme engeance. Personne d'autre n'aurait pu survivre pour m'affronter. Bien sÃ»r, cela ne change pas grand-chose. Je finirai par m'imposer, ce qui sera l'avÃ¨nement d'une nouvelle Ã¨re pour les Royaumes.~ [CB_74215]
+@550056 = ~Oui, frÃ¨re, mets-y toute ton Ã©nergie, et nous terminerons cette aventure comme il sied Ã  notre hÃ©ritage ! Affronte-moi ! Affronte le nouveau SEIGNEUR DU MEURTRE ! Angelo ! Tazok ! RÃ©vÃ©lez votre vraie nature et finissons tout ceci maintenant !~ ~Oui, ma soeur, mets-y toute ton Ã©nergie, et nous terminerons cette aventure comme il sied Ã  notre hÃ©ritage ! Affronte-moi ! Affronte le nouveau SEIGNEUR DU MEURTRE ! Angelo ! Tazok ! RÃ©vÃ©lez votre vraie nature et finissons tout ceci maintenant !~ [CB_74217]
+@550057 = ~Tes plans dÃ©moniaques prennent fin ici et maintenant ! Ce Dieu va non seulement rester mort, mais en plus tu vas le rejoindre !~
+@550058 = ~Je dÃ©couvrirai la vÃ©ritÃ© !~
+@550059 = ~IntÃ©ressant. Ceci va requÃ©rir plus d'Ã©tudes.~
+@550060 = ~Ces rÃ©sultats ne confirment pas mes recherches prÃ©cÃ©dentes. Je vais devoir tenter une expÃ©rimentation supplÃ©mentaire.~
+@550061 = ~Hmmmm.... trÃ¨s inhabituel. Cela nÃ©cessite d'avantage de recherches.~
 @550062 = ~Monsieur, la source n'est pas visible.~
-@550063 = ~N'avez-vous pas vu la ville ? Peut-être une des riches demeures ?~
-@550064 = ~Bien sûr que si, Monsieur, bien que notre magie ne puisse pas localiser une source bien définie. Le sort désigne différents endroits dans la ville qui semblent changer aléatoirement.~
-@550065 = ~Il doit y avoir une explication, adepte. La magie ne se lance pas d'elle-même.~
+@550063 = ~N'avez-vous pas vu la ville ? Peut-Ãªtre une des riches demeures ?~
+@550064 = ~Bien sÃ»r que si, Monsieur, bien que notre magie ne puisse pas localiser une source bien dÃ©finie. Le sort dÃ©signe diffÃ©rents endroits dans la ville qui semblent changer alÃ©atoirement.~
+@550065 = ~Il doit y avoir une explication, adepte. La magie ne se lance pas d'elle-mÃªme.~
 @550066 = ~Ahhh, oui Monsieur. Je comprends parfaitement, mais en dehors de cela, nous ne pouv...~
-@550067 = ~Peut-être est-il préférable de compter sur quelqu'un qui ne peut pas être suivi pour débusquer ce déviant ?~
-@550068 = ~Comment quelqu'un d'autre pourrait-il être capable de trouver ce que nous avons...~
-@550069 = ~ASSEZ ! Il n'y aura plus de telles discussions à l'avenir. Vous allez trouver ce déviant et amener l'offenseur devant la justice. Je n'accepterai plus aucune excuse.~
+@550067 = ~Peut-Ãªtre est-il prÃ©fÃ©rable de compter sur quelqu'un qui ne peut pas Ãªtre suivi pour dÃ©busquer ce dÃ©viant ?~
+@550068 = ~Comment quelqu'un d'autre pourrait-il Ãªtre capable de trouver ce que nous avons...~
+@550069 = ~ASSEZ ! Il n'y aura plus de telles discussions Ã  l'avenir. Vous allez trouver ce dÃ©viant et amener l'offenseur devant la justice. Je n'accepterai plus aucune excuse.~
 @550070 = ~Ou... oui, Monsieur. Tout de suite, Monsieur.~
 @550071 = ~Eleanor ! J'ai l'impression que tu fais des recherches pour lesquelles je ne te paie pas.~
-@550072 = ~Peux-tu m'expliquer pourquoi tu te trouves dans cette ville marécageuse ? Je suis persuadé qu'il n'y a aucun texte important ici. Quelle connaissance pourrais-tu trouver ici qui serait également quelque chose que j'ai besoin de savoir ?~
-@550073 = ~Je... J'ai entendu une rumeur. C'est tout. J... juste une rumeur à propos de l'artéfact. Je... J'ai pensé que cela pourrait être important, m... mais l'indication était fausse.~
-@550074 = ~Ne t'ai-je pas demandé de m'informer de tes activités ? Je sais que j'ai été parfaitement clair dans mes instructions. Hmmm. Non. Je ne crois pas du tout que tu aies entendu une rumeur.~
-@550075 = ~Maintenant, dis moi la vérité. Que fais-tu ici, à Franc-marché ?~
-@550076 = ~Je ne vais pas trahir ceux qui sont vos ennemis ! Vous ne pouvez pas raisonnablement espérer réussir le rituel !~
-@550077 = ~Mais tu es dans l'erreur, chère Eleanor. Je vais réussir. Je le ferai, et c'est dommage que tu ne sois pas là pour être témoin de mon triomphe. Je devrais apprécier de te tuer ! Emparez-vous d'elle, Messieurs !~ 
+@550072 = ~Peux-tu m'expliquer pourquoi tu te trouves dans cette ville marÃ©cageuse ? Je suis persuadÃ© qu'il n'y a aucun texte important ici. Quelle connaissance pourrais-tu trouver ici qui serait Ã©galement quelque chose que j'ai besoin de savoir ?~
+@550073 = ~Je... J'ai entendu une rumeur. C'est tout. J... juste une rumeur Ã  propos de l'artÃ©fact. Je... J'ai pensÃ© que cela pourrait Ãªtre important, m... mais l'indication Ã©tait fausse.~
+@550074 = ~Ne t'ai-je pas demandÃ© de m'informer de tes activitÃ©s ? Je sais que j'ai Ã©tÃ© parfaitement clair dans mes instructions. Hmmm. Non. Je ne crois pas du tout que tu aies entendu une rumeur.~
+@550075 = ~Maintenant, dis moi la vÃ©ritÃ©. Que fais-tu ici, Ã  Franc-marchÃ© ?~
+@550076 = ~Je ne vais pas trahir ceux qui sont vos ennemis ! Vous ne pouvez pas raisonnablement espÃ©rer rÃ©ussir le rituel !~
+@550077 = ~Mais tu es dans l'erreur, chÃ¨re Eleanor. Je vais rÃ©ussir. Je le ferai, et c'est dommage que tu ne sois pas lÃ  pour Ãªtre tÃ©moin de mon triomphe. Je devrais apprÃ©cier de te tuer ! Emparez-vous d'elle, Messieurs !~ 
 @550078 = ~Cela prend trop de temps ! Tu vas mourir maintenant, elfe immonde !~
-@550079 = ~La protection magique de la Maison Extaminos vous téléporte soudainement loin de la porte principale. Vous devrez trouver une autre entrée ou un moyen pour neutraliser la protection magique.~
+@550079 = ~La protection magique de la Maison Extaminos vous tÃ©lÃ©porte soudainement loin de la porte principale. Vous devrez trouver une autre entrÃ©e ou un moyen pour neutraliser la protection magique.~
 @550080 = ~Essaie, maintenant.~
 @550081 = ~Non. Regarde moi attentivement, <CHARNAME>.~
-@550082 = ~<CHARNAME>, pas comme cela, comme ça. Regarde.~
-@550083 = ~C'est presque ça ! Bon travail. Essaie juste d'articuler un peu mieux.~
-@550084 = ~Par Gond, mon garçon ! C’est ça ! Recommence !~ ~Par Gond, ma fille ! C’est ça ! Recommence !~
-@550085 = ~Pas comme ça. Essaie encore.~
+@550082 = ~<CHARNAME>, pas comme cela, comme Ã§a. Regarde.~
+@550083 = ~C'est presque Ã§a ! Bon travail. Essaie juste d'articuler un peu mieux.~
+@550084 = ~Par Gond, mon garÃ§on ! Câ€™est Ã§a ! Recommence !~ ~Par Gond, ma fille ! Câ€™est Ã§a ! Recommence !~
+@550085 = ~Pas comme Ã§a. Essaie encore.~
 @550086 = ~Concentre-toi, mon enfant.~
 @550087 = ~Par Gond, <CHARNAME> ! Sois prudent !~ ~Par Gond, <CHARNAME> ! Sois prudente !~
-@550088 = ~Donc, gamin, dans l'optique de te protéger efficacement dans la fureur d'un combat, pour quelques instants il est commode pour un guerrier d'entrer dans un état de pseudo-transe.~ ~Donc, gamine, dans l'optique de te protéger efficacement dans la fureur d'un combat, pour quelques instants il est commode pour un guerrier d'entrer dans un état de pseudo-transe.~
-@550089 = ~Cette transe est connue par les guerriers sous le nom de spirale défensive. Avec elle, la seule chose que tu as à faire, c'est de te concentrer sur les attaques qu'un adversaire te porte.~
-@550090 = ~En te concentrant sur les mouvements de ton adversaire, tu peux te protéger de pratiquement toutes les attaques, et en apprenant davantage sur les styles d'attaque de tes ennemis, tu seras capable de te protéger contre une variété plus importante d'assauts différents.~
-@550091 = ~Essayons ça. Je vais utiliser cette épée en mousse pour t'attaquer, et tout ce que j'attends de toi, c'est que tu bloques mon attaque avec tes bras, mains, ou tout ce que tu veux. Essaie juste de bloquer mon attaque.~
+@550088 = ~Donc, gamin, dans l'optique de te protÃ©ger efficacement dans la fureur d'un combat, pour quelques instants il est commode pour un guerrier d'entrer dans un Ã©tat de pseudo-transe.~ ~Donc, gamine, dans l'optique de te protÃ©ger efficacement dans la fureur d'un combat, pour quelques instants il est commode pour un guerrier d'entrer dans un Ã©tat de pseudo-transe.~
+@550089 = ~Cette transe est connue par les guerriers sous le nom de spirale dÃ©fensive. Avec elle, la seule chose que tu as Ã  faire, c'est de te concentrer sur les attaques qu'un adversaire te porte.~
+@550090 = ~En te concentrant sur les mouvements de ton adversaire, tu peux te protÃ©ger de pratiquement toutes les attaques, et en apprenant davantage sur les styles d'attaque de tes ennemis, tu seras capable de te protÃ©ger contre une variÃ©tÃ© plus importante d'assauts diffÃ©rents.~
+@550091 = ~Essayons Ã§a. Je vais utiliser cette Ã©pÃ©e en mousse pour t'attaquer, et tout ce que j'attends de toi, c'est que tu bloques mon attaque avec tes bras, mains, ou tout ce que tu veux. Essaie juste de bloquer mon attaque.~
 @550092 = ~A mesure que le combat durera, tu verras que ta concentration grandira, et que tu pourras bloquer de plus en plus d'attaques.~
-@550093 = ~Tu dois apprendre à te rendre compte lorsque ton corps est physiquement en danger.~
-@550094 = ~Tu dois aussi savoir que le corps a des centaines de façons de se protéger.~
-@550095 = ~Pour les apprendre, tu dois expérimenter ce qu'est la douleur.~
-@550096 = ~Je sais que cela va te faire mal, mais c'est la seule façon que je connaisse pour te faire comprendre.~
-@550097 = ~Ne t'inquiète pas, gamin. Je sais ce que je fais, et je ne vais pas te frapper trop violemment, mais tu ressentiras beaucoup de douleur.~ ~Ne t'inquiète pas, gamine. Je sais ce que je fais, et je ne vais pas te frapper trop violemment, mais tu ressentiras beaucoup de douleur.~
-@550098 = ~Prépare-toi.~
+@550093 = ~Tu dois apprendre Ã  te rendre compte lorsque ton corps est physiquement en danger.~
+@550094 = ~Tu dois aussi savoir que le corps a des centaines de faÃ§ons de se protÃ©ger.~
+@550095 = ~Pour les apprendre, tu dois expÃ©rimenter ce qu'est la douleur.~
+@550096 = ~Je sais que cela va te faire mal, mais c'est la seule faÃ§on que je connaisse pour te faire comprendre.~
+@550097 = ~Ne t'inquiÃ¨te pas, gamin. Je sais ce que je fais, et je ne vais pas te frapper trop violemment, mais tu ressentiras beaucoup de douleur.~ ~Ne t'inquiÃ¨te pas, gamine. Je sais ce que je fais, et je ne vais pas te frapper trop violemment, mais tu ressentiras beaucoup de douleur.~
+@550098 = ~PrÃ©pare-toi.~
 @550099 = ~Ca fait vraiment mal, Hull.~
 @550100 = ~Je sais, mais regarde-toi, gamin. Tu n'as ni contusion ni coupure.~ ~Je sais, mais regarde-toi, gamine. Tu n'as ni contusion ni coupure.~
-@550101 = ~C'est ce que je voulais dire lorsque je parlais des différentes manières que le corps a à sa disposition pour prendre soin de lui. Tu n'as pas esquissé le moindre mouvement, et je t'ai frappé relativement fort. Mais tu n'es pas vraiment blessé, tu ressens seulement la douleur.~ ~C'est ce que je voulais dire lorsque je parlais des différentes manières que le corps a à sa disposition pour prendre soin de lui. Tu n'as pas esquissé le moindre mouvement, et je t'ai frappée relativement fort. Mais tu n'es pas vraiment blessée, tu ressens seulement la douleur.~
-@550102 = ~Maintenant que tu as compris ce que je voulais dire, je vais te frapper plus fort, mais souviens-toi, gamin, tu ne sentiras même pas la douleur cette fois-ci.~ ~Maintenant que tu as compris ce que je voulais dire, je vais te frapper plus fort, mais souviens-toi, gamine, tu ne sentiras même pas la douleur cette fois-ci.~
-@550103 = ~Donc, gamin, lorsque tu es au corps-à-corps et que tu veux infliger de gros dégâts à ton adversaire très rapidement, beaucoup de guerriers utilisent une technique appelée communément la spirale offensive.~ ~Donc, gamine, lorsque tu es au corps-à-corps et que tu veux infliger de gros dégâts à ton adversaire très rapidement, beaucoup de guerriers utilisent une technique appelée communément la spirale offensive.~
-@550104 = ~Il s'agit d'un état de quasi-transe où l'attaquant se déplace très rapidement, augmentant son habileté à toucher, et frappant avec une vitesse extrême, tout en maximisant les dégâts engendrés par une arme particulière.~
-@550105 = ~Pendant le combat, cette technique, ou transe, ne va durer que quelques instants, mais elle peut être mortelle face à un adversaire affaibli ou un mage en train d'incanter un sort.~
-@550106 = ~Pour essayer cette technique de combat, je vais te donner cette épée que tu utiliseras contre moi, et je veux que tu commences à me frapper. Je ne vais pas riposter, mais je veux que tu te concentres sur l'endroit où je me trouve, la trajectoire de ton épée, la manière dont tu vas frapper, et le plus important, tu dois prévoir la prochaine attaque bien avant de lancer le coup que tu t'apprêtes à porter.~
-@550107 = ~C'est la clé de voûte de la spirale offensive, gamin : prévoir l'impact avant même de déclencher l'attaque. Maintenant, essaie.~ ~C'est la clé de voûte de la spirale offensive, gamine : prévoir l'impact avant même de déclencher l'attaque. Maintenant, essaie.~
-@550108 = ~Pour débusquer efficacement tes ennemis, gamin, tu te dois de connaître ton environnement.~ ~Pour débusquer efficacement tes ennemis, gamine, tu te dois de connaître ton environnement.~
-@550109 = ~Par exemple, tu ne trouveras pas un Yéti dans une caverne sombre de l'Ombre-terre. A moins bien entendu que le conseil de Mystra soit avec toi, tu vois ?~
-@550110 = ~De même, tu n'es pas prêt de trouver des momies dans une forêt.~ ~De même, tu n'es pas prête de trouver des momies dans une forêt.~
-@550111 = ~C'est la chose la plus importante pour un pisteur : savoir ce qu'il faut chercher. Je pourrais faire une meilleure démonstration si nous étions dans la forêt, mais utilise ton imagination ici, dans cette caserne.~ 
+@550101 = ~C'est ce que je voulais dire lorsque je parlais des diffÃ©rentes maniÃ¨res que le corps a Ã  sa disposition pour prendre soin de lui. Tu n'as pas esquissÃ© le moindre mouvement, et je t'ai frappÃ© relativement fort. Mais tu n'es pas vraiment blessÃ©, tu ressens seulement la douleur.~ ~C'est ce que je voulais dire lorsque je parlais des diffÃ©rentes maniÃ¨res que le corps a Ã  sa disposition pour prendre soin de lui. Tu n'as pas esquissÃ© le moindre mouvement, et je t'ai frappÃ©e relativement fort. Mais tu n'es pas vraiment blessÃ©e, tu ressens seulement la douleur.~
+@550102 = ~Maintenant que tu as compris ce que je voulais dire, je vais te frapper plus fort, mais souviens-toi, gamin, tu ne sentiras mÃªme pas la douleur cette fois-ci.~ ~Maintenant que tu as compris ce que je voulais dire, je vais te frapper plus fort, mais souviens-toi, gamine, tu ne sentiras mÃªme pas la douleur cette fois-ci.~
+@550103 = ~Donc, gamin, lorsque tu es au corps-Ã -corps et que tu veux infliger de gros dÃ©gÃ¢ts Ã  ton adversaire trÃ¨s rapidement, beaucoup de guerriers utilisent une technique appelÃ©e communÃ©ment la spirale offensive.~ ~Donc, gamine, lorsque tu es au corps-Ã -corps et que tu veux infliger de gros dÃ©gÃ¢ts Ã  ton adversaire trÃ¨s rapidement, beaucoup de guerriers utilisent une technique appelÃ©e communÃ©ment la spirale offensive.~
+@550104 = ~Il s'agit d'un Ã©tat de quasi-transe oÃ¹ l'attaquant se dÃ©place trÃ¨s rapidement, augmentant son habiletÃ© Ã  toucher, et frappant avec une vitesse extrÃªme, tout en maximisant les dÃ©gÃ¢ts engendrÃ©s par une arme particuliÃ¨re.~
+@550105 = ~Pendant le combat, cette technique, ou transe, ne va durer que quelques instants, mais elle peut Ãªtre mortelle face Ã  un adversaire affaibli ou un mage en train d'incanter un sort.~
+@550106 = ~Pour essayer cette technique de combat, je vais te donner cette Ã©pÃ©e que tu utiliseras contre moi, et je veux que tu commences Ã  me frapper. Je ne vais pas riposter, mais je veux que tu te concentres sur l'endroit oÃ¹ je me trouve, la trajectoire de ton Ã©pÃ©e, la maniÃ¨re dont tu vas frapper, et le plus important, tu dois prÃ©voir la prochaine attaque bien avant de lancer le coup que tu t'apprÃªtes Ã  porter.~
+@550107 = ~C'est la clÃ© de voÃ»te de la spirale offensive, gamin : prÃ©voir l'impact avant mÃªme de dÃ©clencher l'attaque. Maintenant, essaie.~ ~C'est la clÃ© de voÃ»te de la spirale offensive, gamine : prÃ©voir l'impact avant mÃªme de dÃ©clencher l'attaque. Maintenant, essaie.~
+@550108 = ~Pour dÃ©busquer efficacement tes ennemis, gamin, tu te dois de connaÃ®tre ton environnement.~ ~Pour dÃ©busquer efficacement tes ennemis, gamine, tu te dois de connaÃ®tre ton environnement.~
+@550109 = ~Par exemple, tu ne trouveras pas un YÃ©ti dans une caverne sombre de l'Ombre-terre. A moins bien entendu que le conseil de Mystra soit avec toi, tu vois ?~
+@550110 = ~De mÃªme, tu n'es pas prÃªt de trouver des momies dans une forÃªt.~ ~De mÃªme, tu n'es pas prÃªte de trouver des momies dans une forÃªt.~
+@550111 = ~C'est la chose la plus importante pour un pisteur : savoir ce qu'il faut chercher. Je pourrais faire une meilleure dÃ©monstration si nous Ã©tions dans la forÃªt, mais utilise ton imagination ici, dans cette caserne.~ 
 @550112 = ~Supposons que tu puisses voir deux paires de traces de pas sur le sol. Demande-toi quelles sortes d'indices pourraient te donner ces traces sur l'individu qui les a faites.~ 
-@550113 = ~Si tu trouves que les traces sont profondes, tu peux en déduire qu'elles ont été faites par quelqu'un de lourd portant des bottes.~
-@550114 = ~Si d'autres traces de pas apparaissent plus délicates, qu'est-ce que cela veut-il dire ? Imagine que tu puisses observer ces traces ici, dans la forteresse.~
-@550115 = ~Combine les indices avec l'environnement, et tu pourras découvrir que les traces ont probablement été faites par des humains ou des demi-humains - il n'y a pas un troupeau d'éléphant dans les environs - et, c'est plus que certain, ont été faites par un soldat - les traces profondes - et un prêtre - savates légères - dans la forteresse.~ 
+@550113 = ~Si tu trouves que les traces sont profondes, tu peux en dÃ©duire qu'elles ont Ã©tÃ© faites par quelqu'un de lourd portant des bottes.~
+@550114 = ~Si d'autres traces de pas apparaissent plus dÃ©licates, qu'est-ce que cela veut-il dire ? Imagine que tu puisses observer ces traces ici, dans la forteresse.~
+@550115 = ~Combine les indices avec l'environnement, et tu pourras dÃ©couvrir que les traces ont probablement Ã©tÃ© faites par des humains ou des demi-humains - il n'y a pas un troupeau d'Ã©lÃ©phant dans les environs - et, c'est plus que certain, ont Ã©tÃ© faites par un soldat - les traces profondes - et un prÃªtre - savates lÃ©gÃ¨res - dans la forteresse.~ 
 @550116 = ~Ca va, gamin ?~ ~Ca va, gamine ?~
 @550117 = ~Ca semble se tenir, Monsieur Hull.~
-@550118 = ~Bien. Maintenant, la second partie de la traque est de trouver vers où la créature se dirige et depuis combien de temps elle est passée.~
-@550119 = ~Regarde dans la direction vers laquelle se dirigent les traces. Garde également à l'esprit le temps qu'il a fait dans les derniers jours.~
-@550120 = ~Ce que je veux dire, c'est qu'il faut que tu regardes si les traces ont été atténuées par le vent ou la pluie.~
-@550121 = ~Si les traces sont toujours très bien dessinées et qu'il a plu deux jours plus tôt, tu peux deviner facilement que ces traces ont été faites après la dernière averse.~
-@550122 = ~Tu peux donc en déduire si l'auteur de ces traces est toujours dans les environs ou non.~
+@550118 = ~Bien. Maintenant, la second partie de la traque est de trouver vers oÃ¹ la crÃ©ature se dirige et depuis combien de temps elle est passÃ©e.~
+@550119 = ~Regarde dans la direction vers laquelle se dirigent les traces. Garde Ã©galement Ã  l'esprit le temps qu'il a fait dans les derniers jours.~
+@550120 = ~Ce que je veux dire, c'est qu'il faut que tu regardes si les traces ont Ã©tÃ© attÃ©nuÃ©es par le vent ou la pluie.~
+@550121 = ~Si les traces sont toujours trÃ¨s bien dessinÃ©es et qu'il a plu deux jours plus tÃ´t, tu peux deviner facilement que ces traces ont Ã©tÃ© faites aprÃ¨s la derniÃ¨re averse.~
+@550122 = ~Tu peux donc en dÃ©duire si l'auteur de ces traces est toujours dans les environs ou non.~
 @550123 = ~Ceci est la base de la traque, gamin.~ ~Ceci est la base de la traque, gamine.~
 @550124 = ~Vous avez besoin de draps propres pour faire ce lit.~
-@550125 = ~Vous placez le drap et la couverture sur le lit et vous aérez les oreillers. Le lit est maintenant prêt à être utilisé par l'un des résidents de la forteresse.~
+@550125 = ~Vous placez le drap et la couverture sur le lit et vous aÃ©rez les oreillers. Le lit est maintenant prÃªt Ã  Ãªtre utilisÃ© par l'un des rÃ©sidents de la forteresse.~
 @550126 = ~Vous devez vous rapprocher du lit pour le faire.~
-@550127 = ~Stupide magiciens ! Toujours à jouer avec des forces qu'ils ne comprennent pas.~
-@550128 = ~Sert l'imbécile correctement pour provoquer des catastrophes avec la magie.~
-@550129 = ~Myrkul, ou une autre puissance plus élevée, vous a considéré indigne de porter la Couronne de Cornes. Elle a été retirée de vos possessions, et vous êtes temporairement désorienté pendant que la puissance de l'objet vous quitte.~
-@550130 = ~Il y a maintenant presque une décennie, alors que vous étiez beaucoup plus jeune et inexpérimenté...~ ~Il y a maintenant presque une décennie, alors que vous étiez beaucoup plus jeune et inexpérimentée...~
-@550131 = ~Lorsque vous touchez l'étoile dorée, vous avez le sentiment d'avoir pris la bonne décision.~
-@550132 = ~Lorsque vous touchez cette étoile dorée, elle commence à briller. Vous avez la mauvaise impression d'avoir commis une erreur.~
-@550133 = ~Lorsque vous touchez cette étoile dorée, l'air autour de l'autel de Mystra scintille brièvement, puis s'éteint.~
-@550134 = ~Nous ne réussirons pas à envahir l'île !~
+@550127 = ~Stupide magiciens ! Toujours Ã  jouer avec des forces qu'ils ne comprennent pas.~
+@550128 = ~Sert l'imbÃ©cile correctement pour provoquer des catastrophes avec la magie.~
+@550129 = ~Myrkul, ou une autre puissance plus Ã©levÃ©e, vous a considÃ©rÃ© indigne de porter la Couronne de Cornes. Elle a Ã©tÃ© retirÃ©e de vos possessions, et vous Ãªtes temporairement dÃ©sorientÃ© pendant que la puissance de l'objet vous quitte.~
+@550130 = ~Il y a maintenant presque une dÃ©cennie, alors que vous Ã©tiez beaucoup plus jeune et inexpÃ©rimentÃ©...~ ~Il y a maintenant presque une dÃ©cennie, alors que vous Ã©tiez beaucoup plus jeune et inexpÃ©rimentÃ©e...~
+@550131 = ~Lorsque vous touchez l'Ã©toile dorÃ©e, vous avez le sentiment d'avoir pris la bonne dÃ©cision.~
+@550132 = ~Lorsque vous touchez cette Ã©toile dorÃ©e, elle commence Ã  briller. Vous avez la mauvaise impression d'avoir commis une erreur.~
+@550133 = ~Lorsque vous touchez cette Ã©toile dorÃ©e, l'air autour de l'autel de Mystra scintille briÃ¨vement, puis s'Ã©teint.~
+@550134 = ~Nous ne rÃ©ussirons pas Ã  envahir l'Ã®le !~
 @550135 = ~Battons en retraite ! Nous reviendrons un autre jour !~
 @550136 = ~Les amis de <CHARNAME> ! Qui essaient de lui venir en aide !~
-@550137 = ~Je dois parler à Byron ! Nous ne pouvons pas laisser le prisonnier s'échapper !~
-@550138 = ~Byron ! Les alliés de <CHARNAME> essaient de lui venir en aide ! Dépêchons-nous, il ne faut pas qu'il s'échappe !~ ~Byron ! Les alliés de <CHARNAME> essaient de lui venir en aide ! Dépêchons-nous, il ne faut pas qu'elle s'échappe !~
-@550139 = ~Réunion publique ! La présence de tous est requise !~
-@550140 = ~Le Conseil des Six a édité un nouveau décret ! Ecoutez l'annonce dans le district du gouvernement !~
-@550141 = ~Dame Lanulin va s'exprimer dans le bâtiment du gouvernement ! Allez, venez tous !~
-@550142 = ~Vous commencez à tirer sur la porte aussi fort que vous le pouvez, et vous pouvez sentir le bois cédant sous vos tractions. Finalement, le bois cède et la porte s'ouvre.~ 
-@550143 = ~Vous commencez à tirer sur la porte aussi fort que vous le pouvez, mais le bois s'est expansé dans l'embrasure. Vous allez devoir trouver quelqu'un de plus fort pour ouvrir cette porte.~ 
-@550144 = ~Vous tirez sur la porte, mais elle reste en place. Peut-être parviendriez-vous à ouvrir cette porte après quelques essais.~
-@550145 = ~Hum. Oh ! Il y en a d'autres dans la forêt. Tardeth doit être mis au courant !~
+@550137 = ~Je dois parler Ã  Byron ! Nous ne pouvons pas laisser le prisonnier s'Ã©chapper !~
+@550138 = ~Byron ! Les alliÃ©s de <CHARNAME> essaient de lui venir en aide ! DÃ©pÃªchons-nous, il ne faut pas qu'il s'Ã©chappe !~ ~Byron ! Les alliÃ©s de <CHARNAME> essaient de lui venir en aide ! DÃ©pÃªchons-nous, il ne faut pas qu'elle s'Ã©chappe !~
+@550139 = ~RÃ©union publique ! La prÃ©sence de tous est requise !~
+@550140 = ~Le Conseil des Six a Ã©ditÃ© un nouveau dÃ©cret ! Ecoutez l'annonce dans le district du gouvernement !~
+@550141 = ~Dame Lanulin va s'exprimer dans le bÃ¢timent du gouvernement ! Allez, venez tous !~
+@550142 = ~Vous commencez Ã  tirer sur la porte aussi fort que vous le pouvez, et vous pouvez sentir le bois cÃ©dant sous vos tractions. Finalement, le bois cÃ¨de et la porte s'ouvre.~ 
+@550143 = ~Vous commencez Ã  tirer sur la porte aussi fort que vous le pouvez, mais le bois s'est expansÃ© dans l'embrasure. Vous allez devoir trouver quelqu'un de plus fort pour ouvrir cette porte.~ 
+@550144 = ~Vous tirez sur la porte, mais elle reste en place. Peut-Ãªtre parviendriez-vous Ã  ouvrir cette porte aprÃ¨s quelques essais.~
+@550145 = ~Hum. Oh ! Il y en a d'autres dans la forÃªt. Tardeth doit Ãªtre mis au courant !~
 @550146 = ~Ils me suivent ! Je dois les semer !~
-@550147 = ~Je ne les ai pas encore semés. Courir ! Courir et trouver Tardeth !~
+@550147 = ~Je ne les ai pas encore semÃ©s. Courir ! Courir et trouver Tardeth !~
 @550148 = ~Chhhhut, Paddy, chhhhut..~
 @550149 = ~Se cacher ! Courir et se cacher ! Comme je le dis toujours !~
 @550150 = ~Viens avec moi, mon enfant.~
-@550151 = ~Suis-moi, mon fils. Nous allons dans un endroit très spécial et privé.~ ~Suis-moi, ma fille. Nous allons dans un endroit très spécial et privé.~
-@550152 = ~Dépêchons-nous, mon enfant ! La nuit va aller en s'épaississant, et nous devons trouver rapidement un abri. Ne t'inquiète pas, je m'expliquerai dès que nous en aurons le temps.~[CB_74198]
-@550153 = ~Un instant ! Il y a quelque chose qui cloche. Nous sommes tombés dans une embuscade ! Tenons-nous prêts !~[CB_74199]
-@550154 = ~Vous êtes réceptif, pour un vieil homme. Vous savez pourquoi je suis ici. Rendez-vous, et personne ne sera blessé. Si vous résistez, vous le paierez de votre vie.~[CB_74200]
-@550155 = ~Vous avez tort de croire que je vais vous faire confiance ! Mettez-vous sur le côté, et aucun mal ne vous sera fait à vous comme à vos laquais !~ [CB_74201]
-@550156 = ~Je suis désolé que vous le preniez comme ça, vieil homme...~ [CB_74202]
+@550151 = ~Suis-moi, mon fils. Nous allons dans un endroit trÃ¨s spÃ©cial et privÃ©.~ ~Suis-moi, ma fille. Nous allons dans un endroit trÃ¨s spÃ©cial et privÃ©.~
+@550152 = ~DÃ©pÃªchons-nous, mon enfant ! La nuit va aller en s'Ã©paississant, et nous devons trouver rapidement un abri. Ne t'inquiÃ¨te pas, je m'expliquerai dÃ¨s que nous en aurons le temps.~[CB_74198]
+@550153 = ~Un instant ! Il y a quelque chose qui cloche. Nous sommes tombÃ©s dans une embuscade ! Tenons-nous prÃªts !~[CB_74199]
+@550154 = ~Vous Ãªtes rÃ©ceptif, pour un vieil homme. Vous savez pourquoi je suis ici. Rendez-vous, et personne ne sera blessÃ©. Si vous rÃ©sistez, vous le paierez de votre vie.~[CB_74200]
+@550155 = ~Vous avez tort de croire que je vais vous faire confiance ! Mettez-vous sur le cÃ´tÃ©, et aucun mal ne vous sera fait Ã  vous comme Ã  vos laquais !~ [CB_74201]
+@550156 = ~Je suis dÃ©solÃ© que vous le preniez comme Ã§a, vieil homme...~ [CB_74202]
 @550157 = ~Il faut prendre la fuite, mon enfant !~ [CB_74203]
-@550158 = ~Des Elfes et des Artéfacts
+@550158 = ~Des Elfes et des ArtÃ©facts
 
-Après avoir quitté le Temple de Waukyne à Franc-Marché, Eleanor a été attaquée par le mage dont elle me parlait. Il avait quelques gardes du corps avec lui, mais n’en a même pas eu besoin. Sa magie était puissante, bien trop puissante pour Eleanor qui fut tuée par le sorcier lors d’une bataille magique sans merci. J’honorerai son sacrifice, elle ne sera pas morte en vain.~
-@550159 = ~Ta précipitation a scellé ton destin ! Extaminos survivra !~
+AprÃ¨s avoir quittÃ© le Temple de Waukyne Ã  Franc-MarchÃ©, Eleanor a Ã©tÃ© attaquÃ©e par le mage dont elle me parlait. Il avait quelques gardes du corps avec lui, mais nâ€™en a mÃªme pas eu besoin. Sa magie Ã©tait puissante, bien trop puissante pour Eleanor qui fut tuÃ©e par le sorcier lors dâ€™une bataille magique sans merci. Jâ€™honorerai son sacrifice, elle ne sera pas morte en vain.~
+@550159 = ~Ta prÃ©cipitation a scellÃ© ton destin ! Extaminos survivra !~
 @550160 = ~Extaminos ne doit pas tomber !~
 @550161 = ~Prie pour quitter cet endroit en vie !~
-@550162 = ~Pensais-tu libérer Hlondeth ? Extaminos résistera.~
-@550163 = ~Des Elfes et des Artéfacts
+@550162 = ~Pensais-tu libÃ©rer Hlondeth ? Extaminos rÃ©sistera.~
+@550163 = ~Des Elfes et des ArtÃ©facts
 
-J’ai apporté la Couronne de Cornes à mon ami Cromwell. Il a réussi à détruire ce Mal ancien qui avait créé la couronne, chose dont le grand mage Khelben n’avait pas été capable des années auparavant. Khaddyr, le mage qui voulait tenter le rituel de permatration, n’est plus une menace, et la pauvre Eleanor, la femme elfe que j’avais rencontrée, peut reposer en paix. J’ai l’impression d’avoir sauvé Féerune d’une destruction certaine, une fois encore.~
-@550164 = ~Des Elfes et des Artéfacts
+Jâ€™ai apportÃ© la Couronne de Cornes Ã  mon ami Cromwell. Il a rÃ©ussi Ã  dÃ©truire ce Mal ancien qui avait crÃ©Ã© la couronne, chose dont le grand mage Khelben nâ€™avait pas Ã©tÃ© capable des annÃ©es auparavant. Khaddyr, le mage qui voulait tenter le rituel de permatration, nâ€™est plus une menace, et la pauvre Eleanor, la femme elfe que jâ€™avais rencontrÃ©e, peut reposer en paix. Jâ€™ai lâ€™impression dâ€™avoir sauvÃ© FÃ©erune dâ€™une destruction certaine, une fois encore.~
+@550164 = ~Des Elfes et des ArtÃ©facts
 
-Alors que je me promenais dans le district du Pont à Athkatla, une elfe inconnue s'est approchée de moi nerveusement. Sans mot dire et sans explication aucune, elle a subrepticement glissé une statuette dans mon sac. Je ne sais pas pourquoi elle m'a donné cet objet, ni à quoi il pourrait me servir. Je vais devoir enquêter là-dessus ; peut-être que cette elfe va me conduire vers de nouvelles aventures...~
+Alors que je me promenais dans le district du Pont Ã  Athkatla, une elfe inconnue s'est approchÃ©e de moi nerveusement. Sans mot dire et sans explication aucune, elle a subrepticement glissÃ© une statuette dans mon sac. Je ne sais pas pourquoi elle m'a donnÃ© cet objet, ni Ã  quoi il pourrait me servir. Je vais devoir enquÃªter lÃ -dessus ; peut-Ãªtre que cette elfe va me conduire vers de nouvelles aventures...~
 @550165 = ~En Otage !
 
-En tentant de venir à bout de la tâche qui nous a été confiée par Bodhi, nous sommes tombés dans une embuscade des Voleurs de l'Ombre. Ils ne nous ont pas vraiment laissé le choix, et <CHARNAME> a été fait prisonnier. Nous ne savons pas ce que ces brigands vont lui faire subir, mais nous sommes certains qu'il faut aller le sauver aussi vite que possible. Nous avons essayé de déterminer une voie à suivre, mais sans <CHARNAME> pour prendre les décisions, la meilleure chose à faire est de retrouver notre employeur, Bodhi, au cimetière pour voir si elle a des informations sur la façon dont nous pourrions faire évader <CHARNAME> des geôles des Voleurs de l'Ombre.~
-@550166 = ~Vous savez ce que vous avez à faire. Commencez la cérémonie maintenant !~
+En tentant de venir Ã  bout de la tÃ¢che qui nous a Ã©tÃ© confiÃ©e par Bodhi, nous sommes tombÃ©s dans une embuscade des Voleurs de l'Ombre. Ils ne nous ont pas vraiment laissÃ© le choix, et <CHARNAME> a Ã©tÃ© fait prisonnier. Nous ne savons pas ce que ces brigands vont lui faire subir, mais nous sommes certains qu'il faut aller le sauver aussi vite que possible. Nous avons essayÃ© de dÃ©terminer une voie Ã  suivre, mais sans <CHARNAME> pour prendre les dÃ©cisions, la meilleure chose Ã  faire est de retrouver notre employeur, Bodhi, au cimetiÃ¨re pour voir si elle a des informations sur la faÃ§on dont nous pourrions faire Ã©vader <CHARNAME> des geÃ´les des Voleurs de l'Ombre.~
+@550166 = ~Vous savez ce que vous avez Ã  faire. Commencez la cÃ©rÃ©monie maintenant !~
 @550167 = ~Bon, bon. Activez les protections !~
-@550168 = ~Continuez ! Ne vous laissez pas distraire ! Nous ne pouvons pas nous permettre de laisser la magie s'intensifier libre de tout contrôle !~
+@550168 = ~Continuez ! Ne vous laissez pas distraire ! Nous ne pouvons pas nous permettre de laisser la magie s'intensifier libre de tout contrÃ´le !~
 @550169 = ~Quelque chose... attendez ! Non ! Ce n'est pas bon ! Quelque chose ne va pas !~
 @550170 = ~Ca marche ! Continuez d'incanter ! Je peux sentir le pouvoir !~
-@550171 = ~Des Elfes et des Artéfacts
+@550171 = ~Des Elfes et des ArtÃ©facts
 
-J’ai réussi à arrêter Khaddyr le mage avant qu'il ait effectué le rituel de permatration. Ce qui avait commencé comme une vague quête avec une femme elfe effrayée est pratiquement achevé. J’ai retrouvé la véritable Couronne de Cornes, mais je n’ai pas encore décidé de ce que je vais en faire. Je pourrais la garder, mais son Mal continuerait à vivre à Féerune. Peut-être vaudrait-il mieux qu’elle soit détruite.~
-@550172 = ~Elle est en règle.~
-@550173 = ~Il est en règle.~
+Jâ€™ai rÃ©ussi Ã  arrÃªter Khaddyr le mage avant qu'il ait effectuÃ© le rituel de permatration. Ce qui avait commencÃ© comme une vague quÃªte avec une femme elfe effrayÃ©e est pratiquement achevÃ©. Jâ€™ai retrouvÃ© la vÃ©ritable Couronne de Cornes, mais je nâ€™ai pas encore dÃ©cidÃ© de ce que je vais en faire. Je pourrais la garder, mais son Mal continuerait Ã  vivre Ã  FÃ©erune. Peut-Ãªtre vaudrait-il mieux quâ€™elle soit dÃ©truite.~
+@550172 = ~Elle est en rÃ¨gle.~
+@550173 = ~Il est en rÃ¨gle.~
 @550174 = ~En Otage !
 
-En tentant de venir à bout de la tâche qui nous a été confiée par Bodhi, nous sommes tombés dans une embuscade des Voleurs de l'Ombre. Ils ne nous ont pas vraiment laissé le choix, et <CHARNAME> a été fait prisonnier. Nous ne savons pas ce que ces brigands vont lui faire subir, mais nous sommes certains qu'il faut aller le sauver aussi vite que possible. Nous avons essayé de déterminer une voie à suivre, mais sans <CHARNAME> pour prendre les décisions, la meilleure chose à faire est de retrouver notre employeur, Bodhi, au cimetière pour voir si elle a des informations sur la façon dont nous pourrions faire évader <CHARNAME> des geôles des Voleurs de l'Ombre.~
-@550175 = ~Pendant le rituel, vous devrez vous concentrer sur la tâche que vous devez faire. La moindre erreur de l'un d'entre vous vous coûtera la vie.~ 
-@550176 = ~Dans un premier temps, nous allons lancer des sorts pour nous protéger de l'impact de l'énergie magique que nous allons canaliser à nous trois et nous la garderons sous notre contrôle. Maintenir le contrôle. Voilà la clé.~
-@550177 = ~Je vais commencer le rituel en me lançant un sort de protection. Dès que j'aurai fini, vous deux devrez vous protéger contre l'énergie. (désigne un apprenti) Tu vas lancer le même sort que moi, un globe mineur, pendant que toi (désigne un autre apprenti) tu lanceras une immunité contre la magie divinatoire.~ 
-@550178 = ~L'échec n'est pas une option. Préparons-nous maintenant.~
-@550179 = ~Bien. Pendant le rituel, faites exactement ce que vous venez de faire. Ne perdez pas le contrôle sur les énergies magiques.~
-@550180 = ~Prenez du repos. Nous continuerons à nous préparer plus tard.~
-@550181 = ~Il est très important que vous ne vous laissiez pas distraire pendant les incantations du rituel, même par les forces que je pourrais dégager.~
-@550182 = ~Vous devrez tous les deux lancer un simple sort de protection contre le mal sur vous-même. Faites-le, et l'énergie que je vais accumuler en moi ne vous blessera pas et ne dissipera pas votre sort. Vous comprenez ?~
-@550183 = ~Oui, maître Khaddyr, vous pouvez continuer les préparatifs.~
-@550184 = ~Bien. Pendant le rituel, ne faites que ce que vous avez à faire. Vous ne devez pas laisser le pouvoir que je vais accumuler vous distraire.~
-@550185 = ~Prenez du repos. Nous continuerons à nous préparer plus tard.~
-@550186 = ~La quantité d'énergie magique que nous allons invoquer à nous trois et soumettre à la force de notre volonté va dépasser tout ce que vous avez expérimenté jusqu'ici.~
-@550187 = ~Vous devez être protégés des énergies combinées. La magie de ce rituel va permettre à cette énergie de passer à travers les conducteurs, dans ce cas précis, nous. Expérimentons la force de la Permatration maintenant.~
-@550188 = ~Ce que vous venez d'expérimenter ne constitue qu'une fraction des forces que nous allons guider pendant le rituel. Nous n'avons pas droit à l'erreur, vous ne devez pas faillir.~
+En tentant de venir Ã  bout de la tÃ¢che qui nous a Ã©tÃ© confiÃ©e par Bodhi, nous sommes tombÃ©s dans une embuscade des Voleurs de l'Ombre. Ils ne nous ont pas vraiment laissÃ© le choix, et <CHARNAME> a Ã©tÃ© fait prisonnier. Nous ne savons pas ce que ces brigands vont lui faire subir, mais nous sommes certains qu'il faut aller le sauver aussi vite que possible. Nous avons essayÃ© de dÃ©terminer une voie Ã  suivre, mais sans <CHARNAME> pour prendre les dÃ©cisions, la meilleure chose Ã  faire est de retrouver notre employeur, Bodhi, au cimetiÃ¨re pour voir si elle a des informations sur la faÃ§on dont nous pourrions faire Ã©vader <CHARNAME> des geÃ´les des Voleurs de l'Ombre.~
+@550175 = ~Pendant le rituel, vous devrez vous concentrer sur la tÃ¢che que vous devez faire. La moindre erreur de l'un d'entre vous vous coÃ»tera la vie.~ 
+@550176 = ~Dans un premier temps, nous allons lancer des sorts pour nous protÃ©ger de l'impact de l'Ã©nergie magique que nous allons canaliser Ã  nous trois et nous la garderons sous notre contrÃ´le. Maintenir le contrÃ´le. VoilÃ  la clÃ©.~
+@550177 = ~Je vais commencer le rituel en me lanÃ§ant un sort de protection. DÃ¨s que j'aurai fini, vous deux devrez vous protÃ©ger contre l'Ã©nergie. (dÃ©signe un apprenti) Tu vas lancer le mÃªme sort que moi, un globe mineur, pendant que toi (dÃ©signe un autre apprenti) tu lanceras une immunitÃ© contre la magie divinatoire.~ 
+@550178 = ~L'Ã©chec n'est pas une option. PrÃ©parons-nous maintenant.~
+@550179 = ~Bien. Pendant le rituel, faites exactement ce que vous venez de faire. Ne perdez pas le contrÃ´le sur les Ã©nergies magiques.~
+@550180 = ~Prenez du repos. Nous continuerons Ã  nous prÃ©parer plus tard.~
+@550181 = ~Il est trÃ¨s important que vous ne vous laissiez pas distraire pendant les incantations du rituel, mÃªme par les forces que je pourrais dÃ©gager.~
+@550182 = ~Vous devrez tous les deux lancer un simple sort de protection contre le mal sur vous-mÃªme. Faites-le, et l'Ã©nergie que je vais accumuler en moi ne vous blessera pas et ne dissipera pas votre sort. Vous comprenez ?~
+@550183 = ~Oui, maÃ®tre Khaddyr, vous pouvez continuer les prÃ©paratifs.~
+@550184 = ~Bien. Pendant le rituel, ne faites que ce que vous avez Ã  faire. Vous ne devez pas laisser le pouvoir que je vais accumuler vous distraire.~
+@550185 = ~Prenez du repos. Nous continuerons Ã  nous prÃ©parer plus tard.~
+@550186 = ~La quantitÃ© d'Ã©nergie magique que nous allons invoquer Ã  nous trois et soumettre Ã  la force de notre volontÃ© va dÃ©passer tout ce que vous avez expÃ©rimentÃ© jusqu'ici.~
+@550187 = ~Vous devez Ãªtre protÃ©gÃ©s des Ã©nergies combinÃ©es. La magie de ce rituel va permettre Ã  cette Ã©nergie de passer Ã  travers les conducteurs, dans ce cas prÃ©cis, nous. ExpÃ©rimentons la force de la Permatration maintenant.~
+@550188 = ~Ce que vous venez d'expÃ©rimenter ne constitue qu'une fraction des forces que nous allons guider pendant le rituel. Nous n'avons pas droit Ã  l'erreur, vous ne devez pas faillir.~
 @550189 = ~Taxidermiste~
 @550190 = ~Fabricant de savon~
 @550191 = ~Boucher~
-@550192 = ~Réparateur de roues~
+@550192 = ~RÃ©parateur de roues~
 @550193 = ~Poissonnier~
 @550194 = ~Parfumeur~
 @550195 = ~Comptable~
@@ -214,8 +214,8 @@ En tentant de venir à bout de la tâche qui nous a été confiée par Bodhi, nous so
 @550200 = ~Fournisseur~
 @550201 = ~Cordonnier~
 @550202 = ~Fleuriste~
-@550203 = ~Orfèvre~
-@550204 = ~Guérisseur~
+@550203 = ~OrfÃ¨vre~
+@550204 = ~GuÃ©risseur~
 @550205 = ~Lapidaire~
 @550206 = ~Marchand de bois de charpente~
 @550207 = ~Masson~
@@ -229,10 +229,10 @@ En tentant de venir à bout de la tâche qui nous a été confiée par Bodhi, nous so
 @550215 = ~Tisserand~
 @550216 = ~Forgeron~
 @550217 = ~Armurier~
-@550218 = ~Fabricant de Flèches~
+@550218 = ~Fabricant de FlÃ¨ches~
 @550219 = ~Fermier~
 @550220 = ~Cuistot~
-@550221 = ~Pêcheur~
+@550221 = ~PÃªcheur~
 @550222 = ~Milicien~
 @550223 = ~Page~
 @550224 = ~Alchimiste~
@@ -241,14 +241,14 @@ En tentant de venir à bout de la tâche qui nous a été confiée par Bodhi, nous so
 @550227 = ~Courtier~
 @550228 = ~Artisan~
 @550229 = ~Scribe~
-@550230 = ~Délégué~
+@550230 = ~DÃ©lÃ©guÃ©~
 @550231 = ~Ambassadeur~
 @550232 = ~Magistrat~
 @550233 = ~Meunier~
 @550234 = ~Femme de petite vertu~
-@550235 = ~Vétéran de guerre~
+@550235 = ~VÃ©tÃ©ran de guerre~
 @550236 = ~Touriste~
-@550237 = ~Ménestrel~
+@550237 = ~MÃ©nestrel~
 @550238 = ~Eclaireur~
 @550239 = ~Ivrogne~
 @550240 = ~Courtisan~
@@ -258,7 +258,7 @@ En tentant de venir à bout de la tâche qui nous a été confiée par Bodhi, nous so
 @550244 = ~Etranger ivre~
 @550245 = ~Client~
 @550246 = ~Cariste~
-@550247 = ~Prêtre fou~
+@550247 = ~PrÃªtre fou~
 @550248 = ~Courtisan~
 @550249 = ~Garde du corps~
 @550250 = ~Crieur public~
@@ -266,163 +266,163 @@ En tentant de venir à bout de la tâche qui nous a été confiée par Bodhi, nous so
 @550252 = ~Noble femme de Hlondeth~
 @550253 = ~Restaurateur~
 @550254 = ~Messager~
-@550255 = ~Apparemment, vous avez attendu trop longtemps pour finir de déménager la famille des vampires. Ils ont tous été détruits par la lumière du soleil.~
-@550256 = ~Le bloc de glace que vous transportiez a fondu. Peut-être auriez-vous dû le livrer plus rapidement.~
-@550257 = ~La lame de Chantesort ne vous a pas désigné comme son propriétaire légitime. Elle se rebelle contre vous.~
-@550258 = ~La lame de Lune ne vous a pas désigné comme son propriétaire légitime. Elle se rebelle contre vous.~
-@550259 = ~Elfsapate ne vous a pas désigné comme son propriétaire légitime. La lame de Lune se rebelle contre vous, et vous devriez arrêter de l'utiliser au plus vite.~
-@550260 = ~ElfSapate vous a choisi en tant que propriétaire valeureux et honorable, et l'un des pouvoirs dormants de la lame de lune s'est libéré.~
-@550261 = ~Les saisons changent, mais nous restons les mêmes.~ [CB_77725]
-@550262 = ~Je ferai de mon mieux pour vous préserver du danger.~ [CB_77726]
-@550263 = ~Que Corellan Larethian bénisse vos pas.~ [CB_77727]
-@550264 = ~Faites attention où vous pointez ma lame.~ [CB_77728]
+@550255 = ~Apparemment, vous avez attendu trop longtemps pour finir de dÃ©mÃ©nager la famille des vampires. Ils ont tous Ã©tÃ© dÃ©truits par la lumiÃ¨re du soleil.~
+@550256 = ~Le bloc de glace que vous transportiez a fondu. Peut-Ãªtre auriez-vous dÃ» le livrer plus rapidement.~
+@550257 = ~La lame de Chantesort ne vous a pas dÃ©signÃ© comme son propriÃ©taire lÃ©gitime. Elle se rebelle contre vous.~
+@550258 = ~La lame de Lune ne vous a pas dÃ©signÃ© comme son propriÃ©taire lÃ©gitime. Elle se rebelle contre vous.~
+@550259 = ~Elfsapate ne vous a pas dÃ©signÃ© comme son propriÃ©taire lÃ©gitime. La lame de Lune se rebelle contre vous, et vous devriez arrÃªter de l'utiliser au plus vite.~
+@550260 = ~ElfSapate vous a choisi en tant que propriÃ©taire valeureux et honorable, et l'un des pouvoirs dormants de la lame de lune s'est libÃ©rÃ©.~
+@550261 = ~Les saisons changent, mais nous restons les mÃªmes.~ [CB_77725]
+@550262 = ~Je ferai de mon mieux pour vous prÃ©server du danger.~ [CB_77726]
+@550263 = ~Que Corellan Larethian bÃ©nisse vos pas.~ [CB_77727]
+@550264 = ~Faites attention oÃ¹ vous pointez ma lame.~ [CB_77728]
 @550265 = ~La Seldarine nous juge tous par nos actions.~ [CB_77729]
-@550266 = ~Nous sommes prêts à commencer nos quêtes. En avant, au nom du Peuple !~ [CB_77730]
-@550267 = ~J'ai toujours pensé que vous étiez quelqu'un de spécial.~ [CB_77731]
+@550266 = ~Nous sommes prÃªts Ã  commencer nos quÃªtes. En avant, au nom du Peuple !~ [CB_77730]
+@550267 = ~J'ai toujours pensÃ© que vous Ã©tiez quelqu'un de spÃ©cial.~ [CB_77731]
 @550268 = ~Ne mettez pas la licorne avant la corne.~ [CB_77732]
-@550269 = ~C'est un honneur d'être un de vos amis.~ [CB_77733]
-@550270 = ~Je ne prendrai pas mes responsabilités à la légère.~ [CB_77734]
-@550271 = ~Montrez-nous le chemin, et nous accomplirons la volonté de la Seldarine ici, en Féérune.~ [CB_77735]
-@550272 = ~Tenons-nous prêts, et nous ne faillirons pas dans notre tâche.~ [CB_77736]
-@550273 = ~Sans honorer la Seldarine, nous ne pouvons espérer accomplir grand chose.~ [CB_77737]
-@550274 = ~Chantez les éloges de la forêts et de la Toile, et nous ne ferons pas de faux pas.~ [CB_77738]
-@550275 = ~Vous êtes le meilleur partenaire que j'ai jamais eu.~ [CB_77739]
-@550276 = ~Il est temps de réduire la taille de celui-ci !~ [CB_77740]
-@550277 = ~Tu n'es qu'à un cheveu de sentir ma lame.~ [CB_77741]
+@550269 = ~C'est un honneur d'Ãªtre un de vos amis.~ [CB_77733]
+@550270 = ~Je ne prendrai pas mes responsabilitÃ©s Ã  la lÃ©gÃ¨re.~ [CB_77734]
+@550271 = ~Montrez-nous le chemin, et nous accomplirons la volontÃ© de la Seldarine ici, en FÃ©Ã©rune.~ [CB_77735]
+@550272 = ~Tenons-nous prÃªts, et nous ne faillirons pas dans notre tÃ¢che.~ [CB_77736]
+@550273 = ~Sans honorer la Seldarine, nous ne pouvons espÃ©rer accomplir grand chose.~ [CB_77737]
+@550274 = ~Chantez les Ã©loges de la forÃªts et de la Toile, et nous ne ferons pas de faux pas.~ [CB_77738]
+@550275 = ~Vous Ãªtes le meilleur partenaire que j'ai jamais eu.~ [CB_77739]
+@550276 = ~Il est temps de rÃ©duire la taille de celui-ci !~ [CB_77740]
+@550277 = ~Tu n'es qu'Ã  un cheveu de sentir ma lame.~ [CB_77741]
 @550278 = ~Reste calme, la mort est sur le point de t'emporter.~ [CB_77742]
 @550279 = ~Encore un autre qui se rapproche de la tombe.~ [CB_77743]
-@550280 = ~Puisse la Seldarine avoir pitié de toi.~ [CB_77744]
+@550280 = ~Puisse la Seldarine avoir pitiÃ© de toi.~ [CB_77744]
 @550281 = ~Que ton dernier voyage soit paisible.~ [CB_77745]
 @550282 = ~Sent ma lame !~ [CB_77746]
 @550283 = ~Pour le Peuple !~ [CB_77747]
 @550284 = ~Nous ne mourrons pas aujourd'hui.~ [CB_77748]
 @550285 = ~Adieu, et que ton esprit trouve la paix dans l'autre monde.~ [CB_77749]
-@550286 = ~Des Elfes et des Artéfacts
+@550286 = ~Des Elfes et des ArtÃ©facts
 
-J’ai réussi à arrêter Khaddyr le mage avant qu'il ait effectué le rituel de permatration. Ce qui avait commencé comme une vague quête avec une femme elfe effrayée est pratiquement achevé. J’ai retrouvé la véritable Couronne de Cornes, mais je n’ai pas encore décidé de ce que je vais en faire. Je pourrais la garder, mais son Mal continuerait à vivre à Féerune. Peut-être vaudrait-il mieux qu’elle soit détruite.~
+Jâ€™ai rÃ©ussi Ã  arrÃªter Khaddyr le mage avant qu'il ait effectuÃ© le rituel de permatration. Ce qui avait commencÃ© comme une vague quÃªte avec une femme elfe effrayÃ©e est pratiquement achevÃ©. Jâ€™ai retrouvÃ© la vÃ©ritable Couronne de Cornes, mais je nâ€™ai pas encore dÃ©cidÃ© de ce que je vais en faire. Je pourrais la garder, mais son Mal continuerait Ã  vivre Ã  FÃ©erune. Peut-Ãªtre vaudrait-il mieux quâ€™elle soit dÃ©truite.~
 
-@550287 = ~Des Elfes et des Artéfacts
+@550287 = ~Des Elfes et des ArtÃ©facts
 
-J'ai trouvé l'objet dont Eleanor m'a parlé et l'ai amené à mon ami le nain Cromwell. Il a été capable de fabriquer pratiquement une copie exacte de la vraie Couronne de Cornes, et je vais devoir rencontrer ce mage. J'espère qu'il tombera dans le piège.~
-@550288 = ~Des Elfes et des Artéfacts
+J'ai trouvÃ© l'objet dont Eleanor m'a parlÃ© et l'ai amenÃ© Ã  mon ami le nain Cromwell. Il a Ã©tÃ© capable de fabriquer pratiquement une copie exacte de la vraie Couronne de Cornes, et je vais devoir rencontrer ce mage. J'espÃ¨re qu'il tombera dans le piÃ¨ge.~
+@550288 = ~Des Elfes et des ArtÃ©facts
 
-J’ai trouvé les objets dont Eleanor m’a parlé afin de créer une Couronne de Cornes factice. Je les ai apportés à mon ami Cromwell, un maître artisan, mais il n’a pas été capable d’en faire un faux. J’ai le choix à présent entre faire réessayer Cromwell ou trouver un autre moyen pour contrecarrer les plans du mage.~
+Jâ€™ai trouvÃ© les objets dont Eleanor mâ€™a parlÃ© afin de crÃ©er une Couronne de Cornes factice. Je les ai apportÃ©s Ã  mon ami Cromwell, un maÃ®tre artisan, mais il nâ€™a pas Ã©tÃ© capable dâ€™en faire un faux. Jâ€™ai le choix Ã  prÃ©sent entre faire rÃ©essayer Cromwell ou trouver un autre moyen pour contrecarrer les plans du mage.~
 
-@550289 = ~Des Elfes et des Artéfacts
+@550289 = ~Des Elfes et des ArtÃ©facts
 
-Après avoir quitté le Temple de Waukyne à Franc-Marché, Eleanor a été attaquée par le mage dont elle me parlait. Il avait quelques gardes du corps avec lui, mais n’en a même pas eu besoin. Sa magie était puissante, bien trop puissante pour Eleanor qui fut tuée par le sorcier lors d’une bataille magique sans merci. J’honorerai son sacrifice, elle ne sera pas morte en vain.~
+AprÃ¨s avoir quittÃ© le Temple de Waukyne Ã  Franc-MarchÃ©, Eleanor a Ã©tÃ© attaquÃ©e par le mage dont elle me parlait. Il avait quelques gardes du corps avec lui, mais nâ€™en a mÃªme pas eu besoin. Sa magie Ã©tait puissante, bien trop puissante pour Eleanor qui fut tuÃ©e par le sorcier lors dâ€™une bataille magique sans merci. Jâ€™honorerai son sacrifice, elle ne sera pas morte en vain.~
 
-@550290 = ~Des Elfes et des Artéfacts
+@550290 = ~Des Elfes et des ArtÃ©facts
 
-J'ai eu une longue discussion avec Eleanor, une mage elfe qui s'est spécialisée dans la recherche d'anciens artéfacts et objets magiques. Elle est très liée à l'ambition d'un mage qui l'a employée pour conduire des recherches sur la théorie de la permatration (que je pensais restée au stade de mythe). Apparemment ce mage est entré en possession d'un artéfact qui lui permettrait de tenter un rituel de permatration, et bien sûr ce processus inclut un fort potentiel de destruction. Eleanor a sollicité mon aide, et a proposé un plan pour contrecarrer le sorcier maléfique.
+J'ai eu une longue discussion avec Eleanor, une mage elfe qui s'est spÃ©cialisÃ©e dans la recherche d'anciens artÃ©facts et objets magiques. Elle est trÃ¨s liÃ©e Ã  l'ambition d'un mage qui l'a employÃ©e pour conduire des recherches sur la thÃ©orie de la permatration (que je pensais restÃ©e au stade de mythe). Apparemment ce mage est entrÃ© en possession d'un artÃ©fact qui lui permettrait de tenter un rituel de permatration, et bien sÃ»r ce processus inclut un fort potentiel de destruction. Eleanor a sollicitÃ© mon aide, et a proposÃ© un plan pour contrecarrer le sorcier malÃ©fique.
 
-Elle pense que la meilleure solution est de créer une copie inoffensive de l'artéfact. Je ne sais pas si c'est une bonne idée, mais au cas où je voudrais fabriquer une telle copie, elle m'a indiqué les objets dont j'aurai besoin pour sa réalisation. Les objets sont courants : j'aurai besoin d'un diamant, d'une potion de protection contre la magie, d'un parchemin du sort 'Arme enchantée', et n'importe quel objet contenant une pierre de couleur verte. Si je trouve ces objets et que je souhaite qu'Eleanor fabrique une contrefaçon, je devrai la contacter quelque part à Athkatla.
+Elle pense que la meilleure solution est de crÃ©er une copie inoffensive de l'artÃ©fact. Je ne sais pas si c'est une bonne idÃ©e, mais au cas oÃ¹ je voudrais fabriquer une telle copie, elle m'a indiquÃ© les objets dont j'aurai besoin pour sa rÃ©alisation. Les objets sont courants : j'aurai besoin d'un diamant, d'une potion de protection contre la magie, d'un parchemin du sort 'Arme enchantÃ©e', et n'importe quel objet contenant une pierre de couleur verte. Si je trouve ces objets et que je souhaite qu'Eleanor fabrique une contrefaÃ§on, je devrai la contacter quelque part Ã  Athkatla.
 
-En plus de la duplication de l'objet, Eleanor m'a indiqué où je pouvais trouver le mage. On lui a dit qu'elle pourrait le contacter dans un donjon près de la forêt de Téthyr, où il aurait un laboratoire souterrain pour mener ses expériences. Si tout le reste rate, je pourrai probablement le retrouver là-bas afin de le faire échouer dans sa tentative de voler la force vive des autres êtres pour devenir l'équivalent d'un Dieu.~
+En plus de la duplication de l'objet, Eleanor m'a indiquÃ© oÃ¹ je pouvais trouver le mage. On lui a dit qu'elle pourrait le contacter dans un donjon prÃ¨s de la forÃªt de TÃ©thyr, oÃ¹ il aurait un laboratoire souterrain pour mener ses expÃ©riences. Si tout le reste rate, je pourrai probablement le retrouver lÃ -bas afin de le faire Ã©chouer dans sa tentative de voler la force vive des autres Ãªtres pour devenir l'Ã©quivalent d'un Dieu.~
 
-@550291 = ~Des Elfes et des Artéfacts
+@550291 = ~Des Elfes et des ArtÃ©facts
 
-J'ai eu une longue discussion avec Eleanor, une mage elfe qui s'est spécialisée dans la recherche d'anciens artéfacts et objets magiques. Elle est très liée à l'ambition d'un mage qui l'a employée pour conduire des recherches sur la théorie de la permatration (que je pensais restée au stade de mythe). Apparemment ce mage est entré en possession d'un artéfact qui lui permettrait de tenter un rituel de permatration, et bien sûr ce processus inclut un fort potentiel de destruction. Eleanor a sollicité mon aide, et a proposé un plan pour contrecarrer le sorcier maléfique.
+J'ai eu une longue discussion avec Eleanor, une mage elfe qui s'est spÃ©cialisÃ©e dans la recherche d'anciens artÃ©facts et objets magiques. Elle est trÃ¨s liÃ©e Ã  l'ambition d'un mage qui l'a employÃ©e pour conduire des recherches sur la thÃ©orie de la permatration (que je pensais restÃ©e au stade de mythe). Apparemment ce mage est entrÃ© en possession d'un artÃ©fact qui lui permettrait de tenter un rituel de permatration, et bien sÃ»r ce processus inclut un fort potentiel de destruction. Eleanor a sollicitÃ© mon aide, et a proposÃ© un plan pour contrecarrer le sorcier malÃ©fique.
 
-Elle pense que la meilleure solution est de créer une copie inoffensive de l'artéfact. Je ne sais pas si c'est une bonne idée, mais au cas où je voudrais fabriquer une telle copie, elle m'a indiqué les objets dont j'aurai besoin pour sa réalisation. Les objets sont courants : j'aurai besoin d'un diamant, d'une potion de protection contre la magie, d'un parchemin du sort 'Arme enchantée', et n'importe quel objet contenant une pierre de couleur verte. Si je trouve ces objets et que je souhaite qu'Eleanor fabrique une contrefaçon, je devrai la contacter quelque part à Athkatla.
+Elle pense que la meilleure solution est de crÃ©er une copie inoffensive de l'artÃ©fact. Je ne sais pas si c'est une bonne idÃ©e, mais au cas oÃ¹ je voudrais fabriquer une telle copie, elle m'a indiquÃ© les objets dont j'aurai besoin pour sa rÃ©alisation. Les objets sont courants : j'aurai besoin d'un diamant, d'une potion de protection contre la magie, d'un parchemin du sort 'Arme enchantÃ©e', et n'importe quel objet contenant une pierre de couleur verte. Si je trouve ces objets et que je souhaite qu'Eleanor fabrique une contrefaÃ§on, je devrai la contacter quelque part Ã  Athkatla.
 
-En plus de la duplication de l'objet, Eleanor m'a indiqué où je pouvais trouver le mage. On lui a dit qu'elle pourrait le contacter dans un donjon près des collines d'Umar, où il aurait un laboratoire souterrain pour mener ses expériences. Si tout le reste rate, je pourrai probablement le retrouver là-bas afin de le faire échouer dans sa tentative de voler la force vive des autres êtres pour devenir l'équivalent d'un Dieu.~
+En plus de la duplication de l'objet, Eleanor m'a indiquÃ© oÃ¹ je pouvais trouver le mage. On lui a dit qu'elle pourrait le contacter dans un donjon prÃ¨s des collines d'Umar, oÃ¹ il aurait un laboratoire souterrain pour mener ses expÃ©riences. Si tout le reste rate, je pourrai probablement le retrouver lÃ -bas afin de le faire Ã©chouer dans sa tentative de voler la force vive des autres Ãªtres pour devenir l'Ã©quivalent d'un Dieu.~
 
-@550292 = ~Des Elfes et des Artéfacts
+@550292 = ~Des Elfes et des ArtÃ©facts
 
-J'ai eu une longue discussion avec Eleanor, une mage elfe qui s'est spécialisée dans la recherche d'anciens artéfacts et objets magiques. Elle est très liée à l'ambition d'un mage qui l'a employée pour conduire des recherches sur la théorie de la permatration (que je pensais restée au stade de mythe). Apparemment ce mage est entré en possession d'un artéfact qui lui permettrait de tenter un rituel de permatration, et bien sûr ce processus inclut un fort potentiel de destruction. Eleanor a sollicité mon aide, et a proposé un plan pour contrecarrer le sorcier maléfique.
+J'ai eu une longue discussion avec Eleanor, une mage elfe qui s'est spÃ©cialisÃ©e dans la recherche d'anciens artÃ©facts et objets magiques. Elle est trÃ¨s liÃ©e Ã  l'ambition d'un mage qui l'a employÃ©e pour conduire des recherches sur la thÃ©orie de la permatration (que je pensais restÃ©e au stade de mythe). Apparemment ce mage est entrÃ© en possession d'un artÃ©fact qui lui permettrait de tenter un rituel de permatration, et bien sÃ»r ce processus inclut un fort potentiel de destruction. Eleanor a sollicitÃ© mon aide, et a proposÃ© un plan pour contrecarrer le sorcier malÃ©fique.
 
-Elle pense que la meilleure solution est de créer une copie inoffensive de l'artéfact. Je ne sais pas si c'est une bonne idée, mais au cas où je voudrais fabriquer une telle copie, elle m'a indiqué les objets dont j'aurai besoin pour sa réalisation. Les objets sont courants : j'aurai besoin d'un diamant, d'une potion de protection contre la magie, d'un parchemin du sort 'Arme enchantée', et n'importe quel objet contenant une pierre de couleur verte. Si je trouve ces objets et que je souhaite qu'Eleanor fabrique une contrefaçon, je devrai la contacter quelque part à Athkatla.
+Elle pense que la meilleure solution est de crÃ©er une copie inoffensive de l'artÃ©fact. Je ne sais pas si c'est une bonne idÃ©e, mais au cas oÃ¹ je voudrais fabriquer une telle copie, elle m'a indiquÃ© les objets dont j'aurai besoin pour sa rÃ©alisation. Les objets sont courants : j'aurai besoin d'un diamant, d'une potion de protection contre la magie, d'un parchemin du sort 'Arme enchantÃ©e', et n'importe quel objet contenant une pierre de couleur verte. Si je trouve ces objets et que je souhaite qu'Eleanor fabrique une contrefaÃ§on, je devrai la contacter quelque part Ã  Athkatla.
 
-En plus de la duplication de l'objet, Eleanor m'a indiqué où je pouvais trouver le mage. On lui a dit qu'elle pourrait le contacter dans un donjon en dessous des collines de Lancevent, où il aurait un laboratoire souterrain pour mener ses expériences. Si tout le reste rate, je pourrai probablement le retrouver là-bas afin de le faire échouer dans sa tentative de voler la force vive des autres êtres pour devenir l'équivalent d'un Dieu.~
+En plus de la duplication de l'objet, Eleanor m'a indiquÃ© oÃ¹ je pouvais trouver le mage. On lui a dit qu'elle pourrait le contacter dans un donjon en dessous des collines de Lancevent, oÃ¹ il aurait un laboratoire souterrain pour mener ses expÃ©riences. Si tout le reste rate, je pourrai probablement le retrouver lÃ -bas afin de le faire Ã©chouer dans sa tentative de voler la force vive des autres Ãªtres pour devenir l'Ã©quivalent d'un Dieu.~
 
-@550293 = ~Des Elfes et des Artéfacts
+@550293 = ~Des Elfes et des ArtÃ©facts
 
-J'ai identifié et lu le message enregistré magiquement dans la statuette qui m'a été donnée par une elfe dans le district du Pont. La voix, celle de l'elfe semble-t'il, exprimait la terreur, mais ne m'a pas donné beaucoup d'informations sur l'aventure à venir. Tout ce que je sais, c'est qu'elle (et la Côte des Epées d'après ses dires) est en grand danger. Je dois la retrouver au temple de Waukyne de Franc-Marché pour en savoir plus. J'irai peut-être là-bas, mais il faudrait d'abord que je me renseigne un peu plus sur cette elfe.~
+J'ai identifiÃ© et lu le message enregistrÃ© magiquement dans la statuette qui m'a Ã©tÃ© donnÃ©e par une elfe dans le district du Pont. La voix, celle de l'elfe semble-t'il, exprimait la terreur, mais ne m'a pas donnÃ© beaucoup d'informations sur l'aventure Ã  venir. Tout ce que je sais, c'est qu'elle (et la CÃ´te des EpÃ©es d'aprÃ¨s ses dires) est en grand danger. Je dois la retrouver au temple de Waukyne de Franc-MarchÃ© pour en savoir plus. J'irai peut-Ãªtre lÃ -bas, mais il faudrait d'abord que je me renseigne un peu plus sur cette elfe.~
 
-@550294 = ~Des Elfes et des Artéfacts
+@550294 = ~Des Elfes et des ArtÃ©facts
 
-Alors que je me promenais dans le district du Pont à Athkatla, une elfe inconnue s'est approchée de moi nerveusement. Sans mot dire et sans explication aucune, elle a subrepticement glissé une statuette dans mon sac. Je ne sais pas pourquoi elle m'a donné cet objet, ni à quoi il pourrait me servir. Je vais devoir enquêter là-dessus ; peut-être que cette elfe va me conduire vers de nouvelles aventures...~
+Alors que je me promenais dans le district du Pont Ã  Athkatla, une elfe inconnue s'est approchÃ©e de moi nerveusement. Sans mot dire et sans explication aucune, elle a subrepticement glissÃ© une statuette dans mon sac. Je ne sais pas pourquoi elle m'a donnÃ© cet objet, ni Ã  quoi il pourrait me servir. Je vais devoir enquÃªter lÃ -dessus ; peut-Ãªtre que cette elfe va me conduire vers de nouvelles aventures...~
 
-@550295 = ~Des Elfes et des Artéfacts
+@550295 = ~Des Elfes et des ArtÃ©facts
 
-J'ai eu une longue discussion avec Eleanor, une mage elfe qui s'est spécialisée dans la recherche d'anciens artéfacts et objets magiques. Elle est très liée à l'ambition d'un mage qui l'a employée pour conduire des recherches sur la théorie de la permatration (que je pensais restée au stade de mythe). Apparemment ce mage est entré en possession d'un artéfact qui lui permettrait de tenter un rituel de permatration, et bien sûr ce processus inclut un fort potentiel de destruction. Eleanor a sollicité mon aide, et a proposé un plan pour contrecarrer le sorcier maléfique.
+J'ai eu une longue discussion avec Eleanor, une mage elfe qui s'est spÃ©cialisÃ©e dans la recherche d'anciens artÃ©facts et objets magiques. Elle est trÃ¨s liÃ©e Ã  l'ambition d'un mage qui l'a employÃ©e pour conduire des recherches sur la thÃ©orie de la permatration (que je pensais restÃ©e au stade de mythe). Apparemment ce mage est entrÃ© en possession d'un artÃ©fact qui lui permettrait de tenter un rituel de permatration, et bien sÃ»r ce processus inclut un fort potentiel de destruction. Eleanor a sollicitÃ© mon aide, et a proposÃ© un plan pour contrecarrer le sorcier malÃ©fique.
 
-Elle pense que la meilleure solution est de créer une copie inoffensive de l'artéfact. Je ne sais pas si c'est une bonne idée, mais au cas où je voudrais fabriquer une telle copie, elle m'a indiqué les objets dont j'aurai besoin pour sa réalisation. Les objets sont courants : j'aurai besoin d'un diamant, d'une potion de protection contre la magie, d'un parchemin du sort 'Arme enchantée', et n'importe quel objet contenant une pierre de couleur verte. Si je trouve ces objets et que je souhaite qu'Eleanor fabrique une contrefaçon, je devrai la contacter quelque part à Athkatla.
+Elle pense que la meilleure solution est de crÃ©er une copie inoffensive de l'artÃ©fact. Je ne sais pas si c'est une bonne idÃ©e, mais au cas oÃ¹ je voudrais fabriquer une telle copie, elle m'a indiquÃ© les objets dont j'aurai besoin pour sa rÃ©alisation. Les objets sont courants : j'aurai besoin d'un diamant, d'une potion de protection contre la magie, d'un parchemin du sort 'Arme enchantÃ©e', et n'importe quel objet contenant une pierre de couleur verte. Si je trouve ces objets et que je souhaite qu'Eleanor fabrique une contrefaÃ§on, je devrai la contacter quelque part Ã  Athkatla.
 
-En plus de la duplication de l'objet, Eleanor m'a indiqué où je pouvais trouver le mage. On lui a dit qu'elle pourrait le contacter dans un donjon en dessous des collines de Lancevent, où il aurait un laboratoire souterrain pour mener ses expériences. Si tout le reste rate, je pourrai probablement le retrouver là-bas afin de le faire échouer dans sa tentative de voler la force vive des autres êtres pour devenir l'équivalent d'un Dieu.~
+En plus de la duplication de l'objet, Eleanor m'a indiquÃ© oÃ¹ je pouvais trouver le mage. On lui a dit qu'elle pourrait le contacter dans un donjon en dessous des collines de Lancevent, oÃ¹ il aurait un laboratoire souterrain pour mener ses expÃ©riences. Si tout le reste rate, je pourrai probablement le retrouver lÃ -bas afin de le faire Ã©chouer dans sa tentative de voler la force vive des autres Ãªtres pour devenir l'Ã©quivalent d'un Dieu.~
 
-@550296 = ~Des Elfes et des Artéfacts
+@550296 = ~Des Elfes et des ArtÃ©facts
 
-Après avoir quitté le Temple de Waukyne à Franc-Marché, Eleanor a été attaquée par le mage dont elle me parlait. Il avait quelques gardes du corps avec lui, mais n’en a même pas eu besoin. Sa magie était puissante, bien trop puissante pour Eleanor qui fut tuée par le sorcier lors d’une bataille magique sans merci. J’honorerai son sacrifice, elle ne sera pas morte en vain.~
+AprÃ¨s avoir quittÃ© le Temple de Waukyne Ã  Franc-MarchÃ©, Eleanor a Ã©tÃ© attaquÃ©e par le mage dont elle me parlait. Il avait quelques gardes du corps avec lui, mais nâ€™en a mÃªme pas eu besoin. Sa magie Ã©tait puissante, bien trop puissante pour Eleanor qui fut tuÃ©e par le sorcier lors dâ€™une bataille magique sans merci. Jâ€™honorerai son sacrifice, elle ne sera pas morte en vain.~
 
-@550297 = ~Des Elfes et des Artéfacts
+@550297 = ~Des Elfes et des ArtÃ©facts
 
-J’ai trouvé les objets dont Eleanor m’a parlé afin de créer une Couronne de Cornes factice. Je les ai apportés à mon ami Cromwell, un maître artisan, mais il n’a pas été capable d’en faire un faux. J’ai le choix à présent entre faire réessayer Cromwell ou trouver un autre moyen pour contrecarrer les plans du mage.~
+Jâ€™ai trouvÃ© les objets dont Eleanor mâ€™a parlÃ© afin de crÃ©er une Couronne de Cornes factice. Je les ai apportÃ©s Ã  mon ami Cromwell, un maÃ®tre artisan, mais il nâ€™a pas Ã©tÃ© capable dâ€™en faire un faux. Jâ€™ai le choix Ã  prÃ©sent entre faire rÃ©essayer Cromwell ou trouver un autre moyen pour contrecarrer les plans du mage.~
 
-@550298 = ~Des Elfes et des Artéfacts
+@550298 = ~Des Elfes et des ArtÃ©facts
 
-J’ai trouvé les objets dont Eleanor m’a parlé et je les ai apportés à mon ami, le nain Cromwell. Il a réussi à créer une copie quasi-parfaite de la véritable Couronne de Cornes et je dois à présent rencontrer le mage. J’espère que cette ruse suffira à le tromper.~
+Jâ€™ai trouvÃ© les objets dont Eleanor mâ€™a parlÃ© et je les ai apportÃ©s Ã  mon ami, le nain Cromwell. Il a rÃ©ussi Ã  crÃ©er une copie quasi-parfaite de la vÃ©ritable Couronne de Cornes et je dois Ã  prÃ©sent rencontrer le mage. Jâ€™espÃ¨re que cette ruse suffira Ã  le tromper.~
 
-@550299 = ~Des Elfes et des Artéfacts
+@550299 = ~Des Elfes et des ArtÃ©facts
 
-J'ai eu une longue discussion avec Eleanor, une mage elfe qui s'est spécialisée dans la recherche d'anciens artéfacts et objets magiques. Elle est très liée à l'ambition d'un mage qui l'a employée pour conduire des recherches sur la théorie de la permatration (que je pensais restée au stade de mythe). Apparemment ce mage est entré en possession d'un artéfact qui lui permettrait de tenter un rituel de permatration, et bien sûr ce processus inclut un fort potentiel de destruction. Eleanor a sollicité mon aide, et a proposé un plan pour contrecarrer le sorcier maléfique.
+J'ai eu une longue discussion avec Eleanor, une mage elfe qui s'est spÃ©cialisÃ©e dans la recherche d'anciens artÃ©facts et objets magiques. Elle est trÃ¨s liÃ©e Ã  l'ambition d'un mage qui l'a employÃ©e pour conduire des recherches sur la thÃ©orie de la permatration (que je pensais restÃ©e au stade de mythe). Apparemment ce mage est entrÃ© en possession d'un artÃ©fact qui lui permettrait de tenter un rituel de permatration, et bien sÃ»r ce processus inclut un fort potentiel de destruction. Eleanor a sollicitÃ© mon aide, et a proposÃ© un plan pour contrecarrer le sorcier malÃ©fique.
 
-Elle pense que la meilleure solution est de créer une copie inoffensive de l'artéfact. Je ne sais pas si c'est une bonne idée, mais au cas où je voudrais fabriquer une telle copie, elle m'a indiqué les objets dont j'aurai besoin pour sa réalisation. Les objets sont courants : j'aurai besoin d'un diamant, d'une potion de protection contre la magie, d'un parchemin du sort 'Arme enchantée', et n'importe quel objet contenant une pierre de couleur verte. Si je trouve ces objets et que je souhaite qu'Eleanor fabrique une contrefaçon, je devrai la contacter quelque part à Athkatla.
+Elle pense que la meilleure solution est de crÃ©er une copie inoffensive de l'artÃ©fact. Je ne sais pas si c'est une bonne idÃ©e, mais au cas oÃ¹ je voudrais fabriquer une telle copie, elle m'a indiquÃ© les objets dont j'aurai besoin pour sa rÃ©alisation. Les objets sont courants : j'aurai besoin d'un diamant, d'une potion de protection contre la magie, d'un parchemin du sort 'Arme enchantÃ©e', et n'importe quel objet contenant une pierre de couleur verte. Si je trouve ces objets et que je souhaite qu'Eleanor fabrique une contrefaÃ§on, je devrai la contacter quelque part Ã  Athkatla.
 
-En plus de la duplication de l'objet, Eleanor m'a indiqué où je pouvais trouver le mage. On lui a dit qu'elle pourrait le contacter dans un donjon près de la forêt de Téthyr, où il aurait un laboratoire souterrain pour mener ses expériences. Si tout le reste rate, je pourrai probablement le retrouver là-bas afin de le faire échouer dans sa tentative de voler la force vive des autres êtres pour devenir l'équivalent d'un Dieu.~
+En plus de la duplication de l'objet, Eleanor m'a indiquÃ© oÃ¹ je pouvais trouver le mage. On lui a dit qu'elle pourrait le contacter dans un donjon prÃ¨s de la forÃªt de TÃ©thyr, oÃ¹ il aurait un laboratoire souterrain pour mener ses expÃ©riences. Si tout le reste rate, je pourrai probablement le retrouver lÃ -bas afin de le faire Ã©chouer dans sa tentative de voler la force vive des autres Ãªtres pour devenir l'Ã©quivalent d'un Dieu.~
 
-@550300 = ~Des Elfes et des Artéfacts
+@550300 = ~Des Elfes et des ArtÃ©facts
 
-J'ai eu une longue discussion avec Eleanor, une mage elfe qui s'est spécialisée dans la recherche d'anciens artéfacts et objets magiques. Elle est très liée à l'ambition d'un mage qui l'a employée pour conduire des recherches sur la théorie de la permatration (que je pensais restée au stade de mythe). Apparemment ce mage est entré en possession d'un artéfact qui lui permettrait de tenter un rituel de permatration, et bien sûr ce processus inclut un fort potentiel de destruction. Eleanor a sollicité mon aide, et a proposé un plan pour contrecarrer le sorcier maléfique.
+J'ai eu une longue discussion avec Eleanor, une mage elfe qui s'est spÃ©cialisÃ©e dans la recherche d'anciens artÃ©facts et objets magiques. Elle est trÃ¨s liÃ©e Ã  l'ambition d'un mage qui l'a employÃ©e pour conduire des recherches sur la thÃ©orie de la permatration (que je pensais restÃ©e au stade de mythe). Apparemment ce mage est entrÃ© en possession d'un artÃ©fact qui lui permettrait de tenter un rituel de permatration, et bien sÃ»r ce processus inclut un fort potentiel de destruction. Eleanor a sollicitÃ© mon aide, et a proposÃ© un plan pour contrecarrer le sorcier malÃ©fique.
 
-Elle pense que la meilleure solution est de créer une copie inoffensive de l'artéfact. Je ne sais pas si c'est une bonne idée, mais au cas où je voudrais fabriquer une telle copie, elle m'a indiqué les objets dont j'aurai besoin pour sa réalisation. Les objets sont courants : j'aurai besoin d'un diamant, d'une potion de protection contre la magie, d'un parchemin du sort 'Arme enchantée', et n'importe quel objet contenant une pierre de couleur verte. Si je trouve ces objets et que je souhaite qu'Eleanor fabrique une contrefaçon, je devrai la contacter quelque part à Athkatla.
+Elle pense que la meilleure solution est de crÃ©er une copie inoffensive de l'artÃ©fact. Je ne sais pas si c'est une bonne idÃ©e, mais au cas oÃ¹ je voudrais fabriquer une telle copie, elle m'a indiquÃ© les objets dont j'aurai besoin pour sa rÃ©alisation. Les objets sont courants : j'aurai besoin d'un diamant, d'une potion de protection contre la magie, d'un parchemin du sort 'Arme enchantÃ©e', et n'importe quel objet contenant une pierre de couleur verte. Si je trouve ces objets et que je souhaite qu'Eleanor fabrique une contrefaÃ§on, je devrai la contacter quelque part Ã  Athkatla.
 
-En plus de la duplication de l'objet, Eleanor m'a indiqué où je pouvais trouver le mage. On lui a dit qu'elle pourrait le contacter dans un donjon près des collines d'Umar, où il aurait un laboratoire souterrain pour mener ses expériences. Si tout le reste rate, je pourrai probablement le retrouver là-bas afin de le faire échouer dans sa tentative de voler la force vive des autres êtres pour devenir l'équivalent d'un Dieu.~
+En plus de la duplication de l'objet, Eleanor m'a indiquÃ© oÃ¹ je pouvais trouver le mage. On lui a dit qu'elle pourrait le contacter dans un donjon prÃ¨s des collines d'Umar, oÃ¹ il aurait un laboratoire souterrain pour mener ses expÃ©riences. Si tout le reste rate, je pourrai probablement le retrouver lÃ -bas afin de le faire Ã©chouer dans sa tentative de voler la force vive des autres Ãªtres pour devenir l'Ã©quivalent d'un Dieu.~
 
-@550301 = ~Des Elfes et des Artéfacts
+@550301 = ~Des Elfes et des ArtÃ©facts
 
-J'ai identifié et lu le message enregistré magiquement dans la statuette qui m'a été donnée par une elfe dans le district du Pont. La voix, celle de l'elfe semble-t'il, exprimait la terreur, mais ne m'a pas donné beaucoup d'informations sur l'aventure à venir. Tout ce que je sais, c'est qu'elle et la Côte des Epées d'après ses dires) est en grand danger. Je dois la retrouver au temple de Waukyne de Franc-Marché pour en savoir plus. J'irai peut-être là-bas, mais il faudrait d'abord que je me renseigne un peu plus sur cette elfe.~
+J'ai identifiÃ© et lu le message enregistrÃ© magiquement dans la statuette qui m'a Ã©tÃ© donnÃ©e par une elfe dans le district du Pont. La voix, celle de l'elfe semble-t'il, exprimait la terreur, mais ne m'a pas donnÃ© beaucoup d'informations sur l'aventure Ã  venir. Tout ce que je sais, c'est qu'elle et la CÃ´te des EpÃ©es d'aprÃ¨s ses dires) est en grand danger. Je dois la retrouver au temple de Waukyne de Franc-MarchÃ© pour en savoir plus. J'irai peut-Ãªtre lÃ -bas, mais il faudrait d'abord que je me renseigne un peu plus sur cette elfe.~
 
-@550302 = ~Des Elfes et des Artéfacts
+@550302 = ~Des Elfes et des ArtÃ©facts
 
-Alors que je me promenais dans le district du Pont à Athkatla, une elfe inconnue s'est approchée de moi nerveusement. Sans mot dire et sans explication aucune, elle a subrepticement glissé une statuette dans mon sac. Je ne sais pas pourquoi elle m'a donné cet objet, ni à quoi il pourrait me servir. Je vais devoir enquêter là-dessus ; peut-être que cette elfe va me conduire vers de nouvelles aventures...~
-@550303 = ~Déclencheur du sort de Mort de Zannaster~
+Alors que je me promenais dans le district du Pont Ã  Athkatla, une elfe inconnue s'est approchÃ©e de moi nerveusement. Sans mot dire et sans explication aucune, elle a subrepticement glissÃ© une statuette dans mon sac. Je ne sais pas pourquoi elle m'a donnÃ© cet objet, ni Ã  quoi il pourrait me servir. Je vais devoir enquÃªter lÃ -dessus ; peut-Ãªtre que cette elfe va me conduire vers de nouvelles aventures...~
+@550303 = ~DÃ©clencheur du sort de Mort de Zannaster~
 @550304 = ~Imposss...~
 @550305 = ~...ible !~
 @550306 = ~(siffle) NoooOOooon !!~
 @550307 = ~"C'est tout ce que vous pouvez faire ?"~
 @550308 = ~"Faites-les sortir d'ici !"~
-@550309 = ~"Ces idiots pensent qu'ils survivront à Zannaster."~
-@550310 = ~"Ceci n'est pas une épée, *Ca* c'est une épée !"~
-@550311 = ~"C'est vrai. Utilisez vos objets à charges limitées."~
-@550312 = ~"Eclate-lui la tête !"~
+@550309 = ~"Ces idiots pensent qu'ils survivront Ã  Zannaster."~
+@550310 = ~"Ceci n'est pas une Ã©pÃ©e, *Ca* c'est une Ã©pÃ©e !"~
+@550311 = ~"C'est vrai. Utilisez vos objets Ã  charges limitÃ©es."~
+@550312 = ~"Eclate-lui la tÃªte !"~
 @550313 = ~"Vous ne vivrez pas assez longtemps pour voir le prochain Vol !~
 @550314 = ~"Vous succomberez !"~
-@550315 = ~"C'est ça ! C'est ça ! Ils sont à notre merci maintenant !"~
+@550315 = ~"C'est Ã§a ! C'est Ã§a ! Ils sont Ã  notre merci maintenant !"~
 
-@550400 = ~Compris ! Touché ! C’est toi l'chat !~
-@550401 = ~Maintenant, c'est toi à nouveau ! TOUCHE !!~
-@550402 = ~Je t'ai eue à nouveau Imoen ! C’est toi l'chat !~
-@550403 = ~Je t'ai bien attrapé, <CHARNAME> !~ ~Je t'ai bien attrapée, <CHARNAME> !~
-@550404 = ~Au moment d'entrer dans les profondeurs du donjon, vous êtes immédiatement empli d'un sentiment de crainte. Le Mal est ici, si grand et si puissant que vous pouvez presque le sentir. Peu importe, vous êtes un aventurier chevronné et avez à votre disposition tout un panel de compétences pour abattre n'importe quel monstre que vous rencontrerez dans ce tunnel sombre.~
+@550400 = ~Compris ! TouchÃ© ! Câ€™est toi l'chat !~
+@550401 = ~Maintenant, c'est toi Ã  nouveau ! TOUCHE !!~
+@550402 = ~Je t'ai eue Ã  nouveau Imoen ! Câ€™est toi l'chat !~
+@550403 = ~Je t'ai bien attrapÃ©, <CHARNAME> !~ ~Je t'ai bien attrapÃ©e, <CHARNAME> !~
+@550404 = ~Au moment d'entrer dans les profondeurs du donjon, vous Ãªtes immÃ©diatement empli d'un sentiment de crainte. Le Mal est ici, si grand et si puissant que vous pouvez presque le sentir. Peu importe, vous Ãªtes un aventurier chevronnÃ© et avez Ã  votre disposition tout un panel de compÃ©tences pour abattre n'importe quel monstre que vous rencontrerez dans ce tunnel sombre.~
 
-@550500 = ~C'était très bien joué !~
+@550500 = ~C'Ã©tait trÃ¨s bien jouÃ© !~
 @550501 = ~Bravo ! Bravo !~
 @550502 = ~Encore !~
-@550503 = ~C'était une superbe représentation.~
-@550504 = ~Oui, le dramaturge mérite qu'on l'applaudisse.~ 
+@550503 = ~C'Ã©tait une superbe reprÃ©sentation.~
+@550504 = ~Oui, le dramaturge mÃ©rite qu'on l'applaudisse.~ 
 @550505 = ~Excellent !~
 @550506 = ~Hourrah !~
 @550507 = ~Encore !~
 @550508 = ~Ca en valait le prix !~
-@550509 = ~Une des plus belles pièces de l'année !~
+@550509 = ~Une des plus belles piÃ¨ces de l'annÃ©e !~
 @550510 = ~C'est vrai ! Hourrah pour le roi pirate ! Hourrah pour le roi pirate !~
-@550511 = ~J'ai vraiment détesté la musique.~
+@550511 = ~J'ai vraiment dÃ©testÃ© la musique.~
 @550512 = ~Bravo !~
 @550513 = ~Une production gentillette, sans plus.~
-@550514 = ~C'était bien, c'était même très bien.~
-@550515 = ~Ca aurait pu être un peu plus original.~
+@550514 = ~C'Ã©tait bien, c'Ã©tait mÃªme trÃ¨s bien.~
+@550515 = ~Ca aurait pu Ãªtre un peu plus original.~
 @550516 = ~C'est vrai ! Hourrah pour le roi pirate !~
 @550517 = ~And whistle all the airs from that infernal nonsense Pinafore.~
 @550518 = ~Well, it's the top of the tide, and we must be off.
@@ -451,38 +451,38 @@ die a Pirate King.~
 @550528 = ~He is ! Hurrah for the Major-General !~
 @550529 = ~And it is, it is a glorious thing
 To be a Major-General !~
-@550530 = ~C'est vrai ! Hourrah pour le Major-Général !~
-@550531 = ~C'était nul !~
+@550530 = ~C'est vrai ! Hourrah pour le Major-GÃ©nÃ©ral !~
+@550531 = ~C'Ã©tait nul !~
 @550532 = ~Remboursez !~
 @550533 = ~Bouh ! Bouh !~
-@550534 = ~Et c'était ça, l'oeuvre d'un barde prestigieux ? Mon cousin Neeber ferait mieux.~
+@550534 = ~Et c'Ã©tait Ã§a, l'oeuvre d'un barde prestigieux ? Mon cousin Neeber ferait mieux.~
 @550535 = ~Le dramaturge aurait mieux fait de se pendre !~
-@550536 = ~Je ne voulais aucune interruption ! Vous osez profaner mes cérémonies ?~
+@550536 = ~Je ne voulais aucune interruption ! Vous osez profaner mes cÃ©rÃ©monies ?~
 @550537 = ~Tuez-les ! Tuez-les tous !~
 @550538 = ~Je vaissss voussss massssacrer.~
 @550539 = ~Venez ma Dame, nous devons partir ! Gardes ! Tuez les assassins !~
 
-@550600 = ~Pour des raisons qui vous échappent, la protection ne se dissipe pas pour vous laisser passer.~
-@550601 = ~Pour des raisons qui vous échappent, la protection vous laisse passer.~
-@550602 = ~Cette rune crépite d'énergie magique. Il serait très peu avisé de la toucher ou de la dissiper sans savoir ce qu'elle garde.~
-@550603 = ~Sous vos pieds, le vent hurle, et vous vous accrochez à votre précieuse vie, priant de ne pas tomber du bord.~
-@550604 = ~Les racines des arbres ont détaché le schiste, et vous trébuchez, faisant assez de bruit pour réveiller un dragon.~
-@550605 = ~Vous sentez subitement la présence d'un danger imminent. Le bruit que vous venez de faire aurait pu alerter n'importe qui à des lieues de distance dans ces montagnes.~
+@550600 = ~Pour des raisons qui vous Ã©chappent, la protection ne se dissipe pas pour vous laisser passer.~
+@550601 = ~Pour des raisons qui vous Ã©chappent, la protection vous laisse passer.~
+@550602 = ~Cette rune crÃ©pite d'Ã©nergie magique. Il serait trÃ¨s peu avisÃ© de la toucher ou de la dissiper sans savoir ce qu'elle garde.~
+@550603 = ~Sous vos pieds, le vent hurle, et vous vous accrochez Ã  votre prÃ©cieuse vie, priant de ne pas tomber du bord.~
+@550604 = ~Les racines des arbres ont dÃ©tachÃ© le schiste, et vous trÃ©buchez, faisant assez de bruit pour rÃ©veiller un dragon.~
+@550605 = ~Vous sentez subitement la prÃ©sence d'un danger imminent. Le bruit que vous venez de faire aurait pu alerter n'importe qui Ã  des lieues de distance dans ces montagnes.~
 @550606 = ~Escaladant la pente raide, votre pied glisse sur les morceaux de roche.~
-@550607 = ~La terre cède, envoyant des rochers et des débris au bas de la falaise du côté ouest.~
-@550608 = ~Les rochers dégringolent du bord, provoquant des échos puissants pendant que les pierres tombent en bas de la falaise.~
+@550607 = ~La terre cÃ¨de, envoyant des rochers et des dÃ©bris au bas de la falaise du cÃ´tÃ© ouest.~
+@550608 = ~Les rochers dÃ©gringolent du bord, provoquant des Ã©chos puissants pendant que les pierres tombent en bas de la falaise.~
 
-@550624 = ~D'un coup terrible, vous tuez la puissante dracoliche qui fait une violente embardée avant de se changer en un tas de cendres noires.~
-@550625 = ~Les mécanismes de cet endroit sont imprégnés d'une magie qui leur est propre. Le Labyrinthe de Max le Maçon n'acceptera pas plus d'une personne à la fois. Chaque membre de votre groupe doit traverser ce labyrinthe lui-même.~
-@550626 = ~Après une minutieuse investigation des empreintes des environs, vous remarquez des traces de bétail se dirigeant près de la partie nord-est du mur, tout près du site de contruction. Vous vous demandez ce qui peut les attirer là-bas à une fréquence aussi régulière...~
+@550624 = ~D'un coup terrible, vous tuez la puissante dracoliche qui fait une violente embardÃ©e avant de se changer en un tas de cendres noires.~
+@550625 = ~Les mÃ©canismes de cet endroit sont imprÃ©gnÃ©s d'une magie qui leur est propre. Le Labyrinthe de Max le MaÃ§on n'acceptera pas plus d'une personne Ã  la fois. Chaque membre de votre groupe doit traverser ce labyrinthe lui-mÃªme.~
+@550626 = ~AprÃ¨s une minutieuse investigation des empreintes des environs, vous remarquez des traces de bÃ©tail se dirigeant prÃ¨s de la partie nord-est du mur, tout prÃ¨s du site de contruction. Vous vous demandez ce qui peut les attirer lÃ -bas Ã  une frÃ©quence aussi rÃ©guliÃ¨re...~
 @550627 = ~Fleurs rouges~
-@550628 = ~Ces fleurs, que vous ne connaissez pas, ont une apparence des plus curieuses ; et pourtant il émane d'elles un arôme doux et agréable. Il vous apparaît évident que les animaux du coin ont développé un goût particulier pour ces plantes. Vous pourriez peut-être les utiliser pour gagner les faveurs de ces vaches si capricieuses...~
-@550629 = ~Un jour nouveau se lève. Vous devriez aller voir Gorion et lui parler de vos corvées du jour...~
-@550630 = ~Grâce à votre compétence nouvellement développée, vous avez réussi à écrire tous les parchemins que Thalantyr vous a demandé de copier...~
-@550631 = ~Dreppin ! Quel est le problème avec tes vaches ? Elles sont MALADES ? Leur lait, on dirait du jus d'araignées !!!~
+@550628 = ~Ces fleurs, que vous ne connaissez pas, ont une apparence des plus curieuses ; et pourtant il Ã©mane d'elles un arÃ´me doux et agrÃ©able. Il vous apparaÃ®t Ã©vident que les animaux du coin ont dÃ©veloppÃ© un goÃ»t particulier pour ces plantes. Vous pourriez peut-Ãªtre les utiliser pour gagner les faveurs de ces vaches si capricieuses...~
+@550629 = ~Un jour nouveau se lÃ¨ve. Vous devriez aller voir Gorion et lui parler de vos corvÃ©es du jour...~
+@550630 = ~GrÃ¢ce Ã  votre compÃ©tence nouvellement dÃ©veloppÃ©e, vous avez rÃ©ussi Ã  Ã©crire tous les parchemins que Thalantyr vous a demandÃ© de copier...~
+@550631 = ~Dreppin ! Quel est le problÃ¨me avec tes vaches ? Elles sont MALADES ? Leur lait, on dirait du jus d'araignÃ©es !!!~
 @550632 = ~Je ne sais pas, Clarissa... Je ne sais vraiment pas quoi dire...~
-@550633 = ~Regarde, Clar... Hé, qu'est-ce que c'est..? Ces fleurs sont bizarres...~
+@550633 = ~Regarde, Clar... HÃ©, qu'est-ce que c'est..? Ces fleurs sont bizarres...~
 @550634 = ~On dirait....?...!!!~
 @550635 = ~<CHARNAME> !!!~
 @550636 = ~ATTENTION !!!!~
-@550637 = ~Oh, comme cet endroit me rappelle Château-Suif. De vieux livres poussiéreux, des bibliothèques qui débordent des rayons... Oh...~
+@550637 = ~Oh, comme cet endroit me rappelle ChÃ¢teau-Suif. De vieux livres poussiÃ©reux, des bibliothÃ¨ques qui dÃ©bordent des rayons... Oh...~

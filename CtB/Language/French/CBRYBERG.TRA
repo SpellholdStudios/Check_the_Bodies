@@ -1,93 +1,93 @@
-@1 = ~Excusez-moi, vous, là ! Excusez-moi. Vous semblez être un utilisateur de magie compétent. Pouvez-vous me dire si c'est le cas ?~ ~Excusez-moi, vous, là ! Excusez-moi. Vous semblez être une utilisatrice de magie compétente. Pouvez-vous me dire si c'est le cas ?~
+@1 = ~Excusez-moi, vous, lÃ  ! Excusez-moi. Vous semblez Ãªtre un utilisateur de magie compÃ©tent. Pouvez-vous me dire si c'est le cas ?~ ~Excusez-moi, vous, lÃ  ! Excusez-moi. Vous semblez Ãªtre une utilisatrice de magie compÃ©tente. Pouvez-vous me dire si c'est le cas ?~
 @2 = ~Oui, je suis mage, pourquoi ?~
-@3 = ~Non, désolé, vous avez dû me confondre avec quelqu'un d'autre.~ ~Non, désolée, vous avez dû me confondre avec quelqu'un d'autre.~
-@4 = ~Vraiment ? Vous l'êtes ? Dans ce cas vous pourriez m'aider.~ 
+@3 = ~Non, dÃ©solÃ©, vous avez dÃ» me confondre avec quelqu'un d'autre.~ ~Non, dÃ©solÃ©e, vous avez dÃ» me confondre avec quelqu'un d'autre.~
+@4 = ~Vraiment ? Vous l'Ãªtes ? Dans ce cas vous pourriez m'aider.~ 
 @5 = ~Qu'en pensez-vous ? Je veux dire, pouvez-vous m'aider ?~
 @6 = ~Bien entendu. Je vais vous aider. Dites-moi ce dont vous avez besoin.~
 @7 = ~Non, je ne peux pas vous aider.~
 @8 = ~Je peux vous aider, mais pas tout de suite. Attendez-moi ici, je vais revenir.~
-@9 = ~Je suis fatigué d'aider les gens. Je n'aiderai plus personne, alors laissez-moi.~ ~Je suis fatiguée d'aider les gens. Je n'aiderai plus personne, alors laissez-moi.~
-@10 = ~J'ai entendu dire que certains magiciens peuvent rappeler à la vie ceux qui ont trépassé. Je sais que c'est vrai, je vais donc vous exposer mon problème.~
-@11 = ~Voila, récemment, un membre de ma famille, mon cher oncle Donny, est mort et bien entendu je suis attristé par la perte d'un homme si bon.~
-@12 = ~Mon oncle Donny me manque énormément, car nous nous aimions beaucoup. Je sais que mon oncle Donny m'aimait et prenait soin de moi, et il m'a dit avant de mourir qu'il me laisserait ses possessions terrestres.~
-@13 = ~Cependant, les officiels de la cité sont trop versés dans la paperasse pour ce genre de chose, et oncle Donny a dû remplir un testament légal avec la ville. Maintenant qu'il est mort, les politiciens ne permettent pas de voir une copie de ses volontés.~
-@14 = ~Mon oncle Donny était un homme bon, mais il avait ses caprices lorsqu'il était question d'argent. Donny était terriblement inquiet au sujet des voleurs, des escrocs et des percepteurs, et il a caché son argent. Je sais que mon oncle Donny m'a légué toutes ses possessions, mais il a dû cacher son argent vraiment bien, je ne l'ai pas trouvé dans sa maison, ni dans la ville, d'ailleurs. Je suis persuadé qu'il a donné des indications sur l'endroit où se trouve sa cachette dans son testament, pas explicitement bien entendu, mais de manière codée.~ 
-@15 = ~Dans ce cas, ceux qui lisent les volontés du défunt n'auront pas la tâche facile pour retrouver son argent. Mon oncle Donny était riche, mais comme il est mort et que je ne peux pas avoir accès au testament, rien ne me revient. Je pense que les officiels de la ville vont essayer de résoudre le mystère de la cachette de Donny, mais je ne pense pas qu'ils y parviendront.~
-@16 = ~Je dois retrouver où est l'argent avant eux, mais je n'ai pas accès au testament, donc je ne connais pas le code.~
-@17 = ~Cela ressemble à un travail pour quelqu'un qui connaît bien la loi. Peut-être devriez-vous engager un avocat, et non un mage.~
+@9 = ~Je suis fatiguÃ© d'aider les gens. Je n'aiderai plus personne, alors laissez-moi.~ ~Je suis fatiguÃ©e d'aider les gens. Je n'aiderai plus personne, alors laissez-moi.~
+@10 = ~J'ai entendu dire que certains magiciens peuvent rappeler Ã  la vie ceux qui ont trÃ©passÃ©. Je sais que c'est vrai, je vais donc vous exposer mon problÃ¨me.~
+@11 = ~Voila, rÃ©cemment, un membre de ma famille, mon cher oncle Donny, est mort et bien entendu je suis attristÃ© par la perte d'un homme si bon.~
+@12 = ~Mon oncle Donny me manque Ã©normÃ©ment, car nous nous aimions beaucoup. Je sais que mon oncle Donny m'aimait et prenait soin de moi, et il m'a dit avant de mourir qu'il me laisserait ses possessions terrestres.~
+@13 = ~Cependant, les officiels de la citÃ© sont trop versÃ©s dans la paperasse pour ce genre de chose, et oncle Donny a dÃ» remplir un testament lÃ©gal avec la ville. Maintenant qu'il est mort, les politiciens ne permettent pas de voir une copie de ses volontÃ©s.~
+@14 = ~Mon oncle Donny Ã©tait un homme bon, mais il avait ses caprices lorsqu'il Ã©tait question d'argent. Donny Ã©tait terriblement inquiet au sujet des voleurs, des escrocs et des percepteurs, et il a cachÃ© son argent. Je sais que mon oncle Donny m'a lÃ©guÃ© toutes ses possessions, mais il a dÃ» cacher son argent vraiment bien, je ne l'ai pas trouvÃ© dans sa maison, ni dans la ville, d'ailleurs. Je suis persuadÃ© qu'il a donnÃ© des indications sur l'endroit oÃ¹ se trouve sa cachette dans son testament, pas explicitement bien entendu, mais de maniÃ¨re codÃ©e.~ 
+@15 = ~Dans ce cas, ceux qui lisent les volontÃ©s du dÃ©funt n'auront pas la tÃ¢che facile pour retrouver son argent. Mon oncle Donny Ã©tait riche, mais comme il est mort et que je ne peux pas avoir accÃ¨s au testament, rien ne me revient. Je pense que les officiels de la ville vont essayer de rÃ©soudre le mystÃ¨re de la cachette de Donny, mais je ne pense pas qu'ils y parviendront.~
+@16 = ~Je dois retrouver oÃ¹ est l'argent avant eux, mais je n'ai pas accÃ¨s au testament, donc je ne connais pas le code.~
+@17 = ~Cela ressemble Ã  un travail pour quelqu'un qui connaÃ®t bien la loi. Peut-Ãªtre devriez-vous engager un avocat, et non un mage.~
 @18 = ~Qu'attendez-vous de moi ?~
-@19 = ~Vous pensez vraiment que je vais me lancer dans une vaine chasse au trésor pour retrouver l'argent de votre oncle ?~
-@20 = ~Oui, oui, c'est vrai. Si je voulais forcer les officiels de la ville à me donner le testament ou une copie.~
-@21 = ~Je ne veux pas donner aux officiels une piste pour qu'ils débutent plus facilement des recherches de leur côté, c'est pour cela que je ne veux pas les contraindre à me rendre le testament légalement. J'ai autre chose en tête, mais je n'ai pas les compétences pour le faire moi-même.~
-@22 = ~J'espérais trouver un magicien qui puisse invoquer l'esprit de mon oncle Donny. J'ai entendu dire que les magiciens puissants peuvent le faire, et pourraient parler avec lui afin de découvrir des indices permettant de trouver la cachette de l'argent.~
-@23 = ~Ca à l'air d'être un bon plan. C'est vrai que certains mages, ainsi que certains prêtres, peuvent parler avec les morts, mais pour cela, le mage ou le prêtre doit connaître le sort adéquat, ou avoir un parchemin à partir duquel il peut le lancer. Je ne connais pas le sort de 'Communication avec les Morts', et je n'ai pas de parchemin à ce sujet non plus.~
-@24 = ~Y a-t-il un moyen pour vous d'apprendre ce sort ? Peut-être avec un parchemin ?~
-@25 = ~Je vais essayer d'en trouver un, mais je ne sais pas qui pourrait avoir une copie de ce parchemin, ni s'il existe une telle personne en ville. Attendez-moi ici, si je trouve ce sort, je reviendrai pour vous aider à parler avec votre oncle.~  
-@26 = ~Je ne sais pas où chercher. Est-ce que vous connaissez quelqu'un qui serait susceptible de me vendre ce sort ?~
-@27 = ~Je ne pense pas avoir le temps de chercher ce sort. Désolé, mais vous devrez trouver quelqu'un d'autre pour lancer le sort qui vous permettra de discuter avec votre oncle.~ ~Je ne pense pas avoir le temps de chercher ce sort. Désolée, mais vous devrez trouver quelqu'un d'autre pour lancer le sort qui vous permettra de discuter avec votre oncle.~
-@28 = ~Vous seriez d'une grande aide. Vous devez en savoir plus que moi sur la magie, mais d'après ce que je sais, vous devez posséder un parchemin pour l'invoquer, alors soyez prudent car vous ne trouverez probablement qu'une seule copie de ce sort.~
-@29 = ~Je ne connais personne qui vend ce genre de magie. Vous en savez bien plus que moi sur la magie, donc vous pourrez trouver quelqu'un bien plus facilement que je ne le pourrais, mais d'après ce que je sais, vous aurez besoin d'un parchemin pour pouvoir l'invoquer, alors soyez prudent car vous ne trouverez probablement qu'une seule copie de ce sort. Si vous partez à la recherche d'un tel parchemin, je resterai ici, et si jamais vous trouvez le sort, je ferai mon possible pour vous aider à l'utiliser.~ ~Je ne connais personne qui vend ce genre de magie. Vous en savez bien plus que moi sur la magie, donc vous pourrez trouver quelqu'un bien plus facilement que je ne le pourrais, mais d'après ce que je sais, vous aurez besoin d'un parchemin pour pouvoir l'invoquer, alors soyez prudente car vous ne trouverez probablement qu'une seule copie de ce sort. Si vous partez à la recherche d'un tel parchemin, je resterai ici, et si jamais vous trouvez le sort, je ferai mon possible pour vous aider à l'utiliser.~
-@30 = ~Alors je vais attendre ici jusqu'à ce que vous ayez le temps de chercher le sort et de revenir ici pour l'invoquer. Vous en savez bien plus que moi sur la magie, donc vous trouverez certainement quelqu'un plus facilement que moi, mais d'après ce que je sais, vous aurez besoin d'un parchemin pour pouvoir l'invoquer, alors soyez prudent car vous ne trouverez probablement qu'une seule copie de ce sort. Si vous trouvez un tel parchemin, je ferai mon possible pour vous aider à l'utiliser.~ ~Alors je vais attendre ici jusqu'à ce que vous ayez le temps de chercher le sort et de revenir ici pour l'invoquer. Vous en savez bien plus que moi sur la magie, donc vous trouverez certainement quelqu'un plus facilement que moi, mais d'après ce que je sais, vous aurez besoin d'un parchemin pour pouvoir l'invoquer, alors soyez prudente car vous ne trouverez probablement qu'une seule copie de ce sort. Si vous trouvez un tel parchemin, je ferai mon possible pour vous aider à l'utiliser.~
-@31 = ~Je ne veux pas que vous recherchiez dans la ville entière, sans le moindre indice. Non, j'ai un autre plan, mais je n'ai pas les compétences pour le mener à bien moi-même.~
-@32 = ~Je n'ai plus le choix. J'aimerais vraiment de l'aide de votre part. J'attendrai ici, et si vous changez d'avis à ce propos, revenez ici s'il vous plaît et dites-le moi.~
-@33 = ~Comme vous l'avez dit, je vais rester ici, et si vous avez l'opportunité de m'aider, revenez ici et dites-le moi.~
-@34 = ~Je ne voulais pas vous déranger. Je pensais seulement que vous pourriez m'aider. Désolé pour l'interruption. Au revoir.~
-@35 = ~Je suis désolé pour le dérangement dans ce cas. Vous ne pouvez pas m'aider. Bonne journée à vous, <SIRMAAM>.~
-@36 = ~Alors vous êtes revenu. Pouvez-vous m'aider maintenant ?~ ~Alors vous êtes revenue. Pouvez-vous m'aider maintenant ?~
-@37 = ~Souvenez-vous, vous avez dit que vous chercheriez un sort qui me permettrait de parler avec mon oncle Donny. En avez-vous trouvé un ?~
-@38 = ~Non, désolé, pas encore. Cependant, je poursuis mes recherches. Attendez ici.~ ~Non, désolée, pas encore. Cependant, je poursuis mes recherches. Attendez ici.~
-@39 = ~Je n'ai même pas commencé les recherches. Je ne suis pas sûr que ce soit une bonne idée d'appeler votre oncle alors qu’il erre parmi les morts.~ ~Je n'ai même pas commencé les recherches. Je ne suis pas sûre que ce soit une bonne idée d'appeler votre oncle alors qu’il erre parmi les morts.~
-@40 = ~Oui, Ryberg, j'ai trouvé un parchemin. Restez ici et je vais appeler votre oncle.~
-@41 = ~Vous avez de la chance, Ryberg. J'ai trouvé un parchemin de sort pour parler avec les morts, mais je ne pense pas que ce soit une bonne idée d'appeler votre oncle qui est au milieu des morts.~
-@42 = ~J'avais oublié ce que vous attendiez de moi.~
-@43 = ~Oui, Ryberg, j'ai trouvé un parchemin. Mais nous ne pouvons pas l'utiliser ici à cause des forces que cela pourrait libérer.~
-@44 = ~S'il vous plait, je dois vraiment trouver l'endroit où mon oncle Donny a caché son argent. Si vous trouvez un moyen de parler avec mon oncle, revenez me voir ici.~
-@45 = ~D'accord, magicien, je vais m'écarter pandant que vous lancez le sort.~ ~D'accord, magicienne, je vais m'écarter pendant que vous lancez le sort.~
-@46 = ~Je sais que je vous ai demandé de l'aide et que vous avez fait beaucoup pour moi, mais si vous ne voulez pas lancer le sort vous-même, donnez-moi le parchemin et je trouverai quelqu'un d'autre qui le lancera pour moi.~
-@47 = ~Très bien, Ryberg. Voici le parchemin.~
-@48 = ~Non Ryberg. Interagir avec les forces de la mort est quelque chose qui ne peut être fait sans conséquences. En toute bonne foi, je ne peux pas vous laisser ce parchemin.~
-@49 = ~Interagir avec les forces de la mort est quelque chose qui ne peut être fait sans conséquences, Ryberg. Je ne peux pas laisser quelqu'un que je ne connais pas, et qui n'est pas assez compétent en la matière, utiliser ce parchemin. Je le ferai pour vous, mais je maintiens mes protestations, Ryberg.~
-@50 = ~Merci pour votre aide. Je suis désolé que vous ne vouliez pas lancer ce sort, mais je comprends que cela puisse être au-delà de vos compétences. De toute façon, j'espère trouver quelqu'un d'autre qui pourra lancer ce sort pour moi. Bonne journée à vous, <SIRMAAM>.~
-@51 = ~Je n'ai plus le choix. Je dois vraiment trouver où mon oncle a caché son argent. S'il vous plait, si vous changez d'avis, venez me retrouver ici.~
-@52 = ~Oncle Donny ! Je suis si heureux de te voir ! Mais nous n'avons pas beaucoup de temps. Ecoute, les politiciens d'ici ne veulent pas me laisser lire ton testament. Je n'arrive pas à retrouver l'argent que tu m'as laissé.~
-@53 = ~S'il te plaît, si tu peux me dire où et comment je peux trouver l'argent, cela m'aiderait grandement. Tu dois pouvoir me le dire. Oncle Donny ! Parle !~
+@19 = ~Vous pensez vraiment que je vais me lancer dans une vaine chasse au trÃ©sor pour retrouver l'argent de votre oncle ?~
+@20 = ~Oui, oui, c'est vrai. Si je voulais forcer les officiels de la ville Ã  me donner le testament ou une copie.~
+@21 = ~Je ne veux pas donner aux officiels une piste pour qu'ils dÃ©butent plus facilement des recherches de leur cÃ´tÃ©, c'est pour cela que je ne veux pas les contraindre Ã  me rendre le testament lÃ©galement. J'ai autre chose en tÃªte, mais je n'ai pas les compÃ©tences pour le faire moi-mÃªme.~
+@22 = ~J'espÃ©rais trouver un magicien qui puisse invoquer l'esprit de mon oncle Donny. J'ai entendu dire que les magiciens puissants peuvent le faire, et pourraient parler avec lui afin de dÃ©couvrir des indices permettant de trouver la cachette de l'argent.~
+@23 = ~Ca Ã  l'air d'Ãªtre un bon plan. C'est vrai que certains mages, ainsi que certains prÃªtres, peuvent parler avec les morts, mais pour cela, le mage ou le prÃªtre doit connaÃ®tre le sort adÃ©quat, ou avoir un parchemin Ã  partir duquel il peut le lancer. Je ne connais pas le sort de 'Communication avec les Morts', et je n'ai pas de parchemin Ã  ce sujet non plus.~
+@24 = ~Y a-t-il un moyen pour vous d'apprendre ce sort ? Peut-Ãªtre avec un parchemin ?~
+@25 = ~Je vais essayer d'en trouver un, mais je ne sais pas qui pourrait avoir une copie de ce parchemin, ni s'il existe une telle personne en ville. Attendez-moi ici, si je trouve ce sort, je reviendrai pour vous aider Ã  parler avec votre oncle.~  
+@26 = ~Je ne sais pas oÃ¹ chercher. Est-ce que vous connaissez quelqu'un qui serait susceptible de me vendre ce sort ?~
+@27 = ~Je ne pense pas avoir le temps de chercher ce sort. DÃ©solÃ©, mais vous devrez trouver quelqu'un d'autre pour lancer le sort qui vous permettra de discuter avec votre oncle.~ ~Je ne pense pas avoir le temps de chercher ce sort. DÃ©solÃ©e, mais vous devrez trouver quelqu'un d'autre pour lancer le sort qui vous permettra de discuter avec votre oncle.~
+@28 = ~Vous seriez d'une grande aide. Vous devez en savoir plus que moi sur la magie, mais d'aprÃ¨s ce que je sais, vous devez possÃ©der un parchemin pour l'invoquer, alors soyez prudent car vous ne trouverez probablement qu'une seule copie de ce sort.~
+@29 = ~Je ne connais personne qui vend ce genre de magie. Vous en savez bien plus que moi sur la magie, donc vous pourrez trouver quelqu'un bien plus facilement que je ne le pourrais, mais d'aprÃ¨s ce que je sais, vous aurez besoin d'un parchemin pour pouvoir l'invoquer, alors soyez prudent car vous ne trouverez probablement qu'une seule copie de ce sort. Si vous partez Ã  la recherche d'un tel parchemin, je resterai ici, et si jamais vous trouvez le sort, je ferai mon possible pour vous aider Ã  l'utiliser.~ ~Je ne connais personne qui vend ce genre de magie. Vous en savez bien plus que moi sur la magie, donc vous pourrez trouver quelqu'un bien plus facilement que je ne le pourrais, mais d'aprÃ¨s ce que je sais, vous aurez besoin d'un parchemin pour pouvoir l'invoquer, alors soyez prudente car vous ne trouverez probablement qu'une seule copie de ce sort. Si vous partez Ã  la recherche d'un tel parchemin, je resterai ici, et si jamais vous trouvez le sort, je ferai mon possible pour vous aider Ã  l'utiliser.~
+@30 = ~Alors je vais attendre ici jusqu'Ã  ce que vous ayez le temps de chercher le sort et de revenir ici pour l'invoquer. Vous en savez bien plus que moi sur la magie, donc vous trouverez certainement quelqu'un plus facilement que moi, mais d'aprÃ¨s ce que je sais, vous aurez besoin d'un parchemin pour pouvoir l'invoquer, alors soyez prudent car vous ne trouverez probablement qu'une seule copie de ce sort. Si vous trouvez un tel parchemin, je ferai mon possible pour vous aider Ã  l'utiliser.~ ~Alors je vais attendre ici jusqu'Ã  ce que vous ayez le temps de chercher le sort et de revenir ici pour l'invoquer. Vous en savez bien plus que moi sur la magie, donc vous trouverez certainement quelqu'un plus facilement que moi, mais d'aprÃ¨s ce que je sais, vous aurez besoin d'un parchemin pour pouvoir l'invoquer, alors soyez prudente car vous ne trouverez probablement qu'une seule copie de ce sort. Si vous trouvez un tel parchemin, je ferai mon possible pour vous aider Ã  l'utiliser.~
+@31 = ~Je ne veux pas que vous recherchiez dans la ville entiÃ¨re, sans le moindre indice. Non, j'ai un autre plan, mais je n'ai pas les compÃ©tences pour le mener Ã  bien moi-mÃªme.~
+@32 = ~Je n'ai plus le choix. J'aimerais vraiment de l'aide de votre part. J'attendrai ici, et si vous changez d'avis Ã  ce propos, revenez ici s'il vous plaÃ®t et dites-le moi.~
+@33 = ~Comme vous l'avez dit, je vais rester ici, et si vous avez l'opportunitÃ© de m'aider, revenez ici et dites-le moi.~
+@34 = ~Je ne voulais pas vous dÃ©ranger. Je pensais seulement que vous pourriez m'aider. DÃ©solÃ© pour l'interruption. Au revoir.~
+@35 = ~Je suis dÃ©solÃ© pour le dÃ©rangement dans ce cas. Vous ne pouvez pas m'aider. Bonne journÃ©e Ã  vous, <SIRMAAM>.~
+@36 = ~Alors vous Ãªtes revenu. Pouvez-vous m'aider maintenant ?~ ~Alors vous Ãªtes revenue. Pouvez-vous m'aider maintenant ?~
+@37 = ~Souvenez-vous, vous avez dit que vous chercheriez un sort qui me permettrait de parler avec mon oncle Donny. En avez-vous trouvÃ© un ?~
+@38 = ~Non, dÃ©solÃ©, pas encore. Cependant, je poursuis mes recherches. Attendez ici.~ ~Non, dÃ©solÃ©e, pas encore. Cependant, je poursuis mes recherches. Attendez ici.~
+@39 = ~Je n'ai mÃªme pas commencÃ© les recherches. Je ne suis pas sÃ»r que ce soit une bonne idÃ©e d'appeler votre oncle alors quâ€™il erre parmi les morts.~ ~Je n'ai mÃªme pas commencÃ© les recherches. Je ne suis pas sÃ»re que ce soit une bonne idÃ©e d'appeler votre oncle alors quâ€™il erre parmi les morts.~
+@40 = ~Oui, Ryberg, j'ai trouvÃ© un parchemin. Restez ici et je vais appeler votre oncle.~
+@41 = ~Vous avez de la chance, Ryberg. J'ai trouvÃ© un parchemin de sort pour parler avec les morts, mais je ne pense pas que ce soit une bonne idÃ©e d'appeler votre oncle qui est au milieu des morts.~
+@42 = ~J'avais oubliÃ© ce que vous attendiez de moi.~
+@43 = ~Oui, Ryberg, j'ai trouvÃ© un parchemin. Mais nous ne pouvons pas l'utiliser ici Ã  cause des forces que cela pourrait libÃ©rer.~
+@44 = ~S'il vous plait, je dois vraiment trouver l'endroit oÃ¹ mon oncle Donny a cachÃ© son argent. Si vous trouvez un moyen de parler avec mon oncle, revenez me voir ici.~
+@45 = ~D'accord, magicien, je vais m'Ã©carter pandant que vous lancez le sort.~ ~D'accord, magicienne, je vais m'Ã©carter pendant que vous lancez le sort.~
+@46 = ~Je sais que je vous ai demandÃ© de l'aide et que vous avez fait beaucoup pour moi, mais si vous ne voulez pas lancer le sort vous-mÃªme, donnez-moi le parchemin et je trouverai quelqu'un d'autre qui le lancera pour moi.~
+@47 = ~TrÃ¨s bien, Ryberg. Voici le parchemin.~
+@48 = ~Non Ryberg. Interagir avec les forces de la mort est quelque chose qui ne peut Ãªtre fait sans consÃ©quences. En toute bonne foi, je ne peux pas vous laisser ce parchemin.~
+@49 = ~Interagir avec les forces de la mort est quelque chose qui ne peut Ãªtre fait sans consÃ©quences, Ryberg. Je ne peux pas laisser quelqu'un que je ne connais pas, et qui n'est pas assez compÃ©tent en la matiÃ¨re, utiliser ce parchemin. Je le ferai pour vous, mais je maintiens mes protestations, Ryberg.~
+@50 = ~Merci pour votre aide. Je suis dÃ©solÃ© que vous ne vouliez pas lancer ce sort, mais je comprends que cela puisse Ãªtre au-delÃ  de vos compÃ©tences. De toute faÃ§on, j'espÃ¨re trouver quelqu'un d'autre qui pourra lancer ce sort pour moi. Bonne journÃ©e Ã  vous, <SIRMAAM>.~
+@51 = ~Je n'ai plus le choix. Je dois vraiment trouver oÃ¹ mon oncle a cachÃ© son argent. S'il vous plait, si vous changez d'avis, venez me retrouver ici.~
+@52 = ~Oncle Donny ! Je suis si heureux de te voir ! Mais nous n'avons pas beaucoup de temps. Ecoute, les politiciens d'ici ne veulent pas me laisser lire ton testament. Je n'arrive pas Ã  retrouver l'argent que tu m'as laissÃ©.~
+@53 = ~S'il te plaÃ®t, si tu peux me dire oÃ¹ et comment je peux trouver l'argent, cela m'aiderait grandement. Tu dois pouvoir me le dire. Oncle Donny ! Parle !~
 @54 = ~Quoi ? Qu'est ce que cela veut dire, oncle Donny ? Je ne comprends pas.~
 @55 = ~Non, attends... Ne pars pas maintenant ! Donny ! Attends...~
-@56 = ~Bien, c'est tout. Oncle Donny est parti, et je ne suis pas plus avancé pour retrouver où il a caché l'argent.~
-@57 = ~Désolé, je ne peux pas vous aider d'avantage. Je pensais que votre oncle serait en mesure de vous dire où se trouve son trésor.~ ~Désolée, je ne peux pas vous aider d'avantage. Je pensais que votre oncle serait en mesure de vous dire où se trouve son trésor.~   
-@58 = ~Attendez, Ryberg, je pense avoir une idée sur l'endroit où votre oncle aurait pu cacher son argent. Peut-être que je pourrais le récupérer pour vous.~
+@56 = ~Bien, c'est tout. Oncle Donny est parti, et je ne suis pas plus avancÃ© pour retrouver oÃ¹ il a cachÃ© l'argent.~
+@57 = ~DÃ©solÃ©, je ne peux pas vous aider d'avantage. Je pensais que votre oncle serait en mesure de vous dire oÃ¹ se trouve son trÃ©sor.~ ~DÃ©solÃ©e, je ne peux pas vous aider d'avantage. Je pensais que votre oncle serait en mesure de vous dire oÃ¹ se trouve son trÃ©sor.~   
+@58 = ~Attendez, Ryberg, je pense avoir une idÃ©e sur l'endroit oÃ¹ votre oncle aurait pu cacher son argent. Peut-Ãªtre que je pourrais le rÃ©cupÃ©rer pour vous.~
 @59 = ~C'est fini, Ryberg. Nous aurons plus de chance la prochaine fois.~
-@60 = ~Vous avez été d'une grande aide. Sans vous, je n'aurais pas été capable de voir mon oncle. Je vous remercie de votre aide.~
-@61 = ~Si vous croyez savoir où il est, je partagerai avec vous. Sinon, il n'y aura pas de meilleure fin à cette histoire. Pourquoi ne pas le rechercher si vous en avez le temps ?~
-@62 = ~Oui, je pense que les officiels de la ville vont garder le testament et je pourrai faire une croix sur mon héritage. Merci de votre aide en tous cas.~
-@63 = ~Vous avez dit que vous pourriez être en mesure de retrouver l'argent que mon oncle Donny m'a laissé. L'avez-vous retrouvé ?~
-@64 = ~Pas encore, Ryberg. Je repense toujours à cette énigme en parcourant la ville.~
-@65 = ~Oui, Ryberg, je pense que j'ai trouvé l'argent de votre oncle. C'est beaucoup d'argent. Je vais le partager entre nous en parts égales.~
-@66 = ~J'ai trouvé l'argent de votre aïeul défunt, mais je veux une plus grande part puisque c'est moi qui ai fait tout le travail.~
-@67 = ~Oh, merveilleux ! Cela nous aidera moi et ma famille, à nous en sortir. Merci pour l'aide que vous m'avez apportée. Bonne journée à vous, <SIRMAAM>.~
-@68 = ~Espèce de voleur ! Vous ne valez pas mieux que ces politiciens qui ne voulaient pas me donner le testament. J'espère que vous pourrirez aux côtés de Cyric.~ ~Espèce de voleuse ! Vous ne valez pas mieux que ces politiciens qui ne voulaient pas me donner le testament. J'espère que vous pourrirez aux côtés de Cyric.~
-@69 = ~Et comme vous l'avez dit, je vais rester ici et si jamais vous trouvez le sort, je ferai mon possible pour vous aider à le lancer.~
-@70 = ~Bien, J'ai entendu dire que certains magiciens peuvent parler avec les morts. Je sais que c'est vrai, alors laissez-moi vous exposer mon problème.~
-@71 = ~Où allons-nous lancer ce sort dans ce cas ?~
+@60 = ~Vous avez Ã©tÃ© d'une grande aide. Sans vous, je n'aurais pas Ã©tÃ© capable de voir mon oncle. Je vous remercie de votre aide.~
+@61 = ~Si vous croyez savoir oÃ¹ il est, je partagerai avec vous. Sinon, il n'y aura pas de meilleure fin Ã  cette histoire. Pourquoi ne pas le rechercher si vous en avez le temps ?~
+@62 = ~Oui, je pense que les officiels de la ville vont garder le testament et je pourrai faire une croix sur mon hÃ©ritage. Merci de votre aide en tous cas.~
+@63 = ~Vous avez dit que vous pourriez Ãªtre en mesure de retrouver l'argent que mon oncle Donny m'a laissÃ©. L'avez-vous retrouvÃ© ?~
+@64 = ~Pas encore, Ryberg. Je repense toujours Ã  cette Ã©nigme en parcourant la ville.~
+@65 = ~Oui, Ryberg, je pense que j'ai trouvÃ© l'argent de votre oncle. C'est beaucoup d'argent. Je vais le partager entre nous en parts Ã©gales.~
+@66 = ~J'ai trouvÃ© l'argent de votre aÃ¯eul dÃ©funt, mais je veux une plus grande part puisque c'est moi qui ai fait tout le travail.~
+@67 = ~Oh, merveilleux ! Cela nous aidera moi et ma famille, Ã  nous en sortir. Merci pour l'aide que vous m'avez apportÃ©e. Bonne journÃ©e Ã  vous, <SIRMAAM>.~
+@68 = ~EspÃ¨ce de voleur ! Vous ne valez pas mieux que ces politiciens qui ne voulaient pas me donner le testament. J'espÃ¨re que vous pourrirez aux cÃ´tÃ©s de Cyric.~ ~EspÃ¨ce de voleuse ! Vous ne valez pas mieux que ces politiciens qui ne voulaient pas me donner le testament. J'espÃ¨re que vous pourrirez aux cÃ´tÃ©s de Cyric.~
+@69 = ~Et comme vous l'avez dit, je vais rester ici et si jamais vous trouvez le sort, je ferai mon possible pour vous aider Ã  le lancer.~
+@70 = ~Bien, J'ai entendu dire que certains magiciens peuvent parler avec les morts. Je sais que c'est vrai, alors laissez-moi vous exposer mon problÃ¨me.~
+@71 = ~OÃ¹ allons-nous lancer ce sort dans ce cas ?~
 @72 = ~Venez avec moi dans les collines d'Umar.~
 @73 = ~Nous allons nous rendre dans cette forteresse en dehors de la ville.~
 @74 = ~Suivez-moi, et nous nous rendrons dans les collines de Lancevent.~
-@75 = ~Nous allons descendre dans une des tombes sous le district du cimetière pour lancer ce sort. Venez.~
-@76 = ~On dirait que cet endroit est plus sûr. Allons-y.~
-@77 = ~Si vous vous décidez, faites-le-moi savoir.~
-@78 = ~L'héritage perdu
+@75 = ~Nous allons descendre dans une des tombes sous le district du cimetiÃ¨re pour lancer ce sort. Venez.~
+@76 = ~On dirait que cet endroit est plus sÃ»r. Allons-y.~
+@77 = ~Si vous vous dÃ©cidez, faites-le-moi savoir.~
+@78 = ~L'hÃ©ritage perdu
 
-Aujourd'hui j'ai rencontré un jeune homme troublé du nom de Ryberg. Il m'a raconté que son oncle était mort il y a peu de temps et à cause de ces traîne-savates du quartier du gouvernement d'Athkatla, il n'a pas été capable de retrouver l'endroit où son oncle défunt a caché son argent. Ryberg m'a demandé de trouver un moyen de ramener son oncle, dans l'espoir de pouvoir parler avec son âme pour retrouver l'argent.~
-@79 = ~L'héritage perdu
+Aujourd'hui j'ai rencontrÃ© un jeune homme troublÃ© du nom de Ryberg. Il m'a racontÃ© que son oncle Ã©tait mort il y a peu de temps et Ã  cause de ces traÃ®ne-savates du quartier du gouvernement d'Athkatla, il n'a pas Ã©tÃ© capable de retrouver l'endroit oÃ¹ son oncle dÃ©funt a cachÃ© son argent. Ryberg m'a demandÃ© de trouver un moyen de ramener son oncle, dans l'espoir de pouvoir parler avec son Ã¢me pour retrouver l'argent.~
+@79 = ~L'hÃ©ritage perdu
 
-Je suis retourné pour trouver Ryberg très inquiet. J'ai pu trouver un parchemin pour invoquer l'esprit de son oncle, et Ryberg a eu une courte conversation avec le défunt. Malheureusement, l'oncle de Ryberg n'a pas été très clair quant à la localisation de son argent. J'ai dit à Ryberg que j'essaierai de résoudre l'énigme, mais je n'ai à ma disposition que peu d'indices.
-L'oncle de Ryberg a parlé de perdre la vue pour gagner la foi, mais aussi du sens de la vie, sous la forme métaphorique d'un pont. Je vais devoir réfléchir où l'argent peut être à l'aide de ces indices.~
-@80 = ~L'héritage perdu retrouvé
+Je suis retournÃ© pour trouver Ryberg trÃ¨s inquiet. J'ai pu trouver un parchemin pour invoquer l'esprit de son oncle, et Ryberg a eu une courte conversation avec le dÃ©funt. Malheureusement, l'oncle de Ryberg n'a pas Ã©tÃ© trÃ¨s clair quant Ã  la localisation de son argent. J'ai dit Ã  Ryberg que j'essaierai de rÃ©soudre l'Ã©nigme, mais je n'ai Ã  ma disposition que peu d'indices.
+L'oncle de Ryberg a parlÃ© de perdre la vue pour gagner la foi, mais aussi du sens de la vie, sous la forme mÃ©taphorique d'un pont. Je vais devoir rÃ©flÃ©chir oÃ¹ l'argent peut Ãªtre Ã  l'aide de ces indices.~
+@80 = ~L'hÃ©ritage perdu retrouvÃ©
 
-J'ai pu retrouver l'argent de l'oncle de Ryberg et le lui ramener. Ryberg a été tellement satisfait de mon travail qu'il a partagé la somme avec moi, en gardant la moitié des 26 000 pièces d'or pour lui et en me donnant le reste.~
+J'ai pu retrouver l'argent de l'oncle de Ryberg et le lui ramener. Ryberg a Ã©tÃ© tellement satisfait de mon travail qu'il a partagÃ© la somme avec moi, en gardant la moitiÃ© des 26 000 piÃ¨ces d'or pour lui et en me donnant le reste.~
 @81 = ~A la recherche de "Dominus Spiritus"
 
-Le mage que j'ai rencontré il y a quelques temps dans le village de Soubar est en vacances ici, à Athkatla, et il cherche un ouvrage sur ce qu'il y a après la mort. Il m'a promis que si j'arrive à lui trouver une copie de l'ouvrage "Dominus Spiritus", il me l'échangera contre un parchemin de sort pour parler avec les morts.~
+Le mage que j'ai rencontrÃ© il y a quelques temps dans le village de Soubar est en vacances ici, Ã  Athkatla, et il cherche un ouvrage sur ce qu'il y a aprÃ¨s la mort. Il m'a promis que si j'arrive Ã  lui trouver une copie de l'ouvrage "Dominus Spiritus", il me l'Ã©changera contre un parchemin de sort pour parler avec les morts.~
 @82 = ~Trouver le "Dominus Spiritus"
 
-J'ai trouvé l'ouvrage que cherche le mage Ceeb. Je vais devoir retourner au quartier des Quais pour lui donner ce livre.~
+J'ai trouvÃ© l'ouvrage que cherche le mage Ceeb. Je vais devoir retourner au quartier des Quais pour lui donner ce livre.~

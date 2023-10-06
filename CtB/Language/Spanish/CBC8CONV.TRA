@@ -1,52 +1,52 @@
-@1   = ~El arma centellea en vuestra mano durante un breve instante. "Ahora no, cariño. Tengo dolor de empuñadura."~
-@2   = ~¿Estaréis lista alguna vez?~
-@3   = ~Pero una vez hayáis tenido a un humano, nunca daréis marcha atrás.~
-@4   = ~Pero una vez hayáis tenido a un elfo, nunca daréis marcha atrás.~
-@5   = ~Pero una vez hayáis tenido a un semielfo, nunca daréis marcha atrás.~
-@6   = ~Pero una vez hayáis tenido a un enano, nunca daréis marcha atrás.~
-@7   = ~Pero una vez hayáis tenido a un mediano, nunca daréis marcha atrás.~
-@8   = ~Pero una vez hayáis tenido a un orco, nunca daréis marcha atrás.~
-@9   = ~Pero una vez hayáis tenido a un gnomo, nunca daréis marcha atrás.~
-@10  = ~¿Cómo conseguisteis el nombre de Furcolo?~
-@11  = ~Oh arma inteligente, ¿no hay nada de vuestra gran sabiduría que podáis compartir? ¿Una historia de heroico valor o una aventura?~
-@12  = ~El arma centellea en vuestra mano durante un breve instante. "Ey, bombón. Es una pena para las dos que yo no oscile de esa forma."~
-@13  = ~Quizás, pero tengo que ir a limpiar mis gavilanes, así que estoy ocupada esta noche.~
-@14  = ~Entonces, ¿todavía hay una oportunidad para mí?~
-@15  = ~Eso está bien. Los romances en el trabajo nunca funcionan.~
-@16  = ~Quizás; pero soy un artefacto poderoso, así que no hay ni una oportunidad en todos los planos de que consigáis jamás ir más allá de mi guarda.~
-@17  = ~En términos simples, no hay ninguna posibilidad de que consigáis pasar de mi guarda.~
-@18  = ~Parece ser que necesitáis limpiaros los oídos. ¿Por qué no me metéis ahí?, yo me encargaré de todo.~
-@19  = ~Entonces no hay nada de qué preocuparse. Ahora, dejad de acosarme.~
-@20  = ~He tenido de todo, cariño. Un orco, un trasgo, un gigante... ah, era para recordarlo... incluso una Mole sombría. Vos, mi querido, no podéis acercaros siquiera.~
-~He tenido de todo, cariño. Un orco, un trasgo, un gigante... ah, era para recordarlo... incluso una Mole sombría. Vos, mi querida, no podéis acercaros siquiera.~
+@1   = ~El arma centellea en vuestra mano durante un breve instante. "Ahora no, cariÃ±o. Tengo dolor de empuÃ±adura."~
+@2   = ~Â¿EstarÃ©is lista alguna vez?~
+@3   = ~Pero una vez hayÃ¡is tenido a un humano, nunca darÃ©is marcha atrÃ¡s.~
+@4   = ~Pero una vez hayÃ¡is tenido a un elfo, nunca darÃ©is marcha atrÃ¡s.~
+@5   = ~Pero una vez hayÃ¡is tenido a un semielfo, nunca darÃ©is marcha atrÃ¡s.~
+@6   = ~Pero una vez hayÃ¡is tenido a un enano, nunca darÃ©is marcha atrÃ¡s.~
+@7   = ~Pero una vez hayÃ¡is tenido a un mediano, nunca darÃ©is marcha atrÃ¡s.~
+@8   = ~Pero una vez hayÃ¡is tenido a un orco, nunca darÃ©is marcha atrÃ¡s.~
+@9   = ~Pero una vez hayÃ¡is tenido a un gnomo, nunca darÃ©is marcha atrÃ¡s.~
+@10  = ~Â¿CÃ³mo conseguisteis el nombre de Furcolo?~
+@11  = ~Oh arma inteligente, Â¿no hay nada de vuestra gran sabidurÃ­a que podÃ¡is compartir? Â¿Una historia de heroico valor o una aventura?~
+@12  = ~El arma centellea en vuestra mano durante un breve instante. "Ey, bombÃ³n. Es una pena para las dos que yo no oscile de esa forma."~
+@13  = ~QuizÃ¡s, pero tengo que ir a limpiar mis gavilanes, asÃ­ que estoy ocupada esta noche.~
+@14  = ~Entonces, Â¿todavÃ­a hay una oportunidad para mÃ­?~
+@15  = ~Eso estÃ¡ bien. Los romances en el trabajo nunca funcionan.~
+@16  = ~QuizÃ¡s; pero soy un artefacto poderoso, asÃ­ que no hay ni una oportunidad en todos los planos de que consigÃ¡is jamÃ¡s ir mÃ¡s allÃ¡ de mi guarda.~
+@17  = ~En tÃ©rminos simples, no hay ninguna posibilidad de que consigÃ¡is pasar de mi guarda.~
+@18  = ~Parece ser que necesitÃ¡is limpiaros los oÃ­dos. Â¿Por quÃ© no me metÃ©is ahÃ­?, yo me encargarÃ© de todo.~
+@19  = ~Entonces no hay nada de quÃ© preocuparse. Ahora, dejad de acosarme.~
+@20  = ~He tenido de todo, cariÃ±o. Un orco, un trasgo, un gigante... ah, era para recordarlo... incluso una Mole sombrÃ­a. Vos, mi querido, no podÃ©is acercaros siquiera.~
+~He tenido de todo, cariÃ±o. Un orco, un trasgo, un gigante... ah, era para recordarlo... incluso una Mole sombrÃ­a. Vos, mi querida, no podÃ©is acercaros siquiera.~
 @21  = ~Mi tercer marido me lo dio.~
-@22  = ~¿Tuvisteis un marido? ¿Qué era? ¿Una alabarda?~
-@23  = ~¿Cuál era su nombre?~
-@24  = ~¿Es eso lo que os desengañó como hombre?~
-@25  = ~No, él era un hombre lobo. Lo cuál era muy decepcionante por las noches porque podía destrozar a todas las demás mujeres del pueblo, pero a mí, nunca.~
+@22  = ~Â¿Tuvisteis un marido? Â¿QuÃ© era? Â¿Una alabarda?~
+@23  = ~Â¿CuÃ¡l era su nombre?~
+@24  = ~Â¿Es eso lo que os desengaÃ±Ã³ como hombre?~
+@25  = ~No, Ã©l era un hombre lobo. Lo cuÃ¡l era muy decepcionante por las noches porque podÃ­a destrozar a todas las demÃ¡s mujeres del pueblo, pero a mÃ­, nunca.~
 @26  = ~Furcolo. Caramelito, nadie puede ser tan espesito como vos.~
 ~Furcolo. Caramelito, nadie puede ser tan espesita como vos.~
 @27  = ~No. Creo que fue mi octavo marido el que lo hizo.~
-@28  = ~Era un poco aventurero como vos mismo. Él estaba un poco entusiasmado en la batalla, y yo estaba toda húmeda y caliente, y allí me tomó.~
-~Era un poco aventurero como vos misma. Él estaba un poco entusiasmado en la batalla, y yo estaba toda húmeda y caliente, y allí me tomó.~
-@29  = ~Huelga decir que no pasó mucho tiempo hasta que los lobos acabaron con él.~
-@30  = ~Que encantador estáis esta mañana. ¿Dónde habéis aprendido modales al fin?~
-~Que encantadora estáis esta mañana. ¿Dónde habéis aprendido modales al fin?~
-@31  = ~No perdáis tiempo con el sarcasmo, Furcolo. Sólo responded a la pregunta.~
-@32  = ~¿Nunca podéis estar en serio?~
-@33  = ~Lo único que hacéis es quejaros. Estoy cansado de vos y os venderé a Ribald si no empezáis a respetarme.~
-~Lo único que hacéis es quejaros. Estoy cansada de vos y os venderé a Ribald si no empezáis a respetarme.~
-@34  = ~Vale, vale. ¿Queréis un cuento sobre aventuras? Entonces leed un libro. Prefiero escribir uno antes que contároslo.~
-@35  = ~Ahora, vayámonos.~
-@36  = ~Os contaré una historia. Érase una vez, había un <PRO_RACE> <PRO_CLASS> que encontró un arma mágica.~
-@37  = ~Ese arma podía hablar, y era extremadamente inteligente y atractiva.~
-@38  = ~El <PRO_RACE> no lo era, y la espada mágica se cansó de estar en tan mala compañía.~
-@39  = ~Una noche, mientras el <PRO_RACE> y sus amigos estaban durmiendo, el arma mágica se deslizó y le asestó a cada uno un golpe en la cabeza por su holgazanería.~
-@40  = ~Entonces, el arma mágica ya no tuvo que hacer frente a ninguno de los vacuos comentarios y molestas interrupciones del <PRO_RACE>.~
+@28  = ~Era un poco aventurero como vos mismo. Ã‰l estaba un poco entusiasmado en la batalla, y yo estaba toda hÃºmeda y caliente, y allÃ­ me tomÃ³.~
+~Era un poco aventurero como vos misma. Ã‰l estaba un poco entusiasmado en la batalla, y yo estaba toda hÃºmeda y caliente, y allÃ­ me tomÃ³.~
+@29  = ~Huelga decir que no pasÃ³ mucho tiempo hasta que los lobos acabaron con Ã©l.~
+@30  = ~Que encantador estÃ¡is esta maÃ±ana. Â¿DÃ³nde habÃ©is aprendido modales al fin?~
+~Que encantadora estÃ¡is esta maÃ±ana. Â¿DÃ³nde habÃ©is aprendido modales al fin?~
+@31  = ~No perdÃ¡is tiempo con el sarcasmo, Furcolo. SÃ³lo responded a la pregunta.~
+@32  = ~Â¿Nunca podÃ©is estar en serio?~
+@33  = ~Lo Ãºnico que hacÃ©is es quejaros. Estoy cansado de vos y os venderÃ© a Ribald si no empezÃ¡is a respetarme.~
+~Lo Ãºnico que hacÃ©is es quejaros. Estoy cansada de vos y os venderÃ© a Ribald si no empezÃ¡is a respetarme.~
+@34  = ~Vale, vale. Â¿QuerÃ©is un cuento sobre aventuras? Entonces leed un libro. Prefiero escribir uno antes que contÃ¡roslo.~
+@35  = ~Ahora, vayÃ¡monos.~
+@36  = ~Os contarÃ© una historia. Ã‰rase una vez, habÃ­a un <PRO_RACE> <PRO_CLASS> que encontrÃ³ un arma mÃ¡gica.~
+@37  = ~Ese arma podÃ­a hablar, y era extremadamente inteligente y atractiva.~
+@38  = ~El <PRO_RACE> no lo era, y la espada mÃ¡gica se cansÃ³ de estar en tan mala compaÃ±Ã­a.~
+@39  = ~Una noche, mientras el <PRO_RACE> y sus amigos estaban durmiendo, el arma mÃ¡gica se deslizÃ³ y le asestÃ³ a cada uno un golpe en la cabeza por su holgazanerÃ­a.~
+@40  = ~Entonces, el arma mÃ¡gica ya no tuvo que hacer frente a ninguno de los vacuos comentarios y molestas interrupciones del <PRO_RACE>.~
 @41  = ~Eso es todo. La hora de las historias ha terminado. Ahora, id a hacer algo importante.~
-@42  = ~Así que queréis algo de saber, ¿es eso? Bueno, en realidad no puedo darle sapiencia a nadie, pero quizás pueda compartir algunos de los clichés de mi primer marido.~
-@43  = ~Él solía decir "Quizás sea una, pero no he recibido una anducación formal", y seguramente tenía razón.~
-@44  = ~Él siempre me decía que era unidimensional en lo que quería, y definitivamente que eso no era lo que yo quería de él.~
+@42  = ~AsÃ­ que querÃ©is algo de saber, Â¿es eso? Bueno, en realidad no puedo darle sapiencia a nadie, pero quizÃ¡s pueda compartir algunos de los clichÃ©s de mi primer marido.~
+@43  = ~Ã‰l solÃ­a decir "QuizÃ¡s sea una, pero no he recibido una anducaciÃ³n formal", y seguramente tenÃ­a razÃ³n.~
+@44  = ~Ã‰l siempre me decÃ­a que era unidimensional en lo que querÃ­a, y definitivamente que eso no era lo que yo querÃ­a de Ã©l.~
 @45  = ~Mi primer marido era como un asno. Era brusco y con mal genio.~
-@46  = ~Cada vez que quería algo, actuaba como un niño. Decía cosas como ¿Ahora? ¿Por favor? ¿Porfa porfi? y ello era tan molesto...~
-@47  = ~Mi primer marido intentó ser algo que no podía. La verdad es que creía que una vez fue una Espada lunar. Pero no podéis sacar oro de la paja.~
+@46  = ~Cada vez que querÃ­a algo, actuaba como un niÃ±o. DecÃ­a cosas como Â¿Ahora? Â¿Por favor? Â¿Porfa porfi? y ello era tan molesto...~
+@47  = ~Mi primer marido intentÃ³ ser algo que no podÃ­a. La verdad es que creÃ­a que una vez fue una Espada lunar. Pero no podÃ©is sacar oro de la paja.~

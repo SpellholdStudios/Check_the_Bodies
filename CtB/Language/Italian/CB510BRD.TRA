@@ -1,121 +1,121 @@
-@1   = ~Questo Ë davvero uno dei migliori teatri dove ho avuto il piacere di esibirmi in questo lontano sud dalla Citt‡ degli Splendori. Sono quasi sicuro che ogni Bardo che si laurea all'Accademia di Silverymoon - da dove vengono alcuni dei miei studenti - sarebbero invidiosi di un posto simile per esibirsi.~
-@2   = ~C'È qualcosa di particolare in questo teatro che esalta l'animo, non credi?  L'odore della segatura proveniente dal pavimento, la pittura fresca della sceneggiatura, le chiacchiere dei gentiluomini e delle signore che vengono a teatro, e le dolci note dei suonatori di arpe e liuti fanno volare l mio spirito.~
+@1   = ~Questo √® davvero uno dei migliori teatri dove ho avuto il piacere di esibirmi in questo lontano sud dalla Citt√† degli Splendori. Sono quasi sicuro che ogni Bardo che si laurea all'Accademia di Silverymoon - da dove vengono alcuni dei miei studenti - sarebbero invidiosi di un posto simile per esibirsi.~
+@2   = ~C'√© qualcosa di particolare in questo teatro che esalta l'animo, non credi?  L'odore della segatura proveniente dal pavimento, la pittura fresca della sceneggiatura, le chiacchiere dei gentiluomini e delle signore che vengono a teatro, e le dolci note dei suonatori di arpe e liuti fanno volare l mio spirito.~
 @3   = ~Se avessi continuato a lavorare all'Accademia Bardica di Silverymoon, penso che mi sarei annoiato ad insegnare sempre le stesse cose agli aspiranti musicisti o attori.  Volevo tornare al mio vero amore, la scena, il pubblico, ed il magico legame che unisce le due cose.~
 @4   = ~Posso dedurre alcune cose, dal tuo atteggiamento: il tuo portamento, i tuoi vestiti e il modo impeccabile con cui li porti, sei indubbiamente un esperto Bardo. Dimmi, dove hai studiato?~
-@5   = ~In verit‡, inizierÚ la mia istruzione ufficiale Bardica durante l'anno.~
+@5   = ~In verit√†, inizier√≤ la mia istruzione ufficiale Bardica durante l'anno.~
 @6   = ~Ho passato alcune stagioni con la Compagnia Teatrale di Ravens Bluff.~
 @7   = ~Mi sono guadagnato il titolo presso l'Accademia degli Studi Bardici della Sembia.~
-@8   = ~Dopo aver lavorato per diversi anni, sono ritornato all'Universit‡ delle Arti di Cormyr, a Suzail.~
-@9   = ~Ho iniziato i miei studi a Waterdeep, presso la Scuola dei Bardi, Locandieri e Carrettieri, ma alla fine ho abbandonato la scuola poichÈ passavo ogni notte nelle taverne trascurando gli studi.~
-@10  = ~Buona fortuna a te allora, <GABBER>. Posso gi‡ dirti che penso che farai abbastanza strada. Sono un ottimo conoscitore delle persone, e posso dirti che tu sei uno di quelli che ha il talento per diventare un Grande Bardo di successo, come me.~
-@11  = ~Sono delle scelte di vita. Alcune persone che lasciano il loro paese per andare in centri culturali come Silverymoon, Waterdeep, Suzail, o persino a Ravens Bluff, non avranno mai la possibilit‡ di diventare famosi, e farsi un nome proprio. Non deve essere facile, per una persona, sopportarlo. Credi che riprenderai gli studi per diventare un vero Bardo in futuro?~
+@8   = ~Dopo aver lavorato per diversi anni, sono ritornato all'Universit√† delle Arti di Cormyr, a Suzail.~
+@9   = ~Ho iniziato i miei studi a Waterdeep, presso la Scuola dei Bardi, Locandieri e Carrettieri, ma alla fine ho abbandonato la scuola poich√© passavo ogni notte nelle taverne trascurando gli studi.~
+@10  = ~Buona fortuna a te allora, <GABBER>. Posso gi√† dirti che penso che farai abbastanza strada. Sono un ottimo conoscitore delle persone, e posso dirti che tu sei uno di quelli che ha il talento per diventare un Grande Bardo di successo, come me.~
+@11  = ~Sono delle scelte di vita. Alcune persone che lasciano il loro paese per andare in centri culturali come Silverymoon, Waterdeep, Suzail, o persino a Ravens Bluff, non avranno mai la possibilit√† di diventare famosi, e farsi un nome proprio. Non deve essere facile, per una persona, sopportarlo. Credi che riprenderai gli studi per diventare un vero Bardo in futuro?~
 @12  = ~Mi piacerebbe riprendere i miei studi entro l'anno.~
 @13  = ~Mi piacerebbe passare alcune stagioni con la Compagnia teatrale di Ravens Bluff.~
 @14  = ~Mi piacerebbe ottenere il titolo presso l'Accademia degli Studi bardici della Sembia.~
-@15  = ~Penso che frequenterÚ l'Universit‡ delle Arti di Cormyr, a Suzail.~
+@15  = ~Penso che frequenter√≤ l'Universit√† delle Arti di Cormyr, a Suzail.~
 @16  = ~Lady Tymora ti sorride, <GABBER>! E' esattamente la scuola dove io ho ricevuto la mia licenza da Bardo. E' un'ottima scuola, bisogna ammetterlo, ma ci sono alcune cose che tu puoi imparare solo presso l'Accademia di Silverymoon.~
-@17  = ~Mi piaci, <GABBER>. Ti farai sicuramente un nome come bardo. Io sono un ottimo conoscitore delle persone, e credo di essere in grado di aiutarti. Potrei, come ero solito fare all'Accademia Bardica di Silverymoon, insegnarti alcune abilit‡ che potrebbero esserti utili durante la tua carriera di bardo, se tu, in cambio, vorrai aiutarmi. Che ne dici, <GABBER>, lavoriamo insieme allora?~
-@18  = ~Certamente, mi piacerebbe imparare alcune nuove abilit‡. Di cosa hai bisogno?~
-@19  = ~Non ho tempo ora. Forse pi˘ tardi.~
-@20  = ~Ti assicuro, <GABBER>, se davvero desideri diventare un Bardo famoso, queste lezioni che ti posso dare ti saranno di grande utilit‡. Sono sicuro che le capacit‡ che hai adesso ti assicureranno la piena riuscita degli incarichi che ti darÚ da svolgere, e non ti comporteranno una grande perdita di tempo. Ora ti spiegherÚ, innanzitutto, di cosa ho bisogno.~
-@21  = ~Nobile <LADYLORD>!  E' un piacere parlare di nuovo con te. Tuttavia, mi scuserai ma tra breve mi dovrÚ esibire e devo ancora preparare i miei strumenti.  Sei stato in grado di trovare un'Arpa di Myth Drannor per me?~
+@17  = ~Mi piaci, <GABBER>. Ti farai sicuramente un nome come bardo. Io sono un ottimo conoscitore delle persone, e credo di essere in grado di aiutarti. Potrei, come ero solito fare all'Accademia Bardica di Silverymoon, insegnarti alcune abilit√† che potrebbero esserti utili durante la tua carriera di bardo, se tu, in cambio, vorrai aiutarmi. Che ne dici, <GABBER>, lavoriamo insieme allora?~
+@18  = ~Certamente, mi piacerebbe imparare alcune nuove abilit√†. Di cosa hai bisogno?~
+@19  = ~Non ho tempo ora. Forse pi√π tardi.~
+@20  = ~Ti assicuro, <GABBER>, se davvero desideri diventare un Bardo famoso, queste lezioni che ti posso dare ti saranno di grande utilit√†. Sono sicuro che le capacit√† che hai adesso ti assicureranno la piena riuscita degli incarichi che ti dar√≤ da svolgere, e non ti comporteranno una grande perdita di tempo. Ora ti spiegher√≤, innanzitutto, di cosa ho bisogno.~
+@21  = ~Nobile <LADYLORD>!  E' un piacere parlare di nuovo con te. Tuttavia, mi scuserai ma tra breve mi dovr√≤ esibire e devo ancora preparare i miei strumenti.  Sei stato in grado di trovare un'Arpa di Myth Drannor per me?~
 @22  = ~No, Maestro Bardo, non ho ancora trovato un'arpa del genere. Sapete dove potrei trovarne una?~
-@23  = ~Si, Maestro Bardo, ho trovato un'Arpa di Myth Drannor. Eccola, te la darÚ e tu mi insegnerai qualcosa.~
-@24  = ~Si, Maestro Bardo, ho trovato un'Arpa di Myth Drannor, ma non posso dartela, perchÈ credo che potrebbe essermi utile.~
+@23  = ~Si, Maestro Bardo, ho trovato un'Arpa di Myth Drannor. Eccola, te la dar√≤ e tu mi insegnerai qualcosa.~
+@24  = ~Si, Maestro Bardo, ho trovato un'Arpa di Myth Drannor, ma non posso dartela, perch√© credo che potrebbe essermi utile.~
 @25  = ~Per tutti gli dei buoni, non lo so, <GABBER>. Non conosco affatto le zone selvagge di questo lontano sud, quindi, se posso suggerirti qualcosa, ti consiglierei di dare un'occhiata presso i locali mercanti che vendono oggetti e artefatti. Se non dovessi trovare nulla da loro, amico mio, potrebbe essere una saggia idea cercare attraverso vecchie cripte, sotterranei, o nascondigli.~
-@26  = ~Capisco che sarebbe davvero un sogno per te possedere una vera Arpa di Myth Drannor, ed io ti capisco se la vuoi tutta per te. PerÚ dovrai decidere, amico mio, a meno che non facciamo uno scambio, io non perderÚ tempo a condividere con te le mia conoscenza delle arti bardiche.~
-@27  = ~Ottime notizie, <GABBER>! Sono veramente molto contento della tua generosit‡. Con questa Arpa di Myth Drannor, potrÚ diventare uno dei pi˘ grandi e famosi bardi nella storia di Faer˚n.~
-@28  = ~Mi hai fatto un grande servizio, <GABBER>, e voglio mostrarti quanto ho apprezzato quello che hai fatto. Ti avevo promesso di insegnarti qualcosa se tu mi avessi aiutato, e onorerÚ la mia parola. Ti posso insegnare tre cose differenti e lascerÚ a te la decisione di scegliere quale delle tre vorrai imparare.~
-@29  = ~Sar‡ un piacere e un onore istruire un aspirante bardo della tua specie, uno che so che un giorno diventer‡ famoso tra i Reami. Dimmi, <GABBER>, saresti interessato nella conoscenza di come apprendere pi˘ incantesimi che un bardo della tua esperienza normalmente puÚ memorizzare, o acquisire la capacit‡ di eludere gli attacchi dei tuoi nemici, oppure, se tu possiedi la capacit‡ di piazzare trappole, vorresti conoscere come piazzare nuovi tipi di trappole, spargendo piccole picche sul terreno per far inciampare e ferire i tuoi nemici?~
+@26  = ~Capisco che sarebbe davvero un sogno per te possedere una vera Arpa di Myth Drannor, ed io ti capisco se la vuoi tutta per te. Per√≤ dovrai decidere, amico mio, a meno che non facciamo uno scambio, io non perder√≤ tempo a condividere con te le mia conoscenza delle arti bardiche.~
+@27  = ~Ottime notizie, <GABBER>! Sono veramente molto contento della tua generosit√†. Con questa Arpa di Myth Drannor, potr√≤ diventare uno dei pi√π grandi e famosi bardi nella storia di Faer√ªn.~
+@28  = ~Mi hai fatto un grande servizio, <GABBER>, e voglio mostrarti quanto ho apprezzato quello che hai fatto. Ti avevo promesso di insegnarti qualcosa se tu mi avessi aiutato, e onorer√≤ la mia parola. Ti posso insegnare tre cose differenti e lascer√≤ a te la decisione di scegliere quale delle tre vorrai imparare.~
+@29  = ~Sar√† un piacere e un onore istruire un aspirante bardo della tua specie, uno che so che un giorno diventer√† famoso tra i Reami. Dimmi, <GABBER>, saresti interessato nella conoscenza di come apprendere pi√π incantesimi che un bardo della tua esperienza normalmente pu√≤ memorizzare, o acquisire la capacit√† di eludere gli attacchi dei tuoi nemici, oppure, se tu possiedi la capacit√† di piazzare trappole, vorresti conoscere come piazzare nuovi tipi di trappole, spargendo piccole picche sul terreno per far inciampare e ferire i tuoi nemici?~
 @30  = ~Mi piacerebbe conoscere come memorizzare incantesimi aggiuntivi per livello.~
-@31  = ~Credo che eludere gli avversari sar‡ un'utile capacit‡ da imparare. Puoi insegnarmela?~
+@31  = ~Credo che eludere gli avversari sar√† un'utile capacit√† da imparare. Puoi insegnarmela?~
 @32  = ~Conoscere come spargere piccole picche sul terreno sembra essere veramente una cosa che si allinea al mio mestiere.~
-@33  = ~Ho insegnato a molti studenti che avevano delle predisposizioni alla magia e li ho incoraggiati ad allenare le loro menti, in particolare, insegnavo a migliorare le loro capacit‡ mentali. Sono sicuro che, grazie alle tue conoscenze bardiche, potrÚ fare lo stesso con te.~
-@34  = ~Diventerai un eccellente bardo, <GABBER>. In verit‡ tu sei gi‡ esperto sulla vita di un menestrello, ma con degli incantesimi aggiuntivi che ora potrai memorizzare, diventerai sicuramente un famoso illusionista o truffatore.~
-@35  = ~Ho insegnato a numerosi studenti, che avevano la predisposizione alla lotta, a migliorare le loro capacit‡ durante il combattimento, in modo particolare come eludere i loro nemici. Sono sicuro che, grazie alle tue conoscenze bardiche, potrÚ fare lo stesso con te.~
-@36  = ~Diventerai un eccellente bardo, <GABBER>. In verit‡ tu sei gi‡ esperto sulla vita di un menestrello, ma eludendo I tuoi nemici in combattimento potrai vivere abbastanza a lungo da poter diventare un famoso narratore di storie.~
-@37  = ~Ho insegnato a parecchi studenti, che erano allenati nei metodi di piazzare trappole e lacci, e il modo migliore di spargere piccole picche. Sono sicuro che, con la tua conoscenza delle trappole, potrÚ fare la stessa cosa con te.~
-@38  = ~Diventerai un eccellente bardo, <GABBER>. In verit‡ tu sei gi‡ esperto sulla vita di un menestrello, ma fermando o rallentando un tuo nemico che si avvicina armato, potrai vivere abbastanza a lungo per diventare famoso narratore di storie.~
-@39  = ~Come ho detto, <GABBER>, mi piaci. Credo anzi che tu possa diventare uno dei pi˘ grandi e rispettati bardi di Faer˚n. Se non desideri aiutarmi, questa Ë una tua scelta, ma credo che ti beneficer‡ moltissimo, negli anni a venire, se mi aiuterai. RimarrÚ ad Athkatla per un pÚ, forse il tempo di una rappresentazione o due qui, e se dovessi cambiare idea, non esitare a farmelo sapere.~
-@40  = ~AccorcerÚ una lunga storia epica che, in verit‡, È inusuale per un bardo. Mentre viaggiavo lungo la Costa della Spada e mi fermavo per sale da ballo, taverne, e teatri come questo, ho perduto uno dei miei pi˘ preziosi oggetti. Un'Arpa di Myth Drannor, per l'esattezza. Vedo dalla tua espressione che conosci il valore di un oggetto simile. Sicuramente non troverÚ proprio la stessa Arpa ma, tuttavia, mi piacerebbe averne una simile. Se tu potessi trovarne una e portarmela, stai pur certo che ti ricompenserÚ e ti insegnerÚ alcune capacit‡ bardiche che si apprendono solo all'Accademia di Silverymoon.~
-@41  = ~Non mi stancherÚ mai di dirtelo, <GABBER>, e sono certo che ti annoierai nel sentirtelo ripetere, ma credo davvero che diventerai uno dei pi˘ grandi bardi di Faer˚n. SarÚ onorato di facilitarti la strada insegnandoti diverse cose, ma tu dovrai fare un'altra cosa per me. Sei pronto ad aiutarmi?~
+@33  = ~Ho insegnato a molti studenti che avevano delle predisposizioni alla magia e li ho incoraggiati ad allenare le loro menti, in particolare, insegnavo a migliorare le loro capacit√† mentali. Sono sicuro che, grazie alle tue conoscenze bardiche, potr√≤ fare lo stesso con te.~
+@34  = ~Diventerai un eccellente bardo, <GABBER>. In verit√† tu sei gi√† esperto sulla vita di un menestrello, ma con degli incantesimi aggiuntivi che ora potrai memorizzare, diventerai sicuramente un famoso illusionista o truffatore.~
+@35  = ~Ho insegnato a numerosi studenti, che avevano la predisposizione alla lotta, a migliorare le loro capacit√† durante il combattimento, in modo particolare come eludere i loro nemici. Sono sicuro che, grazie alle tue conoscenze bardiche, potr√≤ fare lo stesso con te.~
+@36  = ~Diventerai un eccellente bardo, <GABBER>. In verit√† tu sei gi√† esperto sulla vita di un menestrello, ma eludendo I tuoi nemici in combattimento potrai vivere abbastanza a lungo da poter diventare un famoso narratore di storie.~
+@37  = ~Ho insegnato a parecchi studenti, che erano allenati nei metodi di piazzare trappole e lacci, e il modo migliore di spargere piccole picche. Sono sicuro che, con la tua conoscenza delle trappole, potr√≤ fare la stessa cosa con te.~
+@38  = ~Diventerai un eccellente bardo, <GABBER>. In verit√† tu sei gi√† esperto sulla vita di un menestrello, ma fermando o rallentando un tuo nemico che si avvicina armato, potrai vivere abbastanza a lungo per diventare famoso narratore di storie.~
+@39  = ~Come ho detto, <GABBER>, mi piaci. Credo anzi che tu possa diventare uno dei pi√π grandi e rispettati bardi di Faer√ªn. Se non desideri aiutarmi, questa √® una tua scelta, ma credo che ti beneficer√† moltissimo, negli anni a venire, se mi aiuterai. Rimarr√≤ ad Athkatla per un p√≤, forse il tempo di una rappresentazione o due qui, e se dovessi cambiare idea, non esitare a farmelo sapere.~
+@40  = ~Accorcer√≤ una lunga storia epica che, in verit√†, √© inusuale per un bardo. Mentre viaggiavo lungo la Costa della Spada e mi fermavo per sale da ballo, taverne, e teatri come questo, ho perduto uno dei miei pi√π preziosi oggetti. Un'Arpa di Myth Drannor, per l'esattezza. Vedo dalla tua espressione che conosci il valore di un oggetto simile. Sicuramente non trover√≤ proprio la stessa Arpa ma, tuttavia, mi piacerebbe averne una simile. Se tu potessi trovarne una e portarmela, stai pur certo che ti ricompenser√≤ e ti insegner√≤ alcune capacit√† bardiche che si apprendono solo all'Accademia di Silverymoon.~
+@41  = ~Non mi stancher√≤ mai di dirtelo, <GABBER>, e sono certo che ti annoierai nel sentirtelo ripetere, ma credo davvero che diventerai uno dei pi√π grandi bardi di Faer√ªn. Sar√≤ onorato di facilitarti la strada insegnandoti diverse cose, ma tu dovrai fare un'altra cosa per me. Sei pronto ad aiutarmi?~
 @42  = ~Si, Maestro Bardo. Dimmi di cosa hai bisogno.~
 @43  = ~No, Maestro Bardo, non sono ancora pronto.~
-@44  = ~Come ti ho detto, <GABBER>, sar‡ un onore ed un privilegio aiutarti a diventare un famosissimo bardo, ma non posso fare nulla per te se tu non sarai pronto ad aiutare me. Ritorna quando sarai pronto, nel frattempo io preparerÚ la mia prossima rappresentazione.~
-@45  = ~Lo farÚ, <GABBER>, ma tu dovrai ascoltare molto attentamente cosa deve essere fatto. C'Ë molto da spiegare.~
-@46  = ~Allora, essendo un bardo, ascolto molto di quello che succede intorno al mondo, e molto spesso, mi rimangono impresse soprattutto le questioni locali. Ho alcuni amici menestrelli qui ad Athkatla, e mi hanno confidato di un grande pericolo crescente. Non conosco tutti i dettagli, ed alcune di queste dicerie potrebbero essere un pÚ esagerate, ma mi Ë stato raccontato dai miei compagni che si tratta di un grande pericolo malvagio.~
-@47  = ~E' una presenza malvagia, della quale i miei amici non possono capirne l'origine o gli intenti. Tuttavia, sono certi che non fa parte di questo mondo, e temono per l'incolumit‡ dell'intera regione se questa presenza si rinforzer‡. <GABBER>, a questa malvagia presenza non si puÚ permettere di causare distruzione su Faer˚n. ~
-@48  = ~Io ti chiedo, <GABBER>, in qualit‡ di esperto bardo, di usare qualsiasi mezzo tu abbia a disposizione per eliminare questa creatura. Se vuoi cerca l'appoggio di alleati, amici potenti, o raccogli oggetti magici arcani che ti possano rinforzare per far finire la minaccia, se vuoi.~
+@44  = ~Come ti ho detto, <GABBER>, sar√† un onore ed un privilegio aiutarti a diventare un famosissimo bardo, ma non posso fare nulla per te se tu non sarai pronto ad aiutare me. Ritorna quando sarai pronto, nel frattempo io preparer√≤ la mia prossima rappresentazione.~
+@45  = ~Lo far√≤, <GABBER>, ma tu dovrai ascoltare molto attentamente cosa deve essere fatto. C'√® molto da spiegare.~
+@46  = ~Allora, essendo un bardo, ascolto molto di quello che succede intorno al mondo, e molto spesso, mi rimangono impresse soprattutto le questioni locali. Ho alcuni amici menestrelli qui ad Athkatla, e mi hanno confidato di un grande pericolo crescente. Non conosco tutti i dettagli, ed alcune di queste dicerie potrebbero essere un p√≤ esagerate, ma mi √® stato raccontato dai miei compagni che si tratta di un grande pericolo malvagio.~
+@47  = ~E' una presenza malvagia, della quale i miei amici non possono capirne l'origine o gli intenti. Tuttavia, sono certi che non fa parte di questo mondo, e temono per l'incolumit√† dell'intera regione se questa presenza si rinforzer√†. <GABBER>, a questa malvagia presenza non si pu√≤ permettere di causare distruzione su Faer√ªn. ~
+@48  = ~Io ti chiedo, <GABBER>, in qualit√† di esperto bardo, di usare qualsiasi mezzo tu abbia a disposizione per eliminare questa creatura. Se vuoi cerca l'appoggio di alleati, amici potenti, o raccogli oggetti magici arcani che ti possano rinforzare per far finire la minaccia, se vuoi.~
 @49  = ~Dove posso trovare questa presenza, Signor Bardo?~
-@50  = ~FarÚ del mio meglio, Signor Bardo.~
-@51  = ~Maestro Bardo, dubito che le mie capacit‡ saranno sufficienti per eliminare una minaccia cosÏ potente.~
-@52  = ~I miei compagni, quegli amici menestrelli di cui parlavo, non mi hanno detto esattamente dove si trovi, questa presenza, e non credo che lo sappiano. Tuttavia, hanno la 'sensazione' che si trovi da qualche parte qui vicino, quasi sicuramente all'interno delle mura della citt‡.~
-@53  = ~Costi quel che costi, <GABBER>, il destino di tutti noi È nelle tue mani. Devi avere fiducia in te stesso, mio buon amico, e avrai successo.~
+@50  = ~Far√≤ del mio meglio, Signor Bardo.~
+@51  = ~Maestro Bardo, dubito che le mie capacit√† saranno sufficienti per eliminare una minaccia cos√¨ potente.~
+@52  = ~I miei compagni, quegli amici menestrelli di cui parlavo, non mi hanno detto esattamente dove si trovi, questa presenza, e non credo che lo sappiano. Tuttavia, hanno la 'sensazione' che si trovi da qualche parte qui vicino, quasi sicuramente all'interno delle mura della citt√†.~
+@53  = ~Costi quel che costi, <GABBER>, il destino di tutti noi √© nelle tue mani. Devi avere fiducia in te stesso, mio buon amico, e avrai successo.~
 @54  = ~So che proverai a fare del tuo meglio. Ti auguro buona fortuna in questa missione, <GABBER>. Ritorna quando avrai trovato e sconfitto questa presenza malvagia.~
-@55  = ~<GABBER>, È bello rivederti. Devi perdonarmi, ma sto per esibirmi. Comunque, i miei amici menestrelli mi avrebbero informato se la presenza malvagia non ci fosse pi˘ stata. Ma loro non lo hanno fatto. Va tutto bene?.~
-@56  = ~Non riesco a trovare questa presenza. Sai con pi˘ precisione dove sia?~
-@57  = ~Ti dirÚ tutto quello che so e che ho gi‡ detto. La presenza È da qualche parte ad Athkatla.~
-@58  = ~I miei compagni non sono riusciti ad essere pi˘ precisi nell'indicare l'esatto luogo della presenza malvagia, ma mi hanno ultimamente riferito che la presenza sembra pi˘ forte nella parte ovest di Athkatla.~
+@55  = ~<GABBER>, √© bello rivederti. Devi perdonarmi, ma sto per esibirmi. Comunque, i miei amici menestrelli mi avrebbero informato se la presenza malvagia non ci fosse pi√π stata. Ma loro non lo hanno fatto. Va tutto bene?.~
+@56  = ~Non riesco a trovare questa presenza. Sai con pi√π precisione dove sia?~
+@57  = ~Ti dir√≤ tutto quello che so e che ho gi√† detto. La presenza √© da qualche parte ad Athkatla.~
+@58  = ~I miei compagni non sono riusciti ad essere pi√π precisi nell'indicare l'esatto luogo della presenza malvagia, ma mi hanno ultimamente riferito che la presenza sembra pi√π forte nella parte ovest di Athkatla.~
 @59  = ~I miei amici menestrelli sono stati in grado di restringere l'area della presenza malvagia. Mi hanno detto che si dovrebbe trovare da qualche parte vicino ad uno specchio d'acqua. Forse un fiume? Loro ed io non possiamo dirlo con certezza.~
-@60  = ~Quello mi hanno potuto dire fino ad ora i miei amici Ë che la creatura malvagia Ë sotto la superficie. LÏ nei pressi sembrerebbe esserci dello zolfo, del sale, e del marciume.~
-@61  = ~Mi dispiace, <GABBER>. Non posso darti ulteriori informazioni. I miei compagni mi hanno detto solamente che la presenza malvagia Ë molto forte nella zona ad ovest di Athkatla, vicino a dell'acqua, sotto la superficie della strada.~
-@62  = ~<GABBER>, È bello rivederti! Ho sentito delle buone notizie. Anzi delle ottime notizie. I miei amici menestrelli non sentono pi˘ la malvagia presenza, e sarebbero molto interessati a sapere cosa sia successo. Io ho capito che tu hai sconfitto la creatura, ma come hai fatto?~
-@63  = ~Il demone È stato scacciato da Faer˚n. Non ho potuto distruggerlo.~
-@64  = ~Sono stato in grado di distruggere il demone e non ci dovrebbe essere pi˘ da preoccuparsi.~
-@65  = ~Indipendentemente dal modo con cui hai agito, <GABBER>, È stato fatto. E lo hai fatto bene, e i menestrelli sono molto contenti dell'esito. Come d'altronde anche io.~
+@60  = ~Quello mi hanno potuto dire fino ad ora i miei amici √® che la creatura malvagia √® sotto la superficie. L√¨ nei pressi sembrerebbe esserci dello zolfo, del sale, e del marciume.~
+@61  = ~Mi dispiace, <GABBER>. Non posso darti ulteriori informazioni. I miei compagni mi hanno detto solamente che la presenza malvagia √® molto forte nella zona ad ovest di Athkatla, vicino a dell'acqua, sotto la superficie della strada.~
+@62  = ~<GABBER>, √© bello rivederti! Ho sentito delle buone notizie. Anzi delle ottime notizie. I miei amici menestrelli non sentono pi√π la malvagia presenza, e sarebbero molto interessati a sapere cosa sia successo. Io ho capito che tu hai sconfitto la creatura, ma come hai fatto?~
+@63  = ~Il demone √© stato scacciato da Faer√ªn. Non ho potuto distruggerlo.~
+@64  = ~Sono stato in grado di distruggere il demone e non ci dovrebbe essere pi√π da preoccuparsi.~
+@65  = ~Indipendentemente dal modo con cui hai agito, <GABBER>, √© stato fatto. E lo hai fatto bene, e i menestrelli sono molto contenti dell'esito. Come d'altronde anche io.~
 @66  = ~Va, <GABBER>. Trova questo male e fai quello che deve essere fatto per fermarlo.~
-@67  = ~Sono davvero impressionato del modo e dall'abilit‡ con cui hai battuto il demone malvagio. Io non avrei mai potuto essere in grado di sconfiggerlo, e probabilmente non sarei nemmeno stato capace di iniziare un'impresa simile. ScriverÚ una canzone sul tuo gesto eroico. Meriti una ricompensa, <GABBER>, e desidero onorare la mia promessa di insegnarti qualcosa. Ancora una volta spetta a te di decidere la scelta.~
-@68  = ~Ora ti aiuterÚ a diventare un bardo migliore insegnandoti una cosa, un qualcosa che non saresti in grado di imparare a meno che tu non facessi parte dell'Accademia Bardica. Cosa ti piacerebbe apprendere: vorresti sapere come imparare a suonare nuove canzoni, che hanno l'abilit‡ di stordire i tuoi nemici immobilizzandoli, catturando la loro attenzione mentre ascoltano le tue canzoni, oppure vorresti memorizzare ulteriori incantesimi, o preferiresti apprendere come piazzare un nuovo tipo di trappole spargendo piccole picche sul terreno per far inciampare e ferire i tuoi nemici?~
+@67  = ~Sono davvero impressionato del modo e dall'abilit√† con cui hai battuto il demone malvagio. Io non avrei mai potuto essere in grado di sconfiggerlo, e probabilmente non sarei nemmeno stato capace di iniziare un'impresa simile. Scriver√≤ una canzone sul tuo gesto eroico. Meriti una ricompensa, <GABBER>, e desidero onorare la mia promessa di insegnarti qualcosa. Ancora una volta spetta a te di decidere la scelta.~
+@68  = ~Ora ti aiuter√≤ a diventare un bardo migliore insegnandoti una cosa, un qualcosa che non saresti in grado di imparare a meno che tu non facessi parte dell'Accademia Bardica. Cosa ti piacerebbe apprendere: vorresti sapere come imparare a suonare nuove canzoni, che hanno l'abilit√† di stordire i tuoi nemici immobilizzandoli, catturando la loro attenzione mentre ascoltano le tue canzoni, oppure vorresti memorizzare ulteriori incantesimi, o preferiresti apprendere come piazzare un nuovo tipo di trappole spargendo piccole picche sul terreno per far inciampare e ferire i tuoi nemici?~
 @69  = ~Credo che mi piacerebbe apprendere nuove canzoni per catturare l'attenzione di chi le ascolta.~
 @70  = ~Mi farebbe piacere se mi potessi insegnare a memorizzare altri incantesimi.~
 @71  = ~Vi prego Maestro bardo, insegnami a piazzare piccole picche.~
-@72  = ~Sar‡ un piacere per me, <GABBER>, insegnarti a suonare nuove canzoni bardiche.~
+@72  = ~Sar√† un piacere per me, <GABBER>, insegnarti a suonare nuove canzoni bardiche.~
 @73  = ~Ecco, <GABBER>. Ora puoi stordire i tuoi ascoltatori per alcuni momenti mentre suoni una delle nuove canzoni, ed anche per un breve periodo successivo.~
-@74  = ~Sar‡ un piacere per me, <GABBER>, mostrarti come memorizzare altri incantesimi.~
-@75  = ~Ecco, <GABBER>. Ora puoi memorizzare qualche incantesimo in pi˘ rispetto ad un normale bardo del tuo livello e delle tue capacit‡.~
-@76  = ~Sar‡ un piacere per me, <GABBER>, mostrarti e insegnarti come spargere piccole picche sul terreno.~
+@74  = ~Sar√† un piacere per me, <GABBER>, mostrarti come memorizzare altri incantesimi.~
+@75  = ~Ecco, <GABBER>. Ora puoi memorizzare qualche incantesimo in pi√π rispetto ad un normale bardo del tuo livello e delle tue capacit√†.~
+@76  = ~Sar√† un piacere per me, <GABBER>, mostrarti e insegnarti come spargere piccole picche sul terreno.~
 @77  = ~Ecco, <GABBER>. Adesso puoi coprire una piccola area di terreno con piccole picche che potrebbero ferire e rallentare i tuoi nemici prima che si avvicinino troppo a te.~
 @78  = ~Sono veramente lieto e onorato che tu mi abbia aiutato, <GABBER>, e mi ha fatto piacere che anche io sono stato in grado di darti un mio piccolo aiuto. Posso aiutarti diventare un bardo ancora migliore, <GABBER>, se tu mi aiuterai di nuovo. Lo farai?~
 @79  = ~Si, Maestro Bardo. Cosa devo fare?~
 @80  = ~Non ora, Maestro Bardo. Ho n po' da fare ora.~
-@81  = ~Allora, finchÈ non sarai pronto, io aspetterÚ qui. Forse mi esibirÚ ancora in una o due rappresentazioni.~
-@82  = ~<GABBER>, mi rendo conto che ti ho chiesto un compito abbastanza semplice - cercando un'Arpa di Myth Drannor - e un compito molto pi˘ pericoloso e mortale di sconfiggere un demone, quest'ultimo incarico invece È facile, non dovrai rischiare la tua vita e non dovresti trovare pericoli. <GABBER>, ti darÚ un'elsa, un'elsa che una volta faceva parte di una potente spada, una Spellsung Blade. Si credeva fosse un'arma magica indistruttibile, ma a quanto pare era falso.~
-@83  = ~La lama Ë stata smarrita, ma possedendo i metalli giusti, puÚ essere riforgiata e con i giusti incantamenti, l'arma puÚ riottenere, comunque, il potere che aveva un tempo. Tu dovresti trovare i materiali appropriati per ricostruire la Spellsung Blade, poi io conosco chi potr‡ riforgiarla. Vai a parlare con un nano, che ti potr‡ aiutare, di nome Cromwell, <GABBER>, e quando la Spellsung Blade sar‡ riforgiata, ritorna da me.~
-@84  = ~Ci proverÚ, Maestro Bardo.~
+@81  = ~Allora, finch√© non sarai pronto, io aspetter√≤ qui. Forse mi esibir√≤ ancora in una o due rappresentazioni.~
+@82  = ~<GABBER>, mi rendo conto che ti ho chiesto un compito abbastanza semplice - cercando un'Arpa di Myth Drannor - e un compito molto pi√π pericoloso e mortale di sconfiggere un demone, quest'ultimo incarico invece √© facile, non dovrai rischiare la tua vita e non dovresti trovare pericoli. <GABBER>, ti dar√≤ un'elsa, un'elsa che una volta faceva parte di una potente spada, una Spellsung Blade. Si credeva fosse un'arma magica indistruttibile, ma a quanto pare era falso.~
+@83  = ~La lama √® stata smarrita, ma possedendo i metalli giusti, pu√≤ essere riforgiata e con i giusti incantamenti, l'arma pu√≤ riottenere, comunque, il potere che aveva un tempo. Tu dovresti trovare i materiali appropriati per ricostruire la Spellsung Blade, poi io conosco chi potr√† riforgiarla. Vai a parlare con un nano, che ti potr√† aiutare, di nome Cromwell, <GABBER>, e quando la Spellsung Blade sar√† riforgiata, ritorna da me.~
+@84  = ~Ci prover√≤, Maestro Bardo.~
 @85  = ~Ancora non hai mai fallito, e spero non lo farai neanche questa volta. Buona fortuna, <GABBER>.~
 @86  = ~Ah, <GABBER>. Hai perso la mia esibizione. E' stato un buon spettacolo, davvero un bello spettacolo. Hai qualche notizia? Sulla Spellsung Blade cosa mi dici? Sei stato in grado di ricostruirla?~
 @87  = ~Si, Maestro Bardo. Ce l'ho qui.~
 @88  = ~No, Maestro Bardo. Non sono ancora stato in grado di ricostruire la Spellsung blade.~
 @89  = ~Sinceramente, speravo che ci fossi riuscito a ricostruire la lama. Ma credo che sarai in grado di farlo. Se riesci ad aiutare Cromwell a ricostruire la Spellsung Blade, poi torna da me.~
-@90  = ~<GABBER>, hai meritato quest'arma potente. Ne sei degno pi˘ tu che io.  Ti prego, permettimi di aumentare le abilit‡ di questa lama magica, e poi te la restituirÚ. La Spellsung Blade È una grande arma bardica, e sarai onorato di averla dalla tua parte.~
-@91  = ~E' davvero un onore, per me, averti incontrato, <GABBER>, e direi una bugia, sia a me che a te, se non ti avessi ancora detto che potresti essere il pi˘ grande bardo di Faer˚n, soprattutto se mi permetti di insegnarti un'ultima abilit‡. Qualcosa che ti possa aiutare nei tuoi viaggi.~
-@92  = ~Ti insegnerÚ qualcosa - qualcosa che la maggior parte dei bardi non conoscono - se mi volessi dire quello che preferisci apprendere. Preferiresti imparare ad eludere gli attacchi dei tuoi nemici, oppure, se tu hai la capacit‡ di piazzare trappole, vorresti conoscere come piazzare nuovi tipi di trappole, spargendo piccole picche sul terreno per far inciampare e ferire i tuoi nemici?, oppure ti piacerebbe imparare ad utilizzare qualsiasi oggetto?~
+@90  = ~<GABBER>, hai meritato quest'arma potente. Ne sei degno pi√π tu che io.  Ti prego, permettimi di aumentare le abilit√† di questa lama magica, e poi te la restituir√≤. La Spellsung Blade √© una grande arma bardica, e sarai onorato di averla dalla tua parte.~
+@91  = ~E' davvero un onore, per me, averti incontrato, <GABBER>, e direi una bugia, sia a me che a te, se non ti avessi ancora detto che potresti essere il pi√π grande bardo di Faer√ªn, soprattutto se mi permetti di insegnarti un'ultima abilit√†. Qualcosa che ti possa aiutare nei tuoi viaggi.~
+@92  = ~Ti insegner√≤ qualcosa - qualcosa che la maggior parte dei bardi non conoscono - se mi volessi dire quello che preferisci apprendere. Preferiresti imparare ad eludere gli attacchi dei tuoi nemici, oppure, se tu hai la capacit√† di piazzare trappole, vorresti conoscere come piazzare nuovi tipi di trappole, spargendo piccole picche sul terreno per far inciampare e ferire i tuoi nemici?, oppure ti piacerebbe imparare ad utilizzare qualsiasi oggetto?~
 @93  = ~Penso che diventare capace di utilizzare qualsiasi oggetto sarebbe utile. Me lo puoi insegnare?~
-@94  = ~Come desideri, <GABBER>. Ti insegnerÚ a spargere piccole picche sul terreno in modo tale da riuscire a ferire i tuoi nemici prima che si avvicinino troppo a te.~
+@94  = ~Come desideri, <GABBER>. Ti insegner√≤ a spargere piccole picche sul terreno in modo tale da riuscire a ferire i tuoi nemici prima che si avvicinino troppo a te.~
 @95  = ~Ce l'abbiamo fatta, <GABBER>, hai imparato a piazzare piccole picche sul terreno.~
-@96  = ~Come desideri, <GABBER>. Ti insegnerÚ ad eludere gli attacchi dei tuoi avversari durante un combattimento.~
-@97  = ~Ce l'abbiamo fatta, <GABBER>, ora puoi eludere gli attacchi dei tuoi nemici durante un combattimento per rendere pi˘ difficile al nemico colpirti.~
-@98  = ~Insegnare ad un bardo la capacit‡ di utilizzare qualsiasi oggetto È un processo molto difficoltoso. FarÚ del mio meglio, <GABBER>, ma non posso garantirti che ci riuscirÚ.~
+@96  = ~Come desideri, <GABBER>. Ti insegner√≤ ad eludere gli attacchi dei tuoi avversari durante un combattimento.~
+@97  = ~Ce l'abbiamo fatta, <GABBER>, ora puoi eludere gli attacchi dei tuoi nemici durante un combattimento per rendere pi√π difficile al nemico colpirti.~
+@98  = ~Insegnare ad un bardo la capacit√† di utilizzare qualsiasi oggetto √© un processo molto difficoltoso. Far√≤ del mio meglio, <GABBER>, ma non posso garantirti che ci riuscir√≤.~
 @99  = ~GABBER>, sei davvero un bardo speciale. E' stato indubbiamente un piacere ed un onore insegnarti come usare qualsiasi oggetto. Ma ricordati che, alcuni oggetti che usi come armature, ti impediranno di lanciare gli incantesimi.~
-@100 = ~Benvenuto al Teatro dei Cinque Boccali, <MANWOMAN>. Sei qui per assistere ad una rappresentazione? Presto mi esibirÚ, quindi, se vuoi ritornare pi˘ tardi, lo spettacolo inizier‡ tra breve, sono certo che ti divertirai.~
-@101 = ~<GABBER>! E' bello rivederti. Presto mi esibirÚ in uno spettacolo creato da me, quindi perchÈ non torni quando la rappresentazione star‡ per iniziare? Sono certo che ti divertirai.~
+@100 = ~Benvenuto al Teatro dei Cinque Boccali, <MANWOMAN>. Sei qui per assistere ad una rappresentazione? Presto mi esibir√≤, quindi, se vuoi ritornare pi√π tardi, lo spettacolo inizier√† tra breve, sono certo che ti divertirai.~
+@101 = ~<GABBER>! E' bello rivederti. Presto mi esibir√≤ in uno spettacolo creato da me, quindi perch√© non torni quando la rappresentazione star√† per iniziare? Sono certo che ti divertirai.~
 @102 = ~L'Accademia degli Studi Bardici
 
-  Ho trovato un'Arpa di Myth Drannor e l'ho data al Maestro Bardo che ho incontrato al Teatro dei Cinque Boccali. Mi Ë stato molto grato e mi ha insegnato un'abilit‡ bardica che normalmente apprendono solamente gli studenti dell'Accademia Bardica di Silverymoon.~
+  Ho trovato un'Arpa di Myth Drannor e l'ho data al Maestro Bardo che ho incontrato al Teatro dei Cinque Boccali. Mi √® stato molto grato e mi ha insegnato un'abilit√† bardica che normalmente apprendono solamente gli studenti dell'Accademia Bardica di Silverymoon.~
 @103 = ~L'Accademia degli Studi Bardici: una Presenza Malvagia
 
-  Il Maestro Bardo al Teatro dei Cinque Boccali mi ha incaricato di sconfiggere una presenza malvagia che, si dice, giri nella regione. Non sa dove si trovi con precisione, ma È da qualche parte nella citt‡ di Athkatla.
-  Una volta che avrÚ sconfitto la presenza malvagia - sia che la distrugga sia che la scacci da Faer˚n - dovrÚ comunicarlo al maestro bardo che ha promesso di insegnarmi un'abilit‡ che migliorer‡ le mie conoscenze bardiche.~
+  Il Maestro Bardo al Teatro dei Cinque Boccali mi ha incaricato di sconfiggere una presenza malvagia che, si dice, giri nella regione. Non sa dove si trovi con precisione, ma √© da qualche parte nella citt√† di Athkatla.
+  Una volta che avr√≤ sconfitto la presenza malvagia - sia che la distrugga sia che la scacci da Faer√ªn - dovr√≤ comunicarlo al maestro bardo che ha promesso di insegnarmi un'abilit√† che migliorer√† le mie conoscenze bardiche.~
 @104 = ~L'Accademia degli Studi Bardici: Riforgiare A Spellsung Blade
 
-  Il Maestro Bardo che mi ha insegnato alcune preziose abilit‡ mi ha chiesto di completare ancora un altro incarico. Questa volta, mi ha dato l'elsa di una spellsung blade distrutta, che si pensava fosse un'arma indistruttibile. Qualsiasi cosa abbia distrutto la lama doveva trattarsi di una forza davvero potente.
-  Devo cercare i metalli che possono essere utilizzati per riforgiare l'arma di quest'elsa e farla diventare un'arma funzionale. Io non so dove possano trovarsi dei materiali simili, ma il bardo insegnante dell'Accademia Bardica di Silverymoon che ho incontrato Teatro dei Cinque Boccali mi ha detto che un nano che si chiama Cromwell puÚ aiutarmi a riforgiare e a ricostruire l'arma magica.~
+  Il Maestro Bardo che mi ha insegnato alcune preziose abilit√† mi ha chiesto di completare ancora un altro incarico. Questa volta, mi ha dato l'elsa di una spellsung blade distrutta, che si pensava fosse un'arma indistruttibile. Qualsiasi cosa abbia distrutto la lama doveva trattarsi di una forza davvero potente.
+  Devo cercare i metalli che possono essere utilizzati per riforgiare l'arma di quest'elsa e farla diventare un'arma funzionale. Io non so dove possano trovarsi dei materiali simili, ma il bardo insegnante dell'Accademia Bardica di Silverymoon che ho incontrato Teatro dei Cinque Boccali mi ha detto che un nano che si chiama Cromwell pu√≤ aiutarmi a riforgiare e a ricostruire l'arma magica.~
 @105 = ~L'Accademia degli Studi Bardici 
 
-  Ho trovato un'Arpa di Myth Drannor e l'ho data al Maestro Bardo che ho incontrato al Teatro dei Cinque Boccali. Mi Ë stato molto grato e mi ha insegnato un'abilit‡ bardica che normalmente apprendono solamente gli studenti dell'Accademia Bardica di Silverymoon.~
+  Ho trovato un'Arpa di Myth Drannor e l'ho data al Maestro Bardo che ho incontrato al Teatro dei Cinque Boccali. Mi √® stato molto grato e mi ha insegnato un'abilit√† bardica che normalmente apprendono solamente gli studenti dell'Accademia Bardica di Silverymoon.~
 @106 = ~L'Accademia degli Studi Bardici
 
-  Il Maestro Bardo che ho incontrato al Teatro dei Cinque Boccali mi ha insegnato come memorizzare pi˘ incantesimi di quelli che possono memorizzare la maggior parte degli altri bardi della mia esperienza.~
+  Il Maestro Bardo che ho incontrato al Teatro dei Cinque Boccali mi ha insegnato come memorizzare pi√π incantesimi di quelli che possono memorizzare la maggior parte degli altri bardi della mia esperienza.~
 @107 = ~L'Accademia degli Studi Bardici 
 
   Il Maestro Bardo che ho incontrato al Teatro dei Cinque Boccali mi ha insegnato come eludere gli attacchi dei miei nemici eseguendo movimenti che ingannano i miei avversari per cercare di evitare di essere ferito durante un combattimento.~
@@ -124,28 +124,28 @@
   Il Maestro Bardo che ho incontrato al Teatro dei Cinque Boccali mi ha insegnato come piazzare piccole picche sul terreno, che possono rallentare ed, eventualmente, anche ferire i nemici nelle vicinanze. ~
 @109 = ~L'Accademia degli Studi Bardici: Harp of Myth Drannor
 
-   Mi Ë stata offerta la possibilit‡ di imparare da un insegnante dell'Accademia Bardica di Silverymoon, tuttavia, come qualsiasi altra persone che ho incontrato in questa citt‡, questo Maestro Bardo vuole che esegua alcuni incarichi per lui.
-   Sembrerebbe abbia perso uno dei suoi strumenti di lavoro mentre viaggiava per l'Amn e gli farebbe piacere ritrovarlo, se non proprio lo stesso strumento anche un altro simile. Ha chiesto per la precisione di recuperargli un'Arpa di Myth Drannor, si tratta di uno strumento magico, e dovrÚ tornare da lui appena avrÚ recuperato l'Arpa di Myth Drannor. Dove potrei prendere un simile oggetto proprio non ne ho idea ma, tuttavia, spero di recuperarne una. PotrÚ ritrovare il Mastro Bardo al Teatro dei Cinque Boccali.~
+   Mi √® stata offerta la possibilit√† di imparare da un insegnante dell'Accademia Bardica di Silverymoon, tuttavia, come qualsiasi altra persone che ho incontrato in questa citt√†, questo Maestro Bardo vuole che esegua alcuni incarichi per lui.
+   Sembrerebbe abbia perso uno dei suoi strumenti di lavoro mentre viaggiava per l'Amn e gli farebbe piacere ritrovarlo, se non proprio lo stesso strumento anche un altro simile. Ha chiesto per la precisione di recuperargli un'Arpa di Myth Drannor, si tratta di uno strumento magico, e dovr√≤ tornare da lui appena avr√≤ recuperato l'Arpa di Myth Drannor. Dove potrei prendere un simile oggetto proprio non ne ho idea ma, tuttavia, spero di recuperarne una. Potr√≤ ritrovare il Mastro Bardo al Teatro dei Cinque Boccali.~
 @110 = ~L'Accademia degli Studi Bardici: una Presenza Malvagia
 
-  Il Maestro Bardo al Teatro dei Cinque Boccali mi ha chiesto di sconfiggere una presenza malvagia che, si dice, giri nella regione. Non sa dove si trovi con precisione, ma È da qualche parte nella citt‡ di Athkatla.
-  Una volta che avrÚ sconfitto la presenza malvagia - sia che la distrugga sia che la scacci da Faer˚n - dovrÚ comunicarlo a maestro bardo che ha promesso di insegnarmi un'abilit‡ che migliorer‡ le mie conoscenze bardiche.~
+  Il Maestro Bardo al Teatro dei Cinque Boccali mi ha chiesto di sconfiggere una presenza malvagia che, si dice, giri nella regione. Non sa dove si trovi con precisione, ma √© da qualche parte nella citt√† di Athkatla.
+  Una volta che avr√≤ sconfitto la presenza malvagia - sia che la distrugga sia che la scacci da Faer√ªn - dovr√≤ comunicarlo a maestro bardo che ha promesso di insegnarmi un'abilit√† che migliorer√† le mie conoscenze bardiche.~
 @111 = ~L'Accademia degli Studi Bardici: una Presenza Malvagia
 
-  Ho sconfitto un demone malvagio sotto il Quartiere dei Moli di Athkatla di cui mi aveva parlato il Maestro Bardo. Mi ha informato che scriver‡ una canzone che descriver‡ le mie gesta eroiche, e inoltre mi ha promesso di insegnarmi una nuova abilit‡.~
+  Ho sconfitto un demone malvagio sotto il Quartiere dei Moli di Athkatla di cui mi aveva parlato il Maestro Bardo. Mi ha informato che scriver√† una canzone che descriver√† le mie gesta eroiche, e inoltre mi ha promesso di insegnarmi una nuova abilit√†.~
 @112 = ~ L'Accademia degli Studi Bardici
 
   Il Maestro Bardo che ho incontrato al Teatro dei Cinque Boccali mi ha insegnato a suonare alcune canzoni e melodie per stordire coloro che le ascoltano.~
 @113 = ~L'Accademia degli Studi Bardici 
 
-  Il Maestro Bardo che ho incontrato al Teatro dei Cinque Boccali mi ha insegnato come memorizzare pi˘ incantesimi di quelli che possono memorizzare la maggior parte degli altri bardi.~
+  Il Maestro Bardo che ho incontrato al Teatro dei Cinque Boccali mi ha insegnato come memorizzare pi√π incantesimi di quelli che possono memorizzare la maggior parte degli altri bardi.~
 @114 = ~L'Accademia degli Studi Bardici 
 
-  Il Maestro Bardo che ho incontrato al Teatro dei Cinque Boccali mi ha insegnato mi ha insegnato come piazzare piccole picche sul terreno, che puÚ rallentare ed, eventualmente, anche ferire i nemici nelle vicinanze.~
+  Il Maestro Bardo che ho incontrato al Teatro dei Cinque Boccali mi ha insegnato mi ha insegnato come piazzare piccole picche sul terreno, che pu√≤ rallentare ed, eventualmente, anche ferire i nemici nelle vicinanze.~
 @115 = ~L'Accademia degli Studi Bardici: Riforgiare una Spellsung Blade
 
-  Il Maestro Bardo che mi ha insegnato alcune preziose abilit‡ mi ha chiesto di completare ancora un altro incarico. Questa volta, mi ha dato l'elsa di una spellsung blade distrutta, che si pensava fosse un'arma indistruttibile. Qualsiasi cosa abbia distrutto la lama doveva trattarsi di una forza davvero potente.
-  Devo cercare i metalli che possono essere utilizzati per riforgiare l'arma di quest'elsa e farla ridiventare un'arma funzionale. Io non so dove possano trovarsi dei materiali simili, ma il bardo insegnante dell'Accademia Bardica di Silverymoon che ho incontrato Teatro dei Cinque Boccali mi ha detto che un nano che si chiama Cromwell puÚ aiutarmi a riforgiare e a ricostruire l'arma magica.~
+  Il Maestro Bardo che mi ha insegnato alcune preziose abilit√† mi ha chiesto di completare ancora un altro incarico. Questa volta, mi ha dato l'elsa di una spellsung blade distrutta, che si pensava fosse un'arma indistruttibile. Qualsiasi cosa abbia distrutto la lama doveva trattarsi di una forza davvero potente.
+  Devo cercare i metalli che possono essere utilizzati per riforgiare l'arma di quest'elsa e farla ridiventare un'arma funzionale. Io non so dove possano trovarsi dei materiali simili, ma il bardo insegnante dell'Accademia Bardica di Silverymoon che ho incontrato Teatro dei Cinque Boccali mi ha detto che un nano che si chiama Cromwell pu√≤ aiutarmi a riforgiare e a ricostruire l'arma magica.~
 @116 = ~L'Accademia degli Studi Bardici: Riforgiare una Spellsung Blade
 
 Sono stato in grado, con l'aiuto di Cromwell, di ripristinare la vecchia Spellsung blade. Quando l'ho portata al Maestro Bardo al Teatro dei Cinque Boccali, mi ha ricompensato incantando la lama e regalandomela, possederla sembrerebbe un grande onore per i bardi.~

@@ -1,93 +1,93 @@
 @1   = ~Scusami. Ehi tu! Scusami. Sembri essere un esperto utilizzatore di magia. Puoi dirmi se lo sei davvero?~
-@2   = ~Si, io sono un mago. PerchÈ?~
+@2   = ~Si, io sono un mago. Perch√©?~
 @3   = ~No, mi dispiace, ti devi essere confuso con qualcun altro.~
 @4   = ~Veramente? Lo sei davvero? Allora forse sei in grado di aiutarmi.~
 @5   = ~Cosa ne pensi? Voglio dire, vuoi aiutarmi?~
-@6   = ~Certamente. Ti aiuterÚ. Dimmi di cosa hai bisogno.~
+@6   = ~Certamente. Ti aiuter√≤. Dimmi di cosa hai bisogno.~
 @7   = ~Mi dispiace, ma non posso aiutarti.~
-@8   = ~Potrei aiutarti, ma non subito. Aspetta qui, e tornerÚ.~
-@9   = ~Sono stanco di aiutare la gente. Non aiuterÚ pi˘ nessuno, cosÏ mi lasceranno in pace.~
-@10  = ~Ho sentito dire che alcuni utilizzatori di magia possono evocare coloro che sono defunti. Io credo sia vero, perciÚ lasciami spiegare il mio problema.~
-@11  = ~Recentemente uno dei miei parenti, il caro Zio Donny, È morto ed io, naturalmente, sono molto rattristato della perdita di un cosÏ brav'uomo.~
-@12  = ~Mi manca molto mio Zio Donny, ed eravamo molto uniti. Mi voleva molto bene e si prendeva cura di me. Spesso mi diceva - prima di morire - che mi avrebbe lasciato le sue propriet‡.~
-@13  = ~Tuttavia, le autorit‡ cittadine sono molto esperte in queste faccende burocratiche, e Zio Donny ha dovuto scrivere un testamento legale con la citt‡. Ora che Ë morto, i politici non vogliono permettermi di vedere una copia delle sue volont‡ nel testamento.~
-@14  = ~Mio Zio Donny era un buon uomo, ma aveva delle manie quando si trattava di soldi. Donny era tremendamente preoccupato dei ladri, dei truffatori, e degli esattori, e nascondeva i suoi soldi. Io so che Zio Donny mi ha lasciato tutto quello che aveva, ma deve aver nascosto i suoi soldi davvero bene, poichÈ io non riesco a trovarli qui, nella sua casa, o in qualsiasi altra parte della citt‡. Sono quasi certo che lui ha lasciato degli indizi riguardo al nascondiglio dei soldi all'interno del testamento, non in modo esplicito, ma in modo codificato.~
-@15  = ~In questo modo chi legger‡ il testamento avr‡ difficolt‡ a trovare il denaro. Zio Donny era ricco, ma da quando È morto non so quali siano le sue volont‡, e non posso usufruire di nulla. Credo che le autorit‡ cittadine cercheranno di risolvere il mistero di dove Donny ha nascosto il suo denaro, ma non credo che ne saranno capaci.~
-@16  = ~Quindi adesso ho bisogno di trovare dove mio Zio ha nascosto i soldi prima che lo facciano le autorit‡ cittadine, ma non potendo vedere il testamento, non posso nemmeno essere in grado di scoprire il codice che ha usato.~
+@8   = ~Potrei aiutarti, ma non subito. Aspetta qui, e torner√≤.~
+@9   = ~Sono stanco di aiutare la gente. Non aiuter√≤ pi√π nessuno, cos√¨ mi lasceranno in pace.~
+@10  = ~Ho sentito dire che alcuni utilizzatori di magia possono evocare coloro che sono defunti. Io credo sia vero, perci√≤ lasciami spiegare il mio problema.~
+@11  = ~Recentemente uno dei miei parenti, il caro Zio Donny, √© morto ed io, naturalmente, sono molto rattristato della perdita di un cos√¨ brav'uomo.~
+@12  = ~Mi manca molto mio Zio Donny, ed eravamo molto uniti. Mi voleva molto bene e si prendeva cura di me. Spesso mi diceva - prima di morire - che mi avrebbe lasciato le sue propriet√†.~
+@13  = ~Tuttavia, le autorit√† cittadine sono molto esperte in queste faccende burocratiche, e Zio Donny ha dovuto scrivere un testamento legale con la citt√†. Ora che √® morto, i politici non vogliono permettermi di vedere una copia delle sue volont√† nel testamento.~
+@14  = ~Mio Zio Donny era un buon uomo, ma aveva delle manie quando si trattava di soldi. Donny era tremendamente preoccupato dei ladri, dei truffatori, e degli esattori, e nascondeva i suoi soldi. Io so che Zio Donny mi ha lasciato tutto quello che aveva, ma deve aver nascosto i suoi soldi davvero bene, poich√© io non riesco a trovarli qui, nella sua casa, o in qualsiasi altra parte della citt√†. Sono quasi certo che lui ha lasciato degli indizi riguardo al nascondiglio dei soldi all'interno del testamento, non in modo esplicito, ma in modo codificato.~
+@15  = ~In questo modo chi legger√† il testamento avr√† difficolt√† a trovare il denaro. Zio Donny era ricco, ma da quando √© morto non so quali siano le sue volont√†, e non posso usufruire di nulla. Credo che le autorit√† cittadine cercheranno di risolvere il mistero di dove Donny ha nascosto il suo denaro, ma non credo che ne saranno capaci.~
+@16  = ~Quindi adesso ho bisogno di trovare dove mio Zio ha nascosto i soldi prima che lo facciano le autorit√† cittadine, ma non potendo vedere il testamento, non posso nemmeno essere in grado di scoprire il codice che ha usato.~
 @17  = ~Sembra un lavoro per qualcuno esperto di leggi e di diritto. Forse dovresti assumere un uomo di legge, un avvocato, non un mago.~
-@18  = ~Allora cos'È che dovrei fare?~
+@18  = ~Allora cos'√© che dovrei fare?~
 @19  = ~Credi davvero che io mi possa gettare in un inutile caso come questo per trovare i soldi di tuo Zio?~
-@20  = ~Si, si, È vero. Se volessi costringere le autorit‡ cittadine a darmi il testamento o una sua copia.~
-@21  = ~Ma io non voglio dare alle autorit‡ cittadine un motivo per far iniziare a loro stessi la caccia per avere rapidamente i soldi di mio Zio Donny, ecco perchÈ non voglio costringerli a farmi dare il testamento. Ho un altro piano in mente, ma io non ho le capacit‡ per realizzarlo.~
+@20  = ~Si, si, √© vero. Se volessi costringere le autorit√† cittadine a darmi il testamento o una sua copia.~
+@21  = ~Ma io non voglio dare alle autorit√† cittadine un motivo per far iniziare a loro stessi la caccia per avere rapidamente i soldi di mio Zio Donny, ecco perch√© non voglio costringerli a farmi dare il testamento. Ho un altro piano in mente, ma io non ho le capacit√† per realizzarlo.~
 @22  = ~Speravo di trovare un utilizzatore di magia per far evocare lo spirito di mio Zio Donny. Ho sentito che i maghi e i chierici potenti lo possono fare, mi piacerebbe parlare con lui per farmi dare gli indizi su dove abbia nascosto il denaro.~
-@23  = ~Sembra un buon piano. E' vero che alcuni maghi  - ed alcuni chierici esperti - possono Parlare Con I Morti, ma per farlo, i maghi o i chierici hanno bisogno di conoscere l'incantesimo, o possiedono la pergamena per l'anciare l'incantesimo. Io non conosco l'incantesimo Parlare Con I Morti, nÈ possiedo una pergamena.~
+@23  = ~Sembra un buon piano. E' vero che alcuni maghi  - ed alcuni chierici esperti - possono Parlare Con I Morti, ma per farlo, i maghi o i chierici hanno bisogno di conoscere l'incantesimo, o possiedono la pergamena per l'anciare l'incantesimo. Io non conosco l'incantesimo Parlare Con I Morti, n√© possiedo una pergamena.~
 @24  = ~Ma tu conosci un modo per apprendere questo incantesimo? Magari con una pergamena?~
-@25  = ~ProverÚ a trovarne una, ma non so chi potrebbe avere una pergamena del genere, o se ce ne È una qui in citt‡. PerchÈ non aspetti qui, e se troverÚ un'incantesimo, tornerÚ ad aiutarti parlando con tuo Zio.~
+@25  = ~Prover√≤ a trovarne una, ma non so chi potrebbe avere una pergamena del genere, o se ce ne √© una qui in citt√†. Perch√© non aspetti qui, e se trover√≤ un'incantesimo, torner√≤ ad aiutarti parlando con tuo Zio.~
 @26  = ~Non saprei dove cercare. Conosci qualcuno che sia in grado di vendermi un incantesimo del genere?~
 @27  = ~Non ho molto tempo per cercare quel tipo di incantesimo. Mi dispiace, ma dovrai cercare qualcun altro che ti lanci quell'incantesimo per parlare con tuo Zio.~
-@28  = ~Questa potrebbe essere una buona idea. Tu sei pi˘ esperto di me in fatto di magia, ma da quello che so, hai bisogno di una pergamena per lanciare l'incantesimo, quindi fai attenzione poichÈ, probabilmente, troverai solo una copia dell'incantesimo.~
-@29  = ~Purtroppo non conosco nessuno che potrebbe vendere quel tipo di incantesimo. Tu sei pi˘ esperto di me in fatto di magia, ma da quello che so, hai bisogno di una pergamena per lanciare l'incantesimo, quindi fai attenzione, poichÈ probabilmente, troverai solo una copia dell'incantesimo. Se sei intenzionato a cercarla, io rimarrÚ qui, e se troverai l'incantesimo, farÚ tutto il possibile per aiutarti a lanciarlo.~
-@30  = ~Beh, comunque io aspetterÚ ugualmente qui finchÈ non troverai l'incantesimo o finchÈ non ritornerai per lanciarlo. Tu sei pi˘ esperto di me in fatto di magia, ma da quello che so, tu hai bisogno di una pergamena per lanciare l'incantesimo, quindi fai attenzione poichÈ, probabilmente, troverai solo una copia dell'incantesimo. Se sei intenzionato a cercarla, io rimarrÚ qui, e se troverai l'incantesimo, farÚ tutto il possibile per aiutarti a lanciarlo.~
-@31  = ~Non ti chiedo di cercare in tutta la citt‡, senza un minimo indizio. No, io ho un altro piano, ma non ho le capacit‡ di realizzarlo da solo.~
-@32  = ~Peccato. Mi sarebbe piaciuto se mi avessi potuto aiutare. Comunque aspetterÚ qui, e se cambierai idea e vorrai aiutarmi, per favore ritorna e fammelo sapere.~
-@33  = ~D'accordo, io rimarrÚ qui, se avrai la possibilit‡ di aiutarmi, ritorna e fammelo sapere.~
+@28  = ~Questa potrebbe essere una buona idea. Tu sei pi√π esperto di me in fatto di magia, ma da quello che so, hai bisogno di una pergamena per lanciare l'incantesimo, quindi fai attenzione poich√©, probabilmente, troverai solo una copia dell'incantesimo.~
+@29  = ~Purtroppo non conosco nessuno che potrebbe vendere quel tipo di incantesimo. Tu sei pi√π esperto di me in fatto di magia, ma da quello che so, hai bisogno di una pergamena per lanciare l'incantesimo, quindi fai attenzione, poich√© probabilmente, troverai solo una copia dell'incantesimo. Se sei intenzionato a cercarla, io rimarr√≤ qui, e se troverai l'incantesimo, far√≤ tutto il possibile per aiutarti a lanciarlo.~
+@30  = ~Beh, comunque io aspetter√≤ ugualmente qui finch√© non troverai l'incantesimo o finch√© non ritornerai per lanciarlo. Tu sei pi√π esperto di me in fatto di magia, ma da quello che so, tu hai bisogno di una pergamena per lanciare l'incantesimo, quindi fai attenzione poich√©, probabilmente, troverai solo una copia dell'incantesimo. Se sei intenzionato a cercarla, io rimarr√≤ qui, e se troverai l'incantesimo, far√≤ tutto il possibile per aiutarti a lanciarlo.~
+@31  = ~Non ti chiedo di cercare in tutta la citt√†, senza un minimo indizio. No, io ho un altro piano, ma non ho le capacit√† di realizzarlo da solo.~
+@32  = ~Peccato. Mi sarebbe piaciuto se mi avessi potuto aiutare. Comunque aspetter√≤ qui, e se cambierai idea e vorrai aiutarmi, per favore ritorna e fammelo sapere.~
+@33  = ~D'accordo, io rimarr√≤ qui, se avrai la possibilit√† di aiutarmi, ritorna e fammelo sapere.~
 @34  = ~Mi dispiace, non era mia intenzione disturbarti. Volevo sapere solo se potevi aiutarmi. Mi dispiace averti seccato. Ci vediamo.~
 @35  = ~Scusa per il disturbo allora. Non puoi aiutarmi. Buona giornata, <SIRMAAM>.~
 @36  = ~Sei ritornato. Sei in grado di aiutarmi adesso?~
 @37  = ~Ricordati, hai detto che avresti cercato un incantesimo che mi avrebbe aiutato e fatto parlare con mio Zio Donny. Ne hai trovato uno?~
-@38  = ~No, mi dispiace, non ancora. ContinuerÚ a cercare. Aspettami qui.~
+@38  = ~No, mi dispiace, non ancora. Continuer√≤ a cercare. Aspettami qui.~
 @39  = ~Non ho mai iniziato a cercarne uno. Non credo che sarebbe una buona idea evocare tuo Zio.~
-@40  = ~Si, Ryberg, ho trovato una pergamena. Rimani lÏ che evocherÚ tuo Zio.~
+@40  = ~Si, Ryberg, ho trovato una pergamena. Rimani l√¨ che evocher√≤ tuo Zio.~
 @41  = ~Sei stato fortunato, Ryberg. Ho trovato un incantesimo-pergamena per Parlare Con I Morti, ma non credo che sarebbe una buona idea evocare tuo Zio.~
 @42  = ~Ho dimenticato quello che volevi che io facessi.~
 @43  = ~Si, Ryberg, ho trovato una pergamena. Ma non possiamo lanciare l'incantesimo qui, a causa della forza che potrebbe liberare la magia.~
 @44  = ~Ti prego, ho veramente bisogno di sapere dove mio Zio Donny ha nascosto i suoi soldi. Se tu troverai un modo per parlare con mio Zio, ritorna qui, per favore.~
-@45  = ~D'accordo, mi allontanerÚ mentre tu lanci l'incantesimo.~
-@46  = ~Ti ho chiesto aiuto e tu me l'hai dato, hai fatto molto per me, ma se ora non vuoi usare l'incantesimo, dammi la pergamena ed io troverÚ qualcun altro che lancer‡ l'incantesimo.~
+@45  = ~D'accordo, mi allontaner√≤ mentre tu lanci l'incantesimo.~
+@46  = ~Ti ho chiesto aiuto e tu me l'hai dato, hai fatto molto per me, ma se ora non vuoi usare l'incantesimo, dammi la pergamena ed io trover√≤ qualcun altro che lancer√† l'incantesimo.~
 @47  = ~Molto bene, Ryberg. Ecco la pergamena.~
-@48  = ~No, Ryberg. Intromettersi con le forze della morte non È un qualcosa che puÚ essere fatto senza conseguenze. In coscienza, non posso lasciarti questa pergamena.~
-@49  = ~Intromettersi con le forze della morte non È un qualcosa che puÚ essere fatto senza conseguenze, Ryberg. Non posso lasciare che qualcuno che io non conosco, e che non Ë competente, possa lanciare l'incantesimo di questa pergamena. Lo farÚ io, ma lo faro contro voglia, Ryberg.~
-@50  = ~Grazie per il tuo aiuto. Mi dispiace che tu non voglia lanciare l'incantesimo, ma capisco che tutto ciÚ puÚ essere andato oltre le tue possibilit‡. In ogni caso, spero di essere in grado di trovare qualcun altro che possa lanciare quest'incantesimo per me. Buona giornata, <SIRMAAM>.~
-@51  = ~Ma io non ho scelta. Ho davvero necessit‡ di trovare dove mio Zio ha nascosto i suoi soldi. Ti prego, se dovessi cambiare idea, ritorna qui da me.~
+@48  = ~No, Ryberg. Intromettersi con le forze della morte non √© un qualcosa che pu√≤ essere fatto senza conseguenze. In coscienza, non posso lasciarti questa pergamena.~
+@49  = ~Intromettersi con le forze della morte non √© un qualcosa che pu√≤ essere fatto senza conseguenze, Ryberg. Non posso lasciare che qualcuno che io non conosco, e che non √® competente, possa lanciare l'incantesimo di questa pergamena. Lo far√≤ io, ma lo faro contro voglia, Ryberg.~
+@50  = ~Grazie per il tuo aiuto. Mi dispiace che tu non voglia lanciare l'incantesimo, ma capisco che tutto ci√≤ pu√≤ essere andato oltre le tue possibilit√†. In ogni caso, spero di essere in grado di trovare qualcun altro che possa lanciare quest'incantesimo per me. Buona giornata, <SIRMAAM>.~
+@51  = ~Ma io non ho scelta. Ho davvero necessit√† di trovare dove mio Zio ha nascosto i suoi soldi. Ti prego, se dovessi cambiare idea, ritorna qui da me.~
 @52  = ~Zio Donny! Sono lieto di vederti! Ma non abbiamo molto tempo. Ti prego, i politici qui non mi permettono di leggere il tuo testamento. Non posso trovare i soldi che mi hai lasciato.~
 @53  = ~Ti prego Zio Donny, se tu puoi dirmi come o dove cercare il denaro che hai nascosto quando eri in vita, mi aiuteresti. Devi dirmi qualcosa. Zio Donny! Parla!~
 @54  = ~Cosa? Cosa vuol dire, Zio Donny? Non capisco.~
 @55  = ~No, aspetta... non andartene! Donny! Aspetta...~
-@56  = ~Beh, questo È tutto. Zio Donny È davvero andato, ed io non ho la minima idea di dove abbia nascosto i suoi soldi.~
+@56  = ~Beh, questo √© tutto. Zio Donny √© davvero andato, ed io non ho la minima idea di dove abbia nascosto i suoi soldi.~
 @57  = ~Mi dispiace, se vuoi posso aiutarti. Ma credo che solo tuo Zio potrebbe essere in grado di dirti dove trovare il suo patrimonio.~
 @58  = ~Aspetta, Ryberg, credo di sapere dove tuo Zio potrebbe aver nascosto il suo denaro. Potrei trovarteli io per te.~
-@59  = ~Non c'È pi˘ niente da fare, Ryberg. Avremo pi˘ fortuna la prossima volta, in ogni caso, se vuoi, posso provare a cercare io il denaro di tuo Zio.~
+@59  = ~Non c'√© pi√π niente da fare, Ryberg. Avremo pi√π fortuna la prossima volta, in ogni caso, se vuoi, posso provare a cercare io il denaro di tuo Zio.~
 @60  = ~Comunque mi sei stato di grande aiuto. Senza di te non sarei stato in grado di rivedere mio Zio. Ti ringrazio per il tuo aiuto in ogni caso.~
-@61  = ~Se riesci a scoprire dove sono i soldi, allora li dividerÚ con te. Altrimenti, non ci sar‡ miglior fine a questa storia.~
-@62  = ~Beh, presumo che, se non troverai tu i soldi, le autorit‡ cittadine si prenderanno il testamento ed io sarÚ escluso dalla mia eredit‡. Grazie per il tuo aiuto.~
+@61  = ~Se riesci a scoprire dove sono i soldi, allora li divider√≤ con te. Altrimenti, non ci sar√† miglior fine a questa storia.~
+@62  = ~Beh, presumo che, se non troverai tu i soldi, le autorit√† cittadine si prenderanno il testamento ed io sar√≤ escluso dalla mia eredit√†. Grazie per il tuo aiuto.~
 @63  = ~Avevi detto che saresti stato in grado di trovare il denaro che mio Zio Donny mi aveva lasciato. Lo hai trovato?~
-@64  = ~Non ancora, Ryberg. Sto ancora pensando all'enigma e sto cercando per tutta la citt‡.~
-@65  = ~Si, Ryberg, credo di aver trovato il denaro di tuo Zio. Sono un sacco di soldi. Eccoli, li divideremo met‡ per uno.~
+@64  = ~Non ancora, Ryberg. Sto ancora pensando all'enigma e sto cercando per tutta la citt√†.~
+@65  = ~Si, Ryberg, credo di aver trovato il denaro di tuo Zio. Sono un sacco di soldi. Eccoli, li divideremo met√† per uno.~
 @66  = ~Ho trovato i soldi del tuo parente defunto, ma ne voglio una parte, dopo che ho fatto praticamente io tutto il lavoro.~
-@67  = ~Oh magnifico! Questo aiuter‡ moltissimo me e la mia famiglia. Grazie per tutto il tuo aiuto. Buona giornata, <SIRMAAM>.~
+@67  = ~Oh magnifico! Questo aiuter√† moltissimo me e la mia famiglia. Grazie per tutto il tuo aiuto. Buona giornata, <SIRMAAM>.~
 @68  = ~Tu ladro imbroglione! Non sei migliore di quei politici che non vogliono darmi il testamento. Spero che marcirai al fianco di Cyric.~
-@69  = ~Va bene, io rimarrÚ qui, e se troverai l'incantesimo, farÚ tutto il necessario per aiutarti a lanciarlo.~
-@70  = ~Ho sentito che alcuni utilizzatori di magia possono evocare chi È gi‡ defunto. Credo che questo sia vero, il mio problema Ë questo, lascia che te lo spieghi.~
+@69  = ~Va bene, io rimarr√≤ qui, e se troverai l'incantesimo, far√≤ tutto il necessario per aiutarti a lanciarlo.~
+@70  = ~Ho sentito che alcuni utilizzatori di magia possono evocare chi √© gi√† defunto. Credo che questo sia vero, il mio problema √® questo, lascia che te lo spieghi.~
 @71  = ~Dove dovremmo lanciare l'incantesimo allora?~
 @72  = ~Vieni con me alle Colline Umar.~
-@73  = ~Andremo nel Maniero De' Arnise fuori dalla citt‡.~
+@73  = ~Andremo nel Maniero De' Arnise fuori dalla citt√†.~
 @74  = ~Seguimi, andremo alle Colline Windspear.~
 @75  = ~Andiamo in una delle tombe del Quartiere del Cimitero per lanciare l'incantesimo. Andiamo.~
-@76  = ~Credo che sia un luogo pi˘ sicuro. Andiamo.~
+@76  = ~Credo che sia un luogo pi√π sicuro. Andiamo.~
 @77  = ~Se avrai notizie, fammelo sapere.~
-@78 = ~L'Eredit‡ Perduta
+@78 = ~L'Eredit√† Perduta
 
-Oggi ho incontrato un giovane molto preoccupato, che si chiama Ryberg. Mi ha detto che suo Zio È morto di recente, e a causa di faccende burocratiche ed autorit‡ cittadine che sono nel Quartiere Governativo di Athkatla, non Ë stato in grado di sapere dove lo Zio ha nascosto i suoi soldi. Ryberg mi ha chiesto di trovare un modo per riparlare con suo Zio e sapere dove ha nascosto il denaro.~
-@79 = ~L'Eredit‡ Perduta?
+Oggi ho incontrato un giovane molto preoccupato, che si chiama Ryberg. Mi ha detto che suo Zio √© morto di recente, e a causa di faccende burocratiche ed autorit√† cittadine che sono nel Quartiere Governativo di Athkatla, non √® stato in grado di sapere dove lo Zio ha nascosto i suoi soldi. Ryberg mi ha chiesto di trovare un modo per riparlare con suo Zio e sapere dove ha nascosto il denaro.~
+@79 = ~L'Eredit√† Perduta?
 
-Sono tornato da Ryberg che era un po' inquieto. Sono stato capace di recuperare una pergamena in grado di evocare lo spirito di suo Zio, e Ryberg ha avuto una breve conversazione con lo Zio defunto. Purtroppo, lo Zio di Ryberg non È stato molto chiaro sull'esatta ubicazione del denaro. Ho detto a Ryberg che potrei provare a cercare di risolvere l'enigma, ma non ho molti indizi.
-Lo Zio di Ryberg ha menzionato qualcosa circa il perdere la vista per guadagnare la fede, ma anche qualcosa sul senso della vita, sotto la forma metaforica di un ponte. Avendo solo questo indizio dovrÚ cercare dove sono nascosti i soldi.~
-@80 = ~L'eredit‡ perduta È stata Recuperata
+Sono tornato da Ryberg che era un po' inquieto. Sono stato capace di recuperare una pergamena in grado di evocare lo spirito di suo Zio, e Ryberg ha avuto una breve conversazione con lo Zio defunto. Purtroppo, lo Zio di Ryberg non √© stato molto chiaro sull'esatta ubicazione del denaro. Ho detto a Ryberg che potrei provare a cercare di risolvere l'enigma, ma non ho molti indizi.
+Lo Zio di Ryberg ha menzionato qualcosa circa il perdere la vista per guadagnare la fede, ma anche qualcosa sul senso della vita, sotto la forma metaforica di un ponte. Avendo solo questo indizio dovr√≤ cercare dove sono nascosti i soldi.~
+@80 = ~L'eredit√† perduta √© stata Recuperata
 
-Sono stato finalmente in grado di trovare i soldi nascosti dallo Zio di Ryberg, e glieli ho restituiti. Ryberg È stato talmente contento di quello che ho fatto che ha diviso il denaro con me, tenendosi met‡ delle 26,000 monete d'oro e dandomi il resto a me.~
+Sono stato finalmente in grado di trovare i soldi nascosti dallo Zio di Ryberg, e glieli ho restituiti. Ryberg √© stato talmente contento di quello che ho fatto che ha diviso il denaro con me, tenendosi met√† delle 26,000 monete d'oro e dandomi il resto a me.~
 @81 = ~Cercando il libro intitolato "Oltre lo Spirito"
 
-Il mago che incontrai tempo fa a Soubar È in vacanza qui ad Athkatla, e sta cercando un libro sulla vita dell'aldil‡. Mi ha promesso che se gli troverÚ il libro intitolato "Over Spiritus", potrebbe scambiarlo con una pergamena Parlare Con I Morti.~
+Il mago che incontrai tempo fa a Soubar √© in vacanza qui ad Athkatla, e sta cercando un libro sulla vita dell'aldil√†. Mi ha promesso che se gli trover√≤ il libro intitolato "Over Spiritus", potrebbe scambiarlo con una pergamena Parlare Con I Morti.~
 @82 = ~Trovato il libro intitolato "Oltre lo Spirito"
 
-Ho trovato il libro che stava cercando il mago Ceeb. DovrÚ ritornare ai Moli e consegnarglielo.~
+Ho trovato il libro che stava cercando il mago Ceeb. Dovr√≤ ritornare ai Moli e consegnarglielo.~

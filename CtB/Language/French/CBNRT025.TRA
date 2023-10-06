@@ -1,94 +1,94 @@
-@1 = ~Trop longtemps ton honneur tu as négligé. La bienvenue dans notre tribu, nous aimerions te souhaiter.~
-@2 = ~Apprendre par toi-même ce que signifie faire partie de notre peuple tu dois.~
-@3 = ~L'heure pour toi de te souvenir est venue. Pour gagner ta place dans notre tribu, commencer une quête, tu dois.~
-@4 = ~Perdu, nous avons, un bâton très puissant. Paresseuse et affaiblie notre tribu est devenue. Le retrouver pour nous tu dois. D'un simple bâton de Chaman il s'agit. Le revoir nous voulons.~
-@5 = ~Où est le bâton ou qui le possède nous ignorons. Le retrouver tu dois.~
+@1 = ~Trop longtemps ton honneur tu as nÃ©gligÃ©. La bienvenue dans notre tribu, nous aimerions te souhaiter.~
+@2 = ~Apprendre par toi-mÃªme ce que signifie faire partie de notre peuple tu dois.~
+@3 = ~L'heure pour toi de te souvenir est venue. Pour gagner ta place dans notre tribu, commencer une quÃªte, tu dois.~
+@4 = ~Perdu, nous avons, un bÃ¢ton trÃ¨s puissant. Paresseuse et affaiblie notre tribu est devenue. Le retrouver pour nous tu dois. D'un simple bÃ¢ton de Chaman il s'agit. Le revoir nous voulons.~
+@5 = ~OÃ¹ est le bÃ¢ton ou qui le possÃ¨de nous ignorons. Le retrouver tu dois.~
 @6 = ~Venir nous voir pour ton bien est.~
-@7 = ~S'entretenir avec nous l'apprenti veut. Ce que tu as découvert, dis-le nous.~ ~S'entretenir avec nous l'apprentie veut. Ce que tu as découvert, dis-le nous.~
-@8 = ~J'ai le bâton que vous m'avez demandé de retrouver.~
-@9 = ~Je n'ai pas encore retrouvé le bâton.~
-@10 = ~Qu'étais-je supposé faire pour vous déjà ?~ ~Qu'étais-je supposée faire pour vous déjà ?~
-@11 = ~Pour avoir retrouvé le bâton du Chaman, nous te remercions. Apprendre à suivre notre voie tu vas commencer.~
-@12 = ~Une partie de nos coutumes et traditions apprendre tu dois. La méditation et l'entraînement dans la vie sauvage tu vas pratiquer.~
-@13 = ~Une partie de nos traditions tu as appris. Pour la tribu, une fois de plus t'entraîner tu vas.~
-@14 = ~Une partie de nos traditions tu as appris. Pour la tribu, une fois de plus t'entraîner tu vas.~
-@15 = ~De bonnes choses, <GABBER>, tu as faites. D'autres épreuves tu vas subir. Prêt es-tu ?~ ~De bonnes choses, <GABBER>, tu as faites. D'autres épreuves tu vas subir. Prête es-tu ?~
-@16 = ~Oui. Dites-moi ce qui doit être fait.~
+@7 = ~S'entretenir avec nous l'apprenti veut. Ce que tu as dÃ©couvert, dis-le nous.~ ~S'entretenir avec nous l'apprentie veut. Ce que tu as dÃ©couvert, dis-le nous.~
+@8 = ~J'ai le bÃ¢ton que vous m'avez demandÃ© de retrouver.~
+@9 = ~Je n'ai pas encore retrouvÃ© le bÃ¢ton.~
+@10 = ~Qu'Ã©tais-je supposÃ© faire pour vous dÃ©jÃ  ?~ ~Qu'Ã©tais-je supposÃ©e faire pour vous dÃ©jÃ  ?~
+@11 = ~Pour avoir retrouvÃ© le bÃ¢ton du Chaman, nous te remercions. Apprendre Ã  suivre notre voie tu vas commencer.~
+@12 = ~Une partie de nos coutumes et traditions apprendre tu dois. La mÃ©ditation et l'entraÃ®nement dans la vie sauvage tu vas pratiquer.~
+@13 = ~Une partie de nos traditions tu as appris. Pour la tribu, une fois de plus t'entraÃ®ner tu vas.~
+@14 = ~Une partie de nos traditions tu as appris. Pour la tribu, une fois de plus t'entraÃ®ner tu vas.~
+@15 = ~De bonnes choses, <GABBER>, tu as faites. D'autres Ã©preuves tu vas subir. PrÃªt es-tu ?~ ~De bonnes choses, <GABBER>, tu as faites. D'autres Ã©preuves tu vas subir. PrÃªte es-tu ?~
+@16 = ~Oui. Dites-moi ce qui doit Ãªtre fait.~
 @17 = ~Non, j'ai besoin de plus de temps.~
-@18 = ~La voie de l'Homme du Nord apprendre tu dois. Limitée est ta valeur en tant que membre du clan. Prépare-toi. Revenir nous voir tu dois une fois que prêt tu seras.~ ~La voie de l'Homme du Nord apprendre tu dois. Limitée est ta valeur en tant que membre du clan. Revenir nous voir tu dois une fois que prête tu seras.~
-@19 = ~Ta prochaine tâche tu vas commencer. Des explications nous allons te donner.~ 
-@20 = ~C'est toi, <CHARNAME>, que de cette mission nous chargeons. La menace sur notre tribu nous devons éliminer. Sur tes épaules le destin de notre peuple repose.~
-@21 = ~Où puis-je trouver cette présence, Ancien Révéré ?~
-@22 = ~Je ferai de mon mieux, Ancien Révéré.~
-@23 = ~Ancien Révéré, je doute que mes compétences seules suffiront à éliminer cette menace.~
-@24 = ~Dans la région, sentir le Mal nous pouvons toujours. Accompli ta mission tu n'as pas, nous le savons.~
-@25 = ~Je n'arrive pas à trouver cette présence. Savez-vous où elle se trouve ?~
-@26 = ~Va si tu le peux, <GABBER>. Va détruire le Mal.~
-@27 = ~<GABBER> ! La guerre dans nos contrées les Luskaniens ont apportée. Les repousser vers l'océan tu dois.~
-@28 = ~Hors de notre île repousser les Luskaniens tu dois !~
-@29 = ~De bien des choses parler nous devons. La présence maléfique nous ne sentons plus. Détruite est-elle ?~
-@30 = ~Non, Ancien Révéré. Je l'aie bannie, pas détruite.~
-@31 = ~Oui, Ancien Révéré. J'ai détruit cette chose, quoi que ce fût.~
-@32 = ~Et de nos contrées qu'en est-il ? Des Luskaniens sommes-nous débarrassés ?~
-@33 = ~Oui, Ancien. J'ai repoussé leurs attaques et bouté la menace hors de Ruathym.~
-@34 = ~Terminé c'est donc. Bien agi tu as, <GABBER>. De notre tribu plus proche tu es.~
-@35 = ~Parle-nous, <GABBER>, avant de partir. Par tes méditations, de quoi espères-tu t'échapper ?~
-@36 = ~Je veux apprendre à survivre dans le milieu sauvage.~
-@37 = ~Je veux apprendre à terroriser mes ennemis avec un terrible Cri de Guerre.~
-@38 = ~Je veux apprendre à vaincre un homme d'un seul Coup Fatal.~
-@39 = ~Dans ta quête de méditation bonne chance nous te souhaitons. Avec le savoir que tu cherches revenir ici tu dois.~
-@40 = ~Un vrai barbare du nord, en apprenant les coutumes et les traditions, tu deviens. Avant de t'enseigner autre chose, une quête finale pour toi nous avons.~ ~Une vraie barbare du nord, en apprenant les coutumes et les traditions, tu deviens. Avant de t'enseigner autre chose, une quête finale pour toi nous avons.~
+@18 = ~La voie de l'Homme du Nord apprendre tu dois. LimitÃ©e est ta valeur en tant que membre du clan. PrÃ©pare-toi. Revenir nous voir tu dois une fois que prÃªt tu seras.~ ~La voie de l'Homme du Nord apprendre tu dois. LimitÃ©e est ta valeur en tant que membre du clan. Revenir nous voir tu dois une fois que prÃªte tu seras.~
+@19 = ~Ta prochaine tÃ¢che tu vas commencer. Des explications nous allons te donner.~ 
+@20 = ~C'est toi, <CHARNAME>, que de cette mission nous chargeons. La menace sur notre tribu nous devons Ã©liminer. Sur tes Ã©paules le destin de notre peuple repose.~
+@21 = ~OÃ¹ puis-je trouver cette prÃ©sence, Ancien RÃ©vÃ©rÃ© ?~
+@22 = ~Je ferai de mon mieux, Ancien RÃ©vÃ©rÃ©.~
+@23 = ~Ancien RÃ©vÃ©rÃ©, je doute que mes compÃ©tences seules suffiront Ã  Ã©liminer cette menace.~
+@24 = ~Dans la rÃ©gion, sentir le Mal nous pouvons toujours. Accompli ta mission tu n'as pas, nous le savons.~
+@25 = ~Je n'arrive pas Ã  trouver cette prÃ©sence. Savez-vous oÃ¹ elle se trouve ?~
+@26 = ~Va si tu le peux, <GABBER>. Va dÃ©truire le Mal.~
+@27 = ~<GABBER> ! La guerre dans nos contrÃ©es les Luskaniens ont apportÃ©e. Les repousser vers l'ocÃ©an tu dois.~
+@28 = ~Hors de notre Ã®le repousser les Luskaniens tu dois !~
+@29 = ~De bien des choses parler nous devons. La prÃ©sence malÃ©fique nous ne sentons plus. DÃ©truite est-elle ?~
+@30 = ~Non, Ancien RÃ©vÃ©rÃ©. Je l'aie bannie, pas dÃ©truite.~
+@31 = ~Oui, Ancien RÃ©vÃ©rÃ©. J'ai dÃ©truit cette chose, quoi que ce fÃ»t.~
+@32 = ~Et de nos contrÃ©es qu'en est-il ? Des Luskaniens sommes-nous dÃ©barrassÃ©s ?~
+@33 = ~Oui, Ancien. J'ai repoussÃ© leurs attaques et boutÃ© la menace hors de Ruathym.~
+@34 = ~TerminÃ© c'est donc. Bien agi tu as, <GABBER>. De notre tribu plus proche tu es.~
+@35 = ~Parle-nous, <GABBER>, avant de partir. Par tes mÃ©ditations, de quoi espÃ¨res-tu t'Ã©chapper ?~
+@36 = ~Je veux apprendre Ã  survivre dans le milieu sauvage.~
+@37 = ~Je veux apprendre Ã  terroriser mes ennemis avec un terrible Cri de Guerre.~
+@38 = ~Je veux apprendre Ã  vaincre un homme d'un seul Coup Fatal.~
+@39 = ~Dans ta quÃªte de mÃ©ditation bonne chance nous te souhaitons. Avec le savoir que tu cherches revenir ici tu dois.~
+@40 = ~Un vrai barbare du nord, en apprenant les coutumes et les traditions, tu deviens. Avant de t'enseigner autre chose, une quÃªte finale pour toi nous avons.~ ~Une vraie barbare du nord, en apprenant les coutumes et les traditions, tu deviens. Avant de t'enseigner autre chose, une quÃªte finale pour toi nous avons.~
 @41 = ~<GABBER>, tu le feras, nous le savons.~
-@42 = ~A nouveau bien agi tu as. Travaillé et combattu pour notre peuple tu as. Le marteau je vais enchanter. Garde-le mieux que je ne l'ai fait. Dans tes aventures il te servira bien.~
-@43 = ~Toujours de ton mieux nous avons attendu. Toujours de ton mieux tu as agi. Apprendre une dernière compétence, d'après nos coutumes, tu dois.~
-@44 = ~Dans la nature sauvage, va et découvre toi, toi-même, <GABBER>. Apprends le Combat en aveugle.~
-@45 = ~Dans la nature sauvage, va et découvre toi, toi-même, <GABBER>. Apprends l'état de Rage.~
-@46 = ~Dans la nature sauvage, va et découvre toi, toi-même, <GABBER>. Apprends la Résistance d'Acier.~
-@47 = ~Dans la nature sauvage, va et découvre toi, toi-même, <GABBER>. Apprends l'Utilisation des Objets.~
+@42 = ~A nouveau bien agi tu as. TravaillÃ© et combattu pour notre peuple tu as. Le marteau je vais enchanter. Garde-le mieux que je ne l'ai fait. Dans tes aventures il te servira bien.~
+@43 = ~Toujours de ton mieux nous avons attendu. Toujours de ton mieux tu as agi. Apprendre une derniÃ¨re compÃ©tence, d'aprÃ¨s nos coutumes, tu dois.~
+@44 = ~Dans la nature sauvage, va et dÃ©couvre toi, toi-mÃªme, <GABBER>. Apprends le Combat en aveugle.~
+@45 = ~Dans la nature sauvage, va et dÃ©couvre toi, toi-mÃªme, <GABBER>. Apprends l'Ã©tat de Rage.~
+@46 = ~Dans la nature sauvage, va et dÃ©couvre toi, toi-mÃªme, <GABBER>. Apprends la RÃ©sistance d'Acier.~
+@47 = ~Dans la nature sauvage, va et dÃ©couvre toi, toi-mÃªme, <GABBER>. Apprends l'Utilisation des Objets.~
 @48 = ~L'Utilisation des Objets tu as apprise.~
 @49 = ~L'Utilisation des Objets tu n'as pas apprise.~
-@50 = ~L'état de Rage tu as appris à atteindre.~
-@51 = ~Dur comme l'Acier tu as appris à devenir.~
+@50 = ~L'Ã©tat de Rage tu as appris Ã  atteindre.~
+@51 = ~Dur comme l'Acier tu as appris Ã  devenir.~
 @52 = ~Le Combat en aveugle tu as appris.~
-@53 = ~En tant que membre de la tribu nous te reconnaissons. Dans cette maison, à bras ouverts, nous t'accueillons. Honore toujours les leçons que tu as apprises lorsque cette maison tu quittes.~
+@53 = ~En tant que membre de la tribu nous te reconnaissons. Dans cette maison, Ã  bras ouverts, nous t'accueillons. Honore toujours les leÃ§ons que tu as apprises lorsque cette maison tu quittes.~
 @54 = ~Un membre de notre peuple tu n'es pas. De quitter notre maison nous te demandons.~
-@55 = ~L'un de nos frères guerriers tu pourrais être, car tes coutumes et tes traditions tu honores. En faisant ainsi, fier tu me rends.~ ~L'une de nos soeurs guerrières tu pourrais être, car tes coutumes et tes traditions tu honores. En faisant ainsi, fier tu me rends.~
+@55 = ~L'un de nos frÃ¨res guerriers tu pourrais Ãªtre, car tes coutumes et tes traditions tu honores. En faisant ainsi, fier tu me rends.~ ~L'une de nos soeurs guerriÃ¨res tu pourrais Ãªtre, car tes coutumes et tes traditions tu honores. En faisant ainsi, fier tu me rends.~
 @56 = ~Relations Tribales
 
-Le Conseil des Anciens du Nord, pour lequel je travaille dans le but de gagner ma place au sein de cette tribu de barbares et de guerriers, m'a confié une nouvelle tâche. Je dois voyager à travers les océans à nouveau, de retour vers la ville d'Athkatla, où je dois localiser, et faire disparaître, un Mal que les anciens ont senti. Ils ne sont pas sûrs de la position exacte de cette présence, mais savent qu'elle doit être débusquée avant qu'elle n'attaque les bonnes gens de Toril.~
+Le Conseil des Anciens du Nord, pour lequel je travaille dans le but de gagner ma place au sein de cette tribu de barbares et de guerriers, m'a confiÃ© une nouvelle tÃ¢che. Je dois voyager Ã  travers les ocÃ©ans Ã  nouveau, de retour vers la ville d'Athkatla, oÃ¹ je dois localiser, et faire disparaÃ®tre, un Mal que les anciens ont senti. Ils ne sont pas sÃ»rs de la position exacte de cette prÃ©sence, mais savent qu'elle doit Ãªtre dÃ©busquÃ©e avant qu'elle n'attaque les bonnes gens de Toril.~
 @57 = ~Relations Tribales
 
-J'ai rencontré une tribu d'hommes du Nord : un peuple semi-civilisé habitant les contrées inhospitalières de Ruathym, à des centaines de lieues d'Eauprofonde et de la Côte des Epées. Ils m'ont fait savoir que si je voulais intégrer leur société, je devrais accomplir pour eux un certain nombre de quêtes. La première d'entre elles est de leur retrouver un bâton de Chaman, un objet magique de puissance mineure, et de le ramener au Conseil des Anciens le plus vite possible.~
+J'ai rencontrÃ© une tribu d'hommes du Nord : un peuple semi-civilisÃ© habitant les contrÃ©es inhospitaliÃ¨res de Ruathym, Ã  des centaines de lieues d'Eauprofonde et de la CÃ´te des EpÃ©es. Ils m'ont fait savoir que si je voulais intÃ©grer leur sociÃ©tÃ©, je devrais accomplir pour eux un certain nombre de quÃªtes. La premiÃ¨re d'entre elles est de leur retrouver un bÃ¢ton de Chaman, un objet magique de puissance mineure, et de le ramener au Conseil des Anciens le plus vite possible.~
 @58 = ~Apprentissage Tribal
 
-Le Conseil des Anciens de Ruathym m'a permis de faire partie de leur tribu, cette fois en m'apprenant comment utiliser une variété de pièges pour capturer ou blesser mes ennemis.~
+Le Conseil des Anciens de Ruathym m'a permis de faire partie de leur tribu, cette fois en m'apprenant comment utiliser une variÃ©tÃ© de piÃ¨ges pour capturer ou blesser mes ennemis.~
 @59 = ~Apprentissage Tribal
 
-Le Conseil des Anciens de Ruathym m'a permis de faire partie de leur tribu, cette fois en m'apprenant comment déclencher une attaque puissante contre un adversaire.~
+Le Conseil des Anciens de Ruathym m'a permis de faire partie de leur tribu, cette fois en m'apprenant comment dÃ©clencher une attaque puissante contre un adversaire.~
 @60 = ~Apprentissage Tribal
 
-Le Conseil des Anciens de Ruathym m'a permis de faire partie de leur tribu, cette fois en m'apprenant comment entrer en état de rage de berserker.~
+Le Conseil des Anciens de Ruathym m'a permis de faire partie de leur tribu, cette fois en m'apprenant comment entrer en Ã©tat de rage de berserker.~
 @61 = ~Relations Tribales
 
-Comme le Conseil des Anciens du Nord me l'a demandé, je suis retourné sur le continent où j'ai du faire face - et vaincre - un démon puissant qui a trouvé un moyen de passer des plans éthérés à Féérune. Lorsque je suis retourné sur l'île de Ruathym, j'ai rencontré des forces armées qui venaient de Luskan, la ville du nord de la Côte des Epées, qui, comme elle l'a fait pendant des années, tentait de conquérir l'île. J'ai été capable de repousser les intrus, et j'ai été récompensé par le Conseil des Anciens une fois la menace Luskanienne défaite.~
+Comme le Conseil des Anciens du Nord me l'a demandÃ©, je suis retournÃ© sur le continent oÃ¹ j'ai du faire face - et vaincre - un dÃ©mon puissant qui a trouvÃ© un moyen de passer des plans Ã©thÃ©rÃ©s Ã  FÃ©Ã©rune. Lorsque je suis retournÃ© sur l'Ã®le de Ruathym, j'ai rencontrÃ© des forces armÃ©es qui venaient de Luskan, la ville du nord de la CÃ´te des EpÃ©es, qui, comme elle l'a fait pendant des annÃ©es, tentait de conquÃ©rir l'Ã®le. J'ai Ã©tÃ© capable de repousser les intrus, et j'ai Ã©tÃ© rÃ©compensÃ© par le Conseil des Anciens une fois la menace Luskanienne dÃ©faite.~
 @62 = ~Relations Tribales
 
-Je me suis vu confier une autre tâche par les anciens des Hommes du Nord, cette fois je dois trouver des matériaux pour reforger un puissant marteau de guerre. Lorsque j'aurai trouvé les ingrédients appropriés, je dois les ramener au nain Cromwell à Athkatla pour qu'ils soient forgés.~
+Je me suis vu confier une autre tÃ¢che par les anciens des Hommes du Nord, cette fois je dois trouver des matÃ©riaux pour reforger un puissant marteau de guerre. Lorsque j'aurai trouvÃ© les ingrÃ©dients appropriÃ©s, je dois les ramener au nain Cromwell Ã  Athkatla pour qu'ils soient forgÃ©s.~
 @63 = ~Relations Tribales 
 
-Après avoir demandé à Cromwell de reforger le marteau magique de Lokin, je suis retourné voir le conseil des anciens à Ruathym. Il m'ont récompensé en dotant l'arme de nouvelles propriétés magiques et en me donnant le marteau de guerre enchanté comme un cadeau pour mon aide à la tribu des Hommes du Nord. Les anciens m'ont appris qu'il me fallait utiliser ce marteau avec honneur.~
+AprÃ¨s avoir demandÃ© Ã  Cromwell de reforger le marteau magique de Lokin, je suis retournÃ© voir le conseil des anciens Ã  Ruathym. Il m'ont rÃ©compensÃ© en dotant l'arme de nouvelles propriÃ©tÃ©s magiques et en me donnant le marteau de guerre enchantÃ© comme un cadeau pour mon aide Ã  la tribu des Hommes du Nord. Les anciens m'ont appris qu'il me fallait utiliser ce marteau avec honneur.~
 @64 = ~Apprentissage Tribal
 
-Pour avoir accompli les tâches que le Conseil des Anciens du Nord m'a assignées, les Anciens m'ont appris comment utiliser tous les objets que je désire.~
+Pour avoir accompli les tÃ¢ches que le Conseil des Anciens du Nord m'a assignÃ©es, les Anciens m'ont appris comment utiliser tous les objets que je dÃ©sire.~
 @65 = ~Apprentissage Tribal
 
-Pour avoir accompli les tâches que le Conseil des Anciens du Nord m'a assignées, les Anciens ont essayé de m'apprendre comment utiliser tous les objets que je désire, mais je n'ai pas été capable d'assimiler leurs instructions.~
+Pour avoir accompli les tÃ¢ches que le Conseil des Anciens du Nord m'a assignÃ©es, les Anciens ont essayÃ© de m'apprendre comment utiliser tous les objets que je dÃ©sire, mais je n'ai pas Ã©tÃ© capable d'assimiler leurs instructions.~
 @66 = ~Apprentissage Tribal
 
-Pour avoir accompli les tâches que le Conseil des Anciens du Nord m'a assignées, les Anciens m'ont appris comment entrer dans état de Rage.~
+Pour avoir accompli les tÃ¢ches que le Conseil des Anciens du Nord m'a assignÃ©es, les Anciens m'ont appris comment entrer dans Ã©tat de Rage.~
 @67 = ~Apprentissage Tribal
 
-Pour avoir accompli les tâches que le Conseil des Anciens du Nord m'a assignées, les Anciens m'ont appris la compétence de Résistance d'Acier.~
+Pour avoir accompli les tÃ¢ches que le Conseil des Anciens du Nord m'a assignÃ©es, les Anciens m'ont appris la compÃ©tence de RÃ©sistance d'Acier.~
 @68 = ~Relations Tribales
 
-Pour avoir accompli les tâches que le conseil des Anciens du Nord m'a assignées, les Anciens m'ont appris l'art de combattre en aveugle, ou comment se battre dans le noir et dans la pénombre.~
+Pour avoir accompli les tÃ¢ches que le conseil des Anciens du Nord m'a assignÃ©es, les Anciens m'ont appris l'art de combattre en aveugle, ou comment se battre dans le noir et dans la pÃ©nombre.~

@@ -1,136 +1,136 @@
-@3   = ~Parece ser que podéis forjar algunas armas realmente magníficas. Me preguntaba si también realizáis trabajos con plata o metales, o sólo armas.~ 
-@5   = ~Necesito que hagáis algo, buen Cromwell. Necesito destruir este artefacto. Es de una gran maldad, y no debe ser encontrado. Cógedlo, cógedlo y destruidlo.~ 
-@38  = ~Hummmm... ¿qué es esto? Algún tipo de escama de una bestia, ¿verdad?~
-@40  = ~¿Qué supondría eso?~
-@41  = ~Creo que no. ¿No tengo nada más que os sirva?~
-@89  = ~Eso suena bien. Hagámoslo.~
-@90  = ~No, me parece que no. ¿Tengo alguna otra cosa que podáis utilizar?~
+@3   = ~Parece ser que podÃ©is forjar algunas armas realmente magnÃ­ficas. Me preguntaba si tambiÃ©n realizÃ¡is trabajos con plata o metales, o sÃ³lo armas.~ 
+@5   = ~Necesito que hagÃ¡is algo, buen Cromwell. Necesito destruir este artefacto. Es de una gran maldad, y no debe ser encontrado. CÃ³gedlo, cÃ³gedlo y destruidlo.~ 
+@38  = ~Hummmm... Â¿quÃ© es esto? AlgÃºn tipo de escama de una bestia, Â¿verdad?~
+@40  = ~Â¿QuÃ© supondrÃ­a eso?~
+@41  = ~Creo que no. Â¿No tengo nada mÃ¡s que os sirva?~
+@89  = ~Eso suena bien. HagÃ¡moslo.~
+@90  = ~No, me parece que no. Â¿Tengo alguna otra cosa que podÃ¡is utilizar?~
 @91  = ~No, creo que no. Me parece que me voy a ir.~
-@99  = ~Sí, habéis recogido las escamas de un Dragón Azul. Por el Forjador de Almas, es una hermosa visión. Puedo hacer una armadura con esas escamas, si queréis.~
-@100 = ~Dos cosas, amigo. Primero 8.000 piezas de oro por el trabajo, no menos, y luego, como no tengo aprendiz, tendréis que quedaros aquí todo el día para ayudarme a mantener la forja encendida.~
-~Dos cosas, amiga. Primero 8.000 piezas de oro por el trabajo, no menos, y luego, como no tengo aprendiz, tendréis que quedaros aquí todo el día para ayudarme a mantener la forja encendida.~
-@101 = ~Claro que puedo hacerlo, amigo mío. Mi padre me introdujo en el arte, y puedo forjar casi cualquier cosa, desde cucharas hasta estatuas.~
-~Claro puedo hacerlo, amiga mía. Mi padre me introdujo en el arte, y puedo forjar casi cualquier cosa, desde cucharas hasta estatuas.~
-@102 = ~Me parece que queréis algo especialmente bello. Venga, contadme vuestros planes, estoy impaciente. ¿Qué queréis que haga?~
-@103 = ~Una corona. Necesito una corona que sea lo mas parecida a cierto objeto mágico. Pero no sé que aspecto tiene. Se le conoce como la Corona Astada, y es bastante rara.~
-@104 = ~Si no sabéis que aspecto tiene la maldita cosa, ¡por la barba de Clangeddin!, ¿cómo esperáis que la fabrique?~
-@105 = ~No lo sé, Cromwell. Pero es realmente importante. Hay un mago que posee el original, y está planeando hacer algo realmente peligroso. Tengo que detenerle.~
-@106 = ~Entonces tenemos un problema. ¿Tenéis alguna idea de cómo se fabrica?~
-@107 = ~Todo lo que sé es que conocí una maga que me dió una lista de materiales. Tengo que encontrar las partes, y luego se supone que hay que encantarlas. ¿Podríais hacerlo si las encuentro?~
-@108 = ~En realidad, me dijeron que estas son las partes necesarias para hacer una imitación, las que tengo aqui. ¿Creeís que podríais hacerlo?~
-@109 = ~No sé, amigo mío. Suena importante, y lo haré lo mejor que pueda, pero sin siquiera ver lo que se supone que he de forjar, me temo que nadie se dejará engañar por la copia.~
-~No sé, amiga mía. Suena importante, y lo haré lo mejor que pueda, pero sin siquiera ver lo que se supone que he de forjar, me temo que nadie se dejará engañar por la copia.~
-@110 = ~Hacedlo lo mejor que podáis, Cromwell, eso es lo importante.~
-@111 = ~Como digáis. Cuando salgáis tened cuidado con el lío que hay, <GIRLBOY>.~
-@112 = ~No está claro, <GABBER>. Podemos intentarlo, pero no es seguro que engañéis a ese mago del que habláis.~
-@113 = ~Está bien. ¿Por qué no cogéis todo esto, y probamos a ver qué pasa?~
-@114 = ~Bueno, no sé si funcionará, y no quiero desperdiciar todo este material. Dejadme ver si puedo encontrar alguna información sobre la auténtica Corona Astada.~
-@115 = ~Eso sería lo mejor, <GABBER>. Quizás con la auténtica, o una pintura, o algo así. Para engañar a alguien lo ideal es saber qué aspecto tiene lo que voy a forjar.~
-@116 = ~Como siempre, <GIRLBOY>, cuando salgáis tened cuidado con el lío que hay.~
-@117 = ~Si estáis seguro, lo intentaré. No os prometo nada, pero lo haré lo mejor que pueda.~
-~Si estáis segura, lo intentaré. No os prometo nada, pero lo haré lo mejor que pueda.~
-@118 = ~Vaya, parece que ha funcionado. Creo que esta corona podría serviros para lo que quiera que sea estéis planeando hacer con ese mago.~
-@119 = ~Gracias, Cromwell. Espero que crea que es la auténtica.~
-@120 = ~Creo que no ha funcionado. Parece como si necesitara más piezas, o un vistazo a la corona auténtica. Si queréis que lo intente de nuevo, traedme las partes y probaré de nuevo.~
-@121 = ~Gracias de todas formas, Cromwell. Aún no sé lo que haré.~
-@122 = ~Normalmente me dedico a crear trabajos de metal o piezas de arte: plata, acero y hierro. No destrozo cosas. Pero si decís que debe ser destruido, puedo hacerlo por vos, amigo. Venid, dejadme verlo.~
-~Normalmente me dedico a crear trabajos de metal o piezas de arte: plata, acero y hierro. No destrozo cosas. Pero si decís que debe ser destruido, puedo hacerlo por vos, amiga. Venid, dejadme verlo.~
-@123 = ~Mirad esto. Una empuñadura. La maldita cosa está rota. ¿Cómo vais a usarla?~
-@124 = ~¿Para qué es esto?~
+@99  = ~SÃ­, habÃ©is recogido las escamas de un DragÃ³n Azul. Por el Forjador de Almas, es una hermosa visiÃ³n. Puedo hacer una armadura con esas escamas, si querÃ©is.~
+@100 = ~Dos cosas, amigo. Primero 8.000 piezas de oro por el trabajo, no menos, y luego, como no tengo aprendiz, tendrÃ©is que quedaros aquÃ­ todo el dÃ­a para ayudarme a mantener la forja encendida.~
+~Dos cosas, amiga. Primero 8.000 piezas de oro por el trabajo, no menos, y luego, como no tengo aprendiz, tendrÃ©is que quedaros aquÃ­ todo el dÃ­a para ayudarme a mantener la forja encendida.~
+@101 = ~Claro que puedo hacerlo, amigo mÃ­o. Mi padre me introdujo en el arte, y puedo forjar casi cualquier cosa, desde cucharas hasta estatuas.~
+~Claro puedo hacerlo, amiga mÃ­a. Mi padre me introdujo en el arte, y puedo forjar casi cualquier cosa, desde cucharas hasta estatuas.~
+@102 = ~Me parece que querÃ©is algo especialmente bello. Venga, contadme vuestros planes, estoy impaciente. Â¿QuÃ© querÃ©is que haga?~
+@103 = ~Una corona. Necesito una corona que sea lo mas parecida a cierto objeto mÃ¡gico. Pero no sÃ© que aspecto tiene. Se le conoce como la Corona Astada, y es bastante rara.~
+@104 = ~Si no sabÃ©is que aspecto tiene la maldita cosa, Â¡por la barba de Clangeddin!, Â¿cÃ³mo esperÃ¡is que la fabrique?~
+@105 = ~No lo sÃ©, Cromwell. Pero es realmente importante. Hay un mago que posee el original, y estÃ¡ planeando hacer algo realmente peligroso. Tengo que detenerle.~
+@106 = ~Entonces tenemos un problema. Â¿TenÃ©is alguna idea de cÃ³mo se fabrica?~
+@107 = ~Todo lo que sÃ© es que conocÃ­ una maga que me diÃ³ una lista de materiales. Tengo que encontrar las partes, y luego se supone que hay que encantarlas. Â¿PodrÃ­ais hacerlo si las encuentro?~
+@108 = ~En realidad, me dijeron que estas son las partes necesarias para hacer una imitaciÃ³n, las que tengo aqui. Â¿CreeÃ­s que podrÃ­ais hacerlo?~
+@109 = ~No sÃ©, amigo mÃ­o. Suena importante, y lo harÃ© lo mejor que pueda, pero sin siquiera ver lo que se supone que he de forjar, me temo que nadie se dejarÃ¡ engaÃ±ar por la copia.~
+~No sÃ©, amiga mÃ­a. Suena importante, y lo harÃ© lo mejor que pueda, pero sin siquiera ver lo que se supone que he de forjar, me temo que nadie se dejarÃ¡ engaÃ±ar por la copia.~
+@110 = ~Hacedlo lo mejor que podÃ¡is, Cromwell, eso es lo importante.~
+@111 = ~Como digÃ¡is. Cuando salgÃ¡is tened cuidado con el lÃ­o que hay, <GIRLBOY>.~
+@112 = ~No estÃ¡ claro, <GABBER>. Podemos intentarlo, pero no es seguro que engaÃ±Ã©is a ese mago del que hablÃ¡is.~
+@113 = ~EstÃ¡ bien. Â¿Por quÃ© no cogÃ©is todo esto, y probamos a ver quÃ© pasa?~
+@114 = ~Bueno, no sÃ© si funcionarÃ¡, y no quiero desperdiciar todo este material. Dejadme ver si puedo encontrar alguna informaciÃ³n sobre la autÃ©ntica Corona Astada.~
+@115 = ~Eso serÃ­a lo mejor, <GABBER>. QuizÃ¡s con la autÃ©ntica, o una pintura, o algo asÃ­. Para engaÃ±ar a alguien lo ideal es saber quÃ© aspecto tiene lo que voy a forjar.~
+@116 = ~Como siempre, <GIRLBOY>, cuando salgÃ¡is tened cuidado con el lÃ­o que hay.~
+@117 = ~Si estÃ¡is seguro, lo intentarÃ©. No os prometo nada, pero lo harÃ© lo mejor que pueda.~
+~Si estÃ¡is segura, lo intentarÃ©. No os prometo nada, pero lo harÃ© lo mejor que pueda.~
+@118 = ~Vaya, parece que ha funcionado. Creo que esta corona podrÃ­a serviros para lo que quiera que sea estÃ©is planeando hacer con ese mago.~
+@119 = ~Gracias, Cromwell. Espero que crea que es la autÃ©ntica.~
+@120 = ~Creo que no ha funcionado. Parece como si necesitara mÃ¡s piezas, o un vistazo a la corona autÃ©ntica. Si querÃ©is que lo intente de nuevo, traedme las partes y probarÃ© de nuevo.~
+@121 = ~Gracias de todas formas, Cromwell. AÃºn no sÃ© lo que harÃ©.~
+@122 = ~Normalmente me dedico a crear trabajos de metal o piezas de arte: plata, acero y hierro. No destrozo cosas. Pero si decÃ­s que debe ser destruido, puedo hacerlo por vos, amigo. Venid, dejadme verlo.~
+~Normalmente me dedico a crear trabajos de metal o piezas de arte: plata, acero y hierro. No destrozo cosas. Pero si decÃ­s que debe ser destruido, puedo hacerlo por vos, amiga. Venid, dejadme verlo.~
+@123 = ~Mirad esto. Una empuÃ±adura. La maldita cosa estÃ¡ rota. Â¿CÃ³mo vais a usarla?~
+@124 = ~Â¿Para quÃ© es esto?~
 @125 = ~Cromwell, es parte de una espada. Una Hoja Lunar, de hecho. Quiero reconstruirla.~
-@126 = ~¿Una Hoja Lunar, decís? ¡Las maravillas nunca cesan! Hace mucho tiempo que no veía una de éstas. ¿Cómo la rompisteis?~
-@127 = ~No la rompí. Tengo que arreglarla, pero no sé lo que necesito para ello. ¿Alguna idea?~
-@128 = ~Sólo hay una cosa que se pueda usar para forjar Hojas Lunares. Persephonium. Necesitaríais conseguir algo de las minas de Ierlann. En el Castillo de la Puerta del Infierno solían extraer persephonium, pero los condenados demonios le pusieron fin a eso.~
-@129 = ~Deberíais traerme algo de persephonium, y tan seguro como que Clangeddin tiene un martillo, podré forjar la hoja. Quizás la empuñadura aún retenga sus poderes, pero de todas maneras tendréis una hoja élfica excelente.~
-@130 = ~Muy bien, Cromwell. Intentaré encontrar algo de persephonium. Gracias.~
-@131 = ~Mirad esto. Tenéis una empuñadura. Está rota, pero tan seguro como que mi barba es larga, sé lo que es y cómo arreglarla. ¡Incluso tenéis algo de metal para repararla!~
-@132 = ~Esta es la empuñadura de una Hoja Lunar, <GABBER>, una poderosa espada élfica. Nunca había visto una que estuviera rota, pero tenéis persephonium, el único metal que puede usarse para reforjar estas hojas.~
-@133 = ~No sé si estuvisteis en Ierlann o en Eterlûnd, y apostaría mi martillo a que no estuviste en Siempreunidos, pero de alguna manera os hicisteis con el metal.~
-@134 = ~Ahora, ¿queréis reforjar esta espada?~
-@135 = ~Bueno, las Hojas Lunares, en realidad, son armas élficas arriesgadas de manejar. Me llevará un par de días prepararla por completo, y entonces deberéis venir para ayudarme. Mi aprendiz está en Adbar, y no tengo ayuda suficiente. También os costará, unas buenas 25.000 piezas de oro por el uso de la forja. ¿Aún queréis hacerlo?~
-@136 = ~Sí, Cromwell. Aquí tenéis el oro y los componentes. Regresaré en unos días y os ayudaré.~
-@137 = ~Sí, Cromwell, pero aún no tengo el dinero. Volveré con él.~
-@138 = ~No ahora, Cromwell. Quizás más tarde.~
-@139 = ~Dádmelo, <GABBER>. Lo tendré todo preparado para entonces.~
-@140 = ~Si conseguís bastante, venid a verme. No comenzaré los preparativos hasta que aportéis el dinero.~
-@141 = ~De acuerdo, <GABBER>, como deseéis. Pero una Hoja Lunar es algo digno de ser atesorado, cuanto antes tengáis una, mejor seréis.~
-@142 = ~Aún no he terminado los preparativos para forjar la Hoja Lunar. Id y volved más tarde.~
-@143 = ~Llegáis a tiempo, <GABBER>. Ya está todo preparado para forjar la Hoja Lunar. ¿Podéis ayudarme?~
-@144 = ~Sí, Cromwell. Comencemos.~
-@145 = ~Aún no, Cromwell. Dadme unas horas más.~
+@126 = ~Â¿Una Hoja Lunar, decÃ­s? Â¡Las maravillas nunca cesan! Hace mucho tiempo que no veÃ­a una de Ã©stas. Â¿CÃ³mo la rompisteis?~
+@127 = ~No la rompÃ­. Tengo que arreglarla, pero no sÃ© lo que necesito para ello. Â¿Alguna idea?~
+@128 = ~SÃ³lo hay una cosa que se pueda usar para forjar Hojas Lunares. Persephonium. NecesitarÃ­ais conseguir algo de las minas de Ierlann. En el Castillo de la Puerta del Infierno solÃ­an extraer persephonium, pero los condenados demonios le pusieron fin a eso.~
+@129 = ~DeberÃ­ais traerme algo de persephonium, y tan seguro como que Clangeddin tiene un martillo, podrÃ© forjar la hoja. QuizÃ¡s la empuÃ±adura aÃºn retenga sus poderes, pero de todas maneras tendrÃ©is una hoja Ã©lfica excelente.~
+@130 = ~Muy bien, Cromwell. IntentarÃ© encontrar algo de persephonium. Gracias.~
+@131 = ~Mirad esto. TenÃ©is una empuÃ±adura. EstÃ¡ rota, pero tan seguro como que mi barba es larga, sÃ© lo que es y cÃ³mo arreglarla. Â¡Incluso tenÃ©is algo de metal para repararla!~
+@132 = ~Esta es la empuÃ±adura de una Hoja Lunar, <GABBER>, una poderosa espada Ã©lfica. Nunca habÃ­a visto una que estuviera rota, pero tenÃ©is persephonium, el Ãºnico metal que puede usarse para reforjar estas hojas.~
+@133 = ~No sÃ© si estuvisteis en Ierlann o en EterlÃ»nd, y apostarÃ­a mi martillo a que no estuviste en Siempreunidos, pero de alguna manera os hicisteis con el metal.~
+@134 = ~Ahora, Â¿querÃ©is reforjar esta espada?~
+@135 = ~Bueno, las Hojas Lunares, en realidad, son armas Ã©lficas arriesgadas de manejar. Me llevarÃ¡ un par de dÃ­as prepararla por completo, y entonces deberÃ©is venir para ayudarme. Mi aprendiz estÃ¡ en Adbar, y no tengo ayuda suficiente. TambiÃ©n os costarÃ¡, unas buenas 25.000 piezas de oro por el uso de la forja. Â¿AÃºn querÃ©is hacerlo?~
+@136 = ~SÃ­, Cromwell. AquÃ­ tenÃ©is el oro y los componentes. RegresarÃ© en unos dÃ­as y os ayudarÃ©.~
+@137 = ~SÃ­, Cromwell, pero aÃºn no tengo el dinero. VolverÃ© con Ã©l.~
+@138 = ~No ahora, Cromwell. QuizÃ¡s mÃ¡s tarde.~
+@139 = ~DÃ¡dmelo, <GABBER>. Lo tendrÃ© todo preparado para entonces.~
+@140 = ~Si conseguÃ­s bastante, venid a verme. No comenzarÃ© los preparativos hasta que aportÃ©is el dinero.~
+@141 = ~De acuerdo, <GABBER>, como deseÃ©is. Pero una Hoja Lunar es algo digno de ser atesorado, cuanto antes tengÃ¡is una, mejor serÃ©is.~
+@142 = ~AÃºn no he terminado los preparativos para forjar la Hoja Lunar. Id y volved mÃ¡s tarde.~
+@143 = ~LlegÃ¡is a tiempo, <GABBER>. Ya estÃ¡ todo preparado para forjar la Hoja Lunar. Â¿PodÃ©is ayudarme?~
+@144 = ~SÃ­, Cromwell. Comencemos.~
+@145 = ~AÃºn no, Cromwell. Dadme unas horas mÃ¡s.~
 @146 = ~De acuerdo, <GABBER>. Escuchad atentamente mis instrucciones: para que la magia no falle...~
-@147 = ~Bien, <GABBER>. Estamos a tiempo, así que esperaré el tiempo que necesitéis.~
-@148 = ~Está hecho, <GABBER>. La Hoja Lunar está completa.~
-@149 = ~Os hago honor con la espada, como vos me lo hacéis a mí por permitirme realizar un trabajo de herrería tan tremendo. Gracias, <GABBER>.~
+@147 = ~Bien, <GABBER>. Estamos a tiempo, asÃ­ que esperarÃ© el tiempo que necesitÃ©is.~
+@148 = ~EstÃ¡ hecho, <GABBER>. La Hoja Lunar estÃ¡ completa.~
+@149 = ~Os hago honor con la espada, como vos me lo hacÃ©is a mÃ­ por permitirme realizar un trabajo de herrerÃ­a tan tremendo. Gracias, <GABBER>.~
 @150 = ~Cromwell, es parte de una espada. Una Hoja Entonaconjuro, de hecho. Quiero reconstruirla.~
-@151 = ~¿Una Hoja Entonaconjuro, decís? ¡Las maravillas nunca cesan! Hace mucho tiempo que no veía una de éstas. ¿Cómo la rompisteis?~
-@152 = ~No la rompí. Tengo que arreglarla, y tengo algo de persephonium para reconstruir la empuñadura. ¿Podéis hacerlo?~
-@153 = ~Sólo hay una cosa que se pueda usar para forjar una Hoja Entonaconjuro. Persephonium. Necesitaríais conseguir algo de las minas de Ierlann. En el Castillo de la Puerta del Infierno solían extraer persephonium, pero los condenados demonios le pusieron fin a eso.~
-@154 = ~Deberíais traerme algo de persephonium, y tan seguro como que Clangeddin tiene un martillo, podré forjar la hoja. Quizás el arma aún retenga sus poderes, pero de todas maneras tendréis una hoja élfica excelente.~
-@155 = ~Está hecho, <GABBER>. La Hoja Entonaconjuro está completa.~
-@156 = ~Ey, <GABBER>, mirad lo que tenéis ahí.~
-@157 = ~Tenéis un bonito bastón, pero es algo rudo. Necesita un poco de trabajo. Si tuviera algo de roble podría mejorarlos la vara, pero sin tener la madera es imposible. Traedme algo de roble, una rama larga, creo, pero que no tenga nudos, y lo arreglaremos.~
-@158 = ~Habéis conseguido un poco de recio roble, una buena rama que ni siquiera tiene nudos. Podría transformarosla en un buen bastón, pero no puedo hacerlo sin tener algo que tomar como modelo. Traedme un bastón, y tan seguro como que mi barba está humeda, que os construiré un bastón idóneo para aporrear el trasero de vuestros enemigos.~
-@159 = ~Ahí tenéis una bonita rama de recio roble, y un bastón roto, <GABBER>. Podría ponerme a trabajar con ello, si queréis ayudarme. No puedo hacerlo sin ayuda. ¿Qué decís?~
-@160 = ~¿Podéis hacerlo por 1.000 piezas de oro?~
-@161 = ~No, Cromwell. ¿Qué más tengo que podáis usar?~
-@162 = ~Claro, amigo mío. Lo haré por 1.000 piezas de oro, no menos, y tendréis que quedaros un rato y ayudarme.~
-~Claro, amiga mía. Lo haré por 1.000 piezas de oro, no menos, y tendréis que quedaros un rato y ayudarme.~
+@151 = ~Â¿Una Hoja Entonaconjuro, decÃ­s? Â¡Las maravillas nunca cesan! Hace mucho tiempo que no veÃ­a una de Ã©stas. Â¿CÃ³mo la rompisteis?~
+@152 = ~No la rompÃ­. Tengo que arreglarla, y tengo algo de persephonium para reconstruir la empuÃ±adura. Â¿PodÃ©is hacerlo?~
+@153 = ~SÃ³lo hay una cosa que se pueda usar para forjar una Hoja Entonaconjuro. Persephonium. NecesitarÃ­ais conseguir algo de las minas de Ierlann. En el Castillo de la Puerta del Infierno solÃ­an extraer persephonium, pero los condenados demonios le pusieron fin a eso.~
+@154 = ~DeberÃ­ais traerme algo de persephonium, y tan seguro como que Clangeddin tiene un martillo, podrÃ© forjar la hoja. QuizÃ¡s el arma aÃºn retenga sus poderes, pero de todas maneras tendrÃ©is una hoja Ã©lfica excelente.~
+@155 = ~EstÃ¡ hecho, <GABBER>. La Hoja Entonaconjuro estÃ¡ completa.~
+@156 = ~Ey, <GABBER>, mirad lo que tenÃ©is ahÃ­.~
+@157 = ~TenÃ©is un bonito bastÃ³n, pero es algo rudo. Necesita un poco de trabajo. Si tuviera algo de roble podrÃ­a mejorarlos la vara, pero sin tener la madera es imposible. Traedme algo de roble, una rama larga, creo, pero que no tenga nudos, y lo arreglaremos.~
+@158 = ~HabÃ©is conseguido un poco de recio roble, una buena rama que ni siquiera tiene nudos. PodrÃ­a transformarosla en un buen bastÃ³n, pero no puedo hacerlo sin tener algo que tomar como modelo. Traedme un bastÃ³n, y tan seguro como que mi barba estÃ¡ humeda, que os construirÃ© un bastÃ³n idÃ³neo para aporrear el trasero de vuestros enemigos.~
+@159 = ~AhÃ­ tenÃ©is una bonita rama de recio roble, y un bastÃ³n roto, <GABBER>. PodrÃ­a ponerme a trabajar con ello, si querÃ©is ayudarme. No puedo hacerlo sin ayuda. Â¿QuÃ© decÃ­s?~
+@160 = ~Â¿PodÃ©is hacerlo por 1.000 piezas de oro?~
+@161 = ~No, Cromwell. Â¿QuÃ© mÃ¡s tengo que podÃ¡is usar?~
+@162 = ~Claro, amigo mÃ­o. Lo harÃ© por 1.000 piezas de oro, no menos, y tendrÃ©is que quedaros un rato y ayudarme.~
+~Claro, amiga mÃ­a. Lo harÃ© por 1.000 piezas de oro, no menos, y tendrÃ©is que quedaros un rato y ayudarme.~
 @163 = ~De acuerdo, Cromwell. Adelante.~
-@164 = ~Como deseéis. Pongámonos manos a la obra.~
-@165 = ~Bueno, aquí está. Un bonito bastón. Usadlo bien. Y si encontráis alguna otra cosa de interés, ya sabéis dónde traerla.~
-@166 = ~Tenéis una bonita hacha, pero la hoja está mellada. Requerirá mucho trabajo. Aunque si tuviera algo de mineral, podría afilarla y rellenar las taras para vos, pero no sin tener mineral fundido. Traéme algo de mineral, fundido a ser posible, sino no podré forjarlo, y la arreglaremos para vos.~
-@167 = ~Tenéis algo de mineral fundido, bastante, de hecho. Podría trabajarlo y convertirlo en una bonita arma para vos, pero no hay bastante para una hoja completa, así que no puedo hacerlo sin tener algo a lo que añadirlo. Traedme otra arma, y tan seguro como que mi barba está húmeda, que os forjaré una buena hoja, quizás un hacha, para atravesar las cabezas de vuestros enemigos.~
-@168 = ~Tenéis una bonita hacha, pero la hoja está mellada. Y también tenéis algo de mineral fundido, <GABBER>. Podría trabajar con ello, si queréis ayudarme. No puedo hacerlo sin ayuda. ¿Qué me decís?~
-@169 = ~¿Podéis hacerlo por 10.000 piezas de oro?~
-@170 = ~Claro, amigo. Lo haré por 10.000 piezas de oro, no menos, y tendréis que quedaros todo el día para ayudarme a mantener la forja encendida.~
-~Claro, amiga. Lo haré por 10.000 piezas de oro, no menos, y tendréis que quedaros todo el día para ayudarme a mantener la forja encendida.~
-@171 = ~Bueno, aquí está. Una bonita hacha. Usadla bien. Y si encontráis alguna otra cosa de interés, ya sabes dónde traerla.~
-@172 = ~Tenéis la cabeza de un martillo, pero le falta el mango. Necesita algo de trabajo. Si tuviera algo que unir a la cabeza, podría forjarlo y reparar el martillo para vos. Tradme un mango del mismo metal, titanio, y los uniré.~
-@173 = ~Tenéis un mango de titanio, realmente bonito. Podría formar parte de un buen martillo, pero no tenéis la cabeza del mismo, así que no es posible. Tradme la cabeza de un martillo, y tan seguro como que mi barba está húmeda, que os forjaré un hermoso martillo para aplastar las cabezas de vuestros enemigos.~
-@174 = ~Tenéis una bonita cabeza de martillo, pero le falta el mango. ¡Pero mirad esto, aquí tenéis un mango de titanio! <GABBER>, Podría unirlos en un hermoso martillo, si queréis ayudarme con ello. No podré hacerlo sin ayuda. ¿Qué decís?~
-@175 = ~¿Podéis hacerlo por 20.000 piezas de oro?~
-@176 = ~No, Cromwell, no creo que merezca la pena. ¿Qué mas tengo que podríais usar?~
-@177 = ~Claro, amigo. Lo haré por 20.000 piezas de oro, no menos, y tendréis que quedaros todo el día para ayudarme a mantener la forja encendida.~
-~Claro, amiga. Lo haré por 20.000 piezas de oro, no menos, y tendréis que quedaros todo el día para ayudarme a mantener la forja encendida.~
-@178 = ~Bueno, aquí está, amigo mío. Un enorme martillo de batalla para convertir en pulpa a todos esos trasgos tan molestos. Usadlo bien. Y si encontráis alguna otra cosa de interés, ya sabes dónde traerla.~
-~Bueno, aquí está, amiga mía. Un enorme martillo de batalla para convertir en pulpa a todos esos trasgos tan molestos. Usadlo bien. Y si encontráis alguna otra cosa de interés, ya sabes dónde traerla.~
+@164 = ~Como deseÃ©is. PongÃ¡monos manos a la obra.~
+@165 = ~Bueno, aquÃ­ estÃ¡. Un bonito bastÃ³n. Usadlo bien. Y si encontrÃ¡is alguna otra cosa de interÃ©s, ya sabÃ©is dÃ³nde traerla.~
+@166 = ~TenÃ©is una bonita hacha, pero la hoja estÃ¡ mellada. RequerirÃ¡ mucho trabajo. Aunque si tuviera algo de mineral, podrÃ­a afilarla y rellenar las taras para vos, pero no sin tener mineral fundido. TraÃ©me algo de mineral, fundido a ser posible, sino no podrÃ© forjarlo, y la arreglaremos para vos.~
+@167 = ~TenÃ©is algo de mineral fundido, bastante, de hecho. PodrÃ­a trabajarlo y convertirlo en una bonita arma para vos, pero no hay bastante para una hoja completa, asÃ­ que no puedo hacerlo sin tener algo a lo que aÃ±adirlo. Traedme otra arma, y tan seguro como que mi barba estÃ¡ hÃºmeda, que os forjarÃ© una buena hoja, quizÃ¡s un hacha, para atravesar las cabezas de vuestros enemigos.~
+@168 = ~TenÃ©is una bonita hacha, pero la hoja estÃ¡ mellada. Y tambiÃ©n tenÃ©is algo de mineral fundido, <GABBER>. PodrÃ­a trabajar con ello, si querÃ©is ayudarme. No puedo hacerlo sin ayuda. Â¿QuÃ© me decÃ­s?~
+@169 = ~Â¿PodÃ©is hacerlo por 10.000 piezas de oro?~
+@170 = ~Claro, amigo. Lo harÃ© por 10.000 piezas de oro, no menos, y tendrÃ©is que quedaros todo el dÃ­a para ayudarme a mantener la forja encendida.~
+~Claro, amiga. Lo harÃ© por 10.000 piezas de oro, no menos, y tendrÃ©is que quedaros todo el dÃ­a para ayudarme a mantener la forja encendida.~
+@171 = ~Bueno, aquÃ­ estÃ¡. Una bonita hacha. Usadla bien. Y si encontrÃ¡is alguna otra cosa de interÃ©s, ya sabes dÃ³nde traerla.~
+@172 = ~TenÃ©is la cabeza de un martillo, pero le falta el mango. Necesita algo de trabajo. Si tuviera algo que unir a la cabeza, podrÃ­a forjarlo y reparar el martillo para vos. Tradme un mango del mismo metal, titanio, y los unirÃ©.~
+@173 = ~TenÃ©is un mango de titanio, realmente bonito. PodrÃ­a formar parte de un buen martillo, pero no tenÃ©is la cabeza del mismo, asÃ­ que no es posible. Tradme la cabeza de un martillo, y tan seguro como que mi barba estÃ¡ hÃºmeda, que os forjarÃ© un hermoso martillo para aplastar las cabezas de vuestros enemigos.~
+@174 = ~TenÃ©is una bonita cabeza de martillo, pero le falta el mango. Â¡Pero mirad esto, aquÃ­ tenÃ©is un mango de titanio! <GABBER>, PodrÃ­a unirlos en un hermoso martillo, si querÃ©is ayudarme con ello. No podrÃ© hacerlo sin ayuda. Â¿QuÃ© decÃ­s?~
+@175 = ~Â¿PodÃ©is hacerlo por 20.000 piezas de oro?~
+@176 = ~No, Cromwell, no creo que merezca la pena. Â¿QuÃ© mas tengo que podrÃ­ais usar?~
+@177 = ~Claro, amigo. Lo harÃ© por 20.000 piezas de oro, no menos, y tendrÃ©is que quedaros todo el dÃ­a para ayudarme a mantener la forja encendida.~
+~Claro, amiga. Lo harÃ© por 20.000 piezas de oro, no menos, y tendrÃ©is que quedaros todo el dÃ­a para ayudarme a mantener la forja encendida.~
+@178 = ~Bueno, aquÃ­ estÃ¡, amigo mÃ­o. Un enorme martillo de batalla para convertir en pulpa a todos esos trasgos tan molestos. Usadlo bien. Y si encontrÃ¡is alguna otra cosa de interÃ©s, ya sabes dÃ³nde traerla.~
+~Bueno, aquÃ­ estÃ¡, amiga mÃ­a. Un enorme martillo de batalla para convertir en pulpa a todos esos trasgos tan molestos. Usadlo bien. Y si encontrÃ¡is alguna otra cosa de interÃ©s, ya sabes dÃ³nde traerla.~
 @179 = ~Sobre elfos y artefactos
 
-He encontrado los objetos de los que me habló Eleanor, y se los he llevado a mi amigo enano, Cromwell. Ha sido capaz de crear una copia casi exacta de la Corona Astada. Iré a encontrarme con el mago, y espero que caiga en el engaño.~
+He encontrado los objetos de los que me hablÃ³ Eleanor, y se los he llevado a mi amigo enano, Cromwell. Ha sido capaz de crear una copia casi exacta de la Corona Astada. IrÃ© a encontrarme con el mago, y espero que caiga en el engaÃ±o.~
 @180 = ~Sobre elfos y artefactos
 
-He reunido los objetos de los que me habló Eleanor para crear una réplica de la Corona Astada. Se los llevé a mi amigo Cromwell, un maestro artesano, pero fue incapaz de crear un duplicado. Tendría que convencerle para que lo intente de nuevo, o tendré que encontrar otra manera de evitar que el mago haga su ritual de Permanetración.~
+He reunido los objetos de los que me hablÃ³ Eleanor para crear una rÃ©plica de la Corona Astada. Se los llevÃ© a mi amigo Cromwell, un maestro artesano, pero fue incapaz de crear un duplicado. TendrÃ­a que convencerle para que lo intente de nuevo, o tendrÃ© que encontrar otra manera de evitar que el mago haga su ritual de PermanetraciÃ³n.~
 @181 = ~Sobre elfos y artefactos
 
-Después de dejar el Templo de Waukeen de Caravasar, Eleanor fue atacada por el mago del que me habló. Llevaba unos cuantos guardaespaldas, pero está claro que no los necesitaba. Su magia era fuerte, demasiado para Eleanor, que fue asesinada por él en la batalla mágica que se produjo. Recordaré con honor su sacrificio, y no permitiré que haya sido en vano.~
+DespuÃ©s de dejar el Templo de Waukeen de Caravasar, Eleanor fue atacada por el mago del que me hablÃ³. Llevaba unos cuantos guardaespaldas, pero estÃ¡ claro que no los necesitaba. Su magia era fuerte, demasiado para Eleanor, que fue asesinada por Ã©l en la batalla mÃ¡gica que se produjo. RecordarÃ© con honor su sacrificio, y no permitirÃ© que haya sido en vano.~
 @182 = ~Sobre elfos y artefactos
 
-  He tenido una larguísima conversación con Eleanor, una maga élfica especializada en reunir el saber sobre antiguos artefactos y objetos mágicos. Está preocupada por las ambiciones de un mago, que la contrató para investigar una teoría conocida como Permanetración, que hasta ahora se pensaba era sólo un mito. Aparentemente, este mago se ha hecho con un artefacto que le permitirá realizar el ritual de Permanetración, y por supuesto causando una destrucción enorme en el proceso. Eleanor imploró mi ayuda, pues tiene un plan para que el mago fracase.
-  Cree que lo mejor será crear un duplicado del artefacto, uno que carezca de poder. No sé si es una buena idea, pero si deseo construir tal falsificación, me dijo los objetos que necesitaría para ello. Los objetos se encuentran fácilmente, y necesitaría un diamante, una Poción de Protección Mágica, un pergamino con el conjuro Arma encantada, y cualquier objeto con jade. Si encuentro estos objetos y quiero que Eleanor cree un diplicado, me dijo que se pondría en contacto conmigo en algún lugar de Athkatla.
-  Además de lo duplicar el objeto, Eleanor me dijo dónde podría encontrar al mago. Me dijo que contactaba con él en un refugio cercano a las Colinas Ventolanza, donde él tiene un laboratorio subterráneo donde realizar sus experimentos. Si todo lo demás falla, podría encontrarle allí y derrotarle para detener sus intentos de robar la fuerza vital de los otros para lograr la divinidad.~
+  He tenido una larguÃ­sima conversaciÃ³n con Eleanor, una maga Ã©lfica especializada en reunir el saber sobre antiguos artefactos y objetos mÃ¡gicos. EstÃ¡ preocupada por las ambiciones de un mago, que la contratÃ³ para investigar una teorÃ­a conocida como PermanetraciÃ³n, que hasta ahora se pensaba era sÃ³lo un mito. Aparentemente, este mago se ha hecho con un artefacto que le permitirÃ¡ realizar el ritual de PermanetraciÃ³n, y por supuesto causando una destrucciÃ³n enorme en el proceso. Eleanor implorÃ³ mi ayuda, pues tiene un plan para que el mago fracase.
+  Cree que lo mejor serÃ¡ crear un duplicado del artefacto, uno que carezca de poder. No sÃ© si es una buena idea, pero si deseo construir tal falsificaciÃ³n, me dijo los objetos que necesitarÃ­a para ello. Los objetos se encuentran fÃ¡cilmente, y necesitarÃ­a un diamante, una PociÃ³n de ProtecciÃ³n MÃ¡gica, un pergamino con el conjuro Arma encantada, y cualquier objeto con jade. Si encuentro estos objetos y quiero que Eleanor cree un diplicado, me dijo que se pondrÃ­a en contacto conmigo en algÃºn lugar de Athkatla.
+  AdemÃ¡s de lo duplicar el objeto, Eleanor me dijo dÃ³nde podrÃ­a encontrar al mago. Me dijo que contactaba con Ã©l en un refugio cercano a las Colinas Ventolanza, donde Ã©l tiene un laboratorio subterrÃ¡neo donde realizar sus experimentos. Si todo lo demÃ¡s falla, podrÃ­a encontrarle allÃ­ y derrotarle para detener sus intentos de robar la fuerza vital de los otros para lograr la divinidad.~
 @183 = ~Sobre elfos y artefactos
  
-  He tenido una larguísima conversación con Eleanor, una maga élfica especializada en reunir el saber sobre antiguos artefactos y objetos mágicos. Está preocupada por las ambiciones de un mago, que la contrató para investigar una teoría conocida como Permanetración, que hasta ahora se pensaba era sólo un mito. Aparentemente, este mago se ha hecho con un artefacto que le permitirá realizar el ritual de Permanetración, y por supuesto causando una destrucción enorme en el proceso. Eleanor imploró mi ayuda, pues tiene un plan para que el mago fracase.
-  Cree que lo mejor será crear un duplicado del artefacto, uno que carezca de poder. No sé si es una buena idea, pero si deseo construir tal falsificación, me dijo los objetos que necesitaría para ello. Los objetos se encuentran fácilmente, y necesitaría un diamante, una Poción de Protección Mágica, un pergamino con el conjuro Arma encantada, y cualquier objeto con jade. Si encuentro estos objetos y quiero que Eleanor cree un diplicado, me dijo que se pondría en contacto conmigo en algún lugar de Athkatla.
-  Además de lo duplicar el objeto, Eleanor me dijo dónde podría encontrar al mago. Me dijo que contactaba con él en un refugio cercano a las Colinas de Umar, donde él tiene un laboratorio subterráneo donde realizar sus experimentos. Si todo lo demás falla, podría encontrarle allí y derrotarle para detener sus intentos de robar la fuerza vital de los otros para lograr la divinidad.~
+  He tenido una larguÃ­sima conversaciÃ³n con Eleanor, una maga Ã©lfica especializada en reunir el saber sobre antiguos artefactos y objetos mÃ¡gicos. EstÃ¡ preocupada por las ambiciones de un mago, que la contratÃ³ para investigar una teorÃ­a conocida como PermanetraciÃ³n, que hasta ahora se pensaba era sÃ³lo un mito. Aparentemente, este mago se ha hecho con un artefacto que le permitirÃ¡ realizar el ritual de PermanetraciÃ³n, y por supuesto causando una destrucciÃ³n enorme en el proceso. Eleanor implorÃ³ mi ayuda, pues tiene un plan para que el mago fracase.
+  Cree que lo mejor serÃ¡ crear un duplicado del artefacto, uno que carezca de poder. No sÃ© si es una buena idea, pero si deseo construir tal falsificaciÃ³n, me dijo los objetos que necesitarÃ­a para ello. Los objetos se encuentran fÃ¡cilmente, y necesitarÃ­a un diamante, una PociÃ³n de ProtecciÃ³n MÃ¡gica, un pergamino con el conjuro Arma encantada, y cualquier objeto con jade. Si encuentro estos objetos y quiero que Eleanor cree un diplicado, me dijo que se pondrÃ­a en contacto conmigo en algÃºn lugar de Athkatla.
+  AdemÃ¡s de lo duplicar el objeto, Eleanor me dijo dÃ³nde podrÃ­a encontrar al mago. Me dijo que contactaba con Ã©l en un refugio cercano a las Colinas de Umar, donde Ã©l tiene un laboratorio subterrÃ¡neo donde realizar sus experimentos. Si todo lo demÃ¡s falla, podrÃ­a encontrarle allÃ­ y derrotarle para detener sus intentos de robar la fuerza vital de los otros para lograr la divinidad.~
 @184 = ~Sobre elfos y artefactos
 
-  He tenido una larguísima conversación con Eleanor, una maga élfica especializada en reunir el saber sobre antiguos artefactos y objetos mágicos. Está preocupada por las ambiciones de un mago, que la contrató para investigar una teoría conocida como Permanetración, que hasta ahora se pensaba era sólo un mito. Aparentemente, este mago se ha hecho con un artefacto que le permitirá realizar el ritual de Permanetración, y por supuesto causando una destrucción enorme en el proceso. Eleanor imploró mi ayuda, pues tiene un plan para que el mago fracase.
-  Cree que lo mejor será crear un duplicado del artefacto, uno que carezca de poder. No sé si es una buena idea, pero si deseo construir tal falsificación, me dijo los objetos que necesitaría para ello. Los objetos se encuentran fácilmente, y necesitaría un diamante, una Poción de Protección Mágica, un pergamino con el conjuro Arma encantada, y cualquier objeto con jade. Si encuentro estos objetos y quiero que Eleanor cree un diplicado, me dijo que se pondría en contacto conmigo en algún lugar de Athkatla.
-  Además de lo duplicar el objeto, Eleanor me dijo dónde podría encontrar al mago. Me dijo que contactaba con él en un prado cercano al Bosque de Tethyr, donde él tiene un laboratorio subterráneo donde realizar sus experimentos. Si todo lo demás falla, podría encontrarle allí y derrotarle para detener sus intentos de robar la fuerza vital de los otros para lograr la divinidad.~
+  He tenido una larguÃ­sima conversaciÃ³n con Eleanor, una maga Ã©lfica especializada en reunir el saber sobre antiguos artefactos y objetos mÃ¡gicos. EstÃ¡ preocupada por las ambiciones de un mago, que la contratÃ³ para investigar una teorÃ­a conocida como PermanetraciÃ³n, que hasta ahora se pensaba era sÃ³lo un mito. Aparentemente, este mago se ha hecho con un artefacto que le permitirÃ¡ realizar el ritual de PermanetraciÃ³n, y por supuesto causando una destrucciÃ³n enorme en el proceso. Eleanor implorÃ³ mi ayuda, pues tiene un plan para que el mago fracase.
+  Cree que lo mejor serÃ¡ crear un duplicado del artefacto, uno que carezca de poder. No sÃ© si es una buena idea, pero si deseo construir tal falsificaciÃ³n, me dijo los objetos que necesitarÃ­a para ello. Los objetos se encuentran fÃ¡cilmente, y necesitarÃ­a un diamante, una PociÃ³n de ProtecciÃ³n MÃ¡gica, un pergamino con el conjuro Arma encantada, y cualquier objeto con jade. Si encuentro estos objetos y quiero que Eleanor cree un diplicado, me dijo que se pondrÃ­a en contacto conmigo en algÃºn lugar de Athkatla.
+  AdemÃ¡s de lo duplicar el objeto, Eleanor me dijo dÃ³nde podrÃ­a encontrar al mago. Me dijo que contactaba con Ã©l en un prado cercano al Bosque de Tethyr, donde Ã©l tiene un laboratorio subterrÃ¡neo donde realizar sus experimentos. Si todo lo demÃ¡s falla, podrÃ­a encontrarle allÃ­ y derrotarle para detener sus intentos de robar la fuerza vital de los otros para lograr la divinidad.~
 @185 = ~Sobre elfos y artefactos
 
-He identificado y recibido el mensaje mágico almacenado en la estatuilla que me dio una elfa en el Distrito del Puente. La voz, aparentemente de elfa, estaba cargada de miedo y angustia, aunque no aporta muchas pistas sobre la aventura a la que alude la elfa. Todo lo que sé es que la elfa podría estar en peligro, y todo lo que dice es que la Costa de la Espada también, y que si me reuno con ella en el Templo de Waukeen de Caravasar, intentará explicarme más. Quizás vaya, pero sería mejor saber antes algo mas sobre esta elfa.~
+He identificado y recibido el mensaje mÃ¡gico almacenado en la estatuilla que me dio una elfa en el Distrito del Puente. La voz, aparentemente de elfa, estaba cargada de miedo y angustia, aunque no aporta muchas pistas sobre la aventura a la que alude la elfa. Todo lo que sÃ© es que la elfa podrÃ­a estar en peligro, y todo lo que dice es que la Costa de la Espada tambiÃ©n, y que si me reuno con ella en el Templo de Waukeen de Caravasar, intentarÃ¡ explicarme mÃ¡s. QuizÃ¡s vaya, pero serÃ­a mejor saber antes algo mas sobre esta elfa.~
 @186 = ~Sobre elfos y artefactos
 
-Mientras paseaba por el Distrito del Puente de Athkatla, una elfa, desconocida para mí, se me acercó con mucha precipitación. No dijo nada, pero disimuladamente me entregó una estatuilla. No sé por qué, aunque no conozco todas las propiedades sobre la estatua. Tendré que investigarla más a fondo, y quizás la misteriosa elfa me conduzca a otra aventura.~
+Mientras paseaba por el Distrito del Puente de Athkatla, una elfa, desconocida para mÃ­, se me acercÃ³ con mucha precipitaciÃ³n. No dijo nada, pero disimuladamente me entregÃ³ una estatuilla. No sÃ© por quÃ©, aunque no conozco todas las propiedades sobre la estatua. TendrÃ© que investigarla mÃ¡s a fondo, y quizÃ¡s la misteriosa elfa me conduzca a otra aventura.~
 @187 = ~Sobre elfos y artefactos
 
-He encontrado las partes que Eleanor me pidió que reuniera para crear una Corona Astada falsa. Se los llevé a mi amigo Cromwell, un herrero experto, pero fue incapaz de crear un duplicado. Sólo me queda hacer que lo vuelva intentar, o encontrar una manera de evitar que el mago intente la Permanetración.~
+He encontrado las partes que Eleanor me pidiÃ³ que reuniera para crear una Corona Astada falsa. Se los llevÃ© a mi amigo Cromwell, un herrero experto, pero fue incapaz de crear un duplicado. SÃ³lo me queda hacer que lo vuelva intentar, o encontrar una manera de evitar que el mago intente la PermanetraciÃ³n.~
 @188 = ~Sobre elfos y artefactos
 
-Le he llevado la Corona Astada a mi amigo Cromwell. Él fue capaz de destruir con éxito la antigua maldad que creó la corona, algo que ni siquiera el gran mago Khelben fue capaz de hacer hace años. Khaddyr, el mago que quería intentar la Permanetración ya no es una amenaza, y la pobre Eleanor, la elfa que conocí antes de que todo esto empezara, puede descansar en paz. Una vez mas, creo que he salvado a Faerûn de una destrucción segura.~
+Le he llevado la Corona Astada a mi amigo Cromwell. Ã‰l fue capaz de destruir con Ã©xito la antigua maldad que creÃ³ la corona, algo que ni siquiera el gran mago Khelben fue capaz de hacer hace aÃ±os. Khaddyr, el mago que querÃ­a intentar la PermanetraciÃ³n ya no es una amenaza, y la pobre Eleanor, la elfa que conocÃ­ antes de que todo esto empezara, puede descansar en paz. Una vez mas, creo que he salvado a FaerÃ»n de una destrucciÃ³n segura.~
 @189 = ~Sobre elfos y artefactos
 
-Encontré una forma de detener al mago Khaddyr antes de que lograse realizar el ritual de Permanetración. Lo que comenzó como una esquiva misión con una elfa aterrada ya casi ha terminado. He recuperado la auténtica Corona Astada, pero aún no he decidido qué hacer con ella. Podría conservarla, pero su maldad seguiría existiendo en Faerûn. Quizás sería mejor si la Coron fuera destruida.~
+EncontrÃ© una forma de detener al mago Khaddyr antes de que lograse realizar el ritual de PermanetraciÃ³n. Lo que comenzÃ³ como una esquiva misiÃ³n con una elfa aterrada ya casi ha terminado. He recuperado la autÃ©ntica Corona Astada, pero aÃºn no he decidido quÃ© hacer con ella. PodrÃ­a conservarla, pero su maldad seguirÃ­a existiendo en FaerÃ»n. QuizÃ¡s serÃ­a mejor si la Coron fuera destruida.~

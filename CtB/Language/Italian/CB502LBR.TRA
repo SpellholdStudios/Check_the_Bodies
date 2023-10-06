@@ -1,5 +1,5 @@
-@1   = ~<CHARNAME>. Sono sommerso dal lavoro quest'oggi. Sembra che qualcuno si diverta a prendere i libri dagli appositi scaffali e poi li lascia giù, lasciando a me il compito di rimetterli a posto.~
-@2   = ~Ho qui un pò di libri che dovresti mettere a posto per me.~
+@1   = ~<CHARNAME>. Sono sommerso dal lavoro quest'oggi. Sembra che qualcuno si diverta a prendere i libri dagli appositi scaffali e poi li lascia giÃ¹, lasciando a me il compito di rimetterli a posto.~
+@2   = ~Ho qui un pÃ² di libri che dovresti mettere a posto per me.~
 @3   = ~Fallo il prima possibile, <PRO_GIRLBOY>, e appena avrai finito fammelo sapere.~
 @4   = ~Ricorda le lezioni che ti ha fatto Gorion sull'alfabeto comune. Assicurati di mettere ogni libro al proprio posto, altrimenti metterai in disordine tutta la biblioteca qui a Candlekeep.~
 @5   = ~Ti ho dato un po' di libri che devono essere smistati e collocati con ordine negli appositi scaffali.~
@@ -9,5 +9,5 @@
 @9   = ~Hai messo al proprio posto solamente due libri, ma non gli altri due. <CHARNAME>, devi usare il mio sistema di classificazione dei libri.~
 @10  = ~Vedo che hai provato ad usare il mio sistema di classificazione dei libri, ma ne hai messo uno nel posto sbagliato.~
 @11  = ~Grazie per aver messo tutti i libri al posto giusto. Hai svolto abbastanza bene questo lavoretto.~
-@12  = ~Farò sapere a tuo padre che hai svolto questo lavoretto. Ne sarà compiaciuto.~
+@12  = ~FarÃ² sapere a tuo padre che hai svolto questo lavoretto. Ne sarÃ  compiaciuto.~
 @13  = ~Hai terminato questo lavoretto per me, <CHARNAME>. Ora vai da un'altra parte e lascia i sapienti ai loro studi.~

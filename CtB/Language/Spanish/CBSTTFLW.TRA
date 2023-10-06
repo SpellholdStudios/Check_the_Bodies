@@ -1,49 +1,49 @@
-@1   = ~¡Tardeth! ¡Habéis mancillado mi honor! ¡Exijo una compensación!~
-@2   = ~Preferiría quedarme aquí, Tardeth, pero si estáis decididos a ir a buscar algo con lo que luchar, supongo que podría ayudaros.~
-@3   = ~No os preocupéis, Marilyn. Os aseguro que me lo tomaré en serio. Estoy tan preparado como pudiera estarlo.~
-@4   = ~¿De verdad, Sylvanus?  No sabía que le habíais dicho eso a Sir John Johns.~
-@5   = ~Hola. Soy Paddy Cervezafirme. ¿Tenéis un dulce?~
-@6   = ~Quizás esos tipos de la cueva tengan dulces.~
-@7   = ~Tardeth quiere que vayamos allí y les demos una paliza. Deberíais venir con nosotros y ayudar.~
-@8   = ~Si queréis venir, tened vuestro equipo preparado y hablad con Tardeth.~
-@9   = ~Disculpadme, pero parece que se me ha caido mi cadena en vuestro bolsillo. No os preocupéis.~
-@10  = ~Yo mismo la recogeré.~
-@11  = ~Tardeth siempre tiene algún trabajo o algo que tenemos que hacer. De verdad que me gustaría poder tomarme un respiro.~
-@12  = ~Ya sabéis, se cree que vamos a ser capaces de derrotar a esos poderosos enemigos, los miembros del Culto del Dragón.~
+@1   = ~Â¡Tardeth! Â¡HabÃ©is mancillado mi honor! Â¡Exijo una compensaciÃ³n!~
+@2   = ~PreferirÃ­a quedarme aquÃ­, Tardeth, pero si estÃ¡is decididos a ir a buscar algo con lo que luchar, supongo que podrÃ­a ayudaros.~
+@3   = ~No os preocupÃ©is, Marilyn. Os aseguro que me lo tomarÃ© en serio. Estoy tan preparado como pudiera estarlo.~
+@4   = ~Â¿De verdad, Sylvanus?  No sabÃ­a que le habÃ­ais dicho eso a Sir John Johns.~
+@5   = ~Hola. Soy Paddy Cervezafirme. Â¿TenÃ©is un dulce?~
+@6   = ~QuizÃ¡s esos tipos de la cueva tengan dulces.~
+@7   = ~Tardeth quiere que vayamos allÃ­ y les demos una paliza. DeberÃ­ais venir con nosotros y ayudar.~
+@8   = ~Si querÃ©is venir, tened vuestro equipo preparado y hablad con Tardeth.~
+@9   = ~Disculpadme, pero parece que se me ha caido mi cadena en vuestro bolsillo. No os preocupÃ©is.~
+@10  = ~Yo mismo la recogerÃ©.~
+@11  = ~Tardeth siempre tiene algÃºn trabajo o algo que tenemos que hacer. De verdad que me gustarÃ­a poder tomarme un respiro.~
+@12  = ~Ya sabÃ©is, se cree que vamos a ser capaces de derrotar a esos poderosos enemigos, los miembros del Culto del DragÃ³n.~
 @13  = ~Bueno, no quiero que me transformen en un dracoliche. Lo digo para que conste.~
-@14  = ~¿Tenéis tiempo para una partida de dados? Tengo algunos aquí mismo. Podemos usar los míos.~
-@15  = ~No os importará usar los míos para el juego, ¿verdad?~
-@16  = ~¿De dónde dijisteis que érais?~
+@14  = ~Â¿TenÃ©is tiempo para una partida de dados? Tengo algunos aquÃ­ mismo. Podemos usar los mÃ­os.~
+@15  = ~No os importarÃ¡ usar los mÃ­os para el juego, Â¿verdad?~
+@16  = ~Â¿De dÃ³nde dijisteis que Ã©rais?~
 @17  = ~De Aguasprofundas.~
 @18  = ~Soy de Candelero.~
 @19  = ~No es de vuestra incumbencia.~
-@20  = ~¿Candelero, eh?  Yo soy de las Colinas Púrpura... estan incluso mas lejos de aquí que Candelero.~
-@21  = ~Apuesto a que leísteis muchísimo cuando estuvisteis allí.~
-@22  = ~¿Aguasprofundas, eh? Así que os debe gustar mucho más el estofado de Aguasprofundas que el del Luskan. ¿O debería pronunciarlo 'Esto-fada'?~
-@23  = ~¿No es de vuestra incumbencia? Jamás oí hablar de allí. ¿Está cerca del Valle del Viento Helado? Seguro que hace muhco frío por allí, siempre está helado.~
-@24  = ~Por cierto... ¿cuánto hace que os dedicáis a la aventura?~
+@20  = ~Â¿Candelero, eh?  Yo soy de las Colinas PÃºrpura... estan incluso mas lejos de aquÃ­ que Candelero.~
+@21  = ~Apuesto a que leÃ­steis muchÃ­simo cuando estuvisteis allÃ­.~
+@22  = ~Â¿Aguasprofundas, eh? AsÃ­ que os debe gustar mucho mÃ¡s el estofado de Aguasprofundas que el del Luskan. Â¿O deberÃ­a pronunciarlo 'Esto-fada'?~
+@23  = ~Â¿No es de vuestra incumbencia? JamÃ¡s oÃ­ hablar de allÃ­. Â¿EstÃ¡ cerca del Valle del Viento Helado? Seguro que hace muhco frÃ­o por allÃ­, siempre estÃ¡ helado.~
+@24  = ~Por cierto... Â¿cuÃ¡nto hace que os dedicÃ¡is a la aventura?~
 @25  = ~Toda mi vida.~
-@26  = ~Desde que mi padre adoptivo murió fuera de Candelero.~
-@27  = ~Sólo hace un par de días.~
-@28  = ~¿En serio? Yo he sido un aventurero desde que ayudé a Marilyn a escapar de Zazesspur durante los Diez Días Negros.~
-@29  = ~Ah, es verdad. No fuisteis vos. Fue mi buen amigo Whitey Bigotelargo. Sigo confundiéndoos.~
-@30  = ~He estado con la Compañia algo más de dos años. Casi tanto tiempo como lleva vivo Manny.~
-@31  = ~Oh, sí, es cierto, Manny. Ya casi habéis alcanzado la edad para poder uniros a los magos calishitas, ¿no?~
-@32  = ~Oh, um, no lo sabía. Siento haberos traido malos recuerdos a la memoria.~
-@33  = ~No os precupéis por ello, Paddy. Estoy bien.~
-@34  = ~Está bien, Paddy. Lamenté su pérdida, pero ya he vengado su muerte.~
-@35  = ~¡Esto estuvo genial! Fue una lucha digna de mi destreza guerrera.~
-@36  = ~Es una pena que no hubiera más de ellos.~
-@37  = ~Bueno, no queremos estar aquí más tiempo del necesario. <CHARNAME>, nos encontraremos afuera, donde atenderemos nuestras heridas.~
-@38  = ~<CHARNAME>, no dejéis que nadie os diga que sois un mal aventurero.~
-@39  = ~Sin vuestra ayuda, creo que me habría quedado atrapado aquí para el resto de mis días, o mas aún.~
-@40  = ~Nos habéis ayudado mucho. Mirad, normalmente no me deshago de equipo pero, ¿por qué no tomáis esto?~
-@41  = ~Son herramientas especiales de mediano, pero siempre puedo conseguir más.~
-@42  = ~Adiós, <CHARNAME>. Venga chicos, ¡larguémonos!~
-@43 = ~La famosa Compañía de los Ocho
+@26  = ~Desde que mi padre adoptivo muriÃ³ fuera de Candelero.~
+@27  = ~SÃ³lo hace un par de dÃ­as.~
+@28  = ~Â¿En serio? Yo he sido un aventurero desde que ayudÃ© a Marilyn a escapar de Zazesspur durante los Diez DÃ­as Negros.~
+@29  = ~Ah, es verdad. No fuisteis vos. Fue mi buen amigo Whitey Bigotelargo. Sigo confundiÃ©ndoos.~
+@30  = ~He estado con la CompaÃ±ia algo mÃ¡s de dos aÃ±os. Casi tanto tiempo como lleva vivo Manny.~
+@31  = ~Oh, sÃ­, es cierto, Manny. Ya casi habÃ©is alcanzado la edad para poder uniros a los magos calishitas, Â¿no?~
+@32  = ~Oh, um, no lo sabÃ­a. Siento haberos traido malos recuerdos a la memoria.~
+@33  = ~No os precupÃ©is por ello, Paddy. Estoy bien.~
+@34  = ~EstÃ¡ bien, Paddy. LamentÃ© su pÃ©rdida, pero ya he vengado su muerte.~
+@35  = ~Â¡Esto estuvo genial! Fue una lucha digna de mi destreza guerrera.~
+@36  = ~Es una pena que no hubiera mÃ¡s de ellos.~
+@37  = ~Bueno, no queremos estar aquÃ­ mÃ¡s tiempo del necesario. <CHARNAME>, nos encontraremos afuera, donde atenderemos nuestras heridas.~
+@38  = ~<CHARNAME>, no dejÃ©is que nadie os diga que sois un mal aventurero.~
+@39  = ~Sin vuestra ayuda, creo que me habrÃ­a quedado atrapado aquÃ­ para el resto de mis dÃ­as, o mas aÃºn.~
+@40  = ~Nos habÃ©is ayudado mucho. Mirad, normalmente no me deshago de equipo pero, Â¿por quÃ© no tomÃ¡is esto?~
+@41  = ~Son herramientas especiales de mediano, pero siempre puedo conseguir mÃ¡s.~
+@42  = ~AdiÃ³s, <CHARNAME>. Venga chicos, Â¡larguÃ©monos!~
+@43 = ~La famosa CompaÃ±Ã­a de los Ocho
 
-  He pasado mi última aventura luchando al lado de la Compañía de los Ocho, que intentaban neutralizar una célula del Culto del Dragón que se había asentado en una mazmorra abandonada bajo el Bosque de Tethyr. Toda la Compañía, Marilyn, Paddy, el elfo Gotadeluna, Lawantha, los dos druidas Manny y Arkanus, y Tardeth, eran guerreros experimentados, y tuvimos éxito al derrotar al Culto. Debo admitir que luchar junto a una banda de aventureros tan experimentados fue un placer, y espero tener la oportunidad de volver hacerlo en el futuro.~
-@44 = ~La famosa Compañía de los Ocho
+  He pasado mi Ãºltima aventura luchando al lado de la CompaÃ±Ã­a de los Ocho, que intentaban neutralizar una cÃ©lula del Culto del DragÃ³n que se habÃ­a asentado en una mazmorra abandonada bajo el Bosque de Tethyr. Toda la CompaÃ±Ã­a, Marilyn, Paddy, el elfo Gotadeluna, Lawantha, los dos druidas Manny y Arkanus, y Tardeth, eran guerreros experimentados, y tuvimos Ã©xito al derrotar al Culto. Debo admitir que luchar junto a una banda de aventureros tan experimentados fue un placer, y espero tener la oportunidad de volver hacerlo en el futuro.~
+@44 = ~La famosa CompaÃ±Ã­a de los Ocho
 
-  Finalmente he conocido a la Compañía de los Ocho de la que tanto había oído hablar. Este legendario grupo de aventureros de Tethyr ha tropezado con una fortaleza que esta siendo usada por el Culto del Dragón. Me invitaron a echar al Culto, y cuando estemos preparados para encargarme de esa misión, el lider de la Compañía, Tardeth, me ha pedido que se lo haga saber.
-  Espero que cuando estemos listos, buscar aventuras y combates con al Compañia de los Ocho sea algo que esté dentro de mis capacidades.~
+  Finalmente he conocido a la CompaÃ±Ã­a de los Ocho de la que tanto habÃ­a oÃ­do hablar. Este legendario grupo de aventureros de Tethyr ha tropezado con una fortaleza que esta siendo usada por el Culto del DragÃ³n. Me invitaron a echar al Culto, y cuando estemos preparados para encargarme de esa misiÃ³n, el lider de la CompaÃ±Ã­a, Tardeth, me ha pedido que se lo haga saber.
+  Espero que cuando estemos listos, buscar aventuras y combates con al CompaÃ±ia de los Ocho sea algo que estÃ© dentro de mis capacidades.~

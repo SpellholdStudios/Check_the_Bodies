@@ -1420,12 +1420,20 @@ LAF HANDLE_AUDIO  // With no configuration, HANDLE_AUDIO expects your audio, ogg
 	output_path = ~override~
 END
 
+//ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
+//	LAF HANDLE_TILESETS
+//		STR_VAR
+//		tiz_path = ~CtB/Tiz~
+//		tisunpack_path = ~CtB/bin~
+//	END	 
+//END
+INCLUDE ~%MOD_FOLDER%/lib/a7_tools.tpa~
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-	LAF HANDLE_TILESETS
+	LAF HANDLE_TILECONV
 		STR_VAR
-		tiz_path = ~CtB/Tiz~
-		tisunpack_path = ~CtB/bin~
-	END	 
+			input_path    = EVAL ~%MOD_FOLDER%/tbc~
+			output_path	  = EVAL ~override~
+	END
 END
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
    COPY ~CtB/PVRZ~ ~override~
@@ -1860,12 +1868,20 @@ END
 	output_path = ~override~
 END*/
 
+//ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
+//	LAF HANDLE_TILESETS
+//		STR_VAR
+//		tiz_path = ~CtB/Chores/Tiz~
+//		tisunpack_path = ~CtB/bin~
+//	END	 
+//END
+INCLUDE ~%MOD_FOLDER%/lib/a7_tools.tpa~
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-	LAF HANDLE_TILESETS
+	LAF HANDLE_TILECONV
 		STR_VAR
-		tiz_path = ~CtB/Chores/Tiz~
-		tisunpack_path = ~CtB/bin~
-	END	 
+			input_path    = EVAL ~%MOD_FOLDER%/chores/tbc~
+			output_path	  = EVAL ~override~
+	END
 END
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
    COPY ~CtB/Chores/PVRZ~ ~override~
