@@ -1,5 +1,5 @@
 //BACKUP ~CtB/backup~
-BACKUP ~weidu_external/ctb/backup~
+BACKUP ~weidu_external/backup/CtB~
 
 //AUTHOR ~Charles Bisson, King Diamond (revision) Ikki (EE Conversion)  Weigo (all in one)~  NO_IF_EVAL_BUG
 SUPPORT ~http://www.shsforums.net or https://github.com/SpellholdStudios~ NO_IF_EVAL_BUG
@@ -52,7 +52,7 @@ ALWAYS
 		OUTER_SET one_time_execution = 1
 	
 		// define variable for HANDLE_CHARSETS out_path so it can be reused later
-		OUTER_TEXT_SPRINT "HANDLE_CHARSETS_OUT_PATH" EVAL "weidu_external/%MOD_FOLDER%/Language"
+		OUTER_TEXT_SPRINT "HANDLE_CHARSETS_OUT_PATH" EVAL "weidu_external/Language/%MOD_FOLDER%"
 		// do not convert Setup.tra files, those should be UTF8 already
 		ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN END // List of tra files that contain ONLY strings for the WeiDU installer and NOT game content
 		ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN wsetup script END // List of tra files that need to be reloaded after conversion because they were previously loaded in the LANGUAGE section
