@@ -1,15 +1,19 @@
-//BACKUP ~CtB/backup~
+//BACKUP ~%MOD_FOLDER%/backup~
 BACKUP ~weidu_external/backup/CtB~
 
 //AUTHOR ~Charles Bisson, King Diamond (revision) Ikki (EE Conversion)  Weigo (all in one)~  NO_IF_EVAL_BUG
 SUPPORT ~http://www.shsforums.net or https://github.com/SpellholdStudios~ NO_IF_EVAL_BUG
 
-README ~CtB/text/CtB-Readme.txt~
+README ~%MOD_FOLDER%/text/CtB-Readme.txt~
 VERSION ~3.0~
 
-
+ASK_EVERY_COMPONENT
 
 ALWAYS
+	
+	OUTER_SPRINT workspace "weidu_external/workspace/%MOD_FOLDER%"
+    MKDIR "%workspace%"
+	
 	ACTION_IF (GAME_IS ~eet~) BEGIN
 		OUTER_SET bg2_chapter = 12
 	END ELSE BEGIN
@@ -54,7 +58,7 @@ ALWAYS
 		// define variable for HANDLE_CHARSETS out_path so it can be reused later
 		OUTER_TEXT_SPRINT "HANDLE_CHARSETS_OUT_PATH" EVAL "weidu_external/Language/%MOD_FOLDER%"
 		// do not convert Setup.tra files, those should be UTF8 already
-		ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN END // List of tra files that contain ONLY strings for the WeiDU installer and NOT game content
+		ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN setup END // List of tra files that contain ONLY strings for the WeiDU installer and NOT game content
 		ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN wsetup script END // List of tra files that need to be reloaded after conversion because they were previously loaded in the LANGUAGE section
 		// On EE games, convert game content tra files to utf-8 so that games don't crash when encountering international characters.
 		LAF HANDLE_CHARSETS
@@ -66,7 +70,7 @@ ALWAYS
 				default_language = ~English~
 				tra_path = EVAL "%MOD_FOLDER%/language"
 				out_path = EVAL "%HANDLE_CHARSETS_OUT_PATH%" // location of converted .tra files
-				iconv_path = EVAL "%MOD_FOLDER%/bin/win32/iconv" //available as part of the base system on OS X and GNU/Linux
+				iconv_path = EVAL "%MOD_FOLDER%/Tools/iconv" //available as part of the base system on OS X and GNU/Linux
 				reload_array = charsetsReloadArray
 				noconvert_array = charsetsNoConvertArray
 		END
@@ -86,97 +90,63 @@ ALWAYS
 			LOAD_TRA ~%MOD_FOLDER%/Language/%LANGUAGE%/wsetup-ee.tra~
 		END
 	END
-	INCLUDE ~CtB/lib/extra_regexp_vars.tph~
+	INCLUDE ~%MOD_FOLDER%/lib/extra_regexp_vars.tph~
 	OUTER_SPRINT newline ~%WNL%%LNL%%MNL%%TAB% ~
 END
-/*	
-	OUTER_SPRINT ~tileconv~ ~CtB%os_slash%bin%os_slash%%WEIDU_OS%%os_slash%tileconv%exe%~
-	
-	ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
-		COPY - ~weidu.conf~ ~.../weidu.conf~
-			READ_2DA_ENTRY 0 2 3 "lang_dir"
-//		ACTION_IF NOT ~%LANGUAGE%~ STR_EQ ~english~ BEGIN
-			ACTION_DEFINE_ASSOCIATIVE_ARRAY charsetsTable BEGIN
-				"german" => "CP1252"
-				"english" => "CP1252"
-				"french" => "CP1252"
-				"italian" => "CP1252"
-				"polish" => "CP1250"
-				"russian" => "CP1251"
-				"castilian" => "CP1252"
-				"spanish" => "CP1252"
-			END
-			ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN wsetup script END
-			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN wsetup-ee END
-			LAF ~HANDLE_CHARSETS~
-				INT_VAR
-				infer_charsets = 0
-				STR_VAR
-				tra_path = "CtB/language"
-				iconv_path = "CtB/bin/win32/iconv" //available as part of the base system on OS X and GNU/Linux
-				charset_table = charsetsTable
-				reload_array = charsetsReloadArray
-				noconvert_array = charsetsNoConvertArray
-			END
-//		END
-		COPY ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/fl#utf8_worldmap.tra~ ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
-		LOAD_TRA ~CtB/language/%LANGUAGE%/wsetup-ee.tra~
-	END
-*/
 
 
 AUTO_TRA "%TRA_LOCATION%/%s"
 
 LANGUAGE ~English~
 	 ~english~
-	 ~CtB/Language/English/wsetup.tra~
-     ~CtB/Language/English/script.tra~
+	 ~%MOD_FOLDER%/Language/English/wsetup.tra~
+     ~%MOD_FOLDER%/Language/English/script.tra~
+	 ~%MOD_FOLDER%/Language/English/setup.tra~
 LANGUAGE ~Russian~
 	 ~russian~
-	 ~CtB/Language/Russian/wsetup.tra~
-     ~CtB/Language/Russian/script.tra~
+	 ~%MOD_FOLDER%/Language/Russian/wsetup.tra~
+     ~%MOD_FOLDER%/Language/Russian/script.tra~
+	 ~%MOD_FOLDER%/Language/Russian/setup.tra~
 LANGUAGE ~French~
 	 ~french~
-	 ~CtB/Language/French/wsetup.tra~
-     ~CtB/Language/French/script.tra~
+	 ~%MOD_FOLDER%/Language/French/wsetup.tra~
+     ~%MOD_FOLDER%/Language/French/script.tra~
+	 ~%MOD_FOLDER%/Language/French/setup.tra~
 LANGUAGE ~Italian~
 	 ~italian~
-	 ~CtB/Language/Italian/wsetup.tra~
-     ~CtB/Language/Italian/script.tra~
+	 ~%MOD_FOLDER%/Language/Italian/wsetup.tra~
+     ~%MOD_FOLDER%/Language/Italian/script.tra~
+	 ~%MOD_FOLDER%/Language/Italian/setup.tra~
 LANGUAGE ~German~
 	 ~german~
-	 ~CtB/Language/German/wsetup.tra~
-     ~CtB/Language/German/script.tra~
+	 ~%MOD_FOLDER%/Language/German/wsetup.tra~
+     ~%MOD_FOLDER%/Language/German/script.tra~
+	 ~%MOD_FOLDER%/Language/German/setup.tra~
 
 LANGUAGE ~Castellano (clan REO)~
 	 ~Spanish~
-	 ~CtB/Language/Spanish/wsetup.tra~
-     ~CtB/Language/Spanish/script.tra~
+	 ~%MOD_FOLDER%/Language/Spanish/wsetup.tra~
+     ~%MOD_FOLDER%/Language/Spanish/script.tra~
+	 ~%MOD_FOLDER%/Language/Spanish/setup.tra~
+	 ~%MOD_FOLDER%/Language/Spanish/setup.tra~
 
+/* ====================================== *
+ *  Check the Bodies : main component  *
+ * ====================================== */
+BEGIN @800000
 
-BEGIN ~Check The Bodies~
+DESIGNATED 0 LABEL ~check_the_bodies~
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-	COPY + ~Setup-CtB.exe~ ~WeiDU.exe~
-	
-	COPY + ~chitin.key~ ~CtB/chitin.CtB~
-	ACTION_FOR_EACH var IN ~~ F BEGIN
-		ACTION_IF FILE_EXISTS ~dialog%var%.tlk~ BEGIN
-			COPY_LARGE + ~dialog%var%.tlk~ ~CtB/dialog%var%.ctb~
-		END
-	END
-	MKDIR ~CtB/over.bak~
-	COPY_LARGE + ~override~ ~CtB/over.bak~
-	
 	INCLUDE ~%MOD_FOLDER%/lib/install-guititle.tpa~
 END 
 
 
 COPY_EXISTING ~misc01.itm~ ~override/ctb.mrk~ // tell other mod that Check The Bodies is installed
 
-COPY ~CtB/WED~     ~override~
-COPY ~CtB/MOS~     ~override~
-COPY ~CtB/bitmaps~ ~override~
+COPY ~%MOD_FOLDER%/WED~     ~override~
+COPY ~%MOD_FOLDER%/MOS~     ~override~
+COPY ~%MOD_FOLDER%/bitmaps~ ~override~
 
 
 //***********************************************************
@@ -185,7 +155,7 @@ COPY ~CtB/bitmaps~ ~override~
 PRINT ~Patching rulesets (2DA, IDS)...~
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-	COPY ~CtB/RULE~    ~override~
+	COPY ~%MOD_FOLDER%/RULE~    ~override~
 END
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
@@ -249,9 +219,9 @@ BEGIN
 		2824 WIZARD_MIND_BLANK~
 END
 
-INCLUDE ~CtB/lib/ids_entries_gtimes.tph~
+INCLUDE ~%MOD_FOLDER%/lib/ids_entries_gtimes.tph~
 
-INCLUDE ~CtB/lib/ids_entries_shoutids.tph~
+INCLUDE ~%MOD_FOLDER%/lib/ids_entries_shoutids.tph~
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	ACTION_IF FILE_EXISTS ~script compiler/AICOMPILE.exe~
@@ -315,7 +285,7 @@ AR3595  value~
 
 PRINT ~Dealing with TOOLTIP.2DA ...~
 
-INCLUDE ~CtB/lib/tooltip.tpa~
+INCLUDE ~%MOD_FOLDER%/lib/tooltip.tpa~
 
 LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBWTNI3a~ tooltips = ~12048 12072 13073 07571 25934 32393 25960 25944 7783 23358~ END
 LAUNCH_ACTION_FUNCTION ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~CBMALR1a~ tooltips = ~26799 26465 20935 20853 23726 40271 29743 29744~ END
@@ -359,24 +329,24 @@ COPY_EXISTING ~TRACKING.2DA~ ~override~
  REPLACE ~450502~ @650685
  REPLACE ~450505~ @650688
 
-COPY ~CtB/2da/append/CBCO8SCR.2DA~ ~override~
+COPY ~%MOD_FOLDER%/2da/append/CBCO8SCR.2DA~ ~override~
  REPLACE ~99999999~ @650697
-COPY ~CtB/2da/append/CBLAWLVR.2DA~ ~override~
+COPY ~%MOD_FOLDER%/2da/append/CBLAWLVR.2DA~ ~override~
  REPLACE ~99999999~ @650698
-COPY ~CtB/2da/append/CBHEXSCR.2DA~ ~override~
+COPY ~%MOD_FOLDER%/2da/append/CBHEXSCR.2DA~ ~override~
  REPLACE ~99999999~ @650699
 
-COPY ~CtB/2da/copy~ ~override~
+COPY ~%MOD_FOLDER%/2da/copy~ ~override~
 
 //***********************************************************
 //  Graphics
 //***********************************************************
 PRINT ~Installing game graphics and effects...~
 
-COPY ~CtB/gui_/bam~ ~override~ // item bam
-COPY ~CtB/gui_/mos~ ~override~
-COPY ~CtB/effects~  ~override~
-//COPY ~CtB/portrait~ ~override~
+COPY ~%MOD_FOLDER%/gui_/bam~ ~override~ // item bam
+COPY ~%MOD_FOLDER%/gui_/mos~ ~override~
+COPY ~%MOD_FOLDER%/effects~  ~override~
+//COPY ~%MOD_FOLDER%/portrait~ ~override~
 
 
 
@@ -387,72 +357,72 @@ COPY ~CtB/effects~  ~override~
 //***************************************************************
 PRINT ~Installing new areas...~
 
-COPY ~CtB/ctbareas/nostring~ ~override~
-COPY ~CtB/ctbareas/nostring/%engine%~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/nostring~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/nostring/%engine%~ ~override~
 
-COPY ~CtB/ctbareas/translate/AR3530.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3530.ARE~ ~override~
   SAY 0x968 @187
 
-COPY ~CtB/ctbareas/translate/AR3531.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3531.ARE~ ~override~
   SAY 0x2618 @188
   SAY 0x8204 @650693
   SAY 0x8238 @650694
   SAY 0x826c @650695
   SAY 0x82a0 @650696
 
-COPY ~CtB/ctbareas/translate/AR3532.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3532.ARE~ ~override~
   SAY 0x1894 @189
   SAY 0x281c @660100
 
-COPY ~CtB/ctbareas/translate/AR3534.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3534.ARE~ ~override~
   SAY 0xbd4 @190
   SAY 0x16f4 @660302
   SAY 0x1728 @660301
 
-COPY ~CtB/ctbareas/translate/AR3540.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3540.ARE~ ~override~
   SAY 0x068c @660001
   SAY 0x0690 @660001
   SAY 0x0694 @660002
   SAY 0x0698 @660002
 
-COPY ~CtB/ctbareas/translate/AR3541.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3541.ARE~ ~override~
   SAY 0x2558 @660003
   SAY 0x3194 @660001
   SAY 0x3198 @660001
   SAY 0x319c @660002
   SAY 0x31a0 @660002
 
-COPY ~CtB/ctbareas/translate/AR3542.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3542.ARE~ ~override~
   SAY 0x3c38 @660001
   SAY 0x3c3c @660001
   SAY 0x3c40 @660002
   SAY 0x3c44 @660002
 
-COPY ~CtB/ctbareas/translate/AR3543.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3543.ARE~ ~override~
   SAY 0x578c @660001
   SAY 0x5790 @660001
   SAY 0x5794 @660002
   SAY 0x5798 @660002
 
-COPY ~CtB/ctbareas/translate/AR3544.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3544.ARE~ ~override~
   SAY 0x5278 @660001
   SAY 0x527c @660001
   SAY 0x5280 @660002
   SAY 0x5284 @660002
 
-COPY ~CtB/ctbareas/translate/AR3545.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3545.ARE~ ~override~
   SAY 0x17e4 @660001
   SAY 0x17e8 @660001
   SAY 0x17ec @660002
   SAY 0x17f0 @660002
 
-COPY ~CtB/ctbareas/translate/AR3546.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3546.ARE~ ~override~
   SAY 0x1184 @660001
   SAY 0x1188 @660001
   SAY 0x118c @660002
   SAY 0x1190 @660002
 
-COPY ~CtB/ctbareas/translate/AR3547.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3547.ARE~ ~override~
   SAY 0xcd0  @660004
   SAY 0xff0  @70005
   SAY 0x1d00 @660001
@@ -460,45 +430,45 @@ COPY ~CtB/ctbareas/translate/AR3547.ARE~ ~override~
   SAY 0x1d08 @660002
   SAY 0x1d0c @660002
 
-COPY ~CtB/ctbareas/translate/AR3548.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3548.ARE~ ~override~
   SAY 0x0cf8 @660001
   SAY 0x0cfc @660001
   SAY 0x0d00 @660002
   SAY 0x0d04 @660002
 
-COPY ~CtB/ctbareas/translate/AR3549.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3549.ARE~ ~override~
   SAY 0x0ed0 @660001
   SAY 0x0ed4 @660001
   SAY 0x0ed8 @660002
   SAY 0x0edc @660002
 
-COPY ~CtB/ctbareas/translate/AR3550.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3550.ARE~ ~override~
   SAY 0x0ae0 @660001
   SAY 0x0ae4 @660001
   SAY 0x0ae8 @660002
   SAY 0x0aec @660002
 
-COPY ~CtB/ctbareas/translate/AR3551.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3551.ARE~ ~override~
   SAY 0x17b8 @660003
   SAY 0x2030 @660001
   SAY 0x2034 @660001
   SAY 0x2038 @660002
   SAY 0x203c @660002
 
-COPY ~CtB/ctbareas/translate/AR3552.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3552.ARE~ ~override~
   SAY 0x1930 @660001
   SAY 0x1934 @660001
   SAY 0x1938 @660002
   SAY 0x193c @660002
 
-COPY ~CtB/ctbareas/translate/AR3553.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3553.ARE~ ~override~
   SAY 0x149c @660005
   SAY 0x1874 @660001
   SAY 0x1878 @660001
   SAY 0x187c @660002
   SAY 0x1880 @660002
 
-COPY ~CtB/ctbareas/translate/AR3554.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3554.ARE~ ~override~
   SAY 0x1234 @660005
   SAY 0x12fc @660005
   SAY 0x176c @660001
@@ -506,49 +476,49 @@ COPY ~CtB/ctbareas/translate/AR3554.ARE~ ~override~
   SAY 0x1774 @660002
   SAY 0x1778 @660002
 
-COPY ~CtB/ctbareas/translate/AR3556.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3556.ARE~ ~override~
   SAY 0x1690 @660001
   SAY 0x1694 @660001
   SAY 0x1698 @660002
   SAY 0x169c @660002
 
-COPY ~CtB/ctbareas/translate/AR3557.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3557.ARE~ ~override~
   SAY 0x0a40 @660001
   SAY 0x0a44 @660001
   SAY 0x0a48 @660002
   SAY 0x0a4c @660002
 
-COPY ~CtB/ctbareas/translate/AR3558.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3558.ARE~ ~override~
   SAY 0x0af8 @660001
   SAY 0x0afc @660001
   SAY 0x0b00 @660002
   SAY 0x0b04 @660002
 
-COPY ~CtB/ctbareas/translate/AR3559.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3559.ARE~ ~override~
   SAY 0x1a24 @660001
   SAY 0x1a28 @660001
   SAY 0x1a2c @660002
   SAY 0x1a30 @660002
 
-COPY ~CtB/ctbareas/translate/AR3565.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3565.ARE~ ~override~
   SAY 0x244 @191
   SAY 0x308 @192
 
-COPY ~CtB/ctbareas/translate/AR3575.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3575.ARE~ ~override~
   SAY 0x3b0c @193
   SAY 0x3bd0 @194
   SAY 0x3c94 @194
   SAY 0x3d58 @194
   SAY 0x76b4 @700194
 
-COPY ~CtB/ctbareas/translate/AR3580.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3580.ARE~ ~override~
   SAY 0x313c @651013
   SAY 0x3200 @651014
   SAY 0x32c4 @651015
   SAY 0x3388 @651016
   SAY 0x344c @651017
 
-COPY ~CtB/ctbareas/translate/AR3588.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3588.ARE~ ~override~
   SAY 0x38f8 @197
   SAY 0x39bc @197
   SAY 0x3a80 @197
@@ -557,10 +527,10 @@ COPY ~CtB/ctbareas/translate/AR3588.ARE~ ~override~
   SAY 0x3ccc @197
   SAY 0x3d90 @197
 
-COPY ~CtB/ctbareas/translate/AR3594.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3594.ARE~ ~override~
   SAY 0x249c @197
 
-COPY ~CtB/ctbareas/translate/AR3610.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3610.ARE~ ~override~
   SAY 0x1a80 @205
   SAY 0x1b44 @206
   SAY 0x1c08 @207
@@ -569,49 +539,49 @@ COPY ~CtB/ctbareas/translate/AR3610.ARE~ ~override~
   SAY 0x66d0 @237
   SAY 0x6704 @238
 
-COPY ~CtB/ctbareas/translate/AR3611.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3611.ARE~ ~override~
   SAY 0x5040 @238
   SAY 0x5074 @239
   SAY 0x3800 @70000
 
-COPY ~CtB/ctbareas/translate/AR3613.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3613.ARE~ ~override~
   SAY 0x3f44 @238
   SAY 0x3f78 @240
 
-COPY ~CtB/ctbareas/translate/AR3625.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3625.ARE~ ~override~
   SAY 0x464 @209
 
-COPY ~CtB/ctbareas/translate/AR3626.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3626.ARE~ ~override~
   SAY 0x464 @209
 
-COPY ~CtB/ctbareas/translate/AR3631.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3631.ARE~ ~override~
   SAY 0x638 @211
 
-COPY ~CtB/ctbareas/translate/AR3635.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3635.ARE~ ~override~
   SAY 0x574 @212
 
-COPY ~CtB/ctbareas/translate/AR3636.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3636.ARE~ ~override~
   SAY 0x354 @213
 
-COPY ~CtB/ctbareas/translate/AR3637.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3637.ARE~ ~override~
  SAY 0x1034 @767213
 
-COPY ~CtB/ctbareas/translate/AR3638.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3638.ARE~ ~override~
   SAY 0xbd4 @214
 
-COPY ~CtB/ctbareas/translate/AR3641.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3641.ARE~ ~override~
   SAY 0x794 @215
 
-COPY ~CtB/ctbareas/translate/AR3643.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3643.ARE~ ~override~
   SAY 0xb10 @70001
 
-COPY ~CtB/ctbareas/translate/AR3647.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3647.ARE~ ~override~
   SAY 0x354 @216
 
-COPY ~CtB/ctbareas/translate/AR3649.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/AR3649.ARE~ ~override~
   SAY 0x464 @209
 
-COPY ~CtB/ctbareas/translate/CB3661.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/CB3661.ARE~ ~override~
   SAY 0x013b4 @661003
   SAY 0x013b8 @661003
   SAY 0x013bc @661003
@@ -623,7 +593,7 @@ COPY ~CtB/ctbareas/translate/CB3661.ARE~ ~override~
   SAY 0x013d4 @661003
   SAY 0x013d8 @661003
 
-COPY ~CtB/ctbareas/translate/CB3662.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/CB3662.ARE~ ~override~
   SAY 0x0a24 @661003
   SAY 0x0a28 @661003
   SAY 0x0a2c @661003
@@ -635,7 +605,7 @@ COPY ~CtB/ctbareas/translate/CB3662.ARE~ ~override~
   SAY 0x0a44 @661003
   SAY 0x0a48 @661003
 
-COPY ~CtB/ctbareas/translate/CB3663.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/CB3663.ARE~ ~override~
   SAY 0x01914 @661003
   SAY 0x01918 @661003
   SAY 0x0191c @661003
@@ -647,7 +617,7 @@ COPY ~CtB/ctbareas/translate/CB3663.ARE~ ~override~
   SAY 0x01934 @661003
   SAY 0x01938 @661003
 
-COPY ~CtB/ctbareas/translate/CB3664.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/CB3664.ARE~ ~override~
   SAY 0x0159c @661003
   SAY 0x015a0 @661003
   SAY 0x015a4 @661003
@@ -659,7 +629,7 @@ COPY ~CtB/ctbareas/translate/CB3664.ARE~ ~override~
   SAY 0x015bc @661003
   SAY 0x015c0 @661003
 
-COPY ~CtB/ctbareas/translate/CB3665.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/CB3665.ARE~ ~override~
   SAY 0x01628 @661001
   SAY 0x2fe8 @661003
   SAY 0x2fec @661003
@@ -672,7 +642,7 @@ COPY ~CtB/ctbareas/translate/CB3665.ARE~ ~override~
   SAY 0x3008 @661003
   SAY 0x300c @661003
 
-COPY ~CtB/ctbareas/translate/CB3666.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/CB3666.ARE~ ~override~
   SAY 0x0948 @661003
   SAY 0x094c @661003
   SAY 0x0950 @661003
@@ -684,7 +654,7 @@ COPY ~CtB/ctbareas/translate/CB3666.ARE~ ~override~
   SAY 0x0968 @661003
   SAY 0x096c @661003
 
-COPY ~CtB/ctbareas/translate/CB3667.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/CB3667.ARE~ ~override~
   SAY 0x0a00 @661002
   SAY 0x47cc @661003
   SAY 0x47d0 @661003
@@ -697,7 +667,7 @@ COPY ~CtB/ctbareas/translate/CB3667.ARE~ ~override~
   SAY 0x47ec @661003
   SAY 0x47f0 @661003
 
-COPY ~CtB/ctbareas/translate/CB3668.ARE~ ~override~
+COPY ~%MOD_FOLDER%/ctbareas/translate/CB3668.ARE~ ~override~
   SAY 0x0ccc @661003
   SAY 0x0cd0 @661003
   SAY 0x0cd4 @661003
@@ -715,14 +685,14 @@ COPY ~CtB/ctbareas/translate/CB3668.ARE~ ~override~
 //***********************************************************
 PRINT ~Patching original BG2 scripts...~
 
-EXTEND_BOTTOM 	~AR2600.bcs~ ~CtB/scripts/append/apbt2600.BAF~ EVALUATE_BUFFER
-EXTEND_TOP 		~Baldur.BCS~ ~CtB/scripts/append/aptp1BLD.BAF~ EVALUATE_BUFFER
-EXTEND_TOP 		~Baldur.BCS~ ~CtB/scripts/append/%engine%/aptp2BLD.BAF~ EVALUATE_BUFFER
-EXTEND_TOP    	~AR2500.bcs~ ~CtB/scripts/append/aptp2500.BAF~ EVALUATE_BUFFER //Other part of Chapter 6 fix
+EXTEND_BOTTOM 	~AR2600.bcs~ ~%MOD_FOLDER%/scripts/append/apbt2600.BAF~ EVALUATE_BUFFER
+EXTEND_TOP 		~Baldur.BCS~ ~%MOD_FOLDER%/scripts/append/aptp1BLD.BAF~ EVALUATE_BUFFER
+EXTEND_TOP 		~Baldur.BCS~ ~%MOD_FOLDER%/scripts/append/%engine%/aptp2BLD.BAF~ EVALUATE_BUFFER
+EXTEND_TOP    	~AR2500.bcs~ ~%MOD_FOLDER%/scripts/append/aptp2500.BAF~ EVALUATE_BUFFER //Other part of Chapter 6 fix
 
 /*
 COPY_EXISTING ~AR0300.bcs~ ~override~
- REPLACE_BCS_BLOCK EVALUATE_BUFFER ~CtB/scripts/append/rbbO0300.bcs~ ~CtB/scripts/append/rbbN0300.bcs~
+ REPLACE_BCS_BLOCK EVALUATE_BUFFER ~%MOD_FOLDER%/scripts/append/rbbO0300.bcs~ ~%MOD_FOLDER%/scripts/append/rbbN0300.bcs~
 */
 
 COPY_EXISTING ~AR0300.bcs~ ~override~
@@ -749,68 +719,68 @@ COPY_EXISTING ~AR0300.bcs~ ~override~
   BUT_ONLY_IF_IT_CHANGES
 
 
-EXTEND_BOTTOM ~PREY.BCS~   ~CtB/scripts/append/apbtprey.BAF~ EVALUATE_BUFFER //Only fix for druid staff component for class quest-Hoppy
-EXTEND_TOP 	~DRIZZSHT.bcs~ ~CtB/scripts/append/DRIZZSHT.BAF~ EVALUATE_BUFFER
-EXTEND_TOP 	 ~SGUARD2.bcs~ ~CtB/scripts/append/SGUARD2.BAF~ EVALUATE_BUFFER
-EXTEND_TOP 	 ~SGUARD3.bcs~ ~CtB/scripts/append/SGUARD3.BAF~ EVALUATE_BUFFER
-EXTEND_TOP    ~AR0020.bcs~ ~CtB/scripts/append/aptp0020.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~AR0204.bcs~ ~CtB/scripts/append/apbt0204.BAF~ EVALUATE_BUFFER
-EXTEND_TOP 	  ~AR0300.bcs~ ~CtB/scripts/append/aptp0300.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~AR0308.bcs~ ~CtB/scripts/append/apbt0308.BAF~ EVALUATE_BUFFER
-EXTEND_TOP    ~AR0311.bcs~ ~CtB/scripts/append/aptp0311.BAF~ EVALUATE_BUFFER
-EXTEND_TOP    ~AR0319.bcs~ ~CtB/scripts/append/tAR0319.baf~   EVALUATE_BUFFER //fix
-EXTEND_TOP    ~AR0334.bcs~ ~CtB/scripts/append/aptp0334.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~AR0334.bcs~ ~CtB/scripts/append/apbt0334.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~AR0400.bcs~ ~CtB/scripts/append/aptp0400.BAF~  EVALUATE_BUFFER //was EXT_TOP
-EXTEND_BOTTOM ~AR0404.bcs~ ~CtB/scripts/append/apbt0404.BAF~ EVALUATE_BUFFER
-EXTEND_TOP    ~AR0406.bcs~ ~CtB/scripts/append/aptp0406.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~PREY.BCS~   ~%MOD_FOLDER%/scripts/append/apbtprey.BAF~ EVALUATE_BUFFER //Only fix for druid staff component for class quest-Hoppy
+EXTEND_TOP 	~DRIZZSHT.bcs~ ~%MOD_FOLDER%/scripts/append/DRIZZSHT.BAF~ EVALUATE_BUFFER
+EXTEND_TOP 	 ~SGUARD2.bcs~ ~%MOD_FOLDER%/scripts/append/SGUARD2.BAF~ EVALUATE_BUFFER
+EXTEND_TOP 	 ~SGUARD3.bcs~ ~%MOD_FOLDER%/scripts/append/SGUARD3.BAF~ EVALUATE_BUFFER
+EXTEND_TOP    ~AR0020.bcs~ ~%MOD_FOLDER%/scripts/append/aptp0020.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR0204.bcs~ ~%MOD_FOLDER%/scripts/append/apbt0204.BAF~ EVALUATE_BUFFER
+EXTEND_TOP 	  ~AR0300.bcs~ ~%MOD_FOLDER%/scripts/append/aptp0300.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR0308.bcs~ ~%MOD_FOLDER%/scripts/append/apbt0308.BAF~ EVALUATE_BUFFER
+EXTEND_TOP    ~AR0311.bcs~ ~%MOD_FOLDER%/scripts/append/aptp0311.BAF~ EVALUATE_BUFFER
+EXTEND_TOP    ~AR0319.bcs~ ~%MOD_FOLDER%/scripts/append/tAR0319.baf~   EVALUATE_BUFFER //fix
+EXTEND_TOP    ~AR0334.bcs~ ~%MOD_FOLDER%/scripts/append/aptp0334.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR0334.bcs~ ~%MOD_FOLDER%/scripts/append/apbt0334.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR0400.bcs~ ~%MOD_FOLDER%/scripts/append/aptp0400.BAF~  EVALUATE_BUFFER //was EXT_TOP
+EXTEND_BOTTOM ~AR0404.bcs~ ~%MOD_FOLDER%/scripts/append/apbt0404.BAF~ EVALUATE_BUFFER
+EXTEND_TOP    ~AR0406.bcs~ ~%MOD_FOLDER%/scripts/append/aptp0406.BAF~ EVALUATE_BUFFER
 // bonus merchant
 ACTION_IF NOT ((FILE_EXISTS ~data/TS-RULE.BIF~) OR (FILE_EXISTS ~override/tdd.mrk~) OR (FILE_EXISTS ~override/TDD-RULE.BIF~)) THEN 
 BEGIN
-  EXTEND_BOTTOM ~AR0406.bcs~ ~CtB/scripts/append/apbt0406.BAF~ EVALUATE_BUFFER //WMART1
+  EXTEND_BOTTOM ~AR0406.bcs~ ~%MOD_FOLDER%/scripts/append/apbt0406.BAF~ EVALUATE_BUFFER //WMART1
 END
-EXTEND_TOP    ~AR0500.bcs~ ~CtB/scripts/append/aptp0500.BAF~ EVALUATE_BUFFER
-EXTEND_TOP    ~AR0510.bcs~ ~CtB/scripts/append/aptp0510.BAF~ EVALUATE_BUFFER
-EXTEND_TOP    ~AR0700.bcs~ ~CtB/scripts/append/aptp0700.BAF~ EVALUATE_BUFFER
-EXTEND_TOP    ~AR0705.bcs~ ~CtB/scripts/append/aptp0705.BAF~ EVALUATE_BUFFER
-EXTEND_TOP    ~AR0709.bcs~ ~CtB/scripts/append/aptp0709.BAF~ EVALUATE_BUFFER
-EXTEND_TOP    ~AR0800.bcs~ ~CtB/scripts/append/aptp0800.BAF~ EVALUATE_BUFFER
-EXTEND_TOP    ~AR0809.bcs~ ~CtB/scripts/append/aptp0809.BAF~ EVALUATE_BUFFER
-EXTEND_TOP    ~AR0900.bcs~ ~CtB/scripts/append/aptp0900.BAF~ EVALUATE_BUFFER
-EXTEND_TOP    ~AR0901.bcs~ ~CtB/scripts/append/aptp0901.BAF~ EVALUATE_BUFFER
-EXTEND_TOP    ~AR0902.bcs~ ~CtB/scripts/append/aptp0902.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~AR0902.bcs~ ~CtB/scripts/append/apbt0902.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~AR0903.bcs~ ~CtB/scripts/append/apbt0903.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~AR0906.bcs~ ~CtB/scripts/append/apbt0906.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~AR0907.bcs~ ~CtB/scripts/append/apbt0907.BAF~ EVALUATE_BUFFER
-EXTEND_TOP    ~AR1000.bcs~ ~CtB/scripts/append/aptp1000.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~AR1002.bcs~ ~CtB/scripts/append/apbt1002.BAF~ EVALUATE_BUFFER
-EXTEND_TOP    ~AR1006.bcs~ ~CtB/scripts/append/aptp1006.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~AR1006.bcs~ ~CtB/scripts/append/apbt1006.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~AR1100.BCS~ ~CtB/scripts/append/apbt1100.BAF~ EVALUATE_BUFFER // Fix lost Pissman encounter (Barlot)-Hoppy
-EXTEND_TOP    ~AR1106.bcs~ ~CtB/scripts/append/aptp1106.BAF~ EVALUATE_BUFFER
-EXTEND_TOP    ~AR1200.bcs~ ~CtB/scripts/append/aptp1200.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~AR1200.bcs~ ~CtB/scripts/append/apbt1200.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~AR1202.bcs~ ~CtB/scripts/append/apbt1202.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~AR1300.bcs~ ~CtB/scripts/append/apbt1300.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~AR1304.bcs~ ~CtB/scripts/append/apbt1304.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~AR1400.bcs~ ~CtB/scripts/append/apbt1400.BAF~ EVALUATE_BUFFER
-EXTEND_TOP    ~AR1401.bcs~ ~CtB/scripts/append/aptp1401.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~AR1404.bcs~ ~CtB/scripts/append/apbt1404.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~AR1700.bcs~ ~CtB/scripts/append/apbt1700.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~AR1900.bcs~ ~CtB/scripts/append/apbt1900.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~AR2000.bcs~ ~CtB/scripts/append/apbt2000.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~AR2008.bcs~ ~CtB/scripts/append/apbt2008.BAF~ EVALUATE_BUFFER
-EXTEND_TOP    ~AR2200.bcs~ ~CtB/scripts/append/aptp2200.BAF~ EVALUATE_BUFFER
-EXTEND_TOP    ~AR2201.bcs~ ~CtB/scripts/append/aptp2201.BAF~ EVALUATE_BUFFER
-EXTEND_TOP    ~AR2202.bcs~ ~CtB/scripts/append/aptp2202.BAF~ EVALUATE_BUFFER
-EXTEND_TOP    ~AR2203.bcs~ ~CtB/scripts/append/aptp2203.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~AR2205.bcs~ ~CtB/scripts/append/apbt2205.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~AR2402.bcs~ ~CtB/scripts/append/apbt2402.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~AR6101.bcs~ ~CtB/scripts/append/apbt6101.BAF~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~AR6104.bcs~ ~CtB/scripts/append/apbt6104.BAF~ EVALUATE_BUFFER
-EXTEND_TOP    ~AR6105.bcs~ ~CtB/scripts/append/aptp6105.BAF~ EVALUATE_BUFFER
-EXTEND_TOP    ~AR6106.bcs~ ~CtB/scripts/append/aptp6106.BAF~ EVALUATE_BUFFER //added
+EXTEND_TOP    ~AR0500.bcs~ ~%MOD_FOLDER%/scripts/append/aptp0500.BAF~ EVALUATE_BUFFER
+EXTEND_TOP    ~AR0510.bcs~ ~%MOD_FOLDER%/scripts/append/aptp0510.BAF~ EVALUATE_BUFFER
+EXTEND_TOP    ~AR0700.bcs~ ~%MOD_FOLDER%/scripts/append/aptp0700.BAF~ EVALUATE_BUFFER
+EXTEND_TOP    ~AR0705.bcs~ ~%MOD_FOLDER%/scripts/append/aptp0705.BAF~ EVALUATE_BUFFER
+EXTEND_TOP    ~AR0709.bcs~ ~%MOD_FOLDER%/scripts/append/aptp0709.BAF~ EVALUATE_BUFFER
+EXTEND_TOP    ~AR0800.bcs~ ~%MOD_FOLDER%/scripts/append/aptp0800.BAF~ EVALUATE_BUFFER
+EXTEND_TOP    ~AR0809.bcs~ ~%MOD_FOLDER%/scripts/append/aptp0809.BAF~ EVALUATE_BUFFER
+EXTEND_TOP    ~AR0900.bcs~ ~%MOD_FOLDER%/scripts/append/aptp0900.BAF~ EVALUATE_BUFFER
+EXTEND_TOP    ~AR0901.bcs~ ~%MOD_FOLDER%/scripts/append/aptp0901.BAF~ EVALUATE_BUFFER
+EXTEND_TOP    ~AR0902.bcs~ ~%MOD_FOLDER%/scripts/append/aptp0902.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR0902.bcs~ ~%MOD_FOLDER%/scripts/append/apbt0902.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR0903.bcs~ ~%MOD_FOLDER%/scripts/append/apbt0903.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR0906.bcs~ ~%MOD_FOLDER%/scripts/append/apbt0906.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR0907.bcs~ ~%MOD_FOLDER%/scripts/append/apbt0907.BAF~ EVALUATE_BUFFER
+EXTEND_TOP    ~AR1000.bcs~ ~%MOD_FOLDER%/scripts/append/aptp1000.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR1002.bcs~ ~%MOD_FOLDER%/scripts/append/apbt1002.BAF~ EVALUATE_BUFFER
+EXTEND_TOP    ~AR1006.bcs~ ~%MOD_FOLDER%/scripts/append/aptp1006.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR1006.bcs~ ~%MOD_FOLDER%/scripts/append/apbt1006.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR1100.BCS~ ~%MOD_FOLDER%/scripts/append/apbt1100.BAF~ EVALUATE_BUFFER // Fix lost Pissman encounter (Barlot)-Hoppy
+EXTEND_TOP    ~AR1106.bcs~ ~%MOD_FOLDER%/scripts/append/aptp1106.BAF~ EVALUATE_BUFFER
+EXTEND_TOP    ~AR1200.bcs~ ~%MOD_FOLDER%/scripts/append/aptp1200.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR1200.bcs~ ~%MOD_FOLDER%/scripts/append/apbt1200.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR1202.bcs~ ~%MOD_FOLDER%/scripts/append/apbt1202.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR1300.bcs~ ~%MOD_FOLDER%/scripts/append/apbt1300.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR1304.bcs~ ~%MOD_FOLDER%/scripts/append/apbt1304.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR1400.bcs~ ~%MOD_FOLDER%/scripts/append/apbt1400.BAF~ EVALUATE_BUFFER
+EXTEND_TOP    ~AR1401.bcs~ ~%MOD_FOLDER%/scripts/append/aptp1401.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR1404.bcs~ ~%MOD_FOLDER%/scripts/append/apbt1404.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR1700.bcs~ ~%MOD_FOLDER%/scripts/append/apbt1700.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR1900.bcs~ ~%MOD_FOLDER%/scripts/append/apbt1900.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR2000.bcs~ ~%MOD_FOLDER%/scripts/append/apbt2000.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR2008.bcs~ ~%MOD_FOLDER%/scripts/append/apbt2008.BAF~ EVALUATE_BUFFER
+EXTEND_TOP    ~AR2200.bcs~ ~%MOD_FOLDER%/scripts/append/aptp2200.BAF~ EVALUATE_BUFFER
+EXTEND_TOP    ~AR2201.bcs~ ~%MOD_FOLDER%/scripts/append/aptp2201.BAF~ EVALUATE_BUFFER
+EXTEND_TOP    ~AR2202.bcs~ ~%MOD_FOLDER%/scripts/append/aptp2202.BAF~ EVALUATE_BUFFER
+EXTEND_TOP    ~AR2203.bcs~ ~%MOD_FOLDER%/scripts/append/aptp2203.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR2205.bcs~ ~%MOD_FOLDER%/scripts/append/apbt2205.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR2402.bcs~ ~%MOD_FOLDER%/scripts/append/apbt2402.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR6101.bcs~ ~%MOD_FOLDER%/scripts/append/apbt6101.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~AR6104.bcs~ ~%MOD_FOLDER%/scripts/append/apbt6104.BAF~ EVALUATE_BUFFER
+EXTEND_TOP    ~AR6105.bcs~ ~%MOD_FOLDER%/scripts/append/aptp6105.BAF~ EVALUATE_BUFFER
+EXTEND_TOP    ~AR6106.bcs~ ~%MOD_FOLDER%/scripts/append/aptp6106.BAF~ EVALUATE_BUFFER //added
 
 
 COPY_EXISTING ~ar0700.bcs~ ~override~       //fix
@@ -826,21 +796,21 @@ COPY_EXISTING ~ar0700.bcs~ ~override~       //fix
 //**************************************************************************
 PRINT ~Installing new scripts...~
 
-COMPILE EVALUATE_BUFFER ~CtB/scripts/ctb~
-  USING ~CtB/Language/%s/script.tra~
+COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/scripts/ctb~
+  USING ~%MOD_FOLDER%/Language/%s/script.tra~
   
 //**************************************************************************
 //**************************************************************************
 PRINT ~Installing dialogues...~
 
 // Install DLG
-COMPILE EVALUATE_BUFFER ~CtB/dialogs/translate~
+COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/dialogs/translate~
 
-COMPILE EVALUATE_BUFFER ~CtB/dialogs/app&ext~
+COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/dialogs/app&ext~
 
-COMPILE EVALUATE_BUFFER ~CtB/dialogs/improvements/CBSURAYW.D~ USING ~ctb/language/%LANGUAGE%/improvements/CBSURAYW.tra~
-COMPILE EVALUATE_BUFFER ~CtB/dialogs/improvements/CBSAERKW.D~ USING ~ctb/language/%LANGUAGE%/improvements/CBSAERKW.tra~
-COMPILE EVALUATE_BUFFER ~CtB/dialogs/improvements/CBPASTRW.D~ USING ~ctb/language/%LANGUAGE%/improvements/CBPASTRW.tra~
+COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/dialogs/improvements/CBSURAYW.D~ USING ~%MOD_FOLDER%/language/%LANGUAGE%/improvements/CBSURAYW.tra~
+COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/dialogs/improvements/CBSAERKW.D~ USING ~%MOD_FOLDER%/language/%LANGUAGE%/improvements/CBSAERKW.tra~
+COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/dialogs/improvements/CBPASTRW.D~ USING ~%MOD_FOLDER%/language/%LANGUAGE%/improvements/CBPASTRW.tra~
 
 COPY_EXISTING ~FFRECEP.DLG~ ~override~
  WRITE_BYTE 0x30 0 //makes FFRECEP.DLG a pausing dialog - KD: was 2
@@ -863,7 +833,7 @@ ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
 	PRINT ~Correcting animations for BG2EE and EET...~
 	 
 	ACTION_FOR_EACH var IN bam wav ini BEGIN
-		ACTION_BASH_FOR ~CtB/anim/chimera~ ~^.+\.%var%$~ BEGIN
+		ACTION_BASH_FOR ~%MOD_FOLDER%/anim/chimera~ ~^.+\.%var%$~ BEGIN
 			ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
 				COPY ~%BASH_FOR_FILESPEC%~ ~override~
 			END
@@ -875,7 +845,7 @@ ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
     BUT_ONLY_IF_IT_CHANGES	
 	
 	ACTION_FOR_EACH var IN bam wav BEGIN
-		ACTION_BASH_FOR ~CtB/anim/bugbear~ ~^.+\.%var%$~ BEGIN
+		ACTION_BASH_FOR ~%MOD_FOLDER%/anim/bugbear~ ~^.+\.%var%$~ BEGIN
 			ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
 				COPY ~%BASH_FOR_FILESPEC%~ ~override~
 			END
@@ -892,7 +862,7 @@ ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
 	BUT_ONLY_IF_IT_CHANGES
 
 	ACTION_FOR_EACH var IN bam wav BEGIN
-		ACTION_BASH_FOR ~CtB/anim/bugbear_captain~ ~^.+\.%var%$~ BEGIN
+		ACTION_BASH_FOR ~%MOD_FOLDER%/anim/bugbear_captain~ ~^.+\.%var%$~ BEGIN
 			ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
 				COPY ~%BASH_FOR_FILESPEC%~ ~override~
 			END
@@ -908,7 +878,7 @@ ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
     BUT_ONLY_IF_IT_CHANGES
 
 	ACTION_FOR_EACH var IN bam wav BEGIN
-		ACTION_BASH_FOR ~CtB/anim/barbarian_1~ ~^.+\.%var%$~ BEGIN
+		ACTION_BASH_FOR ~%MOD_FOLDER%/anim/barbarian_1~ ~^.+\.%var%$~ BEGIN
 			ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
 				COPY ~%BASH_FOR_FILESPEC%~ ~override~
 			END
@@ -923,7 +893,7 @@ ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
     BUT_ONLY_IF_IT_CHANGES
 
 	ACTION_FOR_EACH var IN bam wav BEGIN
-		ACTION_BASH_FOR ~CtB/anim/barbarian_2~ ~^.+\.%var%$~ BEGIN
+		ACTION_BASH_FOR ~%MOD_FOLDER%/anim/barbarian_2~ ~^.+\.%var%$~ BEGIN
 			ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
 				COPY ~%BASH_FOR_FILESPEC%~ ~override~
 			END
@@ -938,7 +908,7 @@ ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
     BUT_ONLY_IF_IT_CHANGES
 
 	ACTION_FOR_EACH var IN bam wav BEGIN
-		ACTION_BASH_FOR ~CtB/anim/drider_male~ ~^.+\.%var%$~ BEGIN
+		ACTION_BASH_FOR ~%MOD_FOLDER%/anim/drider_male~ ~^.+\.%var%$~ BEGIN
 			ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
 				COPY ~%BASH_FOR_FILESPEC%~ ~override~
 			END
@@ -951,7 +921,7 @@ ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
     BUT_ONLY_IF_IT_CHANGES
 
 	ACTION_FOR_EACH var IN bam wav BEGIN
-		ACTION_BASH_FOR ~CtB/anim/drider_female~ ~^.+\.%var%$~ BEGIN
+		ACTION_BASH_FOR ~%MOD_FOLDER%/anim/drider_female~ ~^.+\.%var%$~ BEGIN
 			ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
 				COPY ~%BASH_FOR_FILESPEC%~ ~override~
 			END
@@ -965,7 +935,7 @@ ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
     BUT_ONLY_IF_IT_CHANGES
     
 	ACTION_FOR_EACH var IN bam wav BEGIN
-		ACTION_BASH_FOR ~CtB/anim/halfdragon_red~ ~^.+\.%var%$~ BEGIN
+		ACTION_BASH_FOR ~%MOD_FOLDER%/anim/halfdragon_red~ ~^.+\.%var%$~ BEGIN
 			ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
 				COPY ~%BASH_FOR_FILESPEC%~ ~override~
 			END
@@ -981,7 +951,7 @@ ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
     BUT_ONLY_IF_IT_CHANGES
     
 	ACTION_FOR_EACH var IN bam wav ini BEGIN
-		ACTION_BASH_FOR ~CtB/anim/halfdragon_black~ ~^.+\.%var%$~ BEGIN
+		ACTION_BASH_FOR ~%MOD_FOLDER%/anim/halfdragon_black~ ~^.+\.%var%$~ BEGIN
 			ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
 				COPY ~%BASH_FOR_FILESPEC%~ ~override~
 			END
@@ -997,7 +967,7 @@ ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
     BUT_ONLY_IF_IT_CHANGES
 
 	ACTION_FOR_EACH var IN bam wav BEGIN
-		ACTION_BASH_FOR ~CtB/anim/treant~ ~^.+\.%var%$~ BEGIN
+		ACTION_BASH_FOR ~%MOD_FOLDER%/anim/treant~ ~^.+\.%var%$~ BEGIN
 			ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
 				COPY ~%BASH_FOR_FILESPEC%~ ~override~
 			END
@@ -1077,16 +1047,16 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
      
      ACTION_IF NOT FILE_EXISTS ~override/rot.mrk~ AND NOT FILE_EXISTS ~data/ROT-RULE.BIF~    // Compatibility with RoT
      THEN BEGIN
-       COPY ~CtB/Compat/anim/MTIC~ ~override~   //Red Harpy
-       COPY ~CtB/Compat/anim/MZO2~ ~override~   //Black Harpy - RoT's Samurai has a higher priority
+       COPY ~%MOD_FOLDER%/Compat/anim/MTIC~ ~override~   //Red Harpy
+       COPY ~%MOD_FOLDER%/Compat/anim/MZO2~ ~override~   //Black Harpy - RoT's Samurai has a higher priority
      END
      
      
      PRINT ~Installing new animations for SoA and ToB...~
      
-     COPY ~CtB/anim/cbcrean1~ ~override~
-     COPY ~CtB/anim/cbcrean2~ ~override~
-     COPY ~CtB/anim/cbcrean4~ ~override~
+     COPY ~%MOD_FOLDER%/anim/cbcrean1~ ~override~
+     COPY ~%MOD_FOLDER%/anim/cbcrean2~ ~override~
+     COPY ~%MOD_FOLDER%/anim/cbcrean4~ ~override~
 
 END
  
@@ -1125,128 +1095,128 @@ END
 
 PRINT ~Installing new spells...~
 
-COPY ~CtB/spells/nostring~ ~override~
+COPY ~%MOD_FOLDER%/spells/nostring~ ~override~
 
-COPY ~CtB/spells/translate/CB587TDR.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CB587TDR.SPL~ ~override~
   SAY NAME1 @245
-COPY ~CtB/spells/translate/CB587TGC.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CB587TGC.SPL~ ~override~
   SAY NAME1 @246
-COPY ~CtB/spells/translate/CB587THL.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CB587THL.SPL~ ~override~
   SAY NAME1  @247
-COPY ~CtB/spells/translate/CBBARDBT.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CBBARDBT.SPL~ ~override~
   SAY NAME1  @248
-COPY ~CtB/spells/translate/CBBARDCT.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CBBARDCT.SPL~ ~override~
   SAY NAME1  @250
   SAY UNIDENTIFIED_DESC @251
-COPY ~CtB/spells/translate/CBBARDCU.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CBBARDCU.SPL~ ~override~
   SAY 0x18e  @252
-COPY ~CtB/spells/translate/CBBK7535.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CBBK7535.SPL~ ~override~
   SAY NAME1  @253
-COPY ~CtB/spells/translate/CBC8LSXP.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CBC8LSXP.SPL~ ~override~
   SAY 0x9e @254
-COPY ~CtB/spells/translate/CBCWTHAa.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CBCWTHAa.SPL~ ~override~
   SAY NAME1  @255
-COPY ~CtB/spells/translate/CBCWTHAb.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CBCWTHAb.SPL~ ~override~
   SAY NAME1  @256
-COPY ~CtB/spells/translate/CBCWTHAC.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CBCWTHAC.SPL~ ~override~
   SAY NAME1  @257
-COPY ~CtB/spells/translate/CBCWTHAD.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CBCWTHAD.SPL~ ~override~
   SAY NAME1  @258
-COPY ~CtB/spells/translate/CBCWTHAE.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CBCWTHAE.SPL~ ~override~
   SAY NAME1  @259
-COPY ~CtB/spells/translate/CBCWTHAF.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CBCWTHAF.SPL~ ~override~
   SAY NAME1  @260
-COPY ~CtB/spells/translate/CBCWTHE2.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CBCWTHE2.SPL~ ~override~
   SAY NAME1 @261
-COPY ~CtB/spells/translate/CBCWTHE4.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CBCWTHE4.SPL~ ~override~
   SAY NAME1  @262
-COPY ~CtB/spells/translate/CBMALR5a.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CBMALR5a.SPL~ ~override~
   SAY NAME1  @263
   SAY UNIDENTIFIED_DESC @264
-COPY ~CtB/spells/translate/CBRNGTV2.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CBRNGTV2.SPL~ ~override~
   SAY NAME1  @265
-COPY ~CtB/spells/translate/CBSPKDED.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CBSPKDED.SPL~ ~override~
   SAY NAME1  @267
   SAY UNIDENTIFIED_DESC @268
-COPY ~CtB/spells/translate/CBWTNI1a.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CBWTNI1a.SPL~ ~override~
   SAY 0xce @295
-COPY ~CtB/spells/translate/CBWTNI1c.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CBWTNI1c.SPL~ ~override~
   SAY 0xce @296
-COPY ~CtB/spells/translate/CBWTNI1d.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CBWTNI1d.SPL~ ~override~
   SAY 0xce @297
-COPY ~CtB/spells/translate/CBWTNI1e.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CBWTNI1e.SPL~ ~override~
   SAY 0xce  @298
-COPY ~CtB/spells/translate/CBWTNI1g.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CBWTNI1g.SPL~ ~override~
   SAY 0xfe @299
-COPY ~CtB/spells/translate/CBWTNI1h.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CBWTNI1h.SPL~ ~override~
   SAY 0xce @300
-COPY ~CtB/spells/translate/CBWTNI1i.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CBWTNI1i.SPL~ ~override~
   SAY 0xce  @301
-COPY ~CtB/spells/translate/SPIN510.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/SPIN510.SPL~ ~override~
   SAY NAME1  @302
-COPY ~CtB/spells/translate/SPIN511.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/SPIN511.SPL~ ~override~
   SAY NAME1  @303
-COPY ~CtB/spells/translate/SPIN512.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/SPIN512.SPL~ ~override~
   SAY NAME1  @304
-COPY ~CtB/spells/translate/SPIN513.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/SPIN513.SPL~ ~override~
   SAY NAME1  @305
-COPY ~CtB/spells/translate/SPIN514.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/SPIN514.SPL~ ~override~
   SAY NAME1  @306
   SAY UNIDENTIFIED_DESC @307
-COPY ~CtB/spells/translate/SPIN515.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/SPIN515.SPL~ ~override~
   SAY NAME1  @308
-COPY ~CtB/spells/translate/SPIN516.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/SPIN516.SPL~ ~override~
   SAY NAME1  @309
-COPY ~CtB/spells/translate/SPIN517T.SPL~ ~override~      
+COPY ~%MOD_FOLDER%/spells/translate/SPIN517T.SPL~ ~override~      
   SAY NAME1  @310
-COPY ~CtB/spells/translate/SPIN518T.SPL~ ~override~     
+COPY ~%MOD_FOLDER%/spells/translate/SPIN518T.SPL~ ~override~     
 		SAY NAME1  @311
-COPY ~CtB/spells/translate/SPWI063.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/SPWI063.SPL~ ~override~
   SAY 0x15e @343
-COPY ~CtB/spells/translate/SPWI240.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/SPWI240.SPL~ ~override~
   SAY NAME1  @346
   SAY UNIDENTIFIED_DESC @347
-COPY ~CtB/spells/translate/SPWI540.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/SPWI540.SPL~ ~override~
   SAY NAME1  @352
   SAY UNIDENTIFIED_DESC @353
-COPY ~CtB/spells/translate/SPWI541.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/SPWI541.SPL~ ~override~
   SAY NAME1  @354
   SAY UNIDENTIFIED_DESC @355
-COPY ~CtB/spells/translate/CBWT7g20.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/CBWT7g20.SPL~ ~override~
   SAY NAME1 @354
-COPY ~CtB/spells/translate/SPWI640.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/SPWI640.SPL~ ~override~
   SAY NAME1  @356
   SAY UNIDENTIFIED_DESC @357
-COPY ~CtB/spells/translate/SPWI642.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/SPWI642.SPL~ ~override~
   SAY NAME1  @360
   SAY UNIDENTIFIED_DESC @361
-COPY ~CtB/spells/translate/SPWI643.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/translate/SPWI643.SPL~ ~override~
   SAY NAME1  @362
   SAY UNIDENTIFIED_DESC @363
 
-COPY ~CtB/Compat/TDD/SPWI227.SPL~ ~override~
+COPY ~%MOD_FOLDER%/Compat/TDD/SPWI227.SPL~ ~override~
   SAY NAME1  @348
   SAY UNIDENTIFIED_DESC @349
-COPY ~CtB/Compat/TDD/SPWI440.SPL~ ~override~
+COPY ~%MOD_FOLDER%/Compat/TDD/SPWI440.SPL~ ~override~
   SAY NAME1  @350
   SAY UNIDENTIFIED_DESC @351
-COPY ~CtB/Compat/TDD/SPWI627.SPL~ ~override~
+COPY ~%MOD_FOLDER%/Compat/TDD/SPWI627.SPL~ ~override~
   SAY NAME1  @358
   SAY UNIDENTIFIED_DESC @359
-COPY ~CtB/Compat/TDD/SPWI823.SPL~ ~override~
+COPY ~%MOD_FOLDER%/Compat/TDD/SPWI823.SPL~ ~override~
   SAY NAME1  @366
   SAY UNIDENTIFIED_DESC @367
-COPY ~CtB/Compat/TDD/SPWI824.SPL~ ~override~
+COPY ~%MOD_FOLDER%/Compat/TDD/SPWI824.SPL~ ~override~
   SAY NAME1  @364
   SAY UNIDENTIFIED_DESC @365
 
 ACTION_IF NOT FILE_EXISTS ~override/rot.mrk~ OR  NOT FILE_EXISTS ~data/ROT-RULE.BIF~  //ROT compatibility
 THEN BEGIN
-  COPY ~CtB/Compat/RoT/SPWI140.SPL~ ~override~
+  COPY ~%MOD_FOLDER%/Compat/RoT/SPWI140.SPL~ ~override~
     SAY NAME1  @344
     SAY UNIDENTIFIED_DESC @345
 
-  COPY ~CtB/Compat/RoT/BAM~ ~override~
+  COPY ~%MOD_FOLDER%/Compat/RoT/BAM~ ~override~
 END
 
 //***********************************************************
@@ -1268,27 +1238,27 @@ COPY_EXISTING ~SHOP08.STO~ ~override/SHOP08.STO~
 
 PRINT ~Installing new stores...~
 
-COPY ~CtB/stores/CB363501.STO~ ~override~ SAY STORE_NAME @134
+COPY ~%MOD_FOLDER%/stores/CB363501.STO~ ~override~ SAY STORE_NAME @134
  SAY 0xa4 @143
  SAY 0xb8 @144
  SAY 0xcc @145
 
-COPY ~CtB/stores/CB3647HB.STO~ ~override~ SAY STORE_NAME @135
-COPY ~CtB/stores/CB3651IN.STO~ ~override~ SAY STORE_NAME @136
-COPY ~CtB/stores/CB3651IO.STO~ ~override~ SAY STORE_NAME @136
-COPY ~CtB/stores/CBCWUMST.STO~ ~override~
-COPY ~CtB/stores/CBHL3631.STO~ ~override~
-COPY ~CtB/stores/CBHL3634.STO~ ~override~
-COPY ~CtB/stores/CBHLD0W1.STO~ ~override~ SAY STORE_NAME @137
-COPY ~CtB/stores/CBHLVLNT.STO~ ~override~ SAY STORE_NAME @138
-COPY ~CtB/stores/CBMALR1a.STO~ ~override~
-COPY ~CtB/stores/CBMALR1b.STO~ ~override~
-COPY ~CtB/stores/CBMYSBAG.STO~ ~override~
-COPY ~CtB/stores/CBMYSSCR.STO~ ~override~
-COPY ~CtB/stores/CBMYSTP1.STO~ ~override~ SAY STORE_NAME @139
-COPY ~CtB/stores/CBRNCMAN.STO~ ~override~ SAY STORE_NAME @140
-COPY ~CtB/stores/CBTENTBD.STO~ ~override~ SAY STORE_NAME @141
-COPY ~CtB/stores/CBWT700.STO~  ~override~ SAY STORE_NAME @142
+COPY ~%MOD_FOLDER%/stores/CB3647HB.STO~ ~override~ SAY STORE_NAME @135
+COPY ~%MOD_FOLDER%/stores/CB3651IN.STO~ ~override~ SAY STORE_NAME @136
+COPY ~%MOD_FOLDER%/stores/CB3651IO.STO~ ~override~ SAY STORE_NAME @136
+COPY ~%MOD_FOLDER%/stores/CBCWUMST.STO~ ~override~
+COPY ~%MOD_FOLDER%/stores/CBHL3631.STO~ ~override~
+COPY ~%MOD_FOLDER%/stores/CBHL3634.STO~ ~override~
+COPY ~%MOD_FOLDER%/stores/CBHLD0W1.STO~ ~override~ SAY STORE_NAME @137
+COPY ~%MOD_FOLDER%/stores/CBHLVLNT.STO~ ~override~ SAY STORE_NAME @138
+COPY ~%MOD_FOLDER%/stores/CBMALR1a.STO~ ~override~
+COPY ~%MOD_FOLDER%/stores/CBMALR1b.STO~ ~override~
+COPY ~%MOD_FOLDER%/stores/CBMYSBAG.STO~ ~override~
+COPY ~%MOD_FOLDER%/stores/CBMYSSCR.STO~ ~override~
+COPY ~%MOD_FOLDER%/stores/CBMYSTP1.STO~ ~override~ SAY STORE_NAME @139
+COPY ~%MOD_FOLDER%/stores/CBRNCMAN.STO~ ~override~ SAY STORE_NAME @140
+COPY ~%MOD_FOLDER%/stores/CBTENTBD.STO~ ~override~ SAY STORE_NAME @141
+COPY ~%MOD_FOLDER%/stores/CBWT700.STO~  ~override~ SAY STORE_NAME @142
 
 
 //***********************************************************
@@ -1313,61 +1283,64 @@ PRINT ~Updating Worldmap...~
 
 ACTION_IF FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ THEN BEGIN
   COPY ~Worldmap/map_mods_areas.tbl~  ~Worldmap~
-   APPEND_FILE ~CtB/Worldmap/areas.tbl~
+   APPEND_FILE ~%MOD_FOLDER%/Worldmap/areas.tbl~
 
   COPY ~Worldmap/map_mods_links.tbl~  ~Worldmap~
-   APPEND_FILE ~CtB/Worldmap/links.tbl~
+   APPEND_FILE ~%MOD_FOLDER%/Worldmap/links.tbl~
    PATCH_IF (FILE_EXISTS ~data/ROT-RULE.BIF~) OR (FILE_EXISTS_IN_GAME ~rot.mrk~) BEGIN
-     APPEND_FILE ~CtB/Worldmap/rot_links.tbl~
+     APPEND_FILE ~%MOD_FOLDER%/Worldmap/rot_links.tbl~
    END
    PATCH_IF (FILE_EXISTS ~data/TDD-RULE.BIF~) OR (FILE_EXISTS_IN_GAME ~tdd.mrk~) OR  (MOD_IS_INSTALLED "setup-TDDz.tp2" "0") BEGIN
-     APPEND_FILE ~CtB/Worldmap/tdd_links.tbl~
+     APPEND_FILE ~%MOD_FOLDER%/Worldmap/tdd_links.tbl~
    END
    PATCH_IF (FILE_EXISTS ~data/SOS-RULE.BIF~) OR (FILE_EXISTS ~override/sos.mrk~) BEGIN
-     APPEND_FILE ~CtB/Worldmap/sos_links.tbl~
+     APPEND_FILE ~%MOD_FOLDER%/Worldmap/sos_links.tbl~
    END
 
   //preliminary step - making LANGUAGE temporary file until the new WeiDU
-  COPY - ~CtB/Worldmap/%LANGUAGE%/worldmap.tra~  ~tmp_worldmap.tra~
+  //COPY - ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~  ~tmp_worldmap.tra~
+  COPY - ~%TRA_LOCATION%/%LANGUAGE%/Worldmap.tra~  ~tmp_worldmap.tra~
+  
   COPY ~Worldmap/map_mods_trans.tra~  ~Worldmap~
    APPEND_FILE ~tmp_worldmap.tra~
 
   ACTION_IF FILE_EXISTS ~Worldmap/map_mods_links_patch.tbl~ THEN BEGIN
     COPY ~Worldmap/map_mods_links_patch.tbl~  ~Worldmap~
-     APPEND_FILE ~CtB/Worldmap/links_patch.tbl~
+     APPEND_FILE ~%MOD_FOLDER%/Worldmap/links_patch.tbl~
   END ELSE BEGIN
-    COPY ~CtB/Worldmap/links_patch.tbl~ ~Worldmap/map_mods_links_patch.tbl~
+    COPY ~%MOD_FOLDER%/Worldmap/links_patch.tbl~ ~Worldmap/map_mods_links_patch.tbl~
   END
 END
 ELSE BEGIN
   MKDIR ~Worldmap~
-  COPY ~CtB/Worldmap/areas.tbl~ ~Worldmap/map_mods_areas.tbl~
-  COPY ~CtB/Worldmap/links.tbl~ ~Worldmap/map_mods_links.tbl~
-  COPY ~CtB/Worldmap/%LANGUAGE%/worldmap.tra~ ~Worldmap/map_mods_trans.tra~
-  COPY ~CtB/Worldmap/links_patch.tbl~ ~Worldmap/map_mods_links_patch.tbl~
+  COPY ~%MOD_FOLDER%/Worldmap/areas.tbl~ ~Worldmap/map_mods_areas.tbl~
+  COPY ~%MOD_FOLDER%/Worldmap/links.tbl~ ~Worldmap/map_mods_links.tbl~
+  //COPY ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~ ~Worldmap/map_mods_trans.tra~
+  COPY ~%TRA_LOCATION%/%LANGUAGE%/Worldmap.tra~ ~Worldmap/map_mods_trans.tra~
+  COPY ~%MOD_FOLDER%/Worldmap/links_patch.tbl~ ~Worldmap/map_mods_links_patch.tbl~
 END
 
 ACTION_IF GAME_IS ~eet~ BEGIN
-	INCLUDE ~CtB/lib/ADD_MAP_ICONS_EE.tpa~
+	INCLUDE ~%MOD_FOLDER%/lib/ADD_MAP_ICONS_EE.tpa~
 	LAF ADD_MAP_ICONS_EE
 		INT_VAR
 		icon_index = 0 // sequence (cycle) number of your first icon in your .bam, indexed from 0
 		STR_VAR
-		path_to_icons = ~CtB/Worldmap/eet/icon/HLONDETH.bam~ // full path to the .bam file containing your icons, e.g. ~mymod/bam/mapicons.bam~
-		patch_to_pvrz = ~CtB/Worldmap/eet/icon~ // directory patch to .pvrz files associated with your merging .bam icon, e.g. ~mymod/pvrz~
+		path_to_icons = EVAL ~%MOD_FOLDER%/Worldmap/eet/icon/HLONDETH.bam~ // full path to the .bam file containing your icons, e.g. ~mymod/bam/mapicons.bam~
+		patch_to_pvrz = EVAL ~%MOD_FOLDER%/Worldmap/eet/icon~ // directory patch to .pvrz files associated with your merging .bam icon, e.g. ~mymod/pvrz~
 		worldmap = ~worldmap~ // which .wmp file should these icons be associated with, e.g. ~worldm25~
 		RET
 		new_icon_index // sequence number of your first icon in the new .bam - use this when you patch the worldmap
 	END
 	COPY ~%MOD_FOLDER%/Worldmap/eet/eet-links.tbl~  ~%MOD_FOLDER%/Worldmap/eet~
 		PATCH_IF (FILE_EXISTS_IN_GAME ~rot.mrk~)  OR (FILE_EXISTS ~data/ROT-RULE.BIF~) BEGIN
-			APPEND_FILE ~CtB/Worldmap/eet/rot_links.tbl~                        
+			APPEND_FILE ~%MOD_FOLDER%/Worldmap/eet/rot_links.tbl~                        
 		END                                                                    
 		PATCH_IF (FILE_EXISTS_IN_GAME ~sos.mrk~)  OR (FILE_EXISTS ~data/SOS-RULE.BIF~) BEGIN
-			APPEND_FILE ~CtB/Worldmap/eet/sos_links.tbl~                        
+			APPEND_FILE ~%MOD_FOLDER%/Worldmap/eet/sos_links.tbl~                        
 		END                                                                    
 		PATCH_IF (FILE_EXISTS_IN_GAME ~tdd.mrk~)  OR (FILE_EXISTS ~data/TDD-RULE.BIF~) OR  (MOD_IS_INSTALLED "setup-TDDz.tp2" "0") BEGIN
-			APPEND_FILE ~CtB/Worldmap/eet/tdd_links.tbl~
+			APPEND_FILE ~%MOD_FOLDER%/Worldmap/eet/tdd_links.tbl~
 		END
 	COPY ~%MOD_FOLDER%/Worldmap/eet/eet-areas.tbl~  ~%MOD_FOLDER%/Worldmap/eet~
 		FOR (cnt=0;cnt<4;cnt=cnt+1) BEGIN
@@ -1382,7 +1355,7 @@ ACTION_IF GAME_IS ~eet~ BEGIN
 		STR_VAR
 		path_to_areas = EVAL ~%MOD_FOLDER%/Worldmap/eet/eet-areas.tbl~
 		path_to_links = EVAL ~%MOD_FOLDER%/Worldmap/eet/eet-links.tbl~
-		path_to_trans = EVAL ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
+		path_to_trans = EVAL ~%TRA_LOCATION%/%LANGUAGE%/Worldmap.tra~
 	END
 END
 
@@ -1397,36 +1370,43 @@ INCLUDE ~%MOD_FOLDER%/lib/install-music-%engine%.tpa~
 //////////////////////////////
 // Installing tileset and audio
 //////////////////////////////
-MKDIR ~CtB/language/%LANGUAGE%/ogg1~
+MKDIR ~%workspace%/Language/%LANGUAGE%/Ogg1~
 
-ACTION_BASH_FOR ~CtB/language/english/ogg1~ ~^.+\.ogg$~ BEGIN
-	ACTION_IF NOT FILE_EXISTS ~CtB/language/%LANGUAGE%/ogg1/%BASH_FOR_FILE%~ BEGIN
-		COPY ~%BASH_FOR_FILESPEC%~ ~CtB/language/%LANGUAGE%/ogg1~
+ACTION_BASH_FOR ~%MOD_FOLDER%/Language/%LANGUAGE%/Ogg1~ ~^.+\.ogg$~ BEGIN
+    COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/Language/%LANGUAGE%/Ogg1~
+END
+
+ACTION_BASH_FOR ~%MOD_FOLDER%/language/english/ogg1~ ~^.+\.ogg$~ BEGIN
+	ACTION_IF NOT FILE_EXISTS ~%workspace%/Language/%LANGUAGE%/Ogg1/%BASH_FOR_FILE%~ BEGIN
+		COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/Language/%LANGUAGE%/Ogg1~
+	END
+	ACTION_IF FILE_EXISTS_IN_GAME ~%BASH_FOR_RES%.wav~ BEGIN
+		DELETE ~%workspace%/Language/%LANGUAGE%/Ogg1/%BASH_FOR_FILE%~
+	END
+END
+
+MKDIR ~%workspace%/sound~
+ACTION_BASH_FOR ~%MOD_FOLDER%/sound~ ~^.+\.ogg$~ BEGIN
+	ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_RES%.wav~ BEGIN
+		COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/sound~
 	END
 END
 
 LAF HANDLE_AUDIO  // With no configuration, HANDLE_AUDIO expects your audio, oggdec.exe and SoX to be located in mymod/audio
   STR_VAR
-    audio_path = EVAL ~CtB/language/%LANGUAGE%/ogg1~
-    oggdec_path = ~CtB/bin/win32~
-	sox_path = ~CtB/bin/osx~
-	output_path = ~override~
+        audio_path = EVAL ~%workspace%/Language/%LANGUAGE%/Ogg1~
+        oggdec_path = EVAL ~%MOD_FOLDER%/Tools/oggdec~
+        sox_path = EVAL ~%MOD_FOLDER%/Tools/sox/~
+        output_path = ~override~
 END
 LAF HANDLE_AUDIO  // With no configuration, HANDLE_AUDIO expects your audio, oggdec.exe and SoX to be located in mymod/audio
   STR_VAR
-    audio_path = ~CtB/sound~
-    oggdec_path = ~CtB/bin/win32~
-	sox_path = ~CtB/bin/osx~
+    audio_path = EVAL ~%workspace%/sound~
+    oggdec_path = EVAL ~%MOD_FOLDER%/Tools/oggdec~
+	sox_path = EVAL ~%MOD_FOLDER%/Tools/sox/~
 	output_path = ~override~
 END
 
-//ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-//	LAF HANDLE_TILESETS
-//		STR_VAR
-//		tiz_path = ~CtB/Tiz~
-//		tisunpack_path = ~CtB/bin~
-//	END	 
-//END
 INCLUDE ~%MOD_FOLDER%/lib/a7_tools.tpa~
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	LAF HANDLE_TILECONV
@@ -1436,9 +1416,15 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	END
 END
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-   COPY ~CtB/PVRZ~ ~override~
+   COPY ~%MOD_FOLDER%/PVRZ~ ~override~
 END
 
+// older mods use CtB-RULE
+COPY_EXISTING ~misc01.itm~ ~override/ctb.mrk~
+MAKE_BIFF ~CtB-RULE~ BEGIN
+	~override~ ~ctb.mrk~
+END
+COPY_EXISTING ~misc01.itm~ ~override/ctb.mrk~
 
 //////////////////////////////
 // fixing missing AR3675.ARE Ambient sound
@@ -1449,54 +1435,6 @@ END
 
 COPY ~%MOD_FOLDER%/missing~ ~override~
 
-//////////////////////////////
-// biffing
-//////////////////////////////
-
-ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN		//older mods use CTB-RULE
-	MAKE_BIFF ~CtB-RULE~ BEGIN
-		~override~ ~ctb.mrk~
-	END
-END
-
-ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-	MAKE_BIFF ~CtB-RULE~ BEGIN
-		~override~ ~ctb.mrk~
-	END
-	ACTION_IF ~%WEIDU_OS%~ STR_EQ ~win32~ BEGIN
-		AT_UNINSTALL ~rmdir /s /q %MOD_FOLDER%\temp~ EXACT
-	END ELSE BEGIN //osx, unix
-		AT_UNINSTALL ~rm -rf %MOD_FOLDER%/temp~ EXACT
-	END
-	
-	ACTION_DEFINE_ASSOCIATIVE_ARRAY table_ctb_biff BEGIN
-		~ctbTIS~ , ~override~ , ~^.*\.tis$~ => 150000000 //150 MB
-		~ctbWAV~ , ~override~ , ~^.*\.wav$~ => 150000000 //150 MB
-//		~ctbRES~ , ~override~ , ~^.*$~ => 100000000 //100 MB
-	END
-	
-	ACTION_PHP_EACH table_ctb_biff AS biff => size BEGIN
-		OUTER_SET totalSize = 0
-		OUTER_SET index = 0
-		MKDIR ~%MOD_FOLDER%/temp/%biff%%index%~
-		ACTION_BASH_FOR ~%biff_1%~ ~%biff_2%~ BEGIN
-			ACTION_IF ( BASH_FOR_SIZE + totalSize > size ) AND ( totalSize > 0 ) BEGIN
-				MAKE_BIFF ~%biff%%index%~ BEGIN ~%MOD_FOLDER%/temp/%biff%%index%~ ~^.*$~ END
-				OUTER_SET index = index + 1
-				OUTER_SET totalSize = 0
-				MKDIR ~%MOD_FOLDER%/temp/%biff%%index%~
-			END
-			MOVE ~%BASH_FOR_FILESPEC%~ ~%MOD_FOLDER%/temp/%biff%%index%~
-			OUTER_SET totalSize = totalSize + BASH_FOR_SIZE
-		END
-		ACTION_IF ( totalSize > 0 ) BEGIN
-			MAKE_BIFF ~%biff%%index%~ BEGIN ~%MOD_FOLDER%/temp/%biff%%index%~ ~^.*$~ END
-		END
-	END
-//	COPY_EXISTING ~^.*\.ids$~ ~override~
-END
-
-COPY_EXISTING ~misc01.itm~ ~override/ctb.mrk~
 
 //////////////////////////////
 // bgee.lua cheat table
@@ -1506,13 +1444,10 @@ INCLUDE ~%MOD_FOLDER%/lib/cheat_var.tph~
 //***********************************************************************************
 // Candlekeep Chores component
 //***********************************************************************************
-BEGIN ~Candlekeep Chores~
-REQUIRE_COMPONENT "Setup-CtB.tp2"      "0"  ~Check tthe Bodies main component is needed for this component.~
-//REQUIRE_PREDICATE (!GAME_IS ~bg2ee eet~) ~Not for EET and BG2EE~
+BEGIN @800005
+DESIGNATED 1 LABEL ~ctb_candlekeep_chores~
+REQUIRE_PREDICATE MOD_IS_INSTALLED "setup-ctb.tp2" (ID_OF_LABEL "setup-ctb.tp2" "check_the_bodies" )  @800006
 
-ACTION_IF GAME_IS ~soa tob~ BEGIN
-	COPY + ~chitin.key~ ~CtB/chitin.cho~
-END
 
 //to allow area scripts to run before AR0602 with active chores cut off section
 APPEND ~MASTAREA.2DA~
@@ -1535,12 +1470,12 @@ AR3513  value~
 //***********************************************************
 PRINT ~Installing new areas...~
 //***********************************************************
-COPY ~CtB/Chores/tis~ ~override~
+COPY ~%MOD_FOLDER%/Chores/tis~ ~override~
 
 
-COPY ~CtB/Chores/ctbareas/nostring~ ~override~
+COPY ~%MOD_FOLDER%/Chores/ctbareas/nostring~ ~override~
 
-COPY ~CtB/Chores/ctbareas/translate/AR3500.ARE~ ~override~
+COPY ~%MOD_FOLDER%/Chores/ctbareas/translate/AR3500.ARE~ ~override~
   SAY 0xd30 @154
   SAY 0xdf4 @155
   SAY 0xeb8 @154
@@ -1549,7 +1484,7 @@ COPY ~CtB/Chores/ctbareas/translate/AR3500.ARE~ ~override~
   SAY 0x1414 @159
   SAY 0x18ac @155
 
-COPY ~CtB/Chores/ctbareas/translate/AR3502.ARE~ ~override~
+COPY ~%MOD_FOLDER%/Chores/ctbareas/translate/AR3502.ARE~ ~override~
   SAY 0xa78 @161
   SAY 0xb3c @162
   SAY 0xc00 @163
@@ -1576,85 +1511,85 @@ COPY ~CtB/Chores/ctbareas/translate/AR3502.ARE~ ~override~
   SAY 0x1c14 @184
   SAY 0x1cd8 @185
 
-COPY ~CtB/Chores/ctbareas/translate/AR3505.ARE~ ~override~
+COPY ~%MOD_FOLDER%/Chores/ctbareas/translate/AR3505.ARE~ ~override~
   SAY 0x8f0 @154
 
 //***********************************************************
 PRINT ~Installing new creatures...~
 
-COPY ~CtB/Chores/creature/nostring~ ~override~
-COPY ~CtB/Chores/creature/translate/CB502LBR.CRE~ ~override~ SAY NAME1 @6    SAY NAME2 @6
-COPY ~CtB/Chores/creature/translate/CBMILKMD.CRE~ ~override~ SAY NAME1 @54   SAY NAME2 @54
+COPY ~%MOD_FOLDER%/Chores/creature/nostring~ ~override~
+COPY ~%MOD_FOLDER%/Chores/creature/translate/CB502LBR.CRE~ ~override~ SAY NAME1 @6    SAY NAME2 @6
+COPY ~%MOD_FOLDER%/Chores/creature/translate/CBMILKMD.CRE~ ~override~ SAY NAME1 @54   SAY NAME2 @54
 
 //***********************************************************
 PRINT ~Installing new scripts...~
 
-COMPILE ~CtB/Chores/scripts~ USING ~CtB/%s/script.tra~
-EXTEND_BOTTOM ~library.bcs~ ~CtB/Chores/Snips/bLibrary.BAF~ //New starting position for Chores Cutscene
+COMPILE ~%MOD_FOLDER%/Chores/scripts~ USING ~%MOD_FOLDER%/%s/script.tra~
+EXTEND_BOTTOM ~library.bcs~ ~%MOD_FOLDER%/Chores/Snips/bLibrary.BAF~ //New starting position for Chores Cutscene
 
 //***********************************************************
 PRINT ~Installing dialogues...~
 
-COMPILE ~CtB/Chores/dialogs~
+COMPILE ~%MOD_FOLDER%/Chores/dialogs~
 
 //***********************************************************
 PRINT ~Installing new items...~
 
-COPY ~CtB/Chores/items/nostring~ ~override~
+COPY ~%MOD_FOLDER%/Chores/items/nostring~ ~override~
 
-COPY ~CtB/Chores/items/translate/CBLINENF.ITM~ ~override~
+COPY ~%MOD_FOLDER%/Chores/items/translate/CBLINENF.ITM~ ~override~
   SAY NAME1 @650349
   SAY NAME2 @650349
   SAY UNIDENTIFIED_DESC @650350
   SAY DESC @650350
-COPY ~CtB/Chores/items/translate/CBLINENP.ITM~ ~override~
+COPY ~%MOD_FOLDER%/Chores/items/translate/CBLINENP.ITM~ ~override~
   SAY NAME1 @650351
   SAY NAME2 @650351
   SAY UNIDENTIFIED_DESC @650352
   SAY DESC @650352
-COPY ~CtB/Chores/items/translate/CBMLKBKE.ITM~ ~override~
+COPY ~%MOD_FOLDER%/Chores/items/translate/CBMLKBKE.ITM~ ~override~
   SAY NAME1 @650381
   SAY NAME2 @650381
   SAY UNIDENTIFIED_DESC @650382
   SAY DESC @650382
-COPY ~CtB/Chores/items/translate/CBMLKBKF.ITM~ ~override~
+COPY ~%MOD_FOLDER%/Chores/items/translate/CBMLKBKF.ITM~ ~override~
   SAY NAME1 @650381
   SAY NAME2 @650381
   SAY UNIDENTIFIED_DESC @650383
   SAY DESC @650383
-COPY ~CtB/Chores/items/translate/CBPOWDR1.ITM~ ~override~
+COPY ~%MOD_FOLDER%/Chores/items/translate/CBPOWDR1.ITM~ ~override~
   SAY NAME1 @650464
   SAY NAME2 @650465
   SAY UNIDENTIFIED_DESC @650466
   SAY DESC @650467
-COPY ~CtB/Chores/items/translate/CBPOWDR2.ITM~ ~override~
+COPY ~%MOD_FOLDER%/Chores/items/translate/CBPOWDR2.ITM~ ~override~
   SAY NAME1 @650464
   SAY NAME2 @650468
   SAY UNIDENTIFIED_DESC @650466
   SAY DESC @650469
-COPY ~CtB/Chores/items/translate/CBPOWDR3.ITM~ ~override~
+COPY ~%MOD_FOLDER%/Chores/items/translate/CBPOWDR3.ITM~ ~override~
   SAY NAME1 @650464
   SAY NAME2 @650470
   SAY UNIDENTIFIED_DESC @650466
   SAY DESC @650471
-COPY ~CtB/Chores/items/translate/CBPOWDR4.ITM~ ~override~
+COPY ~%MOD_FOLDER%/Chores/items/translate/CBPOWDR4.ITM~ ~override~
   SAY NAME1 @650464
   SAY NAME2 @650472
   SAY UNIDENTIFIED_DESC @650466
   SAY DESC @650473
-COPY ~CtB/Chores/items/translate/CBPOWDR5.ITM~ ~override~
+COPY ~%MOD_FOLDER%/Chores/items/translate/CBPOWDR5.ITM~ ~override~
   SAY NAME1 @650464
   SAY NAME2 @650474
   SAY UNIDENTIFIED_DESC @650466
   SAY DESC @650475
-COPY ~CtB/Chores/items/translate/CBPOWDR6.ITM~ ~override~
+COPY ~%MOD_FOLDER%/Chores/items/translate/CBPOWDR6.ITM~ ~override~
   SAY NAME1 @650464
   SAY NAME2 @650476
   SAY UNIDENTIFIED_DESC @650466
   SAY DESC @650477
 
 
-COPY ~CtB/Chores/items/translate/CBPLANT.ITM~ ~override~
+COPY ~%MOD_FOLDER%/Chores/items/translate/CBPLANT.ITM~ ~override~
   SAY NAME1 @550627
   SAY NAME2 @550627
   SAY DESC @550628
@@ -1662,7 +1597,7 @@ COPY ~CtB/Chores/items/translate/CBPLANT.ITM~ ~override~
 //***********************************************************
 PRINT ~Installing new spells...~
 
-COPY ~CtB/Chores/spells~ ~override~
+COPY ~%MOD_FOLDER%/Chores/spells~ ~override~
 
 // Making spells casting detectable
 
@@ -1830,51 +1765,39 @@ BUT_ONLY_IF_IT_CHANGES
 ACTION_IF( FILE_EXISTS ~data/TDD-RULE.bif~ AND
            FILE_EXISTS_IN_GAME ~SPCERB1.SPL~ )
 THEN BEGIN
-  EXTEND_TOP ~AR3501.BCS~ ~CtB/Chores/Compat/TDD/t3501.BAF~
-  EXTEND_TOP ~AR3513.BCS~ ~CtB/Chores/Compat/TDD/t3513.BAF~
+  EXTEND_TOP ~AR3501.BCS~ ~%MOD_FOLDER%/Chores/Compat/TDD/t3501.BAF~
+  EXTEND_TOP ~AR3513.BCS~ ~%MOD_FOLDER%/Chores/Compat/TDD/t3513.BAF~
 END
 ELSE BEGIN
-  EXTEND_TOP ~AR3501.BCS~ ~CtB/Chores/Compat/CtB/t3501.BAF~
-  EXTEND_TOP ~AR3513.BCS~ ~CtB/Chores/Compat/CtB/t3513.BAF~
+  EXTEND_TOP ~AR3501.BCS~ ~%MOD_FOLDER%/Chores/Compat/CtB/t3501.BAF~
+  EXTEND_TOP ~AR3513.BCS~ ~%MOD_FOLDER%/Chores/Compat/CtB/t3513.BAF~
 END
 
-COPY ~CtB/Chores/WED~     ~override~
-//COPY ~CtB/Chores/MOS~     ~override~
-COPY ~CtB/Chores/bitmaps~ ~override~
+COPY ~%MOD_FOLDER%/Chores/WED~     ~override~
+//COPY ~%MOD_FOLDER%/Chores/MOS~     ~override~
+COPY ~%MOD_FOLDER%/Chores/bitmaps~ ~override~
 
 //////////////////////////////
 // Installing tileset and audio
 //////////////////////////////
 
-MKDIR ~CtB/Chores/language/%LANGUAGE%/sound~
+MKDIR ~%workspace%/Language/%LANGUAGE%/chores~
 
-ACTION_BASH_FOR ~CtB/Chores/language/english/sound~ ~^.+\.wav$~ BEGIN
-	ACTION_IF NOT FILE_EXISTS ~CtB/Chores/language/%LANGUAGE%/sound/%BASH_FOR_FILE%~ BEGIN
-		COPY ~%BASH_FOR_FILESPEC%~ ~CtB/Chores/language/%LANGUAGE%/sound~
+ACTION_BASH_FOR ~%MOD_FOLDER%/Chores/language/%LANGUAGE%/sound~ ~^.+\.wav$~ BEGIN
+    COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/Language/%LANGUAGE%/chores~
+END
+ACTION_BASH_FOR ~%MOD_FOLDER%/Chores/language/english/sound~ ~^.+\.wav$~ BEGIN
+	ACTION_IF NOT FILE_EXISTS ~%workspace%/Language/%LANGUAGE%/chores/%BASH_FOR_FILE%~ BEGIN
+		COPY ~%BASH_FOR_FILESPEC%~ ~%workspace%/Language/%LANGUAGE%/chores~
 	END
 END
 
-ACTION_BASH_FOR ~CtB/Chores/language/%LANGUAGE%/sound~ ~^.+\.wav$~ BEGIN
+ACTION_BASH_FOR ~%workspace%/Language/%LANGUAGE%/chores~ ~^.+\.wav$~ BEGIN
 	ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
 		COPY ~%BASH_FOR_FILESPEC%~ ~override~
 	END
 END
 
-/*LAF HANDLE_AUDIO  
-  STR_VAR
-    audio_path = ~CtB/Chores/sound~
-    oggdec_path = ~CtB/bin/win32~
-	sox_path = ~CtB/bin/osx~
-	output_path = ~override~
-END*/
-
-//ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-//	LAF HANDLE_TILESETS
-//		STR_VAR
-//		tiz_path = ~CtB/Chores/Tiz~
-//		tisunpack_path = ~CtB/bin~
-//	END	 
-//END
 INCLUDE ~%MOD_FOLDER%/lib/a7_tools.tpa~
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	LAF HANDLE_TILECONV
@@ -1884,43 +1807,9 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	END
 END
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-   COPY ~CtB/Chores/PVRZ~ ~override~
+   COPY ~%MOD_FOLDER%/Chores/PVRZ~ ~override~
 END
 
-//////////////////////////////
-// biffing
-//////////////////////////////
-ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-
-	ACTION_IF ~%WEIDU_OS%~ STR_EQ ~win32~ BEGIN
-		AT_UNINSTALL ~rmdir /s /q %MOD_FOLDER%\temp1~ EXACT
-	END ELSE BEGIN //osx, unix
-		AT_UNINSTALL ~rm -rf %MOD_FOLDER%/temp1~ EXACT
-	END
-	
-	ACTION_DEFINE_ASSOCIATIVE_ARRAY table_ctb_chor_biff BEGIN
-		~ctb-Chor~ , ~override~ , ~^.*\.tis$~ => 100000000 //100 MB
-	END
-	
-	ACTION_PHP_EACH table_ctb_chor_biff AS biff => size BEGIN
-		OUTER_SET totalSize = 0
-		OUTER_SET index = 0
-		MKDIR ~%MOD_FOLDER%/temp1/%biff%%index%~
-		ACTION_BASH_FOR ~%biff_1%~ ~%biff_2%~ BEGIN
-			ACTION_IF ( BASH_FOR_SIZE + totalSize > size ) AND ( totalSize > 0 ) BEGIN
-				MAKE_BIFF ~%biff%%index%~ BEGIN ~%MOD_FOLDER%/temp1/%biff%%index%~ ~^.*$~ END
-				OUTER_SET index = index + 1
-				OUTER_SET totalSize = 0
-				MKDIR ~%MOD_FOLDER%/temp1/%biff%%index%~
-			END
-			MOVE ~%BASH_FOR_FILESPEC%~ ~%MOD_FOLDER%/temp1/%biff%%index%~
-			OUTER_SET totalSize = totalSize + BASH_FOR_SIZE
-		END
-		ACTION_IF ( totalSize > 0 ) BEGIN
-			MAKE_BIFF ~%biff%%index%~ BEGIN ~%MOD_FOLDER%/temp1/%biff%%index%~ ~^.*$~ END
-		END
-	END
-END
 
 ACTION_IF (GAME_IS ~eet~) BEGIN
 COPY_EXISTING ~Ar3500.are~ ~override~
@@ -1951,16 +1840,18 @@ INCLUDE ~%MOD_FOLDER%/lib/cheat_var_chores.tph~
 //***********************************************************************************
 // Candlekeep Chores Fast Forward
 //***********************************************************************************
-BEGIN ~Candlekeep Chores Fast Forward (for CtB v2.2 or later)~
-REQUIRE_COMPONENT "Setup-CtB.tp2"      "1"  ~You must have Candlekeep Chores v2.2 (or later) installed~
+BEGIN @800007
+DESIGNATED 2 LABEL ~ctb_candlekeep_fast_forward~ 
+REQUIRE_PREDICATE MOD_IS_INSTALLED "setup-ctb.tp2" (ID_OF_LABEL "setup-ctb.tp2" "ctb_candlekeep_chores" ) @800008
 
-COMPILE ~CtB/CtB_FF/CtB_FF.d~
+COMPILE ~%MOD_FOLDER%/CtB_FF/CtB_FF.d~
 
 //***********************************************************************************
 // CtB other improvements
 //***********************************************************************************
-BEGIN ~Other Improvements~
-REQUIRE_COMPONENT "Setup-CtB.tp2"      "0"  ~Check the Bodies main component is needed for this component.~
+BEGIN @800009
+DESIGNATED 3 LABEL ~ctb_other_improvements~ 
+REQUIRE_PREDICATE MOD_IS_INSTALLED "setup-ctb.tp2" (ID_OF_LABEL "setup-ctb.tp2" "check_the_bodies" ) @800006
 
 
 
@@ -2074,15 +1965,15 @@ COPY_EXISTING ~AR0404.ARE~  ~override~
 PRINT ~Change Yusef's name to Yassir, because Yusef is Surayas brother~
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-	COMPILE ~CtB/dialogs/improvements/CBSURAYW.D~ USING ~ctb/language/%LANGUAGE%/improvements/CBSURAYW_new.tra~
-	COMPILE ~CtB/dialogs/improvements/CBSAERKW.D~ USING ~ctb/language/%LANGUAGE%/improvements/CBSAERKW_new.tra~
-	COMPILE ~CtB/dialogs/improvements/CBPASTRW.D~ USING ~ctb/language/%LANGUAGE%/improvements/CBPASTRW_new.tra~
+	COMPILE ~%MOD_FOLDER%/dialogs/improvements/CBSURAYW.D~ USING ~%MOD_FOLDER%/language/%LANGUAGE%/improvements/CBSURAYW_new.tra~
+	COMPILE ~%MOD_FOLDER%/dialogs/improvements/CBSAERKW.D~ USING ~%MOD_FOLDER%/language/%LANGUAGE%/improvements/CBSAERKW_new.tra~
+	COMPILE ~%MOD_FOLDER%/dialogs/improvements/CBPASTRW.D~ USING ~%MOD_FOLDER%/language/%LANGUAGE%/improvements/CBPASTRW_new.tra~
 END
 
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-   COMPILE ~CtB/dialogs/improvements/CBSURAYW.D~ USING ~ctb/language/%LANGUAGE%/improvements/CBSURAYW_new.tra~
-	COMPILE ~CtB/dialogs/improvements/CBSAERKW.D~ USING ~ctb/language/%LANGUAGE%/improvements/CBSAERKW_new.tra~
-	COMPILE ~CtB/dialogs/improvements/CBPASTRW.D~ USING ~ctb/language/%LANGUAGE%/improvements/CBPASTRW_new.tra~
+   COMPILE ~%MOD_FOLDER%/dialogs/improvements/CBSURAYW.D~ USING ~%MOD_FOLDER%/language/%LANGUAGE%/improvements/CBSURAYW_new.tra~
+	COMPILE ~%MOD_FOLDER%/dialogs/improvements/CBSAERKW.D~ USING ~%MOD_FOLDER%/language/%LANGUAGE%/improvements/CBSAERKW_new.tra~
+	COMPILE ~%MOD_FOLDER%/dialogs/improvements/CBPASTRW.D~ USING ~%MOD_FOLDER%/language/%LANGUAGE%/improvements/CBPASTRW_new.tra~
 END
 
 COPY_EXISTING ~CBYUSEFW.CRE~ ~override~
@@ -2113,4 +2004,46 @@ COPY_EXISTING ~AR0504.BCS~ ~override~
 //////////////////////////////////////////////////////////////
 PRINT ~Start the pirate quest in Athkathla at the gates by level 10~
 
-COMPILE ~CtB/dialogs/improvements/CBBDSTRT.D~
+COMPILE ~%MOD_FOLDER%/dialogs/improvements/CBBDSTRT.D~
+
+
+//////////////////////////////
+// biffing
+//////////////////////////////
+
+BEGIN @800001
+DESIGNATED 4 LABEL ~ctb_resource_biffing~
+REQUIRE_PREDICATE MOD_IS_INSTALLED "setup-ctb.tp2" (ID_OF_LABEL "setup-ctb.tp2" "check_the_bodies" ) @800002
+REQUIRE_PREDICATE (NOT GAME_IS ~bg2ee eet~) @800003
+
+PRINT @800004
+
+
+ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
+	
+	ACTION_DEFINE_ASSOCIATIVE_ARRAY table_ctb_biff BEGIN
+		~ctbTIS~ , ~override~ , ~^.*\.tis$~ => 150000000 //150 MB
+		~ctbWAV~ , ~override~ , ~^.*\.wav$~ => 150000000 //150 MB
+//		~ctbRES~ , ~override~ , ~^.*$~ => 100000000 //100 MB
+	END
+	
+	ACTION_PHP_EACH table_ctb_biff AS biff => size BEGIN
+		OUTER_SET totalSize = 0
+		OUTER_SET index = 0
+		MKDIR ~%workspace%/%biff%%index%~
+		ACTION_BASH_FOR ~%biff_1%~ ~%biff_2%~ BEGIN
+			ACTION_IF ( BASH_FOR_SIZE + totalSize > size ) AND ( totalSize > 0 ) BEGIN
+				MAKE_BIFF ~%biff%%index%~ BEGIN ~%workspace%/%biff%%index%~ ~^.*$~ END
+				OUTER_SET index = index + 1
+				OUTER_SET totalSize = 0
+				MKDIR ~%workspace%/%biff%%index%~
+			END
+			MOVE ~%BASH_FOR_FILESPEC%~ ~%workspace%/%biff%%index%~
+			OUTER_SET totalSize = totalSize + BASH_FOR_SIZE
+		END
+		ACTION_IF ( totalSize > 0 ) BEGIN
+			MAKE_BIFF ~%biff%%index%~ BEGIN ~%workspace%/%biff%%index%~ ~^.*$~ END
+		END
+	END
+//	COPY_EXISTING ~^.*\.ids$~ ~override~
+END

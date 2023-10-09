@@ -157,6 +157,13 @@ This component patches the main component with some improvements:
 - Change Yusef's name to Yassir, because Yusef is Surayas brother.
 - Start the pirate quest in Athkathla at the gates by level 10.
 
+##
+
+#### 4. Biffing
+
+This component requires the main component to be installed. Compress files for better game performance. Only valid for classic (BG2:ToB or BGT) game.</br>
+
+
 <div align="right"><a href="#top">Back to top</a></div>
 
 

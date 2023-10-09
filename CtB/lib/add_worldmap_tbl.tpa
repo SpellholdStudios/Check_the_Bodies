@@ -1,37 +1,11 @@
-/*
-AREAS.TBL:
-SHORT_NAME // resource reference of the area to add (like "ar0700")
-CONTENT    // same as above
-LONG_NAME  // area script name, e.g. same as above
-FLAGS      // bitmask decimal flags value indicating status of area (BIT0 = visible; BIT1 = reveal from linked area; BIT2 = can be visited; BIT3 = has been visited)
-BAM_ANIM   // area's map icon index (from mapicons.bam)
-X_POS      // area's X (east-west) coordinate
-Y_POS      // area's Y (north-south) coordinate
-NAME       // name of the area as @ reference used in TRA file or 'N' for none
-TOOLTIP    // tooltip of the area as @ reference used in TRA file or 'N' for none
-LOAD_IM    // loading screen MOS file (like "filename")
-
-LINKS.TBL
-SRC_AREA   // area from which the links should originate
-SRC_NWSE   // directional node from which the links should originate. Legal values for this variable are "n", "e", "s", "w". Links are added to all four nodes by default.
-TARGET_ARE // area to which the links should lead
-ENTRY_NAME // entry point in TARGET_ARE
-TRV_TIME   // to the distance scale between the two areas. distance_scale * 4 equals the travel time between the areas (in hours)
-DEF_ENTRY  // to the default entry location. Legal values for this variable are 1 (northern side), 2 (eastern), 4 (southern) and 8 (western). The default value is 1.
-ENC1       // first random-encounter area
-ENC2       // second random-encounter area
-ENC3       // third random-encounter area
-ENC4       // fourth random-encounter area
-ENC5       // fifth random-encounter area
-ENC_PROB   // to the probability of a random encounter occurring
-*/
-
 //Adds multiple areas and links to the worldmap and saves using BP-BGT Worldmap TBL files convention (refer to readme file of that mod to see how to write them).
 //Should be used after you copied new areas to override.
 DEFINE_ACTION_FUNCTION ~ADD_WORLDMAP_TBL~
 	INT_VAR
 	inclSv = 0            // to 1 if you want to patch saved game worldmaps as well as the master worldmap. NB: changes to saved games are uninstallable
 	verbose = 0           // to 1 to enable debug messages
+	patch_bp_files = 0    // to 1 to patch/create gameFolder/Worldmap files used by BP-BGT Worldmap for wmp creation (needs path_to_areas_bp, path_to_links, path_to_trans)
+	patch_mastarea = 0    // to 1 to patch MASTAREA.2da if area entries doesn't exist there yet
 	add_x = 0             // add this value to area's X (east-west) coordinate specified in TBL file (BP-BGT Worldmap areas file is excluded)
 	add_y = 0             // add this value to area's Y (north-south) coordinate specified in TBL file (BP-BGT Worldmap areas file is excluded)
 	STR_VAR
@@ -40,6 +14,7 @@ DEFINE_ACTION_FUNCTION ~ADD_WORLDMAP_TBL~
 	path_to_links = ~~    // full path to the text file containing your links data, e.g. ~mymod/tbl/links.tbl~
 	path_to_trans = ~~    // full path to the text file containing your translation data, e.g. ~mymod/language/%LANGUAGE%/worldmap.tra~
 	worldmap = ~worldmap~ // which .wmp file should be patched, e.g. ~worldm25~
+	icons_table = ~~      // array containing remapped icons (old_index => new_index) for path_to_areas (use alongside function that can patch BAMv1/BAMv2 icon file)
 	RET
 	areas_added           // how many areas were successfully added. if this is 0, you have a problem
 	links_added           // how many links were successfully added. if this is 0, you have a problem
@@ -54,6 +29,13 @@ BEGIN
 	ACTION_CLEAR_ARRAY trans_array
 	ACTION_CLEAR_ARRAY save_dirs
 	ACTION_CLEAR_ARRAY areNum_array
+	ACTION_CLEAR_ARRAY bp_array
+	ACTION_IF NOT ~%icons_table%~ STR_EQ ~~ BEGIN
+		ACTION_CLEAR_ARRAY remapped_icons
+		ACTION_PHP_EACH ~%icons_table%~ AS old => new BEGIN
+			OUTER_SET $remapped_icons("%old%") = new
+		END
+	END
 	ACTION_IF NOT ~%path_to_areas%~ STR_EQ ~~ BEGIN
 		COPY - ~%path_to_areas%~ ~.../%path_to_areas%~
 			//PRETTY_PRINT_2DA
@@ -64,6 +46,11 @@ BEGIN
 				READ_2DA_ENTRY_FORMER areas_2da i 0 "short_name"
 				PATCH_IF FILE_EXISTS_IN_GAME ~%short_name%.are~ BEGIN
 					DEFINE_ASSOCIATIVE_ARRAY valid_areas BEGIN ~%i%~ => ~%short_name%~ END
+					PATCH_IF patch_mastarea = 1 BEGIN
+						INNER_ACTION BEGIN
+							APPEND ~MASTAREA.2da~ ~%short_name% value~ UNLESS ~^[ %TAB%]*%short_name%[ %TAB%]+value~
+						END
+					END
 				END
 			END
 	END
@@ -77,6 +64,11 @@ BEGIN
 				READ_2DA_ENTRY_FORMER areas_2da_bp i 0 "short_name"
 				PATCH_IF FILE_EXISTS_IN_GAME ~%short_name%.are~ BEGIN
 					DEFINE_ASSOCIATIVE_ARRAY valid_areas_bp BEGIN ~%i%~ => ~%short_name%~ END
+					PATCH_IF patch_mastarea = 1 BEGIN
+						INNER_ACTION BEGIN
+							APPEND ~MASTAREA.2da~ ~%short_name% value~ UNLESS ~^[ %TAB%]*%short_name%[ %TAB%]+value~
+						END
+					END
 				END
 			END
 	END
@@ -158,6 +150,21 @@ BEGIN
 			END
 		END
 	END
+	ACTION_IF patch_bp_files = 1 BEGIN
+		ACTION_DEFINE_ASSOCIATIVE_ARRAY bp_array BEGIN
+			~map_mods_areas.tbl~ => ~%path_to_areas_bp%~
+			~map_mods_links.tbl~ => ~%path_to_links%~
+			~map_mods_trans.tra~ => ~%path_to_trans%~
+		END
+		MKDIR ~Worldmap~
+		ACTION_PHP_EACH bp_array AS file => path BEGIN
+			ACTION_IF FILE_EXISTS ~Worldmap/%file%~ BEGIN
+				COPY ~Worldmap/%file%~ ~Worldmap~ APPEND_FILE ~%path%~
+			END ELSE BEGIN
+				COPY ~%path%~ ~Worldmap/%file%~
+			END
+		END
+	END
 END
 
 DEFINE_PATCH_MACRO add_worldmap_macro BEGIN
@@ -176,6 +183,9 @@ DEFINE_PATCH_MACRO add_worldmap_macro BEGIN
 		READ_2DA_ENTRY_FORMER ~%areas_var%~ i 2 "long_name"
 		READ_2DA_ENTRY_FORMER ~%areas_var%~ i 3 "flags"
 		READ_2DA_ENTRY_FORMER ~%areas_var%~ i 4 "bam_anim"
+		PATCH_IF (~%areas_var%~ STR_EQ ~areas_2da~) OR (~%areas_var%~ STR_EQ ~areas_2da_bp~) AND (VARIABLE_IS_SET $remapped_icons("%bam_anim%")) BEGIN
+			SET bam_anim = $remapped_icons(~%bam_anim%~)
+		END
 		READ_2DA_ENTRY_FORMER ~%areas_var%~ i 5 "x_pos"
 		PATCH_IF NOT ~%wmp_icons%~ STR_EQ ~BPBGTMAP~ BEGIN
 			SET x_pos = x_pos + add_x
@@ -318,3 +328,31 @@ DEFINE_PATCH_MACRO add_worldmap_macro BEGIN
 		END
 	END
 END
+
+/*
+TBL file format explanation:
+- Areas declaration
+SHORT_NAME // resource reference of the area to add (like "ar0700")
+CONTENT    // same as above
+LONG_NAME  // area script name, e.g. same as above
+FLAGS      // bitmask decimal flags value indicating status of area (BIT0 = visible; BIT1 = reveal from linked area; BIT2 = can be visited; BIT3 = has been visited)
+BAM_ANIM   // area's map icon index (from mapicons.bam)
+X_POS      // area's X (east-west) coordinate
+Y_POS      // area's Y (north-south) coordinate
+NAME       // name of the area as @ reference used in TRA file or 'N' for none
+TOOLTIP    // tooltip of the area as @ reference used in TRA file or 'N' for none
+LOAD_IM    // loading screen MOS file (like "filename")
+- Links declaration
+SRC_AREA   // area from which the links should originate
+SRC_NWSE   // directional node from which the links should originate. Legal values for this variable are "n", "e", "s", "w". Links are added to all four nodes by default.
+TARGET_ARE // area to which the links should lead
+ENTRY_NAME // entry point in TARGET_ARE
+TRV_TIME   // to the distance scale between the two areas. distance_scale * 4 equals the travel time between the areas (in hours)
+DEF_ENTRY  // to the default entry location. Legal values for this variable are 1 (northern side), 2 (eastern), 4 (southern) and 8 (western). The default value is 1.
+ENC1       // first random-encounter area
+ENC2       // second random-encounter area
+ENC3       // third random-encounter area
+ENC4       // fourth random-encounter area
+ENC5       // fifth random-encounter area
+ENC_PROB   // to the probability of a random encounter occurring
+*/
