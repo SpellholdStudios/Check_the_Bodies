@@ -63,6 +63,7 @@ ALWAYS
 				"russian" => "CP1251"
 				"castilian" => "CP1252"
 				"spanish" => "CP1252"
+				"schinese" => "CP936"
 			END
 			ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN wsetup script END
 			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN wsetup-ee END
@@ -115,6 +116,11 @@ LANGUAGE ~Espanol (traduccion por clan REO)~
 	 ~Spanish~
 	 ~CtB/Language/Spanish/wsetup.tra~
      ~CtB/Language/Spanish/script.tra~
+
+LANGUAGE ~Chinese (traduccion archenemy and youye)~
+	 ~Schinese~
+	 ~CtB/Language/Schinese/wsetup.tra~
+     ~CtB/Language/Schinese/script.tra~
 
 
 /* =================================== *
