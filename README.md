@@ -242,8 +242,13 @@ I really hope I don't forget anyone- if I do, you can slap me with a wet towel.
 
 ## <a name="versions" id="versions"></a>Version History
 
-For a full Version History please refer to the file "<a href="CtB-Version.txt">CtB-Version.txt</a>" in CtB/text/.  
+For a full Version History please refer to the file "<a href="CtB-Version.txt">CtB-Version.txt</a>" in CtB/text/.
 
+#### In development
+
+- Fixed Trans0404 trigger name.
+- Fixed Druidic Circle on EET map.
+- Support for BP-BGT-Worldmap v13.
 
 #### Version 3.0 (by Weigo and jastey)
 
