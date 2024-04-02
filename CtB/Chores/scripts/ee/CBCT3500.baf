@@ -24,8 +24,8 @@ THEN
 		ActionOverride(Player4,LeaveAreaLUA("AR0602","",[1175.1068],0))
 		ActionOverride(Player3,LeaveAreaLUA("AR0602","",[1156.976],0))
 		ActionOverride(Player2,LeaveAreaLUA("AR0602","",[1114.926],0))
-		LeaveAreaLUAPanic("AR0602","",[3190.3300],2)
-		LeaveAreaLUA("AR0602","",[3190.3300],2)
+		LeaveAreaLUAPanic("AR0602","",[1100.900],2)
+		LeaveAreaLUA("AR0602","",[1100.900],2)
 		MoveViewPoint([1160.900],INSTANT)
 		DestroyItem("BOOK35") //AR3501.are
 		DestroyItem("BOOK09") //AR3501.are
@@ -123,6 +123,7 @@ THEN
 		DestroyItem("CLCK01") //AR3505.are
 		DestroyItem("BOOK45") //AR3505.are
 		DestroyItem("BOOK42") //AR3505.are
+		DestroyAllEquipment()
 		SmallWait(5)
 		JumpToPoint([1160.900])
 		Face(2)

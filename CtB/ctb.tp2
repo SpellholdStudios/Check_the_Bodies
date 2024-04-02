@@ -1332,6 +1332,7 @@ ACTION_IF GAME_IS ~eet~ BEGIN
 		RET
 		new_icon_index // sequence number of your first icon in the new .bam - use this when you patch the worldmap
 	END
+	PRINT ~new_icon_index: %new_icon_index%~
 	COPY ~%MOD_FOLDER%/Worldmap/eet/eet-links.tbl~  ~%MOD_FOLDER%/Worldmap/eet~
 		PATCH_IF (FILE_EXISTS_IN_GAME ~rot.mrk~)  OR (FILE_EXISTS ~data/ROT-RULE.BIF~) BEGIN
 			APPEND_FILE ~%MOD_FOLDER%/Worldmap/eet/rot_links.tbl~                        
@@ -1421,10 +1422,10 @@ END
 
 // older mods use CtB-RULE
 COPY_EXISTING ~misc01.itm~ ~override/ctb.mrk~
+COPY_EXISTING ~misc01.itm~ ~%workspace%/CtB-RULE~
 MAKE_BIFF ~CtB-RULE~ BEGIN
-	~override~ ~ctb.mrk~
+	~%workspace%/CtB-RULE~ ~^.*$~
 END
-COPY_EXISTING ~misc01.itm~ ~override/ctb.mrk~
 
 //////////////////////////////
 // fixing missing AR3675.ARE Ambient sound
@@ -1463,8 +1464,6 @@ AR3513  value~
 //////////////////////////////
 // Start the Chores in Irenicus Dungeon
 //////////////////////////////
-/*COPY_EXISTING ~AR0602.bcs~ ~override~
-		REPLACE_TEXTUALLY ~0 0 0 0 0"NewGame" "" AC~ ~0 0 0 0 0"CBNEWGM" "" AC~*/ //Old starting position for Chores Cutscene
 
 
 //***********************************************************
@@ -1474,6 +1473,7 @@ COPY ~%MOD_FOLDER%/Chores/tis~ ~override~
 
 
 COPY ~%MOD_FOLDER%/Chores/ctbareas/nostring~ ~override~
+COPY ~%MOD_FOLDER%/Chores/ctbareas/nostring/%engine%~ ~override~
 
 COPY ~%MOD_FOLDER%/Chores/ctbareas/translate/AR3500.ARE~ ~override~
   SAY 0xd30 @154
@@ -1525,12 +1525,25 @@ COPY ~%MOD_FOLDER%/Chores/creature/translate/CBMILKMD.CRE~ ~override~ SAY NAME1 
 PRINT ~Installing new scripts...~
 
 COMPILE ~%MOD_FOLDER%/Chores/scripts~ USING ~%MOD_FOLDER%/%s/script.tra~
-EXTEND_BOTTOM ~library.bcs~ ~%MOD_FOLDER%/Chores/Snips/bLibrary.BAF~ //New starting position for Chores Cutscene
+
+//***********************************************************
+// classic engine starts at the beginning, ee starts in the library
+ACTION_IF GAME_IS ~bgt bg2 tob~ BEGIN
+COPY_EXISTING ~AR0602.bcs~ ~override~
+	REPLACE_TEXTUALLY ~0 0 0 0 0"NewGame" "" AC~ ~0 0 0 0 0"CBNEWGM" "" AC~ //Old starting position for Chores Cutscene
+END
+ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
+	EXTEND_BOTTOM ~library.bcs~ ~%MOD_FOLDER%/Chores/Snips/bLibrary.BAF~ //New starting position for Chores Cutscene
+	EXTEND_BOTTOM ~AR3501.bcs~ ~%MOD_FOLDER%/Chores/Snips/bAR3501.BAF~ //library variables
+END
+
+COMPILE ~%MOD_FOLDER%/chores/scripts/%engine%~ USING ~%MOD_FOLDER%/%s/script.tra~
 
 //***********************************************************
 PRINT ~Installing dialogues...~
 
 COMPILE ~%MOD_FOLDER%/Chores/dialogs~
+COMPILE ~%MOD_FOLDER%/Chores/dialogs/%engine%~
 
 //***********************************************************
 PRINT ~Installing new items...~
@@ -1778,7 +1791,7 @@ COPY ~%MOD_FOLDER%/Chores/WED~     ~override~
 COPY ~%MOD_FOLDER%/Chores/bitmaps~ ~override~
 
 //////////////////////////////
-// Installing tileset and audio
+// Installing tileset and audio and movie
 //////////////////////////////
 
 MKDIR ~%workspace%/Language/%LANGUAGE%/chores~
@@ -1810,6 +1823,34 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
    COPY ~%MOD_FOLDER%/Chores/PVRZ~ ~override~
 END
 
+// movies must be biffed
+ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
+	COPY ~%MOD_FOLDER%/Chores/movies~ ~%workspace%/CtB-MOVE~
+	MAKE_BIFF ~CtB-MOVE~ BEGIN
+	~%workspace%/CtB-MOVE~ ~^.*$~
+	END
+	ACTION_IF FILE_EXISTS_IN_GAME ~BGENTER.mve~ BEGIN
+		COPY_EXISTING ~CBDYNDED.DLG~ ~override~
+			DECOMPILE_AND_PATCH BEGIN
+				REPLACE_TEXTUALLY ~SetGlobal("CbCutscene3512","AR3512",4)~
+								  ~SetGlobal("CbCutscene3512","AR3512",4)
+								   StartMovie("BGENTER")~
+			END
+	END ELSE BEGIN
+		ACTION_IF FILE_EXISTS_IN_GAME ~CBCTMOVE.mve~ BEGIN
+			COPY_EXISTING ~CBDYNDED.DLG~ ~override~
+				DECOMPILE_AND_PATCH BEGIN
+					REPLACE_TEXTUALLY ~SetGlobal("CbCutscene3512","AR3512",4)~
+									~SetGlobal("CbCutscene3512","AR3512",4)
+									StartMovie("CBCTMOVE")~
+				END
+		END
+	END
+	
+END
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+   COPY ~%MOD_FOLDER%/Chores/movies/CBCTMOVE.wbm~ ~override~
+END
 
 ACTION_IF (GAME_IS ~eet~) BEGIN
 COPY_EXISTING ~Ar3500.are~ ~override~
@@ -2024,7 +2065,7 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	ACTION_DEFINE_ASSOCIATIVE_ARRAY table_ctb_biff BEGIN
 		~ctbTIS~ , ~override~ , ~^.*\.tis$~ => 150000000 //150 MB
 		~ctbWAV~ , ~override~ , ~^.*\.wav$~ => 150000000 //150 MB
-//		~ctbRES~ , ~override~ , ~^.*$~ => 100000000 //100 MB
+//		~ctbRES~ , ~override~ , ~^CB.*$~ => 100000000 //100 MB
 	END
 	
 	ACTION_PHP_EACH table_ctb_biff AS biff => size BEGIN

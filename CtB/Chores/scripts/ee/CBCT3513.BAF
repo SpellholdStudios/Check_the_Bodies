@@ -12,6 +12,8 @@ THEN
 		Explore()
 		CreateCreatureObjectCopy("CBCT3513",Player1,0,0,0)
 		ActionOverride("CBCT3513",JumpToPoint([582.726]))
+//		ApplySpellRES("CB3513ON",Player1)
+//		ActionOverride(Player1,Hide())
 		ActionOverride("CBCT3513",Face(5))
 		CreateCreature("CB3513VC",[560.767],5)
 		CreateCreature("CB3513IM",[451.825],8)

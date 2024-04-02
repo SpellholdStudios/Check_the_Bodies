@@ -183,7 +183,7 @@ DEFINE_PATCH_MACRO add_worldmap_macro BEGIN
 		READ_2DA_ENTRY_FORMER ~%areas_var%~ i 2 "long_name"
 		READ_2DA_ENTRY_FORMER ~%areas_var%~ i 3 "flags"
 		READ_2DA_ENTRY_FORMER ~%areas_var%~ i 4 "bam_anim"
-		PATCH_IF (~%areas_var%~ STR_EQ ~areas_2da~) OR (~%areas_var%~ STR_EQ ~areas_2da_bp~) AND (VARIABLE_IS_SET $remapped_icons("%bam_anim%")) BEGIN
+		PATCH_IF ((~%areas_var%~ STR_EQ ~areas_2da~) OR (~%areas_var%~ STR_EQ ~areas_2da_bp~)) AND (VARIABLE_IS_SET $remapped_icons("%bam_anim%")) BEGIN
 			SET bam_anim = $remapped_icons(~%bam_anim%~)
 		END
 		READ_2DA_ENTRY_FORMER ~%areas_var%~ i 5 "x_pos"

@@ -1,5 +1,29 @@
 IF
-	True()
+	Gender(Player1,MALE)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		SmallWait(5)
+		DisplayStringHead(Player1,@550130)  // Vor nahezu einem Jahrzehnt, als Ihr viel jünger und unerfahrener wart...
+		Wait(3)
+		FadeToColor([30.0],0)
+		Wait(3)
+		ActionOverride(Player6,LeaveAreaLUA("AR0602","",[1095.1026],0))
+		ActionOverride(Player5,LeaveAreaLUA("AR0602","",[1133.1020],0))
+		ActionOverride(Player4,LeaveAreaLUA("AR0602","",[1175.1068],0))
+		ActionOverride(Player3,LeaveAreaLUA("AR0602","",[1156.976],0))
+		ActionOverride(Player2,LeaveAreaLUA("AR0602","",[1114.926],0))
+		LeaveAreaLUA("AR3501","",[1300.1100],12)
+		Polymorph(GIRL)
+		DayNight(8)
+		Wait(3)
+		EndCutSceneMode()
+		FadeFromColor([30.0],0)
+		MultiPlayerSync()
+END
+
+IF
+	Gender(Player1,FEMALE)
 THEN
 	RESPONSE #100
 		CutSceneId(Player1)
@@ -21,5 +45,4 @@ THEN
 		FadeFromColor([30.0],0)
 		MultiPlayerSync()
 END
-
 
