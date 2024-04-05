@@ -1,49 +1,49 @@
-@1  = ~Tardeth ! Tu as sali mon honneur ! Je demande réparation !~
-@2  = ~Je préfèrerais rester ici, Tardeth, mais si tu veux trouver quelque chose à combattre, je pense que je peux t'aider.~
-@3  = ~Ne t'inquiète pas, Marilyn. Je serai sérieux, bien évidemment. Je suis prêt, comme toujours.~
-@4  = ~Vraiment, Sylvanus ? Je ne savais pas que tu avais dit ça à Sire John Johns.~
+@1  = ~Tardeth ! Tu as sali mon honneur ! Je demande rÃ©paration !~
+@2  = ~Je prÃ©fÃ¨rerais rester ici, Tardeth, mais si tu veux trouver quelque chose Ã  combattre, je pense que je peux t'aider.~
+@3  = ~Ne t'inquiÃ¨te pas, Marilyn. Je serai sÃ©rieux, bien Ã©videmment. Je suis prÃªt, comme toujours.~
+@4  = ~Vraiment, Sylvanus ? Je ne savais pas que tu avais dit Ã§a Ã  Sire John Johns.~
 @5  = ~Salut ! Je suis Paddy Stoutfellow. Vous avez des bonbons ?~
-@6  = ~Ces gars, dans la grotte, ils pourraient peut-être en avoir, des bonbons.~
+@6  = ~Ces gars, dans la grotte, ils pourraient peut-Ãªtre en avoir, des bonbons.~
 @7  = ~Tardeth veut que nous allions les combattre. Vous devriez venir nous aider.~
-@8  = ~Si vous voulez venir, rassemblez vos affaires et allez parler à Tardeth.~
-@9  = ~Veuillez m'excuser, mais il semblerait que j'aie laissé tomber mon bout de ficelle dans votre poche. Ne faites pas attention à moi.~
-@10 = ~Je vais juste le récupérer.~
-@11 = ~Tardeth a toujours un travail, ou un truc à nous faire faire. Une pause serait la bienvenue, en ce qui me concerne.~
-@12 = ~Vous savez, il pense que nous sommes de taille à combattre nos puissants ennemis, les membres du Culte du Dragon.~
-@13 = ~Ah, je ne veux pas être transformé en Dracoliche. Je dirai ça pour la postérité.~
-@14 = ~Vous avez un moment pour un jeu de dés ? Moi, j'en ai un, de moment. On pourrait utiliser mes dés.~
-@15 = ~Ca ne vous ennuie pas, qu'on utilise mes dés pour jouer ?~
+@8  = ~Si vous voulez venir, rassemblez vos affaires et allez parler Ã  Tardeth.~
+@9  = ~Veuillez m'excuser, mais il semblerait que j'aie laissÃ© tomber mon bout de ficelle dans votre poche. Ne faites pas attention Ã  moi.~
+@10 = ~Je vais juste le rÃ©cupÃ©rer.~
+@11 = ~Tardeth a toujours un travail, ou un truc Ã  nous faire faire. Une pause serait la bienvenue, en ce qui me concerne.~
+@12 = ~Vous savez, il pense que nous sommes de taille Ã  combattre nos puissants ennemis, les membres du Culte du Dragon.~
+@13 = ~Ah, je ne veux pas Ãªtre transformÃ© en Dracoliche. Je dirai Ã§a pour la postÃ©ritÃ©.~
+@14 = ~Vous avez un moment pour un jeu de dÃ©s ? Moi, j'en ai un, de moment. On pourrait utiliser mes dÃ©s.~
+@15 = ~Ca ne vous ennuie pas, qu'on utilise mes dÃ©s pour jouer ?~
 @16 = ~Vous avez dit que vous venez de quel coin ?~
 @17 = ~Eauprofonde.~
-@18 = ~Je suis de Château-Suif.~
+@18 = ~Je suis de ChÃ¢teau-Suif.~
 @19 = ~Cela ne vous regarde pas.~
-@20 = ~Château-Suif, hein ? Moi, je viens des Collines Violettes... c'est beaucoup plus éloigné d'ici que Château-Suif, par contre.~
-@21 = ~Je parie que vous avez beaucoup lu, du temps où vous y étiez.~
-@22 = ~Eauprofonde, hein ? Alors vous devez préférer la bouillabaisse d'Eauprofonde à la bouillabaisse de Luskan. Ou peut-être qu'il faut prononcer 'bouillabaisseuh' ?~
-@23 = ~Selanevouregardepa ? Jamais entendu parler. Est-ce que c'est vers le Val de Bise ? Je parie qu'il y fait foid, où que ce soit.~
-@24 = ~Et sinon, ça fait longtemps que vous courez l'aventure ?~
+@20 = ~ChÃ¢teau-Suif, hein ? Moi, je viens des Collines Violettes... c'est beaucoup plus Ã©loignÃ© d'ici que ChÃ¢teau-Suif, par contre.~
+@21 = ~Je parie que vous avez beaucoup lu, du temps oÃ¹ vous y Ã©tiez.~
+@22 = ~Eauprofonde, hein ? Alors vous devez prÃ©fÃ©rer la bouillabaisse d'Eauprofonde Ã  la bouillabaisse de Luskan. Ou peut-Ãªtre qu'il faut prononcer 'bouillabaisseuh' ?~
+@23 = ~Selanevouregardepa ? Jamais entendu parler. Est-ce que c'est vers le Val de Bise ? Je parie qu'il y fait foid, oÃ¹ que ce soit.~
+@24 = ~Et sinon, Ã§a fait longtemps que vous courez l'aventure ?~
 @25 = ~Toute ma vie.~
-@26 = ~Depuis que mon père adoptif est mort, près de Château-Suif.~
+@26 = ~Depuis que mon pÃ¨re adoptif est mort, prÃ¨s de ChÃ¢teau-Suif.~
 @27 = ~Depuis deux jours seulement.~
-@28 = ~Vraiment ? Moi, je suis un aventurier depuis que j'ai aidé Marilyn à s'enfuir de Zazesspur, lors des Dix Jours Noirs.~
-@29 = ~Ah oui, c'est vrai. Ce n'était effectivement pas toi. En fait, c'était mon bon ami Whitey Longwhiskers. Je vous confonds toujours tous les deux.~
-@30 = ~Moi, j'ai intégré la Compagnie il y a plus de deux ans. Ce qui équivaut à peu près à l'âge de Manny.~
-@31 = ~Ah oui, c'est vrai, Manny. On est quasiment un adulte le jour où on peut faire la cour aux magiciennes Calimshites, hein ?~
-@32 = ~Oh, hum, je ne savais pas. Désolé d'avoir réveillé des souvenirs douloureux.~
-@33 = ~Ne t'inquiète pas, Paddy. Je vais bien.~
-@34 = ~Ca va, Paddy. J'ai pleuré sa disparition, mais j'ai vengé sa mort.~
-@35 = ~Ca, c'était de la bataille de chez bataille ! Ce combat était digne de mes talents de guerrier.~
+@28 = ~Vraiment ? Moi, je suis un aventurier depuis que j'ai aidÃ© Marilyn Ã  s'enfuir de Zazesspur, lors des Dix Jours Noirs.~
+@29 = ~Ah oui, c'est vrai. Ce n'Ã©tait effectivement pas toi. En fait, c'Ã©tait mon bon ami Whitey Longwhiskers. Je vous confonds toujours tous les deux.~
+@30 = ~Moi, j'ai intÃ©grÃ© la Compagnie il y a plus de deux ans. Ce qui Ã©quivaut Ã  peu prÃ¨s Ã  l'Ã¢ge de Manny.~
+@31 = ~Ah oui, c'est vrai, Manny. On est quasiment un adulte le jour oÃ¹ on peut faire la cour aux magiciennes Calimshites, hein ?~
+@32 = ~Oh, hum, je ne savais pas. DÃ©solÃ© d'avoir rÃ©veillÃ© des souvenirs douloureux.~
+@33 = ~Ne t'inquiÃ¨te pas, Paddy. Je vais bien.~
+@34 = ~Ca va, Paddy. J'ai pleurÃ© sa disparition, mais j'ai vengÃ© sa mort.~
+@35 = ~Ca, c'Ã©tait de la bataille de chez bataille ! Ce combat Ã©tait digne de mes talents de guerrier.~
 @36 = ~Quel dommage qu'il n'y en ai pas eu plus !~
-@37 = ~Et bien, nous ne voulons pas rester ici plus de temps que nécessaire. <CHARNAME>, retrouvez-nous à l'extérieur, nous serons en train d'y panser nos blessures.~
-@38 = ~<CHARNAME>, ne laissez jamais personne vous dire que vous êtes un mauvais aventurier.~ ~<CHARNAME>, ne laissez jamais personne vous dire que vous êtes une mauvaise aventurière.~
-@39 = ~Sans votre aide, je pense que je serais resté coincé là-dedans pour le restant de mes jours, ou pire encore.~
-@40 = ~Vous nous avez beaucoup aidé. En temps normal, je ne distribue pas nos richesses, mais je tiens à vous donner ceci.~
-@41 = ~Ce sont mes outils halfelins spéciaux. Ca ira, je peux toujours en retrouver.~
+@37 = ~Et bien, nous ne voulons pas rester ici plus de temps que nÃ©cessaire. <CHARNAME>, retrouvez-nous Ã  l'extÃ©rieur, nous serons en train d'y panser nos blessures.~
+@38 = ~<CHARNAME>, ne laissez jamais personne vous dire que vous Ãªtes un mauvais aventurier.~ ~<CHARNAME>, ne laissez jamais personne vous dire que vous Ãªtes une mauvaise aventuriÃ¨re.~
+@39 = ~Sans votre aide, je pense que je serais restÃ© coincÃ© lÃ -dedans pour le restant de mes jours, ou pire encore.~
+@40 = ~Vous nous avez beaucoup aidÃ©. En temps normal, je ne distribue pas nos richesses, mais je tiens Ã  vous donner ceci.~
+@41 = ~Ce sont mes outils halfelins spÃ©ciaux. Ca ira, je peux toujours en retrouver.~
 @42 = ~Ciao ciao, <CHARNAME>. Allez, les gars. On y va !~
 @43 = ~La fameuse Compagnie des Huit
 
-J'ai passé ma dernière aventure à combattre aux côtés de la Compagnie des Huit contre une cellule du Culte du Dragon qui s'était établie dans un donjon abandonné sous la forêt du Téthyr. Toute la compagnie, Marilyn, Paddy, l'elfe Moondrop, Lawantha, les deux druides Manny et Arkaneus, et Tardeth, étaient des combattants aguerris, et nous avons réussi à vaincre le Culte. Je dois admettre que combattre avec une bande d'aventuriers de ce niveau était un vrai plaisir, et j'espère en avoir encore l'occasion dans le futur.~
+J'ai passÃ© ma derniÃ¨re aventure Ã  combattre aux cÃ´tÃ©s de la Compagnie des Huit contre une cellule du Culte du Dragon qui s'Ã©tait Ã©tablie dans un donjon abandonnÃ© sous la forÃªt du TÃ©thyr. Toute la compagnie, Marilyn, Paddy, l'elfe Moondrop, Lawantha, les deux druides Manny et Arkaneus, et Tardeth, Ã©taient des combattants aguerris, et nous avons rÃ©ussi Ã  vaincre le Culte. Je dois admettre que combattre avec une bande d'aventuriers de ce niveau Ã©tait un vrai plaisir, et j'espÃ¨re en avoir encore l'occasion dans le futur.~
 @44 = ~La fameuse Compagnie des Huit
 
-J'ai finalement rencontré la Compagnie des Huit dont j'ai si souvent entendu parler. Ce groupe d'aventuriers légendaires du Téthyr est tombé sur une forteresse utilisée par le Culte du Dragon. Ils m’ont proposé de les aider à se débarrasser du Culte. Leur chef, Tardeth, m'a demandé de lui parler lorsque je serai prêt à commencer cette quête.
-J'espère que lorsque je serai prêt, partir à l'aventure et me battre avec la compagnie des Huit sera à la hauteur de mes talents.~
+J'ai finalement rencontrÃ© la Compagnie des Huit dont j'ai si souvent entendu parler. Ce groupe d'aventuriers lÃ©gendaires du TÃ©thyr est tombÃ© sur une forteresse utilisÃ©e par le Culte du Dragon. Ils mâ€™ont proposÃ© de les aider Ã  se dÃ©barrasser du Culte. Leur chef, Tardeth, m'a demandÃ© de lui parler lorsque je serai prÃªt Ã  commencer cette quÃªte.
+J'espÃ¨re que lorsque je serai prÃªt, partir Ã  l'aventure et me battre avec la compagnie des Huit sera Ã  la hauteur de mes talents.~

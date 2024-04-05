@@ -1,23 +1,23 @@
-@1   = ~¿Quién es ese ensangrentado, con los cortes y heridas?  ¡Traedle un médico!~
-@2   = ~¿Mi otro primo? Oh, os referís a Mac-
+@1   = ~Â¿QuiÃ©n es ese ensangrentado, con los cortes y heridas?  Â¡Traedle un mÃ©dico!~
+@2   = ~Â¿Mi otro primo? Oh, os referÃ­s a Mac-
 
 (Malcolm tapa la boca de su padre con su mano, evitando que diga el nombre maldito)~
-@3   = ~¿Murieron sólo por decir Mac-?
+@3   = ~Â¿Murieron sÃ³lo por decir Mac-?
 
 (Justo a tiempo, Malcolm tapa su boca de nuevo.)~
-@4   = ~¿Qué ocurrió en la batalla, sargento ensangrentado? Parece que fuíste herido muy gravemente.~
-@5   = ~Eso carece de sentido. ¿Cómo podrían agarrarse dos nadadores?  ¡Los nadadores no se agarran! ¡Flotan!~
-@6   = ~Está bien. Pero habladnos sobre la batalla. Nada de natación.~
-@7   = ~¿Decís que ganamos sólo por que los del otro bando dijeron Banquo!~
-@8   = ~¡Oh, hijo! ¡Está muerto! ¡Está realmente muerto! Creo que ese nombre lo mató. ¡Que alguien se lleve el sangriento cuerpo del hombre fallecido, que acaba de morir!
+@4   = ~Â¿QuÃ© ocurriÃ³ en la batalla, sargento ensangrentado? Parece que fuÃ­ste herido muy gravemente.~
+@5   = ~Eso carece de sentido. Â¿CÃ³mo podrÃ­an agarrarse dos nadadores?  Â¡Los nadadores no se agarran! Â¡Flotan!~
+@6   = ~EstÃ¡ bien. Pero habladnos sobre la batalla. Nada de nataciÃ³n.~
+@7   = ~Â¿DecÃ­s que ganamos sÃ³lo por que los del otro bando dijeron Banquo!~
+@8   = ~Â¡Oh, hijo! Â¡EstÃ¡ muerto! Â¡EstÃ¡ realmente muerto! Creo que ese nombre lo matÃ³. Â¡Que alguien se lleve el sangriento cuerpo del hombre fallecido, que acaba de morir!
 
-(Los asistentes retiran el cuerpo mientras ROSS, otro soldado escocés, entra.)~
-@9   = ~¿Quién viene ahora?~
-@10  = ~Está bien. Me gusta cuando derrotamos miserables traidores, porque los traidores miserables no son gente agradable. Pero no sabía que el Barón del Potaje fuera un traidor.~
-@11  = ~Creo que le daré su título a Mac-
+(Los asistentes retiran el cuerpo mientras ROSS, otro soldado escocÃ©s, entra.)~
+@9   = ~Â¿QuiÃ©n viene ahora?~
+@10  = ~EstÃ¡ bien. Me gusta cuando derrotamos miserables traidores, porque los traidores miserables no son gente agradable. Pero no sabÃ­a que el BarÃ³n del Potaje fuera un traidor.~
+@11  = ~Creo que le darÃ© su tÃ­tulo a Mac-
 
 (Malcolm coloca su mano de nuevo sobre la boca del Rey Duncan. Duncan se da cuenta de su error y suspira. Malcolm quita su mano.)~
-@12  = ~Quiero decir, creo que daré su título a mi otro primo. No a Banquo, sino al otro.~
-@13  = ~¡Sí! ¡A él! ¡El Barón de las Almejas! ¡Le nombraré Barón de las Almejas y del Potaje!~
-@14  = ~¡Lo que el traidor ha perdido, el Barón de las Almejas lo ha ganado!~
-@15  = ~¿Quién entra en mi habitación? ¡Oh, es Macbeth!  ¡Auuuughhh!~
+@12  = ~Quiero decir, creo que darÃ© su tÃ­tulo a mi otro primo. No a Banquo, sino al otro.~
+@13  = ~Â¡SÃ­! Â¡A Ã©l! Â¡El BarÃ³n de las Almejas! Â¡Le nombrarÃ© BarÃ³n de las Almejas y del Potaje!~
+@14  = ~Â¡Lo que el traidor ha perdido, el BarÃ³n de las Almejas lo ha ganado!~
+@15  = ~Â¿QuiÃ©n entra en mi habitaciÃ³n? Â¡Oh, es Macbeth!  Â¡Auuuughhh!~

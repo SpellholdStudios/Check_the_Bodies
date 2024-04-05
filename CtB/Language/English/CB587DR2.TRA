@@ -11,11 +11,11 @@
 @11  = ~You have done well, Brother Druid, and it pleases me to have helped you in such a small way.  But now, the Archdruid tells me you are to be tested further.  Are you ready for your next task?~
 @12  = ~Yes, Lady Elf.  Tell me what needs to be done.~
 @13  = ~No, Lady Elf, I need more time.~
-@14  = ~Brother Druid, without testing your worth as a druid, your time on Faer鹡 is limited to that which you make of it.  Prepare yourself as best you can, and return to me when you are ready.~
+@14  = ~Brother Druid, without testing your worth as a druid, your time on Faer没n is limited to that which you make of it.  Prepare yourself as best you can, and return to me when you are ready.~
 @15  = ~Very well, fellow Druid.  Listen closely, for I have much to explain before you begin your next task.~
 @16  = ~There is a growing presence that the Archdruid has felt and sensed from afar these past months.  She knows not what it is, but is aware of its great evil.~
-@17  = ~Brother Druid, the Archdruid fears for the region if this presence becomes too powerful.  It is not of our world, and must be prevented from wreaking havoc in Faer鹡.~
-@18  = ~She has charged you, Brother Druid, to eliminate this being by whatever means you have at your disposal.  Enlist the aid of allies, powerful friends, or gather arcane tools to forcefully end the threat if you must.  The security of Faer鹡 once again depends on you.~
+@17  = ~Brother Druid, the Archdruid fears for the region if this presence becomes too powerful.  It is not of our world, and must be prevented from wreaking havoc in Faer没n.~
+@18  = ~She has charged you, Brother Druid, to eliminate this being by whatever means you have at your disposal.  Enlist the aid of allies, powerful friends, or gather arcane tools to forcefully end the threat if you must.  The security of Faer没n once again depends on you.~
 @19  = ~Where can I find this presence, Druid?~
 @20  = ~I will do my best, Lady Elf.~
 @21  = ~Lady Elf, I doubt my skills will be sufficient to end such a dire threat.~
@@ -42,9 +42,9 @@
 @42  = ~Sister Druid, you learn fast, and have increased your ability to cast spells more quickly.  There is, however, more for you to learn.~
 @43  = ~Sister Druid, you learn fast, and have gained the ability to shapeshift into the form of a great cat.  Half the time you desire to change, you will take the form of a leopard, the other half, that of a panther.  There is, however, more for you to learn~
 @44  = ~You have done well, Sister Druid, and it pleases me to have helped you in such a small way.  But now, the Archdruid tells me you are to be tested further.  Are you ready for your next task?~
-@45  = ~Sister Druid, without testing your worth as a druid, your time on Faer鹡 is limited to that which you make of it.  Prepare yourself as best you can, and return to me when you are ready.~
-@46  = ~Sister Druid, the Archdruid fears for the region if this presence becomes too powerful.  It is not of our world, and must be prevented from wreaking havoc in Faer鹡.~
-@47  = ~She has charged you, Sister Druid, to eliminate this being by whatever means you have at your disposal.  Enlist the aid of allies, powerful friends, or gather arcane tools to forcefully end the treat if you must.  The security of Faer鹡 once again depends on you.~
+@45  = ~Sister Druid, without testing your worth as a druid, your time on Faer没n is limited to that which you make of it.  Prepare yourself as best you can, and return to me when you are ready.~
+@46  = ~Sister Druid, the Archdruid fears for the region if this presence becomes too powerful.  It is not of our world, and must be prevented from wreaking havoc in Faer没n.~
+@47  = ~She has charged you, Sister Druid, to eliminate this being by whatever means you have at your disposal.  Enlist the aid of allies, powerful friends, or gather arcane tools to forcefully end the treat if you must.  The security of Faer没n once again depends on you.~
 @48  = ~Whatever the costs, Sister Druid, the fate of us all may rest in your hands.  The three of us trust you, the Archdruid trusts you, and those who do not know anything more than campside tales of your deeds would trust you if they knew of the danger.  Have confidence in yourself, Sister, and you will succeed.~
 @49  = ~I know you will do your best.  It is all we can hope for.  Good luck to you, Sister Druid.  Return to me when the presence is no more.~
 @50  = ~I told you, Sister Druid, the Archdruid feels it in Athkatla.~
@@ -55,7 +55,7 @@
 @55 = ~The Great Druid:  Evil Presence
 
 The trio of druids tending a northern grove have ordered me to defeat an evil presence that they can sense in the region.  They are unsure of where precisely this evil is emanating from, but it is somewhere within the city of Athkatla.
-  When I have defeated the evil presence- either by destroying it or by banishing it from Faer鹡- I am to report back to the druids south of Baldur's Gate where they have promised to teach me a skill which will enrich my life.~
+  When I have defeated the evil presence- either by destroying it or by banishing it from Faer没n- I am to report back to the druids south of Baldur's Gate where they have promised to teach me a skill which will enrich my life.~
 @56 = ~The Great Druid:  Teaching of the Way
 
 The Great Druid and her apprenctices have taught me how to memorize more spells.~

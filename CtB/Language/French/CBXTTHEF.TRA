@@ -1,193 +1,193 @@
-@1   = ~Hé, mon pote, z'avez b'soin de quêqu'chose ?~ ~Hé, princesse, z'avez b'soin de quêqu'chose ?~
-@2   = ~Y'a rien à voir dans l'coin. Filez avant d'vous attirer des emmerdes.~
-@3   = ~Z'avez l'air d'bosser dans l'même bizness que moi. Eh, ça l'ferait pour vous qu'on fasse du biz' ensemble ?~
-@4   = ~Nan, sérieux, z'en dites quoi ?~
+@1   = ~HÃ©, mon pote, z'avez b'soin de quÃªqu'chose ?~ ~HÃ©, princesse, z'avez b'soin de quÃªqu'chose ?~
+@2   = ~Y'a rien Ã  voir dans l'coin. Filez avant d'vous attirer des emmerdes.~
+@3   = ~Z'avez l'air d'bosser dans l'mÃªme bizness que moi. Eh, Ã§a l'ferait pour vous qu'on fasse du biz' ensemble ?~
+@4   = ~Nan, sÃ©rieux, z'en dites quoi ?~
 @5   = ~Allez, dites c'qui vous trotte dans la caboche.~
-@6   = ~J'sais pas si c't'une bonne idée, mais j'vous suis pour l'moment.~
+@6   = ~J'sais pas si c't'une bonne idÃ©e, mais j'vous suis pour l'moment.~
 @7   = ~Ca sent l'sapin, vot'truc. Laissez tomber, j'suis pas dans l'coup.~
-@8   = ~Pardon, je... je n'ai pas compris un traître mot de ce que vous m'avez dit.~
-@9   = ~Z'êtes intéressé, mais franch'ment, mon gars, z'avez aucune idée de c'qui vous attend. Et qu'est-c'qui vous fait croire que j'peux vous faire confiance ?~ ~Z'êtes intéressé, mais franch'ment, princesse, z'avez aucune idée de c'qui vous attend. Et qu'est-c'qui vous fait croire que j'peux vous faire confiance ?~
+@8   = ~Pardon, je... je n'ai pas compris un traÃ®tre mot de ce que vous m'avez dit.~
+@9   = ~Z'Ãªtes intÃ©ressÃ©, mais franch'ment, mon gars, z'avez aucune idÃ©e de c'qui vous attend. Et qu'est-c'qui vous fait croire que j'peux vous faire confiance ?~ ~Z'Ãªtes intÃ©ressÃ©, mais franch'ment, princesse, z'avez aucune idÃ©e de c'qui vous attend. Et qu'est-c'qui vous fait croire que j'peux vous faire confiance ?~
 @10  = ~'Savez pas que j'suis l'chef eud'la guilde des Voleurs d'Athkatla ?~
-@11  = ~Eh, j'sais pas trop. Tout c'que j'sais, c'est qu'c'est moi qu'ai fait leur fête à la guilde des blaireaux de l'Ombre, à Athkatla.~
+@11  = ~Eh, j'sais pas trop. Tout c'que j'sais, c'est qu'c'est moi qu'ai fait leur fÃªte Ã  la guilde des blaireaux de l'Ombre, Ã  Athkatla.~
 @12  = ~Ah, si c'est un coup pour m'balancer, j'vous dirai que dalle.~
-@13  = ~J'ai joué les monte-en-l'air au Marché d'l'Aventurier, et j'ai tué quelqu'un en l'faisant.~
-@14  = ~Laissez tomber, ça l'fait pas. Allez, filez avant d'vous attirer des emmerdes.~
-@15  = ~Laissez tomber, ça l'fait pas. Allez, filez, et ne revn'ez pas m'voir avant d'êt' prêt à m'raconter vos exploits.~ ~Laissez tomber, ça l'fait pas. Allez, filez, et ne revn'ez pas m'voir avant d'êt' prête à m'raconter vos exploits.~
-@16  = ~Keuwa ? C'tait vous ? Ah ça, z'êtes plutôt doué, mon pote. Alors comme ça, z'êtes c'lui qu'a planté Linval. Et qu'est-c'qui m'fait pas croire qu'z'allez pas m'faire l'même coup à moi ? Hé ?~ ~Keuwa ? C'tait vous ? Ah ça, z'êtes plutôt douée, princesse. Alors comme ça, z'êtes celle qu'a planté Linval. Et qu'est-c'qui m'fait pas croire qu'z'allez pas m'faire l'même coup à moi ? Hé ?~
+@13  = ~J'ai jouÃ© les monte-en-l'air au MarchÃ© d'l'Aventurier, et j'ai tuÃ© quelqu'un en l'faisant.~
+@14  = ~Laissez tomber, Ã§a l'fait pas. Allez, filez avant d'vous attirer des emmerdes.~
+@15  = ~Laissez tomber, Ã§a l'fait pas. Allez, filez, et ne revn'ez pas m'voir avant d'Ãªt' prÃªt Ã  m'raconter vos exploits.~ ~Laissez tomber, Ã§a l'fait pas. Allez, filez, et ne revn'ez pas m'voir avant d'Ãªt' prÃªte Ã  m'raconter vos exploits.~
+@16  = ~Keuwa ? C'tait vous ? Ah Ã§a, z'Ãªtes plutÃ´t douÃ©, mon pote. Alors comme Ã§a, z'Ãªtes c'lui qu'a plantÃ© Linval. Et qu'est-c'qui m'fait pas croire qu'z'allez pas m'faire l'mÃªme coup Ã  moi ? HÃ© ?~ ~Keuwa ? C'tait vous ? Ah Ã§a, z'Ãªtes plutÃ´t douÃ©e, princesse. Alors comme Ã§a, z'Ãªtes celle qu'a plantÃ© Linval. Et qu'est-c'qui m'fait pas croire qu'z'allez pas m'faire l'mÃªme coup Ã  moi ? HÃ© ?~
 @17  = ~J'vous donne ma parole. J'vous tuerai pas.~
-@18  = ~Ca, ça va dépendre eud'vous. Jouez pas à la maligne, et j'aurais pas à vous tuer.~
-@19  = ~Bôh, qui peut l'savoir... 'Savez, ma dague ell'peut pas s'empêcher d'planter des gens, comm'ça...~
-@20  = ~Eh, pô mal, pô mal du tout. Ca joue en vot'faveur, pour sûr. Donc, z'êtes eul'boss d'une guilde eud'voyous ? Et qu'est-c'qui m'fait pas croire que z'allez pas m'planter quand l'occase s'présent'ra ? Hé ?~ ~Eh, pô mal, pô mal du tout. Ca joue en vot'faveur, pour sûr. Donc, z'êtes la cheftaine d'une guilde eud'voyous ? Et qu'est-c'qui m'fait pas croire que z'allez pas m'planter quand l'occase s'présent'ra ? Hé ?~
+@18  = ~Ca, Ã§a va dÃ©pendre eud'vous. Jouez pas Ã  la maligne, et j'aurais pas Ã  vous tuer.~
+@19  = ~BÃ´h, qui peut l'savoir... 'Savez, ma dague ell'peut pas s'empÃªcher d'planter des gens, comm'Ã§a...~
+@20  = ~Eh, pÃ´ mal, pÃ´ mal du tout. Ca joue en vot'faveur, pour sÃ»r. Donc, z'Ãªtes eul'boss d'une guilde eud'voyous ? Et qu'est-c'qui m'fait pas croire que z'allez pas m'planter quand l'occase s'prÃ©sent'ra ? HÃ© ?~ ~Eh, pÃ´ mal, pÃ´ mal du tout. Ca joue en vot'faveur, pour sÃ»r. Donc, z'Ãªtes la cheftaine d'une guilde eud'voyous ? Et qu'est-c'qui m'fait pas croire que z'allez pas m'planter quand l'occase s'prÃ©sent'ra ? HÃ© ?~
 @21  = ~J'vous donne ma parole. J'vous court-circuit'rai pas.~
-@22  = ~Fait'pas vot'maligne, et j'aurais pas à en arriver là.~
-@23  = ~Bôh, qui peut l'savoir... Ca vous empêch'rait d'me trahir, à tout l'moins.~
-@24  = ~Hé, faire du biz' avec vous, ça pourrait foutre la zone dans mes affaires. Mais j'veux ben tenter ma chance.~
-@25  = ~Hé, j'risque ma peau en faisant du biz' avec vous. Mais j'veux ben tenter ma chance.~
-@26  = ~Hé, j'sais pas si c'est un bon plan d'faire du biz avec vous, en fait. Mais j'veux ben tenter ma chance.~
-@27  = ~Hé, on dirait qu'c'est tout ou rien. Avec vous, soit j'deviens riche, soit j'gagne que dalle. Mais j'veux ben tenter ma chance.~
-@28  = ~Ouais, c'est c'que vous causez su'l'moment, mais qui peut savoir, hein ? On peut jamais savoir comben elle vaut la parole de quêqu'un. Mais j'veux ben tenter ma chance.~
-@29  = ~Alors, z'avez une oreille à m'prêter pour que j'vous fasse eul'topo ? Moi j'vous l'dis sans détour, mon gars, j'ai des tuyaux pour où c'est qu'y faut cambrioler. Et ce s'ra les doigts dans l'nez, en plus.~ ~Alors, z'avez une oreille à m'prêter pour que j'vous fasse eul'topo ? Moi j'vous l'dis sans détour, princesse, j'ai des tuyaus pour où c'est qu'y faut cambrioler. Et ce s'ra les doigts dans l'nez, en plus.~
-@30  = ~Mais, c'est vot'choix. Ca vous z'intéresse ? J'veux dire, d'aller cambrioler pour moi ? De voler des trucs, quoi ?~
+@22  = ~Fait'pas vot'maligne, et j'aurais pas Ã  en arriver lÃ .~
+@23  = ~BÃ´h, qui peut l'savoir... Ca vous empÃªch'rait d'me trahir, Ã  tout l'moins.~
+@24  = ~HÃ©, faire du biz' avec vous, Ã§a pourrait foutre la zone dans mes affaires. Mais j'veux ben tenter ma chance.~
+@25  = ~HÃ©, j'risque ma peau en faisant du biz' avec vous. Mais j'veux ben tenter ma chance.~
+@26  = ~HÃ©, j'sais pas si c'est un bon plan d'faire du biz avec vous, en fait. Mais j'veux ben tenter ma chance.~
+@27  = ~HÃ©, on dirait qu'c'est tout ou rien. Avec vous, soit j'deviens riche, soit j'gagne que dalle. Mais j'veux ben tenter ma chance.~
+@28  = ~Ouais, c'est c'que vous causez su'l'moment, mais qui peut savoir, hein ? On peut jamais savoir comben elle vaut la parole de quÃªqu'un. Mais j'veux ben tenter ma chance.~
+@29  = ~Alors, z'avez une oreille Ã  m'prÃªter pour que j'vous fasse eul'topo ? Moi j'vous l'dis sans dÃ©tour, mon gars, j'ai des tuyaux pour oÃ¹ c'est qu'y faut cambrioler. Et ce s'ra les doigts dans l'nez, en plus.~ ~Alors, z'avez une oreille Ã  m'prÃªter pour que j'vous fasse eul'topo ? Moi j'vous l'dis sans dÃ©tour, princesse, j'ai des tuyaus pour oÃ¹ c'est qu'y faut cambrioler. Et ce s'ra les doigts dans l'nez, en plus.~
+@30  = ~Mais, c'est vot'choix. Ca vous z'intÃ©resse ? J'veux dire, d'aller cambrioler pour moi ? De voler des trucs, quoi ?~
 @31  = ~Ouais, j'suis dans l'coup. J'vous aid'rai d'mon mieux.~
 @32  = ~Y'a pas moyen, j'suis pas dans l'coup. Allez vous trouver un aut'baltringue.~ 
 @33  = ~Ouais, j'savais qu'j'pouvais pas vous faire confiance. Z'avez pas les tripes, hein ? Bon, j'me casse. Ciao, mon pote.~ ~Ouais, j'savais qu'j'pouvais pas vous faire confiance. Z'avez pas les tripes, hein ? Bon, j'me casse. Ciao, princesse.~
-@34  = ~Ouais, ça l'fait. J'ai plusieurs coins en vue. Ca vous dirait d'aller en cambrioler un ? On a l'temple eud'Lathandre, le repaire des escalvagistes, l'bâtiment administratif, ou l'Q.G. des Ménestrels.~
-@35  = ~J'peux rien pour vous pour l'moment. Ptêt' plus tard.~
+@34  = ~Ouais, Ã§a l'fait. J'ai plusieurs coins en vue. Ca vous dirait d'aller en cambrioler un ? On a l'temple eud'Lathandre, le repaire des escalvagistes, l'bÃ¢timent administratif, ou l'Q.G. des MÃ©nestrels.~
+@35  = ~J'peux rien pour vous pour l'moment. PtÃªt' plus tard.~
 @36  = ~Parlez-moi du temple eud'Lathandre.~
-@37  = ~Z'avez parlé des esclavagistes ?~
-@38  = ~On peut vraiment cambrioler l'bâtiment administratif ?~
-@39  = ~Ouais, j'ai toujours voulu cambrioler les Ménestrels. J'vais prendre ça.~
-@40  = ~Ouais, c'est bien beau tout ça, mais z'avez pas d'aut' cibles en vue ?~
-@41  = ~Eul'temple eud'Lathandre ? Ca c't'une cible, mon gars. Ca s'ra assez facile si vous réveillez pas les gardes.~ ~Eul'temple eud'Lathandre ? Ca c'est une cible, princesse. Ca s'ra assez facile si vous réveillez pas les gardes.~
-@42  = ~J'connais les moments où ça dort. Z'allez piquer trois trucs pour moi, puis on s'tirera avant d'se faire repérer.~
-@43  = ~Z'êtes toujours intéressé par le temple ?~ ~Z'êtes toujours intéressée par le temple ?~
-@44  = ~Bien sûr. On peut même faire ça ce soir.~
+@37  = ~Z'avez parlÃ© des esclavagistes ?~
+@38  = ~On peut vraiment cambrioler l'bÃ¢timent administratif ?~
+@39  = ~Ouais, j'ai toujours voulu cambrioler les MÃ©nestrels. J'vais prendre Ã§a.~
+@40  = ~Ouais, c'est bien beau tout Ã§a, mais z'avez pas d'aut' cibles en vue ?~
+@41  = ~Eul'temple eud'Lathandre ? Ca c't'une cible, mon gars. Ca s'ra assez facile si vous rÃ©veillez pas les gardes.~ ~Eul'temple eud'Lathandre ? Ca c'est une cible, princesse. Ca s'ra assez facile si vous rÃ©veillez pas les gardes.~
+@42  = ~J'connais les moments oÃ¹ Ã§a dort. Z'allez piquer trois trucs pour moi, puis on s'tirera avant d'se faire repÃ©rer.~
+@43  = ~Z'Ãªtes toujours intÃ©ressÃ© par le temple ?~ ~Z'Ãªtes toujours intÃ©ressÃ©e par le temple ?~
+@44  = ~Bien sÃ»r. On peut mÃªme faire Ã§a ce soir.~
 @45  = ~C'est parti pour l'temple, mon pote. J'vous y r'trouv'rai. De nuit. On va s'remplir les poches !~ ~C'est parti pour l'temple, princesse. J'vous y r'trouv'rai. De nuit. On va s'remplir les poches !~
-@46  = ~Ouais. On peut aller les cambrioler. Et vous savez où il est, leur repaire ? Ben sûr, que vous l'savez.~
-@47  = ~J'les ai espionné, et maint'nant j'sais tout sur leurs horaires. On peut s'y introduire, piquer un peu d'leur trésor, et ressortir sans qu'ils nous aient r'marqué.~
-@48  = ~Y'a un tas d'armes et d'or dans c'bâtiment. On peut s'faire des couilles en or si on s'fait pas piquer.~
+@46  = ~Ouais. On peut aller les cambrioler. Et vous savez oÃ¹ il est, leur repaire ? Ben sÃ»r, que vous l'savez.~
+@47  = ~J'les ai espionnÃ©, et maint'nant j'sais tout sur leurs horaires. On peut s'y introduire, piquer un peu d'leur trÃ©sor, et ressortir sans qu'ils nous aient r'marquÃ©.~
+@48  = ~Y'a un tas d'armes et d'or dans c'bÃ¢timent. On peut s'faire des couilles en or si on s'fait pas piquer.~
 @49  = ~Ca vous dit ?~
 @50  = ~Pas d'soucis. On va cambrioler les esclavagistes.~
-@51  = ~C'est vot'choix. On s'retrouve devant leur porte cette nuit. J'pourrai l'ouvrir discrètement pour vous. A plus, mon pote.~ ~C'est vot'choix. On s'retrouve devant leur porte cette nuit. J'pourrai l'ouvrir discrètement pour vous. A plus, princesse.~
-@52  = ~Ah, enfin un peu d'challenge. A l'intérieur, y'a des statues et des richesses. Vous z'en faites pas, on peut l'faire.~
-@53  = ~Ca s'ra pas d'la tarte, mais ils dorment la nuit. On pourra y aller à c'moment. On fait comm'ça ?~
-@54  = ~Ouais, ça l'fait.~
-@55  = ~C'est vot'choix, mon pote. On fait comm'ça. On s'retrouve là-bas, et on en r'discute, dac' ?~ ~C'est vot'choix, princesse. On fait comm'ça. On s'retrouve là-bas, et on en r'discute, dac' ?~
-@56  = ~Vous, z'avez pas l'air d'aimer les Ménestrels. On peut effectivement les cambrioler.~
-@57  = ~Si on s'retrouve près d'leur repaire de nuit, j'peux vous montrer comment y rentrer. Ils ont des bons objets chez eux. Ca vous dit, mon pote ?~ ~Si on s'retrouve près d'leur repaire de nuit, j'peux vous montrer comment y rentrer. Ils ont des bons objets chez eux. Ca vous dit, princesse ?~
-@58  = ~Eh, j'viens pas d'vous dire qu'j'allais prend'ça ? Z'êtes sourde, ou quoi ?~
-@59  = ~Eh, mollo, pas b'soin d'm'en chier une enclume ! J'voulais just' êt'sûre ! Bon, ben c'est parti pour les Ménestrels, alors. On s'retrouve cett'nuit aux docks.~
-@60  = ~Et ben quoi ? Vous vous êtes perdu en route ou quoi ? Le temple il est just'là. J'vais surveiller un peu l'terrain pour vous. Vous z'y entrez, vous z'y volez, et vous z'y r'sortez.~ ~Et ben quoi ? Vous vous êtes perdue en route ou quoi ? Le temple il est just'là. J'vais surveiller un peu l'terrain pour vous. Vous z'y entrez, vous z'y volez, et vous z'y r'sortez.~
-@61  = ~C'était bin joué, mon pote. Allez, cassez-vous avant d'vous fair'prendre. Et m'suivez pô, on s'retrouve aux bas-quartiers.~ ~C'était bin joué, princesse. Allez, cassez-vous avant d'vous fair'prendre. Et m'suivez pô, on s'retrouve aux bas-quartiers.~
-@62  = ~Ben allez, quoi ! On a pas la nuit d'vant nous ! Volez tout c'que vous pouvez, et perdez pô d'temps.~
-@63  = ~Eh, mon pote, on dirait qu'z'avez tiré l'gros lot. Z'allez bientôt êt'riche. Allez, on s'tire vit'fait bin fait, et on se r'trouve aux bas-quartiers.~ ~Eh, princesse, on dirait qu'z'avez tiré l'gros lot. Z'allez bientôt êt'riche. Allez, on s'tire vit'fait bin fait, et on se r'trouve aux bas-quartiers.~
-@64  = ~Maint'nant ou jamais, mon pote. Z'allez dans l'gros bâtiment, vous piquez les statues, et vous r'sortez en un seul morceau. J'surveill'rai derrièr'vous. Allez, on s'magne !~ ~Maint'nant ou jamais, princesse. Z'allez dans l'gros bâtiment, vous piquez les statues, et vous r'sortez en un seul morceau. J'surveill'rai derrièr'vous. Allez, on s'magne !~
-@65  = ~On dirait bin qu'z'avez réussi. Allez, on s'tire maint'nant. J'vous r'verrai aux bas-quartiers.~
-@66  = ~Nan mais franch'ment, ça r'semble vraiment pas à un Q.G. Ménestrel, heiiin ? J'vous ai pété la serrure, vous pouvez entrer. Allez piquer des trucs avant d'vous fair'voir.~
-@67  = ~Ouais, pas mal, mon pote. Un garde rôdait dans l'coin, mais on s'est pas fait prendre. On f'rait mieux d's'en aller avant qu'y r'vienne. On s'retrouve aux bas-quartiers.~ ~Ouais, pas mal, princesse. Un garde rôdait dans l'coin, mais on s'est pas fait prendre. On f'rait mieux d's'en aller avant qu'y r'vienne. On s'retrouve aux bas-quartiers.~
-@68  = ~Ben sûr que j'en ai d'aut'. Y'en a trois, en fait. L'Ord' du Coeur Radieux, l'espèce de vieux manoir près d'la prison - et j'parie qu'vous connaissez, ça, la prison - ou ben sinon, on peut essayer d'aller fouiller deux-trois tombes dans l'cim'tière.~
+@51  = ~C'est vot'choix. On s'retrouve devant leur porte cette nuit. J'pourrai l'ouvrir discrÃ¨tement pour vous. A plus, mon pote.~ ~C'est vot'choix. On s'retrouve devant leur porte cette nuit. J'pourrai l'ouvrir discrÃ¨tement pour vous. A plus, princesse.~
+@52  = ~Ah, enfin un peu d'challenge. A l'intÃ©rieur, y'a des statues et des richesses. Vous z'en faites pas, on peut l'faire.~
+@53  = ~Ca s'ra pas d'la tarte, mais ils dorment la nuit. On pourra y aller Ã  c'moment. On fait comm'Ã§a ?~
+@54  = ~Ouais, Ã§a l'fait.~
+@55  = ~C'est vot'choix, mon pote. On fait comm'Ã§a. On s'retrouve lÃ -bas, et on en r'discute, dac' ?~ ~C'est vot'choix, princesse. On fait comm'Ã§a. On s'retrouve lÃ -bas, et on en r'discute, dac' ?~
+@56  = ~Vous, z'avez pas l'air d'aimer les MÃ©nestrels. On peut effectivement les cambrioler.~
+@57  = ~Si on s'retrouve prÃ¨s d'leur repaire de nuit, j'peux vous montrer comment y rentrer. Ils ont des bons objets chez eux. Ca vous dit, mon pote ?~ ~Si on s'retrouve prÃ¨s d'leur repaire de nuit, j'peux vous montrer comment y rentrer. Ils ont des bons objets chez eux. Ca vous dit, princesse ?~
+@58  = ~Eh, j'viens pas d'vous dire qu'j'allais prend'Ã§a ? Z'Ãªtes sourde, ou quoi ?~
+@59  = ~Eh, mollo, pas b'soin d'm'en chier une enclume ! J'voulais just' Ãªt'sÃ»re ! Bon, ben c'est parti pour les MÃ©nestrels, alors. On s'retrouve cett'nuit aux docks.~
+@60  = ~Et ben quoi ? Vous vous Ãªtes perdu en route ou quoi ? Le temple il est just'lÃ . J'vais surveiller un peu l'terrain pour vous. Vous z'y entrez, vous z'y volez, et vous z'y r'sortez.~ ~Et ben quoi ? Vous vous Ãªtes perdue en route ou quoi ? Le temple il est just'lÃ . J'vais surveiller un peu l'terrain pour vous. Vous z'y entrez, vous z'y volez, et vous z'y r'sortez.~
+@61  = ~C'Ã©tait bin jouÃ©, mon pote. Allez, cassez-vous avant d'vous fair'prendre. Et m'suivez pÃ´, on s'retrouve aux bas-quartiers.~ ~C'Ã©tait bin jouÃ©, princesse. Allez, cassez-vous avant d'vous fair'prendre. Et m'suivez pÃ´, on s'retrouve aux bas-quartiers.~
+@62  = ~Ben allez, quoi ! On a pas la nuit d'vant nous ! Volez tout c'que vous pouvez, et perdez pÃ´ d'temps.~
+@63  = ~Eh, mon pote, on dirait qu'z'avez tirÃ© l'gros lot. Z'allez bientÃ´t Ãªt'riche. Allez, on s'tire vit'fait bin fait, et on se r'trouve aux bas-quartiers.~ ~Eh, princesse, on dirait qu'z'avez tirÃ© l'gros lot. Z'allez bientÃ´t Ãªt'riche. Allez, on s'tire vit'fait bin fait, et on se r'trouve aux bas-quartiers.~
+@64  = ~Maint'nant ou jamais, mon pote. Z'allez dans l'gros bÃ¢timent, vous piquez les statues, et vous r'sortez en un seul morceau. J'surveill'rai derriÃ¨r'vous. Allez, on s'magne !~ ~Maint'nant ou jamais, princesse. Z'allez dans l'gros bÃ¢timent, vous piquez les statues, et vous r'sortez en un seul morceau. J'surveill'rai derriÃ¨r'vous. Allez, on s'magne !~
+@65  = ~On dirait bin qu'z'avez rÃ©ussi. Allez, on s'tire maint'nant. J'vous r'verrai aux bas-quartiers.~
+@66  = ~Nan mais franch'ment, Ã§a r'semble vraiment pas Ã  un Q.G. MÃ©nestrel, heiiin ? J'vous ai pÃ©tÃ© la serrure, vous pouvez entrer. Allez piquer des trucs avant d'vous fair'voir.~
+@67  = ~Ouais, pas mal, mon pote. Un garde rÃ´dait dans l'coin, mais on s'est pas fait prendre. On f'rait mieux d's'en aller avant qu'y r'vienne. On s'retrouve aux bas-quartiers.~ ~Ouais, pas mal, princesse. Un garde rÃ´dait dans l'coin, mais on s'est pas fait prendre. On f'rait mieux d's'en aller avant qu'y r'vienne. On s'retrouve aux bas-quartiers.~
+@68  = ~Ben sÃ»r que j'en ai d'aut'. Y'en a trois, en fait. L'Ord' du Coeur Radieux, l'espÃ¨ce de vieux manoir prÃ¨s d'la prison - et j'parie qu'vous connaissez, Ã§a, la prison - ou ben sinon, on peut essayer d'aller fouiller deux-trois tombes dans l'cim'tiÃ¨re.~
 @69  = ~Et les z'aut' cibles ?~
 @70  = ~On d'vrait aller cambrioler l'Coeur Radieux.~
-@71  = ~Eul'cim'tière, ça m'semble plus facile.~
-@72  = ~Ces nobles ont d'l'argent à en crever. A partir du moment où 'faut pas creuser, j'en suis.~
-@73  = ~Keuwa ? Z'êtes sourd ou quoi ? Ecoutez, mec, car j'le répèt'rai pas. On a l'temple eud'Lathandre, le repaire des esclavagistes, le bâtiment administratif, l'Q.G. des Ménestrels, l'ordre de ces cul-terreux d'paladins, eul'cim'tière ou ben l'manoir qu'j'vous ai dit.~ ~Keuwa ? Z'êtes sourde ou quoi ? Ecoutez, princesse, car j'le répèt'rai pas. On a l'temple eud'Lathandre, le repaire des esclavagistes, le bâtiment administratif, l'Q.G. des Ménestrels, l'ordre de ces cul-terreux d'paladins, eul'cim'tière ou ben l'manoir qu'j'vous ai dit.~
-@74  = ~C'est parti. On va aller s'amuser chez les paladines. Quelle bande de blaireaux : ils ferment jamais leur porte, même de nuit.~
-@75  = ~J'sais pô c'qu'on va y trouver, mais j'vous suis sur c'terrain-là. Z'en dites quoi ?~
-@76  = ~Ouais, j'aime l'idée.~
-@77  = ~Ouais, on peut fair'ça. Y faut just'prendre des vêt'ments sombres. Et am'nez pô d'attirail bruyant, c'est compris ?~
-@78  = ~Eh, z'attendez quoi, là ? Rentrez dans l'bâtiment, piquez des trucs et r'sortez, c'est pas ben compliqué, non ?~
-@79  = ~Ouais, ils l'auront pas volée, celle-là, ces baltringues du Cul Radieux. Allez, on s'taille. On s'revoit aux bas-quartiers.~
-@80  = ~Ca m'dit pas trop à la base, d'aller fouiller les morts. On peut avoir eud'sacrées surprises. Mais c'est vous l'patron, et tant qu'j'ai ma part du butin...~ ~Ca m'dit pas trop à la base, d'aller fouiller les morts. On peut avoir eud'sacrées surprises. Mais c'est vous la patronne, et tant qu'j'ai ma part du butin...~
-@81  = ~Ouais, on va faire ça.~
-@82  = ~Si z'êtes sûr, on s'y r'trouve là-bas. J'vous conseille quand mêm' d'aller vous trouver un bon équip'ment, d'abord ; y'a des chiens d'garde, si ça s'trouve.~ ~Si z'êtes sure, on s'y r'trouve là-bas. J'vous conseille quand mêm' d'aller vous trouver un bon équip'ment, d'abord ; y'a des chiens d'garde, si ça s'trouve.~
-@83  = ~Z'avez pas fouillé toutes les tombes. Magnez-vous l'train, j'vais pô rester dans c't'endroit glacial tout'la nuit !~
-@84  = ~Z'avez bin bossé, ce soir, mon pote. Allez, on se sépare. Rendez-vous aux bas-quartiers.~ ~Z'avez bin bossé, ce soir, princesse. Allez, on se sépare. Rendez-vous aux bas-quartiers.~
-@85  = ~Par Séluné, c'est clair que c'noble il a plein d'trucs chers chez lui. Z'allez entrer la-d'dans, prendre tout c'que vous pourrez, et r'sortir, compris ?~
-@86  = ~Z'êtes vraiment sûr d'vouloir aller les cambrioler ?~
-@87  = ~Ouais, ça m'plait d'aller voler les riches.~
-@88  = ~C'est vot'choix, mon pote. On se r'trouve là-bas. Soyez prêt.~ ~C'est vot'choix, princesse. On se r'trouve là-bas. Soyez prête.~
-@89  = ~Allez, on s'dépêche ! Jysstev et sa cochonne vont pas pioncer tout'la nuit ! Sauf si vous leur tranchez la gorge, bien sûr.~
-@90  = ~On dirait qu'Jysstev et sa cochonne vont se r'trouver tout bêtes, demain matin. Allez, on s'tire. R'trouvez-moi aux bas-quartiers.~
+@71  = ~Eul'cim'tiÃ¨re, Ã§a m'semble plus facile.~
+@72  = ~Ces nobles ont d'l'argent Ã  en crever. A partir du moment oÃ¹ 'faut pas creuser, j'en suis.~
+@73  = ~Keuwa ? Z'Ãªtes sourd ou quoi ? Ecoutez, mec, car j'le rÃ©pÃ¨t'rai pas. On a l'temple eud'Lathandre, le repaire des esclavagistes, le bÃ¢timent administratif, l'Q.G. des MÃ©nestrels, l'ordre de ces cul-terreux d'paladins, eul'cim'tiÃ¨re ou ben l'manoir qu'j'vous ai dit.~ ~Keuwa ? Z'Ãªtes sourde ou quoi ? Ecoutez, princesse, car j'le rÃ©pÃ¨t'rai pas. On a l'temple eud'Lathandre, le repaire des esclavagistes, le bÃ¢timent administratif, l'Q.G. des MÃ©nestrels, l'ordre de ces cul-terreux d'paladins, eul'cim'tiÃ¨re ou ben l'manoir qu'j'vous ai dit.~
+@74  = ~C'est parti. On va aller s'amuser chez les paladines. Quelle bande de blaireaux : ils ferment jamais leur porte, mÃªme de nuit.~
+@75  = ~J'sais pÃ´ c'qu'on va y trouver, mais j'vous suis sur c'terrain-lÃ . Z'en dites quoi ?~
+@76  = ~Ouais, j'aime l'idÃ©e.~
+@77  = ~Ouais, on peut fair'Ã§a. Y faut just'prendre des vÃªt'ments sombres. Et am'nez pÃ´ d'attirail bruyant, c'est compris ?~
+@78  = ~Eh, z'attendez quoi, lÃ  ? Rentrez dans l'bÃ¢timent, piquez des trucs et r'sortez, c'est pas ben compliquÃ©, non ?~
+@79  = ~Ouais, ils l'auront pas volÃ©e, celle-lÃ , ces baltringues du Cul Radieux. Allez, on s'taille. On s'revoit aux bas-quartiers.~
+@80  = ~Ca m'dit pas trop Ã  la base, d'aller fouiller les morts. On peut avoir eud'sacrÃ©es surprises. Mais c'est vous l'patron, et tant qu'j'ai ma part du butin...~ ~Ca m'dit pas trop Ã  la base, d'aller fouiller les morts. On peut avoir eud'sacrÃ©es surprises. Mais c'est vous la patronne, et tant qu'j'ai ma part du butin...~
+@81  = ~Ouais, on va faire Ã§a.~
+@82  = ~Si z'Ãªtes sÃ»r, on s'y r'trouve lÃ -bas. J'vous conseille quand mÃªm' d'aller vous trouver un bon Ã©quip'ment, d'abord ; y'a des chiens d'garde, si Ã§a s'trouve.~ ~Si z'Ãªtes sure, on s'y r'trouve lÃ -bas. J'vous conseille quand mÃªm' d'aller vous trouver un bon Ã©quip'ment, d'abord ; y'a des chiens d'garde, si Ã§a s'trouve.~
+@83  = ~Z'avez pas fouillÃ© toutes les tombes. Magnez-vous l'train, j'vais pÃ´ rester dans c't'endroit glacial tout'la nuit !~
+@84  = ~Z'avez bin bossÃ©, ce soir, mon pote. Allez, on se sÃ©pare. Rendez-vous aux bas-quartiers.~ ~Z'avez bin bossÃ©, ce soir, princesse. Allez, on se sÃ©pare. Rendez-vous aux bas-quartiers.~
+@85  = ~Par SÃ©lunÃ©, c'est clair que c'noble il a plein d'trucs chers chez lui. Z'allez entrer la-d'dans, prendre tout c'que vous pourrez, et r'sortir, compris ?~
+@86  = ~Z'Ãªtes vraiment sÃ»r d'vouloir aller les cambrioler ?~
+@87  = ~Ouais, Ã§a m'plait d'aller voler les riches.~
+@88  = ~C'est vot'choix, mon pote. On se r'trouve lÃ -bas. Soyez prÃªt.~ ~C'est vot'choix, princesse. On se r'trouve lÃ -bas. Soyez prÃªte.~
+@89  = ~Allez, on s'dÃ©pÃªche ! Jysstev et sa cochonne vont pas pioncer tout'la nuit ! Sauf si vous leur tranchez la gorge, bien sÃ»r.~
+@90  = ~On dirait qu'Jysstev et sa cochonne vont se r'trouver tout bÃªtes, demain matin. Allez, on s'tire. R'trouvez-moi aux bas-quartiers.~
 @91  = ~Pas mal pour une nuit, hein mon pote ? Gardez les objets, mais j'prends mes quarante pour-cents d'la monnaie.~ ~Pas mal pour une nuit, hein princesse ? Gardez les objets, mais j'prends mes quarante pour-cents d'la monnaie.~
-@92  = ~Ca paiera l'silence de deux-trois gardes, ainsi que quelques bières pour ma pomme, hé hé. Alors, on fait quoi ? On peut s'arrêter, et j'retourn'rai à Brynnlaw, ou on peut continuer, et j'reste ici.~
+@92  = ~Ca paiera l'silence de deux-trois gardes, ainsi que quelques biÃ¨res pour ma pomme, hÃ© hÃ©. Alors, on fait quoi ? On peut s'arrÃªter, et j'retourn'rai Ã  Brynnlaw, ou on peut continuer, et j'reste ici.~
 @93  = ~'Devriez attendre dans l'coin.~
-@94  = ~On peut allez voler quelqu'un d'aut' dès maint'nant, si vous l'voulez.~
-@95  = ~'Feriez mieux d'rentrer à Brynnlaw. Pas la peine qu'on vous trouve dans l'coin.~
-@96  = ~C'est noté, mon pote. J'patiente dans les parages.~ ~C'est noté, princesse. J'patiente dans les parages.~
-@97  = ~Z'êtes prêt pour un aut'cambriolage, mon pote ?~ ~Z'êtes prête pour un aut'cambriolage, princesse ?~
+@94  = ~On peut allez voler quelqu'un d'aut' dÃ¨s maint'nant, si vous l'voulez.~
+@95  = ~'Feriez mieux d'rentrer Ã  Brynnlaw. Pas la peine qu'on vous trouve dans l'coin.~
+@96  = ~C'est notÃ©, mon pote. J'patiente dans les parages.~ ~C'est notÃ©, princesse. J'patiente dans les parages.~
+@97  = ~Z'Ãªtes prÃªt pour un aut'cambriolage, mon pote ?~ ~Z'Ãªtes prÃªte pour un aut'cambriolage, princesse ?~
 @98  = ~Si c'est c'que vous voulez...~
 @99  = ~On peut continuer si vous vous sentez l'courage.~
 @100 = ~On va aller cambrioler les paladins du Coeur Radieux.~
-@101 = ~C'est noté, mon pote. J'vais à Brynnlaw. V'nez m'voir là-bas si vous voulez qu'on r'nouvelle not'partenariat.~ ~C'est noté, princesse. J'vais à Brynnlaw. V'nez m'voir là-bas si vous voulez qu'on r'nouvelle not'partenariat.~
-@102 = ~Hé, désolée d'vous dir'ça, mon pote, mais j'ai plus d'cible pour vous. Z'avez cambriolé tous les endroits que j'connaissais, et j'ai pô envie d'aller essayer aut'part. On dit qu'les gardes augmentent les patrouilles, et j'veux pas m'faire jeter en prison.~ ~Hé, désolée d'vous dir'ça, princesse, mais j'ai plus d'cible pour vous. Z'avez cambriolé tous les endroits que j'connaissais, et j'ai pô envie d'aller essayer aut'part. On dit qu'les gardes augmentent les patrouilles, et j'veux pas m'faire jeter en prison.~
-@103 = ~J'suis certaine qu'vous allez vous en sortir avec tout l'bazar qu'vous avez piqué. Moi, j'me taille. J'en ai marre de l'Amn. A la r'voyure !~
-@104 = ~Ouais, pas d'souci, mon pote. J'patiente ici jusqu'à c'que vous soyez prêt à vous z'y r'mettre.~ ~Ouais, pas d'souci, princesse. J'patiente ici jusqu'à c'que vous soyez prête à vous z'y r'mettre.~
-@105 = ~Hé bin, on dirait qu'vous zavez pas assez d'or pour couvrir ma part du butin. Ya pô d'souci, vous m'paierez quand vous s'rez plus à court. Et au fait, vous voulez que j'patiente ici ou que j'retourne à Brynnlaw avant qu'on r'fasse un casse ?~
-@106 = ~Z'avez pris un coup sur la tête ou quoi ? Ou alors z'êtes tarte à bouffer des pieds d'chaise ? J'dis juste que z'avez l'air d'vous y connaît', mais est-c'que j'peux vraiment vous faire confiance ?~
+@101 = ~C'est notÃ©, mon pote. J'vais Ã  Brynnlaw. V'nez m'voir lÃ -bas si vous voulez qu'on r'nouvelle not'partenariat.~ ~C'est notÃ©, princesse. J'vais Ã  Brynnlaw. V'nez m'voir lÃ -bas si vous voulez qu'on r'nouvelle not'partenariat.~
+@102 = ~HÃ©, dÃ©solÃ©e d'vous dir'Ã§a, mon pote, mais j'ai plus d'cible pour vous. Z'avez cambriolÃ© tous les endroits que j'connaissais, et j'ai pÃ´ envie d'aller essayer aut'part. On dit qu'les gardes augmentent les patrouilles, et j'veux pas m'faire jeter en prison.~ ~HÃ©, dÃ©solÃ©e d'vous dir'Ã§a, princesse, mais j'ai plus d'cible pour vous. Z'avez cambriolÃ© tous les endroits que j'connaissais, et j'ai pÃ´ envie d'aller essayer aut'part. On dit qu'les gardes augmentent les patrouilles, et j'veux pas m'faire jeter en prison.~
+@103 = ~J'suis certaine qu'vous allez vous en sortir avec tout l'bazar qu'vous avez piquÃ©. Moi, j'me taille. J'en ai marre de l'Amn. A la r'voyure !~
+@104 = ~Ouais, pas d'souci, mon pote. J'patiente ici jusqu'Ã  c'que vous soyez prÃªt Ã  vous z'y r'mettre.~ ~Ouais, pas d'souci, princesse. J'patiente ici jusqu'Ã  c'que vous soyez prÃªte Ã  vous z'y r'mettre.~
+@105 = ~HÃ© bin, on dirait qu'vous zavez pas assez d'or pour couvrir ma part du butin. Ya pÃ´ d'souci, vous m'paierez quand vous s'rez plus Ã  court. Et au fait, vous voulez que j'patiente ici ou que j'retourne Ã  Brynnlaw avant qu'on r'fasse un casse ?~
+@106 = ~Z'avez pris un coup sur la tÃªte ou quoi ? Ou alors z'Ãªtes tarte Ã  bouffer des pieds d'chaise ? J'dis juste que z'avez l'air d'vous y connaÃ®t', mais est-c'que j'peux vraiment vous faire confiance ?~
 @107 = ~Vols de Nuit
 
-Je me suis associé à une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en Féérune) du nom de Wyrbrin Horton. Dès que je l'ai rencontrée, j'ai su que les instincts de cette petite-femme nous mèneraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repéré quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons décidé de cambrioler le temple de Lathandre. Wyrbrin s'attend à ce qu'au moins trois objets de valeur s'y trouvent, et que personne ne soit là pour les surveiller. Elle ne sait pas exactement quels sont ces objets, mais elle espère qu'ils vaudront assez cher pour le marché noir.~
+Je me suis associÃ© Ã  une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en FÃ©Ã©rune) du nom de Wyrbrin Horton. DÃ¨s que je l'ai rencontrÃ©e, j'ai su que les instincts de cette petite-femme nous mÃ¨neraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repÃ©rÃ© quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons dÃ©cidÃ© de cambrioler le temple de Lathandre. Wyrbrin s'attend Ã  ce qu'au moins trois objets de valeur s'y trouvent, et que personne ne soit lÃ  pour les surveiller. Elle ne sait pas exactement quels sont ces objets, mais elle espÃ¨re qu'ils vaudront assez cher pour le marchÃ© noir.~
 @108 = ~Vols de Nuit
 
-Je me suis associé à une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en Féérune) du nom de Wyrbrin Horton. Dès que je l'ai rencontrée, j'ai su que les instincts de cette petite-femme nous mèneraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repéré quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons décidé de cambrioler le repaire des esclavagistes. Wyrbrin pense qu'il n'y aura personne lorsque nous nous y introduirons. Elle ne sait pas quels objets nous pourrons y trouver, mais elle espère que nous les revendrons un bon prix au marché noir.~
+Je me suis associÃ© Ã  une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en FÃ©Ã©rune) du nom de Wyrbrin Horton. DÃ¨s que je l'ai rencontrÃ©e, j'ai su que les instincts de cette petite-femme nous mÃ¨neraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repÃ©rÃ© quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons dÃ©cidÃ© de cambrioler le repaire des esclavagistes. Wyrbrin pense qu'il n'y aura personne lorsque nous nous y introduirons. Elle ne sait pas quels objets nous pourrons y trouver, mais elle espÃ¨re que nous les revendrons un bon prix au marchÃ© noir.~
 @109 = ~Vols de Nuit
 
-Je me suis associé à une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en Féérune) du nom de Wyrbrin Horton. Dès que je l'ai rencontrée, j'ai su que les instincts de cette petite-femme nous mèneraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repéré quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons décidé de cambrioler le bâtiment administratif du district du gouvernement. Wyrbrin pense qu'il sera désert de nuit. Je devrai tout de même me montrer discret si je veux récupérer les objets d'art qui s'y trouvent.~
+Je me suis associÃ© Ã  une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en FÃ©Ã©rune) du nom de Wyrbrin Horton. DÃ¨s que je l'ai rencontrÃ©e, j'ai su que les instincts de cette petite-femme nous mÃ¨neraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repÃ©rÃ© quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons dÃ©cidÃ© de cambrioler le bÃ¢timent administratif du district du gouvernement. Wyrbrin pense qu'il sera dÃ©sert de nuit. Je devrai tout de mÃªme me montrer discret si je veux rÃ©cupÃ©rer les objets d'art qui s'y trouvent.~
 @110 = ~Vols de Nuit
 
-Je me suis associé à une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en Féérune) du nom de Wyrbrin Horton. Dès que je l'ai rencontrée, j'ai su que les instincts de cette petite-femme nous mèneraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repéré quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons décidé de cambrioler le quartier général des Ménestrels, qui se trouve dans les docks de la ville. Horton m'a assuré qu'il y a là-bas plusieurs objets de valeur à revendre au marché noir. Elle ne sait pas exactement quels objets s'y trouvent, mais elle est persuadée qu'ils valent très chers.~
+Je me suis associÃ© Ã  une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en FÃ©Ã©rune) du nom de Wyrbrin Horton. DÃ¨s que je l'ai rencontrÃ©e, j'ai su que les instincts de cette petite-femme nous mÃ¨neraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repÃ©rÃ© quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons dÃ©cidÃ© de cambrioler le quartier gÃ©nÃ©ral des MÃ©nestrels, qui se trouve dans les docks de la ville. Horton m'a assurÃ© qu'il y a lÃ -bas plusieurs objets de valeur Ã  revendre au marchÃ© noir. Elle ne sait pas exactement quels objets s'y trouvent, mais elle est persuadÃ©e qu'ils valent trÃ¨s chers.~
 @111 = ~Vols de Nuit
 
-Horton faisant le guet pour moi, j'ai cambriolé le temple de Lathandre sans réveiller personne. J'ai pu récupérer un symbole sacré de Lathandre, une statue à l'effigie du dieu ainsi qu'une paire de bracelets sacrés. J'ai donné à Wyrbrin sa part du butin, ce qui correspond à 10 000 pièces d'or. Nous pourrons peut-être cambrioler une autre cible. Pour ce faire, je devrai aller retrouver Horton dans les bas-quartiers d'Athkatla.~
+Horton faisant le guet pour moi, j'ai cambriolÃ© le temple de Lathandre sans rÃ©veiller personne. J'ai pu rÃ©cupÃ©rer un symbole sacrÃ© de Lathandre, une statue Ã  l'effigie du dieu ainsi qu'une paire de bracelets sacrÃ©s. J'ai donnÃ© Ã  Wyrbrin sa part du butin, ce qui correspond Ã  10 000 piÃ¨ces d'or. Nous pourrons peut-Ãªtre cambrioler une autre cible. Pour ce faire, je devrai aller retrouver Horton dans les bas-quartiers d'Athkatla.~
 @112 = ~Vols de Nuit
 
-Avec l'aide d'Horton surveillant mes arrières, je me suis introduit dans le repaire des esclavagistes sans que personne ne me voie. La chasse a été fructueuse, car j'ai pu voler quelques pièces d'or et cinq objets de valeur (une dague d'argent et une capuche de voleur entre autres). J'ai donné à Wyrbrin sa part du butin, ce qui correspond à 21 600 pièces d'or.~
+Avec l'aide d'Horton surveillant mes arriÃ¨res, je me suis introduit dans le repaire des esclavagistes sans que personne ne me voie. La chasse a Ã©tÃ© fructueuse, car j'ai pu voler quelques piÃ¨ces d'or et cinq objets de valeur (une dague d'argent et une capuche de voleur entre autres). J'ai donnÃ© Ã  Wyrbrin sa part du butin, ce qui correspond Ã  21 600 piÃ¨ces d'or.~
 @113 = ~Vols de Nuit
 
-J'ai cambriolé avec succès le bâtiment administratif d'Athkatla avec l'aide d'Horton. J'ai pu récupérer deux oeuvres d'art d'une très grande valeur : une statuette de Mystra et une statuette de Dragon. J'ai donné à Wyrbrin sa part du butin, ce qui correspond à 320 000 pièces d'or.~
+J'ai cambriolÃ© avec succÃ¨s le bÃ¢timent administratif d'Athkatla avec l'aide d'Horton. J'ai pu rÃ©cupÃ©rer deux oeuvres d'art d'une trÃ¨s grande valeur : une statuette de Mystra et une statuette de Dragon. J'ai donnÃ© Ã  Wyrbrin sa part du butin, ce qui correspond Ã  320 000 piÃ¨ces d'or.~
 @114 = ~Vols de Nuit
 
-Je me suis "invité" au quartier général des Ménestrels, et j'ai réussi à leur voler quelques objets magiques : une harpe, un sablier, une lame de lune et une étoile du matin. J'ai donné à Wyrbrin sa part du butin, ce qui correspond à 136 000 pièces d'or.~
+Je me suis "invitÃ©" au quartier gÃ©nÃ©ral des MÃ©nestrels, et j'ai rÃ©ussi Ã  leur voler quelques objets magiques : une harpe, un sablier, une lame de lune et une Ã©toile du matin. J'ai donnÃ© Ã  Wyrbrin sa part du butin, ce qui correspond Ã  136 000 piÃ¨ces d'or.~
 @115 = ~Vols de Nuit
 
-Je me suis associé à une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en Féérune) du nom de Wyrbrin Horton. Dès que je l'ai rencontrée, j'ai su que les instincts de cette petite-femme nous mèneraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repéré quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons décidé de cambrioler l'Ordre du Coeur Radieux. Wyrbrin pense qu'il n'y aura personne. Je pourrai donc m'y introduire et voler tout ce qu'il y aura pour ensuite le revendre au marché noir. Horton ne sait pas exactement ce que je pourrai y trouver.~
+Je me suis associÃ© Ã  une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en FÃ©Ã©rune) du nom de Wyrbrin Horton. DÃ¨s que je l'ai rencontrÃ©e, j'ai su que les instincts de cette petite-femme nous mÃ¨neraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repÃ©rÃ© quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons dÃ©cidÃ© de cambrioler l'Ordre du Coeur Radieux. Wyrbrin pense qu'il n'y aura personne. Je pourrai donc m'y introduire et voler tout ce qu'il y aura pour ensuite le revendre au marchÃ© noir. Horton ne sait pas exactement ce que je pourrai y trouver.~
 @116 = ~Vols de Nuit
 
-Je me suis introduit au quartier général de l'Ordre du Coeur Radieux, mais je n'ai pu voler qu'un calice. J'ai donné à Wyrbrin sa part du butin, ce qui correspond à 4800 pièces d'or.~
+Je me suis introduit au quartier gÃ©nÃ©ral de l'Ordre du Coeur Radieux, mais je n'ai pu voler qu'un calice. J'ai donnÃ© Ã  Wyrbrin sa part du butin, ce qui correspond Ã  4800 piÃ¨ces d'or.~
 @117 = ~Vols de Nuit
 
-Je me suis associé à une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en Féérune) du nom de Wyrbrin Horton. Dès que je l'ai rencontrée, j'ai su que les instincts de cette petite-femme nous mèneraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repéré quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons décidé de fouiller les tombes du cimetière d'Athkatla. Elle ne sait pas vraiment quels objets pourraient s'y trouver, mais il pourrait y avoir du grabuge avec tous ces cadavres dans le coin. Je devrai peut-être me trouver un bon équipement avant d'y aller.~
+Je me suis associÃ© Ã  une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en FÃ©Ã©rune) du nom de Wyrbrin Horton. DÃ¨s que je l'ai rencontrÃ©e, j'ai su que les instincts de cette petite-femme nous mÃ¨neraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repÃ©rÃ© quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons dÃ©cidÃ© de fouiller les tombes du cimetiÃ¨re d'Athkatla. Elle ne sait pas vraiment quels objets pourraient s'y trouver, mais il pourrait y avoir du grabuge avec tous ces cadavres dans le coin. Je devrai peut-Ãªtre me trouver un bon Ã©quipement avant d'y aller.~
 @118 = ~Vols de Nuit
 
-J'ai fouillé beaucoup de cryptes, ce soir, mais n'ai pu trouver que quelques armes et une armure. Ce n'était pas aussi lucratif que je l'avais espéré. J'ai donné à Wyrbrin sa part du butin, ce qui correspond à 3200 pièces d'or.~
+J'ai fouillÃ© beaucoup de cryptes, ce soir, mais n'ai pu trouver que quelques armes et une armure. Ce n'Ã©tait pas aussi lucratif que je l'avais espÃ©rÃ©. J'ai donnÃ© Ã  Wyrbrin sa part du butin, ce qui correspond Ã  3200 piÃ¨ces d'or.~
 @119 = ~Vols de Nuit
 
-Je me suis associé à une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en Féérune) du nom de Wyrbrin Horton. Dès que je l'ai rencontrée, j'ai su que les instincts de cette petite-femme nous mèneraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repéré quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons décidé de cambrioler le domaine d'un noble de la ville, Lord Jysstev. Wyrbrin m'a assuré que Jysstev et sa femme dormiraient. Il faudra que je prenne garde à ne pas les réveiller lorsque je volerai leurs objets de valeur chez eux, objets que je pourrai revendre au marché noir.~
+Je me suis associÃ© Ã  une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en FÃ©Ã©rune) du nom de Wyrbrin Horton. DÃ¨s que je l'ai rencontrÃ©e, j'ai su que les instincts de cette petite-femme nous mÃ¨neraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repÃ©rÃ© quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons dÃ©cidÃ© de cambrioler le domaine d'un noble de la ville, Lord Jysstev. Wyrbrin m'a assurÃ© que Jysstev et sa femme dormiraient. Il faudra que je prenne garde Ã  ne pas les rÃ©veiller lorsque je volerai leurs objets de valeur chez eux, objets que je pourrai revendre au marchÃ© noir.~
 @120 = ~Vols de Nuit
 
-Jysstev et sa femme, deux nobles d'Amn, vont se réveiller beaucoup plus pauvres que la veille, on dirait. Je leur ai volé une robe des Mages Cagoulés ainsi qu'une idole pendant que Wyrbrin Horton faisait le guet. J'ai donné à Wyrbrin sa part du butin, ce qui correspond à 30 000 pièces d'or.~
+Jysstev et sa femme, deux nobles d'Amn, vont se rÃ©veiller beaucoup plus pauvres que la veille, on dirait. Je leur ai volÃ© une robe des Mages CagoulÃ©s ainsi qu'une idole pendant que Wyrbrin Horton faisait le guet. J'ai donnÃ© Ã  Wyrbrin sa part du butin, ce qui correspond Ã  30 000 piÃ¨ces d'or.~
 @121 = ~Vols de Nuit
 
-Je me suis associé à une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en Féérune) du nom de Wyrbrin Horton. Dès que je l'ai rencontrée, j'ai su que les instincts de cette petite-femme nous mèneraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repéré quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons décidé de cambrioler le temple de Lathandre. Wyrbrin s'attend à ce qu'au moins trois objets de valeur s'y trouvent, et que personne ne soit là pour les surveiller. Elle ne sait pas exactement quels sont ces objets, mais elle espère qu'ils vaudront assez cher pour le marché noir.~
+Je me suis associÃ© Ã  une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en FÃ©Ã©rune) du nom de Wyrbrin Horton. DÃ¨s que je l'ai rencontrÃ©e, j'ai su que les instincts de cette petite-femme nous mÃ¨neraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repÃ©rÃ© quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons dÃ©cidÃ© de cambrioler le temple de Lathandre. Wyrbrin s'attend Ã  ce qu'au moins trois objets de valeur s'y trouvent, et que personne ne soit lÃ  pour les surveiller. Elle ne sait pas exactement quels sont ces objets, mais elle espÃ¨re qu'ils vaudront assez cher pour le marchÃ© noir.~
 @122 = ~Vols de Nuit
 
-Je me suis associé à une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en Féérune) du nom de Wyrbrin Horton. Dès que je l'ai rencontrée, j'ai su que les instincts de cette petite-femme nous mèneraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repéré quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons décidé de cambrioler le repaire des esclavagistes. Wyrbrin pense qu'il n'y aura personne lorsque nous nous y introduirons. Elle ne sait pas quels objets nous pourrons y trouver, mais elle espère que nous les revendrons un bon prix au marché noir.~
+Je me suis associÃ© Ã  une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en FÃ©Ã©rune) du nom de Wyrbrin Horton. DÃ¨s que je l'ai rencontrÃ©e, j'ai su que les instincts de cette petite-femme nous mÃ¨neraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repÃ©rÃ© quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons dÃ©cidÃ© de cambrioler le repaire des esclavagistes. Wyrbrin pense qu'il n'y aura personne lorsque nous nous y introduirons. Elle ne sait pas quels objets nous pourrons y trouver, mais elle espÃ¨re que nous les revendrons un bon prix au marchÃ© noir.~
 @123 = ~Vols de Nuit
 
-Je me suis associé à une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en Féérune) du nom de Wyrbrin Horton. Dès que je l'ai rencontrée, j'ai su que les instincts de cette petite-femme nous mèneraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repéré quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons décidé de cambrioler le bâtiment administratif du district du gouvernement. Wyrbrin pense qu'il sera désert de nuit. Je devrai tout de même me montrer discret si je veux récupérer les objets d'art qui s'y trouvent.~
+Je me suis associÃ© Ã  une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en FÃ©Ã©rune) du nom de Wyrbrin Horton. DÃ¨s que je l'ai rencontrÃ©e, j'ai su que les instincts de cette petite-femme nous mÃ¨neraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repÃ©rÃ© quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons dÃ©cidÃ© de cambrioler le bÃ¢timent administratif du district du gouvernement. Wyrbrin pense qu'il sera dÃ©sert de nuit. Je devrai tout de mÃªme me montrer discret si je veux rÃ©cupÃ©rer les objets d'art qui s'y trouvent.~
 @124 = ~Vols de Nuit
 
-Je me suis associé à une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en Féérune) du nom de Wyrbrin Horton. Dès que je l'ai rencontrée, j'ai su que les instincts de cette petite-femme nous mèneraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repéré quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons décidé de cambrioler le quartier général des Ménestrels, qui se trouve dans les docks de la ville. Horton m'a assuré qu'il y a là-bas plusieurs objets de valeur à revendre au marché noir. Elle ne sait pas exactement quels objets s'y trouvent, mais elle est persuadée qu'ils valent très chers.~
+Je me suis associÃ© Ã  une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en FÃ©Ã©rune) du nom de Wyrbrin Horton. DÃ¨s que je l'ai rencontrÃ©e, j'ai su que les instincts de cette petite-femme nous mÃ¨neraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repÃ©rÃ© quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons dÃ©cidÃ© de cambrioler le quartier gÃ©nÃ©ral des MÃ©nestrels, qui se trouve dans les docks de la ville. Horton m'a assurÃ© qu'il y a lÃ -bas plusieurs objets de valeur Ã  revendre au marchÃ© noir. Elle ne sait pas exactement quels objets s'y trouvent, mais elle est persuadÃ©e qu'ils valent trÃ¨s chers.~
 @125 = ~Vols de Nuit
 
-Je me suis associé à une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en Féérune) du nom de Wyrbrin Horton. Dès que je l'ai rencontrée, j'ai su que les instincts de cette petite-femme nous mèneraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repéré quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons décidé de cambrioler l'Ordre du Coeur Radieux. Wyrbrin pense qu'il n'y aura personne. Je pourrai donc m'y introduire et voler tout ce qu'il y aura pour ensuite le revendre au marché noir. Horton ne sait pas exactement ce que je pourrai y trouver.~
+Je me suis associÃ© Ã  une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en FÃ©Ã©rune) du nom de Wyrbrin Horton. DÃ¨s que je l'ai rencontrÃ©e, j'ai su que les instincts de cette petite-femme nous mÃ¨neraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repÃ©rÃ© quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons dÃ©cidÃ© de cambrioler l'Ordre du Coeur Radieux. Wyrbrin pense qu'il n'y aura personne. Je pourrai donc m'y introduire et voler tout ce qu'il y aura pour ensuite le revendre au marchÃ© noir. Horton ne sait pas exactement ce que je pourrai y trouver.~
 @127 = ~Vols de Nuit
 
-Je me suis associé à une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en Féérune) du nom de Wyrbrin Horton. Dès que je l'ai rencontrée, j'ai su que les instincts de cette petite-femme nous mèneraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repéré quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons décidé de fouiller les tombes du cimetière d'Athkatla. Elle ne sait pas vraiment quels objets pourraient s'y trouver, mais il pourrait y avoir du grabuge avec tous ces cadavres dans le coin. Je devrai peut-être me trouver un bon équipement avant d'y aller.~
+Je me suis associÃ© Ã  une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en FÃ©Ã©rune) du nom de Wyrbrin Horton. DÃ¨s que je l'ai rencontrÃ©e, j'ai su que les instincts de cette petite-femme nous mÃ¨neraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repÃ©rÃ© quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons dÃ©cidÃ© de fouiller les tombes du cimetiÃ¨re d'Athkatla. Elle ne sait pas vraiment quels objets pourraient s'y trouver, mais il pourrait y avoir du grabuge avec tous ces cadavres dans le coin. Je devrai peut-Ãªtre me trouver un bon Ã©quipement avant d'y aller.~
 @128 = ~Vols de Nuit
 
-Je me suis associé à une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en Féérune) du nom de Wyrbrin Horton. Dès que je l'ai rencontrée, j'ai su que les instincts de cette petite-femme nous mèneraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repéré quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons décidé de cambrioler le domaine d'un noble de la ville, Lord Jysstev. Wyrbrin m'a assuré que Jysstev et sa femme dormiraient. Il faudra que je prenne garde à ne pas les réveiller lorsque je volerai leurs objets de valeur chez eux, objets que je pourrai revendre au marché noir.~
+Je me suis associÃ© Ã  une cambrioleuse halfeline (on dirait qu'il n'y a pas un halfelin qui ne soit pas un peu voleur en FÃ©Ã©rune) du nom de Wyrbrin Horton. DÃ¨s que je l'ai rencontrÃ©e, j'ai su que les instincts de cette petite-femme nous mÃ¨neraient vers la richesse. Cette cambrioleuse d'exception m'a dit avoir repÃ©rÃ© quelques endroits en Athkatla qui pourraient rapporter gros si on les cambriolait. Parmi les cibles qu'elle avait en vue, nous avons dÃ©cidÃ© de cambrioler le domaine d'un noble de la ville, Lord Jysstev. Wyrbrin m'a assurÃ© que Jysstev et sa femme dormiraient. Il faudra que je prenne garde Ã  ne pas les rÃ©veiller lorsque je volerai leurs objets de valeur chez eux, objets que je pourrai revendre au marchÃ© noir.~
 @129 = ~Vols de Nuit
 
-Horton faisant le guet pour moi, j'ai cambriolé le temple de Lathandre sans réveiller personne. J'ai pu récupérer un symbole sacré de Lathandre, une statue à l'effigie du dieu ainsi qu'une paire de bracelets sacrés. Je peux garder les objets pour moi si je veux, mais je dois donner à Horton sa part du butin, c'est-à-dire 10 000 pièces d'or. Nous pourrons peut-être cambrioler une autre de ses cibles un peu plus tard.~
+Horton faisant le guet pour moi, j'ai cambriolÃ© le temple de Lathandre sans rÃ©veiller personne. J'ai pu rÃ©cupÃ©rer un symbole sacrÃ© de Lathandre, une statue Ã  l'effigie du dieu ainsi qu'une paire de bracelets sacrÃ©s. Je peux garder les objets pour moi si je veux, mais je dois donner Ã  Horton sa part du butin, c'est-Ã -dire 10 000 piÃ¨ces d'or. Nous pourrons peut-Ãªtre cambrioler une autre de ses cibles un peu plus tard.~
 @130 = ~Vols de Nuit
 
-Avec l'aide d' Horton surveillant mes arrières, je me suis introduit dans le repaire des esclavagistes sans que personne ne me voie. La chasse a été fructueuse, car j'ai pu voler quelques pièces d'or et cinq objets de valeur (une dague d'argent et une capuche de voleur entre autres). Une fois que j'aurais suffisamment en liquide, je donnerai sa part du butin à Horton, qui s'élève à 21 600 pièces d'or. Je garderai le reste pour moi.~
+Avec l'aide d' Horton surveillant mes arriÃ¨res, je me suis introduit dans le repaire des esclavagistes sans que personne ne me voie. La chasse a Ã©tÃ© fructueuse, car j'ai pu voler quelques piÃ¨ces d'or et cinq objets de valeur (une dague d'argent et une capuche de voleur entre autres). Une fois que j'aurais suffisamment en liquide, je donnerai sa part du butin Ã  Horton, qui s'Ã©lÃ¨ve Ã  21 600 piÃ¨ces d'or. Je garderai le reste pour moi.~
 @131 = ~Vols de Nuit
 
-J'ai cambriolé avec succès le bâtiment administratif d'Athkatla avec l'aide d'Horton. J'ai pu récupérer deux oeuvres d'art d'une très grande valeur : une statuette de Mystra et une statuette de Dragon. La part du butin de Wyrbrin s'élèvera à 320 000 pièces d'or.~
+J'ai cambriolÃ© avec succÃ¨s le bÃ¢timent administratif d'Athkatla avec l'aide d'Horton. J'ai pu rÃ©cupÃ©rer deux oeuvres d'art d'une trÃ¨s grande valeur : une statuette de Mystra et une statuette de Dragon. La part du butin de Wyrbrin s'Ã©lÃ¨vera Ã  320 000 piÃ¨ces d'or.~
 @132 = ~Vols de Nuit
 
-Je me suis introduit au quartier général de l'Ordre du Coeur Radieux, mais je n'ai pu voler qu'un calice. Je devrai donner 4800 pièces d'or à Horton, ce qui correspond à sa part du butin.~
+Je me suis introduit au quartier gÃ©nÃ©ral de l'Ordre du Coeur Radieux, mais je n'ai pu voler qu'un calice. Je devrai donner 4800 piÃ¨ces d'or Ã  Horton, ce qui correspond Ã  sa part du butin.~
 @133 = ~Vols de Nuit
 
-Je me suis "invité" au quartier général des Ménestrels, et j'ai réussi à leur voler quelques objets magiques : une harpe, un sablier, une lame de lune et une étoile du matin. Une fois que j'aurais vendu ces objets au marché noir, je donnerai sa part du butin à Horton, c'est-à-dire 136 000 pièces d'or.~
+Je me suis "invitÃ©" au quartier gÃ©nÃ©ral des MÃ©nestrels, et j'ai rÃ©ussi Ã  leur voler quelques objets magiques : une harpe, un sablier, une lame de lune et une Ã©toile du matin. Une fois que j'aurais vendu ces objets au marchÃ© noir, je donnerai sa part du butin Ã  Horton, c'est-Ã -dire 136 000 piÃ¨ces d'or.~
 @134 = ~Vols de Nuit
 
-J'ai fouillé beaucoup de cryptes, ce soir, mais n'ai pu trouver que quelques armes et une armure. Ce n'était pas aussi lucratif que je l'avais espéré. Il va tout de même falloir penser à donner à Wyrbrin 3200 pièces d'or correspondant à sa part du butin.~
+J'ai fouillÃ© beaucoup de cryptes, ce soir, mais n'ai pu trouver que quelques armes et une armure. Ce n'Ã©tait pas aussi lucratif que je l'avais espÃ©rÃ©. Il va tout de mÃªme falloir penser Ã  donner Ã  Wyrbrin 3200 piÃ¨ces d'or correspondant Ã  sa part du butin.~
 @135 = ~Vols de Nuit
 
-Jysstev et sa femme, deux nobles d'Amn, vont se réveiller beaucoup plus pauvres que la veille, on dirait. Je leur ai volé une robe des Mages Cagoulés ainsi qu'une idole pendant que Wyrbrin Horton faisait le guet. Wyrbrin prendra sa part du butin qui s'élève à 30 000 pièces d'or un peu plus tard.~
+Jysstev et sa femme, deux nobles d'Amn, vont se rÃ©veiller beaucoup plus pauvres que la veille, on dirait. Je leur ai volÃ© une robe des Mages CagoulÃ©s ainsi qu'une idole pendant que Wyrbrin Horton faisait le guet. Wyrbrin prendra sa part du butin qui s'Ã©lÃ¨ve Ã  30 000 piÃ¨ces d'or un peu plus tard.~
 @136 = ~Vols de Nuit
 
-J'ai cambriolé l'une des cibles qu'Horton m'avait indiquées. Elle est repartie aux bas-quartiers une fois notre affaire terminée. Je ferais mieux de rester hors du champ de vision des gardes, et d'aller la retrouver là-bas.~
+J'ai cambriolÃ© l'une des cibles qu'Horton m'avait indiquÃ©es. Elle est repartie aux bas-quartiers une fois notre affaire terminÃ©e. Je ferais mieux de rester hors du champ de vision des gardes, et d'aller la retrouver lÃ -bas.~

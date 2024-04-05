@@ -1,47 +1,47 @@
-@1  = ~Faites attention où vous mettez les pieds, dans ces bois.~
-@2  = ~Manny est mon disciple et apprend les voies de la nature : les grandes plaines et les forêts.~
-@3  = ~Oui, pardonne-moi. Je tâcherai de m'en souvenir à l'avenir.~
+@1  = ~Faites attention oÃ¹ vous mettez les pieds, dans ces bois.~
+@2  = ~Manny est mon disciple et apprend les voies de la nature : les grandes plaines et les forÃªts.~
+@3  = ~Oui, pardonne-moi. Je tÃ¢cherai de m'en souvenir Ã  l'avenir.~
 @4  = ~Non, Tardeth. Nous ne pouvons mettre des innocents en danger.~
 @5  = ~Je ne suis pas innocent, Druide.~ ~Je ne suis pas innocente, Druide.~
 @6  = ~Je sais prendre soin de moi, mon bon Druide.~
-@7  = ~Ce n'est pas le cas, Druide. Je fais ceci de ma propre volonté.~
-@8  = ~Manfred et moi sommes presque prêts, Tardeth. Dès que tu le souhaiteras, nous pourrons y aller.~
-@9  = ~Pardonnez-moi. Je suis trop occupé à instruire le jeune Manfred pour vous parler maintenant. Demandez donc à Tardeth si vous avez besoin de quelque-chose.~
+@7  = ~Ce n'est pas le cas, Druide. Je fais ceci de ma propre volontÃ©.~
+@8  = ~Manfred et moi sommes presque prÃªts, Tardeth. DÃ¨s que tu le souhaiteras, nous pourrons y aller.~
+@9  = ~Pardonnez-moi. Je suis trop occupÃ© Ã  instruire le jeune Manfred pour vous parler maintenant. Demandez donc Ã  Tardeth si vous avez besoin de quelque-chose.~
 @10 = ~Excusez-moi. Ah, Sylvanus ! Tu es ici. Puis-je te parler un moment ?~
-@11 = ~J'avais l'espoir que tu pourrais peut-être partager une partie de ton savoir elfique avec Manny. Nous discutions des différences entre croissances naturelle et artificielle, telle que la pousse des plantes grâce aux sorts Enchevêtrement ou Croissance d'Epines. Il me signalait que de nombreuses créatures et espèces ne peuvent grandir de manière non-naturelle. Ceci est vrai, mais je ne comprends pas bien les raisons qui en sont la cause. Peut-être as-tu quelques connaissances sur ce processus ?~
-@12 = ~Quelle que soit la raison, Manfred, le fait est que certaines plantes et certains animaux ne peuvent être altérés par des voies non-naturelles.~
-@13 = ~La Forêt nous entoure. Sentez-la. Ressentez son souffle. Comprenez qu'elle est vivante.~
+@11 = ~J'avais l'espoir que tu pourrais peut-Ãªtre partager une partie de ton savoir elfique avec Manny. Nous discutions des diffÃ©rences entre croissances naturelle et artificielle, telle que la pousse des plantes grÃ¢ce aux sorts EnchevÃªtrement ou Croissance d'Epines. Il me signalait que de nombreuses crÃ©atures et espÃ¨ces ne peuvent grandir de maniÃ¨re non-naturelle. Ceci est vrai, mais je ne comprends pas bien les raisons qui en sont la cause. Peut-Ãªtre as-tu quelques connaissances sur ce processus ?~
+@12 = ~Quelle que soit la raison, Manfred, le fait est que certaines plantes et certains animaux ne peuvent Ãªtre altÃ©rÃ©s par des voies non-naturelles.~
+@13 = ~La ForÃªt nous entoure. Sentez-la. Ressentez son souffle. Comprenez qu'elle est vivante.~
 @14 = ~La nature peut se soigner seule, mais elle a besoin de temps.~
-@15 = ~Et une fois encore, tu n'as pas prêté attention à mes conseils. Regarde, tu laisses encore des empreintes de pas dans la terre meuble.~
-@16 = ~J'ai vu bien des choses étranges dans la forêt de Téthyr, mais jamais je n'ai connu tant de maléfices à l'oeuvre en même temps.~
-@17 = ~Je trouve inquiétant ce qui arrive aux Elfes, d'autant plus si les rumeurs de guerre dans le sud s'avèrent exactes.~
-@18 = ~Déplacez-vous dans la forêt avec précaution. Voyez ces bourgeons : ils sont jeunes, mais ils deviendront un jour des arbres forts et vigoureux qui prendront la place de ceux qui se tiennent aujourd'hui debout. Mais vous connaissez le cycle de la nature, n'est-ce pas ?~
+@15 = ~Et une fois encore, tu n'as pas prÃªtÃ© attention Ã  mes conseils. Regarde, tu laisses encore des empreintes de pas dans la terre meuble.~
+@16 = ~J'ai vu bien des choses Ã©tranges dans la forÃªt de TÃ©thyr, mais jamais je n'ai connu tant de malÃ©fices Ã  l'oeuvre en mÃªme temps.~
+@17 = ~Je trouve inquiÃ©tant ce qui arrive aux Elfes, d'autant plus si les rumeurs de guerre dans le sud s'avÃ¨rent exactes.~
+@18 = ~DÃ©placez-vous dans la forÃªt avec prÃ©caution. Voyez ces bourgeons : ils sont jeunes, mais ils deviendront un jour des arbres forts et vigoureux qui prendront la place de ceux qui se tiennent aujourd'hui debout. Mais vous connaissez le cycle de la nature, n'est-ce pas ?~
 @19 = ~Euh... oui. Ces jeunes pousses ont l'air saines.~
 @20 = ~Qu'elles semblent saines ou pas n'a aucune importance. Souvenez-vous que ces jeunes pousses peuvent devenir les plus imposants des arbres.~
-@21 = ~Déplacez-vous dans la forêt avec précaution. Voyez ces bourgeons : ils sont jeunes mais ils deviendront un jour des arbres forts et vigoureux qui prendront la place de ceux qui se tiennent aujourd'hui debout. Vous feriez bien de prêter plus d'attention à la nature.~
+@21 = ~DÃ©placez-vous dans la forÃªt avec prÃ©caution. Voyez ces bourgeons : ils sont jeunes mais ils deviendront un jour des arbres forts et vigoureux qui prendront la place de ceux qui se tiennent aujourd'hui debout. Vous feriez bien de prÃªter plus d'attention Ã  la nature.~
 @22 = ~Je n'ai pas le temps de regarder l'herbe pousser.~
-@23 = ~Que je ne sois pas un druide n'implique pas que je n'apprécie pas la nature.~
-@24 = ~Je dois vous dire que j'ai été druide à une époque.~
-@25 = ~Nous devrions tous y prêter attention. Ou un jour, ces grandes terres seront ravagées pour construire des cités où seuls les rats et les mauvaises herbes pourront croître.~
-@26 = ~Oui, bien évidemment. Veuillez excuser mes présomptions.~
-@27 = ~Mais plus maintenant. Je pleure pour vous, mon ami désenchanté.~
-@28 = ~S'il y a quoi que ce soit que je puisse faire pour toi, Marilyn, tu n'as qu'à demander.~
+@23 = ~Que je ne sois pas un druide n'implique pas que je n'apprÃ©cie pas la nature.~
+@24 = ~Je dois vous dire que j'ai Ã©tÃ© druide Ã  une Ã©poque.~
+@25 = ~Nous devrions tous y prÃªter attention. Ou un jour, ces grandes terres seront ravagÃ©es pour construire des citÃ©s oÃ¹ seuls les rats et les mauvaises herbes pourront croÃ®tre.~
+@26 = ~Oui, bien Ã©videmment. Veuillez excuser mes prÃ©somptions.~
+@27 = ~Mais plus maintenant. Je pleure pour vous, mon ami dÃ©senchantÃ©.~
+@28 = ~S'il y a quoi que ce soit que je puisse faire pour toi, Marilyn, tu n'as qu'Ã  demander.~
 @29 = ~Ecoutez mes amis, Paddy a encore fait une plaisanterie, et nous devons rester conscients du fait qu'il ne s'agit que d'une plaisanterie.~
 @30 = ~Manfred, calme-toi.~
-@31 = ~Non, Manfred, nous te considérons tous comme un membre à part entière de la Compagnie.~
-@32 = ~Ne fais pas attention à elle, Manfred. Tout ce dont tu as besoin, c'est de prendre confiance en toi et en tes capacités.~
-@33 = ~En effet, Manfred. Le Bosquet est libéré des druides renégats depuis que <CHARNAME> a résolu ces problèmes.~
-@34 = ~Non, Lawantha. Manfred ne se joindra pas à toi. Tes intentions sont claires, et je ne te laisserai pas te servir de lui comme d'un pion.~
-@35 = ~Navré, Marilyn, mais je n'avais pas prévu d'utiliser un sort élémentaire. Je ne peux rien faire pour le moment.~
-@36 = ~Tout ce qui est bon en Féérune devrait se réjouir aujourd'hui, car cette forêt est désormais débarrassée du Culte du Dragon.~
-@37 = ~Au nom de toute la Compagnie, je souhaiterais vous remercier pour votre aide dans la disparition du Mal qui régnait ici.~
-@38 = ~Vous nous avez été d'une grande aide et je crains que, sans vous, nous n'eussions pu vaincre. Tenez, je vous donne ma baguette en gage de gratitude.~
-@39 = ~Servez-vous en avec fierté, <CHARNAME>. Bonne chance pour la suite de vos aventures. Peut-être nous reverrons-nous un jour.~
-@40 = ~En avant, Compagnie des Huit ! Nous devons maintenant quitter ces lieux et partir à la recherche de nouvelles aventures.~
+@31 = ~Non, Manfred, nous te considÃ©rons tous comme un membre Ã  part entiÃ¨re de la Compagnie.~
+@32 = ~Ne fais pas attention Ã  elle, Manfred. Tout ce dont tu as besoin, c'est de prendre confiance en toi et en tes capacitÃ©s.~
+@33 = ~En effet, Manfred. Le Bosquet est libÃ©rÃ© des druides renÃ©gats depuis que <CHARNAME> a rÃ©solu ces problÃ¨mes.~
+@34 = ~Non, Lawantha. Manfred ne se joindra pas Ã  toi. Tes intentions sont claires, et je ne te laisserai pas te servir de lui comme d'un pion.~
+@35 = ~NavrÃ©, Marilyn, mais je n'avais pas prÃ©vu d'utiliser un sort Ã©lÃ©mentaire. Je ne peux rien faire pour le moment.~
+@36 = ~Tout ce qui est bon en FÃ©Ã©rune devrait se rÃ©jouir aujourd'hui, car cette forÃªt est dÃ©sormais dÃ©barrassÃ©e du Culte du Dragon.~
+@37 = ~Au nom de toute la Compagnie, je souhaiterais vous remercier pour votre aide dans la disparition du Mal qui rÃ©gnait ici.~
+@38 = ~Vous nous avez Ã©tÃ© d'une grande aide et je crains que, sans vous, nous n'eussions pu vaincre. Tenez, je vous donne ma baguette en gage de gratitude.~
+@39 = ~Servez-vous en avec fiertÃ©, <CHARNAME>. Bonne chance pour la suite de vos aventures. Peut-Ãªtre nous reverrons-nous un jour.~
+@40 = ~En avant, Compagnie des Huit ! Nous devons maintenant quitter ces lieux et partir Ã  la recherche de nouvelles aventures.~
 @41 = ~La fameuse Compagnie des Huit
 
-J'ai passé ma dernière aventure à combattre aux côtés de la Compagnie des Huit contre une cellule du Culte du Dragon qui s'était établie dans un donjon abandonné sous la forêt du Téthyr. Toute la compagnie, Marilyn, Paddy, l'elfe Moondrop, Lawantha, les deux druides Manny et Arkaneus, et Tardeth, étaient des combattants aguerris, et nous avons réussi à vaincre le Culte. Je dois admettre que combattre avec une bande d'aventuriers de ce niveau était un vrai plaisir, et j'espère en avoir encore l'occasion dans le futur.~
+J'ai passÃ© ma derniÃ¨re aventure Ã  combattre aux cÃ´tÃ©s de la Compagnie des Huit contre une cellule du Culte du Dragon qui s'Ã©tait Ã©tablie dans un donjon abandonnÃ© sous la forÃªt du TÃ©thyr. Toute la compagnie, Marilyn, Paddy, l'elfe Moondrop, Lawantha, les deux druides Manny et Arkaneus, et Tardeth, Ã©taient des combattants aguerris, et nous avons rÃ©ussi Ã  vaincre le Culte. Je dois admettre que combattre avec une bande d'aventuriers de ce niveau Ã©tait un vrai plaisir, et j'espÃ¨re en avoir encore l'occasion dans le futur.~
 @42 = ~La fameuse Compagnie des Huit
 
-J'ai finalement rencontré la Compagnie des Huit dont j'ai si souvent entendu parler. Ce groupe d'aventuriers légendaires du Téthyr est tombé sur une forteresse utilisée par le Culte du Dragon. Ils m’ont proposé de les aider à se débarrasser du Culte. Leur chef, Tardeth, m'a demandé de lui parler lorsque je serai prêt à commencer cette quête.
-J'espère que lorsque je serai prêt, partir à l'aventure et me battre avec la compagnie des Huit sera à la hauteur de mes talents.~
+J'ai finalement rencontrÃ© la Compagnie des Huit dont j'ai si souvent entendu parler. Ce groupe d'aventuriers lÃ©gendaires du TÃ©thyr est tombÃ© sur une forteresse utilisÃ©e par le Culte du Dragon. Ils mâ€™ont proposÃ© de les aider Ã  se dÃ©barrasser du Culte. Leur chef, Tardeth, m'a demandÃ© de lui parler lorsque je serai prÃªt Ã  commencer cette quÃªte.
+J'espÃ¨re que lorsque je serai prÃªt, partir Ã  l'aventure et me battre avec la compagnie des Huit sera Ã  la hauteur de mes talents.~

@@ -1,71 +1,71 @@
 @1   = ~Non ho ancora completato la mia formazione presso L'Arcidruida, Fratello Druido. Forse dovresti parlare con lei.~
-@2   = ~L'Arcidruida è contenta dei tuoi risultati. Lei mi ha dato il permesso di fornirti ulteriori conoscenze delle arti druidiche.~
-@3   = ~Io lo farò, Fratello Druido, ma tu devi scegliere cosa vuoi imparare. Preferisci di più riuscire a memorizzare degli incantesimi aggiuntivi, vuoi imparare a lanciare più velocemente gli incantesimi, oppure desideri ottenere l'abilità di trasformarti in pantera o leopardo?~
+@2   = ~L'Arcidruida Ã¨ contenta dei tuoi risultati. Lei mi ha dato il permesso di fornirti ulteriori conoscenze delle arti druidiche.~
+@3   = ~Io lo farÃ², Fratello Druido, ma tu devi scegliere cosa vuoi imparare. Preferisci di piÃ¹ riuscire a memorizzare degli incantesimi aggiuntivi, vuoi imparare a lanciare piÃ¹ velocemente gli incantesimi, oppure desideri ottenere l'abilitÃ  di trasformarti in pantera o leopardo?~
 @4   = ~Mi piacerebbe imparare a memorizzare un incantesimo aggiuntivo per livello.~
-@5   = ~Credo che mi piacerebbe imparare a lanciare incantesimi più velocemente.~
+@5   = ~Credo che mi piacerebbe imparare a lanciare incantesimi piÃ¹ velocemente.~
 @6   = ~Credo che mi piacerebbe mutare forma in un grande felino.~
-@7   = ~Come vuoi, Fratello Druido, te lo insegnerò.~
-@8   = ~Fratello Druido, sei veloce ad apprendere, ora hai appreso l'abilità di lanciare più incantesimi al giorno. Tuttavia, ti rimane ancora altro da imparare.~
-@9   = ~Fatello Druido, impari velocemente, ora hai acquisito la possibilità di lanciare più velocemente gli incantesimi. Tuttavia, ti rimane ancora altro da imparare.~
-@10  = ~Fratello Druido, impari alla svelta, ora hai guadagnato l'abilità di mutare forma in un grande felino. La metà del tempo, quando tenterai la trasformazione, potrai prendere la forma di un leopardo, e l'altra metà quella di una pantera. Tuttavia, ti rimane ancora altro da imparare.~
-@11  = ~Hai fatto un buon lavoro, Fratello Druido, ed è stato un piacere aiutarti un pò. Ma ora, l'Arcidruida mi ha detto che dovrai passare un'altra prova. Sei pronto per il prossimo incarico?~
+@7   = ~Come vuoi, Fratello Druido, te lo insegnerÃ².~
+@8   = ~Fratello Druido, sei veloce ad apprendere, ora hai appreso l'abilitÃ  di lanciare piÃ¹ incantesimi al giorno. Tuttavia, ti rimane ancora altro da imparare.~
+@9   = ~Fatello Druido, impari velocemente, ora hai acquisito la possibilitÃ  di lanciare piÃ¹ velocemente gli incantesimi. Tuttavia, ti rimane ancora altro da imparare.~
+@10  = ~Fratello Druido, impari alla svelta, ora hai guadagnato l'abilitÃ  di mutare forma in un grande felino. La metÃ  del tempo, quando tenterai la trasformazione, potrai prendere la forma di un leopardo, e l'altra metÃ  quella di una pantera. Tuttavia, ti rimane ancora altro da imparare.~
+@11  = ~Hai fatto un buon lavoro, Fratello Druido, ed Ã¨ stato un piacere aiutarti un pÃ². Ma ora, l'Arcidruida mi ha detto che dovrai passare un'altra prova. Sei pronto per il prossimo incarico?~
 @12  = ~Si, Signora Elfa. Dimmi cosa devo fare.~
 @13  = ~No, Signora Elfa, ho bisogno di un altro po' di tempo.~
-@14  = ~Fratello Druido, senza mettere alla prova il tuo valore di druido, il tempo che passi su Faerûn è limitato solo ad un mediocre ruolo di druido. Preparati meglio che puoi, e ritorna quando sarai pronto.~
-@15  = ~Molto bene, compagno Druido. Ascolta attentamente, perché devi sapere un pò di cose prima di iniziare il tuo prossimo incarico.~
-@16  = ~C'è una presenza crescente che l'Arcidruida sente da un pò di mesi a questa parte. Non sa cos'é, ma sente che è malvagia.~
-@17  = ~Fratello Druido, l'Arcidruida teme per la regione se questa presenza dovesse diventare più potente. Non fa parte del nostro mondo, e bisogna impedirgli di potare distruzione su Faerûn.~
-@18  = ~Lei ti ha incaricato, Fratello Druido, di eliminare questa presenza con qualsiasi mezzo tu abbia a disposizione. Cerca l'appoggio di alleati, di amici potenti, puoi anche raccogliere vecchi artefatti potenti per mettere fine a questa minaccia. Ancora una volta la sicurezza di Faerûn dipende da te. Se riuscirai, ti arricchiremo con un altro insegnamento.~
+@14  = ~Fratello Druido, senza mettere alla prova il tuo valore di druido, il tempo che passi su FaerÃ»n Ã¨ limitato solo ad un mediocre ruolo di druido. Preparati meglio che puoi, e ritorna quando sarai pronto.~
+@15  = ~Molto bene, compagno Druido. Ascolta attentamente, perchÃ© devi sapere un pÃ² di cose prima di iniziare il tuo prossimo incarico.~
+@16  = ~C'Ã¨ una presenza crescente che l'Arcidruida sente da un pÃ² di mesi a questa parte. Non sa cos'Ã©, ma sente che Ã¨ malvagia.~
+@17  = ~Fratello Druido, l'Arcidruida teme per la regione se questa presenza dovesse diventare piÃ¹ potente. Non fa parte del nostro mondo, e bisogna impedirgli di potare distruzione su FaerÃ»n.~
+@18  = ~Lei ti ha incaricato, Fratello Druido, di eliminare questa presenza con qualsiasi mezzo tu abbia a disposizione. Cerca l'appoggio di alleati, di amici potenti, puoi anche raccogliere vecchi artefatti potenti per mettere fine a questa minaccia. Ancora una volta la sicurezza di FaerÃ»n dipende da te. Se riuscirai, ti arricchiremo con un altro insegnamento.~
 @19  = ~Dove posso trovare questa presenza, Druida?~
-@20  = ~Farò del mio meglio, Signora Elfa.~
-@21  = ~Signora Elfa, dubito che le mie abilità saranno sufficienti e porre fine ad una simile e terribile minaccia.~
-@22  = ~L'Arcidruida non sa esattamente dove si trovi, ma sente fortemente la sua presenza a sud di una città, un insediamento umano conosciuto come Athkatla.~
-@23  = ~Non importa a quale prezzo, Fratello Druido, il destino di tutti noi é nelle tue mani. Noi tre crediamo in te, l'Arcidruida crede in te, e coloro che non sanno nulla più di racconti sulle tue gesta crederebbero in te se sapessero del pericolo che li minaccia. Credi in te stesso, Fratello, ed avrai successo.~
-@24  = ~So che farai del tuo meglio. Sei tutto ciò in cui possiamo sperare. Buona fortuna, Fratello Druido. Ritorna quando la presenza non ci sarà più.~
+@20  = ~FarÃ² del mio meglio, Signora Elfa.~
+@21  = ~Signora Elfa, dubito che le mie abilitÃ  saranno sufficienti e porre fine ad una simile e terribile minaccia.~
+@22  = ~L'Arcidruida non sa esattamente dove si trovi, ma sente fortemente la sua presenza a sud di una cittÃ , un insediamento umano conosciuto come Athkatla.~
+@23  = ~Non importa a quale prezzo, Fratello Druido, il destino di tutti noi Ã© nelle tue mani. Noi tre crediamo in te, l'Arcidruida crede in te, e coloro che non sanno nulla piÃ¹ di racconti sulle tue gesta crederebbero in te se sapessero del pericolo che li minaccia. Credi in te stesso, Fratello, ed avrai successo.~
+@24  = ~So che farai del tuo meglio. Sei tutto ciÃ² in cui possiamo sperare. Buona fortuna, Fratello Druido. Ritorna quando la presenza non ci sarÃ  piÃ¹.~
 @25  = ~L'Arcidruida sente ancora la presenza malvagia nella regione. Lei sa che non hai ancora completato il tuo incarico.~
 @26  = ~Non riesco a trovare questa presenza. Sai dove si trovi?~
 @27  = ~Te l'ho detto, Fratello Druido, l'Arcidruida la sente ad Athkatla.~
-@28  = ~Non posso essere più precisa, ma l'Arcidruida dice che la presenza è concentrata nella parte ovest della città.~
-@29  = ~L'Arcidruide sente la presenza da qualche parte vicino ad uno specchio d'acqua. Forse un fiume? Lei non può dirlo con certezza.~
+@28  = ~Non posso essere piÃ¹ precisa, ma l'Arcidruida dice che la presenza Ã¨ concentrata nella parte ovest della cittÃ .~
+@29  = ~L'Arcidruide sente la presenza da qualche parte vicino ad uno specchio d'acqua. Forse un fiume? Lei non puÃ² dirlo con certezza.~
 @30  = ~La creatura malvagia dovrebbe trovarsi sotto la superficie, Fratello Druido. L'Arcidruida percepisce un odore misto a zolfo, sale, e del marciume.~
-@31  = ~Non posso essere più precisa, Fratello Druido. L'Arcidruida dice che la presenza malvagia è molto forte nella zona ad ovest di Athkatla, vicino a dell'acqua, sotto la superficie.~
-@32  = ~L'Arcidruida  non sente più la presenza malefica. L'hai distrutta?~
+@31  = ~Non posso essere piÃ¹ precisa, Fratello Druido. L'Arcidruida dice che la presenza malvagia Ã¨ molto forte nella zona ad ovest di Athkatla, vicino a dell'acqua, sotto la superficie.~
+@32  = ~L'Arcidruida  non sente piÃ¹ la presenza malefica. L'hai distrutta?~
 @33  = ~No, l'ho scacciata ma non distrutta.~
 @34  = ~Si, Grande Signora, l'ho distrutta, qualunque cosa era.~
-@35  = ~Allora è fatta, anche se non badando alle conseguenze. Tu hai fatto la cosa giusta, Fratello Druido, e ti sei portato sempre più vicino al momento in cui potrai sapere di più riguardo all'ordine naturale. Ora possiamo insegnarti un'altra abilità.~
+@35  = ~Allora Ã¨ fatta, anche se non badando alle conseguenze. Tu hai fatto la cosa giusta, Fratello Druido, e ti sei portato sempre piÃ¹ vicino al momento in cui potrai sapere di piÃ¹ riguardo all'ordine naturale. Ora possiamo insegnarti un'altra abilitÃ .~
 @36  = ~Vai, Fratello Druido, distruggi il male se puoi.~
 @37  = ~Non ho ancora completato la mia istruzione presso l'Arcidruida, <GABBER>, sono molto occupata e non posso interrompere le mie meditazioni.~
 @38  = ~Non ho ancora completato la mia formazione presso l'Arcidruida, Sorella Druida. Forse dovresti parlare con lei.~
-@39  = ~Io lo farò, Sorella Druida, ma tu devi scegliere cosa vuoi imparare. Preferisci di più riuscire a memorizzare degli incantesimi aggiuntivi, o vuoi imparare a lanciare più velocemente gli incantesimi, oppure desideri ottenere l'abilità di trasformarti in pantera o leopardo?~
-@40  = ~Come vuoi, Sorella Druida, te lo insegnerò.~
-@41  = ~Sorella Druida, sei veloce ad apprendere, ed hai appreso l'abilità di lanciare più incantesimi al giorno. Tuttavia, ti rimane ancora altro da imparare.~
-@42  = ~Sorella Druida, impari velocemente, hai acquisito la possibilità di lanciare più velocemente gli incantesimi. Tuttavia, ti rimane ancora altro da imparare.~
-@43  = ~Sorella Druida, impari alla svelta, hai guadagnato l'abilità di mutare forma in un grande felino. La metà del tempo, quando tenterai la trasformazione, potrai prendere la forma di un leopardo, e l'altra metà quella di una pantera. Tuttavia, ti rimane ancora altro da imparare.~
-@44  = ~Hai fatto un buon lavoro, Sorella Druida, ed è stato un piacere aiutarti un pò. Ma ora, l'Arcidruida mi ha detto che dovrai passare un'altra prova. Sei pronta per il prossimo incarico?~
-@45  = ~Sorella Druida, senza mettere alla prova il tuo valore di druida, il tempo che passi su Faerûn è limitato solo ad un mediocre ruolo di druida. Preparati meglio che puoi, e ritorna quando sarai pronta.~
-@46  = ~Sorella Druida, l'Arcidruida teme per la regione se questa presenza dovesse diventare più potente. Non fa parte del nostro mondo, e bisogna impedirgli di potare distruzione su Faerûn.~
-@47  = ~Lei ti ha incaricato, Sorella Druida, di eliminare questa presenza con qualsiasi mezzo tu abbia a disposizione. Cerca l'appoggio di alleati, di amici potenti, puoi anche raccogliere vecchi artefatti potenti per mettere fine a questa minaccia. Ancora una volta la sicurezza di Faerûn dipende da te.~
-@48  = ~Non importa a quale prezzo, Sorella Druida, il destino di tutti noi é nelle tue mani. Noi tre crediamo in te, l'Arcidruida crede in te, e coloro che non sanno nulla più di racconti sulle tue gesta crederebbero in te se sapessero del pericolo che li minaccia. Credi in te stessa, Sorella, ed avrai successo.~
-@49  = ~So che farai del tuo meglio. Sei tutto ciò in cui possiamo sperare. Buona fortuna, Sorella Druida. Ritorna quando la presenza non ci sarà più.~
+@39  = ~Io lo farÃ², Sorella Druida, ma tu devi scegliere cosa vuoi imparare. Preferisci di piÃ¹ riuscire a memorizzare degli incantesimi aggiuntivi, o vuoi imparare a lanciare piÃ¹ velocemente gli incantesimi, oppure desideri ottenere l'abilitÃ  di trasformarti in pantera o leopardo?~
+@40  = ~Come vuoi, Sorella Druida, te lo insegnerÃ².~
+@41  = ~Sorella Druida, sei veloce ad apprendere, ed hai appreso l'abilitÃ  di lanciare piÃ¹ incantesimi al giorno. Tuttavia, ti rimane ancora altro da imparare.~
+@42  = ~Sorella Druida, impari velocemente, hai acquisito la possibilitÃ  di lanciare piÃ¹ velocemente gli incantesimi. Tuttavia, ti rimane ancora altro da imparare.~
+@43  = ~Sorella Druida, impari alla svelta, hai guadagnato l'abilitÃ  di mutare forma in un grande felino. La metÃ  del tempo, quando tenterai la trasformazione, potrai prendere la forma di un leopardo, e l'altra metÃ  quella di una pantera. Tuttavia, ti rimane ancora altro da imparare.~
+@44  = ~Hai fatto un buon lavoro, Sorella Druida, ed Ã¨ stato un piacere aiutarti un pÃ². Ma ora, l'Arcidruida mi ha detto che dovrai passare un'altra prova. Sei pronta per il prossimo incarico?~
+@45  = ~Sorella Druida, senza mettere alla prova il tuo valore di druida, il tempo che passi su FaerÃ»n Ã¨ limitato solo ad un mediocre ruolo di druida. Preparati meglio che puoi, e ritorna quando sarai pronta.~
+@46  = ~Sorella Druida, l'Arcidruida teme per la regione se questa presenza dovesse diventare piÃ¹ potente. Non fa parte del nostro mondo, e bisogna impedirgli di potare distruzione su FaerÃ»n.~
+@47  = ~Lei ti ha incaricato, Sorella Druida, di eliminare questa presenza con qualsiasi mezzo tu abbia a disposizione. Cerca l'appoggio di alleati, di amici potenti, puoi anche raccogliere vecchi artefatti potenti per mettere fine a questa minaccia. Ancora una volta la sicurezza di FaerÃ»n dipende da te.~
+@48  = ~Non importa a quale prezzo, Sorella Druida, il destino di tutti noi Ã© nelle tue mani. Noi tre crediamo in te, l'Arcidruida crede in te, e coloro che non sanno nulla piÃ¹ di racconti sulle tue gesta crederebbero in te se sapessero del pericolo che li minaccia. Credi in te stessa, Sorella, ed avrai successo.~
+@49  = ~So che farai del tuo meglio. Sei tutto ciÃ² in cui possiamo sperare. Buona fortuna, Sorella Druida. Ritorna quando la presenza non ci sarÃ  piÃ¹.~
 @50  = ~Te l'ho detto, Sorella Druida, l'Arcidruida la sente ad Athkatla.~
-@51  = ~La creatura malvagia è sotto la superficie, Sorella Druida. L'Arcidruida percepisce un odore misto a zolfo, sale, e del marciume.~
-@52  = ~Non posso essere più precisa, Sorella Druida. L'Arcidruida senta la presenza malvagia molto forte nella zona ad ovest di Athkatla, vicino a dell'acqua, sotto la superficie.~
-@53  = ~Allora è fatta, anche se non badando alle conseguenze. Tu hai fatto la cosa giusta, Sorella Druida, e ti sei portata sempre più vicina al momento in cui potrai sapere di più riguardo all'ordine naturale.~
+@51  = ~La creatura malvagia Ã¨ sotto la superficie, Sorella Druida. L'Arcidruida percepisce un odore misto a zolfo, sale, e del marciume.~
+@52  = ~Non posso essere piÃ¹ precisa, Sorella Druida. L'Arcidruida senta la presenza malvagia molto forte nella zona ad ovest di Athkatla, vicino a dell'acqua, sotto la superficie.~
+@53  = ~Allora Ã¨ fatta, anche se non badando alle conseguenze. Tu hai fatto la cosa giusta, Sorella Druida, e ti sei portata sempre piÃ¹ vicina al momento in cui potrai sapere di piÃ¹ riguardo all'ordine naturale.~
 @54  = ~Vai, Sorella Druida, distruggi il male se puoi.~
 @55 = ~L'Arcidruida: Una Presenza Malvagia
 
-Le due druide e l'Arcidruida che vivono a nord, nel boschetto mi hanno incaricato di distruggere una presenza malvagia di cui ha sentore l'Arcidruida e che si trova nella regione. Loro non sanno esattamente quale sia il luogo esatto dove si trovi questa presenza malvagia, ma è da qualche parte al'interno della città di Athkatla.
-  Quando avrò sconfitto questa malefica presenza - sia che riesca a distruggerla sia che la scacci da Faerûn - dovrò ritornare dalle druide a sud di Baldur's Gate dove loro mi hanno promesso di insegnarmi un'abilità che arricchirà la mia vita.~
+Le due druide e l'Arcidruida che vivono a nord, nel boschetto mi hanno incaricato di distruggere una presenza malvagia di cui ha sentore l'Arcidruida e che si trova nella regione. Loro non sanno esattamente quale sia il luogo esatto dove si trovi questa presenza malvagia, ma Ã¨ da qualche parte al'interno della cittÃ  di Athkatla.
+  Quando avrÃ² sconfitto questa malefica presenza - sia che riesca a distruggerla sia che la scacci da FaerÃ»n - dovrÃ² ritornare dalle druide a sud di Baldur's Gate dove loro mi hanno promesso di insegnarmi un'abilitÃ  che arricchirÃ  la mia vita.~
 @56 = ~L'Arcidruida: Apprendimento dei modi della Natura 
 
-Una delle apprendiste dell'Arcidruida mi ha insegnato a memorizzare più incantesimi.~
+Una delle apprendiste dell'Arcidruida mi ha insegnato a memorizzare piÃ¹ incantesimi.~
 @57 = ~L'Arcidruida: Apprendimento dei modi della Natura 
 
-Una delle apprendiste dell'Arcidruida mi ha insegnato come lanciare gli incantesimi più velocemente.~
+Una delle apprendiste dell'Arcidruida mi ha insegnato come lanciare gli incantesimi piÃ¹ velocemente.~
 @58 = ~L'Arcidruida: Apprendimento dei modi della Natura 
 
 Una delle apprendiste dell'Arcidruida mi ha insegnato come trasformarmi in un grande felino, sia in pantera che in leopardo.~
 @59 = ~L'Arcidruida: Una Presenza Malvagia
 
-Le tre druide mi avevano incaricato di sconfiggere una presenza malvagia di cui aveva sentore l'Arcidruida e che si trovava nella regione, io l'ho trovata sotto ai moli di Athkatla. E' stato un combattimento difficile, ma l'ho sconfitta e le elfe druide mi hanno promesso di insegnarmi una preziosa abilità.~
+Le tre druide mi avevano incaricato di sconfiggere una presenza malvagia di cui aveva sentore l'Arcidruida e che si trovava nella regione, io l'ho trovata sotto ai moli di Athkatla. E' stato un combattimento difficile, ma l'ho sconfitta e le elfe druide mi hanno promesso di insegnarmi una preziosa abilitÃ .~
 

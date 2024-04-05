@@ -1,0 +1,7 @@
+IF
+	Global("CbCutscene3512","AR3512",4)
+THEN
+	RESPONSE #100
+
+	SetGlobal("CbCutscene3512","AR3512",5)
+END

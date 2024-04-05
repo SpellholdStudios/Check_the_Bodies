@@ -1,54 +1,54 @@
-@1   = ~No hay nada que pueda hacer por vos en este instante de mi viaje a través de Faerûn.~
-@2   = ~Gracias, <GABBER>, por ayudarnos a dar un paso más en el cumplimiento de nuestro propósito aquí en Faerûn. Ahora debemos ayudaros a complir vuestro destino, pero como todo lo que hacéis, la elección la tomáis vos. Os ayudaremos ahora al enseñaros una cosa.~
-@3   = ~¿Qué preferís, <GABBER>, aprender: cómo memorizar conjuros adicionales, cómo lanzar conjuros más rapidamente, o cómo encantar un arma de filo normal para volverla mágica?~
-@4   = ~Me gustaría saber cómo memorizar un conjuro adicional por nivel.~
-@5   = ~Creo que un incremento en la velocidad de lanzamiento de conjuros sería muy beneficioso.~
-@6   = ~Encantar un arma es lo que quiero saber cómo realizar.~
-@7   = ~Muy bien, <GABBER>. Es para mi un honor el enseñaros cómo aumentar vuestra capacidad mental.~
-@8   = ~Hemos dado un paso que nos acerca más a finalizar nuestro trabajo, <GABBER>. Aprendéis rápido, y estoy honrada de haberos ayudado a incrementar vuestra capacidad mental.~
-@9   = ~Muy bien, <GABBER>. Es para mi un honor el enseñaros cómo lanzar conjuros más rápida y eficazmente.~
-@10  = ~Hemos dado un paso que nos acerca más a finalizar nuestro trabajo, <GABBER>. Aprendéis rápido, y estoy honrada de haberos ayudado a incrementar vuestra velocidad de lanzamiento de conjuros.~
-@11  = ~Muy bien, <GABBER>. Es para mi un honor el enseñaros cómo encantar mágicamente un arma de filo, ya sea una espada, una daga, un hacha o una alabarda.~
-@12  = ~Hemos dado un paso que nos acerca más a finalizar nuestro trabajo, <GABBER>. Aprendéis rápido, y estoy honrado de haberos ayudado a aprender cómo encantar armas. Solo recordad, debéis tener el objeto que queráis encantar en vuestra persona si no, el encantamiento no funcionará apropiadamente. Y recordad, sólo funciona en las armas que sostengáis en vuestra mano ofensiva, no nada que pueda ser arrojado.~
-@13  = ~Lo habéis hecho bien, <GABBER>, y nosotras tres os estamos agradecidas por la ayuda. Pero ahora, vais a ser probado un poco más allá. ¿Estáis listo para enriqueceros a vos mismo?~
-@14  = ~Sí, venerable Señora. Decidme qué necesitáis que sea hecho.~
-@15  = ~No, venerable Señora, necesito más tiempo.~
-@16  = ~<GABBER>, no podemos completar nuestro destino aquí, en Faerûn, hasta que no estéis listo. Preparaos lo mejor que podáis, y regresad cuando seáis capaz.~
-@17  = ~Muy bien, <GABBER>. Escuchad atentamente, dado que tengo mucho que explicaros antes de que comencéis vuestra próxima tarea.~
-@18  = ~Hay una presencia creciente que he estado sintiendo desde lejos estos meses pasados. No sé lo que es, pero puedo sentir que es un gran mal.~
-@19  = ~<GABBER>, temo por esta región si esa presencia se vuelve demasiado fuerte. No es de nuestro mundo, y debe impedírsele que haga estragos.~
-@20  = ~Estoy encargandoos a vos, <GABBER>, la eliminación de esta presencia por cualquier medio que dispongáis. Conseguid la ayuda de aliados, amigos poderosos, o reunid artefactos arcanos para forzar el final de este asunto si debéis. La seguridad de Faerûn, una vez más, depende de vos.~
-@21  = ~¿Dónde puedo encontrar esta presencia, Señora?~
-@22  = ~Lo haré lo mejor que pueda, Señora.~
-@23  = ~Señora, dudo que mis habilidades sean suficientes como para finiquitar tan terrible asunto.~
-@24  = ~No sé exactamente el dónde, pero la presencia es muy fuerte en la ciudad del norte, el asentamiento humano conocido como Athkatla.~
-@25  = ~Cualquiera que sea el precio, <GABBER>, el destino de todos nosotros podría descansar en vuestras manos. Nosotras tres creemos en vos, Elhan confia en vos, y aquellos que no conocen nada más que las historias de tabernas sobre vuestras hazañas confiarían en vos si conocieran el peligro. Tened confianza en vos mismo, mi buen Señor, y saldréis victorioso.~
-@26  = ~Sé que haréis lo mejor que podáis. Es todo por lo que nosotras podemos orar. Buena suerte para vos, <GABBER>. Volved a mí cuando la presencia ya no esté. Puede que el Seldarine os observe y os acune en sus manos.~
-@27  = ~Aún puedo sentir un gran mal en la región. Presiento que no habéis completado vuestra encomienda.~
-@28  = ~No puedo encontrar esa presencia. ¿Sabeis dónde está?~
+@1   = ~No hay nada que pueda hacer por vos en este instante de mi viaje a travÃ©s de FaerÃ»n.~
+@2   = ~Gracias, <GABBER>, por ayudarnos a dar un paso mÃ¡s en el cumplimiento de nuestro propÃ³sito aquÃ­ en FaerÃ»n. Ahora debemos ayudaros a complir vuestro destino, pero como todo lo que hacÃ©is, la elecciÃ³n la tomÃ¡is vos. Os ayudaremos ahora al enseÃ±aros una cosa.~
+@3   = ~Â¿QuÃ© preferÃ­s, <GABBER>, aprender: cÃ³mo memorizar conjuros adicionales, cÃ³mo lanzar conjuros mÃ¡s rapidamente, o cÃ³mo encantar un arma de filo normal para volverla mÃ¡gica?~
+@4   = ~Me gustarÃ­a saber cÃ³mo memorizar un conjuro adicional por nivel.~
+@5   = ~Creo que un incremento en la velocidad de lanzamiento de conjuros serÃ­a muy beneficioso.~
+@6   = ~Encantar un arma es lo que quiero saber cÃ³mo realizar.~
+@7   = ~Muy bien, <GABBER>. Es para mi un honor el enseÃ±aros cÃ³mo aumentar vuestra capacidad mental.~
+@8   = ~Hemos dado un paso que nos acerca mÃ¡s a finalizar nuestro trabajo, <GABBER>. AprendÃ©is rÃ¡pido, y estoy honrada de haberos ayudado a incrementar vuestra capacidad mental.~
+@9   = ~Muy bien, <GABBER>. Es para mi un honor el enseÃ±aros cÃ³mo lanzar conjuros mÃ¡s rÃ¡pida y eficazmente.~
+@10  = ~Hemos dado un paso que nos acerca mÃ¡s a finalizar nuestro trabajo, <GABBER>. AprendÃ©is rÃ¡pido, y estoy honrada de haberos ayudado a incrementar vuestra velocidad de lanzamiento de conjuros.~
+@11  = ~Muy bien, <GABBER>. Es para mi un honor el enseÃ±aros cÃ³mo encantar mÃ¡gicamente un arma de filo, ya sea una espada, una daga, un hacha o una alabarda.~
+@12  = ~Hemos dado un paso que nos acerca mÃ¡s a finalizar nuestro trabajo, <GABBER>. AprendÃ©is rÃ¡pido, y estoy honrado de haberos ayudado a aprender cÃ³mo encantar armas. Solo recordad, debÃ©is tener el objeto que querÃ¡is encantar en vuestra persona si no, el encantamiento no funcionarÃ¡ apropiadamente. Y recordad, sÃ³lo funciona en las armas que sostengÃ¡is en vuestra mano ofensiva, no nada que pueda ser arrojado.~
+@13  = ~Lo habÃ©is hecho bien, <GABBER>, y nosotras tres os estamos agradecidas por la ayuda. Pero ahora, vais a ser probado un poco mÃ¡s allÃ¡. Â¿EstÃ¡is listo para enriqueceros a vos mismo?~
+@14  = ~SÃ­, venerable SeÃ±ora. Decidme quÃ© necesitÃ¡is que sea hecho.~
+@15  = ~No, venerable SeÃ±ora, necesito mÃ¡s tiempo.~
+@16  = ~<GABBER>, no podemos completar nuestro destino aquÃ­, en FaerÃ»n, hasta que no estÃ©is listo. Preparaos lo mejor que podÃ¡is, y regresad cuando seÃ¡is capaz.~
+@17  = ~Muy bien, <GABBER>. Escuchad atentamente, dado que tengo mucho que explicaros antes de que comencÃ©is vuestra prÃ³xima tarea.~
+@18  = ~Hay una presencia creciente que he estado sintiendo desde lejos estos meses pasados. No sÃ© lo que es, pero puedo sentir que es un gran mal.~
+@19  = ~<GABBER>, temo por esta regiÃ³n si esa presencia se vuelve demasiado fuerte. No es de nuestro mundo, y debe impedÃ­rsele que haga estragos.~
+@20  = ~Estoy encargandoos a vos, <GABBER>, la eliminaciÃ³n de esta presencia por cualquier medio que dispongÃ¡is. Conseguid la ayuda de aliados, amigos poderosos, o reunid artefactos arcanos para forzar el final de este asunto si debÃ©is. La seguridad de FaerÃ»n, una vez mÃ¡s, depende de vos.~
+@21  = ~Â¿DÃ³nde puedo encontrar esta presencia, SeÃ±ora?~
+@22  = ~Lo harÃ© lo mejor que pueda, SeÃ±ora.~
+@23  = ~SeÃ±ora, dudo que mis habilidades sean suficientes como para finiquitar tan terrible asunto.~
+@24  = ~No sÃ© exactamente el dÃ³nde, pero la presencia es muy fuerte en la ciudad del norte, el asentamiento humano conocido como Athkatla.~
+@25  = ~Cualquiera que sea el precio, <GABBER>, el destino de todos nosotros podrÃ­a descansar en vuestras manos. Nosotras tres creemos en vos, Elhan confia en vos, y aquellos que no conocen nada mÃ¡s que las historias de tabernas sobre vuestras hazaÃ±as confiarÃ­an en vos si conocieran el peligro. Tened confianza en vos mismo, mi buen SeÃ±or, y saldrÃ©is victorioso.~
+@26  = ~SÃ© que harÃ©is lo mejor que podÃ¡is. Es todo por lo que nosotras podemos orar. Buena suerte para vos, <GABBER>. Volved a mÃ­ cuando la presencia ya no estÃ©. Puede que el Seldarine os observe y os acune en sus manos.~
+@27  = ~AÃºn puedo sentir un gran mal en la regiÃ³n. Presiento que no habÃ©is completado vuestra encomienda.~
+@28  = ~No puedo encontrar esa presencia. Â¿Sabeis dÃ³nde estÃ¡?~
 @29  = ~Os lo dije, puedo sentirla en Athkatla.~
-@30  = ~No puedo ser precisa, pero la presencia es más fuerte en la parte oeste de la ciudad humana.~
-@31  = ~Puedo sentir esa presencia en algún lugar cerca de un cúmulo de agua. ¿Quizás un río? No podría decirlo con seguridad.~
-@32  = ~El ser maligno está debajo de la superfície. Parece ser una apestosa sensación mezcla de azufre, sal y decadencia.~
-@33  = ~No puedo ser más precisa, <GABBER>. Las emanaciones malignas son fuertes en la parte oeste de Athkatla, cerca del agua, bajo la superfície.~
-@34  = ~Ya no siendo ninguna presencia maligna creciendo. ¿La destruisteis?~
+@30  = ~No puedo ser precisa, pero la presencia es mÃ¡s fuerte en la parte oeste de la ciudad humana.~
+@31  = ~Puedo sentir esa presencia en algÃºn lugar cerca de un cÃºmulo de agua. Â¿QuizÃ¡s un rÃ­o? No podrÃ­a decirlo con seguridad.~
+@32  = ~El ser maligno estÃ¡ debajo de la superfÃ­cie. Parece ser una apestosa sensaciÃ³n mezcla de azufre, sal y decadencia.~
+@33  = ~No puedo ser mÃ¡s precisa, <GABBER>. Las emanaciones malignas son fuertes en la parte oeste de Athkatla, cerca del agua, bajo la superfÃ­cie.~
+@34  = ~Ya no siendo ninguna presencia maligna creciendo. Â¿La destruisteis?~
 @35  = ~No, fue desterrada pero no destruida.~
-@36  = ~Sí, Gran Dama, destruí lo que sea que fuera.~
-@37  = ~Luego está hecho, independientemente del desenlace. Lo habéis hecho bien, <GABBER>. Os doy las gracias por acerca el momento en que pueda cruzar hacia el oeste.~
-@38  = ~Id, <GABBER>. Venced al mal si podéis.~
-@39  = ~Aguardamos el momento en el que realizaremos el viaje final desde Faerûn hasta Siempreunidos. Que Corellan Lotharian os guie, <GABBER>.~
-@40 = ~Las Sabias élficas: Instrucción Mágica
+@36  = ~SÃ­, Gran Dama, destruÃ­ lo que sea que fuera.~
+@37  = ~Luego estÃ¡ hecho, independientemente del desenlace. Lo habÃ©is hecho bien, <GABBER>. Os doy las gracias por acerca el momento en que pueda cruzar hacia el oeste.~
+@38  = ~Id, <GABBER>. Venced al mal si podÃ©is.~
+@39  = ~Aguardamos el momento en el que realizaremos el viaje final desde FaerÃ»n hasta Siempreunidos. Que Corellan Lotharian os guie, <GABBER>.~
+@40 = ~Las Sabias Ã©lficas: InstrucciÃ³n MÃ¡gica
   
-  El trío de hechiceras que conocí en el linde occidental del Bosque de Tezhyr, cerca de la entrada cavernosa a la Infraoscuridad, han sido tan amables de enseñarme cómo aumentar el número de conjuros que puedo memorizar.~
-@41 = ~Las Sabias élficas: Instrucción Mágica
+  El trÃ­o de hechiceras que conocÃ­ en el linde occidental del Bosque de Tezhyr, cerca de la entrada cavernosa a la Infraoscuridad, han sido tan amables de enseÃ±arme cÃ³mo aumentar el nÃºmero de conjuros que puedo memorizar.~
+@41 = ~Las Sabias Ã©lficas: InstrucciÃ³n MÃ¡gica
 
-  El trío de hechiceras que conocí en el linde occidental del Bosque de Tezhyr, cerca de la entrada cavernosa a la Infraoscuridad, han sido tan amables de enseñarme cómo lanzar conjuros con mayor rapidez.~
-@42 = ~Las Sabias élficas: Instrucción Mágica
+  El trÃ­o de hechiceras que conocÃ­ en el linde occidental del Bosque de Tezhyr, cerca de la entrada cavernosa a la Infraoscuridad, han sido tan amables de enseÃ±arme cÃ³mo lanzar conjuros con mayor rapidez.~
+@42 = ~Las Sabias Ã©lficas: InstrucciÃ³n MÃ¡gica
 
-  El trío de hechiceras que conocí en el linde occidental del Bosque de Tezhyr, cerca de la entrada cavernosa a la Infraoscuridad, han sido tan amables de enseñarme cómo encantar las armas de filo normales en armas mágicas menores.~
-@43 = ~Las Sabias élficas: Presencia Maligna
+  El trÃ­o de hechiceras que conocÃ­ en el linde occidental del Bosque de Tezhyr, cerca de la entrada cavernosa a la Infraoscuridad, han sido tan amables de enseÃ±arme cÃ³mo encantar las armas de filo normales en armas mÃ¡gicas menores.~
+@43 = ~Las Sabias Ã©lficas: Presencia Maligna
 
-  El trío de hechiceras que se preparan para la Retirada me han ordenador eliminar una presencia malvada que pueden sentir en la región. No están seguras exactamente desde donde está emanando este mal, pero es desde algún lugar dentro de la ciudad de Athkatla. Cuando haya derrotado la presencia maligna, ya sea destruyendola o desterrandola de la faz de Faerûn, debo regresar a informar a las elfas, cerca de la salida de la Infraoscuridad, donde me han prometido enseñarme una habilidad con la cuál enriqueceré mi vida.~
-@44 = ~Las Sabias élficas: Presencia Maligna
+  El trÃ­o de hechiceras que se preparan para la Retirada me han ordenador eliminar una presencia malvada que pueden sentir en la regiÃ³n. No estÃ¡n seguras exactamente desde donde estÃ¡ emanando este mal, pero es desde algÃºn lugar dentro de la ciudad de Athkatla. Cuando haya derrotado la presencia maligna, ya sea destruyendola o desterrandola de la faz de FaerÃ»n, debo regresar a informar a las elfas, cerca de la salida de la Infraoscuridad, donde me han prometido enseÃ±arme una habilidad con la cuÃ¡l enriquecerÃ© mi vida.~
+@44 = ~Las Sabias Ã©lficas: Presencia Maligna
 
-  He derrotado a un malvado demonio debajo del distrito portuario de Athkatla, que las sabias hechiceras élficas sentían. Me informaron que estan anticipando el momento en el que tengan que realizar su camino hacia Siempreunidos y me han prometido enseñarme una nueva habilidad.~
+  He derrotado a un malvado demonio debajo del distrito portuario de Athkatla, que las sabias hechiceras Ã©lficas sentÃ­an. Me informaron que estan anticipando el momento en el que tengan que realizar su camino hacia Siempreunidos y me han prometido enseÃ±arme una nueva habilidad.~

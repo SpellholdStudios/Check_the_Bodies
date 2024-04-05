@@ -1,71 +1,71 @@
 @1   = ~Lo que les ha dejado borrachos, me ha
 vuelto osada. He drogado a los dos mozos que
-atendían al Rey, y puse sus dagas donde incluso
-ni mi marido podría errar.~
-@2   = ~No, vos sois un Barón digno. Hicísteis
-algo bien por una vez. Esperad un minuto, ¿por qué
-trajísteis esas dagas ensangrentadas con vos?
-Se suponía que las dejarías con los mozos.
+atendÃ­an al Rey, y puse sus dagas donde incluso
+ni mi marido podrÃ­a errar.~
+@2   = ~No, vos sois un BarÃ³n digno. HicÃ­steis
+algo bien por una vez. Esperad un minuto, Â¿por quÃ©
+trajÃ­steis esas dagas ensangrentadas con vos?
+Se suponÃ­a que las dejarÃ­as con los mozos.
 Regresad ahora mismo y hacedlo.~
 @3   = ~Su kilt.~
-@4   = ~¿Veis? Mis manos tienen el mismo color
+@4   = ~Â¿Veis? Mis manos tienen el mismo color
 que las vuestras; pero no estoy aterrorizada.
-¡Mirad lo pálido que estáis! Venid, tomad
+Â¡Mirad lo pÃ¡lido que estÃ¡is! Venid, tomad
 algo de color en vuestras mejillas.
 
 (Ella unta de sangre las mejillas de su marido.)~
-@5   = ~Eso está mejor.~
-@6   = ~¡Dadme estas dagas, cobarde! Yo las
-colocaré con los mozos y los mancharé con
+@5   = ~Eso estÃ¡ mejor.~
+@6   = ~Â¡Dadme estas dagas, cobarde! Yo las
+colocarÃ© con los mozos y los mancharÃ© con
 la sangre del Rey!~
-@7   = ~Aún estáis demasiado pálido.
+@7   = ~AÃºn estÃ¡is demasiado pÃ¡lido.
 
-(Ella unta más sangre en la cara de MacBeth. Él embadurna de sangre la cara de ella. A continuación manchan frenéticamente de sangre la cara del otro.
+(Ella unta mÃ¡s sangre en la cara de MacBeth. Ã‰l embadurna de sangre la cara de ella. A continuaciÃ³n manchan frenÃ©ticamente de sangre la cara del otro.
 
-¡Tan pronto como la sangre comienza a agotarse, LADY MACBETH sale del escenario apenas un instante para volver con las manos chorreando sangre fresca de nuevo para renovar el ataque! MacBeth salta de terror mientras ella corre detrás de él, y al momento reanudan el cubrirse de sangre el uno al otro. Al fin son interrumpidos por un golpe en una puerta fuera del escenario.)~
-@8   = ~¡Escuchad! ¡Hay alguien en la puerta! ¡Rápido!
+Â¡Tan pronto como la sangre comienza a agotarse, LADY MACBETH sale del escenario apenas un instante para volver con las manos chorreando sangre fresca de nuevo para renovar el ataque! MacBeth salta de terror mientras ella corre detrÃ¡s de Ã©l, y al momento reanudan el cubrirse de sangre el uno al otro. Al fin son interrumpidos por un golpe en una puerta fuera del escenario.)~
+@8   = ~Â¡Escuchad! Â¡Hay alguien en la puerta! Â¡RÃ¡pido!
 
-(Lady MacBeth se apresura hacia un cubo de agua y mete sus manos en él. Salen limpias.)~
-@9   = ~¡Un poco de agua nos librará de este acto!
+(Lady MacBeth se apresura hacia un cubo de agua y mete sus manos en Ã©l. Salen limpias.)~
+@9   = ~Â¡Un poco de agua nos librarÃ¡ de este acto!
 
-(Su afirmación es ridícula. Puede que sus manos estén limpias, pero tiene sangre en todo el resto de ella.)~
-@10  = ~Rápido, ponéos vuestro camisón. Fingiremos que hemos estado durmiendo.
+(Su afirmaciÃ³n es ridÃ­cula. Puede que sus manos estÃ©n limpias, pero tiene sangre en todo el resto de ella.)~
+@10  = ~RÃ¡pido, ponÃ©os vuestro camisÃ³n. Fingiremos que hemos estado durmiendo.
 
-(Ella empieza a arrastrar a MacBeth fuera de escena justo cuando los golpes continúan.)~
-@11  = ~¡Soy la Reina de Escocia! Entonces, ¿por qué aún me siento infeliz? ¡Es porque sé que el pequeño gusano con el que me casé encontrará algo que lo echará todo a perder!~
-@12  = ~¿Por qué es que parecéis tan triste? ¿Aún
-os sentís culpable? ¡Recordad que lo hecho, hecho
-está!~
-@13  = ~Claro, por supuesto que lo hacen. ¡Es que aún lo
-sois! ¡Tener una corona sobre vuestra cabeza no cambia
+(Ella empieza a arrastrar a MacBeth fuera de escena justo cuando los golpes continÃºan.)~
+@11  = ~Â¡Soy la Reina de Escocia! Entonces, Â¿por quÃ© aÃºn me siento infeliz? Â¡Es porque sÃ© que el pequeÃ±o gusano con el que me casÃ© encontrarÃ¡ algo que lo echarÃ¡ todo a perder!~
+@12  = ~Â¿Por quÃ© es que parecÃ©is tan triste? Â¿AÃºn
+os sentÃ­s culpable? Â¡Recordad que lo hecho, hecho
+estÃ¡!~
+@13  = ~Claro, por supuesto que lo hacen. Â¡Es que aÃºn lo
+sois! Â¡Tener una corona sobre vuestra cabeza no cambia
 quien sois!~
-@14  = ~¡Por supuesto que no! ¡Miradme a mí!~
-@15  = ~No, no lo he hecho. Ah, desde que me volví
-la Reina de Escocia, podría parecer que tengo un
+@14  = ~Â¡Por supuesto que no! Â¡Miradme a mÃ­!~
+@15  = ~No, no lo he hecho. Ah, desde que me volvÃ­
+la Reina de Escocia, podrÃ­a parecer que tengo un
 lustre real, pero en verdad sigo siendo la misma
 chica sencilla que he sido siempre.~
-@16  = ~¡Queréis dejar de obsesionaros con eso! ¡Ya
-os dije que esto es sólo temporal por culpa de las
-Brujas del Destino! Sólo permaneceré así hasta que
-nos aseguremos de que no lo arruináis todo.~
-@17  = ~¿Qué habéis hecho ahora?~
-@18  = ~Sería la primera vez.~
-@19  = ~Quería comprobar el haggis, le pregunté
+@16  = ~Â¡QuerÃ©is dejar de obsesionaros con eso! Â¡Ya
+os dije que esto es sÃ³lo temporal por culpa de las
+Brujas del Destino! SÃ³lo permanecerÃ© asÃ­ hasta que
+nos aseguremos de que no lo arruinÃ¡is todo.~
+@17  = ~Â¿QuÃ© habÃ©is hecho ahora?~
+@18  = ~SerÃ­a la primera vez.~
+@19  = ~QuerÃ­a comprobar el haggis, le preguntÃ©
 a los sirvientes para cocinarlo esta noche. Banqo
-nos lo pidió.~
-@20  = ~¿Cómo podéis ser el Rey de Escocia y no
-saber qué es el haggis?~
-@21  = ~Cogéis los pulmones y el corazón de una oveja, y lo
-mezcláis con la grasa de alrededor de los riñones de
-un cordero, a continuación agregáis harina de avena,
-y lo cocináis todo en el estómago de la oveja.~
-@22  = ~Efectivamente. Los escoceses lo adoran. ¡Si queréis
-ser Rey de Escocia también tenéis que adorarlo!~
-@23  = ~¿Por qué no lo comeríais?~
+nos lo pidiÃ³.~
+@20  = ~Â¿CÃ³mo podÃ©is ser el Rey de Escocia y no
+saber quÃ© es el haggis?~
+@21  = ~CogÃ©is los pulmones y el corazÃ³n de una oveja, y lo
+mezclÃ¡is con la grasa de alrededor de los riÃ±ones de
+un cordero, a continuaciÃ³n agregÃ¡is harina de avena,
+y lo cocinÃ¡is todo en el estÃ³mago de la oveja.~
+@22  = ~Efectivamente. Los escoceses lo adoran. Â¡Si querÃ©is
+ser Rey de Escocia tambiÃ©n tenÃ©is que adorarlo!~
+@23  = ~Â¿Por quÃ© no lo comerÃ­ais?~
 @24  = ~Pero eso es lo que serviremos esta noche.
-Todo el mundo tomará haggis.~
-@25  = ~Entonces, ¿qué queréis? Tenemos algo de
-lengua fría que sobró.~
-@26  = ~Pues si no comeréis nada que haya estado en el
-estómago de alguien, ni comeréis nada que haya
-estado en la boca de alguien. ¿Qué comeréis?~
+Todo el mundo tomarÃ¡ haggis.~
+@25  = ~Entonces, Â¿quÃ© querÃ©is? Tenemos algo de
+lengua frÃ­a que sobrÃ³.~
+@26  = ~Pues si no comerÃ©is nada que haya estado en el
+estÃ³mago de alguien, ni comerÃ©is nada que haya
+estado en la boca de alguien. Â¿QuÃ© comerÃ©is?~

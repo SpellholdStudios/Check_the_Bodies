@@ -1,29 +1,29 @@
-@1   = ~Ho fatto l'atto. Credo di aver sentito una voce che che mi diceva che non dormirò più, che ho ucciso il sonno. Sono un Signore cattivo.~
-@2   = ~Io non posso tornare indietro lì. C'è sangue dappertutto.
-C'é sangue sulle lenzuola del Re, sulla sua camicia, e su questa specie di gonna che indossa...~
-@3   = ~Quello é un kilt! Io sono la persona che lo ha ucciso!~
-@4   = ~Non volevo uccidere il Re. Ma appena ha detto il mio nome, é saltato fuori dal letto, e si precipitò sul pugnale che possedevo. Ora è morto, é il suo sangue é tutto sulle mie mani.
+@1   = ~Ho fatto l'atto. Credo di aver sentito una voce che che mi diceva che non dormirÃ² piÃ¹, che ho ucciso il sonno. Sono un Signore cattivo.~
+@2   = ~Io non posso tornare indietro lÃ¬. C'Ã¨ sangue dappertutto.
+C'Ã© sangue sulle lenzuola del Re, sulla sua camicia, e su questa specie di gonna che indossa...~
+@3   = ~Quello Ã© un kilt! Io sono la persona che lo ha ucciso!~
+@4   = ~Non volevo uccidere il Re. Ma appena ha detto il mio nome, Ã© saltato fuori dal letto, e si precipitÃ² sul pugnale che possedevo. Ora Ã¨ morto, Ã© il suo sangue Ã© tutto sulle mie mani.
 
 (Entra LADY MACBETH. Le sue mani sono coperte di sangue.)~
-@5   = ~Potresti usare un pò di rossetto.
+@5   = ~Potresti usare un pÃ² di rossetto.
 
 (MacBeth pulisce il sangue dalle labbra di sua moglie.)~
 @6   = ~Sveglia Duncan scuotendolo! Tu potresti!~
 @7   = ~Salve.~
-@8   = ~Non é andato tutto come avrei voluto. Pensavo che diventando Re, tutti mi avrebbero rispettato. Ma ancora tutti mi trattano come se fossi un verme.~
+@8   = ~Non Ã© andato tutto come avrei voluto. Pensavo che diventando Re, tutti mi avrebbero rispettato. Ma ancora tutti mi trattano come se fossi un verme.~
 @9   = ~Davvero?~
 @10  = ~Sei cambiata!~
 @11  = ~Ma tu sei un uomo!~
-@12  = ~Non preoccuparti di questo. Mi sono già preso cura io di tutto.~
+@12  = ~Non preoccuparti di questo. Mi sono giÃ  preso cura io di tutto.~
 @13  = ~Credimi, ora non lo puoi sapere. Ma applaudirai quando lo scoprirai.~
 @14  = ~Cosa stai facendo in cucina?~
-@15  = ~Cos'é l'haggis?~
-@16  = ~Dimmelo e lo saprò.~
-@17  = ~E questo é l'haggis?~
-@18  = ~Mi piace! Non lo mangerò, ma mi piace.~
-@19  = ~Non é pulito.~
-@20  = ~Tutti tranne me! Non mangerò nulla che é stato in un altro stomaco.~
-@21  = ~Oh no! Non mangerò qualcosa che é stato in un'altra bocca.~
-@22  = ~Prenderò delle uova.
+@15  = ~Cos'Ã© l'haggis?~
+@16  = ~Dimmelo e lo saprÃ².~
+@17  = ~E questo Ã© l'haggis?~
+@18  = ~Mi piace! Non lo mangerÃ², ma mi piace.~
+@19  = ~Non Ã© pulito.~
+@20  = ~Tutti tranne me! Non mangerÃ² nulla che Ã© stato in un altro stomaco.~
+@21  = ~Oh no! Non mangerÃ² qualcosa che Ã© stato in un'altra bocca.~
+@22  = ~PrenderÃ² delle uova.
 
 (Lady MacBeth prende un paio di uova e le rompe sulla testa di MacBeth. Poi escono.)~

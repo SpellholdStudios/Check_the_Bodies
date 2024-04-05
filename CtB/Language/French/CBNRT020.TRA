@@ -1,80 +1,80 @@
 @1   = ~Ainsi, tu t'es enfin rendu compte des erreurs que tu as commises. Sois le bienvenu, <GABBER>.~ ~Ainsi, tu t'es enfin rendue compte des erreurs que tu as commises. Sois la bienvenue, <GABBER>.~
 @2   = ~Perds-toi et oublie-toi, <GABBER>, et sans tribu tu te retrouveras.~
-@3   = ~Plus puissant tu deviendras, la tribu tu honoreras. Réussir les épreuves tu dois.~ ~Plus puissante tu deviendras, la tribu tu honoreras. Réussir les épreuves tu dois.~
-@4   = ~Une tâche nous t'avons donnée. T'accepter nous refuserons aussi longtemps qu'inachevée cette tâche restera.~
-@5   = ~Le compromis nous refusons. Le bâton du Chaman nous ramener tu dois.~
+@3   = ~Plus puissant tu deviendras, la tribu tu honoreras. RÃ©ussir les Ã©preuves tu dois.~ ~Plus puissante tu deviendras, la tribu tu honoreras. RÃ©ussir les Ã©preuves tu dois.~
+@4   = ~Une tÃ¢che nous t'avons donnÃ©e. T'accepter nous refuserons aussi longtemps qu'inachevÃ©e cette tÃ¢che restera.~
+@5   = ~Le compromis nous refusons. Le bÃ¢ton du Chaman nous ramener tu dois.~
 @6   = ~Perverti ton esprit est, affaibli ton corps est.~
-@7   = ~Du bâton du Chaman nous t'avons parlé. Volé il a été.~
+@7   = ~Du bÃ¢ton du Chaman nous t'avons parlÃ©. VolÃ© il a Ã©tÃ©.~
 @8   = ~Le retrouver tu dois. A nous, le ramener tu dois.~
-@9   = ~Ainsi, le bâton retrouvé tu as ? Enchantés nous sommes.~
-@10  = ~Choisir une nouvelle compétence à apprendre tu dois : tes ennemis piéger, un coup puissant lancer, ou bien ton corps enrager ?~
-@11  = ~Je voudrais que vous m'appreniez à poser des pièges.~
+@9   = ~Ainsi, le bÃ¢ton retrouvÃ© tu as ? EnchantÃ©s nous sommes.~
+@10  = ~Choisir une nouvelle compÃ©tence Ã  apprendre tu dois : tes ennemis piÃ©ger, un coup puissant lancer, ou bien ton corps enrager ?~
+@11  = ~Je voudrais que vous m'appreniez Ã  poser des piÃ¨ges.~
 @12  = ~Je voudrais que vous m'appreniez l'aptitude du Poing de Fer.~
-@13  = ~Je voudrais que vous m'appreniez à m'enrager et entrer en état de berserker.~
-@14  = ~Te préparer tu dois.~
-@15  = ~Une présence nous avons senti croître. Depuis des lunes, d'ici nous la ressentons.~
-@16  = ~Trop puissante elle est à présent, peur pour notre peuple nous avons. De notre monde elle n'est pas. De sa menace, Féérune et Ruathym doivent être protégées.~
-@17  = ~Où elle est exactement nous ignorons. Sur le continent elle se trouve. Dans l'agglomération d'Athkatla.~
-@18  = ~Je ferai de mon mieux, Ancien Révéré.~
-@19  = ~Ancien Révéré, je doute que mes compétences seules suffiront à éliminer cette menace.~
-@20  = ~Entre tes mains, dans ta force notre tribu a placé espoir. Confiance nous te faisons pour faire ton devoir. <GABBER>, en toi-même avoir foi tu dois.~
-@21  = ~Pour le mieux nous savons que tu feras. Espérer est tout ce que nous pouvons. Revenir nous voir une fois que la présence ne sera plus tu devras.~
-@22  = ~Déjà dit nous l'avons. En Athkatla, sentie nous l'avons.~
-@23  = ~Plus précis nous ne pouvons être. Plus puissante du côté ouest de la ville la présence est.~
-@24  = ~A côté d'un point d'eau le Mal nous pouvons sentir. Une rivière ? Certains nous ne le sommes.~
+@13  = ~Je voudrais que vous m'appreniez Ã  m'enrager et entrer en Ã©tat de berserker.~
+@14  = ~Te prÃ©parer tu dois.~
+@15  = ~Une prÃ©sence nous avons senti croÃ®tre. Depuis des lunes, d'ici nous la ressentons.~
+@16  = ~Trop puissante elle est Ã  prÃ©sent, peur pour notre peuple nous avons. De notre monde elle n'est pas. De sa menace, FÃ©Ã©rune et Ruathym doivent Ãªtre protÃ©gÃ©es.~
+@17  = ~OÃ¹ elle est exactement nous ignorons. Sur le continent elle se trouve. Dans l'agglomÃ©ration d'Athkatla.~
+@18  = ~Je ferai de mon mieux, Ancien RÃ©vÃ©rÃ©.~
+@19  = ~Ancien RÃ©vÃ©rÃ©, je doute que mes compÃ©tences seules suffiront Ã  Ã©liminer cette menace.~
+@20  = ~Entre tes mains, dans ta force notre tribu a placÃ© espoir. Confiance nous te faisons pour faire ton devoir. <GABBER>, en toi-mÃªme avoir foi tu dois.~
+@21  = ~Pour le mieux nous savons que tu feras. EspÃ©rer est tout ce que nous pouvons. Revenir nous voir une fois que la prÃ©sence ne sera plus tu devras.~
+@22  = ~DÃ©jÃ  dit nous l'avons. En Athkatla, sentie nous l'avons.~
+@23  = ~Plus prÃ©cis nous ne pouvons Ãªtre. Plus puissante du cÃ´tÃ© ouest de la ville la prÃ©sence est.~
+@24  = ~A cÃ´tÃ© d'un point d'eau le Mal nous pouvons sentir. Une riviÃ¨re ? Certains nous ne le sommes.~
 @25  = ~Sous la surface, <GABBER>, le Mal est. Soufre, sel et pourriture.~
-@26  = ~Plus précis je ne peux être. Côté ouest de la ville. A côté d'un point d'eau. Sous la surface trouver le Mal tu dois.~
-@27  = ~<GABBER> ! La guerre dans nos contrées les Luskaniens ont apportée. Les repousser vers l'océan tu dois.~
-@28  = ~Hors de notre île repousser les Luskaniens tu dois !~
-@29  = ~De bien des choses parler nous devons. La présence maléfique nous ne sentons plus. Détruite est-elle ?~
-@30  = ~Non, Ancien Révéré. Je l'aie bannie, pas détruite.~
-@31  = ~Oui, Ancien Révéré. J'ai détruit cette chose, quoi que ce fût.~
-@32  = ~Et qu'en est-il de nos contrées ? Des Luskaniens sommes-nous débarrassés ?~
-@33  = ~Oui, Ancien. J'ai repoussé leurs attaques et bouté la menace hors de Ruathym.~
-@34  = ~Terminé c'est donc. Bien agi tu as, <GABBER>. De notre tribu plus proche tu es.~
-@35  = ~Précieux pour notre tribu tu es. Une compétence nous allons t'apprendre. En quête de méditation nous t'envoyons. Des coutumes de notre peuple tu vas apprendre.~ ~Précieuse pour notre tribu tu es. Une compétence nous allons t'apprendre. En quête de méditation nous t'envoyons. Des coutumes de notre peuple tu vas apprendre.~
+@26  = ~Plus prÃ©cis je ne peux Ãªtre. CÃ´tÃ© ouest de la ville. A cÃ´tÃ© d'un point d'eau. Sous la surface trouver le Mal tu dois.~
+@27  = ~<GABBER> ! La guerre dans nos contrÃ©es les Luskaniens ont apportÃ©e. Les repousser vers l'ocÃ©an tu dois.~
+@28  = ~Hors de notre Ã®le repousser les Luskaniens tu dois !~
+@29  = ~De bien des choses parler nous devons. La prÃ©sence malÃ©fique nous ne sentons plus. DÃ©truite est-elle ?~
+@30  = ~Non, Ancien RÃ©vÃ©rÃ©. Je l'aie bannie, pas dÃ©truite.~
+@31  = ~Oui, Ancien RÃ©vÃ©rÃ©. J'ai dÃ©truit cette chose, quoi que ce fÃ»t.~
+@32  = ~Et qu'en est-il de nos contrÃ©es ? Des Luskaniens sommes-nous dÃ©barrassÃ©s ?~
+@33  = ~Oui, Ancien. J'ai repoussÃ© leurs attaques et boutÃ© la menace hors de Ruathym.~
+@34  = ~TerminÃ© c'est donc. Bien agi tu as, <GABBER>. De notre tribu plus proche tu es.~
+@35  = ~PrÃ©cieux pour notre tribu tu es. Une compÃ©tence nous allons t'apprendre. En quÃªte de mÃ©ditation nous t'envoyons. Des coutumes de notre peuple tu vas apprendre.~ ~PrÃ©cieuse pour notre tribu tu es. Une compÃ©tence nous allons t'apprendre. En quÃªte de mÃ©ditation nous t'envoyons. Des coutumes de notre peuple tu vas apprendre.~
 @36  = ~La Survie tu as appris.~
 @37  = ~Le Cri de Guerre tu as appris.~
 @38  = ~Le Coup Fatal tu as appris.~
-@39  = ~Prêt es-tu ?~ ~Prête es-tu ?~
-@40  = ~Oui, Ancien. Dites-moi ce qui doit être fait.~
+@39  = ~PrÃªt es-tu ?~ ~PrÃªte es-tu ?~
+@40  = ~Oui, Ancien. Dites-moi ce qui doit Ãªtre fait.~
 @41  = ~Non, Ancien. Il me faut plus de temps.~
-@42  = ~La voie de l'Homme du Nord apprendre tu dois. Limitée est ta valeur en tant que membre du clan. Te préparer tu dois. Revenir nous voir tu dois lorsque prêt tu seras.~ ~La voix de l'Homme du Nord apprendre tu dois. Limitée est ta valeur en tant que membre du clan. Te préparer tu dois. Revenir nous voir tu dois lorsque prête tu seras.~
-@43  = ~Simple, ta première tâche était. Difficile la seconde était. Facile cette dernière sera. Prendre la tête de ce marteau tu dois. Lors d'une bataille, brisé il fut.~
-@44  = ~Disparue est la poignée. Reforgé le marteau de guerre doit être. Lorsqu'il le sera, revenir nous voir tu devras.~
-@45  = ~J'essaierai, Ancien Révéré.~
-@46  = ~<GABBER>. Réparé est notre marteau ?~
-@47  = ~Oui, Ancien Révéré. Le voici.~
-@48  = ~Pardon, Ancien Révéré. Je n'ai pas encore pu le reforger.~
-@49  = ~Lorsque le marteau reforgé sera, revenir nous voir tu devras.~
+@42  = ~La voie de l'Homme du Nord apprendre tu dois. LimitÃ©e est ta valeur en tant que membre du clan. Te prÃ©parer tu dois. Revenir nous voir tu dois lorsque prÃªt tu seras.~ ~La voix de l'Homme du Nord apprendre tu dois. LimitÃ©e est ta valeur en tant que membre du clan. Te prÃ©parer tu dois. Revenir nous voir tu dois lorsque prÃªte tu seras.~
+@43  = ~Simple, ta premiÃ¨re tÃ¢che Ã©tait. Difficile la seconde Ã©tait. Facile cette derniÃ¨re sera. Prendre la tÃªte de ce marteau tu dois. Lors d'une bataille, brisÃ© il fut.~
+@44  = ~Disparue est la poignÃ©e. ReforgÃ© le marteau de guerre doit Ãªtre. Lorsqu'il le sera, revenir nous voir tu devras.~
+@45  = ~J'essaierai, Ancien RÃ©vÃ©rÃ©.~
+@46  = ~<GABBER>. RÃ©parÃ© est notre marteau ?~
+@47  = ~Oui, Ancien RÃ©vÃ©rÃ©. Le voici.~
+@48  = ~Pardon, Ancien RÃ©vÃ©rÃ©. Je n'ai pas encore pu le reforger.~
+@49  = ~Lorsque le marteau reforgÃ© sera, revenir nous voir tu devras.~
 @50  = ~Dans les profondeurs sauvages de Ruathym aller tu dois. Apprends nos traditions. Dans quel domaine apprendre, choisir tu dois.~
-@51  = ~A te battre dans l'obscurité souhaites-tu apprendre ? Comment entrer en rage souhaites-tu apprendre ? Ou comment t'endurcir souhaites-tu apprendre ?~
-@52  = ~Je veux apprendre à me battre à l'aveuglette.~
-@53  = ~Je veux apprendre à entrer dans un état de rage.~
-@54  = ~Je veux apprendre à m'endurcir.~
-@55  = ~A te battre dans l'obscurité souhaites-tu apprendre ? Comment entrer en rage souhaites-tu apprendre ? Comment t'endurcir souhaites-tu apprendre ? Ou comment utiliser tous les objets souhaites-tu apprendre ?~
-@56  = ~Je veux apprendre à me servir de tous les objets.~
-@57  = ~Un membre de notre communauté tu es maintenant. Ton peuple et tes traditions honorer tu dois.~
+@51  = ~A te battre dans l'obscuritÃ© souhaites-tu apprendre ? Comment entrer en rage souhaites-tu apprendre ? Ou comment t'endurcir souhaites-tu apprendre ?~
+@52  = ~Je veux apprendre Ã  me battre Ã  l'aveuglette.~
+@53  = ~Je veux apprendre Ã  entrer dans un Ã©tat de rage.~
+@54  = ~Je veux apprendre Ã  m'endurcir.~
+@55  = ~A te battre dans l'obscuritÃ© souhaites-tu apprendre ? Comment entrer en rage souhaites-tu apprendre ? Comment t'endurcir souhaites-tu apprendre ? Ou comment utiliser tous les objets souhaites-tu apprendre ?~
+@56  = ~Je veux apprendre Ã  me servir de tous les objets.~
+@57  = ~Un membre de notre communautÃ© tu es maintenant. Ton peuple et tes traditions honorer tu dois.~
 @58  = ~Un membre de notre peuple tu n'es pas. De quitter notre maison nous te demandons.~
-@59  = ~L'un de nos fères guerriers tu pourrais être, car tes coutumes et tes traditions tu honores. En faisant ainsi, fier tu me rends.~ ~L'une de nos soeurs guerrières tu pourrais être, car tes coutumes et tes traditions tu honores. En faisant ainsi, fier tu me rends.~
+@59  = ~L'un de nos fÃ¨res guerriers tu pourrais Ãªtre, car tes coutumes et tes traditions tu honores. En faisant ainsi, fier tu me rends.~ ~L'une de nos soeurs guerriÃ¨res tu pourrais Ãªtre, car tes coutumes et tes traditions tu honores. En faisant ainsi, fier tu me rends.~
 @60 = ~Relations Tribales
 
-J'ai accompli avec brio la tâche que m'a confiée le Conseil des Anciens du Nord. Je leur ai retrouvé une arme magique à laquelle la tribu affiche un profond attachement sentimental et religieux : un bâton de Chaman orné. Je l'ai ramené à Ruathym.~
+J'ai accompli avec brio la tÃ¢che que m'a confiÃ©e le Conseil des Anciens du Nord. Je leur ai retrouvÃ© une arme magique Ã  laquelle la tribu affiche un profond attachement sentimental et religieux : un bÃ¢ton de Chaman ornÃ©. Je l'ai ramenÃ© Ã  Ruathym.~
 @61 = ~Relations Tribales
 
-J'ai rencontré une tribu d'hommes du Nord : un peuple semi-civilisé habitant les contrées inhospitalières de Ruathym, à des centaines de lieues d'Eauprofonde et de la Côte des Epées. Ils m'ont fait savoir que si je voulais intégrer leur société, je devrais accomplir pour eux un certain nombre de quêtes. La première d'entre elles est de leur retrouver un bâton de Chaman, un objet magique de puissance mineure, et de le ramener au Conseil des Anciens le plus vite possible.~
+J'ai rencontrÃ© une tribu d'hommes du Nord : un peuple semi-civilisÃ© habitant les contrÃ©es inhospitaliÃ¨res de Ruathym, Ã  des centaines de lieues d'Eauprofonde et de la CÃ´te des EpÃ©es. Ils m'ont fait savoir que si je voulais intÃ©grer leur sociÃ©tÃ©, je devrais accomplir pour eux un certain nombre de quÃªtes. La premiÃ¨re d'entre elles est de leur retrouver un bÃ¢ton de Chaman, un objet magique de puissance mineure, et de le ramener au Conseil des Anciens le plus vite possible.~
 @62 = ~Relations Tribales
 
-Le Conseil des Anciens du Nord, pour qui je travaille afin qu'ils m'intègrent dans leur tribu de guerriers et de barbares, m'ont assigné une autre quête. Je dois naviguer par-delà les eaux pour retourner à Athkatla afin d'y débusquer et détruire une présence que les Anciens ont sentie. Ils ne sont pas tout à fait sûrs de l'endroit exact où se trouve cette menace, mais ils savent qu'elle doit être anéantie avant qu'elle ne fasse du mal au gens qui peuplent Toril.~
+Le Conseil des Anciens du Nord, pour qui je travaille afin qu'ils m'intÃ¨grent dans leur tribu de guerriers et de barbares, m'ont assignÃ© une autre quÃªte. Je dois naviguer par-delÃ  les eaux pour retourner Ã  Athkatla afin d'y dÃ©busquer et dÃ©truire une prÃ©sence que les Anciens ont sentie. Ils ne sont pas tout Ã  fait sÃ»rs de l'endroit exact oÃ¹ se trouve cette menace, mais ils savent qu'elle doit Ãªtre anÃ©antie avant qu'elle ne fasse du mal au gens qui peuplent Toril.~
 @63 = ~Relations Tribales
 
-Comme le Conseil du Nord me l'avait demandé, j'ai voyagé par-delà les eaux pour retourner sur le continent. Je suis revenu à Athkatla pour y détruire un démon qui avait trouvé son chemin vers Féérune depuis le plan éthéré. Une fois revenu sur l'île de Ruathym, j'ai surpris un contingent de soldats de la ville de Luskan, au nord de la Côte des Epées, qui tentaient d'envahir l'île, comme ils essayent de le faire depuis des années. J'ai pu repousser l'envahisseur, et le Conseil des Anciens m'a récompensé une fois que les Luskaniens sont repartis.~
+Comme le Conseil du Nord me l'avait demandÃ©, j'ai voyagÃ© par-delÃ  les eaux pour retourner sur le continent. Je suis revenu Ã  Athkatla pour y dÃ©truire un dÃ©mon qui avait trouvÃ© son chemin vers FÃ©Ã©rune depuis le plan Ã©thÃ©rÃ©. Une fois revenu sur l'Ã®le de Ruathym, j'ai surpris un contingent de soldats de la ville de Luskan, au nord de la CÃ´te des EpÃ©es, qui tentaient d'envahir l'Ã®le, comme ils essayent de le faire depuis des annÃ©es. J'ai pu repousser l'envahisseur, et le Conseil des Anciens m'a rÃ©compensÃ© une fois que les Luskaniens sont repartis.~
 @64 = ~Apprentissage Tribal
 
-Le Conseil des Anciens du Nord a franchi une étape supplémentaire dans mon intégration dans leur peuple de guerriers et de barbares. Ils m'ont aidé en m'enseignant des techniques de survie dans les lieux sauvages.~
+Le Conseil des Anciens du Nord a franchi une Ã©tape supplÃ©mentaire dans mon intÃ©gration dans leur peuple de guerriers et de barbares. Ils m'ont aidÃ© en m'enseignant des techniques de survie dans les lieux sauvages.~
 @65 = ~Apprentissage Tribal
 
-Le Conseil des Anciens du Nord a franchi une étape supplémentaire dans mon intégration dans leur peuple de guerriers et de barbares. Ils m'ont aidé en m'enseignant comment effrayer mes ennemis en poussant un terrible Cri de Guerre.~
+Le Conseil des Anciens du Nord a franchi une Ã©tape supplÃ©mentaire dans mon intÃ©gration dans leur peuple de guerriers et de barbares. Ils m'ont aidÃ© en m'enseignant comment effrayer mes ennemis en poussant un terrible Cri de Guerre.~
 @66 = ~Apprentissage Tribal
 
-Le Conseil des Anciens du Nord a franchi une étape supplémentaire dans mon intégration dans leur peuple de guerriers et de barbares. Ils m'ont aidé en m'enseignant comment utiliser ma force et mes capacités physiques en un seul terrible Coup Fatal contre mes ennemis.~
+Le Conseil des Anciens du Nord a franchi une Ã©tape supplÃ©mentaire dans mon intÃ©gration dans leur peuple de guerriers et de barbares. Ils m'ont aidÃ© en m'enseignant comment utiliser ma force et mes capacitÃ©s physiques en un seul terrible Coup Fatal contre mes ennemis.~

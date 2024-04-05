@@ -1,147 +1,147 @@
-@1   = ~Oyez ! Personne n’sera blessé. J’vous disions qu’feriez bien de laisser choir vos armes.~
-@2   = ~D’toutes façons, si vous avez en tête de m’faire du mal, j’avions avec moi que’ques bons amis, mais soyez point z’inquiets. Y vous f’ront point d’mal si vous m’faisiez point de mal à moué.~
-@3   = ~M’est avis que j’me ramollis, mais les cerfs y semblent un peu z’inquiets quand y a des étrangers, alors faites point z’attention à eux, voyez ?~
-@4   = ~Bah ! Où qu’sont mes manières ? Crowley que j’m’appelle. Rôdeur vagabond sur tous les ch’mins m’nant à cette forêt. Comment qu’c’est que j’dois t’appeler l’ami ?~ ~Bah ! Où qu’sont mes manières ? Crowley que j’m’appelle. Rôdeur vagabond sur tous les ch’mins m’nant à cette forêt. Comment qu’c’est que j’dois t’appeler l’amie ?~
-@5   = ~Vous n’avez pas besoin de le savoir.~
+@1   = ~Oyez ! Personne nâ€™sera blessÃ©. Jâ€™vous disions quâ€™feriez bien de laisser choir vos armes.~
+@2   = ~Dâ€™toutes faÃ§ons, si vous avez en tÃªte de mâ€™faire du mal, jâ€™avions avec moi queâ€™ques bons amis, mais soyez point zâ€™inquiets. Y vous fâ€™ront point dâ€™mal si vous mâ€™faisiez point de mal Ã  mouÃ©.~
+@3   = ~Mâ€™est avis que jâ€™me ramollis, mais les cerfs y semblent un peu zâ€™inquiets quand y a des Ã©trangers, alors faites point zâ€™attention Ã  eux, voyez ?~
+@4   = ~Bah ! OÃ¹ quâ€™sont mes maniÃ¨res ? Crowley que jâ€™mâ€™appelle. RÃ´deur vagabond sur tous les châ€™mins mâ€™nant Ã  cette forÃªt. Comment quâ€™câ€™est que jâ€™dois tâ€™appeler lâ€™ami ?~ ~Bah ! OÃ¹ quâ€™sont mes maniÃ¨res ? Crowley que jâ€™mâ€™appelle. RÃ´deur vagabond sur tous les châ€™mins mâ€™nant Ã  cette forÃªt. Comment quâ€™câ€™est que jâ€™dois tâ€™appeler lâ€™amie ?~
+@5   = ~Vous nâ€™avez pas besoin de le savoir.~
 @6   = ~Mon nom est <GABBER>, je suis ravi de vous rencontrer.~ ~Mon nom est <GABBER>, je suis ravie de vous rencontrer.~
 @7   = ~Depuis combien de temps vivez-vous ici ?~
-@8   = ~J’disions que, sauf vot’ respect l’ami, si vous voulez point z’être amical, vous risquez fort d’rencontrer un piège à ours sur vot’ch’min de randonnée.~ ~J’disions que, sauf vot’ respect l’amie, si vous voulez point z’être amicale, vous risquez fort d’rencontrer un piège à ours sur vot’ch’min de randonnée.~
-@9   = ~J’disions qu’ça r’monte ben à une dizaine d’années maint’nant. J’connaissions ces bois comme ma poche. Bah ! J’connaissions ben des jeux de piste, voyez ? Bon, comment qu’vous avez dit qu’vous vous appelez ?~
-@10  = ~J'disons qu'c'est bon. Ecoute, <GABBER>, j’sais sentir un collègue rôdeur quand c’est qu’j’en vois un. J’connaissions aussi ces bois comme ma poche. M’a fallu des années pour connaître les p’tits secrets d’ces bois.~ ~J'disons qu'c'est bon. Ecoute, <GABBER>, j’sais sentir une collègue rôdeuse quand c’est qu’j’en vois une. J’connaissions aussi ces bois comme ma poche. M’a fallu des années pour connaître les p’tits secrets d’ces bois.~
-@11  = ~J’avions point vu d’rôdeur d’puis des années. P’t’ête ben que t’aim’rais que j’t’apprenions c’que j’sais ? V’là qu’y m’plairait ben, mais faudra d’abord qu’tu m’donnes un coup d’main.~
-@12  = ~Bien sûr que je peux vous aider. J’adore apprendre de nouveaux secrets.~
-@13  = ~Je n’ai pas le temps de vous aider maintenant. Peut-être que je repasserai plus tard.~
-@14  = ~J’disions que j’te prendrions point trop d’ton temps. M’en vais t’dire tout c’que t’as b’soin de savoir. Just’au nord d’ici, y a une rivière qui s’jette dans un bassin, situé au bas d’une cascade. Bah ! Mes amis d’la forêt y d’viennent dingues d’puis qu’y boivent l’eau d’la cascade. J’veux que t’ailles m’dénicher l’problème et qu’tu vois pourquoi qu’mes animaux y tombent malades.~
-@15  = ~Qu’je sois maudit si c’est-y pas mon vieil ami l’rôdeur <GABBER> ! Content d’te r’voir. T’as pu trouver pourquoi qu’mes animaux y tombent malades ?~ ~Qu’je sois maudit si c’est-y pas ma bonne amie la rôdeuse <GABBER> ! Content d’te r’voir. T’as pu trouver pourquoi qu’mes animaux y tombent malades ?~
-@16  = ~Non Crowley, je n’ai pas encore élucidé ce mystère.~
-@17  = ~Oui Crowley. Je pense que j’en ai trouvé l’origine : une carcasse de daim mort polluait la rivière. Je l’ai retirée et l’eau devrait retrouver sa pureté bientôt.~
-@18  = ~Rappelez-moi ce que je devais faire pour vous, déjà ?~
-@19  = ~J’disions qu’t’es assez malin pour résoudre c’problème. Tiens-moi ben au courant, hein ?~ ~J’disions qu’t’es assez maligne pour résoudre c’problème. Tiens-moi ben au courant, hein ?~
-@20  = ~J’commencerions presqu’à croire que t’es trop bête. R’monte donc la rivière en amont jusqu’à c’que tu trouves pourquoi qu’mes animaux y tombent malades. Tiens-moi ben au courant de c’que t’auras trouvé, d’accord ?~
-@21  = ~J’disions que c’est comme ça avec les bêtes, hein ? J’étions quand même désolé d’apprendre ça, t’vois ? J’disions qu’ç’a pas dû êt' facile d’tirer c’te carcasse de l’eau, hein ?~
-@22  = ~J’t’avions dis que j’t’apprendrai que’qu’chose si t’es point feignant et qu’tu travailles avec sérieux c’que j’ai à t’montrer.~ ~J’t’avions dis que j’t’apprendrai que’qu’chose si t’es point feignante et qu’tu travailles avec sérieux c’que j’ai à t’montrer.~
-@23  = ~Qu’est-ce qu’t’as donc envie d’apprendre, hein ? Comment qu’ben traquer les créatures, comment qu’on pose d’bons collets ou comment qu’tu trouves et r’tires les mauvais pièges ?~
-@24  = ~Je crois que j’aimerais apprendre comment traquer les créatures plus efficacement.~
-@25  = ~J’aimerais beaucoup apprendre comment poser des collets.~
-@26  = ~Je veux savoir comment détecter et désamorcer des pièges efficacement.~
-@27  = ~Pas d’problème l’ami. Suis-moué et j’te mont’rai quê’ques vieux trucs.~ ~Pas d’problème l’amie. Suis-moué et j’te mont’rai quê’ques vieux trucs.~
-@28  = ~J’disions qu’t’es sur’ment capable d’comprendre l’genre de bêtes qui sont passées dans l’coin si t’y r’gardes bien.~
-@29  = ~J’disions qu’t’es sur’ment capable d’poser d’bons collets pour attraper quê’ques bestioles.~
-@30  = ~J’disions qu’t’es sur’ment capable d’trouver et d’retirer les pièges qui pourraient t’blesser.~
-@31  = ~Tiens-moi ben au courant de c’que t’auras trouvé. J’restions à trainasser dans l’coin.~
-@32  = ~<GABBER> ! Mon ami ! C’est bon d’te r’voir. J’disions qu’ça fait une paye qu’j’ai point vu quê’qu’un dans l’coin. Bah ! Tu crois qu’tu pourrais m’donner un coup d’main ? Je pourrions t’apprendre que’ques trucs si tu m’aides.~ ~<GABBER> ! Mon amie ! C’est bon d’te r’voir. J’disions qu’ça fait une paye qu’j’ai point vu quê’qu’un dans l’coin. Bah ! Tu crois qu’tu pourrais m’donner un coup d’main ? Je pourrions t’apprendre que’ques trucs si tu m’aides.~
-@33  = ~Bien sûr Crowley. De quoi as-tu besoin ?~
-@34  = ~En fait, je suis un peu pressé. Je reviendrai plus tard.~ ~En fait, je suis un peu pressée. Je reviendrai plus tard.~
-@35  = ~Pas d’problème. Prends ton temps, <GABBER>. J’allions nul’part d’toute façon.~
-@36  = ~J’disions qu’c’est un sacré morceau et qu’y faudra sortir du bois pour comprendre c’qui s’passe.~
-@37  = ~J’pourrions pas t’dire vraiment, mais y a comme une présence dans l’coin. Quê’que-chose de foutrement maléfique pour sûr. J’sens ben qu’c’est pas naturel.~
-@38  = ~Tout c’que j’savions c’est qu’ça s’passe près d’Athkatla. J’disions qu’je sais point ‘xact’ment c’que c’est et qu’je savions point trop où c’est-y qu’ça s’passe. Mais aussi sûr qu’le soleil y brille, y a une menace sur c’te région !~
-@39  = ~Tu pourrais p’t’ête trouver c’qui s’passe et t’en occuper pour moué ?~
-@40  = ~Où puis-je ressentir cette présence, Crowley ?~
+@8   = ~Jâ€™disions que, sauf votâ€™ respect lâ€™ami, si vous voulez point zâ€™Ãªtre amical, vous risquez fort dâ€™rencontrer un piÃ¨ge Ã  ours sur votâ€™châ€™min de randonnÃ©e.~ ~Jâ€™disions que, sauf votâ€™ respect lâ€™amie, si vous voulez point zâ€™Ãªtre amicale, vous risquez fort dâ€™rencontrer un piÃ¨ge Ã  ours sur votâ€™châ€™min de randonnÃ©e.~
+@9   = ~Jâ€™disions quâ€™Ã§a râ€™monte ben Ã  une dizaine dâ€™annÃ©es maintâ€™nant. Jâ€™connaissions ces bois comme ma poche. Bah ! Jâ€™connaissions ben des jeux de piste, voyez ? Bon, comment quâ€™vous avez dit quâ€™vous vous appelez ?~
+@10  = ~J'disons qu'c'est bon. Ecoute, <GABBER>, jâ€™sais sentir un collÃ¨gue rÃ´deur quand câ€™est quâ€™jâ€™en vois un. Jâ€™connaissions aussi ces bois comme ma poche. Mâ€™a fallu des annÃ©es pour connaÃ®tre les pâ€™tits secrets dâ€™ces bois.~ ~J'disons qu'c'est bon. Ecoute, <GABBER>, jâ€™sais sentir une collÃ¨gue rÃ´deuse quand câ€™est quâ€™jâ€™en vois une. Jâ€™connaissions aussi ces bois comme ma poche. Mâ€™a fallu des annÃ©es pour connaÃ®tre les pâ€™tits secrets dâ€™ces bois.~
+@11  = ~Jâ€™avions point vu dâ€™rÃ´deur dâ€™puis des annÃ©es. Pâ€™tâ€™Ãªte ben que tâ€™aimâ€™rais que jâ€™tâ€™apprenions câ€™que jâ€™sais ? Vâ€™lÃ  quâ€™y mâ€™plairait ben, mais faudra dâ€™abord quâ€™tu mâ€™donnes un coup dâ€™main.~
+@12  = ~Bien sÃ»r que je peux vous aider. Jâ€™adore apprendre de nouveaux secrets.~
+@13  = ~Je nâ€™ai pas le temps de vous aider maintenant. Peut-Ãªtre que je repasserai plus tard.~
+@14  = ~Jâ€™disions que jâ€™te prendrions point trop dâ€™ton temps. Mâ€™en vais tâ€™dire tout câ€™que tâ€™as bâ€™soin de savoir. Justâ€™au nord dâ€™ici, y a une riviÃ¨re qui sâ€™jette dans un bassin, situÃ© au bas dâ€™une cascade. Bah ! Mes amis dâ€™la forÃªt y dâ€™viennent dingues dâ€™puis quâ€™y boivent lâ€™eau dâ€™la cascade. Jâ€™veux que tâ€™ailles mâ€™dÃ©nicher lâ€™problÃ¨me et quâ€™tu vois pourquoi quâ€™mes animaux y tombent malades.~
+@15  = ~Quâ€™je sois maudit si câ€™est-y pas mon vieil ami lâ€™rÃ´deur <GABBER> ! Content dâ€™te râ€™voir. Tâ€™as pu trouver pourquoi quâ€™mes animaux y tombent malades ?~ ~Quâ€™je sois maudit si câ€™est-y pas ma bonne amie la rÃ´deuse <GABBER> ! Content dâ€™te râ€™voir. Tâ€™as pu trouver pourquoi quâ€™mes animaux y tombent malades ?~
+@16  = ~Non Crowley, je nâ€™ai pas encore Ã©lucidÃ© ce mystÃ¨re.~
+@17  = ~Oui Crowley. Je pense que jâ€™en ai trouvÃ© lâ€™origine : une carcasse de daim mort polluait la riviÃ¨re. Je lâ€™ai retirÃ©e et lâ€™eau devrait retrouver sa puretÃ© bientÃ´t.~
+@18  = ~Rappelez-moi ce que je devais faire pour vous, dÃ©jÃ  ?~
+@19  = ~Jâ€™disions quâ€™tâ€™es assez malin pour rÃ©soudre câ€™problÃ¨me. Tiens-moi ben au courant, hein ?~ ~Jâ€™disions quâ€™tâ€™es assez maligne pour rÃ©soudre câ€™problÃ¨me. Tiens-moi ben au courant, hein ?~
+@20  = ~Jâ€™commencerions presquâ€™Ã  croire que tâ€™es trop bÃªte. Râ€™monte donc la riviÃ¨re en amont jusquâ€™Ã  câ€™que tu trouves pourquoi quâ€™mes animaux y tombent malades. Tiens-moi ben au courant de câ€™que tâ€™auras trouvÃ©, dâ€™accord ?~
+@21  = ~Jâ€™disions que câ€™est comme Ã§a avec les bÃªtes, hein ? Jâ€™Ã©tions quand mÃªme dÃ©solÃ© dâ€™apprendre Ã§a, tâ€™vois ? Jâ€™disions quâ€™Ã§â€™a pas dÃ» Ãªt' facile dâ€™tirer câ€™te carcasse de lâ€™eau, hein ?~
+@22  = ~Jâ€™tâ€™avions dis que jâ€™tâ€™apprendrai queâ€™quâ€™chose si tâ€™es point feignant et quâ€™tu travailles avec sÃ©rieux câ€™que jâ€™ai Ã  tâ€™montrer.~ ~Jâ€™tâ€™avions dis que jâ€™tâ€™apprendrai queâ€™quâ€™chose si tâ€™es point feignante et quâ€™tu travailles avec sÃ©rieux câ€™que jâ€™ai Ã  tâ€™montrer.~
+@23  = ~Quâ€™est-ce quâ€™tâ€™as donc envie dâ€™apprendre, hein ? Comment quâ€™ben traquer les crÃ©atures, comment quâ€™on pose dâ€™bons collets ou comment quâ€™tu trouves et râ€™tires les mauvais piÃ¨ges ?~
+@24  = ~Je crois que jâ€™aimerais apprendre comment traquer les crÃ©atures plus efficacement.~
+@25  = ~Jâ€™aimerais beaucoup apprendre comment poser des collets.~
+@26  = ~Je veux savoir comment dÃ©tecter et dÃ©samorcer des piÃ¨ges efficacement.~
+@27  = ~Pas dâ€™problÃ¨me lâ€™ami. Suis-mouÃ© et jâ€™te montâ€™rai quÃªâ€™ques vieux trucs.~ ~Pas dâ€™problÃ¨me lâ€™amie. Suis-mouÃ© et jâ€™te montâ€™rai quÃªâ€™ques vieux trucs.~
+@28  = ~Jâ€™disions quâ€™tâ€™es surâ€™ment capable dâ€™comprendre lâ€™genre de bÃªtes qui sont passÃ©es dans lâ€™coin si tâ€™y râ€™gardes bien.~
+@29  = ~Jâ€™disions quâ€™tâ€™es surâ€™ment capable dâ€™poser dâ€™bons collets pour attraper quÃªâ€™ques bestioles.~
+@30  = ~Jâ€™disions quâ€™tâ€™es surâ€™ment capable dâ€™trouver et dâ€™retirer les piÃ¨ges qui pourraient tâ€™blesser.~
+@31  = ~Tiens-moi ben au courant de câ€™que tâ€™auras trouvÃ©. Jâ€™restions Ã  trainasser dans lâ€™coin.~
+@32  = ~<GABBER> ! Mon ami ! Câ€™est bon dâ€™te râ€™voir. Jâ€™disions quâ€™Ã§a fait une paye quâ€™jâ€™ai point vu quÃªâ€™quâ€™un dans lâ€™coin. Bah ! Tu crois quâ€™tu pourrais mâ€™donner un coup dâ€™main ? Je pourrions tâ€™apprendre queâ€™ques trucs si tu mâ€™aides.~ ~<GABBER> ! Mon amie ! Câ€™est bon dâ€™te râ€™voir. Jâ€™disions quâ€™Ã§a fait une paye quâ€™jâ€™ai point vu quÃªâ€™quâ€™un dans lâ€™coin. Bah ! Tu crois quâ€™tu pourrais mâ€™donner un coup dâ€™main ? Je pourrions tâ€™apprendre queâ€™ques trucs si tu mâ€™aides.~
+@33  = ~Bien sÃ»r Crowley. De quoi as-tu besoin ?~
+@34  = ~En fait, je suis un peu pressÃ©. Je reviendrai plus tard.~ ~En fait, je suis un peu pressÃ©e. Je reviendrai plus tard.~
+@35  = ~Pas dâ€™problÃ¨me. Prends ton temps, <GABBER>. Jâ€™allions nulâ€™part dâ€™toute faÃ§on.~
+@36  = ~Jâ€™disions quâ€™câ€™est un sacrÃ© morceau et quâ€™y faudra sortir du bois pour comprendre câ€™qui sâ€™passe.~
+@37  = ~Jâ€™pourrions pas tâ€™dire vraiment, mais y a comme une prÃ©sence dans lâ€™coin. QuÃªâ€™que-chose de foutrement malÃ©fique pour sÃ»r. Jâ€™sens ben quâ€™câ€™est pas naturel.~
+@38  = ~Tout câ€™que jâ€™savions câ€™est quâ€™Ã§a sâ€™passe prÃ¨s dâ€™Athkatla. Jâ€™disions quâ€™je sais point â€˜xactâ€™ment câ€™que câ€™est et quâ€™je savions point trop oÃ¹ câ€™est-y quâ€™Ã§a sâ€™passe. Mais aussi sÃ»r quâ€™le soleil y brille, y a une menace sur câ€™te rÃ©gion !~
+@39  = ~Tu pourrais pâ€™tâ€™Ãªte trouver câ€™qui sâ€™passe et tâ€™en occuper pour mouÃ© ?~
+@40  = ~OÃ¹ puis-je ressentir cette prÃ©sence, Crowley ?~
 @41  = ~Je ferai de mon mieux, Crowley.~
-@42  = ~Crowley, je ne pense vraiment pas que je sois capable de mettre fin à une menace aussi sérieuse.~
-@43  = ~Comme j’t’avions dis, tout c’qu’y a à savoir c’est qu’ce mal y vient d’Athkatla. Tu d’vrais sans doute aller j’ter un oeil là-bas d’abord. Tiens-moi ben au courant si tu trouves quê’que-chose.~
-@44  = ~<GABBER>, comme j’t’avions dis, aussi sûr qu’la fouine est une vermine, c’machin maléfique y m’nace la région. Si t’as un peu confiance en toué, bonne chance j’suis certain qu’tu peux t’en occuper.~
-@45  = ~J’étions sûr qu’tu f’ras d’ton mieux, <GABBER>. Tiens-moi ben au courant si tu trouves quê’que-chose.~
-@46  = ~Hé <GABBER> ! J’sens dans mes os qu’t’as pas pu détruire c’te présence maléfique. Qu’est-ce que j’peux faire pour toué ?~
-@47  = ~Je n’arrive pas à trouver cette présence. Sais-tu où elle est ?~
-@48  = ~J’te l’avions d’jà dit <GABBER> : tout c’que j’savions c’est qu’je sens qu’y vient d’Athkatla.~
-@49  = ~Désolé l’ami, mais j’pouvions rien t’faire de plus que t’dire qu’là où la présence elle semble la plus forte, c’est dans l’ouest de la ville.~ ~Désolé l’amie, mais j’pouvions rien t’faire de plus que t’dire que là où la présence elle semble la plus forte, c’est dans l’ouest de la ville.~
-@50  = ~M’en vais t’dire ça : la présence elle est quê’que-part près d’un point d’eau. P’t’ête ben une rivière ? J’pouvons rien t’dire de certain.~
-@51  = ~Le Mal y rôde sous la surface, <GABBER>. Pour j’sais point quelle raison, j’avions une sensation d’souffre, d’sel et d’pourriture.~ 
-@52  = ~J’aimerions ben pouvoir être plus précis. Tout c’que j’savions c’est qu’le Mal il est plus puissant dans l’ouest d’Athkatla, près d’l’eau et sous la surface.~ ~J’aimerions ben pouvoir être plus précis. Tout c’que j’savions c’est qu’le Mal il est plus puissant dans l’ouest d’Athkatla, près d’l’eau et sous la surface.~
-@53  = ~C’est bon d’te r’voir camarade ! T’sais quoi ? Je n’sens plus aucun mal v’nant d’Athkatla. Raconte voir un peu c’qu’y s’est passé.~
-@54  = ~Il y avait là-bas un démon que j’ai banni, mais il n’a pas été détruit.~
-@55  = ~Il y avait là-bas un démon que j’ai détruit. Il n’y a plus d’inquiétude à avoir.~
-@56  = ~Pour sûr qu’c’est une sacré bonne nouvelle l’ami ! Bon boulot ! Viens donc et laisse-moué t’apprendre que’ques trucs pour dev’nir un bon rôdeur.~ ~Pour sûr qu’c’est une sacré bonne nouvelle l’amie ! Bon boulot ! Viens donc et laisse-moué t’apprendre que’ques trucs pour dev’nir une bonne rôdeuse.~
-@57  = ~T’en fais pas si t’as pas pu détruire c’qu’était là-bas, <GABBER>.~
-@58  = ~Ça ira ben et j’reviendrai point sur ma promesse, alors dis-moué c’que t’aimerais que j’t’apprenne.~
-@59  = ~Qu’est-ce qu’t’as envie d’apprendre hein ? Comment qu’y faut poser les collets, comment survivre dans l’bois ou tu veux qu’je t’aide à mieux t’servir d’tes armes de tir ?~
-@60  = ~Je veux apprendre comment poser un piège. Peux-tu me l’enseigner, Crowley ?~
-@61  = ~Survivre dans les bois. Peux-tu m’apprendre ça, Crowley ?~
-@62  = ~Comment utiliser des armes de tir ? Et ne jamais manquer sa cible ? Oui Crowley, je veux bien que tu m’apprennes ça.~
-@63  = ~Pour sur que j’pouvions faire ça pour toué. Viens donc faire un tour dans l’bois que j’te montre c’que j’savions.~
-@64  = ~J’disions qu’tu d’vras t’entraîner à c’que j’va t’montrer, mais j’suis sûr qu’tu s’ras vite capable d’poser des pièges tranquil’.~
-@65  = ~J’disions qu’tu d’vras t’entraîner à c’que j’va t’montrer, mais j’suis sûr qu’tu s’ras vite capable d’mieux t’débrouiller dans l’bois.~
-@66  = ~J’disions qu’tu d’vras t’entraîner à c’que j’va t’montrer, mais j’suis sûr qu’tu s’ras vite capable d’mieux utiliser un arc, une hache de jet, une dague, une arbalète ou n’import’quel autre arme de tir.~
-@67  = ~Si c’est pas mon vieil ami ? Comment qu’tu vas donc ? T’as vu qu’que-chose de neuf ou d’intéressant dans tes voyages ? Attends. Ne m’dis point maint’nant. On s’posera devant un bon feu et on s’racont’ra des histoires plus tard. J’avions b’soin d’ton aide maint’nant. T’as bien quê’ques jours à perdre ?~ ~Si c’est pas ma bonne amie ? Comment qu’tu vas donc ? T’as vu qu’que-chose de neuf ou d’intéressant dans tes voyages ? Attends. Ne m’dis point maint’nant. On s’posera devant un bon feu et on s’racont’ra des histoires plus tard. J’avions b’soin d’ton aide maint’nant. T’as bien que’ques jours à perdre ?~
-@68  = ~Pas maintenant, Crowley. Je dois m’occuper de certaines choses.~
-@69  = ~Pas d’problème l’ami. Tu m’feras savoir quand c’est qu’t’auras l’temps de m’aider.~ ~Pas d’problème l’amie. Tu m’feras savoir quand c’est qu’t’auras l’temps de m’aider.~
-@70  = ~R’garde donc par là l’ami : c’est ma vieille hache. Elle a plus servi d’puis ben des années et c’est une sacrée bonne hache, mais elle m’semble comme qui dirait fatiguée maint’nant. Y a rien qui n’puisse être réparé, mais y faudra utiliser les bons outils.~ ~R’garde donc par là l’amie : c’est ma vieille hache. Elle a plus servi d’puis ben des années et c’est une sacrée bonne hache, mais elle m’semble comme qui dirait fatiguée maint’nant. Y a rien qui n’puisse être réparé, mais y faudra utiliser les bons outils.~
-@71  = ~J’disions donc qu’elle pouvait être réparée, mais y faudra qu’tu trouves un vieil ami nain à moué, appelé Cromwell, pour qu’y la r’mette en état pour moué. T’es pas obligé d’lui apporter et d’la faire réparer, mais dis-toué ben que j’te récompens’rai si j’retrouvions ma hache ben affûtée.~ ~J’disions donc qu’elle pouvait être réparée, mais y faudra qu’tu trouves un vieil ami nain à moué, appelé Cromwell, pour qu’y la r’mette en état pour moué. T’es pas obligée d’lui apporter et d’la faire réparer, mais dis-toué ben que j’te récompens’rai si j’retrouvions ma hache ben affutée.~
-@72  = ~J’essaierai, Crowley.~
-@73  = ~J’disions qu’y faudra m’faire savoir c’que t’as pu faire.~
-@74  = ~Boudiou ! J’m’attendions point à t’revoir un jour. T’as pu affûter ma hache ?~
-@75  = ~Oui Crowley. C’est fait.~
-@76  = ~Désolé Crowley. Je n’ai pas encore eu le temps de m’en occuper.~
-@77  = ~Dis-moué donc si t’arrives à la faire affûter.~
-@78  = ~C’est-y point beau ? J’va t’dire c’que j’pense. J’en aurai point besoin lors d’mes p’tites escapades. J’suis sûr qu’t’en auras plus l’usage que moué. Laisse-moi donc t’montrer comment l’utiliser au mieux.~
-@79  = ~Nous y v’là. Bah ! L’cadeau d’Crowley. Tu peux prendre ma hache s’tu veux. J’disions qu’j’ai promis d’t’apprendre que’que-chose et j’va point rev’nir sur ma parole.~
-@80  = ~Dis-moi donc c’que tu voudrais qu’je t’apprenne : comment mieux t’cacher dans les ombres, comment utiliser un tas de clous à quat' pointes - tu vois d’quoi j’veux parler - à j’ter sur l’sol, ou tu veux que j’te dise comment survivre dans l’bois ?~
-@81  = ~Tu pourrais m’aider à améliorer mes compétences en furtivité ? J’aimerais en savoir plus...~
-@82  = ~Tu peux me montrer comment poser des pièges ? Oui, je veux apprendre ça, Crowley.~
-@83  = ~Peux-tu m’en dire un peu plus sur la manière de survivre dans la nature ?~
-@84  = ~J’disions qu’tu d’vras t’entraîner un peu, mais viens donc. Y a point d’meilleur moment qu’maintenant.~
-@85  = ~Bah ! Maint’nant, tu peux t’cacher dans les broussailles, les prairies ou même dans ces foutues cités. Fais juste attention de n’pas trop t’découvrir.~
-@86  = ~Maint’nant, tu sais comment répandre des clous à quat' pointes sur l’sol pour ralentir et blesser les ennemis qui s’approch’raient d’trop.~
-@87  = ~Bah ! Maint’nant, tu sais tout d’la survie dans l’bois. Tu d’vrais plus pouvoir t’perdre en forêt sous un bon clair de lune.~
-@88  = ~On dirait qu’j’avions un problème. J’va devoir partir faire un tour dans l’bois et j’avions pas l’temps d’m’attarder dans l’coin pour causer. Tu pourras r’venir m’voir si un jour tu décides de v’nir vivre dans l’bois.~
-@89  = ~On dirait qu’j’avions un problème. J’va devoir partir faire un tour dans l’bois et j’avions pas l’temps d’m’attarder dans l’coin pour causer.~
-@90  = ~Dis-moi donc c’que tu voudrais qu’je t’apprenne : comment mieux t’cacher dans les ombres, comment utiliser un tas de clous à quat' pointes - tu vois d’quoi j’veux parler - à j’ter sur l’sol, tu veux que j’te dise comment survivre dans l’bois ou tu veux que j’t’apprenne comment qu’on s’sert d’certains outils magiques ?~
-@91  = ~J’aimerais bien apprendre comment utiliser des objets magiques. Tu peux me l'enseigner ?~
-@92  = ~J’disions que j’peux essayer l’ami, mais j’va pas t’promettre qu’tu s’ras capable de comprendre. Viens donc, on va essayer.~ ~J’disions que j’peux essayer l’amie, mais j’va pas t’promettre qu’tu s’ras capable de comprendre. Viens donc, on va essayer.~
-@93  = ~J’disions qu’tu tiens l’bon bout. Maint’nant, comme beaucoup de nous autres, tu peux utiliser toutes sortes de sorts comme c’est qu’tu veux. Dis-toi seul’ment que, comme ça t'semble sans doute évident, tu n’pourras point utiliser la magie si tu portes une armure.~
-@94  = ~J’disions qu’tu ne sembles point capable d’apprendre comment utiliser les choses magiques. Tu dois seul’ment continuer à t’entraîner, tu vois c’que j’veux dire ?~
-@95  = ~Désolé l’ami, mais j’aime point trop voir d’étrangers dans l’bois. Les animaux non plus y z’aiment point, si tu vois c’que j’veux dire...~ ~Désolé l’amie, mais j’aime point trop voir d’étrangers dans l’bois. Les animaux non plus y z’aiment point, si tu vois c’que j’veux dire...~
-@96 = ~La cabane du rôdeur de Backwoods : La rivière polluée
+@42  = ~Crowley, je ne pense vraiment pas que je sois capable de mettre fin Ã  une menace aussi sÃ©rieuse.~
+@43  = ~Comme jâ€™tâ€™avions dis, tout câ€™quâ€™y a Ã  savoir câ€™est quâ€™ce mal y vient dâ€™Athkatla. Tu dâ€™vrais sans doute aller jâ€™ter un oeil lÃ -bas dâ€™abord. Tiens-moi ben au courant si tu trouves quÃªâ€™que-chose.~
+@44  = ~<GABBER>, comme jâ€™tâ€™avions dis, aussi sÃ»r quâ€™la fouine est une vermine, câ€™machin malÃ©fique y mâ€™nace la rÃ©gion. Si tâ€™as un peu confiance en touÃ©, bonne chance jâ€™suis certain quâ€™tu peux tâ€™en occuper.~
+@45  = ~Jâ€™Ã©tions sÃ»r quâ€™tu fâ€™ras dâ€™ton mieux, <GABBER>. Tiens-moi ben au courant si tu trouves quÃªâ€™que-chose.~
+@46  = ~HÃ© <GABBER> ! Jâ€™sens dans mes os quâ€™tâ€™as pas pu dÃ©truire câ€™te prÃ©sence malÃ©fique. Quâ€™est-ce que jâ€™peux faire pour touÃ© ?~
+@47  = ~Je nâ€™arrive pas Ã  trouver cette prÃ©sence. Sais-tu oÃ¹ elle est ?~
+@48  = ~Jâ€™te lâ€™avions dâ€™jÃ  dit <GABBER> : tout câ€™que jâ€™savions câ€™est quâ€™je sens quâ€™y vient dâ€™Athkatla.~
+@49  = ~DÃ©solÃ© lâ€™ami, mais jâ€™pouvions rien tâ€™faire de plus que tâ€™dire quâ€™lÃ  oÃ¹ la prÃ©sence elle semble la plus forte, câ€™est dans lâ€™ouest de la ville.~ ~DÃ©solÃ© lâ€™amie, mais jâ€™pouvions rien tâ€™faire de plus que tâ€™dire que lÃ  oÃ¹ la prÃ©sence elle semble la plus forte, câ€™est dans lâ€™ouest de la ville.~
+@50  = ~Mâ€™en vais tâ€™dire Ã§a : la prÃ©sence elle est quÃªâ€™que-part prÃ¨s dâ€™un point dâ€™eau. Pâ€™tâ€™Ãªte ben une riviÃ¨re ? Jâ€™pouvons rien tâ€™dire de certain.~
+@51  = ~Le Mal y rÃ´de sous la surface, <GABBER>. Pour jâ€™sais point quelle raison, jâ€™avions une sensation dâ€™souffre, dâ€™sel et dâ€™pourriture.~ 
+@52  = ~Jâ€™aimerions ben pouvoir Ãªtre plus prÃ©cis. Tout câ€™que jâ€™savions câ€™est quâ€™le Mal il est plus puissant dans lâ€™ouest dâ€™Athkatla, prÃ¨s dâ€™lâ€™eau et sous la surface.~ ~Jâ€™aimerions ben pouvoir Ãªtre plus prÃ©cis. Tout câ€™que jâ€™savions câ€™est quâ€™le Mal il est plus puissant dans lâ€™ouest dâ€™Athkatla, prÃ¨s dâ€™lâ€™eau et sous la surface.~
+@53  = ~Câ€™est bon dâ€™te râ€™voir camarade ! Tâ€™sais quoi ? Je nâ€™sens plus aucun mal vâ€™nant dâ€™Athkatla. Raconte voir un peu câ€™quâ€™y sâ€™est passÃ©.~
+@54  = ~Il y avait lÃ -bas un dÃ©mon que jâ€™ai banni, mais il nâ€™a pas Ã©tÃ© dÃ©truit.~
+@55  = ~Il y avait lÃ -bas un dÃ©mon que jâ€™ai dÃ©truit. Il nâ€™y a plus dâ€™inquiÃ©tude Ã  avoir.~
+@56  = ~Pour sÃ»r quâ€™câ€™est une sacrÃ© bonne nouvelle lâ€™ami ! Bon boulot ! Viens donc et laisse-mouÃ© tâ€™apprendre queâ€™ques trucs pour devâ€™nir un bon rÃ´deur.~ ~Pour sÃ»r quâ€™câ€™est une sacrÃ© bonne nouvelle lâ€™amie ! Bon boulot ! Viens donc et laisse-mouÃ© tâ€™apprendre queâ€™ques trucs pour devâ€™nir une bonne rÃ´deuse.~
+@57  = ~Tâ€™en fais pas si tâ€™as pas pu dÃ©truire câ€™quâ€™Ã©tait lÃ -bas, <GABBER>.~
+@58  = ~Ã‡a ira ben et jâ€™reviendrai point sur ma promesse, alors dis-mouÃ© câ€™que tâ€™aimerais que jâ€™tâ€™apprenne.~
+@59  = ~Quâ€™est-ce quâ€™tâ€™as envie dâ€™apprendre hein ? Comment quâ€™y faut poser les collets, comment survivre dans lâ€™bois ou tu veux quâ€™je tâ€™aide Ã  mieux tâ€™servir dâ€™tes armes de tir ?~
+@60  = ~Je veux apprendre comment poser un piÃ¨ge. Peux-tu me lâ€™enseigner, Crowley ?~
+@61  = ~Survivre dans les bois. Peux-tu mâ€™apprendre Ã§a, Crowley ?~
+@62  = ~Comment utiliser des armes de tir ? Et ne jamais manquer sa cible ? Oui Crowley, je veux bien que tu mâ€™apprennes Ã§a.~
+@63  = ~Pour sur que jâ€™pouvions faire Ã§a pour touÃ©. Viens donc faire un tour dans lâ€™bois que jâ€™te montre câ€™que jâ€™savions.~
+@64  = ~Jâ€™disions quâ€™tu dâ€™vras tâ€™entraÃ®ner Ã  câ€™que jâ€™va tâ€™montrer, mais jâ€™suis sÃ»r quâ€™tu sâ€™ras vite capable dâ€™poser des piÃ¨ges tranquilâ€™.~
+@65  = ~Jâ€™disions quâ€™tu dâ€™vras tâ€™entraÃ®ner Ã  câ€™que jâ€™va tâ€™montrer, mais jâ€™suis sÃ»r quâ€™tu sâ€™ras vite capable dâ€™mieux tâ€™dÃ©brouiller dans lâ€™bois.~
+@66  = ~Jâ€™disions quâ€™tu dâ€™vras tâ€™entraÃ®ner Ã  câ€™que jâ€™va tâ€™montrer, mais jâ€™suis sÃ»r quâ€™tu sâ€™ras vite capable dâ€™mieux utiliser un arc, une hache de jet, une dague, une arbalÃ¨te ou nâ€™importâ€™quel autre arme de tir.~
+@67  = ~Si câ€™est pas mon vieil ami ? Comment quâ€™tu vas donc ? Tâ€™as vu quâ€™que-chose de neuf ou dâ€™intÃ©ressant dans tes voyages ? Attends. Ne mâ€™dis point maintâ€™nant. On sâ€™posera devant un bon feu et on sâ€™racontâ€™ra des histoires plus tard. Jâ€™avions bâ€™soin dâ€™ton aide maintâ€™nant. Tâ€™as bien quÃªâ€™ques jours Ã  perdre ?~ ~Si câ€™est pas ma bonne amie ? Comment quâ€™tu vas donc ? Tâ€™as vu quâ€™que-chose de neuf ou dâ€™intÃ©ressant dans tes voyages ? Attends. Ne mâ€™dis point maintâ€™nant. On sâ€™posera devant un bon feu et on sâ€™racontâ€™ra des histoires plus tard. Jâ€™avions bâ€™soin dâ€™ton aide maintâ€™nant. Tâ€™as bien queâ€™ques jours Ã  perdre ?~
+@68  = ~Pas maintenant, Crowley. Je dois mâ€™occuper de certaines choses.~
+@69  = ~Pas dâ€™problÃ¨me lâ€™ami. Tu mâ€™feras savoir quand câ€™est quâ€™tâ€™auras lâ€™temps de mâ€™aider.~ ~Pas dâ€™problÃ¨me lâ€™amie. Tu mâ€™feras savoir quand câ€™est quâ€™tâ€™auras lâ€™temps de mâ€™aider.~
+@70  = ~Râ€™garde donc par lÃ  lâ€™ami : câ€™est ma vieille hache. Elle a plus servi dâ€™puis ben des annÃ©es et câ€™est une sacrÃ©e bonne hache, mais elle mâ€™semble comme qui dirait fatiguÃ©e maintâ€™nant. Y a rien qui nâ€™puisse Ãªtre rÃ©parÃ©, mais y faudra utiliser les bons outils.~ ~Râ€™garde donc par lÃ  lâ€™amie : câ€™est ma vieille hache. Elle a plus servi dâ€™puis ben des annÃ©es et câ€™est une sacrÃ©e bonne hache, mais elle mâ€™semble comme qui dirait fatiguÃ©e maintâ€™nant. Y a rien qui nâ€™puisse Ãªtre rÃ©parÃ©, mais y faudra utiliser les bons outils.~
+@71  = ~Jâ€™disions donc quâ€™elle pouvait Ãªtre rÃ©parÃ©e, mais y faudra quâ€™tu trouves un vieil ami nain Ã  mouÃ©, appelÃ© Cromwell, pour quâ€™y la râ€™mette en Ã©tat pour mouÃ©. Tâ€™es pas obligÃ© dâ€™lui apporter et dâ€™la faire rÃ©parer, mais dis-touÃ© ben que jâ€™te rÃ©compensâ€™rai si jâ€™retrouvions ma hache ben affÃ»tÃ©e.~ ~Jâ€™disions donc quâ€™elle pouvait Ãªtre rÃ©parÃ©e, mais y faudra quâ€™tu trouves un vieil ami nain Ã  mouÃ©, appelÃ© Cromwell, pour quâ€™y la râ€™mette en Ã©tat pour mouÃ©. Tâ€™es pas obligÃ©e dâ€™lui apporter et dâ€™la faire rÃ©parer, mais dis-touÃ© ben que jâ€™te rÃ©compensâ€™rai si jâ€™retrouvions ma hache ben affutÃ©e.~
+@72  = ~Jâ€™essaierai, Crowley.~
+@73  = ~Jâ€™disions quâ€™y faudra mâ€™faire savoir câ€™que tâ€™as pu faire.~
+@74  = ~Boudiou ! Jâ€™mâ€™attendions point Ã  tâ€™revoir un jour. Tâ€™as pu affÃ»ter ma hache ?~
+@75  = ~Oui Crowley. Câ€™est fait.~
+@76  = ~DÃ©solÃ© Crowley. Je nâ€™ai pas encore eu le temps de mâ€™en occuper.~
+@77  = ~Dis-mouÃ© donc si tâ€™arrives Ã  la faire affÃ»ter.~
+@78  = ~Câ€™est-y point beau ? Jâ€™va tâ€™dire câ€™que jâ€™pense. Jâ€™en aurai point besoin lors dâ€™mes pâ€™tites escapades. Jâ€™suis sÃ»r quâ€™tâ€™en auras plus lâ€™usage que mouÃ©. Laisse-moi donc tâ€™montrer comment lâ€™utiliser au mieux.~
+@79  = ~Nous y vâ€™lÃ . Bah ! Lâ€™cadeau dâ€™Crowley. Tu peux prendre ma hache sâ€™tu veux. Jâ€™disions quâ€™jâ€™ai promis dâ€™tâ€™apprendre queâ€™que-chose et jâ€™va point revâ€™nir sur ma parole.~
+@80  = ~Dis-moi donc câ€™que tu voudrais quâ€™je tâ€™apprenne : comment mieux tâ€™cacher dans les ombres, comment utiliser un tas de clous Ã  quat' pointes - tu vois dâ€™quoi jâ€™veux parler - Ã  jâ€™ter sur lâ€™sol, ou tu veux que jâ€™te dise comment survivre dans lâ€™bois ?~
+@81  = ~Tu pourrais mâ€™aider Ã  amÃ©liorer mes compÃ©tences en furtivitÃ© ? Jâ€™aimerais en savoir plus...~
+@82  = ~Tu peux me montrer comment poser des piÃ¨ges ? Oui, je veux apprendre Ã§a, Crowley.~
+@83  = ~Peux-tu mâ€™en dire un peu plus sur la maniÃ¨re de survivre dans la nature ?~
+@84  = ~Jâ€™disions quâ€™tu dâ€™vras tâ€™entraÃ®ner un peu, mais viens donc. Y a point dâ€™meilleur moment quâ€™maintenant.~
+@85  = ~Bah ! Maintâ€™nant, tu peux tâ€™cacher dans les broussailles, les prairies ou mÃªme dans ces foutues citÃ©s. Fais juste attention de nâ€™pas trop tâ€™dÃ©couvrir.~
+@86  = ~Maintâ€™nant, tu sais comment rÃ©pandre des clous Ã  quat' pointes sur lâ€™sol pour ralentir et blesser les ennemis qui sâ€™approchâ€™raient dâ€™trop.~
+@87  = ~Bah ! Maintâ€™nant, tu sais tout dâ€™la survie dans lâ€™bois. Tu dâ€™vrais plus pouvoir tâ€™perdre en forÃªt sous un bon clair de lune.~
+@88  = ~On dirait quâ€™jâ€™avions un problÃ¨me. Jâ€™va devoir partir faire un tour dans lâ€™bois et jâ€™avions pas lâ€™temps dâ€™mâ€™attarder dans lâ€™coin pour causer. Tu pourras râ€™venir mâ€™voir si un jour tu dÃ©cides de vâ€™nir vivre dans lâ€™bois.~
+@89  = ~On dirait quâ€™jâ€™avions un problÃ¨me. Jâ€™va devoir partir faire un tour dans lâ€™bois et jâ€™avions pas lâ€™temps dâ€™mâ€™attarder dans lâ€™coin pour causer.~
+@90  = ~Dis-moi donc câ€™que tu voudrais quâ€™je tâ€™apprenne : comment mieux tâ€™cacher dans les ombres, comment utiliser un tas de clous Ã  quat' pointes - tu vois dâ€™quoi jâ€™veux parler - Ã  jâ€™ter sur lâ€™sol, tu veux que jâ€™te dise comment survivre dans lâ€™bois ou tu veux que jâ€™tâ€™apprenne comment quâ€™on sâ€™sert dâ€™certains outils magiques ?~
+@91  = ~Jâ€™aimerais bien apprendre comment utiliser des objets magiques. Tu peux me l'enseigner ?~
+@92  = ~Jâ€™disions que jâ€™peux essayer lâ€™ami, mais jâ€™va pas tâ€™promettre quâ€™tu sâ€™ras capable de comprendre. Viens donc, on va essayer.~ ~Jâ€™disions que jâ€™peux essayer lâ€™amie, mais jâ€™va pas tâ€™promettre quâ€™tu sâ€™ras capable de comprendre. Viens donc, on va essayer.~
+@93  = ~Jâ€™disions quâ€™tu tiens lâ€™bon bout. Maintâ€™nant, comme beaucoup de nous autres, tu peux utiliser toutes sortes de sorts comme câ€™est quâ€™tu veux. Dis-toi seulâ€™ment que, comme Ã§a t'semble sans doute Ã©vident, tu nâ€™pourras point utiliser la magie si tu portes une armure.~
+@94  = ~Jâ€™disions quâ€™tu ne sembles point capable dâ€™apprendre comment utiliser les choses magiques. Tu dois seulâ€™ment continuer Ã  tâ€™entraÃ®ner, tu vois câ€™que jâ€™veux dire ?~
+@95  = ~DÃ©solÃ© lâ€™ami, mais jâ€™aime point trop voir dâ€™Ã©trangers dans lâ€™bois. Les animaux non plus y zâ€™aiment point, si tu vois câ€™que jâ€™veux dire...~ ~DÃ©solÃ© lâ€™amie, mais jâ€™aime point trop voir dâ€™Ã©trangers dans lâ€™bois. Les animaux non plus y zâ€™aiment point, si tu vois câ€™que jâ€™veux dire...~
+@96 = ~La cabane du rÃ´deur de Backwoods : La riviÃ¨re polluÃ©e
 
-La raison pour laquelle certains de mes nouveaux amis des bois sont tombés malades tenait à la mort d’un cerf dont la dépouille souillait la rivière. Je suis parvenu à retirer sa carcasse des eaux et la rivière pourra ainsi retrouver sa pureté dans les jours à venir.~
-@97 = ~La cabane du rôdeur de Backwoods
+La raison pour laquelle certains de mes nouveaux amis des bois sont tombÃ©s malades tenait Ã  la mort dâ€™un cerf dont la dÃ©pouille souillait la riviÃ¨re. Je suis parvenu Ã  retirer sa carcasse des eaux et la riviÃ¨re pourra ainsi retrouver sa puretÃ© dans les jours Ã  venir.~
+@97 = ~La cabane du rÃ´deur de Backwoods
 
-Le rôdeur Crowley m’a appris comment traquer les créatures dans les étendues sauvages avec une plus grande efficacité, mais il m’a assuré que les mêmes techniques fonctionneraient sur d’autres types de terrain, comme les villes ou les cavernes souterraines.~
-@98 = ~La cabane du rôdeur de Backwoods
+Le rÃ´deur Crowley mâ€™a appris comment traquer les crÃ©atures dans les Ã©tendues sauvages avec une plus grande efficacitÃ©, mais il mâ€™a assurÃ© que les mÃªmes techniques fonctionneraient sur dâ€™autres types de terrain, comme les villes ou les cavernes souterraines.~
+@98 = ~La cabane du rÃ´deur de Backwoods
 
-Le rôdeur Crowley m’a appris à poser des collets pour attraper des animaux de petite ou moyenne taille, mais il m’a assuré que je pouvais utiliser les mêmes techniques pour blesser mes ennemis.~
-@99 = ~La cabane du rôdeur de Backwoods
+Le rÃ´deur Crowley mâ€™a appris Ã  poser des collets pour attraper des animaux de petite ou moyenne taille, mais il mâ€™a assurÃ© que je pouvais utiliser les mÃªmes techniques pour blesser mes ennemis.~
+@99 = ~La cabane du rÃ´deur de Backwoods
 
-Le rôdeur Crowley m’a appris à trouver et désamorcer les pièges qui pourraient être posés dans la nature, mais il m’a assuré que ces techniques d’observation pouvaient également être utilisées sur d’autres terrains, comme dans les grottes ou les donjons.~
-@100 = ~La cabane du rôdeur de Backwoods : La rivière polluée
+Le rÃ´deur Crowley mâ€™a appris Ã  trouver et dÃ©samorcer les piÃ¨ges qui pourraient Ãªtre posÃ©s dans la nature, mais il mâ€™a assurÃ© que ces techniques dâ€™observation pouvaient Ã©galement Ãªtre utilisÃ©es sur dâ€™autres terrains, comme dans les grottes ou les donjons.~
+@100 = ~La cabane du rÃ´deur de Backwoods : La riviÃ¨re polluÃ©e
 
-J'ai rencontré un rôdeur, au nord dans les collines, qui vit avec une foule d’animaux au pied d’une montagne. Il m’a appris qu’il était rôdeur depuis de nombreuses années et qu’il m’apprendrait certaines de ses connaissances si je l’aidais. Après lui avoir assuré mon soutien, il m’a expliqué que ses compagnons animaux tombaient malades. Il m'a demandé de trouver la cause de la pollution du torrent passant près de sa cabane.~
-@101 = ~La cabane du rôdeur de Backwoods : Présence maléfique
+J'ai rencontrÃ© un rÃ´deur, au nord dans les collines, qui vit avec une foule dâ€™animaux au pied dâ€™une montagne. Il mâ€™a appris quâ€™il Ã©tait rÃ´deur depuis de nombreuses annÃ©es et quâ€™il mâ€™apprendrait certaines de ses connaissances si je lâ€™aidais. AprÃ¨s lui avoir assurÃ© mon soutien, il mâ€™a expliquÃ© que ses compagnons animaux tombaient malades. Il m'a demandÃ© de trouver la cause de la pollution du torrent passant prÃ¨s de sa cabane.~
+@101 = ~La cabane du rÃ´deur de Backwoods : PrÃ©sence malÃ©fique
 
-Le rôdeur ermite, Crowley, m’a demandé de trouver et de défaire une présence maléfique qu’il a ressentie dans la région. Il n’est pas certain de l’endroit exact d’où ce mal émane, mais il m’assure qu’elle vient de quelque-part dans la cité d’Athkatla.
-Lorsque j’aurai défait cette présence maléfique, en la détruisant ou en la bannissant de Féérûne, je devrais en rendre compte à Crowley au sud de la Porte de Baldur où il m’a promis de m’enseigner certains savoirs.~
-@102 = ~La cabane du rôdeur de Backwoods : Présence maléfique
+Le rÃ´deur ermite, Crowley, mâ€™a demandÃ© de trouver et de dÃ©faire une prÃ©sence malÃ©fique quâ€™il a ressentie dans la rÃ©gion. Il nâ€™est pas certain de lâ€™endroit exact dâ€™oÃ¹ ce mal Ã©mane, mais il mâ€™assure quâ€™elle vient de quelque-part dans la citÃ© dâ€™Athkatla.
+Lorsque jâ€™aurai dÃ©fait cette prÃ©sence malÃ©fique, en la dÃ©truisant ou en la bannissant de FÃ©Ã©rÃ»ne, je devrais en rendre compte Ã  Crowley au sud de la Porte de Baldur oÃ¹ il mâ€™a promis de mâ€™enseigner certains savoirs.~
+@102 = ~La cabane du rÃ´deur de Backwoods : PrÃ©sence malÃ©fique
 
-Crowley m’a demandé de défaire une présence maléfique qu’il a ressentie dans la région. Je l'ai débusquée derrière les quais d’Athkatla. Ce fut une terrible bataille mais j’en suis sorti vainqueur et le rôdeur m'a promis de m’enseigner une compétence bien utile.~
-@103 = ~La cabane du rôdeur de Backwoods
+Crowley mâ€™a demandÃ© de dÃ©faire une prÃ©sence malÃ©fique quâ€™il a ressentie dans la rÃ©gion. Je l'ai dÃ©busquÃ©e derriÃ¨re les quais dâ€™Athkatla. Ce fut une terrible bataille mais jâ€™en suis sorti vainqueur et le rÃ´deur m'a promis de mâ€™enseigner une compÃ©tence bien utile.~
+@103 = ~La cabane du rÃ´deur de Backwoods
 
-Le rôdeur Crowley m’a appris comment survivre dans la nature en me protégeant des éléments et il m’a assuré que je serais beaucoup moins susceptible d’être gelé à mort au sommet d’une montagne enneigée ou déshydraté dans le désert.~
-@104 = ~La cabane du rôdeur de Backwoods
+Le rÃ´deur Crowley mâ€™a appris comment survivre dans la nature en me protÃ©geant des Ã©lÃ©ments et il mâ€™a assurÃ© que je serais beaucoup moins susceptible dâ€™Ãªtre gelÃ© Ã  mort au sommet dâ€™une montagne enneigÃ©e ou dÃ©shydratÃ© dans le dÃ©sert.~
+@104 = ~La cabane du rÃ´deur de Backwoods
 
-Le rôdeur Crowley m’a appris à viser une partie précise de mes cibles et, en améliorant ma concentration sur un point particulier, à toucher plus facilement ma cible pour causer de plus grands dommages, que j’utilise une flèche, un carreau, une dague ou toute autre arme de jet.~
-@105 = ~La cabane du rôdeur de Backwoods : La hache de Crowley
+Le rÃ´deur Crowley mâ€™a appris Ã  viser une partie prÃ©cise de mes cibles et, en amÃ©liorant ma concentration sur un point particulier, Ã  toucher plus facilement ma cible pour causer de plus grands dommages, que jâ€™utilise une flÃ¨che, un carreau, une dague ou toute autre arme de jet.~
+@105 = ~La cabane du rÃ´deur de Backwoods : La hache de Crowley
 
-Crowley, le rôdeur qui m’a transmis une partie de son savoir, m’a demandé d’aiguiser sa hache. Il semble qu’il n’aime pas beaucoup se rendre dans les villes et il m’a demandé d’y porter sa vieille hache à Cromwell pour que ce denier la répare. Comme il s’agit d’une hache magique, Crowley pense que le forgeron nain pourrait avoir besoin d’un métal rare pour reforger la lame afin qu’elle retrouve son tranchant. Lorsque la hache sera réparée, Crowley m’a demandé de la lui rapporter en échange de l’apprentissage d’une nouvelle compétence.~
-@106 = ~La cabane du rôdeur de Backwoods : La hache de Crowley
+Crowley, le rÃ´deur qui mâ€™a transmis une partie de son savoir, mâ€™a demandÃ© dâ€™aiguiser sa hache. Il semble quâ€™il nâ€™aime pas beaucoup se rendre dans les villes et il mâ€™a demandÃ© dâ€™y porter sa vieille hache Ã  Cromwell pour que ce denier la rÃ©pare. Comme il sâ€™agit dâ€™une hache magique, Crowley pense que le forgeron nain pourrait avoir besoin dâ€™un mÃ©tal rare pour reforger la lame afin quâ€™elle retrouve son tranchant. Lorsque la hache sera rÃ©parÃ©e, Crowley mâ€™a demandÃ© de la lui rapporter en Ã©change de lâ€™apprentissage dâ€™une nouvelle compÃ©tence.~
+@106 = ~La cabane du rÃ´deur de Backwoods : La hache de Crowley
 
-Je suis parvenu à faire aiguiser la lame de la hache de Crowley par le forgeron nain Cromwell et je l’ai rendue ensuite à mon vieil ami rôdeur. Crowley a été assez gentil pour me donner cette hache magique en cadeau, ce qui était un beau geste de sa part. Comme promis, il m’a enseigné quelques secrets de rôdeur appris pendant sa vie dans les bois.~
-@107 = ~La cabane du rôdeur de Backwoods
+Je suis parvenu Ã  faire aiguiser la lame de la hache de Crowley par le forgeron nain Cromwell et je lâ€™ai rendue ensuite Ã  mon vieil ami rÃ´deur. Crowley a Ã©tÃ© assez gentil pour me donner cette hache magique en cadeau, ce qui Ã©tait un beau geste de sa part. Comme promis, il mâ€™a enseignÃ© quelques secrets de rÃ´deur appris pendant sa vie dans les bois.~
+@107 = ~La cabane du rÃ´deur de Backwoods
 
-Le rôdeur Crowley m’a appris à me déplacer à travers les bois et les forêts sans laisser de traces derrière moi et il m’a assuré que ces techniques pouvaient également être utilisées sur d’autres types de terrains comme le roc des cavernes ou les rues pavées des cités.~
-@108 = ~La cabane du rôdeur de Backwoods
+Le rÃ´deur Crowley mâ€™a appris Ã  me dÃ©placer Ã  travers les bois et les forÃªts sans laisser de traces derriÃ¨re moi et il mâ€™a assurÃ© que ces techniques pouvaient Ã©galement Ãªtre utilisÃ©es sur dâ€™autres types de terrains comme le roc des cavernes ou les rues pavÃ©es des citÃ©s.~
+@108 = ~La cabane du rÃ´deur de Backwoods
 
-Le rôdeur Crowley m’a appris à répandre sur le sol des clous à quatre pointes de façon à ralentir et blesser tout ennemi s’approchant de moi.~
-@109 = ~La cabane du rôdeur de Backwoods
+Le rÃ´deur Crowley mâ€™a appris Ã  rÃ©pandre sur le sol des clous Ã  quatre pointes de faÃ§on Ã  ralentir et blesser tout ennemi sâ€™approchant de moi.~
+@109 = ~La cabane du rÃ´deur de Backwoods
 
-Le rôdeur Crowley m’a appris comment survivre dans la nature en me protégeant des éléments et il m’assura que je serais beaucoup moins susceptible d’être gelé à mort au sommet d’une montagne enneigée ou déshydraté dans le désert.~
-@110 = ~La cabane du rôdeur de Backwoods
+Le rÃ´deur Crowley mâ€™a appris comment survivre dans la nature en me protÃ©geant des Ã©lÃ©ments et il mâ€™assura que je serais beaucoup moins susceptible dâ€™Ãªtre gelÃ© Ã  mort au sommet dâ€™une montagne enneigÃ©e ou dÃ©shydratÃ© dans le dÃ©sert.~
+@110 = ~La cabane du rÃ´deur de Backwoods
 
-Le rôdeur Crowley m’a appris à user de magie profane, ce qui comprend les parchemins, les baguettes et toutes choses magiques dont je ne pouvais auparavant pas utiliser.~
-@111 = ~La cabane du rôdeur de Backwoods
+Le rÃ´deur Crowley mâ€™a appris Ã  user de magie profane, ce qui comprend les parchemins, les baguettes et toutes choses magiques dont je ne pouvais auparavant pas utiliser.~
+@111 = ~La cabane du rÃ´deur de Backwoods
 
-Le rôdeur Crowley a tenté de m’apprendre à faire usage de magie profane, mais je ne suis pas parvenu à assimiler son enseignement.~
-@112 = ~La cabane du rôdeur de Backwoods : La rivière polluée
+Le rÃ´deur Crowley a tentÃ© de mâ€™apprendre Ã  faire usage de magie profane, mais je ne suis pas parvenu Ã  assimiler son enseignement.~
+@112 = ~La cabane du rÃ´deur de Backwoods : La riviÃ¨re polluÃ©e
 
-J'ai rencontré un rôdeur, au nord dans les collines, qui vit avec une foule d’animaux au pied d’une montagne. Il m’a appris qu’il était rôdeur depuis de nombreuses années et qu’il m’apprendrait certaines de ses connaissances si je l’aidais. Je l’ai assuré de mon aide et il m’a expliqué que ses compagnons animaux tombaient malades. Il m'a demandé de trouver la cause de la pollution du torrent passant près de sa cabane.~
+J'ai rencontrÃ© un rÃ´deur, au nord dans les collines, qui vit avec une foule dâ€™animaux au pied dâ€™une montagne. Il mâ€™a appris quâ€™il Ã©tait rÃ´deur depuis de nombreuses annÃ©es et quâ€™il mâ€™apprendrait certaines de ses connaissances si je lâ€™aidais. Je lâ€™ai assurÃ© de mon aide et il mâ€™a expliquÃ© que ses compagnons animaux tombaient malades. Il m'a demandÃ© de trouver la cause de la pollution du torrent passant prÃ¨s de sa cabane.~

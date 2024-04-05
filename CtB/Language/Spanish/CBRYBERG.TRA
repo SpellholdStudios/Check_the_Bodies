@@ -1,97 +1,97 @@
-@1  = ~Disculpad. ¡Oid, vos!  Disculpad.  Tenéis el aspecto de un diestro usuario de la magia. ¿Podríais confirmármelo?~ 
-~Disculpad. ¡Oid, vos!  Disculpad.  Tenéis el aspecto de una diestra usuaria de la magia. ¿Podríais confirmármelo?~ 
-@2  = ~Sí, soy un mago. ¿Por qué?~
-~Sí, soy una maga. ¿Por qué?~
-@3  = ~No, lo siento, debéis haberme confundido con alguien.~ 
-@4  = ~¿De verdad? ¿Lo sois?  Entonces deberíais ser capaz de ayudarme.~
-@5  = ~¿Os importaría?  Quiero decir, ¿podríais ayudarme?~ 
-@6  = ~Claro. Os ayudaré. Decidme lo que necesitáis.~
+@1  = ~Disculpad. Â¡Oid, vos!  Disculpad.  TenÃ©is el aspecto de un diestro usuario de la magia. Â¿PodrÃ­ais confirmÃ¡rmelo?~ 
+~Disculpad. Â¡Oid, vos!  Disculpad.  TenÃ©is el aspecto de una diestra usuaria de la magia. Â¿PodrÃ­ais confirmÃ¡rmelo?~ 
+@2  = ~SÃ­, soy un mago. Â¿Por quÃ©?~
+~SÃ­, soy una maga. Â¿Por quÃ©?~
+@3  = ~No, lo siento, debÃ©is haberme confundido con alguien.~ 
+@4  = ~Â¿De verdad? Â¿Lo sois?  Entonces deberÃ­ais ser capaz de ayudarme.~
+@5  = ~Â¿Os importarÃ­a?  Quiero decir, Â¿podrÃ­ais ayudarme?~ 
+@6  = ~Claro. Os ayudarÃ©. Decidme lo que necesitÃ¡is.~
 @7  = ~No, no puedo ayudaros.~
-@8  = ~Puedo ayudaros, pero no ahora. Esperad aquí y volveré.~ 
-@9  = ~Estoy cansado de ayudar a la gente. No voy a ayudar a nadie más, así que déjadme solo.~
-~Estoy cansada de ayudar a la gente. No voy a ayudar a nadie más, así que déjadme sola.~
-@10 = ~He oido que algunos usuarios de la magia pueden invocar a aquellos que nos han dejado. Sé que es cierto, así que déjadme explicaros mi problema.~ 
-@11 = ~Mirad, uno de mis familiares, mi querido tío Donny, murió recientemente y por supuesto estoy muy entristecido de haber perdido a un hombre tan bueno.~
-@12 = ~Hecho mucho de menos al tío Donny, pues nos apreciabamos mutuamente. Sé que tío Donny me quería y que también se preocupaba por mí, y me dijo, antes de dejarnos, claro, que me dejaría sus posesiones materiales.~
-@13 = ~Sin embargo, los oficiales de la ciudad son excesivamente burocráticos con estas cosas, y el tío Donny tenía un testamento legal que archivaban ellos. Ahora que nos ha dejado, los políticos no me permiten ver una copia de su testamento.~ 
-@14 = ~Mi tío Donny era un buen hombre, pero tenía sus rarezas cuando se trataba de dinero. Donny era realmente paranoico con los ladrones, los timadores, y el cobrador de impuestos, y escondió su dinero fuera del alcance de todos. Sé que tío Donny me dejó todas sus posesiones, pero debió esconder muy bien su dinero, porque no puedo encontrarlo en su casa, ni en ningún otro lugar de la ciudad. Estoy bastante seguro de que me dio pistas sobre la localización en el testamento, pero no evidentes, sino en código.~
-@15 = ~Era una manera para que cualquiera que leyera el testamento tardara bastante en encontrar el dinero. Tío Donny era pudiente, pero desde que murió ni he visto el testamento ni me han dado nada. Creo que los oficiales de la ciudad van a intentar descubrir dónde escondió Donny el dinero, pero no creo que sean capaces.~ 
-@16 = ~Así que necesito averiguar dónde está escondido el dinero antes de que ellos lo hagan, pero como no puedo ver el testamento, tampoco puedo saber las pistas.~
-@17 = ~Esto parece un trabajo para alguien que sepa más sobre la ley. Quizás debáis contratar un abogado, no un mago.~
-@18 = ~¿Entonces qué necesitáis que haga?~
-@19 = ~¿Queréis que me ponga a perseguir a una urraca salvaje a ver si encuentra el dinero de vuestro tío?~ 
-@20 = ~Sí, sí, es cierto, si quisiera obligar a los oficiales a darme el testamento o una copia.~
-@21 = ~No quiero darles a los oficiales de la ciudad ninguna razón para comenzar antes con su propia búsqueda del dinero del tío Donny, por eso no quiero obligarles legalmente a que me devuelvan el testamento. Tengo otro plan en mente, pero no tengo las habilidades para realizarlo por mí mismo.~ 
-@22 = ~Lo que quería era encontrar a alguien que usara la magia para que invocara el espíritu del tío Donny. He oido que los magos poderosos pueden hacerlo, y me gustaría hablar con él para averiguar las pistas sobre dónde tenía su dinero.~ 
-@23 = ~Parece un buen plan. Es verdad que algunos magos, y algunos clérigos, pueden Hablar con los Muertos, pero para hacerlo, deben conocer el conjuro, o tener un pergamino con él. Yo ni conozco el conjuro Hablar con los Muertos, ni tengo un pergamino con dicho embrujo.~
-@24 = ~Entonces, ¿hay alguna manera de que pudiérais aprender el hechizo?  ¿Quizás conseguir un pergamino?~ 
-@25 = ~Intentaré encontrar uno, pero no sé quien podría tener una copia en pergamino, ni siquiera sé si hay alguno aquí, en la ciudad. ¿Por qué no esperáis aquí? Si encuentro el conjuro, volveré para que podáis hablar con vuestro tío.~
-@26 = ~No sé donde buscar. ¿Conocéis a alguien que pudiera venderme ese conjuro?~
-@27 = ~Creo que no tengo tiempo para buscar ese conjuro. Lo siento, pero tendréis que encontrar a algún otro para que realice el conjuro para hablar con tu tío.~
-@28 = ~Sería una gran ayuda. Debéis saber mucho más de magia que yo, pero por lo que sé, necesitáis un pergamino para lanzar el conjuro, así que tened cuidado porque seguramente sólo encontréis una copia del conjuro.~
-@29 = ~No sé de nadie que pueda vender ese tipo de magia. Sabéis más de magia que yo, por lo que deberíais ser capaz de encontrar a alguien así con mayor facilidad, pero por lo que sé, necesitáis un pergamino para lanzar el conjuro, así que tened cuidado porque seguramente sólo encontréis una copia del conjuro. Si buscáis uno, me quedaré aquí, y si lo encontráis, haré lo que pueda para ayudaros a lanzarlo.~
-@30 = ~Entonces os esperaré aquí hasta que encontréis el conjuro o hasta que regreséis para lanzarlo. Sabéis más de magia que yo, por lo que deberías ser capaz de encontrar a alguien así más fácilmente, pero por lo que sé, necesitáis un pergamino para lanzar el conjuro, así que tened cuidado porque seguramente sólo encontréis una copia del conjuro. Si lo encontráis, haré lo que pueda para ayudaros a lanzarlo.~
-@31 = ~No espero que registréis toda la ciudad vos solo, y además sin pistas.  No, tengo otro plan, pero carezco de las habilidades para llevarlo a cabo yo solo.~
-~No espero que registréis toda la ciudad vos sola, y además sin pistas.  No, tengo otro plan, pero carezco de las habilidades para llevarlo a cabo yo solo.~
-@32 = ~Me estoy quedando sin opciones. Me encantaría que pudierais ayudarme. Esperaré aquí, y si cambiáis de opinión sobre lo de ayudarme, regresad y hablaremos.~
-@33 = ~Tal y como decís, me quedaré aquí, y si teneís la posibilidad de ayudarme, regresad y hacedmelo saber.~
-@34 = ~No pretendía haceros enfadar. Sólo pensé que podríais ayudarme. Lamento la interrupción. Adiós.~
-@35 = ~Lamento entonces el haberos molestado. No podéis ayudarme. Os deseo un buen día, <SIRMAAM>.~
-@36 = ~Así que habéiss regresado. ¿Vais a poder ayudarme?~
-@37 = ~Recordad que dijisteis que buscaríais un conjuro que me pudiera ayudar con mi tío Donny.  ¿Lo habéiss encontrado?~
-@38 = ~No, lo siento, aún no.  Seguiré buscándolo.  Aguardad aquí.~
-@39 = ~Ni siquiera he empezado a buscarlo. No creo que sea una buena idea invocar a vuestro tío de entre los muertos.~
-@40 = ~Sí, Ryberg, encontré un pergamino. Quedaos aqui quieto e invocaré a vuestro tío.~
-@41 = ~Tenéis suerte, Ryberg. Encontré un pergamino de Hablar con los Muertos, pero no creo que sea una buena idea invocar a vuestro tío de entre los muertos.~
-@42 = ~Olvidé lo que queríais que hiciera.~
-@43 = ~Sí, Ryberg, encontré un pergamino. Pero no podemos realizar el conjuro aquí debido a las fuerzas que podrían desatarse.~
-@44 = ~Por favor, necesito averiguar dónde escondió su dinero el tío Donny.  Si descubrís alguna manera de hablar con mi tío, venid a verme.~
-@45 = ~De acuerdo, lanza-conjuros, me quedaré a un lado mientras lanzáis el conjuro.~
-@46 = ~Sé que os pedí ayuda y que habéis hecho mucho por mí, pero si no vais a lanzar el conjuro, dadme el pergamino y encontraré a algún otro que lo haga.~
-@47 = ~Muy bien, Ryberg. Aquí está el pergamino.~
+@8  = ~Puedo ayudaros, pero no ahora. Esperad aquÃ­ y volverÃ©.~ 
+@9  = ~Estoy cansado de ayudar a la gente. No voy a ayudar a nadie mÃ¡s, asÃ­ que dÃ©jadme solo.~
+~Estoy cansada de ayudar a la gente. No voy a ayudar a nadie mÃ¡s, asÃ­ que dÃ©jadme sola.~
+@10 = ~He oido que algunos usuarios de la magia pueden invocar a aquellos que nos han dejado. SÃ© que es cierto, asÃ­ que dÃ©jadme explicaros mi problema.~ 
+@11 = ~Mirad, uno de mis familiares, mi querido tÃ­o Donny, muriÃ³ recientemente y por supuesto estoy muy entristecido de haber perdido a un hombre tan bueno.~
+@12 = ~Hecho mucho de menos al tÃ­o Donny, pues nos apreciabamos mutuamente. SÃ© que tÃ­o Donny me querÃ­a y que tambiÃ©n se preocupaba por mÃ­, y me dijo, antes de dejarnos, claro, que me dejarÃ­a sus posesiones materiales.~
+@13 = ~Sin embargo, los oficiales de la ciudad son excesivamente burocrÃ¡ticos con estas cosas, y el tÃ­o Donny tenÃ­a un testamento legal que archivaban ellos. Ahora que nos ha dejado, los polÃ­ticos no me permiten ver una copia de su testamento.~ 
+@14 = ~Mi tÃ­o Donny era un buen hombre, pero tenÃ­a sus rarezas cuando se trataba de dinero. Donny era realmente paranoico con los ladrones, los timadores, y el cobrador de impuestos, y escondiÃ³ su dinero fuera del alcance de todos. SÃ© que tÃ­o Donny me dejÃ³ todas sus posesiones, pero debiÃ³ esconder muy bien su dinero, porque no puedo encontrarlo en su casa, ni en ningÃºn otro lugar de la ciudad. Estoy bastante seguro de que me dio pistas sobre la localizaciÃ³n en el testamento, pero no evidentes, sino en cÃ³digo.~
+@15 = ~Era una manera para que cualquiera que leyera el testamento tardara bastante en encontrar el dinero. TÃ­o Donny era pudiente, pero desde que muriÃ³ ni he visto el testamento ni me han dado nada. Creo que los oficiales de la ciudad van a intentar descubrir dÃ³nde escondiÃ³ Donny el dinero, pero no creo que sean capaces.~ 
+@16 = ~AsÃ­ que necesito averiguar dÃ³nde estÃ¡ escondido el dinero antes de que ellos lo hagan, pero como no puedo ver el testamento, tampoco puedo saber las pistas.~
+@17 = ~Esto parece un trabajo para alguien que sepa mÃ¡s sobre la ley. QuizÃ¡s debÃ¡is contratar un abogado, no un mago.~
+@18 = ~Â¿Entonces quÃ© necesitÃ¡is que haga?~
+@19 = ~Â¿QuerÃ©is que me ponga a perseguir a una urraca salvaje a ver si encuentra el dinero de vuestro tÃ­o?~ 
+@20 = ~SÃ­, sÃ­, es cierto, si quisiera obligar a los oficiales a darme el testamento o una copia.~
+@21 = ~No quiero darles a los oficiales de la ciudad ninguna razÃ³n para comenzar antes con su propia bÃºsqueda del dinero del tÃ­o Donny, por eso no quiero obligarles legalmente a que me devuelvan el testamento. Tengo otro plan en mente, pero no tengo las habilidades para realizarlo por mÃ­ mismo.~ 
+@22 = ~Lo que querÃ­a era encontrar a alguien que usara la magia para que invocara el espÃ­ritu del tÃ­o Donny. He oido que los magos poderosos pueden hacerlo, y me gustarÃ­a hablar con Ã©l para averiguar las pistas sobre dÃ³nde tenÃ­a su dinero.~ 
+@23 = ~Parece un buen plan. Es verdad que algunos magos, y algunos clÃ©rigos, pueden Hablar con los Muertos, pero para hacerlo, deben conocer el conjuro, o tener un pergamino con Ã©l. Yo ni conozco el conjuro Hablar con los Muertos, ni tengo un pergamino con dicho embrujo.~
+@24 = ~Entonces, Â¿hay alguna manera de que pudiÃ©rais aprender el hechizo?  Â¿QuizÃ¡s conseguir un pergamino?~ 
+@25 = ~IntentarÃ© encontrar uno, pero no sÃ© quien podrÃ­a tener una copia en pergamino, ni siquiera sÃ© si hay alguno aquÃ­, en la ciudad. Â¿Por quÃ© no esperÃ¡is aquÃ­? Si encuentro el conjuro, volverÃ© para que podÃ¡is hablar con vuestro tÃ­o.~
+@26 = ~No sÃ© donde buscar. Â¿ConocÃ©is a alguien que pudiera venderme ese conjuro?~
+@27 = ~Creo que no tengo tiempo para buscar ese conjuro. Lo siento, pero tendrÃ©is que encontrar a algÃºn otro para que realice el conjuro para hablar con tu tÃ­o.~
+@28 = ~SerÃ­a una gran ayuda. DebÃ©is saber mucho mÃ¡s de magia que yo, pero por lo que sÃ©, necesitÃ¡is un pergamino para lanzar el conjuro, asÃ­ que tened cuidado porque seguramente sÃ³lo encontrÃ©is una copia del conjuro.~
+@29 = ~No sÃ© de nadie que pueda vender ese tipo de magia. SabÃ©is mÃ¡s de magia que yo, por lo que deberÃ­ais ser capaz de encontrar a alguien asÃ­ con mayor facilidad, pero por lo que sÃ©, necesitÃ¡is un pergamino para lanzar el conjuro, asÃ­ que tened cuidado porque seguramente sÃ³lo encontrÃ©is una copia del conjuro. Si buscÃ¡is uno, me quedarÃ© aquÃ­, y si lo encontrÃ¡is, harÃ© lo que pueda para ayudaros a lanzarlo.~
+@30 = ~Entonces os esperarÃ© aquÃ­ hasta que encontrÃ©is el conjuro o hasta que regresÃ©is para lanzarlo. SabÃ©is mÃ¡s de magia que yo, por lo que deberÃ­as ser capaz de encontrar a alguien asÃ­ mÃ¡s fÃ¡cilmente, pero por lo que sÃ©, necesitÃ¡is un pergamino para lanzar el conjuro, asÃ­ que tened cuidado porque seguramente sÃ³lo encontrÃ©is una copia del conjuro. Si lo encontrÃ¡is, harÃ© lo que pueda para ayudaros a lanzarlo.~
+@31 = ~No espero que registrÃ©is toda la ciudad vos solo, y ademÃ¡s sin pistas.  No, tengo otro plan, pero carezco de las habilidades para llevarlo a cabo yo solo.~
+~No espero que registrÃ©is toda la ciudad vos sola, y ademÃ¡s sin pistas.  No, tengo otro plan, pero carezco de las habilidades para llevarlo a cabo yo solo.~
+@32 = ~Me estoy quedando sin opciones. Me encantarÃ­a que pudierais ayudarme. EsperarÃ© aquÃ­, y si cambiÃ¡is de opiniÃ³n sobre lo de ayudarme, regresad y hablaremos.~
+@33 = ~Tal y como decÃ­s, me quedarÃ© aquÃ­, y si teneÃ­s la posibilidad de ayudarme, regresad y hacedmelo saber.~
+@34 = ~No pretendÃ­a haceros enfadar. SÃ³lo pensÃ© que podrÃ­ais ayudarme. Lamento la interrupciÃ³n. AdiÃ³s.~
+@35 = ~Lamento entonces el haberos molestado. No podÃ©is ayudarme. Os deseo un buen dÃ­a, <SIRMAAM>.~
+@36 = ~AsÃ­ que habÃ©iss regresado. Â¿Vais a poder ayudarme?~
+@37 = ~Recordad que dijisteis que buscarÃ­ais un conjuro que me pudiera ayudar con mi tÃ­o Donny.  Â¿Lo habÃ©iss encontrado?~
+@38 = ~No, lo siento, aÃºn no.  SeguirÃ© buscÃ¡ndolo.  Aguardad aquÃ­.~
+@39 = ~Ni siquiera he empezado a buscarlo. No creo que sea una buena idea invocar a vuestro tÃ­o de entre los muertos.~
+@40 = ~SÃ­, Ryberg, encontrÃ© un pergamino. Quedaos aqui quieto e invocarÃ© a vuestro tÃ­o.~
+@41 = ~TenÃ©is suerte, Ryberg. EncontrÃ© un pergamino de Hablar con los Muertos, pero no creo que sea una buena idea invocar a vuestro tÃ­o de entre los muertos.~
+@42 = ~OlvidÃ© lo que querÃ­ais que hiciera.~
+@43 = ~SÃ­, Ryberg, encontrÃ© un pergamino. Pero no podemos realizar el conjuro aquÃ­ debido a las fuerzas que podrÃ­an desatarse.~
+@44 = ~Por favor, necesito averiguar dÃ³nde escondiÃ³ su dinero el tÃ­o Donny.  Si descubrÃ­s alguna manera de hablar con mi tÃ­o, venid a verme.~
+@45 = ~De acuerdo, lanza-conjuros, me quedarÃ© a un lado mientras lanzÃ¡is el conjuro.~
+@46 = ~SÃ© que os pedÃ­ ayuda y que habÃ©is hecho mucho por mÃ­, pero si no vais a lanzar el conjuro, dadme el pergamino y encontrarÃ© a algÃºn otro que lo haga.~
+@47 = ~Muy bien, Ryberg. AquÃ­ estÃ¡ el pergamino.~
 @48 = ~No, Ryberg. Enredar con las fuerzas de la muerte no es algo que pueda hacerse sin consecuencias. En conciencia, no puedo daros este pergamino.~
-@49 = ~Jugar con las fuerzas de la muerte no es algo que pueda hacerse sin consecuencias, Ryberg. No puedo permitir que alguien a quien no conozco, y que no podría estar lo bastante capacitado, lance este conjuro. Lo haré por vos, pero no estoy de acuerdo, Ryberg.~
-@50 = ~Gracias por vuestra ayuda. Siento que no quisierais lanzar el hechizo, pero comprendo que pueda estar más allá de vuestras habilidades. De todas maneras, espero ser capaz de encontrar a alguien capaz de hacerlo. Os deseo un buen día, <SIRMAAM>.~
-@51 = ~Me estoy quedando sin opciones. Necesito averiguar dónde escondió su dinero el tío Donny. Por favor, si cambiáis de opinión, os estaré esperando aquí.~
-@52 = ~¡Tío Donny! ¡Estoy encantado de veros! Pero no tenemos mucho tiempo. Por favor, los políticos no me dejan ver vuestro testamento. No puedo encontrar el dinero que me dejasteis.~
-@53 = ~Por favor, si pudierais decirme cómo o dónde encontrar el dinero, me ayudaría. Debe haber algo que podáis decirme, ¡tío Donny!  ¡Hablad!~
-@54 = ~¿Cómo? ¿Qué significa eso, tío Donny?  No lo entiendo.~
-@55 = ~No, esperad... ¡no os vayáis! ¡Donny!  Esperad...~
-@56 = ~Bueno, ya está. El tío Donny se ha ido definitivamente, y no estoy más cerca de imaginarme dónde escondió su dinero.~
-@57 = ~Siento no haber podido ayudar más. Pensé que vuestro tío podría deciros dónde encontrar el tesoro.~
-@58 = ~Esperad, Ryberg, creo que tengo una idea sobre dónde podría haber escondido su dinero. Quizás podamos recuperarlo para vos.~
-@59 = ~Esto es el fin, Ryberg. Mejor suerte la próxima vez.~
-@60 = ~De todas maneras habéis sido una gran ayuda. Sin vos, no hubiera podido volver a ver a mi tío. Os agradezco vuestra ayuda a pesar de todo.~
-@61 = ~Si podéis averiguar dónde está, entonces lo repartiré con vos. Si no, no estaré mejor que ahora. ¿Por qué no lo buscáis si tenéis tiempo?~
-@62 = ~Sí, supongo que los oficiales de la ciudad guardarán el testamento y me quedaré sin herencia. Os agradezco vuestra ayuda a pesar de todo.~
-@63 = ~Dijisteis que podríais encontrar el dinero que el tío Donny me dejó. ¿Fuisteis capaz de encontrarlo?~
-@64 = ~Aún no, Ryberg.  Meditaré sobre la adivinanza y buscaré por la ciudad.~
-@65 = ~Sí, Ryberg, creo que he encontrado el dinero de vuestro tío. Es mucho oro. Tened, lo compartiremos al cincuenta por ciento.~
-@66 = ~He encontrado el dinero de vuestro difunto pariente, pero quiero la parte más grande del pastel, porque yo he hecho todo el trabajo.~
-@67 = ~¡Oh, genial! Esto me ayudará muchísimo tanto a mí y como a mi familia. Muchas gracias por vuestra ayuda. Os deseo un buen día, <SIRMAAM>.~
-@68 = ~¡Ladrón codicioso!  No sois mejor que esos políticos que se niegan a darme el testamento. Espero que os pudráis con Cyric.~
-~¡Ladrona codiciosa!  No sois mejor que esos políticos que se niegan a darme el testamento. Espero que os pudráis con Cyric.~
-@69 = ~Y como decís, me quedaré aquí, y si encontráis el conjuro, haré todo lo que pueda para ayudaros a lanzarlo.~
-@70 = ~Bueno, he oido que algunos usuarios de la magia pueden invocar a aquellos que nos han dejado. Sé que es cierto, así que déjadme explicaros mi problema.~
-@71 = ~Entonces, ¿dónde deberíamos ir a realizar el conjuro?~
+@49 = ~Jugar con las fuerzas de la muerte no es algo que pueda hacerse sin consecuencias, Ryberg. No puedo permitir que alguien a quien no conozco, y que no podrÃ­a estar lo bastante capacitado, lance este conjuro. Lo harÃ© por vos, pero no estoy de acuerdo, Ryberg.~
+@50 = ~Gracias por vuestra ayuda. Siento que no quisierais lanzar el hechizo, pero comprendo que pueda estar mÃ¡s allÃ¡ de vuestras habilidades. De todas maneras, espero ser capaz de encontrar a alguien capaz de hacerlo. Os deseo un buen dÃ­a, <SIRMAAM>.~
+@51 = ~Me estoy quedando sin opciones. Necesito averiguar dÃ³nde escondiÃ³ su dinero el tÃ­o Donny. Por favor, si cambiÃ¡is de opiniÃ³n, os estarÃ© esperando aquÃ­.~
+@52 = ~Â¡TÃ­o Donny! Â¡Estoy encantado de veros! Pero no tenemos mucho tiempo. Por favor, los polÃ­ticos no me dejan ver vuestro testamento. No puedo encontrar el dinero que me dejasteis.~
+@53 = ~Por favor, si pudierais decirme cÃ³mo o dÃ³nde encontrar el dinero, me ayudarÃ­a. Debe haber algo que podÃ¡is decirme, Â¡tÃ­o Donny!  Â¡Hablad!~
+@54 = ~Â¿CÃ³mo? Â¿QuÃ© significa eso, tÃ­o Donny?  No lo entiendo.~
+@55 = ~No, esperad... Â¡no os vayÃ¡is! Â¡Donny!  Esperad...~
+@56 = ~Bueno, ya estÃ¡. El tÃ­o Donny se ha ido definitivamente, y no estoy mÃ¡s cerca de imaginarme dÃ³nde escondiÃ³ su dinero.~
+@57 = ~Siento no haber podido ayudar mÃ¡s. PensÃ© que vuestro tÃ­o podrÃ­a deciros dÃ³nde encontrar el tesoro.~
+@58 = ~Esperad, Ryberg, creo que tengo una idea sobre dÃ³nde podrÃ­a haber escondido su dinero. QuizÃ¡s podamos recuperarlo para vos.~
+@59 = ~Esto es el fin, Ryberg. Mejor suerte la prÃ³xima vez.~
+@60 = ~De todas maneras habÃ©is sido una gran ayuda. Sin vos, no hubiera podido volver a ver a mi tÃ­o. Os agradezco vuestra ayuda a pesar de todo.~
+@61 = ~Si podÃ©is averiguar dÃ³nde estÃ¡, entonces lo repartirÃ© con vos. Si no, no estarÃ© mejor que ahora. Â¿Por quÃ© no lo buscÃ¡is si tenÃ©is tiempo?~
+@62 = ~SÃ­, supongo que los oficiales de la ciudad guardarÃ¡n el testamento y me quedarÃ© sin herencia. Os agradezco vuestra ayuda a pesar de todo.~
+@63 = ~Dijisteis que podrÃ­ais encontrar el dinero que el tÃ­o Donny me dejÃ³. Â¿Fuisteis capaz de encontrarlo?~
+@64 = ~AÃºn no, Ryberg.  MeditarÃ© sobre la adivinanza y buscarÃ© por la ciudad.~
+@65 = ~SÃ­, Ryberg, creo que he encontrado el dinero de vuestro tÃ­o. Es mucho oro. Tened, lo compartiremos al cincuenta por ciento.~
+@66 = ~He encontrado el dinero de vuestro difunto pariente, pero quiero la parte mÃ¡s grande del pastel, porque yo he hecho todo el trabajo.~
+@67 = ~Â¡Oh, genial! Esto me ayudarÃ¡ muchÃ­simo tanto a mÃ­ y como a mi familia. Muchas gracias por vuestra ayuda. Os deseo un buen dÃ­a, <SIRMAAM>.~
+@68 = ~Â¡LadrÃ³n codicioso!  No sois mejor que esos polÃ­ticos que se niegan a darme el testamento. Espero que os pudrÃ¡is con Cyric.~
+~Â¡Ladrona codiciosa!  No sois mejor que esos polÃ­ticos que se niegan a darme el testamento. Espero que os pudrÃ¡is con Cyric.~
+@69 = ~Y como decÃ­s, me quedarÃ© aquÃ­, y si encontrÃ¡is el conjuro, harÃ© todo lo que pueda para ayudaros a lanzarlo.~
+@70 = ~Bueno, he oido que algunos usuarios de la magia pueden invocar a aquellos que nos han dejado. SÃ© que es cierto, asÃ­ que dÃ©jadme explicaros mi problema.~
+@71 = ~Entonces, Â¿dÃ³nde deberÃ­amos ir a realizar el conjuro?~
 @72 = ~Venid conmigo a las Colinas de Umar.~
 @73 = ~Vayamos a esa Fortaleza lejos de la ciudad.~
 @74 = ~Seguidme, e iremos a las Colinas de Ventolanza.~
 @75 = ~Vayamos a una de las criptas bajo el Distrito del Cementerio para lanzar el conjuro. Seguidme.~
 @76 = ~Parece un sitio seguro. Vamos.~
-@77 = ~Si lo resolvéis, dejadmelo saberlo.~
+@77 = ~Si lo resolvÃ©is, dejadmelo saberlo.~
 @78 = ~Herencia perdida
 
-Hoy me encontré con un joven apurado llamado Ryberg. Me habló del reciente fallecimiento de su tío, y de los aprovechados del Gobierno de la ciudad de Athkatla, por culpa de los cuales no es capaz de encontrar el lugar donde su difunto tío escondió el dinero. Ryberg me pidió que encontrara una forma de traer de vuelta a su tío, esperando que el hablar con el alma de su tío le ayudara a encontrar el dinero.~
-@79 = ~¿Herencia Perdida?
+Hoy me encontrÃ© con un joven apurado llamado Ryberg. Me hablÃ³ del reciente fallecimiento de su tÃ­o, y de los aprovechados del Gobierno de la ciudad de Athkatla, por culpa de los cuales no es capaz de encontrar el lugar donde su difunto tÃ­o escondiÃ³ el dinero. Ryberg me pidiÃ³ que encontrara una forma de traer de vuelta a su tÃ­o, esperando que el hablar con el alma de su tÃ­o le ayudara a encontrar el dinero.~
+@79 = ~Â¿Herencia Perdida?
 
-Regresé para encontrarme a Ryberg algo preocupado. Logré conseguir un pergamino para invocar el espíritu de su tío, y Ryberg tuvo una póstuma conversación con él. Desafortadamente, el tío de Ryberg no fue muy preciso sobre la localización de su dinero. Le dije a Ryberg que intentaría resolver el acertijo, pero no hay muchas pistas. El tío de Ryberg mencionó algo sobre perder la visión para ganar fe, y también algo sobre el significado de la vida, usando la metáfora de un puente. Tendré que pensar dónde podría estar el dinero usando estas pistas.~
+RegresÃ© para encontrarme a Ryberg algo preocupado. LogrÃ© conseguir un pergamino para invocar el espÃ­ritu de su tÃ­o, y Ryberg tuvo una pÃ³stuma conversaciÃ³n con Ã©l. Desafortadamente, el tÃ­o de Ryberg no fue muy preciso sobre la localizaciÃ³n de su dinero. Le dije a Ryberg que intentarÃ­a resolver el acertijo, pero no hay muchas pistas. El tÃ­o de Ryberg mencionÃ³ algo sobre perder la visiÃ³n para ganar fe, y tambiÃ©n algo sobre el significado de la vida, usando la metÃ¡fora de un puente. TendrÃ© que pensar dÃ³nde podrÃ­a estar el dinero usando estas pistas.~
 @80 = ~Herencia Perdida Recuperada
 
-Finalmente fui capaz de encontrar el dinero del difunto tío de Ryberg, y se lo devolví. Ryberg estaba tan agradecido por mi trabajo que dividió el dinero conmigo, conservando la mitad de las 26.000 monedas de oro para sí mismo, y dándome el resto.~
-@81 = ~Buscando "A través de los Espíritus"
+Finalmente fui capaz de encontrar el dinero del difunto tÃ­o de Ryberg, y se lo devolvÃ­. Ryberg estaba tan agradecido por mi trabajo que dividiÃ³ el dinero conmigo, conservando la mitad de las 26.000 monedas de oro para sÃ­ mismo, y dÃ¡ndome el resto.~
+@81 = ~Buscando "A travÃ©s de los EspÃ­ritus"
 
-El mago que conocí tiempo atrás en el pueblo de Soubar estaba de vacaciones en Athkatla, y andaba buscando un volumen sobre la vida después de la muerte. Él se comprometió a que si yo podía encontrarle una copia del libro "A través de los Espíritus", él me lo cambiaría por un pergamino con el hechizo Hablar con los muertos.~
-@82 = ~Encontrado "A través de los Espíritus"
+El mago que conocÃ­ tiempo atrÃ¡s en el pueblo de Soubar estaba de vacaciones en Athkatla, y andaba buscando un volumen sobre la vida despuÃ©s de la muerte. Ã‰l se comprometiÃ³ a que si yo podÃ­a encontrarle una copia del libro "A travÃ©s de los EspÃ­ritus", Ã©l me lo cambiarÃ­a por un pergamino con el hechizo Hablar con los muertos.~
+@82 = ~Encontrado "A travÃ©s de los EspÃ­ritus"
 
-Encontré el libro que el mago Ceeb estaba buscando. Regresaré al Paseo para darle el libro.~
+EncontrÃ© el libro que el mago Ceeb estaba buscando. RegresarÃ© al Paseo para darle el libro.~

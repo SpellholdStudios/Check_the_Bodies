@@ -1,38 +1,38 @@
 @1   = ~Chi li ha ubriacati, mi ha reso spavalda. Ho drogato i due cortigiani che assistono il Re, e ho messo i loro pugnali dove persino mio marito poteva vederli.~
-@2   = ~No, sei valoroso Signore. Hai fatto qualcosa di buono una volta tanto. Aspetta un minuto, perchÈ porti quei pugnali insanguinati con te? Credevo li avessi lasciati ai cortigiani. Ritorna, e fallo subito.~
+@2   = ~No, sei valoroso Signore. Hai fatto qualcosa di buono una volta tanto. Aspetta un minuto, perch√© porti quei pugnali insanguinati con te? Credevo li avessi lasciati ai cortigiani. Ritorna, e fallo subito.~
 @3   = ~Il suo kilt.~
 @4   = ~Vedete?  Le mie mani sono dello stesso colore delle tue, ma io non ho paura. Guarda come sei pallido! Andiamo, colorati le guance dello stesso colore.
 
 (Macchia di sangue le guance del marito.)~
-@5   = ~CosÏ va meglio.~
-@6   = ~Dammi quei pugnali, codardo! Li darÚ ai cortigiani e li macchierÚ con il sangue del Re!~
+@5   = ~Cos√¨ va meglio.~
+@6   = ~Dammi quei pugnali, codardo! Li dar√≤ ai cortigiani e li macchier√≤ con il sangue del Re!~
 @7   = ~Sei ancora troppo pallido.
 
-(Macchia ancora pi˘ di sangue la faccia di MacBeth. Poi macchia di sangue il suo viso. Ben presto iniziano a giocare macchiandosi di sangue reciprocamente.
+(Macchia ancora pi√π di sangue la faccia di MacBeth. Poi macchia di sangue il suo viso. Ben presto iniziano a giocare macchiandosi di sangue reciprocamente.
 
 Come il sangue inizia ad asciugarsi, LADY MACBETH si ritira dietro le quinte e ritorna con le mani gocciolanti di sangue fresco per continuare a giocare!  MacBeth fugge terrorizzato come lei corre verso di lui, ma poi ricominciano a giocare macchiandosi reciprocamente di sangue. Alla fine sono interrotti da qualcuno che bussa alla porta.)~
 @8   = ~Ascolta! Qualcuno bussa alla porta! Sbrigati!
 
 (Lady MacBeth corre verso una bacinella d'acqua e ci si lavano le mani dentro. Poi si puliscono.)~
-@9   = ~Un pÚ d'acqua ci liberer‡ da ogni sospetto!
+@9   = ~Un p√≤ d'acqua ci liberer√† da ogni sospetto!
 
-(La sua dichiarazione È ridicola. Le sue mani potrebbero essere pulite, ma il sangue rimane sul tutto il resto del suo corpo.)~
+(La sua dichiarazione √© ridicola. Le sue mani potrebbero essere pulite, ma il sangue rimane sul tutto il resto del suo corpo.)~
 @10  = ~Svelto, indossa la tua camicia da notte. Diremo che stavamo dormendo.
 
 (Inizia a portare MacBeth dietro le quinte mentre continuano a bussare alla porta.)~
-@11  = ~Sono la Regina di Scozia! Allora perchÈ ancora mi sento infelice? E' perchÈ so che il verme che ho sposato trover‡ il modo di mandare all'aria ogni cosa!~
-@12  = ~PerchÈ sembrate cosÏ triste? Vi sentite ancora colpevole? Ricordate, quello che È fatto È fatto!~
-@13  = ~Beh Ë normale. Voi siete ancora voi! Avere una corona sulla testa non cambia chi voi siate!~
+@11  = ~Sono la Regina di Scozia! Allora perch√© ancora mi sento infelice? E' perch√© so che il verme che ho sposato trover√† il modo di mandare all'aria ogni cosa!~
+@12  = ~Perch√© sembrate cos√¨ triste? Vi sentite ancora colpevole? Ricordate, quello che √© fatto √© fatto!~
+@13  = ~Beh √® normale. Voi siete ancora voi! Avere una corona sulla testa non cambia chi voi siate!~
 @14  = ~Naturalmente no! Guardatemi!~
-@15  = ~No. Oh, da quando sono diventata Regina di Scozia, potrei sembrare irradiata da uno splendore reale, ma in realt‡ sono ancora rimasta la ragazza semplice che sono sempre stata.~
-@16  = ~Terminerete di ossessionarvi su questo! Te l'ho detto, Ë solo una cosa temporanea a causa dell'Ammaliamento-Magico! RimarrÚ in questo modo finchÈ noi saremo sicuri di non mandare all'aria ogni cosa.~
+@15  = ~No. Oh, da quando sono diventata Regina di Scozia, potrei sembrare irradiata da uno splendore reale, ma in realt√† sono ancora rimasta la ragazza semplice che sono sempre stata.~
+@16  = ~Terminerete di ossessionarvi su questo! Te l'ho detto, √® solo una cosa temporanea a causa dell'Ammaliamento-Magico! Rimarr√≤ in questo modo finch√© noi saremo sicuri di non mandare all'aria ogni cosa.~
 @17  = ~Cos'hai fatto?~
-@18  = ~Sar‡ la prima volta.~
+@18  = ~Sar√† la prima volta.~
 @19  = ~Cercavo di controllare l'haggis, un piatto scozzese a base di frattaglie, che ho chiesto ai servitori di cucinare per stasera. Banquo lo desidera.~
-@20  = ~Come puoi essere Re di Scozia e non conoscere cos'È l'haggis?~
+@20  = ~Come puoi essere Re di Scozia e non conoscere cos'√© l'haggis?~
 @21  = ~Prendi i polmoni e il cuore di una pecora, li mischi con il grasso che si trova intorno al rene della pecora, poi ci aggiungi della farina d'avena, avvolgi il tutto nello stomaco della pecora e lo cucini.~
 @22  = ~Certamente. Gli Scozzesi lo amano. Se vuoi essere il Re di Scozia, ti deve piacere anche a te!~
-@23  = ~PerchÈ non lo mangi?~
-@24  = ~Ma questo È quello che serviamo stasera. Tutti mangeremo l'haggis.~
-@25  = ~Allora cosa vuoi? C'Ë rimasta della lingua fredda.~
-@26  = ~E cosÏ non mangi niente che non sia stato in un altro stomaco, e non vuoi mangiare niente che non sia stato in qualche altra bocca. Cosa mangerai allora?~
+@23  = ~Perch√© non lo mangi?~
+@24  = ~Ma questo √© quello che serviamo stasera. Tutti mangeremo l'haggis.~
+@25  = ~Allora cosa vuoi? C'√® rimasta della lingua fredda.~
+@26  = ~E cos√¨ non mangi niente che non sia stato in un altro stomaco, e non vuoi mangiare niente che non sia stato in qualche altra bocca. Cosa mangerai allora?~

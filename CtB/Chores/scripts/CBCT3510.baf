@@ -48,13 +48,14 @@ THEN
 		ActionOverride("CBGORDED",ForceSpell("CBSARDED",GORION_LIGHTNING))
 		ActionOverride("CBSARDED",Kill("CBGORDED"))
 		Wait(18)
-		FadeToColor([20.0],0)
+		StartCutScene("CBCT3511")
+//		FadeToColor([20.0],0)
 		Wait(1)
 		ActionOverride("CBGORDED",DestroySelf())
 		ActionOverride("CBSARDED",DestroySelf())
 		ActionOverride("CBANGDED",DestroySelf())
 		ActionOverride("CBSENDED",DestroySelf())
-		StartCutScene("CBCT3511")
+//		StartCutScene("CBCT3511")
 END
 
 

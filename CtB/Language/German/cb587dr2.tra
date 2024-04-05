@@ -1,72 +1,72 @@
 @1  = ~Ich habe meine Ausbildung bei der Erzdruidin noch nicht beendet, Bruder Druide. Vielleicht solltet Ihr mit ihr sprechen.~ 
-@2  = ~Die Erzdruidin ist zufrieden mit Eurer Leistung. Sie hat mir die Gelegenheit gewährt, Eure Kenntnisse in den druidischen Künsten zu verbessern.~
-@3  = ~Das werde ich tun, Bruder Druide, aber Ihr müsst wählen, was Ihr wünscht, das ich Euch beibringen soll. Möchtet Ihr lieber lernen, Euch zusätzliche Zauber einzuprägen, wollt Ihr lieber lernen, wie man schneller Zauber wirkt, oder hättet Ihr gern die Fähigkeit, die Gestalt eines Panters oder Leoparden anzunehmen?~ 
-@4  = ~Ich möchte lernen, wie man sich einen zusätzlichen Zauber pro Stufe einprägt.~
-@5  = ~Ich glaube, ich möchte gerne schneller Zauber wirken.~ 
+@2  = ~Die Erzdruidin ist zufrieden mit Eurer Leistung. Sie hat mir die Gelegenheit gewÃ¤hrt, Eure Kenntnisse in den druidischen KÃ¼nsten zu verbessern.~
+@3  = ~Das werde ich tun, Bruder Druide, aber Ihr mÃ¼sst wÃ¤hlen, was Ihr wÃ¼nscht, das ich Euch beibringen soll. MÃ¶chtet Ihr lieber lernen, Euch zusÃ¤tzliche Zauber einzuprÃ¤gen, wollt Ihr lieber lernen, wie man schneller Zauber wirkt, oder hÃ¤ttet Ihr gern die FÃ¤higkeit, die Gestalt eines Panters oder Leoparden anzunehmen?~ 
+@4  = ~Ich mÃ¶chte lernen, wie man sich einen zusÃ¤tzlichen Zauber pro Stufe einprÃ¤gt.~
+@5  = ~Ich glaube, ich mÃ¶chte gerne schneller Zauber wirken.~ 
 @6  = ~Die Gestaltwandlung in eine Raubkatze sagt mir am meisten zu.
 
-Ich denke, dass ich die Gestaltwandlung in eine Großkatze bevorzugen würde.~
-@7  = ~Was Ihr wählt, Bruder Druide, werde ich Euch lehren.~
-@8  = ~Ihr lernt rasch, Bruder Druide, und habt Eure Zauberkapazität verbessert. Aber es gibt noch mehr für Euch zu lernen.~ 
-@9  = ~Ihr lernt rasch, Bruder Druide, und habt Eure Fähigkeit verbessert, Zauber schneller zu wirken. Aber es gibt noch mehr für Euch zu lernen.~
-@10 = ~Ihr lernt rasch, Bruder Druide, und habt die Fähigkeit erworben, Euch in die Gestalt einer Großkatze zu verwandeln. Die Hälfte der Zeit, die Ihr Euch zu ändern wünscht, werdet Ihr die Form eines Leoparden, der anderen Hälfte die eines Panters annehmen. Aber es gibt noch mehr für Euch zu lernen.~ 
-@11 = ~Das habt Ihr gut gemacht, Bruder Druide, und es erfreut mich, Euch auf solche Weise ein bißchen geholfen zu haben. Aber jetzt sagt mir die Erzdruidin, dass Ihr weiter geprüft werden sollt. Seid Ihr bereit für die nächste Aufgabe?~
+Ich denke, dass ich die Gestaltwandlung in eine GroÃŸkatze bevorzugen wÃ¼rde.~
+@7  = ~Was Ihr wÃ¤hlt, Bruder Druide, werde ich Euch lehren.~
+@8  = ~Ihr lernt rasch, Bruder Druide, und habt Eure ZauberkapazitÃ¤t verbessert. Aber es gibt noch mehr fÃ¼r Euch zu lernen.~ 
+@9  = ~Ihr lernt rasch, Bruder Druide, und habt Eure FÃ¤higkeit verbessert, Zauber schneller zu wirken. Aber es gibt noch mehr fÃ¼r Euch zu lernen.~
+@10 = ~Ihr lernt rasch, Bruder Druide, und habt die FÃ¤higkeit erworben, Euch in die Gestalt einer GroÃŸkatze zu verwandeln. Die HÃ¤lfte der Zeit, die Ihr Euch zu Ã¤ndern wÃ¼nscht, werdet Ihr die Form eines Leoparden, der anderen HÃ¤lfte die eines Panters annehmen. Aber es gibt noch mehr fÃ¼r Euch zu lernen.~ 
+@11 = ~Das habt Ihr gut gemacht, Bruder Druide, und es erfreut mich, Euch auf solche Weise ein biÃŸchen geholfen zu haben. Aber jetzt sagt mir die Erzdruidin, dass Ihr weiter geprÃ¼ft werden sollt. Seid Ihr bereit fÃ¼r die nÃ¤chste Aufgabe?~
 @12 = ~Ja, Elfendame. Sagt mir was getan werden muss.~
 @13 = ~Nein, Elfendame. Ich brauche mehr Zeit.~ 
-@14 = ~Bruder Druide, ohne Euren Wert als Druide zu prüfen, ist Eure Zeit auf Faerûn darauf beschränkt, was Ihr daraus macht. Bereitet Euch so gut wie möglich vor und kommt wieder, wenn Ihr bereit seid.~
-@15 = ~Also gut, Genossin Druidin. Hört gut zu, denn ich Euch viel zu erklären, ehe Ihr mit der nächsten Aufgabe beginnt.~ 
-@16 = ~Es gibt eine zunehmende Anwesenheit, die die Erzdruidin von Weitem in den letzten Monate gefühlt und gesührt hat. Sie weiß nicht, was es ist, aber sie ist sich eines großen Übels bewusst.~
-@17 = ~Bruder Druide, die Erzdruidin hat Angst um die Region, wenn die Präsenz zu mächtig werden sollte. Sie ist nicht von unserer Welt und muss daran gehindert werden, in Faerûn Verwüstungen anzurichten.~
-@18 = ~Sie hat Euch beauftragt, Bruder Druide, dieses Wesen mit allen Euch zur Verfügung stehenden Mitteln zu beseitigen. Besorgt Euch mächtige Freunde als Verbündete oder sammelt arkane Hilfsmittel, um die Bedrohung gewaltsam zu beenden,  wenn es sein muss. Faerûns Sicherheit hängt wieder einmal von Euch ab.~
-@19 = ~Wo kann ich diese "Präsenz" finden, Druidin?~ 
+@14 = ~Bruder Druide, ohne Euren Wert als Druide zu prÃ¼fen, ist Eure Zeit auf FaerÃ»n darauf beschrÃ¤nkt, was Ihr daraus macht. Bereitet Euch so gut wie mÃ¶glich vor und kommt wieder, wenn Ihr bereit seid.~
+@15 = ~Also gut, Genossin Druidin. HÃ¶rt gut zu, denn ich Euch viel zu erklÃ¤ren, ehe Ihr mit der nÃ¤chsten Aufgabe beginnt.~ 
+@16 = ~Es gibt eine zunehmende Anwesenheit, die die Erzdruidin von Weitem in den letzten Monate gefÃ¼hlt und gesÃ¼hrt hat. Sie weiÃŸ nicht, was es ist, aber sie ist sich eines groÃŸen Ãœbels bewusst.~
+@17 = ~Bruder Druide, die Erzdruidin hat Angst um die Region, wenn die PrÃ¤senz zu mÃ¤chtig werden sollte. Sie ist nicht von unserer Welt und muss daran gehindert werden, in FaerÃ»n VerwÃ¼stungen anzurichten.~
+@18 = ~Sie hat Euch beauftragt, Bruder Druide, dieses Wesen mit allen Euch zur VerfÃ¼gung stehenden Mitteln zu beseitigen. Besorgt Euch mÃ¤chtige Freunde als VerbÃ¼ndete oder sammelt arkane Hilfsmittel, um die Bedrohung gewaltsam zu beenden,  wenn es sein muss. FaerÃ»ns Sicherheit hÃ¤ngt wieder einmal von Euch ab.~
+@19 = ~Wo kann ich diese "PrÃ¤senz" finden, Druidin?~ 
 @20 = ~Ich werde mein Bestes tun, Elfendame.~
-@21 = ~Elfendame, ich bezweifle, dass meine Fähigkeiten ausreichen, um solch eine finstere Bedrohung zu beenden.~ 
-@22 = ~Die Erzdruidin weiß nicht genau wo, aber sie spürt sie stark in der Stadt im Süden, der menschlichen Ansiedlung namens Athkatla.~ 
-@23 = ~Was es auch koste, Bruder Druide, unser aller Schicksal liegt möglicherweise in Euren Händen. Wir drei vertrauen Euch, die Erzdruidin vertraut Euch, und denjenigen, die nichts weiter kennen als Zeltplatz-Legenden Eurer Taten würden Euch vertrauen, wenn sie von der Gefahr wüssten. Habt Selbstvertrauen, Bruder, und Ihr werdet erfolgreich sein.~
-@24 = ~Ich weiß, dass Ihr Euer Bestes tun werdet. Das ist unsere einzige Hoffnung. Viel Glück, Bruder Druide. Kommt zurück, wenn die Präsenz verschwunden ist.~ 
-@25 = ~Die Erzdruidin kann immer noch Unheil in der Gegend spüren. Sie weiß, dass Ihr Eure Aufgabe noch nicht abgeschlossen habt.~
-@26 = ~Ich kann diese Präsenz nicht finden. Wisst Ihr, wo sie ist?~
-@27 = ~Wie ich schon sagte, Bruder Druide. Die Erzdruidin fühlt, dass sie aus Athkatla kommt.~
-@28 = ~Noch genauer kann ich nicht sein, aber die Präsenz ist im Westen der Stadt am stärksten.~
-@29 = ~Die Erzdruidin fühlt die Präsenz irgendwo in der Nähe eines Gewässers. Vielleicht ein Fluss? Mit Bestimmtheit kann sie es nicht sagen.~
-@30 = ~Das böse Etwas ist unter der Oberfläche, Bruder Druide. Die Erzdruidin riecht eine Mischung aus Schwefel, Salz und Fäule.~
-@31 = ~Noch genauer kann ich nicht sein, Bruder Druide. Das Böse entspringt auf jeden Fall im Westen Athkatlas, in der Nähe von Wasser, unter der Oberfläche.~
-@32 = ~Die Erzdruidin verspürt nicht länger das Anwachsen einer bösen Präsenz. Habt Ihr sie zerstört?~
-@33 = ~Nein, sie konnte verbannt, aber nicht zerstört werden.~
-@34 = ~Ja, große Herrin, ich zerstörte, was immer es auch gewesen sein mag.~
-@35 = ~Dann ist es also geschehen, gleich, was dabei herauskommt. Ihr habt wohl getan, Bruder Druide, und habt Euch dem Zeitpunkt näher gebracht, zu dem Ihr mehr über die natürliche Ordnung lernen könnt.~
-@36 = ~Geht, Bruder Druide, vernichtet das Böse, wenn Ihr könnt.~
-@37 = ~Ich habe meine Ausbildung bei der Erzdruidin noch nicht abgeschlossen, <GABBER>. Ich bin beschäftigt, um meine Meditation zu unterbrechen.~
+@21 = ~Elfendame, ich bezweifle, dass meine FÃ¤higkeiten ausreichen, um solch eine finstere Bedrohung zu beenden.~ 
+@22 = ~Die Erzdruidin weiÃŸ nicht genau wo, aber sie spÃ¼rt sie stark in der Stadt im SÃ¼den, der menschlichen Ansiedlung namens Athkatla.~ 
+@23 = ~Was es auch koste, Bruder Druide, unser aller Schicksal liegt mÃ¶glicherweise in Euren HÃ¤nden. Wir drei vertrauen Euch, die Erzdruidin vertraut Euch, und denjenigen, die nichts weiter kennen als Zeltplatz-Legenden Eurer Taten wÃ¼rden Euch vertrauen, wenn sie von der Gefahr wÃ¼ssten. Habt Selbstvertrauen, Bruder, und Ihr werdet erfolgreich sein.~
+@24 = ~Ich weiÃŸ, dass Ihr Euer Bestes tun werdet. Das ist unsere einzige Hoffnung. Viel GlÃ¼ck, Bruder Druide. Kommt zurÃ¼ck, wenn die PrÃ¤senz verschwunden ist.~ 
+@25 = ~Die Erzdruidin kann immer noch Unheil in der Gegend spÃ¼ren. Sie weiÃŸ, dass Ihr Eure Aufgabe noch nicht abgeschlossen habt.~
+@26 = ~Ich kann diese PrÃ¤senz nicht finden. Wisst Ihr, wo sie ist?~
+@27 = ~Wie ich schon sagte, Bruder Druide. Die Erzdruidin fÃ¼hlt, dass sie aus Athkatla kommt.~
+@28 = ~Noch genauer kann ich nicht sein, aber die PrÃ¤senz ist im Westen der Stadt am stÃ¤rksten.~
+@29 = ~Die Erzdruidin fÃ¼hlt die PrÃ¤senz irgendwo in der NÃ¤he eines GewÃ¤ssers. Vielleicht ein Fluss? Mit Bestimmtheit kann sie es nicht sagen.~
+@30 = ~Das bÃ¶se Etwas ist unter der OberflÃ¤che, Bruder Druide. Die Erzdruidin riecht eine Mischung aus Schwefel, Salz und FÃ¤ule.~
+@31 = ~Noch genauer kann ich nicht sein, Bruder Druide. Das BÃ¶se entspringt auf jeden Fall im Westen Athkatlas, in der NÃ¤he von Wasser, unter der OberflÃ¤che.~
+@32 = ~Die Erzdruidin verspÃ¼rt nicht lÃ¤nger das Anwachsen einer bÃ¶sen PrÃ¤senz. Habt Ihr sie zerstÃ¶rt?~
+@33 = ~Nein, sie konnte verbannt, aber nicht zerstÃ¶rt werden.~
+@34 = ~Ja, groÃŸe Herrin, ich zerstÃ¶rte, was immer es auch gewesen sein mag.~
+@35 = ~Dann ist es also geschehen, gleich, was dabei herauskommt. Ihr habt wohl getan, Bruder Druide, und habt Euch dem Zeitpunkt nÃ¤her gebracht, zu dem Ihr mehr Ã¼ber die natÃ¼rliche Ordnung lernen kÃ¶nnt.~
+@36 = ~Geht, Bruder Druide, vernichtet das BÃ¶se, wenn Ihr kÃ¶nnt.~
+@37 = ~Ich habe meine Ausbildung bei der Erzdruidin noch nicht abgeschlossen, <GABBER>. Ich bin beschÃ¤ftigt, um meine Meditation zu unterbrechen.~
 @38 = ~Ich habe meine Ausbildung bei der Erzdruidin noch nicht beendet, Schwester Druidin. Vielleicht solltet Ihr mit ihr sprechen.~
-@39 = ~Das werde ich tun, Schwester Druidin, aber Ihr müsst wählen, was Ihr wünscht, das ich Euch beibringen soll. Möchtet Ihr lieber lernen, Euch zusätzliche Zauber einzuprägen, wollt Ihr lieber lernen, wie man schneller Zauber wirkt, oder hättet Ihr gern die Fähigkeit, die Gestalt eines Panters oder Leoparden anzunehmen?~
-@40 = ~Was Ihr wählt, Schwester Druidin, werde ich Euch lehren.~
-@41 = ~Ihr lernt rasch, Schwester Druidin, und habt Eure Zauberkapazität verbessert. Aber es gibt noch mehr für Euch zu lernen.~
-@42 = ~Ihr lernt rasch, Schwester Druidin, und habt Eure Fähigkeit verbessert, Zauber schneller zu wirken. Aber es gibt noch mehr für Euch zu lernen.~
-@43 = ~Ihr lernt rasch, Schwester Druidin, und habt die Fähigkeit erworben, Euch in die Gestalt einer Großkatze zu verwandeln. Die Hälfte der Zeit, die Ihr Euch zu ändern wünscht, werdet Ihr die Form eines Leoparden, der anderen Hälfte die eines Panters annehmen. Aber es gibt noch mehr für Euch zu lernen.~
-@44 = ~Das habt Ihr gut gemacht, Schwester Druidin, und es erfreut mich, Euch auf solche Weise ein bißchen geholfen zu haben. Aber jetzt sagt mir die Erzdruidin, dass Ihr  weiter geprüft werden sollt. Seid Ihr bereit für die nächste Aufgabe?~
-@45 = ~Schwester Druidin, ohne Euren Wert als Druidin zu prüfen, ist Eure Zeit auf Faerûn darauf beschränkt, was Ihr daraus macht. Bereitet Euch so gut wie möglich vor und kommt wieder, wenn Ihr bereit seid.~
-@46 = ~Schwester Druidin, die Erzdruidin hat Angst um die Region, wenn die Präsenz zu mächtig werden sollte. Sie ist nicht von unserer Welt und muss daran gehindert werden, in Faerûn Verwüstungen anzurichten.~
-@47 = ~Sie hat Euch beauftragt, Schester Druidin, dieses Wesen mit allen Euch zur Verfügung stehenden Mitteln zu beseitigen. Besorgt Euch mächtige Freunde als Verbündete oder sammelt arkane Hilfsmittel, um die Bedrohung gewaltsam zu beenden,  wenn es sein muss. Faerûns Sicherheit hängt wieder einmal von Euch ab.~
-@48 = ~Was es auch koste, Schwester Druidin, unser aller Schicksal liegt möglicherweise in Euren Händen. Wir drei vertrauen Euch, die Erzdruidin vertraut Euch, und denjenigen, die nichts weiter kennen als Zeltplatz-Legenden Eurer Taten würden Euch vertrauen, wenn sie von der Gefahr wüssten. Habt Selbstvertrauen, Schwester, und Ihr werdet erfolgreich sein.~
-@49 = ~Ich weiß, dass Ihr Euer Bestes tun werdet. Das ist unsere einzige Hoffnung. Viel Glück, Schwester Druidin. Kommt zurück, wenn die Präsenz verschwunden ist.~
-@50 = ~Wie ich schon sagte, Schwester Druidin. Die Erzdruidin fühlt, dass sie aus Athkatla kommt.~
-@51 = ~Das böse Etwas ist unter der Oberfläche, Schwester Druidin. Die Erzdruidin riecht eine Mischung aus Schwefel, Salz und Fäule.~
-@52 = ~Noch genauer kann ich nicht sein, Schwester Druidin. Das Böse entspringt auf jeden Fall im Westen Athkatlas, in der Nähe von Wasser, unter der Oberfläche.~
-@53 = ~Dann ist es also geschehen, gleich, was dabei herauskommt. Ihr habt wohl getan, Schwester Druidin, und habt Euch dem Zeitpunkt näher gebracht, zu dem Ihr mehr über die natürliche Ordnung lernen könnt.~
-@54 = ~Geht, Schwester Druidin, vernichtet das Böse, wenn Ihr könnt.~
+@39 = ~Das werde ich tun, Schwester Druidin, aber Ihr mÃ¼sst wÃ¤hlen, was Ihr wÃ¼nscht, das ich Euch beibringen soll. MÃ¶chtet Ihr lieber lernen, Euch zusÃ¤tzliche Zauber einzuprÃ¤gen, wollt Ihr lieber lernen, wie man schneller Zauber wirkt, oder hÃ¤ttet Ihr gern die FÃ¤higkeit, die Gestalt eines Panters oder Leoparden anzunehmen?~
+@40 = ~Was Ihr wÃ¤hlt, Schwester Druidin, werde ich Euch lehren.~
+@41 = ~Ihr lernt rasch, Schwester Druidin, und habt Eure ZauberkapazitÃ¤t verbessert. Aber es gibt noch mehr fÃ¼r Euch zu lernen.~
+@42 = ~Ihr lernt rasch, Schwester Druidin, und habt Eure FÃ¤higkeit verbessert, Zauber schneller zu wirken. Aber es gibt noch mehr fÃ¼r Euch zu lernen.~
+@43 = ~Ihr lernt rasch, Schwester Druidin, und habt die FÃ¤higkeit erworben, Euch in die Gestalt einer GroÃŸkatze zu verwandeln. Die HÃ¤lfte der Zeit, die Ihr Euch zu Ã¤ndern wÃ¼nscht, werdet Ihr die Form eines Leoparden, der anderen HÃ¤lfte die eines Panters annehmen. Aber es gibt noch mehr fÃ¼r Euch zu lernen.~
+@44 = ~Das habt Ihr gut gemacht, Schwester Druidin, und es erfreut mich, Euch auf solche Weise ein biÃŸchen geholfen zu haben. Aber jetzt sagt mir die Erzdruidin, dass Ihr  weiter geprÃ¼ft werden sollt. Seid Ihr bereit fÃ¼r die nÃ¤chste Aufgabe?~
+@45 = ~Schwester Druidin, ohne Euren Wert als Druidin zu prÃ¼fen, ist Eure Zeit auf FaerÃ»n darauf beschrÃ¤nkt, was Ihr daraus macht. Bereitet Euch so gut wie mÃ¶glich vor und kommt wieder, wenn Ihr bereit seid.~
+@46 = ~Schwester Druidin, die Erzdruidin hat Angst um die Region, wenn die PrÃ¤senz zu mÃ¤chtig werden sollte. Sie ist nicht von unserer Welt und muss daran gehindert werden, in FaerÃ»n VerwÃ¼stungen anzurichten.~
+@47 = ~Sie hat Euch beauftragt, Schester Druidin, dieses Wesen mit allen Euch zur VerfÃ¼gung stehenden Mitteln zu beseitigen. Besorgt Euch mÃ¤chtige Freunde als VerbÃ¼ndete oder sammelt arkane Hilfsmittel, um die Bedrohung gewaltsam zu beenden,  wenn es sein muss. FaerÃ»ns Sicherheit hÃ¤ngt wieder einmal von Euch ab.~
+@48 = ~Was es auch koste, Schwester Druidin, unser aller Schicksal liegt mÃ¶glicherweise in Euren HÃ¤nden. Wir drei vertrauen Euch, die Erzdruidin vertraut Euch, und denjenigen, die nichts weiter kennen als Zeltplatz-Legenden Eurer Taten wÃ¼rden Euch vertrauen, wenn sie von der Gefahr wÃ¼ssten. Habt Selbstvertrauen, Schwester, und Ihr werdet erfolgreich sein.~
+@49 = ~Ich weiÃŸ, dass Ihr Euer Bestes tun werdet. Das ist unsere einzige Hoffnung. Viel GlÃ¼ck, Schwester Druidin. Kommt zurÃ¼ck, wenn die PrÃ¤senz verschwunden ist.~
+@50 = ~Wie ich schon sagte, Schwester Druidin. Die Erzdruidin fÃ¼hlt, dass sie aus Athkatla kommt.~
+@51 = ~Das bÃ¶se Etwas ist unter der OberflÃ¤che, Schwester Druidin. Die Erzdruidin riecht eine Mischung aus Schwefel, Salz und FÃ¤ule.~
+@52 = ~Noch genauer kann ich nicht sein, Schwester Druidin. Das BÃ¶se entspringt auf jeden Fall im Westen Athkatlas, in der NÃ¤he von Wasser, unter der OberflÃ¤che.~
+@53 = ~Dann ist es also geschehen, gleich, was dabei herauskommt. Ihr habt wohl getan, Schwester Druidin, und habt Euch dem Zeitpunkt nÃ¤her gebracht, zu dem Ihr mehr Ã¼ber die natÃ¼rliche Ordnung lernen kÃ¶nnt.~
+@54 = ~Geht, Schwester Druidin, vernichtet das BÃ¶se, wenn Ihr kÃ¶nnt.~
 @55 = ~Die Erzdruidin: Die dunkle Bedrohung
 
-Die drei Druiden aus dem nördlichen Hain haben mich beauftragt, eine böse Präsenz zu bezwingen, die sie in der Gegend spüren können. Sie sind nicht sicher, wo genau dieses Übel entspringt, aber es muss irgendwo in der Stadt Athkatla sein.
-Wenn ich die böse Präsenz besiegt habe - entweder indem ich sie zerstöre oder aus Faerûn verbanne - soll ich mich bei den Druiden südlich von Baldurs Tor melden, wo sie versrochen haben, mir eine Fähigkeit beibringen, die mein Leben bereichern wird.~
+Die drei Druiden aus dem nÃ¶rdlichen Hain haben mich beauftragt, eine bÃ¶se PrÃ¤senz zu bezwingen, die sie in der Gegend spÃ¼ren kÃ¶nnen. Sie sind nicht sicher, wo genau dieses Ãœbel entspringt, aber es muss irgendwo in der Stadt Athkatla sein.
+Wenn ich die bÃ¶se PrÃ¤senz besiegt habe - entweder indem ich sie zerstÃ¶re oder aus FaerÃ»n verbanne - soll ich mich bei den Druiden sÃ¼dlich von Baldurs Tor melden, wo sie versrochen haben, mir eine FÃ¤higkeit beibringen, die mein Leben bereichern wird.~
 @56 = ~Die Erzdruidin: Die Lehren des Weges
 
-Die Erzdruidin und ihre Schüler zeigten mir, wie ich mir mehr Zauber einprägen kann.~
+Die Erzdruidin und ihre SchÃ¼ler zeigten mir, wie ich mir mehr Zauber einprÃ¤gen kann.~
 @57 = ~Die Erzdruidin: Die Lehren des Weges
 
-Die Erzdruidin und ihre Schüler zeigten mir, wie ich Zaubersprüche schneller wirken kann.~
+Die Erzdruidin und ihre SchÃ¼ler zeigten mir, wie ich ZaubersprÃ¼che schneller wirken kann.~
 @58 = ~Die Erzdruidin: Die Lehren des Weges
 
-Die Erzdruidin und ihre Schüler zeigten mir, wie ich meine Gestalt in eine Großkatze, entweder Panter oder Leopard, verwandeln kann.~
+Die Erzdruidin und ihre SchÃ¼ler zeigten mir, wie ich meine Gestalt in eine GroÃŸkatze, entweder Panter oder Leopard, verwandeln kann.~
 @59 = ~Die Erzdruidin: Die dunkle Bedrohung
 
-Das Trio der Druiden befahl mir, eine böse Präsenz zu vernichten, die sie in der Region verspürten, die ich unter den Docks von Athkatla fand. Es war ein schwerer Kampf, doch ich siegte und die Elfen-Druiden versprachen, mich eine wertvolle Fähigkeit zu lehren.~
+Das Trio der Druiden befahl mir, eine bÃ¶se PrÃ¤senz zu vernichten, die sie in der Region verspÃ¼rten, die ich unter den Docks von Athkatla fand. Es war ein schwerer Kampf, doch ich siegte und die Elfen-Druiden versprachen, mich eine wertvolle FÃ¤higkeit zu lehren.~

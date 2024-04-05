@@ -1,151 +1,151 @@
-@1   = ~¡Escuchad! Naie saldrá herido si toos tiran sus armas.~
-@2   = ~Pero si aguien pensá que pue hacerme daño, tengo unos bunos 'migos mirando. Nosos preocupeis por ellos, nonos haran daño si no m´atacais.~
-@3   = ~Creo que me toy empezando a relajá, pero el ciervo se susta un poco cando hay extraños. No les haga ni caso, ¿me cuchas?~
-@4   = ~De toas forma, ¿ande están mi modales? Io soy Crowley, un exploraó que vive en tos los camino de aquí­ n´el bosque. ¿Cómo soos llamáis tos?~
-@5   = ~No necesitáis saber mi nombre.~
+@1   = ~Â¡Escuchad! Naie saldrÃ¡ herido si toos tiran sus armas.~
+@2   = ~Pero si aguien pensÃ¡ que pue hacerme daÃ±o, tengo unos bunos 'migos mirando. Nosos preocupeis por ellos, nonos haran daÃ±o si no mÂ´atacais.~
+@3   = ~Creo que me toy empezando a relajÃ¡, pero el ciervo se susta un poco cando hay extraÃ±os. No les haga ni caso, Â¿me cuchas?~
+@4   = ~De toas forma, Â¿ande estÃ¡n mi modales? Io soy Crowley, un exploraÃ³ que vive en tos los camino de aquÃ­Â­ nÂ´el bosque. Â¿CÃ³mo soos llamÃ¡is tos?~
+@5   = ~No necesitÃ¡is saber mi nombre.~
 @6   = ~Soy <GABBER>, y es un placer conoceros.~
-@7   = ~¿Cuánto tiempo habéis vivido aquí­?~
-@8   = ~No e que quera faltaro al respeto, 'migos, pero si vo' no queré se amables, mejó que sigai caminando.~
-@9   = ~Supongo que tará cerca de acé una década. Me conozco toos estos busques omo la palma de mi mano. Aún agí­, hay musho senderos y paisajes. Asin que, vosotros, ¿cuales dijí­steis que eran vuos nombre?~
-@10  = ~Clao, clao. Escuchad, <GABBER>, me conozco a un tipo exploraó cuando lo veo. Ademá me conozco estos busques como la palma de mi mano. Me llevó uno poco año el aprendé los secreto del busque.~
-@11  = ~Se os pareceis a un explorao, quizá pudiera enseñaro ¿sos gustarí­a aprendé? Tarí­a más que felí­, pero tendrí­ai que echarme una mano a cambio.~
-@12  = ~Seguro, puedo ayudaros. Me encantarí­a aprender algunos truco nuevos.~
-@13  = ~No tengo tiempo ahora. Puede que regrese más tarde.~
-@14  = ~Me imagino que eto no soos llevará demasiao tiempo. Te vía contá lo que necesito. Justo al norte de 'quí­, hay un rio que cae a un estanquegillo al finá de una cascahada.  En to caso, mis 'migos animales se tan queando tontos al bebé del agua. Tarí­a agradecí­o si soos asegurai de cuál es el problema y veis poqué mi animales san enfermao.~
-@15  = ~¡No me creo que sea mamigo exploraó <GABBER>! Qué bueno mirarte de nuevo. ¿No me igas que ya has encontrao el porqué mi animales tán enfermando?~ ~¡No me creo que sea mamigo exploraó <GABBER>!  Que bueno mirarte de nuevo. ¿No me igas que ya has encontrao el porqué mi animales tán enfermando?~
-@16  = ~No, Crowley, aún no me lo explico.~
-@17  = ~Sí­, Crowley. Creo que he encontrado el motivo; el cuerpo de un ciervo muerto estaba contaminando el rí­o. He retirado el cuerpo, y el agua deberí­a limpiarse por sí sola en poco tiempo.~
-@18  = ~¿Qué se suponí­a que tení­a que hacer por vos?~
-@19  = ~Me calculo que soi lo suiciente avispao como pa enontrarlo. Tád aseguraos de mi intuición.~ ~Me calculo que soi lo suiciente avispáa como pa enontrarlo. Tád aseguraos de mi intuición.~
-@20  = ~Toy empezando a pensá que sus tais quedando atontaos. Sólo seguí­ el rio corriente pa'arriba y soos coscaréis del poqué mi animales tan enfemando. Tád aseguraos de mi intuición de que lo vais a encontrá.~
-@21  = ~Ésa es la forma de hacer las osas, ¿eh? Aunque me entristece el oí­ eso, sus aseguro. Me imagino que fue duro el sacá el cuerpo afuera del agua, ¿uh?~
-@22  = ~Tá visto que podrí­a enseñaros alguna cosa si sus quereis practicá lo que pueo mostraros.~
-@23  = ~¿Que soos gustarí­a aprendé?  ¿El cómo rastreá mejo a creaturas? ¿Cómo colocá algunos lazos pa conejos, ó cómo econtra y quitá las trampas pervesas?~
-@24  = ~Creo que me gustarí­a saber cómo rastrear más adecuadamente.~
-@25  = ~La verdad es que me gustarí­a aprender cómo colocar lazos.~
-@26  = ~Quiero saber cómo encontrar y quitar trampas.~
-@27  = ~Seguuro, 'migo.  Igueme, y soos mostraré algunas cosa.~ ~Seguuro, 'miga.  Igueme, y soos mostraré algunas cosa.~
-@28  = ~Supongo que serí­ai capá de averiguá que clace de cosas han tao en'ta area y buscalas 'llí­.~
-@29  = ~Supongo que serí­ai capá de coloca algunos lazos pa conejo en mdio del bosque y cazá alguna cosa.~
-@30  = ~Supongo que ahora serí­ai capá de encontrá y quitá cuarquié trampa que pudiera dañaros.~
-@31  = ~Deberíai tar seguro de mi olfato pa lo que tenei que encontrá. Está en algún lao alrededó de aquí­.~ ~Deberíai tar segura de mi olfato pa lo que tenei que encontrá. Está en algún lao alrededó de aquí­.~
-@32  = ~¡<GABBER>! ¡Ma 'migo! E güeno el vero de nuevo. Supongo que e poque hace tiempo desde que me é visto con tantas personas. Como sea, ¿creéi que me podei ayudar? Sus puedo enseñá algo si ma 'yudais.~ ~¡<GABBER>! ¡Ma 'miga! E güeno el vero de nuevo. Supongo que e poque hace tiempo desde que me é visto con tantas personas. Como sea, ¿creéi que me podei ayudar? Sus puedo enseñá algo si ma 'yudais.~
-@33  = ~Por supuesto, Crowley. ¿Qué necesitais?~
-@34  = ~Ahora mismo tengo mucha prisa. Vendré más tarde.~
-@35  = ~Seguro. Tomao vustro tiempo, <GABBER>.  No me vía ir a ningún lao.~
-@36  = ~No dudo que'sto sus pué costá un poco, pero sus digo que estando aquí­ fuera, en el busque, uno se'ntera mejon de lo que pasa.~
-@37  = ~No podrí­a decí­ de verdad ande, pero hay una presencia en algún luga cercano. Algo tediblemente malvao. Se huele que'so no e ná natural.~
-@38  = ~Mi olfato me dise que tó esto es algo que ta cerca de Athkatla. Reconoco que no sé lo que e, y yo no toy como pa queré encontralo, peo seguro que como er sol, eso versa a toa la región.~
-@39  = ~¿Creéi que puéis encontralo y a lo major despacharlo po mí­?~
-@40  = ~¿Dónde puedo encontrar esa presencia, Crowley?~
-@41  = ~Crowley, intentaré hacerlo lo mejor posible.~
+@7   = ~Â¿CuÃ¡nto tiempo habÃ©is vivido aquÃ­Â­?~
+@8   = ~No e que quera faltaro al respeto, 'migos, pero si vo' no querÃ© se amables, mejÃ³ que sigai caminando.~
+@9   = ~Supongo que tarÃ¡ cerca de acÃ© una dÃ©cada. Me conozco toos estos busques omo la palma de mi mano. AÃºn agÃ­Â­, hay musho senderos y paisajes. Asin que, vosotros, Â¿cuales dijÃ­Â­steis que eran vuos nombre?~
+@10  = ~Clao, clao. Escuchad, <GABBER>, me conozco a un tipo exploraÃ³ cuando lo veo. AdemÃ¡ me conozco estos busques como la palma de mi mano. Me llevÃ³ uno poco aÃ±o el aprendÃ© los secreto del busque.~
+@11  = ~Se os pareceis a un explorao, quizÃ¡ pudiera enseÃ±aro Â¿sos gustarÃ­Â­a aprendÃ©? TarÃ­Â­a mÃ¡s que felÃ­Â­, pero tendrÃ­Â­ai que echarme una mano a cambio.~
+@12  = ~Seguro, puedo ayudaros. Me encantarÃ­Â­a aprender algunos truco nuevos.~
+@13  = ~No tengo tiempo ahora. Puede que regrese mÃ¡s tarde.~
+@14  = ~Me imagino que eto no soos llevarÃ¡ demasiao tiempo. Te vÃ­a contÃ¡ lo que necesito. Justo al norte de 'quÃ­Â­, hay un rio que cae a un estanquegillo al finÃ¡ de una cascahada.  En to caso, mis 'migos animales se tan queando tontos al bebÃ© del agua. TarÃ­Â­a agradecÃ­Â­o si soos asegurai de cuÃ¡l es el problema y veis poquÃ© mi animales san enfermao.~
+@15  = ~Â¡No me creo que sea mamigo exploraÃ³ <GABBER>! QuÃ© bueno mirarte de nuevo. Â¿No me igas que ya has encontrao el porquÃ© mi animales tÃ¡n enfermando?~ ~Â¡No me creo que sea mamigo exploraÃ³ <GABBER>!  Que bueno mirarte de nuevo. Â¿No me igas que ya has encontrao el porquÃ© mi animales tÃ¡n enfermando?~
+@16  = ~No, Crowley, aÃºn no me lo explico.~
+@17  = ~SÃ­Â­, Crowley. Creo que he encontrado el motivo; el cuerpo de un ciervo muerto estaba contaminando el rÃ­Â­o. He retirado el cuerpo, y el agua deberÃ­Â­a limpiarse por sÃ­ sola en poco tiempo.~
+@18  = ~Â¿QuÃ© se suponÃ­Â­a que tenÃ­Â­a que hacer por vos?~
+@19  = ~Me calculo que soi lo suiciente avispao como pa enontrarlo. TÃ¡d aseguraos de mi intuiciÃ³n.~ ~Me calculo que soi lo suiciente avispÃ¡a como pa enontrarlo. TÃ¡d aseguraos de mi intuiciÃ³n.~
+@20  = ~Toy empezando a pensÃ¡ que sus tais quedando atontaos. SÃ³lo seguÃ­Â­ el rio corriente pa'arriba y soos coscarÃ©is del poquÃ© mi animales tan enfemando. TÃ¡d aseguraos de mi intuiciÃ³n de que lo vais a encontrÃ¡.~
+@21  = ~Ã‰sa es la forma de hacer las osas, Â¿eh? Aunque me entristece el oÃ­Â­ eso, sus aseguro. Me imagino que fue duro el sacÃ¡ el cuerpo afuera del agua, Â¿uh?~
+@22  = ~TÃ¡ visto que podrÃ­Â­a enseÃ±aros alguna cosa si sus quereis practicÃ¡ lo que pueo mostraros.~
+@23  = ~Â¿Que soos gustarÃ­Â­a aprendÃ©?  Â¿El cÃ³mo rastreÃ¡ mejo a creaturas? Â¿CÃ³mo colocÃ¡ algunos lazos pa conejos, Ã³ cÃ³mo econtra y quitÃ¡ las trampas pervesas?~
+@24  = ~Creo que me gustarÃ­Â­a saber cÃ³mo rastrear mÃ¡s adecuadamente.~
+@25  = ~La verdad es que me gustarÃ­Â­a aprender cÃ³mo colocar lazos.~
+@26  = ~Quiero saber cÃ³mo encontrar y quitar trampas.~
+@27  = ~Seguuro, 'migo.  Igueme, y soos mostrarÃ© algunas cosa.~ ~Seguuro, 'miga.  Igueme, y soos mostrarÃ© algunas cosa.~
+@28  = ~Supongo que serÃ­Â­ai capÃ¡ de averiguÃ¡ que clace de cosas han tao en'ta area y buscalas 'llÃ­Â­.~
+@29  = ~Supongo que serÃ­Â­ai capÃ¡ de coloca algunos lazos pa conejo en mdio del bosque y cazÃ¡ alguna cosa.~
+@30  = ~Supongo que ahora serÃ­Â­ai capÃ¡ de encontrÃ¡ y quitÃ¡ cuarquiÃ© trampa que pudiera daÃ±aros.~
+@31  = ~DeberÃ­ai tar seguro de mi olfato pa lo que tenei que encontrÃ¡. EstÃ¡ en algÃºn lao alrededÃ³ de aquÃ­Â­.~ ~DeberÃ­ai tar segura de mi olfato pa lo que tenei que encontrÃ¡. EstÃ¡ en algÃºn lao alrededÃ³ de aquÃ­Â­.~
+@32  = ~Â¡<GABBER>! Â¡Ma 'migo! E gÃ¼eno el vero de nuevo. Supongo que e poque hace tiempo desde que me Ã© visto con tantas personas. Como sea, Â¿creÃ©i que me podei ayudar? Sus puedo enseÃ±Ã¡ algo si ma 'yudais.~ ~Â¡<GABBER>! Â¡Ma 'miga! E gÃ¼eno el vero de nuevo. Supongo que e poque hace tiempo desde que me Ã© visto con tantas personas. Como sea, Â¿creÃ©i que me podei ayudar? Sus puedo enseÃ±Ã¡ algo si ma 'yudais.~
+@33  = ~Por supuesto, Crowley. Â¿QuÃ© necesitais?~
+@34  = ~Ahora mismo tengo mucha prisa. VendrÃ© mÃ¡s tarde.~
+@35  = ~Seguro. Tomao vustro tiempo, <GABBER>.  No me vÃ­a ir a ningÃºn lao.~
+@36  = ~No dudo que'sto sus puÃ© costÃ¡ un poco, pero sus digo que estando aquÃ­Â­ fuera, en el busque, uno se'ntera mejon de lo que pasa.~
+@37  = ~No podrÃ­Â­a decÃ­Â­ de verdad ande, pero hay una presencia en algÃºn luga cercano. Algo tediblemente malvao. Se huele que'so no e nÃ¡ natural.~
+@38  = ~Mi olfato me dise que tÃ³ esto es algo que ta cerca de Athkatla. Reconoco que no sÃ© lo que e, y yo no toy como pa querÃ© encontralo, peo seguro que como er sol, eso versa a toa la regiÃ³n.~
+@39  = ~Â¿CreÃ©i que puÃ©is encontralo y a lo major despacharlo po mÃ­Â­?~
+@40  = ~Â¿DÃ³nde puedo encontrar esa presencia, Crowley?~
+@41  = ~Crowley, intentarÃ© hacerlo lo mejor posible.~
 @42  = ~Crowley, la verdad, no creo que pueda ser capaz de atajar tal amenaza.~
-@43  = ~Tóo lo que olí­, como ia dije, es que el mal procede de Athkatla. Jerí­a menesté comprobá aquello primero. De seguro que me dejé la nariz si vení­s sin encontra ná.~
-@44  = ~<GABBER>, como dije, segúo como que un mapache es una alimaña, creo que'sto es maligno, algo a tratá pa la región. Si tenei algo de fe en vuestra 'bilidade, buna suerte, pero e seguro que serei capaz de controlarlo.~
-@45  = ~Sé que trataréi hacerlo lo mejó posible, <GABBER>. Hacenme sabé si sacaia a la lúz cualquie cosa.~
-@46  = ~¡'migo <GABBER>! Mi hueso me disen que no 'béi sido capá de eliminar la presencia maligna. ¿Sus puedo ayudá en algo?~ ~¡'migo <GABBER>! Mi hueso me disen que no 'béi sido capá de eliminar la presencia maligna. ¿Sus puedo ayudá en algo?~
-@47  = ~No puedo encontrar esa presencia. ¿Sabéis donde está?~
-@48  = ~Ya sus lo dije, <GABBER>, to lo que olí­ es que podí­a sentirla en Athkatla.~
-@49  = ~Lo siento, 'migo, pero no sus puedo decí­ na más especí­fico salvo que la presencia es má fuerte en el lao oeste de la ciudad.~ ~Lo siento, 'miga, pero no sus puedo decí­ na má especí­fico salvo que la presencia es más fuerte en el lao oeste de la ciudad.~
-@50  = ~Sus digo esto, la presencia etá en algún lao cerca del agua. ¿Quizá un rí­o? No pueo saberlo con má certeja.~
-@51  = ~El sé maligno ta bajo la superfifie, <GABBER>. Por alguna rasón, mi olfato me dá la sensación de azufre, sal y... decadenza.~
-@52  = ~'migo, dejearí­a podé ser má epefí­fico. Pero tóo lo que huelo es quel mal es abrumaoramente poderoso en el lao oeste de Athkatla, cerca del agua y ebajo de la superfifie.~ ~'miga, dejearí­a podé ser má epefí­fico. Pero tóo lo que huelo es quel mal es abrumaoramente poderoso en el lao oeste de Athkatla, cerca del agua y ebajo de la superfifie.~
-@53  = ~¡'migo! Que güeno el vero. Os diré que, no pueo detectá ni un mal en Athkatla. ¿Qué pasó?~ ~¡'miga! Que güeno el vero. Os diré que, no pueo detectá ni un mal en Athkatla. ¿Qué pasó?~
-@54  = ~Habí­a un demonio allí­ y lo desterré, pero no fue destruido.~
-@55  = ~Habí­a un demonio allí­ y lo destruí­.  No necesitais preocuparos más.~
-@56  = ~¡Eso es enorme, 'migo! Lo hicistei bien. Venga, dejanme enseñaro alguna cosa sobre sé explorao.~ ~¡Eso es enorme, 'miga! Lo hicistei bien. Venga, dejanme enseñaro alguna cosa sobre sé explorao.~
-@57  = ~Adelante, <GABBER>, si que podéi eliminá lo que quiera que eté allí­.~
-@58  = ~Po supuesto, que no voy a rehuí­ de mi promesa, así­ que, decinme qué sus gustarí­a apendé.~
-@59  = ~¿Sus gustarí­a que soos enseñara a colocá trampas? ¿Cómo sobreviví­ en la natualeza, ó soos gustarí­a aprendé cómo usar mejó un arma a distancia?~
-@60  = ~Quiero saber cómo colocar una trampa.  ¿Podéis enseñarme eso, Crowley?~
-@61  = ~Supervivencia. ¿Podéis enseñarme, Crowley?~
-@62  = ~¿Cómo usar mi arma a distancia? ¿Os referí­s a disparar? Sí­, Crowley, me gustaría aprender sobre eso.~
-@63  = ~Por supuesto que puedo po vos. Amos, amos a caminá al bosque y sus mostraré lo que yo sé.~
-@64  = ~Supongo que tendrei que pacticá lo que os he mostrao, pero ahora deberí­ai se capá de colocá trampas con failidad.~
-@65  = ~Supongo que tendrei que pacticá lo que os he mostrao, pero ahora deberí­ai se capá de sobrevivir mejó en la naturaleza.~
-@66  = ~Supongo que dentrei que pacticá lo que os he mostrao, pero ahora deberí­ai se capá de usar mejor cualquie arma arrojaiza o a distancia como un arco, dagas, ballefta, jachas, y demases.~
-@67  = ~Que m´aspen si no es mi 'migo ¿Cómo está to? ¿Habéi encontrao algo nuvo o curioso en vustros viajes? Espera, no me ontéis ná. Nus sentaremo a la lumbre de una fogata a compatí­ algunas histodias. Pero en este momento nejecito ayuda. ¿Tenéi alguno dí­as pa perder?~ ~Que m´aspen si no es mi 'migo ¿Cómo está to? ¿Habéi encontrao algo nuvo o curioso en vustros viajes? Espera, no me ontéis ná. Nus sentaremo a la lumbre de una fogata a compatí­ algunas histodias. Pero en este momento nejecito ayuda. ¿Tenéi alguno dí­as pa perder?~
+@43  = ~TÃ³o lo que olÃ­Â­, como ia dije, es que el mal procede de Athkatla. JerÃ­Â­a menestÃ© comprobÃ¡ aquello primero. De seguro que me dejÃ© la nariz si venÃ­Â­s sin encontra nÃ¡.~
+@44  = ~<GABBER>, como dije, segÃºo como que un mapache es una alimaÃ±a, creo que'sto es maligno, algo a tratÃ¡ pa la regiÃ³n. Si tenei algo de fe en vuestra 'bilidade, buna suerte, pero e seguro que serei capaz de controlarlo.~
+@45  = ~SÃ© que tratarÃ©i hacerlo lo mejÃ³ posible, <GABBER>. Hacenme sabÃ© si sacaia a la lÃºz cualquie cosa.~
+@46  = ~Â¡'migo <GABBER>! Mi hueso me disen que no 'bÃ©i sido capÃ¡ de eliminar la presencia maligna. Â¿Sus puedo ayudÃ¡ en algo?~ ~Â¡'migo <GABBER>! Mi hueso me disen que no 'bÃ©i sido capÃ¡ de eliminar la presencia maligna. Â¿Sus puedo ayudÃ¡ en algo?~
+@47  = ~No puedo encontrar esa presencia. Â¿SabÃ©is donde estÃ¡?~
+@48  = ~Ya sus lo dije, <GABBER>, to lo que olÃ­Â­ es que podÃ­Â­a sentirla en Athkatla.~
+@49  = ~Lo siento, 'migo, pero no sus puedo decÃ­Â­ na mÃ¡s especÃ­Â­fico salvo que la presencia es mÃ¡ fuerte en el lao oeste de la ciudad.~ ~Lo siento, 'miga, pero no sus puedo decÃ­Â­ na mÃ¡ especÃ­Â­fico salvo que la presencia es mÃ¡s fuerte en el lao oeste de la ciudad.~
+@50  = ~Sus digo esto, la presencia etÃ¡ en algÃºn lao cerca del agua. Â¿QuizÃ¡ un rÃ­Â­o? No pueo saberlo con mÃ¡ certeja.~
+@51  = ~El sÃ© maligno ta bajo la superfifie, <GABBER>. Por alguna rasÃ³n, mi olfato me dÃ¡ la sensaciÃ³n de azufre, sal y... decadenza.~
+@52  = ~'migo, dejearÃ­Â­a podÃ© ser mÃ¡ epefÃ­Â­fico. Pero tÃ³o lo que huelo es quel mal es abrumaoramente poderoso en el lao oeste de Athkatla, cerca del agua y ebajo de la superfifie.~ ~'miga, dejearÃ­Â­a podÃ© ser mÃ¡ epefÃ­Â­fico. Pero tÃ³o lo que huelo es quel mal es abrumaoramente poderoso en el lao oeste de Athkatla, cerca del agua y ebajo de la superfifie.~
+@53  = ~Â¡'migo! Que gÃ¼eno el vero. Os dirÃ© que, no pueo detectÃ¡ ni un mal en Athkatla. Â¿QuÃ© pasÃ³?~ ~Â¡'miga! Que gÃ¼eno el vero. Os dirÃ© que, no pueo detectÃ¡ ni un mal en Athkatla. Â¿QuÃ© pasÃ³?~
+@54  = ~HabÃ­Â­a un demonio allÃ­Â­ y lo desterrÃ©, pero no fue destruido.~
+@55  = ~HabÃ­Â­a un demonio allÃ­Â­ y lo destruÃ­Â­.  No necesitais preocuparos mÃ¡s.~
+@56  = ~Â¡Eso es enorme, 'migo! Lo hicistei bien. Venga, dejanme enseÃ±aro alguna cosa sobre sÃ© explorao.~ ~Â¡Eso es enorme, 'miga! Lo hicistei bien. Venga, dejanme enseÃ±aro alguna cosa sobre sÃ© explorao.~
+@57  = ~Adelante, <GABBER>, si que podÃ©i eliminÃ¡ lo que quiera que etÃ© allÃ­Â­.~
+@58  = ~Po supuesto, que no voy a rehuÃ­Â­ de mi promesa, asÃ­Â­ que, decinme quÃ© sus gustarÃ­Â­a apendÃ©.~
+@59  = ~Â¿Sus gustarÃ­Â­a que soos enseÃ±ara a colocÃ¡ trampas? Â¿CÃ³mo sobrevivÃ­Â­ en la natualeza, Ã³ soos gustarÃ­Â­a aprendÃ© cÃ³mo usar mejÃ³ un arma a distancia?~
+@60  = ~Quiero saber cÃ³mo colocar una trampa.  Â¿PodÃ©is enseÃ±arme eso, Crowley?~
+@61  = ~Supervivencia. Â¿PodÃ©is enseÃ±arme, Crowley?~
+@62  = ~Â¿CÃ³mo usar mi arma a distancia? Â¿Os referÃ­Â­s a disparar? SÃ­Â­, Crowley, me gustarÃ­a aprender sobre eso.~
+@63  = ~Por supuesto que puedo po vos. Amos, amos a caminÃ¡ al bosque y sus mostrarÃ© lo que yo sÃ©.~
+@64  = ~Supongo que tendrei que pacticÃ¡ lo que os he mostrao, pero ahora deberÃ­Â­ai se capÃ¡ de colocÃ¡ trampas con failidad.~
+@65  = ~Supongo que tendrei que pacticÃ¡ lo que os he mostrao, pero ahora deberÃ­Â­ai se capÃ¡ de sobrevivir mejÃ³ en la naturaleza.~
+@66  = ~Supongo que dentrei que pacticÃ¡ lo que os he mostrao, pero ahora deberÃ­Â­ai se capÃ¡ de usar mejor cualquie arma arrojaiza o a distancia como un arco, dagas, ballefta, jachas, y demases.~
+@67  = ~Que mÂ´aspen si no es mi 'migo Â¿CÃ³mo estÃ¡ to? Â¿HabÃ©i encontrao algo nuvo o curioso en vustros viajes? Espera, no me ontÃ©is nÃ¡. Nus sentaremo a la lumbre de una fogata a compatÃ­Â­ algunas histodias. Pero en este momento nejecito ayuda. Â¿TenÃ©i alguno dÃ­Â­as pa perder?~ ~Que mÂ´aspen si no es mi 'migo Â¿CÃ³mo estÃ¡ to? Â¿HabÃ©i encontrao algo nuvo o curioso en vustros viajes? Espera, no me ontÃ©is nÃ¡. Nus sentaremo a la lumbre de una fogata a compatÃ­Â­ algunas histodias. Pero en este momento nejecito ayuda. Â¿TenÃ©i alguno dÃ­Â­as pa perder?~
 @68  = ~Ahora mismo no, Crowley. Tengo algunas cosas de las que ocuparme.~
-@69  = ~Sin poblemas, 'migo. Dejaros caé cuando podai ayudarme.~ ~Sin poblemas, 'migo. Dejaros caé cuando podai ayudarme.~
-@70  = ~Mirá aquí­, 'migo, esta e mi vieja jacha. Hace muchos año que no la uso, es un jacha güena pero paece que sa desafilao. No tengo ná con lo que repararla, pero vó tendréi las herramientas adecuadas.~ ~Mirá aquí­, 'miga, esta e mi vieja jacha. Hace muchos año que no la uso, es un jacha güena pero paece que sa desafilao. No tengo ná con lo que repararla, pero vó tendréi las herramientas adecuadas.~
-@71  = ~Sé que se puee reparar, pero tendrei que encontrá a un vejo nano 'migo mio, Cromwell se llama, pa que la repare po mí­. Deberéi vení­ a traenme lo que Cromwell iga à repararla, pero e seguro que os recompensaré si el jacha e afilada.~
-@72  = ~Lo intentaré, Crowley.~
-@73  = ~Cuento con que me tendrei ar tanto de lo que hacéi.~
-@74  = ~¡Tomá! No me peraba veros tan pronto. ¿Fuistei capá de afilar mi jacha?~
-@75  = ~Sí, Crowley. Aquí­ la tengo.~
-@76  = ~Lo siento, Crowley. No he sido capaz de tenerla aún.~
+@69  = ~Sin poblemas, 'migo. Dejaros caÃ© cuando podai ayudarme.~ ~Sin poblemas, 'migo. Dejaros caÃ© cuando podai ayudarme.~
+@70  = ~MirÃ¡ aquÃ­Â­, 'migo, esta e mi vieja jacha. Hace muchos aÃ±o que no la uso, es un jacha gÃ¼ena pero paece que sa desafilao. No tengo nÃ¡ con lo que repararla, pero vÃ³ tendrÃ©i las herramientas adecuadas.~ ~MirÃ¡ aquÃ­Â­, 'miga, esta e mi vieja jacha. Hace muchos aÃ±o que no la uso, es un jacha gÃ¼ena pero paece que sa desafilao. No tengo nÃ¡ con lo que repararla, pero vÃ³ tendrÃ©i las herramientas adecuadas.~
+@71  = ~SÃ© que se puee reparar, pero tendrei que encontrÃ¡ a un vejo nano 'migo mio, Cromwell se llama, pa que la repare po mÃ­Â­. DeberÃ©i venÃ­Â­ a traenme lo que Cromwell iga Ã  repararla, pero e seguro que os recompensarÃ© si el jacha e afilada.~
+@72  = ~Lo intentarÃ©, Crowley.~
+@73  = ~Cuento con que me tendrei ar tanto de lo que hacÃ©i.~
+@74  = ~Â¡TomÃ¡! No me peraba veros tan pronto. Â¿Fuistei capÃ¡ de afilar mi jacha?~
+@75  = ~SÃ­, Crowley. AquÃ­Â­ la tengo.~
+@76  = ~Lo siento, Crowley. No he sido capaz de tenerla aÃºn.~
 @77  = ~Dejanme olero cuando hayai conseguio agueglarla.~
-@78  = ~¡¿No e maravilloso?! Sin embargo sus tengo que decí­ algo. No via neceitarla en ninguna de mis caminatas. Toy seguro que vo podrí­ai usalla mejón que yo. Así­ que, dejanme mostraos cómo mejon se usa.~
-@79  = ~Ahí­ quedó. Un regago de parte de Crowley. Podrí­ai usá el jacha como un regago. Supongo que como o dije deberí­a enseñaro alguna cosa, y yo via a se yo quie eche pa'tra mi palabra.~
-@80  = ~¿Qué e lo que soos gustarí­a aprendé:  cómo moveo a hurtailla mejon, cómo colocar un puñao de abrojos, sabei lo que me igo, pa tirá gente al suelo, ó soos gustarí­a aprendé cómo sobreviví­ en el busque?~
-@81  = ~¿De verdad podéis ayudarme a mejorar mi habilidad de sigilo? Me gustarí­a aprender más sobre ello.~
-@82  = ~¿Podeis enseñarme como colocar unos abrojos? Sí,­ Crowley, deseo saberlo.~
-@83  = ~¿Podeis enseñarme cómo sobrevivir mejor en la naturaleza?~
-@84  = ~Supongo que tenei que practicá un poco má, en la forma vamos. No hay niún momento como er presente.~
-@85  = ~De cualquié modo, ahora podei ir a hurtailla a través de la maleza, la hierba, o incluso en esas arrogantes ciudaes. Solo tenéi que tené cuidao de no exponeo demasiao.~
-@86  = ~Ahora sabei cómo esparcir unos abrojos en el tedeno pa ralentizá y quizá herí­ a cualquier enemio que soos acerque.~
-@87  = ~De cualquié modo, ahora sabei cómo sobreviví­ en los busques.  No sus perderéi de nuevo en los busques salvo con una buena jarra de bebí­a destilá.~
+@78  = ~Â¡Â¿No e maravilloso?! Sin embargo sus tengo que decÃ­Â­ algo. No via neceitarla en ninguna de mis caminatas. Toy seguro que vo podrÃ­Â­ai usalla mejÃ³n que yo. AsÃ­Â­ que, dejanme mostraos cÃ³mo mejon se usa.~
+@79  = ~AhÃ­Â­ quedÃ³. Un regago de parte de Crowley. PodrÃ­Â­ai usÃ¡ el jacha como un regago. Supongo que como o dije deberÃ­Â­a enseÃ±aro alguna cosa, y yo via a se yo quie eche pa'tra mi palabra.~
+@80  = ~Â¿QuÃ© e lo que soos gustarÃ­Â­a aprendÃ©:  cÃ³mo moveo a hurtailla mejon, cÃ³mo colocar un puÃ±ao de abrojos, sabei lo que me igo, pa tirÃ¡ gente al suelo, Ã³ soos gustarÃ­Â­a aprendÃ© cÃ³mo sobrevivÃ­Â­ en el busque?~
+@81  = ~Â¿De verdad podÃ©is ayudarme a mejorar mi habilidad de sigilo? Me gustarÃ­Â­a aprender mÃ¡s sobre ello.~
+@82  = ~Â¿Podeis enseÃ±arme como colocar unos abrojos? SÃ­,Â­ Crowley, deseo saberlo.~
+@83  = ~Â¿Podeis enseÃ±arme cÃ³mo sobrevivir mejor en la naturaleza?~
+@84  = ~Supongo que tenei que practicÃ¡ un poco mÃ¡, en la forma vamos. No hay niÃºn momento como er presente.~
+@85  = ~De cualquiÃ© modo, ahora podei ir a hurtailla a travÃ©s de la maleza, la hierba, o incluso en esas arrogantes ciudaes. Solo tenÃ©i que tenÃ© cuidao de no exponeo demasiao.~
+@86  = ~Ahora sabei cÃ³mo esparcir unos abrojos en el tedeno pa ralentizÃ¡ y quizÃ¡ herÃ­Â­ a cualquier enemio que soos acerque.~
+@87  = ~De cualquiÃ© modo, ahora sabei cÃ³mo sobrevivÃ­Â­ en los busques.  No sus perderÃ©i de nuevo en los busques salvo con una buena jarra de bebÃ­Â­a destilÃ¡.~
 
-@88  = ~Parece que engo un poblema. Engo que jacé una caminata en el busque, y no via a tené tiempo pa tar de chachara aquí­ con vó. Volvé a venno si decidí­ viví­ en los busques.~
-@89  = ~Parece que engo un poblema. Engo que jacé una caminata en el busque, y no via a tené tiempo pa tar de chachara aquí­ con vó.~
+@88  = ~Parece que engo un poblema. Engo que jacÃ© una caminata en el busque, y no via a tenÃ© tiempo pa tar de chachara aquÃ­Â­ con vÃ³. VolvÃ© a venno si decidÃ­Â­ vivÃ­Â­ en los busques.~
+@89  = ~Parece que engo un poblema. Engo que jacÃ© una caminata en el busque, y no via a tenÃ© tiempo pa tar de chachara aquÃ­Â­ con vÃ³.~
 
-@90  = ~¿Qué e lo que soos gustarí­a aprendé:  cómo moveo a hurtailla mejon, cómo colocar un puñao de abrojos, sabei lo que me igo, el tirarlos al suelo, soos gustarí­a aprendé cómo sobreviví­ en el busque, o gustarí­a aprendé a usá cualquié tipo de objeto como hago yo?~
-@91  = ~La verdad es que me gustarí­a aprender cómo usar cualquier objeto. ¿Podéis enseñarme?~
-@92  = ~Supongo que pueo intentarlo, 'migo, pero no va a sé seguro de que podai aprenderlo. Adelante, amos a intentarlo.~ ~Supongo que pueo intentarlo, 'miga, pero no va a sé seguro de que podai aprenderlo. Adelante, amos a intentarlo.~
-@93  = ~Creo que lo tenei. Ahora, como mucho de nosotros, podei usar cualquié objeto que querais. Solo recordá, como e nolmá, lanzá magia mientras llevai armaura hará que no funcione.~
-@94  = ~Supongo que no vai a se capá de aprendé cómo usá cualquie objeto. Deberí­a tené má practica, ¿sus olei a lo que me refiero?~
-@95  = ~Lo siento, 'migo, pero no soy mu amistoso con los extraños en mi bosque.  Ni a los animales le gusta, ¿oleis a lo que'm refiero?~ ~Lo siento, 'miga, pero no soy mu amistoso con los extraños en mi bosque.  Ni a los animales le gusta, ¿oleis a lo que'm refiero?~
-@96 = ~La Cabaña del Guardabosques: Envenenamiento del Rí­o
+@90  = ~Â¿QuÃ© e lo que soos gustarÃ­Â­a aprendÃ©:  cÃ³mo moveo a hurtailla mejon, cÃ³mo colocar un puÃ±ao de abrojos, sabei lo que me igo, el tirarlos al suelo, soos gustarÃ­Â­a aprendÃ© cÃ³mo sobrevivÃ­Â­ en el busque, o gustarÃ­Â­a aprendÃ© a usÃ¡ cualquiÃ© tipo de objeto como hago yo?~
+@91  = ~La verdad es que me gustarÃ­Â­a aprender cÃ³mo usar cualquier objeto. Â¿PodÃ©is enseÃ±arme?~
+@92  = ~Supongo que pueo intentarlo, 'migo, pero no va a sÃ© seguro de que podai aprenderlo. Adelante, amos a intentarlo.~ ~Supongo que pueo intentarlo, 'miga, pero no va a sÃ© seguro de que podai aprenderlo. Adelante, amos a intentarlo.~
+@93  = ~Creo que lo tenei. Ahora, como mucho de nosotros, podei usar cualquiÃ© objeto que querais. Solo recordÃ¡, como e nolmÃ¡, lanzÃ¡ magia mientras llevai armaura harÃ¡ que no funcione.~
+@94  = ~Supongo que no vai a se capÃ¡ de aprendÃ© cÃ³mo usÃ¡ cualquie objeto. DeberÃ­Â­a tenÃ© mÃ¡ practica, Â¿sus olei a lo que me refiero?~
+@95  = ~Lo siento, 'migo, pero no soy mu amistoso con los extraÃ±os en mi bosque.  Ni a los animales le gusta, Â¿oleis a lo que'm refiero?~ ~Lo siento, 'miga, pero no soy mu amistoso con los extraÃ±os en mi bosque.  Ni a los animales le gusta, Â¿oleis a lo que'm refiero?~
+@96 = ~La CabaÃ±a del Guardabosques: Envenenamiento del RÃ­Â­o
 
-La razón por la que algunos de mis nuevos amigos animales se pusieron enfermos era que habí­a un ciervo pudriéndose en el rí­o. Fuí capaz de retirar el animal muerto, y el agua debería volver a estar normal en unos pocos dí­as.~
-@97 = ~La Cabaña del Guardabosques
+La razÃ³n por la que algunos de mis nuevos amigos animales se pusieron enfermos era que habÃ­Â­a un ciervo pudriÃ©ndose en el rÃ­Â­o. FuÃ­ capaz de retirar el animal muerto, y el agua deberÃ­a volver a estar normal en unos pocos dÃ­Â­as.~
+@97 = ~La CabaÃ±a del Guardabosques
 
-El guardabosques Crowley me ha enseñado cómo rastrear criaturas salvajes con gran precisión, pero me asegura que el mismo método puede ser usado en la mayorí­a de los tipos de terrenos, como ciudades o cavernas subterráneas.~
-@98 = ~La Cabaña del Guardabosques
+El guardabosques Crowley me ha enseÃ±ado cÃ³mo rastrear criaturas salvajes con gran precisiÃ³n, pero me asegura que el mismo mÃ©todo puede ser usado en la mayorÃ­Â­a de los tipos de terrenos, como ciudades o cavernas subterrÃ¡neas.~
+@98 = ~La CabaÃ±a del Guardabosques
 
-El guardabosques Crowley me ha enseñado cómo colocar trampas para atrapar animales pequeños o medianos en estado salvaje, pero me asegura que puedo usar el mismo método para dañar a mis enemigos.~
-@99 = ~La Cabaña del Guardabosques
+El guardabosques Crowley me ha enseÃ±ado cÃ³mo colocar trampas para atrapar animales pequeÃ±os o medianos en estado salvaje, pero me asegura que puedo usar el mismo mÃ©todo para daÃ±ar a mis enemigos.~
+@99 = ~La CabaÃ±a del Guardabosques
 
-El guardabosques Crowley me ha enseñado cómo encontrar y eliminar trampas que han sido colocadas en el medio salvaje, pero me asegura que los métodos usados para la búsqueda también pueden ser usados en otros entornos, tales como cavernas o mazmorras.~
-@100 = ~La Cabaña del Guardabosques: Envenenamiento del Rí­o
+El guardabosques Crowley me ha enseÃ±ado cÃ³mo encontrar y eliminar trampas que han sido colocadas en el medio salvaje, pero me asegura que los mÃ©todos usados para la bÃºsqueda tambiÃ©n pueden ser usados en otros entornos, tales como cavernas o mazmorras.~
+@100 = ~La CabaÃ±a del Guardabosques: Envenenamiento del RÃ­Â­o
 
-Conocí­ a un guardabosques al norte, en las colinas, que vive con un grupo de animales en la ladera de una montaña. Me contó que ha sido un guardabosques durante muchos años, y que estarí­a encantado de mostrarme algunos truquillos que ha aprendido, si le ayudo. Le dije que podrí­a, y me explicó que sus amigos animales estaban cayendo enfermos. Me pidió que averiguara por qué el cauce cercano a su cabaña estaba contaminado.~
-@101 = ~La Cabaña del Guardabosques:  Presencia maligna
+ConocÃ­Â­ a un guardabosques al norte, en las colinas, que vive con un grupo de animales en la ladera de una montaÃ±a. Me contÃ³ que ha sido un guardabosques durante muchos aÃ±os, y que estarÃ­Â­a encantado de mostrarme algunos truquillos que ha aprendido, si le ayudo. Le dije que podrÃ­Â­a, y me explicÃ³ que sus amigos animales estaban cayendo enfermos. Me pidiÃ³ que averiguara por quÃ© el cauce cercano a su cabaÃ±a estaba contaminado.~
+@101 = ~La CabaÃ±a del Guardabosques:  Presencia maligna
 
-Crowley, un guardabosques solitario, me ha pedido que encuentre y elimine una presencia maligna que puede sentir en la región. No está muy seguro desde dónde está emanando esta presencia, pero me dijo que es desde algún lugar dentro de la ciudad de Athkatla. Cuando haya eliminado la presencia maligna -ya sea destruyéndolo o desterrándolo de Faerún- tengo que informar a Crowley, al sur de Puerta de Baldur, donde me ha prometido enseñarme una habilidad la cuál enriquecerá mi vida.~
-@102 = ~La Cabaña del Guardabosques:  Presencia maligna
+Crowley, un guardabosques solitario, me ha pedido que encuentre y elimine una presencia maligna que puede sentir en la regiÃ³n. No estÃ¡ muy seguro desde dÃ³nde estÃ¡ emanando esta presencia, pero me dijo que es desde algÃºn lugar dentro de la ciudad de Athkatla. Cuando haya eliminado la presencia maligna -ya sea destruyÃ©ndolo o desterrÃ¡ndolo de FaerÃºn- tengo que informar a Crowley, al sur de Puerta de Baldur, donde me ha prometido enseÃ±arme una habilidad la cuÃ¡l enriquecerÃ¡ mi vida.~
+@102 = ~La CabaÃ±a del Guardabosques:  Presencia maligna
 
-Crowley me pidió que eliminara una presencia maligna que habí­a sentido en la región, la cuál encontré debajo de los muellos de Athkatla. Fue una batalla dura, pero salí­ victorioso y el guardabosques me ha prometido enseñarme una habilidad inapreciable.~
-@103 = ~La Cabaña del Guardabosques
+Crowley me pidiÃ³ que eliminara una presencia maligna que habÃ­Â­a sentido en la regiÃ³n, la cuÃ¡l encontrÃ© debajo de los muellos de Athkatla. Fue una batalla dura, pero salÃ­Â­ victorioso y el guardabosques me ha prometido enseÃ±arme una habilidad inapreciable.~
+@103 = ~La CabaÃ±a del Guardabosques
 
-El guardabosques Crowley me ha enseñado cómo sobrevivir en la naturaleza salvaje, dominando los elementos por mí­ mismo, y me ha asegurado que seré menos propenso a morir congelado en unos escarpados picos nevados o por deshidratación en el desierto.~
-@104 = ~La Cabaña del Guardabosques
+El guardabosques Crowley me ha enseÃ±ado cÃ³mo sobrevivir en la naturaleza salvaje, dominando los elementos por mÃ­Â­ mismo, y me ha asegurado que serÃ© menos propenso a morir congelado en unos escarpados picos nevados o por deshidrataciÃ³n en el desierto.~
+@104 = ~La CabaÃ±a del Guardabosques
 
-El guardabosques Crowley me ha enseñado cómo apuntar a partes especí­ficas de un objetivo, y por medio de concentrarme en un punto en particular, acercar con mayor precisión en el blanco, haciendo potencialmente más daño ya sea disparando una flecha, un virote, una daga, o cualquier otra arma arrojadiza.~
-@105 = ~La Cabaña del Guardabosques:  Afilando un hacha
+El guardabosques Crowley me ha enseÃ±ado cÃ³mo apuntar a partes especÃ­Â­ficas de un objetivo, y por medio de concentrarme en un punto en particular, acercar con mayor precisiÃ³n en el blanco, haciendo potencialmente mÃ¡s daÃ±o ya sea disparando una flecha, un virote, una daga, o cualquier otra arma arrojadiza.~
+@105 = ~La CabaÃ±a del Guardabosques:  Afilando un hacha
 
-Crowley, el guardabosques que ha estado compartiendo alguno de sus viejos trucos de explorador conmigo, me ha pedido que le afile su hacha. Parece que no le gusta demasiado viajar a las ciudades, y me pidió que le llevara el hacha sin filo a Cromwell para que sea reparada. Ya que era un hacha mágica, creo que el herrero enano puede necesitar algunos metales especiales para reforjar la hoja para que esté de nuevo afilada. Cuando tenga el hacha reparada, Crowley me pidió que se la trajera de vuelta, y me prometió enseñarme otra habilidad.~
-@106 = ~La Cabaña del Guardabosques:  Afilando un hacha
+Crowley, el guardabosques que ha estado compartiendo alguno de sus viejos trucos de explorador conmigo, me ha pedido que le afile su hacha. Parece que no le gusta demasiado viajar a las ciudades, y me pidiÃ³ que le llevara el hacha sin filo a Cromwell para que sea reparada. Ya que era un hacha mÃ¡gica, creo que el herrero enano puede necesitar algunos metales especiales para reforjar la hoja para que estÃ© de nuevo afilada. Cuando tenga el hacha reparada, Crowley me pidiÃ³ que se la trajera de vuelta, y me prometiÃ³ enseÃ±arme otra habilidad.~
+@106 = ~La CabaÃ±a del Guardabosques:  Afilando un hacha
 
-Tuve que ir al enano herrero Cromwell para afilar la hoja del hacha de Crowley, y le entregé el hacha reparada a mi amigo guardabosques. Crowley estaba tan contento que me entregó el hacha mágica como regalo, lo que me parece bastante bonito por su parte. Crowley, como me prometió, me ha enseñado algunos trucos de explorador que él aprendió viviendo en el bosque.~
-@107 = ~La Cabaña del Guardabosques
+Tuve que ir al enano herrero Cromwell para afilar la hoja del hacha de Crowley, y le entregÃ© el hacha reparada a mi amigo guardabosques. Crowley estaba tan contento que me entregÃ³ el hacha mÃ¡gica como regalo, lo que me parece bastante bonito por su parte. Crowley, como me prometiÃ³, me ha enseÃ±ado algunos trucos de explorador que Ã©l aprendiÃ³ viviendo en el bosque.~
+@107 = ~La CabaÃ±a del Guardabosques
 
-El guardabosques Crowley me ha enseñado cómo moverme a hurtadillas por la foresta sin dejar ningún rastro, y me ha asegurado que la habilidad puede ser usada en una gran variedad de terrenos, incluso en cavernas de piedra dura o en las pavimentadas y empedradas calles de una ciudad.~
-@108 = ~La Cabaña del Guardabosques
+El guardabosques Crowley me ha enseÃ±ado cÃ³mo moverme a hurtadillas por la foresta sin dejar ningÃºn rastro, y me ha asegurado que la habilidad puede ser usada en una gran variedad de terrenos, incluso en cavernas de piedra dura o en las pavimentadas y empedradas calles de una ciudad.~
+@108 = ~La CabaÃ±a del Guardabosques
 
-El guardabosques Crowley me ha enseñado cómo esparcir un montón de abrojos sobre el terreno para así­ ralentizar y dañar ligeramente a cualquier enemigo que se aproxime.~
-@109 = ~La Cabaña del Guardabosques
+El guardabosques Crowley me ha enseÃ±ado cÃ³mo esparcir un montÃ³n de abrojos sobre el terreno para asÃ­Â­ ralentizar y daÃ±ar ligeramente a cualquier enemigo que se aproxime.~
+@109 = ~La CabaÃ±a del Guardabosques
 
-El guardabosques Crowley me ha enseñado cómo sobrevivir en la naturaleza salvaje, consiguiendo los elementos por mí­ mismo, y me ha asegurado que seré menos propenso a morir congelado en unos escarpados picos nevados o por deshidratación en el desierto.~ ~La Cabaña del Guardabosques
+El guardabosques Crowley me ha enseÃ±ado cÃ³mo sobrevivir en la naturaleza salvaje, consiguiendo los elementos por mÃ­Â­ mismo, y me ha asegurado que serÃ© menos propenso a morir congelado en unos escarpados picos nevados o por deshidrataciÃ³n en el desierto.~ ~La CabaÃ±a del Guardabosques
 
-El guardabosques Crowley me ha enseñado cómo sobrevivir en la naturaleza salvaje, consiguiendo los elementos por mí­ mismo, y me ha asegurado que seré menos propensa a morir congelada en unos escarpados picos nevados o por deshidratación en el desierto.~
-@110 = ~La Cabaña del Guardabosques
+El guardabosques Crowley me ha enseÃ±ado cÃ³mo sobrevivir en la naturaleza salvaje, consiguiendo los elementos por mÃ­Â­ mismo, y me ha asegurado que serÃ© menos propensa a morir congelada en unos escarpados picos nevados o por deshidrataciÃ³n en el desierto.~
+@110 = ~La CabaÃ±a del Guardabosques
 
-El guardabosques Crowley me ha enseñado cómo usar, más o menos, cualquier tipo de objeto, incluyendo pergaminos mágicos, varitas mágicas, o cualquier otra cosa que antes no era capaz de figurarme cómo usarla.~
-@111 = ~La Cabaña del Guardabosques
+El guardabosques Crowley me ha enseÃ±ado cÃ³mo usar, mÃ¡s o menos, cualquier tipo de objeto, incluyendo pergaminos mÃ¡gicos, varitas mÃ¡gicas, o cualquier otra cosa que antes no era capaz de figurarme cÃ³mo usarla.~
+@111 = ~La CabaÃ±a del Guardabosques
 
-El guardabosques Crowley ha intentado enseñarme cómo usar, más o menos, cualquier tipo de objeto, pero no he llegado a comprender su enseñanza.~
+El guardabosques Crowley ha intentado enseÃ±arme cÃ³mo usar, mÃ¡s o menos, cualquier tipo de objeto, pero no he llegado a comprender su enseÃ±anza.~
 
-@112 = ~La Cabaña del Guardabosques: Envenenamiento del Rí­o
+@112 = ~La CabaÃ±a del Guardabosques: Envenenamiento del RÃ­Â­o
 
-Conocí­ a un guardabosques al norte, en las colinas, que vive con un grupo de animales en la ladera de una montaña. Me contó que ha sido un guardabosques durante muchos años, y que estarí­a encantado de mostrarme algunos truquillos que ha aprendido, si le ayudo. Le dije que podrí­a, y me explicó que sus amigos animales estaban cayendo enfermos. Me pidió que averiguara por qué el cauce cercano a su cabaña estaba contaminado.~
+ConocÃ­Â­ a un guardabosques al norte, en las colinas, que vive con un grupo de animales en la ladera de una montaÃ±a. Me contÃ³ que ha sido un guardabosques durante muchos aÃ±os, y que estarÃ­Â­a encantado de mostrarme algunos truquillos que ha aprendido, si le ayudo. Le dije que podrÃ­Â­a, y me explicÃ³ que sus amigos animales estaban cayendo enfermos. Me pidiÃ³ que averiguara por quÃ© el cauce cercano a su cabaÃ±a estaba contaminado.~

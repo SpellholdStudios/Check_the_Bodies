@@ -1,0 +1,139 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		FadeToColor([50.0],0)
+		Wait(2)
+		PlaySound("PORTAL2")
+		ActionOverride("CBCT3513",DestroySelf())
+		ActionOverride("CB3513VC",DestroySelf())
+		ActionOverride("CB3513IM",DestroySelf())
+		ActionOverride("CB3513MN",DestroySelf())
+		ActionOverride("CB3513JH",DestroySelf())
+		ActionOverride("CB3513BW",DestroySelf())
+		ActionOverride("M05PCSPY",DestroySelf())
+		ActionOverride("CBSRVDED",DestroySelf())
+		ActionOverride("CBSEMDED",DestroySelf())
+		ActionOverride("CBGALDED",DestroySelf())
+		ActionOverride("CBTAZDED",DestroySelf())
+		ActionOverride("DREPPIN",DestroySelf())
+		ActionOverride("CBMILKMD",DestroySelf())
+		ActionOverride(Player6,LeaveAreaLUA("AR0602","",[1095.1026],0))
+		ActionOverride(Player5,LeaveAreaLUA("AR0602","",[1133.1020],0))
+		ActionOverride(Player4,LeaveAreaLUA("AR0602","",[1175.1068],0))
+		ActionOverride(Player3,LeaveAreaLUA("AR0602","",[1156.976],0))
+		ActionOverride(Player2,LeaveAreaLUA("AR0602","",[1114.926],0))
+		LeaveAreaLUAPanic("AR0602","",[1100.900],2)
+		LeaveAreaLUA("AR0602","",[1100.900],2)
+		MoveViewPoint([1160.900],INSTANT)
+		DestroyItem("BOOK35") //AR3501.are
+		DestroyItem("BOOK09") //AR3501.are
+		DestroyItem("BOOK10") //AR3501.are
+		DestroyItem("BOOK11") //AR3501.are
+		DestroyItem("BOOK12") //AR3501.are
+		DestroyItem("BOOK13") //AR3501.are
+		DestroyItem("BOOK14") //AR3501.are
+		DestroyItem("BOOK15") //AR3501.are
+		DestroyItem("BOOK16") //AR3501.are
+		DestroyItem("BOOK17") //AR3501.are
+		DestroyItem("BOOK18") //AR3501.are
+		DestroyItem("BOOK10") //AR3501.are
+		DestroyItem("BOOK19") //AR3501.are
+		DestroyItem("BOOK11") //AR3501.are
+		DestroyItem("BOOK20") //AR3501.are
+		DestroyItem("BOOK42") //AR3501.are
+		DestroyItem("BOOK12") //AR3501.are
+		DestroyItem("BOOK13") //AR3501.are
+		DestroyItem("BOOK14") //AR3501.are
+		DestroyItem("BOOK15") //AR3501.are
+		DestroyItem("BOOK32") //AR3502.are
+		DestroyItem("BOOK60") //AR3502.are
+		DestroyItem("BOOK55") //AR3502.are
+		DestroyItem("BOOK56") //AR3502.are
+		DestroyItem("BOOK57") //AR3502.are
+		DestroyItem("BOOK62") //AR3502.are
+		DestroyItem("BOOK63") //AR3502.are
+		DestroyItem("BOOK64") //AR3502.are
+		DestroyItem("BOOK65") //AR3502.are
+		DestroyItem("BOOK66") //AR3502.are
+		DestroyItem("BOOK67") //AR3502.are
+		DestroyItem("BOOK58") //AR3502.are
+		DestroyItem("BOOK17") //AR3502.are
+		DestroyItem("BOOK59") //AR3502.are
+		DestroyItem("BOOK10") //AR3502.are
+		DestroyItem("BOOK34") //AR3502.are
+		DestroyItem("BOOK11") //AR3502.are
+		DestroyItem("BOOK33") //AR3502.are
+		DestroyItem("BOOK61") //AR3502.are
+		DestroyItem("BOOK18") //AR3502.are
+		DestroyItem("BOOK19") //AR3502.are
+		DestroyItem("BOOK20") //AR3502.are
+		DestroyItem("BOOK21") //AR3502.are
+		DestroyItem("BOOK22") //AR3502.are
+		DestroyItem("BOOK23") //AR3502.are
+		DestroyItem("BOOK24") //AR3502.are
+		DestroyItem("BOOK25") //AR3502.are
+		DestroyItem("BOOK26") //AR3502.are
+		DestroyItem("BOOK27") //AR3502.are
+		DestroyItem("BOOK28") //AR3502.are
+		DestroyItem("BOOK29") //AR3502.are
+		DestroyItem("BOOK30") //AR3502.are
+		DestroyItem("BOOK31") //AR3502.are
+		DestroyItem("BOOK53") //AR3502.are
+		DestroyItem("BOOK68") //AR3502.are
+		DestroyItem("BOOK43") //AR3502.are
+		DestroyItem("BOOK44") //AR3502.are
+		DestroyItem("BOOK45") //AR3502.are
+		DestroyItem("BOOK46") //AR3502.are
+		DestroyItem("BOOK47") //AR3502.are
+		DestroyItem("BOOK48") //AR3502.are
+		DestroyItem("BOOK49") //AR3502.are
+		DestroyItem("BOOK50") //AR3502.are
+		DestroyItem("BOOK51") //AR3502.are
+		DestroyItem("BOOK52") //AR3502.are
+		DestroyItem("BOOK42") //AR3502.are
+		DestroyItem("BOOK16") //AR3502.are
+		DestroyItem("BOOK15") //AR3502.are
+		DestroyItem("BOOK40") //AR3502.are
+		DestroyItem("BOOK14") //AR3502.are
+		DestroyItem("BOOK35") //AR3502.are
+		DestroyItem("BOOK12") //AR3502.are
+		DestroyItem("BOOK38") //AR3502.are
+		DestroyItem("BOOK39") //AR3502.are
+		DestroyItem("BOOK40") //AR3503.are
+		DestroyItem("BOOK35") //AR3503.are
+		DestroyItem("BOOK25") //AR3503.are
+		DestroyItem("BOOK28") //AR3503.are
+		DestroyItem("BOOK26") //AR3503.are
+		DestroyItem("BOOK27") //AR3503.are
+		DestroyItem("BOOK48") //AR3503.are
+		DestroyItem("BOOK45") //AR3503.are
+		DestroyItem("BOOK23") //AR3503.are
+		DestroyItem("BOOK61") //AR3503.are
+		DestroyItem("BOOK56") //AR3503.are
+		DestroyItem("BOOK47") //AR3503.are
+		DestroyItem("SCRL3H") //AR3504.are
+		DestroyItem("BOOK42") //AR3504.are
+		DestroyItem("BOOK66") //AR3504.are
+		DestroyItem("BOOK67") //AR3504.are
+		DestroyItem("BOOK24") //AR3504.are
+		DestroyItem("BOOK37") //AR3504.are
+		DestroyItem("BOOK25") //AR3504.are
+		DestroyItem("CLCK01") //AR3505.are
+		DestroyItem("BOOK45") //AR3505.are
+		DestroyItem("BOOK42") //AR3505.are
+		DestroyAllEquipment()
+		SmallWait(5)
+		JumpToPoint([1160.900])
+		Face(2)
+		MoveViewPoint([1160.900],INSTANT)
+		Wait(1)
+		FadeFromColor([30.0],0)
+		Wait(1)
+		SetGlobal("KD_ChoresDone","GLOBAL",1)
+		EndCutSceneMode()
+		UnhideGUI()
+END
+
+

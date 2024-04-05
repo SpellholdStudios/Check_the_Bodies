@@ -1,79 +1,79 @@
-@1   = ~Bien hallado, mi buen explorador busca aventuras. ¿Cómo van las cosas en lo salvaje?~
-~Bien hallada, mi buena exploradora busca aventuras. ¿Cómo van las cosas en lo salvaje?~
+@1   = ~Bien hallado, mi buen explorador busca aventuras. Â¿CÃ³mo van las cosas en lo salvaje?~
+~Bien hallada, mi buena exploradora busca aventuras. Â¿CÃ³mo van las cosas en lo salvaje?~
 @2   = ~Mis aventuras son asunto mio.~
-@3   = ~Estupendo, muy bien. ¿Hay alguna cosa que pueda hacer por vos?~
-@4   = ~Estoy cansado y hambriento, y sólo necesito sentarme en una taberna por la noche.~
-~Estoy cansada y hambrienta, y sólo necesito sentarme en una taberna por la noche.~
-@5   = ~¡Vos! ¡No puedo creer que tengáis el descaro de presentaros aquí!~
-@6   = ~Bien hallado, mi buen amigo busca aventuras. ¿Cómo va todo?~
-~Bien hallada, mi buena amiga busca aventuras. ¿Cómo va todo?~
-@7   = ~No, no, mi señor. No es lo que vos podáis hacer por mí, sino lo que yo puedo hacer por vos.~
-~No, no, mi señora. No es lo que vos podáis hacer por mí, sino lo que yo puedo hacer por vos.~
-@8   = ~Escuchad, vendo propiedades. Negocie con Lerrit, ese es mi lema. Y por vuestra apariencia, pienso que vos necesitáis de un lugar bonito al que acudir para cuando no estéis en el camino.~
-@9   = ~¿Tengo razón, o tengo razón?~
-@10  = ~¿Estáis tratando de venderme una casa?~
-@11  = ~No creo que pueda permitirme comprar ningún terreno.~
-@12  = ~Compro un montón de cosas a la gente de Amn, pero no creo que pudiese llevar ningún terreno en mi mochila.~
-@13  = ~No una casa simplemente, mi buen señor. Tengo una propiedad que creo que os complacería plenamente.~
-~No una casa simplemente, mi buena señora. Tengo una propiedad que creo que os complacería plenamente.~
-@14  = ~Está un poco lejos de la ciudad, pero la lejanía sólo realza el encanto del lugar.~
+@3   = ~Estupendo, muy bien. Â¿Hay alguna cosa que pueda hacer por vos?~
+@4   = ~Estoy cansado y hambriento, y sÃ³lo necesito sentarme en una taberna por la noche.~
+~Estoy cansada y hambrienta, y sÃ³lo necesito sentarme en una taberna por la noche.~
+@5   = ~Â¡Vos! Â¡No puedo creer que tengÃ¡is el descaro de presentaros aquÃ­!~
+@6   = ~Bien hallado, mi buen amigo busca aventuras. Â¿CÃ³mo va todo?~
+~Bien hallada, mi buena amiga busca aventuras. Â¿CÃ³mo va todo?~
+@7   = ~No, no, mi seÃ±or. No es lo que vos podÃ¡is hacer por mÃ­, sino lo que yo puedo hacer por vos.~
+~No, no, mi seÃ±ora. No es lo que vos podÃ¡is hacer por mÃ­, sino lo que yo puedo hacer por vos.~
+@8   = ~Escuchad, vendo propiedades. Negocie con Lerrit, ese es mi lema. Y por vuestra apariencia, pienso que vos necesitÃ¡is de un lugar bonito al que acudir para cuando no estÃ©is en el camino.~
+@9   = ~Â¿Tengo razÃ³n, o tengo razÃ³n?~
+@10  = ~Â¿EstÃ¡is tratando de venderme una casa?~
+@11  = ~No creo que pueda permitirme comprar ningÃºn terreno.~
+@12  = ~Compro un montÃ³n de cosas a la gente de Amn, pero no creo que pudiese llevar ningÃºn terreno en mi mochila.~
+@13  = ~No una casa simplemente, mi buen seÃ±or. Tengo una propiedad que creo que os complacerÃ­a plenamente.~
+~No una casa simplemente, mi buena seÃ±ora. Tengo una propiedad que creo que os complacerÃ­a plenamente.~
+@14  = ~EstÃ¡ un poco lejos de la ciudad, pero la lejanÃ­a sÃ³lo realza el encanto del lugar.~
 @15  = ~Es bonita y acogedora.~
-@16  = ~¿Así que decís que es pequeña?~
-@17  = ~No, mi señor, pequeña no, simplemente acogedora.~
-~No, mi señora, pequeña no, simplemente acogedora.~
-@18  = ~Las vistas desde la cabaña son fascinantes. Paisajes vírgenes, solitarios rastros de animales, y el agreste aroma a libertad del aire libre.~
-@19  = ~Entonces eso quiere decir que se cae a pedazos, ¿correcto?~
-@20  = ~De ningún modo, de ningún modo. Es una cabaña con proyección. El sueño de un manitas.~
-@21  = ~Un gran lugar para pasar algún tiempo con un robusto martillo y algo de engrudo.~
-@22  = ~¿Engrudo?~
-@23  = ~Suena genial. ¿Por cuánto?~
-@24  = ~Engrudo o trabajo duro. El techo carece de paja, pero eso es casi todo. Y por supuesto, si pretendéis comprar, deberíais pensar en cambiar los cerrojos, pero eso es de sentido común.~
-@25  = ~Todo el mundo puede permitirse comprar una bonita propiedad con Lerrit. Negocie con Lerrit, ese es mi lema. Además, ésta es una propiedad que creo que os complacería plenamente.~
-@26  = ~No, mi lord, no creo que pudieseis. Pero ésta es una gran propiedad. Una vez que la hayáis visto, no querréis salir con ningún aventurero de nuevo.~
-~No, mi lady, no creo que pudieseis. Pero ésta es una gran propiedad. Una vez que la hayáis visto, no querréis salir con ningún aventurero de nuevo.~
-@27  = ~Sólo pretendía ser amistoso, mi señor. No era irrespetuoso para nada. Como ya sabréis, tenéis un rostro afable.~
-~Sólo pretendía ser amistoso, mi señora. No era irrespetuoso para nada. Como ya sabréis, tenéis un rostro afable.~
-@28  = ~Me gusta la gente de rostro afable. Mi señor, normalmente no hago esto cuando busco aguamiel reconfortante, pero ¿os puedo invitar a un trago?~
-~Me gusta la gente de rostro afable. Mi señora, normalmente no hago esto cuando busco aguamiel reconfortante, pero ¿os puedo invitar a un trago?~
+@16  = ~Â¿AsÃ­ que decÃ­s que es pequeÃ±a?~
+@17  = ~No, mi seÃ±or, pequeÃ±a no, simplemente acogedora.~
+~No, mi seÃ±ora, pequeÃ±a no, simplemente acogedora.~
+@18  = ~Las vistas desde la cabaÃ±a son fascinantes. Paisajes vÃ­rgenes, solitarios rastros de animales, y el agreste aroma a libertad del aire libre.~
+@19  = ~Entonces eso quiere decir que se cae a pedazos, Â¿correcto?~
+@20  = ~De ningÃºn modo, de ningÃºn modo. Es una cabaÃ±a con proyecciÃ³n. El sueÃ±o de un manitas.~
+@21  = ~Un gran lugar para pasar algÃºn tiempo con un robusto martillo y algo de engrudo.~
+@22  = ~Â¿Engrudo?~
+@23  = ~Suena genial. Â¿Por cuÃ¡nto?~
+@24  = ~Engrudo o trabajo duro. El techo carece de paja, pero eso es casi todo. Y por supuesto, si pretendÃ©is comprar, deberÃ­ais pensar en cambiar los cerrojos, pero eso es de sentido comÃºn.~
+@25  = ~Todo el mundo puede permitirse comprar una bonita propiedad con Lerrit. Negocie con Lerrit, ese es mi lema. AdemÃ¡s, Ã©sta es una propiedad que creo que os complacerÃ­a plenamente.~
+@26  = ~No, mi lord, no creo que pudieseis. Pero Ã©sta es una gran propiedad. Una vez que la hayÃ¡is visto, no querrÃ©is salir con ningÃºn aventurero de nuevo.~
+~No, mi lady, no creo que pudieseis. Pero Ã©sta es una gran propiedad. Una vez que la hayÃ¡is visto, no querrÃ©is salir con ningÃºn aventurero de nuevo.~
+@27  = ~SÃ³lo pretendÃ­a ser amistoso, mi seÃ±or. No era irrespetuoso para nada. Como ya sabrÃ©is, tenÃ©is un rostro afable.~
+~SÃ³lo pretendÃ­a ser amistoso, mi seÃ±ora. No era irrespetuoso para nada. Como ya sabrÃ©is, tenÃ©is un rostro afable.~
+@28  = ~Me gusta la gente de rostro afable. Mi seÃ±or, normalmente no hago esto cuando busco aguamiel reconfortante, pero Â¿os puedo invitar a un trago?~
+~Me gusta la gente de rostro afable. Mi seÃ±ora, normalmente no hago esto cuando busco aguamiel reconfortante, pero Â¿os puedo invitar a un trago?~
 @29  = ~Mi nombre es Lerrit. Soy un agente. Inmobiliario, quiero decir. Vendo propiedades. Negocie con Lerrit, ese es mi lema.~
-@30  = ~Y por vuestra apariencia, pienso que vos necesitáis de un lugar bonito al que acudir para cuando no estéis en el camino.~
-@31  = ~¿No lo estamos todos, mi señor, no lo estamos todos? Sabéis, normalmente no hago esto cuando busco aguamiel reconfortante, pero ¿os puedo invitar a un trago?~
-~¿No lo estamos todos, mi señora, no lo estamos todos? Sabéis, normalmente no hago esto cuando busco aguamiel reconfortante, pero ¿os puedo invitar a un trago?~
-@32  = ~Disculpadme, pero creo que me habéis confundido con otra persona.~
-@33  = ~Mi lord. Vos aun no habéis visto la propiedad. Quizás os debería llevar allá arriba y mostraros el lugar. Os ayudaría a tomar una decisión aun más informada.~
-~Mi lady. Vos aun no habéis visto la propiedad. Quizás os debería llevar allá arriba y mostraros el lugar. Os ayudaría a tomar una decisión aun más informada.~
-@34  = ~Comprar una casa, o cualquier propiedad, es una gran inversión. Debéis estar bien informado de qué es lo que váis a comprar antes de comprarlo en sí.~
-~Comprar una casa, o cualquier propiedad, es una gran inversión. Debéis estar bien informada de qué es lo que váis a comprar antes de comprarlo en sí.~
-@35  = ~Tenéis razón. No creo que pudiese permitirme el lujo. Tal vez otro día.~
+@30  = ~Y por vuestra apariencia, pienso que vos necesitÃ¡is de un lugar bonito al que acudir para cuando no estÃ©is en el camino.~
+@31  = ~Â¿No lo estamos todos, mi seÃ±or, no lo estamos todos? SabÃ©is, normalmente no hago esto cuando busco aguamiel reconfortante, pero Â¿os puedo invitar a un trago?~
+~Â¿No lo estamos todos, mi seÃ±ora, no lo estamos todos? SabÃ©is, normalmente no hago esto cuando busco aguamiel reconfortante, pero Â¿os puedo invitar a un trago?~
+@32  = ~Disculpadme, pero creo que me habÃ©is confundido con otra persona.~
+@33  = ~Mi lord. Vos aun no habÃ©is visto la propiedad. QuizÃ¡s os deberÃ­a llevar allÃ¡ arriba y mostraros el lugar. Os ayudarÃ­a a tomar una decisiÃ³n aun mÃ¡s informada.~
+~Mi lady. Vos aun no habÃ©is visto la propiedad. QuizÃ¡s os deberÃ­a llevar allÃ¡ arriba y mostraros el lugar. Os ayudarÃ­a a tomar una decisiÃ³n aun mÃ¡s informada.~
+@34  = ~Comprar una casa, o cualquier propiedad, es una gran inversiÃ³n. DebÃ©is estar bien informado de quÃ© es lo que vÃ¡is a comprar antes de comprarlo en sÃ­.~
+~Comprar una casa, o cualquier propiedad, es una gran inversiÃ³n. DebÃ©is estar bien informada de quÃ© es lo que vÃ¡is a comprar antes de comprarlo en sÃ­.~
+@35  = ~TenÃ©is razÃ³n. No creo que pudiese permitirme el lujo. Tal vez otro dÃ­a.~
 @36  = ~No, no necesito verla. Estoy seguro de que es verdaderamente genial.~
 ~No, no necesito verla. Estoy segura de que es verdaderamente genial.~
-@37  = ~La compraría preferiblemente ahora.~
-@38  = ~Pero, mi lord, eso no es lo que yo quería decir. Venid, ¿por qué no le echáis un vistazo conmigo?~
-~Pero, mi lady, eso no es lo que yo quería decir. Venid, ¿por qué no le echáis un vistazo conmigo?~
+@37  = ~La comprarÃ­a preferiblemente ahora.~
+@38  = ~Pero, mi lord, eso no es lo que yo querÃ­a decir. Venid, Â¿por quÃ© no le echÃ¡is un vistazo conmigo?~
+~Pero, mi lady, eso no es lo que yo querÃ­a decir. Venid, Â¿por quÃ© no le echÃ¡is un vistazo conmigo?~
 @39  = ~No. No la quiero.~
-@40  = ~Si cambiáis de idea, venid y hablad conmigo. ¡O si esperáis vender cualquiera de vuestras propiedades, recordad, Negocie con Lerrit!~
-@41  = ~Sois una de las personas a quienes jamas he vendido con mayor facilidad una propiedad. No habéis visto el lugar, no sabéis cuánto cuesta y, a pesar de eso, queréis comprar ya.~
-@42  = ~Tal y como dicen, el cliente tiene siempre la razón. Aqui está, el precio de cierre que debe ser cubierto asciende a seis mil piezas de oro.~
-@43  = ~Tal y como dicen, el cliente tiene siempre la razón. Aqui está, el precio de cierre que debe ser cubierto asciende a treinta mil piezas de oro.~
-@44  = ~Por ese importe, vos recibís la escritura oficial de la propiedad, el acceso privado, y todos los derechos y privilegios que se originan al ser dueño de vuestra propiedad.~
-~Por ese importe, vos recibís la escritura oficial de la propiedad, el acceso privado, y todos los derechos y privilegios que se originan al ser dueña de vuestra propiedad.~
-@45  = ~¿Tenéis alguna duda acerca del trato?~
+@40  = ~Si cambiÃ¡is de idea, venid y hablad conmigo. Â¡O si esperÃ¡is vender cualquiera de vuestras propiedades, recordad, Negocie con Lerrit!~
+@41  = ~Sois una de las personas a quienes jamas he vendido con mayor facilidad una propiedad. No habÃ©is visto el lugar, no sabÃ©is cuÃ¡nto cuesta y, a pesar de eso, querÃ©is comprar ya.~
+@42  = ~Tal y como dicen, el cliente tiene siempre la razÃ³n. Aqui estÃ¡, el precio de cierre que debe ser cubierto asciende a seis mil piezas de oro.~
+@43  = ~Tal y como dicen, el cliente tiene siempre la razÃ³n. Aqui estÃ¡, el precio de cierre que debe ser cubierto asciende a treinta mil piezas de oro.~
+@44  = ~Por ese importe, vos recibÃ­s la escritura oficial de la propiedad, el acceso privado, y todos los derechos y privilegios que se originan al ser dueÃ±o de vuestra propiedad.~
+~Por ese importe, vos recibÃ­s la escritura oficial de la propiedad, el acceso privado, y todos los derechos y privilegios que se originan al ser dueÃ±a de vuestra propiedad.~
+@45  = ~Â¿TenÃ©is alguna duda acerca del trato?~
 @46  = ~No. Entregadme la escritura.~
-@47  = ~¿Qué ocurre si no me gusta?~
-@48  = ~Pienso que es un poco elevado para una cabaña de montaña. No creo que la quiera.~
-@49  = ~Como gustéis, mi lord. Aquí está, la escritura cumplimentada y todo el papeleo pertinente.~
-~Como gustéis, mi lady. Aquí está, la escritura cumplimentada y todo el papeleo pertinente.~
+@47  = ~Â¿QuÃ© ocurre si no me gusta?~
+@48  = ~Pienso que es un poco elevado para una cabaÃ±a de montaÃ±a. No creo que la quiera.~
+@49  = ~Como gustÃ©is, mi lord. AquÃ­ estÃ¡, la escritura cumplimentada y todo el papeleo pertinente.~
+~Como gustÃ©is, mi lady. AquÃ­ estÃ¡, la escritura cumplimentada y todo el papeleo pertinente.~
 @50  = ~Es un placer hacer negocios con vos, mi lord.~
 ~Es un placer hacer negocios con vos, mi lady.~
-@51  = ~Lo siento, señor, pero todas las ventas son definitivas, especialmente una adquisición de esta magnitud. Creo que os estoy ofreciendo un negocio redondo.~
-~Lo siento, señora, pero todas las ventas son definitivas, especialmente una adquisición de esta magnitud. Creo que os estoy ofreciendo un negocio redondo.~
-@52  = ~Como gustéis, mi lord.~
-~Como gustéis, mi lady.~
-@53  = ~Espero que disfrutéis de vuestra nueva vida de lujo con vuestra cabaña en lo alto de la montaña.~
-@54  = ~¿Habéis reconsiderado vender vuestra residencia? Negocie con Lerrit, ese es mi lema.~
-@55  = ~Sí, conozco vuestro lema.~
+@51  = ~Lo siento, seÃ±or, pero todas las ventas son definitivas, especialmente una adquisiciÃ³n de esta magnitud. Creo que os estoy ofreciendo un negocio redondo.~
+~Lo siento, seÃ±ora, pero todas las ventas son definitivas, especialmente una adquisiciÃ³n de esta magnitud. Creo que os estoy ofreciendo un negocio redondo.~
+@52  = ~Como gustÃ©is, mi lord.~
+~Como gustÃ©is, mi lady.~
+@53  = ~Espero que disfrutÃ©is de vuestra nueva vida de lujo con vuestra cabaÃ±a en lo alto de la montaÃ±a.~
+@54  = ~Â¿HabÃ©is reconsiderado vender vuestra residencia? Negocie con Lerrit, ese es mi lema.~
+@55  = ~SÃ­, conozco vuestro lema.~
 @56  = ~Yo no vendo mi casa.~
-@57  = ~¿Entonces estáis dispuesto a vender?~
-~¿Entonces estáis dispuesta a vender?~
-@58  = ~¡Oh! ¡Un cliente en potencia! Entonces, ¿mostrándoos dispuesto a comprar? Estáis de suerte. Tengo una propiedad que creo que os complacería plenamente.~
-~¡Oh! ¡Un cliente en potencia! Entonces, ¿mostrándoos dispuesta a comprar? Estáis de suerte. Tengo una propiedad que creo que os complacería plenamente.~
+@57  = ~Â¿Entonces estÃ¡is dispuesto a vender?~
+~Â¿Entonces estÃ¡is dispuesta a vender?~
+@58  = ~Â¡Oh! Â¡Un cliente en potencia! Entonces, Â¿mostrÃ¡ndoos dispuesto a comprar? EstÃ¡is de suerte. Tengo una propiedad que creo que os complacerÃ­a plenamente.~
+~Â¡Oh! Â¡Un cliente en potencia! Entonces, Â¿mostrÃ¡ndoos dispuesta a comprar? EstÃ¡is de suerte. Tengo una propiedad que creo que os complacerÃ­a plenamente.~

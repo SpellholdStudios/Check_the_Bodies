@@ -1,143 +1,143 @@
-@3 = ~En fait, on m’a dit que vous pouviez forger des armes intéressantes. Je me demandais si vous forgiez tous les métaux, ou juste les armes.~
-@5 = ~J’ai besoin que vous fassiez une bonne action Cromwell. Je veux que cet artéfact soit détruit. Il est imprégné de Mal et ne doit pas être trouvé. Prenez-le. Prenez-le et détruisez-le.~
-@38 = ~Mmmm... voyons voir... qu'est-ce donc ? Ce sont bien les écailles de quelque bête que vous avez là ?~
+@3 = ~En fait, on mâ€™a dit que vous pouviez forger des armes intÃ©ressantes. Je me demandais si vous forgiez tous les mÃ©taux, ou juste les armes.~
+@5 = ~Jâ€™ai besoin que vous fassiez une bonne action Cromwell. Je veux que cet artÃ©fact soit dÃ©truit. Il est imprÃ©gnÃ© de Mal et ne doit pas Ãªtre trouvÃ©. Prenez-le. Prenez-le et dÃ©truisez-le.~
+@38 = ~Mmmm... voyons voir... qu'est-ce donc ? Ce sont bien les Ã©cailles de quelque bÃªte que vous avez lÃ  ?~
 @40 = ~Que devrais-je faire pour cela ?~
 @41 = ~Je ne crois pas. Voyez-vous autre chose qui pourrait vous servir ?~ ~Je ne crois pas. Voyez-vous autre chose qui pourrait vous servir~
 @89 = ~Cela me va. C'est entendu.~
 @90 = ~Non, je ne crois pas. Voyez-vous autre chose qui puisse vous servir ?~
-@91 = ~Non, je ne crois pas. Je dois y aller, à présent.~
-@99 = ~Mais oui ! Ce sont bien des écailles de dragon bleu que vous avez trouvées. Par le Forgeur d'Âmes, quel spectacle. Avec ces écailles-ci, je puis vous forger une armure complète si vous le désirez.~
-@100 = ~Deux choses, l'ami. Tout d'abord, il vous faudra payer 8 000 pièces d'or pour l'ouvrage, pas une de moins. Ensuite, mon apprenti étant absent, il vous faudra rester toute une journée pour m'aider à la forge.~ ~Deux choses, l'amie. Tout d'abord, il vous faudra payer 8 000 pièces d'or pour l'ouvrage, pas une de moins. Ensuite, mon apprenti étant absent, il vous faudra rester toute une journée pour m'aider à la forge.~
-@101 = ~Hé bien l’ami, tout ce dont je suis capable de forger ! C’est mon paternel qui m’a appris cet art et je peux forger quasiment n’importe quoi, allant des petites cuillères jusqu’aux statues.~ ~Hé bien l’amie, tout ce dont je suis capable de forger ! C’est mon paternel qui m’a appris cet art et je peux forger quasiment n’importe quoi, allant des petites cuillères jusqu’aux statues.~
-@102 = ~On dirait que vous voulez me faire fabriquer quelque chose d’intéressant. Bon, je suppose que vous avez vos raisons, l'ami. Qu’est-ce que vous voulez que je fasse ?~ ~On dirait que vous voulez me faire fabriquer quelque chose d’intéressant. Bon, je suppose que vous avez vos raisons, l'amie. Qu’est-ce que vous voulez que je fasse ?~
-@103 = ~Une couronne. J’ai besoin d’une couronne ressemblant fortement à un objet magique. Mais je ne sais pas de quoi elle a l’air. Elle se nomme la Couronne de Cornes et elle est assez rare.~
-@104 = ~Si vous ne savez pas à quoi elle ressemble, cette satanée couronne, comment, par la barbe de Clangeddin, voulez-vous que je la fabrique ?~
-@105 = ~Je ne sais pas Cromwell. Mais c’est très important. Un mage possède l’original, et il a de terribles projets. Je dois l’arrêter.~
-@106 = ~Alors on a un problème. Vous avez d’autres renseignements sur la façon de la fabriquer ?~
-@107 = ~Tout ce que je sais, c’est qu’une mage m’en a donné la recette. Je dois en retrouver les morceaux et ensuite, elle est supposée s’enchanter. Pourriez vous la fabriquer si j’en retrouve les différentes parties ?~
-@108 = ~En fait, on m’a dit de quels morceaux j’aurais besoin pour en fabriquer une factice et je les ai ici. Pensez-vous que vous pouvez la forger avec ça ?~
-@109 = ~J’en sais rien l’ami. Ca a l’air important et pour vous, je ferai de mon mieux. Mais sans avoir vu ce que je suis supposé forger... Je doute que la copie puisse tromper qui que ce soit.~ ~J’en sais rien l’amie. Ca a l’air important et pour vous, je ferai de mon mieux. Mais sans avoir vu ce que je suis supposé forger... Je doute que la copie puisse tromper qui que ce soit.~
-@110 = ~Faites de votre mieux Cromwell, c’est tout ce que je souhaite.~
+@91 = ~Non, je ne crois pas. Je dois y aller, Ã  prÃ©sent.~
+@99 = ~Mais oui ! Ce sont bien des Ã©cailles de dragon bleu que vous avez trouvÃ©es. Par le Forgeur d'Ã‚mes, quel spectacle. Avec ces Ã©cailles-ci, je puis vous forger une armure complÃ¨te si vous le dÃ©sirez.~
+@100 = ~Deux choses, l'ami. Tout d'abord, il vous faudra payer 8 000 piÃ¨ces d'or pour l'ouvrage, pas une de moins. Ensuite, mon apprenti Ã©tant absent, il vous faudra rester toute une journÃ©e pour m'aider Ã  la forge.~ ~Deux choses, l'amie. Tout d'abord, il vous faudra payer 8 000 piÃ¨ces d'or pour l'ouvrage, pas une de moins. Ensuite, mon apprenti Ã©tant absent, il vous faudra rester toute une journÃ©e pour m'aider Ã  la forge.~
+@101 = ~HÃ© bien lâ€™ami, tout ce dont je suis capable de forger ! Câ€™est mon paternel qui mâ€™a appris cet art et je peux forger quasiment nâ€™importe quoi, allant des petites cuillÃ¨res jusquâ€™aux statues.~ ~HÃ© bien lâ€™amie, tout ce dont je suis capable de forger ! Câ€™est mon paternel qui mâ€™a appris cet art et je peux forger quasiment nâ€™importe quoi, allant des petites cuillÃ¨res jusquâ€™aux statues.~
+@102 = ~On dirait que vous voulez me faire fabriquer quelque chose dâ€™intÃ©ressant. Bon, je suppose que vous avez vos raisons, l'ami. Quâ€™est-ce que vous voulez que je fasse ?~ ~On dirait que vous voulez me faire fabriquer quelque chose dâ€™intÃ©ressant. Bon, je suppose que vous avez vos raisons, l'amie. Quâ€™est-ce que vous voulez que je fasse ?~
+@103 = ~Une couronne. Jâ€™ai besoin dâ€™une couronne ressemblant fortement Ã  un objet magique. Mais je ne sais pas de quoi elle a lâ€™air. Elle se nomme la Couronne de Cornes et elle est assez rare.~
+@104 = ~Si vous ne savez pas Ã  quoi elle ressemble, cette satanÃ©e couronne, comment, par la barbe de Clangeddin, voulez-vous que je la fabrique ?~
+@105 = ~Je ne sais pas Cromwell. Mais câ€™est trÃ¨s important. Un mage possÃ¨de lâ€™original, et il a de terribles projets. Je dois lâ€™arrÃªter.~
+@106 = ~Alors on a un problÃ¨me. Vous avez dâ€™autres renseignements sur la faÃ§on de la fabriquer ?~
+@107 = ~Tout ce que je sais, câ€™est quâ€™une mage mâ€™en a donnÃ© la recette. Je dois en retrouver les morceaux et ensuite, elle est supposÃ©e sâ€™enchanter. Pourriez vous la fabriquer si jâ€™en retrouve les diffÃ©rentes parties ?~
+@108 = ~En fait, on mâ€™a dit de quels morceaux jâ€™aurais besoin pour en fabriquer une factice et je les ai ici. Pensez-vous que vous pouvez la forger avec Ã§a ?~
+@109 = ~Jâ€™en sais rien lâ€™ami. Ca a lâ€™air important et pour vous, je ferai de mon mieux. Mais sans avoir vu ce que je suis supposÃ© forger... Je doute que la copie puisse tromper qui que ce soit.~ ~Jâ€™en sais rien lâ€™amie. Ca a lâ€™air important et pour vous, je ferai de mon mieux. Mais sans avoir vu ce que je suis supposÃ© forger... Je doute que la copie puisse tromper qui que ce soit.~
+@110 = ~Faites de votre mieux Cromwell, câ€™est tout ce que je souhaite.~
 @111 = ~Vous l'avez dit ! Attention au foutoir en sortant, <GIRLBOY>.~
-@112 = ~J’en sais rien <GABBER>. On peut essayer, mais ça ne veut pas dire que ça trompera le mage dont vous parlez.~
+@112 = ~Jâ€™en sais rien <GABBER>. On peut essayer, mais Ã§a ne veut pas dire que Ã§a trompera le mage dont vous parlez.~
 @113 = ~Bien, prenez ces objets, essayez, et nous verrons.~
-@114 = ~En fait, je ne sais pas si ça marchera, et je ne veux pas perdre ces morceaux. Laissez-moi trouver d’autres informations sur la Couronne de Cornes. ~
-@115 = ~C’est sans doute pour le mieux, <GABBER>. Peut-être que la véritable couronne a un motif peint ou quelque chose comme ça. J’ai besoin de ce genre de détails pour qu’elle puisse tromper quelqu’un une fois forgée.~
-@116 = ~Comme d’habitude, <GIRLBOY>, faites attention au foutoir en sortant.~
-@117 = ~Si vous le dites, je vais essayer. Je ne dirai pas un truc du genre « j'vous aurais prévenu », mais je vais faire de mon mieux.~
-@118 = ~On dirait que ce que vous aviez a suffi. Cette couronne pourrait bien servir à ce que vous voulez faire avec ce mage.~
-@119 = ~Merci Cromwell. J’espère bien qu’il se laissera tromper.~
-@120 = ~On dirait bien que ce que vous aviez n’a pas suffi. J’aurais besoin de plus de morceaux, ou de pouvoir regarder l’original. Si vous voulez que je réessaye, apportez-moi les différentes parties et je retenterai le coup.~
-@121 = ~Merci quand même Cromwell. Je ne sais pas encore ce que je vais faire à propos de ça.~
-@122 = ~D’habitude, je crée des œuvres d’art. En argent, en fer, en acier, ...Je ne détruis rien. Mais si vous dites que cet objet doit être détruit, je peux le faire pour vous, l’ami. Laissez-moi voir ça...~ ~D’habitude, je crée des œuvres d’art. En argent, en fer, en acier, ...Je ne détruis rien. Mais si vous dites que cet objet doit être détruit, je peux le faire pour vous, l’amie. Laissez-moi voir ça...~
-@123 = ~Regardez ça. La garde d'une épée. Cette satanée chose est cassée. Comment avez-vous fait ?~
+@114 = ~En fait, je ne sais pas si Ã§a marchera, et je ne veux pas perdre ces morceaux. Laissez-moi trouver dâ€™autres informations sur la Couronne de Cornes. ~
+@115 = ~Câ€™est sans doute pour le mieux, <GABBER>. Peut-Ãªtre que la vÃ©ritable couronne a un motif peint ou quelque chose comme Ã§a. Jâ€™ai besoin de ce genre de dÃ©tails pour quâ€™elle puisse tromper quelquâ€™un une fois forgÃ©e.~
+@116 = ~Comme dâ€™habitude, <GIRLBOY>, faites attention au foutoir en sortant.~
+@117 = ~Si vous le dites, je vais essayer. Je ne dirai pas un truc du genre Â« j'vous aurais prÃ©venu Â», mais je vais faire de mon mieux.~
+@118 = ~On dirait que ce que vous aviez a suffi. Cette couronne pourrait bien servir Ã  ce que vous voulez faire avec ce mage.~
+@119 = ~Merci Cromwell. Jâ€™espÃ¨re bien quâ€™il se laissera tromper.~
+@120 = ~On dirait bien que ce que vous aviez nâ€™a pas suffi. Jâ€™aurais besoin de plus de morceaux, ou de pouvoir regarder lâ€™original. Si vous voulez que je rÃ©essaye, apportez-moi les diffÃ©rentes parties et je retenterai le coup.~
+@121 = ~Merci quand mÃªme Cromwell. Je ne sais pas encore ce que je vais faire Ã  propos de Ã§a.~
+@122 = ~Dâ€™habitude, je crÃ©e des Å“uvres dâ€™art. En argent, en fer, en acier, ...Je ne dÃ©truis rien. Mais si vous dites que cet objet doit Ãªtre dÃ©truit, je peux le faire pour vous, lâ€™ami. Laissez-moi voir Ã§a...~ ~Dâ€™habitude, je crÃ©e des Å“uvres dâ€™art. En argent, en fer, en acier, ...Je ne dÃ©truis rien. Mais si vous dites que cet objet doit Ãªtre dÃ©truit, je peux le faire pour vous, lâ€™amie. Laissez-moi voir Ã§a...~
+@123 = ~Regardez Ã§a. La garde d'une Ã©pÃ©e. Cette satanÃ©e chose est cassÃ©e. Comment avez-vous fait ?~
 @124 = ~Et qu'est-ce que c'est, d'abord ?~
-@125 = ~Cromwell, c’est une partie d’épée. Une Lame de Lune en fait. J'aimerais la reconstituer.~
-@126 = ~Une Lame de Lune ? Je suis émerveillé ! Cela fait si longtemps que je n’en avais vu une ! Comment l’avez-vous cassée ?~
-@127 = ~Ce n'est pas moi qui l'ai cassée. Je veux la réparer mais j'ignore avec quel matériau. Le savez vous ?~
-@128 = ~Il n’existe qu’un chose pour réparer les Lame de Lunes. Du Persephonium. Vous pourrez en trouver dans les mines d’Earlann. Ascalhorn les utilisait pour extraire du Persephonium, mais à cause de ces satanés démons, les mines ont dû fermer.~
-@129 = ~Rapportez-moi du Persephonium, et aussi sûr que le ferait le marteau de Clangeddin, je vous forgerai l’épée. Peut-être que la garde elle-même contient de la magie. Vous aurez vraiment une splendide lame elfique.~
-@130 = ~Très bien Cromwell. J’essaierai de trouver du Persephonium. Merci.~
-@131 = ~Regardez moi ça. Vous possèdez une garde. Elle est peut-être brisée, mais aussi sûr que ma barbe est longue, je sais ce que c’est et comment la réparer. Vous avez même le métal qui servira à la reforger !~
-@132 = ~Il s’agit d’une garde de Lame de Lune, <GABBER>, une épée elfique très puissante. Je n’en avais jamais vu de brisée, mais vous avez du Persephonium, le seul métal qui puisse être utilisé pour réparer ces armes.~
-@133 = ~Je ne sais pas si vous êtes allé à Earlann ou Everlund, mais je parie mon marteau que ce n’était pas à Eternelle-Rencontre. Vous avez trouvé le minerai de toute façon.~ ~Je ne sais pas si vous êtes allée à Earlann ou Everlund, mais je parie mon marteau que ce n’était pas à Eternelle-Rencontre. Vous avez trouvé le minerai de toute façon.~
+@125 = ~Cromwell, câ€™est une partie dâ€™Ã©pÃ©e. Une Lame de Lune en fait. J'aimerais la reconstituer.~
+@126 = ~Une Lame de Lune ? Je suis Ã©merveillÃ© ! Cela fait si longtemps que je nâ€™en avais vu une ! Comment lâ€™avez-vous cassÃ©e ?~
+@127 = ~Ce n'est pas moi qui l'ai cassÃ©e. Je veux la rÃ©parer mais j'ignore avec quel matÃ©riau. Le savez vous ?~
+@128 = ~Il nâ€™existe quâ€™un chose pour rÃ©parer les Lame de Lunes. Du Persephonium. Vous pourrez en trouver dans les mines dâ€™Earlann. Ascalhorn les utilisait pour extraire du Persephonium, mais Ã  cause de ces satanÃ©s dÃ©mons, les mines ont dÃ» fermer.~
+@129 = ~Rapportez-moi du Persephonium, et aussi sÃ»r que le ferait le marteau de Clangeddin, je vous forgerai lâ€™Ã©pÃ©e. Peut-Ãªtre que la garde elle-mÃªme contient de la magie. Vous aurez vraiment une splendide lame elfique.~
+@130 = ~TrÃ¨s bien Cromwell. Jâ€™essaierai de trouver du Persephonium. Merci.~
+@131 = ~Regardez moi Ã§a. Vous possÃ¨dez une garde. Elle est peut-Ãªtre brisÃ©e, mais aussi sÃ»r que ma barbe est longue, je sais ce que câ€™est et comment la rÃ©parer. Vous avez mÃªme le mÃ©tal qui servira Ã  la reforger !~
+@132 = ~Il sâ€™agit dâ€™une garde de Lame de Lune, <GABBER>, une Ã©pÃ©e elfique trÃ¨s puissante. Je nâ€™en avais jamais vu de brisÃ©e, mais vous avez du Persephonium, le seul mÃ©tal qui puisse Ãªtre utilisÃ© pour rÃ©parer ces armes.~
+@133 = ~Je ne sais pas si vous Ãªtes allÃ© Ã  Earlann ou Everlund, mais je parie mon marteau que ce nâ€™Ã©tait pas Ã  Eternelle-Rencontre. Vous avez trouvÃ© le minerai de toute faÃ§on.~ ~Je ne sais pas si vous Ãªtes allÃ©e Ã  Earlann ou Everlund, mais je parie mon marteau que ce nâ€™Ã©tait pas Ã  Eternelle-Rencontre. Vous avez trouvÃ© le minerai de toute faÃ§on.~
 @134 = ~Bon, voulez-vous que je reforge cette lame ?~
-@135 = ~Hé bien, les Lames de Lunes, comme toutes les armes elfiques en général, sont complexes. Cela me prendra deux jours pour tout préparer, et vous devrez revenir pour m’aider à la forger. Mon apprenti est à Abdar et je n’ai pas suffisamment de bras. Cela vous coûtera aussi 2500 pièces d'or pour l'ouvrage. Toujours intéressé ?~ ~Hé bien, les Lames de Lunes, comme toutes les armes elfiques en général, sont complexes. Cela me prendra deux jours pour tout préparer, et vous devrez revenir pour m’aider à la forger. Mon apprenti est à Abdar et je n’ai pas suffisamment de bras. Cela vous coûtera aussi 2500 pièces d'or pour l'ouvrage. Toujours intéressée ?~
-@136 = ~Oui Cromwell. Voilà l’or et les morceaux de l'arme. Je reviendrai donc dans deux jours pour vous aider.~
-@137 = ~Oui Cromwell, mais je n’ai pas assez d’argent. Je reviendrai quand j’en aurai suffisamment.~
-@138 = ~Pas maintenant Cromwell. Peut-être plus tard.~
-@139 = ~Très bien, <GABBER>. Je vais tout préparer alors.~
-@140 = ~Revenez me voir une fois que vous aurez assez d'argent. Je ne commencerai pas les préparatifs tant que je n'aurai pas mon avance.~
-@141 = ~Très bien, <GABBER>, comme vous voulez. Mais une Lame de Lune est un véritable trésor. Plus tôt vous l'obtiendrez, mieux ce sera.~
-@142 = ~Je n’ai toujours pas fini de tout préparer pour reforger votre Lame de Lune. Revenez un peu plus tard.~
-@143 = ~Vous êtes juste à l’heure, <GABBER>. Tout est prêt pour reforger votre Lame de Lune. Vous venez m'aider ?~
+@135 = ~HÃ© bien, les Lames de Lunes, comme toutes les armes elfiques en gÃ©nÃ©ral, sont complexes. Cela me prendra deux jours pour tout prÃ©parer, et vous devrez revenir pour mâ€™aider Ã  la forger. Mon apprenti est Ã  Abdar et je nâ€™ai pas suffisamment de bras. Cela vous coÃ»tera aussi 2500 piÃ¨ces d'or pour l'ouvrage. Toujours intÃ©ressÃ© ?~ ~HÃ© bien, les Lames de Lunes, comme toutes les armes elfiques en gÃ©nÃ©ral, sont complexes. Cela me prendra deux jours pour tout prÃ©parer, et vous devrez revenir pour mâ€™aider Ã  la forger. Mon apprenti est Ã  Abdar et je nâ€™ai pas suffisamment de bras. Cela vous coÃ»tera aussi 2500 piÃ¨ces d'or pour l'ouvrage. Toujours intÃ©ressÃ©e ?~
+@136 = ~Oui Cromwell. VoilÃ  lâ€™or et les morceaux de l'arme. Je reviendrai donc dans deux jours pour vous aider.~
+@137 = ~Oui Cromwell, mais je nâ€™ai pas assez dâ€™argent. Je reviendrai quand jâ€™en aurai suffisamment.~
+@138 = ~Pas maintenant Cromwell. Peut-Ãªtre plus tard.~
+@139 = ~TrÃ¨s bien, <GABBER>. Je vais tout prÃ©parer alors.~
+@140 = ~Revenez me voir une fois que vous aurez assez d'argent. Je ne commencerai pas les prÃ©paratifs tant que je n'aurai pas mon avance.~
+@141 = ~TrÃ¨s bien, <GABBER>, comme vous voulez. Mais une Lame de Lune est un vÃ©ritable trÃ©sor. Plus tÃ´t vous l'obtiendrez, mieux ce sera.~
+@142 = ~Je nâ€™ai toujours pas fini de tout prÃ©parer pour reforger votre Lame de Lune. Revenez un peu plus tard.~
+@143 = ~Vous Ãªtes juste Ã  lâ€™heure, <GABBER>. Tout est prÃªt pour reforger votre Lame de Lune. Vous venez m'aider ?~
 @144 = ~Oui Cromwell. Allons-y.~
 @145 = ~Pas encore Cromwell. Laissez-moi encore quelques heures.~
-@146 = ~Très bien <GABBER>. Ecoutez très attentivement mes instructions, ou sinon tout pourrait échouer...~
-@147 = ~Très bien <GABBER>. J'attendrai aussi longtemps que nécessaire.~
-@148 = ~C’est fait <GABBER>. La Lame de Lune est forgée.~
-@149 = ~Je vous honore avec cette épée, comme vous l'avez honoré en me faisant confiance pour ce difficile travail de forge. Merci, <GABBER>.~
-@150 = ~Cromwell, c’est une partie d’épée. Une Lame de Chantesort en fait. Je veux la reconstituer.~
-@151 = ~Une Lame de Chantesort ? Je suis émerveillé ! Ca fait si longtemps que je n’en avais vu une ! Comment l’avez-vous cassée ?~
-@152 = ~Je ne l’ai pas cassée. Je veux la réparer mais je ne sais pas avec quoi. Le savez vous ?~
-@153 = ~Il n’existe qu’un chose pour réparer une Lame de Chantesort. Du Persephonium. Vous pourrez en trouver dans les mines d’Earlann. Ascalhorn les utilisait pour extraire du Persephonium, mais à cause de ces satanés démons, les mines ont dû fermer.~
-@154 = ~Rapportez-moi du Persephonium, et aussi sûr que le ferait le marteau de Clangeddin, je vous forgerai l’épée. Peut-être que la garde elle-même contient de la magie. Vous aurez vraiment une splendide lame elfique.~
-@155 = ~C’est fait <GABBER>. La Lame de Chantesort est restaurée.~
+@146 = ~TrÃ¨s bien <GABBER>. Ecoutez trÃ¨s attentivement mes instructions, ou sinon tout pourrait Ã©chouer...~
+@147 = ~TrÃ¨s bien <GABBER>. J'attendrai aussi longtemps que nÃ©cessaire.~
+@148 = ~Câ€™est fait <GABBER>. La Lame de Lune est forgÃ©e.~
+@149 = ~Je vous honore avec cette Ã©pÃ©e, comme vous l'avez honorÃ© en me faisant confiance pour ce difficile travail de forge. Merci, <GABBER>.~
+@150 = ~Cromwell, câ€™est une partie dâ€™Ã©pÃ©e. Une Lame de Chantesort en fait. Je veux la reconstituer.~
+@151 = ~Une Lame de Chantesort ? Je suis Ã©merveillÃ© ! Ca fait si longtemps que je nâ€™en avais vu une ! Comment lâ€™avez-vous cassÃ©e ?~
+@152 = ~Je ne lâ€™ai pas cassÃ©e. Je veux la rÃ©parer mais je ne sais pas avec quoi. Le savez vous ?~
+@153 = ~Il nâ€™existe quâ€™un chose pour rÃ©parer une Lame de Chantesort. Du Persephonium. Vous pourrez en trouver dans les mines dâ€™Earlann. Ascalhorn les utilisait pour extraire du Persephonium, mais Ã  cause de ces satanÃ©s dÃ©mons, les mines ont dÃ» fermer.~
+@154 = ~Rapportez-moi du Persephonium, et aussi sÃ»r que le ferait le marteau de Clangeddin, je vous forgerai lâ€™Ã©pÃ©e. Peut-Ãªtre que la garde elle-mÃªme contient de la magie. Vous aurez vraiment une splendide lame elfique.~
+@155 = ~Câ€™est fait <GABBER>. La Lame de Chantesort est restaurÃ©e.~
 @156 = ~Je continue de chercher, <GABBER>. Mmmm, voyons voir...~
-@157 = ~Ca, c'est un bien joli bâton, quoiqu'un peu grossier. Il a besoin d’être légèrement retravaillé. Peut-être que si j’avais du chêne, je pourrais l’affiner, mais je ne peux rien faire sans avoir le bois. Rapportez-moi une belle et longue branche de chêne, mais sans noeud. Ensuite, je pourrai m’occuper de votre bâton.~
-@158 = ~Vous avez du chêne solide, une belle branche sans noeud. Je pourrais vous fabriquer un beau bâton de chêne, mais je ne peux le faire sans un modèle. Rapportez-moi un bâton et aussi sûr que ma barbe est trempée, je vous confectionnerai une arme pour battre l’arrière-train de vos ennemis !~
-@159 = ~Vous avez une solide branche de chêne et un bâton endommagé, <GABBER>. Je pourrais vous l’améliorer si vous voulez m’y aider. Pour tout vous dire, je n'y arriverai pas sans votre aide, en fait. C'est d'accord ?~
-@160 = ~Vous pouvez le faire pour 1000 pièces d'or ?~
-@161 = ~Non merci, Cromwell. Qu’est-ce que vous pouvez faire d’autre avec ce que j’ai ?~
-@162 = ~Sûr l’ami. Je vous le ferai pour 1000 pièces, mais pas une moins, et vous devrez rester un peu à la forge pour m’aider.~ ~Sûr l’amie. Je vous le ferai pour 1000 pièces, mais pas une moins, et vous devrez rester un peu à la forge pour m’aider.~
-@163 = ~Très bien Cromwell. Allons-y.~
+@157 = ~Ca, c'est un bien joli bÃ¢ton, quoiqu'un peu grossier. Il a besoin dâ€™Ãªtre lÃ©gÃ¨rement retravaillÃ©. Peut-Ãªtre que si jâ€™avais du chÃªne, je pourrais lâ€™affiner, mais je ne peux rien faire sans avoir le bois. Rapportez-moi une belle et longue branche de chÃªne, mais sans noeud. Ensuite, je pourrai mâ€™occuper de votre bÃ¢ton.~
+@158 = ~Vous avez du chÃªne solide, une belle branche sans noeud. Je pourrais vous fabriquer un beau bÃ¢ton de chÃªne, mais je ne peux le faire sans un modÃ¨le. Rapportez-moi un bÃ¢ton et aussi sÃ»r que ma barbe est trempÃ©e, je vous confectionnerai une arme pour battre lâ€™arriÃ¨re-train de vos ennemis !~
+@159 = ~Vous avez une solide branche de chÃªne et un bÃ¢ton endommagÃ©, <GABBER>. Je pourrais vous lâ€™amÃ©liorer si vous voulez mâ€™y aider. Pour tout vous dire, je n'y arriverai pas sans votre aide, en fait. C'est d'accord ?~
+@160 = ~Vous pouvez le faire pour 1000 piÃ¨ces d'or ?~
+@161 = ~Non merci, Cromwell. Quâ€™est-ce que vous pouvez faire dâ€™autre avec ce que jâ€™ai ?~
+@162 = ~SÃ»r lâ€™ami. Je vous le ferai pour 1000 piÃ¨ces, mais pas une moins, et vous devrez rester un peu Ã  la forge pour mâ€™aider.~ ~SÃ»r lâ€™amie. Je vous le ferai pour 1000 piÃ¨ces, mais pas une moins, et vous devrez rester un peu Ã  la forge pour mâ€™aider.~
+@163 = ~TrÃ¨s bien Cromwell. Allons-y.~
 @164 = ~Comme vous voulez. On peut commencer tout de suite.~
-@165 = ~Et voilà l’ami. Un bien joli bâton. Servez-vous en bien. Si jamais vous trouvez autre chose d’intéressant, vous savez où l’amener, hein ?~ ~Et voilà l’amie. Un bien joli bâton. Servez-vous en bien. Si jamais vous trouvez autre chose d’intéressant, vous savez où l’amener, hein ?~
-@166 = ~Vous avez une bonne hache, mais sa lame est émoussée. Elle a besoin d’être un peu retravaillée. Peut-être que si j’avais du minerai, je pourrais combler ses aspérités et l’aiguiser. Mais je ne peux rien faire sans du minerai de fer. Si vous me rapportez du minerai de fer non forgé, je pourrai la réparer.~
-@167 = ~Vous avez du minerai de fer de qualité, et en quantité en plus. Je pourrais le travailler pour vous en faire une belle lame, mais comme il n’y en a pas assez pour fabriquer une lame complète, je ne pourrais que le fondre à une arme existante. Apportez-moi une nouvelle arme, et aussi sûr que ma barbe est longue, je vous forgerai une belle lame, peut être une hache, pour fendre le crâne de vos ennemis.~
-@168 = ~Vous possédez une bien belle hache, mais sa lame est émoussée. Mais comme vous possédez aussi du minerai de fer, <GABBER>, je pourrai vous les assembler, si vous voulez m’y aider. Pour tout vous dire, je n'y arriverai pas sans votre aide, en fait. C'est d'accord ?~
-@169 = ~Vous pouvez le faire pour 10 000 pièces d'or ?~
-@170 = ~Sûr l’ami. Je vous le ferai pour 10 000 pièces, mais pas une moins, et vous devrez rester un peu à la forge pour m’aider.~ ~Sûr l’amie. Je vous le ferai pour 10 000 pièces, mais pas une moins, et vous devrez rester un peu à la forge pour m’aider.~
-@171 = ~Et voilà l’ami. Une bien belle hache. Servez-vous en bien. Si jamais vous trouvez autre chose d’intéressant, vous savez où l’amener, hein ?~ ~Et voilà l’amie. Une bien belle hache. Servez-vous en bien. Si jamais vous trouvez autre chose d’intéressant, vous savez où l’amener, hein ?~
-@172 = ~Vous possédez la tête d’un marteau, mais il manque le manche. Il a besoin d’être reforgé. Peut-être que si j’avais quelque chose pour y attacher la tête, je pourrais forger et compléter le marteau de guerre pour vous. Rapportez-moi un manche du même métal, et je reforgerai le marteau de guerre pour vous.~
-@173 = ~Vous possédez une poignée en titane, et de qualité en plus. Je pourrais vous en faire un marteau, mais vous n'avez pas la tête pour aller avec, donc je ne peux pas le faire. Apportez-moi une tête de marteau de guerre, et aussi sûr que ma barbe est trempée, je vous forgerai une bonne arme pour écraser le crâne de vos ennemis !~
-@174 = ~Vous possédez une bonne tête de marteau, mais il lui manque un manche. Mais que vois-je ici, n'est-ce pas un manche en titane ? <GABBER>, je pourrais les assembler pour vous en faire un très bon marteau de guerre, si vous voulez m’y aider. Pour tout vous dire, je n'y arriverai pas sans votre aide, en fait. C'est d'accord ?~
-@175 = ~Vous pouvez le faire pour 20 000 pièces d'or ?~
-@176 = ~Non, Cromwell, je n’en ai pas les moyens pour l’instant. Autre chose qui puisse servir ?~
-@177 = ~Sûr l’ami. Je vous le ferai pour 20 000 pièces, mais pas une moins, et vous devrez rester un peu à la forge pour m’aider.~ ~Sûr l’amie. Je vous le ferai pour 20 000 pièces, mais pas une moins, et vous devrez rester un peu à la forge pour m’aider.~
-@178 = ~Et bien voilà l’ami. Un lourd marteau de guerre pour transformer ces satanés gobelins en bouillie. Servez-vous en bien. Si jamais vous trouvez autre chose d’intéressant, vous savez où l’amener, hein ?~ ~Et bien voilà l’amie. Un lourd marteau de guerre pour transformer ces satanés gobelins en bouillie. Servez-vous en bien. Si jamais vous trouvez autre chose d’intéressant, vous savez où l’amener, hein ?~
-@179 = ~Des Elfes et des Artéfacts
+@165 = ~Et voilÃ  lâ€™ami. Un bien joli bÃ¢ton. Servez-vous en bien. Si jamais vous trouvez autre chose dâ€™intÃ©ressant, vous savez oÃ¹ lâ€™amener, hein ?~ ~Et voilÃ  lâ€™amie. Un bien joli bÃ¢ton. Servez-vous en bien. Si jamais vous trouvez autre chose dâ€™intÃ©ressant, vous savez oÃ¹ lâ€™amener, hein ?~
+@166 = ~Vous avez une bonne hache, mais sa lame est Ã©moussÃ©e. Elle a besoin dâ€™Ãªtre un peu retravaillÃ©e. Peut-Ãªtre que si jâ€™avais du minerai, je pourrais combler ses aspÃ©ritÃ©s et lâ€™aiguiser. Mais je ne peux rien faire sans du minerai de fer. Si vous me rapportez du minerai de fer non forgÃ©, je pourrai la rÃ©parer.~
+@167 = ~Vous avez du minerai de fer de qualitÃ©, et en quantitÃ© en plus. Je pourrais le travailler pour vous en faire une belle lame, mais comme il nâ€™y en a pas assez pour fabriquer une lame complÃ¨te, je ne pourrais que le fondre Ã  une arme existante. Apportez-moi une nouvelle arme, et aussi sÃ»r que ma barbe est longue, je vous forgerai une belle lame, peut Ãªtre une hache, pour fendre le crÃ¢ne de vos ennemis.~
+@168 = ~Vous possÃ©dez une bien belle hache, mais sa lame est Ã©moussÃ©e. Mais comme vous possÃ©dez aussi du minerai de fer, <GABBER>, je pourrai vous les assembler, si vous voulez mâ€™y aider. Pour tout vous dire, je n'y arriverai pas sans votre aide, en fait. C'est d'accord ?~
+@169 = ~Vous pouvez le faire pour 10 000 piÃ¨ces d'or ?~
+@170 = ~SÃ»r lâ€™ami. Je vous le ferai pour 10 000 piÃ¨ces, mais pas une moins, et vous devrez rester un peu Ã  la forge pour mâ€™aider.~ ~SÃ»r lâ€™amie. Je vous le ferai pour 10 000 piÃ¨ces, mais pas une moins, et vous devrez rester un peu Ã  la forge pour mâ€™aider.~
+@171 = ~Et voilÃ  lâ€™ami. Une bien belle hache. Servez-vous en bien. Si jamais vous trouvez autre chose dâ€™intÃ©ressant, vous savez oÃ¹ lâ€™amener, hein ?~ ~Et voilÃ  lâ€™amie. Une bien belle hache. Servez-vous en bien. Si jamais vous trouvez autre chose dâ€™intÃ©ressant, vous savez oÃ¹ lâ€™amener, hein ?~
+@172 = ~Vous possÃ©dez la tÃªte dâ€™un marteau, mais il manque le manche. Il a besoin dâ€™Ãªtre reforgÃ©. Peut-Ãªtre que si jâ€™avais quelque chose pour y attacher la tÃªte, je pourrais forger et complÃ©ter le marteau de guerre pour vous. Rapportez-moi un manche du mÃªme mÃ©tal, et je reforgerai le marteau de guerre pour vous.~
+@173 = ~Vous possÃ©dez une poignÃ©e en titane, et de qualitÃ© en plus. Je pourrais vous en faire un marteau, mais vous n'avez pas la tÃªte pour aller avec, donc je ne peux pas le faire. Apportez-moi une tÃªte de marteau de guerre, et aussi sÃ»r que ma barbe est trempÃ©e, je vous forgerai une bonne arme pour Ã©craser le crÃ¢ne de vos ennemis !~
+@174 = ~Vous possÃ©dez une bonne tÃªte de marteau, mais il lui manque un manche. Mais que vois-je ici, n'est-ce pas un manche en titane ? <GABBER>, je pourrais les assembler pour vous en faire un trÃ¨s bon marteau de guerre, si vous voulez mâ€™y aider. Pour tout vous dire, je n'y arriverai pas sans votre aide, en fait. C'est d'accord ?~
+@175 = ~Vous pouvez le faire pour 20 000 piÃ¨ces d'or ?~
+@176 = ~Non, Cromwell, je nâ€™en ai pas les moyens pour lâ€™instant. Autre chose qui puisse servir ?~
+@177 = ~SÃ»r lâ€™ami. Je vous le ferai pour 20 000 piÃ¨ces, mais pas une moins, et vous devrez rester un peu Ã  la forge pour mâ€™aider.~ ~SÃ»r lâ€™amie. Je vous le ferai pour 20 000 piÃ¨ces, mais pas une moins, et vous devrez rester un peu Ã  la forge pour mâ€™aider.~
+@178 = ~Et bien voilÃ  lâ€™ami. Un lourd marteau de guerre pour transformer ces satanÃ©s gobelins en bouillie. Servez-vous en bien. Si jamais vous trouvez autre chose dâ€™intÃ©ressant, vous savez oÃ¹ lâ€™amener, hein ?~ ~Et bien voilÃ  lâ€™amie. Un lourd marteau de guerre pour transformer ces satanÃ©s gobelins en bouillie. Servez-vous en bien. Si jamais vous trouvez autre chose dâ€™intÃ©ressant, vous savez oÃ¹ lâ€™amener, hein ?~
+@179 = ~Des Elfes et des ArtÃ©facts
 
-J’ai trouvé les objets dont Eleanor m’a parlé et je les ai apportés à mon ami, le nain Cromwell. Il a réussi à créer une copie quasi-parfaite de la véritable Couronne de Cornes et je dois à présent rencontrer le mage. J’espère que cette ruse suffira à le tromper.~
+Jâ€™ai trouvÃ© les objets dont Eleanor mâ€™a parlÃ© et je les ai apportÃ©s Ã  mon ami, le nain Cromwell. Il a rÃ©ussi Ã  crÃ©er une copie quasi-parfaite de la vÃ©ritable Couronne de Cornes et je dois Ã  prÃ©sent rencontrer le mage. Jâ€™espÃ¨re que cette ruse suffira Ã  le tromper.~
 
-@180 = ~Des Elfes et des Artéfacts
+@180 = ~Des Elfes et des ArtÃ©facts
 
-J’ai trouvé les objets dont Eleanor m’a parlé afin de créer une Couronne de Cornes factice. Je les ai apportés à mon ami Cromwell, un maître artisan, mais il n’a pas été capable d’en faire un faux. J’ai le choix à présent entre faire réessayer Cromwell ou trouver un autre moyen pour contrecarrer les plans du mage.~
+Jâ€™ai trouvÃ© les objets dont Eleanor mâ€™a parlÃ© afin de crÃ©er une Couronne de Cornes factice. Je les ai apportÃ©s Ã  mon ami Cromwell, un maÃ®tre artisan, mais il nâ€™a pas Ã©tÃ© capable dâ€™en faire un faux. Jâ€™ai le choix Ã  prÃ©sent entre faire rÃ©essayer Cromwell ou trouver un autre moyen pour contrecarrer les plans du mage.~
 
-@181 = ~Des Elfes et des Artéfacts
+@181 = ~Des Elfes et des ArtÃ©facts
 
-Après avoir quitté le Temple de Waukyne à Franc-Marché, Eleanor a été attaquée par le mage dont elle me parlait. Il avait quelques gardes du corps avec lui, mais n’en a même pas eu besoin. Sa magie était puissante, bien trop puissante pour Eleanor qui fut tuée par le sorcier lors d’une bataille magique sans merci. J’honorerai son sacrifice, elle ne sera pas morte en vain.~
+AprÃ¨s avoir quittÃ© le Temple de Waukyne Ã  Franc-MarchÃ©, Eleanor a Ã©tÃ© attaquÃ©e par le mage dont elle me parlait. Il avait quelques gardes du corps avec lui, mais nâ€™en a mÃªme pas eu besoin. Sa magie Ã©tait puissante, bien trop puissante pour Eleanor qui fut tuÃ©e par le sorcier lors dâ€™une bataille magique sans merci. Jâ€™honorerai son sacrifice, elle ne sera pas morte en vain.~
 
-@182 = ~Des Elfes et des Artéfacts
+@182 = ~Des Elfes et des ArtÃ©facts
 
-J'ai eu une longue discussion avec Eleanor, une mage elfe qui s'est spécialisée dans la recherche d'anciens artéfacts et objets magiques. Elle est très liée à l'ambition d'un mage qui l'a employée pour conduire des recherches sur la théorie de la permatration (que je pensais restée au stade de mythe). Apparemment ce mage est entré en possession d'un artéfact qui lui permettrait de tenter un rituel de permatration, et bien sûr ce processus inclut un fort potentiel de destruction. Eleanor a sollicité mon aide, et a proposé un plan pour contrecarrer le sorcier maléfique.
+J'ai eu une longue discussion avec Eleanor, une mage elfe qui s'est spÃ©cialisÃ©e dans la recherche d'anciens artÃ©facts et objets magiques. Elle est trÃ¨s liÃ©e Ã  l'ambition d'un mage qui l'a employÃ©e pour conduire des recherches sur la thÃ©orie de la permatration (que je pensais restÃ©e au stade de mythe). Apparemment ce mage est entrÃ© en possession d'un artÃ©fact qui lui permettrait de tenter un rituel de permatration, et bien sÃ»r ce processus inclut un fort potentiel de destruction. Eleanor a sollicitÃ© mon aide, et a proposÃ© un plan pour contrecarrer le sorcier malÃ©fique.
 
-Elle pense que la meilleure solution est de créer une copie inoffensive de l'artéfact. Je ne sais pas si c'est une bonne idée, mais au cas où je voudrais fabriquer une telle copie, elle m'a indiqué les objets dont j'aurai besoin pour sa réalisation. Les objets sont courants : j'aurai besoin d'un diamant, d'une potion de protection contre la magie, d'un parchemin du sort 'Arme enchantée', et n'importe quel objet contenant une pierre de couleur verte. Si je trouve ces objets et que je souhaite qu'Eleanor fabrique une contrefaçon, je devrai la contacter quelque part à Athkatla.
+Elle pense que la meilleure solution est de crÃ©er une copie inoffensive de l'artÃ©fact. Je ne sais pas si c'est une bonne idÃ©e, mais au cas oÃ¹ je voudrais fabriquer une telle copie, elle m'a indiquÃ© les objets dont j'aurai besoin pour sa rÃ©alisation. Les objets sont courants : j'aurai besoin d'un diamant, d'une potion de protection contre la magie, d'un parchemin du sort 'Arme enchantÃ©e', et n'importe quel objet contenant une pierre de couleur verte. Si je trouve ces objets et que je souhaite qu'Eleanor fabrique une contrefaÃ§on, je devrai la contacter quelque part Ã  Athkatla.
 
-En plus de la duplication de l'objet, Eleanor m'a indiqué où je pouvais trouver le mage. On lui a dit qu'elle pourrait le contacter dans un donjon près de la forêt de Téthyr, où il aurait un laboratoire souterrain pour mener ses expériences. Si tout le reste rate, je pourrai probablement le retrouver là-bas afin de le faire échouer dans sa tentative de voler la force vive des autres êtres pour devenir l'équivalent d'un Dieu.~
+En plus de la duplication de l'objet, Eleanor m'a indiquÃ© oÃ¹ je pouvais trouver le mage. On lui a dit qu'elle pourrait le contacter dans un donjon prÃ¨s de la forÃªt de TÃ©thyr, oÃ¹ il aurait un laboratoire souterrain pour mener ses expÃ©riences. Si tout le reste rate, je pourrai probablement le retrouver lÃ -bas afin de le faire Ã©chouer dans sa tentative de voler la force vive des autres Ãªtres pour devenir l'Ã©quivalent d'un Dieu.~
 
-@183 = ~Des Elfes et des Artéfacts
+@183 = ~Des Elfes et des ArtÃ©facts
 
-J'ai eu une longue discussion avec Eleanor, une mage elfe qui s'est spécialisée dans la recherche d'anciens artéfacts et objets magiques. Elle est très liée à l'ambition d'un mage qui l'a employée pour conduire des recherches sur la théorie de la permatration (que je pensais restée au stade de mythe). Apparemment ce mage est entré en possession d'un artéfact qui lui permettrait de tenter un rituel de permatration, et bien sûr ce processus inclut un fort potentiel de destruction. Eleanor a sollicité mon aide, et a proposé un plan pour contrecarrer le sorcier maléfique.
+J'ai eu une longue discussion avec Eleanor, une mage elfe qui s'est spÃ©cialisÃ©e dans la recherche d'anciens artÃ©facts et objets magiques. Elle est trÃ¨s liÃ©e Ã  l'ambition d'un mage qui l'a employÃ©e pour conduire des recherches sur la thÃ©orie de la permatration (que je pensais restÃ©e au stade de mythe). Apparemment ce mage est entrÃ© en possession d'un artÃ©fact qui lui permettrait de tenter un rituel de permatration, et bien sÃ»r ce processus inclut un fort potentiel de destruction. Eleanor a sollicitÃ© mon aide, et a proposÃ© un plan pour contrecarrer le sorcier malÃ©fique.
 
-Elle pense que la meilleure solution est de créer une copie inoffensive de l'artéfact. Je ne sais pas si c'est une bonne idée, mais au cas où je voudrais fabriquer une telle copie, elle m'a indiqué les objets dont j'aurai besoin pour sa réalisation. Les objets sont courants : j'aurai besoin d'un diamant, d'une potion de protection contre la magie, d'un parchemin du sort 'Arme enchantée', et n'importe quel objet contenant une pierre de couleur verte. Si je trouve ces objets et que je souhaite qu'Eleanor fabrique une contrefaçon, je devrai la contacter quelque part à Athkatla.
+Elle pense que la meilleure solution est de crÃ©er une copie inoffensive de l'artÃ©fact. Je ne sais pas si c'est une bonne idÃ©e, mais au cas oÃ¹ je voudrais fabriquer une telle copie, elle m'a indiquÃ© les objets dont j'aurai besoin pour sa rÃ©alisation. Les objets sont courants : j'aurai besoin d'un diamant, d'une potion de protection contre la magie, d'un parchemin du sort 'Arme enchantÃ©e', et n'importe quel objet contenant une pierre de couleur verte. Si je trouve ces objets et que je souhaite qu'Eleanor fabrique une contrefaÃ§on, je devrai la contacter quelque part Ã  Athkatla.
 
-En plus de la duplication de l'objet, Eleanor m'a indiqué où je pouvais trouver le mage. On lui a dit qu'elle pourrait le contacter dans un donjon près des collines d'Umar, où il aurait un laboratoire souterrain pour mener ses expériences. Si tout le reste rate, je pourrai probablement le retrouver là-bas afin de le faire échouer dans sa tentative de voler la force vive des autres êtres pour devenir l'équivalent d'un Dieu.~
+En plus de la duplication de l'objet, Eleanor m'a indiquÃ© oÃ¹ je pouvais trouver le mage. On lui a dit qu'elle pourrait le contacter dans un donjon prÃ¨s des collines d'Umar, oÃ¹ il aurait un laboratoire souterrain pour mener ses expÃ©riences. Si tout le reste rate, je pourrai probablement le retrouver lÃ -bas afin de le faire Ã©chouer dans sa tentative de voler la force vive des autres Ãªtres pour devenir l'Ã©quivalent d'un Dieu.~
 
-@184 = ~Des Elfes et des Artéfacts
+@184 = ~Des Elfes et des ArtÃ©facts
 
-J'ai eu une longue discussion avec Eleanor, une mage elfe qui s'est spécialisée dans la recherche d'anciens artéfacts et objets magiques. Elle est très liée à l'ambition d'un mage qui l'a employée pour conduire des recherches sur la théorie de la permatration (que je pensais restée au stade de mythe). Apparemment ce mage est entré en possession d'un artéfact qui lui permettrait de tenter un rituel de permatration, et bien sûr ce processus inclut un fort potentiel de destruction. Eleanor a sollicité mon aide, et a proposé un plan pour contrecarrer le sorcier maléfique.
+J'ai eu une longue discussion avec Eleanor, une mage elfe qui s'est spÃ©cialisÃ©e dans la recherche d'anciens artÃ©facts et objets magiques. Elle est trÃ¨s liÃ©e Ã  l'ambition d'un mage qui l'a employÃ©e pour conduire des recherches sur la thÃ©orie de la permatration (que je pensais restÃ©e au stade de mythe). Apparemment ce mage est entrÃ© en possession d'un artÃ©fact qui lui permettrait de tenter un rituel de permatration, et bien sÃ»r ce processus inclut un fort potentiel de destruction. Eleanor a sollicitÃ© mon aide, et a proposÃ© un plan pour contrecarrer le sorcier malÃ©fique.
 
-Elle pense que la meilleure solution est de créer une copie inoffensive de l'artéfact. Je ne sais pas si c'est une bonne idée, mais au cas où je voudrais fabriquer une telle copie, elle m'a indiqué les objets dont j'aurai besoin pour sa réalisation. Les objets sont courants : j'aurai besoin d'un diamant, d'une potion de protection contre la magie, d'un parchemin du sort 'Arme enchantée', et n'importe quel objet contenant une pierre de couleur verte. Si je trouve ces objets et que je souhaite qu'Eleanor fabrique une contrefaçon, je devrai la contacter quelque part à Athkatla.
+Elle pense que la meilleure solution est de crÃ©er une copie inoffensive de l'artÃ©fact. Je ne sais pas si c'est une bonne idÃ©e, mais au cas oÃ¹ je voudrais fabriquer une telle copie, elle m'a indiquÃ© les objets dont j'aurai besoin pour sa rÃ©alisation. Les objets sont courants : j'aurai besoin d'un diamant, d'une potion de protection contre la magie, d'un parchemin du sort 'Arme enchantÃ©e', et n'importe quel objet contenant une pierre de couleur verte. Si je trouve ces objets et que je souhaite qu'Eleanor fabrique une contrefaÃ§on, je devrai la contacter quelque part Ã  Athkatla.
 
-En plus de la duplication de l'objet, Eleanor m'a indiqué où je pouvais trouver le mage. On lui a dit qu'elle pourrait le contacter dans un donjon en dessous des collines de Lancevent, où il aurait un laboratoire souterrain pour mener ses expériences. Si tout le reste rate, je pourrai probablement le retrouver là-bas afin de le faire échouer dans sa tentative de voler la force vive des autres êtres pour devenir l'équivalent d'un Dieu.~
+En plus de la duplication de l'objet, Eleanor m'a indiquÃ© oÃ¹ je pouvais trouver le mage. On lui a dit qu'elle pourrait le contacter dans un donjon en dessous des collines de Lancevent, oÃ¹ il aurait un laboratoire souterrain pour mener ses expÃ©riences. Si tout le reste rate, je pourrai probablement le retrouver lÃ -bas afin de le faire Ã©chouer dans sa tentative de voler la force vive des autres Ãªtres pour devenir l'Ã©quivalent d'un Dieu.~
 
-@185 = ~Des Elfes et des Artéfacts
+@185 = ~Des Elfes et des ArtÃ©facts
 
-J'ai identifié et lu le message enregistré magiquement dans la statuette qui m'a été donnée par une elfe dans le district du Pont. La voix, celle de l'elfe semble-t'il, exprimait la terreur, mais ne m'a pas donné beaucoup d'informations sur l'aventure à venir. Tout ce que je sais, c'est que cette elfe (ainsi que la Côte des Epées d'après ses dires) est en grand danger. Je dois la retrouver au temple de Waukyne de Franc-Marché pour en savoir plus. J'irai peut-être là-bas, mais il faudrait d'abord que je me renseigne un peu plus sur elle.~
+J'ai identifiÃ© et lu le message enregistrÃ© magiquement dans la statuette qui m'a Ã©tÃ© donnÃ©e par une elfe dans le district du Pont. La voix, celle de l'elfe semble-t'il, exprimait la terreur, mais ne m'a pas donnÃ© beaucoup d'informations sur l'aventure Ã  venir. Tout ce que je sais, c'est que cette elfe (ainsi que la CÃ´te des EpÃ©es d'aprÃ¨s ses dires) est en grand danger. Je dois la retrouver au temple de Waukyne de Franc-MarchÃ© pour en savoir plus. J'irai peut-Ãªtre lÃ -bas, mais il faudrait d'abord que je me renseigne un peu plus sur elle.~
 
-@186 = ~Des Elfes et des Artéfacts
+@186 = ~Des Elfes et des ArtÃ©facts
 
-Alors que je me promenais dans le district du Pont d'Athkatla, une elfe inconnue s'est approché de moi avec nervosité. Sans mot dire et sans explication aucune, elle a subrepticement glissé une statuette dans mon sac. Je ne sais pas pourquoi elle m'a donné cet objet, ni à quoi il pourrait me servir. Je vais devoir enquêter la-dessus ; peut-être que cette elfe va me conduire vers de nouvelles aventures...~
+Alors que je me promenais dans le district du Pont d'Athkatla, une elfe inconnue s'est approchÃ© de moi avec nervositÃ©. Sans mot dire et sans explication aucune, elle a subrepticement glissÃ© une statuette dans mon sac. Je ne sais pas pourquoi elle m'a donnÃ© cet objet, ni Ã  quoi il pourrait me servir. Je vais devoir enquÃªter la-dessus ; peut-Ãªtre que cette elfe va me conduire vers de nouvelles aventures...~
 
-@187 = ~Des Elfes et des Artéfacts
+@187 = ~Des Elfes et des ArtÃ©facts
 
-J’ai trouvé les objets dont Eleanor m’a parlé afin de créer une Couronne de Cornes factice. Je les ai apporté à mon ami Cromwell, un maître artisan, mais il n’a pas été capable d’en faire un faux. J’ai le choix à présent entre faire réessayer Cromwell ou trouver un autre moyen pour contrecarrer les plans du mage.~
+Jâ€™ai trouvÃ© les objets dont Eleanor mâ€™a parlÃ© afin de crÃ©er une Couronne de Cornes factice. Je les ai apportÃ© Ã  mon ami Cromwell, un maÃ®tre artisan, mais il nâ€™a pas Ã©tÃ© capable dâ€™en faire un faux. Jâ€™ai le choix Ã  prÃ©sent entre faire rÃ©essayer Cromwell ou trouver un autre moyen pour contrecarrer les plans du mage.~
 
-@188 = ~Des Elfes et des Artéfacts
+@188 = ~Des Elfes et des ArtÃ©facts
 
-J’ai apporté la Couronne de Cornes à mon ami Cromwell. Il a réussi à détruire ce Mal ancien qui avait créé la couronne, chose dont le grand mage Khelben n’avait pas été capable des années auparavant. Khaddyr, le mage qui voulait tenter le rituel de permatration, n’est plus une menace, et la pauvre Eleanor, la femme elfe que j’avais rencontrée, peut reposer en paix. J’ai l’impression d’avoir sauvé Féerune d’une destruction certaine, une fois encore.~
+Jâ€™ai apportÃ© la Couronne de Cornes Ã  mon ami Cromwell. Il a rÃ©ussi Ã  dÃ©truire ce Mal ancien qui avait crÃ©Ã© la couronne, chose dont le grand mage Khelben nâ€™avait pas Ã©tÃ© capable des annÃ©es auparavant. Khaddyr, le mage qui voulait tenter le rituel de permatration, nâ€™est plus une menace, et la pauvre Eleanor, la femme elfe que jâ€™avais rencontrÃ©e, peut reposer en paix. Jâ€™ai lâ€™impression dâ€™avoir sauvÃ© FÃ©erune dâ€™une destruction certaine, une fois encore.~
 
-@189 = ~Des Elfes et des Artéfacts
+@189 = ~Des Elfes et des ArtÃ©facts
 
-J’ai réussi à arrêter Khaddyr le mage avant qu'il ait effectué le rituel de permatration. Ce qui avait commencé comme une vague quête avec une femme elfe effrayée est pratiquement achevé. J’ai retrouvé la véritable Couronne de Cornes, mais je n’ai pas encore décidé de ce que je vais en faire. Je pourrais la garder, mais son Mal continuerait à vivre à Féerune. Peut-être vaudrait-il mieux qu’elle soit détruite.~
+Jâ€™ai rÃ©ussi Ã  arrÃªter Khaddyr le mage avant qu'il ait effectuÃ© le rituel de permatration. Ce qui avait commencÃ© comme une vague quÃªte avec une femme elfe effrayÃ©e est pratiquement achevÃ©. Jâ€™ai retrouvÃ© la vÃ©ritable Couronne de Cornes, mais je nâ€™ai pas encore dÃ©cidÃ© de ce que je vais en faire. Je pourrais la garder, mais son Mal continuerait Ã  vivre Ã  FÃ©erune. Peut-Ãªtre vaudrait-il mieux quâ€™elle soit dÃ©truite.~

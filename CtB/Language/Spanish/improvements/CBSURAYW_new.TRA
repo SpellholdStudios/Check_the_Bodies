@@ -1,76 +1,76 @@
 @1   = ~No importa, padre. Por favor, continuad.~
 @2   = ~Y yo a vos, Padre.~
-@3   = ~Pero pienso que sería más conveniente si terminaseis vuestro brindis, y dejaseis a vuestros invitados compartir esta celebración.~
+@3   = ~Pero pienso que serÃ­a mÃ¡s conveniente si terminaseis vuestro brindis, y dejaseis a vuestros invitados compartir esta celebraciÃ³n.~
 @4   = ~Muchas gracias a todos, y gracias a vos, Padre.~
-@5   = ~Ahora, antes de que nuestros platos se enfríen, ¿podemos sentarnos todos y divertirnos?~
-@6   = ~Yo... yo... estoy francamente sorprendida. No sé qué decir.~
-@7   = ~Yo... Sí. Sí, Yassir. Yo seré vuestra... vuestra esposa.~
-@8   = ~¿Vos debéis ser uno de los socios de negocios de Padre? No creo que hayamos sido presentados.~
-@9   = ~Soy Surayah yn Muham el Farrahd, hija del mercader Saerk Farrahd. Estoy muy complacida de que hayáis acudido a mi baile.~
+@5   = ~Ahora, antes de que nuestros platos se enfrÃ­en, Â¿podemos sentarnos todos y divertirnos?~
+@6   = ~Yo... yo... estoy francamente sorprendida. No sÃ© quÃ© decir.~
+@7   = ~Yo... SÃ­. SÃ­, Yassir. Yo serÃ© vuestra... vuestra esposa.~
+@8   = ~Â¿Vos debÃ©is ser uno de los socios de negocios de Padre? No creo que hayamos sido presentados.~
+@9   = ~Soy Surayah yn Muham el Farrahd, hija del mercader Saerk Farrahd. Estoy muy complacida de que hayÃ¡is acudido a mi baile.~
 @10  = ~Por supuesto, Madam Farrahd. El placer es nuestro.~
-@11  = ~Estoy entusiasmado por haber recibido una invitación. Debo darle las gracias a vuestro padre por pensar en nosotros.~
-~Estoy entusiasmada por haber recibido una invitación. Debo darle las gracias a vuestro padre por pensar en nosotros.~
-@12  = ~Sólo he venido a daros la bienvenida en la alta sociedad.~
-@13  = ~Sí, ¿he de supongo que debéis tener algún negocio acerca del cuál os gustaría hablar con Padre?~
-@14  = ~No, Surayah, vinimos sólo por la comida gratis y los magníficos vinos especiados que servís.~
-@15  = ~Surayah, ¿no creéis que deberíais hablar con vuestro padre en lugar de hacerlo conmigo?~
+@11  = ~Estoy entusiasmado por haber recibido una invitaciÃ³n. Debo darle las gracias a vuestro padre por pensar en nosotros.~
+~Estoy entusiasmada por haber recibido una invitaciÃ³n. Debo darle las gracias a vuestro padre por pensar en nosotros.~
+@12  = ~SÃ³lo he venido a daros la bienvenida en la alta sociedad.~
+@13  = ~SÃ­, Â¿he de supongo que debÃ©is tener algÃºn negocio acerca del cuÃ¡l os gustarÃ­a hablar con Padre?~
+@14  = ~No, Surayah, vinimos sÃ³lo por la comida gratis y los magnÃ­ficos vinos especiados que servÃ­s.~
+@15  = ~Surayah, Â¿no creÃ©is que deberÃ­ais hablar con vuestro padre en lugar de hacerlo conmigo?~
 @16  = ~Dejadme ser el primero en felicitaros por vuestro compromiso.~
 ~Dejadme ser la primera en felicitaros por vuestro compromiso.~
-@17  = ~Entonces por favor, sed nuestros invitados y tomad un plato y asiento en la mesa. No me dejéis interrumpir vuestro disfrute de la excelente cocina.~
-@18  = ~¿Qué? Perdón, ¿pero qué queréis decir con eso?~
-@19  = ~Surayah, en caso de que os sintáis descontenta con la forma en que vuestro padre dicta lo que debéis hacer y cómo lo debéis hacer, deberíais hablar por vos misma.~
+@17  = ~Entonces por favor, sed nuestros invitados y tomad un plato y asiento en la mesa. No me dejÃ©is interrumpir vuestro disfrute de la excelente cocina.~
+@18  = ~Â¿QuÃ©? PerdÃ³n, Â¿pero quÃ© querÃ©is decir con eso?~
+@19  = ~Surayah, en caso de que os sintÃ¡is descontenta con la forma en que vuestro padre dicta lo que debÃ©is hacer y cÃ³mo lo debÃ©is hacer, deberÃ­ais hablar por vos misma.~
 @20  = ~Perdonadme el atrevimiento, Surayah.~
-@21  = ~Sí, puede que sea cierto, pero nunca podría ir en contra de los deseos de Padre.~
-@22  = ~Él es un buen hombre, y quiero hacerle feliz.~
-@23  = ~Un noble ideal, Surayah, pero, ¿a cambio del sacrificio de vuestra felicidad?~
-@24  = ~¿Entonces todo lo que haréis por vos misma es aguardar el destino que vuestro padre os ha antepuesto?~
-@25  = ~¿Mi felicidad? ¿Cómo puedo pensar acerca de mi propia felicidad? Padre ha hecho demasiado por mí, y no le puedo decepcionar.~
-@26  = ~No, señor, no tengo ninguna otra opción más que casarme con Yassir.~
-~No, señora, no tengo ninguna otra opción más que casarme con Yassir.~
-@27  = ~Entonces si no deseáis hacer algo al respecto, Surayah, no hay nada que yo pueda hacer por vos.~
-@28  = ~Surayah, siempre tenéis una opción. Quizás haya algo que pueda hacer para ayudaros.~
-@29  = ~No deberíais haberos involucrado. Si me disculpáis, debo prepararme para mi boda.~
-@30  = ~No, no creo que tenga opciones. No sabría ni a dónde ir.~
-@31  = ~Si no deseáis hacer algo al respecto, Surayah, no hay nada que yo pueda hacer por vos.~
-@32  = ~¿Queréis que yo le hable a vuestro padre acerca de este asunto?~
-@33  = ~¿Y qué lograría con eso, señor? No tengo a donde ir, ni dinero, y si no acepto lo que mi padre desea, seré expulsada de la sociedad.~
-~¿Y qué lograría con eso, señora? No tengo a donde ir, ni dinero, y si no acepto lo que mi padre desea, seré expulsada de la sociedad.~
+@21  = ~SÃ­, puede que sea cierto, pero nunca podrÃ­a ir en contra de los deseos de Padre.~
+@22  = ~Ã‰l es un buen hombre, y quiero hacerle feliz.~
+@23  = ~Un noble ideal, Surayah, pero, Â¿a cambio del sacrificio de vuestra felicidad?~
+@24  = ~Â¿Entonces todo lo que harÃ©is por vos misma es aguardar el destino que vuestro padre os ha antepuesto?~
+@25  = ~Â¿Mi felicidad? Â¿CÃ³mo puedo pensar acerca de mi propia felicidad? Padre ha hecho demasiado por mÃ­, y no le puedo decepcionar.~
+@26  = ~No, seÃ±or, no tengo ninguna otra opciÃ³n mÃ¡s que casarme con Yassir.~
+~No, seÃ±ora, no tengo ninguna otra opciÃ³n mÃ¡s que casarme con Yassir.~
+@27  = ~Entonces si no deseÃ¡is hacer algo al respecto, Surayah, no hay nada que yo pueda hacer por vos.~
+@28  = ~Surayah, siempre tenÃ©is una opciÃ³n. QuizÃ¡s haya algo que pueda hacer para ayudaros.~
+@29  = ~No deberÃ­ais haberos involucrado. Si me disculpÃ¡is, debo prepararme para mi boda.~
+@30  = ~No, no creo que tenga opciones. No sabrÃ­a ni a dÃ³nde ir.~
+@31  = ~Si no deseÃ¡is hacer algo al respecto, Surayah, no hay nada que yo pueda hacer por vos.~
+@32  = ~Â¿QuerÃ©is que yo le hable a vuestro padre acerca de este asunto?~
+@33  = ~Â¿Y quÃ© lograrÃ­a con eso, seÃ±or? No tengo a donde ir, ni dinero, y si no acepto lo que mi padre desea, serÃ© expulsada de la sociedad.~
+~Â¿Y quÃ© lograrÃ­a con eso, seÃ±ora? No tengo a donde ir, ni dinero, y si no acepto lo que mi padre desea, serÃ© expulsada de la sociedad.~
 @34  = ~No hay nada de malo en hablar con vuestro padre para salir de esto. Merece la pena intentarlo.~
-@35  = ~Os puedo ofrecer un lugar en donde vivir, Surayah. Tal vez podáis quedaros ahí.~
-@36  = ~Si no queréis que lo intente, entonces no lo haré. Es vuestra decisión, Surayah.~
-@37  = ~Muy bien. Pero por favor, no hagáis que Padre se disguste conmigo.~
-@38  = ~No querría ser una carga.~
-@39  = ~No, no lo seríais. Podríais echar una mano al lugar, limpiando y haciendo pequeñas tareas mientras estoy ausente.~
-@40  = ~Pienso que es lo mejor. Si me disculpáis, debo prepararme.~
-@41  = ~Padre siempre ha hecho lo mejor para mí. No puedo decepcionarle actuando de otra manera.~
-@42  = ~Eso está muy bien. Ahora, sentaos por favor, sentaos y divertíos. Aún queda muchísima carne asada, quesos excelentes, y una gran variedad de vinos en el aparador.~
-@43  = ~Ah sí. Gracias, pero por favor, preferiría no hablar de ello.~
-@44  = ~¿Ocurre algo malo, Surayah?~
-@45  = ~Como deseéis. Creo que me serviré un plato con algunos de esos quesos excelentes que tenéis.~
-@46  = ~No pretendo faltaros al respeto, señor, pero no es algo de vuestra incumbencia.~
-~No pretendo faltaros al respeto, señora, pero no es algo de vuestra incumbencia.~
-@47  = ~Por favor, sed nuestros invitados y tomad un plato y asiento en la mesa. No me dejéis interrumpir vuestro disfrute de la excelente cocina.~
-@48  = ~Sí, os excusaré entonces a fin de que podáis hablar con Padre.~
+@35  = ~Os puedo ofrecer un lugar en donde vivir, Surayah. Tal vez podÃ¡is quedaros ahÃ­.~
+@36  = ~Si no querÃ©is que lo intente, entonces no lo harÃ©. Es vuestra decisiÃ³n, Surayah.~
+@37  = ~Muy bien. Pero por favor, no hagÃ¡is que Padre se disguste conmigo.~
+@38  = ~No querrÃ­a ser una carga.~
+@39  = ~No, no lo serÃ­ais. PodrÃ­ais echar una mano al lugar, limpiando y haciendo pequeÃ±as tareas mientras estoy ausente.~
+@40  = ~Pienso que es lo mejor. Si me disculpÃ¡is, debo prepararme.~
+@41  = ~Padre siempre ha hecho lo mejor para mÃ­. No puedo decepcionarle actuando de otra manera.~
+@42  = ~Eso estÃ¡ muy bien. Ahora, sentaos por favor, sentaos y divertÃ­os. AÃºn queda muchÃ­sima carne asada, quesos excelentes, y una gran variedad de vinos en el aparador.~
+@43  = ~Ah sÃ­. Gracias, pero por favor, preferirÃ­a no hablar de ello.~
+@44  = ~Â¿Ocurre algo malo, Surayah?~
+@45  = ~Como deseÃ©is. Creo que me servirÃ© un plato con algunos de esos quesos excelentes que tenÃ©is.~
+@46  = ~No pretendo faltaros al respeto, seÃ±or, pero no es algo de vuestra incumbencia.~
+~No pretendo faltaros al respeto, seÃ±ora, pero no es algo de vuestra incumbencia.~
+@47  = ~Por favor, sed nuestros invitados y tomad un plato y asiento en la mesa. No me dejÃ©is interrumpir vuestro disfrute de la excelente cocina.~
+@48  = ~SÃ­, os excusarÃ© entonces a fin de que podÃ¡is hablar con Padre.~
 @49  = ~Encantado de conoceros, Surayah.~
 ~Encantada de conoceros, Surayah.~
-@50  = ~Igualmente, señor. Ahora, por favor, sentaos y divertíos. Aún queda muchísima carne asada, quesos excelentes, y una gran variedad de vinos en el aparador.~
-~Igualmente, señora. Ahora, por favor, sentaos y divertíos. Aún queda muchísima carne asada, quesos excelentes, y una gran variedad de vinos en el aparador.~
-@51  = ~Gracias por el honor que me hacéis. Padre está realmente satisfecho consigo mismo esta noche.~
-@52  = ~Me gustaría ser el primero en felicitaros por vuestro compromiso.~
-~Me gustaría ser la primera en felicitaros por vuestro compromiso.~
-@53  = ~Saerk el Farrahd es todo un hombre. Uno de los grandes de Athkatla. Tenéis la suerte de haber nacido de tal hombre.~
-@54  = ~Sí, él es un buen hombre. Gracias por ratificarlo. Ahora, si queréis, por favor, tomad asiento y divertíos. Aún queda muchísima carne asada, quesos excelentes, y una gran variedad de vinos en el aparador.~
+@50  = ~Igualmente, seÃ±or. Ahora, por favor, sentaos y divertÃ­os. AÃºn queda muchÃ­sima carne asada, quesos excelentes, y una gran variedad de vinos en el aparador.~
+~Igualmente, seÃ±ora. Ahora, por favor, sentaos y divertÃ­os. AÃºn queda muchÃ­sima carne asada, quesos excelentes, y una gran variedad de vinos en el aparador.~
+@51  = ~Gracias por el honor que me hacÃ©is. Padre estÃ¡ realmente satisfecho consigo mismo esta noche.~
+@52  = ~Me gustarÃ­a ser el primero en felicitaros por vuestro compromiso.~
+~Me gustarÃ­a ser la primera en felicitaros por vuestro compromiso.~
+@53  = ~Saerk el Farrahd es todo un hombre. Uno de los grandes de Athkatla. TenÃ©is la suerte de haber nacido de tal hombre.~
+@54  = ~SÃ­, Ã©l es un buen hombre. Gracias por ratificarlo. Ahora, si querÃ©is, por favor, tomad asiento y divertÃ­os. AÃºn queda muchÃ­sima carne asada, quesos excelentes, y una gran variedad de vinos en el aparador.~
 @55  = ~Yo... yo acepto.~
-@56  = ~Sé que nos daríais la bienvenida con los brazos abiertos, Padre. Os quiero. Debemos irnos ahora. Adiós, a todo el mundo.~
-@57  = ~No Padre. No quiero casarme con Yassir. No quiero que dictéis cómo debo vivir mi propia vida.~
-@58  = ~Sé que vos sólo cuidáis de mí, Padre, pero no podéis dictar cómo debo vivir mi propia vida.~
+@56  = ~SÃ© que nos darÃ­ais la bienvenida con los brazos abiertos, Padre. Os quiero. Debemos irnos ahora. AdiÃ³s, a todo el mundo.~
+@57  = ~No Padre. No quiero casarme con Yassir. No quiero que dictÃ©is cÃ³mo debo vivir mi propia vida.~
+@58  = ~SÃ© que vos sÃ³lo cuidÃ¡is de mÃ­, Padre, pero no podÃ©is dictar cÃ³mo debo vivir mi propia vida.~
 @59  = ~Padre, yo no quiero casarme con Yassir, pero tampoco os quiero disgustado o decepcionado conmigo.~
-@60  = ~Padre, por favor, escuchad lo que estáis diciendo.~
-@61  = ~Haré como vos digáis, Padre. Yassir y yo nos casaremos como vos queréis.~
-@62  = ~No puedo hacer lo que decís, Padre. Debo vivir mi propia vida. Me voy con <CHARNAME>.~
-@63  = ~No me cabe la menor duda, <CHARNAME>, pero es mejor así.~
-@64  = ~Adiós, Padre. Lamento que tuviera que terminar de esta forma.~
+@60  = ~Padre, por favor, escuchad lo que estÃ¡is diciendo.~
+@61  = ~HarÃ© como vos digÃ¡is, Padre. Yassir y yo nos casaremos como vos querÃ©is.~
+@62  = ~No puedo hacer lo que decÃ­s, Padre. Debo vivir mi propia vida. Me voy con <CHARNAME>.~
+@63  = ~No me cabe la menor duda, <CHARNAME>, pero es mejor asÃ­.~
+@64  = ~AdiÃ³s, Padre. Lamento que tuviera que terminar de esta forma.~
 @65  = ~Gracias por ayudarme a salir de esto.~
-@66  = ~Sé que Padre está ahora disgustado conmigo, pero sencillamente no puedo casarme con Yassir. Él no está enamorado de mí, ni yo de él.~
-@67  = ~Por favor, me quedaré aquí si me lo permitís. Si necesitáis cualquier cosa, solamente tenéis que decídmelo.~
-@68  = ~No hay nada para mí ahora en aquel lugar de todas formas. Por favor, si necesitáis cualquier cosa, solamente tenéis que decídmelo.~
+@66  = ~SÃ© que Padre estÃ¡ ahora disgustado conmigo, pero sencillamente no puedo casarme con Yassir. Ã‰l no estÃ¡ enamorado de mÃ­, ni yo de Ã©l.~
+@67  = ~Por favor, me quedarÃ© aquÃ­ si me lo permitÃ­s. Si necesitÃ¡is cualquier cosa, solamente tenÃ©is que decÃ­dmelo.~
+@68  = ~No hay nada para mÃ­ ahora en aquel lugar de todas formas. Por favor, si necesitÃ¡is cualquier cosa, solamente tenÃ©is que decÃ­dmelo.~

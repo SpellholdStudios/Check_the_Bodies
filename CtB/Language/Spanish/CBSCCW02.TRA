@@ -1,74 +1,74 @@
-@1   = ~No tengo nada que pudiera compartir con vos. Hablad con mi compañero si necesitáis cualquier cosa.~
-@2   = ~Ya os he dicho que habléis con mi compañero.~
-@3   = ~¿Qué es lo que queréis?~
-@4   = ~¿Podríais ayudarme? Estoy interesado en aquellos que son capturados por los Magos encapuchados.~
-~¿Podríais ayudarme? Estoy interesada en aquellos que son capturados por los Magos encapuchados.~
-@5   = ~Entonces, seguiré mi camino.~
-@6   = ~Estoy buscando a un mago o a un grupo de magos. Usan túnicas negras y verdes como vestimenta.~
-@7   = ~He oído algo acerca de una guerra entre los Ladrones de las sombras y alguien más. ¿Sabéis algo acerca de ello?~
-@8   = ~La gente decente no necesita saber qué es lo que les sucede a los que capturan los Magos encapuchados. Conocemos a todos lo hechiceros y todos terminan por pasar por aquí, pero eso no os interesa. Que tengáis un buen día.~
-@9   = ~Si, bien, bien. A vuestro camino... y no me molestéis más.~
-@10  = ~No sé nada sobre tales túnicas, aunque no sería asunto vuestro si lo supiera. Los Magos encapuchados tratarán con esa gente. Marcháos, y no me hagáis más preguntas al respecto.~
-@11  = ~Nadie sabe, y yo no os diría nada incluso si lo supiera. No es de vuestra incumbencia. No insistáis sobre el asunto, o encontraréis que tenéis arrinconado al dragón, por así decirlo.~
-@12  = ~Creo que os dije que nos dejárais estar. Somos unos miembros importantes en Athkatla, y podríamos encarcelaros por mirarnos.~
-@13  = ~He conocido a alguien que creo que ambos conocéis. Me gustaría hablar con vos sobre ella.~
-@14  = ~Estoy bastante seguro de que no tenemos ningún conocido en común. Ahora por favor, id a mendigar a otra parte.~
-@15  = ~Al contrario, mago. Tenemos a una conocida en común. ¿Quizás su nombre os ayudaría a recordar? ¿Melinda?~
+@1   = ~No tengo nada que pudiera compartir con vos. Hablad con mi compaÃ±ero si necesitÃ¡is cualquier cosa.~
+@2   = ~Ya os he dicho que hablÃ©is con mi compaÃ±ero.~
+@3   = ~Â¿QuÃ© es lo que querÃ©is?~
+@4   = ~Â¿PodrÃ­ais ayudarme? Estoy interesado en aquellos que son capturados por los Magos encapuchados.~
+~Â¿PodrÃ­ais ayudarme? Estoy interesada en aquellos que son capturados por los Magos encapuchados.~
+@5   = ~Entonces, seguirÃ© mi camino.~
+@6   = ~Estoy buscando a un mago o a un grupo de magos. Usan tÃºnicas negras y verdes como vestimenta.~
+@7   = ~He oÃ­do algo acerca de una guerra entre los Ladrones de las sombras y alguien mÃ¡s. Â¿SabÃ©is algo acerca de ello?~
+@8   = ~La gente decente no necesita saber quÃ© es lo que les sucede a los que capturan los Magos encapuchados. Conocemos a todos lo hechiceros y todos terminan por pasar por aquÃ­, pero eso no os interesa. Que tengÃ¡is un buen dÃ­a.~
+@9   = ~Si, bien, bien. A vuestro camino... y no me molestÃ©is mÃ¡s.~
+@10  = ~No sÃ© nada sobre tales tÃºnicas, aunque no serÃ­a asunto vuestro si lo supiera. Los Magos encapuchados tratarÃ¡n con esa gente. MarchÃ¡os, y no me hagÃ¡is mÃ¡s preguntas al respecto.~
+@11  = ~Nadie sabe, y yo no os dirÃ­a nada incluso si lo supiera. No es de vuestra incumbencia. No insistÃ¡is sobre el asunto, o encontrarÃ©is que tenÃ©is arrinconado al dragÃ³n, por asÃ­ decirlo.~
+@12  = ~Creo que os dije que nos dejÃ¡rais estar. Somos unos miembros importantes en Athkatla, y podrÃ­amos encarcelaros por mirarnos.~
+@13  = ~He conocido a alguien que creo que ambos conocÃ©is. Me gustarÃ­a hablar con vos sobre ella.~
+@14  = ~Estoy bastante seguro de que no tenemos ningÃºn conocido en comÃºn. Ahora por favor, id a mendigar a otra parte.~
+@15  = ~Al contrario, mago. Tenemos a una conocida en comÃºn. Â¿QuizÃ¡s su nombre os ayudarÃ­a a recordar? Â¿Melinda?~
 @16  = ~Entonces debo estar en un error. Perdonad que os molestase.~
-@17  = ~Melin....  ¿Cómo? ¿Cómo la conocéis?~
-@18  = ~Ella me contó todo lo que le hicisteis.~
-@19  = ~Hablé con ella desde donde se está escondiendo de vosotros.~
+@17  = ~Melin....  Â¿CÃ³mo? Â¿CÃ³mo la conocÃ©is?~
+@18  = ~Ella me contÃ³ todo lo que le hicisteis.~
+@19  = ~HablÃ© con ella desde donde se estÃ¡ escondiendo de vosotros.~
 @20  = ~Tengo mis recursos, mago.~
-@21  = ~Ahora sé que mentís. Ella no pudo haberlos contado nada.~
-@22  = ~Ahora sé que mentís. Ella no pudo deciros nada.~
-@23  = ~Cuidad cómo os dirigís a mí. No acepto de buen grado esos tonos.~
-@24  = ~No me preocupan vuestros recursos. Estoy en lo cierto, y no hay magistrado en Athkatla que le tomaría la palabra a una muda.~
-@25  = ~¡Así que lo admitís!~
-@26  = ~No he admitido nada, perro. Largáos de mi vista.~
-~No he admitido nada, perra. Largáos de mi vista.~
-@27  = ~Sólo hay una forma de que eso ocurra. Necesitáis devolverle a Melinda su habla.~
-@28  = ~Me veré obligado a usar la violencia si no le devolvéis a Melinda su habla.~
-~Me veré obligada a usar la violencia si no le devolvéis a Melinda su habla.~
-@29  = ~Escuchad, perro. No conocéis cómo es la historia entera. Si os hubiérais molestado en averiguarla, os daríais cuenta de que no podemos permitirle hablar.~
-~Escuchad, perra. No conocéis cómo es la historia entera. Si os hubiérais molestado en averiguarla, os daríais cuenta de que no podemos permitirle hablar.~
-@30  = ~Entonces, ¿por qué no me contáis la historia entera y me dejáis decidir?~
-@31  = ~No hay excusas que podáis darme para justificar vuestras acciones, o la de los siniestros Magos encapuchados.~
-@32  = ~No me importa como es la historia. Tenéis hasta que mi arma desaparezca de su funda para deshacer la maldición que pesa sobre Melinda.~
-@33  = ~No seáis necio, perro. Con mi muerte, la puta nunca volverá a hablar.~
-~No seáis necia, perra. Con mi muerte, la puta nunca volverá a hablar.~
-@34  = ~¿Quién dijo nada sobre vuestra muerte? Yo sólo dije violencia.~
-@35  = ~Aun entonces ella sería vengada.~
-@36  = ~Ya he tenido bastante de vuestras amenazas. Sufriréis una muerte dolorosamente larga.~
+@21  = ~Ahora sÃ© que mentÃ­s. Ella no pudo haberlos contado nada.~
+@22  = ~Ahora sÃ© que mentÃ­s. Ella no pudo deciros nada.~
+@23  = ~Cuidad cÃ³mo os dirigÃ­s a mÃ­. No acepto de buen grado esos tonos.~
+@24  = ~No me preocupan vuestros recursos. Estoy en lo cierto, y no hay magistrado en Athkatla que le tomarÃ­a la palabra a una muda.~
+@25  = ~Â¡AsÃ­ que lo admitÃ­s!~
+@26  = ~No he admitido nada, perro. LargÃ¡os de mi vista.~
+~No he admitido nada, perra. LargÃ¡os de mi vista.~
+@27  = ~SÃ³lo hay una forma de que eso ocurra. NecesitÃ¡is devolverle a Melinda su habla.~
+@28  = ~Me verÃ© obligado a usar la violencia si no le devolvÃ©is a Melinda su habla.~
+~Me verÃ© obligada a usar la violencia si no le devolvÃ©is a Melinda su habla.~
+@29  = ~Escuchad, perro. No conocÃ©is cÃ³mo es la historia entera. Si os hubiÃ©rais molestado en averiguarla, os darÃ­ais cuenta de que no podemos permitirle hablar.~
+~Escuchad, perra. No conocÃ©is cÃ³mo es la historia entera. Si os hubiÃ©rais molestado en averiguarla, os darÃ­ais cuenta de que no podemos permitirle hablar.~
+@30  = ~Entonces, Â¿por quÃ© no me contÃ¡is la historia entera y me dejÃ¡is decidir?~
+@31  = ~No hay excusas que podÃ¡is darme para justificar vuestras acciones, o la de los siniestros Magos encapuchados.~
+@32  = ~No me importa como es la historia. TenÃ©is hasta que mi arma desaparezca de su funda para deshacer la maldiciÃ³n que pesa sobre Melinda.~
+@33  = ~No seÃ¡is necio, perro. Con mi muerte, la puta nunca volverÃ¡ a hablar.~
+~No seÃ¡is necia, perra. Con mi muerte, la puta nunca volverÃ¡ a hablar.~
+@34  = ~Â¿QuiÃ©n dijo nada sobre vuestra muerte? Yo sÃ³lo dije violencia.~
+@35  = ~Aun entonces ella serÃ­a vengada.~
+@36  = ~Ya he tenido bastante de vuestras amenazas. SufrirÃ©is una muerte dolorosamente larga.~
 @37  = ~"venit summa dies et ineluctabile tempus
 vera incessu patuit dea"~
-@38  = ~No os explicaré la historia. Las razones por las que la puta fue silenciada son para protegernos. No para que nosotros contemos la historia a toda Amn. Ahora, fuera de mi vista.~
-@39  = ~Eso está bien, porque no doy excusas. Las razones por las que la puta fue silenciada son para protegernos. No para que las anunciemos a toda Amn.~
-@40  = ~¿Protegernos? ¿Queréis decir a los Encapuchados? ¿O sólo a vosotros dos?~
-@41  = ~Puede que hayáis silenciado a Melinda, pero yo me enteré. Le daré cuenta a Amn por vos.~
-@42  = ~Estaríais muerto antes incluso de que lo intentárais. Mirad, no puedo devolverle el poder hablar. Y en cuanto a vos, ya sabéis demasaido.~
-~Estaríais muerta antes incluso de que lo intentárais. Mirad, no puedo devolverle el poder hablar. Y en cuanto a vos, ya sabéis demasaido.~
-@43  = ~¿No podemos llegar a un acuerdo?~
-@44  = ~Me encantaría ver cómo intentáis silenciarme. O matarme llegado el caso.~
-@45  = ~Tiene que haber algo en lo que los Encapuchados y Melinda podáis estar de acuerdo.~
-@46  = ~He oido hablar bastante de vos. ¡Váis a tener una muerte dolorosamente larga!~
-@47  = ~Eso no es algo que debáis saber. Mirad, no puedo devolverle el poder hablar. Y en cuanto a vos, ya sabéis demasiado.~
-@48  = ~Fue una decisión de los Magos encapuchados el silenciar a la puta. Esa decisión no puede ser revocada mientras ella viva.~
-@49  = ~¿Y si muere?~
-@50  = ~¿Vivir en Faerûn o en Amn?~
-@51  = ~¿Qué se necesitaría para rescindir la decisión de los Encapuchados?~
-@52  = ~¿Rescindir la decisión de los Magos encapuchados? Debéis de estar bromeando.~
-@53  = ~Aunque, supongo que podría ser revocada. Si todos y cada uno de los Magos encapuchados muerieran en un día. O si hubiera otra Caída de los Dioses. Quizás incluso si los elfos detuvieran su Retirada, entonces los Magos encapuchados podrían revocar su decisión.~
-@54  = ~Dado que estas cosas son muy poco probables, la decisión de silenciar a la puta se mantienen. Al menos mientras ella viva.~
-@55  = ~¿Si ella muere? ¿De qué le serviría entonces el habla?~
-@56  = ~Supongo que no sería una buena idea.~
-@57  = ~Bueno, yo podría arreglar su "muerte" si le devolvéis el habla a Melinda.~
-@58  = ~No, no tiene sentido que vos lo hicierais. Si pensáis en algo más, quizás pudiera considerarlo.~
-@59  = ~Dijisteis que la decisión no se rescindiría mientras Melinda viva. ¿Os referís a vivir en Faerûn o en Amn?~
-@60  = ~¿Faerûn? Creo que comprendo a donde queréis ir a parar. ¿Qué es lo que proponéis hacer con ella?~
-@61  = ~Podría intentar convencerla de que si abandona Amn, vos le otorgaríais el poder hablar de nuevo.~
-@62  = ~Lo consideraría aceptable. No obstante, primero debéis conseguir su aprobación respecto a ello, así como la conformidad de nunca volverá a Athkatla, o incluso a los Imperios de las Arenas.~
-@63  = ~Podría llevarla a un buen número de lugares, lo suficientemente lejos para que ella estuviera fuera de vuestro camino, y cumplir su promesa, *si* vos le dáis el poder de hablar.~
-@64  = ~Hecho. Si conseguís que la puta acepte esas dos condiciones, se lo restableceré.~
-@65  = ~¿Arreglar su muerte? No veo cómo haríais tal cosa, pero si lo hacéis, consideraría el restablecérselo.~
-@66  = ~Pero ella debe estar de acuerdo sobre lo que sea que vayáis a hacer.~
-@67  = ~Conseguiré su conformidad *si* le devolvéis el poder hablar, y así ambos estaréis satisfechos.~
+@38  = ~No os explicarÃ© la historia. Las razones por las que la puta fue silenciada son para protegernos. No para que nosotros contemos la historia a toda Amn. Ahora, fuera de mi vista.~
+@39  = ~Eso estÃ¡ bien, porque no doy excusas. Las razones por las que la puta fue silenciada son para protegernos. No para que las anunciemos a toda Amn.~
+@40  = ~Â¿Protegernos? Â¿QuerÃ©is decir a los Encapuchados? Â¿O sÃ³lo a vosotros dos?~
+@41  = ~Puede que hayÃ¡is silenciado a Melinda, pero yo me enterÃ©. Le darÃ© cuenta a Amn por vos.~
+@42  = ~EstarÃ­ais muerto antes incluso de que lo intentÃ¡rais. Mirad, no puedo devolverle el poder hablar. Y en cuanto a vos, ya sabÃ©is demasaido.~
+~EstarÃ­ais muerta antes incluso de que lo intentÃ¡rais. Mirad, no puedo devolverle el poder hablar. Y en cuanto a vos, ya sabÃ©is demasaido.~
+@43  = ~Â¿No podemos llegar a un acuerdo?~
+@44  = ~Me encantarÃ­a ver cÃ³mo intentÃ¡is silenciarme. O matarme llegado el caso.~
+@45  = ~Tiene que haber algo en lo que los Encapuchados y Melinda podÃ¡is estar de acuerdo.~
+@46  = ~He oido hablar bastante de vos. Â¡VÃ¡is a tener una muerte dolorosamente larga!~
+@47  = ~Eso no es algo que debÃ¡is saber. Mirad, no puedo devolverle el poder hablar. Y en cuanto a vos, ya sabÃ©is demasiado.~
+@48  = ~Fue una decisiÃ³n de los Magos encapuchados el silenciar a la puta. Esa decisiÃ³n no puede ser revocada mientras ella viva.~
+@49  = ~Â¿Y si muere?~
+@50  = ~Â¿Vivir en FaerÃ»n o en Amn?~
+@51  = ~Â¿QuÃ© se necesitarÃ­a para rescindir la decisiÃ³n de los Encapuchados?~
+@52  = ~Â¿Rescindir la decisiÃ³n de los Magos encapuchados? DebÃ©is de estar bromeando.~
+@53  = ~Aunque, supongo que podrÃ­a ser revocada. Si todos y cada uno de los Magos encapuchados muerieran en un dÃ­a. O si hubiera otra CaÃ­da de los Dioses. QuizÃ¡s incluso si los elfos detuvieran su Retirada, entonces los Magos encapuchados podrÃ­an revocar su decisiÃ³n.~
+@54  = ~Dado que estas cosas son muy poco probables, la decisiÃ³n de silenciar a la puta se mantienen. Al menos mientras ella viva.~
+@55  = ~Â¿Si ella muere? Â¿De quÃ© le servirÃ­a entonces el habla?~
+@56  = ~Supongo que no serÃ­a una buena idea.~
+@57  = ~Bueno, yo podrÃ­a arreglar su "muerte" si le devolvÃ©is el habla a Melinda.~
+@58  = ~No, no tiene sentido que vos lo hicierais. Si pensÃ¡is en algo mÃ¡s, quizÃ¡s pudiera considerarlo.~
+@59  = ~Dijisteis que la decisiÃ³n no se rescindirÃ­a mientras Melinda viva. Â¿Os referÃ­s a vivir en FaerÃ»n o en Amn?~
+@60  = ~Â¿FaerÃ»n? Creo que comprendo a donde querÃ©is ir a parar. Â¿QuÃ© es lo que proponÃ©is hacer con ella?~
+@61  = ~PodrÃ­a intentar convencerla de que si abandona Amn, vos le otorgarÃ­ais el poder hablar de nuevo.~
+@62  = ~Lo considerarÃ­a aceptable. No obstante, primero debÃ©is conseguir su aprobaciÃ³n respecto a ello, asÃ­ como la conformidad de nunca volverÃ¡ a Athkatla, o incluso a los Imperios de las Arenas.~
+@63  = ~PodrÃ­a llevarla a un buen nÃºmero de lugares, lo suficientemente lejos para que ella estuviera fuera de vuestro camino, y cumplir su promesa, *si* vos le dÃ¡is el poder de hablar.~
+@64  = ~Hecho. Si conseguÃ­s que la puta acepte esas dos condiciones, se lo restablecerÃ©.~
+@65  = ~Â¿Arreglar su muerte? No veo cÃ³mo harÃ­ais tal cosa, pero si lo hacÃ©is, considerarÃ­a el restablecÃ©rselo.~
+@66  = ~Pero ella debe estar de acuerdo sobre lo que sea que vayÃ¡is a hacer.~
+@67  = ~ConseguirÃ© su conformidad *si* le devolvÃ©is el poder hablar, y asÃ­ ambos estarÃ©is satisfechos.~

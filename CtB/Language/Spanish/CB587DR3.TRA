@@ -1,54 +1,54 @@
-@1   = ~Hermano, antes de que pueda ayudaros, debo completar mis propios estudios bajo la tutela de la Archidruida. Deberíais hablar con ella.~
-@2   = ~Hermano, la Archidruida me ha dicho que en verdad sois un espíritu digno de nuestra guía. Me ha pedido que os dedique tiempo para enseñaros una habilidad importante.~
-@3   = ~Una vez más, Hermano, debéis elegir: os ayudaremos a desarrollaros, pero vos debéis tomar la decisión. ¿Os gustaría aprender a cambiar de forma para convertiros en un dragón mágico, preferiríais aprender métodos de curación avanzados, o desearíais lanzar conjuros con mayor velocidad? Pensad con cuidado, Hermano, vuestra elección es definitiva.~
-@4   = ~Sacerdotisa, creo que gustaría aprender a cambiar de forma.~
-@5   = ~Sacerdotisa, me gustaría curar a los demás de manera más eficaz.~
-@6   = ~Por favor Sacerdotisa, enseñadme cómo poder lanzar conjuros más rapidamente.~
-@7   = ~Estaré más que feliz de enseñaros, Hermano.~
-@8   = ~Gracias, Hermano, por darme la oportunidad de enseñaros cómo cambiar a la forma de un dragón.~
-@9   = ~Gracias, Hermano, por darme la oportunidad de enseñaros cómo curar a los demás.~
-@10  = ~Gracias, Hermano, por darme la oportunidad de enseñaros cómo lanzar conjuros con mayor rapidez.~
-@11  = ~Me complace haberos ayudado, Hermano, a estar en mayor sintonía con la naturaleza. También me complace que nos hayáis ayudado. Pero aún hay una última tarea que debéis realizar antes de que la Archidruida os enseñe una nueva habilidad. ¿Estáis preparado?~
-@12  = ~Sí, Sacerdotisa. ¿Qué debo hacer?~
-@13  = ~Aún no, Sacerdotisa. Necesito tiempo.~
-@14  = ~Entonces esperaré con expectación nuestro próximo encuentro, Hermano.~
-@15  = ~Si bien vuestra primera tarea fue bastante simple, la segunda fue mucho más complicada. Esta última tarea es sencilla, pues no requiere que os expongáis al peligro. Tomad este bastón, Hermano. Es un bastón mágico, que se pensaba que era un arma indestructible.~
-@16  = ~Pero ahora la madera del bastón está agrietada. Con la madera adecuada, se puede restaurar y recuperaría sus propiedades mágicas. Sólo hay una persona en la región que tenga la habilidad necesaria para reparar el bastón, un enano llamado Cromwell. Encontrad la madera y llevádsela junto con el bastón. Cuando esté restaurado, volved a mí.~
-@17  = ~Lo intentaré, Sacerdotisa.~
-@18  = ~Sé que lo haréis, Hermano.~
-@19  = ~¿Habéis tenido éxito con el bastón, Hermano?~
-@20  = ~Sí, Sacerdotisa. Aquí lo tengo.~
-@21  = ~No, Sacerdotisa. Aún no he sido capaz de reparar el bastón.~
-@22  = ~Cuando lo hayáis hecho, Hermano, regresad a mí.~
-@23  = ~Entonces habéis terminado. Venid, Hermano, pondré un encantamiento más al bastón por vos y os lo entregaré como regalo.~
-@24  = ~Aún no he completado mi aprendizaje con la Archidruida, <GABBER>, y estoy demasiado ocupada como para interrumpir mis cavilaciones.~
-@25  = ~Hermana, antes de que pueda ayudaros, debo completar mis propios estudios bajo la tutela de la Archidruida. Deberíais hablar con ella.~
-@26  = ~Hermana, la Archidruida me ha dicho que en verdad sois un espíritu digno de nuestra guía. Me ha pedido que os dedique tiempo para enseñaros una habilidad importante.~
-@27  = ~Una vez más, Hermana, debéis elegir: os ayudaremos a desarrollaros, pero vos debéis tomar la decisión. ¿Os gustaría aprender a cambiar de forma para convertiros en una dragona mágica, preferiríais aprender métodos de curación avanzados, o desearíais lanzar conjuros con mayor velocidad? Pensad con cuidado, Hermana, vuestra elección es definitiva.~
-@28  = ~Estaré más que feliz de enseñaros, Hermana.~
-@29  = ~Gracias, Hermana, por darme la oportunidad de enseñaros cómo cambiar a la forma de una dragona.~
-@30  = ~Gracias, Hermana, por darme la oportunidad de enseñaros cómo curar a los demás.~
-@31  = ~Gracias, Hermana, por darme la oportunidad de enseñaros cómo lanzar conjuros con mayor rapidez.~
-@32  = ~Me complace haberos ayudado, Hermana, a estar en mayor sintonía con la naturaleza. También me complace que nos hayáis ayudado. Pero aún hay una última tarea que debéis realizar antes de que la Archidruida os enseñe una nueva habilidad. ¿Estáis preparada?~
-@33  = ~Entonces esperaré con expectación nuestro próximo encuentro, Hermana.~
-@34  = ~Si bien vuestra primera tarea fue bastante simple, la segunda fue mucho más complicada. Esta última tarea es sencilla, pues no requiere que os expongáis al peligro. Tomad este bastón, Hermana. Es un bastón mágico, que se pensaba que era un arma indestructible.~
-@35  = ~Sé que lo haréis, Hermana.~
-@36  = ~¿Habéis tenido éxito con el bastón, Hermana?~
-@37  = ~Cuando lo hayáis hecho, Hermana, regresad conmigo.~
-@38  = ~Entonces habéis terminado. Venid, Hermana, pondré un encantamiento más al bastón por vos y os lo entregaré como regalo.~
-@39 = ~La Gran Druida: Enseñando el Camino
+@1   = ~Hermano, antes de que pueda ayudaros, debo completar mis propios estudios bajo la tutela de la Archidruida. DeberÃ­ais hablar con ella.~
+@2   = ~Hermano, la Archidruida me ha dicho que en verdad sois un espÃ­ritu digno de nuestra guÃ­a. Me ha pedido que os dedique tiempo para enseÃ±aros una habilidad importante.~
+@3   = ~Una vez mÃ¡s, Hermano, debÃ©is elegir: os ayudaremos a desarrollaros, pero vos debÃ©is tomar la decisiÃ³n. Â¿Os gustarÃ­a aprender a cambiar de forma para convertiros en un dragÃ³n mÃ¡gico, preferirÃ­ais aprender mÃ©todos de curaciÃ³n avanzados, o desearÃ­ais lanzar conjuros con mayor velocidad? Pensad con cuidado, Hermano, vuestra elecciÃ³n es definitiva.~
+@4   = ~Sacerdotisa, creo que gustarÃ­a aprender a cambiar de forma.~
+@5   = ~Sacerdotisa, me gustarÃ­a curar a los demÃ¡s de manera mÃ¡s eficaz.~
+@6   = ~Por favor Sacerdotisa, enseÃ±adme cÃ³mo poder lanzar conjuros mÃ¡s rapidamente.~
+@7   = ~EstarÃ© mÃ¡s que feliz de enseÃ±aros, Hermano.~
+@8   = ~Gracias, Hermano, por darme la oportunidad de enseÃ±aros cÃ³mo cambiar a la forma de un dragÃ³n.~
+@9   = ~Gracias, Hermano, por darme la oportunidad de enseÃ±aros cÃ³mo curar a los demÃ¡s.~
+@10  = ~Gracias, Hermano, por darme la oportunidad de enseÃ±aros cÃ³mo lanzar conjuros con mayor rapidez.~
+@11  = ~Me complace haberos ayudado, Hermano, a estar en mayor sintonÃ­a con la naturaleza. TambiÃ©n me complace que nos hayÃ¡is ayudado. Pero aÃºn hay una Ãºltima tarea que debÃ©is realizar antes de que la Archidruida os enseÃ±e una nueva habilidad. Â¿EstÃ¡is preparado?~
+@12  = ~SÃ­, Sacerdotisa. Â¿QuÃ© debo hacer?~
+@13  = ~AÃºn no, Sacerdotisa. Necesito tiempo.~
+@14  = ~Entonces esperarÃ© con expectaciÃ³n nuestro prÃ³ximo encuentro, Hermano.~
+@15  = ~Si bien vuestra primera tarea fue bastante simple, la segunda fue mucho mÃ¡s complicada. Esta Ãºltima tarea es sencilla, pues no requiere que os expongÃ¡is al peligro. Tomad este bastÃ³n, Hermano. Es un bastÃ³n mÃ¡gico, que se pensaba que era un arma indestructible.~
+@16  = ~Pero ahora la madera del bastÃ³n estÃ¡ agrietada. Con la madera adecuada, se puede restaurar y recuperarÃ­a sus propiedades mÃ¡gicas. SÃ³lo hay una persona en la regiÃ³n que tenga la habilidad necesaria para reparar el bastÃ³n, un enano llamado Cromwell. Encontrad la madera y llevÃ¡dsela junto con el bastÃ³n. Cuando estÃ© restaurado, volved a mÃ­.~
+@17  = ~Lo intentarÃ©, Sacerdotisa.~
+@18  = ~SÃ© que lo harÃ©is, Hermano.~
+@19  = ~Â¿HabÃ©is tenido Ã©xito con el bastÃ³n, Hermano?~
+@20  = ~SÃ­, Sacerdotisa. AquÃ­ lo tengo.~
+@21  = ~No, Sacerdotisa. AÃºn no he sido capaz de reparar el bastÃ³n.~
+@22  = ~Cuando lo hayÃ¡is hecho, Hermano, regresad a mÃ­.~
+@23  = ~Entonces habÃ©is terminado. Venid, Hermano, pondrÃ© un encantamiento mÃ¡s al bastÃ³n por vos y os lo entregarÃ© como regalo.~
+@24  = ~AÃºn no he completado mi aprendizaje con la Archidruida, <GABBER>, y estoy demasiado ocupada como para interrumpir mis cavilaciones.~
+@25  = ~Hermana, antes de que pueda ayudaros, debo completar mis propios estudios bajo la tutela de la Archidruida. DeberÃ­ais hablar con ella.~
+@26  = ~Hermana, la Archidruida me ha dicho que en verdad sois un espÃ­ritu digno de nuestra guÃ­a. Me ha pedido que os dedique tiempo para enseÃ±aros una habilidad importante.~
+@27  = ~Una vez mÃ¡s, Hermana, debÃ©is elegir: os ayudaremos a desarrollaros, pero vos debÃ©is tomar la decisiÃ³n. Â¿Os gustarÃ­a aprender a cambiar de forma para convertiros en una dragona mÃ¡gica, preferirÃ­ais aprender mÃ©todos de curaciÃ³n avanzados, o desearÃ­ais lanzar conjuros con mayor velocidad? Pensad con cuidado, Hermana, vuestra elecciÃ³n es definitiva.~
+@28  = ~EstarÃ© mÃ¡s que feliz de enseÃ±aros, Hermana.~
+@29  = ~Gracias, Hermana, por darme la oportunidad de enseÃ±aros cÃ³mo cambiar a la forma de una dragona.~
+@30  = ~Gracias, Hermana, por darme la oportunidad de enseÃ±aros cÃ³mo curar a los demÃ¡s.~
+@31  = ~Gracias, Hermana, por darme la oportunidad de enseÃ±aros cÃ³mo lanzar conjuros con mayor rapidez.~
+@32  = ~Me complace haberos ayudado, Hermana, a estar en mayor sintonÃ­a con la naturaleza. TambiÃ©n me complace que nos hayÃ¡is ayudado. Pero aÃºn hay una Ãºltima tarea que debÃ©is realizar antes de que la Archidruida os enseÃ±e una nueva habilidad. Â¿EstÃ¡is preparada?~
+@33  = ~Entonces esperarÃ© con expectaciÃ³n nuestro prÃ³ximo encuentro, Hermana.~
+@34  = ~Si bien vuestra primera tarea fue bastante simple, la segunda fue mucho mÃ¡s complicada. Esta Ãºltima tarea es sencilla, pues no requiere que os expongÃ¡is al peligro. Tomad este bastÃ³n, Hermana. Es un bastÃ³n mÃ¡gico, que se pensaba que era un arma indestructible.~
+@35  = ~SÃ© que lo harÃ©is, Hermana.~
+@36  = ~Â¿HabÃ©is tenido Ã©xito con el bastÃ³n, Hermana?~
+@37  = ~Cuando lo hayÃ¡is hecho, Hermana, regresad conmigo.~
+@38  = ~Entonces habÃ©is terminado. Venid, Hermana, pondrÃ© un encantamiento mÃ¡s al bastÃ³n por vos y os lo entregarÃ© como regalo.~
+@39 = ~La Gran Druida: EnseÃ±ando el Camino
 
-La Archidruida y sus aprendices me han enseñado cómo cambiar de forma a la de un dragón, lo cuál es el culmen del cambio de formas.~
-@40 = ~La Gran Druida: Enseñando el Camino
+La Archidruida y sus aprendices me han enseÃ±ado cÃ³mo cambiar de forma a la de un dragÃ³n, lo cuÃ¡l es el culmen del cambio de formas.~
+@40 = ~La Gran Druida: EnseÃ±ando el Camino
 
-La Archidruida y sus aprendices me han enseñado cómo curar a los demás más rapidamente y con una mayor eficiencia.~
-@41 = ~La Gran Druida: Enseñando el Camino
+La Archidruida y sus aprendices me han enseÃ±ado cÃ³mo curar a los demÃ¡s mÃ¡s rapidamente y con una mayor eficiencia.~
+@41 = ~La Gran Druida: EnseÃ±ando el Camino
 
-La Archidruida y sus aprendices me han enseñado cómo lanzar conjuros con mayor rapidez.~
+La Archidruida y sus aprendices me han enseÃ±ado cÃ³mo lanzar conjuros con mayor rapidez.~
 @42 = ~La Gran Druida: Renacimiento
 
-El trío de druidas acampadas en una arboleda del norte me han ordenado ayudarlas con la reparación de un bastón dañado que una vez fue mágico. Me dijeron que debía encontrar una madera muy rara y llevársela a un enano en Athkatla, Cromwell, que es capaz de reparar el bastón.
-Cuando haya terminado con el bastón, debo regresar para informar a las druidas del sur de Puerta de Baldur, donde se han comprometido enseñarme una habilidad.~
+El trÃ­o de druidas acampadas en una arboleda del norte me han ordenado ayudarlas con la reparaciÃ³n de un bastÃ³n daÃ±ado que una vez fue mÃ¡gico. Me dijeron que debÃ­a encontrar una madera muy rara y llevÃ¡rsela a un enano en Athkatla, Cromwell, que es capaz de reparar el bastÃ³n.
+Cuando haya terminado con el bastÃ³n, debo regresar para informar a las druidas del sur de Puerta de Baldur, donde se han comprometido enseÃ±arme una habilidad.~
 @43 = ~La Gran Druida: Renacimiento
 
-He sido capaz, con la ayuda de Cromwell el enano, de reparar un bastón mágico que el trío de druidas me había pedido que les ayudara a restaurar. El bastón estaba dañado, pero ahora que ha sido restaurado parece mucho más poderoso.~
+He sido capaz, con la ayuda de Cromwell el enano, de reparar un bastÃ³n mÃ¡gico que el trÃ­o de druidas me habÃ­a pedido que les ayudara a restaurar. El bastÃ³n estaba daÃ±ado, pero ahora que ha sido restaurado parece mucho mÃ¡s poderoso.~

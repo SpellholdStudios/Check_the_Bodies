@@ -1,6 +1,6 @@
-@1 = ~Bonjour et bonne soirée à toi, l'ami.~ ~Bonjour et bonne soirée à toi, l'amie.~
+@1 = ~Bonjour et bonne soirÃ©e Ã  toi, l'ami.~ ~Bonjour et bonne soirÃ©e Ã  toi, l'amie.~
 @2 = ~Encore en train de bavasser, toi ?~
-@3 = ~Les neiges hivernales apportent avec elles des hordes de gobelins, alors prends garde à toi.~
-@4 = ~Encore toi ? Tu n'arrêtes pas d'apparaître de nulle-part, comme un gobelin.~
-@5 = ~La lune et les étoiles... te voilà de retour, voyageur.~ ~La lune et les étoiles... te voilà de retour, voyageuse.~
-@6 = ~Bienvenue à toi, courageux guerrier.~ ~Bienvenue à toi, courageuse guerrière.~ 
+@3 = ~Les neiges hivernales apportent avec elles des hordes de gobelins, alors prends garde Ã  toi.~
+@4 = ~Encore toi ? Tu n'arrÃªtes pas d'apparaÃ®tre de nulle-part, comme un gobelin.~
+@5 = ~La lune et les Ã©toiles... te voilÃ  de retour, voyageur.~ ~La lune et les Ã©toiles... te voilÃ  de retour, voyageuse.~
+@6 = ~Bienvenue Ã  toi, courageux guerrier.~ ~Bienvenue Ã  toi, courageuse guerriÃ¨re.~ 
