@@ -145,7 +145,13 @@ END
 COPY_EXISTING ~misc01.itm~ ~override/ctb.mrk~ // tell other mod that Check The Bodies is installed
 
 COPY ~%MOD_FOLDER%/WED~     ~override~
-COPY ~%MOD_FOLDER%/MOS~     ~override~
+
+ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
+	COPY ~%MOD_FOLDER%/MOS/%engine%~     ~override~
+END
+ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
+	COPY ~%MOD_FOLDER%/MOS/%engine%~     ~override~
+END
 COPY ~%MOD_FOLDER%/bitmaps~ ~override~
 
 
@@ -1789,6 +1795,12 @@ END
 COPY ~%MOD_FOLDER%/Chores/WED~     ~override~
 //COPY ~%MOD_FOLDER%/Chores/MOS~     ~override~
 COPY ~%MOD_FOLDER%/Chores/bitmaps~ ~override~
+ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
+	COPY ~%MOD_FOLDER%/Chores/bitmaps/%engine%~     ~override~
+END
+ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
+	COPY ~%MOD_FOLDER%/Chores/bitmaps/%engine%~     ~override~
+END
 
 //////////////////////////////
 // Installing tileset and audio and movie
