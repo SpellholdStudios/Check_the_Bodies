@@ -1,1 +1,0 @@
-FOR %%A in (*.are) DO echo {"%%A", ""},>>cheat_var.tph
