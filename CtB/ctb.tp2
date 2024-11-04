@@ -139,8 +139,9 @@ LANGUAGE ~Castellano (clan REO)~
 	 
 LANGUAGE ~Chinese (traduccion archenemy and youye)~
 	 ~Schinese~
-	 ~CtB/Language/Schinese/wsetup.tra~
-     ~CtB/Language/Schinese/script.tra~
+	 ~%MOD_FOLDER%/Language/Schinese/wsetup.tra~
+     ~%MOD_FOLDER%/Language/Schinese/script.tra~
+	 ~%MOD_FOLDER%/Language/Schinese/setup.tra~
 
 /* ====================================== *
  *  Check the Bodies : main component  *
