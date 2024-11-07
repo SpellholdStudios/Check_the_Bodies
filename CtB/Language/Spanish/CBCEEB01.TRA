@@ -1,53 +1,53 @@
-@1   = ~¡Hijo de Bhaal! Me alegro de encontraros de nuevo. Veo que vuestras aventuras aún no han acabado con vos.~
-~¡Hija de Bhaal! Me alegro de encontraros de nuevo. Veo que vuestras aventuras aún no han acabado con vosa merced.~
-@2   = ~Maldición, Ceeb. ¿Por qué debéis alterar mis nervios?~
-@3   = ~¿Qué estáis haciendo aquí?~
-@4   = ~¿Cómo es que siempre os encuentro cuando no quiero ni veros?  Todo lo que hacéis es causarme problemas.~
-@5   = ~Hijo de Bhaal. ¿Pensáis que sois el único molesto por este encuentro? En absoluto, pues yo también detesto el hablar con vos.~
-~Hija de Bhaal. ¿Pensáis que sois la única molesta por este encuentro? En absoluto, pues yo también detesto el hablar con vos.~
-@6   = ~A menos que tengáis negocios conmigo, agradecería no tener que hablar nunca más con vos.~
-@7   = ~Sólo estaba buscando un tomo en particular en esta ciudad. No pude encontrar ninguna obra que describiera los encuentros con los espíritus de los fallecidos en Soubar, así que pensé que quizás pudiera encontrar una en un lugar más civilizado.~
-@8   = ~¿Estáis buscando conocimientos sobre los espíritus fallecidos? Contadme, Ceeb, ¿sabéis cómo hablar con los muertos?~
-@9   = ~Sólo es un entretenimiento, hijo de Bhaal. No vivo de ello, ni intento estafar a las buenas gentes a costa de sus esperanzas y recuerdos de seres queridos.~
-~Sólo es un entretenimiento, hija de Bhaal. No vivo de ello, ni intento estafar a las buenas gentes a costa de sus esperanzas y recuerdos de seres queridos.~
-@10  = ~Ceeb, necesito encontrar alguna forma de hablar con los espíritus de los muertos. ¿Tenéis algún pergamino que pudiera ayudarme?~
-@11  = ~Hijo de Bhaal, estáis de suerte, amigo mio. Tengo un pergamino que os permitirá lanzar ese conjuro. No obstante, sois muy consciente de los peligros que implican convocar a los espíritus, ¿verdad?~
-~Hija de Bhaal, estáis de suerte, amiga mia. Tengo un pergamino que os permitirá lanzar ese conjuro. No obstante, sois muy consciente de los peligros que implican convocar a los espíritus, ¿verdad?~
+@1   = ~Â¡Hijo de Bhaal! Me alegro de encontraros de nuevo. Veo que vuestras aventuras aÃºn no han acabado con vos.~
+~Â¡Hija de Bhaal! Me alegro de encontraros de nuevo. Veo que vuestras aventuras aÃºn no han acabado con vosa merced.~
+@2   = ~MaldiciÃ³n, Ceeb. Â¿Por quÃ© debÃ©is alterar mis nervios?~
+@3   = ~Â¿QuÃ© estÃ¡is haciendo aquÃ­?~
+@4   = ~Â¿CÃ³mo es que siempre os encuentro cuando no quiero ni veros?  Todo lo que hacÃ©is es causarme problemas.~
+@5   = ~Hijo de Bhaal. Â¿PensÃ¡is que sois el Ãºnico molesto por este encuentro? En absoluto, pues yo tambiÃ©n detesto el hablar con vos.~
+~Hija de Bhaal. Â¿PensÃ¡is que sois la Ãºnica molesta por este encuentro? En absoluto, pues yo tambiÃ©n detesto el hablar con vos.~
+@6   = ~A menos que tengÃ¡is negocios conmigo, agradecerÃ­a no tener que hablar nunca mÃ¡s con vos.~
+@7   = ~SÃ³lo estaba buscando un tomo en particular en esta ciudad. No pude encontrar ninguna obra que describiera los encuentros con los espÃ­ritus de los fallecidos en Soubar, asÃ­ que pensÃ© que quizÃ¡s pudiera encontrar una en un lugar mÃ¡s civilizado.~
+@8   = ~Â¿EstÃ¡is buscando conocimientos sobre los espÃ­ritus fallecidos? Contadme, Ceeb, Â¿sabÃ©is cÃ³mo hablar con los muertos?~
+@9   = ~SÃ³lo es un entretenimiento, hijo de Bhaal. No vivo de ello, ni intento estafar a las buenas gentes a costa de sus esperanzas y recuerdos de seres queridos.~
+~SÃ³lo es un entretenimiento, hija de Bhaal. No vivo de ello, ni intento estafar a las buenas gentes a costa de sus esperanzas y recuerdos de seres queridos.~
+@10  = ~Ceeb, necesito encontrar alguna forma de hablar con los espÃ­ritus de los muertos. Â¿TenÃ©is algÃºn pergamino que pudiera ayudarme?~
+@11  = ~Hijo de Bhaal, estÃ¡is de suerte, amigo mio. Tengo un pergamino que os permitirÃ¡ lanzar ese conjuro. No obstante, sois muy consciente de los peligros que implican convocar a los espÃ­ritus, Â¿verdad?~
+~Hija de Bhaal, estÃ¡is de suerte, amiga mia. Tengo un pergamino que os permitirÃ¡ lanzar ese conjuro. No obstante, sois muy consciente de los peligros que implican convocar a los espÃ­ritus, Â¿verdad?~
 @12  = ~Por supuesto que lo soy.~
-@13  = ~No, a decir verdad no sé mucho sobre ello.~
-@14  = ~Entonces, haré un trato con vos, hijo de Bhaal. Como os mencioné anteriormente, estoy buscando un tomo en particular que contiene información específica sobre los espíritus de los fenecidos. Traedme ese tomo, y os entregaré el pergamino, sin más condiciones. ¿Encontraréis el volumen por mí?~
-~Entonces, haré un trato con vos, hija de Bhaal. Como os mencioné anteriormente, estoy buscando un tomo en particular que contiene información específica sobre los espíritus de los fenecidos. Traedme ese tomo, y os entregaré el pergamino, sin más condiciones. ¿Encontraréis el volumen por mí?~
-@15  = ~Sí, pero necesito que me digáis su título.~
-@16  = ~Olvidadlo, Ceeb. No sé que libro es ese, ni siquiera sé por qué lo queréis, o qué planeáis hacer con él.~
-@17  = ~Por supuesto, hijo de Bhaal. Atended, el nombre del volumen es "A través de los Espíritus", y es un tomo muy raro, por lo que podríais tener algunas dificultades para encontrarlo.~
-~Por supuesto, hija de Bhaal. Atended, el nombre del volumen es "A través de los Espíritus", y es un tomo muy raro, por lo que podríais tener algunas dificultades para encontrarlo.~
-@18  = ~Regresad a mií si lo encontráis, y os recompensaré por nuestro acuerdo.~
-@19  = ~Entonces continuaré buscando el volumen por mí mismo, y vos no conseguiréis el pergamino.~
-@20  = ~Pues debería explicaros esos peligros, hijo de Bhaal, pero será mejor para vos que investiguéis los peligros por vos mismo. Haré un trato con vos, engendro de Bhaal.~
-~Pues debería explicaros esos peligros, hija de Bhaal, pero será mejor para vos que investiguéis los peligros por vos misma. Haré un trato con vos, engendro de Bhaal.~
-@21  = ~Como he mencionado, estoy buscando un tomo en particular que contiene información específica sobre los espíritus difuntos. Si podéis encontrar el tomo, deberíais leerlo, pues os aclararía mucho sobre el hablar con los espíritus. Pero luego debéis traerme el libro, y os daré el pergamino, sin más condiciones. ¿Encontraréis el volumen por mí?~
-@22  = ~Sí, pero tenéis que decirme el nombre del libro que andáis buscando.~
-@23  = ~Si soy tamaña molestia, hijo de Bhaal, quizás deberíamos dar por terminada nuestra conversación.~
-~Si soy tamaña molestia, hija de Bhaal, quizás deberíamos dar por terminada nuestra conversación.~
-@24  = ~¿Habéis vuelto para consumar nuestro trato, hijo de Bhaal?~
-~¿Habéis vuelto para consumar nuestro trato, hija de Bhaal?~
-@25  = ~Repetidme que queréis de mí.~
-@26  = ~No. No he encontrado el libro que queréis.~
-@27  = ~Sí, Ceeb.  Tengo vuestro libro. Ahora, hagamos el intercambio por el pergamino.~
-@28  = ~Tengo vuestro libro, Ceeb, pero creo que prefiero guardarlo. A lo mejor en su lugar, ¿estaríais dispuesto a vender el pergamino?~
-@29  = ~Quiero el libro "A través de los Espíritus".~
-@30  = ~Pues si deseáis el pergamino para hablar con los muertos, debéis traerme mi libro, "A través de los Espíritus".~
-@31  = ~Muy bien, hijo de Bhaal. Estáis hecho un hombre de recursos. Hagamos el intercambio.~
-~Muy bien, hija de Bhaal. Estáis hecha una mujer de recursos. Hagamos el intercambio.~
-@32  = ~Puesto que ya tengo el tomo que estaba buscando en Athkatla, volveré a Soubar. Buen viaje, hijo de Bhaal.~
-~Puesto que ya tengo el tomo que estaba buscando en Athkatla, volveré a Soubar. Buen viaje, hija de Bhaal.~
-@33  = ~¡No, hijo de Bhaal! Teníamos un acuerdo. No podéis renegar ahora, así que cambiadmelo, el libro por el pergamino.~
-~¡No, hija de Bhaal! Teníamos un acuerdo. No podéis renegar ahora, así que cambiadmelo, el libro por el pergamino.~
-@34  = ~Si así es como debe ser, de acuerdo.~
-@35  = ~Dadme el pergamino ahora, Ceeb, o lo cogeré de vuestro cadáver.~
+@13  = ~No, a decir verdad no sÃ© mucho sobre ello.~
+@14  = ~Entonces, harÃ© un trato con vos, hijo de Bhaal. Como os mencionÃ© anteriormente, estoy buscando un tomo en particular que contiene informaciÃ³n especÃ­fica sobre los espÃ­ritus de los fenecidos. Traedme ese tomo, y os entregarÃ© el pergamino, sin mÃ¡s condiciones. Â¿EncontrarÃ©is el volumen por mÃ­?~
+~Entonces, harÃ© un trato con vos, hija de Bhaal. Como os mencionÃ© anteriormente, estoy buscando un tomo en particular que contiene informaciÃ³n especÃ­fica sobre los espÃ­ritus de los fenecidos. Traedme ese tomo, y os entregarÃ© el pergamino, sin mÃ¡s condiciones. Â¿EncontrarÃ©is el volumen por mÃ­?~
+@15  = ~SÃ­, pero necesito que me digÃ¡is su tÃ­tulo.~
+@16  = ~Olvidadlo, Ceeb. No sÃ© que libro es ese, ni siquiera sÃ© por quÃ© lo querÃ©is, o quÃ© planeÃ¡is hacer con Ã©l.~
+@17  = ~Por supuesto, hijo de Bhaal. Atended, el nombre del volumen es "A travÃ©s de los EspÃ­ritus", y es un tomo muy raro, por lo que podrÃ­ais tener algunas dificultades para encontrarlo.~
+~Por supuesto, hija de Bhaal. Atended, el nombre del volumen es "A travÃ©s de los EspÃ­ritus", y es un tomo muy raro, por lo que podrÃ­ais tener algunas dificultades para encontrarlo.~
+@18  = ~Regresad a miÃ­ si lo encontrÃ¡is, y os recompensarÃ© por nuestro acuerdo.~
+@19  = ~Entonces continuarÃ© buscando el volumen por mÃ­ mismo, y vos no conseguirÃ©is el pergamino.~
+@20  = ~Pues deberÃ­a explicaros esos peligros, hijo de Bhaal, pero serÃ¡ mejor para vos que investiguÃ©is los peligros por vos mismo. HarÃ© un trato con vos, engendro de Bhaal.~
+~Pues deberÃ­a explicaros esos peligros, hija de Bhaal, pero serÃ¡ mejor para vos que investiguÃ©is los peligros por vos misma. HarÃ© un trato con vos, engendro de Bhaal.~
+@21  = ~Como he mencionado, estoy buscando un tomo en particular que contiene informaciÃ³n especÃ­fica sobre los espÃ­ritus difuntos. Si podÃ©is encontrar el tomo, deberÃ­ais leerlo, pues os aclararÃ­a mucho sobre el hablar con los espÃ­ritus. Pero luego debÃ©is traerme el libro, y os darÃ© el pergamino, sin mÃ¡s condiciones. Â¿EncontrarÃ©is el volumen por mÃ­?~
+@22  = ~SÃ­, pero tenÃ©is que decirme el nombre del libro que andÃ¡is buscando.~
+@23  = ~Si soy tamaÃ±a molestia, hijo de Bhaal, quizÃ¡s deberÃ­amos dar por terminada nuestra conversaciÃ³n.~
+~Si soy tamaÃ±a molestia, hija de Bhaal, quizÃ¡s deberÃ­amos dar por terminada nuestra conversaciÃ³n.~
+@24  = ~Â¿HabÃ©is vuelto para consumar nuestro trato, hijo de Bhaal?~
+~Â¿HabÃ©is vuelto para consumar nuestro trato, hija de Bhaal?~
+@25  = ~Repetidme que querÃ©is de mÃ­.~
+@26  = ~No. No he encontrado el libro que querÃ©is.~
+@27  = ~SÃ­, Ceeb.  Tengo vuestro libro. Ahora, hagamos el intercambio por el pergamino.~
+@28  = ~Tengo vuestro libro, Ceeb, pero creo que prefiero guardarlo. A lo mejor en su lugar, Â¿estarÃ­ais dispuesto a vender el pergamino?~
+@29  = ~Quiero el libro "A travÃ©s de los EspÃ­ritus".~
+@30  = ~Pues si deseÃ¡is el pergamino para hablar con los muertos, debÃ©is traerme mi libro, "A travÃ©s de los EspÃ­ritus".~
+@31  = ~Muy bien, hijo de Bhaal. EstÃ¡is hecho un hombre de recursos. Hagamos el intercambio.~
+~Muy bien, hija de Bhaal. EstÃ¡is hecha una mujer de recursos. Hagamos el intercambio.~
+@32  = ~Puesto que ya tengo el tomo que estaba buscando en Athkatla, volverÃ© a Soubar. Buen viaje, hijo de Bhaal.~
+~Puesto que ya tengo el tomo que estaba buscando en Athkatla, volverÃ© a Soubar. Buen viaje, hija de Bhaal.~
+@33  = ~Â¡No, hijo de Bhaal! TenÃ­amos un acuerdo. No podÃ©is renegar ahora, asÃ­ que cambiadmelo, el libro por el pergamino.~
+~Â¡No, hija de Bhaal! TenÃ­amos un acuerdo. No podÃ©is renegar ahora, asÃ­ que cambiadmelo, el libro por el pergamino.~
+@34  = ~Si asÃ­ es como debe ser, de acuerdo.~
+@35  = ~Dadme el pergamino ahora, Ceeb, o lo cogerÃ© de vuestro cadÃ¡ver.~
 @36  = ~Muy bien, hijo de Bhaal. Hagamos el intercambio.~
 ~Muy bien, hija de Bhaal. Hagamos el intercambio.~
-@37  = ~¡No haréis tal cosa! Tomo lo que se me prometió, y puede que los dioses os perdonen por vuestra traición. Sé que yo no lo haré.~
-@38 = ~Buscando "A través de los Espíritus"
+@37  = ~Â¡No harÃ©is tal cosa! Tomo lo que se me prometiÃ³, y puede que los dioses os perdonen por vuestra traiciÃ³n. SÃ© que yo no lo harÃ©.~
+@38 = ~Buscando "A travÃ©s de los EspÃ­ritus"
 
-El mago que conocí tiempo atrás en el pueblo de Soubar estaba de vacaciones en Athkatla, y andaba buscando un volumen sobre la vida después de la muerte. Él se comprometió a que si yo podía encontrarle una copia del libro "A través de los Espíritus", él me lo cambiaría por un pergamino con el hechizo Hablar con los muertos.~
+El mago que conocÃ­ tiempo atrÃ¡s en el pueblo de Soubar estaba de vacaciones en Athkatla, y andaba buscando un volumen sobre la vida despuÃ©s de la muerte. Ã‰l se comprometiÃ³ a que si yo podÃ­a encontrarle una copia del libro "A travÃ©s de los EspÃ­ritus", Ã©l me lo cambiarÃ­a por un pergamino con el hechizo Hablar con los muertos.~

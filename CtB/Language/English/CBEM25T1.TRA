@@ -1,11 +1,11 @@
 @1   = ~The time approaches when I must begin preparing for my journey to the Elven Court on Evermeet.~
-@2   = ~Tel'Quessir know in their heart of hearts when they must pass west, yet I have not completed my purpose here in Faer鹡.~
+@2   = ~Tel'Quessir know in their heart of hearts when they must pass west, yet I have not completed my purpose here in Faer没n.~
 @3   = ~When I saw you, <GABBER>, I knew what remains for me, for the three of us.  We all have a purpose, and your appearance has been epiphanic for us.~
 @4   = ~We have been loathe to Retreat, and now know why.  You have been sent to us to complete part of your own life's journey, so that we may complete ours.~
 @5   = ~Please, I don't have time for this.~
 @6   = ~Tell me, Sister, what is it that connects us?~
 @7   = ~I don't understand.  You aren't making sense.~
-@8   = ~<GABBER>, we will not pass beyond Faer鹡 until we have completed our duties.  Return to us when you are ready.~
+@8   = ~<GABBER>, we will not pass beyond Faer没n until we have completed our duties.  Return to us when you are ready.~
 @9   = ~<GABBER>, it is simple.  You must understand that we three must help you as you undertake a personal- physical and spiritual- experience.  We will guide you the best that we can.  Now, are you ready to let us perform our purpose?~
 @10  = ~It is well for all concerned that you look at what is to be done with an open mind.~
 @11  = ~You must fufill our requirements and commands without questions, <GABBER>.  The thread of our lives is becoming frayed, and if you do not complete the tasks we set forth, we may pass west before our time.~
@@ -32,11 +32,11 @@
 @32  = ~As you wish, <GABBER>.  I will try my best to teach you how to recall a spell that you have cast since the last time you studied.~
 @33  = ~I have succeeded, <GABBER>.  You have learned how to recall a spell you have already cast without rememorizing it.~
 @34  = ~Teaching a mage the ability to use any item is a difficult process.  I will try my best, <GABBER>, but cannot guarantee that you will succeed.~
-@35  = ~<GABBER>, you are indeed a special <RACE>.  Without a doubt, it has been my pleasure and honor to teach you how to use nearly any item you wish.  Remember, some items that you use like armor will prevent you from casting spells.  Also, it may not be a good idea to use any two handed weapons, since mages were not meant to use some items, the effect on Faer鹡 may be catastrophic.~
+@35  = ~<GABBER>, you are indeed a special <RACE>.  Without a doubt, it has been my pleasure and honor to teach you how to use nearly any item you wish.  Remember, some items that you use like armor will prevent you from casting spells.  Also, it may not be a good idea to use any two handed weapons, since mages were not meant to use some items, the effect on Faer没n may be catastrophic.~
 @36  = ~<GABBER>, you are a special <RACE>.  However, not everyone has the capacity to learn how to use any type of item.  I beg your forgiveness as I was unable to teach you that skill.~
-@37  = ~<GABBER>, our time here in Faer鹡 has come to an end.  The three of us will leave for the Isle of Elves.  Our purpose is complete.  Farewell, <GABBER>, and may the Seldarine shelter and guide you.~
-@38  = ~We await the time when we will make the final journey from Faer鹡 to Evermeet.  Corellan Lotharian guide you, <GABBER>.~
-@39  = ~Disastrous!  Catastrophic!  There is nothing that we can leave of ourselves here on Faer鹡 then.  Our lives, wasted.  We will pass, <GABBER>, without fulfilling our mortal purpose.  Farewell...~
+@37  = ~<GABBER>, our time here in Faer没n has come to an end.  The three of us will leave for the Isle of Elves.  Our purpose is complete.  Farewell, <GABBER>, and may the Seldarine shelter and guide you.~
+@38  = ~We await the time when we will make the final journey from Faer没n to Evermeet.  Corellan Lotharian guide you, <GABBER>.~
+@39  = ~Disastrous!  Catastrophic!  There is nothing that we can leave of ourselves here on Faer没n then.  Our lives, wasted.  We will pass, <GABBER>, without fulfilling our mortal purpose.  Farewell...~
 @40 = ~Elder Elves:  Delivery
 
 I have been bid by a trio of elven sorceresses to deliver sacred saplings from the Forest of Tethyr to a group of woodland nymphs in the Windspear Hills.  I am to take care while the saplings are in my care, for they are susceptible to fire and cold.  When the nymphs have received the saplings, the Elves have asked me to notify them; I can meet with them where I exited the depths of the Underdark, and they have promised to reward me.~
@@ -60,4 +60,4 @@ The trio of sorceresses I meet on the western edge of the Forest of Tethyr, near
 The trio of sorceresses I meet on the western edge of the Forest of Tethyr, near the cavernous entrance to the Underdark, have been kind enough to try to teach me how use any item, though I was unable to comprehend their instruction.~
 @47 = ~Elder Elves:  Final Retreat
 
-The trio of Elven sorceresses have fulfilled their duties and have retreated from Faer鹡.  They Faded to Evermeet, and it is our loss.  Without question, Faer鹡, and myself, is better off for knowing these three Elven souls.  I despair that they are gone from the mainland, but rejoice knowing that they have been welcomed to the ancient Elven homeland.~
+The trio of Elven sorceresses have fulfilled their duties and have retreated from Faer没n.  They Faded to Evermeet, and it is our loss.  Without question, Faer没n, and myself, is better off for knowing these three Elven souls.  I despair that they are gone from the mainland, but rejoice knowing that they have been welcomed to the ancient Elven homeland.~

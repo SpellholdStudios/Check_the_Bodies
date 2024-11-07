@@ -1,63 +1,63 @@
-@1 = ~L'heure des préparatifs en vue de notre voyage vers la cour elfique d'Eternelle-Rencontre approche.~
-@2 = ~Un Tel'Quessir sait au plus profond de son coeur lorsqu'il doit partir, mais je n'ai pas encore accompli ma mission ici, à Féérune.~
-@3 = ~Lorsque je vous ai vu, <GABBER>, j'ai compris ce qu'il me restait à faire, ce qu'il nous restait à faire à toutes les trois. Nous avons un but, et votre présence nous l'a révélé.~ 
-@4 = ~Nous étions peu enclines à effectuer notre Retraite, et maintenant nous savons pourquoi. Vous nous avez été envoyé pour accomplir une partie de votre existence, mais aussi pour accomplir une partie de la nôtre.~
+@1 = ~L'heure des prÃ©paratifs en vue de notre voyage vers la cour elfique d'Eternelle-Rencontre approche.~
+@2 = ~Un Tel'Quessir sait au plus profond de son coeur lorsqu'il doit partir, mais je n'ai pas encore accompli ma mission ici, Ã  FÃ©Ã©rune.~
+@3 = ~Lorsque je vous ai vu, <GABBER>, j'ai compris ce qu'il me restait Ã  faire, ce qu'il nous restait Ã  faire Ã  toutes les trois. Nous avons un but, et votre prÃ©sence nous l'a rÃ©vÃ©lÃ©.~ 
+@4 = ~Nous Ã©tions peu enclines Ã  effectuer notre Retraite, et maintenant nous savons pourquoi. Vous nous avez Ã©tÃ© envoyÃ© pour accomplir une partie de votre existence, mais aussi pour accomplir une partie de la nÃ´tre.~
 @5 = ~Excusez-moi, je n'ai pas le temps pour cela.~
 @6 = ~Dites-moi, ma Soeur, qu'avons-nous en commun ?~
 @7 = ~Je ne comprends pas. Cela n'a aucun sens.~
-@8 = ~<GABBER>, nous ne partirons pas de Féérune tant que notre devoir ne sera pas accompli. Revenez nous voir une fois que vous serez prêt.~
-@9 = ~Mais c'est très simple, <GABBER>. Sachez que nous allons vous aider à entreprendre une expérience personnelle, physique et spirituelle. Nous allons vous guider du mieux que nous pourrons. Maintenant, êtes-vous prêt à nous laisser accomplir notre devoir ?~
-@10 = ~Pour le bien de tous ceux que cela concerne, il vous faudra garder un esprit ouvert pendant toute la durée de ce qui nous attend.~
-@11 = ~Vous devrez répondre à nos exigences et à nos ordres sans poser de question, <GABBER>. Le fil de notre vie s'effiloche, et si vous n'accomplissez pas les tâches que nous vous assignerons, nous passerons l'arme à gauche bien avant l'heure.~
-@12 = ~Tenez, <GABBER>, prenez ces semences. Apportez-les à Vaelasa, la nymphe qui vit dans les collines de Lancevent. Elle prendra soin des pousses une fois que nous ne serons plus. Mais soyez prudent, <GABBER>, les semences sont fragiles et peuvent être détruites par le feu et le froid.~
-@13 = ~Je vous ai confié une tâche, <GABBER>. Dites-moi, les semences sont-elles en sécurité ?~
-@14 = ~Non, ma Dame, elles ont été détruites.~
+@8 = ~<GABBER>, nous ne partirons pas de FÃ©Ã©rune tant que notre devoir ne sera pas accompli. Revenez nous voir une fois que vous serez prÃªt.~
+@9 = ~Mais c'est trÃ¨s simple, <GABBER>. Sachez que nous allons vous aider Ã  entreprendre une expÃ©rience personnelle, physique et spirituelle. Nous allons vous guider du mieux que nous pourrons. Maintenant, Ãªtes-vous prÃªt Ã  nous laisser accomplir notre devoir ?~
+@10 = ~Pour le bien de tous ceux que cela concerne, il vous faudra garder un esprit ouvert pendant toute la durÃ©e de ce qui nous attend.~
+@11 = ~Vous devrez rÃ©pondre Ã  nos exigences et Ã  nos ordres sans poser de question, <GABBER>. Le fil de notre vie s'effiloche, et si vous n'accomplissez pas les tÃ¢ches que nous vous assignerons, nous passerons l'arme Ã  gauche bien avant l'heure.~
+@12 = ~Tenez, <GABBER>, prenez ces semences. Apportez-les Ã  Vaelasa, la nymphe qui vit dans les collines de Lancevent. Elle prendra soin des pousses une fois que nous ne serons plus. Mais soyez prudent, <GABBER>, les semences sont fragiles et peuvent Ãªtre dÃ©truites par le feu et le froid.~
+@13 = ~Je vous ai confiÃ© une tÃ¢che, <GABBER>. Dites-moi, les semences sont-elles en sÃ©curitÃ© ?~
+@14 = ~Non, ma Dame, elles ont Ã©tÃ© dÃ©truites.~
 @15 = ~Oui, ma Dame, elles sont toujours en ma possession.~
-@16 = ~J'ai amené les semences à Vaelasa, ma Soeur, et elle envoie ses salutations en même temps que ses regrets à l'encontre de votre Retraite proche.~ 
-@17 = ~Je suis désolé, Soeur Elfe, mais je ne peux amener les semences à la dryade Vaelasa. Elle n'est pas dans les collines de Lancevent, et j'ai bien peur qu'elle soit morte.~
-@18 = ~Quel désastre ! Quelle catastrophe ! Nos vies sont gâchées. Nous allons trépasser, <GABBER>, sans avoir accompli notre devoir de mortelles. Adieu...~
+@16 = ~J'ai amenÃ© les semences Ã  Vaelasa, ma Soeur, et elle envoie ses salutations en mÃªme temps que ses regrets Ã  l'encontre de votre Retraite proche.~ 
+@17 = ~Je suis dÃ©solÃ©, Soeur Elfe, mais je ne peux amener les semences Ã  la dryade Vaelasa. Elle n'est pas dans les collines de Lancevent, et j'ai bien peur qu'elle soit morte.~
+@18 = ~Quel dÃ©sastre ! Quelle catastrophe ! Nos vies sont gÃ¢chÃ©es. Nous allons trÃ©passer, <GABBER>, sans avoir accompli notre devoir de mortelles. Adieu...~
 @19 = ~Alors de toute urgence, emmenez-les dans les collines de Lancevent.~
 @20 = ~Merci, <GABBER>. Ses mots et vos actes me mettent du baume au coeur.~
-@21 = ~Vous nous avez aidé bien plus que vous ne l'imaginez, <GABBER>. Pour votre aide, nous aimerions vous remercier. Nous allons vous enseigner une dernière compétence, mais le choix vous appartient.~
-@22 = ~Que voulez-vous que nous vous enseignons : voulez-vous savoir comment mémoriser davantage de sorts qu'un mage conventionnel, voulez-vous savoir comment diminuer le temps d'invocation de vos sorts au point de pouvoir en lancer deux pratiquement simultanément, ou voulez-vous apprendre à vous souvenir d'un sort sans avoir à le re-mémoriser ?~
-@23 = ~Je voudrais apprendre à mémoriser un sort supplémentaire par niveau.~
+@21 = ~Vous nous avez aidÃ© bien plus que vous ne l'imaginez, <GABBER>. Pour votre aide, nous aimerions vous remercier. Nous allons vous enseigner une derniÃ¨re compÃ©tence, mais le choix vous appartient.~
+@22 = ~Que voulez-vous que nous vous enseignons : voulez-vous savoir comment mÃ©moriser davantage de sorts qu'un mage conventionnel, voulez-vous savoir comment diminuer le temps d'invocation de vos sorts au point de pouvoir en lancer deux pratiquement simultanÃ©ment, ou voulez-vous apprendre Ã  vous souvenir d'un sort sans avoir Ã  le re-mÃ©moriser ?~
+@23 = ~Je voudrais apprendre Ã  mÃ©moriser un sort supplÃ©mentaire par niveau.~
 @24 = ~Je pense qu'une diminution de mon temps d'incantation me serait le plus profitable.~
-@25 = ~Je veux que vous m'appreniez à me souvenir d'un sort.~
-@26 = ~Que voulez-vous que nous vous enseignons : voulez-vous savoir comment mémoriser davantage de sorts qu'un mage conventionnel, voulez-vous savoir comment diminuer le temps d'invocation de vos sorts au point de pouvoir en lancer deux pratiquement simultanément, voulez-vous apprendre à vous souvenir d'un sort sans avoir à le re-mémoriser, ou voulez-vous apprendre comment utiliser pratiquement n'importe quel objet, même ceux que les mages ne sont pas habitués à utiliser, et malgré le fait que l'usage de certains d'entre eux risques d'entrer en conflit avec votre capacité à lancer des sorts ?~
-@27 = ~Je voudrais apprendre à me servir de n'importe quel objet.~
-@28 = ~Comme vous voulez, <CHARNAME>. Je vais faire de mon mieux pour vous apprendre à augmenter le nombre de sorts que vous pouvez mémoriser.~
-@29 = ~J'ai réussi, <GABBER>. Votre capacité mentale pour mémoriser les sorts excède maintenant la norme des mages ayant votre intelligence.~
-@30 = ~Comme vous voulez, <GABBER>. Je vais faire de mon mieux pour vous apprendre à doubler le nombre de sorts que vous pouvez lancer en un intervalle de temps.~
-@31 = ~J'ai réussi, <GABBER>. Vous pouvez, à partir de maintenant, lancer deux fois plus de sorts à la minute que les autres magiciens.~
-@32 = ~Comme vous voulez, <GABBER>. Je vais faire de mon mieux pour vous enseigner comment vous souvenir d'un sort que vous avez lancé depuis la dernière fois que vous vous êtes reposé.~
-@33 = ~J'ai réussi, <GABBER>. Vous avez appris à vous souvenir d'un sort que vous avez déjà lancé sans pour autant avoir à le re-mémoriser.~
-@34 = ~Apprendre à un mage à se servir de tous les objets est un processus compliqué. Je vais faire de mon mieux, <GABBER>, mais je ne peux pas garantir votre succès.~
-@35 = ~<GABBER>, vous êtes un <RACE> très spécial, sans aucun doute . Cela a été un plaisir et un honneur pour moi de vous apprendre comment utiliser tous les objets de votre choix. Souvenez-vous, certains objets comme les armures vous empêcheront de lancer des sorts. De même, ce n'est pas une bonne idée d'utiliser une arme à deux mains ; comme les mages ne sont pas censés pouvoir se servir de certaines armes, les effets sur Féérune pourraient être catastrophiques.~
-@36 = ~<GABBER>, vous êtes un <RACE> très spécial. Cependant, tout le monde n'a pas la capacité d'apprendre comment se servir de tous les objets. J'implore votre pardon, car je n'ai pas été capable de vous enseigner cette compétence.~
-@37 = ~<GABBER>, notre temps est venu sur Féérune. Nous allons toutes les trois partir pour l'Île des Elfes. Notre tâche est accomplie. Adieu, <GABBER>, et que la Seldarine vous protège et vous guide.~
-@38 = ~Bientôt, nous partirons de Féérune pour enfin retourner à Eternelle-Rencontre. Que Corellon Larethian vous guide, <GABBER>.~
-@39 = ~Quel désastre ! Quel catastrophe ! Nous ne pouvons rien laisser de notre passage sur Féérune. Nos vies sont gâchées. Nous allons trépasser, <GABBER>, sans avoir accompli notre devoir de mortelles. Adieu...~
+@25 = ~Je veux que vous m'appreniez Ã  me souvenir d'un sort.~
+@26 = ~Que voulez-vous que nous vous enseignons : voulez-vous savoir comment mÃ©moriser davantage de sorts qu'un mage conventionnel, voulez-vous savoir comment diminuer le temps d'invocation de vos sorts au point de pouvoir en lancer deux pratiquement simultanÃ©ment, voulez-vous apprendre Ã  vous souvenir d'un sort sans avoir Ã  le re-mÃ©moriser, ou voulez-vous apprendre comment utiliser pratiquement n'importe quel objet, mÃªme ceux que les mages ne sont pas habituÃ©s Ã  utiliser, et malgrÃ© le fait que l'usage de certains d'entre eux risques d'entrer en conflit avec votre capacitÃ© Ã  lancer des sorts ?~
+@27 = ~Je voudrais apprendre Ã  me servir de n'importe quel objet.~
+@28 = ~Comme vous voulez, <CHARNAME>. Je vais faire de mon mieux pour vous apprendre Ã  augmenter le nombre de sorts que vous pouvez mÃ©moriser.~
+@29 = ~J'ai rÃ©ussi, <GABBER>. Votre capacitÃ© mentale pour mÃ©moriser les sorts excÃ¨de maintenant la norme des mages ayant votre intelligence.~
+@30 = ~Comme vous voulez, <GABBER>. Je vais faire de mon mieux pour vous apprendre Ã  doubler le nombre de sorts que vous pouvez lancer en un intervalle de temps.~
+@31 = ~J'ai rÃ©ussi, <GABBER>. Vous pouvez, Ã  partir de maintenant, lancer deux fois plus de sorts Ã  la minute que les autres magiciens.~
+@32 = ~Comme vous voulez, <GABBER>. Je vais faire de mon mieux pour vous enseigner comment vous souvenir d'un sort que vous avez lancÃ© depuis la derniÃ¨re fois que vous vous Ãªtes reposÃ©.~
+@33 = ~J'ai rÃ©ussi, <GABBER>. Vous avez appris Ã  vous souvenir d'un sort que vous avez dÃ©jÃ  lancÃ© sans pour autant avoir Ã  le re-mÃ©moriser.~
+@34 = ~Apprendre Ã  un mage Ã  se servir de tous les objets est un processus compliquÃ©. Je vais faire de mon mieux, <GABBER>, mais je ne peux pas garantir votre succÃ¨s.~
+@35 = ~<GABBER>, vous Ãªtes un <RACE> trÃ¨s spÃ©cial, sans aucun doute . Cela a Ã©tÃ© un plaisir et un honneur pour moi de vous apprendre comment utiliser tous les objets de votre choix. Souvenez-vous, certains objets comme les armures vous empÃªcheront de lancer des sorts. De mÃªme, ce n'est pas une bonne idÃ©e d'utiliser une arme Ã  deux mains ; comme les mages ne sont pas censÃ©s pouvoir se servir de certaines armes, les effets sur FÃ©Ã©rune pourraient Ãªtre catastrophiques.~
+@36 = ~<GABBER>, vous Ãªtes un <RACE> trÃ¨s spÃ©cial. Cependant, tout le monde n'a pas la capacitÃ© d'apprendre comment se servir de tous les objets. J'implore votre pardon, car je n'ai pas Ã©tÃ© capable de vous enseigner cette compÃ©tence.~
+@37 = ~<GABBER>, notre temps est venu sur FÃ©Ã©rune. Nous allons toutes les trois partir pour l'Ãle des Elfes. Notre tÃ¢che est accomplie. Adieu, <GABBER>, et que la Seldarine vous protÃ¨ge et vous guide.~
+@38 = ~BientÃ´t, nous partirons de FÃ©Ã©rune pour enfin retourner Ã  Eternelle-Rencontre. Que Corellon Larethian vous guide, <GABBER>.~
+@39 = ~Quel dÃ©sastre ! Quel catastrophe ! Nous ne pouvons rien laisser de notre passage sur FÃ©Ã©rune. Nos vies sont gÃ¢chÃ©es. Nous allons trÃ©passer, <GABBER>, sans avoir accompli notre devoir de mortelles. Adieu...~
 @40 = ~Les anciennes Elfes : Livraison
 
-Un trio de sorcières elfes m'a prié de livrer des semences sacrées de la forêt de Téthyr jusqu'à une nymphe des bois dans les collines de Lancevent. Je dois prendre garde tant que les semences sont en ma possession, car elles ne résistent ni au feu, ni au froid. Lorsque les nymphes seront en possession des semences, les elfes m'ont demandé de revenir les voir pour le leur annoncer ; je peux les retrouver à l'endroit d'où je suis sorti des profondeurs d'Ombre-Terre. Elles ont promis de me récompenser.~
+Un trio de sorciÃ¨res elfes m'a priÃ© de livrer des semences sacrÃ©es de la forÃªt de TÃ©thyr jusqu'Ã  une nymphe des bois dans les collines de Lancevent. Je dois prendre garde tant que les semences sont en ma possession, car elles ne rÃ©sistent ni au feu, ni au froid. Lorsque les nymphes seront en possession des semences, les elfes m'ont demandÃ© de revenir les voir pour le leur annoncer ; je peux les retrouver Ã  l'endroit d'oÃ¹ je suis sorti des profondeurs d'Ombre-Terre. Elles ont promis de me rÃ©compenser.~
 @41 = ~Les anciennes Elfes : Livraison
 
-J'ai amené des semences sacrées à une nymphe pour un trio de sorcières elfes qui se préparent pour leur Retraite. Elles ont promis de m'enseigner une nouvelle compétence.~ 
+J'ai amenÃ© des semences sacrÃ©es Ã  une nymphe pour un trio de sorciÃ¨res elfes qui se prÃ©parent pour leur Retraite. Elles ont promis de m'enseigner une nouvelle compÃ©tence.~ 
 @42 = ~Les anciennes Elfes : Instruction magique
 
-Les trois sorcières que j'ai rencontrées à la lisière occidentale de la forêt de Téthyr, près de l'entrée d'Ombre-Terre, ont été assez aimables pour m'apprendre à mémoriser un nombre plus important de sorts.~
+Les trois sorciÃ¨res que j'ai rencontrÃ©es Ã  la lisiÃ¨re occidentale de la forÃªt de TÃ©thyr, prÃ¨s de l'entrÃ©e d'Ombre-Terre, ont Ã©tÃ© assez aimables pour m'apprendre Ã  mÃ©moriser un nombre plus important de sorts.~
 @43 = ~Les anciennes Elfes : Instruction magique
 
-Les trois sorcières que j'ai rencontrées à la lisière occidentale de la forêt de Téthyr, près de l'entrée d'Ombre-Terre, ont été assez aimables pour m'apprendre à lancer plusieurs sorts pratiquement simultanément dans un même tour.~
+Les trois sorciÃ¨res que j'ai rencontrÃ©es Ã  la lisiÃ¨re occidentale de la forÃªt de TÃ©thyr, prÃ¨s de l'entrÃ©e d'Ombre-Terre, ont Ã©tÃ© assez aimables pour m'apprendre Ã  lancer plusieurs sorts pratiquement simultanÃ©ment dans un mÃªme tour.~
 @44 = ~Les anciennes Elfes : Instruction magique
 
-Les trois sorcières que j'ai rencontrées à la lisière occidentale de la forêt de Téthyr, près de l'entrée d'Ombre-Terre, ont été assez aimables pour m'apprendre comment me rappeler d'un sort que j'ai déjà lancé sans pour autant le réapprendre.~
+Les trois sorciÃ¨res que j'ai rencontrÃ©es Ã  la lisiÃ¨re occidentale de la forÃªt de TÃ©thyr, prÃ¨s de l'entrÃ©e d'Ombre-Terre, ont Ã©tÃ© assez aimables pour m'apprendre comment me rappeler d'un sort que j'ai dÃ©jÃ  lancÃ© sans pour autant le rÃ©apprendre.~
 @45 = ~Les anciennes Elfes : Instruction magique
 
-Les trois sorcières que j'ai rencontrées à la lisière occidentale de la forêt de Téthyr, près de l'entrée d'Ombre-Terre, ont été assez aimables pour m'apprendre à utiliser de nombreux objets que la plupart des mages ne maîtrisent pas.~
+Les trois sorciÃ¨res que j'ai rencontrÃ©es Ã  la lisiÃ¨re occidentale de la forÃªt de TÃ©thyr, prÃ¨s de l'entrÃ©e d'Ombre-Terre, ont Ã©tÃ© assez aimables pour m'apprendre Ã  utiliser de nombreux objets que la plupart des mages ne maÃ®trisent pas.~
 @46 = ~Les anciennes Elfes : Instruction magique
 
-Les trois sorcières que j'ai rencontrées à la lisière occidentale de la forêt de Téthyr, près de l'entrée d'Ombre-Terre, ont été assez aimables pour essayer de m'apprendre à utiliser tous les objets, mais je n'ai pas été capable d'assimiler leurs instructions.~
+Les trois sorciÃ¨res que j'ai rencontrÃ©es Ã  la lisiÃ¨re occidentale de la forÃªt de TÃ©thyr, prÃ¨s de l'entrÃ©e d'Ombre-Terre, ont Ã©tÃ© assez aimables pour essayer de m'apprendre Ã  utiliser tous les objets, mais je n'ai pas Ã©tÃ© capable d'assimiler leurs instructions.~
 @47 = ~Les anciennes Elfes : La Retraite finale
 
-Les trois sorcières Elfes ont accompli leur mission et se sont retirées de Féérune. Elles s'en sont allées vers Eternelle-Rencontre, et c'est une grande perte pour nous. Sans aucun doute, Féérune et moi-même nous sentons mieux de savoir que ces trois âmes elfiques existent. Je suis triste qu'elles soient parties du continent, mais je me réjouis à l'idée de savoir qu'elles seront bien accueillies dans l'ancienne patrie des elfes.~
+Les trois sorciÃ¨res Elfes ont accompli leur mission et se sont retirÃ©es de FÃ©Ã©rune. Elles s'en sont allÃ©es vers Eternelle-Rencontre, et c'est une grande perte pour nous. Sans aucun doute, FÃ©Ã©rune et moi-mÃªme nous sentons mieux de savoir que ces trois Ã¢mes elfiques existent. Je suis triste qu'elles soient parties du continent, mais je me rÃ©jouis Ã  l'idÃ©e de savoir qu'elles seront bien accueillies dans l'ancienne patrie des elfes.~

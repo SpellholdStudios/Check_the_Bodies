@@ -1,27 +1,27 @@
-@1   = ~¿Intrusos? ¡No sois unos de mis sirvientes! ¿Por qué estais aquí?~
-@2   = ~Lo siento. No quería molestaros. Me marcharé en seguida.~
-@3   = ~¡Estoy aquí para darle fin a vuestra existencia! ¡No debisteis haber venido a este plano!~
-@4   = ~No tengo nada que deciros, demonio. ¡No sois bienvenido en este plano! ¡Os voy a destruir!~
-@5   = ~Habéis vuelto. ¿Habéis completado el encargo que os asigné, lacayo?~
-@6   = ~Me parece que lo he olvidado. ¿Qué encargo me enviasteis a realizar?~
-@7   = ~Sí, completé el encargo. Tenéis vuestra venganza. Ahora, ¿dónde está mi recompensa?~
-@8   = ~No voy a completar ninguna encomienda vuestra, demonio. ¡No sois bienvenido en este plano! ¡Os voy a destruir!~
-@9   = ~¡Nunca debisteis haber llegado al círculo! ¡Afrontad vuestra condena, mortal!~
-@10  = ~¡Nunca debisteis haber llegado al círculo! ¡Fuera de aquí, mortal!~
-@11  = ~¡Estúpido mortal! ¡Tenéis el raciocinio de un montón de estiércol! ¡Id! Hacedselo pagar a Corellan Lotharin y a los Seldarine.  ¡Despedazad a esas molestas elfas!~
-@12  = ~Está hecho. Los seldarine palidecerán. ¿Deseáis ser recompensado? Aquí tenéis pues, vuestra recompensa por el servicio, <RACE> mortal.~
-~Está hecho. Los seldarine palidecerán. ¿Deseáis ser recompensada?  Aquí tenéis pues, vuestra recompensa por el servicio, <RACE> mortal.~
-@13  = ~¿Creéis que podéis desterrarme? Qué insensatez el creer algo así.~
-@14  = ~¡Desesperad, <RACE> mortal, no tenéis la voluntad o la habilidad!~
-@15  = ~¡Estúpido mortal! ¡Tenéis el raciocinio de un montón de estiércol! ¡Id! ¡Destruid esas caprichosas artes mortales! ¡Despedazad al molesto bardo que habita arriba!~
-@16  = ~Está hecho. Las artes pronto dejarán de existir. ¿Deseáis ser recompensado?  Aquí tenéis pues, vuestra recompensa por el servicio, <RACE> mortal.~
-~Está hecho. Las artes pronto dejarán de existir. ¿Deseáis ser recompensada?  Aquí tenéis pues, vuestra recompensa por el servicio, <RACE> mortal.~
-@17  = ~¡Estúpido mortal! ¡Tenéis el raciocinio de un montón de estiércol! ¡Id! ¡Destruid a ese explorador humano entrometido! ¡Despedazad a los animales y a su benefactor humano!~
-@18  = ~Está hecho. La naturaleza pronto dejará de estar en este mundo. ¿Deseáis ser recompensado?  Aquí tenéis pues, vuestra recompensa por el servicio, <RACE> mortal.~
-~Está hecho. La naturaleza pronto dejará de estar en este mundo. ¿Deseáis ser recompensada?  Aquí tenéis pues, vuestra recompensa por el servicio, <RACE> mortal.~
-@19  = ~¡Estúpido mortal! ¡Tenéis el raciocinio de un montón de estiércol! ¡Id! ¡Destruid a esos druidas elfos entrometidos! ¡Despedazad a los animales y a su impotente diosa Hanali Celanil!~
-@20  = ~Está hecho. ¡Hanali Celanil palidecerá! ¿Deseáis ser recompensado? Aquí tenéis pues, vuestra recompensa por el servicio, <RACE> mortal.~
-~Está hecho. ¡Hanali Celanil palidecerá! ¿Deseáis ser recompensada? Aquí tenéis pues, vuestra recompensa por el servicio, <RACE> mortal.~
-@21  = ~¡Estúpido mortal! ¡Tenéis el raciocinio de un montón de estiércol! ¡Id! ¡Destruid a los norteños! ¡Mis fuerzas de Luskan conquistarán y destruirán a los idiotas!~
-@22  = ~Está hecho. ¡Los bárbaros norteños palidecerán! ¿Deseáis ser recompensado? Aquí tenéis pues, vuestra recompensa por el servicio, <RACE> mortal.~
-~Está hecho. ¡Los bárbaros norteños palidecerán! ¿Deseáis ser recompensada? Aquí tenéis pues, vuestra recompensa por el servicio, <RACE> mortal.~
+@1   = ~Â¿Intrusos? Â¡No sois unos de mis sirvientes! Â¿Por quÃ© estais aquÃ­?~
+@2   = ~Lo siento. No querÃ­a molestaros. Me marcharÃ© en seguida.~
+@3   = ~Â¡Estoy aquÃ­ para darle fin a vuestra existencia! Â¡No debisteis haber venido a este plano!~
+@4   = ~No tengo nada que deciros, demonio. Â¡No sois bienvenido en este plano! Â¡Os voy a destruir!~
+@5   = ~HabÃ©is vuelto. Â¿HabÃ©is completado el encargo que os asignÃ©, lacayo?~
+@6   = ~Me parece que lo he olvidado. Â¿QuÃ© encargo me enviasteis a realizar?~
+@7   = ~SÃ­, completÃ© el encargo. TenÃ©is vuestra venganza. Ahora, Â¿dÃ³nde estÃ¡ mi recompensa?~
+@8   = ~No voy a completar ninguna encomienda vuestra, demonio. Â¡No sois bienvenido en este plano! Â¡Os voy a destruir!~
+@9   = ~Â¡Nunca debisteis haber llegado al cÃ­rculo! Â¡Afrontad vuestra condena, mortal!~
+@10  = ~Â¡Nunca debisteis haber llegado al cÃ­rculo! Â¡Fuera de aquÃ­, mortal!~
+@11  = ~Â¡EstÃºpido mortal! Â¡TenÃ©is el raciocinio de un montÃ³n de estiÃ©rcol! Â¡Id! Hacedselo pagar a Corellan Lotharin y a los Seldarine.  Â¡Despedazad a esas molestas elfas!~
+@12  = ~EstÃ¡ hecho. Los seldarine palidecerÃ¡n. Â¿DeseÃ¡is ser recompensado? AquÃ­ tenÃ©is pues, vuestra recompensa por el servicio, <RACE> mortal.~
+~EstÃ¡ hecho. Los seldarine palidecerÃ¡n. Â¿DeseÃ¡is ser recompensada?  AquÃ­ tenÃ©is pues, vuestra recompensa por el servicio, <RACE> mortal.~
+@13  = ~Â¿CreÃ©is que podÃ©is desterrarme? QuÃ© insensatez el creer algo asÃ­.~
+@14  = ~Â¡Desesperad, <RACE> mortal, no tenÃ©is la voluntad o la habilidad!~
+@15  = ~Â¡EstÃºpido mortal! Â¡TenÃ©is el raciocinio de un montÃ³n de estiÃ©rcol! Â¡Id! Â¡Destruid esas caprichosas artes mortales! Â¡Despedazad al molesto bardo que habita arriba!~
+@16  = ~EstÃ¡ hecho. Las artes pronto dejarÃ¡n de existir. Â¿DeseÃ¡is ser recompensado?  AquÃ­ tenÃ©is pues, vuestra recompensa por el servicio, <RACE> mortal.~
+~EstÃ¡ hecho. Las artes pronto dejarÃ¡n de existir. Â¿DeseÃ¡is ser recompensada?  AquÃ­ tenÃ©is pues, vuestra recompensa por el servicio, <RACE> mortal.~
+@17  = ~Â¡EstÃºpido mortal! Â¡TenÃ©is el raciocinio de un montÃ³n de estiÃ©rcol! Â¡Id! Â¡Destruid a ese explorador humano entrometido! Â¡Despedazad a los animales y a su benefactor humano!~
+@18  = ~EstÃ¡ hecho. La naturaleza pronto dejarÃ¡ de estar en este mundo. Â¿DeseÃ¡is ser recompensado?  AquÃ­ tenÃ©is pues, vuestra recompensa por el servicio, <RACE> mortal.~
+~EstÃ¡ hecho. La naturaleza pronto dejarÃ¡ de estar en este mundo. Â¿DeseÃ¡is ser recompensada?  AquÃ­ tenÃ©is pues, vuestra recompensa por el servicio, <RACE> mortal.~
+@19  = ~Â¡EstÃºpido mortal! Â¡TenÃ©is el raciocinio de un montÃ³n de estiÃ©rcol! Â¡Id! Â¡Destruid a esos druidas elfos entrometidos! Â¡Despedazad a los animales y a su impotente diosa Hanali Celanil!~
+@20  = ~EstÃ¡ hecho. Â¡Hanali Celanil palidecerÃ¡! Â¿DeseÃ¡is ser recompensado? AquÃ­ tenÃ©is pues, vuestra recompensa por el servicio, <RACE> mortal.~
+~EstÃ¡ hecho. Â¡Hanali Celanil palidecerÃ¡! Â¿DeseÃ¡is ser recompensada? AquÃ­ tenÃ©is pues, vuestra recompensa por el servicio, <RACE> mortal.~
+@21  = ~Â¡EstÃºpido mortal! Â¡TenÃ©is el raciocinio de un montÃ³n de estiÃ©rcol! Â¡Id! Â¡Destruid a los norteÃ±os! Â¡Mis fuerzas de Luskan conquistarÃ¡n y destruirÃ¡n a los idiotas!~
+@22  = ~EstÃ¡ hecho. Â¡Los bÃ¡rbaros norteÃ±os palidecerÃ¡n! Â¿DeseÃ¡is ser recompensado? AquÃ­ tenÃ©is pues, vuestra recompensa por el servicio, <RACE> mortal.~
+~EstÃ¡ hecho. Â¡Los bÃ¡rbaros norteÃ±os palidecerÃ¡n! Â¿DeseÃ¡is ser recompensada? AquÃ­ tenÃ©is pues, vuestra recompensa por el servicio, <RACE> mortal.~

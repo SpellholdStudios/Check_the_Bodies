@@ -1,68 +1,68 @@
 @1  = ~Das, was sie betrunken machte, machte
-mich kühn. Ich habe die zwei Stallknechte betäubt,
-die den König begleiteten, und ich legte ihre Dolche da hin,
+mich kÃ¼hn. Ich habe die zwei Stallknechte betÃ¤ubt,
+die den KÃ¶nig begleiteten, und ich legte ihre Dolche da hin,
 wo sogar mein Mann sie nicht verpassen konnte.~ 
-@2  = ~Nein, Ihr seid ein würdiger Lehnsmann. Ihr machtet etwas
+@2  = ~Nein, Ihr seid ein wÃ¼rdiger Lehnsmann. Ihr machtet etwas
 ausnahmsweise richtig. Wartet eine Minute, warum habt Ihr
 die blutigen Dolche bei Euch? Ihr solltet
 sie bei den Stallknechten lassen. Geht
-zurück und tut es jetzt.~
+zurÃ¼ck und tut es jetzt.~
 @3  = ~Seinen Kilt.~ 
-@4  = ~Seht? Meine Hände haben dieselbe Farbe wie Eure,
-aber ich fürchte mich nicht. Seht, wie blass Ihr seid!
+@4  = ~Seht? Meine HÃ¤nde haben dieselbe Farbe wie Eure,
+aber ich fÃ¼rchte mich nicht. Seht, wie blass Ihr seid!
 Macht schon, bekommt etwas Farbe auf Eure Wangen.
 
 (Sie schmiert Blut auf die Wangen ihres Mannes.) ~
 @5  = ~So ist's schon besser.~ 
 @6  = ~Gebt mir die Dolche, Ihr Feigling! Ich werde gehen
 und sie neben die Stallknechte legen und sie beschmieren mit
-dem Blut des Königs!~
+dem Blut des KÃ¶nigs!~
 @7  = ~Ihr seid noch zu blass.
 
 (Sie schmiert mehr Blut auf Macbeth's Gesicht. Er schmiert Blut auf ihr Gesicht. Bald beschmieren sie sich wie wahnsinnig gegenseitig mit Blut.
 
-Als das Blut zu Ende geht, saust Lady Macbeth für einen kurzen Moment hinter die Bühne, und dann ist sie zurück mit von ihren Händen tropfenden frischen Blut, um den Angriff zu erneuern! Macbeth springt vor Angst, als sie auf ihn zuläuft, und dann schmieren sie sich wieder überall voll mit Blut. Schließlich werden sie durch ein Klopfen an einer Tür hinter der Bühne unterbrochen.) ~
-@8  = ~Horch! Jemand ist an der Tür! Schnell!
+Als das Blut zu Ende geht, saust Lady Macbeth fÃ¼r einen kurzen Moment hinter die BÃ¼hne, und dann ist sie zurÃ¼ck mit von ihren HÃ¤nden tropfenden frischen Blut, um den Angriff zu erneuern! Macbeth springt vor Angst, als sie auf ihn zulÃ¤uft, und dann schmieren sie sich wieder Ã¼berall voll mit Blut. SchlieÃŸlich werden sie durch ein Klopfen an einer TÃ¼r hinter der BÃ¼hne unterbrochen.) ~
+@8  = ~Horch! Jemand ist an der TÃ¼r! Schnell!
 
-(Lady Macbeth eilt zu einem Eimer Wasser und steckt ihre Hände in den Eimer. Sie kommen sauber heraus.)~ 
+(Lady Macbeth eilt zu einem Eimer Wasser und steckt ihre HÃ¤nde in den Eimer. Sie kommen sauber heraus.)~ 
 @9  = ~Ein bisschen Wasser reinigt uns von dieser Tat.
 
-(Ihre Behauptung ist lächerlich. Ihre Hände können sauber sein, aber am ganzen restlichen Körper hat überall Blut.)~
-@10 = ~Zieht schnell Euer Nachthemd an. Wir geben vor, wir hätten geschlafen.
+(Ihre Behauptung ist lÃ¤cherlich. Ihre HÃ¤nde kÃ¶nnen sauber sein, aber am ganzen restlichen KÃ¶rper hat Ã¼berall Blut.)~
+@10 = ~Zieht schnell Euer Nachthemd an. Wir geben vor, wir hÃ¤tten geschlafen.
 
-(Sie beginnt Macbeth von der Bühne zu drängen, als das Klopfen fortsetzt.)~ 
-@11 = ~Ich bin die Königin von Schottland! Also warum fühle ich mich noch so unglücklich? Es ist, weil ich weiß, dass der kleine Wurm, mit dem ich verheiratet bin, etwas finden wird, das alles vermasselt!~
-@12 = ~Warum seht Ihr so unglücklich aus? Fühlt
+(Sie beginnt Macbeth von der BÃ¼hne zu drÃ¤ngen, als das Klopfen fortsetzt.)~ 
+@11 = ~Ich bin die KÃ¶nigin von Schottland! Also warum fÃ¼hle ich mich noch so unglÃ¼cklich? Es ist, weil ich weiÃŸ, dass der kleine Wurm, mit dem ich verheiratet bin, etwas finden wird, das alles vermasselt!~
+@12 = ~Warum seht Ihr so unglÃ¼cklich aus? FÃ¼hlt
 Ihr Euch noch schuldig? Denkt daran, was getan ist
 ist getan!~
-@13 = ~Nun, natürlich tun sie es. Ihr seid noch Ihr!
-Eine Krone auf Eurem Kopf zu haben ändert nicht, wer Ihr seid!~ 
-@14 = ~Natürlich nicht! Schaut mich an!~
-@15 = ~Nein, habe ich nicht. Oh, seit ich Königin von Schottland wurde, 
-mag ich mit einem zusätzlichen königlichen Glanz leuchten,
-aber ich bin wirklich noch dasselbe einfache Mädchen,
+@13 = ~Nun, natÃ¼rlich tun sie es. Ihr seid noch Ihr!
+Eine Krone auf Eurem Kopf zu haben Ã¤ndert nicht, wer Ihr seid!~ 
+@14 = ~NatÃ¼rlich nicht! Schaut mich an!~
+@15 = ~Nein, habe ich nicht. Oh, seit ich KÃ¶nigin von Schottland wurde, 
+mag ich mit einem zusÃ¤tzlichen kÃ¶niglichen Glanz leuchten,
+aber ich bin wirklich noch dasselbe einfache MÃ¤dchen,
 das ich immer war.~ 
-@16 = ~Werdet Ihr aufhören, Euch damit zu quälen! Ich sagte Euch,
-das ist nur vorübergehend! Ich bleibe nur auf diesem Weg
+@16 = ~Werdet Ihr aufhÃ¶ren, Euch damit zu quÃ¤len! Ich sagte Euch,
+das ist nur vorÃ¼bergehend! Ich bleibe nur auf diesem Weg
 bis wir sicher sind, dass Ihr nicht alles vermasselt.~
 @17 = ~Was habt Ihr jetzt getan?~
-@18 = ~Das wäre das erste Mal.~
-@19 = ~Ich wollte das Haggis überprüfen, das ich die Diener bat, 
-für heute Abend zu kochen. Banquo bat uns
+@18 = ~Das wÃ¤re das erste Mal.~
+@19 = ~Ich wollte das Haggis Ã¼berprÃ¼fen, das ich die Diener bat, 
+fÃ¼r heute Abend zu kochen. Banquo bat uns
 darum.~ 
-@20 = ~Wie könnt Ihr König von Schottland sein und nicht wissen,
+@20 = ~Wie kÃ¶nnt Ihr KÃ¶nig von Schottland sein und nicht wissen,
 was Haggis ist? ~
 @21 = ~Ihr nehmt die Lungen und das Herz eines Schafs, und Ihr
 mischt es mit dem Fett, das um die Nieren des Schafs herum ist,
-und dann fügt Ihr Hafergrütze hinzu, und dann kocht Ihr all das im
+und dann fÃ¼gt Ihr HafergrÃ¼tze hinzu, und dann kocht Ihr all das im
 Schafsmagen.~ 
 @22 = ~Sicherlich. Die Schotten lieben es. Wenn Ihr
-König von Schottlands sein wollt, müsst Ihr es auch lieben!~ 
+KÃ¶nig von Schottlands sein wollt, mÃ¼sst Ihr es auch lieben!~ 
 @23 = ~Warum werdet Ihr es nicht essen?~
 @24 = ~Aber das ist es, das wir heute Abend servieren. Jeder
 isst Haggis.~ 
 @25 = ~Also was wollt Ihr? Wir haben eine kalte Zunge
-übrig.~
+Ã¼brig.~
 @26 = ~Also Ihr werdet nichts essen, das im Magen
 eines anderen war, und Ihr werdet nichts essen, das
 im Mund eines anderen war. Was werdet Ihr essen?~

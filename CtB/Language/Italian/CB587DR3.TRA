@@ -1,54 +1,54 @@
 @1   = ~Fratello, prima che possa aiutarti, devo completare io stessa i miei studi sotto la tutela dell'Arcidruida. Dovresti parlare con lei.~
-@2   = ~Fratello, l'Arcidruida mi ha detto che tu sei davvero meritevole della nostra assistenza. Lei mi ha chiesto di passare un po' di tempo al tuo fianco per insegnarti una preziosa abilit‡.~
-@3   = ~Ancora una volta, Fratello, devi scegliere: noi ti aiuteremo a migliorare, ma tu devi prendere una decisione. Preferisci imparare come mutare forma prendendo le sembianze di un drago, preferisci migliorare i metodi di guarigione, oppure desideri lanciare incantesimi a gran velocit‡? Pensaci bene, Fratello, la scelta finale Ë tua.~
+@2   = ~Fratello, l'Arcidruida mi ha detto che tu sei davvero meritevole della nostra assistenza. Lei mi ha chiesto di passare un po' di tempo al tuo fianco per insegnarti una preziosa abilit√†.~
+@3   = ~Ancora una volta, Fratello, devi scegliere: noi ti aiuteremo a migliorare, ma tu devi prendere una decisione. Preferisci imparare come mutare forma prendendo le sembianze di un drago, preferisci migliorare i metodi di guarigione, oppure desideri lanciare incantesimi a gran velocit√†? Pensaci bene, Fratello, la scelta finale √® tua.~
 @4   = ~Sacerdotessa, credo che mi piacerebbe imparare a mutare forma in un drago.~
 @5   = ~Sacerdotessa, mi piacerebbe migliorare il metodo di guarigione.~
 @6   = ~Per favore insegnami come lanciare gli incantesimi in modo velocissimo, Sacerdotessa.~
-@7   = ~SarÚ pi˘ che felice di insegnartelo, Fratello.~
-@8   = ~Grazie Fratello, per avermi l'opportunit‡ di insegnarti come mutare in forma di drago.~
-@9   = ~Grazie Fratello, per avermi l'opportunit‡ di insegnarti come guarire meglio gli altri.~
-@10  = ~Grazie Fratello, per avermi l'opportunit‡ di insegnarti come lanciare incantesimi in modo molto veloce.~
-@11  = ~Sono contenta di averti aiutato, Fratello, ad essere pi˘ in armonia con la natura. Mi fa anche piacere che tu ci abbia aiutate. Ma c'Ë ancora un incarico finale prima che l'Arcidruida ti possa insegnare un'altra abilit‡. Sei pronto?~
+@7   = ~Sar√≤ pi√π che felice di insegnartelo, Fratello.~
+@8   = ~Grazie Fratello, per avermi l'opportunit√† di insegnarti come mutare in forma di drago.~
+@9   = ~Grazie Fratello, per avermi l'opportunit√† di insegnarti come guarire meglio gli altri.~
+@10  = ~Grazie Fratello, per avermi l'opportunit√† di insegnarti come lanciare incantesimi in modo molto veloce.~
+@11  = ~Sono contenta di averti aiutato, Fratello, ad essere pi√π in armonia con la natura. Mi fa anche piacere che tu ci abbia aiutate. Ma c'√® ancora un incarico finale prima che l'Arcidruida ti possa insegnare un'altra abilit√†. Sei pronto?~
 @12  = ~Si, sacerdotessa. Cosa devo fare?~
 @13  = ~Non adesso, Sacerdotessa. Ho bisogno di un po' di tempo.~
-@14  = ~Allora aspetterÚ che tornerai per parlarti di nuovo, Fratello.~
-@15  = ~Mentre il tuo primo incarico Ë stato abbastanza semplice, il tuo secondo incarico Ë stato un pÚ difficile. Questo incarico finale Ë facile, nel senso che non rischierai la vita. Ecco, Fratello, prendi questo bastone. E' un bastone magico, che si pensava fosse un'arma indistruttibile.~
-@16  = ~Il legno del bastone ora Ë rotto. Con del buon legno l'arma potr‡ essere riparata e riguadagnare cosÏ le sue magiche propriet‡. C'Ë solo una persona nella regione che, con le sue abilit‡, Ë in grado di riparare il bastone, un nano di nome Cromwell. Trova il legno e portaglielo con l'arma. Quando il bastone sar‡ riparato, ritorna da me. ~
-@17  = ~Ci proverÚ, Sacerdotessa.~
+@14  = ~Allora aspetter√≤ che tornerai per parlarti di nuovo, Fratello.~
+@15  = ~Mentre il tuo primo incarico √® stato abbastanza semplice, il tuo secondo incarico √® stato un p√≤ difficile. Questo incarico finale √® facile, nel senso che non rischierai la vita. Ecco, Fratello, prendi questo bastone. E' un bastone magico, che si pensava fosse un'arma indistruttibile.~
+@16  = ~Il legno del bastone ora √® rotto. Con del buon legno l'arma potr√† essere riparata e riguadagnare cos√¨ le sue magiche propriet√†. C'√® solo una persona nella regione che, con le sue abilit√†, √® in grado di riparare il bastone, un nano di nome Cromwell. Trova il legno e portaglielo con l'arma. Quando il bastone sar√† riparato, ritorna da me. ~
+@17  = ~Ci prover√≤, Sacerdotessa.~
 @18  = ~So che lo farai, Fratello.~
 @19  = ~Sei riuscito a riparare il bastone, Fratello?~
 @20  = ~Si, Sacerdotessa. Eccolo.~
 @21  = ~No, Sacerdotessa. Non sono ancora stato in grado di riparare il bastone.~
 @22  = ~Ritorna da me, Fratello, quando l'avrai fatto.~
-@23  = ~Allora ci sei riuscito. Ecco, Fratello, darÚ un ulteriore incantamento al bastone per te e poi sar‡ tuo, consideralo un regalo.~
+@23  = ~Allora ci sei riuscito. Ecco, Fratello, dar√≤ un ulteriore incantamento al bastone per te e poi sar√† tuo, consideralo un regalo.~
 @24  = ~Non ho ancora completato il mio apprendistato presso l'Arcidruida, <GABBER>, sono molto occupata e non posso interrompere le mie meditazioni.~
 @25  = ~Sorella, prima che possa aiutarti, devo completare io stessa i miei studi sotto la tutela dell'Arcidruida. Dovresti parlare con lei.~
-@26  = ~Sorella, l'Arcidruida mi ha detto che tu sei davvero meritevole della nostra assistenza. Lei mi ha chiesto di passare un po' di tempo al tuo fianco per insegnarti una preziosa abilit‡.~
-@27  = ~Ancora una volta, Sorella, devi scegliere: noi ti aiuteremo a migliorare, ma tu devi prendere una decisione. Preferisci imparare come mutare forma prendendo le sembianze di un drago, preferisci migliorare i metodi di guarigione, oppure desideri lanciare incantesimi a gran velocit‡? Pensaci bene, Sorella, la scelta finale Ë tua.~
-@28  = ~SarÚ pi˘ che felice di imparartelo, Sorella.~
-@29  = ~Grazie Sorella, per avermi l'opportunit‡ di insegnarti come mutare in forma di drago.~
-@30  = ~Grazie Sorella, per avermi l'opportunit‡ di insegnarti come guarire meglio gli altri.~
-@31  = ~Grazie Sorella, per avermi l'opportunit‡ di insegnarti come lanciare incantesimi in modo molto veloce.~
-@32  = ~Sono contenta di averti aiutato, Sorella, ad essere pi˘ in armonia con la natura. Mi fa anche piacere che tu ci abbia aiutate. Ma c'Ë ancora un incarico finale prima che l'Arcidruida ti possa insegnare un'altra abilit‡. Sei pronto?~
-@33  = ~Allora aspetterÚ che tornerai per parlarti di nuovo, Sorella.~
-@34  = ~Mentre il tuo primo incarico Ë stato abbastanza semplice, il tuo secondo incarico Ë stato un pÚ difficile. Questo incarico finale Ë facile, nel senso che non rischierai la vita. Ecco, Sorella, prendi questo bastone. E' un bastone magico, che si pensava fosse un'arma indistruttibile.~
+@26  = ~Sorella, l'Arcidruida mi ha detto che tu sei davvero meritevole della nostra assistenza. Lei mi ha chiesto di passare un po' di tempo al tuo fianco per insegnarti una preziosa abilit√†.~
+@27  = ~Ancora una volta, Sorella, devi scegliere: noi ti aiuteremo a migliorare, ma tu devi prendere una decisione. Preferisci imparare come mutare forma prendendo le sembianze di un drago, preferisci migliorare i metodi di guarigione, oppure desideri lanciare incantesimi a gran velocit√†? Pensaci bene, Sorella, la scelta finale √® tua.~
+@28  = ~Sar√≤ pi√π che felice di imparartelo, Sorella.~
+@29  = ~Grazie Sorella, per avermi l'opportunit√† di insegnarti come mutare in forma di drago.~
+@30  = ~Grazie Sorella, per avermi l'opportunit√† di insegnarti come guarire meglio gli altri.~
+@31  = ~Grazie Sorella, per avermi l'opportunit√† di insegnarti come lanciare incantesimi in modo molto veloce.~
+@32  = ~Sono contenta di averti aiutato, Sorella, ad essere pi√π in armonia con la natura. Mi fa anche piacere che tu ci abbia aiutate. Ma c'√® ancora un incarico finale prima che l'Arcidruida ti possa insegnare un'altra abilit√†. Sei pronto?~
+@33  = ~Allora aspetter√≤ che tornerai per parlarti di nuovo, Sorella.~
+@34  = ~Mentre il tuo primo incarico √® stato abbastanza semplice, il tuo secondo incarico √® stato un p√≤ difficile. Questo incarico finale √® facile, nel senso che non rischierai la vita. Ecco, Sorella, prendi questo bastone. E' un bastone magico, che si pensava fosse un'arma indistruttibile.~
 @35  = ~So che lo farai, Sorella.~
 @36  = ~Sei riuscita a riparare il bastone, Sorella?~
 @37  = ~Ritorna da me, Sorella, quando l'avrai fatto.~
-@38  = ~Allora ci sei riuscita. Ecco, Sorella, darÚ un ulteriore incantamento al bastone per te e poi sar‡ tuo, consideralo un regalo.~
+@38  = ~Allora ci sei riuscita. Ecco, Sorella, dar√≤ un ulteriore incantamento al bastone per te e poi sar√† tuo, consideralo un regalo.~
 @39 = ~L'Arcidruida: Apprendimento dei modi della Natura 
 
-Una delle apprendiste dell'Arcidruida mi ha insegnato come mutare forma e prendere le sembianze di un drago, che rappresenta la forma pi˘ avanzata di una trasformazione.~
+Una delle apprendiste dell'Arcidruida mi ha insegnato come mutare forma e prendere le sembianze di un drago, che rappresenta la forma pi√π avanzata di una trasformazione.~
 @40 = ~L'Arcidruida: Apprendimento dei modi della Natura 
 
-Una delle apprendiste dell'Arcidruida mi ha insegnato come curare gli altri in modo pi˘ veloce e con grande efficienza.~
+Una delle apprendiste dell'Arcidruida mi ha insegnato come curare gli altri in modo pi√π veloce e con grande efficienza.~
 @41 = ~L'Arcidruida: Apprendimento dei modi della Natura 
 
-Una delle apprendiste dell'Arcidruida mi ha insegnato come lanciare incentesimi pi˘ velocemente.~
+Una delle apprendiste dell'Arcidruida mi ha insegnato come lanciare incentesimi pi√π velocemente.~
 @42 = ~L'Arcidruida: La Riparazione
 
-Tre druide nei pressi di un boschetto a nord di Athkatla mi hanno chiesto di aiutarle a riparare un bastone magico che Ë stato danneggiato. Mi hanno detto che dovrei trovare una specie di legno raro e portarlo poi ad un nano ad Athkatla, di nome Cromwell, che dovrebbe essere in grado di riparare il bastone.
-  Quando avrÚ riparato il bastone, dovrÚ riportarlo alle druide a sud di Baldur's Gate che mi hanno promesso di insegnarmi un'abilit‡.~
+Tre druide nei pressi di un boschetto a nord di Athkatla mi hanno chiesto di aiutarle a riparare un bastone magico che √® stato danneggiato. Mi hanno detto che dovrei trovare una specie di legno raro e portarlo poi ad un nano ad Athkatla, di nome Cromwell, che dovrebbe essere in grado di riparare il bastone.
+  Quando avr√≤ riparato il bastone, dovr√≤ riportarlo alle druide a sud di Baldur's Gate che mi hanno promesso di insegnarmi un'abilit√†.~
 @43 = ~L'Arcidruida: La Riparazione
 
-Con l'aiuto del nano Cromwell sono stato in grado di riparare un bastone magico che tre druide mi avevano chiesto di aiutarle e riparare e a portare al suo stato magico precedente. Il bastone aveva subito un danneggiamento, ma ora che Ë stato riparato e ulteriormente incantato sembra essere molto pi˘ potente di prima.~
+Con l'aiuto del nano Cromwell sono stato in grado di riparare un bastone magico che tre druide mi avevano chiesto di aiutarle e riparare e a portare al suo stato magico precedente. Il bastone aveva subito un danneggiamento, ma ora che √® stato riparato e ulteriormente incantato sembra essere molto pi√π potente di prima.~

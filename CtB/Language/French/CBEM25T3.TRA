@@ -1,43 +1,43 @@
-@1   = ~Il n'y a rien que je puisse faire pour vous à cet instant de mon périple à travers Féérune.~
-@2   = ~<GABBER>, vous êtes véritablement un être digne de notre confiance, et nous nous inclinons humblement devant vous en réclamant votre aide pour mener à bien notre tâche.~
-@3   = ~Une fois de plus, <GABBER>, le choix vous appartient. Nous vous aiderons à progresser, mais vous devez choisir : préférez-vous apprendre des techniques avancées d'alchimie, c'est-à-dire concocter des élixirs et des potions de soins, choisissez-vous d'apprendre une technique avancée d'enchantement des armes, ou bien d'améliorer vos dons de lanceurs de sorts ? Réfléchissez avec soin, <GABBER>, car votre choix sera définitif.~
+@1   = ~Il n'y a rien que je puisse faire pour vous Ã  cet instant de mon pÃ©riple Ã  travers FÃ©Ã©rune.~
+@2   = ~<GABBER>, vous Ãªtes vÃ©ritablement un Ãªtre digne de notre confiance, et nous nous inclinons humblement devant vous en rÃ©clamant votre aide pour mener Ã  bien notre tÃ¢che.~
+@3   = ~Une fois de plus, <GABBER>, le choix vous appartient. Nous vous aiderons Ã  progresser, mais vous devez choisir : prÃ©fÃ©rez-vous apprendre des techniques avancÃ©es d'alchimie, c'est-Ã -dire concocter des Ã©lixirs et des potions de soins, choisissez-vous d'apprendre une technique avancÃ©e d'enchantement des armes, ou bien d'amÃ©liorer vos dons de lanceurs de sorts ? RÃ©flÃ©chissez avec soin, <GABBER>, car votre choix sera dÃ©finitif.~
 @4   = ~J'aimerais progresser dans l'art de l'alchimie.~
 @5   = ~Je vous serais reconnaissant de m'apprendre comment enchanter les armes.~
-@6   = ~S'il vous plaît, ma Dame, enseignez-moi comment lancer mes sorts plus rapidement.~
-@7   = ~Je serai plus qu'heureuse de vous montrer, <GABBER>, comment mélanger les poudres et autres ingrédients pour concocter des potions.~
-@8   = ~Merci, <GABBER>, de me permettre de vous apprendre à user des techniques avancées de l'art de l'alchimie et de me permettre ainsi de me rapprocher un peu plus du moment où je pourrai quitter Féérune pour l'Île des Elfes.~
-@9   = ~Je serai plus qu'heureuse de vous montrer, <GABBER>, les techniques avancées pour enchanter vos armes.~
-@10  = ~Merci, <GABBER>, de me permettre de vous apprendre comment enchanter des armes pour vous rendre encore plus puissant. Souvenez-vous que vous devez porter sur vous l'arme que vous souhaitez enchanter ou le sortilège échouera. Et rappellez-vous qu'il ne fonctionne que sur les armes de corps-à-corps et pas sur les armes de jet. vous m'avez aidée à me rapprocher un peu plus du moment où je pourrai quitter Féérune pour l'Île des Elfes.~
-@11  = ~Je serai plus qu'heureuse de vous montrer, <GABBER>, comment accroître votre vitesse de lancement des sorts.~
-@12  = ~Merci, <GABBER>, de me permettre de vous apprende comment jeter un sort plus vite et plus efficacement. Vous m'avez aidée à me rapprocher un peu plus du moment où je pourrai quitter Féérune pour l'Île des Elfes.~
-@13  = ~Je suis heureuse d'avoir pu vous aider, <GABBER>. Il nous reste une dernière quête à vous donner avant que notre tâche soit accomplie, et que nous vous enseignons une dernière compétence. Êtes-vous prêt ?~
+@6   = ~S'il vous plaÃ®t, ma Dame, enseignez-moi comment lancer mes sorts plus rapidement.~
+@7   = ~Je serai plus qu'heureuse de vous montrer, <GABBER>, comment mÃ©langer les poudres et autres ingrÃ©dients pour concocter des potions.~
+@8   = ~Merci, <GABBER>, de me permettre de vous apprendre Ã  user des techniques avancÃ©es de l'art de l'alchimie et de me permettre ainsi de me rapprocher un peu plus du moment oÃ¹ je pourrai quitter FÃ©Ã©rune pour l'Ãle des Elfes.~
+@9   = ~Je serai plus qu'heureuse de vous montrer, <GABBER>, les techniques avancÃ©es pour enchanter vos armes.~
+@10  = ~Merci, <GABBER>, de me permettre de vous apprendre comment enchanter des armes pour vous rendre encore plus puissant. Souvenez-vous que vous devez porter sur vous l'arme que vous souhaitez enchanter ou le sortilÃ¨ge Ã©chouera. Et rappellez-vous qu'il ne fonctionne que sur les armes de corps-Ã -corps et pas sur les armes de jet. vous m'avez aidÃ©e Ã  me rapprocher un peu plus du moment oÃ¹ je pourrai quitter FÃ©Ã©rune pour l'Ãle des Elfes.~
+@11  = ~Je serai plus qu'heureuse de vous montrer, <GABBER>, comment accroÃ®tre votre vitesse de lancement des sorts.~
+@12  = ~Merci, <GABBER>, de me permettre de vous apprende comment jeter un sort plus vite et plus efficacement. Vous m'avez aidÃ©e Ã  me rapprocher un peu plus du moment oÃ¹ je pourrai quitter FÃ©Ã©rune pour l'Ãle des Elfes.~
+@13  = ~Je suis heureuse d'avoir pu vous aider, <GABBER>. Il nous reste une derniÃ¨re quÃªte Ã  vous donner avant que notre tÃ¢che soit accomplie, et que nous vous enseignons une derniÃ¨re compÃ©tence. ÃŠtes-vous prÃªt ?~
 @14  = ~Oui, ma Soeur. Que dois-je faire ?~
 @15  = ~Pas maintenant, ma Soeur. J'ai besoin de temps.~
 @16  = ~Alors j'attendrai notre prochaine rencontre avec impatience dans l'attente de mon voyage vers l'ouest.~
-@17  = ~Alors que votre première mission était simple, la deuxième fut plus difficile. Cette dernière tâche sera aisée, au sens où vous n’aurez pas à risquer votre vie. Prenez la garde de cette épée, <GABBER>. Il s'agit de la poignée d'une Lame de Lune, qui fut créée pour être une arme indestructible.~
-@18  = ~Cette arme est perdue pour nous, mais avec les bons métaux, elle pourrait être reforgée. Il n'existe qu'un être dans cette région capable d'y arriver, un descendant du Royaume Perdu, le nain nommé Cromwell. Apportez-lui la poignée et le métal nécessaire pour qu'il puisse reforger l'épée. Lorsque la Lame de Lune sera revenue à la vie, rapporte-la moi.~
+@17  = ~Alors que votre premiÃ¨re mission Ã©tait simple, la deuxiÃ¨me fut plus difficile. Cette derniÃ¨re tÃ¢che sera aisÃ©e, au sens oÃ¹ vous nâ€™aurez pas Ã  risquer votre vie. Prenez la garde de cette Ã©pÃ©e, <GABBER>. Il s'agit de la poignÃ©e d'une Lame de Lune, qui fut crÃ©Ã©e pour Ãªtre une arme indestructible.~
+@18  = ~Cette arme est perdue pour nous, mais avec les bons mÃ©taux, elle pourrait Ãªtre reforgÃ©e. Il n'existe qu'un Ãªtre dans cette rÃ©gion capable d'y arriver, un descendant du Royaume Perdu, le nain nommÃ© Cromwell. Apportez-lui la poignÃ©e et le mÃ©tal nÃ©cessaire pour qu'il puisse reforger l'Ã©pÃ©e. Lorsque la Lame de Lune sera revenue Ã  la vie, rapporte-la moi.~
 @19  = ~J'essaierai, ma Dame.~
 @20  = ~Je sais que vous y arriverez, <GABBER>.~
 @21  = ~Avez-vous pu faire revivre la Lame de Lune ?~
 @22  = ~Oui, ma Soeur. La voici.~
 @23  = ~Non, ma Soeur. Je n'ai pas encore pu le faire.~
 @24  = ~Revenez-me voir, <GABBER>, lorsque ce sera fait.~
-@25  = ~Alors c'est fait. Je suis encore plus proche de ma Retraite. Venez, <GABBER>, je vais compléter les enchantements de l'épée et vous l'offrir en cadeau. Vous avez gagné le droit de porter un antique artéfact Elfique, et pour cela vous serez honoré.~
-@26  = ~Nous attendons le moment de notre dernier voyage de Féérune vers Eternelle-Rencontre. Que la Seldarine vous protège, <GABBER>.~
+@25  = ~Alors c'est fait. Je suis encore plus proche de ma Retraite. Venez, <GABBER>, je vais complÃ©ter les enchantements de l'Ã©pÃ©e et vous l'offrir en cadeau. Vous avez gagnÃ© le droit de porter un antique artÃ©fact Elfique, et pour cela vous serez honorÃ©.~
+@26  = ~Nous attendons le moment de notre dernier voyage de FÃ©Ã©rune vers Eternelle-Rencontre. Que la Seldarine vous protÃ¨ge, <GABBER>.~
 @27 = ~Les anciennes Elfes : Instruction magique
 
-Les trois sorcières que j'ai rencontrées à la lisière occidentale de la forêt de Téthyr, près de l'entrée d'Ombre-Terre, ont été assez aimables pour m'apprendre des techniques avancées d'alchimie afin de créer de puissantes potions.~
+Les trois sorciÃ¨res que j'ai rencontrÃ©es Ã  la lisiÃ¨re occidentale de la forÃªt de TÃ©thyr, prÃ¨s de l'entrÃ©e d'Ombre-Terre, ont Ã©tÃ© assez aimables pour m'apprendre des techniques avancÃ©es d'alchimie afin de crÃ©er de puissantes potions.~
 @28 = ~Les anciennes Elfes : Instruction magique
 
-Les trois sorcières que j'ai rencontrées à la lisière occidentale de la forêt de Téthyr, près de l'entrée d'Ombre-Terre, ont été assez aimables pour m'apprendre comment enchanter une lame normale en une puissante arme magique.~
+Les trois sorciÃ¨res que j'ai rencontrÃ©es Ã  la lisiÃ¨re occidentale de la forÃªt de TÃ©thyr, prÃ¨s de l'entrÃ©e d'Ombre-Terre, ont Ã©tÃ© assez aimables pour m'apprendre comment enchanter une lame normale en une puissante arme magique.~
 @29 = ~Les anciennes Elfes : Instruction magique
 
-Les trois sorcières que j'ai rencontrées à la lisière occidentale de la forêt de Téthyr, près de l'entrée d'Ombre-Terre, ont été assez aimables pour m'apprendre comment lancer des sorts avec une plus grande célérité.~
+Les trois sorciÃ¨res que j'ai rencontrÃ©es Ã  la lisiÃ¨re occidentale de la forÃªt de TÃ©thyr, prÃ¨s de l'entrÃ©e d'Ombre-Terre, ont Ã©tÃ© assez aimables pour m'apprendre comment lancer des sorts avec une plus grande cÃ©lÃ©ritÃ©.~
 @30 = ~Les anciennes Elfes : Reforger la Lame de Lune
 
-Les sorcières qui m'ont prodigué leur enseignement m'ont demandé de remplir une dernière quête. Cette fois, elles m'ont confié la poignée d'une Lame de Lune brisée, bien qu'elle fut forgée pour être une arme indestructible. Quoi qu'ait causé la dégradation de l'arme, il s'agissait sans doute d'une force colossale.
+Les sorciÃ¨res qui m'ont prodiguÃ© leur enseignement m'ont demandÃ© de remplir une derniÃ¨re quÃªte. Cette fois, elles m'ont confiÃ© la poignÃ©e d'une Lame de Lune brisÃ©e, bien qu'elle fut forgÃ©e pour Ãªtre une arme indestructible. Quoi qu'ait causÃ© la dÃ©gradation de l'arme, il s'agissait sans doute d'une force colossale.
 
-Je dois trouver le métal qui permettra de reforger cette poignée pour en faire à nouveau une arme. Je ne sais pas où trouver un tel métal, mais les Elfes que j'ai rencontrées à l'entrée d'Ombre-Terre m'ont dit qu'un nain, du nom de Cromwell, saurait reforger cette lame magique.~
+Je dois trouver le mÃ©tal qui permettra de reforger cette poignÃ©e pour en faire Ã  nouveau une arme. Je ne sais pas oÃ¹ trouver un tel mÃ©tal, mais les Elfes que j'ai rencontrÃ©es Ã  l'entrÃ©e d'Ombre-Terre m'ont dit qu'un nain, du nom de Cromwell, saurait reforger cette lame magique.~
 @31 = ~Les anciennes Elfes : Reforger la Lame de Lune
 
-Avec l'aide de Cromwell, j'ai pu reforger l'antique Lame de Lune Elfique. Lorsque je l'ai rapportée aux sorcières, elles m'ont récompensé en renforçant les enchantements de l'épée. J'étais persuadé que les Lames de Lune choisissaient elles-mêmes leur porteur, mais les Elfes m'ont offert cette arme puissante, ce qui constitue un immense honneur pour les Elfes et bien plus encore pour les autres races.~
+Avec l'aide de Cromwell, j'ai pu reforger l'antique Lame de Lune Elfique. Lorsque je l'ai rapportÃ©e aux sorciÃ¨res, elles m'ont rÃ©compensÃ© en renforÃ§ant les enchantements de l'Ã©pÃ©e. J'Ã©tais persuadÃ© que les Lames de Lune choisissaient elles-mÃªmes leur porteur, mais les Elfes m'ont offert cette arme puissante, ce qui constitue un immense honneur pour les Elfes et bien plus encore pour les autres races.~

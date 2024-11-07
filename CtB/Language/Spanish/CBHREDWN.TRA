@@ -1,155 +1,155 @@
 @1   = ~Bienhallado. Tardeth parece haber decidido que sois de confianza, pero eso no significa que yo lo haya hecho.~
 ~Bienhallada. Tardeth parece haber decidido que sois de confianza, pero eso no significa que yo lo haya hecho.~
-@2   = ~Sería mejor que vigilarais dónde ponéis los pies, o el elfo y yo os clavaremos tantas flechas que podríais conseguir un trabajo de costurero con alfiretero incluido.~
+@2   = ~SerÃ­a mejor que vigilarais dÃ³nde ponÃ©is los pies, o el elfo y yo os clavaremos tantas flechas que podrÃ­ais conseguir un trabajo de costurero con alfiretero incluido.~
 @3   = ~Aceptad su oferta, Tardeth. Necesitamos toda la ayuda que podamos conseguir.~
-@4   = ~Por la forma en que hacéis nuevos miembros honoríficos a nuestra Compañía, Tardeth, todos en Faerûn van a unirse a nosotros.~
-@5   = ~Paddy, si no vais a tomaroslo en serio, no quiero que pongáis en peligro la seguridad de los demás.~
-@6   = ~Bien. Pero aseguráos de no quedaros enredando por aquí.~
-@7   = ~Creo que todos están listos. Vayamos, Tardeth.~
-@8   = ~Oí eso, elfo. Soy tan buena con el arco como vos, y lo sabéis.~
-@9   = ~Le tomo mucho el pelo a Sylvanus sobre su habilidad con el arco, pero no me gustaría tener a ningún otro guardándome las espaldas con un arco.~
-@10  = ~Así es como yo lo ví, Lawantha. Creo que Sylvanus hizo la elección correcta, y es mejor que os haya rasgado algunos hilos de vuestra túnica a que tuvierais el cráneo destrozado por una maza.~
-@11  = ~¡Paddy! ¡Ya os lo he dicho antes! Ni estabais conmigo, ni me ayudasteis.~
-@12  = ~Si escucho que mencionáis cómo me "ayudasteis" esa vez, voy a hacer que Arkanus se siente sobre vos.~
-@13  = ~¿Whitey Bigotelargo? ¿Cómo podríais confundir...? No importa. No quiero saberlo.~
+@4   = ~Por la forma en que hacÃ©is nuevos miembros honorÃ­ficos a nuestra CompaÃ±Ã­a, Tardeth, todos en FaerÃ»n van a unirse a nosotros.~
+@5   = ~Paddy, si no vais a tomaroslo en serio, no quiero que pongÃ¡is en peligro la seguridad de los demÃ¡s.~
+@6   = ~Bien. Pero asegurÃ¡os de no quedaros enredando por aquÃ­.~
+@7   = ~Creo que todos estÃ¡n listos. Vayamos, Tardeth.~
+@8   = ~OÃ­ eso, elfo. Soy tan buena con el arco como vos, y lo sabÃ©is.~
+@9   = ~Le tomo mucho el pelo a Sylvanus sobre su habilidad con el arco, pero no me gustarÃ­a tener a ningÃºn otro guardÃ¡ndome las espaldas con un arco.~
+@10  = ~AsÃ­ es como yo lo vÃ­, Lawantha. Creo que Sylvanus hizo la elecciÃ³n correcta, y es mejor que os haya rasgado algunos hilos de vuestra tÃºnica a que tuvierais el crÃ¡neo destrozado por una maza.~
+@11  = ~Â¡Paddy! Â¡Ya os lo he dicho antes! Ni estabais conmigo, ni me ayudasteis.~
+@12  = ~Si escucho que mencionÃ¡is cÃ³mo me "ayudasteis" esa vez, voy a hacer que Arkanus se siente sobre vos.~
+@13  = ~Â¿Whitey Bigotelargo? Â¿CÃ³mo podrÃ­ais confundir...? No importa. No quiero saberlo.~
 @14  = ~No, lo que el chico necesita es algo de oro y una noche con una cortesana.~
-@15  = ~Entonces quizás nos deje a Lawantha y a mí tranquilas.~
-@16  = ~¡Buenas! Si necesitáis información, hablad con Tardeth, o si no, podemos acabar charlando sobre trivialidades.~
-@17  = ~¿Cómo dijisteis que os llamabais?~
-@18  = ~¿Qué hacéis?~
-@19  = ~Soy un aventurero mundialmente famoso. ¿Tenéis alguna historia que contar?~
-~Soy un aventurera mundialmente famosa. ¿Tenéis alguna historia que contar?~
+@15  = ~Entonces quizÃ¡s nos deje a Lawantha y a mÃ­ tranquilas.~
+@16  = ~Â¡Buenas! Si necesitÃ¡is informaciÃ³n, hablad con Tardeth, o si no, podemos acabar charlando sobre trivialidades.~
+@17  = ~Â¿CÃ³mo dijisteis que os llamabais?~
+@18  = ~Â¿QuÃ© hacÃ©is?~
+@19  = ~Soy un aventurero mundialmente famoso. Â¿TenÃ©is alguna historia que contar?~
+~Soy un aventurera mundialmente famosa. Â¿TenÃ©is alguna historia que contar?~
 @20  = ~Soy Marilyn. Marilyn Velloliebre.~
-@21  = ~Me reconocéis, ¿no, Jaheria?~
+@21  = ~Me reconocÃ©is, Â¿no, Jaheria?~
 @22  = ~Correcto, Jaheira. Nunca se puede ser demasiado cauto.~
-@23  = ~Pero a lo que se estaba refiriendo Jaheira, <CHARNAME>, no tiene que ver con los Arpistas. Jaheria y yo tenemos un pasado común, aunque sólo supe de ella hace poco.~
-@24  = ~Intento no pensar mucho en los Dias Negros, pero hacemos lo que podemos. Fue Lhaeo quien me ayudó a superar mis problemas.~
-@25  = ~Comprendo que esta haciendo bien al esconderse, y espero que llegue el día en que Tethyr vuelva a ser una monarquía, o al menos una democracia.~
-@26  = ~No lo entiendo. ¿De qué estáis hablando?~
-@27  = ~Jaheria y yo tenemos un pasado en común, <CHARNAME>. Nacimos en el mismo país, y allí vivimos la mayoría de nuestras vidas.~
-@28  = ~A ambas se nos obligó a abandonarlo, o sufrir las consecuencias.~
-@29  = ~<CHARNAME>, yo solía vivir en la capital de Tethyr, Zazesspur, pero ahora el Bosque es mi hogar y la Compañía mi familia.~
-@30  = ~Si no os importa que pregunte, ¿alguien más de vuestra familia pudo escapar?~
-@31  = ~<CHARNAME>, perdonad mi reluctancia para simplificar la historia de mi vida, pero dado que nos hemos conocido, compartiré una historia con vos.~
-@32  = ~Hace muchos años, una jovencita iba a ser entregada en matrimonio a un noble. A ella no la emocionaba este proyecto, y en su lugar decidió alistarse en el ejército nacional. La obligaron a casarse, a pesar de estar en el ejército.~
-@33  = ~Fue esta decisión la que salvó la vida de esta jovencita. Poco tiempo después, unos disturbios primero y una rebelión después estallaron en su país natal, y sólo por suerte y su habilidad con la espada fue capaz de escapar de la carnicería y ocultarse.~
-@34  = ~Esta mujer ha permanecido oculta desde esos Diez Días Negros, y ahora lucha para traer de nuevo el orden a su país natal.~
-@35  = ~<CHARNAME>, esa mujer soy yo. Fui una de las pocas afortunadas en escapar de los Días Negros.~
-@36  = ~No. No me gusta compartir mi pasado con extraños, pero la mayoría de mi familia, el marido con la que me obligaron a casarme, y mi señor, fueron asesinados durante el caos en el que se convirtió Tethyr durante los Días Negros.~
-@37  = ~Perdóname. No lo sabía.~
-@38  = ~Sé que no lo sabíais. Por eso os perdono.~
-@39  = ~Soy un miembro de la Compañía de los Ocho. Supongo que sería la segunda al mando, pero Tardeth es el líder no oficial del grupo.~
-@40  = ~Junto a Tardeth, soy la otra luchadora en el frente de batalla contra los enemigos de la Compañía. Pero también puedo ocupar otros papeles; soy una buena tiradora con arco.~
-@41  = ~Pero como dije, Tardeth es nuestro lider extraoficial, asi que si necesitáis alguna información y ayuda, deberíais hablar con él.~
-@42  = ~Hay muchas cosas que hacer aquí en Tethyr. ¿Queréis aventuras?~
-@43  = ~Si tenéis la posibilidad, deberías conocer a Garlokantha en la zona oriental del Bosque de Tethyr, a sólo medio día de camino desde aquí.~
+@23  = ~Pero a lo que se estaba refiriendo Jaheira, <CHARNAME>, no tiene que ver con los Arpistas. Jaheria y yo tenemos un pasado comÃºn, aunque sÃ³lo supe de ella hace poco.~
+@24  = ~Intento no pensar mucho en los Dias Negros, pero hacemos lo que podemos. Fue Lhaeo quien me ayudÃ³ a superar mis problemas.~
+@25  = ~Comprendo que esta haciendo bien al esconderse, y espero que llegue el dÃ­a en que Tethyr vuelva a ser una monarquÃ­a, o al menos una democracia.~
+@26  = ~No lo entiendo. Â¿De quÃ© estÃ¡is hablando?~
+@27  = ~Jaheria y yo tenemos un pasado en comÃºn, <CHARNAME>. Nacimos en el mismo paÃ­s, y allÃ­ vivimos la mayorÃ­a de nuestras vidas.~
+@28  = ~A ambas se nos obligÃ³ a abandonarlo, o sufrir las consecuencias.~
+@29  = ~<CHARNAME>, yo solÃ­a vivir en la capital de Tethyr, Zazesspur, pero ahora el Bosque es mi hogar y la CompaÃ±Ã­a mi familia.~
+@30  = ~Si no os importa que pregunte, Â¿alguien mÃ¡s de vuestra familia pudo escapar?~
+@31  = ~<CHARNAME>, perdonad mi reluctancia para simplificar la historia de mi vida, pero dado que nos hemos conocido, compartirÃ© una historia con vos.~
+@32  = ~Hace muchos aÃ±os, una jovencita iba a ser entregada en matrimonio a un noble. A ella no la emocionaba este proyecto, y en su lugar decidiÃ³ alistarse en el ejÃ©rcito nacional. La obligaron a casarse, a pesar de estar en el ejÃ©rcito.~
+@33  = ~Fue esta decisiÃ³n la que salvÃ³ la vida de esta jovencita. Poco tiempo despuÃ©s, unos disturbios primero y una rebeliÃ³n despuÃ©s estallaron en su paÃ­s natal, y sÃ³lo por suerte y su habilidad con la espada fue capaz de escapar de la carnicerÃ­a y ocultarse.~
+@34  = ~Esta mujer ha permanecido oculta desde esos Diez DÃ­as Negros, y ahora lucha para traer de nuevo el orden a su paÃ­s natal.~
+@35  = ~<CHARNAME>, esa mujer soy yo. Fui una de las pocas afortunadas en escapar de los DÃ­as Negros.~
+@36  = ~No. No me gusta compartir mi pasado con extraÃ±os, pero la mayorÃ­a de mi familia, el marido con la que me obligaron a casarme, y mi seÃ±or, fueron asesinados durante el caos en el que se convirtiÃ³ Tethyr durante los DÃ­as Negros.~
+@37  = ~PerdÃ³name. No lo sabÃ­a.~
+@38  = ~SÃ© que no lo sabÃ­ais. Por eso os perdono.~
+@39  = ~Soy un miembro de la CompaÃ±Ã­a de los Ocho. Supongo que serÃ­a la segunda al mando, pero Tardeth es el lÃ­der no oficial del grupo.~
+@40  = ~Junto a Tardeth, soy la otra luchadora en el frente de batalla contra los enemigos de la CompaÃ±Ã­a. Pero tambiÃ©n puedo ocupar otros papeles; soy una buena tiradora con arco.~
+@41  = ~Pero como dije, Tardeth es nuestro lider extraoficial, asi que si necesitÃ¡is alguna informaciÃ³n y ayuda, deberÃ­ais hablar con Ã©l.~
+@42  = ~Hay muchas cosas que hacer aquÃ­ en Tethyr. Â¿QuerÃ©is aventuras?~
+@43  = ~Si tenÃ©is la posibilidad, deberÃ­as conocer a Garlokantha en la zona oriental del Bosque de Tethyr, a sÃ³lo medio dÃ­a de camino desde aquÃ­.~
 @44  = ~O hacer una visita a Tethirmin, archidruida de Musgolito.~
-@45  = ~Pero si planeáis ir a la fortaleza del Culto del Dragón, deberíais hablar con Tardeth.~
-@46  = ~Estoy muy contenta de que hayáis decidido ayudarnos contra el Culto.~
-@47  = ~Deberíamos usar toda la ayuda que podamos conseguir.~
+@45  = ~Pero si planeÃ¡is ir a la fortaleza del Culto del DragÃ³n, deberÃ­ais hablar con Tardeth.~
+@46  = ~Estoy muy contenta de que hayÃ¡is decidido ayudarnos contra el Culto.~
+@47  = ~DeberÃ­amos usar toda la ayuda que podamos conseguir.~
 @48  = ~Siempre me alegra tener otro guerrero decente para guardarme las espaldas.~
 ~Siempre me alegra tener otra guerrera decente para guardarme las espaldas.~
-@49  = ~Es bueno tener otro tejedor del Arte además de Lawantha.~
-~Es bueno tener otra tejedora del Arte además de Lawantha.~
-@50  = ~Aunque no seáis un druida como Arkanus y Manny, es bueno tener a los dioses de nuestro lado.~
-~Aunque no seáis una druida como Arkanus y Manny, es bueno tener a los dioses de nuestro lado.~
-@51  = ~Aunque en realidad no me importa vuestra profesión, encontraremos un buen uso para un ladrón en la batalla.~
-~Aunque en realidad no me importa vuestra profesión, encontraremos un buen uso para una ladrona en la batalla.~
-@52  = ~Espero que podáis inspirarnos a todos con vuestros talentos musicales. ¿Qué instrumento tocáis?~
-@53  = ~Mis dedos son bastante hábiles con una flauta.~
+@49  = ~Es bueno tener otro tejedor del Arte ademÃ¡s de Lawantha.~
+~Es bueno tener otra tejedora del Arte ademÃ¡s de Lawantha.~
+@50  = ~Aunque no seÃ¡is un druida como Arkanus y Manny, es bueno tener a los dioses de nuestro lado.~
+~Aunque no seÃ¡is una druida como Arkanus y Manny, es bueno tener a los dioses de nuestro lado.~
+@51  = ~Aunque en realidad no me importa vuestra profesiÃ³n, encontraremos un buen uso para un ladrÃ³n en la batalla.~
+~Aunque en realidad no me importa vuestra profesiÃ³n, encontraremos un buen uso para una ladrona en la batalla.~
+@52  = ~Espero que podÃ¡is inspirarnos a todos con vuestros talentos musicales. Â¿QuÃ© instrumento tocÃ¡is?~
+@53  = ~Mis dedos son bastante hÃ¡biles con una flauta.~
 @54  = ~Soy muy bueno con las teclas de un clavicordio.~
 ~Soy muy buena con las teclas de un clavicordio.~
-@55  = ~Toco muchos instrumentos, pero ninguno como el xilófono.~
-@56  = ~La armónica.~
-@57  = ~Sólo soy un bardo normalito, con un arpa sobre mi hombro. Nada especial.~
-~Sólo soy una barda normalita, con un arpa sobre mi hombro. Nada especial.~
-@58  = ~Cuando estaba en la Academia Bárdica, estuve en la banda del equipo de justas, y aprendí a tocar la tuba.~
+@55  = ~Toco muchos instrumentos, pero ninguno como el xilÃ³fono.~
+@56  = ~La armÃ³nica.~
+@57  = ~SÃ³lo soy un bardo normalito, con un arpa sobre mi hombro. Nada especial.~
+~SÃ³lo soy una barda normalita, con un arpa sobre mi hombro. Nada especial.~
+@58  = ~Cuando estaba en la Academia BÃ¡rdica, estuve en la banda del equipo de justas, y aprendÃ­ a tocar la tuba.~
 @59  = ~Toco el fagot.~
 @60  = ~La gaita.~
-@61  = ~Toco el violín. De hecho, soy el mejor que haya podido existir. Incluso una vez derroté a Cyric cuando apostó sobre quién sería mejor violinista.~
-~Toco el violín. De hecho, soy la mejor que haya podido existir. Incluso una vez derroté a Cyric cuando apostó sobre quién sería mejor violinista.~
-@62  = ~Estamos encantados de que estéis a nuestro lado, sin importar el instrumento que toquéis.~
-@63  = ~Jamás había oido hablar de un bardo aventurero con un clavicordio. ¿No es algo difícil de transportar?~
-@64  = ~Sólo por las montañas.~
-@65  = ~Sólo si os sentáis sobre él.~
-@66  = ~Estoy segura que, como paladín, estaréis acostumbrado a combatir las organizaciones malvadas de Faerûn. Estamos contentos de que estés en nuestro bando.~
-~Estoy segura que, como paladín, estaréis acostumbrada a combatir las organizaciones malvadas de Faerûn. Estamos contentos de que estés en nuestro bando.~
-@67  = ~Estoy segura que vuestras habilidades de luchador y de mago nos serán muy útiles.~
-~Estoy segura que vuestras habilidades de luchadora y de maga nos serán muy útiles.~
-@68  = ~Estoy segura que vuestras habilidades de luchador y de clérigo nos serán muy útiles.~
-~Estoy segura que vuestras habilidades de luchadora y de clérigo nos serán muy útiles.~
-@69  = ~Estoy segura que vuestras habilidades de luchador y de ladrón nos serán muy útiles.~
-~Estoy segura que vuestras habilidades de luchadora y de ladrona nos serán muy útiles.~
-@70  = ~Estoy segura que vuestras habilidades de luchador, mago y ladrón nos serán muy útiles.~
-~Estoy segura que vuestras habilidades de luchadora, maga y ladrona nos serán muy útiles.~
-@71  = ~Será bueno para Manny ver a otro druida experimentado en acción. En verdad necesita una inyección de confianza.~
-@72  = ~Vuestras habilidades, unidas a las de Tardeth, nos ayudarán bastante a rastrear al Culto.~
-@73  = ~Estoy segura que vuestras habilidades de ladrón y mago nos serán muy útiles.~
-~Estoy segura que vuestras habilidades de ladrona y maga nos serán muy útiles.~
-@74  = ~Estoy segura que vuestras habilidades de clérigo y mago nos serán muy útiles.~
-~Estoy segura que vuestras habilidades de clérigo y maga nos serán muy útiles.~
-@75  = ~Estoy segura que vuestras habilidades de ladrón y clérigo nos serán muy útiles.~
-~Estoy segura que vuestras habilidades de ladrona y clérigo nos serán muy útiles.~
-@76  = ~Estoy segura que vuestras habilidades de luchador y druida nos serán muy útiles.~
-~Estoy segura que vuestras habilidades de luchadora y druida nos serán muy útiles.~
-@77  = ~Estoy segura que vuestras habilidades de luchador, mago y clérigo nos serán muy útiles.~
-~Estoy segura que vuestras habilidades de luchadora, maga y clérigo nos serán muy útiles.~
-@78  = ~Estoy segura que vuestras habilidades de clérigo y explorador nos serán muy útiles.~
-~Estoy segura que vuestras habilidades de clérigo y exploradora nos serán muy útiles.~
-@79  = ~Nunca he entendido la magia, salvo la de mi espada, pero estoy segura que vuestras habilidades como hechicero nos serán de gran utilidad.~
-~Nunca he entendido la magia, salvo la de mi espada, pero estoy segura que vuestras habilidades como hechicera nos serán de gran utilidad.~
+@61  = ~Toco el violÃ­n. De hecho, soy el mejor que haya podido existir. Incluso una vez derrotÃ© a Cyric cuando apostÃ³ sobre quiÃ©n serÃ­a mejor violinista.~
+~Toco el violÃ­n. De hecho, soy la mejor que haya podido existir. Incluso una vez derrotÃ© a Cyric cuando apostÃ³ sobre quiÃ©n serÃ­a mejor violinista.~
+@62  = ~Estamos encantados de que estÃ©is a nuestro lado, sin importar el instrumento que toquÃ©is.~
+@63  = ~JamÃ¡s habÃ­a oido hablar de un bardo aventurero con un clavicordio. Â¿No es algo difÃ­cil de transportar?~
+@64  = ~SÃ³lo por las montaÃ±as.~
+@65  = ~SÃ³lo si os sentÃ¡is sobre Ã©l.~
+@66  = ~Estoy segura que, como paladÃ­n, estarÃ©is acostumbrado a combatir las organizaciones malvadas de FaerÃ»n. Estamos contentos de que estÃ©s en nuestro bando.~
+~Estoy segura que, como paladÃ­n, estarÃ©is acostumbrada a combatir las organizaciones malvadas de FaerÃ»n. Estamos contentos de que estÃ©s en nuestro bando.~
+@67  = ~Estoy segura que vuestras habilidades de luchador y de mago nos serÃ¡n muy Ãºtiles.~
+~Estoy segura que vuestras habilidades de luchadora y de maga nos serÃ¡n muy Ãºtiles.~
+@68  = ~Estoy segura que vuestras habilidades de luchador y de clÃ©rigo nos serÃ¡n muy Ãºtiles.~
+~Estoy segura que vuestras habilidades de luchadora y de clÃ©rigo nos serÃ¡n muy Ãºtiles.~
+@69  = ~Estoy segura que vuestras habilidades de luchador y de ladrÃ³n nos serÃ¡n muy Ãºtiles.~
+~Estoy segura que vuestras habilidades de luchadora y de ladrona nos serÃ¡n muy Ãºtiles.~
+@70  = ~Estoy segura que vuestras habilidades de luchador, mago y ladrÃ³n nos serÃ¡n muy Ãºtiles.~
+~Estoy segura que vuestras habilidades de luchadora, maga y ladrona nos serÃ¡n muy Ãºtiles.~
+@71  = ~SerÃ¡ bueno para Manny ver a otro druida experimentado en acciÃ³n. En verdad necesita una inyecciÃ³n de confianza.~
+@72  = ~Vuestras habilidades, unidas a las de Tardeth, nos ayudarÃ¡n bastante a rastrear al Culto.~
+@73  = ~Estoy segura que vuestras habilidades de ladrÃ³n y mago nos serÃ¡n muy Ãºtiles.~
+~Estoy segura que vuestras habilidades de ladrona y maga nos serÃ¡n muy Ãºtiles.~
+@74  = ~Estoy segura que vuestras habilidades de clÃ©rigo y mago nos serÃ¡n muy Ãºtiles.~
+~Estoy segura que vuestras habilidades de clÃ©rigo y maga nos serÃ¡n muy Ãºtiles.~
+@75  = ~Estoy segura que vuestras habilidades de ladrÃ³n y clÃ©rigo nos serÃ¡n muy Ãºtiles.~
+~Estoy segura que vuestras habilidades de ladrona y clÃ©rigo nos serÃ¡n muy Ãºtiles.~
+@76  = ~Estoy segura que vuestras habilidades de luchador y druida nos serÃ¡n muy Ãºtiles.~
+~Estoy segura que vuestras habilidades de luchadora y druida nos serÃ¡n muy Ãºtiles.~
+@77  = ~Estoy segura que vuestras habilidades de luchador, mago y clÃ©rigo nos serÃ¡n muy Ãºtiles.~
+~Estoy segura que vuestras habilidades de luchadora, maga y clÃ©rigo nos serÃ¡n muy Ãºtiles.~
+@78  = ~Estoy segura que vuestras habilidades de clÃ©rigo y explorador nos serÃ¡n muy Ãºtiles.~
+~Estoy segura que vuestras habilidades de clÃ©rigo y exploradora nos serÃ¡n muy Ãºtiles.~
+@79  = ~Nunca he entendido la magia, salvo la de mi espada, pero estoy segura que vuestras habilidades como hechicero nos serÃ¡n de gran utilidad.~
+~Nunca he entendido la magia, salvo la de mi espada, pero estoy segura que vuestras habilidades como hechicera nos serÃ¡n de gran utilidad.~
 @80  = ~No dudo en absoluto que con vuestras habilidades como monje tendremos muy pocos problemas con el Culto.~
-@81  = ~Pienso que todos se alegran también de teneros a bordo.~
+@81  = ~Pienso que todos se alegran tambiÃ©n de teneros a bordo.~
 @82  = ~Gracias. Me alegra poder ayudar.~
-@83  = ~Querría preguntaros una cosa. Sobre vuestra Compañía, si no os importa.~
-@84  = ~Me quedaré por aquí hasta que sea demasiado para mí. Entonces me iré a una aventura más sencilla.~
-@85  = ~Bueno, no pongáis a nadie de la Compañía en peligro, y todos estaremos bien.~
-@86  = ~Seguro que podéis, <CHARNAME>. ¿Qué es lo que queréis saber?~
-@87  = ~Bueno, Tardeth no lo explicó, pero cuando nos presentó a todos, sólo os presentó a siete, pero os llamáis la Compañía de los Ocho. Me preguntaba si podrías explicármelo.~
-@88  = ~Tenéis razón, sólo hay siete miembros vivos de la Compañía de los Ocho. Tardeth puede ser un poco reservado sobre eso a veces, y eso deja a la gente confundida y les avergüenza preguntarlo.~
-@89  = ~Entonces, ¿por qué vuestro grupo es conocido como "La Compañía de los Ocho" si sólo sois siete?~
-@90  = ~Si no os importa que lo pregunte, ¿qué os ocurrió durante los Días Negros de Eleint?~
-@91  = ~Eso es fácil de explicar.~
-@92  = ~Veréis, cuando la Compañía se formó por primera vez, el líder era el hermano menor de Tardeth, Alain. Esa es probablemente la razón de que Tardeth no hable de ello.~
-@93  = ~Cuando Alain fue asesinado hace años, la Compañía escogió a otro antiguo miembro, Kaleene Thanlwood, como líder. Ella murió en batalla contra un dragón verde.~
-@94  = ~Por entonces fue cuando se construyeron los cuarteles de la Compañía, y ese fue el porqué fueron llamados Cayr Thalwood, en recuerdo de Kaleene.~
-@95  = ~Por aquel entonces, yo no era miembro de la Compañía, pero estaba, umm... sumida en los Trastornos durante los Diez Días Negros de Eleint, que ocurrieron poco después de que Cayr Thalwood fuera fortificado, pero mi participación en todo eso es otra historia.~
-@96  = ~Cuatro años después de los Trastornos, me uní a la Compañía, poco antes que Sylvanus. Manny es ahora el miembro más reciente, pues sólo lleva siendo un miembro regular desde hace un año o así.~
-@97  = ~Ahora, todos parecemos seguir a Tardeth sin que haya sido escogido oficialmente como líder; simplemente le seguimos. Una de las razones por la que no hayamos aceptado un nuevo miembro es porque actualmente somos siete, y siete es un buen número de la suerte.~
-@98  = ~Hemos hablado del asunto entre nosotros, y hemos decidido que el octavo miembro del grupo es un símbolo por la existencia de la Compañía, la Señora de la Verdad y la Justicia.~
-@99  = ~¿Responde eso a vuestra pregunta? ¿O queréis saber algo más?~
-@100 = ~Sí. Gracias por permitirme saber.~
-@101 = ~Habéis mencionado los Dias Negros, y que os visteis atrapada en los Trastornos. ¿Qué os ocurrió durante los Días Negros?~
-@102 = ~Sin problema. Hablaremos más tarde.~
-@103 = ~(suspiro) Para seros sincera, no me siento cómoda hablando de los Trastornos con los demás. Sin embargo, dado que me habéis preguntado y habéis sido tan directo conmigo, os contaré la historia.~
-~(suspiro) Para seros sincera, no me siento cómoda hablando de los Trastornos con los demás. Sin embargo, dado que me habéis preguntado y habéis sido tan directa conmigo, os contaré la historia.~
-@104 = ~Yo nací de sangre noble, y estaba destinada como dama de compañía en el Castillo Tethyr. Por supuesto, eso fue hace mucho, cuando había un castillo Tethyr.~
-@105 = ~Cuando era una jovencita, me di cuenta de que mi vida había sido prematuramente predeterminada, y no satisfacía mis espectativas, por lo que me uní al ejército.~
-@106 = ~A mi familia, sobre todo a mi padre, no les gustó, pero era la única manera de que pudiera evitar convertirme en alguien quien cuya meta es ser la ayuda de cámara de una reina. Tras servir varios años, fui ascendida y llegué a casarme con un colega oficial llamado Dorian.~
-@107 = ~No mucho después de que nos uniéramos, los Trastornos comenzaron, casi al anochecer. El Castillo Tethyr cayó, y Tethyr fue arrojado al caos. Durante la rebelión en el Castillo, pude escapar de la matanza, pero Dorian no.~
-@108 = ~Cuando averigué que había caído en la batalla, mi corazón se rompió, y me sentí perdida y desilusionada. Al mismo tiempo, nunca pude imaginarme por qué fue por lo que murió Dorian. Ahora lo sé. Murio defendiendo a su rey, que es lo que se suponía debíamos hacer los dos.~
-@109 = ~Mi marido cumplió con su deber. Yo no, y hui del Castillo cuando los aldeanos se revelaron. No podía soportar vivir conmigo misma, y cai en una depresión en la que rogé morir más veces de las que puedo recordar. Finalmente, encontré mi camino hacia Cormyr y Sembia hace algunos años.~
-@110 = ~Allí conocí a Elminster y a Lhaeo, y me ayudaron a comprender que no hubo nada que yo pudiera haber hecho. Me ayudaron a ver que Tethyr podría ser reconstruido de nuevo, con la pequeña ayuda de los leales y de aquellos que pudieran marcar la diferencia.~
-@111 = ~Y entonces fue cuando tuve una epifanía. Podría simplemente intentar corregir los errores cometidos en Tethyr durante esos Dias Negros. Regresé a mi tierra natal, y encontré a otros que querían las cosas que yo quería. Tardeth fue uno de ellos. Ante su insistencia, me uní a la Compañía.~
-@112 = ~Eso fue hace seis años. He estado con la Compañía desde entonces, y ahora creo honestamente que estoy ayudando a cambiar las cosas aquí en Tethyr.~
-@113 = ~Espero que esto responda vuestras preguntas sobre mi participación en los Trastornos.~
+@83  = ~QuerrÃ­a preguntaros una cosa. Sobre vuestra CompaÃ±Ã­a, si no os importa.~
+@84  = ~Me quedarÃ© por aquÃ­ hasta que sea demasiado para mÃ­. Entonces me irÃ© a una aventura mÃ¡s sencilla.~
+@85  = ~Bueno, no pongÃ¡is a nadie de la CompaÃ±Ã­a en peligro, y todos estaremos bien.~
+@86  = ~Seguro que podÃ©is, <CHARNAME>. Â¿QuÃ© es lo que querÃ©is saber?~
+@87  = ~Bueno, Tardeth no lo explicÃ³, pero cuando nos presentÃ³ a todos, sÃ³lo os presentÃ³ a siete, pero os llamÃ¡is la CompaÃ±Ã­a de los Ocho. Me preguntaba si podrÃ­as explicÃ¡rmelo.~
+@88  = ~TenÃ©is razÃ³n, sÃ³lo hay siete miembros vivos de la CompaÃ±Ã­a de los Ocho. Tardeth puede ser un poco reservado sobre eso a veces, y eso deja a la gente confundida y les avergÃ¼enza preguntarlo.~
+@89  = ~Entonces, Â¿por quÃ© vuestro grupo es conocido como "La CompaÃ±Ã­a de los Ocho" si sÃ³lo sois siete?~
+@90  = ~Si no os importa que lo pregunte, Â¿quÃ© os ocurriÃ³ durante los DÃ­as Negros de Eleint?~
+@91  = ~Eso es fÃ¡cil de explicar.~
+@92  = ~VerÃ©is, cuando la CompaÃ±Ã­a se formÃ³ por primera vez, el lÃ­der era el hermano menor de Tardeth, Alain. Esa es probablemente la razÃ³n de que Tardeth no hable de ello.~
+@93  = ~Cuando Alain fue asesinado hace aÃ±os, la CompaÃ±Ã­a escogiÃ³ a otro antiguo miembro, Kaleene Thanlwood, como lÃ­der. Ella muriÃ³ en batalla contra un dragÃ³n verde.~
+@94  = ~Por entonces fue cuando se construyeron los cuarteles de la CompaÃ±Ã­a, y ese fue el porquÃ© fueron llamados Cayr Thalwood, en recuerdo de Kaleene.~
+@95  = ~Por aquel entonces, yo no era miembro de la CompaÃ±Ã­a, pero estaba, umm... sumida en los Trastornos durante los Diez DÃ­as Negros de Eleint, que ocurrieron poco despuÃ©s de que Cayr Thalwood fuera fortificado, pero mi participaciÃ³n en todo eso es otra historia.~
+@96  = ~Cuatro aÃ±os despuÃ©s de los Trastornos, me unÃ­ a la CompaÃ±Ã­a, poco antes que Sylvanus. Manny es ahora el miembro mÃ¡s reciente, pues sÃ³lo lleva siendo un miembro regular desde hace un aÃ±o o asÃ­.~
+@97  = ~Ahora, todos parecemos seguir a Tardeth sin que haya sido escogido oficialmente como lÃ­der; simplemente le seguimos. Una de las razones por la que no hayamos aceptado un nuevo miembro es porque actualmente somos siete, y siete es un buen nÃºmero de la suerte.~
+@98  = ~Hemos hablado del asunto entre nosotros, y hemos decidido que el octavo miembro del grupo es un sÃ­mbolo por la existencia de la CompaÃ±Ã­a, la SeÃ±ora de la Verdad y la Justicia.~
+@99  = ~Â¿Responde eso a vuestra pregunta? Â¿O querÃ©is saber algo mÃ¡s?~
+@100 = ~SÃ­. Gracias por permitirme saber.~
+@101 = ~HabÃ©is mencionado los Dias Negros, y que os visteis atrapada en los Trastornos. Â¿QuÃ© os ocurriÃ³ durante los DÃ­as Negros?~
+@102 = ~Sin problema. Hablaremos mÃ¡s tarde.~
+@103 = ~(suspiro) Para seros sincera, no me siento cÃ³moda hablando de los Trastornos con los demÃ¡s. Sin embargo, dado que me habÃ©is preguntado y habÃ©is sido tan directo conmigo, os contarÃ© la historia.~
+~(suspiro) Para seros sincera, no me siento cÃ³moda hablando de los Trastornos con los demÃ¡s. Sin embargo, dado que me habÃ©is preguntado y habÃ©is sido tan directa conmigo, os contarÃ© la historia.~
+@104 = ~Yo nacÃ­ de sangre noble, y estaba destinada como dama de compaÃ±Ã­a en el Castillo Tethyr. Por supuesto, eso fue hace mucho, cuando habÃ­a un castillo Tethyr.~
+@105 = ~Cuando era una jovencita, me di cuenta de que mi vida habÃ­a sido prematuramente predeterminada, y no satisfacÃ­a mis espectativas, por lo que me unÃ­ al ejÃ©rcito.~
+@106 = ~A mi familia, sobre todo a mi padre, no les gustÃ³, pero era la Ãºnica manera de que pudiera evitar convertirme en alguien quien cuya meta es ser la ayuda de cÃ¡mara de una reina. Tras servir varios aÃ±os, fui ascendida y lleguÃ© a casarme con un colega oficial llamado Dorian.~
+@107 = ~No mucho despuÃ©s de que nos uniÃ©ramos, los Trastornos comenzaron, casi al anochecer. El Castillo Tethyr cayÃ³, y Tethyr fue arrojado al caos. Durante la rebeliÃ³n en el Castillo, pude escapar de la matanza, pero Dorian no.~
+@108 = ~Cuando averiguÃ© que habÃ­a caÃ­do en la batalla, mi corazÃ³n se rompiÃ³, y me sentÃ­ perdida y desilusionada. Al mismo tiempo, nunca pude imaginarme por quÃ© fue por lo que muriÃ³ Dorian. Ahora lo sÃ©. Murio defendiendo a su rey, que es lo que se suponÃ­a debÃ­amos hacer los dos.~
+@109 = ~Mi marido cumpliÃ³ con su deber. Yo no, y hui del Castillo cuando los aldeanos se revelaron. No podÃ­a soportar vivir conmigo misma, y cai en una depresiÃ³n en la que rogÃ© morir mÃ¡s veces de las que puedo recordar. Finalmente, encontrÃ© mi camino hacia Cormyr y Sembia hace algunos aÃ±os.~
+@110 = ~AllÃ­ conocÃ­ a Elminster y a Lhaeo, y me ayudaron a comprender que no hubo nada que yo pudiera haber hecho. Me ayudaron a ver que Tethyr podrÃ­a ser reconstruido de nuevo, con la pequeÃ±a ayuda de los leales y de aquellos que pudieran marcar la diferencia.~
+@111 = ~Y entonces fue cuando tuve una epifanÃ­a. PodrÃ­a simplemente intentar corregir los errores cometidos en Tethyr durante esos Dias Negros. RegresÃ© a mi tierra natal, y encontrÃ© a otros que querÃ­an las cosas que yo querÃ­a. Tardeth fue uno de ellos. Ante su insistencia, me unÃ­ a la CompaÃ±Ã­a.~
+@112 = ~Eso fue hace seis aÃ±os. He estado con la CompaÃ±Ã­a desde entonces, y ahora creo honestamente que estoy ayudando a cambiar las cosas aquÃ­ en Tethyr.~
+@113 = ~Espero que esto responda vuestras preguntas sobre mi participaciÃ³n en los Trastornos.~
 @114 = ~Todos quietos. Tenemos un problema aqui mismo. Mirad esto, Tardeth.~
-@115 = ~Sylvanus, encargáos de la retaguardia con Paddy. Cubrid nuestras huellas. Arkanus, ¿hay algo que podáis hacerle al suelo?~
-@116 = ~No importa. <CHARNAME>, como dijimos, vigilad vuestros pasos. Atención todos, nos movemos.~
-@117 = ~Haced lo que podáis para mantenerlo ocupado, Lawantha. ¡<CHARNAME>, ha llegado el momento de las heroicidades!~
-@118 = ~Vaya lucha fue esa, con el dracoliche y todos esos cultistas. Llegué a pensar que ahí abajo habíamos mordido demasiado.~
-@119 = ~Seguramente así habría sido si no hubiera sido por vos. Muchas gracias, <CHARNAME>.~
-@120 = ~Nos habéis ayudado mucho. Tomad, quiero daros algo para demostraros mi aprecio.~
-@121 = ~Es una espada mágica, y creo que os gustará tenerla. Buena suerte con vuestras aventuras, <CHARNAME>.~
-@122 = ~Movámonos, Compañía. Es tiempo de partir.~
-@123 = ~La famosa Compañía de los Ocho
+@115 = ~Sylvanus, encargÃ¡os de la retaguardia con Paddy. Cubrid nuestras huellas. Arkanus, Â¿hay algo que podÃ¡is hacerle al suelo?~
+@116 = ~No importa. <CHARNAME>, como dijimos, vigilad vuestros pasos. AtenciÃ³n todos, nos movemos.~
+@117 = ~Haced lo que podÃ¡is para mantenerlo ocupado, Lawantha. Â¡<CHARNAME>, ha llegado el momento de las heroicidades!~
+@118 = ~Vaya lucha fue esa, con el dracoliche y todos esos cultistas. LleguÃ© a pensar que ahÃ­ abajo habÃ­amos mordido demasiado.~
+@119 = ~Seguramente asÃ­ habrÃ­a sido si no hubiera sido por vos. Muchas gracias, <CHARNAME>.~
+@120 = ~Nos habÃ©is ayudado mucho. Tomad, quiero daros algo para demostraros mi aprecio.~
+@121 = ~Es una espada mÃ¡gica, y creo que os gustarÃ¡ tenerla. Buena suerte con vuestras aventuras, <CHARNAME>.~
+@122 = ~MovÃ¡monos, CompaÃ±Ã­a. Es tiempo de partir.~
+@123 = ~La famosa CompaÃ±Ã­a de los Ocho
 
-  He pasado mi última aventura luchando al lado de la Compañía de los Ocho, que intentaban neutralizar una célula del Culto del Dragón que se había asentado en una mazmorra abandonada bajo el Bosque de Tethyr. Toda la Compañía, Marilyn, Paddy, el elfo Gotadeluna, Lawantha, los dos druidas Manny y Arkanus, y Tardeth, eran guerreros experimentados, y tuvimos éxito al derrotar al Culto. Debo admitir que luchar junto a una banda de aventureros tan experimentados fue un placer, y espero tener la oportunidad de volver hacerlo en el futuro.~
-@124 = ~La famosa Compañía de los Ocho
+  He pasado mi Ãºltima aventura luchando al lado de la CompaÃ±Ã­a de los Ocho, que intentaban neutralizar una cÃ©lula del Culto del DragÃ³n que se habÃ­a asentado en una mazmorra abandonada bajo el Bosque de Tethyr. Toda la CompaÃ±Ã­a, Marilyn, Paddy, el elfo Gotadeluna, Lawantha, los dos druidas Manny y Arkanus, y Tardeth, eran guerreros experimentados, y tuvimos Ã©xito al derrotar al Culto. Debo admitir que luchar junto a una banda de aventureros tan experimentados fue un placer, y espero tener la oportunidad de volver hacerlo en el futuro.~
+@124 = ~La famosa CompaÃ±Ã­a de los Ocho
 
-  Finalmente he conocido a la Compañía de los Ocho de la que tanto había oído hablar. Este legendario grupo de aventureros de Tethyr ha tropezado con una fortaleza que esta siendo usada por el Culto del Dragón. Me invitaron a echar al Culto, y cuando estemos preparados para encargarme de esa misión, el lider de la Compañía, Tardeth, me ha pedido que se lo haga saber.
-  Espero que cuando estemos listos, buscar aventuras y combates con al Compañia de los Ocho sea algo que esté dentro de mis capacidades.~
-@670 = ~Sí, Marilyn, os conozco. De hecho, estoy honrada de haberos conocido, pero por favor, ¿podemos ser discretas?~
-@671 = ~Esperad, ¿Jaheira? ¿Acaso está Marilyn en vuestro grupo?~
-@672 = ~Jaheira, no hay nadie cerca. No os preocupéis por vuestro secreto.~
-@673 = ~No, <CHARNAME>, cuando uno es un Arpista, nunca se está solo. Siempre hay espías aguardando en las sombras.~
+  Finalmente he conocido a la CompaÃ±Ã­a de los Ocho de la que tanto habÃ­a oÃ­do hablar. Este legendario grupo de aventureros de Tethyr ha tropezado con una fortaleza que esta siendo usada por el Culto del DragÃ³n. Me invitaron a echar al Culto, y cuando estemos preparados para encargarme de esa misiÃ³n, el lider de la CompaÃ±Ã­a, Tardeth, me ha pedido que se lo haga saber.
+  Espero que cuando estemos listos, buscar aventuras y combates con al CompaÃ±ia de los Ocho sea algo que estÃ© dentro de mis capacidades.~
+@670 = ~SÃ­, Marilyn, os conozco. De hecho, estoy honrada de haberos conocido, pero por favor, Â¿podemos ser discretas?~
+@671 = ~Esperad, Â¿Jaheira? Â¿Acaso estÃ¡ Marilyn en vuestro grupo?~
+@672 = ~Jaheira, no hay nadie cerca. No os preocupÃ©is por vuestro secreto.~
+@673 = ~No, <CHARNAME>, cuando uno es un Arpista, nunca se estÃ¡ solo. Siempre hay espÃ­as aguardando en las sombras.~

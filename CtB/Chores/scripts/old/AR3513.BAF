@@ -1,0 +1,88 @@
+IF
+	Global("CbCutSceneArea3513","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetCutSceneLite(TRUE)
+//		HideGUI()
+		CutSceneId(Player1)
+		SetGlobal("CbCutSceneArea3513","GLOBAL",1)
+		PlaySound("PORTAL2")
+		MoveViewPoint([458.548],INSTANT)
+		Explore()
+//		Wait(2)
+//		LeaveAreaLUAPanic("AR3513","",[1.1],5)
+//		LeaveAreaLUA("AR3513","",[1.1],5)
+		Wait(1)
+		CreateCreatureObjectCopy("CBCT3513",Player1,0,0,0)
+		ActionOverride("CBCT3513",JumpToPoint([582.726]))
+//		ApplySpellRES("CB3513ON",Player1)
+//		ActionOverride(Player1,Hide())
+		ActionOverride("CBCT3513",Face(5))
+		CreateCreature("CB3513VC",[560.767],5)
+		CreateCreature("CB3513IM",[451.825],8)
+		CreateCreature("CB3513MN",[694.708],4)
+		CreateCreature("CB3513JH",[580.828],10)
+		CreateCreature("CB3513BW",[682.759],7)
+		CreateCreature("M05PCSPY",[575.700],0)
+		CreateCreature("CBSRVDED",[488.582],15)
+		CreateCreature("CBSEMDED",[311.566],14)
+		CreateCreature("CBGALDED",[682.480],0)
+		CreateCreature("CBTAZDED",[609.422],0)
+		
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		ActionOverride("CBSRVDED",DisplayStringHead("CBSRVDED",@550055))
+		ActionOverride("CBSRVDED",Wait(18))
+		Wait(18)
+		DisplayStringHead("CBCT3513",@550057)
+		Wait(6)
+		ActionOverride("CBSRVDED",DisplayStringHead("CBSRVDED",@550056))
+		ActionOverride("CBSRVDED",Wait(8))
+		Wait(6)
+		SetGlobal("CbSarevokCutsceneStart","AR3513",1)
+END
+
+IF
+    Global("CbTimerSet","AR3513",0)
+	Global("CbSarevokCutsceneStart","AR3513",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CbTimerSet","AR3513",1)
+        SetGlobalTimer("CbKillSarevok","AR3513",50)
+		ApplySpell(Player1,WIZARD_HOLD_PERSON)
+END
+
+IF
+   	GlobalTimerExpired("CbKillSarevok","AR3513")
+	Global("CbSarevokCutsceneStart","AR3513",1)
+	Global("CbCutSceneArea3513","GLOBAL",1)
+	Global("CbCowsFed","GLOBAL",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CbSarevokCutsceneStart","AR3513",2)
+        Kill("CBSRVDED")
+        Wait(5)
+        FadeToColor([20.0],0)
+        Wait(1)
+//		ApplySpellRES("CB3513OF",Player1)
+        StartCutSceneMode()
+        StartCutScene("CBCT3515")
+END
+
+IF
+    GlobalTimerExpired("CbKillSarevok","AR3513")
+	Global("CbSarevokCutsceneStart","AR3513",1)
+	Global("CbCutSceneArea3513","GLOBAL",1)
+	Global("CbCowsFed","GLOBAL",0)
+THEN
+    RESPONSE #100
+        SetGlobal("CbSarevokCutsceneStart","AR3513",2)
+        Kill("CBSRVDED")
+        Wait(5)
+        FadeToColor([20.0],0)
+        Wait(1)
+//		ApplySpellRES("CB3513OF",Player1)
+        StartCutSceneMode()
+        StartCutScene("CBCT3500")
+END

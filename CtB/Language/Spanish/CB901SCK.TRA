@@ -1,46 +1,46 @@
-@1   = ~zzz... ughh... ¿Quién? ¿Qué queréis?~
-@2   = ~¿Estáis bien?~
+@1   = ~zzz... ughh... Â¿QuiÃ©n? Â¿QuÃ© querÃ©is?~
+@2   = ~Â¿EstÃ¡is bien?~
 @3   = ~No, no lo estoy del todo. Estoy enferma.~
-@4   = ~¿No puede ayudaros un sacerdote?~
-@5   = ~¿Sacerdotes? ¿Esos humanos incompetentes? No pueden ayudarme. No saben cómo sanar a un elfo.~
-@6   = ~Sus magias banales retuercen el tejido y no hacen nada en mí.~
-@7   = ~¿Hay algo que pueda hacer para ayudar?~
-@8   = ~Lo que necesito, esos sacerdotes no lo tienen. Necesito curación natural, y todo lo que pueden hacer es usar sus curaciones mágicas y pociones otorgadas por los dioses.~
-@9   = ~Pero quizás vos podáis ayudar, sí, vos podéis. Necesito unas hierbas específicas que se encuentran en la naturaleza. Esas hierbas y plantas me ayudarán, pero sólo si las encontráis todas ellas.~
-@10  = ~Lo siento pero no creo que pueda encontrar un manojo de hierbas. Tendréis que encontrar a otro que las consigas para vos.~
-@11  = ~Puedo intentar traeros algunas hierbas y raices. ¿Qué es lo que necesitáis que recoja?~
-@12  = ~No habría esperado otra cosa de un aventurero egoista como vos.~
-~No habría esperado otra cosa de una aventurera egoista como vos.~
-@13  = ~Necesito unas hierbas y raices muy específicas. Primero, para poder hacer una buena cataplasma, necesito Sambucus Nigra, que es saúco en élfico. No sé donde podéis encontrarla por aquí cerca, pero normalmente los arbustos de saúco se encuentran en lugares lo suficientemente amplios para que crezcan, son unos arbustos enormes.~
-@14  = ~También necesito hojas de melocotón que convertir en polvo. Se conoce entre los elfos como Prunus Persica, y es principalmente un sedante y expectorante.~
-@15  = ~Las Lycopodiáceas también serán útiles, normalmente se encuentran en ciénagas y pantanos. No cojáis ninguna que esté húmeda, como el musgo,  el Lycopodium Clavatum debe estar bastante seco.~
-@16  = ~La Artemisia Absinthium, conocida más comúnmente como ajenjo, ayudará a fomentar la digestión de las otras hierbas, así que traedme algo de ella, por favor.~
-@17  = ~Finalmente, raíces de grama, que es otro tipo de planta diurética que los elfos llamamos Agropyron Repens. Si podéis, conseguid bastante de ésta, formará la base para una poción que me ayudará.~
-@18  = ~Si me traéis estos cinco componentes, seréis de gran ayuda para mí.~
-@19  = ~Intentaré traeroslos tan rápidamente como pueda.~
-@20  = ~No sé donde puedo encontrar esas cosas, pero lo intentaré.~
+@4   = ~Â¿No puede ayudaros un sacerdote?~
+@5   = ~Â¿Sacerdotes? Â¿Esos humanos incompetentes? No pueden ayudarme. No saben cÃ³mo sanar a un elfo.~
+@6   = ~Sus magias banales retuercen el tejido y no hacen nada en mÃ­.~
+@7   = ~Â¿Hay algo que pueda hacer para ayudar?~
+@8   = ~Lo que necesito, esos sacerdotes no lo tienen. Necesito curaciÃ³n natural, y todo lo que pueden hacer es usar sus curaciones mÃ¡gicas y pociones otorgadas por los dioses.~
+@9   = ~Pero quizÃ¡s vos podÃ¡is ayudar, sÃ­, vos podÃ©is. Necesito unas hierbas especÃ­ficas que se encuentran en la naturaleza. Esas hierbas y plantas me ayudarÃ¡n, pero sÃ³lo si las encontrÃ¡is todas ellas.~
+@10  = ~Lo siento pero no creo que pueda encontrar un manojo de hierbas. TendrÃ©is que encontrar a otro que las consigas para vos.~
+@11  = ~Puedo intentar traeros algunas hierbas y raices. Â¿QuÃ© es lo que necesitÃ¡is que recoja?~
+@12  = ~No habrÃ­a esperado otra cosa de un aventurero egoista como vos.~
+~No habrÃ­a esperado otra cosa de una aventurera egoista como vos.~
+@13  = ~Necesito unas hierbas y raices muy especÃ­ficas. Primero, para poder hacer una buena cataplasma, necesito Sambucus Nigra, que es saÃºco en Ã©lfico. No sÃ© donde podÃ©is encontrarla por aquÃ­ cerca, pero normalmente los arbustos de saÃºco se encuentran en lugares lo suficientemente amplios para que crezcan, son unos arbustos enormes.~
+@14  = ~TambiÃ©n necesito hojas de melocotÃ³n que convertir en polvo. Se conoce entre los elfos como Prunus Persica, y es principalmente un sedante y expectorante.~
+@15  = ~Las LycopodiÃ¡ceas tambiÃ©n serÃ¡n Ãºtiles, normalmente se encuentran en ciÃ©nagas y pantanos. No cojÃ¡is ninguna que estÃ© hÃºmeda, como el musgo,  el Lycopodium Clavatum debe estar bastante seco.~
+@16  = ~La Artemisia Absinthium, conocida mÃ¡s comÃºnmente como ajenjo, ayudarÃ¡ a fomentar la digestiÃ³n de las otras hierbas, asÃ­ que traedme algo de ella, por favor.~
+@17  = ~Finalmente, raÃ­ces de grama, que es otro tipo de planta diurÃ©tica que los elfos llamamos Agropyron Repens. Si podÃ©is, conseguid bastante de Ã©sta, formarÃ¡ la base para una pociÃ³n que me ayudarÃ¡.~
+@18  = ~Si me traÃ©is estos cinco componentes, serÃ©is de gran ayuda para mÃ­.~
+@19  = ~IntentarÃ© traeroslos tan rÃ¡pidamente como pueda.~
+@20  = ~No sÃ© donde puedo encontrar esas cosas, pero lo intentarÃ©.~
 @21  = ~Os agradezco vuestro auxilio.~
-@22  = ~Eso sería muy servicial. Os doy las gracias por vuestro auxilio.~
-@23  = ~¿Fuisteis capaz de encontrar alguna de las hierbas y raíces medicinales que necesito?~
-@24  = ~Aún no. No pude encontrar ninguna de las raíces y demás que me dijisteis.~
-@25  = ~Solo fui capaz de encontrar una de las raíces de las que me hablasteis.~
+@22  = ~Eso serÃ­a muy servicial. Os doy las gracias por vuestro auxilio.~
+@23  = ~Â¿Fuisteis capaz de encontrar alguna de las hierbas y raÃ­ces medicinales que necesito?~
+@24  = ~AÃºn no. No pude encontrar ninguna de las raÃ­ces y demÃ¡s que me dijisteis.~
+@25  = ~Solo fui capaz de encontrar una de las raÃ­ces de las que me hablasteis.~
 @26  = ~Solo pude encontrar dos de las yerbas que me dijisteis que necesitabais.~
 @27  = ~Tengo tres de las hierbas de las que me hablasteis. No puedo encontrar las otras.~
-@28  = ~No del todo. Aún estoy buscando una de las hierbas que me dijisteis. No puedo encontrarla.~
-@29  = ~Sí, Acebo, encontré todo lo que me dijisteis que necesitabais para ayudaros a sentiros mejor.~
-@30  = ~Entonces tendréis que buscar con más ahínco. Por favor, no sé cuanto tiempo podré soportar el dolor.~
-@31  = ~¿De verdad?~
-@32  = ~No sé cuanto tiempo más podré estar así.~
-@33  = ~Al fin, dadme los elementos. Tendré a un sacerdote realizando en secreto la poción con mis especificaciones.~
-@34  = ~Os estoy agradecida por traerme las raíces y las yerbas. Venid más tarde mañana, y me sentiré mucho mejor.~
-@35  = ~Gracias por ayudarme. Sin esas hierbas, con el tiempo habría muerto.~
-@36  = ~Aquí está, tomad esto. Es lo que queda de la poción que me ayudasteis a hacer. Sed muy cuidadosos, porque es potente, y os sanará por completo sin importar cuan herido estéis. Solo hay suficiente para una dosis, por ello, usadla con sabiduría.~
-@37  = ~Además, como muestra de mi aprecio, me gustaría que tuvierais esto. Es una pócima élfica que he estado guardando para cuando tuviera un primogénito, pero sin vos, no podría tener ese primogénito.~
-@38  = ~Ahora me siendo mucho mejor, y pronto estaré recuperada por completo.~
-@39 = ~La elfa diurética
+@28  = ~No del todo. AÃºn estoy buscando una de las hierbas que me dijisteis. No puedo encontrarla.~
+@29  = ~SÃ­, Acebo, encontrÃ© todo lo que me dijisteis que necesitabais para ayudaros a sentiros mejor.~
+@30  = ~Entonces tendrÃ©is que buscar con mÃ¡s ahÃ­nco. Por favor, no sÃ© cuanto tiempo podrÃ© soportar el dolor.~
+@31  = ~Â¿De verdad?~
+@32  = ~No sÃ© cuanto tiempo mÃ¡s podrÃ© estar asÃ­.~
+@33  = ~Al fin, dadme los elementos. TendrÃ© a un sacerdote realizando en secreto la pociÃ³n con mis especificaciones.~
+@34  = ~Os estoy agradecida por traerme las raÃ­ces y las yerbas. Venid mÃ¡s tarde maÃ±ana, y me sentirÃ© mucho mejor.~
+@35  = ~Gracias por ayudarme. Sin esas hierbas, con el tiempo habrÃ­a muerto.~
+@36  = ~AquÃ­ estÃ¡, tomad esto. Es lo que queda de la pociÃ³n que me ayudasteis a hacer. Sed muy cuidadosos, porque es potente, y os sanarÃ¡ por completo sin importar cuan herido estÃ©is. Solo hay suficiente para una dosis, por ello, usadla con sabidurÃ­a.~
+@37  = ~AdemÃ¡s, como muestra de mi aprecio, me gustarÃ­a que tuvierais esto. Es una pÃ³cima Ã©lfica que he estado guardando para cuando tuviera un primogÃ©nito, pero sin vos, no podrÃ­a tener ese primogÃ©nito.~
+@38  = ~Ahora me siendo mucho mejor, y pronto estarÃ© recuperada por completo.~
+@39 = ~La elfa diurÃ©tica
 
-  He encontrado una elfa con una dolencia terrible en la iglesia de Helm aquí en Athkatla. Parecía bastante amable, de manera que he accedido a ayudarla a encontrar algunas raíces naturales para crear una poción la cuál, dice ella, la ayudará, y que los sacerdotes de Helm no pueden hacer.
-  Acebo, la elfa, me ha pedido que le traiga Bayas de Saúco, Hojas de Melocotón, Lycopodiáceas, Ajenjo, y Raíces de Grama. No sabe donde puedo encontrar esas cosas con seguridad, pero tendré que buscarlas por los alrededores.~
+  He encontrado una elfa con una dolencia terrible en la iglesia de Helm aquÃ­ en Athkatla. ParecÃ­a bastante amable, de manera que he accedido a ayudarla a encontrar algunas raÃ­ces naturales para crear una pociÃ³n la cuÃ¡l, dice ella, la ayudarÃ¡, y que los sacerdotes de Helm no pueden hacer.
+  Acebo, la elfa, me ha pedido que le traiga Bayas de SaÃºco, Hojas de MelocotÃ³n, LycopodiÃ¡ceas, Ajenjo, y RaÃ­ces de Grama. No sabe donde puedo encontrar esas cosas con seguridad, pero tendrÃ© que buscarlas por los alrededores.~
 @40 = ~Acebo se siente mejor
 
-La elfa diurética que conocí en el templo de Helm en Athkatla parece estar poniendose mejor. Está en pie y andando, y me agradeció bastante el haber recolectado sus hierbas, raíces y demás. Me entregó lo sobrante de la poción que elaboró en secreto, así como un ingenioso artefacto élfico. Tendré que averiguar cuanto vale esta cosa al mejor postor.~
+La elfa diurÃ©tica que conocÃ­ en el templo de Helm en Athkatla parece estar poniendose mejor. EstÃ¡ en pie y andando, y me agradeciÃ³ bastante el haber recolectado sus hierbas, raÃ­ces y demÃ¡s. Me entregÃ³ lo sobrante de la pociÃ³n que elaborÃ³ en secreto, asÃ­ como un ingenioso artefacto Ã©lfico. TendrÃ© que averiguar cuanto vale esta cosa al mejor postor.~

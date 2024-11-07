@@ -1,71 +1,71 @@
-@1   = ~Claro que sí, Tardeth. Bienhallados, nuevos amigos.~
-@2   = ~Si alguna vez queréis probar vuestra habilidad con un arco, venid por aquí y practicad conmigo.~
+@1   = ~Claro que sÃ­, Tardeth. Bienhallados, nuevos amigos.~
+@2   = ~Si alguna vez querÃ©is probar vuestra habilidad con un arco, venid por aquÃ­ y practicad conmigo.~
 @3   = ~Estoy con Marilyn, Tardeth. Dejadles ayudar.~
 @4   = ~En la medida en que puedo acertarle a algo, estoy listo.~
-@5   = ~¿Sí, Arkanus? ¿Qué pasa?~
-@6   = ~Bueno, hay algunas especies de elfos lunares que son completamente inmunes al crecimiento antinatural, como polimorfizaciones o resurrecciones. Sin embargo, no sé lo que lo causa, ni me imagino que tendría que ver con las plantas.~
-@7   = ~Estoy intentando practicar con el arco. ¿Queréis probar?~
-@8   = ~Claro. Haré algunos intentos.~
+@5   = ~Â¿SÃ­, Arkanus? Â¿QuÃ© pasa?~
+@6   = ~Bueno, hay algunas especies de elfos lunares que son completamente inmunes al crecimiento antinatural, como polimorfizaciones o resurrecciones. Sin embargo, no sÃ© lo que lo causa, ni me imagino que tendrÃ­a que ver con las plantas.~
+@7   = ~Estoy intentando practicar con el arco. Â¿QuerÃ©is probar?~
+@8   = ~Claro. HarÃ© algunos intentos.~
 @9   = ~Ahora no, gracias.~
-@10  = ~Buena suerte, amigo. Yo también haré unos cuantos disparos.~
-~Buena suerte, amiga. Yo también haré unos cuantos disparos.~
-@11  = ~Bueno, si cambiáis de opinión, consideráos invitado.~
-~Bueno, si cambiáis de opinión, consideráos invitada.~
+@10  = ~Buena suerte, amigo. Yo tambiÃ©n harÃ© unos cuantos disparos.~
+~Buena suerte, amiga. Yo tambiÃ©n harÃ© unos cuantos disparos.~
+@11  = ~Bueno, si cambiÃ¡is de opiniÃ³n, considerÃ¡os invitado.~
+~Bueno, si cambiÃ¡is de opiniÃ³n, considerÃ¡os invitada.~
 @12  = ~Intentad acertar en el blanco. Velloliebre piensa que es mejor que yo, pero es imposible que una humana sea mejor con un arco que un elfo.~
-@13  = ~En cuanto queráis organizar un concurso, Velloliebre, estaré allí.~
-@14  = ~Me preguntaba qué estaba esperando Tardeth. Deberíamos estar haciendo algo productivo, en lugar de estar esperando simplemente. Ya llevamos algunos días acampados aquí.~
-@15  = ~Hace semanas que deberíamos haber partido hacia el sur. El Bosque de Mir esta repleto de esos ne'Tel'Quessar.~
-@16  = ~Si os dirigís hacia allí, vigilad vuestra espalda. He oido que aquello puede estar en guerra.~
-@17  = ~Espero que Elhan encuentre pronto la Linterna. He estado esperando regresar a las glorias de Suldanessellar, pero sin la Linterna, nosotros, las gentes del Pueblo Gentíl, estamos perdidos como chiquillos.~
-@18  = ~Así que habéis hablado con Tardeth. Estoy contento al saber que vais a ayudarnos contra el Culto.~
-@19  = ~¿Hay algo más que debáis contarme sobre el Culto?~
-@20  = ~Bueno, no sé mucho mas que vos o que Tardeth, pero creo que Marilyn y Lawantha creen que el lider escondido bajo el Bosque de Tethyr ha creado una nueva célula del Culto del Dragón.~
-@21  = ~Pensaba que el Culto del Dragón estaba asentado principalmente en Sembia.~
-@22  = ~Como ya os he dicho, el Culto es, en efecto, un poderoso grupo de las Tierras centrales orientales, que prospera en las ciudades que están alrededor del Mar de las Estrellas Fugaces. Pero estoy bastante seguro de que el Culto quiere que todos los dragones malvados se unan a su causa. Sé que los Arpistas han tenido varios enfrentamientos con miembros del Culto, y ellos saben más sobre las motivaciones del Culto del Dragón.~
+@13  = ~En cuanto querÃ¡is organizar un concurso, Velloliebre, estarÃ© allÃ­.~
+@14  = ~Me preguntaba quÃ© estaba esperando Tardeth. DeberÃ­amos estar haciendo algo productivo, en lugar de estar esperando simplemente. Ya llevamos algunos dÃ­as acampados aquÃ­.~
+@15  = ~Hace semanas que deberÃ­amos haber partido hacia el sur. El Bosque de Mir esta repleto de esos ne'Tel'Quessar.~
+@16  = ~Si os dirigÃ­s hacia allÃ­, vigilad vuestra espalda. He oido que aquello puede estar en guerra.~
+@17  = ~Espero que Elhan encuentre pronto la Linterna. He estado esperando regresar a las glorias de Suldanessellar, pero sin la Linterna, nosotros, las gentes del Pueblo GentÃ­l, estamos perdidos como chiquillos.~
+@18  = ~AsÃ­ que habÃ©is hablado con Tardeth. Estoy contento al saber que vais a ayudarnos contra el Culto.~
+@19  = ~Â¿Hay algo mÃ¡s que debÃ¡is contarme sobre el Culto?~
+@20  = ~Bueno, no sÃ© mucho mas que vos o que Tardeth, pero creo que Marilyn y Lawantha creen que el lider escondido bajo el Bosque de Tethyr ha creado una nueva cÃ©lula del Culto del DragÃ³n.~
+@21  = ~Pensaba que el Culto del DragÃ³n estaba asentado principalmente en Sembia.~
+@22  = ~Como ya os he dicho, el Culto es, en efecto, un poderoso grupo de las Tierras centrales orientales, que prospera en las ciudades que estÃ¡n alrededor del Mar de las Estrellas Fugaces. Pero estoy bastante seguro de que el Culto quiere que todos los dragones malvados se unan a su causa. SÃ© que los Arpistas han tenido varios enfrentamientos con miembros del Culto, y ellos saben mÃ¡s sobre las motivaciones del Culto del DragÃ³n.~
 @23  = ~Si es cierto que el Culto quiere que todos los dragones malignos se unan a su bando, entonces los Bosques de Mir y de Tethyr son sitios perfectos para que operen.~
-@24  = ~¿Por qué?~
-@25  = ~Bueno, hay mas dragones aquí, tanto buenos como malos, en estos dos bosques, que en la mayoría de las demás regiones de Faerûn.~
-@26  = ~¿Podéis contarme algo que nos sea de utilidad?~
-@27  = ~Estoy seguro de que será una batalla difícil, así que tal vez queráis repasar vuestros conjuros y afilar las armas. Mirad, llevamos equipo de sobra, ¿por qué no cogéis una de nuestras tiendas para usarla?~
-@28  = ~Creo que estamos listos para encargarnos del Culto en su guarida. Espero que vuestros preparativos también hayan ido bien.~
-@29  = ~Sí, todo está en orden. Pronto estaremos preparados.~
-@30  = ~Me encantaría echarme una siesta aquí. ¿Podríais dejar de practicar un rato con el arco?~
-@31  = ~Ya basta de tanto ruido. ¡Estoy intentando dormir!~
-@32  = ~Gracias por detener vuestros ejercicios. He terminado de dormir, asi que si queréis continuar, por mí está bien.~
+@24  = ~Â¿Por quÃ©?~
+@25  = ~Bueno, hay mas dragones aquÃ­, tanto buenos como malos, en estos dos bosques, que en la mayorÃ­a de las demÃ¡s regiones de FaerÃ»n.~
+@26  = ~Â¿PodÃ©is contarme algo que nos sea de utilidad?~
+@27  = ~Estoy seguro de que serÃ¡ una batalla difÃ­cil, asÃ­ que tal vez querÃ¡is repasar vuestros conjuros y afilar las armas. Mirad, llevamos equipo de sobra, Â¿por quÃ© no cogÃ©is una de nuestras tiendas para usarla?~
+@28  = ~Creo que estamos listos para encargarnos del Culto en su guarida. Espero que vuestros preparativos tambiÃ©n hayan ido bien.~
+@29  = ~SÃ­, todo estÃ¡ en orden. Pronto estaremos preparados.~
+@30  = ~Me encantarÃ­a echarme una siesta aquÃ­. Â¿PodrÃ­ais dejar de practicar un rato con el arco?~
+@31  = ~Ya basta de tanto ruido. Â¡Estoy intentando dormir!~
+@32  = ~Gracias por detener vuestros ejercicios. He terminado de dormir, asi que si querÃ©is continuar, por mÃ­ estÃ¡ bien.~
 @33  = ~Gracias por detener vuestros ejercicios. Ahora voy a dormir.~
-@34  = ~¿Quién es mejor con el arco? ¿Vos o Marilyn?~
-@35  = ~¿Por qué llamasteis a vuestro caballo Sir John Johns?~
-@36  = ~¿Cómo es que sois el único de la Compañía que tiene un caballo?~
+@34  = ~Â¿QuiÃ©n es mejor con el arco? Â¿Vos o Marilyn?~
+@35  = ~Â¿Por quÃ© llamasteis a vuestro caballo Sir John Johns?~
+@36  = ~Â¿CÃ³mo es que sois el Ãºnico de la CompaÃ±Ã­a que tiene un caballo?~
 @37  = ~Por supuesto. Siento haberos molestado.~
-@38  = ~Sin problema. Ahora voy a tirar. Si queréis intentarlo, acercaros al blanco. Si queréis volver a dormir, hacedmelo saber.~
-@39  = ~Podríais pedirlo amablemente. Quizás no lo hiciera si no fuerais tan rudo.~
-~Podríais pedirlo amablemente. Quizás no lo hiciera si no fuerais tan ruda.~
-@40  = ~Tendréis que vivir con ello hasta que aprendáis buenas maneras.~
-@41  = ~Bueno, es difícil de decir. A pesar de las pullas que nos echamos, ambos somos grandes tiradores.~
-@42  = ~Marilyn es un poco mejor en distancias cortas que yo, pero en cambio yo puedo atravesar una jarra de estaño a cien pasos, más o menos.~
-@43  = ~Eso no es verdad, Lawantha. Sabéis que yo nunca os haría daño. Además, yo tenía menos de tres pulgadas de espacio para acertar el disparo. Un poco más hacia vos, y la flecha os hubiera resbalado en la armadura.~
-@44  = ~¿Es un nombre mejor que "Fábrica de Pegamento"?~
-@45  = ~Oh, no le haríais eso, ¿no?~
+@38  = ~Sin problema. Ahora voy a tirar. Si querÃ©is intentarlo, acercaros al blanco. Si querÃ©is volver a dormir, hacedmelo saber.~
+@39  = ~PodrÃ­ais pedirlo amablemente. QuizÃ¡s no lo hiciera si no fuerais tan rudo.~
+~PodrÃ­ais pedirlo amablemente. QuizÃ¡s no lo hiciera si no fuerais tan ruda.~
+@40  = ~TendrÃ©is que vivir con ello hasta que aprendÃ¡is buenas maneras.~
+@41  = ~Bueno, es difÃ­cil de decir. A pesar de las pullas que nos echamos, ambos somos grandes tiradores.~
+@42  = ~Marilyn es un poco mejor en distancias cortas que yo, pero en cambio yo puedo atravesar una jarra de estaÃ±o a cien pasos, mÃ¡s o menos.~
+@43  = ~Eso no es verdad, Lawantha. SabÃ©is que yo nunca os harÃ­a daÃ±o. AdemÃ¡s, yo tenÃ­a menos de tres pulgadas de espacio para acertar el disparo. Un poco mÃ¡s hacia vos, y la flecha os hubiera resbalado en la armadura.~
+@44  = ~Â¿Es un nombre mejor que "FÃ¡brica de Pegamento"?~
+@45  = ~Oh, no le harÃ­ais eso, Â¿no?~
 @46  = ~No puedo discutiroslo.~
-@47  = ~Claro que no podría.~
-@48  = ~En realidad, mi primer caballo fue un jamelgo marrón, casi rojizo, y lo llamábamos la Cortina Roja. Este es mi segundo caballo, así que lo llamé Sir John Johns como su padre, pero dos veces.~
-@49  = ~Tuvo un potro la estación pasada, y al descendiente lo llamamos E.I.E.I Owen.~
+@47  = ~Claro que no podrÃ­a.~
+@48  = ~En realidad, mi primer caballo fue un jamelgo marrÃ³n, casi rojizo, y lo llamÃ¡bamos la Cortina Roja. Este es mi segundo caballo, asÃ­ que lo llamÃ© Sir John Johns como su padre, pero dos veces.~
+@49  = ~Tuvo un potro la estaciÃ³n pasada, y al descendiente lo llamamos E.I.E.I Owen.~
 @50  = ~Les dais a vuestros caballos nombres muy raros.~
-@51  = ~Bueno, Sir John Johns es mi caballo, pero en realidad sirve a toda la compañía.~
-@52  = ~A la única a la que no le deja montar es a Lawantha. Parece que es un poco asustadizo con su magia, pero no lo es con la magia clerical de los druidas.~
-@53  = ~Yo no, Paddy. Lawantha está otra vez contando historias. No la creáis, <CHARNAME>.~
-@54  = ~¡Tardeth! ¡A vuestra izquierda!~
-@55  = ~Buen trabajo, Compañía. Buen trabajo, <CHARNAME>. ¿Estáis todos bien?~
-@56  = ~Recojamos nuestras cosas y salgamos de aquí. <CHARNAME>, nos volveremos a encontrar fuera, en el bosque.~
-@57  = ~Menuda lucha, ¿eh, <CHARNAME>? Sí que nos encargamos de ese Culto.~
-@58  = ~Ni siquiera supieron lo que había venido a por ellos.~
-@59  = ~Me alegra que decidiérais ayudar a la Compañía, en lugar de convertiros en uno de nuestros enemigos.~
-@60  = ~Tomad, coged este regalo, de mí para vos. Usadlo bien, <CHARNAME>, es un arfetafto élfico bastante poderoso.~
+@51  = ~Bueno, Sir John Johns es mi caballo, pero en realidad sirve a toda la compaÃ±Ã­a.~
+@52  = ~A la Ãºnica a la que no le deja montar es a Lawantha. Parece que es un poco asustadizo con su magia, pero no lo es con la magia clerical de los druidas.~
+@53  = ~Yo no, Paddy. Lawantha estÃ¡ otra vez contando historias. No la creÃ¡is, <CHARNAME>.~
+@54  = ~Â¡Tardeth! Â¡A vuestra izquierda!~
+@55  = ~Buen trabajo, CompaÃ±Ã­a. Buen trabajo, <CHARNAME>. Â¿EstÃ¡is todos bien?~
+@56  = ~Recojamos nuestras cosas y salgamos de aquÃ­. <CHARNAME>, nos volveremos a encontrar fuera, en el bosque.~
+@57  = ~Menuda lucha, Â¿eh, <CHARNAME>? SÃ­ que nos encargamos de ese Culto.~
+@58  = ~Ni siquiera supieron lo que habÃ­a venido a por ellos.~
+@59  = ~Me alegra que decidiÃ©rais ayudar a la CompaÃ±Ã­a, en lugar de convertiros en uno de nuestros enemigos.~
+@60  = ~Tomad, coged este regalo, de mÃ­ para vos. Usadlo bien, <CHARNAME>, es un arfetafto Ã©lfico bastante poderoso.~
 @61  = ~Vamos, chicos, es hora de irnos...~
-@62 = ~La famosa Compañía de los Ocho
+@62 = ~La famosa CompaÃ±Ã­a de los Ocho
 
-  He pasado mi última aventura luchando al lado de la Compañía de los Ocho, que intentaban neutralizar una célula del Culto del Dragón que se había asentado en una mazmorra abandonada bajo el Bosque de Tethyr. Toda la Compañía, Marilyn, Paddy, el elfo Gotadeluna, Lawantha, los dos druidas Manny y Arkanus, y Tardeth, eran guerreros experimentados, y tuvimos éxito al derrotar al Culto. Debo admitir que luchar junto a una banda de aventureros tan experimentados fue un placer, y espero tener la oportunidad de volver hacerlo en el futuro.~
-@63 = ~La famosa Compañía de los Ocho
+  He pasado mi Ãºltima aventura luchando al lado de la CompaÃ±Ã­a de los Ocho, que intentaban neutralizar una cÃ©lula del Culto del DragÃ³n que se habÃ­a asentado en una mazmorra abandonada bajo el Bosque de Tethyr. Toda la CompaÃ±Ã­a, Marilyn, Paddy, el elfo Gotadeluna, Lawantha, los dos druidas Manny y Arkanus, y Tardeth, eran guerreros experimentados, y tuvimos Ã©xito al derrotar al Culto. Debo admitir que luchar junto a una banda de aventureros tan experimentados fue un placer, y espero tener la oportunidad de volver hacerlo en el futuro.~
+@63 = ~La famosa CompaÃ±Ã­a de los Ocho
 
-  Finalmente he conocido a la Compañía de los Ocho de la que tanto había oído hablar. Este legendario grupo de aventureros de Tethyr ha tropezado con una fortaleza que esta siendo usada por el Culto del Dragón. Me invitaron a echar al Culto, y cuando estemos preparados para encargarme de esa misión, el lider de la Compañía, Tardeth, me ha pedido que se lo haga saber.
-  Espero que cuando estemos listos, buscar aventuras y combates con al Compañia de los Ocho sea algo que esté dentro de mis capacidades.~
+  Finalmente he conocido a la CompaÃ±Ã­a de los Ocho de la que tanto habÃ­a oÃ­do hablar. Este legendario grupo de aventureros de Tethyr ha tropezado con una fortaleza que esta siendo usada por el Culto del DragÃ³n. Me invitaron a echar al Culto, y cuando estemos preparados para encargarme de esa misiÃ³n, el lider de la CompaÃ±Ã­a, Tardeth, me ha pedido que se lo haga saber.
+  Espero que cuando estemos listos, buscar aventuras y combates con al CompaÃ±ia de los Ocho sea algo que estÃ© dentro de mis capacidades.~

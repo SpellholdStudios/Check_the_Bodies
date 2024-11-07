@@ -1,36 +1,36 @@
-@1  = ~Ce qui les a fait ivres m'a faite hardie. J'ai drogué les deux serviteurs du Roi, et ai posé leurs poignards bien en vue de mon époux.~
-@2  = ~Non, vous êtes un bon Seigneur. Vous avez fait ce qu'il fallait, pour une fois. Attendez, pourquoi portez-vous ces dagues ensanglantées ? Vous deviez les laisser dans la pièce des serviteurs. Allez, faites donc maintenant.~
+@1  = ~Ce qui les a fait ivres m'a faite hardie. J'ai droguÃ© les deux serviteurs du Roi, et ai posÃ© leurs poignards bien en vue de mon Ã©poux.~
+@2  = ~Non, vous Ãªtes un bon Seigneur. Vous avez fait ce qu'il fallait, pour une fois. Attendez, pourquoi portez-vous ces dagues ensanglantÃ©es ? Vous deviez les laisser dans la piÃ¨ce des serviteurs. Allez, faites donc maintenant.~
 @3  = ~Son kilt.~
-@4  = ~Vous voyez ? Mes mains portent maintenant la même couleur que les vôtres, mais moi, je n'ai point peur. Regardez-vous, vous êtes tellement pâle ! Allez, recolorez-moi ces joues.
+@4  = ~Vous voyez ? Mes mains portent maintenant la mÃªme couleur que les vÃ´tres, mais moi, je n'ai point peur. Regardez-vous, vous Ãªtes tellement pÃ¢le ! Allez, recolorez-moi ces joues.
 
 (Elle enduit les joues de son mari de sang.)~
-@5  = ~Voilà qui est mieux.~
-@6  = ~Donnez-moi ces poignards, espèce de lâche ! Je vais les déposer près des serviteurs et les mouiller du sang du Roi !~
-@7  = ~Vous êtes toujours si pâle.
+@5  = ~VoilÃ  qui est mieux.~
+@6  = ~Donnez-moi ces poignards, espÃ¨ce de lÃ¢che ! Je vais les dÃ©poser prÃ¨s des serviteurs et les mouiller du sang du Roi !~
+@7  = ~Vous Ãªtes toujours si pÃ¢le.
 
-(Elle enduit encore plus de sang le visage de MacBeth, ainsi que son propre visage. Ils ne tardent pas à jouer tous les deux avec le sang. Alors que le sang commence à sécher, Lady MacBeth se retire en coulisses et en revient avec encore plus de sang frais pour continuer leurs jeux ! MacBeth sursaute de terreur lorsqu'elle court ainsi vers lui, mais ils recommencent à jouer tous les deux. Finalement, ils se trouvent tous deux interrompus lorsque quelqu'un frappe à la porte.)~
-@8  = ~Ecoutez ! Il y a quelqu'un à la porte ! Vite !
+(Elle enduit encore plus de sang le visage de MacBeth, ainsi que son propre visage. Ils ne tardent pas Ã  jouer tous les deux avec le sang. Alors que le sang commence Ã  sÃ©cher, Lady MacBeth se retire en coulisses et en revient avec encore plus de sang frais pour continuer leurs jeux ! MacBeth sursaute de terreur lorsqu'elle court ainsi vers lui, mais ils recommencent Ã  jouer tous les deux. Finalement, ils se trouvent tous deux interrompus lorsque quelqu'un frappe Ã  la porte.)~
+@8  = ~Ecoutez ! Il y a quelqu'un Ã  la porte ! Vite !
 
 (Lady MacBeth court vers une bassine d'eau et y plonge les mains. Elles en ressortent propres.)~
 @9  = ~Je m'en lave les mains, maintenant, personne ne pourra me suspecter !
 
-(Sa constatation est complètement ridicule. Ses mains sont effectivement propres, mais il y a du sang partout sur elle.)~
-@10 = ~Vite, mettez votre robe de chambre. Nous dirons que nous étions en plein sommeil.
+(Sa constatation est complÃ¨tement ridicule. Ses mains sont effectivement propres, mais il y a du sang partout sur elle.)~
+@10 = ~Vite, mettez votre robe de chambre. Nous dirons que nous Ã©tions en plein sommeil.
 
-(Elle commence à attirer MacBeth hors de la scène, les coups continuant.)~
-@11 = ~Me voilà Reine d'Ecosse ! Alors pourquoi donc suis-je si malheureuse ? Parce que je sais que le ver de terre qui m'a épousée va trouver le moyen de tout ficher par terre !~
-@12 = ~Pourquoi semblez-vous si triste ? Vous sentez-vous toujours coupable ? Souvenez-vous que ce qui a été fait ne peut être défait !~
-@13 = ~Bien évidemment. Vous êtes toujours vous-même ! Avoir une couronne sur la tête ne change pas qui vous êtes !~
-@14 = ~Bien sûr ! Regardez-moi !~
-@15 = ~Non, pas du tout. Oh, si, peut-être que, depuis que je suis devenue Reine d'Ecosse, je semble briller d'une aura royale, mais je suis toujours la même fille simple que j'ai toujours été.~
-@16 = ~Arrêtez de vous en inquiéter plus que de raison ! Je vous l'ai dit, ce n'est que temporaire. C'est à cause des Fatales Sorcières ! Je vais rester ainsi jusqu'à ce que nous soyons sûrs que vous n'allez pas tout gâcher.~
+(Elle commence Ã  attirer MacBeth hors de la scÃ¨ne, les coups continuant.)~
+@11 = ~Me voilÃ  Reine d'Ecosse ! Alors pourquoi donc suis-je si malheureuse ? Parce que je sais que le ver de terre qui m'a Ã©pousÃ©e va trouver le moyen de tout ficher par terre !~
+@12 = ~Pourquoi semblez-vous si triste ? Vous sentez-vous toujours coupable ? Souvenez-vous que ce qui a Ã©tÃ© fait ne peut Ãªtre dÃ©fait !~
+@13 = ~Bien Ã©videmment. Vous Ãªtes toujours vous-mÃªme ! Avoir une couronne sur la tÃªte ne change pas qui vous Ãªtes !~
+@14 = ~Bien sÃ»r ! Regardez-moi !~
+@15 = ~Non, pas du tout. Oh, si, peut-Ãªtre que, depuis que je suis devenue Reine d'Ecosse, je semble briller d'une aura royale, mais je suis toujours la mÃªme fille simple que j'ai toujours Ã©tÃ©.~
+@16 = ~ArrÃªtez de vous en inquiÃ©ter plus que de raison ! Je vous l'ai dit, ce n'est que temporaire. C'est Ã  cause des Fatales SorciÃ¨res ! Je vais rester ainsi jusqu'Ã  ce que nous soyons sÃ»rs que vous n'allez pas tout gÃ¢cher.~
 @17 = ~Qu'avez-vous fait ?~
-@18 = ~Ce serait une première.~
-@19 = ~Je voulais vérifier le haggis que j'avais demandé aux cuisinières de préparer. Banquo en voulait.~
-@20 = ~Comment pouvez-vous vous prétendre Roi d'Ecosse et ignorer ce qu'est le haggis ?~
-@21 = ~Vous prenez le coeur et les poumons d'un mouton, vous mélangez avec la graisse qui se trouve autour du rein du mouton, vous ajoutez des flocons d'avoine, et vous cuisinez le tout dans l'estomac du mouton.~
-@22 = ~En effet. Les Ecossais adorent ça. Si vous voulez être Roi d'Ecosse, vous vous devez d'aimer aussi !~
+@18 = ~Ce serait une premiÃ¨re.~
+@19 = ~Je voulais vÃ©rifier le haggis que j'avais demandÃ© aux cuisiniÃ¨res de prÃ©parer. Banquo en voulait.~
+@20 = ~Comment pouvez-vous vous prÃ©tendre Roi d'Ecosse et ignorer ce qu'est le haggis ?~
+@21 = ~Vous prenez le coeur et les poumons d'un mouton, vous mÃ©langez avec la graisse qui se trouve autour du rein du mouton, vous ajoutez des flocons d'avoine, et vous cuisinez le tout dans l'estomac du mouton.~
+@22 = ~En effet. Les Ecossais adorent Ã§a. Si vous voulez Ãªtre Roi d'Ecosse, vous vous devez d'aimer aussi !~
 @23 = ~Pourquoi n'en mangerez-vous pas ?~
 @24 = ~Mais c'est ce que nous servons, ce soir. Tout le monde va manger du haggis.~
 @25 = ~Alors que voulez-vous ? Il nous reste un peu de langue de boeuf.~
-@26 = ~Vous refusez de manger quoi que ce soit qui ait été dans l'estomac d'un autre, quoi que ce soit qui ait été dans la bouche d'un autre. Qu'allez-vous donc manger ?~
+@26 = ~Vous refusez de manger quoi que ce soit qui ait Ã©tÃ© dans l'estomac d'un autre, quoi que ce soit qui ait Ã©tÃ© dans la bouche d'un autre. Qu'allez-vous donc manger ?~

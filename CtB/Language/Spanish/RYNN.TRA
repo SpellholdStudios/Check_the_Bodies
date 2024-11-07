@@ -1,85 +1,85 @@
-@1   = ~No parece que os hay·is posicionado en un lado en nuestra lucha. Matad algunas serpientes, y posiblemente llamarÈis la atenciÛn de la SecesiÛn.~
-@2   = ~Ya que, o est·is con la Casa Extaminos, o est·is con la SecesiÛn. Cuando hay·is escogido y comencÈis a exterminar a esas sanguinarias serpientes, hacedmelo saber.~
-@3   = ~Si decidÌs uniros a la SecesiÛn, las serpientes pondr·n una recompensar de 500 piezas de oro por cada miembro. Vigilad vuestras espaldas en ese caso.~
-@4   = ~No venderÈ a ninguno de mis compatriotas a la Casa sin saber a favor de quÈ lado luchan. Ayudad a los Yuan-ti y os llamarÈ enemigos. Escogednos a nosotros y quiz·s podamos conversar.~
-@5   = ~Entonces, øpens·is que tenÈis lo que se necesita para unirse a la SecesiÛn?~
-@6   = ~Tengo lo que se necesita para hacer cualquier cosa. øQuÈ es lo que est·is intentado hacer?~
-@7   = ~øQuÈ es esa SecesiÛn de la que habl·is?~
-@8   = ~øAsÌ que sois una miembro de la SecesiÛn de la Serpiente?~
-@9   = ~Bien, antes de que la SecesiÛn pueda confiar plenamente en vosotros, tendrÈis que demostrar lo que valÈis.~
-@10  = ~La SecesiÛn de la Serpiente. Guerreros libres que se afanan por liberar Hlondeth de los yuan-ti. Quiz·s hay·is presenciado alguna de las escaramuzas con las tropas de Hlondeth.~
-@11  = ~Hasta ahora sÛlo hemos logrado que pongan precio a nuestras cabezas, asÌ que si pens·is que tenÈis lo que se necesita para atacar a Extaminos, tendrÈis que guardar vuestras espaldas en cada esquina.~
-@12  = ~Por supuesto, lo admito, pero nunca obtendrÈis ninguna m·s informaciÛn acerca de mis compatriotas para utilizar en su contra por mi parte.~
-@13  = ~AsÌ que, como dije, tenÈis que mostrarnos lo que podÈis hacer antes de que podamos siquiera confiar un poco en vosotros. Demostradnos que sÛis dignos de nuestra confianza, y os dejaremos tener una oportunidad de golpear en el corazÛn de las diabÛlicas serpientes.~
-@14  = ~AquÌ tenÈis vuestro primer encargo. øConocÈis el templo de Mystra al otro extremo de la ciudad? Quiero que vay·is allÌ y me traig·is un cofre. Estar· cerrado, pero deberÌais ser capaz de cargar con Èl sin ninguna dificultad. ReconocerÈis el cofre del que hablo en cuanto lo ve·is. Tiene un emblema de serpiente en el oropel. Id y volved conmigo cuando lo teng·is.~
-@15  = ~Sin el cofre, nunca os daremos nuestra confianza. Traedme el cofre, y tal vez os pondrÈ en contacto con el lÌder de la SecesiÛn de la Serpiente.~
-@16  = ~AsÌ que habÈis sido capaz de traer el cofre. Bien hecho. Entregadmelo.~
-@17  = ~De acuerdo, escuchad. El cometido que habÈis hecho fue simple, pero mis compatriotas est·n contentos con los resultados. Este cofre ayudar· un poco con la financiaciÛn del movimiento.~
-@18  = ~Alguien est· complacido con vuestro trabajo, y quiere conoceros. …l est· oculto en la ciudad, los Extaminos han puesto un precio a su cabeza de 10.000 piezas. Es el lÌder de la SecesiÛn de la Serpiente, y es bien conocido por las serpientes de la Casa. Os ser· complicado el encontrarle, pero no os preocupÈis. …l os encontrar· cuando sea seguro.~
-@19  = ~Tiene una llave de la Casa donde est·n los yuan-ti, y tenÈis que conseguir esa llave con el fin de entrar dentro de los terrenos si querÈis tomar la Casa.~
-@20  = ~No os preocupÈis. El lÌder del movimiento os encontrar· en su momento. Estoy segura de que tiene razones para estar oculto, pero sigue controlando la ciudad. Ir· a buscaros cuando sea seguro.~
-@21  = ~øQuÈ? øNo tenÈis una llave?~
-@22  = ~No, pero encontramos a Astinar. Quiere que veng·is con nosotros, obviamente para "tener un ojo sobre nosotros", cuando expulsemos a las serpientes. øNos acompaÒarÈis?~
-@23  = ~DarÈ mi vida por liberar Hlondeth de esas viles serpientes. Si Gonthril me quiere como niÒera, lo harÈ. Vayamos a buscarle y consigamos la llave. Tenemos que expulsar a Extaminos tan pronto como podamos.~
-@24  = ~<CHARNAME>, ya habÈis hecho vuestra elecciÛn, mas d·os cuenta de que estamos haciendo historia. Nosotros tomaremos la responsabilidad de gobernar la C·mara de Hlondeth, de futuro incierto. Creo, lo creo sinceramente, que marcaremos una diferencia en las vidas de todos. Basta, ya es la hora. Debemos expulsar a las serpientes por un Hlondeth libre.~
-@25  = ~Est· hecho, <CHARNAME>. Hlondeth est· m·s cerca de la libertad. Espero que lo hayamos hecho bien. Gonthril deberÌa oir las noticias r·pidamente, asÌ que debo buscarlo ahora. Gracias por vuestra ayuda, <CHARNAME>.~
+@1   = ~No parece que os hay√°is posicionado en un lado en nuestra lucha. Matad algunas serpientes, y posiblemente llamar√©is la atenci√≥n de la Secesi√≥n.~
+@2   = ~Ya que, o est√°is con la Casa Extaminos, o est√°is con la Secesi√≥n. Cuando hay√°is escogido y comenc√©is a exterminar a esas sanguinarias serpientes, hacedmelo saber.~
+@3   = ~Si decid√≠s uniros a la Secesi√≥n, las serpientes pondr√°n una recompensar de 500 piezas de oro por cada miembro. Vigilad vuestras espaldas en ese caso.~
+@4   = ~No vender√© a ninguno de mis compatriotas a la Casa sin saber a favor de qu√© lado luchan. Ayudad a los Yuan-ti y os llamar√© enemigos. Escogednos a nosotros y quiz√°s podamos conversar.~
+@5   = ~Entonces, ¬øpens√°is que ten√©is lo que se necesita para unirse a la Secesi√≥n?~
+@6   = ~Tengo lo que se necesita para hacer cualquier cosa. ¬øQu√© es lo que est√°is intentado hacer?~
+@7   = ~¬øQu√© es esa Secesi√≥n de la que habl√°is?~
+@8   = ~¬øAs√≠ que sois una miembro de la Secesi√≥n de la Serpiente?~
+@9   = ~Bien, antes de que la Secesi√≥n pueda confiar plenamente en vosotros, tendr√©is que demostrar lo que val√©is.~
+@10  = ~La Secesi√≥n de la Serpiente. Guerreros libres que se afanan por liberar Hlondeth de los yuan-ti. Quiz√°s hay√°is presenciado alguna de las escaramuzas con las tropas de Hlondeth.~
+@11  = ~Hasta ahora s√≥lo hemos logrado que pongan precio a nuestras cabezas, as√≠ que si pens√°is que ten√©is lo que se necesita para atacar a Extaminos, tendr√©is que guardar vuestras espaldas en cada esquina.~
+@12  = ~Por supuesto, lo admito, pero nunca obtendr√©is ninguna m√°s informaci√≥n acerca de mis compatriotas para utilizar en su contra por mi parte.~
+@13  = ~As√≠ que, como dije, ten√©is que mostrarnos lo que pod√©is hacer antes de que podamos siquiera confiar un poco en vosotros. Demostradnos que s√≥is dignos de nuestra confianza, y os dejaremos tener una oportunidad de golpear en el coraz√≥n de las diab√≥licas serpientes.~
+@14  = ~Aqu√≠ ten√©is vuestro primer encargo. ¬øConoc√©is el templo de Mystra al otro extremo de la ciudad? Quiero que vay√°is all√≠ y me traig√°is un cofre. Estar√° cerrado, pero deber√≠ais ser capaz de cargar con √©l sin ninguna dificultad. Reconocer√©is el cofre del que hablo en cuanto lo ve√°is. Tiene un emblema de serpiente en el oropel. Id y volved conmigo cuando lo teng√°is.~
+@15  = ~Sin el cofre, nunca os daremos nuestra confianza. Traedme el cofre, y tal vez os pondr√© en contacto con el l√≠der de la Secesi√≥n de la Serpiente.~
+@16  = ~As√≠ que hab√©is sido capaz de traer el cofre. Bien hecho. Entregadmelo.~
+@17  = ~De acuerdo, escuchad. El cometido que hab√©is hecho fue simple, pero mis compatriotas est√°n contentos con los resultados. Este cofre ayudar√° un poco con la financiaci√≥n del movimiento.~
+@18  = ~Alguien est√° complacido con vuestro trabajo, y quiere conoceros. √âl est√° oculto en la ciudad, los Extaminos han puesto un precio a su cabeza de 10.000 piezas. Es el l√≠der de la Secesi√≥n de la Serpiente, y es bien conocido por las serpientes de la Casa. Os ser√° complicado el encontrarle, pero no os preocup√©is. √âl os encontrar√° cuando sea seguro.~
+@19  = ~Tiene una llave de la Casa donde est√°n los yuan-ti, y ten√©is que conseguir esa llave con el fin de entrar dentro de los terrenos si quer√©is tomar la Casa.~
+@20  = ~No os preocup√©is. El l√≠der del movimiento os encontrar√° en su momento. Estoy segura de que tiene razones para estar oculto, pero sigue controlando la ciudad. Ir√° a buscaros cuando sea seguro.~
+@21  = ~¬øQu√©? ¬øNo ten√©is una llave?~
+@22  = ~No, pero encontramos a Astinar. Quiere que veng√°is con nosotros, obviamente para "tener un ojo sobre nosotros", cuando expulsemos a las serpientes. ¬øNos acompa√±ar√©is?~
+@23  = ~Dar√© mi vida por liberar Hlondeth de esas viles serpientes. Si Gonthril me quiere como ni√±era, lo har√©. Vayamos a buscarle y consigamos la llave. Tenemos que expulsar a Extaminos tan pronto como podamos.~
+@24  = ~<CHARNAME>, ya hab√©is hecho vuestra elecci√≥n, mas d√°os cuenta de que estamos haciendo historia. Nosotros tomaremos la responsabilidad de gobernar la C√°mara de Hlondeth, de futuro incierto. Creo, lo creo sinceramente, que marcaremos una diferencia en las vidas de todos. Basta, ya es la hora. Debemos expulsar a las serpientes por un Hlondeth libre.~
+@25  = ~Est√° hecho, <CHARNAME>. Hlondeth est√° m√°s cerca de la libertad. Espero que lo hayamos hecho bien. Gonthril deber√≠a oir las noticias r√°pidamente, as√≠ que debo buscarlo ahora. Gracias por vuestra ayuda, <CHARNAME>.~
 @26 = ~Estofado de culebra
 
-   Se supone que Rynn contactÛ con el lÌder de la SecesiÛn, quien se encontrar· conmigo en la ciudad. Por culpa de una gran recompensa por su cabeza, Astinar debe permanecer en la clandestinidad. Estoy seguro de que me encontrar·, pero tengo que tener los ojos abierto. Cuando lo encuentre, conseguirÈ una llave que se supone abre la puerta cerrada hacia los terrenos de Casa Extaminos.~
+   Se supone que Rynn contact√≥ con el l√≠der de la Secesi√≥n, quien se encontrar√° conmigo en la ciudad. Por culpa de una gran recompensa por su cabeza, Astinar debe permanecer en la clandestinidad. Estoy seguro de que me encontrar√°, pero tengo que tener los ojos abierto. Cuando lo encuentre, conseguir√© una llave que se supone abre la puerta cerrada hacia los terrenos de Casa Extaminos.~
 ~Estofado de culebra
 
-   Se supone que Rynn contactÛ con el lÌder de la SecesiÛn, quien se encontrar· conmigo en la ciudad. Por culpa de una gran recompensa por su cabeza, Astinar debe permanecer en la clandestinidad. Estoy segura de que me encontrar·, pero tengo que tener los ojos abierto. Cuando lo encuentre, conseguirÈ una llave que se supone abre la puerta cerrada hacia los terrenos de Casa Extaminos.~
+   Se supone que Rynn contact√≥ con el l√≠der de la Secesi√≥n, quien se encontrar√° conmigo en la ciudad. Por culpa de una gran recompensa por su cabeza, Astinar debe permanecer en la clandestinidad. Estoy segura de que me encontrar√°, pero tengo que tener los ojos abierto. Cuando lo encuentre, conseguir√© una llave que se supone abre la puerta cerrada hacia los terrenos de Casa Extaminos.~
 @27 = ~Estofado de culebra
 
-   Tratar de tomar la Casa Extaminos ser· mucho m·s que bailar un vals y causar estragos en las serpientes. Tengo a Rynn a mi lado, y me asegura que Astinar nos encontrar· siempre y cuando nos mantengamos en movimiento. Espero no tener nunca una recompensa sobre mÌ~
+   Tratar de tomar la Casa Extaminos ser√° mucho m√°s que bailar un vals y causar estragos en las serpientes. Tengo a Rynn a mi lado, y me asegura que Astinar nos encontrar√° siempre y cuando nos mantengamos en movimiento. Espero no tener nunca una recompensa sobre m√≠~
 @28 = ~Estofado de culebra
 
-   Astinar nos ha entregado la llave de los terrenos de la Casa Extaminos. Atacaremos allÌ hoy, y Hlondeth estar· libre de los yuan-ti.~
+   Astinar nos ha entregado la llave de los terrenos de la Casa Extaminos. Atacaremos all√≠ hoy, y Hlondeth estar√° libre de los yuan-ti.~
 @29 = ~Estofado de culebra
 
-   Rynn, aparentemente una de los miembros de la resistencia en Hlondeth, piensa que puedo ayudarla, y a la SecesiÛn de la Serpiente, con la Casa Extaminos. No estoy seguro de si es un buen plan, entrometiendome con la casa gobernante de la ciudad, pero la gente de aquÌ no est· particularmente feliz con la forma en que los yuan-ti est·n gobernando la ciudad. No obstante, si quiero ayudar a la SecesiÛn, Rynn me enviÛ en una misiÛn para conseguir un cofre cerrado que se supone que est· guardado en el Templo de Mystra en el lado oriental de la ciudad. No sÈ donde est·, pero ir al templo serÌa un buen punto para empezar a buscar.~
+   Rynn, aparentemente una de los miembros de la resistencia en Hlondeth, piensa que puedo ayudarla, y a la Secesi√≥n de la Serpiente, con la Casa Extaminos. No estoy seguro de si es un buen plan, entrometiendome con la casa gobernante de la ciudad, pero la gente de aqu√≠ no est√° particularmente feliz con la forma en que los yuan-ti est√°n gobernando la ciudad. No obstante, si quiero ayudar a la Secesi√≥n, Rynn me envi√≥ en una misi√≥n para conseguir un cofre cerrado que se supone que est√° guardado en el Templo de Mystra en el lado oriental de la ciudad. No s√© donde est√°, pero ir al templo ser√≠a un buen punto para empezar a buscar.~
 ~Estofado de culebra
 
-   Rynn, aparentemente una de los miembros de la resistencia en Hlondeth, piensa que puedo ayudarla, y a la SecesiÛn de la Serpiente, con la Casa Extaminos. No estoy segura de si es un buen plan, entrometiendome con la casa gobernante de la ciudad, pero la gente de aquÌ no est· particularmente feliz con la forma en que los yuan-ti est·n gobernando la ciudad. No obstante, si quiero ayudar a la SecesiÛn, Rynn me enviÛ en una misiÛn para conseguir un cofre cerrado que se supone que est· guardado en el Templo de Mystra en el lado oriental de la ciudad. No sÈ donde est·, pero ir al templo serÌa un buen punto para empezar a buscar.~
+   Rynn, aparentemente una de los miembros de la resistencia en Hlondeth, piensa que puedo ayudarla, y a la Secesi√≥n de la Serpiente, con la Casa Extaminos. No estoy segura de si es un buen plan, entrometiendome con la casa gobernante de la ciudad, pero la gente de aqu√≠ no est√° particularmente feliz con la forma en que los yuan-ti est√°n gobernando la ciudad. No obstante, si quiero ayudar a la Secesi√≥n, Rynn me envi√≥ en una misi√≥n para conseguir un cofre cerrado que se supone que est√° guardado en el Templo de Mystra en el lado oriental de la ciudad. No s√© donde est√°, pero ir al templo ser√≠a un buen punto para empezar a buscar.~
 @30 = ~Estofado de culebra
 
-   Al fin encontrÈ en Hlondeth a Gonthril Astinar. HablÈ brevemente con Èl, y expuse que ayudarÈ a la SecesiÛn contra la Casa Extaminos. Estuvo de acuerdo en proporcionarme una llave del bastiÛn, tan pronto como me reuna con uno de los miembros de la SecesiÛn de la Serpiente, estoy seguro que como un espÌa es para asegurarse de que hago lo que digo y no le traiciono, asÌ que supongo que buscarÈ de nuevo a la mujer llamada Rynn en la tienda de armas. Astinar me dijo que una vez me haya encontrado con ella, Èl volver· a ponerse en contacto conmmigo en la ciudad.~
+   Al fin encontr√© en Hlondeth a Gonthril Astinar. Habl√© brevemente con √©l, y expuse que ayudar√© a la Secesi√≥n contra la Casa Extaminos. Estuvo de acuerdo en proporcionarme una llave del basti√≥n, tan pronto como me reuna con uno de los miembros de la Secesi√≥n de la Serpiente, estoy seguro que como un esp√≠a es para asegurarse de que hago lo que digo y no le traiciono, as√≠ que supongo que buscar√© de nuevo a la mujer llamada Rynn en la tienda de armas. Astinar me dijo que una vez me haya encontrado con ella, √©l volver√° a ponerse en contacto conmmigo en la ciudad.~
 ~Estofado de culebra
 
-   Al fin encontrÈ en Hlondeth a Gonthril Astinar. HablÈ brevemente con Èl, y expuse que ayudarÈ a la SecesiÛn contra la Casa Extaminos. Estuvo de acuerdo en proporcionarme una llave del bastiÛn, tan pronto como me reuna con uno de los miembros de la SecesiÛn de la Serpiente, estoy segura que como un espÌa es para asegurarse de que hago lo que digo y no le traiciono, asÌ que supongo que buscarÈ de nuevo a la mujer llamada Rynn en la tienda de armas. Astinar me dijo que una vez me haya encontrado con ella, Èl volver· a ponerse en contacto conmmigo en la ciudad.~
+   Al fin encontr√© en Hlondeth a Gonthril Astinar. Habl√© brevemente con √©l, y expuse que ayudar√© a la Secesi√≥n contra la Casa Extaminos. Estuvo de acuerdo en proporcionarme una llave del basti√≥n, tan pronto como me reuna con uno de los miembros de la Secesi√≥n de la Serpiente, estoy segura que como un esp√≠a es para asegurarse de que hago lo que digo y no le traiciono, as√≠ que supongo que buscar√© de nuevo a la mujer llamada Rynn en la tienda de armas. Astinar me dijo que una vez me haya encontrado con ella, √©l volver√° a ponerse en contacto conmmigo en la ciudad.~
 @31 = ~Estofado de culebra
 
-   Los yuan-ti de Casa Extaminos est·n muertos. Lo que esto har· a la ciudad, no lo puedo conjeturar. Sin embargo, la polÌtica de la regiÛn se ver· afectada, y estoy seguro que no quiero quedarme atrapado en una guerra civil. Rynn se ha marchado para encontrar a Astinar, y ya es hora de dejar la ciudad.~
+   Los yuan-ti de Casa Extaminos est√°n muertos. Lo que esto har√° a la ciudad, no lo puedo conjeturar. Sin embargo, la pol√≠tica de la regi√≥n se ver√° afectada, y estoy seguro que no quiero quedarme atrapado en una guerra civil. Rynn se ha marchado para encontrar a Astinar, y ya es hora de dejar la ciudad.~
 ~Estofado de culebra
 
-   Los yuan-ti de Casa Extaminos est·n muertos. Lo que esto har· a la ciudad, no lo puedo conjeturar. Sin embargo, la polÌtica de la regiÛn se ver· afectada, y estoy segura que no quiero quedarme atrapada en una guerra civil. Rynn se ha marchado para encontrar a Astinar, y ya es hora de dejar la ciudad.~
-@32 = ~<CHARNAME>, me temo que podemos estar metiendonos en algo en lo que no querrÌamos inmiscuirnos si decidÌs tomar parte por la Casa Extaminos. La polÌtica es mi campo, <CHARNAME>, y deberÌamos dejarlos estar. Nuestra lucha no es ayudar a la SecesiÛn de la Serpiente, pero sin embargo, es una causa justa.~
-@33 = ~Esas escurridizas serpientes, dejan un mal sabor en la boca de Bub˙ y tambiÈn en la de Minsc.~
-@34 = ~Los luchadores por la libertad necesitan de la poderosa espada de un explorador y algunas cervezas ale enanas para limpiar el hedor de esas serpientes, øno estoy en lo cierto mi fornido amigo?~
-@35 = ~Los luchadores por la libertad necesitan de la poderosa espada de un explorador para limpiar el hedor de esas serpientes, dirÌa yo.~
-@36 = ~Siempre hay tiempo para una cerveza enana, explorador. Y si me llam·is fornido de nuevo, jugarÈ a un juego de palos con vuestra rata y mi martillo.~
+   Los yuan-ti de Casa Extaminos est√°n muertos. Lo que esto har√° a la ciudad, no lo puedo conjeturar. Sin embargo, la pol√≠tica de la regi√≥n se ver√° afectada, y estoy segura que no quiero quedarme atrapada en una guerra civil. Rynn se ha marchado para encontrar a Astinar, y ya es hora de dejar la ciudad.~
+@32 = ~<CHARNAME>, me temo que podemos estar metiendonos en algo en lo que no querr√≠amos inmiscuirnos si decid√≠s tomar parte por la Casa Extaminos. La pol√≠tica es mi campo, <CHARNAME>, y deber√≠amos dejarlos estar. Nuestra lucha no es ayudar a la Secesi√≥n de la Serpiente, pero sin embargo, es una causa justa.~
+@33 = ~Esas escurridizas serpientes, dejan un mal sabor en la boca de Bub√∫ y tambi√©n en la de Minsc.~
+@34 = ~Los luchadores por la libertad necesitan de la poderosa espada de un explorador y algunas cervezas ale enanas para limpiar el hedor de esas serpientes, ¬øno estoy en lo cierto mi fornido amigo?~
+@35 = ~Los luchadores por la libertad necesitan de la poderosa espada de un explorador para limpiar el hedor de esas serpientes, dir√≠a yo.~
+@36 = ~Siempre hay tiempo para una cerveza enana, explorador. Y si me llam√°is fornido de nuevo, jugar√© a un juego de palos con vuestra rata y mi martillo.~
 @37 = ~Yo digo que matemos a los yuan-ti incluso si no conseguimos cerveza enana.~
-@38 = ~Hagamos lo que hagamos, <CHARNAME>, esta cuestiÛn requiere algo de reflexiÛn. øDe verdad querÈis involucraros en los asuntos polÌticos locales que muy bien podrÌan tener consecuencias hasta en Cormyr, independientemente de los resultados?~
+@38 = ~Hagamos lo que hagamos, <CHARNAME>, esta cuesti√≥n requiere algo de reflexi√≥n. ¬øDe verdad quer√©is involucraros en los asuntos pol√≠ticos locales que muy bien podr√≠an tener consecuencias hasta en Cormyr, independientemente de los resultados?~
 @39 = ~Os lo ruego, <CHARNAME>, pensad un tiempo en ello.~
-@40 = ~Una tarea sencilla, amiga mia. Pero contadme, Rynn, øquÈ harÌais con ese cofre?~
-@41 = ~Os est·is volviendo ciego, paladÌn. Vuestro corazÛn ha crecido inocente en su honor. Si ese cofre que debemos procurar es t·n elaborado como dice la mujer, debo creer que es un arca para oro u objetos valiosos. Fondos para ayudar a su causa. øEstoy en lo correcto?~
-@42 = ~øAsÌ que Rynn quiere usar el dinero de los yuan-ti contra ellos? °Eso es! °En marcha <CHARNAME>!~
-@43 = ~øA quiÈn le importa, Kel? °Vayamos a por el cofre y miremos quÈ es lo que hay dentro!~
-@44 = ~øQuerÈis que os demostremos nuestra valÌa? °Tonta abbil! Intent·is salvar a los pobres de Hlondeth de su condiciÛn de pobres, pero os preocup·is con esconderos y probar a aquellos que os ayudarÌan. Parece que tenÈis una cierta idea de, o mejor dicho... sobre cÛmo derrocar a una Casa.~
-@45 = ~°Est˙pida drow! MatarÌais a toda la gente de Hlondeth si vuestro dejo estuviera libre de nosotros. El cofre puede contener dinero, <CHARNAME>. Dinero que la gente necesita.~
-@46 = ~De acuerdo, <CHARNAME>. Vamos a buscar el cofre de ella, y ver quÈ podemos hacer para ayudar a Hlondeth.~
-@47 = ~Como si no fuera obvio. El cofre y su contenido se dividirÌa entre aquellos que m·s lo necesitan, el pueblo oprimido de Hlondeth, asÌ como tambiÈn para avituallar las actividades de la SecesiÛn de la Serpiente contra los yuan-ti.~
-@48 = ~No son sÛlo mis ideas las que nos conducir·n al derrocamiento de la Casa Extaminos, sino tambiÈn las de los dem·s. Ahora, si ya habÈis terminado de insultarme a mÌ y a la SecesiÛn, id y encontrad el cofre.~
-@49 = ~Por supuesto que est·is en lo correcto, elfa oscura. En su mayor parte, el dinero que creemos que tienen ser· empleado en ayudar a las gentes de Hlondeth, pero una parte tambiÈn finaciar· nuestra causa.~
-@50 = ~TenÈis espÌritu, halfling. Volved conmigo cuando teng·is el cofre.~
-@51 = ~Halfling, confÌo en que ni una sola pieza de oro desaparecer· del cofre. Volved conmigo cuando lo teng·is, y espero no tener que poneros del revÈs para ver si cae algo de vuestros bolsillos, mi pequeÒa amiga.~
-@52 = ~La elfa oscura est· en lo cierto sobre mis defectos. Pero no todo lo que hacemos ser· para nosotros. De veras espero que los fondos que encontremos en el cofre puedan usarse tanto para ayudar a nuestra causa como a las gentes de Hlondeth.~
-@53 = ~Yo... yo creo que es mejor si empez·semos a buscar a ese hombre del que habla Rynn. PodrÌa resultar peligroso para nosotros... eh, quiero decir, podrÌamos terminar con una recompensa sobre nuestras cabezas si la Casa supiera que estamos ayudando a la SecesiÛn.~
-@54 = ~Vaya, la Dama de la Fortuna sonrÌe; quÈ sonido tan familiar. Creo que serÌa aconsejable por nuestra parte el volver a nuestros asuntos como si nada hubiera pasado, <CHARNAME>, pues seguramente el hombre del que habla Rynn nos encontrar· en su momento.~
-@55 = ~No tiene sentido. Nada de Èsto. Si est·is tan empeÒados en liberar a la ciudad de su grupo gobernante, bien entonces. Nosotros les haremos salir por la fuerza, y dejad estas intrigas y reuniones de amantes a escondidas.~
-@56 = ~Lo siento, <CHARNAME>. He guardado silencio sobre este asunto demasiado tiempo. SÛlo lo dirÈ una vez, asÌ que escuchad bien. Si no ayud·is a la SecesiÛn en su intento de librar Hlondeth de la Casa Extaminos, mujeres y niÒos terminar·n muriendo de hambre en las calles y los hombres no lo pasar·n mejor, mientras los yuan-ti se preocupar·n por adquirir m·s poder y riquezas. OponÈos a la injusticia, <CHARNAME>, pero hacedlo con prudencia y cuidado.~
-@57 = ~<CHARNAME>, conocÈis mi pasado. Una arpista que siempre ha tratado de mantenerse a cierta distancia de la polÌtica interna de una naciÛn o ciudad estado, ahora sin embargo, de alguna manera, sÈ en mi corazÛn que debemos librar Hlondeth de Extaminos. Pero, encontrar a alguien a quien han puesto precio a su cabeza, bastante alto de hecho, no ser· f·cil si no desea ser visto. Vamos, basta de charlas. Hay trabajo por hacer.~
-@58 = ~Fue un noble acto Èste al que nos lider·steis, <CHARNAME>. Rezo por que hayamos hecho lo correcto.~
-@59 = ~Bub˙ est· totalmente de acuerdo con <CHARNAME>. °Mirad! SonrÌe y chilla con aprobaciÛn.~
-@60 = ~No importa quÈ acontecimientos surjan de esto, <CHARNAME>, recordad que todo alcanzar· el equilibrio.~
-@61 = ~Os dejo con un ˙ltmo pensamiento, <CHARNAME>. Puede que os hay·is dado cuenta de que en el primer piso de esta villa hay una escalera que desciente. Abajo hay unas antiguas ruinas, guardadas por los yuan-ti. Explorad la mazmorra bajo vuestro propio riesgo, pues yo no os acompaÒarÈ allÌ. Buena suerte, <CHARNAME>.~
+@40 = ~Una tarea sencilla, amiga mia. Pero contadme, Rynn, ¬øqu√© har√≠ais con ese cofre?~
+@41 = ~Os est√°is volviendo ciego, palad√≠n. Vuestro coraz√≥n ha crecido inocente en su honor. Si ese cofre que debemos procurar es t√°n elaborado como dice la mujer, debo creer que es un arca para oro u objetos valiosos. Fondos para ayudar a su causa. ¬øEstoy en lo correcto?~
+@42 = ~¬øAs√≠ que Rynn quiere usar el dinero de los yuan-ti contra ellos? ¬°Eso es! ¬°En marcha <CHARNAME>!~
+@43 = ~¬øA qui√©n le importa, Kel? ¬°Vayamos a por el cofre y miremos qu√© es lo que hay dentro!~
+@44 = ~¬øQuer√©is que os demostremos nuestra val√≠a? ¬°Tonta abbil! Intent√°is salvar a los pobres de Hlondeth de su condici√≥n de pobres, pero os preocup√°is con esconderos y probar a aquellos que os ayudar√≠an. Parece que ten√©is una cierta idea de, o mejor dicho... sobre c√≥mo derrocar a una Casa.~
+@45 = ~¬°Est√∫pida drow! Matar√≠ais a toda la gente de Hlondeth si vuestro dejo estuviera libre de nosotros. El cofre puede contener dinero, <CHARNAME>. Dinero que la gente necesita.~
+@46 = ~De acuerdo, <CHARNAME>. Vamos a buscar el cofre de ella, y ver qu√© podemos hacer para ayudar a Hlondeth.~
+@47 = ~Como si no fuera obvio. El cofre y su contenido se dividir√≠a entre aquellos que m√°s lo necesitan, el pueblo oprimido de Hlondeth, as√≠ como tambi√©n para avituallar las actividades de la Secesi√≥n de la Serpiente contra los yuan-ti.~
+@48 = ~No son s√≥lo mis ideas las que nos conducir√°n al derrocamiento de la Casa Extaminos, sino tambi√©n las de los dem√°s. Ahora, si ya hab√©is terminado de insultarme a m√≠ y a la Secesi√≥n, id y encontrad el cofre.~
+@49 = ~Por supuesto que est√°is en lo correcto, elfa oscura. En su mayor parte, el dinero que creemos que tienen ser√° empleado en ayudar a las gentes de Hlondeth, pero una parte tambi√©n finaciar√° nuestra causa.~
+@50 = ~Ten√©is esp√≠ritu, halfling. Volved conmigo cuando teng√°is el cofre.~
+@51 = ~Halfling, conf√≠o en que ni una sola pieza de oro desaparecer√° del cofre. Volved conmigo cuando lo teng√°is, y espero no tener que poneros del rev√©s para ver si cae algo de vuestros bolsillos, mi peque√±a amiga.~
+@52 = ~La elfa oscura est√° en lo cierto sobre mis defectos. Pero no todo lo que hacemos ser√° para nosotros. De veras espero que los fondos que encontremos en el cofre puedan usarse tanto para ayudar a nuestra causa como a las gentes de Hlondeth.~
+@53 = ~Yo... yo creo que es mejor si empez√°semos a buscar a ese hombre del que habla Rynn. Podr√≠a resultar peligroso para nosotros... eh, quiero decir, podr√≠amos terminar con una recompensa sobre nuestras cabezas si la Casa supiera que estamos ayudando a la Secesi√≥n.~
+@54 = ~Vaya, la Dama de la Fortuna sonr√≠e; qu√© sonido tan familiar. Creo que ser√≠a aconsejable por nuestra parte el volver a nuestros asuntos como si nada hubiera pasado, <CHARNAME>, pues seguramente el hombre del que habla Rynn nos encontrar√° en su momento.~
+@55 = ~No tiene sentido. Nada de √©sto. Si est√°is tan empe√±ados en liberar a la ciudad de su grupo gobernante, bien entonces. Nosotros les haremos salir por la fuerza, y dejad estas intrigas y reuniones de amantes a escondidas.~
+@56 = ~Lo siento, <CHARNAME>. He guardado silencio sobre este asunto demasiado tiempo. S√≥lo lo dir√© una vez, as√≠ que escuchad bien. Si no ayud√°is a la Secesi√≥n en su intento de librar Hlondeth de la Casa Extaminos, mujeres y ni√±os terminar√°n muriendo de hambre en las calles y los hombres no lo pasar√°n mejor, mientras los yuan-ti se preocupar√°n por adquirir m√°s poder y riquezas. Opon√©os a la injusticia, <CHARNAME>, pero hacedlo con prudencia y cuidado.~
+@57 = ~<CHARNAME>, conoc√©is mi pasado. Una arpista que siempre ha tratado de mantenerse a cierta distancia de la pol√≠tica interna de una naci√≥n o ciudad estado, ahora sin embargo, de alguna manera, s√© en mi coraz√≥n que debemos librar Hlondeth de Extaminos. Pero, encontrar a alguien a quien han puesto precio a su cabeza, bastante alto de hecho, no ser√° f√°cil si no desea ser visto. Vamos, basta de charlas. Hay trabajo por hacer.~
+@58 = ~Fue un noble acto √©ste al que nos lider√°steis, <CHARNAME>. Rezo por que hayamos hecho lo correcto.~
+@59 = ~Bub√∫ est√° totalmente de acuerdo con <CHARNAME>. ¬°Mirad! Sonr√≠e y chilla con aprobaci√≥n.~
+@60 = ~No importa qu√© acontecimientos surjan de esto, <CHARNAME>, recordad que todo alcanzar√° el equilibrio.~
+@61 = ~Os dejo con un √∫ltmo pensamiento, <CHARNAME>. Puede que os hay√°is dado cuenta de que en el primer piso de esta villa hay una escalera que desciente. Abajo hay unas antiguas ruinas, guardadas por los yuan-ti. Explorad la mazmorra bajo vuestro propio riesgo, pues yo no os acompa√±ar√© all√≠. Buena suerte, <CHARNAME>.~

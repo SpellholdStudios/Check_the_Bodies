@@ -1,70 +1,70 @@
-@1 = ~Je n'ai pas encore terminé ma formation auprès de l'Archidruidesse, mon Frère. Peut-être devrais-tu parler avec elle.~
-@2 = ~L'Archidruidesse est très satisfaite de ta performance. Elle m'a donnée l'autorisation de parfaire ta connaissance des arts druidiques.~
-@3 = ~Je suis d'accord pour te servir de mentor, mon Frère, mais tu va devoir choisir ce que je vais t'enseigner. Veux-tu augmenter ta capacité de mémorisation des sorts, optimiser et réduire ton temps d'incantation, ou préfères-tu apprendre à te transformer en panthère ou en léopard ?~
-@4 = ~Je voudrais savoir comment mémoriser un sort supplémentaire par niveau.~
-@5 = ~Je pense que j'aimerais apprendre à lancer des sorts plus rapidement.~
-@6 = ~Je pense que je préfèrerais pouvoir me transformer en un gros félin.~
-@7 = ~Comme tu voudras, mon Frère. Allez, commençons la leçon.~
-@8 = ~Tu apprends remarquablement vite, mon Frère. Tu peux maintenant lancer plus de sorts par jour. Il te reste, toutefois, bien des choses à apprendre.~ 
-@9 = ~Tu apprends remarquablement vite, mon Frère. Avec ces techniques d'optimisation de ton temps d'incantation, tu es maintenant en mesure de le réduire significativement. Il te reste, toutefois, bien des choses à apprendre.~
-@10 = ~Tu apprends remarquablement vite, mon Frère. Tu peux maintenant te transformer en un gros félin. La moitié du temps, lorsque tu tenteras cette transformation, tu prendras la forme d'un léopard, l'autre moitié du temps, tu prendras celle d'une panthère. Il te reste, toutefois, bien des choses à apprendre.~
-@11 = ~Tu as fait du bon travail, mon Frère, et cela me fait plaisir d'avoir pu t'aider. Mais maintenant, l'Archidruidesse me dit que tu dois passer un test supplémentaire. Es-tu prêt à accomplir cette nouvelle tâche ?~
+@1 = ~Je n'ai pas encore terminÃ© ma formation auprÃ¨s de l'Archidruidesse, mon FrÃ¨re. Peut-Ãªtre devrais-tu parler avec elle.~
+@2 = ~L'Archidruidesse est trÃ¨s satisfaite de ta performance. Elle m'a donnÃ©e l'autorisation de parfaire ta connaissance des arts druidiques.~
+@3 = ~Je suis d'accord pour te servir de mentor, mon FrÃ¨re, mais tu va devoir choisir ce que je vais t'enseigner. Veux-tu augmenter ta capacitÃ© de mÃ©morisation des sorts, optimiser et rÃ©duire ton temps d'incantation, ou prÃ©fÃ¨res-tu apprendre Ã  te transformer en panthÃ¨re ou en lÃ©opard ?~
+@4 = ~Je voudrais savoir comment mÃ©moriser un sort supplÃ©mentaire par niveau.~
+@5 = ~Je pense que j'aimerais apprendre Ã  lancer des sorts plus rapidement.~
+@6 = ~Je pense que je prÃ©fÃ¨rerais pouvoir me transformer en un gros fÃ©lin.~
+@7 = ~Comme tu voudras, mon FrÃ¨re. Allez, commenÃ§ons la leÃ§on.~
+@8 = ~Tu apprends remarquablement vite, mon FrÃ¨re. Tu peux maintenant lancer plus de sorts par jour. Il te reste, toutefois, bien des choses Ã  apprendre.~ 
+@9 = ~Tu apprends remarquablement vite, mon FrÃ¨re. Avec ces techniques d'optimisation de ton temps d'incantation, tu es maintenant en mesure de le rÃ©duire significativement. Il te reste, toutefois, bien des choses Ã  apprendre.~
+@10 = ~Tu apprends remarquablement vite, mon FrÃ¨re. Tu peux maintenant te transformer en un gros fÃ©lin. La moitiÃ© du temps, lorsque tu tenteras cette transformation, tu prendras la forme d'un lÃ©opard, l'autre moitiÃ© du temps, tu prendras celle d'une panthÃ¨re. Il te reste, toutefois, bien des choses Ã  apprendre.~
+@11 = ~Tu as fait du bon travail, mon FrÃ¨re, et cela me fait plaisir d'avoir pu t'aider. Mais maintenant, l'Archidruidesse me dit que tu dois passer un test supplÃ©mentaire. Es-tu prÃªt Ã  accomplir cette nouvelle tÃ¢che ?~
 @12 = ~Oui, ma Soeur. Dis-moi ce qu'il y a faire.~
 @13 = ~Non, ma Soeur, j'ai besoin de plus de temps.~
-@14 = ~Mon Frère, sans vouloir tester ta valeur en tant que serviteur de la Nature, ton temps sur Féérune est limité par ce que tu en fais. Prépare-toi du mieux que tu le pourras, et reviens me voir lorsque tu seras prêt.~
-@15 = ~Très bien, mon Frère. Ecoute attentivement, car il y a beaucoup à savoir avant de commencer la tâche.~
-@16 = ~Ces derniers mois, l'Archidruidesse a ressenti une présence malveillante. Elle ne sait pas vraiment de quoi il s'agit, mais elle ressent un grand pouvoir démoniaque.~
-@17 = ~Mon Frère, l'Archidruidesse craint pour la région si cette présence devenait trop puissante. Elle ne fait pas partie de notre monde, et nous devons l'empêcher de semer la destruction sur Féérune.~
-@18 = ~Elle t'a chargé, mon Frère, d'éliminer cette présence, en utilisant tous les moyens dont tu disposes. Demande de l'aide à tes alliés, ou à des amis puissants, ou rassemble des objets profanes pour mettre fin à cette chose par la force s'il le faut. La sécurité de Féérune repose une fois de plus sur tes épaules.~
-@19 = ~Où puis-je trouver cette présence, ma Soeur ?~
+@14 = ~Mon FrÃ¨re, sans vouloir tester ta valeur en tant que serviteur de la Nature, ton temps sur FÃ©Ã©rune est limitÃ© par ce que tu en fais. PrÃ©pare-toi du mieux que tu le pourras, et reviens me voir lorsque tu seras prÃªt.~
+@15 = ~TrÃ¨s bien, mon FrÃ¨re. Ecoute attentivement, car il y a beaucoup Ã  savoir avant de commencer la tÃ¢che.~
+@16 = ~Ces derniers mois, l'Archidruidesse a ressenti une prÃ©sence malveillante. Elle ne sait pas vraiment de quoi il s'agit, mais elle ressent un grand pouvoir dÃ©moniaque.~
+@17 = ~Mon FrÃ¨re, l'Archidruidesse craint pour la rÃ©gion si cette prÃ©sence devenait trop puissante. Elle ne fait pas partie de notre monde, et nous devons l'empÃªcher de semer la destruction sur FÃ©Ã©rune.~
+@18 = ~Elle t'a chargÃ©, mon FrÃ¨re, d'Ã©liminer cette prÃ©sence, en utilisant tous les moyens dont tu disposes. Demande de l'aide Ã  tes alliÃ©s, ou Ã  des amis puissants, ou rassemble des objets profanes pour mettre fin Ã  cette chose par la force s'il le faut. La sÃ©curitÃ© de FÃ©Ã©rune repose une fois de plus sur tes Ã©paules.~
+@19 = ~OÃ¹ puis-je trouver cette prÃ©sence, ma Soeur ?~
 @20 = ~Je ferai de mon mieux, ma Soeur.~
-@21 = ~Ma soeur, je doute que mes compétences soient suffisantes pour mettre fin à un tel fléau.~
-@22 = ~L'Archidruidesse ne sais pas exactement où, mais elle la ressent fortement dans la ville au sud, l'agglomération humaine que l'on appelle Athkatla.~
-@23 = ~Peu importe le prix, mon Frère, notre sort à tous est entre tes mains. Nous trois, nous croyons en toi, l'Archidruidesse croit en toi, et ceux qui connaissent tous les récits de tes exploits croiraient en toi s'ils savaient les dangers qu'ils encourent. Aie confiance en toi, Frère, et tu réussiras.~
-@24 = ~Je sais que tu feras de ton mieux. C'est tout ce que nous pouvons espérer. Bonne chance, mon Frère. Reviens me voir lorsque la présence ne sera plus.~
-@25 = ~L'Archidruidesse peut toujours sentir le Mal dans la région. Elle sait que tu n'as pas encore terminé ta tâche.~
-@26 = ~Je n'arrive pas à trouver cette présence, ma Soeur. Sais-tu où elle est ?~
-@27 = ~Je te l'ai dit, mon Frère. L'Archidruidesse la ressent à Athkatla.~
-@28 = ~Je ne peux pas être plus précise, mais la présence est plus forte du côté ouest de la ville.~
-@29 = ~L'Archidruidesse ressent la présence près d'un cours d'eau. Peut-être une rivière ? Elle ne peut pas le dire avec certitude.~
-@30 = ~La présence démoniaque se trouve sous la surface, mon Frère. L'Archidruidesse a la sensation de sentir un mélange de soufre, de sel et de pourriture.~
-@31 = ~Je ne peux pas être plus précise, mon Frère. Le Mal émane fortement de la partie ouest de la ville d'Athkatla, près de l'eau, sous la surface.~
-@32 = ~L'Archidruidesse ne ressent plus la présence maléfique. L'as-tu détruite ?~
+@21 = ~Ma soeur, je doute que mes compÃ©tences soient suffisantes pour mettre fin Ã  un tel flÃ©au.~
+@22 = ~L'Archidruidesse ne sais pas exactement oÃ¹, mais elle la ressent fortement dans la ville au sud, l'agglomÃ©ration humaine que l'on appelle Athkatla.~
+@23 = ~Peu importe le prix, mon FrÃ¨re, notre sort Ã  tous est entre tes mains. Nous trois, nous croyons en toi, l'Archidruidesse croit en toi, et ceux qui connaissent tous les rÃ©cits de tes exploits croiraient en toi s'ils savaient les dangers qu'ils encourent. Aie confiance en toi, FrÃ¨re, et tu rÃ©ussiras.~
+@24 = ~Je sais que tu feras de ton mieux. C'est tout ce que nous pouvons espÃ©rer. Bonne chance, mon FrÃ¨re. Reviens me voir lorsque la prÃ©sence ne sera plus.~
+@25 = ~L'Archidruidesse peut toujours sentir le Mal dans la rÃ©gion. Elle sait que tu n'as pas encore terminÃ© ta tÃ¢che.~
+@26 = ~Je n'arrive pas Ã  trouver cette prÃ©sence, ma Soeur. Sais-tu oÃ¹ elle est ?~
+@27 = ~Je te l'ai dit, mon FrÃ¨re. L'Archidruidesse la ressent Ã  Athkatla.~
+@28 = ~Je ne peux pas Ãªtre plus prÃ©cise, mais la prÃ©sence est plus forte du cÃ´tÃ© ouest de la ville.~
+@29 = ~L'Archidruidesse ressent la prÃ©sence prÃ¨s d'un cours d'eau. Peut-Ãªtre une riviÃ¨re ? Elle ne peut pas le dire avec certitude.~
+@30 = ~La prÃ©sence dÃ©moniaque se trouve sous la surface, mon FrÃ¨re. L'Archidruidesse a la sensation de sentir un mÃ©lange de soufre, de sel et de pourriture.~
+@31 = ~Je ne peux pas Ãªtre plus prÃ©cise, mon FrÃ¨re. Le Mal Ã©mane fortement de la partie ouest de la ville d'Athkatla, prÃ¨s de l'eau, sous la surface.~
+@32 = ~L'Archidruidesse ne ressent plus la prÃ©sence malÃ©fique. L'as-tu dÃ©truite ?~
 @33 = ~Non. Je l'ai bannie.~
 @34 = ~Oui, ma Soeur. Quoi que fut cette chose, maintenant elle n'est plus.~
-@35 = ~C'est donc fait. Mais quelles en seront les conséquences ? Tu as bien agi, mon Frère, et tu t'es rapproché du moment où tu en apprendras davantage sur l'ordre naturel.~
-@36 = ~Va vaincre le Mal, mon Frère, si tu le peux.~
-@37 = ~Je n'ai pas encore terminé ma formation auprès de l'Archidruidesse, <GABBER>, et je suis trop occupée pour interrompre mes méditations.~
-@38 = ~Je n'ai pas encore terminé ma formation auprès de l'archidruidesse, ma Soeur. Peut-être devrais-tu parler avec elle.~
-@39 = ~Je suis d'accord pour te servir de mentor, ma Soeur, mais tu va devoir choisir ce que je vais t'enseigner. Veux-tu augmenter ta capacité de mémorisation des sorts, optimiser et réduire ton temps d'incantation, ou préfères-tu apprendre à te transformer en panthère ou en léopard ?~
-@40 = ~C'est toi qui décides, Soeur Druidesse, et moi j'enseigne.~
-@41 = ~Tu apprends remarquablement vite, ma Soeur. Tu peux maintenant lancer plus de sorts par jour. Il te reste, toutefois, bien des choses à apprendre.~
-@42 = ~Tu apprends remarquablement vite, ma Soeur. Avec ces techniques d'optimisation de ton temps d'incantation, tu es maintenant en mesure de le réduire significativement. Il te reste, toutefois, bien des choses à apprendre.~
-@43 = ~Tu apprends remarquablement vite, ma Soeur. Tu peux maintenant te transformer en un gros félin. La moitié du temps, lorsque tu tenteras cette transformation, tu prendras la forme d'un léopard, l'autre moitié du temps, tu prendras celle d'une panthère. Il te reste, toutefois, bien des choses à apprendre.~
-@44 = ~Tu as fait du bon travail, ma Soeur, et cela me fait plaisir d'avoir pu t'aider. Mais maintenant, l'Archidruidesse me dit que tu dois passer un test supplémentaire. Es-tu prête à accomplir cette nouvelle tâche ?~
-@45 = ~Ma Soeur, sans vouloir tester ta valeur en tant que serviteur de la Nature, ton temps sur Féérune est limité par ce que tu en fais. Prépare-toi du mieux que tu le pourras, et reviens me voir lorsque tu seras prête.~
-@46 = ~Ma Soeur, l'Archidruidesse craint pour la région si cette présence devenait trop puissante. Elle ne fait pas partie de notre monde, et nous devons l'empêcher de semer la destruction sur Féérune.~
-@47 = ~Elle t'a chargée, ma Soeur, d'éliminer cette présence, en utilisant tous les moyens dont tu disposes. Demande de l'aide à tes alliés, ou à des amis puissants, ou rassemble des objets profanes pour mettre fin à cette chose par la force s'il le faut. La sécurité de Féérune repose une fois de plus sur tes épaules.~
-@48 = ~Peu importe le prix, ma Soeur, notre sort à tous est entre tes mains. Nous trois, nous croyons en toi, l'Archidruidesse croit en toi, et ceux qui connaissent tous les récits de tes exploits croiraient en toi s'ils savaient les dangers qu'ils encourent. Aie confiance en toi, ma Soeur, et tu réussiras.~
-@49 = ~Je sais que tu feras de ton mieux. C'est tout ce que nous pouvons espérer. Bonne chance, ma Soeur. Reviens me voir lorsque la présence ne sera plus.~
-@50 = ~Je te l'ai dit, ma Soeur. L'Archidruidesse la ressent à Athkatla.~
-@51 = ~La présence démoniaque se trouve sous la surface, ma Soeur. L'Archidruidesse a la sensation de sentir un mélange de soufre, de sel et de pourriture.~
-@52 = ~Je ne peux pas être plus précise, ma Soeur. Le Mal émane fortement de la partie ouest de la ville d'Athkatla, près de l'eau, sous la surface.~
-@53 = ~C'est donc fait. Mais quelles en seront les conséquences ? Tu as bien agi, ma Soeur, et tu t'es rapprochée du moment où tu en apprendras davantage sur l'ordre naturel.~
+@35 = ~C'est donc fait. Mais quelles en seront les consÃ©quences ? Tu as bien agi, mon FrÃ¨re, et tu t'es rapprochÃ© du moment oÃ¹ tu en apprendras davantage sur l'ordre naturel.~
+@36 = ~Va vaincre le Mal, mon FrÃ¨re, si tu le peux.~
+@37 = ~Je n'ai pas encore terminÃ© ma formation auprÃ¨s de l'Archidruidesse, <GABBER>, et je suis trop occupÃ©e pour interrompre mes mÃ©ditations.~
+@38 = ~Je n'ai pas encore terminÃ© ma formation auprÃ¨s de l'archidruidesse, ma Soeur. Peut-Ãªtre devrais-tu parler avec elle.~
+@39 = ~Je suis d'accord pour te servir de mentor, ma Soeur, mais tu va devoir choisir ce que je vais t'enseigner. Veux-tu augmenter ta capacitÃ© de mÃ©morisation des sorts, optimiser et rÃ©duire ton temps d'incantation, ou prÃ©fÃ¨res-tu apprendre Ã  te transformer en panthÃ¨re ou en lÃ©opard ?~
+@40 = ~C'est toi qui dÃ©cides, Soeur Druidesse, et moi j'enseigne.~
+@41 = ~Tu apprends remarquablement vite, ma Soeur. Tu peux maintenant lancer plus de sorts par jour. Il te reste, toutefois, bien des choses Ã  apprendre.~
+@42 = ~Tu apprends remarquablement vite, ma Soeur. Avec ces techniques d'optimisation de ton temps d'incantation, tu es maintenant en mesure de le rÃ©duire significativement. Il te reste, toutefois, bien des choses Ã  apprendre.~
+@43 = ~Tu apprends remarquablement vite, ma Soeur. Tu peux maintenant te transformer en un gros fÃ©lin. La moitiÃ© du temps, lorsque tu tenteras cette transformation, tu prendras la forme d'un lÃ©opard, l'autre moitiÃ© du temps, tu prendras celle d'une panthÃ¨re. Il te reste, toutefois, bien des choses Ã  apprendre.~
+@44 = ~Tu as fait du bon travail, ma Soeur, et cela me fait plaisir d'avoir pu t'aider. Mais maintenant, l'Archidruidesse me dit que tu dois passer un test supplÃ©mentaire. Es-tu prÃªte Ã  accomplir cette nouvelle tÃ¢che ?~
+@45 = ~Ma Soeur, sans vouloir tester ta valeur en tant que serviteur de la Nature, ton temps sur FÃ©Ã©rune est limitÃ© par ce que tu en fais. PrÃ©pare-toi du mieux que tu le pourras, et reviens me voir lorsque tu seras prÃªte.~
+@46 = ~Ma Soeur, l'Archidruidesse craint pour la rÃ©gion si cette prÃ©sence devenait trop puissante. Elle ne fait pas partie de notre monde, et nous devons l'empÃªcher de semer la destruction sur FÃ©Ã©rune.~
+@47 = ~Elle t'a chargÃ©e, ma Soeur, d'Ã©liminer cette prÃ©sence, en utilisant tous les moyens dont tu disposes. Demande de l'aide Ã  tes alliÃ©s, ou Ã  des amis puissants, ou rassemble des objets profanes pour mettre fin Ã  cette chose par la force s'il le faut. La sÃ©curitÃ© de FÃ©Ã©rune repose une fois de plus sur tes Ã©paules.~
+@48 = ~Peu importe le prix, ma Soeur, notre sort Ã  tous est entre tes mains. Nous trois, nous croyons en toi, l'Archidruidesse croit en toi, et ceux qui connaissent tous les rÃ©cits de tes exploits croiraient en toi s'ils savaient les dangers qu'ils encourent. Aie confiance en toi, ma Soeur, et tu rÃ©ussiras.~
+@49 = ~Je sais que tu feras de ton mieux. C'est tout ce que nous pouvons espÃ©rer. Bonne chance, ma Soeur. Reviens me voir lorsque la prÃ©sence ne sera plus.~
+@50 = ~Je te l'ai dit, ma Soeur. L'Archidruidesse la ressent Ã  Athkatla.~
+@51 = ~La prÃ©sence dÃ©moniaque se trouve sous la surface, ma Soeur. L'Archidruidesse a la sensation de sentir un mÃ©lange de soufre, de sel et de pourriture.~
+@52 = ~Je ne peux pas Ãªtre plus prÃ©cise, ma Soeur. Le Mal Ã©mane fortement de la partie ouest de la ville d'Athkatla, prÃ¨s de l'eau, sous la surface.~
+@53 = ~C'est donc fait. Mais quelles en seront les consÃ©quences ? Tu as bien agi, ma Soeur, et tu t'es rapprochÃ©e du moment oÃ¹ tu en apprendras davantage sur l'ordre naturel.~
 @54 = ~Va vaincre le Mal, ma Soeur, si tu le peux.~
-@55 = ~L'Archidruidesse : Présence Maléfique
+@55 = ~L'Archidruidesse : PrÃ©sence MalÃ©fique
 
-Le trio de druidesses qui vivent dans le Grand Bosquet au nord m’a ordonné de vaincre la présence maléfique qu'elles sentent dans la région. Elles ne sont pas très sures de l'endroit d'où provient le Mal, mais elles savent qu'il faut le chercher dans la ville d'Athkatla.
-Lorsque j'aurai vaincu cette présence démoniaque, soit en la détruisant, soit en la bannissant de Féérune, je devrai retourner voir les druidesses au sud de la porte de Baldur. Elles m'enseigneront de nouvelles compétences visant à enrichir ma vie.~
+Le trio de druidesses qui vivent dans le Grand Bosquet au nord mâ€™a ordonnÃ© de vaincre la prÃ©sence malÃ©fique qu'elles sentent dans la rÃ©gion. Elles ne sont pas trÃ¨s sures de l'endroit d'oÃ¹ provient le Mal, mais elles savent qu'il faut le chercher dans la ville d'Athkatla.
+Lorsque j'aurai vaincu cette prÃ©sence dÃ©moniaque, soit en la dÃ©truisant, soit en la bannissant de FÃ©Ã©rune, je devrai retourner voir les druidesses au sud de la porte de Baldur. Elles m'enseigneront de nouvelles compÃ©tences visant Ã  enrichir ma vie.~
 @56 = ~L'Archidruidesse : La Voie de la Nature
 
-L'Archidruidesse et ses apprenties m'ont enseigné à mémoriser plus de sorts.~
+L'Archidruidesse et ses apprenties m'ont enseignÃ© Ã  mÃ©moriser plus de sorts.~
 @57 = ~L'Archidruidesse : La Voie de la Nature
 
-L'Archidruidesse et ses apprenties m'ont enseigné à réduire le temps d'incantation de mes sorts.~
+L'Archidruidesse et ses apprenties m'ont enseignÃ© Ã  rÃ©duire le temps d'incantation de mes sorts.~
 @58 = ~L'Archidruidesse : La Voie de la Nature
 
-L'Archidruidesse et ses apprenties m'ont enseigné comment me transformer en un gros félin, soit une panthère, soit un léopard.~
-@59 = ~L'Archidruidesse : Présence Maléfique
+L'Archidruidesse et ses apprenties m'ont enseignÃ© comment me transformer en un gros fÃ©lin, soit une panthÃ¨re, soit un lÃ©opard.~
+@59 = ~L'Archidruidesse : PrÃ©sence MalÃ©fique
 
-L'Archidruidesse m'a ordonné de vaincre la présence maléfique qu'elle a ressentie dans la région, et que j'ai découverte sous les docks d'Athkatla. Ce fut un combat rude, mais j'en suis sorti victorieux et les druidesses m'ont proposé d'apprendre une compétence utile.~
+L'Archidruidesse m'a ordonnÃ© de vaincre la prÃ©sence malÃ©fique qu'elle a ressentie dans la rÃ©gion, et que j'ai dÃ©couverte sous les docks d'Athkatla. Ce fut un combat rude, mais j'en suis sorti victorieux et les druidesses m'ont proposÃ© d'apprendre une compÃ©tence utile.~

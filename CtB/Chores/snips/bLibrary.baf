@@ -1,48 +1,106 @@
 IF
+	IsOverMe(Player1)
 	Global("TeleportChores","AR0602",0)
-	Gender(Player1,MALE)
 	Global("ImoenLibrary","AR0602",2)
 THEN
 	RESPONSE #100
 		SetGlobal("TeleportChores","AR0602",1)
-		StartCutSceneMode()
-		StartCutScene("CBNEWGMM")
 END
 
 IF
 	IsOverMe(Player1)
 	Global("TeleportChores","AR0602",0)
-	Gender(Player1,MALE)
 	!InParty("Imoen2")  // Imoen
 THEN
 	RESPONSE #100
 		DisplayStringHead(Player1,@550637)
 		SetGlobal("TeleportChores","AR0602",1)
+END
+
+
+// removes equipment
+IF 
+	Global("TeleportChores","AR0602",1)
+THEN
+	RESPONSE #100
+		SetGlobal("TeleportChores","AR0602",2)
+		CreateCreature("CBPL1EQI",[1100.3200],0)
+		CreateCreature("CBPL1INV",[600.2800],0)
+		ActionOverride("CBPL1EQI",TakeCreatureItems(Player1,EQUIPPED))
+		ActionOverride("CBPL1INV",TakeCreatureItems(Player1,BACKPACK))
+END
+
+// make NPC unselectable
+IF 
+	Global("TeleportChores","AR0602",2)
+THEN
+	RESPONSE #100
+		SetGlobal("TeleportChores","AR0602",3)
+		
+		ApplySpellRES("CBLIBON",Player2)
+		ApplySpellRES("CBLIBON",Player3)
+		ApplySpellRES("CBLIBON",Player4)
+		ApplySpellRES("CBLIBON",Player5)
+		ApplySpellRES("CBLIBON",Player6)
+		
+		SaveObjectLocation("LOCALS","cb_library",Myself)		
+		
 		StartCutSceneMode()
 		StartCutScene("CBNEWGMM")
 END
 
+// removes unselectable
 IF
-	Global("TeleportChores","AR0602",0)
-	Gender(Player1,FEMALE)
-	Global("ImoenLibrary","AR0602",2)
+	IsOverMe(Player1)
+	Global("TeleportChores","AR0602",4)
 THEN
 	RESPONSE #100
-		SetGlobal("TeleportChores","AR0602",1)
-		StartCutSceneMode()
-		StartCutScene("CBNEWGMF")
+		MoveToSavedLocationn("cb_library","LOCALS")
+		ApplySpellRES("CBLIBOF",Player2)
+		ApplySpellRES("CBLIBOF",Player3)
+		ApplySpellRES("CBLIBOF",Player4)
+		ApplySpellRES("CBLIBOF",Player5)
+		ApplySpellRES("CBLIBOF",Player6)
+		SetGlobal("TeleportChores","AR0602",5)
+		Continue()
 END
 
 IF
 	IsOverMe(Player1)
-	Global("TeleportChores","AR0602",0)
-	Gender(Player1,FEMALE)
-	!InParty("Imoen2")  // Imoen
+	Global("TeleportChores","AR0602",5)
 THEN
 	RESPONSE #100
-		DisplayStringHead(Player1,@550637)
-		SetGlobal("TeleportChores","AR0602",1)
-		StartCutSceneMode()
-		StartCutScene("CBNEWGMF")
+		ActionOverride(Player1,TakeCreatureItems("CBPL1EQI",ALL))
+		ActionOverride(Player1,FillSlot(SLOT_AMULET))
+		ActionOverride(Player1,FillSlot(SLOT_ARMOR))
+		ActionOverride(Player1,FillSlot(SLOT_BELT))
+		ActionOverride(Player1,FillSlot(SLOT_BOOTS))
+		ActionOverride(Player1,FillSlot(SLOT_CLOAK))
+		ActionOverride(Player1,FillSlot(SLOT_GAUNTLETS))
+		ActionOverride(Player1,FillSlot(SLOT_HELMET))
+		ActionOverride(Player1,FillSlot(SLOT_RING_LEFT))
+		ActionOverride(Player1,FillSlot(SLOT_RING_RIGHT))
+		ActionOverride(Player1,FillSlot(SLOT_SHIELD))
+		ActionOverride(Player1,FillSlot(SLOT_FIST))
+		ActionOverride(Player1,FillSlot(SLOT_AMMO))
+		ActionOverride(Player1,FillSlot(SLOT_MISC))
+//		ActionOverride(Player1,FillSlot(SLOT_WEAPON))
+		ActionOverride(Player1,FillSlot(SLOT_WEAPON0))
+		ActionOverride(Player1,FillSlot(SLOT_WEAPON1))
+		ActionOverride(Player1,FillSlot(SLOT_WEAPON2))
+		ActionOverride(Player1,FillSlot(SLOT_WEAPON3))
+		ActionOverride(Player1,TakeCreatureItems("CBPL1INV",ALL))
+		ActionOverride(Player1,EquipMostDamagingMelee())
+		SetGlobal("TeleportChores","AR0602",6)
 END
 
+IF
+	IsOverMe(Player1)
+	Global("TeleportChores","AR0602",6)
+THEN
+	RESPONSE #100
+		Wait(5)
+		ActionOverride("CBPL1EQI",DestroySelf())
+		ActionOverride("CBPL1INV",DestroySelf())
+		SetGlobal("TeleportChores","AR0602",7)
+END

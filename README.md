@@ -157,6 +157,13 @@ This component patches the main component with some improvements:
 - Change Yusef's name to Yassir, because Yusef is Surayas brother.
 - Start the pirate quest in Athkathla at the gates by level 10.
 
+##
+
+#### 4. Biffing
+
+This component requires the main component to be installed. Compress files for better game performance. Only valid for classic (BG2:ToB or BGT) game.</br>
+
+
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -242,13 +249,29 @@ I really hope I don't forget anyone- if I do, you can slap me with a wet towel.
 
 ## <a name="versions" id="versions"></a>Version History
 
-For a full Version History please refer to the file "<a href="CtB-Version.txt">CtB-Version.txt</a>" in CtB/text/.
+For a full Version History please refer to the file "<a href="CtB-Version.txt">CtB-Version.txt</a>" in CtB/text/.  
 
-#### In development
+#### Version 3.1 (by Weigo)
 
-- Fixed Trans0404 trigger name.
-- Fixed Druidic Circle on EET map.
-- Support for BP-BGT-Worldmap v13.
+By Roberciiik
+- Added new BP-BGT-Worldmap support 
+
+By GraionDilach
+- Move Druidic Circle closer to Athkatla on EET 
+
+By Weigo
+- Change HANDLE_CHARSETS to use from_utf8=1
+- Fixed in Candlekeep Chores the Keepers
+- Start Chores 
+	- Starts again for clasical game at the original beginning, because of inventory and NPC problems
+	- In the EE version, the chores starts in the library
+	- EE Version, the NPCs are deactivated and can no longer be selected
+	- The inventory is emptied 
+	- At the end of the chores, everything is returned and the NPC is activated
+- Chores: Script adaptation to the EE version
+- Revision of the areas, as the areas became pixelated due to Tiz compression. The original BG1, IWD1 and IWD2 maps have been retained.
+- Every outdoor map now has an extended night version.
+- Missing candles, torch animations of the inside maps have been added.
 
 #### Version 3.0 (by Weigo and jastey)
 

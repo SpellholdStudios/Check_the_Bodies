@@ -1,41 +1,41 @@
-@1   = ~No hay nada que pueda hacer por vos en este instante en mi viaje a través Faerûn.~
-@2   = ~<GABBER>, verdaderamente sois un espíritu digno de nuestra guía y nosotras, humildemente, os rogamos en necesidad que cumpláis nuestras encomiendas.~
-@3   = ~De nuevo, <GABBER>, debéis elegir. Os ayudaremos pero debéis decidir: ¿preferís aprender métodos avanzados de alquímia con los cuales podréis mezclar potentes elixires y pociones? ¿Preferís aprender métodos mejorados para encantar armas, ó podríais preferir mejorar vuestros tiempos de lanzamiento de hechizos? Pensad cuidadosamente, <GABBER<, vuestra elección será definitiva.~
-@4   = ~Creo que me gustaría aprender el arte de la alquímia.~
-@5   = ~Estaría bastante agradecido si me enseñárais cómo encantar armas.~
-@6   = ~Por favor, Señora, enseñadme cómo lanzar hechizos con mayor celeridad.~
-@7   = ~Estoy más que feliz de enseñaros, <GABBER>, el cómo mezclar sustancias y polvos para crear pociones.~
-@8   = ~Gracias, <GABBER>, por permitidme enseñaros esos métodos avanzados de alquímia y dar un paso más para ser capaz de dejar Faerûn en pos de la Isla de los Elfos.~
-@9   = ~Estoy más que feliz de enseñaros, <GABBER>, las técnicas avanzadas usadas en el encantamientos de las armas de filo.~
-@10  = ~Gracias, <GABBER>, por permitidme enseñaros cómo encantar armas de filo para que sean más poderosas. Solo recordad que debéis tener el objeto que deseéis encantar en vuestra persona, de otra forma el encantamiento fallará. Y recordad, ésto solo funciona en las armas que sostengáis en vuestra mano para atacar, no en nada que pueda ser arrojado. Me habéis ayudado a dar un paso más para ser capaz de dejar Faerûn en pos de la Isla de los Elfos.~
-@11  = ~Estoy más que feliz de enseñaros, <GABBER>, cómo mejorar vuestra velocidad de lanzamiento de conjuros.~
-@12  = ~Gracias, <GABBER>, por permitidme enseñaros cómo lanzar conjuros de forma más rápida y eficaz. Me habéis ayudado a dar un paso más para ser capaz de dejar Faerûn en pos de la Isla de los Elfos.~
-@13  = ~Estoy encantada de haberos ayudado, <GABBER>. Hay una última tarea que debéis hacer, antes de que cumplamos las nuestras propias, que nos ayudará a mejorar vuestra educación. ¿Estáis preparado?~
-@14  = ~Sí, Hermana. ¿Qué debo hacer?~
+@1   = ~No hay nada que pueda hacer por vos en este instante en mi viaje a travÃ©s FaerÃ»n.~
+@2   = ~<GABBER>, verdaderamente sois un espÃ­ritu digno de nuestra guÃ­a y nosotras, humildemente, os rogamos en necesidad que cumplÃ¡is nuestras encomiendas.~
+@3   = ~De nuevo, <GABBER>, debÃ©is elegir. Os ayudaremos pero debÃ©is decidir: Â¿preferÃ­s aprender mÃ©todos avanzados de alquÃ­mia con los cuales podrÃ©is mezclar potentes elixires y pociones? Â¿PreferÃ­s aprender mÃ©todos mejorados para encantar armas, Ã³ podrÃ­ais preferir mejorar vuestros tiempos de lanzamiento de hechizos? Pensad cuidadosamente, <GABBER<, vuestra elecciÃ³n serÃ¡ definitiva.~
+@4   = ~Creo que me gustarÃ­a aprender el arte de la alquÃ­mia.~
+@5   = ~EstarÃ­a bastante agradecido si me enseÃ±Ã¡rais cÃ³mo encantar armas.~
+@6   = ~Por favor, SeÃ±ora, enseÃ±adme cÃ³mo lanzar hechizos con mayor celeridad.~
+@7   = ~Estoy mÃ¡s que feliz de enseÃ±aros, <GABBER>, el cÃ³mo mezclar sustancias y polvos para crear pociones.~
+@8   = ~Gracias, <GABBER>, por permitidme enseÃ±aros esos mÃ©todos avanzados de alquÃ­mia y dar un paso mÃ¡s para ser capaz de dejar FaerÃ»n en pos de la Isla de los Elfos.~
+@9   = ~Estoy mÃ¡s que feliz de enseÃ±aros, <GABBER>, las tÃ©cnicas avanzadas usadas en el encantamientos de las armas de filo.~
+@10  = ~Gracias, <GABBER>, por permitidme enseÃ±aros cÃ³mo encantar armas de filo para que sean mÃ¡s poderosas. Solo recordad que debÃ©is tener el objeto que deseÃ©is encantar en vuestra persona, de otra forma el encantamiento fallarÃ¡. Y recordad, Ã©sto solo funciona en las armas que sostengÃ¡is en vuestra mano para atacar, no en nada que pueda ser arrojado. Me habÃ©is ayudado a dar un paso mÃ¡s para ser capaz de dejar FaerÃ»n en pos de la Isla de los Elfos.~
+@11  = ~Estoy mÃ¡s que feliz de enseÃ±aros, <GABBER>, cÃ³mo mejorar vuestra velocidad de lanzamiento de conjuros.~
+@12  = ~Gracias, <GABBER>, por permitidme enseÃ±aros cÃ³mo lanzar conjuros de forma mÃ¡s rÃ¡pida y eficaz. Me habÃ©is ayudado a dar un paso mÃ¡s para ser capaz de dejar FaerÃ»n en pos de la Isla de los Elfos.~
+@13  = ~Estoy encantada de haberos ayudado, <GABBER>. Hay una Ãºltima tarea que debÃ©is hacer, antes de que cumplamos las nuestras propias, que nos ayudarÃ¡ a mejorar vuestra educaciÃ³n. Â¿EstÃ¡is preparado?~
+@14  = ~SÃ­, Hermana. Â¿QuÃ© debo hacer?~
 @15  = ~Ahora no, Hermana. Necesito algo de tiempo.~
-@16  = ~Entonces esperaré nuestro próximo encuentro antes de mi pronta marcha al oeste.~
-@17  = ~Mientras que vuestra primera tarea fue bastante simple, la segunda resultó mucho más difícil. Éste último encargo es sencillo, ya que no no entraña riesgo alguno para vos. Tomad, <GABBER>, tomad esta empuñadura. Es la empuñadura de una Espada Lunar, la cuál se pensaba que era un arma indestructible.~
-@18  = ~La espada no nos sirve, pero con los metales correctos, puede ser reforjada. Sólo hay un alma en la región que conozca cómo puede hacerse, un descendiente de los Reinos Perdidos, un enano llamado Cromwell. Llevadle la empuñadura y el metal para que reforje la hoja. Cuando la Espada Lunar esté restaurada, traedmela.~
-@19  = ~Lo intentaré, buena Señora.~
-@20  = ~Sé que lo haréis, <GABBER>.~
-@21  = ~¿Habéis sido capaz de restaurar la Espada Lunar?~
-@22  = ~Sí, Hermana. La tengo.~
-@23  = ~No, Hermana. Aún no tengo la espada restaurada.~
-@24  = ~Volved a mí, <GABBER>, cuando la tengáis.~
-@25  = ~Luego está hecha. Estoy un paso más cerca de mi destino. Bien, <GABBER>, encantaré aún más la espada y os la daré como presente. Os habéis ganado el derecho a portar un antíguo artefacto élfico, y deberíais sentiros honrado.~
-@26  = ~Aguardamos el momento en el que realizaremos el viaje final desde Faerûn hasta Siempreunidos. Puede que el Seldarine os guie, <GABBER>.~
-@27 = ~Las Sabias élficas: Instrucción Magica
+@16  = ~Entonces esperarÃ© nuestro prÃ³ximo encuentro antes de mi pronta marcha al oeste.~
+@17  = ~Mientras que vuestra primera tarea fue bastante simple, la segunda resultÃ³ mucho mÃ¡s difÃ­cil. Ã‰ste Ãºltimo encargo es sencillo, ya que no no entraÃ±a riesgo alguno para vos. Tomad, <GABBER>, tomad esta empuÃ±adura. Es la empuÃ±adura de una Espada Lunar, la cuÃ¡l se pensaba que era un arma indestructible.~
+@18  = ~La espada no nos sirve, pero con los metales correctos, puede ser reforjada. SÃ³lo hay un alma en la regiÃ³n que conozca cÃ³mo puede hacerse, un descendiente de los Reinos Perdidos, un enano llamado Cromwell. Llevadle la empuÃ±adura y el metal para que reforje la hoja. Cuando la Espada Lunar estÃ© restaurada, traedmela.~
+@19  = ~Lo intentarÃ©, buena SeÃ±ora.~
+@20  = ~SÃ© que lo harÃ©is, <GABBER>.~
+@21  = ~Â¿HabÃ©is sido capaz de restaurar la Espada Lunar?~
+@22  = ~SÃ­, Hermana. La tengo.~
+@23  = ~No, Hermana. AÃºn no tengo la espada restaurada.~
+@24  = ~Volved a mÃ­, <GABBER>, cuando la tengÃ¡is.~
+@25  = ~Luego estÃ¡ hecha. Estoy un paso mÃ¡s cerca de mi destino. Bien, <GABBER>, encantarÃ© aÃºn mÃ¡s la espada y os la darÃ© como presente. Os habÃ©is ganado el derecho a portar un antÃ­guo artefacto Ã©lfico, y deberÃ­ais sentiros honrado.~
+@26  = ~Aguardamos el momento en el que realizaremos el viaje final desde FaerÃ»n hasta Siempreunidos. Puede que el Seldarine os guie, <GABBER>.~
+@27 = ~Las Sabias Ã©lficas: InstrucciÃ³n Magica
 
-  El trio de hechiceras que encontré en el linde occidental del Bosque de Tethyr, cerca de la entrada cavernosa de la Infraoscuridad, han sido tan amables de enseñarme cómo realizar procesos alquímicos avanzados para crear poderosas pociones.~
-@28 = ~Las Sabias élficas: Instrucción Magica
+  El trio de hechiceras que encontrÃ© en el linde occidental del Bosque de Tethyr, cerca de la entrada cavernosa de la Infraoscuridad, han sido tan amables de enseÃ±arme cÃ³mo realizar procesos alquÃ­micos avanzados para crear poderosas pociones.~
+@28 = ~Las Sabias Ã©lficas: InstrucciÃ³n Magica
 
-  El trio de hechiceras que encontré en el linde occidental del Bosque de Tethyr, cerca de la entrada cavernosa de la Infraoscuridad, han sido tan amables de enseñarme cómo encantar armas de filo normales para convertirlas en poderosas armas mágicas.~
-@29 = ~Las Sabias élficas: Instrucción Magica
+  El trio de hechiceras que encontrÃ© en el linde occidental del Bosque de Tethyr, cerca de la entrada cavernosa de la Infraoscuridad, han sido tan amables de enseÃ±arme cÃ³mo encantar armas de filo normales para convertirlas en poderosas armas mÃ¡gicas.~
+@29 = ~Las Sabias Ã©lficas: InstrucciÃ³n Magica
 
-  El trio de hechiceras que encontré en el linde occidental del Bosque de Tethyr, cerca de la entrada cavernosa de la Infraoscuridad, han sido tan amables de enseñarme cómo lanzar los conjuros con mayor rapidez que como lo hacía antes.~
-@30 = ~Las Sabias élficas: Reforjando una Espada Lunar
+  El trio de hechiceras que encontrÃ© en el linde occidental del Bosque de Tethyr, cerca de la entrada cavernosa de la Infraoscuridad, han sido tan amables de enseÃ±arme cÃ³mo lanzar los conjuros con mayor rapidez que como lo hacÃ­a antes.~
+@30 = ~Las Sabias Ã©lficas: Reforjando una Espada Lunar
 
-  Las ancianas hechiceras que me habían enseñado algunas valiosísimas habilidades me pidieron que les completara otra tarea. Esta vez, me dieron la empuñadura de una Espada Lunar destrozada, que fue tomada como un arma indestructible. Lo que fuera que hiciera pedazos la espada debió haber sido en todo caso una fuerza tremendamente poderosa. Tengo que encontrar el metal que pueda usarse para reforjar esta empuñadura y convertirla en un arma útil. No sé donde conseguir ese metal, pero las elfas que conocí en la salida de la Infraoscuridad me han dicho que un enano llamado Cromwell puede ayudarme a reforjar el arma mágica.~
-@31 = ~Las Sabias élficas: Reforjando una Espada Lunar
+  Las ancianas hechiceras que me habÃ­an enseÃ±ado algunas valiosÃ­simas habilidades me pidieron que les completara otra tarea. Esta vez, me dieron la empuÃ±adura de una Espada Lunar destrozada, que fue tomada como un arma indestructible. Lo que fuera que hiciera pedazos la espada debiÃ³ haber sido en todo caso una fuerza tremendamente poderosa. Tengo que encontrar el metal que pueda usarse para reforjar esta empuÃ±adura y convertirla en un arma Ãºtil. No sÃ© donde conseguir ese metal, pero las elfas que conocÃ­ en la salida de la Infraoscuridad me han dicho que un enano llamado Cromwell puede ayudarme a reforjar el arma mÃ¡gica.~
+@31 = ~Las Sabias Ã©lficas: Reforjando una Espada Lunar
 
-  Fui capaz, con la ayuda de Cromwell, de restaurar la antígua Espada Lunar élfica. Cuando se la llevé al trío de hechiceras, me recompensaron encantando aún más la espada. Tenía creido que las Espadas Lunares escogían a sus portadores, pero las elfas me obsequiaron con la poderosa arma, al parecer, un gran honor entre los elfos, y algo casi desconocido para aquellos de otras razas.~
+  Fui capaz, con la ayuda de Cromwell, de restaurar la antÃ­gua Espada Lunar Ã©lfica. Cuando se la llevÃ© al trÃ­o de hechiceras, me recompensaron encantando aÃºn mÃ¡s la espada. TenÃ­a creido que las Espadas Lunares escogÃ­an a sus portadores, pero las elfas me obsequiaron con la poderosa arma, al parecer, un gran honor entre los elfos, y algo casi desconocido para aquellos de otras razas.~
