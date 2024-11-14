@@ -319,7 +319,7 @@
 			Author: Charles Bisson &#8226; <acronym title="Weimer Dialogue Utility">WeiDU</acronym> coding: <a href="#credits">Multiple</a>
 		</p>
 		<p class="about">
-			<a href="http://www.spellholdstudios.net/ie/ctb">Mod Website</a> &#8226; <a href="http://www.shsforums.net/forum/196-check-the-bodies/">Mod Forum</a> &#8226; <a href="http://www.shsforums.net/files/file/58-check-the-bodies-v113/">Download</a> &#8226; <a href="https://github.com/SpellholdStudios/Check_the_Bodies/releases/latest">GitHub</a> &#8226; Version 3.0
+			<a href="http://www.spellholdstudios.net/ie/ctb">Mod Website</a> &#8226; <a href="http://www.shsforums.net/forum/196-check-the-bodies/">Mod Forum</a> &#8226; <a href="http://www.shsforums.net/files/file/58-check-the-bodies-v113/">Download</a> &#8226; <a href="https://github.com/SpellholdStudios/Check_the_Bodies/releases/latest">GitHub</a> &#8226; Version 3.1
 		</p>
 		<hr style="margin: 10px 0 10px 0; padding: 0; height: 1px; border: 0; color: #aaa; background-color: #aaa;" />
 
@@ -732,9 +732,45 @@
 		<p>
 			For a full Version History please refer to the file "<a href="CtB-Version.txt">CtB-Version.txt</a>" in CtB/text/.
 		</p></br>
+		
+		<h6>Version 3.1 (by Weigo, GraionDilach and Roberciiik)</h6>
 
+		  <ul>
+			<li>Added new BP-BGT-Worldmap support</li>
+			<li>Move Druidic Circle closer to Athkatla on EET</li>
+			<li>Change HANDLE_CHARSETS to use from_utf8=1</li>
+			<li>changed tiz format of the areas to tbc format</li>
+			<li>Revision of the areas, as the areas became pixelated due to Tiz compression. The original BG1, IWD1 and IWD2 maps have been retained.</li>
+			<li>Every outdoor map now has an extended night version.</li>
+			<li>Missing candles, torch animations of the inside maps have been added.</li>
+			<li>Revision of the spells, now the spells are installed with ADD_SPELL</li>
+			<li>the number of entries in the spell.ids has been reduced to those that can be learned. The rest have been replaced with the ReallyForceSpellRES action. They could not be learned.</li>
+			  <ul>
+				<li style="margin-left:-4%; margin-right:-8%;">WIZARD_EAGLES_SPLENDOR</li>
+				<li style="margin-left:-4%; margin-right:-8%;">WIZARD_DECASTAVE</li>
+				<li style="margin-left:-4%; margin-right:-8%;">WIZARD_BALL_LIGHTNING</li>
+				<li style="margin-left:-4%; margin-right:-8%;">WIZARD_LUTZAENS_FREQUENT_JAUNT</li>
+				<li style="margin-left:-4%; margin-right:-8%;">WIZARD_DARTS_OF_BONE</li>
+				<li style="margin-left:-4%; margin-right:-8%;">WIZARD_TROLLISH_FORTITUDE</li>
+				<li style="margin-left:-4%; margin-right:-8%;">WIZARD_LICH_TOUCH</li>
+				<li style="margin-left:-4%; margin-right:-8%;">WIZARD_CATS_GRACE</li>
+				<li style="margin-left:-4%; margin-right:-8%;">WIZARD_MORDENKAINENS_FORCE_MISSILES</li>
+				<li style="margin-left:-4%; margin-right:-8%;">WIZARD_ANTIMAGIC_FIELD</li>
+				<li style="margin-left:-4%; margin-right:-8%;">WIZARD_IRON_BODY</li>
+				<li style="margin-left:-4%; margin-right:-8%;">WIZARD_MIND_BLANK</li>
+			  </ul>
+			<li>Fixed in Candlekeep Chores the Keepers
+			<li>Start Chores</li> 
+			  <ul>
+				<li style="margin-left:-4%; margin-right:-8%;">Starts again for clasical game at the original beginning, because of inventory and NPC problems</li>
+				<li style="margin-left:-4%; margin-right:-8%;">In the EE version, the chores starts in the library</li>
+				<li style="margin-left:-4%; margin-right:-8%;">EE Version, the NPCs are deactivated and can no longer be selected</li>
+				<li style="margin-left:-4%; margin-right:-8%;">The inventory is emptied </li>
+				<li style="margin-left:-4%; margin-right:-8%;">At the end of the chores, everything is returned and the NPC is activated</li>
+			  </ul>
+		  </ul>
 		<h6>Version 3.0 (by Weigo and jastey)</h6>
-
+		  
 		  <ul>
 			<li>Added <em>ctb.ini</em> metadata file to support AL|EN's "Project Infinity".</li>
 			<li>Added <em>DESIGNATED</em> numbers and "<em>Check_the_Bodies</em>", "<em>ctb_candlekeep_chores</em>", "<em>ctb_candlekeep_chores_ff</em>" and "<em>ctb_improvements</em>" component LABELS.</li>

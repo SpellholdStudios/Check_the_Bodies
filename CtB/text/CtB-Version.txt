@@ -24,9 +24,24 @@ By Weigo
 	- The inventory is emptied 
 	- At the end of the chores, everything is returned and the NPC is activated
 - Chores: Script adaptation to the EE version
+- Changed tiz format of the areas to tbc format
 - Revision of the areas, as the areas became pixelated due to Tiz compression. The original BG1, IWD1 and IWD2 maps have been retained.
 - Every outdoor map now has an extended night version.
 - Missing candles, torch animations of the inside maps have been added.
+- Revision of the spells, now the spells are installed with ADD_SPELL
+- The number of entries in the spell.ids has been reduced to those that can be learned. The rest have been replaced with the ReallyForceSpellRES action. They could not be learned.
+	WIZARD_EAGLES_SPLENDOR
+	WIZARD_DECASTAVE
+	WIZARD_BALL_LIGHTNING
+	WIZARD_LUTZAENS_FREQUENT_JAUNT
+	WIZARD_DARTS_OF_BONE
+	WIZARD_TROLLISH_FORTITUDE
+	WIZARD_LICH_TOUCH
+	WIZARD_CATS_GRACE
+	WIZARD_MORDENKAINENS_FORCE_MISSILES
+	WIZARD_ANTIMAGIC_FIELD
+	WIZARD_IRON_BODY
+	WIZARD_MIND_BLANK
 
 *******************************************************************************
 *** v3.0 by Weigo and jastey:
