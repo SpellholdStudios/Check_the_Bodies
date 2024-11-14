@@ -8,6 +8,9 @@ http://www.shsforums.net/forum/196-check-the-bodies/
 *** v3.1 by Weigo
 *******************************************************************************
 
+By  Lzw104522773 
+- Added chinese translation
+
 By Roberciiik
 - Added new BP-BGT-Worldmap support 
 
