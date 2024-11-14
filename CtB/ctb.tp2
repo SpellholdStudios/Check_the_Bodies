@@ -179,59 +179,7 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
     UNLESS ~2326 WIZARD_DISPEL_MAGIC~
 END
 
-APPEND ~SPELL.IDS~ ~3510 CB_ENCHANT_SWORD~
- UNLESS ~CB_ENCHANT_SWORD~
-APPEND ~SPELL.IDS~ ~3511 CB_ENCHANT_DAGGER~
- UNLESS ~CB_ENCHANT_DAGGER~
-APPEND ~SPELL.IDS~ ~3512 CB_ENCHANT_AXE~
- UNLESS ~CB_ENCHANT_AXE~
-APPEND ~SPELL.IDS~ ~3513 CB_ENCHANT_HALBERD~
- UNLESS ~CB_ENCHANT_HALBERD~
-
-APPEND ~SPELL.IDS~ ~2140 WIZARD_EAGLES_SPLENDOR~
- UNLESS ~WIZARD_EAGLES_SPLENDOR~
-APPEND ~SPELL.IDS~ ~2240 WIZARD_DECASTAVE~
- UNLESS ~WIZARD_DECASTAVE~
-APPEND ~SPELL.IDS~ ~2540 WIZARD_BALL_LIGHTNING~
- UNLESS ~WIZARD_BALL_LIGHTNING~
-APPEND ~SPELL.IDS~ ~2541 WIZARD_LUTZAENS_FREQUENT_JAUNT~
- UNLESS ~WIZARD_LUTZAENS_FREQUENT_JAUNT~
-APPEND ~SPELL.IDS~ ~2640 WIZARD_DARTS_OF_BONE~
- UNLESS ~WIZARD_DARTS_OF_BONE~
-
-//exist in TDD, but not WIZARD spells
-APPEND ~SPELL.IDS~ ~2643 WIZARD_TROLLISH_FORTITUDE~           //SPPR752
- UNLESS ~WIZARD_TROLLISH_FORTITUDE~
-APPEND ~SPELL.IDS~ ~2642 WIZARD_LICH_TOUCH~                   //sprb004 - UNUSED by TDD
- UNLESS ~WIZARD_LICH_TOUCH~
-/////////////////////////////////////////////////////////////////////
-
-APPEND ~SPELL.IDS~ ~2060 WIZARD_HAKESHAR_EFFECTS_5~
- UNLESS ~WIZARD_HAKESHAR_EFFECTS_5~
-APPEND ~SPELL.IDS~ ~2061 WIZARD_HAKESHAR_EFFECTS_7~
- UNLESS ~WIZARD_HAKESHAR_EFFECTS_7~
-APPEND ~SPELL.IDS~ ~2062 WIZARD_HAKESHAR_EFFECTS_9~
- UNLESS ~WIZARD_HAKESHAR_EFFECTS_9~
-APPEND ~SPELL.IDS~ ~2063 WIZARD_COWLED_VD~
- UNLESS ~WIZARD_COWLED_VD~
-APPEND ~SPELL.IDS~ ~3514 WIZARD_ADVANCED_ALCHEMY~
- UNLESS ~WIZARD_ADVANCED_ALCHEMY~
-APPEND ~SPELL.IDS~ ~3515 CB_ADV_ENCHANT_SWORD~
- UNLESS ~CB_ADV_ENCHANT_SWORD~
-APPEND ~SPELL.IDS~ ~3516 CB_ADV_ENCHANT_DAGGER~
- UNLESS ~CB_ADV_ENCHANT_DAGGER~
-APPEND ~SPELL.IDS~ ~2360 CB_ELMINSTERS_LIGHTNING~
- UNLESS ~CB_ELMINSTERS_LIGHTNING~
-
-ACTION_IF (NOT FILE_EXISTS ~override/tdd.mrk~) AND (NOT FILE_EXISTS ~data/TDD-RULE.BIF~)  AND (NOT MOD_IS_INSTALLED "setup-TDDz.tp2" "0")  //TDD compatibility
-BEGIN
-    APPEND ~SPELL.IDS~
-        ~2227 WIZARD_CATS_GRACE
-        2440 WIZARD_MORDENKAINENS_FORCE_MISSILES
-        2627 WIZARD_ANTIMAGIC_FIELD
-        2823 WIZARD_IRON_BODY
-        2824 WIZARD_MIND_BLANK~
-END
+//spell.ids found by spell installation
 
 INCLUDE ~%MOD_FOLDER%/lib/ids_entries_gtimes.tph~
 
@@ -1134,6 +1082,13 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
      COPY ~%MOD_FOLDER%/anim/cbcrean4~ ~override~
 
 END
+
+//***********************************************************
+//  Items
+//***********************************************************
+PRINT ~Installing new items...~
+
+INCLUDE ~%MOD_FOLDER%/lib/install-itm.tpa~
  
 //***********************************************************
 //  Spells
@@ -1227,79 +1182,365 @@ COPY ~%MOD_FOLDER%/spells/translate/CBWTNI1h.SPL~ ~override~
   SAY 0xce @300
 COPY ~%MOD_FOLDER%/spells/translate/CBWTNI1i.SPL~ ~override~
   SAY 0xce  @301
-COPY ~%MOD_FOLDER%/spells/translate/SPIN510.SPL~ ~override~
-  SAY NAME1  @302
-COPY ~%MOD_FOLDER%/spells/translate/SPIN511.SPL~ ~override~
-  SAY NAME1  @303
-COPY ~%MOD_FOLDER%/spells/translate/SPIN512.SPL~ ~override~
-  SAY NAME1  @304
-COPY ~%MOD_FOLDER%/spells/translate/SPIN513.SPL~ ~override~
-  SAY NAME1  @305
-COPY ~%MOD_FOLDER%/spells/translate/SPIN514.SPL~ ~override~
-  SAY NAME1  @306
-  SAY UNIDENTIFIED_DESC @307
-COPY ~%MOD_FOLDER%/spells/translate/SPIN515.SPL~ ~override~
-  SAY NAME1  @308
-COPY ~%MOD_FOLDER%/spells/translate/SPIN516.SPL~ ~override~
-  SAY NAME1  @309
-COPY ~%MOD_FOLDER%/spells/translate/SPIN517T.SPL~ ~override~      
-  SAY NAME1  @310
-COPY ~%MOD_FOLDER%/spells/translate/SPIN518T.SPL~ ~override~     
-        SAY NAME1  @311
-COPY ~%MOD_FOLDER%/spells/translate/SPWI063.SPL~ ~override~
-  SAY 0x15e @343
-COPY ~%MOD_FOLDER%/spells/translate/SPWI240.SPL~ ~override~
-  SAY NAME1  @346
-  SAY UNIDENTIFIED_DESC @347
-COPY ~%MOD_FOLDER%/spells/translate/SPWI540.SPL~ ~override~
-  SAY NAME1  @352
-  SAY UNIDENTIFIED_DESC @353
-COPY ~%MOD_FOLDER%/spells/translate/SPWI541.SPL~ ~override~
-  SAY NAME1  @354
-  SAY UNIDENTIFIED_DESC @355
 COPY ~%MOD_FOLDER%/spells/translate/CBWT7g20.SPL~ ~override~
   SAY NAME1 @354
-COPY ~%MOD_FOLDER%/spells/translate/SPWI640.SPL~ ~override~
-  SAY NAME1  @356
-  SAY UNIDENTIFIED_DESC @357
-COPY ~%MOD_FOLDER%/spells/translate/SPWI642.SPL~ ~override~
-  SAY NAME1  @360
-  SAY UNIDENTIFIED_DESC @361
-COPY ~%MOD_FOLDER%/spells/translate/SPWI643.SPL~ ~override~
-  SAY NAME1  @362
-  SAY UNIDENTIFIED_DESC @363
+  
+ // Enchant Sword
+COPY ~%MOD_FOLDER%/spells/translate/CBCWENC0.SPL~ ~override~
+  SAY NAME1  @302
+COPY ~%MOD_FOLDER%/spells/translate/CBCWENC1.SPL~ ~override~
+  SAY NAME1  @303
+COPY ~%MOD_FOLDER%/spells/translate/CBCWENC2.SPL~ ~override~
+  SAY NAME1  @304
+COPY ~%MOD_FOLDER%/spells/translate/CBCWENC3.SPL~ ~override~
+  SAY NAME1  @305
+  
+//Alchemie
+COPY ~%MOD_FOLDER%/spells/translate/CBCWTHA.SPL~ ~override~
+  SAY NAME1  @306
+  SAY UNIDENTIFIED_DESC @307
+  
+//Enchant Sword Advanced
+COPY ~%MOD_FOLDER%/spells/translate/CBCWENC5.SPL~ ~override~
+  SAY NAME1  @308
+COPY ~%MOD_FOLDER%/spells/translate/CBCWENC6.SPL~ ~override~
+  SAY NAME1  @309
+COPY ~%MOD_FOLDER%/spells/translate/CBCWENC7.SPL~ ~override~      
+  SAY NAME1  @310
+COPY ~%MOD_FOLDER%/spells/translate/CBCWENC8.SPL~ ~override~     
+        SAY NAME1  @311
+		
+/* no use found
+//COPY ~%MOD_FOLDER%/spells/translate/SPWI063.SPL~ ~override~
+//  SAY 0x15e @343
+APPEND ~SPELL.IDS~ ~2063 WIZARD_COWLED_VD~
+ UNLESS ~WIZARD_COWLED_VD~
+*/
 
-COPY ~%MOD_FOLDER%/Compat/TDD/SPWI227.SPL~ ~override~
-  SAY NAME1  @348
-  SAY UNIDENTIFIED_DESC @349
-COPY ~%MOD_FOLDER%/Compat/TDD/SPWI440.SPL~ ~override~
-  SAY NAME1  @350
-  SAY UNIDENTIFIED_DESC @351
-COPY ~%MOD_FOLDER%/Compat/TDD/SPWI627.SPL~ ~override~
-  SAY NAME1  @358
-  SAY UNIDENTIFIED_DESC @359
-COPY ~%MOD_FOLDER%/Compat/TDD/SPWI823.SPL~ ~override~
-  SAY NAME1  @366
-  SAY UNIDENTIFIED_DESC @367
-COPY ~%MOD_FOLDER%/Compat/TDD/SPWI824.SPL~ ~override~
-  SAY NAME1  @364
-  SAY UNIDENTIFIED_DESC @365
+// install learnable spells
 
-ACTION_IF NOT FILE_EXISTS ~override/rot.mrk~ OR  NOT FILE_EXISTS ~data/ROT-RULE.BIF~  //ROT compatibility
-THEN BEGIN
-  COPY ~%MOD_FOLDER%/Compat/RoT/SPWI140.SPL~ ~override~
-    SAY NAME1  @344
-    SAY UNIDENTIFIED_DESC @345
-
-  COPY ~%MOD_FOLDER%/Compat/RoT/BAM~ ~override~
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_DECASTAVE~)
+ACTION_IF (spell_num > 0) BEGIN
+	LAF RES_NUM_OF_SPELL_NAME
+		STR_VAR spell_name = ~WIZARD_DECASTAVE~
+		RET spell_num = spell_num spell = spell_res
+	END
+END ELSE BEGIN
+	ADD_SPELL ~%MOD_FOLDER%/spells/translate/SPWI240.SPL~ 2 2 ~WIZARD_DECASTAVE~
+		SAY NAME1  @346
+		SAY UNIDENTIFIED_DESC @347
+		SPRINT spell ~%DEST_RES%~
 END
+COPY_EXISTING ~CBSELIMT.ITM~ ~override~
+	REPLACE_TEXTUALLY ~SPWI240~ ~%spell%~
+COPY ~CtB/items/translate/CBWT7b10.ITM~ ~override~
+	SAY NAME2  @346
+	SAY DESC   @347
+	WRITE_ASCIIE 0xf6 ~%spell%~ #8
+	WRITE_ASCIIE 0x126 ~%spell%~ #8
+COPY_EXISTING ~baldur.bcs~ ~override~
+	DECOMPILE_AND_PATCH BEGIN
+		REPLACE_TEXTUALLY ~SPWI240~ ~%spell%~
+	END
 
-//***********************************************************
-//  Items
-//***********************************************************
-PRINT ~Installing new items...~
+////////////////////////////////////////////////////////////////////////////////////////
 
-INCLUDE ~%MOD_FOLDER%/lib/install-itm.tpa~
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_BALL_LIGHTNING~)
+ACTION_IF (spell_num > 0) BEGIN
+	LAF RES_NUM_OF_SPELL_NAME
+		STR_VAR spell_name = ~WIZARD_BALL_LIGHTNING~
+		RET spell_num = spell_num spell = spell_res
+	END
+END ELSE BEGIN
+	ADD_SPELL ~%MOD_FOLDER%/spells/translate/SPWI540.SPL~ 2 5 ~WIZARD_BALL_LIGHTNING~
+		SAY NAME1  @352
+		SAY UNIDENTIFIED_DESC @353
+		SPRINT spell ~%DEST_RES%~
+END
+COPY_EXISTING ~CBSELIMT.ITM~ ~override~
+	REPLACE_TEXTUALLY ~SPWI540~ ~%spell%~
+COPY ~CtB/items/translate/CBWT7f10.ITM~ ~override~
+	SAY NAME2  @352
+	SAY DESC   @353
+	WRITE_ASCIIE 0xf6 ~%spell%~ #8
+	WRITE_ASCIIE 0x126 ~%spell%~ #8
+COPY_EXISTING ~baldur.bcs~ ~override~
+	DECOMPILE_AND_PATCH BEGIN
+		REPLACE_TEXTUALLY ~SPWI540~ ~%spell%~
+	END
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_LUTZAENS_FREQUENT_JAUNT~)
+ACTION_IF (spell_num > 0) BEGIN
+	LAF RES_NUM_OF_SPELL_NAME
+		STR_VAR spell_name = ~WIZARD_LUTZAENS_FREQUENT_JAUNT~
+		RET spell_num = spell_num spell = spell_res
+	END
+END ELSE BEGIN
+	ADD_SPELL ~%MOD_FOLDER%/spells/translate/SPWI541.SPL~ 2 5 ~WIZARD_LUTZAENS_FREQUENT_JAUNT~
+		SAY NAME1  @354
+		SAY UNIDENTIFIED_DESC @355
+		SPRINT spell ~%DEST_RES%~
+END
+COPY_EXISTING ~CBSELIMT.ITM~ ~override~
+	REPLACE_TEXTUALLY ~SPWI541~ ~%spell%~
+COPY ~CtB/items/translate/CBWT7g10.ITM~ ~override~
+	SAY NAME2  @354
+	SAY DESC   @355
+	WRITE_ASCIIE 0xf6 ~%spell%~ #8
+	WRITE_ASCIIE 0x126 ~%spell%~ #8
+COPY_EXISTING ~baldur.bcs~ ~override~
+	DECOMPILE_AND_PATCH BEGIN
+		REPLACE_TEXTUALLY ~SPWI541~ ~%spell%~
+	END
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_DARTS_OF_BONE~)
+ACTION_IF (spell_num > 0) BEGIN
+	LAF RES_NUM_OF_SPELL_NAME
+		STR_VAR spell_name = ~WIZARD_DARTS_OF_BONE~
+		RET spell_num = spell_num spell = spell_res
+	END
+END ELSE BEGIN
+	ADD_SPELL ~%MOD_FOLDER%/spells/translate/SPWI640.SPL~ 2 6 ~WIZARD_DARTS_OF_BONE~
+		SAY NAME1  @356
+		SAY UNIDENTIFIED_DESC @357
+		SPRINT spell ~%DEST_RES%~
+END
+COPY_EXISTING ~CBSELIMT.ITM~ ~override~
+	REPLACE_TEXTUALLY ~SPWI640~ ~%spell%~
+COPY ~CtB/items/translate/CBWT7c10.ITM~ ~override~
+	SAY NAME2  @356
+	SAY DESC   @357
+	WRITE_ASCIIE 0xf6 ~%spell%~ #8
+	WRITE_ASCIIE 0x126 ~%spell%~ #8
+COPY_EXISTING ~baldur.bcs~ ~override~
+	DECOMPILE_AND_PATCH BEGIN
+		REPLACE_TEXTUALLY ~SPWI640~ ~%spell%~
+	END
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_LICH_TOUCH~)
+ACTION_IF (spell_num > 0) BEGIN
+	LAF RES_NUM_OF_SPELL_NAME
+		STR_VAR spell_name = ~WIZARD_LICH_TOUCH~
+		RET spell_num = spell_num spell = spell_res
+	END
+END ELSE BEGIN
+	ADD_SPELL ~%MOD_FOLDER%/spells/translate/SPWI642.SPL~ 2 6 ~WIZARD_LICH_TOUCH~
+		SAY NAME1  @360
+		SAY UNIDENTIFIED_DESC @361
+		SPRINT spell ~%DEST_RES%~
+END
+COPY_EXISTING ~CBSELIMT.ITM~ ~override~
+	REPLACE_TEXTUALLY ~SPWI642~ ~%spell%~
+COPY ~CtB/items/translate/CBWT7i10.ITM~ ~override~
+	SAY NAME2  @360
+	SAY DESC   @361
+	WRITE_ASCIIE 0xf6 ~%spell%~ #8
+	WRITE_ASCIIE 0x126 ~%spell%~ #8
+COPY_EXISTING ~baldur.bcs~ ~override~
+	DECOMPILE_AND_PATCH BEGIN
+		REPLACE_TEXTUALLY ~SPWI642~ ~%spell%~
+	END
+	
+////////////////////////////////////////////////////////////////////////////////////////
+
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_TROLLISH_FORTITUDE~)
+ACTION_IF (spell_num > 0) BEGIN
+	LAF RES_NUM_OF_SPELL_NAME
+		STR_VAR spell_name = ~WIZARD_TROLLISH_FORTITUDE~
+		RET spell_num = spell_num spell = spell_res
+	END
+END ELSE BEGIN
+	ADD_SPELL ~%MOD_FOLDER%/spells/translate/SPWI643.SPL~ 2 6 ~WIZARD_TROLLISH_FORTITUDE~
+		SAY NAME1  @362
+		SAY UNIDENTIFIED_DESC @363
+		SPRINT spell ~%DEST_RES%~
+END
+COPY_EXISTING ~CBSELIMT.ITM~ ~override~
+	REPLACE_TEXTUALLY ~SPWI643~ ~%spell%~
+COPY ~CtB/items/translate/CBWT7j10.ITM~ ~override~
+	SAY NAME2  @362
+	SAY DESC   @363
+	WRITE_ASCIIE 0xf6 ~%spell%~ #8
+	WRITE_ASCIIE 0x126 ~%spell%~ #8
+COPY_EXISTING ~baldur.bcs~ ~override~
+	DECOMPILE_AND_PATCH BEGIN
+		REPLACE_TEXTUALLY ~SPWI643~ ~%spell%~
+	END
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+//ACTION_IF (FILE_EXISTS ~data/TDD-RULE.BIF~) OR (FILE_EXISTS_IN_GAME ~tdd.mrk~) OR  (MOD_IS_INSTALLED "setup-TDDz.tp2" "0") BEGIN
+	OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_CATS_GRACE~)
+	ACTION_IF (spell_num > 0) BEGIN
+		LAF RES_NUM_OF_SPELL_NAME
+			STR_VAR spell_name = ~WIZARD_CATS_GRACE~
+			RET spell_num = spell_num spell = spell_res
+		END
+	END ELSE BEGIN
+		ADD_SPELL ~%MOD_FOLDER%/Compat/TDD/SPWI227.SPL~ 2 2 ~WIZARD_CATS_GRACE~
+			SAY NAME1  @348
+			SAY UNIDENTIFIED_DESC @349
+			SPRINT spell ~%DEST_RES%~	
+	END
+	COPY ~%MOD_FOLDER%/Items/nostring/CBSELIMT.ITM~ ~override~
+		REPLACE_TEXTUALLY ~SPWI227~ ~%spell%~
+	COPY ~CtB/items/translate/CBWT7e10.ITM~ ~override~
+		SAY NAME2  @348
+		SAY DESC   @349
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+	COPY_EXISTING ~baldur.bcs~ ~override~
+			DECOMPILE_AND_PATCH BEGIN
+				REPLACE_TEXTUALLY ~SPWI227~ ~%spell%~
+			END
+			
+//////////////////////////////////////////////////////////////////////////////////////
+
+	OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_MORDENKAINENS_FORCE_MISSILES~)
+	ACTION_IF (spell_num > 0) BEGIN
+		LAF RES_NUM_OF_SPELL_NAME
+			STR_VAR spell_name = ~WIZARD_MORDENKAINENS_FORCE_MISSILES~
+			RET spell_num = spell_num spell = spell_res
+		END
+	END ELSE BEGIN
+		ADD_SPELL ~%MOD_FOLDER%/Compat/TDD/SPWI440.SPL~ 2 4 ~WIZARD_MORDENKAINENS_FORCE_MISSILES~
+			SAY NAME1  @350
+			SAY UNIDENTIFIED_DESC @351
+			SPRINT spell ~%DEST_RES%~	
+	END
+	COPY_EXISTING ~CBSELIMT.ITM~ ~override~
+		REPLACE_TEXTUALLY ~SPWI440~ ~%spell%~
+	COPY ~CtB/items/translate/CBWT7d10.ITM~ ~override~
+		SAY NAME2  @350
+		SAY DESC   @351
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+	COPY_EXISTING ~baldur.bcs~ ~override~
+		DECOMPILE_AND_PATCH BEGIN
+			REPLACE_TEXTUALLY ~SPWI440~ ~%spell%~
+		END
+			
+///////////////////////////////////////////////////////////////////////////////////////
+		
+	OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_ANTIMAGIC_FIELD~)
+	ACTION_IF (spell_num > 0) BEGIN
+		LAF RES_NUM_OF_SPELL_NAME
+			STR_VAR spell_name = ~WIZARD_ANTIMAGIC_FIELD~
+			RET spell_num = spell_num spell = spell_res
+		END
+	END ELSE BEGIN
+		ADD_SPELL ~%MOD_FOLDER%/Compat/TDD/SPWI627.SPL~ 2 6 ~WIZARD_ANTIMAGIC_FIELD~
+			SAY NAME1  @358
+			SAY UNIDENTIFIED_DESC @359
+			SPRINT spell ~%DEST_RES%~	
+	END
+	COPY_EXISTING ~CBSELIMT.ITM~ ~override~
+		REPLACE_TEXTUALLY ~SPWI627~ ~%spell%~
+	COPY ~CtB/items/translate/CBWT7h10.ITM~ ~override~
+		SAY NAME2  @358
+		SAY DESC   @359
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+	COPY_EXISTING ~baldur.bcs~ ~override~
+		DECOMPILE_AND_PATCH BEGIN
+			REPLACE_TEXTUALLY ~SPWI627~ ~%spell%~
+		END
+		
+/////////////////////////////////////////////////////////////////////////////////////////
+		
+	OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_IRON_BODY~)
+	ACTION_IF (spell_num > 0) BEGIN
+		LAF RES_NUM_OF_SPELL_NAME
+			STR_VAR spell_name = ~WIZARD_IRON_BODY~
+			RET spell_num = spell_num spell = spell_res
+		END
+	END ELSE BEGIN
+		ADD_SPELL ~%MOD_FOLDER%/Compat/TDD/SPWI823.SPL~ 2 8 ~WIZARD_IRON_BODY~
+			SAY NAME1  @366
+			SAY UNIDENTIFIED_DESC @367
+			SPRINT spell ~%DEST_RES%~	
+	END
+	COPY_EXISTING ~CBSELIMT.ITM~ ~override~
+		REPLACE_TEXTUALLY ~SPWI823~ ~%spell%~
+	COPY ~CtB/items/translate/CBWT7l10.ITM~ ~override~
+		SAY NAME2  @366
+		SAY DESC   @367
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+	COPY_EXISTING ~baldur.bcs~ ~override~
+		DECOMPILE_AND_PATCH BEGIN
+			REPLACE_TEXTUALLY ~SPWI823~ ~%spell%~
+		END
+		
+/////////////////////////////////////////////////////////////////////////////////////////	
+
+	OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_MIND_BLANK~)
+	ACTION_IF (spell_num > 0) BEGIN
+		LAF RES_NUM_OF_SPELL_NAME
+			STR_VAR spell_name = ~WIZARD_MIND_BLANK~
+			RET spell_num = spell_num spell = spell_res
+		END
+	END ELSE BEGIN
+		ADD_SPELL ~%MOD_FOLDER%/Compat/TDD/SPWI824.SPL~ 2 8 ~WIZARD_MIND_BLANK~
+			SAY NAME1  @364
+			SAY UNIDENTIFIED_DESC @365
+			SPRINT spell ~%DEST_RES%~	
+	END
+	COPY_EXISTING ~CBSELIMT.ITM~ ~override~
+		REPLACE_TEXTUALLY ~SPWI824~ ~%spell%~
+	COPY ~CtB/items/translate/CBWT7k10.ITM~ ~override~
+		SAY NAME2  @364
+		SAY DESC   @365
+		WRITE_ASCIIE 0xf6 ~%spell%~ #8
+		WRITE_ASCIIE 0x126 ~%spell%~ #8
+	COPY ~CtB/items/translate/CBXTHSaa.ITM~ ~override~
+		SAY NAME2 @650623
+		SAY UNIDENTIFIED_DESC @650624
+		SAY DESC @650625
+		WRITE_ASCIIE 0xbe ~%spell%~ #8
+	COPY_EXISTING ~baldur.bcs~ ~override~
+		DECOMPILE_AND_PATCH BEGIN
+			REPLACE_TEXTUALLY ~SPWI824~ ~%spell%~
+		END
+	
+//END // TDD compatibility
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+// RoT compatibility
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_EAGLES_SPLENDOR~)
+ACTION_IF (spell_num > 0) BEGIN
+	LAF RES_NUM_OF_SPELL_NAME
+		STR_VAR spell_name = ~WIZARD_EAGLES_SPLENDOR~
+		RET spell_num = spell_num spell = spell_res
+	END
+END ELSE BEGIN
+	ADD_SPELL ~%MOD_FOLDER%/Compat/RoT/SPWI140.SPL~ 2 1 ~WIZARD_EAGLES_SPLENDOR~
+		SAY NAME1  @344
+		SAY UNIDENTIFIED_DESC @345
+		SPRINT spell ~%DEST_RES%~
+		WRITE_ASCIIE 0x22e ~%DEST_RES%~ #8
+END
+COPY_EXISTING ~CBSELIMT.ITM~ ~override~
+	REPLACE_TEXTUALLY ~SPWI140~ ~%spell%~
+COPY ~CtB/items/translate/CBWT7a10.ITM~ ~override~
+	SAY NAME2  @344
+	SAY DESC   @345
+	WRITE_ASCIIE 0xf6 ~%spell%~ #8
+	WRITE_ASCIIE 0x126 ~%spell%~ #8
+COPY_EXISTING ~baldur.bcs~ ~override~
+	DECOMPILE_AND_PATCH BEGIN
+		REPLACE_TEXTUALLY ~SPWI140~ ~%spell%~
+	END
+COPY ~%MOD_FOLDER%/Compat/RoT/BAM~ ~override~
+
 
 //***********************************************************
 //  Stores

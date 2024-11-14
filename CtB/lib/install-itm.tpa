@@ -1308,50 +1308,23 @@ COPY ~CtB/items/translate/CBWT700.ITM~ ~override~
   SAY NAME2 @650573
   SAY DESC @650574
 
-COPY ~CtB/items/translate/CBWT7a10.ITM~ ~override~
-  SAY NAME2  @344
-  SAY DESC   @345
-COPY ~CtB/items/translate/CBWT7b10.ITM~ ~override~
-  SAY NAME2  @346
-  SAY DESC   @347
+
+
 COPY ~CtB/items/translate/CBWT7b20.ITM~ ~override~
   SAY NAME2  @346
-COPY ~CtB/items/translate/CBWT7c10.ITM~ ~override~
-  SAY NAME2  @356
-  SAY DESC   @357
+
 COPY ~CtB/items/translate/CBWT7c20.ITM~ ~override~
   SAY NAME2  @356
-COPY ~CtB/items/translate/CBWT7d10.ITM~ ~override~
-  SAY NAME2  @350
-  SAY DESC   @351
-COPY ~CtB/items/translate/CBWT7e10.ITM~ ~override~
-  SAY NAME2  @348
-  SAY DESC   @349
-COPY ~CtB/items/translate/CBWT7f10.ITM~ ~override~
-  SAY NAME2  @352
-  SAY DESC   @353
+
 COPY ~CtB/items/translate/CBWT7f20.ITM~ ~override~
   SAY NAME2 @352
-COPY ~CtB/items/translate/CBWT7g10.ITM~ ~override~
-  SAY NAME2  @354
-  SAY DESC   @355
-COPY ~CtB/items/translate/CBWT7h10.ITM~ ~override~
-  SAY NAME2  @358
-  SAY DESC   @359
-COPY ~CtB/items/translate/CBWT7i10.ITM~ ~override~
-  SAY NAME2  @360
-  SAY DESC   @361
+
+
 COPY ~CtB/items/translate/CBWT7i20.ITM~ ~override~
   SAY NAME2  @360
-COPY ~CtB/items/translate/CBWT7j10.ITM~ ~override~
-  SAY NAME2  @362
-  SAY DESC   @363
-COPY ~CtB/items/translate/CBWT7k10.ITM~ ~override~
-  SAY NAME2  @364
-  SAY DESC   @365
-COPY ~CtB/items/translate/CBWT7l10.ITM~ ~override~
-  SAY NAME2  @366
-  SAY DESC   @367
+
+
+
 
 COPY ~CtB/items/translate/CBWTNI1a.ITM~ ~override~
   SAY NAME2 @650601
@@ -1402,10 +1375,7 @@ COPY ~CtB/items/translate/CBXTGCcc.ITM~ ~override~
 COPY ~CtB/items/translate/CBXTGCdd.ITM~ ~override~
   SAY NAME2 @660205
   SAY DESC @660206
-COPY ~CtB/items/translate/CBXTHSaa.ITM~ ~override~
-  SAY NAME2 @650623
-  SAY UNIDENTIFIED_DESC @650624
-  SAY DESC @650625
+
 COPY ~CtB/items/translate/CBXTHSbb.ITM~ ~override~
   SAY NAME2 @650626
   SAY DESC @650627
