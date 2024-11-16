@@ -260,6 +260,9 @@ By GraionDilach
 - Move Druidic Circle closer to Athkatla on EET 
 
 By Weigo
+- A dynamic installation of the pvrz files with the a7_pvrz_tis tool
+- The wizard spells are installed in a separate component. 
+- For the quest scrolls, the spells have been copied and renamed. With the prefix CBWIXXXX.SPL 
 - Change HANDLE_CHARSETS to use from_utf8=1
 - Fixed in Candlekeep Chores the Keepers
 - Start Chores 
