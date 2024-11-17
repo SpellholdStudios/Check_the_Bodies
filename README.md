@@ -33,7 +33,7 @@
 
 Check the Bodies adds various quests to the BGII part of the game, including new areas, a new city, spells, stores, animations, and items: This is a mini-quest mod, each single quest works as a stand alone quest. That is to say, if one were to start a new game, play one of my new quests, and finish the game, there should be no problems. Each quest is heavily dependant on a number of random factors: the PC's race, class, alignment, etc., chapter, make up of the party, and so many other factors. It will be impossible for a single character to play through the entire game and get *all* of Check The Bodies' quests. That is by design. Don't worry, no matter what you choose for a character, you won't miss anything for that character.
 
-For a list of the quests, see "<a href="CtB_Quest_List.txt">CtB_Quest_List.txt</a>". For Charles Bisson's original notes, please refer to "<a href="old_CtB-Readme_old.txt">old_CtB-Readme_old.txt</a>".
+For a list of the quests, see "<a href="CtB/Readme/CtB_Quest_List.txt">CtB_Quest_List.txt</a>". (In CtB/Readme) For Charles Bisson's original notes, please refer to "<a href="old_CtB-Readme_old.txt">old_CtB-Readme_old.txt</a>".
 
 **Key features:**
 - More than 20 independent new quests, dozens of class specific quests.
@@ -249,79 +249,5 @@ I really hope I don't forget anyone- if I do, you can slap me with a wet towel.
 
 ## <a name="versions" id="versions"></a>Version History
 
-For a full Version History please refer to the file "<a href="CtB-Version.txt">CtB-Version.txt</a>" in CtB/text/.  
+For a full Version History please refer to the file "<a href="CtB/Readme/CtB-Version.md">CtB-Changelog.md</a>" in CtB/Readme/.  
 
-#### Version 3.1 (by Weigo)
-
-By Roberciiik
-- Added new BP-BGT-Worldmap support 
-
-By GraionDilach
-- Move Druidic Circle closer to Athkatla on EET 
-
-By Weigo
-- A dynamic installation of the pvrz files with the a7_pvrz_tis tool
-- The wizard spells are installed in a separate component. 
-- For the quest scrolls, the spells have been copied and renamed. With the prefix CBWIXXXX.SPL 
-- Change HANDLE_CHARSETS to use from_utf8=1
-- Fixed in Candlekeep Chores the Keepers
-- Start Chores 
-	- Starts again for clasical game at the original beginning, because of inventory and NPC problems
-	- In the EE version, the chores starts in the library
-	- EE Version, the NPCs are deactivated and can no longer be selected
-	- The inventory is emptied 
-	- At the end of the chores, everything is returned and the NPC is activated
-- Chores: Script adaptation to the EE version
-- Revision of the areas, as the areas became pixelated due to Tiz compression. The original BG1, IWD1 and IWD2 maps have been retained.
-- Every outdoor map now has an extended night version.
-- Missing candles, torch animations of the inside maps have been added.
-
-#### Version 3.0 (by Weigo and jastey)
-
-- Added *ctb.ini* metadata file to support AL|EN's "Project Infinity".
-- Added `DESIGNATED` numbers and "*check_the_bodies*", "*ctb_candlekeep_chores*", "*ctb_candlekeep_chores_ff*" and "*ctb_improvements*" component `LABELS`.
-- (BGT) no rep loss if wearing Cloak of Scalps.
-- (BGT) removed item checks from baldur.bcs which caused lags.
-- (BGT) removed chapter increase from aptp2500.baf.
-- (BGT) removed OnCreation() from various baf files (BWPFix).
-- (BGT) adjusted level checks for PC in various baf files (BWPFix).
-- (BGT) corrected entries in links.tbl (BWPFix).
-- Patching of AR0300.bcs should work always.
-- iconv dlls added so non-english versions do not freeze on EE-games (thanks to Roxanne).
-- Re-inserted journal entry into CBSFMESS.D.
-- Removed unused files scripts/append/nAR2500.baf, scripts/append/oAR2500.baf.
-- Portraits removed due to missing copyright.
-- aptp0500.BAF: Door "DOOR0504" will be closed accordingly.
-- Wedding quests debugged.
-- Added missing evaluate to install-arescripts.tpa.
-- Added component "Other Improvements":
-  - Change the entrances to the original position.
-  - Pirate Quest in Athkatla will be available for non-fighters at level 11 (instead of 14).
-  - Change Yusef's name to Yassir, because Yusef is Surayas brother.
-- Corrected tra files.
-- Wrote a new *ctb-readme-english.html* readme file.
-- Renamed mod folder and tp2 to CtB.
-- Included Linux and Mac Os X versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
-- Uploaded mod to official SpellHold Studios GitHub mirror account.
-
-## 
-
-#### Version 2.2 (by Weigo)
-
-- Named mod folder and tp2 CtBEE.
-- EET compatibility (EE compatibility by Ikki).
-- (EE) no rep loss if wearing Cloak of Scalps.
-- (EE) removed item checks from baldur.bcs which caused lags.
-- (EE) removed chapter increase from aptp2500.baf.
-- (EE) removed OnCreation() from various baf files (BWPFix).
-- (EE) adjusted level checks for PC in various baf files (BWPFix).
-- Typo corrections (BWPFix).
-- Corrected timer "CbValiantReforges" to "CbValiantReforgesTimer" in CBHLVLNT.D.
-- Updated <acronym title="Weimer Dialogue Utility">WeiDU</acronym> installer to v246.
-
-## 
-
-#### Version 1.0
-
-- Initial release.
-<div align="right"><a href="#top">Back to top</a></div>
