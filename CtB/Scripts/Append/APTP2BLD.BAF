@@ -1028,7 +1028,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("CbSelimCreated","GLOBAL",1)
-		CreateCreatureOffScreen("CBSELIMS",0)
+		CreateCreatureObjectOffScreen("CBSELIMS",Myself,0,0,0)
 END
 
 IF
@@ -1053,7 +1053,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("CbSelimCreated","GLOBAL",1)
-		CreateCreatureOffScreen("CBSELIMS",0)
+		CreateCreatureObjectOffScreen("CBSELIMS",Myself,0,0,0)
 END
 
 IF

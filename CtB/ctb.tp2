@@ -4,7 +4,7 @@ BACKUP ~weidu_external/backup/CtB~
 //AUTHOR ~Charles Bisson, King Diamond (revision) Ikki (EE Conversion)  Weigo (all in one)~  NO_IF_EVAL_BUG
 SUPPORT ~http://www.shsforums.net or https://github.com/SpellholdStudios~ NO_IF_EVAL_BUG
 
-README ~%MOD_FOLDER%/text/CtB-Readme.txt~
+README ~%MOD_FOLDER%/text/CtB-Readme-english.html~ ~%MOD_FOLDER%/text/CtB-Readme-%LANGUAGE%.html~
 VERSION ~3.1~
 
 ASK_EVERY_COMPONENT
@@ -189,6 +189,22 @@ END
 INCLUDE ~%MOD_FOLDER%/lib/ids_entries_gtimes.tph~
 
 INCLUDE ~%MOD_FOLDER%/lib/ids_entries_shoutids.tph~
+
+ACTION_IF (GAME_IS ~tob bgt~) BEGIN
+    APPEND ~TRIGGER.IDS~ ~0x00A1 SpellCastOnMeRES(S:Spell*,O:Caster*)~
+                  UNLESS ~0x00A1 SpellCastOnMeRES(S:Spell\*,O:Caster\*)~
+    APPEND ~TRIGGER.IDS~ ~0x0091 SpellCastRES(S:Spell*,O:Object*)~
+                  UNLESS ~0x0091 SpellCastRES(S:Spell\*,O:Object\*)~
+    APPEND ~TRIGGER.IDS~ ~0x00A6 SpellCastPriestRES(S:Spell*,O:Object*)~
+                  UNLESS ~0x00A6 SpellCastPriestRES(S:Spell\*,O:Object\*)~
+    APPEND ~TRIGGER.IDS~ ~0x00A7 SpellCastInnateRES(S:Spell*,O:Object*)~
+                  UNLESS ~0x00A7 SpellCastInnateRES(S:Spell\*,O:Object\*)~
+    APPEND ~TRIGGER.IDS~ ~0x4031 HaveSpellRES(S:Spell*)~
+                  UNLESS ~0x4031 HaveSpellRES(S:Spell\*)~
+    APPEND ~TRIGGER.IDS~ ~0x40D5 ActuallyInCombat()~
+                  UNLESS ~0x40D5 ActuallyInCombat()~
+END
+CLEAR_IDS_MAP
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
     ACTION_IF FILE_EXISTS ~script compiler/AICOMPILE.exe~
@@ -717,7 +733,7 @@ PRINT ~Patching original BG2 scripts...~
 
 EXTEND_BOTTOM   ~AR2600.bcs~ ~%MOD_FOLDER%/scripts/append/apbt2600.BAF~ EVALUATE_BUFFER
 EXTEND_TOP      ~Baldur.BCS~ ~%MOD_FOLDER%/scripts/append/aptp1BLD.BAF~ EVALUATE_BUFFER
-EXTEND_TOP      ~Baldur.BCS~ ~%MOD_FOLDER%/scripts/append/%engine%/aptp2BLD.BAF~ EVALUATE_BUFFER
+EXTEND_TOP      ~Baldur.BCS~ ~%MOD_FOLDER%/scripts/append/aptp2BLD.BAF~ EVALUATE_BUFFER
 EXTEND_TOP      ~AR2500.bcs~ ~%MOD_FOLDER%/scripts/append/aptp2500.BAF~ EVALUATE_BUFFER //Other part of Chapter 6 fix
 
 /*
@@ -2488,10 +2504,10 @@ COPY_EXISTING ~baldur.bcs~ ~override~
         SAY DESC   @367
         WRITE_ASCIIE 0xf6 ~%spell%~ #8
         WRITE_ASCIIE 0x126 ~%spell%~ #8
-//  COPY_EXISTING ~baldur.bcs~ ~override~
-//      DECOMPILE_AND_PATCH BEGIN
-//          REPLACE_TEXTUALLY ~CBWI823~ ~%spell%~
-//      END
+    COPY_EXISTING ~baldur.bcs~ ~override~
+        DECOMPILE_AND_PATCH BEGIN
+            REPLACE_TEXTUALLY ~CBWI823~ ~%spell%~
+        END
 
 /////////////////////////////////////////////////////////////////////////////////////////
 
@@ -2519,10 +2535,10 @@ COPY_EXISTING ~baldur.bcs~ ~override~
         SAY UNIDENTIFIED_DESC @650624
         SAY DESC @650625
         WRITE_ASCIIE 0xbe ~%spell%~ #8
-//  COPY_EXISTING ~baldur.bcs~ ~override~
-//      DECOMPILE_AND_PATCH BEGIN
-//          REPLACE_TEXTUALLY ~CBWI824~ ~%spell%~
-//      END
+    COPY_EXISTING ~baldur.bcs~ ~override~
+        DECOMPILE_AND_PATCH BEGIN
+            REPLACE_TEXTUALLY ~CBWI824~ ~%spell%~
+        END
 
 //END // TDD compatibility
 
