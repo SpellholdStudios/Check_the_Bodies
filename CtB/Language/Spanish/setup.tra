@@ -9,3 +9,20 @@
 @800008 = ~You must have Candlekeep Chores v2.2 (or later) installed~
 @800009 = ~Other Improvements~
 @800010 = ~CtB Wizard Spells~
+
+// gui
+@20001 = ~Registering GUI...~
+@20003 = ~ Baldur's Gate<TM> and the Tales of the Sword Coast<TM> or play ~
+@20004 = ~"Tortured Souls"~
+@20005 = ~%separator%"The Darkest Day"~
+@20006 = ~%separator%"Shadows Over Soubar"~
+@20007 = ~ with the new expansion(s): ~
+@20008 = ~%separator%"Neverending Journey"~
+@20009 = ~%separator%"Big Picture"~
+@20010 = ~%separator%"Check The Bodies"~
+@200101 = ~%separator%"Region Of Terror"~
+@20011 = ~Play%bgt%Shadows of Amn<TM>%separator2%%ts%%tdd%%sos%%nej%%bp%%ctb%%rot%~
+
+@21008 = ~"Original SoA/ToB"~
+@21009 = ~"Check The Bodies"~
+@21010 = ~Game Graphical User Interface (GUI)~

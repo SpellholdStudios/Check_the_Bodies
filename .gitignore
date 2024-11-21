@@ -1,0 +1,27 @@
+$RECYCLE.BIN/
+__macosx
+/temp/
+
+.*
+!/.gitattributes
+!/.gitconfig
+!/.github
+!/.gitignore
+!/.gitmodules
+!/.bgforge.yml
+
+*.7z
+*.bak
+*.bat
+*.iemod
+*.lnk
+*.rar
+*.tar*
+*.tmp
+*.zip
+
+Thumbs.db
+
+# WeiDU installer
+weidu.exe
+setup-sos.exe

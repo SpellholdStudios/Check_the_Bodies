@@ -1,53 +1,7 @@
-COPY_EXISTING + ~CtB/title.tr~ ~CtB/title.tra~
- SPRINT bgt " "
- SPRINT tdd ""
- SPRINT sos ""
- SPRINT ts  ""
- SPRINT nej ""
- SPRINT ctb ""
- SPRINT bp  ""
- SPRINT rot ""
- SPRINT separator ""
- PATCH_IF (FILE_EXISTS ~data/BG1ARE.BIF~) BEGIN
-   SPRINT bgt ~ Baldur's Gate<TM> and the Tales of the Sword Coast<TM> or play ~
- END
- PATCH_IF (FILE_EXISTS ~data/TS-RULE.BIF~) BEGIN
-   SPRINT ts ~"Tortured Souls"~
-   SPRINT separator ", "
- END
- PATCH_IF (FILE_EXISTS ~data/TDD-RULE.BIF~) BEGIN
-   SPRINT tdd ~%separator%"The Darkest Day"~
-   SPRINT separator ", "
- END
- PATCH_IF (FILE_EXISTS ~data/SOS-RULE.BIF~) BEGIN
-   SPRINT sos ~%separator%"Shadows Over Soubar"~
-   SPRINT separator ", "
- END
- PATCH_IF ((FILE_EXISTS_IN_GAME ~Bag02NeJ.ITM~) OR (FILE_EXISTS_IN_GAME ~EyeBite.itm~)) BEGIN
-   SPRINT nej ~%separator%"Neverending Journey"~
-   SPRINT separator ", "
- END
- PATCH_IF (FILE_EXISTS ~data/BP-RULE.BIF~) BEGIN
-   SPRINT bp ~%separator%"Big Picture"~
-   SPRINT separator ", "
- END
- PATCH_IF (FILE_EXISTS ~data/ROT-RULE.BIF~) BEGIN
-   SPRINT rot ~%separator%"Region Of Terror"~
-   SPRINT separator ", "
- END
- SPRINT ctb ~%separator%"Check The Bodies"~
- SPRINT separator ", "
- SPRINT separator2 " with the new expansion(s): "
- SPRINT str "Play%bgt%Shadows of Amn<TM>%separator2%%ts%%tdd%%sos%%nej%%bp%%ctb%%rot%"
- REPLACE_TEXTUALLY ~game prompt~ "%str%"
-
- STRING_SET ~73245~ @123456789 USING ~CtB/title.tra~
-///////////////////////////////////////////////////////////////////////////////
-
 //*****************************************************************************************
 //*** GUI Switcher v 2.0
 //*****************************************************************************************
-PRINT ~Registering GUI...~
+PRINT @20001
 
 <<<<<<<< new_gui_switcher.tp2
 BACKUP ~GUI_Mods/Backup~
@@ -68,8 +22,8 @@ RESERVED9                    -1
 >>>>>>>>
 <<<<<<<< orig_gui.tp2
 //***********************************************************************************
-BEGIN ~"Original SoA/ToB"~
-SUBCOMPONENT ~Game Graphical User Interface (GUI)~
+BEGIN @21008
+SUBCOMPONENT @21010
 
 COPY_EXISTING ~GUI_Mods/GUI_Mods.2DA~ ~GUI_Mods~
  SET_2DA_ENTRY  1 1 2    0   //CURRENT_ACTIVE_MOD_GUI
@@ -78,8 +32,8 @@ AT_EXIT ~Setup-GUI.exe --uninstall~
 >>>>>>>>
 <<<<<<<< mod_gui.tp2
 //***********************************************************************************
-BEGIN ~"Check The Bodies"~
-SUBCOMPONENT ~Game Graphical User Interface (GUI)~
+BEGIN @21009
+SUBCOMPONENT @21010
 
 COPY_EXISTING ~GUI_Mods/GUI_Mods.2DA~ ~GUI_Mods~
  SET_2DA_ENTRY  1 1 2   "%gui_slot_name%"  //CURRENT_ACTIVE_MOD_GUI
@@ -113,7 +67,52 @@ COPY_EXISTING ~Setup-GUI.tp2~ ~Setup-GUI.tp2~
  APPEND_FILE_EVALUATE ~mod_gui.tp2~
 
 MKDIR ~GUI_Mods/%gui_slot_name%~
-COPY ~CtB/gui~ ~GUI_Mods/%gui_slot_name%~
+COPY ~%MOD_FOLDER%/Gui~ ~GUI_Mods/%gui_slot_name%~
 //***********************************************************************************
 //*****************************************************************************************
 
+COPY_EXISTING + ~%MOD_FOLDER%/Language/title.tr~ ~%workspace%/title.tra~
+ SPRINT bgt " "
+ SPRINT tdd ""
+ SPRINT sos ""
+ SPRINT ts  ""
+ SPRINT nej ""
+ SPRINT ctb ""
+ SPRINT bp  ""
+ SPRINT rot ""
+ SPRINT separator ""
+ PATCH_IF (FILE_EXISTS ~data/BG1ARE.BIF~) BEGIN
+   SPRINT bgt @20003
+ END
+ PATCH_IF (FILE_EXISTS ~data/TS-RULE.BIF~) BEGIN
+   SPRINT ts @20004
+   SPRINT separator ", "
+ END
+ PATCH_IF (FILE_EXISTS ~data/TDD-RULE.BIF~) BEGIN
+   SPRINT tdd @20005
+   SPRINT separator ", "
+ END
+ PATCH_IF (FILE_EXISTS ~data/SOS-RULE.BIF~) BEGIN
+   SPRINT sos @20006
+   SPRINT separator ", "
+ END
+ PATCH_IF ((FILE_EXISTS_IN_GAME ~Bag02NeJ.ITM~) OR (FILE_EXISTS_IN_GAME ~EyeBite.itm~)) BEGIN
+   SPRINT nej @20008
+   SPRINT separator ", "
+ END
+ PATCH_IF (FILE_EXISTS ~data/BP-RULE.BIF~) BEGIN
+   SPRINT bp @20009
+   SPRINT separator ", "
+ END
+ SPRINT ctb @20010
+ SPRINT separator ", "
+ SPRINT separator2 @20007
+ PATCH_IF (FILE_EXISTS ~data/ROT-RULE.BIF~) BEGIN
+   SPRINT rot @200101
+   SPRINT separator ", "
+ END
+ SPRINT str @20011
+ REPLACE_TEXTUALLY ~game prompt~ "%str%"
+
+ STRING_SET ~73245~ @123456789 USING  ~%workspace%/title.tra~
+///////////////////////////////////////////////////////////////////////////////

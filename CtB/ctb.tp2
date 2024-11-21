@@ -4,7 +4,7 @@ BACKUP ~weidu_external/backup/CtB~
 //AUTHOR ~Charles Bisson, King Diamond (revision) Ikki (EE Conversion)  Weigo (all in one)~  NO_IF_EVAL_BUG
 SUPPORT ~http://www.shsforums.net or https://github.com/SpellholdStudios~ NO_IF_EVAL_BUG
 
-README ~%MOD_FOLDER%/text/CtB-Readme-english.html~ ~%MOD_FOLDER%/text/CtB-Readme-%LANGUAGE%.html~
+README ~%MOD_FOLDER%/Readme/CtB-Readme-english.html~ ~%MOD_FOLDER%/Readme/CtB-Readme-%LANGUAGE%.html~
 VERSION ~3.1~
 
 ASK_EVERY_COMPONENT
@@ -733,7 +733,7 @@ PRINT ~Patching original BG2 scripts...~
 
 EXTEND_BOTTOM   ~AR2600.bcs~ ~%MOD_FOLDER%/scripts/append/apbt2600.BAF~ EVALUATE_BUFFER
 EXTEND_TOP      ~Baldur.BCS~ ~%MOD_FOLDER%/scripts/append/aptp1BLD.BAF~ EVALUATE_BUFFER
-EXTEND_TOP      ~Baldur.BCS~ ~%MOD_FOLDER%/scripts/append/aptp2BLD.BAF~ EVALUATE_BUFFER
+EXTEND_TOP      ~Baldur.BCS~ ~%MOD_FOLDER%/scripts/append/%engine%/aptp2BLD.BAF~ EVALUATE_BUFFER
 EXTEND_TOP      ~AR2500.bcs~ ~%MOD_FOLDER%/scripts/append/aptp2500.BAF~ EVALUATE_BUFFER //Other part of Chapter 6 fix
 
 /*
@@ -1299,39 +1299,75 @@ APPEND ~SPELL.IDS~ ~2063 WIZARD_COWLED_VD~
 COPY ~%MOD_FOLDER%/spells/translate/CBWI240.SPL~ ~override~
     SAY NAME1  @346
     SAY UNIDENTIFIED_DESC @347
+    PATCH_IF GAME_IS ~bg2 tob bgt~ BEGIN
+        LPF ADD_SPELL_EFFECT INT_VAR opcode = 265 target = 1 parameter1 = 1 timing = 1 header = 1 STR_VAR resource = CBWISpel END
+    END
 COPY ~%MOD_FOLDER%/spells/translate/CBWI540.SPL~ ~override~
     SAY NAME1  @352
     SAY UNIDENTIFIED_DESC @353
+    PATCH_IF GAME_IS ~bg2 tob bgt~ BEGIN
+        LPF ADD_SPELL_EFFECT INT_VAR opcode = 265 target = 1 parameter1 = 1 timing = 1 header = 1 STR_VAR resource = CBWISpel END
+    END
 COPY ~%MOD_FOLDER%/spells/translate/CBWI541.SPL~ ~override~
     SAY NAME1  @354
     SAY UNIDENTIFIED_DESC @355
+    PATCH_IF GAME_IS ~bg2 tob bgt~ BEGIN
+        LPF ADD_SPELL_EFFECT INT_VAR opcode = 265 target = 1 parameter1 = 1 timing = 1 header = 1 STR_VAR resource = CBWISpel END
+    END
 COPY ~%MOD_FOLDER%/spells/translate/CBWI640.SPL~ ~override~
     SAY NAME1  @356
     SAY UNIDENTIFIED_DESC @357
+    PATCH_IF GAME_IS ~bg2 tob bgt~ BEGIN
+        LPF ADD_SPELL_EFFECT INT_VAR opcode = 265 target = 1 parameter1 = 1 timing = 1 header = 1 STR_VAR resource = CBWISpel END
+    END
 COPY ~%MOD_FOLDER%/spells/translate/CBWI642.SPL~ ~override~
     SAY NAME1  @360
     SAY UNIDENTIFIED_DESC @361
+    PATCH_IF GAME_IS ~bg2 tob bgt~ BEGIN
+        LPF ADD_SPELL_EFFECT INT_VAR opcode = 265 target = 1 parameter1 = 1 timing = 1 header = 1 STR_VAR resource = CBWISpel END
+    END
 COPY ~%MOD_FOLDER%/spells/translate/CBWI643.SPL~ ~override~
     SAY NAME1  @362
     SAY UNIDENTIFIED_DESC @363
+    PATCH_IF GAME_IS ~bg2 tob bgt~ BEGIN
+        LPF ADD_SPELL_EFFECT INT_VAR opcode = 265 target = 1 parameter1 = 1 timing = 1 header = 1 STR_VAR resource = CBWISpel END
+    END
 COPY ~%MOD_FOLDER%/Compat/TDD/CBWI227.SPL~ ~override~
     SAY NAME1  @348
     SAY UNIDENTIFIED_DESC @349
+    PATCH_IF GAME_IS ~bg2 tob bgt~ BEGIN
+        LPF ADD_SPELL_EFFECT INT_VAR opcode = 265 target = 1 parameter1 = 1 timing = 1 header = 1 STR_VAR resource = CBWISpel END
+    END
 COPY ~%MOD_FOLDER%/Compat/TDD/CBWI440.SPL~ ~override~
     SAY NAME1  @350
     SAY UNIDENTIFIED_DESC @351
+    PATCH_IF GAME_IS ~bg2 tob bgt~ BEGIN
+        LPF ADD_SPELL_EFFECT INT_VAR opcode = 265 target = 1 parameter1 = 1 timing = 1 header = 1 STR_VAR resource = CBWISpel END
+    END
 COPY ~%MOD_FOLDER%/Compat/TDD/CBWI627.SPL~ ~override~
     SAY NAME1  @358
     SAY UNIDENTIFIED_DESC @359
+    PATCH_IF GAME_IS ~bg2 tob bgt~ BEGIN
+        LPF ADD_SPELL_EFFECT INT_VAR opcode = 265 target = 1 parameter1 = 1 timing = 1 header = 1 STR_VAR resource = CBWISpel END
+    END
 COPY ~%MOD_FOLDER%/Compat/TDD/CBWI823.SPL~ ~override~
     SAY NAME1  @366
     SAY UNIDENTIFIED_DESC   @367
+    PATCH_IF GAME_IS ~bg2 tob bgt~ BEGIN
+        LPF ADD_SPELL_EFFECT INT_VAR opcode = 265 target = 1 parameter1 = 1 timing = 1 header = 1 STR_VAR resource = CBWISpel END
+    END
 COPY ~%MOD_FOLDER%/Compat/TDD/CBWI824.SPL~ ~override~
     SAY NAME1  @364
     SAY UNIDENTIFIED_DESC   @365
+    PATCH_IF GAME_IS ~bg2 tob bgt~ BEGIN
+        LPF ADD_SPELL_EFFECT INT_VAR opcode = 265 target = 1 parameter1 = 1 timing = 1 header = 1 STR_VAR resource = CBWISpel END
+    END
 COPY ~%MOD_FOLDER%/Compat/RoT/CBWI140.SPL~ ~override~
     SAY NAME1  @344
     SAY UNIDENTIFIED_DESC @345
+    PATCH_IF GAME_IS ~bg2 tob bgt~ BEGIN
+        LPF ADD_SPELL_EFFECT INT_VAR opcode = 265 target = 1 parameter1 = 1 timing = 1 header = 1 STR_VAR resource = CBWISpel END
+    END
 
 
 
@@ -2419,7 +2455,7 @@ COPY_EXISTING ~baldur.bcs~ ~override~
             SAY UNIDENTIFIED_DESC @349
             SPRINT spell ~%DEST_RES%~
     END
-    COPY ~%MOD_FOLDER%/Items/nostring/CBSELIMT.ITM~ ~override~
+    COPY_EXISTING ~CBSELIMT.ITM~ ~override~
         REPLACE_TEXTUALLY ~CBWI227~ ~%spell%~
     COPY ~CtB/items/translate/CBWT7e10.ITM~ ~override~
         SAY NAME2  @348
@@ -2570,3 +2606,24 @@ COPY_EXISTING ~baldur.bcs~ ~override~
     DECOMPILE_AND_PATCH BEGIN
         REPLACE_TEXTUALLY ~CBWI140~ ~%spell%~
     END
+
+ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
+    COPY_EXISTING ~baldur.bcs~ ~override~
+		DECOMPILE_AND_PATCH BEGIN
+			REPLACE_TEXTUALLY ~Global."CBWISpel","GLOBAL",1.~
+			~OR(12)
+			SpellCast([GOODCUTOFF],WIZARD_EAGLES_SPLENDOR)
+			SpellCast([GOODCUTOFF],WIZARD_DECASTAVE)
+			SpellCast([GOODCUTOFF],WIZARD_CATS_GRACE)
+			SpellCast([GOODCUTOFF],WIZARD_MORDENKAINENS_FORCE_MISSILES)
+			SpellCast([GOODCUTOFF],WIZARD_BALL_LIGHTNING)
+			SpellCast([GOODCUTOFF],WIZARD_LUTZAENS_FREQUENT_JAUNT)
+			SpellCast([GOODCUTOFF],WIZARD_DARTS_OF_BONE)
+			SpellCast([GOODCUTOFF],WIZARD_ANTIMAGIC_FIELD)
+			SpellCast([GOODCUTOFF],WIZARD_LICH_TOUCH)
+			SpellCast([GOODCUTOFF],WIZARD_TROLLISH_FORTITUDE)
+			SpellCast([GOODCUTOFF],WIZARD_IRON_BODY)
+			SpellCast([GOODCUTOFF],WIZARD_MIND_BLANK)~
+			REPLACE_TEXTUALLY ~SetGlobal."CBWISpel","GLOBAL",0.~ ~~
+		END
+END
