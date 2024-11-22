@@ -107,3 +107,39 @@ BEGIN
 		END
 	END
 END
+
+DEFINE_PATCH_FUNCTION ~DELETE_ITMSPL_HEADER_NUM~
+  INT_VAR header_type = 0    // -1 for all headers, otherwise match type
+          min_level   = "-1" // -1 for all headers, otherwise match
+		  delete_header_num = "-1" // -1 for all headers, otherwise match
+          header_length = 0x38
+BEGIN
+
+    READ_LONG   0x64 abil_off
+    READ_SHORT  0x68 abil_num
+    READ_LONG   0x6a fx_off
+    READ_SHORT  0x70 fx_num
+    SET fx_delta = 0
+    FOR (index = 0 ; index < abil_num ; ++index) BEGIN // looks for default ability header
+      READ_BYTE   (abil_off +        (index * header_length)) type_file
+      READ_SHORT  (abil_off + 0x10 + (index * header_length)) min_level_file
+      PATCH_IF (((header_type = type_file) OR (header_type < 0)) AND
+                ((min_level = min_level_file) OR (min_level < 0)) AND
+				((delete_header_num = index) OR (delete_header_num < 0))) BEGIN // default ability check
+        READ_SHORT  (0x1e + abil_off + (index * header_length)) abil_fx_num
+        READ_SHORT  (0x20 + abil_off + (index * header_length)) abil_fx_idx
+        DELETE_BYTES (fx_off + (0x30 * (abil_fx_idx - fx_delta))) (0x30 * abil_fx_num) // deletes all associated effects
+        DELETE_BYTES (abil_off + (index * header_length)) header_length                // deletes ability itself
+        SET fx_delta = (fx_delta + abil_fx_num)
+        SET abil_num = (abil_num - 1)
+        SET index = (index - 1)
+        SET fx_off = (fx_off - header_length)
+      END ELSE BEGIN // if non-matched ability, need to adjust effect indices
+        READ_SHORT  (0x20 + abil_off + (index * header_length)) abil_fx_idx
+        WRITE_SHORT (0x20 + abil_off + (index * header_length)) (abil_fx_idx - fx_delta)
+      END
+    END
+    WRITE_SHORT  0x68 abil_num
+    WRITE_LONG   0x6a fx_off
+
+END

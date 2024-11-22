@@ -4,16 +4,16 @@ BACKUP ~weidu_external/backup/CtB~
 //AUTHOR ~Charles Bisson, King Diamond (revision) Ikki (EE Conversion)  Weigo (all in one)~  NO_IF_EVAL_BUG
 SUPPORT ~http://www.shsforums.net or https://github.com/SpellholdStudios~ NO_IF_EVAL_BUG
 
-README ~%MOD_FOLDER%/text/CtB-Readme.txt~
+README ~%MOD_FOLDER%/Readme/CtB-Readme-english.html~ ~%MOD_FOLDER%/Readme/CtB-Readme-%LANGUAGE%.html~
 VERSION ~3.1~
 
 ASK_EVERY_COMPONENT
 
 ALWAYS
-    
+
     OUTER_SPRINT workspace "weidu_external/workspace/%MOD_FOLDER%"
     MKDIR "%workspace%"
-    
+
     ACTION_IF (GAME_IS ~eet~) BEGIN
         OUTER_SET bg2_chapter = 12
     END ELSE BEGIN
@@ -34,7 +34,7 @@ ALWAYS
     ACTION_IF GAME_IS ~soa tob~ BEGIN
         OUTER_SPRINT platform ~soa~
         OUTER_SPRINT engine ~old~
-    END 
+    END
     ACTION_IF GAME_IS ~eet~ BEGIN
         OUTER_SPRINT platform ~eet~
         OUTER_SPRINT engine ~ee~
@@ -42,7 +42,7 @@ ALWAYS
     ACTION_IF GAME_IS ~bg2ee~ BEGIN
         OUTER_SPRINT platform ~bg2ee~
         OUTER_SPRINT engine ~ee~
-    END 
+    END
     ACTION_IF ~%WEIDU_OS%~ STRING_EQUAL_CASE ~win32~ BEGIN
         OUTER_SPRINT os_slash ~\~
         OUTER_SPRINT exe ~.exe~
@@ -54,7 +54,7 @@ ALWAYS
     END
     ACTION_IF NOT VARIABLE_IS_SET one_time_execution THEN BEGIN // check to make this happen only once per install
         OUTER_SET one_time_execution = 1
-    
+
         // define variable for HANDLE_CHARSETS out_path so it can be reused later
         OUTER_TEXT_SPRINT "HANDLE_CHARSETS_OUT_PATH" EVAL "weidu_external/Language/%MOD_FOLDER%"
         // do not convert Setup.tra files, those should be UTF8 already
@@ -79,7 +79,7 @@ ALWAYS
             OUTER_TEXT_SPRINT "TRA_LOCATION" EVAL "%MOD_FOLDER%/Language"
             PRINT ~UTF-8~
         END
-    
+
         // for AUTO_TRA: if the game is the classic edition, all converted .tra files will be loaded from HANDLE_CHARSETS out_path
         ACTION_IF NOT (GAME_IS "bgee bg2ee eet iwdee pstee") THEN BEGIN
             OUTER_TEXT_SPRINT "TRA_LOCATION" EVAL "%HANDLE_CHARSETS_OUT_PATH%"
@@ -93,7 +93,7 @@ ALWAYS
     INCLUDE ~%MOD_FOLDER%/lib/extra_regexp_vars.tph~
     INCLUDE ~%MOD_FOLDER%/lib/macro.tpa~
     OUTER_SPRINT newline ~%WNL%%LNL%%MNL%%TAB% ~
-    
+
     ACTION_DEFINE_ASSOCIATIVE_ARRAY turn_off_at_night BEGIN // turn off sleeping animals at night
         bird => 1
         eagle => 1
@@ -136,23 +136,28 @@ LANGUAGE ~Castellano (clan REO)~
      ~%MOD_FOLDER%/Language/Spanish/wsetup.tra~
      ~%MOD_FOLDER%/Language/Spanish/script.tra~
      ~%MOD_FOLDER%/Language/Spanish/setup.tra~
-	 
-LANGUAGE ~Chinese (traduccion archenemy and youye)~
-	 ~Schinese~
-	 ~%MOD_FOLDER%/Language/Schinese/wsetup.tra~
-     ~%MOD_FOLDER%/Language/Schinese/script.tra~
-	 ~%MOD_FOLDER%/Language/Schinese/setup.tra~
 
-/* ====================================== *
- *  Check the Bodies : main component  *
- * ====================================== */
+LANGUAGE ~Chinese (traduccion archenemy and youye)~
+     ~Schinese~
+     ~%MOD_FOLDER%/Language/Schinese/wsetup.tra~
+     ~%MOD_FOLDER%/Language/Schinese/script.tra~
+     ~%MOD_FOLDER%/Language/Schinese/setup.tra~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Check the Bodies : main component                \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
 BEGIN @800000
 
 DESIGNATED 0 LABEL ~check_the_bodies~
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
     INCLUDE ~%MOD_FOLDER%/lib/install-guititle.tpa~
-END 
+END
 
 
 COPY_EXISTING ~misc01.itm~ ~override/ctb.mrk~ // tell other mod that Check The Bodies is installed
@@ -179,63 +184,27 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
     UNLESS ~2326 WIZARD_DISPEL_MAGIC~
 END
 
-APPEND ~SPELL.IDS~ ~3510 CB_ENCHANT_SWORD~
- UNLESS ~CB_ENCHANT_SWORD~
-APPEND ~SPELL.IDS~ ~3511 CB_ENCHANT_DAGGER~
- UNLESS ~CB_ENCHANT_DAGGER~
-APPEND ~SPELL.IDS~ ~3512 CB_ENCHANT_AXE~
- UNLESS ~CB_ENCHANT_AXE~
-APPEND ~SPELL.IDS~ ~3513 CB_ENCHANT_HALBERD~
- UNLESS ~CB_ENCHANT_HALBERD~
-
-APPEND ~SPELL.IDS~ ~2140 WIZARD_EAGLES_SPLENDOR~
- UNLESS ~WIZARD_EAGLES_SPLENDOR~
-APPEND ~SPELL.IDS~ ~2240 WIZARD_DECASTAVE~
- UNLESS ~WIZARD_DECASTAVE~
-APPEND ~SPELL.IDS~ ~2540 WIZARD_BALL_LIGHTNING~
- UNLESS ~WIZARD_BALL_LIGHTNING~
-APPEND ~SPELL.IDS~ ~2541 WIZARD_LUTZAENS_FREQUENT_JAUNT~
- UNLESS ~WIZARD_LUTZAENS_FREQUENT_JAUNT~
-APPEND ~SPELL.IDS~ ~2640 WIZARD_DARTS_OF_BONE~
- UNLESS ~WIZARD_DARTS_OF_BONE~
-
-//exist in TDD, but not WIZARD spells
-APPEND ~SPELL.IDS~ ~2643 WIZARD_TROLLISH_FORTITUDE~           //SPPR752
- UNLESS ~WIZARD_TROLLISH_FORTITUDE~
-APPEND ~SPELL.IDS~ ~2642 WIZARD_LICH_TOUCH~                   //sprb004 - UNUSED by TDD
- UNLESS ~WIZARD_LICH_TOUCH~
-/////////////////////////////////////////////////////////////////////
-
-APPEND ~SPELL.IDS~ ~2060 WIZARD_HAKESHAR_EFFECTS_5~
- UNLESS ~WIZARD_HAKESHAR_EFFECTS_5~
-APPEND ~SPELL.IDS~ ~2061 WIZARD_HAKESHAR_EFFECTS_7~
- UNLESS ~WIZARD_HAKESHAR_EFFECTS_7~
-APPEND ~SPELL.IDS~ ~2062 WIZARD_HAKESHAR_EFFECTS_9~
- UNLESS ~WIZARD_HAKESHAR_EFFECTS_9~
-APPEND ~SPELL.IDS~ ~2063 WIZARD_COWLED_VD~
- UNLESS ~WIZARD_COWLED_VD~
-APPEND ~SPELL.IDS~ ~3514 WIZARD_ADVANCED_ALCHEMY~
- UNLESS ~WIZARD_ADVANCED_ALCHEMY~
-APPEND ~SPELL.IDS~ ~3515 CB_ADV_ENCHANT_SWORD~
- UNLESS ~CB_ADV_ENCHANT_SWORD~
-APPEND ~SPELL.IDS~ ~3516 CB_ADV_ENCHANT_DAGGER~
- UNLESS ~CB_ADV_ENCHANT_DAGGER~
-APPEND ~SPELL.IDS~ ~2360 CB_ELMINSTERS_LIGHTNING~
- UNLESS ~CB_ELMINSTERS_LIGHTNING~
-
-ACTION_IF (NOT FILE_EXISTS ~override/tdd.mrk~) AND (NOT FILE_EXISTS ~data/TDD-RULE.BIF~)  AND (NOT MOD_IS_INSTALLED "setup-TDDz.tp2" "0")  //TDD compatibility
-BEGIN
-    APPEND ~SPELL.IDS~
-        ~2227 WIZARD_CATS_GRACE
-        2440 WIZARD_MORDENKAINENS_FORCE_MISSILES
-        2627 WIZARD_ANTIMAGIC_FIELD
-        2823 WIZARD_IRON_BODY
-        2824 WIZARD_MIND_BLANK~
-END
+//spell.ids found by spell installation
 
 INCLUDE ~%MOD_FOLDER%/lib/ids_entries_gtimes.tph~
 
 INCLUDE ~%MOD_FOLDER%/lib/ids_entries_shoutids.tph~
+
+ACTION_IF (GAME_IS ~tob bgt~) BEGIN
+    APPEND ~TRIGGER.IDS~ ~0x00A1 SpellCastOnMeRES(S:Spell*,O:Caster*)~
+                  UNLESS ~0x00A1 SpellCastOnMeRES(S:Spell\*,O:Caster\*)~
+    APPEND ~TRIGGER.IDS~ ~0x0091 SpellCastRES(S:Spell*,O:Object*)~
+                  UNLESS ~0x0091 SpellCastRES(S:Spell\*,O:Object\*)~
+    APPEND ~TRIGGER.IDS~ ~0x00A6 SpellCastPriestRES(S:Spell*,O:Object*)~
+                  UNLESS ~0x00A6 SpellCastPriestRES(S:Spell\*,O:Object\*)~
+    APPEND ~TRIGGER.IDS~ ~0x00A7 SpellCastInnateRES(S:Spell*,O:Object*)~
+                  UNLESS ~0x00A7 SpellCastInnateRES(S:Spell\*,O:Object\*)~
+    APPEND ~TRIGGER.IDS~ ~0x4031 HaveSpellRES(S:Spell*)~
+                  UNLESS ~0x4031 HaveSpellRES(S:Spell\*)~
+    APPEND ~TRIGGER.IDS~ ~0x40D5 ActuallyInCombat()~
+                  UNLESS ~0x40D5 ActuallyInCombat()~
+END
+CLEAR_IDS_MAP
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
     ACTION_IF FILE_EXISTS ~script compiler/AICOMPILE.exe~
@@ -374,6 +343,7 @@ ACTION_BASH_FOR ~%MOD_FOLDER%/graphics~ ~^.+\.bam$~ BEGIN
     END
 END
 
+COPY ~%MOD_FOLDER%/Compat/RoT/BAM~ ~override~ // spell scroll graphics
 
 //***************************************************************
 //  AREAS - before scripts to avoid unnecessary WeiDU warnings
@@ -382,6 +352,7 @@ PRINT ~Installing new areas...~
 
 COPY ~%MOD_FOLDER%/ctbareas/nostring~ ~override~
     PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
+
 COPY ~%MOD_FOLDER%/ctbareas/nostring/%engine%~ ~override~
     PATCH_INCLUDE ~%MOD_FOLDER%/lib/install-nightmaps.tpa~
 
@@ -810,7 +781,7 @@ EXTEND_BOTTOM ~AR0400.bcs~ ~%MOD_FOLDER%/scripts/append/aptp0400.BAF~  EVALUATE_
 EXTEND_BOTTOM ~AR0404.bcs~ ~%MOD_FOLDER%/scripts/append/apbt0404.BAF~ EVALUATE_BUFFER
 EXTEND_TOP    ~AR0406.bcs~ ~%MOD_FOLDER%/scripts/append/aptp0406.BAF~ EVALUATE_BUFFER
 // bonus merchant
-ACTION_IF NOT ((FILE_EXISTS ~data/TS-RULE.BIF~) OR (FILE_EXISTS ~override/tdd.mrk~) OR (FILE_EXISTS ~override/TDD-RULE.BIF~)) THEN 
+ACTION_IF NOT ((FILE_EXISTS ~data/TS-RULE.BIF~) OR (FILE_EXISTS ~override/tdd.mrk~) OR (FILE_EXISTS ~override/TDD-RULE.BIF~)) THEN
 BEGIN
   EXTEND_BOTTOM ~AR0406.bcs~ ~%MOD_FOLDER%/scripts/append/apbt0406.BAF~ EVALUATE_BUFFER //WMART1
 END
@@ -863,7 +834,7 @@ COPY_EXISTING ~ar0700.bcs~ ~override~       //fix
               ~ar0400.bcs~ ~override~
               ~ar0500.bcs~ ~override~
               ~ar0900.bcs~ ~override~
- DECOMPILE_AND_PATCH BEGIN 
+ DECOMPILE_AND_PATCH BEGIN
     REPLACE_TEXTUALLY ~OnCreation()~ ~~
  END
 
@@ -873,7 +844,7 @@ PRINT ~Installing new scripts...~
 
 COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/scripts/ctb~
   USING ~%MOD_FOLDER%/Language/%s/script.tra~
-  
+
 //**************************************************************************
 //**************************************************************************
 PRINT ~Installing dialogues...~
@@ -903,22 +874,22 @@ INCLUDE ~%MOD_FOLDER%/lib/install-cre.tpa~
 
 // fixing animation   -  after copying creature
 
-ACTION_IF GAME_IS ~bg2ee eet~ BEGIN 
-     
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+
     PRINT ~Correcting animations for BG2EE and EET...~
-     
+
     ACTION_FOR_EACH var IN bam wav ini BEGIN
         ACTION_BASH_FOR ~%MOD_FOLDER%/anim/chimera~ ~^.+\.%var%$~ BEGIN
             ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
                 COPY ~%BASH_FOR_FILESPEC%~ ~override~
             END
         END
-    END 
-    COPY_EXISTING 
+    END
+    COPY_EXISTING
         ~CBCHIMRA.CRE~        ~override~
             WRITE_LONG 0x28  0xE268   // 0xe268 CHIMERA ( was Grizzly )
-    BUT_ONLY_IF_IT_CHANGES  
-    
+    BUT_ONLY_IF_IT_CHANGES
+
     ACTION_FOR_EACH var IN bam wav BEGIN
         ACTION_BASH_FOR ~%MOD_FOLDER%/anim/bugbear~ ~^.+\.%var%$~ BEGIN
             ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
@@ -926,7 +897,7 @@ ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
             END
         END
     END
-    COPY_EXISTING 
+    COPY_EXISTING
         ~CBBGBERA.CRE~        ~override~
         ~CBBGBER1.CRE~        ~override~
         ~CBBGBER2.CRE~        ~override~
@@ -943,7 +914,7 @@ ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
             END
         END
     END
-    COPY_EXISTING 
+    COPY_EXISTING
         //~CBBGBER.CRE~        ~override~
         ~CBBGBERW.CRE~        ~override~
         ~CBBGBERX.CRE~        ~override~
@@ -958,8 +929,8 @@ ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
                 COPY ~%BASH_FOR_FILESPEC%~ ~override~
             END
         END
-    END 
-    COPY_EXISTING 
+    END
+    COPY_EXISTING
             ~CBNRT001.CRE~        ~override~
             ~CBNRT002.CRE~        ~override~
             ~CBNRT003.CRE~        ~override~
@@ -973,8 +944,8 @@ ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
                 COPY ~%BASH_FOR_FILESPEC%~ ~override~
             END
         END
-    END     
-    COPY_EXISTING 
+    END
+    COPY_EXISTING
         ~CBNRT004.CRE~        ~override~
         ~CBNRT005.CRE~        ~override~
         ~CBNRT010.CRE~        ~override~
@@ -988,8 +959,8 @@ ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
                 COPY ~%BASH_FOR_FILESPEC%~ ~override~
             END
         END
-    END     
-    COPY_EXISTING 
+    END
+    COPY_EXISTING
         ~CBDRIMML.CRE~        ~override~
         ~CBDRIMSL.CRE~        ~override~
             WRITE_LONG 0x28  0xE282   // 0xe283 IC2_DRIDER_MALE ( was IC_HISTACHII ) does not work -  use 0xe253 IC_REMORHAZ  -  0xE282 DRIDER_FEMALE on EE
@@ -1001,14 +972,14 @@ ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
                 COPY ~%BASH_FOR_FILESPEC%~ ~override~
             END
         END
-    END 
-    COPY_EXISTING 
+    END
+    COPY_EXISTING
         ~CBDRIFSL.CRE~        ~override~
         ~CBDRIFML.CRE~        ~override~
         ~CBDRIFAL.CRE~        ~override~
             WRITE_LONG 0x28  0xE283   // 0xe282 IC2_DRIDER_FEMALE ( was IC_WIGHT ) does not work  -  use 0xe253 IC_REMORHAZ  -  0xE283 DRIDER_MALE on EE
     BUT_ONLY_IF_IT_CHANGES
-    
+
     ACTION_FOR_EACH var IN bam wav BEGIN
         ACTION_BASH_FOR ~%MOD_FOLDER%/anim/halfdragon_red~ ~^.+\.%var%$~ BEGIN
             ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
@@ -1016,7 +987,7 @@ ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
             END
         END
     END
-    COPY_EXISTING 
+    COPY_EXISTING
         ~CBHARPY2.CRE~        ~override~
         ~CBHARPYW.CRE~        ~override~
         ~CBHARPYX.CRE~        ~override~
@@ -1024,15 +995,15 @@ ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
         ~CBHARPYZ.CRE~        ~override~
             WRITE_LONG 0x28  0xE26A   // 0xe26A IC2_HALFDRAGON_RED ( was IC_ICE_TROLL )
     BUT_ONLY_IF_IT_CHANGES
-    
+
     ACTION_FOR_EACH var IN bam wav ini BEGIN
         ACTION_BASH_FOR ~%MOD_FOLDER%/anim/halfdragon_black~ ~^.+\.%var%$~ BEGIN
             ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
                 COPY ~%BASH_FOR_FILESPEC%~ ~override~
             END
         END
-    END 
-    COPY_EXISTING 
+    END
+    COPY_EXISTING
         ~CBHARPY1.CRE~        ~override~
         ~CBHARPYA.CRE~        ~override~
         ~CBHARPYB.CRE~        ~override~
@@ -1047,8 +1018,8 @@ ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
                 COPY ~%BASH_FOR_FILESPEC%~ ~override~
             END
         END
-    END 
-    COPY_EXISTING 
+    END
+    COPY_EXISTING
         ~CBTREANT.CRE~        ~override~
             WRITE_LONG 0x28  0xE26B   // 0xe26B IC2_DARKTREE ( was IC_ZOMBIE2 )
     BUT_ONLY_IF_IT_CHANGES
@@ -1058,20 +1029,20 @@ END
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 
      PRINT ~Correcting animations for SoA and ToB...~
-     
+
      //freeing MGO3 slot for a Bugbear 1
      COPY_EXISTING ~ICGOB04.cre~         ~override~
                    ~FSHORDE1.cre~        ~override~
       WRITE_LONG 0x28  0xE400   //IC_GOBLIN_AXE instead of IC_GOBLINELITE_AXE
      BUT_ONLY_IF_IT_CHANGES
-     
+
      //freeing MMY2 slot for a Bugbear 2
      COPY_EXISTING ~ICMYC02.cre~         ~override~
       WRITE_LONG 0x28  0xE600   //IC_MYCONID instead of IC_MYCONID2
      BUT_ONLY_IF_IT_CHANGES
-     
-     
-     
+
+
+
     ACTION_IF FILE_EXISTS_IN_GAME ~TT0025.ARE~  // NEJ2 compatibility
     THEN BEGIN
          COPY_EXISTING ~GOBLINSP.CRE~      ~override~
@@ -1080,7 +1051,7 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
                        ~WEENOG.CRE~        ~override~
           WRITE_LONG 0x28  0xE400   //IC_GOBLIN_AXE instead of IC_GOBLINELITE_AXE
          BUT_ONLY_IF_IT_CHANGES
-         
+
          COPY_EXISTING ~MHISA1.bam~   ~override/MBFIA1.bam~      //it's necessary to execute before CtB BAMs copied over
                        ~MHISA1E.bam~  ~override/MBFIA1E.bam~
                        ~MHISA2.bam~   ~override/MBFIA2.bam~
@@ -1102,7 +1073,7 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
                        ~MHISWK.bam~   ~override/MBFIWK.bam~
                        ~MHISWKE.bam~  ~override/MBFIWKE.bam~
                        ~MHIS.2da~     ~override/MBFI.2da~
-         
+
          COPY_EXISTING ~RDUNDEAD.CRE~   ~override~
                        ~RDUNDEA2.CRE~   ~override~
                        ~RDUNDEA3.CRE~   ~override~
@@ -1110,7 +1081,7 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
                        ~DOOMGUAR.CRE~   ~override~
           WRITE_LONG 0x28  0xE210   //IC_BEETLE_FIRE instead of IC_HISTACHII
          BUT_ONLY_IF_IT_CHANGES
-         
+
          COPY_EXISTING ~WIGHCOLD.CRE~   ~override~
                        ~WRAITH01.CRE~   ~override~
                        ~ZOMBIE01.CRE~   ~override~
@@ -1118,23 +1089,86 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
          BUT_ONLY_IF_IT_CHANGES
     END
 
-     
-     
+
+
      ACTION_IF NOT FILE_EXISTS ~override/rot.mrk~ AND NOT FILE_EXISTS ~data/ROT-RULE.BIF~    // Compatibility with RoT
      THEN BEGIN
        COPY ~%MOD_FOLDER%/Compat/anim/MTIC~ ~override~   //Red Harpy
        COPY ~%MOD_FOLDER%/Compat/anim/MZO2~ ~override~   //Black Harpy - RoT's Samurai has a higher priority
      END
-     
-     
+
+
      PRINT ~Installing new animations for SoA and ToB...~
-     
+
      COPY ~%MOD_FOLDER%/anim/cbcrean1~ ~override~
      COPY ~%MOD_FOLDER%/anim/cbcrean2~ ~override~
      COPY ~%MOD_FOLDER%/anim/cbcrean4~ ~override~
 
 END
- 
+
+//***********************************************************
+//  Items
+//***********************************************************
+PRINT ~Installing new items...~
+
+INCLUDE ~%MOD_FOLDER%/lib/install-itm.tpa~
+
+// The wizard spells are installed as an extra component. These items use the scrolls in a quest and are therefore installed
+COPY ~CtB/items/translate/CBWT7b10.ITM~ ~override~
+    SAY NAME2  @346
+    SAY DESC   @347
+
+COPY ~CtB/items/translate/CBWT7f10.ITM~ ~override~
+    SAY NAME2  @352
+    SAY DESC   @353
+
+COPY ~CtB/items/translate/CBWT7g10.ITM~ ~override~
+    SAY NAME2  @354
+    SAY DESC   @355
+
+COPY ~CtB/items/translate/CBWT7c10.ITM~ ~override~
+    SAY NAME2  @356
+    SAY DESC   @357
+
+COPY ~CtB/items/translate/CBWT7i10.ITM~ ~override~
+    SAY NAME2  @360
+    SAY DESC   @361
+
+COPY ~CtB/items/translate/CBWT7j10.ITM~ ~override~
+    SAY NAME2  @362
+    SAY DESC   @363
+
+COPY ~CtB/items/translate/CBWT7e10.ITM~ ~override~
+    SAY NAME2  @348
+    SAY DESC   @349
+
+COPY ~CtB/items/translate/CBWT7d10.ITM~ ~override~
+    SAY NAME2  @350
+    SAY DESC   @351
+
+COPY ~CtB/items/translate/CBWT7h10.ITM~ ~override~
+    SAY NAME2  @358
+    SAY DESC   @359
+
+COPY ~CtB/items/translate/CBWT7l10.ITM~ ~override~
+    SAY NAME2  @366
+    SAY DESC   @367
+
+COPY ~CtB/items/translate/CBWT7k10.ITM~ ~override~
+    SAY NAME2  @364
+    SAY DESC   @365
+
+COPY ~CtB/items/translate/CBXTHSaa.ITM~ ~override~
+    SAY NAME2 @650623
+    SAY UNIDENTIFIED_DESC @650624
+    SAY DESC @650625
+
+COPY ~CtB/items/translate/CBWT7a10.ITM~ ~override~
+    SAY NAME2  @344
+    SAY DESC   @345
+
+
+
 //***********************************************************
 //  Spells
 //***********************************************************
@@ -1227,79 +1261,115 @@ COPY ~%MOD_FOLDER%/spells/translate/CBWTNI1h.SPL~ ~override~
   SAY 0xce @300
 COPY ~%MOD_FOLDER%/spells/translate/CBWTNI1i.SPL~ ~override~
   SAY 0xce  @301
-COPY ~%MOD_FOLDER%/spells/translate/SPIN510.SPL~ ~override~
-  SAY NAME1  @302
-COPY ~%MOD_FOLDER%/spells/translate/SPIN511.SPL~ ~override~
-  SAY NAME1  @303
-COPY ~%MOD_FOLDER%/spells/translate/SPIN512.SPL~ ~override~
-  SAY NAME1  @304
-COPY ~%MOD_FOLDER%/spells/translate/SPIN513.SPL~ ~override~
-  SAY NAME1  @305
-COPY ~%MOD_FOLDER%/spells/translate/SPIN514.SPL~ ~override~
-  SAY NAME1  @306
-  SAY UNIDENTIFIED_DESC @307
-COPY ~%MOD_FOLDER%/spells/translate/SPIN515.SPL~ ~override~
-  SAY NAME1  @308
-COPY ~%MOD_FOLDER%/spells/translate/SPIN516.SPL~ ~override~
-  SAY NAME1  @309
-COPY ~%MOD_FOLDER%/spells/translate/SPIN517T.SPL~ ~override~      
-  SAY NAME1  @310
-COPY ~%MOD_FOLDER%/spells/translate/SPIN518T.SPL~ ~override~     
-        SAY NAME1  @311
-COPY ~%MOD_FOLDER%/spells/translate/SPWI063.SPL~ ~override~
-  SAY 0x15e @343
-COPY ~%MOD_FOLDER%/spells/translate/SPWI240.SPL~ ~override~
-  SAY NAME1  @346
-  SAY UNIDENTIFIED_DESC @347
-COPY ~%MOD_FOLDER%/spells/translate/SPWI540.SPL~ ~override~
-  SAY NAME1  @352
-  SAY UNIDENTIFIED_DESC @353
-COPY ~%MOD_FOLDER%/spells/translate/SPWI541.SPL~ ~override~
-  SAY NAME1  @354
-  SAY UNIDENTIFIED_DESC @355
 COPY ~%MOD_FOLDER%/spells/translate/CBWT7g20.SPL~ ~override~
   SAY NAME1 @354
-COPY ~%MOD_FOLDER%/spells/translate/SPWI640.SPL~ ~override~
-  SAY NAME1  @356
-  SAY UNIDENTIFIED_DESC @357
-COPY ~%MOD_FOLDER%/spells/translate/SPWI642.SPL~ ~override~
-  SAY NAME1  @360
-  SAY UNIDENTIFIED_DESC @361
-COPY ~%MOD_FOLDER%/spells/translate/SPWI643.SPL~ ~override~
-  SAY NAME1  @362
-  SAY UNIDENTIFIED_DESC @363
 
-COPY ~%MOD_FOLDER%/Compat/TDD/SPWI227.SPL~ ~override~
-  SAY NAME1  @348
-  SAY UNIDENTIFIED_DESC @349
-COPY ~%MOD_FOLDER%/Compat/TDD/SPWI440.SPL~ ~override~
-  SAY NAME1  @350
-  SAY UNIDENTIFIED_DESC @351
-COPY ~%MOD_FOLDER%/Compat/TDD/SPWI627.SPL~ ~override~
-  SAY NAME1  @358
-  SAY UNIDENTIFIED_DESC @359
-COPY ~%MOD_FOLDER%/Compat/TDD/SPWI823.SPL~ ~override~
-  SAY NAME1  @366
-  SAY UNIDENTIFIED_DESC @367
-COPY ~%MOD_FOLDER%/Compat/TDD/SPWI824.SPL~ ~override~
-  SAY NAME1  @364
-  SAY UNIDENTIFIED_DESC @365
+ // Enchant Sword
+COPY ~%MOD_FOLDER%/spells/translate/CBCWENC0.SPL~ ~override~
+  SAY NAME1  @302
+COPY ~%MOD_FOLDER%/spells/translate/CBCWENC1.SPL~ ~override~
+  SAY NAME1  @303
+COPY ~%MOD_FOLDER%/spells/translate/CBCWENC2.SPL~ ~override~
+  SAY NAME1  @304
+COPY ~%MOD_FOLDER%/spells/translate/CBCWENC3.SPL~ ~override~
+  SAY NAME1  @305
 
-ACTION_IF NOT FILE_EXISTS ~override/rot.mrk~ OR  NOT FILE_EXISTS ~data/ROT-RULE.BIF~  //ROT compatibility
-THEN BEGIN
-  COPY ~%MOD_FOLDER%/Compat/RoT/SPWI140.SPL~ ~override~
+//Alchemie
+COPY ~%MOD_FOLDER%/spells/translate/CBCWTHA.SPL~ ~override~
+  SAY NAME1  @306
+  SAY UNIDENTIFIED_DESC @307
+
+//Enchant Sword Advanced
+COPY ~%MOD_FOLDER%/spells/translate/CBCWENC5.SPL~ ~override~
+  SAY NAME1  @308
+COPY ~%MOD_FOLDER%/spells/translate/CBCWENC6.SPL~ ~override~
+  SAY NAME1  @309
+COPY ~%MOD_FOLDER%/spells/translate/CBCWENC7.SPL~ ~override~
+  SAY NAME1  @310
+COPY ~%MOD_FOLDER%/spells/translate/CBCWENC8.SPL~ ~override~
+        SAY NAME1  @311
+
+/* no use found
+//COPY ~%MOD_FOLDER%/spells/translate/SPWI063.SPL~ ~override~
+//  SAY 0x15e @343
+APPEND ~SPELL.IDS~ ~2063 WIZARD_COWLED_VD~
+ UNLESS ~WIZARD_COWLED_VD~
+*/
+
+COPY ~%MOD_FOLDER%/spells/translate/CBWI240.SPL~ ~override~
+    SAY NAME1  @346
+    SAY UNIDENTIFIED_DESC @347
+    PATCH_IF GAME_IS ~bg2 tob bgt~ BEGIN
+        LPF ADD_SPELL_EFFECT INT_VAR opcode = 265 target = 1 parameter1 = 1 timing = 1 header = 1 STR_VAR resource = CBWISpel END
+    END
+COPY ~%MOD_FOLDER%/spells/translate/CBWI540.SPL~ ~override~
+    SAY NAME1  @352
+    SAY UNIDENTIFIED_DESC @353
+    PATCH_IF GAME_IS ~bg2 tob bgt~ BEGIN
+        LPF ADD_SPELL_EFFECT INT_VAR opcode = 265 target = 1 parameter1 = 1 timing = 1 header = 1 STR_VAR resource = CBWISpel END
+    END
+COPY ~%MOD_FOLDER%/spells/translate/CBWI541.SPL~ ~override~
+    SAY NAME1  @354
+    SAY UNIDENTIFIED_DESC @355
+    PATCH_IF GAME_IS ~bg2 tob bgt~ BEGIN
+        LPF ADD_SPELL_EFFECT INT_VAR opcode = 265 target = 1 parameter1 = 1 timing = 1 header = 1 STR_VAR resource = CBWISpel END
+    END
+COPY ~%MOD_FOLDER%/spells/translate/CBWI640.SPL~ ~override~
+    SAY NAME1  @356
+    SAY UNIDENTIFIED_DESC @357
+    PATCH_IF GAME_IS ~bg2 tob bgt~ BEGIN
+        LPF ADD_SPELL_EFFECT INT_VAR opcode = 265 target = 1 parameter1 = 1 timing = 1 header = 1 STR_VAR resource = CBWISpel END
+    END
+COPY ~%MOD_FOLDER%/spells/translate/CBWI642.SPL~ ~override~
+    SAY NAME1  @360
+    SAY UNIDENTIFIED_DESC @361
+    PATCH_IF GAME_IS ~bg2 tob bgt~ BEGIN
+        LPF ADD_SPELL_EFFECT INT_VAR opcode = 265 target = 1 parameter1 = 1 timing = 1 header = 1 STR_VAR resource = CBWISpel END
+    END
+COPY ~%MOD_FOLDER%/spells/translate/CBWI643.SPL~ ~override~
+    SAY NAME1  @362
+    SAY UNIDENTIFIED_DESC @363
+    PATCH_IF GAME_IS ~bg2 tob bgt~ BEGIN
+        LPF ADD_SPELL_EFFECT INT_VAR opcode = 265 target = 1 parameter1 = 1 timing = 1 header = 1 STR_VAR resource = CBWISpel END
+    END
+COPY ~%MOD_FOLDER%/Compat/TDD/CBWI227.SPL~ ~override~
+    SAY NAME1  @348
+    SAY UNIDENTIFIED_DESC @349
+    PATCH_IF GAME_IS ~bg2 tob bgt~ BEGIN
+        LPF ADD_SPELL_EFFECT INT_VAR opcode = 265 target = 1 parameter1 = 1 timing = 1 header = 1 STR_VAR resource = CBWISpel END
+    END
+COPY ~%MOD_FOLDER%/Compat/TDD/CBWI440.SPL~ ~override~
+    SAY NAME1  @350
+    SAY UNIDENTIFIED_DESC @351
+    PATCH_IF GAME_IS ~bg2 tob bgt~ BEGIN
+        LPF ADD_SPELL_EFFECT INT_VAR opcode = 265 target = 1 parameter1 = 1 timing = 1 header = 1 STR_VAR resource = CBWISpel END
+    END
+COPY ~%MOD_FOLDER%/Compat/TDD/CBWI627.SPL~ ~override~
+    SAY NAME1  @358
+    SAY UNIDENTIFIED_DESC @359
+    PATCH_IF GAME_IS ~bg2 tob bgt~ BEGIN
+        LPF ADD_SPELL_EFFECT INT_VAR opcode = 265 target = 1 parameter1 = 1 timing = 1 header = 1 STR_VAR resource = CBWISpel END
+    END
+COPY ~%MOD_FOLDER%/Compat/TDD/CBWI823.SPL~ ~override~
+    SAY NAME1  @366
+    SAY UNIDENTIFIED_DESC   @367
+    PATCH_IF GAME_IS ~bg2 tob bgt~ BEGIN
+        LPF ADD_SPELL_EFFECT INT_VAR opcode = 265 target = 1 parameter1 = 1 timing = 1 header = 1 STR_VAR resource = CBWISpel END
+    END
+COPY ~%MOD_FOLDER%/Compat/TDD/CBWI824.SPL~ ~override~
+    SAY NAME1  @364
+    SAY UNIDENTIFIED_DESC   @365
+    PATCH_IF GAME_IS ~bg2 tob bgt~ BEGIN
+        LPF ADD_SPELL_EFFECT INT_VAR opcode = 265 target = 1 parameter1 = 1 timing = 1 header = 1 STR_VAR resource = CBWISpel END
+    END
+COPY ~%MOD_FOLDER%/Compat/RoT/CBWI140.SPL~ ~override~
     SAY NAME1  @344
     SAY UNIDENTIFIED_DESC @345
+    PATCH_IF GAME_IS ~bg2 tob bgt~ BEGIN
+        LPF ADD_SPELL_EFFECT INT_VAR opcode = 265 target = 1 parameter1 = 1 timing = 1 header = 1 STR_VAR resource = CBWISpel END
+    END
 
-  COPY ~%MOD_FOLDER%/Compat/RoT/BAM~ ~override~
-END
 
-//***********************************************************
-//  Items
-//***********************************************************
-PRINT ~Installing new items...~
-
-INCLUDE ~%MOD_FOLDER%/lib/install-itm.tpa~
 
 //***********************************************************
 //  Stores
@@ -1375,7 +1445,7 @@ ACTION_IF FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ THEN BEGIN
   //preliminary step - making LANGUAGE temporary file until the new WeiDU
   //COPY - ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~  ~tmp_worldmap.tra~
   COPY - ~%TRA_LOCATION%/%LANGUAGE%/Worldmap.tra~  ~tmp_worldmap.tra~
-  
+
   COPY ~Worldmap/map_mods_trans.tra~  ~Worldmap~
    APPEND_FILE ~tmp_worldmap.tra~
 
@@ -1410,11 +1480,11 @@ ACTION_IF GAME_IS ~eet~ BEGIN
     PRINT ~new_icon_index: %new_icon_index%~
     COPY ~%MOD_FOLDER%/Worldmap/eet/eet-links.tbl~  ~%MOD_FOLDER%/Worldmap/eet~
         PATCH_IF (FILE_EXISTS_IN_GAME ~rot.mrk~)  OR (FILE_EXISTS ~data/ROT-RULE.BIF~) BEGIN
-            APPEND_FILE ~%MOD_FOLDER%/Worldmap/eet/rot_links.tbl~                        
-        END                                                                    
+            APPEND_FILE ~%MOD_FOLDER%/Worldmap/eet/rot_links.tbl~
+        END
         PATCH_IF (FILE_EXISTS_IN_GAME ~sos.mrk~)  OR (FILE_EXISTS ~data/SOS-RULE.BIF~) BEGIN
-            APPEND_FILE ~%MOD_FOLDER%/Worldmap/eet/sos_links.tbl~                        
-        END                                                                    
+            APPEND_FILE ~%MOD_FOLDER%/Worldmap/eet/sos_links.tbl~
+        END
         PATCH_IF (FILE_EXISTS_IN_GAME ~tdd.mrk~)  OR (FILE_EXISTS ~data/TDD-RULE.BIF~) OR  (MOD_IS_INSTALLED "setup-TDDz.tp2" "0") BEGIN
             APPEND_FILE ~%MOD_FOLDER%/Worldmap/eet/tdd_links.tbl~
         END
@@ -1423,7 +1493,7 @@ ACTION_IF GAME_IS ~eet~ BEGIN
             SET BAM_ANIM = new_icon_index + cnt
             REPLACE_TEXTUALLY ~new#%cnt%~ ~%BAM_ANIM%~
         END
-    INCLUDE ~%MOD_FOLDER%/lib/add_worldmap_tbl.tpa~ 
+    INCLUDE ~%MOD_FOLDER%/lib/add_worldmap_tbl.tpa~
     LAF ADD_WORLDMAP_TBL
         INT_VAR
         verbose = 1
@@ -1492,7 +1562,17 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
     END
 END
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-   COPY ~%MOD_FOLDER%/PVRZ~ ~override~
+    INCLUDE ~%MOD_FOLDER%/lib/a7_pvrz_tis.tpa~
+    ACTION_BASH_FOR ~%MOD_FOLDER%/PVRZ~ ~.*\.tis$~ BEGIN
+        COPY ~%BASH_FOR_FILESPEC%~ ~override~
+            LPF UPDATE_PVRZ_INDICES RET original_base_index new_base_index END
+        LAF TIS_RES_TO_PVRZ STR_VAR tis_res = EVAL ~%SOURCE_RES%~ RET prefix END
+        ACTION_IF (new_base_index >= 0) BEGIN // It is strongly recommended to check the return values of "UPDATE_PVRZ_INDICES".
+            ACTION_BASH_FOR ~%MOD_FOLDER%/PVRZ~ ~%prefix%[0-9][0-9]\.pvrz$~ BEGIN // Installing associated PVRZ resources
+                LAF INSTALL_PVRZ INT_VAR original_base_index new_base_index STR_VAR source_file = EVAL ~%BASH_FOR_FILESPEC%~ END
+            END
+        END
+    END
 END
 
 // older mods use CtB-RULE
@@ -1528,9 +1608,14 @@ ACTION_IF NOT MOD_IS_INSTALLED "bggo.tp2" (ID_OF_LABEL "bggo.tp2" "baldurs_gate_
     COPY ~%MOD_FOLDER%/compat/BGGO/%engine%~ ~override~
 END
 
-//***********************************************************************************
-// Candlekeep Chores component
-//***********************************************************************************
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Candlekeep Chores component                      \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
 BEGIN @800005
 DESIGNATED 1 LABEL ~ctb_candlekeep_chores~
 REQUIRE_PREDICATE MOD_IS_INSTALLED "setup-ctb.tp2" (ID_OF_LABEL "setup-ctb.tp2" "check_the_bodies" )  @800006
@@ -1912,7 +1997,17 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
     END
 END
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-   COPY ~%MOD_FOLDER%/Chores/PVRZ~ ~override~
+    INCLUDE ~%MOD_FOLDER%/lib/a7_pvrz_tis.tpa~
+    ACTION_BASH_FOR ~%MOD_FOLDER%/Chores/PVRZ~ ~.*\.tis$~ BEGIN
+        COPY ~%BASH_FOR_FILESPEC%~ ~override~
+            LPF UPDATE_PVRZ_INDICES RET original_base_index new_base_index END
+        LAF TIS_RES_TO_PVRZ STR_VAR tis_res = EVAL ~%SOURCE_RES%~ RET prefix END
+        ACTION_IF (new_base_index >= 0) BEGIN // It is strongly recommended to check the return values of "UPDATE_PVRZ_INDICES".
+            ACTION_BASH_FOR ~%MOD_FOLDER%/Chores/PVRZ~ ~%prefix%[0-9][0-9]\.pvrz$~ BEGIN // Installing associated PVRZ resources
+                LAF INSTALL_PVRZ INT_VAR original_base_index new_base_index STR_VAR source_file = EVAL ~%BASH_FOR_FILESPEC%~ END
+            END
+        END
+    END
 END
 
 // movies must be biffed
@@ -1952,20 +2047,30 @@ END
 //////////////////////////////
 INCLUDE ~%MOD_FOLDER%/lib/cheat_var_chores.tph~
 
-//***********************************************************************************
-// Candlekeep Chores Fast Forward
-//***********************************************************************************
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Candlekeep Chores Fast Forward                   \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
 BEGIN @800007
-DESIGNATED 2 LABEL ~ctb_candlekeep_fast_forward~ 
+DESIGNATED 2 LABEL ~ctb_candlekeep_fast_forward~
 REQUIRE_PREDICATE MOD_IS_INSTALLED "setup-ctb.tp2" (ID_OF_LABEL "setup-ctb.tp2" "ctb_candlekeep_chores" ) @800008
 
 COMPILE ~%MOD_FOLDER%/CtB_FF/CtB_FF.d~
 
-//***********************************************************************************
-// CtB other improvements
-//***********************************************************************************
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// CtB other improvements                           \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
 BEGIN @800009
-DESIGNATED 3 LABEL ~ctb_other_improvements~ 
+DESIGNATED 3 LABEL ~ctb_other_improvements~
 REQUIRE_PREDICATE MOD_IS_INSTALLED "setup-ctb.tp2" (ID_OF_LABEL "setup-ctb.tp2" "check_the_bodies" ) @800006
 
 
@@ -1975,7 +2080,7 @@ REQUIRE_PREDICATE MOD_IS_INSTALLED "setup-ctb.tp2" (ID_OF_LABEL "setup-ctb.tp2" 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 PRINT ~Change the entrances to the original position AR0404.are~
 COPY_EXISTING ~AR0404.ARE~  ~override~
-    
+
     READ_SHORT 0x5a  "infotrig_num"
     READ_LONG  0x5c  "infotrig_offset"
     FOR( cnt=0; cnt<"%infotrig_num%"; cnt=cnt+1 ) BEGIN  //triggers loop
@@ -1983,9 +2088,9 @@ COPY_EXISTING ~AR0404.ARE~  ~override~
         PATCH_IF ("%info_name%" STRING_COMPARE_CASE "Info3576")=0 BEGIN
                  //PATCH_PRINT ~Region Number %cnt% %info_name%~
             LPF fj_are_structure
-                INT_VAR 
+                INT_VAR
                 fj_delete_mode = EVAL ~%cnt%~
-                STR_VAR 
+                STR_VAR
                 fj_structure_type = region
             END
         END
@@ -1995,9 +2100,9 @@ COPY_EXISTING ~AR0404.ARE~  ~override~
         PATCH_IF ("%info_name%" STRING_COMPARE_CASE "Trans0404")=0 BEGIN
                  //PATCH_PRINT ~Region Number %cnt% %info_name%~
             LPF fj_are_structure
-                INT_VAR 
+                INT_VAR
                 fj_delete_mode = EVAL ~%cnt%~
-                STR_VAR 
+                STR_VAR
                 fj_structure_type = region
             END
         END
@@ -2013,64 +2118,64 @@ COPY_EXISTING ~AR0404.ARE~  ~override~
     END
     LPF fj_are_structure
         INT_VAR
-        fj_type                 = 2                         
-        fj_box_left             = 2462                      
-        fj_box_top              = 995                      
-        fj_box_right            = 2710                      
-        fj_box_bottom           = 1296                     
-        fj_cursor_idx           = 28                            
-        fj_flags                = 0x00000104                
-        fj_loc_x                = 2586                      
-        fj_loc_y                = 1145                      
-        fj_vertex_0             = 2462 + (1064 << 16)  
-        fj_vertex_1             = 2495 + (1150 << 16)  
-        fj_vertex_2             = 2554 + (1195 << 16)  
-        fj_vertex_3             = 2578 + (1239 << 16)  
-        fj_vertex_4             = 2594 + (1252 << 16)  
+        fj_type                 = 2
+        fj_box_left             = 2462
+        fj_box_top              = 995
+        fj_box_right            = 2710
+        fj_box_bottom           = 1296
+        fj_cursor_idx           = 28
+        fj_flags                = 0x00000104
+        fj_loc_x                = 2586
+        fj_loc_y                = 1145
+        fj_vertex_0             = 2462 + (1064 << 16)
+        fj_vertex_1             = 2495 + (1150 << 16)
+        fj_vertex_2             = 2554 + (1195 << 16)
+        fj_vertex_3             = 2578 + (1239 << 16)
+        fj_vertex_4             = 2594 + (1252 << 16)
         fj_vertex_5             = 2705 + (1255 << 16)
-        fj_vertex_6             = 2710 + (1166 << 16)  
-        fj_vertex_7             = 2463 + (995  << 16)  
-        STR_VAR                                             
-        fj_structure_type   = region                        
-        fj_name             = Door3576                      
-        fj_destination_area = AR3576                        
-        fj_destination_name = Exit0404                      
+        fj_vertex_6             = 2710 + (1166 << 16)
+        fj_vertex_7             = 2463 + (995  << 16)
+        STR_VAR
+        fj_structure_type   = region
+        fj_name             = Door3576
+        fj_destination_area = AR3576
+        fj_destination_name = Exit0404
     END
     LPF fj_are_structure
         INT_VAR
-        fj_type                 = 1                         
-        fj_box_left             = 2462                      
-        fj_box_top              = 995                      
-        fj_box_right            = 2710                      
-        fj_box_bottom           = 1296                     
-        fj_cursor_idx           = 22                            
-        fj_info_point_strref    = RESOLVE_STR_REF (@218) 
-        fj_loc_x                = 2586                      
-        fj_loc_y                = 1145                      
-        fj_vertex_0             = 2462 + (1064 << 16)  
-        fj_vertex_1             = 2495 + (1150 << 16)  
-        fj_vertex_2             = 2554 + (1195 << 16)  
-        fj_vertex_3             = 2578 + (1239 << 16)  
-        fj_vertex_4             = 2594 + (1252 << 16)  
+        fj_type                 = 1
+        fj_box_left             = 2462
+        fj_box_top              = 995
+        fj_box_right            = 2710
+        fj_box_bottom           = 1296
+        fj_cursor_idx           = 22
+        fj_info_point_strref    = RESOLVE_STR_REF (@218)
+        fj_loc_x                = 2586
+        fj_loc_y                = 1145
+        fj_vertex_0             = 2462 + (1064 << 16)
+        fj_vertex_1             = 2495 + (1150 << 16)
+        fj_vertex_2             = 2554 + (1195 << 16)
+        fj_vertex_3             = 2578 + (1239 << 16)
+        fj_vertex_4             = 2594 + (1252 << 16)
         fj_vertex_5             = 2705 + (1255 << 16)
-        fj_vertex_6             = 2710 + (1166 << 16)  
-        fj_vertex_7             = 2463 + (995  << 16)  
-        STR_VAR                                             
-        fj_structure_type   = region                        
-        fj_name             = ~Info3576~                      
+        fj_vertex_6             = 2710 + (1166 << 16)
+        fj_vertex_7             = 2463 + (995  << 16)
+        STR_VAR
+        fj_structure_type   = region
+        fj_name             = ~Info3576~
     END
     LPF ALTER_AREA_ENTRANCE
-        INT_VAR 
+        INT_VAR
         x_coord = "752"
         y_coord = "233"
-        STR_VAR 
+        STR_VAR
         entrance_name = "Exit0406"
     END
     LPF ALTER_AREA_ENTRANCE
-        INT_VAR 
+        INT_VAR
         x_coord = "2420"
         y_coord = "1258"
-        STR_VAR 
+        STR_VAR
         entrance_name = "Exit3576"
     END
 
@@ -2099,7 +2204,7 @@ COPY_EXISTING ~YUSEF.CRE~ ~override/CBYUSEFR.CRE~
     WRITE_ASCII 0x0258 ~RUNENEMY~
     WRITE_ASCII 0x02cc ~CBNOBL2W~
     WRITE_ASCII 0x0280 ~CBYusefr~
-    
+
 COPY_EXISTING ~AR0504.BCS~ ~override~
     DECOMPILE_AND_PATCH BEGIN
         REPLACE_TEXTUALLY ~SetGlobal("CbWeddingQuestStarts","GLOBAL",3)~
@@ -2122,9 +2227,13 @@ PRINT ~Start the pirate quest in Athkathla at the gates by level 10~
 COMPILE ~%MOD_FOLDER%/dialogs/improvements/CBBDSTRT.D~
 
 
-//////////////////////////////
-// biffing
-//////////////////////////////
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// biffing                                          \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
 BEGIN @800001
 DESIGNATED 4 LABEL ~ctb_resource_biffing~
@@ -2135,13 +2244,13 @@ PRINT @800004
 
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-    
+
     ACTION_DEFINE_ASSOCIATIVE_ARRAY table_ctb_biff BEGIN
         ~ctbTIS~ , ~override~ , ~^.*\.tis$~ => 150000000 //150 MB
         ~ctbWAV~ , ~override~ , ~^.*\.wav$~ => 150000000 //150 MB
 //      ~ctbRES~ , ~override~ , ~^CB.*$~ => 100000000 //100 MB
     END
-    
+
     ACTION_PHP_EACH table_ctb_biff AS biff => size BEGIN
         OUTER_SET totalSize = 0
         OUTER_SET index = 0
@@ -2161,4 +2270,360 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
         END
     END
 //  COPY_EXISTING ~^.*\.ids$~ ~override~
+END
+
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// CtB Priest spells                                \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+BEGIN @800010 //@800001
+DESIGNATED 5 LABEL ~ctb_wizard_spells~
+REQUIRE_PREDICATE MOD_IS_INSTALLED "setup-ctb.tp2" (ID_OF_LABEL "setup-ctb.tp2" "check_the_bodies" ) @800002
+
+
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_DECASTAVE~)
+ACTION_IF (spell_num > 0) BEGIN
+    LAF RES_NUM_OF_SPELL_NAME
+        STR_VAR spell_name = ~WIZARD_DECASTAVE~
+        RET spell_num = spell_num spell = spell_res
+    END
+END ELSE BEGIN
+    ADD_SPELL ~%MOD_FOLDER%/spells/translate/CBWI240.SPL~ 2 2 ~WIZARD_DECASTAVE~
+        SAY NAME1  @346
+        SAY UNIDENTIFIED_DESC @347
+        SPRINT spell ~%DEST_RES%~
+END
+COPY_EXISTING ~CBSELIMT.ITM~ ~override~
+    REPLACE_TEXTUALLY ~CBWI240~ ~%spell%~
+COPY ~CtB/items/translate/CBWT7b10.ITM~ ~override~
+    SAY NAME2  @346
+    SAY DESC   @347
+    WRITE_ASCIIE 0xf6 ~%spell%~ #8
+    WRITE_ASCIIE 0x126 ~%spell%~ #8
+COPY_EXISTING ~baldur.bcs~ ~override~
+    DECOMPILE_AND_PATCH BEGIN
+        REPLACE_TEXTUALLY ~CBWI240~ ~%spell%~
+    END
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_BALL_LIGHTNING~)
+ACTION_IF (spell_num > 0) BEGIN
+    LAF RES_NUM_OF_SPELL_NAME
+        STR_VAR spell_name = ~WIZARD_BALL_LIGHTNING~
+        RET spell_num = spell_num spell = spell_res
+    END
+END ELSE BEGIN
+    ADD_SPELL ~%MOD_FOLDER%/spells/translate/CBWI540.SPL~ 2 5 ~WIZARD_BALL_LIGHTNING~
+        SAY NAME1  @352
+        SAY UNIDENTIFIED_DESC @353
+        SPRINT spell ~%DEST_RES%~
+END
+COPY_EXISTING ~CBSELIMT.ITM~ ~override~
+    REPLACE_TEXTUALLY ~CBWI540~ ~%spell%~
+COPY ~CtB/items/translate/CBWT7f10.ITM~ ~override~
+    SAY NAME2  @352
+    SAY DESC   @353
+    WRITE_ASCIIE 0xf6 ~%spell%~ #8
+    WRITE_ASCIIE 0x126 ~%spell%~ #8
+COPY_EXISTING ~baldur.bcs~ ~override~
+    DECOMPILE_AND_PATCH BEGIN
+        REPLACE_TEXTUALLY ~CBWI540~ ~%spell%~
+    END
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_LUTZAENS_FREQUENT_JAUNT~)
+ACTION_IF (spell_num > 0) BEGIN
+    LAF RES_NUM_OF_SPELL_NAME
+        STR_VAR spell_name = ~WIZARD_LUTZAENS_FREQUENT_JAUNT~
+        RET spell_num = spell_num spell = spell_res
+    END
+END ELSE BEGIN
+    ADD_SPELL ~%MOD_FOLDER%/spells/translate/CBWI541.SPL~ 2 5 ~WIZARD_LUTZAENS_FREQUENT_JAUNT~
+        SAY NAME1  @354
+        SAY UNIDENTIFIED_DESC @355
+        SPRINT spell ~%DEST_RES%~
+END
+COPY_EXISTING ~CBSELIMT.ITM~ ~override~
+    REPLACE_TEXTUALLY ~CBWI541~ ~%spell%~
+COPY ~CtB/items/translate/CBWT7g10.ITM~ ~override~
+    SAY NAME2  @354
+    SAY DESC   @355
+    WRITE_ASCIIE 0xf6 ~%spell%~ #8
+    WRITE_ASCIIE 0x126 ~%spell%~ #8
+COPY_EXISTING ~baldur.bcs~ ~override~
+    DECOMPILE_AND_PATCH BEGIN
+        REPLACE_TEXTUALLY ~CBWI541~ ~%spell%~
+    END
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_DARTS_OF_BONE~)
+ACTION_IF (spell_num > 0) BEGIN
+    LAF RES_NUM_OF_SPELL_NAME
+        STR_VAR spell_name = ~WIZARD_DARTS_OF_BONE~
+        RET spell_num = spell_num spell = spell_res
+    END
+END ELSE BEGIN
+    ADD_SPELL ~%MOD_FOLDER%/spells/translate/CBWI640.SPL~ 2 6 ~WIZARD_DARTS_OF_BONE~
+        SAY NAME1  @356
+        SAY UNIDENTIFIED_DESC @357
+        SPRINT spell ~%DEST_RES%~
+END
+COPY_EXISTING ~CBSELIMT.ITM~ ~override~
+    REPLACE_TEXTUALLY ~CBWI640~ ~%spell%~
+COPY ~CtB/items/translate/CBWT7c10.ITM~ ~override~
+    SAY NAME2  @356
+    SAY DESC   @357
+    WRITE_ASCIIE 0xf6 ~%spell%~ #8
+    WRITE_ASCIIE 0x126 ~%spell%~ #8
+COPY_EXISTING ~baldur.bcs~ ~override~
+    DECOMPILE_AND_PATCH BEGIN
+        REPLACE_TEXTUALLY ~CBWI640~ ~%spell%~
+    END
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_LICH_TOUCH~)
+ACTION_IF (spell_num > 0) BEGIN
+    LAF RES_NUM_OF_SPELL_NAME
+        STR_VAR spell_name = ~WIZARD_LICH_TOUCH~
+        RET spell_num = spell_num spell = spell_res
+    END
+END ELSE BEGIN
+    ADD_SPELL ~%MOD_FOLDER%/spells/translate/CBWI642.SPL~ 2 6 ~WIZARD_LICH_TOUCH~
+        SAY NAME1  @360
+        SAY UNIDENTIFIED_DESC @361
+        SPRINT spell ~%DEST_RES%~
+END
+COPY_EXISTING ~CBSELIMT.ITM~ ~override~
+    REPLACE_TEXTUALLY ~CBWI642~ ~%spell%~
+COPY ~CtB/items/translate/CBWT7i10.ITM~ ~override~
+    SAY NAME2  @360
+    SAY DESC   @361
+    WRITE_ASCIIE 0xf6 ~%spell%~ #8
+    WRITE_ASCIIE 0x126 ~%spell%~ #8
+COPY_EXISTING ~baldur.bcs~ ~override~
+    DECOMPILE_AND_PATCH BEGIN
+        REPLACE_TEXTUALLY ~CBWI642~ ~%spell%~
+    END
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_TROLLISH_FORTITUDE~)
+ACTION_IF (spell_num > 0) BEGIN
+    LAF RES_NUM_OF_SPELL_NAME
+        STR_VAR spell_name = ~WIZARD_TROLLISH_FORTITUDE~
+        RET spell_num = spell_num spell = spell_res
+    END
+END ELSE BEGIN
+    ADD_SPELL ~%MOD_FOLDER%/spells/translate/CBWI643.SPL~ 2 6 ~WIZARD_TROLLISH_FORTITUDE~
+        SAY NAME1  @362
+        SAY UNIDENTIFIED_DESC @363
+        SPRINT spell ~%DEST_RES%~
+END
+COPY_EXISTING ~CBSELIMT.ITM~ ~override~
+    REPLACE_TEXTUALLY ~CBWI643~ ~%spell%~
+COPY ~CtB/items/translate/CBWT7j10.ITM~ ~override~
+    SAY NAME2  @362
+    SAY DESC   @363
+    WRITE_ASCIIE 0xf6 ~%spell%~ #8
+    WRITE_ASCIIE 0x126 ~%spell%~ #8
+COPY_EXISTING ~baldur.bcs~ ~override~
+    DECOMPILE_AND_PATCH BEGIN
+        REPLACE_TEXTUALLY ~CBWI643~ ~%spell%~
+    END
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+//ACTION_IF (FILE_EXISTS ~data/TDD-RULE.BIF~) OR (FILE_EXISTS_IN_GAME ~tdd.mrk~) OR  (MOD_IS_INSTALLED "setup-TDDz.tp2" "0") BEGIN
+    OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_CATS_GRACE~)
+    ACTION_IF (spell_num > 0) BEGIN
+        LAF RES_NUM_OF_SPELL_NAME
+            STR_VAR spell_name = ~WIZARD_CATS_GRACE~
+            RET spell_num = spell_num spell = spell_res
+        END
+    END ELSE BEGIN
+        ADD_SPELL ~%MOD_FOLDER%/Compat/TDD/CBWI227.SPL~ 2 2 ~WIZARD_CATS_GRACE~
+            SAY NAME1  @348
+            SAY UNIDENTIFIED_DESC @349
+            SPRINT spell ~%DEST_RES%~
+    END
+    COPY_EXISTING ~CBSELIMT.ITM~ ~override~
+        REPLACE_TEXTUALLY ~CBWI227~ ~%spell%~
+    COPY ~CtB/items/translate/CBWT7e10.ITM~ ~override~
+        SAY NAME2  @348
+        SAY DESC   @349
+        WRITE_ASCIIE 0xf6 ~%spell%~ #8
+        WRITE_ASCIIE 0x126 ~%spell%~ #8
+    COPY_EXISTING ~baldur.bcs~ ~override~
+            DECOMPILE_AND_PATCH BEGIN
+                REPLACE_TEXTUALLY ~CBWI227~ ~%spell%~
+            END
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+    OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_MORDENKAINENS_FORCE_MISSILES~)
+    ACTION_IF (spell_num > 0) BEGIN
+        LAF RES_NUM_OF_SPELL_NAME
+            STR_VAR spell_name = ~WIZARD_MORDENKAINENS_FORCE_MISSILES~
+            RET spell_num = spell_num spell = spell_res
+        END
+    END ELSE BEGIN
+        ADD_SPELL ~%MOD_FOLDER%/Compat/TDD/CBWI440.SPL~ 2 4 ~WIZARD_MORDENKAINENS_FORCE_MISSILES~
+            SAY NAME1  @350
+            SAY UNIDENTIFIED_DESC @351
+            SPRINT spell ~%DEST_RES%~
+    END
+    COPY_EXISTING ~CBSELIMT.ITM~ ~override~
+        REPLACE_TEXTUALLY ~CBWI440~ ~%spell%~
+    COPY ~CtB/items/translate/CBWT7d10.ITM~ ~override~
+        SAY NAME2  @350
+        SAY DESC   @351
+        WRITE_ASCIIE 0xf6 ~%spell%~ #8
+        WRITE_ASCIIE 0x126 ~%spell%~ #8
+    COPY_EXISTING ~baldur.bcs~ ~override~
+        DECOMPILE_AND_PATCH BEGIN
+            REPLACE_TEXTUALLY ~CBWI440~ ~%spell%~
+        END
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+    OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_ANTIMAGIC_FIELD~)
+    ACTION_IF (spell_num > 0) BEGIN
+        LAF RES_NUM_OF_SPELL_NAME
+            STR_VAR spell_name = ~WIZARD_ANTIMAGIC_FIELD~
+            RET spell_num = spell_num spell = spell_res
+        END
+    END ELSE BEGIN
+        ADD_SPELL ~%MOD_FOLDER%/Compat/TDD/CBWI627.SPL~ 2 6 ~WIZARD_ANTIMAGIC_FIELD~
+            SAY NAME1  @358
+            SAY UNIDENTIFIED_DESC @359
+            SPRINT spell ~%DEST_RES%~
+    END
+    COPY_EXISTING ~CBSELIMT.ITM~ ~override~
+        REPLACE_TEXTUALLY ~CBWI627~ ~%spell%~
+    COPY ~CtB/items/translate/CBWT7h10.ITM~ ~override~
+        SAY NAME2  @358
+        SAY DESC   @359
+        WRITE_ASCIIE 0xf6 ~%spell%~ #8
+        WRITE_ASCIIE 0x126 ~%spell%~ #8
+    COPY_EXISTING ~baldur.bcs~ ~override~
+        DECOMPILE_AND_PATCH BEGIN
+            REPLACE_TEXTUALLY ~CBWI627~ ~%spell%~
+        END
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+    OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_IRON_BODY~)
+    ACTION_IF (spell_num > 0) BEGIN
+        LAF RES_NUM_OF_SPELL_NAME
+            STR_VAR spell_name = ~WIZARD_IRON_BODY~
+            RET spell_num = spell_num spell = spell_res
+        END
+    END ELSE BEGIN
+        ADD_SPELL ~%MOD_FOLDER%/Compat/TDD/CBWI823.SPL~ 2 8 ~WIZARD_IRON_BODY~
+            SAY NAME1  @366
+            SAY UNIDENTIFIED_DESC @367
+            SPRINT spell ~%DEST_RES%~
+    END
+    COPY_EXISTING ~CBSELIMT.ITM~ ~override~
+        REPLACE_TEXTUALLY ~CBWI823~ ~%spell%~
+    COPY ~CtB/items/translate/CBWT7l10.ITM~ ~override~
+        SAY NAME2  @366
+        SAY DESC   @367
+        WRITE_ASCIIE 0xf6 ~%spell%~ #8
+        WRITE_ASCIIE 0x126 ~%spell%~ #8
+    COPY_EXISTING ~baldur.bcs~ ~override~
+        DECOMPILE_AND_PATCH BEGIN
+            REPLACE_TEXTUALLY ~CBWI823~ ~%spell%~
+        END
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+    OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_MIND_BLANK~)
+    ACTION_IF (spell_num > 0) BEGIN
+        LAF RES_NUM_OF_SPELL_NAME
+            STR_VAR spell_name = ~WIZARD_MIND_BLANK~
+            RET spell_num = spell_num spell = spell_res
+        END
+    END ELSE BEGIN
+        ADD_SPELL ~%MOD_FOLDER%/Compat/TDD/CBWI824.SPL~ 2 8 ~WIZARD_MIND_BLANK~
+            SAY NAME1  @364
+            SAY UNIDENTIFIED_DESC @365
+            SPRINT spell ~%DEST_RES%~
+    END
+    COPY_EXISTING ~CBSELIMT.ITM~ ~override~
+        REPLACE_TEXTUALLY ~CBWI824~ ~%spell%~
+    COPY ~CtB/items/translate/CBWT7k10.ITM~ ~override~
+        SAY NAME2  @364
+        SAY DESC   @365
+        WRITE_ASCIIE 0xf6 ~%spell%~ #8
+        WRITE_ASCIIE 0x126 ~%spell%~ #8
+    COPY ~CtB/items/translate/CBXTHSaa.ITM~ ~override~
+        SAY NAME2 @650623
+        SAY UNIDENTIFIED_DESC @650624
+        SAY DESC @650625
+        WRITE_ASCIIE 0xbe ~%spell%~ #8
+    COPY_EXISTING ~baldur.bcs~ ~override~
+        DECOMPILE_AND_PATCH BEGIN
+            REPLACE_TEXTUALLY ~CBWI824~ ~%spell%~
+        END
+
+//END // TDD compatibility
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+// RoT compatibility
+OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_EAGLES_SPLENDOR~)
+ACTION_IF (spell_num > 0) BEGIN
+    LAF RES_NUM_OF_SPELL_NAME
+        STR_VAR spell_name = ~WIZARD_EAGLES_SPLENDOR~
+        RET spell_num = spell_num spell = spell_res
+    END
+END ELSE BEGIN
+    ADD_SPELL ~%MOD_FOLDER%/Compat/RoT/CBWI140.SPL~ 2 1 ~WIZARD_EAGLES_SPLENDOR~
+        SAY NAME1  @344
+        SAY UNIDENTIFIED_DESC @345
+        SPRINT spell ~%DEST_RES%~
+        WRITE_ASCIIE 0x22e ~%DEST_RES%~ #8
+END
+COPY_EXISTING ~CBSELIMT.ITM~ ~override~
+    REPLACE_TEXTUALLY ~CBWI140~ ~%spell%~
+COPY ~CtB/items/translate/CBWT7a10.ITM~ ~override~
+    SAY NAME2  @344
+    SAY DESC   @345
+    WRITE_ASCIIE 0xf6 ~%spell%~ #8
+    WRITE_ASCIIE 0x126 ~%spell%~ #8
+COPY_EXISTING ~baldur.bcs~ ~override~
+    DECOMPILE_AND_PATCH BEGIN
+        REPLACE_TEXTUALLY ~CBWI140~ ~%spell%~
+    END
+
+ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
+    COPY_EXISTING ~baldur.bcs~ ~override~
+		DECOMPILE_AND_PATCH BEGIN
+			REPLACE_TEXTUALLY ~Global."CBWISpel","GLOBAL",1.~
+			~OR(12)
+			SpellCast([GOODCUTOFF],WIZARD_EAGLES_SPLENDOR)
+			SpellCast([GOODCUTOFF],WIZARD_DECASTAVE)
+			SpellCast([GOODCUTOFF],WIZARD_CATS_GRACE)
+			SpellCast([GOODCUTOFF],WIZARD_MORDENKAINENS_FORCE_MISSILES)
+			SpellCast([GOODCUTOFF],WIZARD_BALL_LIGHTNING)
+			SpellCast([GOODCUTOFF],WIZARD_LUTZAENS_FREQUENT_JAUNT)
+			SpellCast([GOODCUTOFF],WIZARD_DARTS_OF_BONE)
+			SpellCast([GOODCUTOFF],WIZARD_ANTIMAGIC_FIELD)
+			SpellCast([GOODCUTOFF],WIZARD_LICH_TOUCH)
+			SpellCast([GOODCUTOFF],WIZARD_TROLLISH_FORTITUDE)
+			SpellCast([GOODCUTOFF],WIZARD_IRON_BODY)
+			SpellCast([GOODCUTOFF],WIZARD_MIND_BLANK)~
+			REPLACE_TEXTUALLY ~SetGlobal."CBWISpel","GLOBAL",0.~ ~~
+		END
 END
