@@ -1,16 +1,29 @@
 #### Version 3.1 (by Weigo)
 
-By Roberciiik
+##### By Roberciiik
 - Added new BP-BGT-Worldmap support 
 
-By GraionDilach
+##### By GraionDilach
 - Move Druidic Circle closer to Athkatla on EET 
 
-By Weigo
+##### By Weigo
 - A dynamic installation of the pvrz files with the a7_pvrz_tis tool
 - The wizard spells are installed in a separate component. 
 - For the quest scrolls, the spells have been copied and renamed. With the prefix CBWIXXXX.SPL 
 - Change HANDLE_CHARSETS to use from_utf8=1
+- The number of entries in the spell.ids has been reduced to those that can be learned. The rest have been replaced with the ReallyForceSpellRES action. They could not be learned.
+	- WIZARD_EAGLES_SPLENDOR
+	- WIZARD_DECASTAVE
+	- WIZARD_BALL_LIGHTNING
+	- WIZARD_LUTZAENS_FREQUENT_JAUNT
+	- WIZARD_DARTS_OF_BONE
+	- WIZARD_TROLLISH_FORTITUDE
+	- WIZARD_LICH_TOUCH
+	- WIZARD_CATS_GRACE
+	- WIZARD_MORDENKAINENS_FORCE_MISSILES
+	- WIZARD_ANTIMAGIC_FIELD
+	- WIZARD_IRON_BODY
+	- WIZARD_MIND_BLANK
 - Fixed in Candlekeep Chores the Keepers
 - Start Chores 
 	- Starts again for clasical game at the original beginning, because of inventory and NPC problems

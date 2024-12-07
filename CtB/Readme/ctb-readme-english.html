@@ -537,7 +537,27 @@
 			<li>Change the entrances of AR0404.are to the original position/</li>
 			<li>Change Yusef's name to Yassir, because Yusef is Surayas brother.</li>
 			<li>Start the pirate quest in Athkathla at the gates by level 10.</li>
-		  </ul><br>
+		  </ul>
+		 </p><br>
+		
+		<hr style="width: 90%; color: #781808; background-color: #781808; " /><br>
+		
+		<p><strong>4. Biffing</strong><br />
+		</p>
+		<p>
+			This component requires the main component to be installed. Compress files for better game performance. Only valid for classic (BG2:ToB or BGT) game.
+		</p><br>
+		
+		<hr style="width: 90%; color: #781808; background-color: #781808; " /><br>
+		
+		<p><strong>5. CtB Priest spells</strong><br />
+		</p>
+		<p>
+			This component requires the main component to be installed. Compress files for better game performance.
+		</p>
+		<p>
+			The priest spells cannot be learned as scrolls in the main component and do not appear in the spell selection area. Only with this component do they appear, but they use up slots in the spell.ids.
+		</p><br>
 
 
 		<address>
@@ -730,105 +750,9 @@
 		<h2>Version History</h2><br>
 
 		<p>
-			For a full Version History please refer to the file "<a href="CtB-Version.txt">CtB-Version.txt</a>" in CtB/text/.
+			For a full Version History please refer to the file "<a href="CtB-Changelog.md">CtB-Changelog.md</a>" in CtB/readme/.
 		</p></br>
 		
-		<h6>Version 3.1 (by Weigo, GraionDilach, Roberciiik and Lzw104522773)</h6>
-
-		  <ul>
-		    <li>A dynamic installation of the pvrz files with the a7_pvrz_tis tool</li>
-			<li>The wizard spells are installed in a separate component. </li>
-			<li>For the quest scrolls, the spells have been copied and renamed. With the prefix CBWIXXXX.SPL </li>
-			<li>Added new BP-BGT-Worldmap support</li>
-			<li>Move Druidic Circle closer to Athkatla on EET</li>
-			<li>Change HANDLE_CHARSETS to use from_utf8=1</li>
-			<li>Changed tiz format of the areas to tbc format</li>
-			<li>Revision of the areas, as the areas became pixelated due to Tiz compression. The original BG1, IWD1 and IWD2 maps have been retained.</li>
-			<li>Every outdoor map now has an extended night version.</li>
-			<li>Missing candles, torch animations of the inside maps have been added.</li>
-			<li>Revision of the spells, now the spells are installed with ADD_SPELL</li>
-			<li>The number of entries in the spell.ids has been reduced to those that can be learned. The rest have been replaced with the ReallyForceSpellRES action. They could not be learned.</li>
-			  <ul>
-				<li style="margin-left:-4%; margin-right:-8%;">WIZARD_EAGLES_SPLENDOR</li>
-				<li style="margin-left:-4%; margin-right:-8%;">WIZARD_DECASTAVE</li>
-				<li style="margin-left:-4%; margin-right:-8%;">WIZARD_BALL_LIGHTNING</li>
-				<li style="margin-left:-4%; margin-right:-8%;">WIZARD_LUTZAENS_FREQUENT_JAUNT</li>
-				<li style="margin-left:-4%; margin-right:-8%;">WIZARD_DARTS_OF_BONE</li>
-				<li style="margin-left:-4%; margin-right:-8%;">WIZARD_TROLLISH_FORTITUDE</li>
-				<li style="margin-left:-4%; margin-right:-8%;">WIZARD_LICH_TOUCH</li>
-				<li style="margin-left:-4%; margin-right:-8%;">WIZARD_CATS_GRACE</li>
-				<li style="margin-left:-4%; margin-right:-8%;">WIZARD_MORDENKAINENS_FORCE_MISSILES</li>
-				<li style="margin-left:-4%; margin-right:-8%;">WIZARD_ANTIMAGIC_FIELD</li>
-				<li style="margin-left:-4%; margin-right:-8%;">WIZARD_IRON_BODY</li>
-				<li style="margin-left:-4%; margin-right:-8%;">WIZARD_MIND_BLANK</li>
-			  </ul>
-			<li>Fixed in Candlekeep Chores the Keepers
-			<li>Start Chores</li> 
-			  <ul>
-				<li style="margin-left:-4%; margin-right:-8%;">Starts again for clasical game at the original beginning, because of inventory and NPC problems</li>
-				<li style="margin-left:-4%; margin-right:-8%;">In the EE version, the chores starts in the library</li>
-				<li style="margin-left:-4%; margin-right:-8%;">EE Version, the NPCs are deactivated and can no longer be selected</li>
-				<li style="margin-left:-4%; margin-right:-8%;">The inventory is emptied </li>
-				<li style="margin-left:-4%; margin-right:-8%;">At the end of the chores, everything is returned and the NPC is activated</li>
-			  </ul>
-			<li>Added chinese translation</li>
-			<li> Replace tabs with spaces</li>
-			<li> added CtB-Changelog.md</li>
-			<li> Added 'outdated' to outdated readme files.</li>
-		  </ul>
-		<h6>Version 3.0 (by Weigo and jastey)</h6>
-		  
-		  <ul>
-			<li>Added <em>ctb.ini</em> metadata file to support AL|EN's "Project Infinity".</li>
-			<li>Added <em>DESIGNATED</em> numbers and "<em>Check_the_Bodies</em>", "<em>ctb_candlekeep_chores</em>", "<em>ctb_candlekeep_chores_ff</em>" and "<em>ctb_improvements</em>" component LABELS.</li>
-			<li>(BGT) no rep loss if wearing Cloak of Scalps.</li>
-			<li>(BGT) removed item checks from baldur.bcs which caused lags.</li>
-			<li>(BGT) removed chapter increase from aptp2500.baf.</li>
-			<li>(BGT) removed OnCreation() from various baf files (BWPFix).</li>
-			<li>(BGT) adjusted level checks for PC in various baf files (BWPFix).</li>
-			<li>(BGT) corrected entries in links.tbl (BWPFix).</li>
-			<li>Patching of AR0300.bcs should work always.</li>
-			<li>iconv dlls added so non-english versions do not freeze on EE-games (thanks to Roxanne).</li>
-			<li>Re-inserted journal entry into CBSFMESS.D.</li>
-			<li>Removed unused files scripts/append/nAR2500.baf, scripts/append/oAR2500.baf.</li>
-			<li>Portraits removed due to missing copyright.</li>
-			<li>aptp0500.BAF: Door "DOOR0504" will be closed accordingly.</li>
-			<li>Wedding quests debugged.</li>
-			<li>Added missing evaluate to install-arescripts.tpa.</li>
-			<li>Added component "Other Improvements":</li>
-			  <ul>
-				<li style="margin-left:-4%; margin-right:-8%;">Change the entrances to the original position.</li>
-				<li style="margin-left:-4%; margin-right:-8%;">Pirate Quest in Athkatla will be available for non-fighters at level 11 (instead of 14).</li>
-				<li style="margin-left:-4%; margin-right:-8%;">Change Yusef's name to Yassir, because Yusef is Surayas brother.</li>
-			  </ul>
-			<li>Corrected tra files.</li>
-			<li>Wrote a new <em>ctb-readme-english.html</em> readme file.</li>
-			<li>Renamed mod folder and tp2 to CtB.</li>
-			<li>Included Linux and Mac Os X versions in the same package (thanks AL|EN!).</li>
-			<li>Uploaded mod to official SpellHold Studios GitHub mirror account.</li>
-		  </ul><br>
-
-		<h6>Version 2.2 (by Weigo)</h6>
-
-		  <ul>
-			<li>Named mod folder and tp2 CtBEE.</li>
-			<li>EET compatibility (EE compatibility by Ikki).</li>
-			<li>(EE) no rep loss if wearing Cloak of Scalps.</li>
-			<li>(EE) removed item checks from baldur.bcs which caused lags.</li>
-			<li>(EE) removed chapter increase from aptp2500.baf.</li>
-			<li>(EE) removed OnCreation() from various baf files (BWPFix).</li>
-			<li>(EE) adjusted level checks for PC in various baf files (BWPFix).</li>
-			<li>Typo corrections (BWPFix).</li>
-			<li>Corrected timer "CbValiantReforges" to "CbValiantReforgesTimer" in CBHLVLNT.D.</li>
-			<li>Updated <acronym title="Weimer Dialogue Utility">WeiDU</acronym> installer to v246.</li>
-		  </ul><br>
-
-		<h6>Version 1.0</h6>
-
-		  <ul>
-			<li>Initial release.</li>
-		  </ul><br>
-
 		<address>
 			<span class="footer">Check The Bodies &gt; Version History</span> &#8226;<a href="#top">BACK TO TOP</a>
 		</address>
