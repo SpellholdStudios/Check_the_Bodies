@@ -385,8 +385,8 @@ Rettungswurf: keiner
 Dieser Zauber schafft einen Stab der Kraft in der Hand des Zauberwirkers, der als Waffe benutzt werden kann. Der Dekastab verleiht 1W8 Schaden durch Verprügeln pro Treffer und kann Wesen schlagen, die vor normalen Waffen geschützt sind. Der Stab entzieht auch einen zusätzlichen 1W2 Trefferpunkt pro Schlag, der auf die eigenen Trefferpunkte des Trägers übertragen wird. Diese Extra-Trefferpunkte können den Träger über seine maximalen Trefferpunkte hinausbringen, aber alle auf diese Weise gewonnenen Trefferpunkte sind  vorübergehend und werden sich in einer Runde zerstreuen.
 
 WARNUNG: VERWENDET DIESEN ZAUBER NICHT, WENN IHR MIT EINEM SCHILD ODER EINER ZWEITEN WAFFE IN EUREM SCHILD-FACH AUSGERÜSTET SEID.~
-@348     = ~Gnade der Katze~
-@349     = ~Gnade der Katze (Veränderung)
+@348     = ~Katzenhafte Anmut~
+@349     = ~Katzenhafte Anmut (Veränderung)
 Grad: 2
 Reichweite: 1 Wesen
 Wirkungsdauer: 6 Phasen pro Stufe auf den Stufen 8-16
@@ -395,8 +395,8 @@ Wirkungsbereich: Ausgewähltes Ziel
 Rettungswurf: keiner
 
 Dieser Zauber gewährt dem Empfänger eine Zunahme zu seiner Geschicklichkeitswerten. Der Zauber gewährt einen zufälligen Bonus von 1-4, der beim Empfänger 6 Phasen pro Stufe des Zauberwirkers anhält und auf den Stufen 8-16 mit einer Dauer von maximal 48 Phasen wirkt.~
-@350     = ~Mordenkainens Wucht-Geschosse~
-@351     = ~Mordenkainens Wucht-Geschosse (Hervorrufung)
+@350     = ~Mordenkainens Wuchtgeschosse~
+@351     = ~Mordenkainens Wuchtgeschosse (Hervorrufung)
 Grad: 4
 Reichweite: Sichtweite des Zauberwirkers
 Wirkungsdauer: Sofort
@@ -439,8 +439,8 @@ Wirkungsbereich: Zauberwirker
 Rettungswurf: keiner
 
 Dieser Zauber erschafft neun Wurfpfeile, die von dem Zauberwirker verwendet werden können und nicht abgelegt werden können, solange der Zauber wirkt. Die Wurfpfeile sind +3 und verursachen 1W4 Schaden. Ein durch einen Wurfpfeil getroffenes Wesen muss einen Rettungswurf gegen Tod/Gift ausführen oder einen weiteren 2W6 Schaden erleiden und seine Kraft um 1W4+1 für 5 Runden verringern lassen. Die Waffenkenntnisse des Zauberwirkers mit Wurfpfeilen (oder einem Mangel daran), haben keine Wirkung auf die Chancen des Wurfpfeiles, ein Ziel zu treffen.~
-@358     = ~Antimagie-Hülle~
-@359     = ~Antimagie-Hülle (Abschwörung)
+@358     = ~Antimagiehülle~
+@359     = ~Antimagiehülle (Abschwörung)
 Grad: 6
 Reichweite: Zauberwirker
 Zeitaufwand: 1
@@ -459,8 +459,8 @@ Wirkungsbereich: Zauberwirker
 Rettungswurf: Todeshälfte
 
 Dieser Zauber überträgt die Mächte der Berührung eines Leichnam und die Immunitäten eines Leichnams auf den Zauberwirker. Der Zauberer gewinnt Immunität gegen Lähmung und Angst, während der Zauber wirkt, und seine Hände sind erfüllt von kalter Kraft aus negativer Energie. Erfolgreicher Berührungs-Angriff verursacht 1d10 Kälte-Schaden und den Opfern muss ein Rettungswurf gegen Tod/Gift gelingen oder sie sind 1 Phase lang gelähmt. Der Berührungsangriff ist nicht gegen Untote wirksam.~
-@362     = ~Troll-Lebenskraft~
-@363     = ~Troll-Lebenskraft (Nekromantie)
+@362     = ~Troll Lebenskraft~
+@363     = ~Troll Lebenskraft (Nekromantie)
 Grad: 6
 Reichweite: Zauberwirker
 Wirkungsdauer: 20 Runden
@@ -478,8 +478,8 @@ Wirkungsdauer: 1 Tag
 Zeitaufwand: 3
 
 Dieser Zauber ist eine sehr starke Beschwörungsformel, die dem Empfänger völlige Immunität gegen alle Wirkungen gewährt, die seinen Gedanken schaden. Das Ziel gewinnt auch Schutz vor Wahrsagen und ist während dieses Zeitraums unter den Wirkungen der Nichtentdeckung. Der Zauber hält für die Dauer von 1 Tag an.~
-@366     = ~Eisen-Körper ~
-@367     = ~Eisen-Körper (Veränderung)
+@366     = ~Eisenkörper~
+@367     = ~Eisenkörper (Veränderung)
 Grad: 8
 Zeitaufwand: 4
 Wirkungsdauer: 9 Phasen
