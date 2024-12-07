@@ -1618,7 +1618,7 @@ END
 
 BEGIN @800005
 DESIGNATED 1 LABEL ~ctb_candlekeep_chores~
-REQUIRE_PREDICATE MOD_IS_INSTALLED "setup-ctb.tp2" (ID_OF_LABEL "setup-ctb.tp2" "check_the_bodies" )  @800006
+REQUIRE_PREDICATE MOD_IS_INSTALLED "ctb.tp2" (ID_OF_LABEL "ctb.tp2" "check_the_bodies" )  @800006
 
 
 //to allow area scripts to run before AR0602 with active chores cut off section
@@ -2057,7 +2057,7 @@ INCLUDE ~%MOD_FOLDER%/lib/cheat_var_chores.tph~
 
 BEGIN @800007
 DESIGNATED 2 LABEL ~ctb_candlekeep_fast_forward~
-REQUIRE_PREDICATE MOD_IS_INSTALLED "setup-ctb.tp2" (ID_OF_LABEL "setup-ctb.tp2" "ctb_candlekeep_chores" ) @800008
+REQUIRE_PREDICATE MOD_IS_INSTALLED "ctb.tp2" (ID_OF_LABEL "ctb.tp2" "ctb_candlekeep_chores" ) @800008
 
 COMPILE ~%MOD_FOLDER%/CtB_FF/CtB_FF.d~
 
@@ -2071,7 +2071,7 @@ COMPILE ~%MOD_FOLDER%/CtB_FF/CtB_FF.d~
 
 BEGIN @800009
 DESIGNATED 3 LABEL ~ctb_other_improvements~
-REQUIRE_PREDICATE MOD_IS_INSTALLED "setup-ctb.tp2" (ID_OF_LABEL "setup-ctb.tp2" "check_the_bodies" ) @800006
+REQUIRE_PREDICATE MOD_IS_INSTALLED "ctb.tp2" (ID_OF_LABEL "ctb.tp2" "check_the_bodies" ) @800006
 
 
 
@@ -2237,7 +2237,7 @@ COMPILE ~%MOD_FOLDER%/dialogs/improvements/CBBDSTRT.D~
 
 BEGIN @800001
 DESIGNATED 4 LABEL ~ctb_resource_biffing~
-REQUIRE_PREDICATE MOD_IS_INSTALLED "setup-ctb.tp2" (ID_OF_LABEL "setup-ctb.tp2" "check_the_bodies" ) @800002
+REQUIRE_PREDICATE MOD_IS_INSTALLED "ctb.tp2" (ID_OF_LABEL "ctb.tp2" "check_the_bodies" ) @800002
 REQUIRE_PREDICATE (NOT GAME_IS ~bg2ee eet~) @800003
 
 PRINT @800004
@@ -2283,7 +2283,7 @@ END
 
 BEGIN @800010 //@800001
 DESIGNATED 5 LABEL ~ctb_wizard_spells~
-REQUIRE_PREDICATE MOD_IS_INSTALLED "setup-ctb.tp2" (ID_OF_LABEL "setup-ctb.tp2" "check_the_bodies" ) @800002
+REQUIRE_PREDICATE MOD_IS_INSTALLED "ctb.tp2" (ID_OF_LABEL "ctb.tp2" "check_the_bodies" ) @800002
 
 
 OUTER_SET spell_num = IDS_OF_SYMBOL(~spell~ ~WIZARD_DECASTAVE~)
